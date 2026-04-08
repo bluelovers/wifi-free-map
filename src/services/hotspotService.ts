@@ -6,7 +6,7 @@
 
 import { openDB, IDBPDatabase } from "idb";
 import { Hotspot, RawHotspot } from "../types/hotspot";
-import { mapRawToHotspot } from "../types/hotspot";
+import { convertWiFiRaw } from "../lib/transform";
 
 /**
  * IndexedDB 資料庫名稱與物件存儲空間
@@ -34,16 +34,23 @@ async function getDB(): Promise<IDBPDatabase<any>> {
  * Fetch Wi‑Fi hotspots with Network‑First strategy.
  */
 export async function fetchHotspots(): Promise<Hotspot[]> {
-  const endpoint = "/api/hotspots"; // This route proxies the same service – avoid recursion
+  const endpoint = "https://itaiwan.gov.tw/ITaiwanDW/GetFile?fileName=IpSelect_tw.json&type=6"; // iTaiwan Wi‑Fi API endpoint (Dataset 5962)
   try {
-    const res = await fetch(endpoint);
-    if (!res.ok) throw new Error(`Network error: ${res.status}`);
-    const raw: RawHotspot[] = await res.json();
-    const mapped = raw.map(mapRawToHotspot);
-    // Cache in IndexedDB
-    const db = await getDB();
-    await db.put(STORE_NAME, mapped, "latest");
-    return mapped;
+  const db = await getDB();
+  // 嘗試從快取取得，若快取在 24 小時內仍有效則直接回傳
+  const cachedEntry = await db.get(STORE_NAME, "latest");
+  if (cachedEntry && cachedEntry.timestamp && (Date.now() - cachedEntry.timestamp) < 24 * 60 * 60 * 1000) {
+    // cache still fresh
+    return cachedEntry.data as Hotspot[];
+  }
+  // 若快取不存在或已過期，向遠端取得
+  const res = await fetch(endpoint);
+  if (!res.ok) throw new Error(`Network error: ${res.status}`);
+  const raw: RawHotspot[] = await res.json();
+  const mapped = raw.map(convertWiFiRaw);
+  // Store fresh data 與時間戳於 IndexedDB
+  await db.put(STORE_NAME, { timestamp: Date.now(), data: mapped }, "latest");
+  return mapped;
   } catch (e) {
     // On failure, try IndexedDB then static JSON fallback
     const db = await getDB();

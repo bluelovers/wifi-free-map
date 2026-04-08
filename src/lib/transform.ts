@@ -11,7 +11,7 @@ import { resolve } from "path";
 import type { Hotspot, RawHotspot } from "../types/hotspot";
 import type { ChargingStation, RawChargingStation } from "../types/charging";
 import { mapRawToHotspot } from "../types/hotspot";
-import { mapRawToCharging } from "../types/charging";
+// import { mapRawToCharging } from "../types/charging"; // removed: using convertChargingRaw directly
 
 // ==================== Wi-Fi 熱點轉換 ====================
 
@@ -25,7 +25,7 @@ import { mapRawToCharging } from "../types/charging";
  * @param raw - 原始資料物件
  * @returns 轉換後的 Hotspot 物件
  */
-export function convertWiFiRaw(raw: Record<string, any>): Hotspot {
+export function convertWiFiRaw(raw: RawHotspot): Hotspot {
     return {
         name: raw.Name ?? "",
         lat: Number(raw.Latitude) || 0,
@@ -41,7 +41,7 @@ export function convertWiFiRaw(raw: Record<string, any>): Hotspot {
  * @param rawData - 原始資料陣列
  * @returns 轉換後的 Hotspot 陣列
  */
-export function convertWiFiArray(rawData: Record<string, any>[]): Hotspot[] {
+export function convertWiFiArray(rawData: RawHotspot[]): Hotspot[] {
     return rawData.map(convertWiFiRaw).filter((item) => item.name && (item.lat !== 0 || item.lng !== 0));
 }
 
@@ -57,7 +57,7 @@ export function convertWiFiArray(rawData: Record<string, any>[]): Hotspot[] {
  * @param raw - 原始資料物件
  * @returns 轉換後的 ChargingStation 物件
  */
-export function convertChargingRaw(raw: Record<string, any>): ChargingStation {
+export function convertChargingRaw(raw: RawChargingStation): ChargingStation {
     return {
         name: raw["充電站名稱"] ?? "",
         lat: Number(raw["緯度"]) || 0,
@@ -73,7 +73,7 @@ export function convertChargingRaw(raw: Record<string, any>): ChargingStation {
  * @param rawData - 原始資料陣列
  * @returns 轉換後的 ChargingStation 陣列
  */
-export function convertChargingArray(rawData: Record<string, any>[]): ChargingStation[] {
+export function convertChargingArray(rawData: RawChargingStation[]): ChargingStation[] {
     return rawData.map(convertChargingRaw).filter(
         (item) => item.name && (item.lat !== 0 || item.lng !== 0)
     );
@@ -90,7 +90,7 @@ export function convertChargingArray(rawData: Record<string, any>[]): ChargingSt
  */
 export async function readAndConvertWiFi(filePath: string): Promise<Hotspot[]> {
     const rawContent = await readFile(filePath, "utf-8");
-    const rawData: Record<string, any>[] = JSON.parse(rawContent);
+    const rawData: RawHotspot[] = JSON.parse(rawContent);
     return convertWiFiArray(rawData);
 }
 
@@ -103,7 +103,7 @@ export async function readAndConvertWiFi(filePath: string): Promise<Hotspot[]> {
  */
 export async function readAndConvertCharging(filePath: string): Promise<ChargingStation[]> {
     const rawContent = await readFile(filePath, "utf-8");
-    const rawData: Record<string, any>[] = JSON.parse(rawContent);
+    const rawData: RawChargingStation[] = JSON.parse(rawContent);
     return convertChargingArray(rawData);
 }
 
