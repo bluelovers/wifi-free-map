@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   description: "快速尋找附近的免費 WiFi 與公共充電設施",
 };
 
+import Head from "next/head";
+
 export default function RootLayout({
   children,
 }: {
@@ -13,7 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-TW">
-      <body>{children}</body>
+      <Head>
+          <link rel="manifest" href="/manifest.json" />
+        </Head>
+        <body>{children}</body>
     </html>
   );
 }

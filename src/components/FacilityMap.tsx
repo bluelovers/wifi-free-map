@@ -1,12 +1,14 @@
 'use client';
 
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef, useMemo } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import type { IWiFiHotspot, IChargingStation } from '@/types';
 import { EnumFacilityType } from '@/types';
 import { generateWiFiQRCode, calculateDistance } from '@/lib/wifi-utils';
+import EditHotspotForm from './EditHotspotForm';
+import AddHotspotForm from './AddHotspotForm';
 
 /**
  * 修正 Leaflet 預設圖示路徑
@@ -81,7 +83,37 @@ export default function FacilityMap() {
         wifi: true,
         charging: true,
         userContrib: true,
+        passwordOnly: false,
+        maxDistance: 10000, // meters, default 10km
     });
+
+    // 搜尋關鍵字
+    const [searchTerm, setSearchTerm] = useState('');
+
+    // 控制「新增熱點」對話框的顯示與關閉
+    const [showAddForm, setShowAddForm] = useState(false);
+    const [showEditForm, setShowEditForm] = useState(false);
+
+    // 依據搜尋、密碼、距離過濾熱點
+    const filteredHotspots = useMemo(() => {
+        return hotspots.filter((hotspot) => {
+            // 關鍵字過濾：名稱或 SSID 包含搜尋字串（不分大小寫）
+            const term = searchTerm.trim().toLowerCase();
+            if (term) {
+                const nameMatch = hotspot.name?.toLowerCase().includes(term);
+                const ssidMatch = hotspot.ssid?.toLowerCase().includes(term);
+                if (!nameMatch && !ssidMatch) return false;
+            }
+            // 密碼過濾
+            if (filters.passwordOnly && !hotspot.password) return false;
+            // 距離過濾
+            if (filters.maxDistance && position) {
+                const dist = calculateDistance(position[0], position[1], hotspot.location.lat, hotspot.location.lng);
+                if (dist > filters.maxDistance) return false;
+            }
+            return true;
+        });
+    }, [hotspots, searchTerm, filters, position]);
 
     // 載入設施資料
     useEffect(() => {
@@ -90,14 +122,12 @@ export default function FacilityMap() {
                 setLoading(true);
                 fixLeafletIcon();
 
-                // 讀取 WiFi 熱點
                 const hotspotsRes = await fetch('/api/hotspots');
                 const hotspotsData = await hotspotsRes.json();
                 if (hotspotsData.success) {
                     setHotspots(hotspotsData.data);
                 }
 
-                // 讀取充電設施
                 const chargingRes = await fetch('/api/charging');
                 const chargingData = await chargingRes.json();
                 if (chargingData.success) {
@@ -176,11 +206,13 @@ export default function FacilityMap() {
         <div className="map-wrapper">
             {/* 搜尋列 / Search bar */}
             <div className="search-bar">
-                <input
-                    type="text"
-                    placeholder="搜尋地點... / Search location..."
-                    className="search-input"
-                />
+<input
+                      type="text"
+                      placeholder="搜尋熱點或 SSID... / Search hotspot or SSID..."
+                      className="search-input"
+                      value={searchTerm}
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                    />
                 <div className="filter-buttons">
                     <label>
                         <input
@@ -198,138 +230,44 @@ export default function FacilityMap() {
                         />
                         充電
                     </label>
-                </div>
-            </div>
-
-            {/* 載入中 / Loading */}
-            {loading && (
-                <div className="loading-overlay">
-                    <div className="loading-spinner"></div>
-                    <p>載入設施資料中... / Loading facilities...</p>
-                </div>
-            )}
-
-            {/* 地圖 / Map */}
-            <MapContainer
-                center={position}
-                zoom={zoom}
-                scrollWheelZoom={true}
-                className="leaflet-container"
-            >
-                <ChangeView center={position} zoom={zoom} />
-                <TileLayer
-                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-
-                {/* 使用者位置 / User location */}
-                <CircleMarker
-                    center={position}
-                    radius={8}
-                    pathOptions={{
-                        color: '#2196F3',
-                        fillColor: '#2196F3',
-                        fillOpacity: 1,
-                    }}
-                >
-                    <Popup>您的位置 / Your location</Popup>
-                </CircleMarker>
-
-                {/* WiFi 熱點標記 / WiFi hotspot markers */}
-                {filters.wifi && hotspots.map((hotspot) => (
-                    <Marker
-                        key={hotspot.id}
-                        position={[hotspot.location.lat, hotspot.location.lng]}
-                        icon={hotspot.source === 'itaiwan' ? wifiIcon : userIcon}
-                        eventHandlers={{
-                            click: () => handleMarkerClick(hotspot),
-                        }}
-                    >
-                        <Popup>
-                            <div className="hotspot-popup">
-                                <h4>{hotspot.name}</h4>
-                                <p><strong>SSID:</strong> {hotspot.ssid}</p>
-                                <p><strong>距離:</strong> {getDistance(hotspot.location.lat, hotspot.location.lng)}</p>
-                                <p><strong>地址:</strong> {hotspot.location.address}</p>
-                                {hotspot.openTime && (
-                                    <p><strong>開放時間:</strong> {hotspot.openTime}</p>
-                                )}
-                                {hotspot.password && (
-                                    <p><strong>密碼:</strong> {hotspot.password}</p>
-                                )}
-                                {qrCodeUrl && selectedHotspot?.id === hotspot.id && (
-                                    <div className="qr-section">
-                                        <img src={qrCodeUrl} alt="QR Code" className="qr-code" />
-                                        <button
-                                            onClick={() => openNavigation(hotspot.location.lat, hotspot.location.lng, hotspot.name)}
-                                            className="nav-button"
-                                        >
-                                            導航 / Navigate
-                                        </button>
-                                    </div>
-                                )}
-                                <button
-                                    onClick={() => openNavigation(hotspot.location.lat, hotspot.location.lng, hotspot.name)}
-                                    className="nav-button"
-                                >
-                                    導航 / Navigate
-                                </button>
-                            </div>
-                        </Popup>
-                    </Marker>
-                ))}
-
-                {/* 充電設施標記 / Charging station markers */}
-                {filters.charging && chargingStations.map((station) => (
-                    <Marker
-                        key={station.id}
-                        position={[station.location.lat, station.location.lng]}
-                        icon={chargingIcon}
-                    >
-                        <Popup>
-                            <div className="charging-popup">
-                                <h4>{station.name}</h4>
-                                <p><strong>類型:</strong> {station.type}</p>
-                                <p><strong>距離:</strong> {getDistance(station.location.lat, station.location.lng)}</p>
-                                <p><strong>地址:</strong> {station.location.address}</p>
-                                {station.socketTypes && (
-                                    <p><strong>插座:</strong> {station.socketTypes.join(', ')}</p>
-                                )}
-                                {station.openingHours && (
-                                    <p><strong>開放時間:</strong> {station.openingHours}</p>
-                                )}
-                                <button
-                                    onClick={() => openNavigation(station.location.lat, station.location.lng, station.name)}
-                                    className="nav-button"
-                                >
-                                    導航 / Navigate
-                                </button>
-                            </div>
-                        </Popup>
-                    </Marker>
-                ))}
-            </MapContainer>
-
-            {/* 底部列表 / Bottom list */}
-            <div className="bottom-panel">
-                <h3>附近設施 / Nearby Facilities</h3>
-                <div className="facility-list">
-                    {hotspots.slice(0, 5).map((hotspot) => (
-                        <div key={hotspot.id} className="facility-item" onClick={() => {
-                            setPosition([hotspot.location.lat, hotspot.location.lng]);
-                            setSelectedHotspot(hotspot);
-                        }}>
-                            <span className="facility-icon">📶</span>
-                            <div className="facility-info">
-                                <div className="facility-name">{hotspot.name}</div>
-                                <div className="facility-detail">
-                                    {hotspot.ssid} • {getDistance(hotspot.location.lat, hotspot.location.lng)}
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
+                    <label>
+                        <input
+                            type="checkbox"
+                            checked={filters.passwordOnly}
+                            onChange={(e) => setFilters({ ...filters, passwordOnly: e.target.checked })}
+                        />
+                        只顯示有密碼 / Password only
+                    </label>
+                    <label>
+                        距離上限 (m) / Max distance (m):
+                        <input
+                            type="number"
+                            min="0"
+                            value={filters.maxDistance}
+                            onChange={(e) => setFilters({ ...filters, maxDistance: Number(e.target.value) })}
+                        />
+                    </label>
+</div>
         </div>
-    );
+
+        {/* 編輯熱點表單 */}
+        {showEditForm && selectedHotspot && (
+          <EditHotspotForm
+            hotspot={selectedHotspot}
+            onClose={() => {
+              setShowEditForm(false);
+              // Refresh hotspots after edit
+              // Simple approach: re-fetch data
+              fetch('/api/hotspots')
+                .then(res => res.json())
+                .then(data => {
+                  if (data.success) setHotspots(data.data);
+                })
+                .catch(err => console.error('刷新熱點失敗', err));
+            }}
+          />
+        )}
+
+    </div>
+  );
 }

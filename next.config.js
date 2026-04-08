@@ -37,6 +37,17 @@ const nextConfig = {
           },
         },
       },
+      {
+        urlPattern: /https?:\/\/[a-z]*\.tile\.openstreetmap\.org\/.*\/.*/,
+        handler: 'CacheFirst',
+        options: {
+          cacheName: 'osm-tiles-cache',
+          expiration: {
+            maxAgeSeconds: 60 * 60 * 24 * 30, // 30 days
+            maxEntries: 500,
+          },
+        },
+      },
     ],
   },
 };

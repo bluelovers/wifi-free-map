@@ -1,0 +1,25 @@
+{
+  "short_name": "WiFiFreeMap",
+  "name": "WiFi Free Map",
+  "description": "Find free Wi‑Fi hotspots and EV charging stations offline",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#0070f3",
+  "display": "standalone",
+  "scope": "/",
+  "orientation": "portrait",
+  "categories": ["utility", "navigation"],
+  "lang": "zh-TW"
+}
