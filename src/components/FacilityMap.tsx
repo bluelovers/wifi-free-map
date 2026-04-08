@@ -367,9 +367,14 @@ export default function FacilityMap() {
                 {position && (
                     <span>座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}</span>
                 )}
-                {address && (
-                    <div>地址: {address}</div>
-                )}
+                <div style={addressLoading ? { color: '#888', fontStyle: 'italic' } : undefined}>
+                    {address && (
+                        <span>地址: {address}</span>
+                    )}
+                    {addressLoading ? (
+                        <span>（查詢地址中...）</span>
+                    ) : null}
+                </div>
             </div>
             {/* 地圖容器 */}
             <div style={{ position: 'relative', height: '500px', width: '100%' }}>
