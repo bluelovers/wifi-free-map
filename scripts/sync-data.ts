@@ -1,11 +1,12 @@
 /**
- * 同步 iTaiwan Wi‑Fi 與公共充電站資料至 /public/data/
- * Sync iTaiwan Wi‑Fi and public charging‑station data to /public/data/.
+ * 同步 iTaiwan Wi‑Fi、臺北市 Wi‑Fi 與公共充電站資料至 /public/data/
+ * Sync iTaiwan Wi‑Fi, Taipei Free Wi‑Fi, and public charging‑station data to /public/data/.
  *
  * 此腳本會執行以下步驟：
- * 1. 下載 Wi‑Fi 資料 (Dataset 5962) 與充電站資料 (Dataset 28592)。
- * 2. 產生四個 JSON 檔案：
- *    - wifi-hotspots-raw.json（完整原始資料）
+ * 1. 下載 Wi‑Fi 資料 (Dataset 5962 iTaiwan + Dataset 121222 臺北市) 與充電站資料 (Dataset 28592)。
+ * 2. 產生以下 JSON 檔案：
+ *    - wifi-hotspots-raw.json（合併後的原始資料）
+ *    - taipei-wifi-raw.json（臺北市原始資料備份）
  *    - wifi-hotspots.json（過濾後、型別化的資料）
  *    - charging-stations-raw.json（完整原始資料）
  *    - charging-stations.json（過濾後、型別化的資料）
@@ -31,6 +32,15 @@ import {
  */
 const WIFI_URL =
     "https://itaiwan.gov.tw/ITaiwanDW/GetFile?fileName=IpSelect_tw.json&type=6";
+
+/**
+ * 臺北市公眾區免費無線上網熱點資料 (Dataset 121222)
+ * JSON 格式下載網址
+ *
+ * @see https://data.gov.tw/dataset/121222
+ */
+const TAIPEI_WIFI_URL =
+    "https://quality.data.gov.tw/dq_download_json.php?nid=121222&md5_url=aaf8100508dbd5e5ed0a706233c804dd";
 
 /**
  * iTaiwan 公共充電站 API endpoint (Dataset 28592)
@@ -71,8 +81,11 @@ async function writeJSON(filePath: string, data: any): Promise<void> {
  * Main execution function.
  */
 async function main() {
-    console.log("Fetching Wi‑Fi data…");
+    console.log("Fetching iTaiwan Wi‑Fi data…");
     const wifiRaw = await fetchJSON(WIFI_URL);
+
+    console.log("Fetching Taipei Free Wi‑Fi data…");
+    const taipeiWifiRaw = await fetchJSON(TAIPEI_WIFI_URL);
 
     console.log("Fetching charging‑station data…");
     const chargingRaw = await fetchJSON(CHARGING_URL);
@@ -81,17 +94,31 @@ async function main() {
     const outDir = resolve(DEFAULT_OUTPUT_DIR);
     await mkdir(outDir, { recursive: true });
 
-    // 寫入原始檔案
+    // 寫入原始檔案（分開儲存，不合併）
     const wifiRawPath = resolve(outDir, "wifi-hotspots-raw.json");
+    const taipeiWifiRawPath = resolve(outDir, "taipei-wifi-raw.json");
     const chargingRawPath = resolve(outDir, "charging-stations-raw.json");
 
     await writeJSON(wifiRawPath, wifiRaw);
+    await writeJSON(taipeiWifiRawPath, taipeiWifiRaw);
     await writeJSON(chargingRawPath, chargingRaw);
 
     console.log(`Raw files written to ${outDir}`);
 
-    // 轉換並寫入過濾後的檔案
-    const wifiFiltered = convertWiFiArray(wifiRaw);
+    // 將台北市資料轉換為與 iTaiwan 相同的欄位格式
+    // 台北市 JSON 使用大寫欄位：NAME, LATITUDE, LONGITUDE, ADDR
+    const taipeiFormatted = taipeiWifiRaw.map((row: any) => ({
+        Name: row.NAME || "",
+        Latitude: row.LATITUDE || "",
+        Longitude: row.LONGITUDE || "",
+        Address: row.ADDR || "",
+    }));
+
+    // 合併 iTaiwan 與台北市 Wi-Fi 資料（僅用於轉換）
+    const allWifiRaw = [...wifiRaw, ...taipeiFormatted];
+
+    // 轉換並寫入過濾後的檔案（合併後）
+    const wifiFiltered = convertWiFiArray(allWifiRaw);
     const chargingFiltered = convertChargingArray(chargingRaw);
 
     const wifiPath = resolve(outDir, "wifi-hotspots.json");
@@ -101,7 +128,9 @@ async function main() {
     await writeJSON(chargingPath, chargingFiltered);
 
     console.log(`Filtered files written to ${outDir}`);
-    console.log(`Wi‑Fi: ${wifiFiltered.length} items, Charging: ${chargingFiltered.length} items`);
+    console.log(
+        `iTaiwan Wi‑Fi: ${wifiRaw.length}, Taipei Free: ${taipeiWifiRaw.length}, Charging: ${chargingRaw.length}`
+    );
 
     // Git 操作（仅在 CI 環境或手動啟用時執行）
     if (process.env.CI === "true" || process.argv.includes("--push")) {
