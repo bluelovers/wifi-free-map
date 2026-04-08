@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { AntdRegistry } from "@ant-design/nextjs-registry";
 
 export const metadata: Metadata = {
   title: "WiFi Free Map - 免費 WiFi 與充電設施地圖",
@@ -18,7 +19,11 @@ export default function RootLayout({
       <Head>
           <link rel="manifest" href="/manifest.json" />
         </Head>
-        <body>{children}</body>
+        <body>
+          <AntdRegistry>
+            {children}
+          </AntdRegistry>
+        </body>
     </html>
   );
 }

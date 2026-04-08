@@ -4,6 +4,8 @@ import { useEffect, useState, useRef, useMemo, useCallback } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+import { Input, Switch, InputNumber, Space } from 'antd';
+import { SearchOutlined, WifiOutlined, ThunderboltOutlined } from '@ant-design/icons';
 import type { IWiFiHotspot, IChargingStation } from '@/types';
 import { EnumFacilityType } from '@/types';
 import { generateWiFiQRCode, calculateDistance } from '@/lib/wifi-utils';
@@ -682,55 +684,57 @@ export default function FacilityMap() {
             </div>
             {/* 搜尋列 / Search bar */}
             <div className="search-bar">
-<input
-                      type="text"
-                      placeholder="搜尋熱點或 SSID... / Search hotspot or SSID..."
-                      className="search-input"
-                      value={searchTerm}
-                      onChange={(e) => setSearchTerm(e.target.value)}
-                    />
-                <div className="filter-buttons">
-                    <label>
-                        <input
-                            type="checkbox"
+                <Input
+                    placeholder="搜尋熱點或 SSID..."
+                    prefix={<SearchOutlined />}
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    style={{ marginBottom: '12px' }}
+                />
+                <div className="filter-buttons" style={{ display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap' }}>
+                    <label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <WifiOutlined style={{ color: '#1890ff' }} />
+                        <span>WiFi</span>
+                        <Switch 
                             checked={filters.wifi}
-                            onChange={(e) => setFilters({ ...filters, wifi: e.target.checked })}
+                            onChange={(checked) => setFilters({ ...filters, wifi: checked })}
+                            size="small"
                         />
-                        WiFi
                     </label>
-                    <label>
-                        <input
-                            type="checkbox"
+                    <label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <ThunderboltOutlined style={{ color: '#fa8c16' }} />
+                        <span>充電</span>
+                        <Switch 
                             checked={filters.charging}
-                            onChange={(e) => setFilters({ ...filters, charging: e.target.checked })}
+                            onChange={(checked) => setFilters({ ...filters, charging: checked })}
+                            size="small"
                         />
-                        充電
                     </label>
-                    <label>
-                        <input
-                            type="checkbox"
+                    <label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <span>只顯示有密碼</span>
+                        <Switch 
                             checked={filters.passwordOnly}
-                            onChange={(e) => setFilters({ ...filters, passwordOnly: e.target.checked })}
+                            onChange={(checked) => setFilters({ ...filters, passwordOnly: checked })}
+                            size="small"
                         />
-                        只顯示有密碼 / Password only
                     </label>
-                    <label>
-                        距離上限 (m) / Max distance (m):
-                        <input
-                            type="number"
-                            min="0"
+                    <label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        距離上限 (m):
+                        <InputNumber
+                            min={0}
                             value={filters.maxDistance}
-                            onChange={(e) => setFilters({ ...filters, maxDistance: Number(e.target.value) })}
+                            onChange={(value) => setFilters({ ...filters, maxDistance: value || 10000 })}
+                            style={{ width: 100 }}
+                            size="small"
                         />
                     </label>
-                    <label>
-                        <input
-                            type="checkbox"
-                            name="longPressToMove"
+                    <label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <Switch 
                             checked={filters.longPressToMove}
-                            onChange={(e) => setFilters({ ...filters, longPressToMove: e.target.checked })}
+                            onChange={(checked) => setFilters({ ...filters, longPressToMove: checked })}
+                            size="small"
                         />
-                        右鍵點擊移動定位點
+                        <span>右鍵點擊移動定位點</span>
                     </label>
 </div>
         </div>

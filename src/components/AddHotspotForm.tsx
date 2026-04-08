@@ -4,6 +4,7 @@
  */
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { Form, Input, Button, InputNumber, Space } from 'antd';
 
 /**
  * 表單欄位定義
@@ -75,42 +76,55 @@ export default function AddHotspotForm({
   };
 
   return (
-    <dialog open className="add-hotspot-dialog">
-      <form onSubmit={handleSubmit} className="add-hotspot-form">
-        <h3>新增熱點 / Add Hotspot</h3>
-        <label>
-          名稱 / Name
-          <input name="name" value={form.name} onChange={handleChange} required />
-        </label>
-        <label>
-          SSID
-          <input name="ssid" value={form.ssid} onChange={handleChange} required />
-        </label>
-        <label>
-          密碼（可選） / Password (optional)
-          <input name="password" value={form.password} onChange={handleChange} />
-        </label>
-        <label>
-          緯度 / Latitude
-          <input name="lat" type="number" step="any" value={form.lat} onChange={handleChange} required />
-        </label>
-        <label>
-          經度 / Longitude
-          <input name="lng" type="number" step="any" value={form.lng} onChange={handleChange} required />
-        </label>
-        <label>
-          地址（可選） / Address (optional)
-          <input name="address" value={form.address} onChange={handleChange} />
-        </label>
-        <div className="dialog-actions">
-          <button type="button" onClick={onClose} disabled={submitting}>
-            取消 / Cancel
-          </button>
-          <button type="submit" disabled={submitting}>
-            {submitting ? '提交中...' : '送出 / Submit'}
-          </button>
-        </div>
-      </form>
-    </dialog>
+    <div style={{
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      backgroundColor: 'rgba(0,0,0,0.5)',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      zIndex: 1000,
+    }}>
+      <div style={{
+        backgroundColor: '#fff',
+        padding: '24px',
+        borderRadius: '8px',
+        width: '400px',
+        maxWidth: '90%',
+      }}>
+        <h3 style={{ marginBottom: '16px' }}>新增熱點</h3>
+        <Form layout="vertical" onFinish={handleSubmit}>
+          <Form.Item label="名稱" name="name" rules={[{ required: true }]}>
+            <Input value={form.name} onChange={handleChange} />
+          </Form.Item>
+          <Form.Item label="SSID" name="ssid" rules={[{ required: true }]}>
+            <Input value={form.ssid} onChange={handleChange} />
+          </Form.Item>
+          <Form.Item label="密碼（可選）" name="password">
+            <Input.Password value={form.password} onChange={handleChange} />
+          </Form.Item>
+          <Space style={{ width: '100%' }} size="middle">
+            <Form.Item label="緯度" name="lat" rules={[{ required: true }]} style={{ flex: 1 }}>
+              <InputNumber step="any" value={form.lat} onChange={(value) => handleChange({ target: { name: 'lat', value } } as any)} style={{ width: '100%' }} />
+            </Form.Item>
+            <Form.Item label="經度" name="lng" rules={[{ required: true }]} style={{ flex: 1 }}>
+              <InputNumber step="any" value={form.lng} onChange={(value) => handleChange({ target: { name: 'lng', value } } as any)} style={{ width: '100%' }} />
+            </Form.Item>
+          </Space>
+          <Form.Item label="地址（可選）" name="address">
+            <Input value={form.address} onChange={handleChange} />
+          </Form.Item>
+          <Space style={{ width: '100%', justifyContent: 'flex-end', marginTop: '16px' }}>
+            <Button onClick={onClose} disabled={submitting}>取消</Button>
+            <Button type="primary" htmlType="submit" loading={submitting}>
+              {submitting ? '提交中...' : '送出'}
+            </Button>
+          </Space>
+        </Form>
+      </div>
+    </div>
   );
 }
