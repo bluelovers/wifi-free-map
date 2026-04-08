@@ -27,6 +27,12 @@ body {
   z-index: 1;
 }
 
+/* Ensure the map wrapper fills the viewport */
+.map-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
 /* 主要顏色 */
 :root {
   --primary-color: #2196F3;

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState, useRef, useMemo } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import type { IWiFiHotspot, IChargingStation } from '@/types';
@@ -72,6 +72,23 @@ function ChangeView({ center, zoom }: { center: [number, number], zoom: number }
  * Facility map component
  */
 export default function FacilityMap() {
+    // 手動定位模式點擊地圖時設定位置
+    const ManualLocationHandler = () => {
+        useMapEvents({
+            click: (e) => {
+                if (manualMode) {
+                    const lat = e.latlng.lat;
+                    const lng = e.latlng.lng;
+                    setPosition([lat, lng]);
+                    setZoom(15);
+                    setLocationError(false);
+                    setManualMode(false);
+                    updateAddress(lat, lng);
+                }
+            },
+        });
+        return null;
+    };
     const [hotspots, setHotspots] = useState<IWiFiHotspot[]>([]);
     const [chargingStations, setChargingStations] = useState<IChargingStation[]>([]);
     const [position, setPosition] = useState<[number, number]>([25.0330, 121.5654]); // 預設台北 101
@@ -86,6 +103,57 @@ export default function FacilityMap() {
         passwordOnly: false,
         maxDistance: 10000, // meters, default 10km
     });
+    const [address, setAddress] = useState<string>(''); // 位置地址
+    const [locationError, setLocationError] = useState<boolean>(false);
+    const [manualMode, setManualMode] = useState<boolean>(false);
+
+    // 取得 GPS 權限並嘗試獲取使用者位置（可重複呼叫）
+    const requestGeolocation = async () => {
+        try {
+            if (navigator.permissions && navigator.permissions.query) {
+                const result = await navigator.permissions.query({ name: 'geolocation' as PermissionName });
+                if (result.state === 'denied') {
+                    setLocationError(true);
+                    return;
+                }
+            }
+            navigator.geolocation.getCurrentPosition(
+                async (pos) => {
+                    const lat = pos.coords.latitude;
+                    const lng = pos.coords.longitude;
+                    setPosition([lat, lng]);
+                    setZoom(15);
+                    setLocationError(false);
+                    // 反向地理編碼取得地址
+                    try {
+                        const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lng}`);
+                        const data = await res.json();
+                        setAddress(data.display_name || '');
+                    } catch {
+                        setAddress('');
+                    }
+                },
+                (err) => {
+                    console.error('定位失敗 / Geolocation failed:', err);
+                    setLocationError(true);
+                }
+            );
+        } catch (e) {
+            console.error('取得定位權限或位置時發生錯誤', e);
+            setLocationError(true);
+        }
+    };
+
+    // 手動設定後，同步更新地址
+    const updateAddress = async (lat: number, lng: number) => {
+        try {
+            const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lng}`);
+            const data = await res.json();
+            setAddress(data.display_name || '');
+        } catch {
+            setAddress('');
+        }
+    };
 
     // 搜尋關鍵字
     const [searchTerm, setSearchTerm] = useState('');
@@ -141,20 +209,13 @@ export default function FacilityMap() {
         };
 
         loadData();
-        
-        // 嘗試獲取使用者位置
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(
-                (pos) => {
-                    setPosition([pos.coords.latitude, pos.coords.longitude]);
-                    setZoom(15);
-                },
-                (err) => {
-                    console.error('定位失敗 / Geolocation failed:', err);
-                }
-            );
-        }
     }, []);
+    // 取得 GPS 權限並嘍試獲取使用者位置（已在外部定義）
+    // 此 useEffect 只在元件掛載時呼叫一次
+    useEffect(() => {
+        requestGeolocation();
+    }, []);
+    // End of loadData effect
 
     // 生成 QR Code
     useEffect(() => {
@@ -204,6 +265,70 @@ export default function FacilityMap() {
 
     return (
         <div className="map-wrapper">
+            {/* 位置錯誤提示與手動定位按鈕 */}
+            {locationError && (
+                <div className="error-panel" style={{ padding: '8px', backgroundColor: '#ffdddd', marginBottom: '8px' }}>
+                    <span>定位失敗，請允許 GPS 或手動設定位置。</span>
+                    <button onClick={() => setManualMode(true)} style={{ marginLeft: '8px' }}>手動定位</button>
+                    <button onClick={requestGeolocation} style={{ marginLeft: '8px' }}>重新請求定位</button>
+                </div>
+            )}
+            {/* 手動置中按鈕 */}
+            <div style={{ padding: '8px', marginBottom: '8px' }}>
+                <button onClick={() => { requestGeolocation(); }} style={{ marginRight: '8px' }}>置中至目前位置</button>
+                {position && (
+                    <span>座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}</span>
+                )}
+                {address && (
+                    <div>地址: {address}</div>
+                )}
+            </div>
+            {/* 地圖容器 */}
+            <MapContainer center={position} zoom={zoom} style={{ height: '500px', width: '100%' }} scrollWheelZoom={true}>
+                <TileLayer
+                    attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                {/* 使用者位置 */}
+                <Marker
+                    position={position}
+                    icon={userIcon}
+                    draggable={true}
+                    eventHandlers={{
+                        dragend: (e) => {
+                            const latlng = e.target.getLatLng();
+                            setPosition([latlng.lat, latlng.lng]);
+                            setZoom(15);
+                            setLocationError(false);
+                        },
+                    }}
+                />
+                {/* 手動定位點擊監聽 */}
+                <ManualLocationHandler />
+                {/* WiFi 熱點 */}
+                {filteredHotspots.map((hotspot) => (
+                    <Marker
+                        key={hotspot.id}
+                        position={[hotspot.location.lat, hotspot.location.lng]}
+                        icon={wifiIcon}
+                        eventHandlers={{ click: () => handleMarkerClick(hotspot) }}
+                    >
+                        <Popup>{hotspot.name}</Popup>
+                    </Marker>
+                ))}
+                {/* 充電站 */}
+                {chargingStations.map((station) => (
+                    <Marker
+                        key={station.id}
+                        position={[station.location.lat, station.location.lng]}
+                        icon={chargingIcon}
+                    >
+                        <Popup>{station.name}</Popup>
+                    </Marker>
+                ))}
+                {/* 變更視角 */}
+                <ChangeView center={position} zoom={zoom} />
+            </MapContainer>
             {/* 搜尋列 / Search bar */}
             <div className="search-bar">
 <input
