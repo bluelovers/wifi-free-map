@@ -1,12 +1,13 @@
 'use client';
 
-import { useEffect, useState, useRef, useMemo } from 'react';
+import { useEffect, useState, useRef, useMemo, useCallback } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import type { IWiFiHotspot, IChargingStation } from '@/types';
 import { EnumFacilityType } from '@/types';
 import { generateWiFiQRCode, calculateDistance } from '@/lib/wifi-utils';
+import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
 import EditHotspotForm from './EditHotspotForm';
 import AddHotspotForm from './AddHotspotForm';
 
@@ -170,6 +171,9 @@ export default function FacilityMap() {
     const [locationError, setLocationError] = useState<boolean>(false);
     const [manualMode, setManualMode] = useState<boolean>(false);
     const [shouldAutoCenter, setShouldAutoCenter] = useState<boolean>(false); // 是否應該自動置中
+    const [addressSearchTerm, setAddressSearchTerm] = useState<string>(''); // 地址搜尋關鍵字
+    const [addressSearchLoading, setAddressSearchLoading] = useState<boolean>(false); // 地址搜尋載入狀態
+    const [addressSearchResults, setAddressSearchResults] = useState<{ lat: string, lon: string, display_name: string }[]>([]); // 地址搜尋結果
 
     /** 取得 GPS 權限並嘗試獲取使用者位置（可重複呼叫） */
     const requestGeolocation = async (preserveZoom?: number): Promise<void> => {
@@ -233,7 +237,11 @@ export default function FacilityMap() {
     const updateAddress = async (lat: number, lng: number) => {
         setAddressLoading(true);
         try {
-            const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lng}`);
+            const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lng}`, {
+                headers: {
+                    'User-Agent': `WiFi-Free-Map/1.0 (${NOMINATIM_CONTACT_EMAIL})`
+                }
+            });
             const data = await res.json();
             setAddress(data.display_name || '');
         } catch {
@@ -241,6 +249,158 @@ export default function FacilityMap() {
         } finally {
             setAddressLoading(false);
         }
+    };
+
+    /** 搜尋計時器 ref */
+    const searchTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+    /** 防止重複搜尋的標記 */
+    const isSearchingRef = useRef<boolean>(false);
+
+    /** 上次搜尋的關鍵字 */
+    const lastSearchTermRef = useRef<string>('');
+
+    /** 搜尌 debounce 標記 */
+    const debouncingRef = useRef<boolean>(false);
+
+    /** 透過地址關鍵字搜尋位置（正向地理編碼）- 即時搜尋（防抖） */
+    const handleAddressSearch = useCallback((term: string) => {
+        console.log('🔍 handleAddressSearch called with term:', term);
+        
+        // 防止重複搜尋
+        if (isSearchingRef.current) {
+            console.log('⚠️ Already searching, skipping duplicate call');
+            return;
+        }
+        
+        setAddressSearchTerm(term);
+        
+        // 清除之前的計時器
+        if (searchTimerRef.current) {
+            console.log('⏰ Clearing previous search timer');
+            clearTimeout(searchTimerRef.current);
+        }
+        
+        if (!term.trim() || term.length < 2) {
+            console.log('🚫 Search term too short or empty, clearing results');
+            setAddressSearchResults([]);
+            return;
+        }
+        
+        console.log('⏳ Setting new search timer (300ms delay)');
+        // 延遲 300ms 後再搜尋，避免快速輸入觸發過多請求
+        searchTimerRef.current = setTimeout(async () => {
+            if (isSearchingRef.current) {
+                console.log('⚠️ Search already in progress, skipping');
+                return;
+            }
+            
+            isSearchingRef.current = true;
+            console.log('🚀 Executing search for term:', term);
+            setAddressSearchLoading(true);
+            try {
+                // 優先搜尋台灣，增加結果數量
+                console.log('🇹🇼 Searching Taiwan for:', term);
+                const res = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&q=${encodeURIComponent(term)}&countrycodes=tw&limit=20&addressdetails=1`, {
+                    headers: {
+                        'User-Agent': `WiFi-Free-Map/1.0 (${NOMINATIM_CONTACT_EMAIL})`
+                    }
+                });
+                const data = await res.json();
+                console.log('🇹🇼 Taiwan search results count:', data?.length || 0);
+                
+                // 如果台灣沒結果，搜尋全球
+                if (!data || data.length === 0) {
+                    console.log('🌍 No Taiwan results, searching globally for:', term);
+                    const globalRes = await fetch(`https://nominatim.openstreetmap.org/search?format=jsonv2&q=${encodeURIComponent(term)}&limit=20&addressdetails=1`, {
+                        headers: {
+                            'User-Agent': `WiFi-Free-Map/1.0 (${NOMINATIM_CONTACT_EMAIL})`
+                        }
+                    });
+                    const globalData = await globalRes.json();
+                    console.log('🌍 Global search results count:', globalData?.length || 0);
+                    setAddressSearchResults(globalData || []);
+                } else {
+                    // 優化搜尋結果：增加捷運站、地標的權重
+                    console.log('📍 Optimizing search results with priority for stations and landmarks');
+                    const results = data as { lat: string, lon: string, display_name: string, importance?: number, type?: string }[];
+                    
+                    // 計算加權分數
+                    const enhancedResults = results.map(result => {
+                        let score = result.importance || 1;
+                        const displayName = result.display_name.toLowerCase();
+                        
+                        // 增加捷運站、地鐵站的權重
+                        if (displayName.includes('捷運') || displayName.includes('地鐵') || displayName.includes('mrt') || displayName.includes('subway')) {
+                            score += 10;
+                        }
+                        // 增加車站的權重
+                        if (displayName.includes('車站') || displayName.includes('station')) {
+                            score += 8;
+                        }
+                        // 增加地標、景點的權重
+                        if (displayName.includes('寺') || displayName.includes('廟') || displayName.includes('山') || 
+                            displayName.includes('公園') || displayName.includes('市場') || displayName.includes('商圈')) {
+                            score += 5;
+                        }
+                        // 增加學校、醫院的權重
+                        if (displayName.includes('學校') || displayName.includes('大學') || displayName.includes('醫院') || displayName.includes('診所')) {
+                            score += 4;
+                        }
+                        // 增加商場、購物中心的權重
+                        if (displayName.includes('商場') || displayName.includes('購物') || displayName.includes('mall')) {
+                            score += 3;
+                        }
+                        
+                        return { ...result, score };
+                    });
+                    
+                    // 按權重和距離排序
+                    if (position) {
+                        enhancedResults.sort((a, b) => {
+                            const distA = calculateDistance(position[0], position[1], parseFloat(a.lat), parseFloat(b.lon));
+                            const distB = calculateDistance(position[0], position[1], parseFloat(b.lat), parseFloat(b.lon));
+                            
+                            // 先按權重排序，再按距離排序
+                            const weightDiff = b.score - a.score;
+                            if (weightDiff !== 0) {
+                                return weightDiff;
+                            }
+                            return distA - distB;
+                        });
+                    } else {
+                        // 沒有位置資訊時，只按權重排序
+                        enhancedResults.sort((a, b) => b.score - a.score);
+                    }
+                    
+                    // 移除臨時的 score 欄位
+                    const finalResults = enhancedResults.map(({ score, ...rest }) => rest);
+                    console.log('✅ Enhanced search results, count:', finalResults.length);
+                    console.log('🎯 Top result:', finalResults[0]?.display_name);
+                    setAddressSearchResults(finalResults);
+                }
+            } catch (error) {
+                console.error('❌ Address search failed:', error);
+                setAddressSearchResults([]);
+            } finally {
+                setAddressSearchLoading(false);
+                searchTimerRef.current = null;
+                isSearchingRef.current = false;
+                console.log('✅ Search completed, timer reset');
+            }
+        }, 300);
+    }, [position]);
+
+    /** 選擇搜尋結果 */
+    const selectAddressResult = (result: { lat: string, lon: string, display_name: string }) => {
+        const lat = parseFloat(result.lat);
+        const lng = parseFloat(result.lon);
+        
+        setShouldAutoCenter(false);
+        setPosition([lat, lng]);
+        setAddress(result.display_name);
+        setAddressSearchTerm('');
+        setAddressSearchResults([]);
     };
 
     /** 搜尋關鍵字 */
@@ -375,6 +535,51 @@ export default function FacilityMap() {
                         <span>（查詢地址中...）</span>
                     ) : null}
                 </div>
+            </div>
+            {/* 地址搜尋表單 */}
+            <div style={{ padding: '8px', marginBottom: '8px', position: 'relative' }}>
+                <input
+                    type="text"
+                    placeholder="輸入地址搜尋... / Search address..."
+                    value={addressSearchTerm}
+                    onChange={(e) => handleAddressSearch(e.target.value)}
+                    style={{ width: '100%', padding: '4px 8px', boxSizing: 'border-box' }}
+                />
+                {/* 搜尋結果下拉選單 */}
+                {addressSearchResults.length > 0 && (
+                    <ul style={{
+                        position: 'absolute',
+                        top: '100%',
+                        left: 0,
+                        right: 0,
+                        backgroundColor: 'white',
+                        border: '1px solid #ccc',
+                        borderRadius: '4px',
+                        listStyle: 'none',
+                        margin: 0,
+                        padding: 0,
+                        maxHeight: '200px',
+                        overflowY: 'auto',
+                        zIndex: 1000,
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.2)'
+                    }}>
+                        {addressSearchResults.map((result, index) => (
+                            <li
+                                key={index}
+                                onClick={() => selectAddressResult(result)}
+                                style={{
+                                    padding: '8px 12px',
+                                    cursor: 'pointer',
+                                    borderBottom: index < addressSearchResults.length - 1 ? '1px solid #eee' : 'none'
+                                }}
+                                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f5f5f5'}
+                                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'white'}
+                            >
+                                {result.display_name}
+                            </li>
+                        ))}
+                    </ul>
+                )}
             </div>
             {/* 地圖容器 */}
             <div style={{ position: 'relative', height: '500px', width: '100%' }}>
