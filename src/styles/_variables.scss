@@ -1,0 +1,129 @@
+/**
+ * 全域主題變數
+ * Global Theme Variables
+ * 
+ * 使用 CSS 變數實現主題切換
+ * Uses CSS variables for theme switching
+ */
+
+// 主題變數 - 淺色模式 (預設)
+:root {
+  // 背景顏色
+  --bg-primary: #fafafa;
+  --bg-secondary: #ffffff;
+  --bg-elevated: #ffffff;
+  --bg-container: #ffffff;
+  
+  // 文字顏色
+  --text-primary: #000000;
+  --text-secondary: rgba(0, 0, 0, 0.45);
+  --text-disabled: rgba(0, 0, 0, 0.25);
+  
+  // 邊框顏色
+  --border-color: #d9d9d9;
+  --border-color-hover: #40a9ff;
+  
+  // 主色調
+  --color-primary: #1890ff;
+  --color-primary-hover: #40a9ff;
+  --color-primary-active: #096dd9;
+  
+  // 輔助色
+  --color-success: #52c41a;
+  --color-warning: #faad14;
+  --color-error: #ff4d4f;
+  --color-info: #1890ff;
+  
+  // 特殊用途
+  --accent-color: #ff9800;
+  --overlay-bg: rgba(0, 0, 0, 0.5);
+  
+  // 陰影
+  --shadow-color: rgba(0, 0, 0, 0.15);
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  
+  // 圓角
+  --border-radius: 6px;
+  --border-radius-sm: 4px;
+  --border-radius-lg: 8px;
+  
+  // 字體大小
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  
+  // 間距
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  
+  // 動畫
+  --transition-duration: 0.3s;
+}
+
+// 深色模式
+[data-theme='dark'] {
+  --bg-primary: #141414;
+  --bg-secondary: #1f1f1f;
+  --bg-elevated: #1f1f1f;
+  --bg-container: #1f1f1f;
+  
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.65);
+  --text-disabled: rgba(255, 255, 255, 0.25);
+  
+  --border-color: #424242;
+  --border-color-hover: #40a9ff;
+  
+  --color-primary: #177ddc;
+  --color-primary-hover: #40a9ff;
+  --color-primary-active: #096dd9;
+  
+  --color-success: #49aa19;
+  --color-warning: #d48806;
+  --color-error: #a8071a;
+  --color-info: #177ddc;
+  
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/**
+ * 主題混入
+ * Theme Mixins
+ */
+
+// 主題文字顏色
+@mixin theme-text {
+  color: var(--text-primary);
+}
+
+// 主題背景
+@mixin theme-bg {
+  background-color: var(--bg-elevated);
+}
+
+// 主題容器
+@mixin theme-container {
+  background-color: var(--bg-container);
+  color: var(--text-primary);
+}
+
+// 主題邊框
+@mixin theme-border {
+  border: 1px solid var(--border-color);
+}
+
+// 主題陰影
+@mixin theme-shadow {
+  box-shadow: var(--box-shadow);
+}
+
+// 過渡效果
+@mixin theme-transition {
+  transition: background-color var(--transition-duration), 
+              color var(--transition-duration), 
+              border-color var(--transition-duration);
+}

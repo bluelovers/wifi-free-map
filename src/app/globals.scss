@@ -1,0 +1,288 @@
+@use '../styles/variables' as *;
+
+// Leaflet CSS
+@use 'leaflet/dist/leaflet.css';
+
+// ============================================
+// Reset & Base Styles
+// ============================================
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  @include theme-transition;
+}
+
+// ============================================
+// Map Container
+// ============================================
+
+.map-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.map-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+// Leaflet 修正
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+// ============================================
+// Info Panels
+// ============================================
+
+.info-panel {
+  padding: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  @include theme-bg;
+  @include theme-text;
+}
+
+.info-panel-loading {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+// ============================================
+// Search Bar
+// ============================================
+
+.search-bar {
+  @include theme-container;
+  @include theme-border;
+  @include theme-shadow;
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.filter-buttons {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: center;
+  flex-wrap: wrap;
+  @include theme-text;
+  
+  label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    @include theme-text;
+  }
+}
+
+// ============================================
+// Error Panel
+// ============================================
+
+.error-panel {
+  padding: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  background-color: #ffdddd;
+  color: #333;
+  border-radius: var(--border-radius-sm);
+  
+  [data-theme='dark'] & {
+    background-color: #3d2020;
+    color: #ffcccc;
+  }
+}
+
+// ============================================
+// Address Dropdown
+// ============================================
+
+.address-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  @include theme-container;
+  @include theme-border;
+  border-radius: var(--border-radius-sm);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  @include theme-shadow;
+  
+  li {
+    padding: var(--spacing-sm) var(--spacing-md);
+    cursor: pointer;
+    @include theme-border;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+    
+    &:hover {
+      @include theme-bg;
+    }
+  }
+}
+
+// ============================================
+// Modal
+// ============================================
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--overlay-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  @include theme-container;
+  @include theme-shadow;
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius-lg);
+  width: 400px;
+  max-width: 90%;
+  
+  h3 {
+    margin-bottom: var(--spacing-md);
+    @include theme-text;
+  }
+}
+
+// ============================================
+// Form
+// ============================================
+
+.form-container {
+  width: 100%;
+}
+
+.form-actions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--spacing-md);
+  gap: var(--spacing-sm);
+}
+
+// ============================================
+// Loading Indicator
+// ============================================
+
+.loading-indicator {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  @include theme-container;
+  padding: 20px 30px;
+  border-radius: var(--border-radius-lg);
+  @include theme-shadow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--border-color);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+// ============================================
+// Floating Action Button
+// ============================================
+
+.fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  
+  &:hover {
+    background: var(--color-primary-hover);
+  }
+}
+
+// ============================================
+// Offline Banner
+// ============================================
+
+.offline-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--accent-color);
+  color: white;
+  text-align: center;
+  padding: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  z-index: 9999;
+}
+
+// ============================================
+// Theme Toggle Button
+// ============================================
+
+.theme-toggle {
+  position: fixed;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  z-index: 9999;
+}
+
+// ============================================
+// Root Variables (Legacy support)
+// ============================================
+
+:root {
+  --primary-color: #2196F3;
+  --secondary-color: #4CAF50;
+  --accent-color: #FF9800;
+  --background-color: #FAFAFA;
+}

@@ -518,18 +518,18 @@ export default function FacilityMap() {
         <div className="map-wrapper">
             {/* 位置錯誤提示與手動定位按鈕 */}
             {locationError && (
-                <div className="error-panel" style={{ padding: '8px', backgroundColor: '#ffdddd', marginBottom: '8px' }}>
+                <div className="error-panel">
                     <span>定位失敗，請允許 GPS 或手動設定位置。</span>
                     <button onClick={() => setManualMode(true)} style={{ marginLeft: '8px' }}>手動定位</button>
                     <button onClick={() => requestGeolocation()} style={{ marginLeft: '8px' }}>重新請求定位</button>
                 </div>
             )}
             {/* 座標與地址資訊（保留在上方） */}
-            <div style={{ padding: '8px', marginBottom: '8px' }}>
+            <div className="info-panel">
                 {position && (
                     <span>座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}</span>
                 )}
-                <div style={addressLoading ? { color: '#888', fontStyle: 'italic' } : undefined}>
+                <div className={addressLoading ? 'info-panel-loading' : ''}>
                     {address && (
                         <span>地址: {address}</span>
                     )}
@@ -539,32 +539,16 @@ export default function FacilityMap() {
                 </div>
             </div>
             {/* 地址搜尋表單 */}
-            <div style={{ padding: '8px', marginBottom: '8px', position: 'relative' }}>
-                <input
-                    type="text"
-                    placeholder="輸入地址搜尋... / Search address..."
+            <div className="info-panel" style={{ position: 'relative' }}>
+                <Input
+                    placeholder="輸入地址搜尋..."
                     value={addressSearchTerm}
                     onChange={(e) => handleAddressSearch(e.target.value)}
-                    style={{ width: '100%', padding: '4px 8px', boxSizing: 'border-box' }}
+                    style={{ width: '100%' }}
                 />
                 {/* 搜尋結果下拉選單 */}
                 {addressSearchResults.length > 0 && (
-                    <ul style={{
-                        position: 'absolute',
-                        top: '100%',
-                        left: 0,
-                        right: 0,
-                        backgroundColor: 'white',
-                        border: '1px solid #ccc',
-                        borderRadius: '4px',
-                        listStyle: 'none',
-                        margin: 0,
-                        padding: 0,
-                        maxHeight: '200px',
-                        overflowY: 'auto',
-                        zIndex: 1000,
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.2)'
-                    }}>
+                    <ul className="address-dropdown">
                         {addressSearchResults.map((result, index) => (
                             <li
                                 key={index}
@@ -691,7 +675,12 @@ export default function FacilityMap() {
                     onChange={(e) => setSearchTerm(e.target.value)}
                     style={{ marginBottom: '12px' }}
                 />
-                <div className="filter-buttons" style={{ display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap' }}>
+                <div className="filter-buttons" style={{ 
+                    display: 'flex', 
+                    gap: '16px', 
+                    alignItems: 'center', 
+                    flexWrap: 'wrap'
+                }}>
                     <label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                         <WifiOutlined style={{ color: '#1890ff' }} />
                         <span>WiFi</span>

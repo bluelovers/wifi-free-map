@@ -82,26 +82,9 @@ export default function EditHotspotForm({
   };
 
   return (
-    <div style={{
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-      backgroundColor: 'rgba(0,0,0,0.5)',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      zIndex: 1000,
-    }}>
-      <div style={{
-        backgroundColor: '#fff',
-        padding: '24px',
-        borderRadius: '8px',
-        width: '400px',
-        maxWidth: '90%',
-      }}>
-        <h3 style={{ marginBottom: '16px' }}>編輯熱點</h3>
+    <div className="modal-overlay">
+      <div className="modal-content">
+        <h3>編輯熱點</h3>
         <Form layout="vertical" onFinish={handleSubmit}>
           <Form.Item label="名稱" name="name" rules={[{ required: true }]}>
             <Input value={form.name} onChange={handleChange} />
@@ -112,7 +95,7 @@ export default function EditHotspotForm({
           <Form.Item label="密碼（可選）" name="password">
             <Input.Password value={form.password} onChange={handleChange} />
           </Form.Item>
-          <Space style={{ width: '100%' }} size="middle">
+          <Space className="form-container" size="middle">
             <Form.Item label="緯度" name="lat" rules={[{ required: true }]} style={{ flex: 1 }}>
               <InputNumber step="any" value={form.lat} onChange={(value) => handleChange({ target: { name: 'lat', value } } as any)} style={{ width: '100%' }} />
             </Form.Item>
@@ -123,7 +106,7 @@ export default function EditHotspotForm({
           <Form.Item label="地址（可選）" name="address">
             <Input value={form.address} onChange={handleChange} />
           </Form.Item>
-          <Space style={{ width: '100%', justifyContent: 'flex-end', marginTop: '16px' }}>
+          <Space className="form-actions">
             <Button onClick={onClose} disabled={submitting}>取消</Button>
             <Button type="primary" htmlType="submit" loading={submitting}>
               {submitting ? '更新中...' : '送出'}
