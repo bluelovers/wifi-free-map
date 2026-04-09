@@ -3,23 +3,25 @@
 import { useEffect } from 'react';
 import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { ConfigProvider } from "antd";
-import { ThemeProvider, useTheme } from "@/components/ThemeProvider";
+import { createThemeConfig, ThemeProvider, useTheme } from "@/components/ThemeProvider";
 import ThemeToggle from "@/components/ThemeToggle";
 import Head from "next/head";
 
 /**
- * 將 antd tokens 轉換為 CSS 變數字串
- * Convert antd tokens to CSS variables string
+ * 將 antd tokens 應用為 CSS 變數
+ * Apply antd tokens as CSS variables
+ * 
+ * 使用 style.setProperty 單獨設定每個變數，避免覆蓋其他 style 屬性
  */
-const tokensToCssVariables = (tokens: any): string => {
-    const cssVars = Object.entries(tokens)
-        .map(([key, value]) => {
-            // 將駝峰式轉換為連字符式 (camelCase -> kebab-case)
-            const cssKey = key.replace(/([A-Z])/g, '-$1').toLowerCase();
-            return `--${cssKey}: ${value};`;
-        })
-        .join(' ');
-    return cssVars;
+const applyTokensAsCssVars = (tokens: any): void => {
+    if (!tokens) return;
+    
+    const root = document.documentElement;
+    Object.entries(tokens).forEach(([key, value]) => {
+        // 將駝峰式轉換為連字符式 (camelCase -> kebab-case)
+        const cssKey = key.replace(/([A-Z])/g, '-$1').toLowerCase();
+        root.style.setProperty(`--${cssKey}`, String(value));
+    });
 };
 
 /**
@@ -35,12 +37,18 @@ function InternalLayout({
 
   // 將 antd tokens 應用為 CSS 變數
   useEffect(() => {
-    const cssVars = tokensToCssVariables(antdTokens);
-    document.documentElement.setAttribute('style', cssVars);
+    if (antdTokens) {
+      applyTokensAsCssVars(antdTokens);
+    }
   }, [antdTokens]);
 
+  // 防止 antdTheme 為空
+  const themeConfig = antdTheme?.token?.colorPrimary && antdTheme || createThemeConfig(isDark).config;
+
+  console.log('InternalLayout Theme config:', themeConfig, isDark);
+
   return (
-    <ConfigProvider theme={antdTheme}>
+    <ConfigProvider theme={themeConfig}>
       <html lang="zh-TW" data-theme={isDark ? "dark" : "light"}>
         <Head>
           <link rel="manifest" href="/manifest.json" />

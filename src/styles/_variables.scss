@@ -130,29 +130,29 @@ $transition-duration: 0.3s;
 // Dark mode override (when CSS variables are overridden)
 // ============================================
 
-[data-theme='dark'] {
-  // 這些值會被 ClientLayout 動態注入的 antd tokens 覆蓋
-  // These values will be overridden by antd tokens dynamically injected in ClientLayout
-  
-  // 背景色
-  --bg-primary: #141414;
-  --bg-secondary: #1f1f1f;
-  --bg-elevated: #1f1f1f;
-  --bg-container: #1f1f1f;
-  
-  // 文字色
-  --text-primary: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.65);
-  --text-disabled: rgba(255, 255, 255, 0.25);
-  
-  // 邊框色
-  --border-color: #424242;
-  --border-color-hover: #40a9ff;
-  
-  // 陰影
-  --shadow-color: rgba(0, 0, 0, 0.3);
-  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
+// 已註解 - 顏色現在由 antd algorithm 自動計算
+// [data-theme='dark'] {
+//   // 這些值會被 ClientLayout 動態注入的 antd tokens 覆蓋
+//   
+//   // 背景色
+//   --bg-primary: #141414;
+//   --bg-secondary: #1f1f1f;
+//   --bg-elevated: #1f1f1f;
+//   --bg-container: #1f1f1f;
+//   
+//   // 文字色
+//   --text-primary: #ffffff;
+//   --text-secondary: rgba(255, 255, 255, 0.65);
+//   --text-disabled: rgba(255, 255, 255, 0.25);
+//   
+//   // 邊框色
+//   --border-color: #424242;
+//   --border-color-hover: #40a9ff;
+//   
+//   // 陰影
+//   --shadow-color: rgba(0, 0, 0, 0.3);
+//   --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+// }
 
 /**
  * 主題混入

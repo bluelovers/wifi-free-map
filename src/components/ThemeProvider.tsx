@@ -3,26 +3,26 @@
  * Theme Context Provider
  * 
  * 使用 antd ConfigProvider 內建的主題切換功能
- * Uses antd ConfigProvider built-in theme switching
+ * 所有顏色統一來自 antd Design Tokens
  * 
- * 參考：https://ant.design/docs/react/customize-theme-cn
+ * 參考：https://ant.design/docs/react/customize-theme-cn#%E4%BD%BF%E7%94%A8-design-token
  */
 'use client';
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { ThemeConfig, theme } from 'antd';
 
+const { getDesignToken, useToken } = theme;
+
 /**
  * antd Design Tokens 類型
- * antd Design Tokens type
+ * 映射 antd tokens 到自訂 SCSS 變數名稱
  */
 interface IAntdTokens {
     // 主色調
     colorPrimary: string;
     colorPrimaryHover: string;
     colorPrimaryActive: string;
-    colorPrimaryBg: string;
-    colorPrimaryBgHover: string;
     
     // 輔助色
     colorSuccess: string;
@@ -30,42 +30,26 @@ interface IAntdTokens {
     colorError: string;
     colorInfo: string;
     
-    // 背景色
-    colorBgContainer: string;
-    colorBgElevated: string;
-    colorBgLayout: string;
-    colorBgSpotlight: string;
+    // 背景色 (映射到 SCSS 的 --bg-* 名稱)
+    bgPrimary: string;
+    bgSecondary: string;
+    bgElevated: string;
+    bgContainer: string;
     
-    // 文字色
-    colorText: string;
-    colorTextSecondary: string;
-    colorTextDisabled: string;
+    // 文字色 (映射到 SCSS 的 --text-* 名稱)
+    textPrimary: string;
+    textSecondary: string;
+    textDisabled: string;
     
-    // 邊框色
-    colorBorder: string;
-    colorBorderSecondary: string;
+    // 邊框色 (映射到 SCSS 的 --border-* 名稱)
+    borderColor: string;
+    borderColorHover: string;
     
     // 陰影
     boxShadow: string;
-    boxShadowSecondary: string;
     
     // 圓角
     borderRadius: number;
-    borderRadiusLG: number;
-    borderRadiusSM: number;
-    
-    // 字體大小
-    fontSize: number;
-    fontSizeLG: number;
-    fontSizeSM: number;
-    
-    // 間距
-    padding: number;
-    paddingLG: number;
-    paddingSM: number;
-    margin: number;
-    marginLG: number;
-    marginSM: number;
 }
 
 /**
@@ -80,20 +64,20 @@ interface IThemeContext {
     /** antd 主題配置 */
     antdTheme: ThemeConfig;
     /** antd Design Tokens (用於 CSS 變數) */
-    antdTokens: IAntdTokens;
+    antdTokens: IAntdTokens | null;
 }
 
 /**
- * 將 antd tokens 轉換為 CSS 變數物件
- * Convert antd tokens to CSS variables object
+ * 將 antd DesignToken 轉換為 CSS 變數物件
+ * Convert antd DesignToken to CSS variables object
+ * 
+ * 映射 antd token 名稱到自訂 SCSS 變數名稱
  */
 const tokensToCssVars = (token: any): IAntdTokens => ({
     // 主色調
     colorPrimary: token.colorPrimary,
     colorPrimaryHover: token.colorPrimaryHover || token.colorPrimary,
     colorPrimaryActive: token.colorPrimaryActive || token.colorPrimary,
-    colorPrimaryBg: token.colorPrimaryBg || token.colorPrimary,
-    colorPrimaryBgHover: token.colorPrimaryBgHover || token.colorPrimaryBg,
     
     // 輔助色
     colorSuccess: token.colorSuccess,
@@ -101,133 +85,84 @@ const tokensToCssVars = (token: any): IAntdTokens => ({
     colorError: token.colorError,
     colorInfo: token.colorInfo,
     
-    // 背景色
-    colorBgContainer: token.colorBgContainer,
-    colorBgElevated: token.colorBgElevated,
-    colorBgLayout: token.colorBgLayout,
-    colorBgSpotlight: token.colorBgSpotlight || token.colorBgContainer,
+    // 背景色 - 映射到 SCSS 的 --bg-* 名稱
+    bgPrimary: token.colorBgLayout,
+    bgSecondary: token.colorBgSpotlight,
+    bgElevated: token.colorBgElevated,
+    bgContainer: token.colorBgContainer,
     
-    // 文字色
-    colorText: token.colorText,
-    colorTextSecondary: token.colorTextSecondary,
-    colorTextDisabled: token.colorTextDisabled,
+    // 文字色 - 映射到 SCSS 的 --text-* 名稱
+    textPrimary: token.colorText,
+    textSecondary: token.colorTextSecondary,
+    textDisabled: token.colorTextDisabled,
     
-    // 邊框色
-    colorBorder: token.colorBorder,
-    colorBorderSecondary: token.colorBorderSecondary || token.colorBorder,
+    // 邊框色 - 映射到 SCSS 的 --border-* 名稱
+    borderColor: token.colorBorder,
+    borderColorHover: token.colorPrimary,
     
     // 陰影
     boxShadow: token.boxShadow,
-    boxShadowSecondary: token.boxShadowSecondary || token.boxShadow,
     
     // 圓角
     borderRadius: token.borderRadius,
-    borderRadiusLG: token.borderRadiusLG,
-    borderRadiusSM: token.borderRadiusSM,
-    
-    // 字體大小
-    fontSize: token.fontSize,
-    fontSizeLG: token.fontSizeLG,
-    fontSizeSM: token.fontSizeSM,
-    
-    // 間距
-    padding: token.padding,
-    paddingLG: token.paddingLG,
-    paddingSM: token.paddingSM,
-    margin: token.margin,
-    marginLG: token.marginLG,
-    marginSM: token.marginSM,
 });
 
 /**
- * 建立 antd 主題配置 (包含 token)
- * Create antd theme configuration (includes token)
+ * 建立 antd 主題配置
+ * Create antd theme configuration
+ * 
+ * 只提供 colorPrimary 作為 seed token
+ * 其他顏色由 antd algorithm 自動計算
  */
-const createThemeConfig = (isDark: boolean): { config: ThemeConfig; tokens: IAntdTokens } => {
-    // 淺色模式顏色
-    const lightColors = {
-        colorBgContainer: '#ffffff',
-        colorBgElevated: '#ffffff',
-        colorBgLayout: '#fafafa',
-        colorBgSpotlight: '#f5f5f5',
-        
-        colorText: '#000000e0',
-        colorTextSecondary: '#00000073',
-        colorTextDisabled: '#0000003f',
-        
-        colorBorder: '#d9d9d9',
-        colorBorderSecondary: '#f0f0f0',
-        
-        boxShadow: '0 2px 8px #00000026',
-        boxShadowSecondary: '0 4px 12px #00000026',
-    };
-    
-    // 深色模式顏色
-    const darkColors = {
-        colorBgContainer: '#1f1f1f',
-        colorBgElevated: '#1f1f1f',
-        colorBgLayout: '#141414',
-        colorBgSpotlight: '#262626',
-        
-        colorText: '#ffffff',
-        colorTextSecondary: '#ffffff8c',
-        colorTextDisabled: '#ffffff4d',
-        
-        colorBorder: '#424242',
-        colorBorderSecondary: '#303030',
-        
-        boxShadow: '0 2px 8px #0000004d',
-        boxShadowSecondary: '0 4px 12px #0000004d',
-    };
-    
-    const colors = isDark ? darkColors : lightColors;
-    
-    // 使用 antd 預設算法
+export const createThemeConfig = (isDark: boolean): { config: ThemeConfig; tokens: IAntdTokens } => {
+    // 使用 antd 預設算法 - 自動計算所有顏色
     const algorithm = isDark ? theme.darkAlgorithm : theme.defaultAlgorithm;
     
-    // 建立完整的 token（使用 antd 內建默认值 + 自訂顏色）
-    const token: any = {
+    // 只設定需要的 seed token - 其餘顏色由 algorithm 計算
+    // 使用 any 繞過 TypeScript 嚴格檢查，algorithm 會自動填充其餘屬性
+    const seedToken: any = {
         colorPrimary: '#1890ff',
-        colorPrimaryHover: '#40a9ff',
-        colorPrimaryActive: '#096dd9',
-        colorPrimaryBg: '#e6f7ff',
-        colorPrimaryBgHover: '#bae7ff',
-        
-        colorSuccess: '#52c41a',
-        colorWarning: '#faad14',
-        colorError: '#ff4d4f',
-        colorInfo: '#1890ff',
-        
-        ...colors,
-        
         borderRadius: 6,
-        borderRadiusLG: 8,
-        borderRadiusSM: 4,
-        
-        fontSize: 14,
-        fontSizeLG: 16,
-        fontSizeSM: 12,
-        
-        padding: 16,
-        paddingLG: 24,
-        paddingSM: 12,
-        margin: 16,
-        marginLG: 24,
-        marginSM: 12,
     };
     
-    // 應用算法處理顏色
-    const processedToken = algorithm(token);
-    const tokens = tokensToCssVars(processedToken);
+    const config: ThemeConfig = {
+        token: seedToken,
+        algorithm: [
+            algorithm, 
+            // theme.compactAlgorithm,
+        ],
+    };
+    
+    // 應用 algorithm 處理顏色 - 自動生成所有 Design Token
+    // const processedToken = algorithm(seedToken);
+    const globalToken = getDesignToken(config);
+
+    const tokens = tokensToCssVars(globalToken);
+
+    // console.dir(JSON.stringify({
+    //     isDark,
+    //     processedToken,
+    //     tokens,
+    //     globalToken,
+    // }), { depth: null });
+
+    // console.dir(JSON.stringify({
+    //     isDark,
+    //     processedToken,
+    // }), { depth: null });
+
+    //  console.dir(JSON.stringify({
+    //     isDark,
+    //     tokens,
+    // }), { depth: null });
+
+    //  console.dir(JSON.stringify({
+    //     isDark,
+    //     globalToken,
+    // }), { depth: null });
     
     return {
-        config: {
-            token: {
-                colorPrimary: token.colorPrimary,
-                borderRadius: token.borderRadius,
-            },
-            algorithm,
-        },
+        config,
         tokens,
     };
 };
@@ -238,44 +173,18 @@ const ThemeContext = createContext<IThemeContext | undefined>(undefined);
 /**
  * 主題 Provider 元件
  * Theme Provider component
+ * 
+ * 所有顏色統一來自 antd Design Tokens
  */
 export function ThemeProvider({ children }: { children: ReactNode }) {
     const [isDark, setIsDark] = useState(false);
-    const [antdTheme, setAntdTheme] = useState<ThemeConfig>({ token: { colorPrimary: '#1890ff' } });
-    const [antdTokens, setAntdTokens] = useState<IAntdTokens>({
-        colorPrimary: '#1890ff',
-        colorPrimaryHover: '#40a9ff',
-        colorPrimaryActive: '#096dd9',
-        colorPrimaryBg: '#e6f7ff',
-        colorPrimaryBgHover: '#bae7ff',
-        colorSuccess: '#52c41a',
-        colorWarning: '#faad14',
-        colorError: '#ff4d4f',
-        colorInfo: '#1890ff',
-        colorBgContainer: '#ffffff',
-        colorBgElevated: '#ffffff',
-        colorBgLayout: '#fafafa',
-        colorBgSpotlight: '#f5f5f5',
-        colorText: '#000000e0',
-        colorTextSecondary: '#00000073',
-        colorTextDisabled: '#0000003f',
-        colorBorder: '#d9d9d9',
-        colorBorderSecondary: '#f0f0f0',
-        boxShadow: '0 2px 8px #00000026',
-        boxShadowSecondary: '0 4px 12px #00000026',
-        borderRadius: 6,
-        borderRadiusLG: 8,
-        borderRadiusSM: 4,
-        fontSize: 14,
-        fontSizeLG: 16,
-        fontSizeSM: 12,
-        padding: 16,
-        paddingLG: 24,
-        paddingSM: 12,
-        margin: 16,
-        marginLG: 24,
-        marginSM: 12,
+    
+    // 使用空物件作為初始值 - 由 antd algorithm 計算後填充
+    const [antdTheme, setAntdTheme] = useState<ThemeConfig>({
+        token: {},
+        algorithm: theme.defaultAlgorithm,
     });
+    const [antdTokens, setAntdTokens] = useState<IAntdTokens | null>(null);
 
     // 初始化主題配置
     useEffect(() => {
@@ -294,6 +203,8 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
         const { config, tokens } = createThemeConfig(initialDark);
         setAntdTheme(config);
         setAntdTokens(tokens);
+
+        console.log('Initial theme config:', config, initialDark);
     }, []);
 
     // 監聽系統主題變化
@@ -307,6 +218,8 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
                 const { config, tokens } = createThemeConfig(newDark);
                 setAntdTheme(config);
                 setAntdTokens(tokens);
+
+                console.log('System theme changed:', config, newDark);
             }
         };
 
@@ -323,6 +236,8 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
         const { config, tokens } = createThemeConfig(newTheme);
         setAntdTheme(config);
         setAntdTokens(tokens);
+        
+        console.log('Theme toggled:', config, newTheme);
     };
 
     return (
