@@ -97,15 +97,24 @@ export default function FacilityMap() {
         return null;
     };
 
+    /** 篩選器狀態 / Filter state */
+    const [filters, setFilters] = useState({
+        wifi: true,
+        charging: true,
+        userContrib: true,
+        passwordOnly: false,
+        maxDistance: 10000, // meters, default 10km
+        longPressToMove: true, // 右鍵點擊地圖移動定位點（預設開啟）
+    });
+
     /** 右鍵點擊地圖移動定位點 */
     const LongPressHandler = () => {
         const map = useMap();
         
         useEffect(() => {
             const handleContextMenu = (e: L.LeafletMouseEvent) => {
-                // 檢查 checkbox 是否勾選
-                const checkbox = document.querySelector('input[name="longPressToMove"]') as HTMLInputElement;
-                if (checkbox && !checkbox.checked) return;
+                // 檢查功能是否啟用（使用 React state 而非 DOM 選擇器）
+                if (!filters.longPressToMove) return;
                 
                 // 右鍵點擊來移動定位點 - 不觸發自動置中
                 e.originalEvent.preventDefault();
@@ -122,7 +131,7 @@ export default function FacilityMap() {
             return () => {
                 map.off('contextmenu', handleContextMenu);
             };
-        }, [map]);
+        }, [map, filters.longPressToMove]);
         
         return null;
     };
@@ -160,14 +169,6 @@ export default function FacilityMap() {
     const [loading, setLoading] = useState(true);
     const [selectedHotspot, setSelectedHotspot] = useState<IWiFiHotspot | null>(null);
     const [qrCodeUrl, setQrCodeUrl] = useState<string>('');
-    const [filters, setFilters] = useState({
-        wifi: true,
-        charging: true,
-        userContrib: true,
-        passwordOnly: false,
-        maxDistance: 10000, // meters, default 10km
-        longPressToMove: true, // 右鍵點擊地圖移動定位點（預設開啟）
-    });
     const [address, setAddress] = useState<string>(''); // 位置地址
     const [addressLoading, setAddressLoading] = useState<boolean>(false); // 地址查詢載入狀態
     const [locationError, setLocationError] = useState<boolean>(false);

@@ -2,3 +2,9 @@ node_modules
 .codenomad
 tsconfig.tsbuildinfo
 .next
+.idea/*
+!.idea/runConfigurations/
+
+
+test/temp/*
+test/temp*/*
