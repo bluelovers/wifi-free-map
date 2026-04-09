@@ -96,14 +96,10 @@ body {
 .error-panel {
   padding: var(--spacing-sm);
   margin-bottom: var(--spacing-sm);
-  background-color: #ffdddd;
-  color: #333;
+  background-color: var(--color-error);
+  color: var(--text-primary);
   border-radius: var(--border-radius-sm);
-  
-  [data-theme='dark'] & {
-    background-color: #3d2020;
-    color: #ffcccc;
-  }
+  opacity: 0.9;
 }
 
 // ============================================
@@ -235,7 +231,7 @@ body {
   background: var(--color-primary);
   color: white;
   border: none;
-  box-shadow: 0 4px 8px var(--shadow-color);
+  box-shadow: var(--box-shadow);
   cursor: pointer;
   z-index: 1000;
   display: flex;
@@ -274,15 +270,4 @@ body {
   top: var(--spacing-md);
   right: var(--spacing-md);
   z-index: 9999;
-}
-
-// ============================================
-// Root Variables (Legacy support)
-// ============================================
-
-:root {
-  --primary-color: #2196F3;
-  --secondary-color: #4CAF50;
-  --accent-color: #FF9800;
-  --background-color: #FAFAFA;
 }

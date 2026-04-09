@@ -1,10 +1,26 @@
 'use client';
 
+import { useEffect } from 'react';
 import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { ConfigProvider } from "antd";
 import { ThemeProvider, useTheme } from "@/components/ThemeProvider";
 import ThemeToggle from "@/components/ThemeToggle";
 import Head from "next/head";
+
+/**
+ * 將 antd tokens 轉換為 CSS 變數字串
+ * Convert antd tokens to CSS variables string
+ */
+const tokensToCssVariables = (tokens: any): string => {
+    const cssVars = Object.entries(tokens)
+        .map(([key, value]) => {
+            // 將駝峰式轉換為連字符式 (camelCase -> kebab-case)
+            const cssKey = key.replace(/([A-Z])/g, '-$1').toLowerCase();
+            return `--${cssKey}: ${value};`;
+        })
+        .join(' ');
+    return cssVars;
+};
 
 /**
  * 內部 Layout 元件 - 使用 antd ConfigProvider
@@ -15,7 +31,13 @@ function InternalLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const { antdTheme, isDark } = useTheme();
+  const { antdTheme, isDark, antdTokens } = useTheme();
+
+  // 將 antd tokens 應用為 CSS 變數
+  useEffect(() => {
+    const cssVars = tokensToCssVariables(antdTokens);
+    document.documentElement.setAttribute('style', cssVars);
+  }, [antdTokens]);
 
   return (
     <ConfigProvider theme={antdTheme}>

@@ -2,90 +2,154 @@
  * 全域主題變數
  * Global Theme Variables
  * 
- * 使用 CSS 變數實現主題切換
- * Uses CSS variables for theme switching
+ * 使用 antd Design Tokens 動態生成的 CSS 變數
+ * Uses CSS variables generated from antd Design Tokens
+ * 
+ * 這些變數由 ThemeProvider 動態注入
+ * These variables are dynamically injected by ThemeProvider
  */
 
-// 主題變數 - 淺色模式 (預設)
+// ============================================
+// 備用默認值 (當 CSS 變數未設定時使用)
+// Fallback default values (when CSS variables are not set)
+// ============================================
+
+// 主色調
+$color-primary: #1890ff;
+$color-primary-hover: #40a9ff;
+$color-primary-active: #096dd9;
+
+// 輔助色
+$color-success: #52c41a;
+$color-warning: #faad14;
+$color-error: #ff4d4f;
+$color-info: #1890ff;
+
+// 背景色
+$bg-primary: #fafafa;
+$bg-secondary: #ffffff;
+$bg-elevated: #ffffff;
+$bg-container: #ffffff;
+
+// 文字色
+$text-primary: #000000e0;
+$text-secondary: #00000073;
+$text-disabled: #0000003f;
+
+// 邊框色
+$border-color: #d9d9d9;
+$border-color-hover: #40a9ff;
+
+// 陰影
+$shadow-color: rgba(0, 0, 0, 0.15);
+$box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+// 圓角
+$border-radius: 6px;
+$border-radius-sm: 4px;
+$border-radius-lg: 8px;
+
+// 字體大小
+$font-size-sm: 12px;
+$font-size-base: 14px;
+$font-size-lg: 16px;
+
+// 間距
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 12px;
+$spacing-lg: 16px;
+$spacing-xl: 24px;
+
+// 動畫
+$transition-duration: 0.3s;
+
+// ============================================
+// CSS 變數映射 (使用 antd tokens)
+// CSS variable mapping (using antd tokens)
+// ============================================
+
 :root {
-  // 背景顏色
-  --bg-primary: #fafafa;
-  --bg-secondary: #ffffff;
-  --bg-elevated: #ffffff;
-  --bg-container: #ffffff;
+  // 主色調 - 來自 antd colorPrimary
+  --color-primary: #{$color-primary};
+  --color-primary-hover: #{$color-primary-hover};
+  --color-primary-active: #{$color-primary-active};
   
-  // 文字顏色
-  --text-primary: #000000;
-  --text-secondary: rgba(0, 0, 0, 0.45);
-  --text-disabled: rgba(0, 0, 0, 0.25);
+  // 輔助色 - 來自 antd colorSuccess/Warning/Error/Info
+  --color-success: #{$color-success};
+  --color-warning: #{$color-warning};
+  --color-error: #{$color-error};
+  --color-info: #{$color-info};
   
-  // 邊框顏色
-  --border-color: #d9d9d9;
-  --border-color-hover: #40a9ff;
+  // 背景色 - 來自 antd colorBg*
+  --bg-primary: #{$bg-primary};
+  --bg-secondary: #{$bg-secondary};
+  --bg-elevated: #{$bg-elevated};
+  --bg-container: #{$bg-container};
   
-  // 主色調
-  --color-primary: #1890ff;
-  --color-primary-hover: #40a9ff;
-  --color-primary-active: #096dd9;
+  // 文字色 - 來自 antd colorText*
+  --text-primary: #{$text-primary};
+  --text-secondary: #{$text-secondary};
+  --text-disabled: #{$text-disabled};
   
-  // 輔助色
-  --color-success: #52c41a;
-  --color-warning: #faad14;
-  --color-error: #ff4d4f;
-  --color-info: #1890ff;
+  // 邊框色 - 來自 antd colorBorder
+  --border-color: #{$border-color};
+  --border-color-hover: #{$border-color-hover};
   
   // 特殊用途
   --accent-color: #ff9800;
   --overlay-bg: rgba(0, 0, 0, 0.5);
   
   // 陰影
-  --shadow-color: rgba(0, 0, 0, 0.15);
-  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  --shadow-color: #{$shadow-color};
+  --box-shadow: #{$box-shadow};
   
   // 圓角
-  --border-radius: 6px;
-  --border-radius-sm: 4px;
-  --border-radius-lg: 8px;
+  --border-radius: #{$border-radius};
+  --border-radius-sm: #{$border-radius-sm};
+  --border-radius-lg: #{$border-radius-lg};
   
   // 字體大小
-  --font-size-sm: 12px;
-  --font-size-base: 14px;
-  --font-size-lg: 16px;
+  --font-size-sm: #{$font-size-sm};
+  --font-size-base: #{$font-size-base};
+  --font-size-lg: #{$font-size-lg};
   
   // 間距
-  --spacing-xs: 4px;
-  --spacing-sm: 8px;
-  --spacing-md: 12px;
-  --spacing-lg: 16px;
-  --spacing-xl: 24px;
+  --spacing-xs: #{$spacing-xs};
+  --spacing-sm: #{$spacing-sm};
+  --spacing-md: #{$spacing-md};
+  --spacing-lg: #{$spacing-lg};
+  --spacing-xl: #{$spacing-xl};
   
   // 動畫
-  --transition-duration: 0.3s;
+  --transition-duration: #{$transition-duration};
 }
 
-// 深色模式
+// ============================================
+// 深色模式覆蓋 (當 CSS 變數被覆蓋時)
+// Dark mode override (when CSS variables are overridden)
+// ============================================
+
 [data-theme='dark'] {
+  // 這些值會被 ClientLayout 動態注入的 antd tokens 覆蓋
+  // These values will be overridden by antd tokens dynamically injected in ClientLayout
+  
+  // 背景色
   --bg-primary: #141414;
   --bg-secondary: #1f1f1f;
   --bg-elevated: #1f1f1f;
   --bg-container: #1f1f1f;
   
+  // 文字色
   --text-primary: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.65);
   --text-disabled: rgba(255, 255, 255, 0.25);
   
+  // 邊框色
   --border-color: #424242;
   --border-color-hover: #40a9ff;
   
-  --color-primary: #177ddc;
-  --color-primary-hover: #40a9ff;
-  --color-primary-active: #096dd9;
-  
-  --color-success: #49aa19;
-  --color-warning: #d48806;
-  --color-error: #a8071a;
-  --color-info: #177ddc;
-  
+  // 陰影
   --shadow-color: rgba(0, 0, 0, 0.3);
   --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
