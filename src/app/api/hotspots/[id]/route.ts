@@ -19,26 +19,31 @@ async function getDB(): Promise<IDBPDatabase<any>> {
   });
 }
 
-export async function PUT(request: Request, { params }: { params: { id: string } }) {
+export async function PUT(request: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const id = params.id;
+    const { id } = await params;
     const body = await request.json();
     // 簡易驗證：必須包含 id 與其他欄位
     if (!id || !body) {
-      return NextResponse.json({ success: false, message: 'Invalid payload' }, { status: 400 });
+        return NextResponse.json({ success: false, message: 'Invalid payload' }, { status: 400 });
     }
     const db = await getDB();
     const cached = await db.get(STORE_NAME, 'latest');
     const data: Hotspot[] = cached?.data ?? [];
-    const index = data.findIndex((h) => h.id === id);
+    
+    // 關鍵修復 (更強強制): 明確指定 h 的型別，再使用 Type Predicate Guard
+    const index = data.findIndex((h: Hotspot): h is Hotspot => h.id === id);
+    
     if (index === -1) {
-      return NextResponse.json({ success: false, message: 'Hotspot not found' }, { status: 404 });
+        return NextResponse.json({ success: false, message: 'Hotspot not found', id: id }, { status: 404 });
     }
-    // 合併更新欄位
+    // 合併更新欄位 (TypeScript 現在應完全信任 data[index] 具有 id 屬性)
     const updated = { ...data[index], ...body } as Hotspot;
     data[index] = updated;
+    
     // 更新快取並保留 timestamp
     await db.put(STORE_NAME, { timestamp: Date.now(), data }, 'latest');
+    
     return NextResponse.json({ success: true, data: updated });
   } catch (e) {
     console.error('更新熱點失敗', e);

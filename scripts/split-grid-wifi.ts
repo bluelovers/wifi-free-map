@@ -122,7 +122,7 @@ async function main() {
     console.log(`載入 ${wifiData.length} 筆 Wi-Fi 熱點資料`);
 
     // 建立輸出目錄
-    const outDir = resolve(__dirname, "../public/data/grid");
+    const outDir = resolve(__dirname, "../public/data/grid-wifi");
     await mkdir(outDir, { recursive: true });
 
     // 建立區塊索引

@@ -104,7 +104,7 @@ async function main() {
     console.log(`載入 ${chargingData.length} 筆充電站資料`);
 
     // 建立輸出目錄
-    const outDir = resolve(__dirname, "../public/data/charging-grid");
+    const outDir = resolve(__dirname, "../public/data/grid-charging");
     await mkdir(outDir, { recursive: true });
 
     // 建立區塊索引（僅用於充電站）

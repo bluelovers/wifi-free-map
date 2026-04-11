@@ -4,7 +4,7 @@
   "description": "免費 WiFi 與充電設施地圖服務",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --experimental-https",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

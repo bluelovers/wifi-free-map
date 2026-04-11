@@ -8,3 +8,6 @@ tsconfig.tsbuildinfo
 
 test/temp/*
 test/temp*/*
+
+certificates
+.tmp/

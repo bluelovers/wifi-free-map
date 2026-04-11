@@ -1,6 +1,11 @@
 /**
  * 熱點編輯表單元件
  * Hotspot edit form component
+ * 
+ * 使用 antd v6 + Next.js 最佳實作：
+ * - 使用 Form.useForm() 管理表單狀態
+ * - 使用 rules 進行表單驗證
+ * - 使用 initialValues 初始化表單資料
  */
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
@@ -8,9 +13,9 @@ import { Form, Input, Button, InputNumber, Space } from 'antd';
 import type { IWiFiHotspot } from '@/types';
 
 /**
- * 表單欄位定義（與新增表單相同）
+ * 表單欄位定義
  */
-interface IFormData {
+interface IFormValues {
   /** 熱點 ID */
   id: string;
   /** 熱點名稱 */
@@ -36,35 +41,21 @@ export default function EditHotspotForm({
   /** 關閉表單的回呼 */
   onClose: () => void;
 }) {
-  const [form, setForm] = useState<IFormData>({
-    id: hotspot.id,
-    name: hotspot.name,
-    ssid: hotspot.ssid,
-    password: hotspot.password ?? '',
-    lat: hotspot.location.lat,
-    lng: hotspot.location.lng,
-    address: hotspot.location.address ?? '',
-  });
+  const [form] = Form.useForm<IFormValues>();
   const [submitting, setSubmitting] = useState(false);
   const router = useRouter();
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    setForm((prev) => ({
-      ...prev,
-      [name]:
-        name === 'lat' || name === 'lng' ? Number(value) : value,
-    }));
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  /**
+   * 處理表單提交
+   * Handle form submission
+   */
+  const handleSubmit = async (values: IFormValues) => {
     setSubmitting(true);
     try {
-      const res = await fetch(`/api/hotspots/${form.id}/route`, {
+      const res = await fetch(`/api/hotspots/${values.id}/route`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+        body: JSON.stringify(values),
       });
       const data = await res.json();
       if (data.success) {
@@ -85,29 +76,54 @@ export default function EditHotspotForm({
     <div className="modal-overlay">
       <div className="modal-content">
         <h3>編輯熱點</h3>
-        <Form layout="vertical" onFinish={handleSubmit}>
-          <Form.Item label="名稱" name="name" rules={[{ required: true }]}>
-            <Input value={form.name} onChange={handleChange} />
+        <Form
+          form={form}
+          layout="vertical"
+          onFinish={handleSubmit}
+          initialValues={{
+            id: hotspot.id,
+            name: hotspot.name,
+            ssid: hotspot.ssid,
+            password: hotspot.password ?? '',
+            lat: hotspot.location.lat,
+            lng: hotspot.location.lng,
+            address: hotspot.location.address ?? '',
+          }}
+        >
+          <Form.Item label="名稱" name="name" rules={[{ required: true, message: '請輸入熱點名稱' }]}>
+            <Input placeholder="請輸入熱點名稱" />
           </Form.Item>
-          <Form.Item label="SSID" name="ssid" rules={[{ required: true }]}>
-            <Input value={form.ssid} onChange={handleChange} />
+          <Form.Item label="SSID" name="ssid" rules={[{ required: true, message: '請輸入 SSID' }]}>
+            <Input placeholder="請輸入 SSID" />
           </Form.Item>
           <Form.Item label="密碼（可選）" name="password">
-            <Input.Password value={form.password} onChange={handleChange} />
+            <Input.Password placeholder="請輸入密碼（可選）" />
           </Form.Item>
           <Space className="form-container" size="middle">
-            <Form.Item label="緯度" name="lat" rules={[{ required: true }]} style={{ flex: 1 }}>
-              <InputNumber step="any" value={form.lat} onChange={(value) => handleChange({ target: { name: 'lat', value } } as any)} style={{ width: '100%' }} />
+            <Form.Item
+              label="緯度"
+              name="lat"
+              rules={[{ required: true, message: '請輸入緯度' }]}
+              style={{ flex: 1 }}
+            >
+              <InputNumber step="any" style={{ width: '100%' }} placeholder="請輸入緯度" />
             </Form.Item>
-            <Form.Item label="經度" name="lng" rules={[{ required: true }]} style={{ flex: 1 }}>
-              <InputNumber step="any" value={form.lng} onChange={(value) => handleChange({ target: { name: 'lng', value } } as any)} style={{ width: '100%' }} />
+            <Form.Item
+              label="經度"
+              name="lng"
+              rules={[{ required: true, message: '請輸入經度' }]}
+              style={{ flex: 1 }}
+            >
+              <InputNumber step="any" style={{ width: '100%' }} placeholder="請輸入經度" />
             </Form.Item>
           </Space>
           <Form.Item label="地址（可選）" name="address">
-            <Input value={form.address} onChange={handleChange} />
+            <Input placeholder="請輸入地址（可選）" />
           </Form.Item>
           <Space className="form-actions">
-            <Button onClick={onClose} disabled={submitting}>取消</Button>
+            <Button onClick={onClose} disabled={submitting}>
+              取消
+            </Button>
             <Button type="primary" htmlType="submit" loading={submitting}>
               {submitting ? '更新中...' : '送出'}
             </Button>

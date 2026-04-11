@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import { AntdRegistry } from "@ant-design/nextjs-registry";
-import { ConfigProvider } from "antd";
+import { ConfigProvider, Layout } from "antd";
 import { createThemeConfig, ThemeProvider, useTheme } from "@/components/ThemeProvider";
 import ThemeToggle from "@/components/ThemeToggle";
 import Head from "next/head";
@@ -54,7 +54,9 @@ function InternalLayout({
           <link rel="manifest" href="/manifest.json" />
         </Head>
         <body>
-          <AntdRegistry>
+        
+          
+            <Layout>
             {/* 主題切換按鈕 */}
             <div
               style={{
@@ -67,7 +69,7 @@ function InternalLayout({
               <ThemeToggle />
             </div>
             {children}
-          </AntdRegistry>
+            </Layout>
         </body>
       </html>
     </ConfigProvider>
@@ -84,8 +86,10 @@ export default function ClientLayout({
   children: React.ReactNode;
 }) {
   return (
+    <AntdRegistry>
     <ThemeProvider>
       <InternalLayout>{children}</InternalLayout>
     </ThemeProvider>
+    </AntdRegistry>
   );
 }

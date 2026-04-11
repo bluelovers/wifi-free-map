@@ -11,6 +11,7 @@
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { ThemeConfig, theme } from 'antd';
+import { AliasToken } from 'antd/es/theme/interface';
 
 const { getDesignToken, useToken } = theme;
 
@@ -73,7 +74,7 @@ interface IThemeContext {
  * 
  * 映射 antd token 名稱到自訂 SCSS 變數名稱
  */
-const tokensToCssVars = (token: any): IAntdTokens => ({
+const tokensToCssVars = (token: AliasToken): IAntdTokens => ({
     // 主色調
     colorPrimary: token.colorPrimary,
     colorPrimaryHover: token.colorPrimaryHover || token.colorPrimary,
@@ -120,9 +121,10 @@ export const createThemeConfig = (isDark: boolean): { config: ThemeConfig; token
     
     // 只設定需要的 seed token - 其餘顏色由 algorithm 計算
     // 使用 any 繞過 TypeScript 嚴格檢查，algorithm 會自動填充其餘屬性
-    const seedToken: any = {
+    const seedToken: Partial<AliasToken> = {
         colorPrimary: '#1890ff',
         borderRadius: 6,
+        colorBgBase: isDark ? '#052335' : '#ffffff',
     };
     
     const config: ThemeConfig = {
