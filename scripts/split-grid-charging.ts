@@ -8,87 +8,17 @@
 import { writeFile, mkdir } from "fs/promises";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
-import { existsSync, readFileSync } from "fs";
+import { readFileSync } from "fs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-/** 區塊大小（萬華區的座標範圍） */
-const BLOCK_SIZE = 0.0306959;
-
-/** 全台灣座標範圍 */
-const TAIWAN_BOUNDS = {
-    minLat: 21.903126,
-    maxLat: 26.3758,
-    minLng: 118.2257211,
-    maxLng: 121.948,
-};
-
-/**
- * 計算某個經緯度所屬的區塊索引
- */
-function getBlockIndex(lat: number, lng: number): { row: number; col: number } {
-    const row = Math.floor((lat - TAIWAN_BOUNDS.minLat) / BLOCK_SIZE);
-    const col = Math.floor((lng - TAIWAN_BOUNDS.minLng) / BLOCK_SIZE);
-    return { row, col };
-}
-
-/**
- * 計算區塊的中心點座標
- */
-function getBlockCenter(row: number, col: number): { lat: number; lng: number } {
-    const lat = TAIWAN_BOUNDS.minLat + (row + 0.5) * BLOCK_SIZE;
-    const lng = TAIWAN_BOUNDS.minLng + (col + 0.5) * BLOCK_SIZE;
-    return { lat, lng };
-}
-
-/**
- * 計算區塊的四角座標點
- */
-function getBlockBounds(row: number, col: number): {
-    northWest: { lat: number; lng: number };
-    northEast: { lat: number; lng: number };
-    southWest: { lat: number; lng: number };
-    southEast: { lat: number; lng: number };
-} {
-    const north = TAIWAN_BOUNDS.minLat + (row + 1) * BLOCK_SIZE;
-    const south = TAIWAN_BOUNDS.minLat + row * BLOCK_SIZE;
-    const east = TAIWAN_BOUNDS.minLng + (col + 1) * BLOCK_SIZE;
-    const west = TAIWAN_BOUNDS.minLng + col * BLOCK_SIZE;
-
-    return {
-        northWest: { lat: north, lng: west },
-        northEast: { lat: north, lng: east },
-        southWest: { lat: south, lng: west },
-        southEast: { lat: south, lng: east },
-    };
-}
-
-/**
- * 從地址中提取各部分
- */
-function extractLocationInfo(address: string): { zipCode: string; city: string; district: string; road: string } {
-    if (!address) return { zipCode: "", city: "", district: "", road: "" };
-
-    // 清理地址（移除換行符號）
-    const cleanAddress = address.replace(/\n/g, " ").trim();
-
-    const zipMatch = cleanAddress.match(/^(\d{3,5})/);
-    const zipCode = zipMatch ? zipMatch[1] : "";
-
-    const cityMatch = cleanAddress.match(/([^\d\s]+(?:市|縣))/);
-    const city = cityMatch ? cityMatch[1] : "";
-
-    let remaining = cleanAddress;
-    if (city) remaining = cleanAddress.replace(city, "");
-    const districtMatch = remaining.match(/([^\d\s]+(?:區|市|鎮|鄉))/);
-    const district = districtMatch ? districtMatch[1] : "";
-
-    const roadMatch = cleanAddress.match(/[^\d\s]+(?:路|街|大道)[一二三四五六七八九十]*(?:段)?/);
-    const road = roadMatch ? roadMatch[0] : "";
-
-    return { zipCode, city, district, road };
-}
+import {
+    getBlockIndex,
+    getBlockCenter,
+    getBlockBounds,
+    extractLocationInfo,
+} from "./utils/grid-utils.js";
 
 /**
  * 主執行函式
