@@ -25,13 +25,14 @@ import { mapRawToHotspot } from "../types/hotspot";
  * @param raw - 原始資料物件
  * @returns 轉換後的 Hotspot 物件
  */
-export function convertWiFiRaw(raw: RawHotspot): Hotspot {
-    return {
-        name: raw.Name ?? "",
-        lat: Number(raw.Latitude) || 0,
-        lng: Number(raw.Longitude) || 0,
-        address: raw.Address ?? "",
-    };
+export function convertWiFiRaw(raw: RawHotspot): Hotspot
+{
+	return {
+		name: raw.Name ?? "",
+		lat: Number(raw.Latitude) || 0,
+		lng: Number(raw.Longitude) || 0,
+		address: raw.Address ?? "",
+	};
 }
 
 /**
@@ -41,8 +42,9 @@ export function convertWiFiRaw(raw: RawHotspot): Hotspot {
  * @param rawData - 原始資料陣列
  * @returns 轉換後的 Hotspot 陣列
  */
-export function convertWiFiArray(rawData: RawHotspot[]): Hotspot[] {
-    return rawData.map(convertWiFiRaw).filter((item) => item.name && (item.lat !== 0 || item.lng !== 0));
+export function convertWiFiArray(rawData: RawHotspot[]): Hotspot[]
+{
+	return rawData.map(convertWiFiRaw).filter((item) => item.name && (item.lat !== 0 || item.lng !== 0));
 }
 
 // ==================== 充電站轉換 ====================
@@ -57,13 +59,14 @@ export function convertWiFiArray(rawData: RawHotspot[]): Hotspot[] {
  * @param raw - 原始資料物件
  * @returns 轉換後的 ChargingStation 物件
  */
-export function convertChargingRaw(raw: RawChargingStation): ChargingStation {
-    return {
-        name: raw["充電站名稱"] ?? "",
-        lat: Number(raw["緯度"]) || 0,
-        lng: Number(raw["經度"]) || 0,
-        address: raw["地址"] ?? "",
-    };
+export function convertChargingRaw(raw: RawChargingStation): ChargingStation
+{
+	return {
+		name: raw["充電站名稱"] ?? "",
+		lat: Number(raw["緯度"]) || 0,
+		lng: Number(raw["經度"]) || 0,
+		address: raw["地址"] ?? "",
+	};
 }
 
 /**
@@ -73,10 +76,11 @@ export function convertChargingRaw(raw: RawChargingStation): ChargingStation {
  * @param rawData - 原始資料陣列
  * @returns 轉換後的 ChargingStation 陣列
  */
-export function convertChargingArray(rawData: RawChargingStation[]): ChargingStation[] {
-    return rawData.map(convertChargingRaw).filter(
-        (item) => item.name && (item.lat !== 0 || item.lng !== 0)
-    );
+export function convertChargingArray(rawData: RawChargingStation[]): ChargingStation[]
+{
+	return rawData.map(convertChargingRaw).filter(
+		(item) => item.name && (item.lat !== 0 || item.lng !== 0),
+	);
 }
 
 // ==================== 檔案 I/O 函式 ====================
@@ -88,10 +92,11 @@ export function convertChargingArray(rawData: RawChargingStation[]): ChargingSta
  * @param filePath - JSON 檔案路徑
  * @returns 轉換後的 Hotspot 陣列
  */
-export async function readAndConvertWiFi(filePath: string): Promise<Hotspot[]> {
-    const rawContent = await readFile(filePath, "utf-8");
-    const rawData: RawHotspot[] = JSON.parse(rawContent);
-    return convertWiFiArray(rawData);
+export async function readAndConvertWiFi(filePath: string): Promise<Hotspot[]>
+{
+	const rawContent = await readFile(filePath, "utf-8");
+	const rawData: RawHotspot[] = JSON.parse(rawContent);
+	return convertWiFiArray(rawData);
 }
 
 /**
@@ -101,10 +106,11 @@ export async function readAndConvertWiFi(filePath: string): Promise<Hotspot[]> {
  * @param filePath - JSON 檔案路徑
  * @returns 轉換後的 ChargingStation 陣列
  */
-export async function readAndConvertCharging(filePath: string): Promise<ChargingStation[]> {
-    const rawContent = await readFile(filePath, "utf-8");
-    const rawData: RawChargingStation[] = JSON.parse(rawContent);
-    return convertChargingArray(rawData);
+export async function readAndConvertCharging(filePath: string): Promise<ChargingStation[]>
+{
+	const rawContent = await readFile(filePath, "utf-8");
+	const rawData: RawChargingStation[] = JSON.parse(rawContent);
+	return convertChargingArray(rawData);
 }
 
 /**
@@ -136,8 +142,9 @@ export const DEFAULT_INPUT_DIR = resolve(PROJECT_ROOT, "public/data");
  * @param isRaw - 是否為原始檔案
  * @returns 檔案路徑
  */
-export function getOutputPath(type: "wifi" | "charging", isRaw: boolean = false): string {
-    const prefix = type === "wifi" ? "wifi-hotspots" : "charging-stations";
-    const suffix = isRaw ? "-raw" : "";
-    return resolve(DEFAULT_OUTPUT_DIR, `${prefix}${suffix}.json`);
+export function getOutputPath(type: "wifi" | "charging", isRaw: boolean = false): string
+{
+	const prefix = type === "wifi" ? "wifi-hotspots" : "charging-stations";
+	const suffix = isRaw ? "-raw" : "";
+	return resolve(DEFAULT_OUTPUT_DIR, `${prefix}${suffix}.json`);
 }

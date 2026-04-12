@@ -11,21 +11,21 @@ import type { IWiFiHotspot } from '@/types';
  * @returns QR Code Data URL
  */
 export async function generateWiFiQRCode(
-    ssid: string,
-    password: string,
-    encryption: 'WPA' | 'WEP' | 'nopass' = 'WPA'
+	ssid: string,
+	password: string,
+	encryption: 'WPA' | 'WEP' | 'nopass' = 'WPA',
 ): Promise<string>
 {
-    // WiFi QR Code 格式: WIFI:T:WPA;S:SSID;P:PASSWORD;;
-    const wifiString = ` WIFI:T:${encryption};S:${ssid};P:${password};;`;
-    return QRCode.toDataURL(wifiString, {
-        width: 200,
-        margin: 2,
-        color: {
-            dark: '#000000',
-            light: '#FFFFFF',
-        },
-    });
+	// WiFi QR Code 格式: WIFI:T:WPA;S:SSID;P:PASSWORD;;
+	const wifiString = ` WIFI:T:${encryption};S:${ssid};P:${password};;`;
+	return QRCode.toDataURL(wifiString, {
+		width: 200,
+		margin: 2,
+		color: {
+			dark: '#000000',
+			light: '#FFFFFF',
+		},
+	});
 }
 
 /**
@@ -38,11 +38,11 @@ export async function generateWiFiQRCode(
  */
 export function generateAndroidWiFiLink(ssid: string, password: string): string
 {
-    // 編碼 SSID 和密碼
-    const encodedSSID = encodeURIComponent(ssid);
-    const encodedPassword = encodeURIComponent(password);
+	// 編碼 SSID 和密碼
+	const encodedSSID = encodeURIComponent(ssid);
+	const encodedPassword = encodeURIComponent(password);
 
-    return `WIFI:T:WPA;S:${encodedSSID};P:${encodedPassword};;`;
+	return `WIFI:T:WPA;S:${encodedSSID};P:${encodedPassword};;`;
 }
 
 /**
@@ -54,11 +54,11 @@ export function generateAndroidWiFiLink(ssid: string, password: string): string
  * @returns 連線資訊物件
  */
 export function generateiOSWiFiInfo(ssid: string, password: string): {
-    ssid: string;
-    password: string;
+	ssid: string;
+	password: string;
 }
 {
-    return { ssid, password };
+	return { ssid, password };
 }
 
 /**
@@ -72,24 +72,24 @@ export function generateiOSWiFiInfo(ssid: string, password: string): {
  * @returns 距離（公尺）
  */
 export function calculateDistance(
-    lat1: number,
-    lng1: number,
-    lat2: number,
-    lng2: number
+	lat1: number,
+	lng1: number,
+	lat2: number,
+	lng2: number,
 ): number
 {
-    const R = 6371e3; // 地球半徑（公尺）
-    const φ1 = (lat1 * Math.PI) / 180;
-    const φ2 = (lat2 * Math.PI) / 180;
-    const Δφ = ((lat2 - lat1) * Math.PI) / 180;
-    const Δλ = ((lng2 - lng1) * Math.PI) / 180;
+	const R = 6371e3; // 地球半徑（公尺）
+	const φ1 = (lat1 * Math.PI) / 180;
+	const φ2 = (lat2 * Math.PI) / 180;
+	const Δφ = ((lat2 - lat1) * Math.PI) / 180;
+	const Δλ = ((lng2 - lng1) * Math.PI) / 180;
 
-    const a =
-        Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
-        Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+	const a =
+		Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+		Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+	const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
-    return R * c; // 距離（公尺）
+	return R * c; // 距離（公尺）
 }
 
 /**
@@ -102,14 +102,15 @@ export function calculateDistance(
  * @returns 排序後的熱點陣列
  */
 export function sortHotspotsByDistance(
-    hotspots: IWiFiHotspot[],
-    userLat: number,
-    userLng: number
+	hotspots: IWiFiHotspot[],
+	userLat: number,
+	userLng: number,
 ): IWiFiHotspot[]
 {
-    return [...hotspots].sort((a, b) => {
-        const distA = calculateDistance(userLat, userLng, a.location.lat, a.location.lng);
-        const distB = calculateDistance(userLat, userLng, b.location.lat, b.location.lng);
-        return distA - distB;
-    });
+	return [...hotspots].sort((a, b) =>
+	{
+		const distA = calculateDistance(userLat, userLng, a.location.lat, a.location.lng);
+		const distB = calculateDistance(userLat, userLng, b.location.lat, b.location.lng);
+		return distA - distB;
+	});
 }

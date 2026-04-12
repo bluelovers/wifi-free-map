@@ -5,39 +5,42 @@
  * 注意：此類型對應 transform.ts 中 convertChargingRaw 使用的鍵名格式（中文鍵名）
  * Note: This type corresponds to the key format (Chinese keys) used by convertChargingRaw in transform.ts
  */
-export interface RawChargingStation {
-  /** 站點名稱 */
-  // Station name
-  "充電站名稱": string;
-  /** 緯度 */
-  // Latitude
-  "緯度": string;
-  /** 經度 */
-  // Longitude
-  "經度": string;
-  /** 地址 */
-  // Address
-  "地址": string;
-  [key: string]: any; // 其他欄位保留
+export interface RawChargingStation
+{
+	/** 站點名稱 */
+	// Station name
+	"充電站名稱": string;
+	/** 緯度 */
+	// Latitude
+	"緯度": string;
+	/** 經度 */
+	// Longitude
+	"經度": string;
+	/** 地址 */
+	// Address
+	"地址": string;
+
+	[key: string]: any; // 其他欄位保留
 }
 
 /**
  * 過濾後的充電站型別，供前端使用
  * Filtered charging‑station type for front‑end consumption.
  */
-export interface ChargingStation {
-  /** 站點名稱 */
-  // Station name
-  name: string;
-  /** 緯度 */
-  // Latitude
-  lat: number;
-  /** 經度 */
-  // Longitude
-  lng: number;
-  /** 地址 */
-  // Address
-  address: string;
+export interface ChargingStation
+{
+	/** 站點名稱 */
+	// Station name
+	name: string;
+	/** 緯度 */
+	// Latitude
+	lat: number;
+	/** 經度 */
+	// Longitude
+	lng: number;
+	/** 地址 */
+	// Address
+	address: string;
 }
 
 /**
@@ -55,7 +58,9 @@ export interface ChargingStation {
  * This function now delegates to convertChargingRaw from lib/transform to ensure consistent key mapping.
  */
 import { convertChargingRaw } from "../lib/transform";
-export function mapRawToCharging(raw: RawChargingStation): ChargingStation {
-  // 保持相容性，直接呼叫新的實作
-  return convertChargingRaw(raw);
+
+export function mapRawToCharging(raw: RawChargingStation): ChargingStation
+{
+	// 保持相容性，直接呼叫新的實作
+	return convertChargingRaw(raw);
 }

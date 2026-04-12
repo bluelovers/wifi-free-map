@@ -7,32 +7,32 @@ import type { IWiFiHotspot, IChargingStation } from '@/types';
  */
 interface IWiFiFreeMapDB extends DBSchema
 {
-    /** WiFi 熱點儲存 / WiFi hotspots store */
-    hotspots: {
-        key: string;
-        value: IWiFiHotspot;
-        indexes: {
-            'by-source': string;
-            'by-createdAt': Date;
-        };
-    };
-    /** 充電設施儲存 / Charging stations store */
-    chargingStations: {
-        key: string;
-        value: IChargingStation;
-        indexes: {
-            'by-type': string;
-        };
-    };
-    /** 快取元資料 / Cache metadata */
-    cache: {
-        key: string;
-        value: {
-            key: string;
-            timestamp: Date;
-            data: unknown;
-        };
-    };
+	/** WiFi 熱點儲存 / WiFi hotspots store */
+	hotspots: {
+		key: string;
+		value: IWiFiHotspot;
+		indexes: {
+			'by-source': string;
+			'by-createdAt': Date;
+		};
+	};
+	/** 充電設施儲存 / Charging stations store */
+	chargingStations: {
+		key: string;
+		value: IChargingStation;
+		indexes: {
+			'by-type': string;
+		};
+	};
+	/** 快取元資料 / Cache metadata */
+	cache: {
+		key: string;
+		value: {
+			key: string;
+			timestamp: Date;
+			data: unknown;
+		};
+	};
 }
 
 /** 資料庫名稱 / Database name */
@@ -48,37 +48,37 @@ const DB_VERSION = 1;
  */
 export async function openDatabase(): Promise<IDBPDatabase<IWiFiFreeMapDB>>
 {
-    return openDB<IWiFiFreeMapDB>(DB_NAME, DB_VERSION, {
-        upgrade(db)
-        {
-            // 建立 WiFi 熱點儲存
-            if (!db.objectStoreNames.contains('hotspots'))
-            {
-                const hotspotStore = db.createObjectStore('hotspots', {
-                    keyPath: 'id',
-                });
-                hotspotStore.createIndex('by-source', 'source');
-                hotspotStore.createIndex('by-createdAt', 'createdAt');
-            }
+	return openDB<IWiFiFreeMapDB>(DB_NAME, DB_VERSION, {
+		upgrade(db)
+		{
+			// 建立 WiFi 熱點儲存
+			if (!db.objectStoreNames.contains('hotspots'))
+			{
+				const hotspotStore = db.createObjectStore('hotspots', {
+					keyPath: 'id',
+				});
+				hotspotStore.createIndex('by-source', 'source');
+				hotspotStore.createIndex('by-createdAt', 'createdAt');
+			}
 
-            // 建立充電設施儲存
-            if (!db.objectStoreNames.contains('chargingStations'))
-            {
-                const chargingStore = db.createObjectStore('chargingStations', {
-                    keyPath: 'id',
-                });
-                chargingStore.createIndex('by-type', 'type');
-            }
+			// 建立充電設施儲存
+			if (!db.objectStoreNames.contains('chargingStations'))
+			{
+				const chargingStore = db.createObjectStore('chargingStations', {
+					keyPath: 'id',
+				});
+				chargingStore.createIndex('by-type', 'type');
+			}
 
-            // 建立快取儲存
-            if (!db.objectStoreNames.contains('cache'))
-            {
-                db.createObjectStore('cache', {
-                    keyPath: 'key',
-                });
-            }
-        },
-    });
+			// 建立快取儲存
+			if (!db.objectStoreNames.contains('cache'))
+			{
+				db.createObjectStore('cache', {
+					keyPath: 'key',
+				});
+			}
+		},
+	});
 }
 
 /**
@@ -89,8 +89,8 @@ export async function openDatabase(): Promise<IDBPDatabase<IWiFiFreeMapDB>>
  */
 export async function saveHotspot(hotspot: IWiFiHotspot): Promise<void>
 {
-    const db = await openDatabase();
-    await db.put('hotspots', hotspot);
+	const db = await openDatabase();
+	await db.put('hotspots', hotspot);
 }
 
 /**
@@ -101,8 +101,8 @@ export async function saveHotspot(hotspot: IWiFiHotspot): Promise<void>
  */
 export async function getAllHotspots(): Promise<IWiFiHotspot[]>
 {
-    const db = await openDatabase();
-    return db.getAll('hotspots');
+	const db = await openDatabase();
+	return db.getAll('hotspots');
 }
 
 /**
@@ -113,11 +113,11 @@ export async function getAllHotspots(): Promise<IWiFiHotspot[]>
  * @returns WiFi 熱點陣列
  */
 export async function getHotspotsBySource(
-    source: 'itaiwan' | 'user_contributed'
+	source: 'itaiwan' | 'user_contributed',
 ): Promise<IWiFiHotspot[]>
 {
-    const db = await openDatabase();
-    return db.getAllFromIndex('hotspots', 'by-source', source);
+	const db = await openDatabase();
+	return db.getAllFromIndex('hotspots', 'by-source', source);
 }
 
 /**
@@ -128,8 +128,8 @@ export async function getHotspotsBySource(
  */
 export async function saveChargingStation(station: IChargingStation): Promise<void>
 {
-    const db = await openDatabase();
-    await db.put('chargingStations', station);
+	const db = await openDatabase();
+	await db.put('chargingStations', station);
 }
 
 /**
@@ -140,8 +140,8 @@ export async function saveChargingStation(station: IChargingStation): Promise<vo
  */
 export async function getAllChargingStations(): Promise<IChargingStation[]>
 {
-    const db = await openDatabase();
-    return db.getAll('chargingStations');
+	const db = await openDatabase();
+	return db.getAll('chargingStations');
 }
 
 /**
@@ -153,12 +153,12 @@ export async function getAllChargingStations(): Promise<IChargingStation[]>
  */
 export async function saveCache(key: string, data: unknown): Promise<void>
 {
-    const db = await openDatabase();
-    await db.put('cache', {
-        key,
-        timestamp: new Date(),
-        data,
-    });
+	const db = await openDatabase();
+	await db.put('cache', {
+		key,
+		timestamp: new Date(),
+		data,
+	});
 }
 
 /**
@@ -170,25 +170,25 @@ export async function saveCache(key: string, data: unknown): Promise<void>
  * @returns 快取資料，若過期或不存在則回傳 null
  */
 export async function getCache<T>(
-    key: string,
-    maxAgeMs: number = 24 * 60 * 60 * 1000
+	key: string,
+	maxAgeMs: number = 24 * 60 * 60 * 1000,
 ): Promise<T | null>
 {
-    const db = await openDatabase();
-    const cached = await db.get('cache', key);
+	const db = await openDatabase();
+	const cached = await db.get('cache', key);
 
-    if (!cached)
-    {
-        return null;
-    }
+	if (!cached)
+	{
+		return null;
+	}
 
-    const age = Date.now() - cached.timestamp.getTime();
-    if (age > maxAgeMs)
-    {
-        return null;
-    }
+	const age = Date.now() - cached.timestamp.getTime();
+	if (age > maxAgeMs)
+	{
+		return null;
+	}
 
-    return cached.data as T;
+	return cached.data as T;
 }
 
 /**
@@ -197,8 +197,8 @@ export async function getCache<T>(
  */
 export async function clearAllData(): Promise<void>
 {
-    const db = await openDatabase();
-    await db.clear('hotspots');
-    await db.clear('chargingStations');
-    await db.clear('cache');
+	const db = await openDatabase();
+	await db.clear('hotspots');
+	await db.clear('chargingStations');
+	await db.clear('cache');
 }
