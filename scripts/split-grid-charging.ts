@@ -2,185 +2,101 @@
  * 將充電站資料依地圖區塊切割
  * Split charging station data into map grid blocks.
  *
- * 使用與 Wi-Fi 相同的 grid-index.json，但將充電站資料放置於不同子資料夾。
+ * 將充電站資料切割為獨立的區塊檔案。
+ *
+ * 注意：此腳本僅切割資料，不建立 grid-index.json。
+ * 執行完所有資料切割腳本後，請執行 build-grid-index.ts 建立統一的索引表。
  */
 
 import { writeFile, mkdir } from "fs/promises";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
-import { readFileSync } from "fs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 import {
-    getBlockIndex,
-    getBlockCenter,
-    getBlockBounds,
-    extractLocationInfo,
+	getBlockIndex,
+	getBlockCenter,
+	getBlockBounds,
+	extractLocationInfo,
 } from "./utils/grid-utils.js";
+import { createBlockAggregator } from "./utils/grid-index-builder.js";
 
 /**
  * 主執行函式
  */
-async function main() {
-    // 讀取現有的 grid-index.json
-    const indexPath = resolve(__dirname, "../public/data/grid-index.json");
-    const existingIndex = JSON.parse(readFileSync(indexPath, "utf-8"));
+async function main()
+{
+	// 讀取充電站資料
+	const chargingData = await import("../public/data/charging-stations.json").then((m) => m.default);
 
-    // 讀取充電站資料
-    const chargingData = await import("../public/data/charging-stations.json").then((m) => m.default);
+	console.log(`載入 ${chargingData.length} 筆充電站資料`);
 
-    console.log(`載入 ${chargingData.length} 筆充電站資料`);
+	// 建立輸出目錄
+	const outDir = resolve(__dirname, "../public/data/grid-charging");
+	await mkdir(outDir, { recursive: true });
 
-    // 建立輸出目錄
-    const outDir = resolve(__dirname, "../public/data/grid-charging");
-    await mkdir(outDir, { recursive: true });
+	// 建立區塊聚合器
+	const aggregator = createBlockAggregator({
+		getBlockIndex,
+		getBlockCenter,
+		getBlockBounds,
+		extractLocationInfo,
+	});
 
-    // 建立區塊索引（僅用於充電站）
-    const blockIndex: Map<string, {
-        center: { lat: number; lng: number };
-        bounds: {
-            northWest: { lat: number; lng: number };
-            northEast: { lat: number; lng: number };
-            southWest: { lat: number; lng: number };
-            southEast: { lat: number; lng: number };
-        };
-        locations: Set<string>;
-        count: number;
-    }> = new Map();
+	// 將每筆資料加入對應的區塊
+	for (const station of chargingData)
+	{
+		aggregator.add(
+			{ lat: station.lat, lng: station.lng, address: station.address },
+			{ type: "charging", prefix: "grid-charging/" },
+		);
+	}
 
-    // 將每筆資料分配到對應的區塊
-    for (const station of chargingData) {
-        const { row, col } = getBlockIndex(station.lat, station.lng);
-        const blockKey = `${row}-${col}`;
+	// 寫入每個區塊的資料
+	const blocks = aggregator.build();
+	let fileCount = 0;
+	for (const block of blocks)
+	{
+		// 建立區塊資料檔案
+		const blockStations = chargingData.filter((s) =>
+		{
+			const idx = getBlockIndex(s.lat, s.lng);
+			const blockRow = Math.floor((block.center.lat - 21.903126) / 0.0306959);
+			const blockCol = Math.floor((block.center.lng - 118.2257211) / 0.0306959);
+			return idx.row === blockRow && idx.col === blockCol;
+		});
 
-        if (!blockIndex.has(blockKey)) {
-            const center = getBlockCenter(row, col);
-            const bounds = getBlockBounds(row, col);
-            blockIndex.set(blockKey, {
-                center,
-                bounds,
-                locations: new Set(),
-                count: 0,
-            });
-        }
+		const filePath = resolve(outDir, block.fileName);
+		await writeFile(filePath, JSON.stringify(blockStations, null, 2), "utf-8");
+		fileCount++;
+	}
 
-        const block = blockIndex.get(blockKey)!;
-        block.count++;
+	console.log(`已寫入 ${fileCount} 個充電站區塊檔案至 ${outDir}`);
+	console.log("");
+	console.log("提示：請執行 build-grid-index.ts 建立統一的索引表。");
 
-        // 提取並記錄位置資訊
-        const { zipCode, city, district, road } = extractLocationInfo(station.address);
+	// 統計資訊
+	const counts = blocks.map((b) => b.dataset.charging?.count ?? 0).filter((c) => c > 0).sort((a, b) => a - b);
 
-        const baseLocation = [zipCode, city, district].filter(Boolean).join("");
-        if (baseLocation) block.locations.add(baseLocation);
+	if (counts.length > 0)
+	{
+		const minCount = counts[0];
+		const maxCount = counts[counts.length - 1];
+		const avgCount = counts.reduce((a, b) => a + b, 0) / counts.length;
 
-        if (road) {
-            const cleanRoad = road.replace(/^[^\d\s]+(?:市|縣)/, "").replace(/^[^\d\s]+(?:區|市|鎮|鄉)/, "");
-            const locationWithRoad = [baseLocation, cleanRoad].filter(Boolean).join("");
-            block.locations.add(locationWithRoad);
-        }
-    }
-
-    console.log(`建立 ${blockIndex.size} 個充電站區塊`);
-
-    // 寫入每個區塊的資料
-    let fileCount = 0;
-    for (const [blockKey, blockData] of blockIndex) {
-        const [row, col] = blockKey.split("-").map(Number);
-        const center = blockData.center;
-
-        // 檔名加上 charging- 前綴
-        const fileName = `charging-${center.lng.toFixed(4)}_${center.lat.toFixed(4)}.json`;
-        const filePath = resolve(outDir, fileName);
-
-        const blockStations = chargingData.filter((s) => {
-            const idx = getBlockIndex(s.lat, s.lng);
-            return idx.row === row && idx.col === col;
-        });
-
-        await writeFile(filePath, JSON.stringify(blockStations, null, 2), "utf-8");
-        fileCount++;
-    }
-
-    console.log(`已寫入 ${fileCount} 個充電站區塊檔案至 ${outDir}`);
-
-    // 建立充電站區塊索引表
-    const chargingIndex = Array.from(blockIndex.entries()).map(([blockKey, blockData]) => {
-        const [row, col] = blockKey.split("-").map(Number);
-        const center = blockData.center;
-        const bounds = blockData.bounds;
-
-        const fileName = `charging-${center.lng.toFixed(4)}_${center.lat.toFixed(4)}.json`;
-
-        return {
-            type: "charging",
-            fileName,
-            center: {
-                lat: parseFloat(center.lat.toFixed(6)),
-                lng: parseFloat(center.lng.toFixed(6)),
-            },
-            bounds: {
-                northWest: {
-                    lat: parseFloat(bounds.northWest.lat.toFixed(6)),
-                    lng: parseFloat(bounds.northWest.lng.toFixed(6)),
-                },
-                northEast: {
-                    lat: parseFloat(bounds.northEast.lat.toFixed(6)),
-                    lng: parseFloat(bounds.northEast.lng.toFixed(6)),
-                },
-                southWest: {
-                    lat: parseFloat(bounds.southWest.lat.toFixed(6)),
-                    lng: parseFloat(bounds.southWest.lng.toFixed(6)),
-                },
-                southEast: {
-                    lat: parseFloat(bounds.southEast.lat.toFixed(6)),
-                    lng: parseFloat(bounds.southEast.lng.toFixed(6)),
-                },
-            },
-            count: blockData.count,
-            locations: Array.from(blockData.locations).slice(0, 20),
-        };
-    });
-
-    // 依照區塊中心點排序
-    chargingIndex.sort((a, b) => {
-        if (a.center.lat !== b.center.lat) return b.center.lat - a.center.lat;
-        return a.center.lng - b.center.lng;
-    });
-
-    // 合併到現有的 grid-index.json
-    // 為現有的 Wi-Fi 區塊添加 type: "wifi"
-    const wifiIndexWithType = existingIndex.map((block: any) => ({
-        type: "wifi",
-        ...block,
-    }));
-
-    // 合併兩個索引
-    const mergedIndex = [...wifiIndexWithType, ...chargingIndex];
-
-    // 寫入合併後的索引表
-    const mergedIndexPath = resolve(__dirname, "../public/data/grid-index.json");
-    await writeFile(mergedIndexPath, JSON.stringify(mergedIndex, null, 2), "utf-8");
-
-    console.log(`合併索引表已更新至 ${mergedIndexPath}`);
-    console.log(`Wi-Fi 區塊: ${wifiIndexWithType.length}, 充電站區塊: ${chargingIndex.length}`);
-
-    // 統計資訊
-    const counts = chargingIndex.map((b) => b.count).sort((a, b) => a - b);
-    const minCount = counts[0];
-    const maxCount = counts[counts.length - 1];
-    const avgCount = counts.reduce((a, b) => a + b, 0) / counts.length;
-
-    console.log("");
-    console.log("=== 充電站區塊統計 ===");
-    console.log(`最小資料數: ${minCount}`);
-    console.log(`最大資料數: ${maxCount}`);
-    console.log(`平均資料數: ${avgCount.toFixed(1)}`);
+		console.log("");
+		console.log("=== 充電站區塊統計 ===");
+		console.log(`最小資料數: ${minCount}`);
+		console.log(`最大資料數: ${maxCount}`);
+		console.log(`平均資料數: ${avgCount.toFixed(1)}`);
+	}
 }
 
 // 執行
-main().catch((error) => {
-    console.error("Charging grid split failed:", error);
-    process.exit(1);
+main().catch((error) =>
+{
+	console.error("Charging grid split failed:", error);
+	process.exit(1);
 });

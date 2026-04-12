@@ -20,9 +20,9 @@ import { writeFile, mkdir } from "fs/promises";
 import { resolve } from "path";
 import { execSync } from "child_process";
 import {
-    convertWiFiArray,
-    convertChargingArray,
-    DEFAULT_OUTPUT_DIR,
+	convertWiFiArray,
+	convertChargingArray,
+	DEFAULT_OUTPUT_DIR,
 } from "../src/lib/transform";
 
 /**
@@ -31,7 +31,7 @@ import {
  * @see https://data.gov.tw/dataset/5962
  */
 const WIFI_URL =
-    "https://itaiwan.gov.tw/ITaiwanDW/GetFile?fileName=IpSelect_tw.json&type=6";
+	"https://itaiwan.gov.tw/ITaiwanDW/GetFile?fileName=IpSelect_tw.json&type=6";
 
 /**
  * 臺北市公眾區免費無線上網熱點資料 (Dataset 121222)
@@ -40,7 +40,7 @@ const WIFI_URL =
  * @see https://data.gov.tw/dataset/121222
  */
 const TAIPEI_WIFI_URL =
-    "https://quality.data.gov.tw/dq_download_json.php?nid=121222&md5_url=aaf8100508dbd5e5ed0a706233c804dd";
+	"https://quality.data.gov.tw/dq_download_json.php?nid=121222&md5_url=aaf8100508dbd5e5ed0a706233c804dd";
 
 /**
  * iTaiwan 公共充電站 API endpoint (Dataset 28592)
@@ -48,7 +48,7 @@ const TAIPEI_WIFI_URL =
  * @see https://data.gov.tw/dataset/28592
  */
 const CHARGING_URL =
-    "https://quality.data.gov.tw/dq_download_json.php?nid=28592&md5_url=d474a70fdd9953547d06abe56f60778e";
+	"https://quality.data.gov.tw/dq_download_json.php?nid=28592&md5_url=d474a70fdd9953547d06abe56f60778e";
 
 /**
  * 從 URL 獲取 JSON 資料
@@ -57,12 +57,14 @@ const CHARGING_URL =
  * @param url - 目標 URL
  * @returns 解析後的 JSON 資料
  */
-async function fetchJSON(url: string): Promise<any[]> {
-    const response = await fetch(url);
-    if (!response.ok) {
-        throw new Error(`Fetch failed: ${response.status} ${response.statusText}`);
-    }
-    return response.json();
+async function fetchJSON(url: string): Promise<any[]>
+{
+	const response = await fetch(url);
+	if (!response.ok)
+	{
+		throw new Error(`Fetch failed: ${response.status} ${response.statusText}`);
+	}
+	return response.json();
 }
 
 /**
@@ -72,85 +74,94 @@ async function fetchJSON(url: string): Promise<any[]> {
  * @param filePath - 檔案路徑
  * @param data - 要寫入的資料
  */
-async function writeJSON(filePath: string, data: any): Promise<void> {
-    await writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
+async function writeJSON(filePath: string, data: any): Promise<void>
+{
+	await writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
 }
 
 /**
  * 主執行函式
  * Main execution function.
  */
-async function main() {
-    console.log("Fetching iTaiwan Wi‑Fi data…");
-    const wifiRaw = await fetchJSON(WIFI_URL);
+async function main()
+{
+	console.log("Fetching iTaiwan Wi‑Fi data…");
+	const wifiRaw = await fetchJSON(WIFI_URL);
 
-    console.log("Fetching Taipei Free Wi‑Fi data…");
-    const taipeiWifiRaw = await fetchJSON(TAIPEI_WIFI_URL);
+	console.log("Fetching Taipei Free Wi‑Fi data…");
+	const taipeiWifiRaw = await fetchJSON(TAIPEI_WIFI_URL);
 
-    console.log("Fetching charging‑station data…");
-    const chargingRaw = await fetchJSON(CHARGING_URL);
+	console.log("Fetching charging‑station data…");
+	const chargingRaw = await fetchJSON(CHARGING_URL);
 
-    // 確保輸出目錄存在
-    const outDir = resolve(DEFAULT_OUTPUT_DIR);
-    await mkdir(outDir, { recursive: true });
+	// 確保輸出目錄存在
+	const outDir = resolve(DEFAULT_OUTPUT_DIR);
+	await mkdir(outDir, { recursive: true });
 
-    // 寫入原始檔案（分開儲存，不合併）
-    const wifiRawPath = resolve(outDir, "wifi-hotspots-raw.json");
-    const taipeiWifiRawPath = resolve(outDir, "taipei-wifi-raw.json");
-    const chargingRawPath = resolve(outDir, "charging-stations-raw.json");
+	// 寫入原始檔案（分開儲存，不合併）
+	const wifiRawPath = resolve(outDir, "wifi-hotspots-raw.json");
+	const taipeiWifiRawPath = resolve(outDir, "taipei-wifi-raw.json");
+	const chargingRawPath = resolve(outDir, "charging-stations-raw.json");
 
-    await writeJSON(wifiRawPath, wifiRaw);
-    await writeJSON(taipeiWifiRawPath, taipeiWifiRaw);
-    await writeJSON(chargingRawPath, chargingRaw);
+	await writeJSON(wifiRawPath, wifiRaw);
+	await writeJSON(taipeiWifiRawPath, taipeiWifiRaw);
+	await writeJSON(chargingRawPath, chargingRaw);
 
-    console.log(`Raw files written to ${outDir}`);
+	console.log(`Raw files written to ${outDir}`);
 
-    // 將台北市資料轉換為與 iTaiwan 相同的欄位格式
-    // 台北市 JSON 使用大寫欄位：NAME, LATITUDE, LONGITUDE, ADDR
-    const taipeiFormatted = taipeiWifiRaw.map((row: any) => ({
-        Name: row.NAME || "",
-        Latitude: row.LATITUDE || "",
-        Longitude: row.LONGITUDE || "",
-        Address: row.ADDR || "",
-    }));
+	// 將台北市資料轉換為與 iTaiwan 相同的欄位格式
+	// 台北市 JSON 使用大寫欄位：NAME, LATITUDE, LONGITUDE, ADDR
+	const taipeiFormatted = taipeiWifiRaw.map((row: any) => ({
+		Name: row.NAME || "",
+		Latitude: row.LATITUDE || "",
+		Longitude: row.LONGITUDE || "",
+		Address: row.ADDR || "",
+	}));
 
-    // 合併 iTaiwan 與台北市 Wi-Fi 資料（僅用於轉換）
-    const allWifiRaw = [...wifiRaw, ...taipeiFormatted];
+	// 合併 iTaiwan 與台北市 Wi-Fi 資料（僅用於轉換）
+	const allWifiRaw = [...wifiRaw, ...taipeiFormatted];
 
-    // 轉換並寫入過濾後的檔案（合併後）
-    const wifiFiltered = convertWiFiArray(allWifiRaw);
-    const chargingFiltered = convertChargingArray(chargingRaw);
+	// 轉換並寫入過濾後的檔案（合併後）
+	const wifiFiltered = convertWiFiArray(allWifiRaw);
+	const chargingFiltered = convertChargingArray(chargingRaw);
 
-    const wifiPath = resolve(outDir, "wifi-hotspots.json");
-    const chargingPath = resolve(outDir, "charging-stations.json");
+	const wifiPath = resolve(outDir, "wifi-hotspots.json");
+	const chargingPath = resolve(outDir, "charging-stations.json");
 
-    await writeJSON(wifiPath, wifiFiltered);
-    await writeJSON(chargingPath, chargingFiltered);
+	await writeJSON(wifiPath, wifiFiltered);
+	await writeJSON(chargingPath, chargingFiltered);
 
-    console.log(`Filtered files written to ${outDir}`);
-    console.log(
-        `iTaiwan Wi‑Fi: ${wifiRaw.length}, Taipei Free: ${taipeiWifiRaw.length}, Charging: ${chargingRaw.length}`
-    );
+	console.log(`Filtered files written to ${outDir}`);
+	console.log(
+		`iTaiwan Wi‑Fi: ${wifiRaw.length}, Taipei Free: ${taipeiWifiRaw.length}, Charging: ${chargingRaw.length}`,
+	);
 
-    // Git 操作（仅在 CI 環境或手動啟用時執行）
-    if (process.env.CI === "true" || process.argv.includes("--push")) {
-        try {
-            execSync("git add public/data/*.json", { stdio: "inherit" });
-            execSync("git commit -m 'chore: sync Wi‑Fi & charging station data (auto)'", {
-                stdio: "inherit",
-            });
-            execSync("git push", { stdio: "inherit" });
-            console.log("Git commit & push successful.");
-        } catch (error) {
-            console.warn("Git commit failed – maybe there are no changes.");
-        }
-    } else {
-        console.log("Skipping Git operations. Use --push flag or set CI=true to enable.");
-    }
+	// Git 操作（仅在 CI 環境或手動啟用時執行）
+	if (process.env.CI === "true" || process.argv.includes("--push"))
+	{
+		try
+		{
+			execSync("git add public/data/*.json", { stdio: "inherit" });
+			execSync("git commit -m 'chore: sync Wi‑Fi & charging station data (auto)'", {
+				stdio: "inherit",
+			});
+			execSync("git push", { stdio: "inherit" });
+			console.log("Git commit & push successful.");
+		}
+		catch (error)
+		{
+			console.warn("Git commit failed – maybe there are no changes.");
+		}
+	}
+	else
+	{
+		console.log("Skipping Git operations. Use --push flag or set CI=true to enable.");
+	}
 }
 
 // 執行
-main().catch((error) => {
-    console.error("Sync script failed:", error);
-    process.exit(1);
+main().catch((error) =>
+{
+	console.error("Sync script failed:", error);
+	process.exit(1);
 });
