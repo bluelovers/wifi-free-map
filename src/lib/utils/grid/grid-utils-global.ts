@@ -41,7 +41,7 @@ export const BUCKET_CONFIG_GROUP_SIZE = 15 as const;
  * 全球通用：座標轉區塊 ID
  * 不論給入哪裡的座標，都會自動對齊到 GLOBAL_GRID_CONFIG_ORIGIN 出發的全球網格
  */
-export function calcGlobalBlockIndex(lng: number, lat: number)
+export function calcGlobalBlockIndex({ lng, lat }: IGpsCoordinate)
 {
 	/**
 	 * 核心公式：不論正負數，floor 都能正確找到該區塊的「最小值邊界」
@@ -64,10 +64,10 @@ export function calcGlobalBlockIndex(lng: number, lat: number)
 /**
  * 格式化區塊鍵值
  */
-export function _formatBlockKey(lng: number | string, lat: number | string): `${number}_${number}`
+export function _formatBlockKey(x_lng: number | string, y_lat: number | string): `${number}_${number}`
 {
-	const lngStr = typeof lng === 'number' ? lng.toFixed(GLOBAL_GRID_CONFIG_PRECISION) : lng;
-	const latStr = typeof lat === 'number' ? lat.toFixed(GLOBAL_GRID_CONFIG_PRECISION) : lat;
+	const lngStr = typeof x_lng === 'number' ? x_lng.toFixed(GLOBAL_GRID_CONFIG_PRECISION) : x_lng;
+	const latStr = typeof y_lat === 'number' ? y_lat.toFixed(GLOBAL_GRID_CONFIG_PRECISION) : y_lat;
 
 	return `${lngStr}_${latStr}` as `${number}_${number}`;
 }
