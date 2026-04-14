@@ -7,25 +7,14 @@
  */
 
 import { writeFile } from "fs/promises";
-import { resolve, dirname } from "path";
+import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
 import { readdirSync, readFileSync } from "fs";
+import { IBlockData, IDataEntry } from '@/lib/utils/grid/grid-types';
+import { BLOCK_SIZE, DATA_TYPES, TAIWAN_BOUNDS } from '@/lib/utils/grid/grid-const';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-
-/** 資料類型設定 */
-const DATA_TYPES = [
-	{ type: "wifi", dir: "grid-wifi", prefix: "grid-wifi/" },
-	{ type: "charging", dir: "grid-charging", prefix: "grid-charging/" },
-] as const;
-
-interface IDataEntry
-{
-	lat: number;
-	lng: number;
-	address?: string;
-}
 
 /**
  * 解析區塊檔名取得座標
@@ -80,28 +69,6 @@ function extractLocationInfo(address: string): { zipCode: string; city: string; 
 async function main()
 {
 	console.log("=== 建立統一 grid-index.json ===\n");
-
-	// 掃描所有資料目錄，建立區塊索引
-	interface IBlockData
-	{
-		center: { lat: number; lng: number };
-		bounds: {
-			northWest: { lat: number; lng: number };
-			northEast: { lat: number; lng: number };
-			southWest: { lat: number; lng: number };
-			southEast: { lat: number; lng: number };
-		};
-		locations: Set<string>;
-		dataset: Record<string, { fileName: string; count: number }>;
-	}
-
-	const BLOCK_SIZE = 0.0306959;
-	const TAIWAN_BOUNDS = {
-		minLat: 21.903126,
-		maxLat: 26.3758,
-		minLng: 118.2257211,
-		maxLng: 121.948,
-	};
 
 	const blocks = new Map<string, IBlockData>();
 

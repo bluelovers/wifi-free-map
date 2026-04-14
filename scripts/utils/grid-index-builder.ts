@@ -1,103 +1,12 @@
-import { extractLocationInfo, getBlockBounds, getBlockCenter, getBlockIndex } from './grid-utils';
+import {
+	IBlockData,
+	IBounds,
+	IDatasetEntry,
+	IGpsCoordinate,
+	IGridBlock,
 
-/**
- * 統一格式的區塊邊界介面
- * Unified grid bounds interface
- */
-export interface IBounds
-{
-	/** 西北角座標 / Northwest corner coordinates */
-	northWest: { lat: number; lng: number };
-	/** 東北角座標 / Northeast corner coordinates */
-	northEast: { lat: number; lng: number };
-	/** 西南角座標 / Southwest corner coordinates */
-	southWest: { lat: number; lng: number };
-	/** 東南角座標 / Southeast corner coordinates */
-	southEast: { lat: number; lng: number };
-}
-
-/**
- * 資料集項目介面
- * Dataset entry interface
- */
-export interface IDatasetEntry
-{
-	/** 資料類型檔案路徑 / Data type file path */
-	fileName: string;
-	/** 該區塊內的資料筆數 / Number of items in this block */
-	count: number;
-}
-
-/**
- * 統一格式的區塊介面
- * Unified grid block interface
- */
-export interface IGridBlock
-{
-	/** 區塊檔名（格式：經度_緯度.json）/ Block file name */
-	fileName: string;
-	/** 區塊中心點座標 / Block center coordinates */
-	center: { lat: number; lng: number };
-	/** 區塊邊界座標 / Block boundary coordinates */
-	bounds: IBounds;
-	/** 資料集（依資料類型分）/ Dataset (by data type) */
-	dataset: Record<string, IDatasetEntry>;
-	/** 共享位置字串陣列 / Shared location strings */
-	locations: string[];
-}
-
-/**
- * 區塊聚合器內部資料結構
- * Block aggregator internal data structure
- */
-export interface IBlockData
-{
-	center: { lat: number; lng: number };
-	bounds: IBounds;
-	locations: Set<string>;
-	dataset: Record<string, IDatasetEntry>;
-}
-
-/**
- * 區塊聚合器介面
- * Block aggregator interface
- */
-export interface IBlockAggregator
-{
-	/**
-	 * 新增一筆資料至區塊
-	 * Add an item to a block
-	 *
-	 * @param item - 包含 lat, lng, address 的資料物件
-	 * @param options - 選項
-	 * @param options.type - 資料類型（如 "wifi", "charging"）
-	 * @param options.prefix - 檔名稱前輟（如 "grid-wifi/"）
-	 */
-	add(
-		item: { lat: number; lng: number; address?: string },
-		options: { type: string; prefix: string },
-	): void;
-
-	/**
-	 * 建立統一格式的索引表
-	 * Build unified index table
-	 *
-	 * @returns 統一格式的 IGridBlock 陣列
-	 */
-	build(): IGridBlock[];
-}
-
-/**
- * Grid utils 模組介面（從 grid-utils 匯入的函式）
- * Grid utils module interface
- */
-interface IGridUtils
-{
-	getBlockIndex: typeof getBlockIndex;
-	getBlockCenter: typeof getBlockCenter;
-	getBlockBounds: typeof getBlockBounds;
-	extractLocationInfo: typeof extractLocationInfo;
-}
+} from '@/lib/utils/grid/grid-types';
+import { IBlockAggregator, IGridUtils } from '@/lib/utils/grid/grid-types-opts';
 
 /**
  * 清理路名中的縣市區前輟
@@ -302,7 +211,7 @@ export function mergeAggregators(
 export function loadFromOldIndex(
 	oldIndex: Array<{
 		fileName: string;
-		center: { lat: number; lng: number };
+		center: IGpsCoordinate;
 		bounds: IBounds;
 		count: number;
 		locations: string[];
