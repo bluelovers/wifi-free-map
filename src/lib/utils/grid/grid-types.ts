@@ -55,10 +55,7 @@ export interface IDatasetEntry
 	count: number;
 }
 
-export interface IDataset extends Record<string, IDatasetEntry>
-{
-
-}
+export type IDataset = Record<string, IDatasetEntry>;
 
 /**
  * 統一格式的區塊介面
@@ -107,4 +104,23 @@ export interface IBlockCoordinate extends IGpsCenterBounds, IGpsRowCol
 export interface IDataEntry extends IGpsCoordinate
 {
 	address?: string;
+}
+
+/**
+ * 地址解析工具
+ * Address parsing utilities for geographic data processing.
+ *
+ * 提供共用的地址解析函式，可用於運行時（客戶端）與構建時（腳本）。
+ */
+
+export interface ILocationInfo
+{
+	/** 郵遞區號 / Zip code */
+	zipCode: string;
+	/** 縣市 / City */
+	city: string;
+	/** 行政區 / District */
+	district: string;
+	/** 路名 / Road */
+	road: string;
 }

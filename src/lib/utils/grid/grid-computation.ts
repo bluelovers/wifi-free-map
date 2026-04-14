@@ -1,9 +1,8 @@
 /**
- * 地圖區塊計算工具
- * Grid calculation utilities for splitting geographic data into map blocks.
+ * 網格計算工具
+ * Grid computation utilities for geographic data processing.
  *
- * 提供共用的座標計算與地址解析函式，供 split-grid-wifi.ts
- * 與 split-grid-charging.ts 等腳本使用。
+ * 提供共用的座標計算與區塊處理函式，可用於運行時（客戶端）與構建時（腳本）。
  */
 
 import {
@@ -14,8 +13,8 @@ import {
 	IGpsLatLngMaxMin,
 	IGpsRowCol,
 	IGpsRowColStartEnd,
-} from '@/lib/utils/grid/grid-types';
-import { BLOCK_SIZE, TAIWAN_BOUNDS } from '@/lib/utils/grid/grid-const';
+} from "./grid-types";
+import { BLOCK_SIZE, TAIWAN_BOUNDS } from "./grid-const";
 
 /**
  * 將經緯度轉換為區塊 row 索引
@@ -46,7 +45,6 @@ export function lngToCol(lng: number): number
  * Calculate block index range from coordinate range
  *
  * 使用四個角落座標計算，確保正確處理邊界情況
- * 注意：此函式不限制範圍大小，請確保傳入的座標範圍 <= 網格大小
  * @param minLat - 最小緯度
  * @param maxLat - 最大緯度
  * @param minLng - 最小經度
@@ -87,7 +85,7 @@ export function getBlockRange(
  *
  * @param lat - 中心點緯度
  * @param lng - 中心點經度
- * @returns 區塊索引範圍 { startRow, endRow, startCol, endCol }
+ * @returns 區塊索引範圍
  */
 export function getBlockRangeFromCenter(
 	lat: number,
@@ -110,7 +108,7 @@ export function getBlockRangeFromCenter(
  * 以中心點為基準，向外擴展半個網格大小
  * @param lat - 中心點緯度
  * @param lng - 中心點經度
- * @returns 座標範圍 { minLat, maxLat, minLng, maxLng }
+ * @returns 座標範圍
  */
 export function getCoordRangeFromCenter(
 	lat: number,
@@ -148,7 +146,7 @@ export function getBlockCountInRange(
 
 /**
  * 驗證區塊範圍是否為標準網格大小（1, 2, 或 4 個區塊）
- * Validate block range is standard grid size (1, 2, or 4 blocks)
+ * Validate block range is standard grid size
  *
  * @param startRow - 起始 row
  * @param endRow - 結束 row
@@ -175,7 +173,7 @@ export function isValidBlockRange(
  * @param lng - 經度
  * @returns 區塊索引 { row, col }
  */
-export function getBlockIndex(lat: number, lng: number): { row: number; col: number }
+export function getBlockIndex(lat: number, lng: number): IGpsRowCol
 {
 	const row = latToRow(lat);
 	const col = lngToCol(lng);
@@ -203,7 +201,7 @@ export function getBlockCenter(row: number, col: number): IGpsCoordinate
  *
  * @param row - 區塊列索引
  * @param col - 區塊行索引
- * @returns 四角座標點 { northWest, northEast, southWest, southEast }
+ * @returns 四角座標點
  */
 export function getBlockBounds(row: number, col: number): IBounds
 {
@@ -222,7 +220,7 @@ export function getBlockBounds(row: number, col: number): IBounds
 
 /**
  * 由任意座標反推回去的任意區塊範圍
- * Block range derived from any coordinate (reverse of getBlockCenter)
+ * Block range derived from any coordinate
  *
  * @param lat - 緯度
  * @param lng - 經度
@@ -238,30 +236,67 @@ export function getBlockFromCoordinate(lat: number, lng: number): IGpsCenterBoun
 
 /**
  * 計算指定範圍內包含多少標準區塊
- * Calculate how many standard blocks are intersected within a given range
+ * Calculate intersecting blocks within a given range
  *
- * @param minLat - 最小緯度
- * @param maxLat - 最大緯度
- * @param minLng - 最小經度
- * @param maxLng - 最大經度
+ * 支援三種調用方式：
+ * - 個別參數: calculateIntersectingBlocks(minLat, maxLat, minLng, maxLng)
+ * - 範圍物件: calculateIntersectingBlocks({ minLat, maxLat, minLng, maxLng })
+ * - 單一坐標: calculateIntersectingBlocks({ lat, lng }) → 查詢該點周圍的區塊
+ *
+ * @param minLatOrRangeOrCoord - 最小緯度或座標範圍物件或單一坐標
+ * @param maxLat - 最大緯度（當為別參數時）
+ * @param minLng - 最小經度（當為別參數時）
+ * @param maxLng - 最大經度（當為別參數時）
  * @returns 區塊範圍與交集的區塊資料
  */
 export function calculateIntersectingBlocks(
-	minLat: number,
-	maxLat: number,
-	minLng: number,
-	maxLng: number,
+	minLatOrRangeOrCoord: number | IGpsLatLngMaxMin | IGpsCoordinate,
+	maxLat?: number,
+	minLng?: number,
+	maxLng?: number,
 ): {
-	/** 查詢範圍的中心點 / Center of query range */
 	center: IGpsCoordinate;
-	/** 查詢範圍的邊界 / Bounds of query range */
 	bounds: IBounds;
-	/** 交集區塊 / Intersecting blocks */
 	match: Record<string, IBlockCoordinate>;
 }
 {
+	// 解析參數
+	let minLat: number;
+	let maxLatVal: number;
+	let minLngVal: number;
+	let maxLngVal: number;
+
+	if (typeof minLatOrRangeOrCoord === "object")
+	{
+		// 檢查是否為單一坐標 (只有 lat, lng) 或範圍 (有 minLat, maxLat 等)
+		if ("minLat" in minLatOrRangeOrCoord)
+		{
+			// 範圍物件調用
+			({ minLat, maxLat: maxLatVal, minLng: minLngVal, maxLng: maxLngVal } = minLatOrRangeOrCoord as IGpsLatLngMaxMin);
+		}
+		else
+		{
+			// 單一坐標：查詢該點周圍的區塊
+			const coord = minLatOrRangeOrCoord as IGpsCoordinate;
+			// 以該點為中心，向外擴展半個區塊
+			const halfSize = BLOCK_SIZE / 2;
+			minLat = coord.lat - halfSize;
+			maxLatVal = coord.lat + halfSize;
+			minLngVal = coord.lng - halfSize;
+			maxLngVal = coord.lng + halfSize;
+		}
+	}
+	else
+	{
+		// 個別參數調用
+		minLat = minLatOrRangeOrCoord;
+		maxLatVal = maxLat!;
+		minLngVal = minLng!;
+		maxLngVal = maxLng!;
+	}
+
 	// 計算查詢範圍的四個角落所屬的區塊索引
-	const { startRow, endRow, startCol, endCol } = getBlockRange(minLat, maxLat, minLng, maxLng);
+	const { startRow, endRow, startCol, endCol } = getBlockRange(minLat, maxLatVal, minLngVal, maxLngVal);
 
 	// 驗證區塊數量不超過 4 個
 	if (!isValidBlockRange(startRow, endRow, startCol, endCol))
@@ -295,18 +330,12 @@ export function calculateIntersectingBlocks(
 	}
 
 	// 計算查詢範圍的中心點
-	const center = {
-		lat: (minLat + maxLat) / 2,
-		lng: (minLng + maxLng) / 2,
-	};
+	const centerLat = (minLat + maxLatVal) / 2;
+	const centerLng = (minLngVal + maxLngVal) / 2;
+	const center = { lat: centerLat, lng: centerLng };
 
-	// 查詢範圍的邊界
-	const bounds = {
-		northWest: { lat: maxLat, lng: minLng },
-		northEast: { lat: maxLat, lng: maxLng },
-		southWest: { lat: minLat, lng: minLng },
-		southEast: { lat: minLat, lng: maxLng },
-	};
+	// 計算查詢範圍的邊界
+	const bounds = getBlockBounds(startRow, startCol);
 
 	return { center, bounds, match };
 }
@@ -315,18 +344,22 @@ export function calculateIntersectingBlocks(
  * 由中心點查詢區塊（標準網格大小，查詢結果必為 1, 2, 或 4 個區塊）
  * Query blocks from center point (standard grid size, result always 1, 2, or 4 blocks)
  *
+ * 支援兩種調用方式：
+ * - 個別參數: queryBlocksFromCenter(lat, lng)
+ * - 物件參數: queryBlocksFromCenter({ lat, lng })
+ *
  * 以中心點所在區塊為基準，根據與區塊中心點的相對位置，計算周圍區塊
  * - 偏移量在 ±25% 以內：1 區塊
  * - 偏移量在 ±25% ~ ±50%：2 區塊
  * - 偏移量超過 ±50%：4 區塊
  *
- * @param lat - 中心點緯度
- * @param lng - 中心點經度
+ * @param latOrCoord - 中心點緯度或坐標物件
+ * @param lng - 中心點經度（當為個別參數時）
  * @returns 區塊範圍與交集的區塊資料
  */
 export function queryBlocksFromCenter(
-	lat: number,
-	lng: number,
+	latOrCoord: number | IGpsCoordinate,
+	lng?: number,
 ): {
 	/** 查詢範圍的中心點 / Center of query range */
 	center: IGpsCoordinate;
@@ -336,8 +369,25 @@ export function queryBlocksFromCenter(
 	match: Record<string, IBlockCoordinate>;
 }
 {
-	// 取得中心點所屬的區塊索引
-	const { row, col } = getBlockIndex(lat, lng);
+	// 解析參數
+	let lat: number;
+	let lngVal: number;
+
+	if (typeof latOrCoord === "object")
+	{
+		// 物件參數調用
+		lat = latOrCoord.lat;
+		lngVal = latOrCoord.lng;
+	}
+else
+{
+	// 個別參數調用
+	lat = latOrCoord;
+	lngVal = lng!;
+}
+
+// 取得中心點所屬的區塊索引
+	const { row, col } = getBlockIndex(lat, lngVal);
 
 	// 取得該區塊的中心點座標
 	const blockCenter = getBlockCenter(row, col);
@@ -347,7 +397,7 @@ export function queryBlocksFromCenter(
 	// offset < 0: 在左/下側
 	const halfSize = BLOCK_SIZE / 2;
 	const latOffset = (lat - blockCenter.lat) / halfSize;
-	const lngOffset = (lng - blockCenter.lng) / halfSize;
+	const lngOffset = (lngVal - blockCenter.lng) / halfSize;
 
 	// 根據 offset 計算 row/col 範圍
 	// 邊界閾值設為 0.5（50% 的半格）
@@ -395,47 +445,10 @@ export function queryBlocksFromCenter(
 	}
 
 	// 計算查詢範圍的中心點（使用原始輸入）
-	const center = { lat, lng };
+	const resultCenter = { lat, lng: lngVal };
 
 	// 計算查詢範圍的邊界（使用區塊邊界）
 	const currentBounds = getBlockBounds(row, col);
 
-	return { center, bounds: currentBounds, match };
-}
-
-/**
- * 從地址中提取各部分
- * Extract parts from address.
- *
- * @param address - 地址文字
- * @returns 提取的區域資訊 { zipCode, city, district, road }
- */
-export function extractLocationInfo(
-	address: string,
-): { zipCode: string; city: string; district: string; road: string }
-{
-	if (!address) return { zipCode: "", city: "", district: "", road: "" };
-
-	// 清理地址（移除換行符號）
-	const cleanAddress = address.replace(/\n/g, " ").trim();
-
-	// 提取郵遞區號（3碼或5碼數字）
-	const zipMatch = cleanAddress.match(/^(\d{3,5})/);
-	const zipCode = zipMatch ? zipMatch[1] : "";
-
-	// 嘗試匹配縣市（XX市 或 XX縣）
-	const cityMatch = cleanAddress.match(/([^\d\s]+(?:市|縣))/);
-	const city = cityMatch ? cityMatch[1] : "";
-
-	// 嘗試匹配行政區（XX區 或 XX市）
-	let remaining = cleanAddress;
-	if (city) remaining = cleanAddress.replace(city, "");
-	const districtMatch = remaining.match(/([^\d\s]+(?:區|市|鎮|鄉))/);
-	const district = districtMatch ? districtMatch[1] : "";
-
-	// 嘗試匹配路名（不包含門牌號碼）
-	const roadMatch = cleanAddress.match(/[^\d\s]+(?:路|街|大道)[一二三四五六七八九十]*(?:段)?/);
-	const road = roadMatch ? roadMatch[0] : "";
-
-	return { zipCode, city, district, road };
+	return { center: resultCenter, bounds: currentBounds, match };
 }

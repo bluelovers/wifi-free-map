@@ -262,7 +262,7 @@ describe("queryBlocksFromCenter", () =>
 		{
 			for (const tc of group.testCases)
 			{
-				runTestCase(tc);
+				runTestCase(tc as any);
 			}
 		});
 	}
@@ -281,12 +281,8 @@ describe("calculateIntersectingBlocks", () =>
 			{
 				it(tc.name, () =>
 				{
-					const result = calculateIntersectingBlocks(
-						tc.input.minLat as unknown as number,
-						tc.input.maxLat as unknown as number,
-						tc.input.minLng as unknown as number,
-						tc.input.maxLng as unknown as number,
-					);
+					// 支援物件參數調用
+					const result = calculateIntersectingBlocks(tc.input);
 
 					const actualCount = Object.keys(result.match).length;
 					expect(actualCount).toBe(tc.expectedBlockCount);

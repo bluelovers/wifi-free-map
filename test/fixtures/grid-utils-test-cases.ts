@@ -1,6 +1,8 @@
+import { IGpsLatLngMaxMin } from "@/lib/utils/grid/grid-types";
+
 /**
- * 測試案例結構
- * Test case structure
+ * 測試案例結構（用於 queryBlocksFromCenter）
+ * Test case structure (for queryBlocksFromCenter)
  */
 export interface ITestCase
 {
@@ -20,6 +22,22 @@ export interface ITestCase
 }
 
 /**
+ * 測試案例結構（用於 calculateIntersectingBlocks）
+ * Test case structure (for calculateIntersectingBlocks)
+ */
+export interface ITestCaseForRange
+{
+	/** 測試名稱 / Test name */
+	name: string;
+	/** 輸入參數（座標範圍）/ Input parameters (coordinate range) */
+	input: IGpsLatLngMaxMin;
+	/** 預期區塊數量 / Expected block count */
+	expectedBlockCount: number;
+	/** 說明 / Note */
+	note?: string;
+}
+
+/**
  * 測試群組結構
  * Test group structure
  */
@@ -28,7 +46,7 @@ export interface ITestGroup
 	/** 測試群組名稱 / Test group name */
 	name: string;
 	/** 測試案例陣列 / Test cases array */
-	testCases: ITestCase[];
+	testCases: ITestCase[] | ITestCaseForRange[];
 }
 
 /**
@@ -145,7 +163,7 @@ export const testGroups: ITestGroup[] = [
  * calculateIntersectingBlocks 測試資料集
  * calculateIntersectingBlocks test dataset
  */
-export const calculateIntersectingBlocksTestGroups: ITestGroup[] = [
+export const calculateIntersectingBlocksTestGroups = [
 	{
 		name: "小範圍測試",
 		testCases: [
@@ -157,4 +175,4 @@ export const calculateIntersectingBlocksTestGroups: ITestGroup[] = [
 			},
 		],
 	},
-];
+] satisfies ITestGroup[];

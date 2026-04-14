@@ -15,13 +15,9 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-import {
-	getBlockIndex,
-	getBlockCenter,
-	getBlockBounds,
-	extractLocationInfo,
-} from "./utils/grid-utils.js";
 import { createBlockAggregator } from "./utils/grid-index-builder.js";
+import { extractLocationInfo } from '@/lib/utils/grid/grid-address';
+import { getBlockBounds, getBlockCenter, getBlockIndex } from '@/lib/utils/grid/grid-computation';
 
 /**
  * 主執行函式

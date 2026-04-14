@@ -7,18 +7,7 @@ import {
 
 } from '@/lib/utils/grid/grid-types';
 import { IBlockAggregator, IGridUtils } from '@/lib/utils/grid/grid-types-opts';
-
-/**
- * 清理路名中的縣市區前輟
- * Clean road name by removing city/district prefix
- *
- * @param road - 路名
- * @returns 清理後的路名
- */
-function cleanRoad(road: string): string
-{
-	return road.replace(/^[^\d\s]+(?:市|縣)/, "").replace(/^[^\d\s]+(?:區|市|鎮|鄉)/, "");
-}
+import { cleanRoad } from '@/lib/utils/grid/grid-address';
 
 /**
  * 建立區塊聚合器工廠函式

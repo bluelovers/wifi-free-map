@@ -43,8 +43,6 @@
     "test:jest:coverage": "node --run test:jest -- --coverage",
     "test:jest:snapshot": "node --run test:jest -- -u",
     "test:snapshot": "yarn run test -- -u",
-    "test:tsd": "ynpx tsd",
-    "test:watch": "jest --watch",
     "install:frozenLockfile": "yarn-tool install --frozen-lockfile",
     "install:resetLockfile": "yarn-tool install --reset-lockfile",
     "build": "next build",
@@ -53,9 +51,6 @@
     "build:data:split-grid-charging": "tsx scripts/split-grid-charging.ts",
     "build:data:split-grid-wifi": "tsx scripts/split-grid-wifi.ts",
     "build:sync:data": "tsx scripts/sync-data.ts",
-    "ci:install": "node --run ci:install:pnpm",
-    "ci:install:pnpm": "pnpm install --frozen-lockfile && pnpm add --workspace yarn-tool lerna ynpx pnpm typescript ts-node tsx ts-jest jest @bluelovers/jest-config @bluelovers/tsconfig @yarn-tool/require-resolve",
-    "ci:install:yarn": "yarn install --frozen-lockfile && yarn add -W yarn-tool lerna ynpx pnpm typescript ts-node tsx ts-jest jest @bluelovers/jest-config @bluelovers/tsconfig @yarn-tool/require-resolve",
     "ci:build": "echo ci:build",
     "npm:publish": "npm publish",
     "npm:publish:bump": "node --run version:bump && npm publish",
@@ -73,14 +68,10 @@
     "version:bump:minor": "node --run version:bump -- --bump minor",
     "version:bump:patch": "node --run version:bump -- --bump patch",
     "version:bump:prerelease": "node --run version:bump -- --bump prerelease",
-    "postversion": "echo postversion",
-    "prepublish": "echo prepublish",
     "prepare": "echo prepare",
     "prepublishOnly": "yarn run preversion",
     "prepublishOnly:check-bin": "ynpx --quiet @yarn-tool/check-pkg-bin",
-    "prepack": "echo prepack",
     "pack": "echo pack",
-    "postpack": "echo postpack",
     "publish": "echo publish",
     "postpublish": "node --run postpublish:changelog && node --run postpublish:git:commit && node --run postpublish:git:tag && node --run postpublish:git:push",
     "postpublish:changelog": "ynpx --quiet @yarn-tool/changelog && git add ./CHANGELOG.md",
@@ -115,13 +106,15 @@
     "workbox-window": "^7.4.0"
   },
   "devDependencies": {
+    "@bluelovers/jest-config": "^1.1.11",
     "@next/bundle-analyzer": "^16.2.2",
     "@types/node": "^25.5.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@yarn-tool/require-resolve": "^4.0.6",
+    "@yarn-tool/ws-find-up-paths": "^1.0.19",
     "sass": "^1.99.0",
     "sort-object-keys2": "^3.0.8",
     "typescript": "^6.0.2"
-  },
-  "packageManager": "yarn@1.22.19"
+  }
 }

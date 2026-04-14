@@ -12,56 +12,10 @@ import { fileURLToPath } from "url";
 import { readdirSync, readFileSync } from "fs";
 import { IBlockData, IDataEntry } from '@/lib/utils/grid/grid-types';
 import { BLOCK_SIZE, DATA_TYPES, TAIWAN_BOUNDS } from '@/lib/utils/grid/grid-const';
+import { parseBlockFileName, cleanRoad, extractLocationInfo } from '@/lib/utils/grid/grid-address';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-
-/**
- * 解析區塊檔名取得座標
- */
-function parseBlockFileName(fileName: string): { lng: number; lat: number } | null
-{
-	const match = fileName.match(/^(-?\d+\.\d+)_(-?\d+\.\d+)\.json$/);
-	if (!match) return null;
-	return {
-		lng: parseFloat(match[1]),
-		lat: parseFloat(match[2]),
-	};
-}
-
-/**
- * 清理路名中的縣市區前輟
- */
-function cleanRoad(road: string): string
-{
-	return road.replace(/^[^\d\s]+(?:市|縣)/, "").replace(/^[^\d\s]+(?:區|市|鎮|鄉)/, "");
-}
-
-/**
- * 從地址提取位置資訊
- */
-function extractLocationInfo(address: string): { zipCode: string; city: string; district: string; road: string }
-{
-	if (!address) return { zipCode: "", city: "", district: "", road: "" };
-
-	const cleanAddress = address.replace(/\n/g, " ").trim();
-
-	const zipMatch = cleanAddress.match(/^(\d{3,5})/);
-	const zipCode = zipMatch ? zipMatch[1] : "";
-
-	const cityMatch = cleanAddress.match(/([^\d\s]+(?:市|縣))/);
-	const city = cityMatch ? cityMatch[1] : "";
-
-	let remaining = cleanAddress;
-	if (city) remaining = cleanAddress.replace(city, "");
-	const districtMatch = remaining.match(/([^\d\s]+(?:區|市|鎮|鄉))/);
-	const district = districtMatch ? districtMatch[1] : "";
-
-	const roadMatch = cleanAddress.match(/[^\d\s]+(?:路|街|大道)[一二三四五六七八九十]*(?:段)?/);
-	const road = roadMatch ? roadMatch[0] : "";
-
-	return { zipCode, city, district, road };
-}
 
 /**
  * 主執行函式

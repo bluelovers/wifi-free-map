@@ -1,14 +1,15 @@
 /**
- * Created by user on 2026/4/14.
+ * 網格工具選項類型
+ * Grid utilities option types for type definitions.
  */
 
+import { IGridBlock, ILocationInfo } from "./grid-types";
+import { extractLocationInfo } from "./grid-address";
 import {
-	extractLocationInfo,
 	getBlockBounds,
 	getBlockCenter,
 	getBlockIndex,
-} from '../../../../scripts/utils/grid-utils';
-import { IGridBlock } from '@/lib/utils/grid/grid-types';
+} from "./grid-computation";
 
 /**
  * 區塊聚合器介面
@@ -40,8 +41,10 @@ export interface IBlockAggregator
 }
 
 /**
- * Grid utils 模組介面（從 grid-utils 匯入的函式）
+ * Grid utils 模組介面
  * Grid utils module interface
+ *
+ * 透過 grid-computation 模組提供
  */
 export interface IGridUtils
 {
