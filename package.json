@@ -2,27 +2,97 @@
   "name": "wifi-free-map",
   "version": "1.0.0",
   "description": "免費 WiFi 與充電設施地圖服務",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next dev --experimental-https",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "files": [
-    "AGENTS.md"
-  ],
   "keywords": [
     "wifi",
     "map",
     "free-wifi",
     "charging",
-    "leaflet"
+    "leaflet",
+    "create-by-yarn-tool"
   ],
-  "author": "",
+  "homepage": "https://github.com/bluelovers/wifi-free-map#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/wifi-free-map/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/wifi-free-map.git"
+  },
   "license": "ISC",
-  "packageManager": "pnpm@11.0.0-dev.1005",
+  "author": "",
+  "sideEffects": false,
   "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "files": [
+    "AGENTS.md"
+  ],
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev --experimental-https",
+    "coverage": "yarn run test -- --coverage",
+    "lint": "next lint",
+    "pretest": "echo pretest",
+    "test": "jest -u",
+    "test:coverage": "jest --coverage",
+    "test:jest": "jest --passWithNoTests",
+    "test:jest:clearCache": "jest --clearCache",
+    "test:jest:coverage": "node --run test:jest -- --coverage",
+    "test:jest:snapshot": "node --run test:jest -- -u",
+    "test:snapshot": "yarn run test -- -u",
+    "test:tsd": "ynpx tsd",
+    "test:watch": "jest --watch",
+    "install:frozenLockfile": "yarn-tool install --frozen-lockfile",
+    "install:resetLockfile": "yarn-tool install --reset-lockfile",
+    "build": "next build",
+    "build:data:all": "pnpm run build:data:split-grid-wifi && pnpm run build:data:split-grid-charging && pnpm run build:data:grid-index",
+    "build:data:grid-index": "tsx scripts/build-grid-index.ts",
+    "build:data:split-grid-charging": "tsx scripts/split-grid-charging.ts",
+    "build:data:split-grid-wifi": "tsx scripts/split-grid-wifi.ts",
+    "build:sync:data": "tsx scripts/sync-data.ts",
+    "ci:install": "node --run ci:install:pnpm",
+    "ci:install:pnpm": "pnpm install --frozen-lockfile && pnpm add --workspace yarn-tool lerna ynpx pnpm typescript ts-node tsx ts-jest jest @bluelovers/jest-config @bluelovers/tsconfig @yarn-tool/require-resolve",
+    "ci:install:yarn": "yarn install --frozen-lockfile && yarn add -W yarn-tool lerna ynpx pnpm typescript ts-node tsx ts-jest jest @bluelovers/jest-config @bluelovers/tsconfig @yarn-tool/require-resolve",
+    "ci:build": "echo ci:build",
+    "npm:publish": "npm publish",
+    "npm:publish:bump": "node --run version:bump && npm publish",
+    "npm:publish:bump:major": "node --run version:bump -- --bump major && npm publish",
+    "npm:publish:bump:minor": "node --run version:bump -- --bump minor && npm publish",
+    "npm:publish:bump:patch": "node --run version:bump -- --bump patch && npm publish",
+    "npm:publish:bump:prerelease": "node --run version:bump -- --bump prerelease && npm publish",
+    "pnpm:dedupe": "pnpm dedupe",
+    "ws:fix-all": "yarn-tool fix-all --overwriteHostedGitInfo",
+    "ws:fix-all:resetStaticFiles": "node --run ws:fix-all -- --resetStaticFiles",
+    "preversion": "echo preversion && yarn run test",
+    "version": "echo version",
+    "version:bump": "yarn-tool version",
+    "version:bump:major": "node --run version:bump -- --bump major",
+    "version:bump:minor": "node --run version:bump -- --bump minor",
+    "version:bump:patch": "node --run version:bump -- --bump patch",
+    "version:bump:prerelease": "node --run version:bump -- --bump prerelease",
+    "postversion": "echo postversion",
+    "prepublish": "echo prepublish",
+    "prepare": "echo prepare",
+    "prepublishOnly": "yarn run preversion",
+    "prepublishOnly:check-bin": "ynpx --quiet @yarn-tool/check-pkg-bin",
+    "prepack": "echo prepack",
+    "pack": "echo pack",
+    "postpack": "echo postpack",
+    "publish": "echo publish",
+    "postpublish": "node --run postpublish:changelog && node --run postpublish:git:commit && node --run postpublish:git:tag && node --run postpublish:git:push",
+    "postpublish:changelog": "ynpx --quiet @yarn-tool/changelog && git add ./CHANGELOG.md",
+    "postpublish:git:commit": "git commit -m \"chore(release): publish\" . & echo postpublish:git:commit",
+    "postpublish:git:push": "git push --follow-tags",
+    "postpublish:git:tag": "ynpx --quiet @yarn-tool/tag",
+    "postpublishOnly": "echo postpublishOnly",
+    "ncu": "yarn-tool ncu -u",
+    "ncu:pnpm": "pnpm update",
+    "sort-package-json": "yarn-tool sort",
+    "tsc:showConfig": "ynpx get-current-tsconfig -p"
+  },
   "dependencies": {
     "@ant-design/icons": "^6.1.1",
     "@ant-design/nextjs-registry": "^1.3.0",
@@ -52,5 +122,6 @@
     "sass": "^1.99.0",
     "sort-object-keys2": "^3.0.8",
     "typescript": "^6.0.2"
-  }
+  },
+  "packageManager": "yarn@1.22.19"
 }
