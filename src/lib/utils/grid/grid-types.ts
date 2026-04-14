@@ -17,13 +17,25 @@ export interface IGpsLatLngMaxMin
 /** 區塊索引 / Block index */
 export interface IGpsBlockIndex
 {
+	/**
+	 * lng
+	 */
 	xIdx: number;
+	/**
+	 * lat
+	 */
 	yIdx: number;
 }
 
 export interface IGpsCoordinate
 {
+	/**
+	 * y
+	 */
 	lat: number;
+	/**
+	 * x
+	 */
 	lng: number;
 }
 
