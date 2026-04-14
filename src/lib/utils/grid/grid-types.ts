@@ -15,10 +15,10 @@ export interface IGpsLatLngMaxMin
 }
 
 /** 區塊索引 / Block index */
-export interface IGpsRowCol
+export interface IGpsBlockIndex
 {
-	row: number;
-	col: number;
+	xIdx: number;
+	yIdx: number;
 }
 
 export interface IGpsCoordinate
@@ -95,7 +95,7 @@ export interface IGpsCenterBounds
  *
  * 用於描述區塊的索引、中心點與邊界資訊
  */
-export interface IBlockCoordinate extends IGpsCenterBounds, IGpsRowCol
+export interface IBlockCoordinate extends IGpsCenterBounds, IGpsBlockIndex
 {
 	/** 用於查詢 grid-index.json 的 key (lng_lat) / Key for querying grid-index.json */
 	lngLat: string;
