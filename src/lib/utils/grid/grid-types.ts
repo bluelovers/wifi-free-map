@@ -1,4 +1,3 @@
-
 export enum EnumDatasetType
 {
 	WIFI = "wifi",

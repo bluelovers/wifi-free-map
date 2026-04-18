@@ -1,5 +1,10 @@
 import { IGpsCoordinate } from './grid-types';
-import { IFormatBlockKey, _formatBlockKey, calcCoordToBucketIndexAndCoord, calcGlobalBlockIndexAndCoord } from './grid-utils-global';
+import {
+	IFormatBlockKey,
+	_formatBlockKey,
+	calcCoordToBucketIndexAndCoord,
+	calcGlobalBlockIndexAndCoord,
+} from './grid-utils-global';
 import { ITSGenerator } from 'ts-type';
 
 /**

@@ -1,4 +1,3 @@
-
 export interface IStationBase
 {
 	/** 熱點名稱 */

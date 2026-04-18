@@ -379,12 +379,12 @@ export function queryBlocksFromCenter(
 		lat = latOrCoord.lat;
 		lngVal = latOrCoord.lng;
 	}
-else
-{
-	// 個別參數調用
-	lat = latOrCoord;
-	lngVal = lng!;
-}
+	else
+	{
+		// 個別參數調用
+		lat = latOrCoord;
+		lngVal = lng!;
+	}
 
 // 取得中心點所屬的區塊索引
 	const { yIdx, xIdx } = getBlockIndex(lat, lngVal);

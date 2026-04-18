@@ -342,7 +342,7 @@ export function _calculateCenterByAnyPointCore(minLngLat: IGpsLngLatMin)
 
 	return fixCoord({
 		lng: minLngLat.minLng + half,
-		lat: minLngLat.minLat + half
+		lat: minLngLat.minLat + half,
 	});
 }
 
@@ -361,12 +361,11 @@ export function _fixCoordCore(coord: number)
 	return parseFloat(coord.toFixed(GLOBAL_GRID_CONFIG_PRECISION));
 }
 
-
 export function fixCoord(coord: IGpsCoordinate): IGpsCoordinate
 {
 	return {
 		lng: _fixCoordCore(coord.lng),
-		lat: _fixCoordCore(coord.lat)
+		lat: _fixCoordCore(coord.lat),
 	};
 }
 
