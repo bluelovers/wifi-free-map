@@ -267,3 +267,5 @@ certificates
 .github/workflows/codeql-analysis.yml
 .github/workflows/coverage.yml
 .github/workflows/yarn-lock-changes.yml
+jest.config.cjs__
+.eslintrc.json
