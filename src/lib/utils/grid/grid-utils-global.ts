@@ -331,6 +331,18 @@ export function _idxToRange(indices: IGpsBlockIndex): IGpsLngLatMinMax
 	};
 }
 
+export function _croodToRange(minLngLat: IGpsLngLatMin, bucketSize = 1): IGpsLngLatMinMax
+{
+	const { minLng, minLat } = minLngLat;
+
+	return {
+		minLat,
+		maxLat: minLat + BLOCK_SIZE * bucketSize,
+		minLng,
+		maxLng: minLng + BLOCK_SIZE * bucketSize,
+	};
+}
+
 /**
  * 座標範圍轉邊界
  * Coordinate range to bounds
@@ -629,5 +641,30 @@ export function getGridSpecsFromAnyPoint(anyCoord: IGpsCoordinate)
 		bounds,
 		center,
 		indices,
+	};
+}
+
+/**
+ * 從任意座標推導其所屬 Bucket (L1) 的完整屬性
+ */
+export function getBucketSpecsFromAnyPoint(anyCoord: IGpsCoordinate)
+{
+	/**
+	 * L1 的總跨度 (0.3度)
+	 */
+	const { bucketIndex, bucketCoord, blockIndex } = calcCoordToBucketIndexAndCoord(anyCoord);
+
+	const bucketRange = _croodToRange({
+		minLng: bucketCoord.lng,
+		minLat: bucketCoord.lat,
+	}, BUCKET_CONFIG_GROUP_SIZE);
+
+	const bucketBounds = rangeToBounds(bucketRange);
+
+	return {
+		bucketPath: _formatBlockKey(bucketCoord.lng, bucketCoord.lat),
+		bucketIndex,
+		bucketBounds,
+		blockIndex,
 	};
 }
