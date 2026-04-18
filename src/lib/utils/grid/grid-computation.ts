@@ -10,8 +10,8 @@ import {
 	IBounds,
 	IGpsCenterBounds,
 	IGpsCoordinate,
-	IGpsLatLngMaxMin,
-	IGpsRowCol,
+	IGpsLngLatMinMax,
+	IGpsBlockIndex,
 	IGpsRowColStartEnd,
 } from "./grid-types";
 import { BLOCK_SIZE, TAIWAN_BOUNDS } from "./grid-const";
@@ -76,7 +76,7 @@ export function getBlockRange(
 	const startCol = Math.min(topLeftCol, topRightCol, bottomLeftCol, bottomRightCol);
 	const endCol = Math.max(topLeftCol, topRightCol, bottomLeftCol, bottomRightCol);
 
-	return { startRow, endRow, startCol, endCol };
+	return { startX: startRow, endX: endRow, startY: startCol, endY: endCol };
 }
 
 /**
@@ -92,12 +92,12 @@ export function getBlockRangeFromCenter(
 	lng: number,
 ): IGpsRowColStartEnd
 {
-	const { row, col } = getBlockIndex(lat, lng);
+	const { yIdx, xIdx } = getBlockIndex(lat, lng);
 	return {
-		startRow: row,
-		endRow: row,
-		startCol: col,
-		endCol: col,
+		startX: yIdx,
+		endX: yIdx,
+		startY: xIdx,
+		endY: xIdx,
 	};
 }
 
@@ -113,7 +113,7 @@ export function getBlockRangeFromCenter(
 export function getCoordRangeFromCenter(
 	lat: number,
 	lng: number,
-): IGpsLatLngMaxMin
+): IGpsLngLatMinMax
 {
 	const halfSize = BLOCK_SIZE / 2;
 	return {
@@ -173,11 +173,11 @@ export function isValidBlockRange(
  * @param lng - 經度
  * @returns 區塊索引 { row, col }
  */
-export function getBlockIndex(lat: number, lng: number): IGpsRowCol
+export function getBlockIndex(lat: number, lng: number): IGpsBlockIndex
 {
 	const row = latToRow(lat);
 	const col = lngToCol(lng);
-	return { row, col } as IGpsRowCol;
+	return { yIdx: row, xIdx: col } as IGpsBlockIndex;
 }
 
 /**
@@ -228,9 +228,9 @@ export function getBlockBounds(row: number, col: number): IBounds
  */
 export function getBlockFromCoordinate(lat: number, lng: number): IGpsCenterBounds
 {
-	const { row, col } = getBlockIndex(lat, lng);
-	const center = getBlockCenter(row, col);
-	const bounds = getBlockBounds(row, col);
+	const { yIdx, xIdx } = getBlockIndex(lat, lng);
+	const center = getBlockCenter(yIdx, xIdx);
+	const bounds = getBlockBounds(yIdx, xIdx);
 	return { center, bounds };
 }
 
@@ -250,7 +250,7 @@ export function getBlockFromCoordinate(lat: number, lng: number): IGpsCenterBoun
  * @returns 區塊範圍與交集的區塊資料
  */
 export function calculateIntersectingBlocks(
-	minLatOrRangeOrCoord: number | IGpsLatLngMaxMin | IGpsCoordinate,
+	minLatOrRangeOrCoord: number | IGpsLngLatMinMax | IGpsCoordinate,
 	maxLat?: number,
 	minLng?: number,
 	maxLng?: number,
@@ -272,7 +272,7 @@ export function calculateIntersectingBlocks(
 		if ("minLat" in minLatOrRangeOrCoord)
 		{
 			// 範圍物件調用
-			({ minLat, maxLat: maxLatVal, minLng: minLngVal, maxLng: maxLngVal } = minLatOrRangeOrCoord as IGpsLatLngMaxMin);
+			({ minLat, maxLat: maxLatVal, minLng: minLngVal, maxLng: maxLngVal } = minLatOrRangeOrCoord as IGpsLngLatMinMax);
 		}
 		else
 		{
@@ -296,21 +296,21 @@ export function calculateIntersectingBlocks(
 	}
 
 	// 計算查詢範圍的四個角落所屬的區塊索引
-	const { startRow, endRow, startCol, endCol } = getBlockRange(minLat, maxLatVal, minLngVal, maxLngVal);
+	const { startX, endX, startY, endY } = getBlockRange(minLat, maxLatVal, minLngVal, maxLngVal);
 
 	// 驗證區塊數量不超過 4 個
-	if (!isValidBlockRange(startRow, endRow, startCol, endCol))
+	if (!isValidBlockRange(startX, endX, startY, endY))
 	{
-		const count = getBlockCountInRange(startRow, endRow, startCol, endCol);
+		const count = getBlockCountInRange(startX, endX, startY, endY);
 		console.warn(`警告: 查詢範圍包含 ${count} 個區塊（預期最多 4 個）`);
 	}
 
 	// 收集所有交集的區塊
 	const match: Record<string, IBlockCoordinate> = {};
 
-	for (let row = startRow; row <= endRow; row++)
+	for (let row = startX; row <= endX; row++)
 	{
-		for (let col = startCol; col <= endCol; col++)
+		for (let col = startY; col <= endY; col++)
 		{
 			const key = `${col}_${row}`;
 			const center = getBlockCenter(row, col);
@@ -320,8 +320,8 @@ export function calculateIntersectingBlocks(
 			const lngLat = `${center.lng.toFixed(4)}_${center.lat.toFixed(4)}`;
 
 			match[key] = {
-				row,
-				col,
+				yIdx: row,
+				xIdx: col,
 				center,
 				bounds,
 				lngLat,
@@ -335,7 +335,7 @@ export function calculateIntersectingBlocks(
 	const center = { lat: centerLat, lng: centerLng };
 
 	// 計算查詢範圍的邊界
-	const bounds = getBlockBounds(startRow, startCol);
+	const bounds = getBlockBounds(startX, startY);
 
 	return { center, bounds, match };
 }
@@ -387,10 +387,10 @@ else
 }
 
 // 取得中心點所屬的區塊索引
-	const { row, col } = getBlockIndex(lat, lngVal);
+	const { yIdx, xIdx } = getBlockIndex(lat, lngVal);
 
 	// 取得該區塊的中心點座標
-	const blockCenter = getBlockCenter(row, col);
+	const blockCenter = getBlockCenter(yIdx, xIdx);
 
 	// 計算 normalized offset (-1 到 1)
 	// offset > 0: 在右/上側
@@ -405,22 +405,22 @@ else
 	const colThreshold = 0.5;
 
 	// 決定 row 範圍
-	let rowStart = row;
-	let rowEnd = row;
+	let rowStart = yIdx;
+	let rowEnd = yIdx;
 	if (latOffset > rowThreshold)
 	{
-		rowEnd = row + 1;
+		rowEnd = yIdx + 1;
 	}
-	else if (latOffset < -rowThreshold) rowStart = row - 1;
+	else if (latOffset < -rowThreshold) rowStart = yIdx - 1;
 
 	// 決定 col 範圍
-	let colStart = col;
-	let colEnd = col;
+	let colStart = xIdx;
+	let colEnd = xIdx;
 	if (lngOffset > colThreshold)
 	{
-		colEnd = col + 1;
+		colEnd = xIdx + 1;
 	}
-	else if (lngOffset < -colThreshold) colStart = col - 1;
+	else if (lngOffset < -colThreshold) colStart = xIdx - 1;
 
 	// 收集所有交集的區塊
 	const match: Record<string, IBlockCoordinate> = {};
@@ -435,8 +435,8 @@ else
 			const lngLat = `${center.lng.toFixed(4)}_${center.lat.toFixed(4)}`;
 
 			match[key] = {
-				row: r,
-				col: c,
+				yIdx: r,
+				xIdx: c,
 				center,
 				bounds,
 				lngLat,
@@ -448,7 +448,7 @@ else
 	const resultCenter = { lat, lng: lngVal };
 
 	// 計算查詢範圍的邊界（使用區塊邊界）
-	const currentBounds = getBlockBounds(row, col);
+	const currentBounds = getBlockBounds(yIdx, xIdx);
 
 	return { center: resultCenter, bounds: currentBounds, match };
 }

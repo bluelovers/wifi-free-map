@@ -4,7 +4,7 @@
  */
 import { NextResponse } from 'next/server';
 import { openDB, IDBPDatabase } from 'idb';
-import type { Hotspot } from '../../../../types/hotspot';
+import type { IHotspot } from '../../../../types/station-wifi';
 
 const DB_NAME = 'wifi-free-map-db';
 const STORE_NAME = 'hotspots';
@@ -35,17 +35,17 @@ export async function PUT(request: Request, { params }: { params: Promise<{ id: 
 		}
 		const db = await getDB();
 		const cached = await db.get(STORE_NAME, 'latest');
-		const data: Hotspot[] = cached?.data ?? [];
+		const data: IHotspot[] = cached?.data ?? [];
 
 		// 關鍵修復 (更強強制): 明確指定 h 的型別，再使用 Type Predicate Guard
-		const index = data.findIndex((h: Hotspot): h is Hotspot => h.id === id);
+		const index = data.findIndex((h: IHotspot): h is IHotspot => h.id === id);
 
 		if (index === -1)
 		{
 			return NextResponse.json({ success: false, message: 'Hotspot not found', id: id }, { status: 404 });
 		}
 		// 合併更新欄位 (TypeScript 現在應完全信任 data[index] 具有 id 屬性)
-		const updated = { ...data[index], ...body } as Hotspot;
+		const updated = { ...data[index], ...body } as IHotspot;
 		data[index] = updated;
 
 		// 更新快取並保留 timestamp

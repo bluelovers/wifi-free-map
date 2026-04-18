@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { fetchHotspots } from "../../../services/hotspotService";
-import { Hotspot } from "../../../types/hotspot";
+import { IHotspot } from "../../../types/station-wifi";
 
 /**
  * GET /api/hotspots – 取得 Wi‑Fi 熱點資料。
@@ -10,7 +10,7 @@ export async function GET()
 {
 	try
 	{
-		const data: Hotspot[] = await fetchHotspots();
+		const data: IHotspot[] = await fetchHotspots();
 		return NextResponse.json(data);
 	}
 	catch (e)

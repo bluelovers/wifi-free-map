@@ -62,6 +62,12 @@ importers:
       ts-jest:
         specifier: ^29.4.9
         version: 29.4.9(@babel/core@7.29.0)(@jest/types@30.3.0)(babel-jest@30.3.0(@babel/core@7.29.0))(jest-util@30.3.0)(jest@30.3.0(@types/node@25.5.2))(typescript@6.0.2)
+      ts-type:
+        specifier: ^3.0.13
+        version: 3.0.13(ts-toolbelt@9.6.0)
+      ts-type-object-entries:
+        specifier: ^1.0.10
+        version: 1.0.10
       workbox-window:
         specifier: ^7.4.0
         version: 7.4.0
@@ -2386,6 +2392,9 @@ packages:
 
   ts-toolbelt@9.6.0:
     resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
+
+  ts-type-object-entries@1.0.10:
+    resolution: {integrity: sha512-kBt1JerYvEMA8WuWFga7AQNNpacKZ+Uh9daaukQqsHNXzPXTuciSkxoiDM4X6ov7zKc8KF2+CLompLWfUF2l/w==}
 
   ts-type@2.1.10:
     resolution: {integrity: sha512-cung450P5HbC+xTimzw8DcFqP4MjxH3aCt2m6IZMs0aMatEOIasPmtECKK1WChg9j/wB8U5zYFCRHcS6xmdSNw==}
@@ -5184,6 +5193,8 @@ snapshots:
       jest-util: 30.3.0
 
   ts-toolbelt@9.6.0: {}
+
+  ts-type-object-entries@1.0.10: {}
 
   ts-type@2.1.10(@types/bluebird@3.5.42)(@types/node@25.5.2)(ts-toolbelt@9.6.0):
     dependencies:

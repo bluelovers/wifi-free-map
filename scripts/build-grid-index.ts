@@ -10,7 +10,7 @@ import { writeFile } from "fs/promises";
 import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
 import { readdirSync, readFileSync } from "fs";
-import { IBlockData, IDataEntry } from '@/lib/utils/grid/grid-types';
+import { IBlockData, IDataEntry, IGridBlock } from '@/lib/utils/grid/grid-types';
 import { BLOCK_SIZE, DATA_TYPES, TAIWAN_BOUNDS } from '@/lib/utils/grid/grid-const';
 import { parseBlockFileName, cleanRoad, extractLocationInfo } from '@/lib/utils/grid/grid-address';
 
@@ -117,18 +117,41 @@ async function main()
 	console.log(`\n建立 ${blocks.size} 個區塊`);
 
 	// 建立索引表
-	const indexTable = Array.from(blocks.entries()).map(([blockKey, blockData]) =>
+	const indexTable = Array.from(blocks.entries()).reduce((acc, [blockKey, blockData]) =>
 	{
 		const fileName = `${blockData.center.lng.toFixed(4)}_${blockData.center.lat.toFixed(4)}.json`;
 
-		return {
+		let totalCount = 0;
+
+		// 如果沒有位置資訊，跳過這個區塊
+		Object.entries(blockData.dataset).forEach(([key, value]) =>
+		{
+			if (value.count === 0)
+			{
+				delete blockData.dataset[key];
+			}
+			else
+			{
+				totalCount += value.count;
+			}
+		});
+
+		if (totalCount === 0)
+		{
+			console.log(`警告: 區塊 ${blockKey} 沒有位置資訊`);
+			return acc;
+		}
+
+		acc.push({
 			fileName,
 			center: blockData.center,
 			bounds: blockData.bounds,
 			dataset: blockData.dataset,
 			locations: Array.from(blockData.locations).slice(0, 20),
-		};
-	});
+		});
+
+		return acc;
+	}, [] as Array<IGridBlock>);
 
 	// 依照區塊中心點排序
 	indexTable.sort((a, b) =>

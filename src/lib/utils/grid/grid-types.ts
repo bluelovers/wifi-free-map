@@ -1,28 +1,48 @@
-export interface IGpsRowColStartEnd
+
+export enum EnumDatasetType
 {
-	startRow: number;
-	endRow: number;
-	startCol: number;
-	endCol: number;
+	WIFI = "wifi",
+	CHARGING = "charging",
 }
 
-export interface IGpsLatLngMaxMin
+export interface IGpsRowColStartEnd
 {
-	minLat: number;
-	maxLat: number;
+	startX: number;
+	endX: number;
+	startY: number;
+	endY: number;
+}
+
+export interface IGpsLngLatMin
+{
+	/** x lng 經度最小值 / Minimum longitude */
 	minLng: number;
+	/** y lat 緯度最小值 / Minimum latitude */
+	minLat: number;
+}
+
+export interface IGpsLngLatMax
+{
+	/** x lng 經度最大值 / Maximum longitude */
 	maxLng: number;
+	/** y lat 緯度最大值 / Maximum latitude */
+	maxLat: number;
+}
+
+export interface IGpsLngLatMinMax extends IGpsLngLatMin, IGpsLngLatMax
+{
+
 }
 
 /** 區塊索引 / Block index */
 export interface IGpsBlockIndex
 {
 	/**
-	 * lng
+	 * x lng 索引
 	 */
 	xIdx: number;
 	/**
-	 * lat
+	 * y lat 索引
 	 */
 	yIdx: number;
 }
@@ -30,13 +50,13 @@ export interface IGpsBlockIndex
 export interface IGpsCoordinate
 {
 	/**
-	 * y
-	 */
-	lat: number;
-	/**
 	 * x
 	 */
 	lng: number;
+	/**
+	 * y
+	 */
+	lat: number;
 }
 
 /**
@@ -45,13 +65,13 @@ export interface IGpsCoordinate
  */
 export interface IBounds
 {
-	/** 西北角座標 / Northwest corner coordinates */
+	/** (0,1) 西北角座標 / Northwest corner coordinates */
 	northWest: IGpsCoordinate;
-	/** 東北角座標 / Northeast corner coordinates */
+	/** (1,1) 東北角座標 / Northeast corner coordinates */
 	northEast: IGpsCoordinate;
-	/** 西南角座標 / Southwest corner coordinates */
+	/** (0,0) 西南角座標 / Southwest corner coordinates */
 	southWest: IGpsCoordinate;
-	/** 東南角座標 / Southeast corner coordinates */
+	/** (1,0) 東南角座標 / Southeast corner coordinates */
 	southEast: IGpsCoordinate;
 }
 
@@ -67,7 +87,7 @@ export interface IDatasetEntry
 	count: number;
 }
 
-export type IDataset = Record<string, IDatasetEntry>;
+export type IDataset = Record<EnumDatasetType, IDatasetEntry>;
 
 /**
  * 統一格式的區塊介面
@@ -77,6 +97,16 @@ export interface IGridBlock extends IGpsCenterBounds
 {
 	/** 區塊檔名（格式：經度_緯度.json）/ Block file name */
 	fileName: string;
+	/** 資料集（依資料類型分）/ Dataset (by data type) */
+	dataset: IDataset;
+	/** 共享位置字串陣列 / Shared location strings */
+	locations: string[];
+}
+
+export interface IGridBlockV2 extends IGpsCenterBounds
+{
+	/** 區塊路徑（格式：經度_緯度）/ Block path */
+	blockPath: string;
 	/** 資料集（依資料類型分）/ Dataset (by data type) */
 	dataset: IDataset;
 	/** 共享位置字串陣列 / Shared location strings */

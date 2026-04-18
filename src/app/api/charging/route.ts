@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { fetchChargingStations } from "../../../services/chargingService";
-import { ChargingStation } from "../../../types/charging";
+import { IChargingStation } from "../../../types/station-charging";
 
 /**
  * GET /api/charging – 取得充電站資料。
@@ -10,7 +10,7 @@ export async function GET()
 {
 	try
 	{
-		const data: ChargingStation[] = await fetchChargingStations();
+		const data: IChargingStation[] = await fetchChargingStations();
 		return NextResponse.json(data);
 	}
 	catch (e)

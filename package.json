@@ -103,6 +103,8 @@
     "react-dom": "^19.2.4",
     "react-leaflet": "^5.0.0",
     "ts-jest": "^29.4.9",
+    "ts-type": "^3.0.13",
+    "ts-type-object-entries": "^1.0.10",
     "workbox-window": "^7.4.0"
   },
   "devDependencies": {

@@ -2,7 +2,7 @@
  * Unit tests for data transformation utilities.
  * 測試資料轉換函式，確保未來修改不會破壞鍵名映射。
  */
-import { RawChargingStation } from "@/types/charging";
+import { IRawChargingStation } from "../src/types/station-charging";
 import { convertWiFiRaw, convertChargingRaw } from "../src/lib/transform";
 import { describe, it, expect } from "@jest/globals";
 
@@ -26,7 +26,7 @@ describe('convertWiFiRaw', () => {
 
 describe('convertChargingRaw', () => {
   it('should correctly map Chinese keys to ChargingStation', () => {
-    const raw: RawChargingStation = {
+    const raw: IRawChargingStation = {
       "充電站名稱": 'Station A',
       "緯度": '24.1500',
       "經度": '120.6833',

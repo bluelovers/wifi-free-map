@@ -8,10 +8,10 @@
 
 import { readFile } from "fs/promises";
 import { resolve } from "path";
-import type { Hotspot, RawHotspot } from "../types/hotspot";
-import type { ChargingStation, RawChargingStation } from "../types/charging";
-import { mapRawToHotspot } from "../types/hotspot";
-// import { mapRawToCharging } from "../types/charging"; // removed: using convertChargingRaw directly
+import type { IHotspot, IRawHotspot } from "../types/station-wifi";
+import type { IChargingStation, IRawChargingStation } from "../types/station-charging";
+import { ITSGenerator } from 'ts-type';
+import { IValueArrayOrIterable } from './utils/grid/grid-split';
 
 // ==================== Wi-Fi 熱點轉換 ====================
 
@@ -25,7 +25,7 @@ import { mapRawToHotspot } from "../types/hotspot";
  * @param raw - 原始資料物件
  * @returns 轉換後的 Hotspot 物件
  */
-export function convertWiFiRaw(raw: RawHotspot): Hotspot
+export function convertWiFiRaw(raw: IRawHotspot): IHotspot
 {
 	return {
 		name: raw.Name ?? "",
@@ -42,9 +42,23 @@ export function convertWiFiRaw(raw: RawHotspot): Hotspot
  * @param rawData - 原始資料陣列
  * @returns 轉換後的 Hotspot 陣列
  */
-export function convertWiFiArray(rawData: RawHotspot[]): Hotspot[]
+export function convertWiFiArray(rawData: IRawHotspot[]): IHotspot[]
 {
-	return rawData.map(convertWiFiRaw).filter((item) => item.name && (item.lat !== 0 || item.lng !== 0));
+	return rawData.map(convertWiFiRaw).filter(validChargingStation);
+}
+
+export function* convertWiFiArrayGenerator(rawData: IValueArrayOrIterable<IRawHotspot>): ITSGenerator<IHotspot>
+{
+	for (const raw of rawData)
+	{
+		const hotspot = convertWiFiRaw(raw);
+		if (validChargingStation(hotspot))
+		{
+			yield hotspot;
+		}
+	}
+
+	return undefined as any
 }
 
 // ==================== 充電站轉換 ====================
@@ -59,7 +73,7 @@ export function convertWiFiArray(rawData: RawHotspot[]): Hotspot[]
  * @param raw - 原始資料物件
  * @returns 轉換後的 ChargingStation 物件
  */
-export function convertChargingRaw(raw: RawChargingStation): ChargingStation
+export function convertChargingRaw(raw: IRawChargingStation): IChargingStation
 {
 	return {
 		name: raw["充電站名稱"] ?? "",
@@ -76,11 +90,35 @@ export function convertChargingRaw(raw: RawChargingStation): ChargingStation
  * @param rawData - 原始資料陣列
  * @returns 轉換後的 ChargingStation 陣列
  */
-export function convertChargingArray(rawData: RawChargingStation[]): ChargingStation[]
+export function convertChargingArray(rawData: IRawChargingStation[]): IChargingStation[]
 {
-	return rawData.map(convertChargingRaw).filter(
-		(item) => item.name && (item.lat !== 0 || item.lng !== 0),
-	);
+	return rawData.map(convertChargingRaw).filter(validChargingStation);
+}
+
+export function* convertChargingArrayGenerator(rawData: IValueArrayOrIterable<IRawChargingStation>): ITSGenerator<IChargingStation>
+{
+	for (const raw of rawData)
+	{
+		const station = convertChargingRaw(raw);
+		if (validChargingStation(station))
+		{
+			yield station;
+		}
+	}
+
+	return undefined as any
+}
+
+/**
+ * 驗證充電站資料是否有效
+ * Validate if charging station data is valid.
+ *
+ * @param station - 充電站物件
+ * @returns 是否有效
+ */
+export function validChargingStation(station: IChargingStation): boolean
+{
+	return (station.name && (station.lat !== 0 || station.lng !== 0)) as boolean;
 }
 
 // ==================== 檔案 I/O 函式 ====================
@@ -92,10 +130,10 @@ export function convertChargingArray(rawData: RawChargingStation[]): ChargingSta
  * @param filePath - JSON 檔案路徑
  * @returns 轉換後的 Hotspot 陣列
  */
-export async function readAndConvertWiFi(filePath: string): Promise<Hotspot[]>
+export async function readAndConvertWiFi(filePath: string): Promise<IHotspot[]>
 {
 	const rawContent = await readFile(filePath, "utf-8");
-	const rawData: RawHotspot[] = JSON.parse(rawContent);
+	const rawData: IRawHotspot[] = JSON.parse(rawContent);
 	return convertWiFiArray(rawData);
 }
 
@@ -106,10 +144,10 @@ export async function readAndConvertWiFi(filePath: string): Promise<Hotspot[]>
  * @param filePath - JSON 檔案路徑
  * @returns 轉換後的 ChargingStation 陣列
  */
-export async function readAndConvertCharging(filePath: string): Promise<ChargingStation[]>
+export async function readAndConvertCharging(filePath: string): Promise<IChargingStation[]>
 {
 	const rawContent = await readFile(filePath, "utf-8");
-	const rawData: RawChargingStation[] = JSON.parse(rawContent);
+	const rawData: IRawChargingStation[] = JSON.parse(rawContent);
 	return convertChargingArray(rawData);
 }
 

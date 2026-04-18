@@ -5,7 +5,7 @@
  */
 
 import { openDB, IDBPDatabase } from "idb";
-import { Hotspot, RawHotspot } from "../types/hotspot";
+import { IHotspot, IRawHotspot } from "../types/station-wifi";
 import { convertWiFiRaw } from "../lib/transform";
 
 /**
@@ -36,7 +36,7 @@ async function getDB(): Promise<IDBPDatabase<any>>
  * 從遠端 API 取得 Wi‑Fi 熱點 (Network‑First)。
  * Fetch Wi‑Fi hotspots with Network‑First strategy.
  */
-export async function fetchHotspots(): Promise<Hotspot[]>
+export async function fetchHotspots(): Promise<IHotspot[]>
 {
 	const endpoint = "https://itaiwan.gov.tw/ITaiwanDW/GetFile?fileName=IpSelect_tw.json&type=6"; // iTaiwan Wi‑Fi API endpoint (Dataset 5962)
 	try
@@ -47,12 +47,12 @@ export async function fetchHotspots(): Promise<Hotspot[]>
 		if (cachedEntry && cachedEntry.timestamp && (Date.now() - cachedEntry.timestamp) < 24 * 60 * 60 * 1000)
 		{
 			// cache still fresh
-			return cachedEntry.data as Hotspot[];
+			return cachedEntry.data as IHotspot[];
 		}
 		// 若快取不存在或已過期，向遠端取得
 		const res = await fetch(endpoint);
 		if (!res.ok) throw new Error(`Network error: ${res.status}`);
-		const raw: RawHotspot[] = await res.json();
+		const raw: IRawHotspot[] = await res.json();
 		const mapped = raw.map(convertWiFiRaw);
 		// Store fresh data 與時間戳於 IndexedDB
 		await db.put(STORE_NAME, { timestamp: Date.now(), data: mapped }, "latest");
@@ -63,10 +63,10 @@ export async function fetchHotspots(): Promise<Hotspot[]>
 		// On failure, try IndexedDB then static JSON fallback
 		const db = await getDB();
 		const cached = await db.get(STORE_NAME, "latest");
-		if (cached) return cached as Hotspot[];
+		if (cached) return cached as IHotspot[];
 		// fallback to static JSON
 		const staticRes = await fetch("/data/wifi-hotspots.json");
-		if (staticRes.ok) return (await staticRes.json()) as Hotspot[];
+		if (staticRes.ok) return (await staticRes.json()) as IHotspot[];
 		// final mock fallback
 		return [];
 	}

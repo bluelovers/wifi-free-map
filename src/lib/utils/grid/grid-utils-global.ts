@@ -1,5 +1,12 @@
 import { BLOCK_SIZE, TAIWAN_BOUNDS } from './grid-const';
-import { IGpsBlockIndex, IGpsCoordinate, IGpsLatLngMaxMin } from './grid-types';
+import {
+	IBounds,
+	IGpsBlockIndex,
+	IGpsCoordinate, IGpsLngLatMax,
+	IGpsLngLatMin,
+	IGpsLngLatMinMax,
+	IGpsRowColStartEnd,
+} from './grid-types';
 
 /**
  * 全球通用網格配置
@@ -41,7 +48,7 @@ export const BUCKET_CONFIG_GROUP_SIZE = 15 as const;
  * 全球通用：座標轉區塊 ID
  * 不論給入哪裡的座標，都會自動對齊到 GLOBAL_GRID_CONFIG_ORIGIN 出發的全球網格
  */
-export function calcGlobalBlockIndex({ lng, lat }: IGpsCoordinate)
+export function calcGlobalBlockIndexAndCoord({ lng, lat }: IGpsCoordinate): IGpsBlockIndex & IGpsLngLatMin
 {
 	/**
 	 * 核心公式：不論正負數，floor 都能正確找到該區塊的「最小值邊界」
@@ -61,15 +68,25 @@ export function calcGlobalBlockIndex({ lng, lat }: IGpsCoordinate)
 	};
 };
 
+export type IFormatBlockKey<S extends string = '_'> = `${number}${S}${number}`;
+
 /**
  * 格式化區塊鍵值
+ *
+ * @param x_lng x lng 經度
+ * @param y_lat y lat 緯度
+ * @param opts
  */
-export function _formatBlockKey(x_lng: number | string, y_lat: number | string): `${number}_${number}`
+export function _formatBlockKey<S extends string = '_'>(x_lng: number | string, y_lat: number | string, opts?: {
+	sep?: S;
+}): IFormatBlockKey<S>
 {
 	const lngStr = typeof x_lng === 'number' ? x_lng.toFixed(GLOBAL_GRID_CONFIG_PRECISION) : x_lng;
 	const latStr = typeof y_lat === 'number' ? y_lat.toFixed(GLOBAL_GRID_CONFIG_PRECISION) : y_lat;
 
-	return `${lngStr}_${latStr}` as `${number}_${number}`;
+	const sep = opts?.sep ?? '_';
+
+	return `${lngStr}${sep}${latStr}` as IFormatBlockKey<S>;
 }
 
 /**
@@ -101,7 +118,7 @@ export function _calcBlockIndexToCoordCore(idx: number, base: number)
 /**
  * 算出該區塊的左下角座標
  */
-export function _calcBlockIndexToCoord({ xIdx, yIdx }: { xIdx: number; yIdx: number })
+export function _calcBlockIndexToCoord({ xIdx, yIdx }: IGpsBlockIndex): IGpsLngLatMin
 {
 	const minLng = _calcBlockIndexToCoordCore(xIdx, GLOBAL_GRID_CONFIG_ORIGIN.lng);
 	const minLat = _calcBlockIndexToCoordCore(yIdx, GLOBAL_GRID_CONFIG_ORIGIN.lat);
@@ -116,7 +133,7 @@ export function _calcBlockIndexToCoord({ xIdx, yIdx }: { xIdx: number; yIdx: num
  * 4. 組合功能：取得一個矩形範圍內所有的區塊 IDs
  * 這個函式保證結果只會是 1, 2, 4 (或更多，取決於 range 大小，但一定是矩形數量)
  */
-export function calcBlockIdsInRange(range: IGpsLatLngMaxMin)
+export function calcBlockIdsInRange(range: IGpsLngLatMinMax)
 {
 	const idBounds = _getBlockIdsInRangeCore(range);
 
@@ -128,11 +145,15 @@ export function calcBlockIdsInRange(range: IGpsLatLngMaxMin)
 	};
 };
 
-interface IBlockIndexBounds
+export interface IBlockIndexBoundsStartEnd
 {
+	/** x lng 索引最小值 */
 	startX: number;
+	/** x lng 索引最大值 */
 	endX: number;
+	/** y lat 索引最小值 */
 	startY: number;
+	/** y lat 索引最大值 */
 	endY: number;
 }
 
@@ -145,7 +166,7 @@ export function _getBlockIdsInRangeCore({
 	minLat,
 	maxLng,
 	maxLat,
-}: IGpsLatLngMaxMin): IBlockIndexBounds
+}: IGpsLngLatMinMax): IBlockIndexBoundsStartEnd
 {
 	const startX = _calCoordToBlockIndexCore(minLng, GLOBAL_GRID_CONFIG_ORIGIN.lng);
 	const endX = _calCoordToBlockIndexCore(maxLng - GLOBAL_GRID_CONFIG_EPSILON, GLOBAL_GRID_CONFIG_ORIGIN.lng);
@@ -161,7 +182,7 @@ export function _getBlockIdsInRangeCore({
 	};
 }
 
-export function _detectIdBoundsMatchedBlock(idBounds: IBlockIndexBounds)
+export function _detectIdBoundsMatchedBlock(idBounds: IBlockIndexBoundsStartEnd)
 {
 	const matchedBlocks: ReturnType<typeof _formatBlockKey>[] = [];
 
@@ -178,7 +199,7 @@ export function _detectIdBoundsMatchedBlock(idBounds: IBlockIndexBounds)
 	return matchedBlocks;
 }
 
-export function _idBoundsToRange(idBounds: IBlockIndexBounds): IGpsLatLngMaxMin
+export function _idxBoundsToRange(idBounds: IBlockIndexBoundsStartEnd): IGpsLngLatMinMax
 {
 	return {
 		minLat: _calcBlockIndexToCoordCore(idBounds.startX, GLOBAL_GRID_CONFIG_ORIGIN.lng),
@@ -188,11 +209,62 @@ export function _idBoundsToRange(idBounds: IBlockIndexBounds): IGpsLatLngMaxMin
 	};
 }
 
+export function _idxToRange(indices: IGpsBlockIndex): IGpsLngLatMinMax
+{
+	const { minLng, minLat } = _calcBlockIndexToCoord(indices);
+
+	return {
+		minLat,
+		maxLat: minLat + BLOCK_SIZE,
+		minLng,
+		maxLng: minLng + BLOCK_SIZE,
+	};
+}
+
+export function rangeToBounds(range: IGpsLngLatMinMax): IBounds
+{
+	return {
+		/** 西北角座標 / Northwest corner coordinates */
+		northWest: fixCoord({
+			lng: range.minLng,
+			lat: range.maxLat,
+		}),
+		/** 東北角座標 / Northeast corner coordinates */
+		northEast: fixCoord({
+			lng: range.maxLng,
+			lat: range.maxLat,
+		}),
+		/** 西南角座標 / Southwest corner coordinates */
+		southWest: fixCoord({
+			lng: range.minLng,
+			lat: range.minLat,
+		}),
+		/** 東南角座標 / Southeast corner coordinates */
+		southEast: fixCoord({
+			lng: range.maxLng,
+			lat: range.minLat,
+		}),
+	}
+}
+
+export function boundsToRange(bounds: IBounds): IGpsLngLatMinMax
+{
+	const { minLng, minLat } = _boundsToLngLatMin(bounds);
+	const { maxLng, maxLat } = _boundsToLngLatMax(bounds);
+
+	return {
+		minLng,
+		maxLng,
+		minLat,
+		maxLat,
+	};
+}
+
 /**
  * 計算分流資料夾名稱
  * 邏輯：先算索引，再將索引除以 15 取整數，得到「組索引」
  */
-export function calcCoordToBucketCoord(coord: IGpsCoordinate)
+export function calcCoordToBucketIndexAndCoord(coord: IGpsCoordinate)
 {
 	const blockIndex = _calcCoordToBlockIndex(coord);
 
@@ -246,5 +318,92 @@ export function _calcBlockIndexToBucketIndex(blockIndex: IGpsBlockIndex)
 	return {
 		bucketX: _calcBlockIndexToBucketIndexCore(blockIndex.xIdx),
 		bucketY: _calcBlockIndexToBucketIndexCore(blockIndex.yIdx),
+	};
+}
+
+/**
+ * 給予左下角點與區塊大小，回傳四個邊角的座標
+ */
+export function calculateCroodToBounds(crood: IGpsCoordinate)
+{
+	const indices = _calcCoordToBlockIndex(crood);
+	const range = _idxToRange(indices);
+
+	return rangeToBounds(range);
+}
+
+/**
+ * 給予區塊內「任意座標」，計算該區塊的「中心點」
+ */
+export function _calculateCenterByAnyPointCore(minLngLat: IGpsLngLatMin)
+{
+	// 從左下角向中心偏移 (加上半個區塊大小)
+	const half = _fixCoordCore(BLOCK_SIZE / 2);
+
+	return fixCoord({
+		lng: minLngLat.minLng + half,
+		lat: minLngLat.minLat + half
+	});
+}
+
+/**
+ * 給予區塊內「任意座標」，計算該區塊的「中心點」
+ */
+export function calculateCenterByAnyPoint(anyCoord: IGpsCoordinate)
+{
+	const minLngLat = calcGlobalBlockIndexAndCoord(anyCoord);
+
+	return _calculateCenterByAnyPointCore(minLngLat);
+}
+
+export function _fixCoordCore(coord: number)
+{
+	return parseFloat(coord.toFixed(GLOBAL_GRID_CONFIG_PRECISION));
+}
+
+
+export function fixCoord(coord: IGpsCoordinate): IGpsCoordinate
+{
+	return {
+		lng: _fixCoordCore(coord.lng),
+		lat: _fixCoordCore(coord.lat)
+	};
+}
+
+export function _boundsToLngLatMin(bounds: IBounds): IGpsLngLatMin
+{
+	return {
+		minLng: bounds.southWest.lng,
+		minLat: bounds.southWest.lat,
+	}
+}
+
+export function _boundsToLngLatMax(bounds: IBounds): IGpsLngLatMax
+{
+	return {
+		maxLng: bounds.northEast.lng,
+		maxLat: bounds.northEast.lat,
+	}
+}
+
+/**
+ * 核心：從網格內的「任意座標」推導出完整的網格屬性
+ */
+export function getGridSpecsFromAnyPoint(anyCoord: IGpsCoordinate)
+{
+	const indices = _calcCoordToBlockIndex(anyCoord);
+	const range = _idxToRange(indices);
+
+	const bounds = rangeToBounds(range);
+
+	const minLngLat = _boundsToLngLatMin(bounds);
+
+	const center = _calculateCenterByAnyPointCore(minLngLat);
+
+	return {
+		blockPath: _formatBlockKey(minLngLat.minLng, minLngLat.minLat),
+		bounds,
+		center,
+		indices,
 	};
 }

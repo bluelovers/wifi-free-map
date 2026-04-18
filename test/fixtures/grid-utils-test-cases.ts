@@ -1,4 +1,4 @@
-import { IGpsLatLngMaxMin } from "@/lib/utils/grid/grid-types";
+import { IGpsLngLatMinMax } from "@/lib/utils/grid/grid-types";
 
 /**
  * 測試案例結構（用於 queryBlocksFromCenter）
@@ -30,7 +30,7 @@ export interface ITestCaseForRange
 	/** 測試名稱 / Test name */
 	name: string;
 	/** 輸入參數（座標範圍）/ Input parameters (coordinate range) */
-	input: IGpsLatLngMaxMin;
+	input: IGpsLngLatMinMax;
 	/** 預期區塊數量 / Expected block count */
 	expectedBlockCount: number;
 	/** 說明 / Note */

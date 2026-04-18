@@ -1,4 +1,5 @@
 import {
+	EnumDatasetType,
 	IBlockData,
 	IBounds,
 	IDatasetEntry,
@@ -8,6 +9,7 @@ import {
 } from '@/lib/utils/grid/grid-types';
 import { IBlockAggregator, IGridUtils } from '@/lib/utils/grid/grid-types-opts';
 import { cleanRoad } from '@/lib/utils/grid/grid-address';
+import { tsObjectEntries } from 'ts-type-object-entries';
 
 /**
  * 建立區塊聚合器工廠函式
@@ -26,22 +28,22 @@ export function createBlockAggregator(gridUtils: IGridUtils): IBlockAggregator
 	 */
 	function add(
 		item: { lat: number; lng: number; address?: string },
-		options: { type: string; prefix: string },
+		options: { type: EnumDatasetType; prefix: string },
 	): void
 	{
-		const { row, col } = gridUtils.getBlockIndex(item.lat, item.lng);
-		const blockKey = `${row}-${col}`;
+		const { yIdx, xIdx } = gridUtils.getBlockIndex(item.lat, item.lng);
+		const blockKey = `${yIdx}-${xIdx}`;
 
 		// 建立或取得區塊資料
 		if (!blocks.has(blockKey))
 		{
-			const center = gridUtils.getBlockCenter(row, col);
-			const bounds = gridUtils.getBlockBounds(row, col);
+			const center = gridUtils.getBlockCenter(yIdx, xIdx);
+			const bounds = gridUtils.getBlockBounds(yIdx, xIdx);
 			blocks.set(blockKey, {
 				center,
 				bounds,
 				locations: new Set<string>(),
-				dataset: {},
+				dataset: {} as any,
 			});
 		}
 
@@ -144,7 +146,7 @@ export function mergeAggregators(
 	// 收集所有資料
 	const allData: Array<{
 		item: { lat: number; lng: number; address?: string };
-		options: { type: string; prefix: string }
+		options: { type: EnumDatasetType; prefix: string }
 	}> = [];
 
 	// 遍歷所有聚合器的 build 結果，提取資料
@@ -154,7 +156,7 @@ export function mergeAggregators(
 		for (const block of blocks)
 		{
 			// 從 dataset 中提取各類型的 count 和位置資訊
-			for (const [type, entry] of Object.entries(block.dataset))
+			for (const [type, entry] of tsObjectEntries(block.dataset))
 			{
 				// 計算大約的座標（從檔名）
 				const parts = entry.fileName.replace(/^[^/]+\//, "").replace(".json", "").split("_");
@@ -215,7 +217,7 @@ export function loadFromOldIndex(
 	{
 		// 從檔名判斷前輟和類型
 		const isCharging = entry.fileName.startsWith("charging-");
-		const type = entry.type ?? (isCharging ? "charging" : "wifi");
+		const type = entry.type ?? (isCharging ? EnumDatasetType.CHARGING : EnumDatasetType.WIFI);
 		const prefix = isCharging ? "grid-charging/" : "grid-wifi/";
 
 		// 根據 count 新增多筆資料

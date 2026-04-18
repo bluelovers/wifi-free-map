@@ -9,7 +9,7 @@
  * 執行完所有資料切割腳本後，請執行 build-grid-index.ts 建立統一的索引表。
  */
 
-import { writeFile, mkdir } from "fs/promises";
+import { writeFile, mkdir, unlink } from "fs/promises";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -63,14 +63,22 @@ async function main()
 			const idx = getBlockIndex(h.lat, h.lng);
 			const blockRow = Math.floor((block.center.lat - 21.903126) / 0.0306959);
 			const blockCol = Math.floor((block.center.lng - 118.2257211) / 0.0306959);
-			return idx.row === blockRow && idx.col === blockCol;
+			return idx.yIdx === blockRow && idx.xIdx === blockCol;
 		});
+
+		if (blockHotspots.length === 0)
+		{
+			console.log(`跳過空區塊: ${block.fileName}`);
+			await unlink(resolve(outDir, block.fileName)).catch((err) => null);
+			continue;
+		}
 
 		const filePath = resolve(outDir, block.fileName);
 		await writeFile(filePath, JSON.stringify(blockHotspots, null, 2), "utf-8");
 		fileCount++;
 	}
 
+	console.log(`總計　 ${wifiData.length} 筆資料`);
 	console.log(`已寫入 ${fileCount} 個區塊檔案至 ${outDir}`);
 	console.log("");
 	console.log("提示：請執行 build-grid-index.ts 建立統一的索引表。");
