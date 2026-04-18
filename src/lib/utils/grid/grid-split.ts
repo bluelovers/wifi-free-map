@@ -1,3 +1,10 @@
+/**
+ * 網格資料分割工具
+ * Grid data splitting utilities for geographic data processing.
+ *
+ * 將地理資料陣列依據網格層級進行分割
+ * Splits geographic data arrays according to grid hierarchy
+ */
 import { IGpsCoordinate } from './grid-types';
 import {
 	IFormatBlockKey,
@@ -9,47 +16,86 @@ import { ITSGenerator } from 'ts-type';
 
 /**
  * 分組結果的結構
- * Record<BucketPath, Record<FileName, DataArray>>
+ * Grouping result structure
+ *
+ * 格式：Record<BucketPath, Record<FileName, DataArray>>
+ * Format: Record<BucketPath, Record<FileName, DataArray>>
  */
 export type ISplitResult<T> = Record<IFormatBlockKey<'/'>, ISplitResultEntry<T>>;
 
+/**
+ * 分組結果的內層結構
+ * Inner structure of grouping result
+ *
+ * 格式：Record<FileName, DataArray>
+ * Format: Record<FileName, DataArray>
+ */
 export type ISplitResultEntry<T> = Record<IFormatBlockKey<'_'>, T[]>;
 
+/**
+ * 可迭代的資料陣列或生成器
+ * Iterable data array or generator
+ *
+ * 支援陣列或 Iterable 類型
+ * Supports array or Iterable type
+ */
 export type IValueArrayOrIterable<T> = T[] | Iterable<T>;
 
 /**
- * 基於 L1 層級切割資料陣列
+ * 基於 L1 層級切割資料陣列（生成器）
+ * Split data array by L1 level (generator)
+ *
+ * L1 層級為資料夾層（15x15 區塊一組）
+ * L1 level is folder layer (15x15 blocks as a group)
+ *
+ * @param data - 資料陣列或 Iterable
+ * @yield [bucketPath, blockPath, items] - 分組後的資料
  */
 export function* splitDataByL1GridGenerator<T extends IGpsCoordinate>(data: IValueArrayOrIterable<T>): ITSGenerator<[IFormatBlockKey<'/'>, IFormatBlockKey<'_'>, T[]]>
 {
+	/** 上一次的 bucket 路徑 / Previous bucket path */
 	let lastBucketPath: IFormatBlockKey<'/'>;
+	/** 上一次的檔案名稱 / Previous file name */
 	let lastFileName: IFormatBlockKey<'_'>;
+	/** 上一次的資料陣列 / Previous data array */
 	let lastData: T[] = [];
 
 	for (const item of data)
 	{
+		/** 跳過空項目 / Skip empty items */
 		if (!item)
 		{
 			continue;
 		}
 
+		/** 驗證座標有效性 / Validate coordinate validity */
 		if (!item.lat && !item.lng)
 		{
 			throw new TypeError(`Invalid coordinate: ${JSON.stringify(item)}`);
 		}
 
-		// 1. 取得 L1 資料夾路徑 (例如: "lng_121.20/lat_24.90")
+		/**
+		 * 1. 取得 L1 資料夾路徑
+		 * Example: "lng_121.20/lat_24.90"
+		 */
 		const bucketData = calcCoordToBucketIndexAndCoord(item);
 
 		const bucketPath = _formatBlockKey(bucketData.bucketCoord.lng, bucketData.bucketCoord.lat, {
 			sep: '/',
 		});
 
-		// 2. 取得 L0 檔案名稱 (例如: "121.2200_24.9200")
+		/**
+		 * 2. 取得 L0 檔案名稱
+		 * Example: "121.2200_24.9200"
+		 */
 		const blockData = calcGlobalBlockIndexAndCoord(item);
 
 		const fileName = _formatBlockKey(blockData.minLng, blockData.minLat);
 
+		/**
+		 * 3. 如果與前一個相同，則累加到同一個陣列
+		 * If same as previous, accumulate to same array
+		 */
 		// @ts-ignore
 		if (lastBucketPath === bucketPath && lastFileName === fileName)
 		{
@@ -57,6 +103,7 @@ export function* splitDataByL1GridGenerator<T extends IGpsCoordinate>(data: IVal
 			continue;
 		}
 
+		/** 4. 如果不同，yield 前一個結果並開始新的 / If different, yield previous result and start new */
 		if (lastData.length)
 		{
 			// @ts-ignore
@@ -68,6 +115,7 @@ export function* splitDataByL1GridGenerator<T extends IGpsCoordinate>(data: IVal
 		lastData = [item];
 	}
 
+	/** 5. Yield 最後一筆資料 / Yield last data */
 	if (lastData.length)
 	{
 		// @ts-ignore
@@ -77,6 +125,16 @@ export function* splitDataByL1GridGenerator<T extends IGpsCoordinate>(data: IVal
 	return undefined as any;
 }
 
+/**
+ * 基於 L1 層級切割資料陣列（同步版本）
+ * Split data array by L1 level (sync version)
+ *
+ * 將生成器結果收集為物件
+ * Collects generator results into object
+ *
+ * @param data - 資料陣列或 Iterable
+ * @returns 分組後的結果物件
+ */
 export function splitDataByL1Grid<T extends IGpsCoordinate>(data: IValueArrayOrIterable<T>): ISplitResult<T>
 {
 	const resultSplit: ISplitResult<T> = {};
