@@ -178,9 +178,35 @@ body
 	border-radius: 16px 16px 0 0;
 	box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
 	padding: 16px;
-	max-height: 200px;
+	max-height: 40vh;
 	overflow-y: auto;
 	z-index: 1000;
+	width: 100%;
+}
+
+/* 当地圖容器顯示列表時 / When map container shows list */
+.map-wrapper.with-list
+{
+	height: 100vh;
+}
+
+.map-wrapper.with-list .leaflet-container
+{
+	height: 60vh;
+}
+
+.map-wrapper.with-list .bottom-panel
+{
+	position: relative;
+	bottom: auto;
+}
+	height: 60vh;
+}
+
+.map-wrapper.with-list .bottom-panel
+{
+	position: absolute;
+	bottom: 0;
 }
 
 .bottom-panel h3

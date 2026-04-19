@@ -12,6 +12,9 @@ import { generateWiFiQRCode, calculateDistance } from '@/lib/wifi-utils';
 import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
 import EditHotspotForm from './EditHotspotForm';
 import AddHotspotForm from './AddHotspotForm';
+import MarkerClusterGroup from 'react-leaflet-cluster'
+import 'react-leaflet-cluster/dist/assets/MarkerCluster.css'
+import 'react-leaflet-cluster/dist/assets/MarkerCluster.Default.css'
 
 /**
  * 修正 Leaflet 預設圖示路徑
@@ -114,6 +117,8 @@ export default function FacilityMap()
 		maxDistance: 10000, // meters, default 10km
 		longPressToMove: true, // 右鍵點擊地圖移動定位點（預設開啟）
 	});
+	/** 顯示列表面板 / Show list panel */
+	const [showList, setShowList] = useState<boolean>(false);
 
 	/** 右鍵點擊地圖移動定位點 */
 	const LongPressHandler = () =>
@@ -184,6 +189,89 @@ export default function FacilityMap()
 		}, [map]);
 		return null;
 	};
+	/** 載入設施資料的函式（可重複呼叫） */
+	const loadBlockData = async (lat: number, lng: number) =>
+	{
+		try
+		{
+			setLoading(true);
+			fixLeafletIcon();
+
+			/** 讀取區塊內的 WiFi 資料 */
+			const hotspotsRes = await fetch(`/api/hotspots-block?lat=${lat}&lng=${lng}`);
+			const hotspotsData = await hotspotsRes.json();
+			if (hotspotsData.success)
+			{
+				setHotspots(hotspotsData.data || []);
+			}
+			else
+			{
+				console.error('載入 WiFi 失敗:', hotspotsData.error);
+				setHotspots([]);
+			}
+
+			/** 讀取充電站資料 */
+			const chargingRes = await fetch(`/api/charging-block?lat=${lat}&lng=${lng}`);
+			const chargingData = await chargingRes.json();
+			if (chargingData.success)
+			{
+				setChargingStations(chargingData.data || []);
+			}
+		}
+		catch (error)
+		{
+			console.error('載入資料失敗:', error);
+		}
+		finally
+		{
+			setLoading(false);
+		}
+	};
+
+	/** 地圖移動結束時重新載入資料 */
+	const MapMoveHandler = () =>
+	{
+		const map = useMap();
+		const lastPositionRef = useRef<{ lat: number; lng: number } | null>(null);
+
+		useEffect(() =>
+		{
+			const handleMoveEnd = () =>
+			{
+				const center = map.getCenter();
+				const lat = center.lat;
+				const lng = center.lng;
+
+				/** 檢查位置是否改變 */
+				if (lastPositionRef.current &&
+					lastPositionRef.current.lat === lat &&
+					lastPositionRef.current.lng === lng)
+				{
+					return;
+				}
+
+				lastPositionRef.current = { lat, lng };
+
+				/** 使用 debounce 避免頻繁載入 */
+				setTimeout(() =>
+				{
+					loadBlockData(lat, lng);
+				}, 300);
+			};
+
+			map.on('moveend', handleMoveEnd);
+			map.on('zoomend', handleMoveEnd);
+
+			return () =>
+			{
+				map.off('moveend', handleMoveEnd);
+				map.off('zoomend', handleMoveEnd);
+			};
+		}, [map]);
+
+		return null;
+	};
+
 	const [loading, setLoading] = useState(true);
 	const [selectedHotspot, setSelectedHotspot] = useState<IWiFiHotspot | null>(null);
 	const [qrCodeUrl, setQrCodeUrl] = useState<string>('');
@@ -516,43 +604,17 @@ export default function FacilityMap()
 		});
 	}, [hotspots, searchTerm, filters, position]);
 
-	// 載入設施資料
+	// 初始載入資料（使用區塊化 API）
 	useEffect(() =>
 	{
-		const loadData = async () =>
-		{
-			try
-			{
-				setLoading(true);
-				fixLeafletIcon();
+		fixLeafletIcon();
 
-				const hotspotsRes = await fetch('/api/hotspots');
-				const hotspotsData = await hotspotsRes.json();
-				if (hotspotsData.success)
-				{
-					setHotspots(hotspotsData.data);
-				}
-
-				const chargingRes = await fetch('/api/charging');
-				const chargingData = await chargingRes.json();
-				if (chargingData.success)
-				{
-					setChargingStations(chargingData.data);
-				}
-			}
-			catch (error)
-			{
-				console.error('載入資料失敗 / Failed to load data:', error);
-			}
-			finally
-			{
-				setLoading(false);
-			}
-		};
-
-		loadData();
+		/** 使用區塊化 API 根據目前位置載入 */
+		const currentLat = position[0];
+		const currentLng = position[1];
+		loadBlockData(currentLat, currentLng);
 	}, []);
-	// 取得 GPS 權限並嘍試獲取使用者位置（已在外部定義）
+	// 取得 GPS 權限並嘗試獲取使用者位置（已在外部定義）
 	// 此 useEffect 只在元件掛載時呼叫一次
 	useEffect(() =>
 	{
@@ -589,6 +651,15 @@ export default function FacilityMap()
 		setSelectedHotspot(hotspot);
 	};
 
+	// 處理列表項目點擊 - 連動地圖
+	const handleListItemClick = (hotspot: IWiFiHotspot) =>
+	{
+		setSelectedHotspot(hotspot);
+		setShouldAutoCenter(true);
+		setPosition([hotspot.location.lat, hotspot.location.lng]);
+		setZoom(16); // 放大到能看到詳細資訊的等級
+	};
+
 	// 開啟導航
 	const openNavigation = (lat: number, lng: number, name: string) =>
 	{
@@ -622,7 +693,7 @@ export default function FacilityMap()
 	};
 
 	return (
-		<div className="map-wrapper">
+		<div className={`map-wrapper${showList ? ' with-list' : ''}`}>
 			{/* 位置錯誤提示與手動定位按鈕 */}
 			{locationError && (
 				<div className="error-panel">
@@ -684,6 +755,8 @@ export default function FacilityMap()
 					/>
 					{/* 同步地圖縮放至 zoom state */}
 					<MapZoomHandler />
+					{/* 地圖移動時重新載入區塊資料 */}
+					<MapMoveHandler />
 					{/* 使用者位置 */}
 					<Marker
 						position={position}
@@ -708,6 +781,7 @@ export default function FacilityMap()
 					{/* 右鍵點擊移動定位點 */}
 					<LongPressHandler />
 					{/* WiFi 熱點 */}
+					<MarkerClusterGroup chunkedLoading>
 					{filteredHotspots.map((hotspot) => (
 						<Marker
 							key={hotspot.id}
@@ -718,6 +792,7 @@ export default function FacilityMap()
 							<Popup>{hotspot.name}</Popup>
 						</Marker>
 					))}
+					</MarkerClusterGroup>
 					{/* 充電站 */}
 					{chargingStations.map((station) => (
 						<Marker
@@ -731,6 +806,35 @@ export default function FacilityMap()
 					{/* 變更視角 - 當位置改變時自動置中 */}
 					<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
 				</MapContainer>
+				{/* 底部列表面板 / Bottom list panel */}
+				{showList && (
+					<div className="bottom-panel">
+						<h3>WiFi 熱點列表 ({filteredHotspots.length})</h3>
+						<div className="facility-list">
+							{filteredHotspots.slice(0, 20).map((hotspot) => (
+								<div
+									key={hotspot.id}
+									className="facility-item"
+									onClick={() => handleListItemClick(hotspot)}
+								>
+									<span className="facility-icon">📶</span>
+									<div className="facility-info">
+										<div className="facility-name">{hotspot.name}</div>
+										<div className="facility-detail">
+											{hotspot.location.lat.toFixed(4)}, {hotspot.location.lng.toFixed(4)}
+											{hotspot.password && ' • 有密碼'}
+										</div>
+									</div>
+								</div>
+							))}
+							{filteredHotspots.length > 20 && (
+								<div style={{ textAlign: 'center', padding: '8px', color: '#888' }}>
+									還有 {filteredHotspots.length - 20} 個熱點...
+								</div>
+							)}
+						</div>
+					</div>
+				)}
 				{/* 浮動置中按鈕（Google Maps 風格） */}
 				<button
 					onClick={() =>
@@ -839,6 +943,14 @@ export default function FacilityMap()
 							size="small"
 						/>
 						<span>右鍵點擊移動定位點</span>
+					</label>
+					<label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+						<Switch
+							checked={showList}
+							onChange={(checked) => setShowList(checked)}
+							size="small"
+						/>
+						<span>顯示列表</span>
 					</label>
 				</div>
 			</div>
