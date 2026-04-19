@@ -126,7 +126,7 @@ export interface IDatasetEntry
 	/** 資料類型檔案路徑 / Data type file path */
 	fileName: string;
 	/** 該區塊內的資料筆數 / Number of items in this block */
-	count: number;
+	// count: number;
 }
 
 /**
