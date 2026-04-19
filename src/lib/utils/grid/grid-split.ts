@@ -48,6 +48,18 @@ export type IValueArrayOrIterable<T> = T[] | Iterable<T>;
  * L1 層級為資料夾層（15x15 區塊一組）
  * L1 level is folder layer (15x15 blocks as a group)
  *
+ * 範例路徑解析：
+ * path: /121.3000/24.9000/121.4800_25.0200.json (萬華艋舺夜市)
+ *
+ * [結構說明]
+ * - L1-Dir-Lng (121.3000): 經度分流，步進 0.3° (15 * 0.02)
+ * - L1-Dir-Lat (24.9000): 緯度分流，涵蓋 24.90 ~ 25.20 範圍
+ * - L0-File (121.4800_25.0200): 萬華核心網格 $0.02 \times 0.02$
+ *
+ * [排序行為預期]
+ * 所有的萬華資料會先依照 121.3000 (經度桶) 聚集，再依照 24.9000 (緯度桶) 聚集。
+ * 因此，若有另一筆資料在 121.2000 桶但緯度更高，它依然會排在萬華之前。
+ *
  * @param data - 資料陣列或 Iterable
  * @yield [bucketPath, blockPath, items] - 分組後的資料
  */
@@ -134,6 +146,8 @@ export function* splitDataByL1GridGenerator<T extends IGpsCoordinate>(data: IVal
  *
  * @param data - 資料陣列或 Iterable
  * @returns 分組後的結果物件
+ *
+ * @see splitDataByL1GridGenerator
  */
 export function splitDataByL1Grid<T extends IGpsCoordinate>(data: IValueArrayOrIterable<T>): ISplitResult<T>
 {
