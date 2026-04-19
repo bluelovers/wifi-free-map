@@ -14,7 +14,7 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    // "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
     "plugins": [
@@ -32,6 +32,8 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
+    "**/*.mts",
+    "**/*.cts",
     "**/*.tsx",
     ".next/types/**/*.ts",
     "jest.config.cjs",

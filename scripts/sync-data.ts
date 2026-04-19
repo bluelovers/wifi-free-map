@@ -16,14 +16,17 @@
  * 此腳本設計為可本地執行（pnpm ts-node scripts/sync-data.ts）或在 CI 中呼叫。
  */
 
-import { writeFile, mkdir } from "fs/promises";
-import { resolve } from "path";
+import fs from "fs-extra";
+import { resolve, relative } from "path";
 import { execSync } from "child_process";
 import {
 	convertWiFiArray,
 	convertChargingArray,
 	DEFAULT_OUTPUT_DIR,
 } from "../src/lib/transform";
+import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-utils-global';
+import { __ROOT } from '../test/__root';
+import { chargingPath, chargingRawPath, taipeiWifiRawPath, wifiPath, wifiRawPath } from './utils/const-paths';
 
 /**
  * iTaiwan Wi‑Fi API endpoint (Dataset 5962)
@@ -76,7 +79,7 @@ async function fetchJSON(url: string): Promise<any[]>
  */
 async function writeJSON(filePath: string, data: any): Promise<void>
 {
-	await writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
+	return fs.outputJSON(filePath, data, { spaces: 2 });
 }
 
 /**
@@ -94,69 +97,11 @@ async function main()
 	console.log("Fetching charging‑station data…");
 	const chargingRaw = await fetchJSON(CHARGING_URL);
 
-	// 確保輸出目錄存在
-	const outDir = resolve(DEFAULT_OUTPUT_DIR);
-	await mkdir(outDir, { recursive: true });
-
-	// 寫入原始檔案（分開儲存，不合併）
-	const wifiRawPath = resolve(outDir, "wifi-hotspots-raw.json");
-	const taipeiWifiRawPath = resolve(outDir, "taipei-wifi-raw.json");
-	const chargingRawPath = resolve(outDir, "charging-stations-raw.json");
-
 	await writeJSON(wifiRawPath, wifiRaw);
 	await writeJSON(taipeiWifiRawPath, taipeiWifiRaw);
 	await writeJSON(chargingRawPath, chargingRaw);
 
-	console.log(`Raw files written to ${outDir}`);
-
-	// 將台北市資料轉換為與 iTaiwan 相同的欄位格式
-	// 台北市 JSON 使用大寫欄位：NAME, LATITUDE, LONGITUDE, ADDR
-	const taipeiFormatted = taipeiWifiRaw.map((row: any) => ({
-		Name: row.NAME || "",
-		Latitude: row.LATITUDE || "",
-		Longitude: row.LONGITUDE || "",
-		Address: row.ADDR || "",
-	}));
-
-	// 合併 iTaiwan 與台北市 Wi-Fi 資料（僅用於轉換）
-	const allWifiRaw = [...wifiRaw, ...taipeiFormatted];
-
-	// 轉換並寫入過濾後的檔案（合併後）
-	const wifiFiltered = convertWiFiArray(allWifiRaw);
-	const chargingFiltered = convertChargingArray(chargingRaw);
-
-	const wifiPath = resolve(outDir, "wifi-hotspots.json");
-	const chargingPath = resolve(outDir, "charging-stations.json");
-
-	await writeJSON(wifiPath, wifiFiltered);
-	await writeJSON(chargingPath, chargingFiltered);
-
-	console.log(`Filtered files written to ${outDir}`);
-	console.log(
-		`iTaiwan Wi‑Fi: ${wifiRaw.length}, Taipei Free: ${taipeiWifiRaw.length}, Charging: ${chargingRaw.length}`,
-	);
-
-	// Git 操作（仅在 CI 環境或手動啟用時執行）
-	if (process.env.CI === "true" || process.argv.includes("--push"))
-	{
-		try
-		{
-			execSync("git add public/data/*.json", { stdio: "inherit" });
-			execSync("git commit -m 'chore: sync Wi‑Fi & charging station data (auto)'", {
-				stdio: "inherit",
-			});
-			execSync("git push", { stdio: "inherit" });
-			console.log("Git commit & push successful.");
-		}
-		catch (error)
-		{
-			console.warn("Git commit failed – maybe there are no changes.");
-		}
-	}
-	else
-	{
-		console.log("Skipping Git operations. Use --push flag or set CI=true to enable.");
-	}
+	console.log(`Raw files written to ${DEFAULT_OUTPUT_DIR}`);
 }
 
 // 執行

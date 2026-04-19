@@ -68,6 +68,9 @@ importers:
       ts-type-object-entries:
         specifier: ^1.0.10
         version: 1.0.10
+      upath2:
+        specifier: ^3.1.23
+        version: 3.1.23(ts-toolbelt@9.6.0)
       workbox-window:
         specifier: ^7.4.0
         version: 7.4.0

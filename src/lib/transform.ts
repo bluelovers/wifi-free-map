@@ -12,6 +12,7 @@ import type { IHotspot, IRawHotspot } from "../types/station-wifi";
 import type { IChargingStation, IRawChargingStation } from "../types/station-charging";
 import { ITSGenerator } from 'ts-type';
 import { IValueArrayOrIterable } from './utils/grid/grid-split';
+import { __ROOT } from '../../test/__root';
 
 // ==================== Wi-Fi 熱點轉換 ====================
 
@@ -152,25 +153,16 @@ export async function readAndConvertCharging(filePath: string): Promise<IChargin
 }
 
 /**
- * 專案根目錄
- * Project root directory.
- *
- * 使用 process.cwd() 取得專案根目錄，確保在 ES modules 中正常運作。
- * Uses process.cwd() to get project root, works in ES modules.
- */
-const PROJECT_ROOT = process.cwd();
-
-/**
  * 預設的輸出目錄
  * Default output directory.
  */
-export const DEFAULT_OUTPUT_DIR = resolve(PROJECT_ROOT, "public/data");
+export const DEFAULT_OUTPUT_DIR = resolve(__ROOT, "public/data");
 
 /**
  * 預設的輸入目錄（相對於專案根目錄）
  * Default input directory (relative to project root).
  */
-export const DEFAULT_INPUT_DIR = resolve(PROJECT_ROOT, "public/data");
+export const DEFAULT_INPUT_DIR = resolve(__ROOT, "public/data");
 
 /**
  * 取得預設的輸出檔案路徑

@@ -1,6 +1,6 @@
 import path from 'upath2';
 // @ts-ignore
-import { __ROOT } from './__root-core.mts';
+import { __ROOT_CORE as __ROOT } from './__root-core.mts';
 
 export { __ROOT }
 

@@ -2,27 +2,23 @@
  * 將 Wi-Fi 熱點資料依地圖區塊切割
  * Split Wi-Fi hotspot data into map grid blocks.
  *
- * 使用萬華區的區塊大小 (0.0306959 度) 作為分割標準，將全台灣劃分為多個區塊。
- * 每個區塊產生一個獨立的 JSON 檔案。
- *
- * 注意：此腳本僅切割資料，不建立 grid-index.json。
+ * 使用 grid-utils-global 提供的工具函數進行分割。
+ * 使用 L1 層級（15x15 區塊一組）作為資料夾結構。
+ * 此腳本僅切割資料，不建立 grid-index.json。
  * 執行完所有資料切割腳本後，請執行 build-grid-index.ts 建立統一的索引表。
  */
 
-import { writeFile, mkdir, unlink } from "fs/promises";
+import fs from "fs-extra";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-import { createBlockAggregator } from "./utils/grid-index-builder";
-import { getBlockBounds, getBlockCenter, getBlockIndex } from '@/lib/utils/grid/grid-computation';
-import { extractLocationInfo } from '@/lib/utils/grid/grid-address';
+// 使用 grid-split 的生成器與同步函數
+import { splitDataByL1GridGenerator, splitDataByL1Grid } from "../src/lib/utils/grid/grid-split";
+import { __ROOT } from '../test/__root';
+import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-utils-global';
 
 /**
  * 主執行函式
- * Main execution function.
  */
 async function main()
 {
@@ -32,73 +28,67 @@ async function main()
 	console.log(`載入 ${wifiData.length} 筆 Wi-Fi 熱點資料`);
 
 	// 建立輸出目錄
-	const outDir = resolve(__dirname, "../public/data/grid-wifi");
-	await mkdir(outDir, { recursive: true });
+	const outDir = resolve(__ROOT, "public/data/grid-wifi");
 
-	// 建立區塊聚合器
-	const aggregator = createBlockAggregator({
-		getBlockIndex,
-		getBlockCenter,
-		getBlockBounds,
-		extractLocationInfo,
-	});
+	await fs.emptyDir(outDir);
 
-	// 將每筆資料加入對應的區塊
-	for (const hotspot of wifiData)
-	{
-		aggregator.add(
-			{ lat: hotspot.lat, lng: hotspot.lng, address: hotspot.address },
-			{ type: "wifi", prefix: "grid-wifi/" },
-		);
-	}
-
-	// 寫入每個區塊的資料
-	const blocks = aggregator.build();
+	/** 檔案計數器 / File counter */
 	let fileCount = 0;
-	for (const block of blocks)
-	{
-		// 建立區塊資料檔案
-		const blockHotspots = wifiData.filter((h) =>
-		{
-			const idx = getBlockIndex(h.lat, h.lng);
-			const blockRow = Math.floor((block.center.lat - 21.903126) / 0.0306959);
-			const blockCol = Math.floor((block.center.lng - 118.2257211) / 0.0306959);
-			return idx.yIdx === blockRow && idx.xIdx === blockCol;
-		});
+	let dataCount = 0;
 
-		if (blockHotspots.length === 0)
+	// 使用生成器模式分割資料
+	// Using generator pattern to split data
+	// @ts-ignore
+	for (const result of splitDataByL1GridGenerator(wifiData))
+	{
+		if (!result)
 		{
-			console.log(`跳過空區塊: ${block.fileName}`);
-			await unlink(resolve(outDir, block.fileName)).catch((err) => null);
 			continue;
 		}
 
-		const filePath = resolve(outDir, block.fileName);
-		await writeFile(filePath, JSON.stringify(blockHotspots, null, 2), "utf-8");
+		const [bucketPath, blockPath, items] = result;
+
+		// 跳過空區塊
+		if (items.length === 0)
+		{
+			continue;
+		}
+
+		/** 區塊檔名 / Block file name */
+		const fileName = `${blockPath}.json`;
+
+		/** 輸出路徑 / Output path */
+		const filePath = resolve(outDir, bucketPath, fileName);
+
+		dataCount += items.length;
+
+		if (await fs.exists(filePath))
+		{
+			/**
+			 * 按照預期來說，以下這段代碼應該是不會執行的。
+			 * 資料雖以經緯度排序過，但為了防止非預期狀況發生或錯誤修正排序算法，
+			 * 這裡還是以防萬一讀取已經輸出的緩存並且重新排序一次。
+			 * 當此段代碼執行時代表有某處的算法被改變了，需要檢查。
+			 */
+			const existingData = await fs.readJSON(filePath);
+			items.push(...existingData);
+			items.sort(_sortCompByBucketAndBlock);
+		}
+
+		// 寫入區塊資料
+		await fs.outputJSON(filePath, items, { spaces: 2 });
 		fileCount++;
 	}
 
-	console.log(`總計　 ${wifiData.length} 筆資料`);
+	console.log(`總計　 ${dataCount}/${wifiData.length} 筆資料`);
 	console.log(`已寫入 ${fileCount} 個區塊檔案至 ${outDir}`);
 	console.log("");
 	console.log("提示：請執行 build-grid-index.ts 建立統一的索引表。");
-
-	// 統計資訊
-	const counts = blocks.map((b) => b.dataset.wifi?.count ?? 0).filter((c) => c > 0).sort((a, b) => a - b);
-	const minCount = counts[0] ?? 0;
-	const maxCount = counts[counts.length - 1] ?? 0;
-	const avgCount = counts.reduce((a, b) => a + b, 0) / (counts.length || 1);
-
-	console.log("");
-	console.log("=== Wi-Fi 區塊統計 ===");
-	console.log(`最小資料數: ${minCount}`);
-	console.log(`最大資料數: ${maxCount}`);
-	console.log(`平均資料數: ${avgCount.toFixed(1)}`);
 }
 
 // 執行
 main().catch((error) =>
 {
-	console.error("Grid split failed:", error);
+	console.error("Wi-Fi grid split failed:", error);
 	process.exit(1);
 });

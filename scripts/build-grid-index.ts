@@ -2,7 +2,8 @@
  * 建立統一的 grid-index.json
  * Build unified grid-index.json from all data types.
  *
- * 此腳本讀取所有資料類型的資料檔案，建立統一的區塊索引表。
+ * 使用 grid-utils-global 提供的工具函數。
+ * 讀取所有資料類型的區塊檔案，建立統一的索引表。
  * 應在其他資料切割腳本之後執行。
  */
 
@@ -10,12 +11,24 @@ import { writeFile } from "fs/promises";
 import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
 import { readdirSync, readFileSync } from "fs";
-import { IBlockData, IDataEntry, IGridBlock } from '@/lib/utils/grid/grid-types';
-import { BLOCK_SIZE, DATA_TYPES, TAIWAN_BOUNDS } from '@/lib/utils/grid/grid-const';
-import { parseBlockFileName, cleanRoad, extractLocationInfo } from '@/lib/utils/grid/grid-address';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+import { IBlockData, IDataEntry, IGridBlock, EnumDatasetType } from "../src/lib/utils/grid/grid-types";
+import { DATA_TYPES } from "../src/lib/utils/grid/grid-const";
+import { parseBlockFileName, cleanRoad, extractLocationInfo } from "../src/lib/utils/grid/grid-address";
+
+// 使用 grid-utils-global 的工具函數
+import {
+	calcGlobalBlockIndexAndCoord,
+	_calcCoordToBlockIndex,
+	calculateCroodToBounds,
+	_calculateCenterByAnyPointCore,
+	fixCoord,
+	_idxToRange,
+	rangeToBounds,
+	_formatBlockKey,
+	_croodToRange,
+} from "../src/lib/utils/grid/grid-utils-global";
+import { __ROOT } from '../test/__root';
 
 /**
  * 主執行函式
@@ -29,7 +42,7 @@ async function main()
 	// 遍歷每個資料類型
 	for (const dataType of DATA_TYPES)
 	{
-		const dataDir = resolve(__dirname, `../public/data/${dataType.dir}`);
+		const dataDir = resolve(__ROOT, `public/data/${dataType.dir}`);
 
 		try
 		{
@@ -47,44 +60,37 @@ async function main()
 
 				const { lng, lat } = coords;
 
-				// 計算區塊索引
-				const row = Math.floor((lat - TAIWAN_BOUNDS.minLat) / BLOCK_SIZE);
-				const col = Math.floor((lng - TAIWAN_BOUNDS.minLng) / BLOCK_SIZE);
-				const blockKey = `${row}-${col}`;
+				/** 使用 grid-utils-global 計算區塊索引 / Calculate block index using grid-utils-global */
+				const blockIndex = calcGlobalBlockIndexAndCoord({ lng, lat });
+
+				/** 區塊 key / Block key */
+				const blockKey = _formatBlockKey(blockIndex.minLng, blockIndex.minLat);
 
 				// 建立或取得區塊資料
 				if (!blocks.has(blockKey))
 				{
-					const center = {
-						lat: TAIWAN_BOUNDS.minLat + (row + 0.5) * BLOCK_SIZE,
-						lng: TAIWAN_BOUNDS.minLng + (col + 0.5) * BLOCK_SIZE,
-					};
-					const north = TAIWAN_BOUNDS.minLat + (row + 1) * BLOCK_SIZE;
-					const south = TAIWAN_BOUNDS.minLat + row * BLOCK_SIZE;
-					const east = TAIWAN_BOUNDS.minLng + (col + 1) * BLOCK_SIZE;
-					const west = TAIWAN_BOUNDS.minLng + col * BLOCK_SIZE;
+					/**
+					 * 使用 grid-utils-global 計算區塊邊界與中心點
+					 * Calculate block bounds and center using grid-utils-global
+					 */
+					const range = _croodToRange(blockIndex);
+					const bounds = rangeToBounds(range);
+
+					const center = fixCoord(_calculateCenterByAnyPointCore(blockIndex));
 
 					blocks.set(blockKey, {
-						center: {
-							lat: parseFloat(center.lat.toFixed(6)),
-							lng: parseFloat(center.lng.toFixed(6)),
-						},
-						bounds: {
-							northWest: { lat: parseFloat(north.toFixed(6)), lng: parseFloat(west.toFixed(6)) },
-							northEast: { lat: parseFloat(north.toFixed(6)), lng: parseFloat(east.toFixed(6)) },
-							southWest: { lat: parseFloat(south.toFixed(6)), lng: parseFloat(west.toFixed(6)) },
-							southEast: { lat: parseFloat(south.toFixed(6)), lng: parseFloat(east.toFixed(6)) },
-						},
+						center,
+						bounds,
 						locations: new Set<string>(),
-						dataset: {},
+						dataset: {} as any,
 					});
 				}
 
 				const block = blocks.get(blockKey)!;
 
 				// 新增或更新 dataset 項目
-				const existingCount = block.dataset[dataType.type]?.count ?? 0;
-				block.dataset[dataType.type] = {
+				const existingCount = block.dataset[dataType.type as EnumDatasetType]?.count ?? 0;
+				block.dataset[dataType.type as EnumDatasetType] = {
 					fileName: `${dataType.prefix}${fileName}`,
 					count: existingCount + data.length,
 				};
@@ -116,9 +122,12 @@ async function main()
 
 	console.log(`\n建立 ${blocks.size} 個區塊`);
 
+	blocks.forEach
+
 	// 建立索引表
 	const indexTable = Array.from(blocks.entries()).reduce((acc, [blockKey, blockData]) =>
 	{
+		/** 區塊檔名 / Block file name */
 		const fileName = `${blockData.center.lng.toFixed(4)}_${blockData.center.lat.toFixed(4)}.json`;
 
 		let totalCount = 0;
@@ -128,7 +137,7 @@ async function main()
 		{
 			if (value.count === 0)
 			{
-				delete blockData.dataset[key];
+				delete blockData.dataset[key as EnumDatasetType];
 			}
 			else
 			{
@@ -161,7 +170,7 @@ async function main()
 	});
 
 	// 寫入索引表
-	const indexPath = resolve(__dirname, "../public/data/grid-index.json");
+	const indexPath = resolve(__ROOT, "public/data/grid-index.json");
 	await writeFile(indexPath, JSON.stringify(indexTable, null, 2), "utf-8");
 
 	console.log(`索引表已寫入 ${indexPath}`);

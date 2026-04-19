@@ -16,138 +16,17 @@
  * - Charging only: pnpm ts-node scripts/convert-raw.ts --charging
  */
 
-import { writeFile, mkdir, access } from "fs/promises";
-import { resolve } from "path";
+import fs from "fs-extra";
+import { relative, resolve } from "path";
 import {
 	convertWiFiArray,
 	convertChargingArray,
 	DEFAULT_OUTPUT_DIR,
 } from "../src/lib/transform";
-
-/**
- * 預設的輸入目錄
- * Default input directory.
- */
-const INPUT_DIR = DEFAULT_OUTPUT_DIR;
-
-/**
- * 確保目錄存在
- * Ensure directory exists.
- *
- * @param dirPath - 目錄路徑
- */
-async function ensureDir(dirPath: string): Promise<void>
-{
-	await mkdir(dirPath, { recursive: true });
-}
-
-/**
- * 檢查檔案是否存在
- * Check if file exists.
- *
- * @param filePath - 檔案路徑
- * @returns 是否存在
- */
-async function fileExists(filePath: string): Promise<boolean>
-{
-	try
-	{
-		await access(filePath);
-		return true;
-	}
-	catch
-	{
-		return false;
-	}
-}
-
-/**
- * 讀取 JSON 檔案
- * Read JSON file.
- *
- * @param filePath - 檔案路徑
- * @returns 解析後的資料
- */
-async function readJSON<T = any[]>(filePath: string): Promise<T>
-{
-	const { readFile } = await import("fs/promises");
-	const content = await readFile(filePath, "utf-8");
-	return JSON.parse(content);
-}
-
-/**
- * 寫入 JSON 檔案
- * Write JSON file.
- *
- * @param filePath - 檔案路徑
- * @param data - 要寫入的資料
- */
-async function writeJSON(filePath: string, data: any): Promise<void>
-{
-	await writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
-}
-
-/**
- * 轉換 Wi-Fi 資料
- * Convert Wi‑Fi data.
- *
- * @param inputDir - 輸入目錄
- * @param outputDir - 輸出目錄
- */
-async function convertWiFi(inputDir: string, outputDir: string): Promise<number>
-{
-	const rawPath = resolve(inputDir, "wifi-hotspots-raw.json");
-	const exists = await fileExists(rawPath);
-
-	if (!exists)
-	{
-		console.warn(`⚠️  Wi‑Fi raw file not found: ${rawPath}`);
-		return 0;
-	}
-
-	console.log(`Reading Wi‑Fi raw data from ${rawPath}…`);
-	const rawData = await readJSON(rawPath);
-
-	console.log(`Converting Wi‑Fi data (${rawData.length} items)…`);
-	const filtered = convertWiFiArray(rawData);
-
-	const outputPath = resolve(outputDir, "wifi-hotspots.json");
-	await writeJSON(outputPath, filtered);
-
-	console.log(`✅ Wi‑Fi: ${filtered.length} items written to ${outputPath}`);
-	return filtered.length;
-}
-
-/**
- * 轉換充電站資料
- * Convert charging station data.
- *
- * @param inputDir - 輸入目錄
- * @param outputDir - 輸出目錄
- */
-async function convertCharging(inputDir: string, outputDir: string): Promise<number>
-{
-	const rawPath = resolve(inputDir, "charging-stations-raw.json");
-	const exists = await fileExists(rawPath);
-
-	if (!exists)
-	{
-		console.warn(`⚠️  Charging raw file not found: ${rawPath}`);
-		return 0;
-	}
-
-	console.log(`Reading charging raw data from ${rawPath}…`);
-	const rawData = await readJSON(rawPath);
-
-	console.log(`Converting charging data (${rawData.length} items)…`);
-	const filtered = convertChargingArray(rawData);
-
-	const outputPath = resolve(outputDir, "charging-stations.json");
-	await writeJSON(outputPath, filtered);
-
-	console.log(`✅ Charging: ${filtered.length} items written to ${outputPath}`);
-	return filtered.length;
-}
+import { chargingPath, chargingRawPath, taipeiWifiRawPath, wifiPath, wifiRawPath } from './utils/const-paths';
+import { __ROOT } from '../test/__root';
+import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-utils-global';
+import { execSync } from 'child_process';
 
 /**
  * 主執行函式
@@ -155,49 +34,65 @@ async function convertCharging(inputDir: string, outputDir: string): Promise<num
  */
 async function main()
 {
-	// 解析命令列參數
-	const args = process.argv.slice(2);
-	const doWiFi = args.includes("--wifi") || args.length === 0;
-	const doCharging = args.includes("--charging") || args.length === 0;
+	const wifiRaw = await fs.readJSON(wifiRawPath);
+	const taipeiWifiRaw = await fs.readJSON(taipeiWifiRawPath);
+	const chargingRaw = await fs.readJSON(chargingRawPath);
 
-	console.log("=".repeat(50));
-	console.log("Convert Raw Data Script");
-	console.log("=".repeat(50));
-	console.log(`Input directory:  ${INPUT_DIR}`);
-	console.log(`Output directory: ${DEFAULT_OUTPUT_DIR}`);
-	console.log(`Options: Wi‑Fi: ${doWiFi ? "✓" : "✗"}, Charging: ${doCharging ? "✓" : "✗"}`);
-	console.log("=".repeat(50));
+	// 將台北市資料轉換為與 iTaiwan 相同的欄位格式
+	// 台北市 JSON 使用大寫欄位：NAME, LATITUDE, LONGITUDE, ADDR
+	const taipeiFormatted = taipeiWifiRaw.map((row: any) => ({
+		Name: row.NAME || "",
+		Latitude: row.LATITUDE || "",
+		Longitude: row.LONGITUDE || "",
+		Address: row.ADDR || "",
+	}));
 
-	// 確保輸出目錄存在
-	await ensureDir(DEFAULT_OUTPUT_DIR);
+	// 合併 iTaiwan 與台北市 Wi-Fi 資料（僅用於轉換）
+	const allWifiRaw = [...wifiRaw, ...taipeiFormatted];
 
-	let wifiCount = 0;
-	let chargingCount = 0;
+	// 轉換並寫入過濾後的檔案（合併後）
+	const wifiFiltered = convertWiFiArray(allWifiRaw).sort(_sortCompByBucketAndBlock);
+	const chargingFiltered = convertChargingArray(chargingRaw).sort(_sortCompByBucketAndBlock);
 
-	if (doWiFi)
+	await fs.outputJSON(wifiPath, wifiFiltered, { spaces: 2 });
+	await fs.outputJSON(chargingPath, chargingFiltered, { spaces: 2 });
+
+	console.log(`Filtered files written to ${DEFAULT_OUTPUT_DIR}`);
+	console.log(
+		`iTaiwan Wi‑Fi: ${wifiRaw.length}, Taipei Free: ${taipeiWifiRaw.length}, total: ${allWifiRaw.length}`,
+	);
+	console.log(`${relative(__ROOT, wifiPath)}`);
+	console.log(
+		`Charging: ${chargingRaw.length}`,
+	);
+	console.log(`${relative(__ROOT, chargingPath)}`);
+
+	// Git 操作（仅在 CI 環境或手動啟用時執行）
+	if (process.env.CI === "true" || process.argv.includes("--push"))
 	{
-		wifiCount = await convertWiFi(INPUT_DIR, DEFAULT_OUTPUT_DIR);
+		try
+		{
+			execSync("git add public/data/*.json", { stdio: "inherit" });
+			execSync("git commit -m 'chore: sync Wi‑Fi & charging station data (auto)'", {
+				stdio: "inherit",
+			});
+			execSync("git push", { stdio: "inherit" });
+			console.log("Git commit & push successful.");
+		}
+		catch (error)
+		{
+			console.warn("Git commit failed – maybe there are no changes.");
+		}
 	}
-
-	if (doCharging)
+	else
 	{
-		chargingCount = await convertCharging(INPUT_DIR, DEFAULT_OUTPUT_DIR);
-	}
-
-	console.log("=".repeat(50));
-	console.log(`Summary: Wi‑Fi: ${wifiCount}, Charging: ${chargingCount}`);
-	console.log("=".repeat(50));
-
-	if (wifiCount === 0 && chargingCount === 0)
-	{
-		console.warn("⚠️  No data converted. Make sure raw files exist in public/data/");
-		process.exit(1);
+		console.log("Skipping Git operations. Use --push flag or set CI=true to enable.");
 	}
 }
 
 // 執行
 main().catch((error) =>
 {
-	console.error("Convert script failed:", error);
+	console.error("Sync script failed:", error);
 	process.exit(1);
 });

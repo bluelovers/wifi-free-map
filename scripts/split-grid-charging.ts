@@ -2,22 +2,26 @@
  * 將充電站資料依地圖區塊切割
  * Split charging station data into map grid blocks.
  *
- * 將充電站資料切割為獨立的區塊檔案。
- *
- * 注意：此腳本僅切割資料，不建立 grid-index.json。
+ * 使用 grid-utils-global 提供的工具函數進行分割。
+ * 此腳本僅切割資料，不建立 grid-index.json。
  * 執行完所有資料切割腳本後，請執行 build-grid-index.ts 建立統一的索引表。
  */
 
-import { writeFile, mkdir, unlink } from "fs/promises";
+import fs from "fs-extra";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+// 使用 grid-utils-global 的工具函數
+import {
+	calcGlobalBlockIndexAndCoord,
+	_formatBlockKey,
+	calcCoordToBucketIndexAndCoord,
+	_sortCompByBucketAndBlock,
+} from "../src/lib/utils/grid/grid-utils-global";
 
-import { createBlockAggregator } from "./utils/grid-index-builder.js";
-import { extractLocationInfo } from '@/lib/utils/grid/grid-address';
-import { getBlockBounds, getBlockCenter, getBlockIndex } from '@/lib/utils/grid/grid-computation';
+// 使用 grid-split 的生成器
+import { splitDataByL1GridGenerator } from "../src/lib/utils/grid/grid-split";
+import { __ROOT } from '../test/__root';
 
 /**
  * 主執行函式
@@ -30,72 +34,62 @@ async function main()
 	console.log(`載入 ${chargingData.length} 筆充電站資料`);
 
 	// 建立輸出目錄
-	const outDir = resolve(__dirname, "../public/data/grid-charging");
-	await mkdir(outDir, { recursive: true });
+	const outDir = resolve(__ROOT, "public/data/grid-charging");
 
-	// 建立區塊聚合器
-	const aggregator = createBlockAggregator({
-		getBlockIndex,
-		getBlockCenter,
-		getBlockBounds,
-		extractLocationInfo,
-	});
+	await fs.emptyDir(outDir);
 
-	// 將每筆資料加入對應的區塊
-	for (const station of chargingData)
-	{
-		aggregator.add(
-			{ lat: station.lat, lng: station.lng, address: station.address },
-			{ type: "charging", prefix: "grid-charging/" },
-		);
-	}
-
-	// 寫入每個區塊的資料
-	const blocks = aggregator.build();
+	/** 檔案計數器 / File counter */
 	let fileCount = 0;
-	for (const block of blocks)
-	{
-		// 建立區塊資料檔案
-		const blockStations = chargingData.filter((s) =>
-		{
-			const idx = getBlockIndex(s.lat, s.lng);
-			const blockRow = Math.floor((block.center.lat - 21.903126) / 0.0306959);
-			const blockCol = Math.floor((block.center.lng - 118.2257211) / 0.0306959);
-			return idx.yIdx === blockRow && idx.xIdx === blockCol;
-		});
+	let dataCount = 0;
 
-		if (blockStations.length === 0)
+	// 使用生成器模式分割資料
+	// Using generator pattern to split data
+	// @ts-ignore
+	for (const result of splitDataByL1GridGenerator(chargingData))
+	{
+		if (!result)
 		{
-			console.log(`跳過空區塊: ${block.fileName}`);
-			await unlink(resolve(outDir, block.fileName)).catch((err) => null);
 			continue;
 		}
 
-		const filePath = resolve(outDir, block.fileName);
-		await writeFile(filePath, JSON.stringify(blockStations, null, 2), "utf-8");
+		const [bucketPath, blockPath, items] = result;
+
+		// 跳過空區塊
+		if (items.length === 0)
+		{
+			continue;
+		}
+
+		/** 區塊檔名 / Block file name */
+		const fileName = `${blockPath}.json`;
+
+		/** 輸出路徑 / Output path */
+		const filePath = resolve(outDir, bucketPath, fileName);
+
+		dataCount += items.length;
+
+		if (await fs.exists(filePath))
+		{
+			/**
+			 * 按照預期來說，以下這段代碼應該是不會執行的。
+			 * 資料雖以經緯度排序過，但為了防止非預期狀況發生或錯誤修正排序算法，
+			 * 這裡還是以防萬一讀取已經輸出的緩存並且重新排序一次。
+			 * 當此段代碼執行時代表有某處的算法被改變了，需要檢查。
+			 */
+			const existingData = await fs.readJSON(filePath);
+			items.push(...existingData);
+			items.sort(_sortCompByBucketAndBlock);
+		}
+
+		// 寫入區塊資料
+		await fs.outputJSON(filePath, items, { spaces: 2 });
 		fileCount++;
 	}
 
-	console.log(`總計　 ${chargingData.length} 筆資料`);
+	console.log(`總計　 ${dataCount}/${chargingData.length} 筆資料`);
 	console.log(`已寫入 ${fileCount} 個充電站區塊檔案至 ${outDir}`);
 	console.log("");
 	console.log("提示：請執行 build-grid-index.ts 建立統一的索引表。");
-
-	// 統計資訊
-	const counts = blocks.map((b) => b.dataset.charging?.count ?? 0).filter((c) => c > 0).sort((a, b) => a - b);
-
-	if (counts.length > 0)
-	{
-		const minCount = counts[0];
-		const maxCount = counts[counts.length - 1];
-		const avgCount = counts.reduce((a, b) => a + b, 0) / counts.length;
-
-		console.log("");
-		console.log("=== 充電站區塊統計 ===");
-		console.log(`最小資料數: ${minCount}`);
-		console.log(`最大資料數: ${maxCount}`);
-		console.log(`平均資料數: ${avgCount.toFixed(1)}`);
-	}
 }
 
 // 執行
