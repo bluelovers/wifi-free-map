@@ -249,3 +249,64 @@ export interface ILocationInfo
 	/** 路名 / Road */
 	road: string;
 }
+
+/**
+ * 格式化區塊鍵值類型
+ * Format block key type
+ *
+ * @example IFormatBlockKey<'_'> = "121.2200_24.9200"
+ * @example IFormatBlockKey<'/'> = "lng_121.20/lat_24.90"
+ */
+export type IFormatBlockKey<S extends string = '_'> = `${number}${S}${number}`;
+
+/**
+ * 區塊索引邊界起止介面
+ * Block index bounds start/end interface
+ */
+export interface IBlockIndexBoundsStartEnd
+{
+	/** X lng 方向（經度）索引最小值 / X direction (longitude) index minimum */
+	startX: number;
+	/** X lng 方向（經度）索引最大值 / X direction (longitude) index maximum */
+	endX: number;
+	/** Y lat 方向（緯度）索引最小值 / Y direction (latitude) index minimum */
+	startY: number;
+	/** Y lat 方向（緯度）索引最大值 / Y direction (latitude) index maximum */
+	endY: number;
+}
+
+/**
+ * 分流組索引 (Bucket Index)
+ */
+export interface IGpsBucketIndex
+{
+	bucketX: number;
+	bucketY: number;
+}
+
+/**
+ * 分組結果的結構
+ * Grouping result structure
+ *
+ * 格式：Record<BucketPath, Record<FileName, DataArray>>
+ * Format: Record<BucketPath, Record<FileName, DataArray>>
+ */
+export type ISplitResult<T> = Record<IFormatBlockKey<'/'>, ISplitResultEntry<T>>;
+
+/**
+ * 分組結果的內層結構
+ * Inner structure of grouping result
+ *
+ * 格式：Record<FileName, DataArray>
+ * Format: Record<FileName, DataArray>
+ */
+export type ISplitResultEntry<T> = Record<IFormatBlockKey<'_'>, T[]>;
+
+/**
+ * 可迭代的資料陣列或生成器
+ * Iterable data array or generator
+ *
+ * 支援陣列或 Iterable 類型
+ * Supports array or Iterable type
+ */
+export type IValueArrayOrIterable<T> = T[] | Iterable<T>;

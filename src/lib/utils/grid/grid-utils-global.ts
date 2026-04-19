@@ -5,66 +5,25 @@
  * 提供全球通用的座標轉區塊 ID 計算與格式化的共用具。
  * Provides global utilities for coordinate-to-block ID calculation and formatting.
  */
-import { BLOCK_SIZE, TAIWAN_BOUNDS } from './grid-const';
 import {
+	BLOCK_SIZE,
+	BUCKET_CONFIG_GROUP_SIZE,
+	GLOBAL_GRID_CONFIG_EPSILON,
+	GLOBAL_GRID_CONFIG_FACTOR,
+	GLOBAL_GRID_CONFIG_ORIGIN,
+	GLOBAL_GRID_CONFIG_PRECISION,
+} from './grid-const';
+import {
+	IBlockIndexBoundsStartEnd,
 	IBounds,
+	IFormatBlockKey,
 	IGpsBlockIndex,
-	IGpsCoordinate, IGpsLngLatMax,
+	IGpsBucketIndex,
+	IGpsCoordinate,
+	IGpsLngLatMax,
 	IGpsLngLatMin,
 	IGpsLngLatMinMax,
-	IGpsRowColStartEnd,
 } from './grid-types';
-
-/**
- * 全球網格配置：原點
- * Global grid configuration: origin
- *
- * 全球通用網格配置，建議使用 (0,0) 或 (-180, -90) 作為全球唯一原點，這樣最直覺
- * 如果想沿用你原本的台灣設定也完全沒問題
- *
- * Global universal grid configuration, recommend using (0,0) or (-180, -90) as global origin for intuitiveness
- * Using original Taiwan settings is also fine
- */
-export const GLOBAL_GRID_CONFIG_ORIGIN = {
-	lng: TAIWAN_BOUNDS.minLng,
-	lat: TAIWAN_BOUNDS.minLat,
-} as const;
-
-/** 座標精度（小數位數）/ Coordinate precision (decimal places) */
-export const GLOBAL_GRID_CONFIG_PRECISION = 4 as const;
-
-/** 浮點數 epsilon 值用於修正計算誤差 / Float epsilon value for correcting calculation errors */
-export const GLOBAL_GRID_CONFIG_EPSILON = 1e-9 as const;
-
-/** 座標轉換因子 / Coordinate conversion factor */
-export const GLOBAL_GRID_CONFIG_FACTOR = 1000000 as const;
-
-/**
- * 擴充配置：分流設定
- * Extended configuration: shunting/diversion settings
-
- * 15x15 個區塊為一組
- * 15x15 blocks as a group
- *
- * 根據地理資訊，台北市的極值大約如下：
- * According to geographic information, Taipei City extremes approximately:
- * - 緯度 (Lat)：24.961° ~ 25.210°（跨度約 0.249°）
- * - 經度 (Lng)：121.457° ~ 121.666°（跨度約 0.209°）
- *
- * 台北市的座標範圍大約 11x13 個區塊
- * Taipei City coordinate range approximately 11x13 blocks
- *
- * 層級規模換算表 / Level scale conversion table:
- * | 層級 (Level) | 跨度 (度) | 物理尺寸 (約略) | 覆蓋能力範例 |
- * | L0 (底層)    | 0.02°     | 2.1 km          | 西門町、萬華車站周邊 |
- * | L1 (資料夾層) | 0.30°    | 32 km           | 台北市 + 新北市核心區 |
- * | L2 (區域層)  | 4.50°    | 480 km          | 全台灣 (南北約 3.5°) |
- * | L3 (跨國層)  | 67.5°    | 7,200 km        | 整個中國 + 大部分東南亞 |
- *
- * 基於此，我們可以設定 15x15 個區塊為一組
- * Based on this, we set 15x15 blocks as a group
- */
-export const BUCKET_CONFIG_GROUP_SIZE = 15 as const;
 
 /**
  * 全球通用：座標轉區塊 ID
@@ -97,15 +56,6 @@ export function calcGlobalBlockIndexAndCoord({ lng, lat }: IGpsCoordinate): IGps
 		minLat,
 	};
 };
-
-/**
- * 格式化區塊鍵值類型
- * Format block key type
- *
- * @example IFormatBlockKey<'_'> = "121.2200_24.9200"
- * @example IFormatBlockKey<'/'> = "lng_121.20/lat_24.90"
- */
-export type IFormatBlockKey<S extends string = '_'> = `${number}${S}${number}`;
 
 /**
  * 格式化區塊鍵值
@@ -226,22 +176,6 @@ export function calcBlockIdsInRange(range: IGpsLngLatMinMax)
 		matchedBlocks,
 	};
 };
-
-/**
- * 區塊索引邊界起止介面
- * Block index bounds start/end interface
- */
-export interface IBlockIndexBoundsStartEnd
-{
-	/** X lng 方向（經度）索引最小值 / X direction (longitude) index minimum */
-	startX: number;
-	/** X lng 方向（經度）索引最大值 / X direction (longitude) index maximum */
-	endX: number;
-	/** Y lat 方向（緯度）索引最小值 / Y direction (latitude) index minimum */
-	startY: number;
-	/** Y lat 方向（緯度）索引最大值 / Y direction (latitude) index maximum */
-	endY: number;
-}
 
 /**
  * 計算矩形範圍內的區塊索引邊界（核心函式）
@@ -479,15 +413,6 @@ export function _calcBucketCoordByBucketIndex(bucket: { bucketX: number, bucketY
 export function _calcBlockIndexToBucketIndexCore(idx: number)
 {
 	return Math.floor(idx / BUCKET_CONFIG_GROUP_SIZE);
-}
-
-/**
- * 分流組索引 (Bucket Index)
- */
-export interface IGpsBucketIndex
-{
-	bucketX: number;
-	bucketY: number;
 }
 
 /**

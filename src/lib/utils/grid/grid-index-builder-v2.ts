@@ -5,9 +5,14 @@
  * 使用生成器模式進行資料分割與聚合
  * Uses generator pattern for data splitting and aggregation
  */
-import { ISplitResult, IValueArrayOrIterable, splitDataByL1GridGenerator } from '@/lib/utils/grid/grid-split';
-import { IGpsCoordinate, IGridBlock } from '@/lib/utils/grid/grid-types';
-import { IFormatBlockKey } from './grid-utils-global';
+import { splitDataByL1GridGenerator } from '@/lib/utils/grid/grid-split';
+import {
+	IFormatBlockKey,
+	IGpsCoordinate,
+	IGridBlock,
+	ISplitResult,
+	IValueArrayOrIterable,
+} from '@/lib/utils/grid/grid-types';
 
 /**
  * 建立區塊聚合器 V2

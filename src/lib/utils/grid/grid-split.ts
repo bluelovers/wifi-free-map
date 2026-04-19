@@ -5,41 +5,9 @@
  * 將地理資料陣列依據網格層級進行分割
  * Splits geographic data arrays according to grid hierarchy
  */
-import { IGpsCoordinate } from './grid-types';
-import {
-	IFormatBlockKey,
-	_formatBlockKey,
-	calcCoordToBucketIndexAndCoord,
-	calcGlobalBlockIndexAndCoord,
-} from './grid-utils-global';
+import { IFormatBlockKey, IGpsCoordinate, ISplitResult, IValueArrayOrIterable } from './grid-types';
+import { _formatBlockKey, calcCoordToBucketIndexAndCoord, calcGlobalBlockIndexAndCoord } from './grid-utils-global';
 import { ITSGenerator } from 'ts-type';
-
-/**
- * 分組結果的結構
- * Grouping result structure
- *
- * 格式：Record<BucketPath, Record<FileName, DataArray>>
- * Format: Record<BucketPath, Record<FileName, DataArray>>
- */
-export type ISplitResult<T> = Record<IFormatBlockKey<'/'>, ISplitResultEntry<T>>;
-
-/**
- * 分組結果的內層結構
- * Inner structure of grouping result
- *
- * 格式：Record<FileName, DataArray>
- * Format: Record<FileName, DataArray>
- */
-export type ISplitResultEntry<T> = Record<IFormatBlockKey<'_'>, T[]>;
-
-/**
- * 可迭代的資料陣列或生成器
- * Iterable data array or generator
- *
- * 支援陣列或 Iterable 類型
- * Supports array or Iterable type
- */
-export type IValueArrayOrIterable<T> = T[] | Iterable<T>;
 
 /**
  * 基於 L1 層級切割資料陣列（生成器）

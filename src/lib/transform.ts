@@ -11,8 +11,8 @@ import { resolve } from "path";
 import type { IHotspot, IRawHotspot } from "../types/station-wifi";
 import type { IChargingStation, IRawChargingStation } from "../types/station-charging";
 import { ITSGenerator } from 'ts-type';
-import { IValueArrayOrIterable } from './utils/grid/grid-split';
 import { __ROOT } from '../../test/__root';
+import { IValueArrayOrIterable } from '@/lib/utils/grid/grid-types';
 
 // ==================== Wi-Fi 熱點轉換 ====================
 
