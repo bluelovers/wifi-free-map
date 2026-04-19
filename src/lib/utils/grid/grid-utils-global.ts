@@ -418,7 +418,7 @@ export function _calcBlockIndexToBucketIndexCore(idx: number)
 /**
  * 計算分流組索引 (Bucket Index)
  * Calculate group index
-*
+ *
  * 將區塊索引除以 BUCKET_CONFIG_GROUP_SIZE (15) 取整數
  * Divides block index by BUCKET_CONFIG_GROUP_SIZE (15) and takes integer
  *
@@ -693,7 +693,10 @@ export function _sortCompByCoordinateCore(coordA: IGpsCoordinate, coordB: IGpsCo
  * 空間網格層次排序算法 (Spatial Grid Hierarchical Sort)
  *
  * [重要：關於座標跳躍現象]
- * 排序優先級為：L1 Bucket (分流資料夾) > L0 Block (區塊檔案) > 原始座標。
+ * 為了極大化寫入效率，排序優先級為：L1 Bucket (分流資料夾) > L0 Block (區塊檔案) > 原始座標。
+ *
+ * 當座標跨越 Bucket 邊界時，會出現緯度跳躍現象（例如：121.3 桶的點永遠排在 121.2 桶之後）。
+ * 這是預期行為，旨在對齊實體磁碟目錄結構。
  *
  * 由於第一優先權是「資料夾索引」，這會導致在視覺上經緯度可能出現「非線性跳躍」。
  * 例如：
@@ -703,6 +706,9 @@ export function _sortCompByCoordinateCore(coordA: IGpsCoordinate, coordB: IGpsCo
  * 這種設計的目的是為了「切割資料效率」，
  * 確保同一資料夾與同一檔案的資料在記憶體中是連續的，
  * 從而最小化檔案系統的 I/O 開關次數。
+ *
+ * @example
+ * 萬華 (121.48) 與 枋山 (120.68) 的排序由各自所屬的 0.3° 桶索引決定。
  *
  * @param a - 比較點 A
  * @param b - 比較點 B
@@ -759,4 +765,56 @@ export function _toIntCoord(val: number): number
 export function _fromIntCoord(intVal: number): number
 {
 	return intVal / GLOBAL_GRID_CONFIG_FACTOR;
+}
+
+/**
+ * 標準十進位格式 (Decimal Degrees, DD)
+ * 格式：[Lat, Lng] (符合 Google Maps 搜尋習慣)
+ * 範例："25.0200, 121.4800"
+ */
+export function formatToDD(lng: number, lat: number, precision = 6): string
+{
+	return `${lat.toFixed(precision)}, ${lng.toFixed(precision)}`;
+}
+
+export function _formatToDDMCore(val: number, pos: string, neg: string)
+{
+	const abs = Math.abs(val);
+	const deg = Math.floor(abs);
+	const min = ((abs - deg) * 60).toFixed(3);
+	const dir = val >= 0 ? pos : neg;
+	return `${deg}° ${min}' ${dir}`;
+}
+
+/**
+ * 度分格式 (Degrees Decimal Minutes, DDM)
+ * 格式：Degrees° Minutes' Direction
+ * 範例："25° 01.200' N, 121° 28.800' E"
+ */
+export function formatToDDM(lng: number, lat: number): string
+{
+
+	return `${_formatToDDMCore(lat, 'N', 'S')}, ${_formatToDDMCore(lng, 'E', 'W')}`;
+}
+
+export function _formatToDMSCore(val: number, pos: string, neg: string)
+{
+	const abs = Math.abs(val);
+	const deg = Math.floor(abs);
+	const minVal = (abs - deg) * 60;
+	const min = Math.floor(minVal);
+	const sec = ((minVal - min) * 60).toFixed(1);
+	const dir = val >= 0 ? pos : neg;
+	return `${deg}° ${min}' ${sec}" ${dir}`;
+}
+
+/**
+ * 度分秒格式 (Degrees Minutes Seconds, DMS)
+ * 格式：Degrees° Minutes' Seconds" Direction
+ * 範例："25° 01' 12.0\" N, 121° 28' 48.0\" E"
+ */
+export function formatToDMS(lng: number, lat: number): string
+{
+
+	return `${_formatToDMSCore(lat, 'N', 'S')}, ${_formatToDMSCore(lng, 'E', 'W')}`;
 }
