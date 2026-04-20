@@ -798,10 +798,16 @@ export default function FacilityMap()
 					<MapZoomHandler />
 					{/* 地圖移動時重新載入區塊資料 */}
 					<MapMoveHandler />
-					{/* 使用者位置 */}
-					<Marker
-						position={position}
-						icon={userIcon}
+					{/* 使用者位置 - 藍色半透明圓圈 */}
+					<CircleMarker
+						center={position}
+						radius={12}
+						pathOptions={{
+							color: '#1890ff',
+							fillColor: '#1890ff',
+							fillOpacity: 0.4,
+							weight: 2,
+						}}
 						draggable={true}
 						eventHandlers={{
 							dragend: (e) =>

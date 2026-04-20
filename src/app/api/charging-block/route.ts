@@ -12,7 +12,7 @@ import {
 } from '@/lib/utils/grid/grid-utils-global';
 import { __DATA_ROOT } from '@/lib/__root';
 import { IChargingStation as IChargingStationBase } from '@/types/station-charging';
-import { EnumFacilityType, IChargingStation, IApiReturnCharging, IApiReturnError } from '@/types';
+import { IChargingStation, IApiReturnCharging, IApiReturnError } from '@/types';
 
 /**
  * GET /api/charging-block?lat=xxx&lng=xxx
