@@ -731,7 +731,8 @@ export default function FacilityMap()
 	 * Map wrapper container
 	 */
 	return (
-		<Flex vertical gap="small" className={`map-wrapper${showList ? ' with-list' : ''}`}>
+		<>
+			<Flex vertical gap="small" className={`map-wrapper${showList ? ' with-list' : ''}`}>
 			{/* 位置錯誤提示與手動定位按鈕 */}
 			{locationError && (
 				<Alert
@@ -801,14 +802,26 @@ export default function FacilityMap()
 					{/* 使用者位置 - 藍色半透明圓圈 */}
 					<CircleMarker
 						center={position}
-						radius={12}
+						radius={25}
+						className="gps-pulse"
 						pathOptions={{
 							color: '#1890ff',
 							fillColor: '#1890ff',
-							fillOpacity: 0.4,
+							fillOpacity: 0.3,
+							weight: 1,
+						}}
+					/>
+					{/* 内圈 - 中心實心圓 */}
+					<CircleMarker
+						center={position}
+						radius={10}
+						pathOptions={{
+							color: '#1890ff',
+							fillColor: '#1890ff',
+							fillOpacity: 0.7,
 							weight: 2,
 						}}
-						draggable={true}
+						
 						eventHandlers={{
 							dragend: (e) =>
 							{
@@ -1066,5 +1079,6 @@ export default function FacilityMap()
 			)}
 
 		</Flex>
+		</>
 	);
 }

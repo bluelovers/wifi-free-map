@@ -40,7 +40,7 @@ export function MapTileLayer(props: IMapTileLayerProps)
 			maxZoom={props.maxZoom || MAX_ZOOM}
 		>
 			<LayersControl position="topright">
-				<LayersControl.BaseLayer name="標準地圖 (OSM)">
+				<LayersControl.BaseLayer name="詳細地圖 (OSM)">
 					<TileLayer
 						attribution='&copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors'
 						url={EnumMapTileLayer.OSM}
