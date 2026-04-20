@@ -30,6 +30,8 @@ import {
 	wrapLatLngArrayFromCoordinate,
 } from '@/lib/utils/grid/grid-utils-global';
 import { ICoordinateArrayLatLng, IGpsCoordinate } from '@/lib/utils/grid/grid-types';
+import { requestPermissionsGeolocation } from '@/lib/utils/api/browser-api';
+import { fetchOSMReverseInfo } from '@/lib/utils/api/fetch-api';
 
 /**
  * 修正 Leaflet 預設圖示路徑
@@ -310,37 +312,18 @@ export default function FacilityMap()
 	/** 取得 GPS 權限並嘗試獲取使用者位置（可重複呼叫） */
 	const requestGeolocation = async (preserveZoom?: number): Promise<void> =>
 	{
-		return new Promise((resolve, reject) =>
+		return new Promise(async (resolve, reject) =>
 		{
-			try
-			{
-				if (navigator.permissions && navigator.permissions.query)
+			await requestPermissionsGeolocation()
+				.then(result =>
 				{
-					navigator.permissions.query({ name: 'geolocation' as PermissionName }).then((result) =>
-					{
-						if (result.state === 'denied')
-						{
-							setLocationError(true);
-							reject(new Error('Geolocation denied'));
-							return;
-						}
-						getPosition(preserveZoom, resolve, reject);
-					}).catch(() =>
-					{
-						getPosition(preserveZoom, resolve, reject);
-					});
-				}
-				else
+					return getPosition(preserveZoom, resolve, reject);
+				})
+				.catch((e) =>
 				{
-					getPosition(preserveZoom, resolve, reject);
-				}
-			}
-			catch (e)
-			{
-				console.error('取得定位權限或位置時發生錯誤', e);
-				setLocationError(true);
-				reject(e);
-			}
+					setLocationError(true);
+					return reject(e)
+				})
 		});
 	};
 
@@ -350,11 +333,11 @@ export default function FacilityMap()
 		navigator.geolocation.getCurrentPosition(
 			async (pos) =>
 			{
-				const lat = pos.coords.latitude;
-				const lng = pos.coords.longitude;
+				const coord = wrapCoordinate(pos.coords.longitude, pos.coords.latitude);
+
 				/** 標記需要自動置中 */
 				setShouldAutoCenter(true);
-				setPosition(wrapLatLngArrayFromCoordinate({ lat, lng }));
+				setPosition(wrapLatLngArrayFromCoordinate(coord));
 				/** 若外部提供保留的 zoom，則使用它；若未提供則保持目前 zoom */
 				if (typeof preserveZoom === 'number')
 				{
@@ -362,20 +345,8 @@ export default function FacilityMap()
 				}
 				setLocationError(false);
 				/** 反向地理編碼取得地址 */
-				try
-				{
-					const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lng}`);
-					const data = await res.json();
-					setAddress(data.display_name || '');
-					console.log('osm reverse', {
-						lat,
-						lng,
-					}, data);
-				}
-				catch
-				{
-					setAddress('');
-				}
+
+				updateAddress(coord);
 				resolve();
 			},
 			(err) =>
@@ -391,24 +362,21 @@ export default function FacilityMap()
 	const updateAddress = async (coord: IGpsCoordinate) =>
 	{
 		setAddressLoading(true);
-		try
-		{
-			const res = await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${coord.lat}&lon=${coord.lng}`, {
-				headers: {
-					'User-Agent': `WiFi-Free-Map/1.0 (${NOMINATIM_CONTACT_EMAIL})`,
-				},
-			});
-			const data = await res.json();
-			setAddress(data.display_name || '');
-		}
-		catch
-		{
-			setAddress('');
-		}
-		finally
-		{
-			setAddressLoading(false);
-		}
+
+		await fetchOSMReverseInfo(coord)
+			.then(data =>
+			{
+				setAddress(data.display_name || '');
+			})
+			.catch(() =>
+			{
+				setAddress('');
+			})
+			.finally(() =>
+			{
+				setAddressLoading(false);
+			})
+		;
 	};
 
 	/** 搜尋計時器 ref */
@@ -703,27 +671,6 @@ export default function FacilityMap()
 		setShouldAutoCenter(true);
 		setPosition(wrapLatLngArrayFromCoordinate(hotspot));
 		setZoom(16); // 放大到能看到詳細資訊的等級
-	};
-
-	// 開啟導航
-	const openNavigation = (coord: IGpsCoordinate, name: string) =>
-	{
-		const url = `https://www.google.com/maps/dir/?api=1&destination=${coord.lat},${coord.lng}`;
-		window.open(url, '_blank');
-	};
-
-	// 複製密碼
-	const copyPassword = async (text: string) =>
-	{
-		try
-		{
-			await navigator.clipboard.writeText(text);
-			alert('已複製 / Copied!');
-		}
-		catch
-		{
-			alert('複製失敗 / Copy failed');
-		}
 	};
 
 	/**
