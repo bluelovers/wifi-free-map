@@ -16,6 +16,7 @@ import {
 import {
 	IBlockIndexBoundsStartEnd,
 	IBounds,
+	ICoordinateArrayLatLng,
 	IFormatBlockKey,
 	IGpsBlockIndex,
 	IGpsBucketIndex,
@@ -72,10 +73,14 @@ export function calcGlobalBlockIndexAndCoord({ lng, lat }: IGpsCoordinate): IGps
  */
 export function _formatBlockKey<S extends string = '_'>(x_lng: number | string, y_lat: number | string, opts?: {
 	sep?: S;
+	precision?: number;
 }): IFormatBlockKey<S>
 {
-	const lngStr = typeof x_lng === 'number' ? x_lng.toFixed(GLOBAL_GRID_CONFIG_PRECISION) : x_lng;
-	const latStr = typeof y_lat === 'number' ? y_lat.toFixed(GLOBAL_GRID_CONFIG_PRECISION) : y_lat;
+
+	const precision = opts?.precision ?? GLOBAL_GRID_CONFIG_PRECISION;
+
+	const lngStr = typeof x_lng === 'number' ? x_lng.toFixed(precision) : x_lng;
+	const latStr = typeof y_lat === 'number' ? y_lat.toFixed(precision) : y_lat;
 
 	const sep = opts?.sep ?? '_';
 
@@ -778,9 +783,9 @@ export function _fromIntCoord(intVal: number): number
  * 格式：[Lat, Lng] (符合 Google Maps 搜尋習慣)
  * 範例："25.0200, 121.4800"
  */
-export function formatToDD(lng: number, lat: number, precision = 6): string
+export function formatToDD(coord: IGpsCoordinate, precision = 6): string
 {
-	return `${lat.toFixed(precision)}, ${lng.toFixed(precision)}`;
+	return `${coord.lat.toFixed(precision)}, ${coord.lng.toFixed(precision)}`;
 }
 
 export function _formatToDDMCore(val: number, pos: string, neg: string)
@@ -797,10 +802,10 @@ export function _formatToDDMCore(val: number, pos: string, neg: string)
  * 格式：Degrees° Minutes' Direction
  * 範例："25° 01.200' N, 121° 28.800' E"
  */
-export function formatToDDM(lng: number, lat: number): string
+export function formatToDDM(coord: IGpsCoordinate): string
 {
 
-	return `${_formatToDDMCore(lat, 'N', 'S')}, ${_formatToDDMCore(lng, 'E', 'W')}`;
+	return `${_formatToDDMCore(coord.lat, 'N', 'S')}, ${_formatToDDMCore(coord.lng, 'E', 'W')}`;
 }
 
 export function _formatToDMSCore(val: number, pos: string, neg: string)
@@ -819,10 +824,31 @@ export function _formatToDMSCore(val: number, pos: string, neg: string)
  * 格式：Degrees° Minutes' Seconds" Direction
  * 範例："25° 01' 12.0\" N, 121° 28' 48.0\" E"
  */
-export function formatToDMS(lng: number, lat: number): string
+export function formatToDMS(coord: IGpsCoordinate): string
 {
 
-	return `${_formatToDMSCore(lat, 'N', 'S')}, ${_formatToDMSCore(lng, 'E', 'W')}`;
+	return `${_formatToDMSCore(coord.lat, 'N', 'S')}, ${_formatToDMSCore(coord.lng, 'E', 'W')}`;
+}
+
+/**
+ * 注意: y lat 在前, x lng 在後
+ * @param {[lat: number, lng: number]} positionLatLng
+ * @returns {IGpsCoordinate}
+ */
+export function wrapCoordinateFromArray(positionLatLng: ICoordinateArrayLatLng): IGpsCoordinate
+{
+	return {
+		lng: positionLatLng[1],
+		lat: positionLatLng[0],
+	};
+}
+
+/**
+ * 注意: y lat 在前, x lng 在後
+ */
+export function wrapLatLngArrayFromCoordinate(coord: IGpsCoordinate): ICoordinateArrayLatLng
+{
+	return [coord.lat, coord.lng];
 }
 
 export function wrapCoordinate(lng: number, lat: number): IGpsCoordinate

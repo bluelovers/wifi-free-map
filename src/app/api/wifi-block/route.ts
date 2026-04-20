@@ -90,14 +90,14 @@ export async function GET(request: Request)
 			{
 				return {
 					...item,
-					id: `${item.lng}_${item.lat}_${index}`,
+					id: `${_formatBlockKey(item.lng, item.lat)}_${index}`,
 					source: 'user_contributed' as const,
 					ssid: '',
 					password: item.password || '',
 					provider: '',
 					isFree: true,
 					isOpen: true,
-					createdAt: new Date(),
+					createdAt: '',
 					createdBy: '',
 					verified: false,
 				};

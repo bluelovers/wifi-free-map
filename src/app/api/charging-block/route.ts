@@ -64,7 +64,7 @@ export async function GET(request: Request)
 			{
 				return {
 					...item,
-					id: `${item.lng}_${item.lat}_${index}`,
+					id: `${_formatBlockKey(item.lng, item.lat)}_${index}`,
 					source: 'osm' as const,
 					isFree: true,
 					details: '',

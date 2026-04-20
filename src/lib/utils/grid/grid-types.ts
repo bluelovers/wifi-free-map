@@ -310,3 +310,16 @@ export type ISplitResultEntry<T> = Record<IFormatBlockKey<'_'>, T[]>;
  * Supports array or Iterable type
  */
 export type IValueArrayOrIterable<T> = T[] | Iterable<T>;
+
+/**
+ * 注意: y lat 在前, x lng 在後
+ *
+ * 除非有必要否則請勿使用此格式(例如第三方API要求使用此格式)
+ * 除此以外 一律使用 {@link IGpsCoordinate}
+ */
+export type ICoordinateArrayLatLng = [
+	/** y lat */
+	lat: number,
+	/** x lng */
+	lng: number,
+];
