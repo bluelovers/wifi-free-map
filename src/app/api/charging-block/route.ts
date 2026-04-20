@@ -5,7 +5,11 @@
 import { readFile } from 'fs/promises';
 import { join } from 'path';
 import { NextResponse } from 'next/server';
-import { calcGlobalBlockIndexAndCoord, _formatBlockKey, calcCoordToBucketIndexAndCoord } from '@/lib/utils/grid/grid-utils-global';
+import {
+	calcGlobalBlockIndexAndCoord,
+	_formatBlockKey,
+	calcCoordToBucketIndexAndCoord,
+} from '@/lib/utils/grid/grid-utils-global';
 import { __DATA_ROOT } from '@/lib/__root';
 
 /**
@@ -21,7 +25,7 @@ export async function GET(request: Request)
 	{
 		return NextResponse.json(
 			{ success: false, error: 'Missing lat or lng parameter' },
-			{ status: 400 }
+			{ status: 400 },
 		);
 	}
 
@@ -32,7 +36,7 @@ export async function GET(request: Request)
 	{
 		return NextResponse.json(
 			{ success: false, error: 'Invalid coordinate' },
-			{ status: 400 }
+			{ status: 400 },
 		);
 	}
 
@@ -75,7 +79,7 @@ export async function GET(request: Request)
 		console.error('Error:', error);
 		return NextResponse.json(
 			{ success: false, error: 'Failed' },
-			{ status: 500 }
+			{ status: 500 },
 		);
 	}
 }

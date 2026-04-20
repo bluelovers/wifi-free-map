@@ -22,6 +22,7 @@ import {
 // 使用 grid-split 的生成器
 import { splitDataByL1GridGenerator } from "../src/lib/utils/grid/grid-split";
 import { __ROOT } from '../test/__root';
+import { __DATA_ROOT } from '@/lib/__root';
 
 /**
  * 主執行函式
@@ -29,12 +30,12 @@ import { __ROOT } from '../test/__root';
 async function main()
 {
 	// 讀取充電站資料
-	const chargingData = await import("../public/data/charging-stations.json").then((m) => m.default);
+	const chargingData = await import("../public/data/raw-normalize/charging-stations.json").then((m) => m.default);
 
 	console.log(`載入 ${chargingData.length} 筆充電站資料`);
 
 	// 建立輸出目錄
-	const outDir = resolve(__ROOT, "public/data/grid-charging");
+	const outDir = resolve(__DATA_ROOT, "grid-charging");
 
 	await fs.emptyDir(outDir);
 

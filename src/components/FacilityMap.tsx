@@ -782,27 +782,29 @@ export default function FacilityMap()
 					<LongPressHandler />
 					{/* WiFi 熱點 */}
 					<MarkerClusterGroup chunkedLoading>
-					{filteredHotspots.map((hotspot) => (
-						<Marker
-							key={hotspot.id}
-							position={[hotspot.location.lat, hotspot.location.lng]}
-							icon={wifiIcon}
-							eventHandlers={{ click: () => handleMarkerClick(hotspot) }}
-						>
-							<Popup>{hotspot.name}</Popup>
-						</Marker>
-					))}
+						{filteredHotspots.map((hotspot) => (
+							<Marker
+								key={hotspot.id}
+								position={[hotspot.location.lat, hotspot.location.lng]}
+								icon={wifiIcon}
+								eventHandlers={{ click: () => handleMarkerClick(hotspot) }}
+							>
+								<Popup>{hotspot.name}</Popup>
+							</Marker>
+						))}
 					</MarkerClusterGroup>
 					{/* 充電站 */}
-					{chargingStations.map((station) => (
-						<Marker
-							key={station.id}
-							position={[station.location.lat, station.location.lng]}
-							icon={chargingIcon}
-						>
-							<Popup>{station.name}</Popup>
-						</Marker>
-					))}
+					<MarkerClusterGroup chunkedLoading>
+						{chargingStations.map((station) => (
+							<Marker
+								key={station.id}
+								position={[station.location.lat, station.location.lng]}
+								icon={chargingIcon}
+							>
+								<Popup>{station.name}</Popup>
+							</Marker>
+						))}
+					</MarkerClusterGroup>
 					{/* 變更視角 - 當位置改變時自動置中 */}
 					<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
 				</MapContainer>

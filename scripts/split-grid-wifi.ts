@@ -16,6 +16,7 @@ import { fileURLToPath } from "url";
 import { splitDataByL1GridGenerator, splitDataByL1Grid } from "../src/lib/utils/grid/grid-split";
 import { __ROOT } from '../test/__root';
 import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-utils-global';
+import { __DATA_ROOT } from '@/lib/__root';
 
 /**
  * 主執行函式
@@ -23,12 +24,12 @@ import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-utils-global';
 async function main()
 {
 	// 讀取 Wi-Fi 熱點資料
-	const wifiData = await import("../public/data/wifi-hotspots.json").then((m) => m.default);
+	const wifiData = await import("../public/data/raw-normalize/wifi-hotspots.json").then((m) => m.default);
 
 	console.log(`載入 ${wifiData.length} 筆 Wi-Fi 熱點資料`);
 
 	// 建立輸出目錄
-	const outDir = resolve(__ROOT, "public/data/grid-wifi");
+	const outDir = resolve(__DATA_ROOT, "grid-wifi");
 
 	await fs.emptyDir(outDir);
 
