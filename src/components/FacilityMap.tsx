@@ -15,7 +15,7 @@ import {
 } from '@ant-design/icons';
 import { IWiFiHotspot, IChargingStationMarker, IApiReturnWifi, IApiReturnError, IApiReturnCharging } from '@/types';
 import { EnumFacilityType } from '@/types';
-import { generateWiFiQRCode, calculateDistance } from '@/lib/wifi-utils';
+import { generateWiFiQRCode } from '@/lib/wifi-utils';
 import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
 import EditHotspotForm from './EditHotspotForm';
 import AddHotspotForm from './AddHotspotForm';
@@ -23,6 +23,9 @@ import MarkerClusterGroup from 'react-leaflet-cluster'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.css'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.Default.css'
 import { MapTileLayer } from './map/MapTileLayer';
+import { calculateDistance, getAndFormatDistance } from '../lib/utils/grid/grid-calc-coords';
+import { wrapCoordinate } from '@/lib/utils/grid/grid-utils-global';
+import { IGpsCoordinate } from '@/lib/utils/grid/grid-types';
 
 /**
  * 修正 Leaflet 預設圖示路徑
@@ -532,10 +535,13 @@ export default function FacilityMap()
 					// 按權重和距離排序
 					if (position)
 					{
+
+						const from = wrapCoordinate(position[1], position[0]);
+
 						enhancedResults.sort((a, b) =>
 						{
-							const distA = calculateDistance(position[0], position[1], parseFloat(a.lat), parseFloat(b.lon));
-							const distB = calculateDistance(position[0], position[1], parseFloat(b.lat), parseFloat(b.lon));
+							const distA = calculateDistance(from, wrapCoordinate(parseFloat(a.lon), parseFloat(a.lat)));
+							const distB = calculateDistance(from, wrapCoordinate(parseFloat(b.lon), parseFloat(b.lat)));
 
 							// 先按權重排序，再按距離排序
 							const weightDiff = b.score - a.score;
@@ -597,6 +603,8 @@ export default function FacilityMap()
 	/** 依據搜尋、密碼、距離過濾熱點 */
 	const filteredHotspots = useMemo(() =>
 	{
+		const from: IGpsCoordinate = position && wrapCoordinate(position[1], position[0]);
+
 		const filtered = hotspots.filter((hotspot) =>
 		{
 			/** 關鍵字過濾：名稱或 SSID 包含搜尋字串（不分大小寫） */
@@ -610,21 +618,22 @@ export default function FacilityMap()
 			// 密碼過濾
 			if (filters.passwordOnly && !hotspot.password) return false;
 			// 距離過濾
-			if (filters.maxDistance && position)
+			if (filters.maxDistance && from)
 			{
-				const dist = calculateDistance(position[0], position[1], hotspot.lat, hotspot.lng);
+				const dist = calculateDistance(from, hotspot);
+				console.log(`filteredHotspots`, dist, filters.maxDistance, from, hotspot);
 				if (dist > filters.maxDistance) return false;
 			}
 			return true;
 		});
 
 		/** 依照距離排序 / Sort by distance */
-		if (position)
+		if (from)
 		{
 			filtered.sort((a, b) =>
 			{
-				const distA = calculateDistance(position[0], position[1], a.lat, a.lng);
-				const distB = calculateDistance(position[0], position[1], b.lat, b.lng);
+				const distA = calculateDistance(from, a);
+				const distB = calculateDistance(from, b);
 				return distA - distB;
 			});
 		}
@@ -715,17 +724,6 @@ export default function FacilityMap()
 		}
 	};
 
-	// 計算距離
-	const getDistance = (lat: number, lng: number) =>
-	{
-		const dist = calculateDistance(position[0], position[1], lat, lng);
-		if (dist < 1000)
-		{
-			return `${Math.round(dist)} 公尺`;
-		}
-		return `${(dist / 1000).toFixed(1)} 公里`;
-	};
-
 	/**
 	 * 地圖包裝容器
 	 * Map wrapper container
@@ -733,352 +731,353 @@ export default function FacilityMap()
 	return (
 		<>
 			<Flex vertical gap="small" className={`map-wrapper${showList ? ' with-list' : ''}`}>
-			{/* 位置錯誤提示與手動定位按鈕 */}
-			{locationError && (
-				<Alert
-					message="定位失敗，請允許 GPS 或手動設定位置。"
-					action={
-						<Space>
-							<Button size="small" onClick={() => setManualMode(true)}>手動定位</Button>
-							<Button size="small" icon={<ReloadOutlined />} onClick={() => requestGeolocation()}>重新請求定位</Button>
-						</Space>
-					}
-					type="error"
-				/>
-			)}
-			{/* 座標與地址資訊（保留在上方） */}
-			<Flex vertical gap="small" className="info-panel">
-				<Flex gap="middle" wrap>
-					{address && <Typography.Text>地址: {address}</Typography.Text>}
-					{addressLoading && <Typography.Text type="secondary">（查詢地址中...）</Typography.Text>}
+				{/* 位置錯誤提示與手動定位按鈕 */}
+				{locationError && (
+					<Alert
+						message="定位失敗，請允許 GPS 或手動設定位置。"
+						action={
+							<Space>
+								<Button size="small" onClick={() => setManualMode(true)}>手動定位</Button>
+								<Button size="small" icon={<ReloadOutlined />}
+								        onClick={() => requestGeolocation()}>重新請求定位</Button>
+							</Space>
+						}
+						type="error"
+					/>
+				)}
+				{/* 座標與地址資訊（保留在上方） */}
+				<Flex vertical gap="small" className="info-panel">
+					<Flex gap="middle" wrap>
+						{address && <Typography.Text>地址: {address}</Typography.Text>}
+						{addressLoading && <Typography.Text type="secondary">（查詢地址中...）</Typography.Text>}
+					</Flex>
+					<Flex gap="middle" wrap>
+						{position && (
+							<Typography.Text>
+								座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}
+							</Typography.Text>
+						)}
+						<Typography.Text>縮放: {zoom}</Typography.Text>
+					</Flex>
 				</Flex>
-				<Flex gap="middle" wrap>
-					{position && (
-						<Typography.Text>
-							座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}
-						</Typography.Text>
+				{/* 地址搜尋表單 */}
+				<div style={{ position: 'relative' }}>
+					<Input
+						placeholder="輸入地址搜尋..."
+						value={addressSearchTerm}
+						onChange={(e) => handleAddressSearch(e.target.value)}
+						style={{ width: '100%' }}
+					/>
+					{/* 搜尋結果下拉選單 */}
+					{addressSearchResults.length > 0 && (
+						<Card style={{ position: 'absolute', zIndex: 1000, width: '100%', maxHeight: '300px', overflow: 'auto' }}>
+							<Flex component="div" vertical gap="zero">
+								{addressSearchResults.map((result, index) => (
+									<Flex
+										component="div"
+										key={index}
+										style={{ cursor: 'pointer', padding: '8px 12px' }}
+										onClick={() => selectAddressResult(result)}
+									>
+										{result.display_name}
+									</Flex>
+								))}
+							</Flex>
+						</Card>
 					)}
-					<Typography.Text>縮放: {zoom}</Typography.Text>
-				</Flex>
-			</Flex>
-			{/* 地址搜尋表單 */}
-			<div style={{ position: 'relative' }}>
-				<Input
-					placeholder="輸入地址搜尋..."
-					value={addressSearchTerm}
-					onChange={(e) => handleAddressSearch(e.target.value)}
-					style={{ width: '100%' }}
-				/>
-				{/* 搜尋結果下拉選單 */}
-				{addressSearchResults.length > 0 && (
-					<Card style={{ position: 'absolute', zIndex: 1000, width: '100%', maxHeight: '300px', overflow: 'auto' }}>
-						<Flex component="div" vertical gap="zero">
-							{addressSearchResults.map((result, index) => (
-								<Flex
-									component="div"
-									key={index}
-									style={{ cursor: 'pointer', padding: '8px 12px' }}
-									onClick={() => selectAddressResult(result)}
+				</div>
+				{/* 地圖容器 */}
+				<div style={{ position: 'relative', height: '500px', width: '100%' }}>
+					<MapTileLayer
+						center={position}
+						zoom={zoom}
+						style={{ height: '100%', width: '100%' }}
+						doubleClickZoom={false}
+					>
+						{/* 同步地圖縮放至 zoom state */}
+						<MapZoomHandler />
+						{/* 地圖移動時重新載入區塊資料 */}
+						<MapMoveHandler />
+						{/* 使用者位置 - 藍色半透明圓圈 */}
+						<CircleMarker
+							center={position}
+							radius={25}
+							className="gps-pulse"
+							pathOptions={{
+								color: '#1890ff',
+								fillColor: '#1890ff',
+								fillOpacity: 0.3,
+								weight: 1,
+							}}
+						/>
+						{/* 内圈 - 中心實心圓 */}
+						<CircleMarker
+							center={position}
+							radius={10}
+							pathOptions={{
+								color: '#1890ff',
+								fillColor: '#1890ff',
+								fillOpacity: 0.7,
+								weight: 2,
+							}}
+
+							eventHandlers={{
+								dragend: (e) =>
+								{
+									const latlng = e.target.getLatLng();
+									/** 拖曳定位點後，不自動置中（打斷瀏覽體驗） */
+									setShouldAutoCenter(false);
+									setPosition([latlng.lat, latlng.lng]);
+									// Preserve current zoom level; do not modify zoom
+									setLocationError(false);
+									/** 更新拖曳後的地址 */
+									updateAddress(latlng.lat, latlng.lng);
+								},
+							}}
+						/>
+						{/* 手動定位點擊監聽 */}
+						<ManualLocationHandler />
+						{/* 右鍵點擊移動定位點 */}
+						<LongPressHandler />
+						{/* WiFi 熱點 */}
+						<MarkerClusterGroup chunkedLoading>
+							{filteredHotspots.map((hotspot) => (
+								<Marker
+									key={hotspot.id}
+									position={[hotspot.lat, hotspot.lng]}
+									icon={wifiIcon}
+									eventHandlers={{ click: () => handleMarkerClick(hotspot) }}
 								>
-									{result.display_name}
-								</Flex>
+									<Popup>{hotspot.name}</Popup>
+								</Marker>
+							))}
+						</MarkerClusterGroup>
+						{/* 充電站 */}
+						<MarkerClusterGroup chunkedLoading>
+							{chargingStations.map((station) => (
+								<Marker
+									key={station.id}
+									position={[station.lat, station.lng]}
+									icon={chargingIcon}
+								>
+									<Popup>{station.name}</Popup>
+								</Marker>
+							))}
+						</MarkerClusterGroup>
+						{/* 變更視角 - 當位置改變時自動置中 */}
+						<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
+					</MapTileLayer>
+
+					{/* 浮動置中按鈕（Google Maps 風格） */}
+					<Button
+						type="primary"
+						shape="circle"
+						icon={<AimOutlined />}
+						onClick={() =>
+						{
+							console.log('Center button clicked, mapRef:', mapRef.current);
+							if (mapRef.current)
+							{
+								const currentZoom = mapRef.current.getZoom();
+								console.log('Current zoom:', currentZoom);
+								requestGeolocation(currentZoom)
+									.then(() =>
+									{
+										console.log('Geolocation success');
+										setZoom(currentZoom);
+									})
+									.catch(err => console.error('Geolocation error:', err));
+							}
+							else
+							{
+								console.log('No map ref, using default zoom');
+								requestGeolocation(zoom)
+									.then(() =>
+									{
+										setZoom(zoom);
+									})
+									.catch(err => console.error('Geolocation error:', err));
+							}
+						}}
+						style={{
+							position: 'absolute',
+							bottom: '30px',
+							right: '10px',
+							zIndex: 1000,
+						}}
+						title="置中至目前位置"
+					/>
+				</div>
+				{/* 搜尋列 / Search bar */}
+				<Card className="search-bar" size="small" hoverable>
+					<Flex vertical gap="middle">
+						<Input
+							placeholder="搜尋熱點或 SSID..."
+							prefix={<SearchOutlined />}
+							value={searchTerm}
+							onChange={(e) => setSearchTerm(e.target.value)}
+						/>
+						<Flex gap="middle" wrap>
+							<Flex align="center" gap="small">
+								<WifiOutlined style={{ color: '#1890ff' }} />
+								<Typography.Text>WiFi</Typography.Text>
+								<Switch
+									checked={filters.wifi}
+									onChange={(checked) => setFilters({ ...filters, wifi: checked })}
+									size="small"
+								/>
+							</Flex>
+							<Flex align="center" gap="small">
+								<ThunderboltOutlined style={{ color: '#fa8c16' }} />
+								<Typography.Text>充電</Typography.Text>
+								<Switch
+									checked={filters.charging}
+									onChange={(checked) => setFilters({ ...filters, charging: checked })}
+									size="small"
+								/>
+							</Flex>
+							<Flex align="center" gap="small">
+								<Typography.Text>只顯示有密碼</Typography.Text>
+								<Switch
+									checked={filters.passwordOnly}
+									onChange={(checked) => setFilters({ ...filters, passwordOnly: checked })}
+									size="small"
+								/>
+							</Flex>
+							<Flex align="center" gap="small">
+								<Typography.Text>距離上限 (m):</Typography.Text>
+								<InputNumber
+									min={0}
+									value={filters.maxDistance}
+									onChange={(value) => setFilters({ ...filters, maxDistance: value || 10000 })}
+									style={{ width: 100 }}
+									size="small"
+								/>
+							</Flex>
+							<Flex align="center" gap="small">
+								<Switch
+									checked={filters.longPressToMove}
+									onChange={(checked) => setFilters({ ...filters, longPressToMove: checked })}
+									size="small"
+								/>
+								<Typography.Text>右鍵點擊移動定位點</Typography.Text>
+							</Flex>
+							<Flex align="center" gap="small">
+								<Switch
+									checked={showList}
+									onChange={(checked) => setShowList(checked)}
+									size="small"
+								/>
+								<Typography.Text>顯示列表</Typography.Text>
+							</Flex>
+						</Flex>
+					</Flex>
+				</Card>
+
+				<Flex>
+					{false && filteredHotspots.map((hotspot) => (
+						<Tag key={hotspot.id} color="blue" variant="solid">
+							{hotspot.name}
+						</Tag>
+					))}
+				</Flex>
+
+				{/* 底部列表面板 / Bottom list panel */}
+				{showList && (
+					<Card
+						className="bottom-panel"
+						style={{
+							maxHeight: '300px',
+							// overflow: 'visible',
+							overflow: 'auto',
+						}}
+						title={<Typography.Title level={5}>WiFi 熱點列表 ({filteredHotspots.length})</Typography.Title>}
+						size="small"
+						hoverable
+
+						onScroll={(e) =>
+						{
+							/** 捲動到底部時載入更多 / Load more when scrolled to bottom */
+							const target = e.target as HTMLDivElement;
+							const scrollBottom = target.scrollTop + target.clientHeight;
+							if (scrollBottom >= target.scrollHeight - 50)
+							{
+								/** 載入更多熱點 / Load more hotspots */
+								if (visibleHotspotCount < filteredHotspots.length)
+								{
+									setVisibleHotspotCount(prev => prev + HOTSPOTS_PER_PAGE);
+								}
+							}
+						}}
+					>
+						<Flex
+							className="facility-list"
+							wrap
+							justify={'space-around'}
+							align="flex-start"
+						>
+							{filteredHotspots.slice(0, visibleHotspotCount).map((hotspot) => (
+								<Card
+									key={hotspot.id}
+									className="facility-item"
+
+									hoverable
+									variant="outlined"
+									size="small"
+
+									style={{
+										cursor: 'pointer',
+										width: 300,
+										marginBottom: 10,
+									}}
+									onClick={() => handleListItemClick(hotspot)}
+								>
+									<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />
+									<Flex vertical gap="zero">
+										<Typography.Text strong>{hotspot.name}</Typography.Text>
+										{hotspot.address && (
+											<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
+												{hotspot.address}
+											</Typography.Text>
+										)}
+										<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
+											{hotspot.lat.toFixed(4)}, {hotspot.lng.toFixed(4)}
+											{' • '}{getAndFormatDistance(wrapCoordinate(position[1], position[0]), hotspot)}
+											{hotspot.password && ' • 有密碼'}
+										</Typography.Text>
+									</Flex>
+								</Card>
 							))}
 						</Flex>
+						{visibleHotspotCount < filteredHotspots.length && (
+							<Typography.Text type="secondary" style={{ textAlign: 'center', display: 'block', padding: '8px' }}>
+								還有 {filteredHotspots.length - visibleHotspotCount} 個熱點...
+							</Typography.Text>
+						)}
 					</Card>
 				)}
-			</div>
-			{/* 地圖容器 */}
-			<div style={{ position: 'relative', height: '500px', width: '100%' }}>
-				<MapTileLayer
-					center={position}
-					zoom={zoom}
-					style={{ height: '100%', width: '100%' }}
-					doubleClickZoom={false}
-				>
-					{/* 同步地圖縮放至 zoom state */}
-					<MapZoomHandler />
-					{/* 地圖移動時重新載入區塊資料 */}
-					<MapMoveHandler />
-					{/* 使用者位置 - 藍色半透明圓圈 */}
-					<CircleMarker
-						center={position}
-						radius={25}
-						className="gps-pulse"
-						pathOptions={{
-							color: '#1890ff',
-							fillColor: '#1890ff',
-							fillOpacity: 0.3,
-							weight: 1,
-						}}
-					/>
-					{/* 内圈 - 中心實心圓 */}
-					<CircleMarker
-						center={position}
-						radius={10}
-						pathOptions={{
-							color: '#1890ff',
-							fillColor: '#1890ff',
-							fillOpacity: 0.7,
-							weight: 2,
-						}}
 
-						eventHandlers={{
-							dragend: (e) =>
-							{
-								const latlng = e.target.getLatLng();
-								/** 拖曳定位點後，不自動置中（打斷瀏覽體驗） */
-								setShouldAutoCenter(false);
-								setPosition([latlng.lat, latlng.lng]);
-								// Preserve current zoom level; do not modify zoom
-								setLocationError(false);
-								/** 更新拖曳後的地址 */
-								updateAddress(latlng.lat, latlng.lng);
-							},
-						}}
-					/>
-					{/* 手動定位點擊監聽 */}
-					<ManualLocationHandler />
-					{/* 右鍵點擊移動定位點 */}
-					<LongPressHandler />
-					{/* WiFi 熱點 */}
-					<MarkerClusterGroup chunkedLoading>
-						{filteredHotspots.map((hotspot) => (
-							<Marker
-								key={hotspot.id}
-								position={[hotspot.lat, hotspot.lng]}
-								icon={wifiIcon}
-								eventHandlers={{ click: () => handleMarkerClick(hotspot) }}
-							>
-								<Popup>{hotspot.name}</Popup>
-							</Marker>
-						))}
-					</MarkerClusterGroup>
-					{/* 充電站 */}
-					<MarkerClusterGroup chunkedLoading>
-						{chargingStations.map((station) => (
-							<Marker
-								key={station.id}
-								position={[station.lat, station.lng]}
-								icon={chargingIcon}
-							>
-								<Popup>{station.name}</Popup>
-							</Marker>
-						))}
-					</MarkerClusterGroup>
-					{/* 變更視角 - 當位置改變時自動置中 */}
-					<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
-				</MapTileLayer>
-
-				{/* 浮動置中按鈕（Google Maps 風格） */}
-				<Button
-					type="primary"
-					shape="circle"
-					icon={<AimOutlined />}
-					onClick={() =>
-					{
-						console.log('Center button clicked, mapRef:', mapRef.current);
-						if (mapRef.current)
+				{/* 編輯熱點表單 */}
+				{showEditForm && selectedHotspot && (
+					<EditHotspotForm
+						hotspot={selectedHotspot}
+						onClose={() =>
 						{
-							const currentZoom = mapRef.current.getZoom();
-							console.log('Current zoom:', currentZoom);
-							requestGeolocation(currentZoom)
-								.then(() =>
+							setShowEditForm(false);
+							// Refresh hotspots after edit
+							// Simple approach: re-fetch data
+							fetch('/api/hotspots')
+								.then(res => res.json())
+								.then(data =>
 								{
-									console.log('Geolocation success');
-									setZoom(currentZoom);
+									if (data.success) setHotspots(data.data);
 								})
-								.catch(err => console.error('Geolocation error:', err));
-						}
-						else
-						{
-							console.log('No map ref, using default zoom');
-							requestGeolocation(zoom)
-								.then(() =>
-								{
-									setZoom(zoom);
-								})
-								.catch(err => console.error('Geolocation error:', err));
-						}
-					}}
-					style={{
-						position: 'absolute',
-						bottom: '30px',
-						right: '10px',
-						zIndex: 1000,
-					}}
-					title="置中至目前位置"
-				/>
-			</div>
-			{/* 搜尋列 / Search bar */}
-			<Card className="search-bar" size="small" hoverable>
-				<Flex vertical gap="middle">
-					<Input
-						placeholder="搜尋熱點或 SSID..."
-						prefix={<SearchOutlined />}
-						value={searchTerm}
-						onChange={(e) => setSearchTerm(e.target.value)}
+								.catch(err => console.error('刷新熱點失敗', err));
+						}}
 					/>
-					<Flex gap="middle" wrap>
-						<Flex align="center" gap="small">
-							<WifiOutlined style={{ color: '#1890ff' }} />
-							<Typography.Text>WiFi</Typography.Text>
-							<Switch
-								checked={filters.wifi}
-								onChange={(checked) => setFilters({ ...filters, wifi: checked })}
-								size="small"
-							/>
-						</Flex>
-						<Flex align="center" gap="small">
-							<ThunderboltOutlined style={{ color: '#fa8c16' }} />
-							<Typography.Text>充電</Typography.Text>
-							<Switch
-								checked={filters.charging}
-								onChange={(checked) => setFilters({ ...filters, charging: checked })}
-								size="small"
-							/>
-						</Flex>
-						<Flex align="center" gap="small">
-							<Typography.Text>只顯示有密碼</Typography.Text>
-							<Switch
-								checked={filters.passwordOnly}
-								onChange={(checked) => setFilters({ ...filters, passwordOnly: checked })}
-								size="small"
-							/>
-						</Flex>
-						<Flex align="center" gap="small">
-							<Typography.Text>距離上限 (m):</Typography.Text>
-							<InputNumber
-								min={0}
-								value={filters.maxDistance}
-								onChange={(value) => setFilters({ ...filters, maxDistance: value || 10000 })}
-								style={{ width: 100 }}
-								size="small"
-							/>
-						</Flex>
-						<Flex align="center" gap="small">
-							<Switch
-								checked={filters.longPressToMove}
-								onChange={(checked) => setFilters({ ...filters, longPressToMove: checked })}
-								size="small"
-							/>
-							<Typography.Text>右鍵點擊移動定位點</Typography.Text>
-						</Flex>
-						<Flex align="center" gap="small">
-							<Switch
-								checked={showList}
-								onChange={(checked) => setShowList(checked)}
-								size="small"
-							/>
-							<Typography.Text>顯示列表</Typography.Text>
-						</Flex>
-					</Flex>
-				</Flex>
-			</Card>
+				)}
 
-			<Flex>
-				{false && filteredHotspots.map((hotspot) => (
-					<Tag key={hotspot.id} color="blue" variant="solid">
-						{hotspot.name}
-					</Tag>
-				))}
 			</Flex>
-
-			{/* 底部列表面板 / Bottom list panel */}
-			{showList && (
-				<Card
-					className="bottom-panel"
-					style={{
-						maxHeight: '300px',
-						// overflow: 'visible',
-						overflow: 'auto',
-					}}
-					title={<Typography.Title level={5}>WiFi 熱點列表 ({filteredHotspots.length})</Typography.Title>}
-					size="small"
-					hoverable
-
-					onScroll={(e) =>
-					{
-						/** 捲動到底部時載入更多 / Load more when scrolled to bottom */
-						const target = e.target as HTMLDivElement;
-						const scrollBottom = target.scrollTop + target.clientHeight;
-						if (scrollBottom >= target.scrollHeight - 50)
-						{
-							/** 載入更多熱點 / Load more hotspots */
-							if (visibleHotspotCount < filteredHotspots.length)
-							{
-								setVisibleHotspotCount(prev => prev + HOTSPOTS_PER_PAGE);
-							}
-						}
-					}}
-				>
-					<Flex
-						className="facility-list"
-						wrap
-						justify={'space-around'}
-						align="flex-start"
-					>
-						{filteredHotspots.slice(0, visibleHotspotCount).map((hotspot) => (
-							<Card
-								key={hotspot.id}
-								className="facility-item"
-
-								hoverable
-								variant="outlined"
-								size="small"
-
-								style={{
-									cursor: 'pointer',
-									width: 300,
-									marginBottom: 10,
-								}}
-								onClick={() => handleListItemClick(hotspot)}
-							>
-								<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />
-								<Flex vertical gap="zero">
-									<Typography.Text strong>{hotspot.name}</Typography.Text>
-									{hotspot.address && (
-										<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-											{hotspot.address}
-										</Typography.Text>
-									)}
-									<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-										{hotspot.lat.toFixed(4)}, {hotspot.lng.toFixed(4)}
-										{' • '}{getDistance(hotspot.lat, hotspot.lng)}
-										{hotspot.password && ' • 有密碼'}
-									</Typography.Text>
-								</Flex>
-							</Card>
-						))}
-					</Flex>
-					{visibleHotspotCount < filteredHotspots.length && (
-						<Typography.Text type="secondary" style={{ textAlign: 'center', display: 'block', padding: '8px' }}>
-							還有 {filteredHotspots.length - visibleHotspotCount} 個熱點...
-						</Typography.Text>
-					)}
-				</Card>
-			)}
-
-			{/* 編輯熱點表單 */}
-			{showEditForm && selectedHotspot && (
-				<EditHotspotForm
-					hotspot={selectedHotspot}
-					onClose={() =>
-					{
-						setShowEditForm(false);
-						// Refresh hotspots after edit
-						// Simple approach: re-fetch data
-						fetch('/api/hotspots')
-							.then(res => res.json())
-							.then(data =>
-							{
-								if (data.success) setHotspots(data.data);
-							})
-							.catch(err => console.error('刷新熱點失敗', err));
-					}}
-				/>
-			)}
-
-		</Flex>
 		</>
 	);
 }

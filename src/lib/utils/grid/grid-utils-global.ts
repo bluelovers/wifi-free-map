@@ -824,3 +824,31 @@ export function formatToDMS(lng: number, lat: number): string
 
 	return `${_formatToDMSCore(lat, 'N', 'S')}, ${_formatToDMSCore(lng, 'E', 'W')}`;
 }
+
+export function wrapCoordinate(lng: number, lat: number): IGpsCoordinate
+{
+	return {
+		lng,
+		lat,
+	};
+}
+
+export function wrapLngLatMin(minLng: number, minLat: number): IGpsLngLatMin
+{
+	return {
+		minLng,
+		minLat,
+	};
+}
+
+export function validateCoordinate(coord: IGpsCoordinate): asserts coord is IGpsCoordinate
+{
+	if (coord.lat < -90 || coord.lat > 90)
+	{
+		throw new RangeError(`無效的緯度: ${coord.lat}。緯度應介於 -90 與 90 之間。`);
+	}
+	if (coord.lng < -180 || coord.lng > 180)
+	{
+		throw new RangeError(`無效的經度: ${coord.lng}。經度應介於 -180 與 180 之間。`);
+	}
+}
