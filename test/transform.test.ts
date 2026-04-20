@@ -3,7 +3,7 @@
  * 測試資料轉換函式，確保未來修改不會破壞鍵名映射。
  */
 import { IRawChargingStation } from "../src/types/station-charging";
-import { convertWiFiRaw, convertChargingRaw } from "../src/lib/transform";
+import { convertWiFiRaw_iTaiwan, convertChargingRaw } from "../src/lib/transform";
 import { describe, it, expect } from "@jest/globals";
 
 describe('convertWiFiRaw', () => {
@@ -14,7 +14,7 @@ describe('convertWiFiRaw', () => {
       Longitude: '121.5654',
       Address: 'Taipei',
     };
-    const result = convertWiFiRaw(raw);
+    const result = convertWiFiRaw_iTaiwan(raw as any);
     expect(result).toEqual({
       name: 'Test hotspot',
       lat: 25.033,

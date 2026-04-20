@@ -80,6 +80,36 @@ export const GLOBAL_GRID_CONFIG_EPSILON = 1e-9 as const;
 export const GLOBAL_GRID_CONFIG_PRECISION = 4 as const;
 
 /**
+ * 地圖標記點座標精度（小數位數）/ Coordinate precision (decimal places)
+ *
+ * 精度參考 (赤道附近)：
+ * - 0 位: 111 km
+ * - 1 位: 11.1 km
+ * - 2 位: 1.11 km
+ * - 3 位: 111 m
+ * - 4 位: 11.1 m
+ * - 5 位: 1.11 m
+ * - 6 位: 11.1 cm (一般手機 GPS 精度)
+ * - 7 位: 1.11 cm
+ * - 8 位: 1.11 mm (專業測量級精度)
+ *
+ * [精度與實際距離對照表]
+ * 註：緯度(Lat)距離固定；經度(Lng)距離隨緯度增加而縮短（以下經度以台灣緯度約 23.5° N 計算）
+ * | 位數 | 緯度 (Lat) 精度 | 經度 (Lng) 精度 | 常用場景 |
+ * | :--- | :----------- | :----------- | :--- |
+ * | 0    | 111 km       | 102 km       | 國家/大陸級 |
+ * | 1    | 11.1 km      | 10.2 km      | 城市級 |
+ * | 2    | 1.11 km      | 1.02 km      | 鄉鎮級 |
+ * | 3    | 111 m        | 102 m        | 社區/大型場所 |
+ * | 4    | 11.1 m       | 10.2 m       | 門牌/街道級 |
+ * | 5    | 1.11 m       | 1.02 m       | 精確定位 (推薦) |
+ * | 6    | 11.1 cm      | 10.2 cm      | 專業測量/導航 |
+ * | 7    | 1.11 cm      | 1.02 cm      | 毫米級精度 |
+ * | 8    | 1.11 mm      | 1.02 mm      | 科学研究/防止誤差 |
+ */
+export const GLOBAL_GRID_CONFIG_PRECISION_MAKRER = 6 as const;
+
+/**
  * 座標轉換因子 / Coordinate conversion factor
  *
  * [精度說明 / Precision Note]

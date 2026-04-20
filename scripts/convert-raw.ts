@@ -4,29 +4,26 @@
  *
  * 此腳本會讀取已經下載的 raw 檔案並進行轉換，
  * 不需要再次從網路下載。
- *
- * 使用方式：
- * - 轉換所有檔案：pnpm ts-node scripts/convert-raw.ts
- * - 只轉換 Wi-Fi：pnpm ts-node scripts/convert-raw.ts --wifi
- * - 只轉換充電站：pnpm ts-node scripts/convert-raw.ts --charging
- *
- * Run:
- * - Convert all: pnpm ts-node scripts/convert-raw.ts
- * - Wi‑Fi only: pnpm ts-node scripts/convert-raw.ts --wifi
- * - Charging only: pnpm ts-node scripts/convert-raw.ts --charging
  */
-
 import fs from "fs-extra";
 import { relative, resolve } from "path";
 import {
 	convertWiFiArray,
 	convertChargingArray,
-	DEFAULT_OUTPUT_DIR,
+	convertWiFiRaw_TaipeiFree_To_iTaiwan,
 } from "../src/lib/transform";
-import { chargingPath, chargingRawPath, taipeiWifiRawPath, wifiPath, wifiRawPath } from './utils/const-paths';
+import {
+	chargingNormalizePath,
+	chargingRawPath,
+	wifiRawPath_TaipeiFree,
+	wifiNormalizePath,
+	wifiRawPath_iTaiwan,
+	categorySetPath,
+} from './utils/const-paths';
 import { __ROOT } from '../test/__root';
 import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-utils-global';
 import { execSync } from 'child_process';
+import { __DATA_ROOT } from '@/lib/__root';
 
 /**
  * 主執行函式
@@ -34,60 +31,44 @@ import { execSync } from 'child_process';
  */
 async function main()
 {
-	const wifiRaw = await fs.readJSON(wifiRawPath);
-	const taipeiWifiRaw = await fs.readJSON(taipeiWifiRawPath);
+	const wifiRaw = await fs.readJSON(wifiRawPath_iTaiwan);
+	const taipeiWifiRaw = await fs.readJSON(wifiRawPath_TaipeiFree);
 	const chargingRaw = await fs.readJSON(chargingRawPath);
 
 	// 將台北市資料轉換為與 iTaiwan 相同的欄位格式
 	// 台北市 JSON 使用大寫欄位：NAME, LATITUDE, LONGITUDE, ADDR
-	const taipeiFormatted = taipeiWifiRaw.map((row: any) => ({
-		Name: row.NAME || "",
-		Latitude: row.LATITUDE || "",
-		Longitude: row.LONGITUDE || "",
-		Address: row.ADDR || "",
-	}));
+	const taipeiFormatted = taipeiWifiRaw.map(convertWiFiRaw_TaipeiFree_To_iTaiwan);
 
 	// 合併 iTaiwan 與台北市 Wi-Fi 資料（僅用於轉換）
 	const allWifiRaw = [...wifiRaw, ...taipeiFormatted];
 
+	const categorySet = new Set<string>();
+
+	const cb = (item: { value: any; isValid: boolean }) =>
+	{
+		item?.value?.category && categorySet.add(item.value.category);
+	};
+
 	// 轉換並寫入過濾後的檔案（合併後）
-	const wifiFiltered = convertWiFiArray(allWifiRaw).sort(_sortCompByBucketAndBlock);
-	const chargingFiltered = convertChargingArray(chargingRaw).sort(_sortCompByBucketAndBlock);
+	const wifiFiltered = convertWiFiArray(allWifiRaw, { cb }).sort(_sortCompByBucketAndBlock);
+	const chargingFiltered = convertChargingArray(chargingRaw, { cb }).sort(_sortCompByBucketAndBlock);
 
-	await fs.outputJSON(wifiPath, wifiFiltered, { spaces: 2 });
-	await fs.outputJSON(chargingPath, chargingFiltered, { spaces: 2 });
+	await fs.outputJSON(wifiNormalizePath, wifiFiltered, { spaces: 2 });
+	await fs.outputJSON(chargingNormalizePath, chargingFiltered, { spaces: 2 });
 
-	console.log(`Filtered files written to ${DEFAULT_OUTPUT_DIR}`);
+	await fs.outputJSON(categorySetPath, {
+		categories: Array.from(categorySet).sort(),
+	}, { spaces: 2 });
+
+	console.log(`Filtered files written to ${__DATA_ROOT}`);
 	console.log(
 		`iTaiwan Wi‑Fi: ${wifiRaw.length}, Taipei Free: ${taipeiWifiRaw.length}, total: ${allWifiRaw.length}`,
 	);
-	console.log(`${relative(__ROOT, wifiPath)}`);
+	console.log(`${relative(__ROOT, wifiNormalizePath)}`);
 	console.log(
 		`Charging: ${chargingRaw.length}`,
 	);
-	console.log(`${relative(__ROOT, chargingPath)}`);
-
-	// Git 操作（仅在 CI 環境或手動啟用時執行）
-	if (process.env.CI === "true" || process.argv.includes("--push"))
-	{
-		try
-		{
-			execSync("git add public/data/*.json", { stdio: "inherit" });
-			execSync("git commit -m 'chore: sync Wi‑Fi & charging station data (auto)'", {
-				stdio: "inherit",
-			});
-			execSync("git push", { stdio: "inherit" });
-			console.log("Git commit & push successful.");
-		}
-		catch (error)
-		{
-			console.warn("Git commit failed – maybe there are no changes.");
-		}
-	}
-	else
-	{
-		console.log("Skipping Git operations. Use --push flag or set CI=true to enable.");
-	}
+	console.log(`${relative(__ROOT, chargingNormalizePath)}`);
 }
 
 // 執行

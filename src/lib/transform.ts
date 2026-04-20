@@ -6,13 +6,13 @@
  * Provides functions to transform raw data (JSON) to structured data.
  */
 
-import { readFile } from "fs/promises";
-import { resolve } from "path";
-import type { IHotspot, IRawHotspot } from "../types/station-wifi";
-import type { IChargingStation, IRawChargingStation } from "../types/station-charging";
-import { ITSGenerator } from 'ts-type';
-import { __ROOT } from '../../test/__root';
-import { IValueArrayOrIterable } from '@/lib/utils/grid/grid-types';
+import { IHotspot, IRawHotspot_iTaiwan, IRawHotspot_TaipeiFree } from "@/types/station-wifi";
+import type { IChargingStation, IRawChargingStation } from "@/types/station-charging";
+import { ITSGenerator, ITSPickExtra } from 'ts-type';
+import { EnumDatasetType, IValueArrayOrIterable } from '@/lib/utils/grid/grid-types';
+import { IStationBase } from '@/types/station-base';
+import { _fixCoordFromStringCore } from '@/lib/utils/grid/grid-utils-global';
+import { GLOBAL_GRID_CONFIG_PRECISION_MAKRER } from '@/lib/utils/grid/grid-const';
 
 // ==================== Wi-Fi 熱點轉換 ====================
 
@@ -26,13 +26,107 @@ import { IValueArrayOrIterable } from '@/lib/utils/grid/grid-types';
  * @param raw - 原始資料物件
  * @returns 轉換後的 Hotspot 物件
  */
-export function convertWiFiRaw(raw: IRawHotspot): IHotspot
+export function convertWiFiRaw_iTaiwan(raw: IRawHotspot_iTaiwan): IHotspot
 {
 	return {
-		name: raw.Name ?? "",
-		lat: Number(raw.Latitude) || 0,
-		lng: Number(raw.Longitude) || 0,
-		address: raw.Address ?? "",
+		dataType: EnumDatasetType.WIFI,
+		category: raw.Administration,
+		name: raw.Name,
+		lat: _fixCoordFromStringCore(raw.Latitude, GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
+		lng: _fixCoordFromStringCore(raw.Longitude, GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
+		address: raw.Address,
+	};
+}
+
+/**
+ * 將台北市資料轉換為與 iTaiwan 相同的欄位格式
+ * 台北市 JSON 使用大寫欄位：NAME, LATITUDE, LONGITUDE, ADDR
+ */
+export function convertWiFiRaw_TaipeiFree_To_iTaiwan(raw: IRawHotspot_TaipeiFree): ITSPickExtra<IRawHotspot_iTaiwan, 'Name' | 'Latitude' | 'Longitude' | 'Address' | 'Administration'>
+{
+	return {
+		Name: raw.NAME,
+		Latitude: raw.LATITUDE,
+		Longitude: raw.LONGITUDE,
+		Address: raw.ADDR,
+		Administration: raw.STYPE,
+	};
+}
+
+export interface IOptionsCreateConvertRawArrayGenerator<T extends IStationBase, R = unknown> extends IOptionsCreateConvertRawOpts<T>
+{
+	filter?(item: T): boolean;
+
+	returnType?: 'array' | 'generator';
+}
+
+export interface IOptionsCreateConvertRawOpts<T extends IStationBase = IStationBase>
+{
+	cb?(item: { value: T; isValid: boolean }): void;
+}
+
+export function _createConvertRawArrayGenerator<R, T extends IStationBase>(fn: (raw: R) => T,
+	opts: IOptionsCreateConvertRawArrayGenerator<T, R> & { returnType: 'generator' },
+): (rawData: IValueArrayOrIterable<R>, opts2?: IOptionsCreateConvertRawOpts<T>) => ITSGenerator<T>
+export function _createConvertRawArrayGenerator<R, T extends IStationBase>(fn: (raw: R) => T,
+	opts?: IOptionsCreateConvertRawArrayGenerator<T, R> & { returnType: 'array' },
+): (rawData: IValueArrayOrIterable<R>, opts2?: IOptionsCreateConvertRawOpts<T>) => T[]
+export function _createConvertRawArrayGenerator<R, T extends IStationBase>(fn: (raw: R) => T,
+	opts?: IOptionsCreateConvertRawArrayGenerator<T, R>,
+): (rawData: IValueArrayOrIterable<R>, opts2?: IOptionsCreateConvertRawOpts<T>) => T[]
+export function _createConvertRawArrayGenerator<R, T extends IStationBase>(fn: (raw: R) => T,
+	opts?: IOptionsCreateConvertRawArrayGenerator<T, R>,
+)
+{
+	opts ??= {};
+	opts.filter ??= validStation;
+
+	const handler = (rawData: R, opts2?: IOptionsCreateConvertRawOpts<T>) =>
+	{
+		const value = fn(rawData);
+		const isValid = opts!.filter!(value);
+
+		const item = {
+			value,
+			isValid,
+		};
+
+		opts!.cb?.(item);
+		opts2?.cb?.(item);
+
+		return item
+	};
+
+	if (opts.returnType !== 'generator')
+	{
+		return function (rawData: IValueArrayOrIterable<R>, opts2?: IOptionsCreateConvertRawOpts<T>): T[]
+		{
+			let result: T[] = [];
+
+			for (const raw of rawData)
+			{
+				const item = handler(raw, opts2);
+				if (item.isValid)
+				{
+					result.push(item.value);
+				}
+			}
+
+			return result;
+		};
+	}
+
+	return function* (rawData: IValueArrayOrIterable<R>, opts2?: IOptionsCreateConvertRawOpts<T>): ITSGenerator<T>
+	{
+		for (const raw of rawData)
+		{
+			const item = handler(raw, opts2);
+			if (item.isValid)
+			{
+				yield item.value;
+			}
+		}
+		return undefined as any
 	};
 }
 
@@ -43,24 +137,13 @@ export function convertWiFiRaw(raw: IRawHotspot): IHotspot
  * @param rawData - 原始資料陣列
  * @returns 轉換後的 Hotspot 陣列
  */
-export function convertWiFiArray(rawData: IRawHotspot[]): IHotspot[]
-{
-	return rawData.map(convertWiFiRaw).filter(validChargingStation);
-}
+export const convertWiFiArray = _createConvertRawArrayGenerator(convertWiFiRaw_iTaiwan, {
+	returnType: 'array',
+});
 
-export function* convertWiFiArrayGenerator(rawData: IValueArrayOrIterable<IRawHotspot>): ITSGenerator<IHotspot>
-{
-	for (const raw of rawData)
-	{
-		const hotspot = convertWiFiRaw(raw);
-		if (validChargingStation(hotspot))
-		{
-			yield hotspot;
-		}
-	}
-
-	return undefined as any
-}
+export const convertWiFiArrayGenerator = _createConvertRawArrayGenerator(convertWiFiRaw_iTaiwan, {
+	returnType: 'generator',
+});
 
 // ==================== 充電站轉換 ====================
 
@@ -77,9 +160,10 @@ export function* convertWiFiArrayGenerator(rawData: IValueArrayOrIterable<IRawHo
 export function convertChargingRaw(raw: IRawChargingStation): IChargingStation
 {
 	return {
+		dataType: EnumDatasetType.CHARGING,
 		name: raw["充電站名稱"] ?? "",
-		lat: Number(raw["緯度"]) || 0,
-		lng: Number(raw["經度"]) || 0,
+		lat: _fixCoordFromStringCore(raw["緯度"], GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
+		lng: _fixCoordFromStringCore(raw["經度"], GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
 		address: raw["地址"] ?? "",
 	};
 }
@@ -91,24 +175,13 @@ export function convertChargingRaw(raw: IRawChargingStation): IChargingStation
  * @param rawData - 原始資料陣列
  * @returns 轉換後的 ChargingStation 陣列
  */
-export function convertChargingArray(rawData: IRawChargingStation[]): IChargingStation[]
-{
-	return rawData.map(convertChargingRaw).filter(validChargingStation);
-}
+export const convertChargingArray = _createConvertRawArrayGenerator(convertChargingRaw, {
+	returnType: 'array',
+});
 
-export function* convertChargingArrayGenerator(rawData: IValueArrayOrIterable<IRawChargingStation>): ITSGenerator<IChargingStation>
-{
-	for (const raw of rawData)
-	{
-		const station = convertChargingRaw(raw);
-		if (validChargingStation(station))
-		{
-			yield station;
-		}
-	}
-
-	return undefined as any
-}
+export const convertChargingArrayGenerator = _createConvertRawArrayGenerator(convertChargingRaw, {
+	returnType: 'generator',
+});
 
 /**
  * 驗證充電站資料是否有效
@@ -117,64 +190,7 @@ export function* convertChargingArrayGenerator(rawData: IValueArrayOrIterable<IR
  * @param station - 充電站物件
  * @returns 是否有效
  */
-export function validChargingStation(station: IChargingStation): boolean
+export function validStation(station: IChargingStation): boolean
 {
 	return (station.name && (station.lat !== 0 || station.lng !== 0)) as boolean;
-}
-
-// ==================== 檔案 I/O 函式 ====================
-
-/**
- * 從檔案讀取並轉換 Wi-Fi 熱點資料
- * Read and convert Wi-Fi hotspot data from file.
- *
- * @param filePath - JSON 檔案路徑
- * @returns 轉換後的 Hotspot 陣列
- */
-export async function readAndConvertWiFi(filePath: string): Promise<IHotspot[]>
-{
-	const rawContent = await readFile(filePath, "utf-8");
-	const rawData: IRawHotspot[] = JSON.parse(rawContent);
-	return convertWiFiArray(rawData);
-}
-
-/**
- * 從檔案讀取並轉換充電站資料
- * Read and convert charging station data from file.
- *
- * @param filePath - JSON 檔案路徑
- * @returns 轉換後的 ChargingStation 陣列
- */
-export async function readAndConvertCharging(filePath: string): Promise<IChargingStation[]>
-{
-	const rawContent = await readFile(filePath, "utf-8");
-	const rawData: IRawChargingStation[] = JSON.parse(rawContent);
-	return convertChargingArray(rawData);
-}
-
-/**
- * 預設的輸出目錄
- * Default output directory.
- */
-export const DEFAULT_OUTPUT_DIR = resolve(__ROOT, "public/data");
-
-/**
- * 預設的輸入目錄（相對於專案根目錄）
- * Default input directory (relative to project root).
- */
-export const DEFAULT_INPUT_DIR = resolve(__ROOT, "public/data");
-
-/**
- * 取得預設的輸出檔案路徑
- * Get default output file paths.
- *
- * @param type - 資料類型 ("wifi" 或 "charging")
- * @param isRaw - 是否為原始檔案
- * @returns 檔案路徑
- */
-export function getOutputPath(type: "wifi" | "charging", isRaw: boolean = false): string
-{
-	const prefix = type === "wifi" ? "wifi-hotspots" : "charging-stations";
-	const suffix = isRaw ? "-raw" : "";
-	return resolve(DEFAULT_OUTPUT_DIR, `${prefix}${suffix}.json`);
 }

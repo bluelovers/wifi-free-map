@@ -288,8 +288,8 @@ export async function buildHierarchicalIndex(dataRoot: string)
 		const bucketIndex: IMetadataBucketIndex = {
 
 			locations: Array.from(info.locations).sort(),
-      activeBlocks: Array.from(info.blocks.keys()).sort() as any[],
-      data: Object.fromEntries(info.blocks)
+			activeBlocks: Array.from(info.blocks.keys()).sort() as any[],
+			data: Object.fromEntries(info.blocks),
 
 		};
 

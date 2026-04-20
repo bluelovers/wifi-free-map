@@ -19,14 +19,16 @@
 import fs from "fs-extra";
 import { resolve, relative } from "path";
 import { execSync } from "child_process";
-import {
-	convertWiFiArray,
-	convertChargingArray,
-	DEFAULT_OUTPUT_DIR,
-} from "../src/lib/transform";
 import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-utils-global';
 import { __ROOT } from '../test/__root';
-import { chargingPath, chargingRawPath, taipeiWifiRawPath, wifiPath, wifiRawPath } from './utils/const-paths';
+import {
+	chargingNormalizePath,
+	chargingRawPath,
+	wifiRawPath_TaipeiFree,
+	wifiNormalizePath,
+	wifiRawPath_iTaiwan,
+} from './utils/const-paths';
+import { __DATA_ROOT } from '@/lib/__root';
 
 /**
  * iTaiwan Wi‑Fi API endpoint (Dataset 5962)
@@ -97,11 +99,11 @@ async function main()
 	console.log("Fetching charging‑station data…");
 	const chargingRaw = await fetchJSON(CHARGING_URL);
 
-	await writeJSON(wifiRawPath, wifiRaw);
-	await writeJSON(taipeiWifiRawPath, taipeiWifiRaw);
+	await writeJSON(wifiRawPath_iTaiwan, wifiRaw);
+	await writeJSON(wifiRawPath_TaipeiFree, taipeiWifiRaw);
 	await writeJSON(chargingRawPath, chargingRaw);
 
-	console.log(`Raw files written to ${DEFAULT_OUTPUT_DIR}`);
+	console.log(`Raw files written to ${__DATA_ROOT}`);
 }
 
 // 執行

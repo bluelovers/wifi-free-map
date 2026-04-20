@@ -1,13 +1,14 @@
-import { DEFAULT_OUTPUT_DIR } from '@/lib/transform';
+import { __DATA_ROOT } from '@/lib/__root';
 import { resolve } from 'path';
 
-// 確保輸出目錄存在
-const outDir = resolve(DEFAULT_OUTPUT_DIR);
+/** 寫入原始檔案（分開儲存，不合併） */
+export const wifiRawPath_iTaiwan = resolve(__DATA_ROOT, 'raw/wifi', 'wifi-hotspots-raw.json');
+export const wifiRawPath_TaipeiFree = resolve(__DATA_ROOT, 'raw/wifi', 'taipei-wifi-raw.json');
 
-// 寫入原始檔案（分開儲存，不合併）
-export const wifiRawPath = resolve(outDir, "wifi-hotspots-raw.json");
-export const taipeiWifiRawPath = resolve(outDir, "taipei-wifi-raw.json");
-export const chargingRawPath = resolve(outDir, "charging-stations-raw.json");
+export const chargingRawPath = resolve(__DATA_ROOT, 'raw', 'charging-stations-raw.json');
 
-export const wifiPath = resolve(outDir, "wifi-hotspots.json");
-export const chargingPath = resolve(outDir, "charging-stations.json");
+/** 作為後續切割資料使用 */
+export const wifiNormalizePath = resolve(__DATA_ROOT, 'raw-normalize', 'wifi-hotspots.json');
+export const chargingNormalizePath = resolve(__DATA_ROOT, 'raw-normalize', 'charging-stations.json');
+
+export const categorySetPath = resolve(__DATA_ROOT, 'raw-normalize', 'category-set.json');

@@ -1,4 +1,5 @@
 import { IStationBase } from '@/types/station-base';
+import { convertWiFiRaw_iTaiwan, convertWiFiRaw_TaipeiFree_To_iTaiwan } from '@/lib/transform';
 
 /**
  * Wi‑Fi 熱點原始資料型別（iTaiwan 提供）
@@ -7,7 +8,7 @@ import { IStationBase } from '@/types/station-base';
  * 注意：此類型對應 transform.ts 中 convertWiFiRaw 使用的鍵名格式
  * Note: This type corresponds to the key format used by convertWiFiRaw in transform.ts
  */
-export interface IRawHotspot
+export interface IRawHotspot_iTaiwan
 {
 	/** 熱點名稱 */
 	// Hotspot name
@@ -22,7 +23,34 @@ export interface IRawHotspot
 	// Address
 	Address: string;
 
+	/**
+	 * 洽公場所
+	 * 旅遊景點
+	 * 文教館所
+	 * 公立醫院
+	 * 其他
+	 */
+	Administration: string;
+
 	[key: string]: any; // 其他欄位保留
+}
+
+export interface IRawHotspot_TaipeiFree
+{
+	NAME: string;
+	LATITUDE: string;
+	LONGITUDE: string;
+	ADDR: string;
+
+	/**
+	 * 公車站
+	 * 醫院
+	 * 運動場館
+	 * 社區中心
+	 */
+	STYPE: string;
+
+	[key: string]: string;
 }
 
 /**

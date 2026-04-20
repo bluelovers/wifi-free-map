@@ -176,7 +176,7 @@ async function _fileExists(filePath: string): Promise<boolean>
  */
 export async function queryWifiDataByBlock(
 	coord: IGpsCoordinate,
-	options?: IQueryWifiByBlockOptions
+	options?: IQueryWifiByBlockOptions,
 ): Promise<IQueryWifiByBlockResult>
 {
 	/** 計算區塊資訊 / Calculate block info */
@@ -196,7 +196,7 @@ export async function queryWifiDataByBlock(
 		bucketData.bucketCoord.lng,
 		bucketData.bucketCoord.lat,
 		blockData.minLng,
-		blockData.minLat
+		blockData.minLat,
 	);
 
 	/** 預設結果 / Default result */

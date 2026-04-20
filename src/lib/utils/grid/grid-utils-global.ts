@@ -497,11 +497,17 @@ export function calculateCenterByAnyPoint(anyCoord: IGpsCoordinate)
  * Fixes coordinate to specified precision
  *
  * @param coord - 座標值 / Coordinate value
+ * @param precision - 精度 / Precision
  * @returns 修正後的座標值 / Fixed coordinate value
  */
-export function _fixCoordCore(coord: number)
+export function _fixCoordCore(coord: number, precision?: number)
 {
-	return parseFloat(coord.toFixed(GLOBAL_GRID_CONFIG_PRECISION));
+	return parseFloat(coord.toFixed(precision ?? GLOBAL_GRID_CONFIG_PRECISION));
+}
+
+export function _fixCoordFromStringCore(coord: number | string, precision?: number)
+{
+	return _fixCoordCore(Number(coord), precision);
 }
 
 /**
