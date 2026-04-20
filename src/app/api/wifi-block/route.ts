@@ -17,7 +17,7 @@ import { IHotspot } from '@/types/station-wifi';
 import { IFormatBlockKey } from '@/lib/utils/grid/grid-types';
 
 /**
- * GET /api/hotspots-block?lat=xxx&lng=xxx
+ * GET /api/wifi-block?lat=xxx&lng=xxx
  * 根據座標取得該區塊內的 WiFi 資料
  */
 export async function GET(request: Request)

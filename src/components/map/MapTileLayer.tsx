@@ -1,4 +1,4 @@
-import { MapContainer, MapContainerProps, TileLayer, TileLayerProps } from 'react-leaflet';
+import { LayersControl, MapContainer, MapContainerProps, TileLayer, TileLayerProps } from 'react-leaflet';
 import { Map as LeafletMap, TileLayer as LeafletTileLayer } from 'leaflet';
 
 const MAX_ZOOM = 25 as const;
@@ -7,10 +7,11 @@ const MAX_ZOOM_NATIVE = 19 as const;
 export type IMapTileLayerProps = MapContainerProps
 	& React.RefAttributes<LeafletMap>
 	& {
-		tileLayerProps?: TileLayerProps & React.RefAttributes<LeafletTileLayer>
-	};
+	tileLayerProps?: TileLayerProps & React.RefAttributes<LeafletTileLayer>
+};
 
-const enum EnumMapTileLayer {
+const enum EnumMapTileLayer
+{
 	OSM = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 	/**
 	 * https://github.com/cartodb/basemap-styles
@@ -38,15 +39,41 @@ export function MapTileLayer(props: IMapTileLayerProps)
 			scrollWheelZoom={props.scrollWheelZoom ?? true}
 			maxZoom={props.maxZoom || MAX_ZOOM}
 		>
-			<TileLayer
-				attribution='&copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors'
-				url={EnumMapTileLayer.CARTO_DARK}
+			<LayersControl position="topright">
+				<LayersControl.BaseLayer name="標準地圖 (OSM)">
+					<TileLayer
+						attribution='&copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors'
+						url={EnumMapTileLayer.OSM}
 
-				{...props.tileLayerProps}
+						{...props.tileLayerProps}
 
-				maxNativeZoom={MAX_ZOOM_NATIVE}
-				maxZoom={MAX_ZOOM}
-			/>
+						maxNativeZoom={MAX_ZOOM_NATIVE}
+						maxZoom={MAX_ZOOM}
+					/>
+				</LayersControl.BaseLayer>
+				<LayersControl.BaseLayer checked name="淺色地圖 (Carto)">
+					<TileLayer
+						attribution='&copy; <a href="https://carto.com/attributions">CARTO</a> contributors'
+						url={EnumMapTileLayer.CARTO}
+
+						{...props.tileLayerProps}
+
+						maxNativeZoom={MAX_ZOOM_NATIVE}
+						maxZoom={MAX_ZOOM}
+					/>
+				</LayersControl.BaseLayer>
+				<LayersControl.BaseLayer name="深色地圖 (Carto)">
+					<TileLayer
+						attribution='&copy; <a href="https://carto.com/attributions">CARTO</a> contributors'
+						url={EnumMapTileLayer.CARTO_DARK}
+
+						{...props.tileLayerProps}
+
+						maxNativeZoom={MAX_ZOOM_NATIVE}
+						maxZoom={MAX_ZOOM}
+					/>
+				</LayersControl.BaseLayer>
+			</LayersControl>
 			{props.children}
 		</MapContainer>
 	);
