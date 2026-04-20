@@ -5,7 +5,14 @@ import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker, useMapEve
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { Input, Switch, InputNumber, Space, Flex, Button, Card, Alert, Typography, Row } from 'antd';
-import { SearchOutlined, WifiOutlined, ThunderboltOutlined, EnvironmentOutlined, ReloadOutlined, AimOutlined } from '@ant-design/icons';
+import {
+	SearchOutlined,
+	WifiOutlined,
+	ThunderboltOutlined,
+	EnvironmentOutlined,
+	ReloadOutlined,
+	AimOutlined,
+} from '@ant-design/icons';
 import type { IWiFiHotspot, IChargingStation } from '@/types';
 import { EnumFacilityType } from '@/types';
 import { generateWiFiQRCode, calculateDistance } from '@/lib/wifi-utils';
@@ -283,11 +290,18 @@ export default function FacilityMap()
 	const [shouldAutoCenter, setShouldAutoCenter] = useState<boolean>(false); // 是否應該自動置中
 	const [addressSearchTerm, setAddressSearchTerm] = useState<string>(''); // 地址搜尋關鍵字
 	const [addressSearchLoading, setAddressSearchLoading] = useState<boolean>(false); // 地址搜尋載入狀態
+	/** 地址搜尋結果 / Address search results */
 	const [addressSearchResults, setAddressSearchResults] = useState<{
 		lat: string,
 		lon: string,
 		display_name: string
-	}[]>([]); // 地址搜尋結果
+	}[]>([]);
+
+	/** 顯示的熱點數量（分頁用）/ Number of visible hotspots (for pagination) */
+	const [visibleHotspotCount, setVisibleHotspotCount] = useState(20);
+
+	/** 每次載入的熱點數量 / Number of hotspots to load per batch */
+	const HOTSPOTS_PER_PAGE = 20;
 
 	/** 取得 GPS 權限並嘗試獲取使用者位置（可重複呼叫） */
 	const requestGeolocation = async (preserveZoom?: number): Promise<void> =>
@@ -583,7 +597,7 @@ export default function FacilityMap()
 	/** 依據搜尋、密碼、距離過濾熱點 */
 	const filteredHotspots = useMemo(() =>
 	{
-		return hotspots.filter((hotspot) =>
+		const filtered = hotspots.filter((hotspot) =>
 		{
 			/** 關鍵字過濾：名稱或 SSID 包含搜尋字串（不分大小寫） */
 			const term = searchTerm.trim().toLowerCase();
@@ -603,7 +617,26 @@ export default function FacilityMap()
 			}
 			return true;
 		});
+
+		/** 依照距離排序 / Sort by distance */
+		if (position)
+		{
+			filtered.sort((a, b) =>
+			{
+				const distA = calculateDistance(position[0], position[1], a.location.lat, a.location.lng);
+				const distB = calculateDistance(position[0], position[1], b.location.lat, b.location.lng);
+				return distA - distB;
+			});
+		}
+
+		return filtered;
 	}, [hotspots, searchTerm, filters, position]);
+
+	/** 當過濾條件改變時重置顯示數量 / Reset visible count when filters change */
+	useEffect(() =>
+	{
+		setVisibleHotspotCount(HOTSPOTS_PER_PAGE);
+	}, [searchTerm, filters, position]);
 
 	// 初始載入資料（使用區塊化 API）
 	useEffect(() =>
@@ -858,7 +891,7 @@ export default function FacilityMap()
 				/>
 			</div>
 			{/* 搜尋列 / Search bar */}
-			<Card className="search-bar" size="small">
+			<Card className="search-bar" size="small" hoverable>
 				<Flex vertical gap="middle">
 					<Input
 						placeholder="搜尋熱點或 SSID..."
@@ -923,58 +956,80 @@ export default function FacilityMap()
 				</Flex>
 			</Card>
 
-							{/* 底部列表面板 / Bottom list panel */}
-				{showList && (
-					<Card
-						className="bottom-panel"
-						style={{
-							maxHeight: '300px',
-							overflow: 'auto',
-						}}
-						title={<Typography.Title level={5}>WiFi 熱點列表 ({filteredHotspots.length})</Typography.Title>}
-						size="small"
-					>
-						<Flex
-							className="facility-list"
-							wrap
-							justify={'space-around'}
-							align="flex-start"
-						>
-							{filteredHotspots.slice(0, 20).map((hotspot) => (
-								<Flex
-									key={hotspot.id}
-									className="facility-item"
-									vertical
-									justify={'space-around'}
-									align="left"
-									style={{ cursor: 'pointer', padding: '8px 12px', width: 300 }}
-									onClick={() => handleListItemClick(hotspot)}
+			{/* 底部列表面板 / Bottom list panel */}
+			{showList && (
+				<Card
+					className="bottom-panel"
+					style={{
+						maxHeight: '300px',
+						// overflow: 'visible',
+						overflow: 'auto',
+					}}
+					title={<Typography.Title level={5}>WiFi 熱點列表 ({filteredHotspots.length})</Typography.Title>}
+					size="small"
+					hoverable
 
-								>
-									<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />
-									<Flex vertical gap="zero">
-										<Typography.Text strong>{hotspot.name}</Typography.Text>
-										{hotspot.location.address && (
-											<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-												{hotspot.location.address}
-											</Typography.Text>
-										)}
+					onScroll={(e) =>
+					{
+						/** 捲動到底部時載入更多 / Load more when scrolled to bottom */
+						const target = e.target as HTMLDivElement;
+						const scrollBottom = target.scrollTop + target.clientHeight;
+						if (scrollBottom >= target.scrollHeight - 50)
+						{
+							/** 載入更多熱點 / Load more hotspots */
+							if (visibleHotspotCount < filteredHotspots.length)
+							{
+								setVisibleHotspotCount(prev => prev + HOTSPOTS_PER_PAGE);
+							}
+						}
+					}}
+				>
+					<Flex
+						className="facility-list"
+						wrap
+						justify={'space-around'}
+						align="flex-start"
+					>
+						{filteredHotspots.slice(0, visibleHotspotCount).map((hotspot) => (
+							<Card
+								key={hotspot.id}
+								className="facility-item"
+
+								hoverable
+								variant="outlined"
+								size="small"
+
+								style={{
+									cursor: 'pointer',
+									width: 300,
+									marginBottom: 10,
+								}}
+								onClick={() => handleListItemClick(hotspot)}
+							>
+								<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />
+								<Flex vertical gap="zero">
+									<Typography.Text strong>{hotspot.name}</Typography.Text>
+									{hotspot.location.address && (
 										<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-											{hotspot.location.lat.toFixed(4)}, {hotspot.location.lng.toFixed(4)}
-											{' • '}{getDistance(hotspot.location.lat, hotspot.location.lng)}
-											{hotspot.password && ' • 有密碼'}
+											{hotspot.location.address}
 										</Typography.Text>
-									</Flex>
+									)}
+									<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
+										{hotspot.location.lat.toFixed(4)}, {hotspot.location.lng.toFixed(4)}
+										{' • '}{getDistance(hotspot.location.lat, hotspot.location.lng)}
+										{hotspot.password && ' • 有密碼'}
+									</Typography.Text>
 								</Flex>
-							))}
-						</Flex>
-						{filteredHotspots.length > 20 && (
-							<Typography.Text type="secondary" style={{ textAlign: 'center', display: 'block', padding: '8px' }}>
-								還有 {filteredHotspots.length - 20} 個熱點...
-							</Typography.Text>
-						)}
-					</Card>
-				)}
+							</Card>
+						))}
+					</Flex>
+					{visibleHotspotCount < filteredHotspots.length && (
+						<Typography.Text type="secondary" style={{ textAlign: 'center', display: 'block', padding: '8px' }}>
+							還有 {filteredHotspots.length - visibleHotspotCount} 個熱點...
+						</Typography.Text>
+					)}
+				</Card>
+			)}
 
 			{/* 編輯熱點表單 */}
 			{showEditForm && selectedHotspot && (

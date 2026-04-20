@@ -10,6 +10,26 @@ export type IMapTileLayerProps = MapContainerProps
 		tileLayerProps?: TileLayerProps & React.RefAttributes<LeafletTileLayer>
 	};
 
+const enum EnumMapTileLayer {
+	OSM = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+	/**
+	 * https://github.com/cartodb/basemap-styles
+	 *
+	 * light_all
+	 * dark_all
+	 * light_nolabels
+	 * light_only_labels
+	 * dark_nolabels
+	 * dark_only_labels
+	 * rastertiles/voyager
+	 * rastertiles/voyager_nolabels
+	 * rastertiles/voyager_only_labels
+	 * rastertiles/voyager_labels_under
+	 */
+	CARTO = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+	CARTO_DARK = 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+}
+
 export function MapTileLayer(props: IMapTileLayerProps)
 {
 	return (
@@ -19,8 +39,8 @@ export function MapTileLayer(props: IMapTileLayerProps)
 			maxZoom={props.maxZoom || MAX_ZOOM}
 		>
 			<TileLayer
-				attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-				url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+				attribution='&copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors'
+				url={EnumMapTileLayer.CARTO_DARK}
 
 				{...props.tileLayerProps}
 
