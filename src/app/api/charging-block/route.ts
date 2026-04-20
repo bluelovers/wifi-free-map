@@ -12,7 +12,7 @@ import {
 } from '@/lib/utils/grid/grid-utils-global';
 import { __DATA_ROOT } from '@/lib/__root';
 import { IChargingStation as IChargingStationBase } from '@/types/station-charging';
-import { IChargingStation, IApiReturnCharging, IApiReturnError } from '@/types';
+import { IChargingStationMarker, IApiReturnCharging, IApiReturnError } from '@/types';
 
 /**
  * GET /api/charging-block?lat=xxx&lng=xxx
@@ -53,7 +53,7 @@ export async function GET(request: Request)
 		const blockPath = join(__DATA_ROOT, 'grid-charging', bucketKey, `${blockKey}.json`);
 
 		/** 充電站資料（IChargingStation 結構） */
-		let chargingData: IChargingStation[] = [];
+		let chargingData: IChargingStationMarker[] = [];
 
 		try
 		{

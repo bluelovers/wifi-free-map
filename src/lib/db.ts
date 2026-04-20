@@ -1,5 +1,5 @@
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
-import type { IWiFiHotspot, IChargingStation } from '@/types';
+import type { IWiFiHotspot, IChargingStationMarker } from '@/types';
 
 /**
  * WiFi Free Map 資料庫
@@ -19,7 +19,7 @@ interface IWiFiFreeMapDB extends DBSchema
 	/** 充電設施儲存 / Charging stations store */
 	chargingStations: {
 		key: string;
-		value: IChargingStation;
+		value: IChargingStationMarker;
 		indexes: {
 			'by-type': string;
 		};
@@ -126,7 +126,7 @@ export async function getHotspotsBySource(
  *
  * @param station - 充電設施
  */
-export async function saveChargingStation(station: IChargingStation): Promise<void>
+export async function saveChargingStation(station: IChargingStationMarker): Promise<void>
 {
 	const db = await openDatabase();
 	await db.put('chargingStations', station);
@@ -138,7 +138,7 @@ export async function saveChargingStation(station: IChargingStation): Promise<vo
  *
  * @returns 充電設施陣列
  */
-export async function getAllChargingStations(): Promise<IChargingStation[]>
+export async function getAllChargingStations(): Promise<IChargingStationMarker[]>
 {
 	const db = await openDatabase();
 	return db.getAll('chargingStations');

@@ -54,7 +54,7 @@ export interface IWiFiHotspot extends IHotspot
  * 繼承 IChargingStationBase 並添加前端所需的額外欄位
  * Extends IChargingStationBase with additional fields for front-end
  */
-export interface IChargingStation extends IChargingStationBase
+export interface IChargingStationMarker extends IChargingStationBase
 {
 	/** 唯一識別碼 / Unique identifier */
 	id: string;
@@ -87,6 +87,6 @@ export interface IApiReturnError
 export interface IApiReturnCharging
 {
 	success: boolean;
-	data: IChargingStation[];
+	data: IChargingStationMarker[];
 	block: { lng: number; lat: number; path: string; count: number };
 }

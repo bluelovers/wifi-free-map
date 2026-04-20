@@ -13,7 +13,7 @@ import {
 	ReloadOutlined,
 	AimOutlined,
 } from '@ant-design/icons';
-import { IWiFiHotspot, IChargingStation, IApiReturnWifi, IApiReturnError, IApiReturnCharging } from '@/types';
+import { IWiFiHotspot, IChargingStationMarker, IApiReturnWifi, IApiReturnError, IApiReturnCharging } from '@/types';
 import { EnumFacilityType } from '@/types';
 import { generateWiFiQRCode, calculateDistance } from '@/lib/wifi-utils';
 import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
@@ -161,7 +161,7 @@ export default function FacilityMap()
 		return null;
 	};
 	const [hotspots, setHotspots] = useState<IWiFiHotspot[]>([]);
-	const [chargingStations, setChargingStations] = useState<IChargingStation[]>([]);
+	const [chargingStations, setChargingStations] = useState<IChargingStationMarker[]>([]);
 	const [position, setPosition] = useState<[number, number]>([25.0330, 121.5654]); // 預設台北 101
 	const [zoom, setZoom] = useState(18); // 記錄目前縮放等級，會在置中前保存當前縮放
 	/** 用於取得 Leaflet map 實例，以在需要時讀取當前 zoom 等級 */
@@ -821,7 +821,7 @@ export default function FacilityMap()
 							fillOpacity: 0.7,
 							weight: 2,
 						}}
-						
+
 						eventHandlers={{
 							dragend: (e) =>
 							{
