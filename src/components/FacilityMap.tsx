@@ -15,6 +15,7 @@ import AddHotspotForm from './AddHotspotForm';
 import MarkerClusterGroup from 'react-leaflet-cluster'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.css'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.Default.css'
+import { MapTileLayer } from './map/MapTileLayer';
 
 /**
  * 修正 Leaflet 預設圖示路徑
@@ -155,7 +156,7 @@ export default function FacilityMap()
 	const [hotspots, setHotspots] = useState<IWiFiHotspot[]>([]);
 	const [chargingStations, setChargingStations] = useState<IChargingStation[]>([]);
 	const [position, setPosition] = useState<[number, number]>([25.0330, 121.5654]); // 預設台北 101
-	const [zoom, setZoom] = useState(13); // 記錄目前縮放等級，會在置中前保存當前縮放
+	const [zoom, setZoom] = useState(18); // 記錄目前縮放等級，會在置中前保存當前縮放
 	/** 用於取得 Leaflet map 實例，以在需要時讀取當前 zoom 等級 */
 	const mapRef = useRef<L.Map | null>(null);
 	/** 監聽地圖縮放變化，保持 zoom state 與實際地圖同步 */
@@ -707,6 +708,7 @@ export default function FacilityMap()
 				{position && (
 					<span>座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}</span>
 				)}
+				<span style={{ marginLeft: '12px' }}>縮放: {zoom}</span>
 				<div className={addressLoading ? 'info-panel-loading' : ''}>
 					{address && (
 						<span>地址: {address}</span>
@@ -747,12 +749,12 @@ export default function FacilityMap()
 			</div>
 			{/* 地圖容器 */}
 			<div style={{ position: 'relative', height: '500px', width: '100%' }}>
-				<MapContainer center={position} zoom={zoom} style={{ height: '100%', width: '100%' }} scrollWheelZoom={true}
-				              doubleClickZoom={false}>
-					<TileLayer
-						attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-						url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-					/>
+				<MapTileLayer
+					center={position}
+					zoom={zoom}
+					style={{ height: '100%', width: '100%' }}
+					doubleClickZoom={false}
+				>
 					{/* 同步地圖縮放至 zoom state */}
 					<MapZoomHandler />
 					{/* 地圖移動時重新載入區塊資料 */}
@@ -807,7 +809,7 @@ export default function FacilityMap()
 					</MarkerClusterGroup>
 					{/* 變更視角 - 當位置改變時自動置中 */}
 					<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
-				</MapContainer>
+				</MapTileLayer>
 				{/* 底部列表面板 / Bottom list panel */}
 				{showList && (
 					<div className="bottom-panel">
