@@ -1,5 +1,6 @@
 import { IStationBase } from '@/types/station-base';
 import { convertWiFiRaw_iTaiwan, convertWiFiRaw_TaipeiFree_To_iTaiwan } from '@/lib/transform';
+import { EnumDatasetType } from '@/lib/utils/grid/grid-types';
 
 /**
  * Wi‑Fi 熱點原始資料型別（iTaiwan 提供）
@@ -59,5 +60,5 @@ export interface IRawHotspot_TaipeiFree
  */
 export interface IHotspot extends IStationBase
 {
-
+	dataType: EnumDatasetType.WIFI;
 }

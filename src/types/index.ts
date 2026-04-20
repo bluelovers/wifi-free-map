@@ -1,3 +1,6 @@
+import { IHotspot } from '@/types/station-wifi';
+import { IChargingStation as IChargingStationBase } from '@/types/station-charging';
+
 /**
  * 設施類型列舉
  * Facility type enumeration
@@ -14,28 +17,20 @@ export enum EnumFacilityType
 /**
  * WiFi 熱點介面
  * WiFi hotspot interface
+ *
+ * 繼承 IHotspot 並添加前端所需的額外欄位
+ * Extends IHotspot with additional fields for front-end
  */
-export interface IWiFiHotspot
+export interface IWiFiHotspot extends IHotspot
 {
 	/** 唯一識別碼 / Unique identifier */
 	id: string;
 	/** 資料來源 / Data source */
 	source: 'itaiwan' | 'user_contributed';
-	/** 地點名稱 / Location name */
-	name: string;
 	/** WiFi SSID / WiFi SSID */
 	ssid: string;
 	/** WiFi 密碼（可選） / WiFi password (optional) */
 	password?: string;
-	/** 地理位置 / Geographic location */
-	location: {
-		/** 緯度 / Latitude */
-		lat: number;
-		/** 經度 / Longitude */
-		lng: number;
-		/** 地址 / Address */
-		address: string;
-	};
 	/** 提供者 / Provider */
 	provider: string;
 	/** 是否免費 / Whether it is free */
@@ -55,26 +50,16 @@ export interface IWiFiHotspot
 /**
  * 充電設施介面
  * Charging station interface
+ *
+ * 繼承 IChargingStationBase 並添加前端所需的額外欄位
+ * Extends IChargingStationBase with additional fields for front-end
  */
-export interface IChargingStation
+export interface IChargingStation extends IChargingStationBase
 {
 	/** 唯一識別碼 / Unique identifier */
 	id: string;
 	/** 資料來源 / Data source */
 	source: 'osm' | 'ev_api' | 'user_contributed';
-	/** 設施類型 / Facility type */
-	type: EnumFacilityType;
-	/** 地理位置 / Geographic location */
-	location: {
-		/** 緯度 / Latitude */
-		lat: number;
-		/** 經度 / Longitude */
-		lng: number;
-		/** 地址 / Address */
-		address: string;
-	};
-	/** 設施名稱 / Facility name */
-	name: string;
 	/** 詳細資訊（可選） / Details (optional) */
 	details?: string;
 	/** 支援的插座類型 / Supported socket types */
@@ -83,4 +68,25 @@ export interface IChargingStation
 	isFree: boolean;
 	/** 營業時間（可選） / Opening hours (optional) */
 	openingHours?: string;
+}
+
+export interface IApiReturnWifi
+{
+	success: boolean;
+	data: IWiFiHotspot[];
+	bucket: { lng: number; lat: number; indexPath: string; activeBlocks: number };
+	block: { lng: number; lat: number; dataPath: string; dataCount: number };
+}
+
+export interface IApiReturnError
+{
+	success: false;
+	error: string;
+}
+
+export interface IApiReturnCharging
+{
+	success: boolean;
+	data: IChargingStation[];
+	block: { lng: number; lat: number; path: string; count: number };
 }

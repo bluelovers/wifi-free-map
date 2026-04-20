@@ -4,7 +4,7 @@ import { useEffect, useState, useRef, useMemo, useCallback } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import { Input, Switch, InputNumber, Space, Flex, Button, Card, Alert, Typography, Row } from 'antd';
+import { Input, Switch, InputNumber, Space, Flex, Button, Card, Alert, Typography, Row, Tag } from 'antd';
 import {
 	SearchOutlined,
 	WifiOutlined,
@@ -13,7 +13,7 @@ import {
 	ReloadOutlined,
 	AimOutlined,
 } from '@ant-design/icons';
-import type { IWiFiHotspot, IChargingStation } from '@/types';
+import { IWiFiHotspot, IChargingStation, IApiReturnWifi, IApiReturnError, IApiReturnCharging } from '@/types';
 import { EnumFacilityType } from '@/types';
 import { generateWiFiQRCode, calculateDistance } from '@/lib/wifi-utils';
 import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
@@ -206,21 +206,21 @@ export default function FacilityMap()
 			fixLeafletIcon();
 
 			/** 讀取區塊內的 WiFi 資料 */
-			const hotspotsRes = await fetch(`/api/hotspots-block?lat=${lat}&lng=${lng}`);
-			const hotspotsData = await hotspotsRes.json();
+			const hotspotsRes = await fetch(`/api/wifi-block?lat=${lat}&lng=${lng}`);
+			const hotspotsData: IApiReturnWifi = await hotspotsRes.json();
 			if (hotspotsData.success)
 			{
 				setHotspots(hotspotsData.data || []);
 			}
 			else
 			{
-				console.error('載入 WiFi 失敗:', hotspotsData.error);
+				console.error('載入 WiFi 失敗:', (hotspotsData as any as IApiReturnError).error);
 				setHotspots([]);
 			}
 
 			/** 讀取充電站資料 */
 			const chargingRes = await fetch(`/api/charging-block?lat=${lat}&lng=${lng}`);
-			const chargingData = await chargingRes.json();
+			const chargingData: IApiReturnCharging = await chargingRes.json();
 			if (chargingData.success)
 			{
 				setChargingStations(chargingData.data || []);
@@ -612,7 +612,7 @@ export default function FacilityMap()
 			// 距離過濾
 			if (filters.maxDistance && position)
 			{
-				const dist = calculateDistance(position[0], position[1], hotspot.location.lat, hotspot.location.lng);
+				const dist = calculateDistance(position[0], position[1], hotspot.lat, hotspot.lng);
 				if (dist > filters.maxDistance) return false;
 			}
 			return true;
@@ -623,8 +623,8 @@ export default function FacilityMap()
 		{
 			filtered.sort((a, b) =>
 			{
-				const distA = calculateDistance(position[0], position[1], a.location.lat, a.location.lng);
-				const distB = calculateDistance(position[0], position[1], b.location.lat, b.location.lng);
+				const distA = calculateDistance(position[0], position[1], a.lat, a.lng);
+				const distB = calculateDistance(position[0], position[1], b.lat, b.lng);
 				return distA - distB;
 			});
 		}
@@ -690,7 +690,7 @@ export default function FacilityMap()
 	{
 		setSelectedHotspot(hotspot);
 		setShouldAutoCenter(true);
-		setPosition([hotspot.location.lat, hotspot.location.lng]);
+		setPosition([hotspot.lat, hotspot.lng]);
 		setZoom(16); // 放大到能看到詳細資訊的等級
 	};
 
@@ -826,7 +826,7 @@ export default function FacilityMap()
 						{filteredHotspots.map((hotspot) => (
 							<Marker
 								key={hotspot.id}
-								position={[hotspot.location.lat, hotspot.location.lng]}
+								position={[hotspot.lat, hotspot.lng]}
 								icon={wifiIcon}
 								eventHandlers={{ click: () => handleMarkerClick(hotspot) }}
 							>
@@ -839,7 +839,7 @@ export default function FacilityMap()
 						{chargingStations.map((station) => (
 							<Marker
 								key={station.id}
-								position={[station.location.lat, station.location.lng]}
+								position={[station.lat, station.lng]}
 								icon={chargingIcon}
 							>
 								<Popup>{station.name}</Popup>
@@ -956,6 +956,14 @@ export default function FacilityMap()
 				</Flex>
 			</Card>
 
+			<Flex>
+				{false && filteredHotspots.map((hotspot) => (
+					<Tag key={hotspot.id} color="blue" variant="solid">
+						{hotspot.name}
+					</Tag>
+				))}
+			</Flex>
+
 			{/* 底部列表面板 / Bottom list panel */}
 			{showList && (
 				<Card
@@ -1009,14 +1017,14 @@ export default function FacilityMap()
 								<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />
 								<Flex vertical gap="zero">
 									<Typography.Text strong>{hotspot.name}</Typography.Text>
-									{hotspot.location.address && (
+									{hotspot.address && (
 										<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-											{hotspot.location.address}
+											{hotspot.address}
 										</Typography.Text>
 									)}
 									<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-										{hotspot.location.lat.toFixed(4)}, {hotspot.location.lng.toFixed(4)}
-										{' • '}{getDistance(hotspot.location.lat, hotspot.location.lng)}
+										{hotspot.lat.toFixed(4)}, {hotspot.lng.toFixed(4)}
+										{' • '}{getDistance(hotspot.lat, hotspot.lng)}
 										{hotspot.password && ' • 有密碼'}
 									</Typography.Text>
 								</Flex>

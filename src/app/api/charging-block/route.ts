@@ -6,11 +6,13 @@ import { readFile } from 'fs/promises';
 import { join } from 'path';
 import { NextResponse } from 'next/server';
 import {
-	calcGlobalBlockIndexAndCoord,
 	_formatBlockKey,
 	calcCoordToBucketIndexAndCoord,
+	calcGlobalBlockIndexAndCoord,
 } from '@/lib/utils/grid/grid-utils-global';
 import { __DATA_ROOT } from '@/lib/__root';
+import { IChargingStation as IChargingStationBase } from '@/types/station-charging';
+import { EnumFacilityType, IChargingStation, IApiReturnCharging, IApiReturnError } from '@/types';
 
 /**
  * GET /api/charging-block?lat=xxx&lng=xxx
@@ -50,13 +52,26 @@ export async function GET(request: Request)
 
 		const blockPath = join(__DATA_ROOT, 'grid-charging', bucketKey, `${blockKey}.json`);
 
-		let chargingData: unknown[] = [];
+		/** 充電站資料（IChargingStation 結構） */
+		let chargingData: IChargingStation[] = [];
 
 		try
 		{
-			const content = await readFile(blockPath, 'utf-8');
-			const json = JSON.parse(content);
-			chargingData = (json.charging as unknown[]) || json.data as unknown[] || [];
+			const blockJson: IChargingStationBase[] = await readFile(blockPath, 'utf-8').then(JSON.parse);
+
+			/** 將 IChargingStationBase 轉換為 IChargingStation */
+			chargingData = blockJson.map((item, index) =>
+			{
+				return {
+					...item,
+					id: `${item.lng}_${item.lat}_${index}`,
+					source: 'osm' as const,
+					isFree: true,
+					details: '',
+					socketTypes: [],
+					openingHours: '',
+				};
+			});
 		}
 		catch
 		{
@@ -72,13 +87,13 @@ export async function GET(request: Request)
 				path: `/data/grid-charging/${bucketKey}/${blockKey}.json`,
 				count: chargingData.length,
 			},
-		});
+		} as IApiReturnCharging);
 	}
 	catch (error)
 	{
 		console.error('Error:', error);
 		return NextResponse.json(
-			{ success: false, error: 'Failed' },
+			{ success: false, error: 'Failed' } as IApiReturnError,
 			{ status: 500 },
 		);
 	}

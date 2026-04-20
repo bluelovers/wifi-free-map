@@ -8,12 +8,13 @@ import { readFile } from 'fs/promises';
 import { join } from 'path';
 import { NextResponse } from 'next/server';
 import {
-	calcGlobalBlockIndexAndCoord,
 	_formatBlockKey,
 	calcCoordToBucketIndexAndCoord,
+	calcGlobalBlockIndexAndCoord,
 } from '@/lib/utils/grid/grid-utils-global';
-import { __DATA_ROOT, __ROOT } from '@/lib/__root';
+import { __DATA_ROOT } from '@/lib/__root';
 import { IHotspot } from '@/types/station-wifi';
+import { IApiReturnError, IApiReturnWifi, IWiFiHotspot } from '@/types';
 import { IFormatBlockKey } from '@/lib/utils/grid/grid-types';
 
 /**
@@ -77,35 +78,30 @@ export async function GET(request: Request)
 
 		const blockPath = join(__DATA_ROOT, 'grid-wifi', bucketKey, `${blockKey}.json`);
 
-		let wifiData: unknown[] = [];
+		/** WiFi 熱點資料（IWiFiHotspot 結構） */
+		let wifiData: IWiFiHotspot[] = [];
 
 		try
 		{
-			const blockJson: IHotspot[] = await readFile(blockPath, 'utf-8').then(JSON.parse);
+			const blockJson: (IHotspot & { password?: string })[] = await readFile(blockPath, 'utf-8').then(JSON.parse);
 
-			// Transform to IWiFiHotspot format
-			wifiData = blockJson.map((item) =>
+			/** 將 IHotspot 轉換為 IWiFiHotspot */
+			wifiData = blockJson.map((item, index) =>
 			{
-				const record = item as IHotspot & { password?: string };
-				const lat = record.lat || 0;
-				const lng = record.lng || 0;
-
 				return {
-					id: `${lng}_${lat}_${Math.random().toString(36).slice(2, 8)}`,
+					...item,
+					id: `${item.lng}_${item.lat}_${index}`,
 					source: 'user_contributed' as const,
-					name: record.name || '',
 					ssid: '',
-					password: record.password || '',
-					location: {
-						lat,
-						lng,
-						address: record.address || '',
-					},
+					password: item.password || '',
 					provider: '',
 					isFree: true,
 					isOpen: true,
+					createdAt: new Date(),
+					createdBy: '',
+					verified: false,
 				};
-			}) as unknown[];
+			});
 		}
 		catch
 		{
@@ -127,13 +123,13 @@ export async function GET(request: Request)
 				dataPath: `/data/grid-wifi/${bucketKey}/${blockKey}.json`,
 				dataCount: wifiData.length,
 			},
-		});
+		} as IApiReturnWifi);
 	}
 	catch (error)
 	{
 		console.error('Error fetching block data:', error);
 		return NextResponse.json(
-			{ success: false, error: 'Failed to fetch data' },
+			{ success: false, error: 'Failed to fetch data' } as IApiReturnError,
 			{ status: 500 },
 		);
 	}

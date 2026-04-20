@@ -1,3 +1,4 @@
+import { EnumDatasetType } from '@/lib/utils/grid/grid-types';
 import { IStationBase } from '@/types/station-base';
 
 /**
@@ -31,5 +32,5 @@ export interface IRawChargingStation
  */
 export interface IChargingStation extends IStationBase
 {
-
+	dataType: EnumDatasetType.CHARGING;
 }
