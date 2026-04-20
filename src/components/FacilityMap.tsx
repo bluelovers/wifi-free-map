@@ -4,7 +4,7 @@ import { useEffect, useState, useRef, useMemo, useCallback } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import { Input, Switch, InputNumber, Space, Flex, Button, Card, List, Alert, Typography } from 'antd';
+import { Input, Switch, InputNumber, Space, Flex, Button, Card, Alert, Typography, Row } from 'antd';
 import { SearchOutlined, WifiOutlined, ThunderboltOutlined, EnvironmentOutlined, ReloadOutlined, AimOutlined } from '@ant-design/icons';
 import type { IWiFiHotspot, IChargingStation } from '@/types';
 import { EnumFacilityType } from '@/types';
@@ -738,19 +738,19 @@ export default function FacilityMap()
 				{/* 搜尋結果下拉選單 */}
 				{addressSearchResults.length > 0 && (
 					<Card style={{ position: 'absolute', zIndex: 1000, width: '100%', maxHeight: '300px', overflow: 'auto' }}>
-						<List
-							dataSource={addressSearchResults}
-							renderItem={(result, index) => (
-								<List.Item
+						<Flex component="div" vertical gap="zero">
+							{addressSearchResults.map((result, index) => (
+								<Flex
+									component="div"
 									key={index}
 									style={{ cursor: 'pointer', padding: '8px 12px' }}
 									onClick={() => selectAddressResult(result)}
 								>
 									{result.display_name}
-								</List.Item>
-							)}
-						/>
-				</Card>
+								</Flex>
+							))}
+						</Flex>
+					</Card>
 				)}
 			</div>
 			{/* 地圖容器 */}
@@ -934,34 +934,40 @@ export default function FacilityMap()
 						title={<Typography.Title level={5}>WiFi 熱點列表 ({filteredHotspots.length})</Typography.Title>}
 						size="small"
 					>
-						<List
+						<Flex
 							className="facility-list"
-							dataSource={filteredHotspots.slice(0, 20)}
-							renderItem={(hotspot) => (
-								<List.Item
+							wrap
+							justify={'space-around'}
+							align="flex-start"
+						>
+							{filteredHotspots.slice(0, 20).map((hotspot) => (
+								<Flex
+									key={hotspot.id}
 									className="facility-item"
-									style={{ cursor: 'pointer' }}
+									vertical
+									justify={'space-around'}
+									align="left"
+									style={{ cursor: 'pointer', padding: '8px 12px', width: 300 }}
 									onClick={() => handleListItemClick(hotspot)}
+
 								>
-									<Flex align="center" gap="middle">
-										<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />
-										<Flex vertical gap="zero">
-											<Typography.Text strong>{hotspot.name}</Typography.Text>
-											{hotspot.location.address && (
-												<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-													{hotspot.location.address}
-												</Typography.Text>
-											)}
+									<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />
+									<Flex vertical gap="zero">
+										<Typography.Text strong>{hotspot.name}</Typography.Text>
+										{hotspot.location.address && (
 											<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-												{hotspot.location.lat.toFixed(4)}, {hotspot.location.lng.toFixed(4)}
-												{' • '}{getDistance(hotspot.location.lat, hotspot.location.lng)}
-												{hotspot.password && ' • 有密碼'}
+												{hotspot.location.address}
 											</Typography.Text>
-										</Flex>
+										)}
+										<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
+											{hotspot.location.lat.toFixed(4)}, {hotspot.location.lng.toFixed(4)}
+											{' • '}{getDistance(hotspot.location.lat, hotspot.location.lng)}
+											{hotspot.password && ' • 有密碼'}
+										</Typography.Text>
 									</Flex>
-								</List.Item>
-							)}
-						/>
+								</Flex>
+							))}
+						</Flex>
 						{filteredHotspots.length > 20 && (
 							<Typography.Text type="secondary" style={{ textAlign: 'center', display: 'block', padding: '8px' }}>
 								還有 {filteredHotspots.length - 20} 個熱點...
