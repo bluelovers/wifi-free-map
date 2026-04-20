@@ -4,8 +4,8 @@ import { useEffect, useState, useRef, useMemo, useCallback } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import { Input, Switch, InputNumber, Space } from 'antd';
-import { SearchOutlined, WifiOutlined, ThunderboltOutlined } from '@ant-design/icons';
+import { Input, Switch, InputNumber, Space, Flex, Button, Card, List, Alert, Typography } from 'antd';
+import { SearchOutlined, WifiOutlined, ThunderboltOutlined, EnvironmentOutlined, ReloadOutlined, AimOutlined } from '@ant-design/icons';
 import type { IWiFiHotspot, IChargingStation } from '@/types';
 import { EnumFacilityType } from '@/types';
 import { generateWiFiQRCode, calculateDistance } from '@/lib/wifi-utils';
@@ -693,33 +693,42 @@ export default function FacilityMap()
 		return `${(dist / 1000).toFixed(1)} 公里`;
 	};
 
+	/**
+	 * 地圖包裝容器
+	 * Map wrapper container
+	 */
 	return (
-		<div className={`map-wrapper${showList ? ' with-list' : ''}`}>
+		<Flex vertical gap="small" className={`map-wrapper${showList ? ' with-list' : ''}`}>
 			{/* 位置錯誤提示與手動定位按鈕 */}
 			{locationError && (
-				<div className="error-panel">
-					<span>定位失敗，請允許 GPS 或手動設定位置。</span>
-					<button onClick={() => setManualMode(true)} style={{ marginLeft: '8px' }}>手動定位</button>
-					<button onClick={() => requestGeolocation()} style={{ marginLeft: '8px' }}>重新請求定位</button>
-				</div>
+				<Alert
+					message="定位失敗，請允許 GPS 或手動設定位置。"
+					action={
+						<Space>
+							<Button size="small" onClick={() => setManualMode(true)}>手動定位</Button>
+							<Button size="small" icon={<ReloadOutlined />} onClick={() => requestGeolocation()}>重新請求定位</Button>
+						</Space>
+					}
+					type="error"
+				/>
 			)}
 			{/* 座標與地址資訊（保留在上方） */}
-			<div className="info-panel">
-				{position && (
-					<span>座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}</span>
-				)}
-				<span style={{ marginLeft: '12px' }}>縮放: {zoom}</span>
-				<div className={addressLoading ? 'info-panel-loading' : ''}>
-					{address && (
-						<span>地址: {address}</span>
+			<Flex vertical gap="small" className="info-panel">
+				<Flex gap="middle" wrap>
+					{address && <Typography.Text>地址: {address}</Typography.Text>}
+					{addressLoading && <Typography.Text type="secondary">（查詢地址中...）</Typography.Text>}
+				</Flex>
+				<Flex gap="middle" wrap>
+					{position && (
+						<Typography.Text>
+							座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}
+						</Typography.Text>
 					)}
-					{addressLoading ? (
-						<span>（查詢地址中...）</span>
-					) : null}
-				</div>
-			</div>
+					<Typography.Text>縮放: {zoom}</Typography.Text>
+				</Flex>
+			</Flex>
 			{/* 地址搜尋表單 */}
-			<div className="info-panel" style={{ position: 'relative' }}>
+			<div style={{ position: 'relative' }}>
 				<Input
 					placeholder="輸入地址搜尋..."
 					value={addressSearchTerm}
@@ -728,23 +737,20 @@ export default function FacilityMap()
 				/>
 				{/* 搜尋結果下拉選單 */}
 				{addressSearchResults.length > 0 && (
-					<ul className="address-dropdown">
-						{addressSearchResults.map((result, index) => (
-							<li
-								key={index}
-								onClick={() => selectAddressResult(result)}
-								style={{
-									padding: '8px 12px',
-									cursor: 'pointer',
-									borderBottom: index < addressSearchResults.length - 1 ? '1px solid #eee' : 'none',
-								}}
-								onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f5f5f5'}
-								onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'white'}
-							>
-								{result.display_name}
-							</li>
-						))}
-					</ul>
+					<Card style={{ position: 'absolute', zIndex: 1000, width: '100%', maxHeight: '300px', overflow: 'auto' }}>
+						<List
+							dataSource={addressSearchResults}
+							renderItem={(result, index) => (
+								<List.Item
+									key={index}
+									style={{ cursor: 'pointer', padding: '8px 12px' }}
+									onClick={() => selectAddressResult(result)}
+								>
+									{result.display_name}
+								</List.Item>
+							)}
+						/>
+				</Card>
 				)}
 			</div>
 			{/* 地圖容器 */}
@@ -810,37 +816,12 @@ export default function FacilityMap()
 					{/* 變更視角 - 當位置改變時自動置中 */}
 					<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
 				</MapTileLayer>
-				{/* 底部列表面板 / Bottom list panel */}
-				{showList && (
-					<div className="bottom-panel">
-						<h3>WiFi 熱點列表 ({filteredHotspots.length})</h3>
-						<div className="facility-list">
-							{filteredHotspots.slice(0, 20).map((hotspot) => (
-								<div
-									key={hotspot.id}
-									className="facility-item"
-									onClick={() => handleListItemClick(hotspot)}
-								>
-									<span className="facility-icon">📶</span>
-									<div className="facility-info">
-										<div className="facility-name">{hotspot.name}</div>
-										<div className="facility-detail">
-											{hotspot.location.lat.toFixed(4)}, {hotspot.location.lng.toFixed(4)}
-											{hotspot.password && ' • 有密碼'}
-										</div>
-									</div>
-								</div>
-							))}
-							{filteredHotspots.length > 20 && (
-								<div style={{ textAlign: 'center', padding: '8px', color: '#888' }}>
-									還有 {filteredHotspots.length - 20} 個熱點...
-								</div>
-							)}
-						</div>
-					</div>
-				)}
+
 				{/* 浮動置中按鈕（Google Maps 風格） */}
-				<button
+				<Button
+					type="primary"
+					shape="circle"
+					icon={<AimOutlined />}
 					onClick={() =>
 					{
 						console.log('Center button clicked, mapRef:', mapRef.current);
@@ -872,92 +853,122 @@ export default function FacilityMap()
 						bottom: '30px',
 						right: '10px',
 						zIndex: 1000,
-						width: '40px',
-						height: '40px',
-						borderRadius: '50%',
-						border: 'none',
-						backgroundColor: 'white',
-						boxShadow: '0 2px 6px rgba(0,0,0,0.3)',
-						cursor: 'pointer',
-						display: 'flex',
-						alignItems: 'center',
-						justifyContent: 'center',
-						fontSize: '20px',
 					}}
 					title="置中至目前位置"
-				>
-					⌖
-				</button>
+				/>
 			</div>
 			{/* 搜尋列 / Search bar */}
-			<div className="search-bar">
-				<Input
-					placeholder="搜尋熱點或 SSID..."
-					prefix={<SearchOutlined />}
-					value={searchTerm}
-					onChange={(e) => setSearchTerm(e.target.value)}
-					style={{ marginBottom: '12px' }}
-				/>
-				<div className="filter-buttons" style={{
-					display: 'flex',
-					gap: '16px',
-					alignItems: 'center',
-					flexWrap: 'wrap',
-				}}>
-					<label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-						<WifiOutlined style={{ color: '#1890ff' }} />
-						<span>WiFi</span>
-						<Switch
-							checked={filters.wifi}
-							onChange={(checked) => setFilters({ ...filters, wifi: checked })}
-							size="small"
+			<Card className="search-bar" size="small">
+				<Flex vertical gap="middle">
+					<Input
+						placeholder="搜尋熱點或 SSID..."
+						prefix={<SearchOutlined />}
+						value={searchTerm}
+						onChange={(e) => setSearchTerm(e.target.value)}
+					/>
+					<Flex gap="middle" wrap>
+						<Flex align="center" gap="small">
+							<WifiOutlined style={{ color: '#1890ff' }} />
+							<Typography.Text>WiFi</Typography.Text>
+							<Switch
+								checked={filters.wifi}
+								onChange={(checked) => setFilters({ ...filters, wifi: checked })}
+								size="small"
+							/>
+						</Flex>
+						<Flex align="center" gap="small">
+							<ThunderboltOutlined style={{ color: '#fa8c16' }} />
+							<Typography.Text>充電</Typography.Text>
+							<Switch
+								checked={filters.charging}
+								onChange={(checked) => setFilters({ ...filters, charging: checked })}
+								size="small"
+							/>
+						</Flex>
+						<Flex align="center" gap="small">
+							<Typography.Text>只顯示有密碼</Typography.Text>
+							<Switch
+								checked={filters.passwordOnly}
+								onChange={(checked) => setFilters({ ...filters, passwordOnly: checked })}
+								size="small"
+							/>
+						</Flex>
+						<Flex align="center" gap="small">
+							<Typography.Text>距離上限 (m):</Typography.Text>
+							<InputNumber
+								min={0}
+								value={filters.maxDistance}
+								onChange={(value) => setFilters({ ...filters, maxDistance: value || 10000 })}
+								style={{ width: 100 }}
+								size="small"
+							/>
+						</Flex>
+						<Flex align="center" gap="small">
+							<Switch
+								checked={filters.longPressToMove}
+								onChange={(checked) => setFilters({ ...filters, longPressToMove: checked })}
+								size="small"
+							/>
+							<Typography.Text>右鍵點擊移動定位點</Typography.Text>
+						</Flex>
+						<Flex align="center" gap="small">
+							<Switch
+								checked={showList}
+								onChange={(checked) => setShowList(checked)}
+								size="small"
+							/>
+							<Typography.Text>顯示列表</Typography.Text>
+						</Flex>
+					</Flex>
+				</Flex>
+			</Card>
+
+							{/* 底部列表面板 / Bottom list panel */}
+				{showList && (
+					<Card
+						className="bottom-panel"
+						style={{
+							maxHeight: '300px',
+							overflow: 'auto',
+						}}
+						title={<Typography.Title level={5}>WiFi 熱點列表 ({filteredHotspots.length})</Typography.Title>}
+						size="small"
+					>
+						<List
+							className="facility-list"
+							dataSource={filteredHotspots.slice(0, 20)}
+							renderItem={(hotspot) => (
+								<List.Item
+									className="facility-item"
+									style={{ cursor: 'pointer' }}
+									onClick={() => handleListItemClick(hotspot)}
+								>
+									<Flex align="center" gap="middle">
+										<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />
+										<Flex vertical gap="zero">
+											<Typography.Text strong>{hotspot.name}</Typography.Text>
+											{hotspot.location.address && (
+												<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
+													{hotspot.location.address}
+												</Typography.Text>
+											)}
+											<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
+												{hotspot.location.lat.toFixed(4)}, {hotspot.location.lng.toFixed(4)}
+												{' • '}{getDistance(hotspot.location.lat, hotspot.location.lng)}
+												{hotspot.password && ' • 有密碼'}
+											</Typography.Text>
+										</Flex>
+									</Flex>
+								</List.Item>
+							)}
 						/>
-					</label>
-					<label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-						<ThunderboltOutlined style={{ color: '#fa8c16' }} />
-						<span>充電</span>
-						<Switch
-							checked={filters.charging}
-							onChange={(checked) => setFilters({ ...filters, charging: checked })}
-							size="small"
-						/>
-					</label>
-					<label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-						<span>只顯示有密碼</span>
-						<Switch
-							checked={filters.passwordOnly}
-							onChange={(checked) => setFilters({ ...filters, passwordOnly: checked })}
-							size="small"
-						/>
-					</label>
-					<label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-						距離上限 (m):
-						<InputNumber
-							min={0}
-							value={filters.maxDistance}
-							onChange={(value) => setFilters({ ...filters, maxDistance: value || 10000 })}
-							style={{ width: 100 }}
-							size="small"
-						/>
-					</label>
-					<label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-						<Switch
-							checked={filters.longPressToMove}
-							onChange={(checked) => setFilters({ ...filters, longPressToMove: checked })}
-							size="small"
-						/>
-						<span>右鍵點擊移動定位點</span>
-					</label>
-					<label style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-						<Switch
-							checked={showList}
-							onChange={(checked) => setShowList(checked)}
-							size="small"
-						/>
-						<span>顯示列表</span>
-					</label>
-				</div>
-			</div>
+						{filteredHotspots.length > 20 && (
+							<Typography.Text type="secondary" style={{ textAlign: 'center', display: 'block', padding: '8px' }}>
+								還有 {filteredHotspots.length - 20} 個熱點...
+							</Typography.Text>
+						)}
+					</Card>
+				)}
 
 			{/* 編輯熱點表單 */}
 			{showEditForm && selectedHotspot && (
@@ -979,6 +990,6 @@ export default function FacilityMap()
 				/>
 			)}
 
-		</div>
+		</Flex>
 	);
 }
