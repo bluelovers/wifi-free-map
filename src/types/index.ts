@@ -90,3 +90,18 @@ export interface IApiReturnCharging
 	data: IChargingStationMarker[];
 	block: { lng: number; lat: number; path: string; count: number };
 }
+
+/**
+ * 批次區塊資料 API 回傳格式
+ * Batch blocks data API response format
+ */
+export interface IApiReturnBlocksBatch
+{
+	success: boolean;
+	data: {
+		wifi: IWiFiHotspot[];
+		charging: IChargingStationMarker[];
+	};
+	matchedBuckets: Record<string, string[]>;
+	rangeBuckets: { minLng: number; maxLng: number; minLat: number; maxLat: number };
+}

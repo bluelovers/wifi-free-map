@@ -14,25 +14,6 @@ export enum EnumDatasetType
 }
 
 /**
- * 區塊行列起止索引
- * Block row/col start/end indices
- *
- * 用於描述網格區塊的範圍
- * Used to describe the range of grid blocks
- */
-export interface IGpsRowColStartEnd
-{
-	/** X 方向（經度）起始索引 / X direction (longitude) start index */
-	startX: number;
-	/** X 方向（經度）結束索引 / X direction (longitude) end index */
-	endX: number;
-	/** Y 方向（緯度）起始索引 / Y direction (latitude) start index */
-	startY: number;
-	/** Y 方向（緯度）結束索引 / Y direction (latitude) end index */
-	endY: number;
-}
-
-/**
  * 經緯度最小值介面
  * Longitude/latitude minimum interface
  */
@@ -123,112 +104,14 @@ export interface IBounds
  */
 export interface IDatasetEntry
 {
-	/** 資料類型檔案路徑 / Data type file path */
-	fileName: string;
-	/** 該區塊內的資料筆數 / Number of items in this block */
-	// count: number;
-}
-
-/**
- * 資料集記錄（按類型分）
- * Dataset record (by type)
- *
- * 使用 EnumDatasetType 作為 key
- * Uses EnumDatasetType as key
- */
-export type IDataset = Record<EnumDatasetType, IDatasetEntry>;
-
-/**
- * 統一格式的區塊介面
- * Unified grid block interface
- *
- * 描述完整的地圖區塊資訊
- * Describes complete map block information
- */
-export interface IGridBlock extends IGpsCenterBounds
-{
-	/** 區塊檔名（格式：經度_緯度.json）/ Block file name */
-	fileName: string;
-	/** 資料集（依資料類型分）/ Dataset (by data type) */
-	dataset: IDataset;
-	/** 共享位置字串陣列 / Shared location strings */
-	locations: string[];
-}
-
-/**
- * 區塊 V2 介面
- * Block V2 interface
- *
- * 使用 blockPath 而非 fileName
- * Uses blockPath instead of fileName
- */
-export interface IGridBlockV2 extends IGpsCenterBounds
-{
-	/** 區塊路徑（格式：經度_緯度）/ Block path */
-	blockPath: string;
-	/** 資料集（依資料類型分）/ Dataset (by data type) */
-	dataset: IDataset;
-	/** 共享位置字串陣列 / Shared location strings */
-	locations: string[];
-}
-
-/**
- * 區塊聚合器內部資料結構
- * Block aggregator internal data structure
- *
- * 用於區塊聚合器的內部資料處理
- * Used for internal data processing in block aggregator
- */
-export interface IBlockData extends IGpsCenterBounds
-{
-	/** 位置字串集合 / Location string set */
-	locations: Set<string>;
-	/** 資料集 / Dataset */
-	dataset: IDataset;
-}
-
-/**
- * 區塊中心點與邊界介面
- * Block center and bounds interface
- *
- * 描述區塊的中心點座標與邊界範圍
- * Describes block center coordinates and boundary range
- */
-export interface IGpsCenterBounds
-{
-	/** 區塊中心點座標 / Block center coordinates */
-	center: IGpsCoordinate;
-	/** 區塊邊界座標 / Block boundary coordinates */
-	bounds: IBounds;
-}
-
-/**
- * 區塊座標資料結構
- * Block coordinate data structure
- *
- * 用於描述區塊的索引、中心點與邊界資訊
- * Used to describe block index, center, and boundary information
- */
-export interface IBlockCoordinate extends IGpsCenterBounds, IGpsBlockIndex
-{
 	/**
-	 * 用於查詢 grid-index.json 的 key (lng_lat)
-	 * Key for querying grid-index.json (lng_lat format)
+	 * 資料類型檔案路徑 / Data type file path
+	 *
+	 * @example
+	 * // 使用以下範例即可取得完整路徑
+	 * join(__DATA_ROOT, fileName)
 	 */
-	lngLat: string;
-}
-
-/**
- * 資料項目介面
- * Data entry interface
- *
- * 描述包含座標的資料項目
- * Describes data entry with coordinates
- */
-export interface IDataEntry extends IGpsCoordinate
-{
-	/** 地址（可選）/ Address (optional) */
-	address?: string;
+	fileName: string;
 }
 
 /**

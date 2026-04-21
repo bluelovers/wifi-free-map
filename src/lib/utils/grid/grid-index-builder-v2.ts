@@ -5,15 +5,10 @@
  * 使用生成器模式進行資料分割與聚合
  * Uses generator pattern for data splitting and aggregation
  */
-import { splitDataByL1GridGenerator } from '@/lib/utils/grid/grid-split';
 import {
 	EnumDatasetType,
-	IDataset,
+	IDatasetEntry,
 	IFormatBlockKey,
-	IGpsCoordinate,
-	IGridBlock,
-	ISplitResult,
-	IValueArrayOrIterable,
 } from '@/lib/utils/grid/grid-types';
 import { exists } from 'fs-extra';
 import path from 'upath2';
@@ -74,78 +69,7 @@ export interface IMetadataUnifiedBlockIndex
 	 */
 	locations: string[];
 	/** 該 Block 擁有的不同類型資料集 / Data sets owned by this block */
-	dataset: Record<EnumDatasetType, { fileName: string }>;
-}
-
-/**
- * 建立區塊聚合器 V2
- * Create block aggregator V2
- *
- * 將資料依據 L1 網格進行分割與聚合
- * Splits and aggregates data according to L1 grid
- *
- * @param inputAndOptions - 輸入資料與選項 / Input data and options
- * @param inputAndOptions.data - 資料陣列或 Iterable / Data array or Iterable
- * @param inputAndOptions.normalize - 資料正規化函式（可選）/ Data normalization function (optional)
- * @returns 區塊聚合結果 / Block aggregation result
- */
-export function createBlockAggregatorV2<T extends IGpsCoordinate, R extends T>(inputAndOptions: {
-	data: IValueArrayOrIterable<T>;
-	/** 正規化函式 / Normalize function */
-	normalize(item: T, items: T[]): R;
-})
-{
-	/** 區塊索引記錄 / Block index record */
-	const recordIndex: Record<IFormatBlockKey<'/'>, Record<IFormatBlockKey<'_'>, IGridBlock>> = {};
-	/** 分割結果記錄 / Split result record */
-	const recordSplit: ISplitResult<R> = {};
-
-
-	/**
-	 * 使用生成器分割資料 / Split data using generator
-	 */
-	// @ts-ignore
-	for (const result of splitDataByL1GridGenerator(inputAndOptions.data))
-	{
-		if (!result) continue;
-
-		const [bucketPath, blockPath, items] = result;
-
-		/** 初始化 bucket 路徑記錄 / Initialize bucket path record */
-		recordSplit[bucketPath] ??= {};
-		/** 初始化 block 路徑記錄 / Initialize block path record */
-		recordSplit[bucketPath][blockPath] ??= [];
-
-		const normalizedItems: R[] = recordSplit[bucketPath][blockPath];
-
-		/**
-		 * 使用正規化函式處理每個項目
-		 * Normalize each item using normalization function
-		 */
-		if (inputAndOptions.normalize)
-		{
-			for (const item of items)
-			{
-				const normalizedItem = inputAndOptions.normalize(item, items);
-				normalizedItem && normalizedItems.push(normalizedItem);
-			}
-		}
-		else
-		{
-			/**
-			 * 如果沒有正規化函式，直接使用原始資料
-			 * If no normalize function, use raw data directly
-			 */
-			normalizedItems.push(...items as R[]);
-		}
-	}
-
-	return {
-		/** 區塊索引 / Block index */
-		recordIndex,
-		/** 分割結果 / Split result */
-		recordSplit,
-	};
+	dataset: Record<EnumDatasetType, IDatasetEntry>;
 }
 
 /**

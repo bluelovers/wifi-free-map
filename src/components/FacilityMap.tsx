@@ -13,23 +13,22 @@ import {
 	ReloadOutlined,
 	AimOutlined,
 } from '@ant-design/icons';
-import { IWiFiHotspot, IChargingStationMarker, IApiReturnWifi, IApiReturnError, IApiReturnCharging } from '@/types';
+import { IWiFiHotspot, IChargingStationMarker, IApiReturnWifi, IApiReturnError, IApiReturnCharging, IApiReturnBlocksBatch } from '@/types';
 import { EnumFacilityType } from '@/types';
 import { generateWiFiQRCode } from '@/lib/wifi-utils';
 import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
-import EditHotspotForm from './EditHotspotForm';
-import AddHotspotForm from './AddHotspotForm';
 import MarkerClusterGroup from 'react-leaflet-cluster'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.css'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.Default.css'
 import { MapTileLayer } from './map/MapTileLayer';
 import { calculateDistance, getAndFormatDistance } from '../lib/utils/grid/grid-calc-coords';
 import {
+	_formatBlockKey,
 	wrapCoordinate,
 	wrapCoordinateFromArray,
 	wrapLatLngArrayFromCoordinate,
 } from '@/lib/utils/grid/grid-utils-global';
-import { ICoordinateArrayLatLng, IGpsCoordinate } from '@/lib/utils/grid/grid-types';
+import { ICoordinateArrayLatLng, IGpsCoordinate, IGpsLngLatMinMax } from '@/lib/utils/grid/grid-types';
 import { requestPermissionsGeolocation } from '@/lib/utils/api/browser-api';
 import { fetchOSMReverseInfo } from '@/lib/utils/api/fetch-api';
 import { CircleMarkerSVG } from './map/icon/CircleMarkerSVG';
@@ -168,39 +167,60 @@ export default function FacilityMap()
 	};
 	const [hotspots, setHotspots] = useState<IWiFiHotspot[]>([]);
 	const [chargingStations, setChargingStations] = useState<IChargingStationMarker[]>([]);
+	/** 當前資料的範圍邊界 / Current data range bounds */
+	const [rangeBounds, setRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
 	const [position, setPosition] = useState<ICoordinateArrayLatLng>([25.0330, 121.5654]); // 預設台北 101
 	const [zoom, setZoom] = useState(18); // 記錄目前縮放等級，會在置中前保存當前縮放
 	/** 用於取得 Leaflet map 實例，以在需要時讀取當前 zoom 等級 */
 	const mapRef = useRef<L.Map | null>(null);
 
 
+	/** 檢查座標是否在当前範圍內 / Check if coordinate is within current range */
+	const isCoordWithinRange = (coord: IGpsCoordinate, range: IGpsLngLatMinMax): boolean =>
+	{
+		return (
+			coord.lng >= range.minLng &&
+			coord.lng <= range.maxLng &&
+			coord.lat >= range.minLat &&
+			coord.lat <= range.maxLat
+		);
+	};
+
 	/** 載入設施資料的函式（可重複呼叫） */
 	const loadBlockData = async (coord: IGpsCoordinate) =>
 	{
+		/** 如果座標在當前範圍內，則不請求新的 API 資料 */
+		if (rangeBounds && isCoordWithinRange(coord, rangeBounds))
+		{
+			console.log('座標在範圍內，跳過請求:', coord);
+			return;
+		}
+
 		try
 		{
 			setLoading(true);
 			fixLeafletIcon();
 
-			/** 讀取區塊內的 WiFi 資料 */
-			const hotspotsRes = await fetch(`/api/wifi-block?lat=${coord.lat}&lng=${coord.lng}`);
-			const hotspotsData: IApiReturnWifi = await hotspotsRes.json();
-			if (hotspotsData.success)
+			/** 使用批次 API 讀取區塊內的所有資料 */
+			const batchRes = await fetch(`/api/blocks-batch?lat=${coord.lat}&lng=${coord.lng}`);
+			const batchData: IApiReturnBlocksBatch = await batchRes.json();
+
+			console.log('batchData.rangeBuckets', batchData.rangeBuckets);
+			console.log('batchData.data.wifi', batchData.data?.wifi?.length);
+			console.log('batchData.data.charging', batchData.data?.charging?.length);
+
+			if (batchData.success)
 			{
-				setHotspots(hotspotsData.data || []);
+				setHotspots(batchData.data?.wifi || []);
+				setChargingStations(batchData.data?.charging || []);
+				/** 更新範圍邊界 */
+				setRangeBounds(batchData.rangeBuckets);
 			}
 			else
 			{
-				console.error('載入 WiFi 失敗:', (hotspotsData as any as IApiReturnError).error);
+				console.error('載入資料失敗:', (batchData as any as IApiReturnError).error);
 				setHotspots([]);
-			}
-
-			/** 讀取充電站資料 */
-			const chargingRes = await fetch(`/api/charging-block?lat=${coord.lat}&lng=${coord.lng}`);
-			const chargingData: IApiReturnCharging = await chargingRes.json();
-			if (chargingData.success)
-			{
-				setChargingStations(chargingData.data || []);
+				setChargingStations([]);
 			}
 		}
 		catch (error)
@@ -540,10 +560,6 @@ export default function FacilityMap()
 	/** 搜尋關鍵字 */
 	const [searchTerm, setSearchTerm] = useState('');
 
-	/** 控制「新增熱點」對話框的顯示與關閉 */
-	const [showAddForm, setShowAddForm] = useState(false);
-	const [showEditForm, setShowEditForm] = useState(false);
-
 	/** 依據搜尋、密碼、距離過濾熱點 */
 	const filteredHotspots = useMemo(() =>
 	{
@@ -565,11 +581,13 @@ export default function FacilityMap()
 			if (filters.maxDistance && from)
 			{
 				const dist = calculateDistance(from, hotspot);
-				console.log(`filteredHotspots`, dist, filters.maxDistance, from, hotspot);
+				// console.log(`filteredHotspots`, dist, filters.maxDistance, from, hotspot);
 				if (dist > filters.maxDistance) return false;
 			}
 			return true;
 		});
+
+		console.log('filteredHotspots', filtered.length, '/', hotspots.length);
 
 		/** 依照距離排序 / Sort by distance */
 		if (from)
@@ -583,7 +601,7 @@ export default function FacilityMap()
 		}
 
 		return filtered;
-	}, [hotspots, searchTerm, filters, position]);
+	}, [hotspots, searchTerm, filters, wrapCoordinateFromArray(position)]);
 
 	/** 當過濾條件改變時重置顯示數量 / Reset visible count when filters change */
 	useEffect(() =>
@@ -594,7 +612,7 @@ export default function FacilityMap()
 	// 初始載入資料（使用區塊化 API）
 	useEffect(() =>
 	{
-		fixLeafletIcon();
+		// fixLeafletIcon();
 
 		/** 使用區塊化 API 根據目前位置載入 */
 		loadBlockData(wrapCoordinateFromArray(position));
@@ -750,9 +768,9 @@ export default function FacilityMap()
 						<LongPressHandler />
 						{/* WiFi 熱點 */}
 						<MarkerClusterGroup chunkedLoading>
-							{filteredHotspots.map((hotspot) => (
+							{filteredHotspots.map((hotspot, index) => (
 								<Marker
-									key={hotspot.id}
+									key={hotspot.id ?? hotspot.lng + '_' + hotspot.lat + '_' + index}
 									position={hotspot}
 									icon={wifiIcon}
 									eventHandlers={{ click: () => handleMarkerClick(hotspot) }}
@@ -763,9 +781,9 @@ export default function FacilityMap()
 						</MarkerClusterGroup>
 						{/* 充電站 */}
 						<MarkerClusterGroup chunkedLoading>
-							{chargingStations.map((station) => (
+							{chargingStations.map((station, index) => (
 								<Marker
-									key={station.id}
+									key={station.id ?? station.lng + '_' + station.lat + '_' + index}
 									position={station}
 									icon={chargingIcon}
 								>
@@ -925,9 +943,9 @@ export default function FacilityMap()
 							justify={'space-around'}
 							align="flex-start"
 						>
-							{filteredHotspots.slice(0, visibleHotspotCount).map((hotspot) => (
+							{filteredHotspots.slice(0, visibleHotspotCount).map((hotspot, index) => (
 								<Card
-									key={hotspot.id}
+									key={hotspot.id ?? hotspot.lng + '_' + hotspot.lat + '_' + index}
 									className="facility-item"
 
 									hoverable
@@ -964,26 +982,6 @@ export default function FacilityMap()
 							</Typography.Text>
 						)}
 					</Card>
-				)}
-
-				{/* 編輯熱點表單 */}
-				{showEditForm && selectedHotspot && (
-					<EditHotspotForm
-						hotspot={selectedHotspot}
-						onClose={() =>
-						{
-							setShowEditForm(false);
-							// Refresh hotspots after edit
-							// Simple approach: re-fetch data
-							fetch('/api/hotspots')
-								.then(res => res.json())
-								.then(data =>
-								{
-									if (data.success) setHotspots(data.data);
-								})
-								.catch(err => console.error('刷新熱點失敗', err));
-						}}
-					/>
 				)}
 
 			</Flex>
