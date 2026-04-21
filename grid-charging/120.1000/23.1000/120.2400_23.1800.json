@@ -1,23 +1,27 @@
 [
   {
+    "dataType": "charging",
     "name": "麻豆郵局",
-    "lat": 23.1816479,
+    "lat": 23.181648,
     "lng": 120.248121,
     "address": "721臺南市麻豆區興國路25號"
   },
   {
+    "dataType": "charging",
     "name": "自來水公司麻豆服務所",
     "lat": 23.183857,
     "lng": 120.256071,
     "address": "721臺南市麻豆區興中路211號"
   },
   {
+    "dataType": "charging",
     "name": "麻豆新生郵局",
     "lat": 23.184136,
     "lng": 120.241315,
     "address": "721臺南市麻豆區新生南路17號"
   },
   {
+    "dataType": "charging",
     "name": "公路總局嘉義區監理所麻豆監理站",
     "lat": 23.18995,
     "lng": 120.248364,

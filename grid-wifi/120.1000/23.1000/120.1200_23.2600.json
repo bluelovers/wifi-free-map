@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北門區玉港里辦公處",
     "lat": 23.2641,
     "lng": 120.1389,
     "address": "727臺南市北門區玉港里15號-1"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "北門遊客中心",
     "lat": 23.269892,
     "lng": 120.124168,

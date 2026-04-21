@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "綠島郵局",
     "lat": 22.667982,
     "lng": 121.468775,
     "address": "951臺東縣綠島鄉南寮村南寮路186號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "綠島管理站",
     "lat": 22.667982,
     "lng": 121.468775,

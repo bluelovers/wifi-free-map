@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "基隆市暖暖戶政事務所",
     "lat": 25.10029,
     "lng": 121.735811,
     "address": "205基隆市暖暖區暖暖街246巷180號"
   },
   {
+    "dataType": "charging",
     "name": "基隆過港路郵局",
     "lat": 25.105189,
     "lng": 121.737755,
     "address": "205基隆市暖暖區過港路58號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局八堵站候車室",
     "lat": 25.10844,
     "lng": 121.729002,

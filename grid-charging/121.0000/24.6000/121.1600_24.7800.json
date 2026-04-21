@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "關西郵局",
     "lat": 24.79315,
     "lng": 121.176092,
     "address": "306新竹縣關西鎮正義路86號"
   },
   {
+    "dataType": "charging",
     "name": "新竹縣關西鎮戶政事務所",
     "lat": 24.79702,
     "lng": 121.175154,

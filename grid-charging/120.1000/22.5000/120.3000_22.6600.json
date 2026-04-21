@@ -1,35 +1,41 @@
 [
   {
+    "dataType": "charging",
     "name": "左營新莊仔郵局",
     "lat": 22.664853,
     "lng": 120.305228,
     "address": "813高雄市左營區富民路356號"
   },
   {
+    "dataType": "charging",
     "name": "高雄鼎泰郵局",
     "lat": 22.665242,
     "lng": 120.316125,
     "address": "807高雄市三民區民族一路519號"
   },
   {
+    "dataType": "charging",
     "name": "左營新莊仔郵局2樓",
     "lat": 22.665324,
     "lng": 120.305314,
     "address": "813高雄市左營區富民路356號2樓"
   },
   {
+    "dataType": "charging",
     "name": "高雄市左營區戶政事務所第二辦公處",
     "lat": 22.666254,
     "lng": 120.307932,
     "address": "813高雄市左營區立信路22號"
   },
   {
+    "dataType": "charging",
     "name": "高雄郵件中心郵局",
     "lat": 22.676883,
     "lng": 120.318455,
     "address": "813高雄市左營區民族一路853號"
   },
   {
+    "dataType": "charging",
     "name": "左營菜公郵局",
     "lat": 22.679343,
     "lng": 120.308766,

@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "大里郵局",
     "lat": 24.103018,
     "lng": 120.688781,
     "address": "412臺中市大里區中興路二段212號"
   },
   {
+    "dataType": "charging",
     "name": "自來水公司大里服務所",
     "lat": 24.106261,
     "lng": 120.683047,

@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "台糖公司福利社",
     "lat": 22.964721,
     "lng": 120.222919,
     "address": "701臺南市東區生產路54號"
   },
   {
+    "dataType": "charging",
     "name": "台南德高厝郵局",
     "lat": 22.967455,
     "lng": 120.227381,

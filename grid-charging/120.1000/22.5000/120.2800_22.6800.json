@@ -1,23 +1,27 @@
 [
   {
+    "dataType": "charging",
     "name": "臺鐵局左營站售票房",
     "lat": 22.68046,
     "lng": 120.291435,
     "address": "813高雄市左營區勝利路1號"
   },
   {
+    "dataType": "charging",
     "name": "左營南站郵局",
     "lat": 22.682109,
     "lng": 120.288167,
     "address": "813高雄市左營區左營大路75號"
   },
   {
+    "dataType": "charging",
     "name": "高雄市左營區戶政事務所",
     "lat": 22.690211,
     "lng": 120.295165,
     "address": "813高雄市左營區左營大路479號3樓"
   },
   {
+    "dataType": "charging",
     "name": "左營郵局",
     "lat": 22.690236,
     "lng": 120.293444,

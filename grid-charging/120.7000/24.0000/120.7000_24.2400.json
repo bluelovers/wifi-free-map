@@ -1,29 +1,34 @@
 [
   {
+    "dataType": "charging",
     "name": "臺中市豐原區戶政事務所",
     "lat": 24.241926,
     "lng": 120.717958,
     "address": "420臺中市豐原區市政路2號"
   },
   {
+    "dataType": "charging",
     "name": "豐原博愛郵局",
     "lat": 24.248887,
     "lng": 120.719746,
     "address": "420臺中市豐原區博愛街112號"
   },
   {
+    "dataType": "charging",
     "name": "台電公司豐原分處服務中心營業廳",
     "lat": 24.249942,
     "lng": 120.707893,
     "address": "420臺中市豐原區中正路599號"
   },
   {
+    "dataType": "charging",
     "name": "豐原中正路郵局",
     "lat": 24.251499,
     "lng": 120.714984,
     "address": "420臺中市豐原區中正路298號"
   },
   {
+    "dataType": "charging",
     "name": "豐原三民路郵局",
     "lat": 24.253687,
     "lng": 120.719985,

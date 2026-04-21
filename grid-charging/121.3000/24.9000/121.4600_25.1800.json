@@ -1,5 +1,6 @@
 [
   {
+    "dataType": "charging",
     "name": "水源派出所",
     "lat": 25.1858,
     "lng": 121.478,

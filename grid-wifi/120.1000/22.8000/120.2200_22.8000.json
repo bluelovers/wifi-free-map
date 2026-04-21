@@ -1,23 +1,31 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "永安郵局",
     "lat": 22.81707,
     "lng": 120.226579,
     "address": "828高雄市永安區永華村永華路15號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "高雄市永安區公所",
     "lat": 22.818281,
     "lng": 120.22428,
     "address": "828高雄市永安區永安路32號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "高雄市永安區戶政事務所",
     "lat": 22.819023,
     "lng": 120.226365,
     "address": "828高雄市永安區永安路24號"
   },
   {
+    "dataType": "wifi",
+    "category": "文教館所",
     "name": "高雄市立圖書館永安分館",
     "lat": 22.819226,
     "lng": 120.223703,

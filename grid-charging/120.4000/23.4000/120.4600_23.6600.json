@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "斗南郵局",
     "lat": 23.675217,
     "lng": 120.479174,
     "address": "630雲林縣斗南鎮南昌里中山路77號"
   },
   {
+    "dataType": "charging",
     "name": "自來水公司斗南營運所",
     "lat": 23.676369,
     "lng": 120.478482,

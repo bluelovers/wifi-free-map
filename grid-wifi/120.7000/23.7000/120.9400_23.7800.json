@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "雙龍七彩吊橋前票亭",
     "lat": 23.78082,
     "lng": 120.95035,
     "address": "556南投縣信義鄉光復巷"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "雙龍七彩吊橋活動中心",
     "lat": 23.78366,
     "lng": 120.94772,

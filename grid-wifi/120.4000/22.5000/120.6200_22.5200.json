@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "屏東縣來義鄉古樓部落",
     "lat": 22.52596,
     "lng": 120.63111,
     "address": "922屏東縣來義鄉中正路105號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "來義郵局",
     "lat": 22.526154,
     "lng": 120.635641,

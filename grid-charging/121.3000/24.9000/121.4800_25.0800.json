@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "三重五常郵局",
     "lat": 25.081054,
     "lng": 121.49689,
     "address": "241新北市三重區仁義街168號"
   },
   {
+    "dataType": "charging",
     "name": "新北市蘆洲戶政事務所-1_A",
     "lat": 25.08494,
     "lng": 121.481649,

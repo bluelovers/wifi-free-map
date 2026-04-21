@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺東縣達仁鄉安朔部落2",
     "lat": 22.29464,
     "lng": 120.88467,
     "address": "966臺東縣達仁鄉安朔村復興路95號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "達仁郵局",
     "lat": 22.294816,
     "lng": 120.882773,

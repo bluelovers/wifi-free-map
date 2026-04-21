@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "自來水公司竹山營運所",
     "lat": 23.760108,
     "lng": 120.682875,
     "address": "557南投縣竹山鎮大明路356號"
   },
   {
+    "dataType": "charging",
     "name": "竹山延和郵局",
     "lat": 23.760153,
     "lng": 120.690649,

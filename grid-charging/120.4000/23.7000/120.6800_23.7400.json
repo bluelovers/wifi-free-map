@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "竹山郵局",
     "lat": 23.756857,
     "lng": 120.682149,
     "address": "557南投縣竹山鎮前山路一段2號"
   },
   {
+    "dataType": "charging",
     "name": "南投縣政府警察局竹山分局",
     "lat": 23.75702,
     "lng": 120.682813,

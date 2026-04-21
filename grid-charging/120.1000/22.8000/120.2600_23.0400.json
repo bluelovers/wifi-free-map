@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "永康工業區服務中心",
     "lat": 23.04911,
     "lng": 120.274452,
     "address": "710臺南市永康區王行里環工路6號"
   },
   {
+    "dataType": "charging",
     "name": "永康王行郵局",
     "lat": 23.04911,
     "lng": 120.274452,

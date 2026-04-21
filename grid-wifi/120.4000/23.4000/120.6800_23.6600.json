@@ -1,17 +1,23 @@
 [
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "瑞龍瀑布觀景台",
     "lat": 23.661972,
     "lng": 120.694139,
     "address": "557南投縣竹山鎮瑞龍瀑布"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "瑞龍瀑布瑞龍吊橋",
     "lat": 23.664487,
     "lng": 120.69188,
     "address": "557南投縣竹山鎮瑞龍吊橋"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "瑞龍瀑布停車場",
     "lat": 23.664583,
     "lng": 120.68875,

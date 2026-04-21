@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "中和大華郵局",
     "lat": 24.991893,
     "lng": 121.499767,
     "address": "235新北市中和區中興街132號"
   },
   {
+    "dataType": "charging",
     "name": "中和中正路郵局",
     "lat": 24.993751,
     "lng": 121.495097,
     "address": "235新北市中和區中正路277號一樓"
   },
   {
+    "dataType": "charging",
     "name": "中和連城路郵局",
     "lat": 24.996857,
     "lng": 121.49231,

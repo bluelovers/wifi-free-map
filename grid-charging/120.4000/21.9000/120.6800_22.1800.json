@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "枋山郵局",
     "lat": 22.198478,
     "lng": 120.689669,
     "address": "941屏東縣枋山鄉舊庄路47號"
   },
   {
+    "dataType": "charging",
     "name": "中油公司屏東縣枋山鄉楓港站",
     "lat": 22.199387,
     "lng": 120.689349,

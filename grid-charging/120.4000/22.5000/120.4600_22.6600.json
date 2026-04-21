@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "屏東厚生郵局",
     "lat": 22.665513,
     "lng": 120.478982,
     "address": "900屏東縣屏東市建國路182號"
   },
   {
+    "dataType": "charging",
     "name": "屏東六塊厝郵局",
     "lat": 22.669491,
     "lng": 120.476494,

@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "高雄本揚郵局",
     "lat": 22.644286,
     "lng": 120.344609,
     "address": "807高雄市三民區澄和路65號"
   },
   {
+    "dataType": "charging",
     "name": "澄清湖郵局",
     "lat": 22.647143,
     "lng": 120.347827,
     "address": "830高雄市鳳山區青年路二段634、636號"
   },
   {
+    "dataType": "charging",
     "name": "鳥松長庚醫院郵局",
     "lat": 22.649154,
     "lng": 120.354377,

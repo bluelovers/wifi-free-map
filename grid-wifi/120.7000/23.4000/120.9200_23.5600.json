@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "東埔溫泉公園",
     "lat": 23.56148,
     "lng": 120.9271,
     "address": "556南投縣信義鄉開高巷80號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "東埔停車場",
     "lat": 23.56167,
     "lng": 120.92269,

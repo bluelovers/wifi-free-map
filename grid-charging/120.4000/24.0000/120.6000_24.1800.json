@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "台中福安郵局",
     "lat": 24.183497,
     "lng": 120.618516,
     "address": "407臺中市西屯區福順路318號"
   },
   {
+    "dataType": "charging",
     "name": "台糖量販台中店",
     "lat": 24.183933,
     "lng": 120.614417,
     "address": "407臺中市西屯區台中港路三段118之68號"
   },
   {
+    "dataType": "charging",
     "name": "台中永安郵局",
     "lat": 24.190603,
     "lng": 120.612348,

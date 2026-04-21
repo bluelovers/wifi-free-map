@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "草屯碧山郵局",
     "lat": 23.97817,
     "lng": 120.680951,
     "address": "542南投縣草屯鎮碧山南路20、22號"
   },
   {
+    "dataType": "charging",
     "name": "南投縣政府警察局草屯分局",
     "lat": 23.979053,
     "lng": 120.694651,
     "address": "542南投縣草屯鎮中正路571號"
   },
   {
+    "dataType": "charging",
     "name": "草屯郵局",
     "lat": 23.979131,
     "lng": 120.686294,

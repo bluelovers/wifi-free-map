@@ -1,23 +1,27 @@
 [
   {
+    "dataType": "charging",
     "name": "清水頂樓用餐區",
     "lat": 24.345027,
     "lng": 120.620469,
     "address": "436臺中市清水區東山路145號"
   },
   {
+    "dataType": "charging",
     "name": "大甲廟口郵局",
     "lat": 24.345123,
     "lng": 120.622258,
     "address": "437臺中市大甲區順天里9鄰順天路159號"
   },
   {
+    "dataType": "charging",
     "name": "大甲郵局",
     "lat": 24.34759,
     "lng": 120.627237,
     "address": "437臺中市大甲區新政路1號"
   },
   {
+    "dataType": "charging",
     "name": "臺中市大甲區戶政事務所",
     "lat": 24.34914,
     "lng": 120.622477,

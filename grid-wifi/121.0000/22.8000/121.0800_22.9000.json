@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺東縣延平鄉巴喜告部落",
     "lat": 22.902412,
     "lng": 121.084807,
     "address": "953臺東縣延平鄉昇平路23號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "延平郵局",
     "lat": 22.902423,
     "lng": 121.085079,

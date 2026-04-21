@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "中壢頂壢郵局",
     "lat": 24.9694,
     "lng": 121.260787,
     "address": "320桃園市中壢區榮民路53、55號"
   },
   {
+    "dataType": "charging",
     "name": "八德高城郵局",
     "lat": 24.975368,
     "lng": 121.271452,

@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "大同郵局",
     "lat": 24.675779,
     "lng": 121.609628,
     "address": "267宜蘭縣大同鄉崙埤村泰雅路一段58號"
   },
   {
+    "dataType": "charging",
     "name": "大同鄉戶政事務所",
     "lat": 24.677808,
     "lng": 121.608095,

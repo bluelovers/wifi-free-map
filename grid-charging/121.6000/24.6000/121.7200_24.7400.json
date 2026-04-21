@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "員山郵局",
     "lat": 24.743806,
     "lng": 121.724415,
     "address": "264宜蘭縣員山鄉員山路一段299號"
   },
   {
+    "dataType": "charging",
     "name": "員山鄉戶政事務所",
     "lat": 24.745077,
     "lng": 121.726831,
     "address": "264宜蘭縣員山鄉員山路一段207號2樓"
   },
   {
+    "dataType": "charging",
     "name": "宜蘭金六結郵局",
     "lat": 24.751561,
     "lng": 121.739132,

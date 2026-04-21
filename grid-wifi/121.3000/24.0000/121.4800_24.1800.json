@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "秀林天祥郵局",
     "lat": 24.183064,
     "lng": 121.494942,
     "address": "972花蓮縣秀林鄉富世村天祥21號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "天祥管理站",
     "lat": 24.184445,
     "lng": 121.495985,

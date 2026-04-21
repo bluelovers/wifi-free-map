@@ -1,29 +1,34 @@
 [
   {
+    "dataType": "charging",
     "name": "中和泰和街郵局",
     "lat": 25.001185,
     "lng": 121.499895,
     "address": "235新北市中和區泰和街6號"
   },
   {
+    "dataType": "charging",
     "name": "中和郵局",
     "lat": 25.001227,
     "lng": 121.482319,
     "address": "235新北市中和區民樂路17號"
   },
   {
+    "dataType": "charging",
     "name": "中和中山路郵局",
     "lat": 25.002934,
     "lng": 121.492562,
     "address": "235新北市中和區中山路二段362號"
   },
   {
+    "dataType": "charging",
     "name": "新北市中和戶政事務所員山辦事處-1",
     "lat": 25.009033,
     "lng": 121.48178,
     "address": "235新北市中和區中正路1163號3樓"
   },
   {
+    "dataType": "charging",
     "name": "台北萬大路郵局",
     "lat": 25.019064,
     "lng": 121.497017,

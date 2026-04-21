@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "善化成功郵局",
     "lat": 23.127516,
     "lng": 120.317003,
     "address": "741臺南市善化區成功路41號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局善化站行車室",
     "lat": 23.133323,
     "lng": 120.306551,

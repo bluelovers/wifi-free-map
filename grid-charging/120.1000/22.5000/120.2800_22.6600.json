@@ -1,41 +1,48 @@
 [
   {
+    "dataType": "charging",
     "name": "高雄高分院郵局",
     "lat": 22.66137,
     "lng": 120.299085,
     "address": "804高雄市鼓山區明誠三路586號"
   },
   {
+    "dataType": "charging",
     "name": "高雄凹仔底郵局",
     "lat": 22.664411,
     "lng": 120.298522,
     "address": "804高雄市鼓山區文信路327號"
   },
   {
+    "dataType": "charging",
     "name": "高雄瑞豐郵局",
     "lat": 22.664832,
     "lng": 120.291959,
     "address": "804高雄市鼓山區中華一路316-3號"
   },
   {
+    "dataType": "charging",
     "name": "高雄市鼓山區戶政事務所第二辦公處",
     "lat": 22.667799,
     "lng": 120.289907,
     "address": "804高雄市鼓山區中華一路45號2樓"
   },
   {
+    "dataType": "charging",
     "name": "高雄前峰郵局",
     "lat": 22.668007,
     "lng": 120.286247,
     "address": "804高雄市鼓山區九如四路2008、2010號"
   },
   {
+    "dataType": "charging",
     "name": "左營果貿郵局",
     "lat": 22.671349,
     "lng": 120.28998,
     "address": "813高雄市左營區翠峰路2號"
   },
   {
+    "dataType": "charging",
     "name": "左營華夏路郵局",
     "lat": 22.673046,
     "lng": 120.298877,

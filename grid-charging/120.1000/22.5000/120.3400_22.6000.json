@@ -1,29 +1,34 @@
 [
   {
+    "dataType": "charging",
     "name": "鳳山一甲郵局",
     "lat": 22.602061,
     "lng": 120.341808,
     "address": "830高雄市鳳山區五甲二路87、89、91號"
   },
   {
+    "dataType": "charging",
     "name": "鳳山中崙郵局",
     "lat": 22.602226,
     "lng": 120.351117,
     "address": "830高雄市鳳山區中崙路576號"
   },
   {
+    "dataType": "charging",
     "name": "鳳山新甲郵局",
     "lat": 22.607586,
     "lng": 120.341857,
     "address": "830高雄市鳳山區大明路39、41號"
   },
   {
+    "dataType": "charging",
     "name": "鳳山新富郵局",
     "lat": 22.616274,
     "lng": 120.348663,
     "address": "830高雄市鳳山區新富路391號"
   },
   {
+    "dataType": "charging",
     "name": "台糖公司五甲健康超市",
     "lat": 22.617378,
     "lng": 120.354461,

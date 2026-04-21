@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "湖口新工郵局",
     "lat": 24.870831,
     "lng": 121.014611,
     "address": "303新竹縣湖口鄉大勇路6號"
   },
   {
+    "dataType": "charging",
     "name": "新竹工業區服務中心",
     "lat": 24.872303,
     "lng": 121.010176,
     "address": "303新竹縣湖口鄉鳳山村中華路22號1樓"
   },
   {
+    "dataType": "charging",
     "name": "自來水公司湖口營運所",
     "lat": 24.874913,
     "lng": 121.011969,

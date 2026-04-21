@@ -1,35 +1,47 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "南投縣信義鄉明德部落",
     "lat": 23.69515,
     "lng": 120.85686,
     "address": "556南投縣信義鄉新開巷64號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "明德高齡友善健身俱樂部",
     "lat": 23.69629,
     "lng": 120.85467,
     "address": "556南投縣信義鄉明德村玉山路45號2樓"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "信義原鄉學堂",
     "lat": 23.696291,
     "lng": 120.854671,
     "address": "556南投縣信義鄉玉山路45號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "信義郵局",
     "lat": 23.697027,
     "lng": 120.854066,
     "address": "556南投縣信義鄉明德村玉山路44號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "南投縣政府警察局信義分局",
     "lat": 23.697217,
     "lng": 120.854215,
     "address": "556南投縣信義鄉明德村玉山路49號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "南投縣信義鄉戶政事務所",
     "lat": 23.697613,
     "lng": 120.854625,

@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "頭屋郵局",
     "lat": 24.576325,
     "lng": 120.854271,
     "address": "362苗栗縣頭屋鄉尖豐路17號"
   },
   {
+    "dataType": "charging",
     "name": "苗栗縣頭屋鄉戶政事務所",
     "lat": 24.577744,
     "lng": 120.850596,

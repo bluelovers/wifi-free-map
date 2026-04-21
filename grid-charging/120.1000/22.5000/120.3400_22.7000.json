@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "高雄市仁武區戶政事務所",
     "lat": 22.701455,
     "lng": 120.348299,
     "address": "814高雄市仁武區中正路94號4樓"
   },
   {
+    "dataType": "charging",
     "name": "仁武郵局",
     "lat": 22.701683,
     "lng": 120.348569,

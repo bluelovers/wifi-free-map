@@ -1,5 +1,7 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市七股區大潭里辦公處",
     "lat": 23.156,
     "lng": 120.11,

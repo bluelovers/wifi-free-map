@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "苗栗府前郵局",
     "lat": 24.562857,
     "lng": 120.818401,
     "address": "360苗栗縣苗栗市忠孝路119號"
   },
   {
+    "dataType": "charging",
     "name": "苗栗文山郵局",
     "lat": 24.56413,
     "lng": 120.811823,
     "address": "360苗栗縣苗栗市至公路420-1號"
   },
   {
+    "dataType": "charging",
     "name": "公路總局新竹區監理所苗栗監理站",
     "lat": 24.567633,
     "lng": 120.808569,

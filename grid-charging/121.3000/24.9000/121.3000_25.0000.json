@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "桃園東埔郵局",
     "lat": 25.0014,
     "lng": 121.30768,
     "address": "330桃園市桃園區中正二街15號"
   },
   {
+    "dataType": "charging",
     "name": "桃園大業郵局",
     "lat": 25.013275,
     "lng": 121.312213,

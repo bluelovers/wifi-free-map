@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "公路總局新竹區監理所",
     "lat": 24.822428,
     "lng": 121.077774,
     "address": "305新竹縣新埔鎮文德路3段58號"
   },
   {
+    "dataType": "charging",
     "name": "新竹縣新埔鎮戶政事務所",
     "lat": 24.827511,
     "lng": 121.074529,
     "address": "305新竹縣新埔鎮廣和路8號"
   },
   {
+    "dataType": "charging",
     "name": "新埔中正郵局",
     "lat": 24.827883,
     "lng": 121.075717,

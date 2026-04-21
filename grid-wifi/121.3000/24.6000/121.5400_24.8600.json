@@ -1,29 +1,39 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "有限責任新北市原住民溫馨照顧勞動合作社",
     "lat": 24.863,
     "lng": 121.548,
     "address": "233新北市烏來區忠治里5鄰忠治76號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "新北市烏來區烏來部落1",
     "lat": 24.86336,
     "lng": 121.54836,
     "address": "233新北市烏來區環山路82巷5號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "新北市烏來區溫泉社區發展協會",
     "lat": 24.8635,
     "lng": 121.5513,
     "address": "233新北市烏來區烏來里烏來街34號一樓"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "新北市坪林區坪林區老人會",
     "lat": 24.864,
     "lng": 121.551,
     "address": "232新北市坪林區大林里逮魚堀33之17號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "新北市坪林區公所",
     "lat": 24.864,
     "lng": 121.551,

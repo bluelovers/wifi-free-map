@@ -1,29 +1,34 @@
 [
   {
+    "dataType": "charging",
     "name": "板橋港尾郵局",
     "lat": 25.022186,
     "lng": 121.45455,
     "address": "220新北市板橋區中正路332號"
   },
   {
+    "dataType": "charging",
     "name": "板橋新海郵局",
     "lat": 25.027268,
     "lng": 121.458985,
     "address": "220新北市板橋區裕民街135號"
   },
   {
+    "dataType": "charging",
     "name": "中油公司新北市新莊區新莊站",
     "lat": 25.034682,
-    "lng": 121.4452871,
+    "lng": 121.445287,
     "address": "242新北市新莊區中正路338號"
   },
   {
+    "dataType": "charging",
     "name": "新莊郵局",
     "lat": 25.035258,
     "lng": 121.449682,
     "address": "242新北市新莊區中正路265號"
   },
   {
+    "dataType": "charging",
     "name": "新北市新莊戶政事務所",
     "lat": 25.036575,
     "lng": 121.451839,

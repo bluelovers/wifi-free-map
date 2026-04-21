@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "台中樹仔腳郵局",
     "lat": 24.114468,
     "lng": 120.654718,
     "address": "402臺中市南區復興路一段236號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局大慶站候車室",
     "lat": 24.118051,
     "lng": 120.64683,

@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "台北北安郵局",
     "lat": 25.082658,
     "lng": 121.549846,
     "address": "104臺北市中山區北安路630巷10號"
   },
   {
+    "dataType": "charging",
     "name": "東吳大學郵局",
     "lat": 25.094305,
     "lng": 121.546597,

@@ -1,89 +1,119 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市中西區五條港里辦公處",
     "lat": 23,
     "lng": 120.2,
     "address": "700臺南市中西區五條港里成功路343號三樓"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "國立成功大學迎賓苑(成功校區)",
     "lat": 23.000106,
     "lng": 120.218979,
     "address": "701臺南市東區大學路1號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北區三德社區發展協會",
     "lat": 23.0008,
     "lng": 120.2041,
     "address": "704臺南市北區北華里長北街50號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北區和順里辦公處",
     "lat": 23.004,
     "lng": 120.201,
     "address": "704臺南市北區和順里公園南路406號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "自來水公司台南服務所",
     "lat": 23.006177,
     "lng": 120.216737,
     "address": "704臺南市北區開元路67號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北區勝安社區發展協會",
     "lat": 23.007,
     "lng": 120.216,
     "address": "704臺南市北區長勝里開元路63巷7弄68號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北區中樓社區發展協會",
     "lat": 23.007,
     "lng": 120.219,
     "address": "704臺南市北區中樓里開元路124號四樓"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "台南開元路郵局",
     "lat": 23.007036,
     "lng": 120.219796,
     "address": "704臺南市北區開元路162號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北區大仁社區發展協會",
     "lat": 23.009,
     "lng": 120.216,
     "address": "704臺南市北區大同里和緯路一段1號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市永康區鹽行社區發展協會",
     "lat": 23.009,
     "lng": 120.216,
     "address": "710臺南市永康區鹽行里正南八街1號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "高雄市大社區嘉誠社區發展協會",
     "lat": 23.009,
     "lng": 120.216,
     "address": "815高雄市大社區嘉誠里日新巷9號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "台南大光郵局",
     "lat": 23.012987,
     "lng": 120.218083,
     "address": "704臺南市北區長榮路五段266號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北區永祥社區發展協會",
     "lat": 23.014,
     "lng": 120.219,
     "address": "704臺南市北區永祥里實踐街85巷2號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "台南北小北郵局",
     "lat": 23.01653,
     "lng": 120.211191,
     "address": "704臺南市北區西門路四段482號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北區正覺社區發展協會",
     "lat": 23.019,
     "lng": 120.215,

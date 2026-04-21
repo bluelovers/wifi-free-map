@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "北門郵局",
     "lat": 23.268584,
     "lng": 120.114179,
     "address": "727臺南市北門區北門村舊埕91號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北門區文山里辦公處",
     "lat": 23.276,
     "lng": 120.117,

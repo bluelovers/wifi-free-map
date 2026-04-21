@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "臺中市北屯區戶政事務所",
     "lat": 24.182619,
     "lng": 120.686523,
     "address": "406臺中市北屯區崇德路三段10號1樓"
   },
   {
+    "dataType": "charging",
     "name": "台中松竹郵局",
     "lat": 24.185483,
     "lng": 120.699238,
     "address": "406臺中市北屯區松竹北路110號"
   },
   {
+    "dataType": "charging",
     "name": "台中四張犁郵局",
     "lat": 24.192727,
     "lng": 120.681618,

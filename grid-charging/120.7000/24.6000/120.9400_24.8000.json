@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "新竹南勢郵局",
     "lat": 24.804859,
     "lng": 120.949455,
     "address": "300新竹市北區南勢里延平路一段373號"
   },
   {
+    "dataType": "charging",
     "name": "新竹文雅郵局",
     "lat": 24.811517,
     "lng": 120.956692,

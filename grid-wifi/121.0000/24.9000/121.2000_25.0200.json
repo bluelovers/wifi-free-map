@@ -1,5 +1,7 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "橫山書法藝術館",
     "lat": 25.0209,
     "lng": 121.21839,

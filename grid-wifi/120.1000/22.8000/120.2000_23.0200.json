@@ -1,41 +1,55 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "臺灣銀行六甲頂分行",
     "lat": 23.020856,
     "lng": 120.215963,
     "address": "710臺南市永康區中正南路41號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北區成功社區發展協會",
     "lat": 23.022,
     "lng": 120.205,
     "address": "704臺南市北區成功里中華北路二段237號之1"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "第一商業銀行(永康分行)",
     "lat": 23.02251,
     "lng": 120.216389,
     "address": "710臺南市永康區中正南路109號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "永康六甲頂郵局",
     "lat": 23.022983,
     "lng": 120.217426,
     "address": "710臺南市永康區中正南路160號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市安南區安和社區發展協會",
     "lat": 23.029,
     "lng": 120.215,
     "address": "709臺南市安南區安和里安和路一段96巷46號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "台南安順郵局",
     "lat": 23.034747,
     "lng": 120.213261,
     "address": "709臺南市安南區安和路一段430號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "台南市安汝老人協會",
     "lat": 23.036,
     "lng": 120.207,

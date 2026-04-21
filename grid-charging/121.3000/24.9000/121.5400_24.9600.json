@@ -1,35 +1,41 @@
 [
   {
+    "dataType": "charging",
     "name": "新店檳榔路郵局-1",
     "lat": 24.966784,
     "lng": 121.540951,
     "address": "231新北市新店區北新路一段273號"
   },
   {
+    "dataType": "charging",
     "name": "新店檳榔路郵局-2",
     "lat": 24.966784,
     "lng": 121.540951,
     "address": "231新北市新店區北新路一段273號"
   },
   {
+    "dataType": "charging",
     "name": "新北市新店戶政事務所",
     "lat": 24.967241,
     "lng": 121.542046,
     "address": "231新北市新店區行政街2號2樓"
   },
   {
+    "dataType": "charging",
     "name": "新店五峰郵局",
     "lat": 24.969631,
     "lng": 121.544882,
     "address": "231新北市新店區中正路35號"
   },
   {
+    "dataType": "charging",
     "name": "新店郵局",
     "lat": 24.977071,
     "lng": 121.542663,
     "address": "231新北市新店區北新路二段177號"
   },
   {
+    "dataType": "charging",
     "name": "新店寶橋郵局",
     "lat": 24.979882,
     "lng": 121.548736,

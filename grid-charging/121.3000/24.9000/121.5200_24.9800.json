@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "新店水尾郵局",
     "lat": 24.982898,
     "lng": 121.533499,
     "address": "231新北市新店區中正路493之5號"
   },
   {
+    "dataType": "charging",
     "name": "新店復興郵局",
     "lat": 24.986894,
     "lng": 121.539178,
     "address": "231新北市新店區忠孝里1鄰復興路30號"
   },
   {
+    "dataType": "charging",
     "name": "中和秀山郵局",
     "lat": 24.993137,
     "lng": 121.522625,

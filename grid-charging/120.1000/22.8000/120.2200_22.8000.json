@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "永安郵局",
     "lat": 22.81707,
     "lng": 120.226579,
     "address": "828高雄市永安區永華村永華路15號"
   },
   {
+    "dataType": "charging",
     "name": "高雄市永安區戶政事務所",
     "lat": 22.819023,
     "lng": 120.226365,

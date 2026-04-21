@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "臺鐵局太原站候車室",
     "lat": 24.16792,
     "lng": 120.700769,
     "address": "406臺中市北屯區東光路838號"
   },
   {
+    "dataType": "charging",
     "name": "台中軍功郵局",
     "lat": 24.178124,
     "lng": 120.719302,

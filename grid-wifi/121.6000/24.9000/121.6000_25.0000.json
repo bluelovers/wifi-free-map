@@ -1,17 +1,23 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "深坑郵局",
     "lat": 25.001197,
     "lng": 121.609063,
     "address": "222新北市深坑區北深路三段30號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "詠靜公共托老中心",
     "lat": 25.001729,
     "lng": 121.605474,
     "address": "222新北市深坑區萬順里北深路三段105號一樓"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "深坑區農會",
     "lat": 25.002851,
     "lng": 121.616398,

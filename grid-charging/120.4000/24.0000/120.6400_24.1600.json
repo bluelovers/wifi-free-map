@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "台中何厝郵局",
     "lat": 24.16492,
     "lng": 120.653783,
     "address": "407臺中市西屯區青海路一段83號"
   },
   {
+    "dataType": "charging",
     "name": "台中逢甲郵局",
     "lat": 24.175272,
     "lng": 120.649134,

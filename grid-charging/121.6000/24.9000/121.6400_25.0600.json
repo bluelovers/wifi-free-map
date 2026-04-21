@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "汐止龍安郵局",
     "lat": 25.063807,
     "lng": 121.65434,
     "address": "221新北市汐止區龍安路42號"
   },
   {
+    "dataType": "charging",
     "name": "汐止厚德郵局",
     "lat": 25.066453,
     "lng": 121.642391,
     "address": "221新北市汐止區樟樹一路224號"
   },
   {
+    "dataType": "charging",
     "name": "汐止郵局",
     "lat": 25.067396,
     "lng": 121.657866,

@@ -1,23 +1,31 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市新營區角帶社區發展協會",
     "lat": 23.28,
     "lng": 120.255,
     "address": "730臺南市新營區姑爺65之1號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市東區大智社區發展協會",
     "lat": 23.289,
     "lng": 120.242,
     "address": "701臺南市東區大智里德東街90號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市鹽水區橋南社區發展協會",
     "lat": 23.289,
     "lng": 120.242,
     "address": "737臺南市鹽水區橋南里橋南街74號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市鹽水區桐寮社區發展協會",
     "lat": 23.299,
     "lng": 120.259,

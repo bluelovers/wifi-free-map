@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "上海商銀北新竹分行",
     "lat": 24.826959,
     "lng": 121.083175,
     "address": "305新竹縣新埔鎮中正路198號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "新埔郵局",
     "lat": 24.827162,
     "lng": 121.082494,

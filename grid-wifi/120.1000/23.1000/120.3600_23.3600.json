@@ -1,23 +1,31 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "後壁郵局",
     "lat": 23.365462,
     "lng": 120.362638,
     "address": "731臺南市後壁區後壁村1-15號"
   },
   {
+    "dataType": "wifi",
+    "category": "大眾運輸節點",
     "name": "臺鐵局後壁站辦公室",
     "lat": 23.366167,
     "lng": 120.360623,
     "address": "731臺南市後壁區後壁里77號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市後壁區後廍社區發展協會",
     "lat": 23.368,
     "lng": 120.363,
     "address": "731臺南市後壁區後?里73號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市後壁區頂長社區發展協會",
     "lat": 23.37,
     "lng": 120.364,

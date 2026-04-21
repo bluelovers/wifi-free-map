@@ -1,5 +1,7 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "IGYM枋寮銀髮健身俱樂部",
     "lat": 22.38725,
     "lng": 120.60258,

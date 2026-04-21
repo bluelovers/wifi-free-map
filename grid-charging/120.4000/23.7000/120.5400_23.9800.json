@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "大村郵局",
     "lat": 23.994103,
     "lng": 120.544834,
     "address": "515彰化縣大村鄉大溪路2號"
   },
   {
+    "dataType": "charging",
     "name": "彰化縣大村鄉戶政事務所",
     "lat": 23.994995,
     "lng": 120.544665,

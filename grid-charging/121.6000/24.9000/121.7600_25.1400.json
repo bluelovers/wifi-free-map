@@ -1,29 +1,34 @@
 [
   {
+    "dataType": "charging",
     "name": "基隆安瀾橋郵局",
     "lat": 25.142818,
     "lng": 121.761031,
     "address": "202基隆市中正區中正路330號"
   },
   {
+    "dataType": "charging",
     "name": "海洋大學郵局",
     "lat": 25.150914,
     "lng": 121.772565,
     "address": "202基隆市中正區北寧路2號"
   },
   {
+    "dataType": "charging",
     "name": "基隆中正郵局",
     "lat": 25.151073,
     "lng": 121.766416,
     "address": "202基隆市中正區中正路393巷18號"
   },
   {
+    "dataType": "charging",
     "name": "基隆市中正戶政事務所",
     "lat": 25.151558,
     "lng": 121.767697,
     "address": "202基隆市中正區中正路674號"
   },
   {
+    "dataType": "charging",
     "name": "基隆和平島郵局",
     "lat": 25.154881,
     "lng": 121.765409,

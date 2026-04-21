@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "自來水公司吉安壽豐服務所",
     "lat": 23.962064,
     "lng": 121.572024,
     "address": "973花蓮縣吉安鄉稻香村16鄰稻香路8號"
   },
   {
+    "dataType": "charging",
     "name": "花蓮縣吉安鄉戶政事務所",
     "lat": 23.973254,
     "lng": 121.563871,
     "address": "970花蓮縣花蓮市府前路5號"
   },
   {
+    "dataType": "charging",
     "name": "吉安郵局",
     "lat": 23.978419,
     "lng": 121.566677,

@@ -1,23 +1,27 @@
 [
   {
+    "dataType": "charging",
     "name": "淡水中興郵局",
     "lat": 25.1688,
     "lng": 121.447677,
     "address": "251新北市淡水區學府路29、31、33號"
   },
   {
+    "dataType": "charging",
     "name": "自來水公司淡水營運所",
     "lat": 25.170571,
     "lng": 121.446605,
     "address": "251新北市淡水區仁愛街17號"
   },
   {
+    "dataType": "charging",
     "name": "淡江大學郵局",
     "lat": 25.173615,
     "lng": 121.448507,
     "address": "251新北市淡水區英專路151號"
   },
   {
+    "dataType": "charging",
     "name": "淡水水碓郵局",
     "lat": 25.176148,
     "lng": 121.443325,

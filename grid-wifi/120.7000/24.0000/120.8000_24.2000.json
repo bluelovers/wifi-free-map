@@ -1,191 +1,255 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "種苗改良繁殖場二農場辦公室",
     "lat": 24.20257,
     "lng": 120.80886,
     "address": "426臺中市新社區協興街30號二農場辦公室"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地1",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地2",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地3",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地4",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地5",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地6",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地7",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地8",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地9",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地10",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地11",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地12",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地13",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地14",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2019新社花海場地15",
     "lat": 24.202719,
     "lng": 120.808932,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地1",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地2",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地3",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地4",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地5",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地6",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地7",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地8",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地9",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地10",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地11",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地12",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地13",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地14",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "2018新社花海場地15",
     "lat": 24.202734,
     "lng": 120.808921,
     "address": "426臺中市新社區協興街30號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "種苗改良繁殖場植物種苗中心",
     "lat": 24.21954,
     "lng": 120.80149,

@@ -1,41 +1,55 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "新竹縣尖石鄉義興部落",
     "lat": 24.70367,
     "lng": 121.21169,
     "address": "313新竹縣尖石鄉義興村1鄰21號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "新竹縣尖石鄉公所",
     "lat": 24.705167,
     "lng": 121.201341,
     "address": "313新竹縣尖石鄉嘉樂村2鄰36號"
   },
   {
+    "dataType": "wifi",
+    "category": "文教館所",
     "name": "新竹縣尖石鄉立圖書館",
     "lat": 24.705366,
     "lng": 121.201376,
     "address": "313新竹縣尖石鄉嘉樂村2鄰26號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "尖石郵局",
     "lat": 24.705502,
     "lng": 121.201883,
     "address": "313新竹縣尖石鄉嘉樂村2鄰28-1號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "新竹縣尖石鄉戶政事務所",
     "lat": 24.706038,
     "lng": 121.203135,
     "address": "313新竹縣尖石鄉嘉樂村麥樹仁63號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "新竹縣尖石鄉衛生所",
     "lat": 24.706155,
     "lng": 121.202438,
     "address": "313新竹縣尖石鄉嘉樂村2鄰61號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "新竹縣尖石鄉拿互伊部落",
     "lat": 24.70744,
     "lng": 121.2061,

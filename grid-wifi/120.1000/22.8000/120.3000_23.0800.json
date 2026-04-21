@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "自來水公司新市服務所",
     "lat": 23.083333,
     "lng": 120.3,
     "address": "744臺南市新市區永就里永就55-7號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市山上區豐德里辦公處",
     "lat": 23.089,
     "lng": 120.318,

@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "自來水公司埔里營運所",
     "lat": 23.969203,
     "lng": 120.95865,
     "address": "545南投縣埔里鎮大城路9號"
   },
   {
+    "dataType": "charging",
     "name": "埔里崎下郵局",
     "lat": 23.971218,
     "lng": 120.948561,

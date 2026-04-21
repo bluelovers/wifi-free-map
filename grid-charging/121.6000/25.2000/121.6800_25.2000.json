@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "野柳派出所",
     "lat": 25.2036,
     "lng": 121.6847,
     "address": "207新北市萬里區港西路9號"
   },
   {
+    "dataType": "charging",
     "name": "野柳遊客中心",
     "lat": 25.205291,
     "lng": 121.689928,

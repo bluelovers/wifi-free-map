@@ -1,35 +1,41 @@
 [
   {
+    "dataType": "charging",
     "name": "龜山工業區服務中心",
     "lat": 24.983703,
     "lng": 121.322245,
     "address": "330桃園市桃園區大誠路9號2樓"
   },
   {
+    "dataType": "charging",
     "name": "桃園大樹林郵局",
     "lat": 24.983703,
     "lng": 121.322245,
     "address": "330桃園市桃園區大誠路9號"
   },
   {
+    "dataType": "charging",
     "name": "龜山民安街郵局",
     "lat": 24.989711,
     "lng": 121.324644,
     "address": "333桃園市龜山區民安街120號"
   },
   {
+    "dataType": "charging",
     "name": "桃園市政府警察局龜山分局",
     "lat": 24.99146,
     "lng": 121.338131,
     "address": "333桃園市龜山區自強南路123號"
   },
   {
+    "dataType": "charging",
     "name": "桃園市龜山區戶政事務所",
     "lat": 24.99199,
     "lng": 121.338791,
     "address": "333桃園市龜山區自強南路99號"
   },
   {
+    "dataType": "charging",
     "name": "龜山郵局",
     "lat": 24.993209,
     "lng": 121.334498,

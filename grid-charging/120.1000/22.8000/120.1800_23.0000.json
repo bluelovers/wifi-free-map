@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "台南永樂郵局",
     "lat": 23.000404,
     "lng": 120.192513,
     "address": "700臺南市中西區民族路三段282號"
   },
   {
+    "dataType": "charging",
     "name": "台南文元郵局",
     "lat": 23.01224,
     "lng": 120.19529,

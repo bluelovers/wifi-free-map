@@ -1,35 +1,41 @@
 [
   {
+    "dataType": "charging",
     "name": "高雄民族社區郵局",
     "lat": 22.640332,
     "lng": 120.316542,
     "address": "807高雄市三民區九如一路952號"
   },
   {
+    "dataType": "charging",
     "name": "高雄站後郵局",
     "lat": 22.642173,
     "lng": 120.303117,
     "address": "807高雄市三民區博愛一路28號"
   },
   {
+    "dataType": "charging",
     "name": "高雄德智郵局",
     "lat": 22.643529,
     "lng": 120.311174,
     "address": "807高雄市三民區德智里熱河一街84、86號"
   },
   {
+    "dataType": "charging",
     "name": "高雄灣仔內郵局",
     "lat": 22.647844,
     "lng": 120.317341,
     "address": "807高雄市三民區建工路679、681號"
   },
   {
+    "dataType": "charging",
     "name": "高雄醫學大學郵局",
     "lat": 22.648868,
     "lng": 120.309949,
     "address": "807高雄市三民區十全一路100號"
   },
   {
+    "dataType": "charging",
     "name": "高雄博愛路郵局",
     "lat": 22.650942,
     "lng": 120.303986,

@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "內埔水門郵局",
     "lat": 22.709647,
     "lng": 120.64514,
     "address": "912屏東縣內埔鄉水門村育英路1號"
   },
   {
+    "dataType": "charging",
     "name": "三地門郵局",
     "lat": 22.714657,
     "lng": 120.653339,

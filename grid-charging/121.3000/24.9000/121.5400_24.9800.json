@@ -1,41 +1,48 @@
 [
   {
+    "dataType": "charging",
     "name": "文山木新郵局",
     "lat": 24.980382,
     "lng": 121.556313,
     "address": "116臺北市文山區木新路三段329號"
   },
   {
+    "dataType": "charging",
     "name": "新店大坪林郵局",
     "lat": 24.981547,
     "lng": 121.541885,
     "address": "231新北市新店區北新路三段116號"
   },
   {
+    "dataType": "charging",
     "name": "文山溝子口郵局",
     "lat": 24.987344,
     "lng": 121.548444,
     "address": "116臺北市文山區木柵路一段119號"
   },
   {
+    "dataType": "charging",
     "name": "世新大學郵局",
     "lat": 24.988625,
     "lng": 121.544123,
     "address": "116臺北市文山區木柵路一段17巷1號"
   },
   {
+    "dataType": "charging",
     "name": "文山景美郵局",
     "lat": 24.992733,
     "lng": 121.540925,
     "address": "116臺北市文山區羅斯福路六段389號"
   },
   {
+    "dataType": "charging",
     "name": "交通部公路總局第一區養護工程處景美工務段",
     "lat": 24.997506,
     "lng": 121.542745,
     "address": "116臺北市文山區三福街12號"
   },
   {
+    "dataType": "charging",
     "name": "文山萬芳郵局",
     "lat": 24.998103,
     "lng": 121.558632,

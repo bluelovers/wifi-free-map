@@ -1,29 +1,39 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "永康崑山郵局",
     "lat": 23.000881,
     "lng": 120.259207,
     "address": "710臺南市永康區永大路二段3號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "第一商業銀行(大灣分行)",
     "lat": 23.00106,
     "lng": 120.259288,
     "address": "710臺南市永康區永大路二段5號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市永康區復國里辦公處",
     "lat": 23.005,
     "lng": 120.2474,
     "address": "710臺南市永康區復國里復國二路46號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市永康區復華里辦公處",
     "lat": 23.015,
     "lng": 120.247,
     "address": "710臺南市永康區復華里22鄰國華街110號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市網寮常青關懷協會",
     "lat": 23.015,
     "lng": 120.255,

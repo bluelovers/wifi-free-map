@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市仁德區保安里辦公處",
     "lat": 22.916,
     "lng": 120.561,
     "address": "717臺南市仁德區保安里文賢二街6號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "高雄市靈雲功德會",
     "lat": 22.916,
     "lng": 120.561,

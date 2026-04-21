@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "自來水公司蘆洲服務所",
     "lat": 25.082108,
     "lng": 121.458556,
     "address": "247新北市蘆洲區中原路68號"
   },
   {
+    "dataType": "charging",
     "name": "蘆洲中原路郵局",
     "lat": 25.082926,
     "lng": 121.459293,

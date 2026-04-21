@@ -1,23 +1,27 @@
 [
   {
+    "dataType": "charging",
     "name": "高雄國際航空站",
     "lat": 22.580367,
     "lng": 120.330231,
     "address": "806高雄市前鎮區中山四路二號"
   },
   {
+    "dataType": "charging",
     "name": "高雄草衙郵局",
     "lat": 22.583617,
     "lng": 120.322546,
     "address": "806高雄市前鎮區草衙一路78、80號"
   },
   {
+    "dataType": "charging",
     "name": "鳳山五甲郵局",
     "lat": 22.592409,
     "lng": 120.32731,
     "address": "830高雄市鳳山區五甲三路45號"
   },
   {
+    "dataType": "charging",
     "name": "高雄市鳳山區第二戶政事務所",
     "lat": 22.598599,
     "lng": 120.334883,

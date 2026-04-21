@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "路竹郵局",
     "lat": 22.860899,
     "lng": 120.260898,
     "address": "821高雄市路竹區中興路11號"
   },
   {
+    "dataType": "charging",
     "name": "路竹一甲郵局",
     "lat": 22.873968,
     "lng": 120.270534,

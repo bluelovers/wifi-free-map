@@ -1,53 +1,71 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市東區裕聖社區發展協會",
     "lat": 22.98,
     "lng": 120.246,
     "address": "701臺南市東區裕聖里裕敬路350號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市東區關聖里辦公處",
     "lat": 22.987,
     "lng": 120.243,
     "address": "701臺南市東區關聖里裕孝路118號三樓"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市東區後甲社區發展協會",
     "lat": 22.99,
     "lng": 120.243,
     "address": "701臺南市東區南聖里裕農路878號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "高速公路局南區工程處服務台",
     "lat": 22.992171,
     "lng": 120.24727,
     "address": "701臺南市東區裕農路991號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市東山區東正里辦公處",
     "lat": 22.995,
     "lng": 120.242,
     "address": "733臺南市東山區東正里東勢77之2號"
   },
   {
+    "dataType": "wifi",
+    "category": "公立醫院",
     "name": "高雄榮民總醫院臺南分院醫療大樓一樓大廳",
     "lat": 22.997183,
     "lng": 120.240839,
     "address": "710臺南市永康區復興路427號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市永康區建國里辦公處",
     "lat": 22.998,
     "lng": 120.247,
     "address": "710臺南市永康區建國里23鄰復興路133號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市永康區光復里辦公處",
     "lat": 22.9988,
     "lng": 120.246,
     "address": "710臺南市永康區光復里復興路140號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市永康區復興里辦公處",
     "lat": 22.999,
     "lng": 120.241,

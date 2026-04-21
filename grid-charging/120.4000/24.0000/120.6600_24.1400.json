@@ -1,43 +1,50 @@
 [
   {
+    "dataType": "charging",
     "name": "臺中市中區戶政事務所",
     "lat": 24.144106,
     "lng": 120.679567,
     "address": "400臺中市中區興中街80號"
   },
   {
+    "dataType": "charging",
     "name": "台中英才郵局",
     "lat": 24.144563,
     "lng": 120.665928,
     "address": "403臺中市西區民生路200號"
   },
   {
+    "dataType": "charging",
     "name": "台中英才郵局國際包裹驗關室",
     "lat": 24.144913,
     "lng": 120.665996,
     "address": "403臺中市西區民生路200號7樓"
   },
   {
+    "dataType": "charging",
     "name": "台中中正路郵局",
     "lat": 24.147255,
     "lng": 120.673927,
     "address": "403臺中市西區中正路451號"
   },
   {
+    "dataType": "charging",
     "name": "台中公益路郵局",
     "lat": 24.150631,
     "lng": 120.660753,
     "address": "403臺中市西區公益里公益路193號"
   },
   {
+    "dataType": "charging",
     "name": "台中五權路郵局",
     "lat": 24.152103,
     "lng": 120.678591,
     "address": "404臺中市北區五權路311、313號"
   },
   {
+    "dataType": "charging",
     "name": "台中淡溝郵局",
-    "lat": 24.1570459,
+    "lat": 24.157046,
     "lng": 120.670352,
     "address": "404臺中市北區民權路365號"
   }

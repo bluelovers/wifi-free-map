@@ -1,29 +1,34 @@
 [
   {
+    "dataType": "charging",
     "name": "台南南小北郵局",
     "lat": 23.003423,
     "lng": 120.204285,
     "address": "704臺南市北區西門路三段214號"
   },
   {
+    "dataType": "charging",
     "name": "自來水公司台南服務所",
     "lat": 23.006177,
     "lng": 120.216737,
     "address": "704臺南市北區開元路67號"
   },
   {
+    "dataType": "charging",
     "name": "台南開元路郵局",
     "lat": 23.007036,
     "lng": 120.219796,
     "address": "704臺南市北區開元路162號"
   },
   {
+    "dataType": "charging",
     "name": "台南大光郵局",
     "lat": 23.012987,
     "lng": 120.218083,
     "address": "704臺南市北區長榮路五段266號"
   },
   {
+    "dataType": "charging",
     "name": "台南北小北郵局",
     "lat": 23.01653,
     "lng": 120.211191,

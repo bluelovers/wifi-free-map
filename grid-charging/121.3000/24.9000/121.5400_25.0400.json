@@ -1,83 +1,97 @@
 [
   {
+    "dataType": "charging",
     "name": "台北敦南郵局",
     "lat": 25.040583,
     "lng": 121.550879,
     "address": "106臺北市大安區忠孝東路四段170巷9號"
   },
   {
+    "dataType": "charging",
     "name": "交通部觀光局9樓辦公室",
     "lat": 25.041141,
     "lng": 121.555878,
     "address": "106臺北市大安區忠孝東路4段290號9樓"
   },
   {
+    "dataType": "charging",
     "name": "交通部觀光局6樓辦公室",
     "lat": 25.041141,
     "lng": 121.555878,
     "address": "106臺北市大安區忠孝東路4段290號6樓"
   },
   {
+    "dataType": "charging",
     "name": "交通部觀光局7樓辦公室",
     "lat": 25.041141,
     "lng": 121.555878,
     "address": "106臺北市大安區忠孝東路4段290號7樓"
   },
   {
+    "dataType": "charging",
     "name": "台北光武郵局",
     "lat": 25.043021,
     "lng": 121.545601,
     "address": "106臺北市大安區大安路一段52巷16號"
   },
   {
+    "dataType": "charging",
     "name": "經濟部能源局會客室",
     "lat": 25.047912,
     "lng": 121.5437,
     "address": "104臺北市中山區復興北路2號13樓"
   },
   {
+    "dataType": "charging",
     "name": "台北光復郵局",
     "lat": 25.047932,
     "lng": 121.557611,
     "address": "105臺北市松山區八德路三段240號"
   },
   {
+    "dataType": "charging",
     "name": "公路總局台北市區監理所",
     "lat": 25.048135,
     "lng": 121.558077,
     "address": "105臺北市松山區八德路四段21號3樓"
   },
   {
+    "dataType": "charging",
     "name": "台北中崙郵局",
     "lat": 25.049244,
     "lng": 121.543832,
     "address": "104臺北市中山區復興北路40號"
   },
   {
+    "dataType": "charging",
     "name": "台北體育場郵局-1",
     "lat": 25.051551,
     "lng": 121.548071,
     "address": "105臺北市松山區南京東路三段346號"
   },
   {
+    "dataType": "charging",
     "name": "台北體育場郵局-2",
     "lat": 25.051551,
     "lng": 121.548071,
     "address": "105臺北市松山區南京東路三段346號"
   },
   {
+    "dataType": "charging",
     "name": "台北興安郵局",
     "lat": 25.055728,
     "lng": 121.543485,
     "address": "104臺北市中山區復興北路210、212號"
   },
   {
+    "dataType": "charging",
     "name": "台北台塑郵局",
     "lat": 25.05765,
     "lng": 121.551082,
     "address": "105臺北市松山區民生東路四段54號"
   },
   {
+    "dataType": "charging",
     "name": "台北延壽郵局",
     "lat": 25.058151,
     "lng": 121.555969,

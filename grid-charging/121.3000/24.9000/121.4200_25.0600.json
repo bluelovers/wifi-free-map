@@ -1,29 +1,34 @@
 [
   {
+    "dataType": "charging",
     "name": "泰山郵局",
     "lat": 25.062482,
     "lng": 121.433622,
     "address": "243新北市泰山區楓江路10號"
   },
   {
+    "dataType": "charging",
     "name": "自來水公司泰山營運所",
     "lat": 25.063696,
     "lng": 121.428743,
     "address": "243新北市泰山區泰林路二段347號"
   },
   {
+    "dataType": "charging",
     "name": "國道公路警察局",
     "lat": 25.067602,
     "lng": 121.422336,
     "address": "243新北市泰山區黎明里半山雅70之2號"
   },
   {
+    "dataType": "charging",
     "name": "五股德音郵局",
     "lat": 25.068405,
     "lng": 121.435137,
     "address": "248新北市五股區成泰路一段77號"
   },
   {
+    "dataType": "charging",
     "name": "五股登林路郵局",
     "lat": 25.069468,
     "lng": 121.4299,

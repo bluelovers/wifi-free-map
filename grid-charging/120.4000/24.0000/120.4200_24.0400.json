@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "鹿港郵局",
     "lat": 24.055376,
     "lng": 120.432336,
     "address": "505彰化縣鹿港鎮成功路1號"
   },
   {
+    "dataType": "charging",
     "name": "彰化縣鹿港鎮戶政事務所",
     "lat": 24.057143,
     "lng": 120.433631,
     "address": "505彰化縣鹿港鎮中山路292號"
   },
   {
+    "dataType": "charging",
     "name": "台電公司鹿港服務所大廳",
     "lat": 24.057711,
     "lng": 120.433052,

@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "內湖碧湖郵局",
     "lat": 25.081739,
     "lng": 121.588943,
     "address": "114臺北市內湖區內湖路二段225號"
   },
   {
+    "dataType": "charging",
     "name": "內湖金龍郵局",
     "lat": 25.08679,
     "lng": 121.590004,

@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "屏東縣春日鄉力里部落",
     "lat": 22.43062,
     "lng": 120.64722,
     "address": "942屏東縣春日鄉圓山路3號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "屏東縣來義鄉高見部落",
     "lat": 22.436959,
     "lng": 120.640528,

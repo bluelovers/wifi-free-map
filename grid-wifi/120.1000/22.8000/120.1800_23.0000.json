@@ -1,53 +1,71 @@
 [
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "台南永樂郵局",
     "lat": 23.000404,
     "lng": 120.192513,
     "address": "700臺南市中西區民族路三段282號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市中西區兌悅里辦公處",
     "lat": 23.001,
     "lng": 120.196,
     "address": "700臺南市中西區兌悅里忠孝街93巷47號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市中西區西湖社區發展協會",
     "lat": 23.002,
     "lng": 120.18,
     "address": "700臺南市中西區西湖里湖美街70巷3號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北區安民社區發展協會",
     "lat": 23.002,
     "lng": 120.199,
     "address": "704臺南市北區立人里海安路三段59號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "財團法人台灣省臺南市美好基督教會",
     "lat": 23.01,
     "lng": 120.187,
     "address": "704臺南市北區大豐里大興街285巷26弄9號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北區文成里辦公處",
     "lat": 23.01,
     "lng": 120.194,
     "address": "704臺南市北區元美里和緯路三段370號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "臺南市政府消防局第六大隊部",
     "lat": 23.010362,
     "lng": 120.194028,
     "address": "704臺南市北區文賢路678號1樓"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市北區大港社區發展協會",
     "lat": 23.012,
     "lng": 120.188,
     "address": "704臺南市北區大港里大興街226巷50號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "台南文元郵局",
     "lat": 23.01224,
     "lng": 120.19529,

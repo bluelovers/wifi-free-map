@@ -1,23 +1,27 @@
 [
   {
+    "dataType": "charging",
     "name": "海軍官校郵局",
     "lat": 22.704778,
     "lng": 120.292324,
     "address": "811高雄市楠梓區軍校路669號"
   },
   {
+    "dataType": "charging",
     "name": "楠梓莒光郵局",
     "lat": 22.709841,
     "lng": 120.298784,
     "address": "811高雄市楠梓區新昌街53、55號"
   },
   {
+    "dataType": "charging",
     "name": "楠梓右昌郵局",
     "lat": 22.714777,
     "lng": 120.288576,
     "address": "811高雄市楠梓區右昌街347號"
   },
   {
+    "dataType": "charging",
     "name": "楠梓亞洲城郵局",
     "lat": 22.716335,
     "lng": 120.296555,

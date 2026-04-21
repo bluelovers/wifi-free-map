@@ -1,17 +1,23 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市永康區新樹社區發展協會",
     "lat": 23.023,
     "lng": 120.275,
     "address": "710臺南市永康區新樹里富強路二段98號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市永康區龍潭社區發展協會",
     "lat": 23.032,
     "lng": 120.267,
     "address": "710臺南市永康區龍潭里龍國街400號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市永康區龍埔里辦公處",
     "lat": 23.038,
     "lng": 120.261,

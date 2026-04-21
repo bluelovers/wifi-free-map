@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "大林郵局",
     "lat": 23.602608,
     "lng": 120.456829,
     "address": "622嘉義縣大林鎮吉林里平和街28-1號"
   },
   {
+    "dataType": "charging",
     "name": "大林中山路郵局",
     "lat": 23.606013,
     "lng": 120.456139,

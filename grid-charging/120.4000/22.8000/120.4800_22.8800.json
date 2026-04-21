@@ -1,29 +1,34 @@
 [
   {
+    "dataType": "charging",
     "name": "旗山旗尾郵局",
     "lat": 22.881776,
     "lng": 120.492509,
     "address": "842高雄市旗山區延平二路8、10號"
   },
   {
+    "dataType": "charging",
     "name": "旗山郵局",
     "lat": 22.883957,
     "lng": 120.482973,
     "address": "842高雄市旗山區延平一路690號"
   },
   {
+    "dataType": "charging",
     "name": "高雄市旗山區戶政事務所",
     "lat": 22.889381,
     "lng": 120.48337,
     "address": "842高雄市旗山區延平一路503號"
   },
   {
+    "dataType": "charging",
     "name": "自來水公司旗山營運所",
     "lat": 22.891236,
     "lng": 120.484002,
     "address": "842高雄市旗山區民權三街22號"
   },
   {
+    "dataType": "charging",
     "name": "旗山四保郵局",
     "lat": 22.891669,
     "lng": 120.481383,

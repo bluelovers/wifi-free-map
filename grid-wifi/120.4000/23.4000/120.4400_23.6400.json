@@ -1,17 +1,23 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "社團法人雲林縣多聞協會",
     "lat": 23.648,
     "lng": 120.457,
     "address": "631雲林縣大埤鄉嘉興村嘉興30號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "雲林縣古坑鄉湳仔社區發展協會",
     "lat": 23.648,
     "lng": 120.457,
     "address": "646雲林縣古坑鄉湳仔村崙子30號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "雲林鄉大埤鄉豐田社區發展協會",
     "lat": 23.657358,
     "lng": 120.458827,

@@ -1,29 +1,34 @@
 [
   {
+    "dataType": "charging",
     "name": "中壢自立郵局",
     "lat": 24.963636,
     "lng": 121.253709,
     "address": "320桃園市中壢區莊敬路856號1樓"
   },
   {
+    "dataType": "charging",
     "name": "中壢忠義郵局",
     "lat": 24.96666,
     "lng": 121.244335,
     "address": "320桃園市中壢區中華路一段905、907號"
   },
   {
+    "dataType": "charging",
     "name": "桃園市中壢區戶政事所自強工作站",
     "lat": 24.967748,
     "lng": 121.259015,
     "address": "320桃園市中壢區強國路46號2樓"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局內壢站車站候車室",
     "lat": 24.972689,
     "lng": 121.257954,
     "address": "320桃園市中壢區中華路一段267號"
   },
   {
+    "dataType": "charging",
     "name": "中壢內壢郵局",
     "lat": 24.974435,
     "lng": 121.255718,

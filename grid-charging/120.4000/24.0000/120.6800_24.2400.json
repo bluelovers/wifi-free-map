@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "神岡社口郵局",
     "lat": 24.247116,
     "lng": 120.681902,
     "address": "429臺中市神岡區社口村中山路611號"
   },
   {
+    "dataType": "charging",
     "name": "神岡岸裡郵局",
     "lat": 24.248616,
     "lng": 120.697934,

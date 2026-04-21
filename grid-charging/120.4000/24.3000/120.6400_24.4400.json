@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "苑裡郵局",
     "lat": 24.441687,
     "lng": 120.653489,
     "address": "358苗栗縣苑裡鎮忠勇街15號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局苑裡站候車室",
     "lat": 24.443542,
     "lng": 120.651245,

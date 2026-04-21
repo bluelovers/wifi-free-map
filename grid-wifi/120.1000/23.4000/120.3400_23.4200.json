@@ -1,5 +1,7 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "福興宮",
     "lat": 23.437,
     "lng": 120.348,

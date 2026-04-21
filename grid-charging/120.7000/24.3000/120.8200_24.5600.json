@@ -1,35 +1,41 @@
 [
   {
+    "dataType": "charging",
     "name": "自來水公司苗栗營運所",
     "lat": 24.562121,
     "lng": 120.82254,
     "address": "360苗栗縣苗栗市中山路335號"
   },
   {
+    "dataType": "charging",
     "name": "苗栗北苗郵局",
     "lat": 24.566789,
     "lng": 120.823911,
     "address": "360苗栗縣苗栗市中正路138號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局苗栗站候車室",
     "lat": 24.570022,
     "lng": 120.822529,
     "address": "360苗栗縣苗栗市為公路1號"
   },
   {
+    "dataType": "charging",
     "name": "台電公司苗栗區處服務中心營業廳",
     "lat": 24.571005,
     "lng": 120.828511,
     "address": "360苗栗縣苗栗市為公路236號"
   },
   {
+    "dataType": "charging",
     "name": "中油公司苗栗服務中心",
-    "lat": 24.5715441,
+    "lat": 24.571544,
     "lng": 120.825425,
     "address": "360苗栗縣苗栗市福星街25號"
   },
   {
+    "dataType": "charging",
     "name": "苗栗嘉盛郵局",
     "lat": 24.57451,
     "lng": 120.829464,

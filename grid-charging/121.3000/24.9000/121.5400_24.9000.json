@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "龜山派出所",
     "lat": 24.9027,
     "lng": 121.5518,
     "address": "231新北市新店區新烏路三段152號"
   },
   {
+    "dataType": "charging",
     "name": "台電公司訓練所在職大樓大廳川堂",
     "lat": 24.90313,
     "lng": 121.55334,
     "address": "231新北市新店區新烏路3段81號"
   },
   {
+    "dataType": "charging",
     "name": "新店龜山郵局",
     "lat": 24.90919,
     "lng": 121.551409,

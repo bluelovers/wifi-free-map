@@ -1,29 +1,34 @@
 [
   {
+    "dataType": "charging",
     "name": "高雄大順郵局",
     "lat": 22.643439,
     "lng": 120.326242,
     "address": "807高雄市三民區大順二路207號"
   },
   {
+    "dataType": "charging",
     "name": "高雄義民郵局",
     "lat": 22.645938,
     "lng": 120.330064,
     "address": "807高雄市三民區大豐二路203號"
   },
   {
+    "dataType": "charging",
     "name": "高雄市三民區第二戶政事務所",
     "lat": 22.649383,
     "lng": 120.325613,
     "address": "807高雄市三民區大順二路468號9樓"
   },
   {
+    "dataType": "charging",
     "name": "高雄建工郵局",
     "lat": 22.651207,
     "lng": 120.330325,
     "address": "807高雄市三民區大昌二路517號"
   },
   {
+    "dataType": "charging",
     "name": "高雄大昌郵局",
     "lat": 22.657033,
     "lng": 120.321994,

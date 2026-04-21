@@ -1,17 +1,23 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺東縣蘭嶼鄉紅頭部落",
     "lat": 22.02468,
     "lng": 121.55567,
     "address": "952臺東縣蘭嶼鄉紅頭村紅頭78號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "蘭嶼郵局",
     "lat": 22.025038,
     "lng": 121.554228,
     "address": "952臺東縣蘭嶼鄉紅頭村37號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺東縣蘭嶼鄉漁人部落",
     "lat": 22.02735,
     "lng": 121.5442,

@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "彰化縣永靖鄉戶政事務所",
     "lat": 23.92031,
     "lng": 120.547013,
     "address": "512彰化縣永靖鄉永靖街20號"
   },
   {
+    "dataType": "charging",
     "name": "永靖郵局",
     "lat": 23.920361,
     "lng": 120.546642,
     "address": "512彰化縣永靖鄉永靖街27號"
   },
   {
+    "dataType": "charging",
     "name": "埔心太平郵局",
     "lat": 23.93882,
     "lng": 120.559097,

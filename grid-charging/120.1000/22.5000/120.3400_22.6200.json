@@ -1,35 +1,41 @@
 [
   {
+    "dataType": "charging",
     "name": "台電公司鳳山區處服務中心營業廳",
     "lat": 22.621206,
     "lng": 120.349632,
     "address": "830高雄市鳳山區青年路1段100號"
   },
   {
+    "dataType": "charging",
     "name": "鳳山三民路郵局",
     "lat": 22.625602,
     "lng": 120.357964,
     "address": "830高雄市鳳山區三民路289號"
   },
   {
+    "dataType": "charging",
     "name": "鳳山行政中心郵局",
     "lat": 22.630114,
     "lng": 120.343852,
     "address": "830高雄市鳳山區光復路二段132號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局鳳山站候車大廳",
     "lat": 22.631325,
     "lng": 120.357495,
     "address": "830高雄市鳳山區曹公路70號"
   },
   {
+    "dataType": "charging",
     "name": "鳳山文山郵局",
     "lat": 22.638324,
     "lng": 120.356289,
     "address": "830高雄市鳳山區文衡路236號"
   },
   {
+    "dataType": "charging",
     "name": "高雄民壯郵局",
     "lat": 22.638907,
     "lng": 120.340729,

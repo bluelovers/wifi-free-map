@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "屏東縣來義鄉大後部落",
     "lat": 22.56092,
     "lng": 120.66236,
     "address": "922屏東縣來義鄉義林村大後18號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "屏東縣泰武鄉佳興部落",
     "lat": 22.56989,
     "lng": 120.66208,

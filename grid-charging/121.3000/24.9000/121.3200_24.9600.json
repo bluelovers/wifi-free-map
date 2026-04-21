@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "鶯歌鳳鳴郵局",
     "lat": 24.972035,
     "lng": 121.325882,
     "address": "239新北市鶯歌區鶯桃路2段11號"
   },
   {
+    "dataType": "charging",
     "name": "桃園桃鶯郵局",
     "lat": 24.977927,
     "lng": 121.322157,

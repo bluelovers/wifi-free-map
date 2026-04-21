@@ -1,41 +1,55 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺中市神岡區庄前社區發展協會",
     "lat": 24.254482,
     "lng": 120.660473,
     "address": "429臺中市神岡區庄前里神林路35號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺中市神岡區北庄社區發展協會",
     "lat": 24.257404,
     "lng": 120.668254,
     "address": "429臺中市神岡區北庄里中山路1244號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "神岡區公所",
     "lat": 24.257947,
     "lng": 120.661424,
     "address": "429臺中市神岡區神岡路30號"
   },
   {
+    "dataType": "wifi",
+    "category": "公立醫院",
     "name": "神岡區衛生所",
     "lat": 24.258169,
     "lng": 120.662832,
     "address": "429臺中市神岡區神岡路2號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "神岡郵局",
     "lat": 24.25823,
     "lng": 120.663555,
     "address": "429臺中市神岡區神岡路4號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺中市神岡區神岡社區發展協會",
     "lat": 24.259063,
     "lng": 120.660956,
     "address": "429臺中市神岡區神岡里中山路1460號四樓"
   },
   {
+    "dataType": "wifi",
+    "category": "文教館所",
     "name": "臺中市立圖書館神岡分館",
     "lat": 24.259178,
     "lng": 120.661005,

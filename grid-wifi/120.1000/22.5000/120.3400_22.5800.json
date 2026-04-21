@@ -1,29 +1,39 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "高雄市小港區桂林中厝里聯合活動中心",
     "lat": 22.5821,
     "lng": 120.35174,
     "address": "812高雄市小港區桂陽路332號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "華南商業銀行高雄桂林分行",
     "lat": 22.582433,
     "lng": 120.357456,
     "address": "812高雄市小港區桂陽路44號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "高雄桂林郵局",
     "lat": 22.583315,
     "lng": 120.358029,
     "address": "812高雄市小港區桂華街130號"
   },
   {
+    "dataType": "wifi",
+    "category": "文教館所",
     "name": "高雄市立圖書館中崙分館",
     "lat": 22.597008,
     "lng": 120.354054,
     "address": "830高雄市鳳山區中崙五路1號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "中華無限愛關懷協會",
     "lat": 22.599,
     "lng": 120.353,

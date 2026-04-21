@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "新莊五工郵局",
     "lat": 25.06429,
     "lng": 121.460038,
     "address": "242新北市新莊區五工三路50巷2號"
   },
   {
+    "dataType": "charging",
     "name": "五股褒仔寮郵局",
     "lat": 25.072284,
     "lng": 121.469547,

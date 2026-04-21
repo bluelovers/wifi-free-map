@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "馬祖WiFi加值_山海一家",
     "lat": 25.973801,
     "lng": 119.930418,
     "address": "211連江縣莒光鄉山海一家"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "馬祖西莒郵局",
     "lat": 25.977771,
     "lng": 119.933926,

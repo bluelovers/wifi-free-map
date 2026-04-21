@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "高速公路局北區工程處石碇服務區服務台",
     "lat": 25,
     "lng": 121.65,
     "address": "223新北市石碇區豐林里楓子林62號"
   },
   {
+    "dataType": "charging",
     "name": "石碇分駐所",
     "lat": 25.0097,
     "lng": 121.6424,

@@ -1,53 +1,62 @@
 [
   {
+    "dataType": "charging",
     "name": "台中大智郵局",
     "lat": 24.131769,
     "lng": 120.689697,
     "address": "401臺中市東區建成路676、678號"
   },
   {
+    "dataType": "charging",
     "name": "台中台中路郵局",
     "lat": 24.133273,
     "lng": 120.683402,
     "address": "402臺中市南區臺中路100號"
   },
   {
+    "dataType": "charging",
     "name": "臺中市東區戶政事務所",
     "lat": 24.133854,
     "lng": 120.684861,
     "address": "401臺中市東區和平街61號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局臺中站旅遊中心",
     "lat": 24.13779,
     "lng": 120.685151,
     "address": "400臺中市中區臺灣大道1號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局臺中站後站大廳",
     "lat": 24.13779,
     "lng": 120.685151,
     "address": "400臺中市中區臺灣大道1號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局臺中站月台8車位置",
     "lat": 24.13779,
     "lng": 120.685151,
     "address": "400臺中市中區臺灣大道1號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局臺中站前站女公廁",
     "lat": 24.13779,
     "lng": 120.685151,
     "address": "400臺中市中區臺灣大道1號"
   },
   {
+    "dataType": "charging",
     "name": "台中建國路郵局",
     "lat": 24.137815,
     "lng": 120.685119,
     "address": "400臺中市中區建國路141號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局中區供應廠採購課",
     "lat": 24.138575,
     "lng": 120.689663,

@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "潮州郵局",
     "lat": 22.544526,
     "lng": 120.53712,
     "address": "920屏東縣潮州鎮光春路13號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局潮州站候車室",
     "lat": 22.550086,
     "lng": 120.53642,
     "address": "920屏東縣潮州鎮信義路111號"
   },
   {
+    "dataType": "charging",
     "name": "潮州新生路郵局",
     "lat": 22.551286,
     "lng": 120.538586,

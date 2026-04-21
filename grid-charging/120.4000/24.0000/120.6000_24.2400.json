@@ -1,5 +1,6 @@
 [
   {
+    "dataType": "charging",
     "name": "臺中航空站",
     "lat": 24.255261,
     "lng": 120.60042,

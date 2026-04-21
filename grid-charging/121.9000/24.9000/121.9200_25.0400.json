@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "貢寮澳底郵局",
     "lat": 25.053976,
     "lng": 121.924142,
     "address": "228新北市貢寮區仁和路230號"
   },
   {
+    "dataType": "charging",
     "name": "澳底派出所",
     "lat": 25.0563,
     "lng": 121.9246,

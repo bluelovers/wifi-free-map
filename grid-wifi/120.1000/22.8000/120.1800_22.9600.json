@@ -1,65 +1,87 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市南區南華社區發展協會",
     "lat": 22.963,
     "lng": 120.186,
     "address": "702臺南市南區南華里中華南路二段400巷2弄29號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市南區明興社區發展協會",
     "lat": 22.965,
     "lng": 120.192,
     "address": "702臺南市南區明興里德興路88號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市南區明亮里辦公處",
     "lat": 22.967,
     "lng": 120.195,
     "address": "702臺南市南區明亮里新都路396號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市南區白雪社區發展協會",
     "lat": 22.968,
     "lng": 120.188,
     "address": "702臺南市南區鹽埕里鹽埕路157號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "台南鹽埕郵局",
     "lat": 22.968413,
     "lng": 120.190461,
     "address": "702臺南市南區金華路一段292號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "台南新義郵局",
     "lat": 22.96983,
     "lng": 120.183141,
     "address": "702臺南市南區安平工業區新義路1號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "安平工業區服務中心",
-    "lat": 22.9736591,
+    "lat": 22.973659,
     "lng": 120.183342,
     "address": "702臺南市南區中華西路一段67號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "社團法人臺南市基督教新興牧鄰協會",
     "lat": 22.975,
     "lng": 120.194,
     "address": "702臺南市南區田寮里26鄰大成路二段142號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市南區國宅社區發展協會",
     "lat": 22.977,
     "lng": 120.189,
     "address": "702臺南市南區國宅里金華路二段33巷81號"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "臺南市南區新興里辦公處",
     "lat": 22.9793,
     "lng": 120.1963,
     "address": "702臺南市南區新興里新興路22號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "華南商業銀行金華分行",
     "lat": 22.979809,
     "lng": 120.191588,

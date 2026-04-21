@@ -1,65 +1,76 @@
 [
   {
+    "dataType": "charging",
     "name": "中油公司屏東直銷中心",
     "lat": 22.660946,
     "lng": 120.487895,
     "address": "900屏東縣屏東市復興路261號"
   },
   {
+    "dataType": "charging",
     "name": "台糖公司屏東區處總務課",
     "lat": 22.662229,
     "lng": 120.48826,
     "address": "900屏東縣屏東市復興路245號"
   },
   {
+    "dataType": "charging",
     "name": "屏東復興郵局",
     "lat": 22.662988,
     "lng": 120.488917,
     "address": "900屏東縣屏東市一心里臺糖街3號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局屏東站候車室",
     "lat": 22.669306,
     "lng": 120.486203,
     "address": "900屏東縣屏東市光復路43號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局屏東站第1月台",
     "lat": 22.669306,
     "lng": 120.486203,
     "address": "900屏東縣屏東市光復路43號"
   },
   {
+    "dataType": "charging",
     "name": "屏東民生路郵局",
     "lat": 22.670473,
     "lng": 120.491605,
     "address": "900屏東縣屏東市民生路250號"
   },
   {
+    "dataType": "charging",
     "name": "屏東大埔郵局",
     "lat": 22.670981,
     "lng": 120.482672,
     "address": "900屏東縣屏東市民族路182-2號"
   },
   {
+    "dataType": "charging",
     "name": "屏東林森路郵局",
     "lat": 22.671507,
     "lng": 120.497799,
     "address": "900屏東縣屏東市林森路30-5號"
   },
   {
+    "dataType": "charging",
     "name": "屏東北平路郵局",
     "lat": 22.67581,
     "lng": 120.488853,
     "address": "900屏東縣屏東市北平路26號"
   },
   {
+    "dataType": "charging",
     "name": "經濟部加工出口區管理處屏東分處1樓洽公區",
     "lat": 22.676111,
     "lng": 120.494167,
     "address": "900屏東縣屏東市屏加路1號"
   },
   {
+    "dataType": "charging",
     "name": "屏東勝利路郵局",
     "lat": 22.679277,
     "lng": 120.486011,

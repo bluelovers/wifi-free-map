@@ -1,17 +1,20 @@
 [
   {
+    "dataType": "charging",
     "name": "清華大學郵局",
     "lat": 24.795979,
     "lng": 120.997598,
     "address": "300新竹市東區光復路二段99號"
   },
   {
+    "dataType": "charging",
     "name": "自來水公司新竹服務所",
     "lat": 24.797151,
     "lng": 120.987737,
     "address": "300新竹市東區博愛街1號"
   },
   {
+    "dataType": "charging",
     "name": "新竹學府路郵局",
     "lat": 24.797184,
     "lng": 120.986483,

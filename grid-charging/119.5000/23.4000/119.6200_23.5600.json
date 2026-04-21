@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "馬公航空站",
     "lat": 23.560616,
     "lng": 119.6297,
     "address": "885澎湖縣湖西鄉隘門村126-5號"
   },
   {
+    "dataType": "charging",
     "name": "湖西隘門郵局",
     "lat": 23.565566,
     "lng": 119.635505,

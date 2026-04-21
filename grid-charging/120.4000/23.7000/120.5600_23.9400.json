@@ -1,47 +1,55 @@
 [
   {
+    "dataType": "charging",
     "name": "員林南門郵局",
     "lat": 23.950811,
     "lng": 120.575568,
     "address": "510彰化縣員林市中正路63、65號"
   },
   {
+    "dataType": "charging",
     "name": "員林郵局",
     "lat": 23.957657,
     "lng": 120.577318,
     "address": "510彰化縣員林市員東路二段488號"
   },
   {
+    "dataType": "charging",
     "name": "員林西門郵局",
     "lat": 23.95825,
     "lng": 120.568534,
     "address": "510彰化縣員林市新生路85號"
   },
   {
+    "dataType": "charging",
     "name": "員林中正路郵局",
     "lat": 23.958548,
     "lng": 120.572154,
     "address": "510彰化縣員林市中正路457號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局員林站1樓大廳",
     "lat": 23.95947,
     "lng": 120.569993,
     "address": "510彰化縣員林市民權街55號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局員林站3F嚮導員室",
     "lat": 23.95947,
     "lng": 120.569993,
     "address": "510彰化縣員林市民權街55號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局員林站3F行車室",
     "lat": 23.95947,
     "lng": 120.569993,
     "address": "510彰化縣員林市民權街55號"
   },
   {
+    "dataType": "charging",
     "name": "臺鐵局員林站2F候車室",
     "lat": 23.95947,
     "lng": 120.569993,

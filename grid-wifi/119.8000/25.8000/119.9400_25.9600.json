@@ -1,11 +1,15 @@
 [
   {
+    "dataType": "wifi",
+    "category": "旅遊景點",
     "name": "馬祖WiFi加值_坤坵趙大王廟",
     "lat": 25.978531,
     "lng": 119.947839,
     "address": "211連江縣莒光鄉西坵村趙大王廟"
   },
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "連江縣莒光鄉東莒社區發展協會",
     "lat": 25.979,
     "lng": 119.941,

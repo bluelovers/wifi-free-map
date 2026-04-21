@@ -1,29 +1,39 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "統一超商大里大里路東里店(公話)",
     "lat": 24.097279,
     "lng": 120.678383,
     "address": "412臺中市大里區大里路295號"
   },
   {
+    "dataType": "wifi",
+    "category": "公立醫院",
     "name": "大里區衛生所",
     "lat": 24.097686,
     "lng": 120.679197,
     "address": "412臺中市大里區大衛路82號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "大里區戶政事務所",
     "lat": 24.098141,
     "lng": 120.676807,
     "address": "412臺中市大里區新興路7號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "大里永隆郵局",
     "lat": 24.099578,
     "lng": 120.678734,
     "address": "412臺中市大里區永隆一街82號"
   },
   {
+    "dataType": "wifi",
+    "category": "文教館所",
     "name": "臺中市立圖書館大里大新分館",
     "lat": 24.09964,
     "lng": 120.6784,

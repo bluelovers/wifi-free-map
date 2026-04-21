@@ -1,17 +1,23 @@
 [
   {
+    "dataType": "wifi",
+    "category": "其他",
     "name": "南投縣魚池鄉中明社區發展協會",
     "lat": 23.892,
     "lng": 120.921,
     "address": "555南投縣魚池鄉中明村文正巷5之10號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "南投縣魚池鄉公所",
     "lat": 23.895948,
     "lng": 120.935823,
     "address": "555南投縣魚池鄉秀水路233號"
   },
   {
+    "dataType": "wifi",
+    "category": "洽公場所",
     "name": "魚池郵局",
     "lat": 23.896962,
     "lng": 120.936677,

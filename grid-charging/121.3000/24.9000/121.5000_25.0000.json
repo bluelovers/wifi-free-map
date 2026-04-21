@@ -1,37 +1,43 @@
 [
   {
+    "dataType": "charging",
     "name": "永和永安郵局",
     "lat": 25.004087,
     "lng": 121.514548,
     "address": "234新北市永和區安樂路270號"
   },
   {
+    "dataType": "charging",
     "name": "自來水公司北區工程處1F",
     "lat": 25.00446,
     "lng": 121.51036,
     "address": "234新北市永和區水源街52號"
   },
   {
+    "dataType": "charging",
     "name": "自來水公司北區工程處4F",
     "lat": 25.00446,
     "lng": 121.51036,
     "address": "234新北市永和區水源街52號"
   },
   {
+    "dataType": "charging",
     "name": "永和永貞郵局",
     "lat": 25.005563,
     "lng": 121.513811,
     "address": "234新北市永和區自由街53號"
   },
   {
+    "dataType": "charging",
     "name": "永和中山路郵局",
     "lat": 25.007611,
     "lng": 121.50779,
     "address": "234新北市永和區中山路一段249、251號"
   },
   {
+    "dataType": "charging",
     "name": "永和郵局",
-    "lat": 25.0123249,
+    "lat": 25.012325,
     "lng": 121.515337,
     "address": "234新北市永和區中興街1號"
   }

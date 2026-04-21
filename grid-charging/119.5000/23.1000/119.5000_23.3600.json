@@ -1,11 +1,13 @@
 [
   {
+    "dataType": "charging",
     "name": "望安綠蠵龜觀光保育中心",
     "lat": 23.364391,
     "lng": 119.50709,
     "address": "882澎湖縣望安鄉東安村1-4號"
   },
   {
+    "dataType": "charging",
     "name": "望安航空站",
     "lat": 23.367423,
     "lng": 119.50319,
