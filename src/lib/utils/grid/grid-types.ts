@@ -323,3 +323,5 @@ export type ICoordinateArrayLatLng = [
 	/** x lng */
 	lng: number,
 ];
+
+export type IMatchedBuckets = Record<IFormatBlockKey<'/'>, IFormatBlockKey<'_'>[]>;

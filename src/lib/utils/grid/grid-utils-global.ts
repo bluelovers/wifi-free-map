@@ -12,6 +12,7 @@ import {
 	GLOBAL_GRID_CONFIG_FACTOR,
 	GLOBAL_GRID_CONFIG_ORIGIN,
 	GLOBAL_GRID_CONFIG_PRECISION,
+	GLOBAL_GRID_CONFIG_PRECISION_MAKRER,
 } from './grid-const';
 import {
 	IBlockIndexBoundsStartEnd,
@@ -24,7 +25,9 @@ import {
 	IGpsLngLatMax,
 	IGpsLngLatMin,
 	IGpsLngLatMinMax,
+	IMatchedBuckets,
 } from './grid-types';
+import { IOptionsFormatBlockKey } from './grid-types-opts';
 
 /**
  * 全球通用：座標轉區塊 ID
@@ -71,10 +74,10 @@ export function calcGlobalBlockIndexAndCoord({ lng, lat }: IGpsCoordinate): IGps
  * @param opts.sep - 分隔符（預設 "_"）/ Separator (default "_")
  * @returns 格式化後的鍵值 / Formatted key
  */
-export function _formatBlockKey<S extends string = '_'>(x_lng: number | string, y_lat: number | string, opts?: {
-	sep?: S;
-	precision?: number;
-}): IFormatBlockKey<S>
+export function _formatBlockKey<S extends string = '_'>(x_lng: number | string,
+	y_lat: number | string,
+	opts?: IOptionsFormatBlockKey<S>,
+): IFormatBlockKey<S>
 {
 	/** 取得精度，預設使用全局精度配置 / Get precision, default to global precision config */
 	const precision = opts?.precision ?? GLOBAL_GRID_CONFIG_PRECISION;
@@ -88,6 +91,24 @@ export function _formatBlockKey<S extends string = '_'>(x_lng: number | string, 
 
 	/** 組合為格式化的鍵值字串 / Combine into formatted key string */
 	return `${lngStr}${sep}${latStr}` as IFormatBlockKey<S>;
+}
+
+export function _decodeBlockKeyCore<S extends string = '_'>(key: IFormatBlockKey<S>,
+	opts?: IOptionsFormatBlockKey<S>,
+): ICoordinateArrayLatLng
+{
+	const sep = opts?.sep ?? '_';
+	const precision = opts?.precision ?? GLOBAL_GRID_CONFIG_PRECISION_MAKRER;
+	const [lng, lat] = key.split(sep);
+
+	return [_fixCoordCore(parseFloat(lat), precision), _fixCoordCore(parseFloat(lng), precision)];
+}
+
+export function decodeBlockKey<S extends string = '_'>(key: IFormatBlockKey<S>,
+	opts?: IOptionsFormatBlockKey<S>,
+): IGpsCoordinate
+{
+	return wrapCoordinateFromArray(_decodeBlockKeyCore<S>(key, opts));
 }
 
 /**
@@ -252,7 +273,7 @@ export function _getBlockIdsInRangeCore({
  */
 export function _detectIdBoundsMatchedBlock(idBounds: IBlockIndexBoundsStartEnd)
 {
-	const matchedBlocks: ReturnType<typeof _formatBlockKey>[] = [];
+	const matchedBlocks: IFormatBlockKey[] = [];
 
 	/** 遍歷經度方向的所有區塊 / Iterate through all blocks in longitude direction */
 	for (let x = idBounds.startX; x <= idBounds.endX; x++)
@@ -610,13 +631,14 @@ export function _fixCoordFromStringCore(coord: number | string, precision?: numb
  * Fixes GPS coordinates to specified precision
  *
  * @param coord - GPS 座標 / GPS coordinate
+ * @param precision - 精度（可選）/ Precision (optional)
  * @returns 修正後的座標 / Fixed coordinates
  */
-export function fixCoord(coord: IGpsCoordinate): IGpsCoordinate
+export function fixCoord(coord: IGpsCoordinate, precision?: number): IGpsCoordinate
 {
 	return {
-		lng: _fixCoordCore(coord.lng),
-		lat: _fixCoordCore(coord.lat),
+		lng: _fixCoordCore(coord.lng, precision),
+		lat: _fixCoordCore(coord.lat, precision),
 	};
 }
 
@@ -1027,4 +1049,56 @@ export function validateCoordinate(coord: IGpsCoordinate): asserts coord is IGps
 	{
 		throw new RangeError(`無效的經度: ${coord.lng}。經度應介於 -180 與 180 之間。`);
 	}
+}
+
+export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGpsCoordinate)
+{
+	anyCoord = fixCoord(anyCoord, GLOBAL_GRID_CONFIG_PRECISION_MAKRER);
+
+	const result = calcGlobalBlockIndexAndCoord(anyCoord);
+
+	const haif = _fixCoordCore(BLOCK_SIZE * 0.75, GLOBAL_GRID_CONFIG_PRECISION_MAKRER);
+
+	const range = _croodToRange({
+		minLng: _fixCoordCore(anyCoord.lng - haif),
+		minLat: _fixCoordCore(anyCoord.lat - haif),
+	});
+
+	const result2 = calcBlockIdsInRange(range);
+
+	const rangeBuckets: IGpsLngLatMinMax = {
+		minLng: range.minLng,
+		maxLng: range.maxLng,
+		minLat: range.minLat,
+		maxLat: range.maxLat,
+	};
+
+	const matchedBuckets = result2.matchedBlocks.reduce((acc, blockId) =>
+	{
+
+		const coord = decodeBlockKey(blockId);
+
+		const result = getBucketSpecsFromAnyPoint(coord);
+
+		rangeBuckets.minLng = Math.min(rangeBuckets.minLng, result.bucketBounds.southWest.lng);
+		rangeBuckets.minLat = Math.min(rangeBuckets.minLat, result.bucketBounds.southWest.lat);
+
+		rangeBuckets.maxLng = Math.max(rangeBuckets.maxLng, result.bucketBounds.northEast.lng);
+		rangeBuckets.maxLat = Math.max(rangeBuckets.maxLat, result.bucketBounds.northEast.lat);
+
+		acc[result.bucketPath] ??= [];
+		acc[result.bucketPath].push(blockId);
+
+		return acc;
+	}, {} as IMatchedBuckets);
+
+	return {
+		current: anyCoord,
+		haif,
+		block: result,
+		...result2,
+		// range,
+		matchedBuckets,
+		rangeBuckets,
+	};
 }
