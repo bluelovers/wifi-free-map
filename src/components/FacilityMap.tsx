@@ -1,9 +1,9 @@
 'use client';
 
 import { useEffect, useState, useRef, useMemo, useCallback } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker, useMapEvents } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker, useMapEvents, Pane, Rectangle, Circle } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import L from 'leaflet';
+import L, { DivIcon } from 'leaflet';
 import { Input, Switch, InputNumber, Space, Flex, Button, Card, Alert, Typography, Row, Tag } from 'antd';
 import {
 	SearchOutlined,
@@ -32,6 +32,7 @@ import {
 import { ICoordinateArrayLatLng, IGpsCoordinate } from '@/lib/utils/grid/grid-types';
 import { requestPermissionsGeolocation } from '@/lib/utils/api/browser-api';
 import { fetchOSMReverseInfo } from '@/lib/utils/api/fetch-api';
+import { CircleMarkerSVG } from './map/icon/CircleMarkerSVG';
 
 /**
  * 修正 Leaflet 預設圖示路徑
@@ -171,37 +172,8 @@ export default function FacilityMap()
 	const [zoom, setZoom] = useState(18); // 記錄目前縮放等級，會在置中前保存當前縮放
 	/** 用於取得 Leaflet map 實例，以在需要時讀取當前 zoom 等級 */
 	const mapRef = useRef<L.Map | null>(null);
-	/** 監聽地圖縮放變化，保持 zoom state 與實際地圖同步 */
-	const MapZoomHandler = () =>
-	{
-		const map = useMap();
 
-		/** 當 map 準備就緒時，取得 map 實例 */
-		useEffect(() =>
-		{
-			if (map)
-			{
-				mapRef.current = map;
-			}
-		}, [map]);
 
-		/** 初始同步一次 */
-		useEffect(() =>
-		{
-			setZoom(map.getZoom());
-		}, [map]);
-		/** 監聽 zoomend 事件更新 zoom state */
-		useEffect(() =>
-		{
-			const updateZoom = () => setZoom(map.getZoom());
-			map.on('zoomend', updateZoom);
-			return () =>
-			{
-				map.off('zoomend', updateZoom);
-			};
-		}, [map]);
-		return null;
-	};
 	/** 載入設施資料的函式（可重複呼叫） */
 	const loadBlockData = async (coord: IGpsCoordinate) =>
 	{
@@ -742,34 +714,18 @@ export default function FacilityMap()
 						zoom={zoom}
 						style={{ height: '100%', width: '100%' }}
 						doubleClickZoom={false}
+
+						mapRef={mapRef}
+						setZoom={setZoom}
 					>
-						{/* 同步地圖縮放至 zoom state */}
-						<MapZoomHandler />
+
 						{/* 地圖移動時重新載入區塊資料 */}
 						<MapMoveHandler />
-						{/* 使用者位置 - 藍色半透明圓圈 */}
-						<CircleMarker
-							center={position}
-							radius={25}
-							className="gps-pulse"
-							pathOptions={{
-								color: '#1890ff',
-								fillColor: '#1890ff',
-								fillOpacity: 0.3,
-								weight: 1,
-							}}
-						/>
-						{/* 内圈 - 中心實心圓 */}
-						<CircleMarker
-							center={position}
-							radius={10}
-							pathOptions={{
-								color: '#1890ff',
-								fillColor: '#1890ff',
-								fillOpacity: 0.7,
-								weight: 2,
-							}}
 
+						<CircleMarkerSVG
+							position={position}
+							color={'#c70eeb'}
+							fillOpacity={0.5}
 							eventHandlers={{
 								dragend: (e) =>
 								{
@@ -783,7 +739,11 @@ export default function FacilityMap()
 									updateAddress(latlng);
 								},
 							}}
-						/>
+
+						>
+
+						</CircleMarkerSVG>
+
 						{/* 手動定位點擊監聽 */}
 						<ManualLocationHandler />
 						{/* 右鍵點擊移動定位點 */}

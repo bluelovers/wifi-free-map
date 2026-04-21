@@ -5,13 +5,20 @@
  * 提供带有多个地图来源选择器的 Leaflet 地圖容器
  * Provides a Leaflet map container with multiple map source options
  */
-import { LayersControl, MapContainer, MapContainerProps, TileLayer, TileLayerProps } from 'react-leaflet';
+import { LayersControl, MapContainer, MapContainerProps, TileLayer, TileLayerProps, useMap } from 'react-leaflet';
 import { Map as LeafletMap, TileLayer as LeafletTileLayer } from 'leaflet';
+import { Dispatch, SetStateAction, useEffect } from 'react';
 
 /** 最大縮放等級 / Maximum zoom level */
 const MAX_ZOOM = 25 as const;
 /** 原生最大縮放等級 / Native maximum zoom level */
 const MAX_ZOOM_NATIVE = 19 as const;
+
+export interface IMapZoomHandlerProps
+{
+	mapRef?: React.RefObject<LeafletMap | null>;
+	setZoom?: Dispatch<SetStateAction<number>>;
+}
 
 /**
  * 地圖圖磚圖層屬性
@@ -23,9 +30,9 @@ const MAX_ZOOM_NATIVE = 19 as const;
 export type IMapTileLayerProps = MapContainerProps
 	& React.RefAttributes<LeafletMap>
 	& {
-	/** 圖磚層額外屬性 / Additional tile layer properties */
-	tileLayerProps?: TileLayerProps & React.RefAttributes<LeafletTileLayer>
-};
+		/** 圖磚層額外屬性 / Additional tile layer properties */
+		tileLayerProps?: TileLayerProps & React.RefAttributes<LeafletTileLayer>;
+	} & IMapZoomHandlerProps ;
 
 /**
  * 地圖圖磚來源列舉
@@ -98,7 +105,41 @@ export function MapTileLayer(props: IMapTileLayerProps)
 					/>
 				</LayersControl.BaseLayer>
 			</LayersControl>
+			{/* 同步地圖縮放至 zoom state */}
+			<MapZoomHandler mapRef={props.mapRef} setZoom={props.setZoom} />
 			{props.children}
 		</MapContainer>
 	);
+}
+
+/** 監聽地圖縮放變化，保持 zoom state 與實際地圖同步 */
+export function MapZoomHandler(props: IMapZoomHandlerProps)
+{
+	const map = useMap();
+
+	/** 當 map 準備就緒時，取得 map 實例 */
+	useEffect(() =>
+	{
+		if (map && props.mapRef)
+		{
+			props.mapRef.current = map;
+		}
+	}, [map]);
+
+	/** 初始同步一次 */
+	useEffect(() =>
+	{
+		props.setZoom?.(map.getZoom());
+	}, [map]);
+	/** 監聽 zoomend 事件更新 zoom state */
+	useEffect(() =>
+	{
+		const updateZoom = () => props.setZoom?.(map.getZoom());
+		map.on('zoomend', updateZoom);
+		return () =>
+		{
+			map.off('zoomend', updateZoom);
+		};
+	}, [map]);
+	return null;
 }

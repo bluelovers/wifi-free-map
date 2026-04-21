@@ -44,6 +44,9 @@ importers:
       leaflet:
         specifier: ^1.9.4
         version: 1.9.4
+      leaflet-path-drag:
+        specifier: ^1.9.5
+        version: 1.9.5
       leaflet-routing-machine:
         specifier: ^3.2.12
         version: 3.2.12
@@ -1944,6 +1947,9 @@ packages:
 
   jsonfile@6.2.0:
     resolution: {integrity: sha512-FGuPw30AdOIUTRMC2OMRtQV+jkVj2cfPqSeWXv1NEAJ1qZ5zb1X6z1mFhbfOB/iy3ssJCD+3KuZ8r8C3uVFlAg==}
+
+  leaflet-path-drag@1.9.5:
+    resolution: {integrity: sha512-u2oQzU/IR+XezHwREyB4T3Og5DJXgdyxtmK+GEQyrVLUwLlWaFxa0QMGxlWgE4Ch+rSyUeYOq/x8uLnelC3DnQ==}
 
   leaflet-routing-machine@3.2.12:
     resolution: {integrity: sha512-HLde58G1YtD9xSIzZavJ6BPABZaV1hHeGst8ouhzuxmSC3s32NVtADT+njbIUMW1maHRCrsgTk/E4hz5QH7FrA==}
@@ -4805,6 +4811,8 @@ snapshots:
       universalify: 2.0.1
     optionalDependencies:
       graceful-fs: 4.2.11
+
+  leaflet-path-drag@1.9.5: {}
 
   leaflet-routing-machine@3.2.12:
     dependencies:

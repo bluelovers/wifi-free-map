@@ -97,6 +97,7 @@
     "idb": "^8.0.3",
     "jest": "^30.3.0",
     "leaflet": "^1.9.4",
+    "leaflet-path-drag": "^1.9.5",
     "leaflet-routing-machine": "^3.2.12",
     "next": "^16.2.2",
     "qrcode": "^1.5.4",
