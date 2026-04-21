@@ -244,7 +244,7 @@ export async function queryWifiDataByBlock(
 		const indexContent = await readFile(bucketIndexPath, 'utf-8');
 		const indexData = JSON.parse(indexContent);
 
-		/** ���得��塊組內的 activeBlocks 數量 / Get active blocks count in bucket */
+		/** 取得區塊組內的 activeBlocks 數量 / Get active blocks count in bucket */
 		result.bucketDataCount = Array.isArray(indexData.activeBlocks) ? indexData.activeBlocks.length : 0;
 	}
 

@@ -133,7 +133,7 @@ export default function FacilityMap()
 		longPressToMove: true, // 右鍵點擊地圖移動定位點（預設開啟）
 	});
 	/** 顯示列表面板 / Show list panel */
-	const [showList, setShowList] = useState<boolean>(false);
+	const [showList, setShowList] = useState<boolean>(true);
 
 	/** 右鍵點擊地圖移動定位點 */
 	const LongPressHandler = () =>
@@ -936,11 +936,11 @@ export default function FacilityMap()
 					<Card
 						className="bottom-panel"
 						style={{
-							maxHeight: '300px',
+							maxHeight: '320px',
 							// overflow: 'visible',
 							overflow: 'auto',
 						}}
-						title={<Typography.Title level={5}>WiFi 熱點列表 ({filteredHotspots.length})</Typography.Title>}
+						title={`WiFi 熱點列表 (${filteredHotspots.length})`}
 						size="small"
 						hoverable
 

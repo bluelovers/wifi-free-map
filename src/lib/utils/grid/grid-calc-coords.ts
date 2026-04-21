@@ -1,11 +1,16 @@
-// 計算距離
+
 import { IGpsCoordinate } from '@/lib/utils/grid/grid-types';
 
 /**
- * 計算兩點之間的距離（公尺）
- * Calculate distance between two points (meters)
+ * 計算兩點之間的直線距離
+ * Calculate straight-line distance between two coordinates
  *
- * @returns 距離（公尺）
+ * 使用 Haversine 公式計算地球表面兩點間的距離
+ * Uses Haversine formula to calculate distance on Earth's surface
+ *
+ * @param from - 起點座標 / Starting coordinates
+ * @param to - 終點座標 / Destination coordinates
+ * @returns 距離（公尺）/ Distance (in meters)
  */
 export function calculateDistance(from: IGpsCoordinate, to: IGpsCoordinate): number
 {
@@ -23,6 +28,13 @@ export function calculateDistance(from: IGpsCoordinate, to: IGpsCoordinate): num
 	return R * c; // 距離（公尺）
 }
 
+/**
+ * 格式化距離為人類可讀的格式
+ * Format distance to human-readable format
+ *
+ * @param distM - 距離（公尺）/ Distance (in meters)
+ * @returns 格式化後的字串 / Formatted string
+ */
 export function formatDistance(distM: number)
 {
 	if (distM < 1000)
@@ -32,6 +44,14 @@ export function formatDistance(distM: number)
 	return `${(distM / 1000).toFixed(1)} 公里`;
 }
 
+/**
+ * 計算並格式化距離
+ * Calculate and format distance
+ *
+ * @param from - 起點座標 / Starting coordinates
+ * @param to - 終點座標 / Destination coordinates
+ * @returns 格式化後的距離字串 / Formatted distance string
+ */
 export function getAndFormatDistance(from: IGpsCoordinate, to: IGpsCoordinate)
 {
 	const dist = calculateDistance(from, to);
