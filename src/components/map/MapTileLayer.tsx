@@ -8,6 +8,7 @@
 import { LayersControl, MapContainer, MapContainerProps, TileLayer, TileLayerProps, useMap } from 'react-leaflet';
 import { Map as LeafletMap, TileLayer as LeafletTileLayer } from 'leaflet';
 import { Dispatch, SetStateAction, useEffect } from 'react';
+import { IMapMoveHandlerComponentProps, MapMoveHandler } from './MapMoveHandler';
 
 /** 最大縮放等級 / Maximum zoom level */
 const MAX_ZOOM = 25 as const;
@@ -32,6 +33,8 @@ export type IMapTileLayerProps = MapContainerProps
 	& {
 		/** 圖磚層額外屬性 / Additional tile layer properties */
 		tileLayerProps?: TileLayerProps & React.RefAttributes<LeafletTileLayer>;
+
+		onMapCenterChange?: IMapMoveHandlerComponentProps["onChange"];
 	} & IMapZoomHandlerProps ;
 
 /**
@@ -105,8 +108,16 @@ export function MapTileLayer(props: IMapTileLayerProps)
 					/>
 				</LayersControl.BaseLayer>
 			</LayersControl>
+
 			{/* 同步地圖縮放至 zoom state */}
-			<MapZoomHandler mapRef={props.mapRef} setZoom={props.setZoom} />
+			{props.setZoom && <MapZoomHandler mapRef={props.mapRef} setZoom={props.setZoom} />}
+
+			{/* 地圖移動時重新載入區塊資料 */}
+			{props.onMapCenterChange && <MapMoveHandler
+				onChange={props.onMapCenterChange}
+				debounce={500}
+			/>}
+
 			{props.children}
 		</MapContainer>
 	);

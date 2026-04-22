@@ -30,6 +30,7 @@ import { normalizeCoordToMarkerPrecision, wrapCoordinate, wrapCoordinateFromPoin
 import { calculateDistance, calculateSquaredDistance } from '@/lib/utils/geo/geo-math';
 import { _createProximityComparator, sortByProximityFast } from '@/lib/utils/geo/geo-sort.';
 import { isCoordWithinRange } from '@/lib/utils/geo/geo-check';
+import { MapMoveHandler } from './map/MapMoveHandler';
 
 /**
  * 修正 Leaflet 預設圖示路徑
@@ -81,7 +82,11 @@ const userIcon = new L.Icon({
  * 地圖中心位置組件（僅響應位置變更，不響應縮放）
  * Map center location component (only responds to position changes, not zoom)
  */
-function ChangeView({ center, shouldAutoCenter }: { center: [number, number], zoom: number, shouldAutoCenter: boolean })
+function ChangeView({ center, shouldAutoCenter }: {
+	center: IGeoPointTupleLatLng,
+	zoom: number,
+	shouldAutoCenter: boolean,
+})
 {
 	const map = useMap();
 	useEffect(() =>
@@ -89,7 +94,12 @@ function ChangeView({ center, shouldAutoCenter }: { center: [number, number], zo
 		/** 只有在需要自動置中時才移動地圖 */
 		if (shouldAutoCenter)
 		{
-			map.setView(center, undefined, { animate: false });
+			console.log('[ChangeView] Setting view to:', center, undefined, { animate: true });
+			map.setView(center, undefined, {
+				animate: true,
+				duration: 1.5,
+				easeLinearity: 0.2,
+			});
 		}
 	}, [center, map, shouldAutoCenter]);
 	return null;
@@ -189,9 +199,9 @@ export default function FacilityMap()
 		);
 
 		// /** 總是更新 mapCenter 以觸發重新排序 */
-		setMapCenter({
-			...coord,
-		});
+		// setMapCenter({
+		// 	...coord,
+		// });
 
 		if (!needsFetch)
 		{
@@ -237,60 +247,6 @@ export default function FacilityMap()
 		{
 			setLoading(false);
 		}
-	};
-
-	/** 地圖移動結束時重新載入資料 */
-	const MapMoveHandler = () =>
-	{
-		const map = useMap();
-		const lastPositionRef = useRef<{ lat: number; lng: number } | null>(null);
-
-		useEffect(() =>
-		{
-			const handleMoveEnd = () =>
-			{
-				const center = map.getCenter();
-				const mapCenterCoord: IGeoCoord = normalizeCoordToMarkerPrecision(center);
-
-				console.log('[MapMoveHandler] 地圖移動到:', mapCenterCoord);
-
-				/** 檢查位置是否改變 */
-				if (lastPositionRef.current &&
-					lastPositionRef.current.lat === center.lat &&
-					lastPositionRef.current.lng === center.lng)
-				{
-					console.log('[MapMoveHandler] 位置没变，跳过');
-					return;
-				}
-
-				lastPositionRef.current = {
-					lat: center.lat,
-					lng: center.lng,
-				};
-
-				/** 使用 debounce 避免頻繁載入 */
-				// setTimeout(() =>
-				// {
-				// 	console.log('[MapMoveHandler] loadBlockData', mapCenterCoord);
-				// 	// loadBlockData(mapCenterCoord);
-
-				// }, 300);
-
-
-				setMapCenter(mapCenterCoord);
-			};
-
-			map.on('moveend', handleMoveEnd);
-			map.on('zoomend', handleMoveEnd);
-
-			return () =>
-			{
-				map.off('moveend', handleMoveEnd);
-				map.off('zoomend', handleMoveEnd);
-			};
-		}, [map]);
-
-		return null;
 	};
 
 	const [loading, setLoading] = useState(true);
@@ -578,11 +534,6 @@ export default function FacilityMap()
 	/** 地圖中心座標 */
 	const [mapCenter, setMapCenter] = useState<IGeoCoord | null>(null);
 
-	useEffect(() => {
-		console.log('deps changed:', { hotspots, searchTerm, filters, position, mapCenter });
-
-	}, [hotspots, searchTerm, filters, position, mapCenter]);
-
 	/** 依據搜尋、密碼、距離過濾熱點 */
 	useEffect(() =>
 	{
@@ -766,10 +717,9 @@ export default function FacilityMap()
 
 						mapRef={mapRef}
 						setZoom={setZoom}
-					>
 
-						{/* 地圖移動時重新載入區塊資料 */}
-						<MapMoveHandler />
+						onMapCenterChange={setMapCenter}
+					>
 
 						<CircleMarkerSVG
 							position={position}
@@ -788,10 +738,7 @@ export default function FacilityMap()
 									updateAddress(latlng);
 								},
 							}}
-
-						>
-
-						</CircleMarkerSVG>
+						/>
 
 						{/* 手動定位點擊監聽 */}
 						<ManualLocationHandler />

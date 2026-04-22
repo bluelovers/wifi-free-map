@@ -1,5 +1,6 @@
 
 import { IGeoCoord, IGpsLngLatMinMax } from '@/lib/utils/grid/grid-types';
+import { normalizeCoordToMarkerPrecision } from './geo-transform';
 
 export function validateCoordinate(coord: IGeoCoord): asserts coord is IGeoCoord
 {
@@ -31,4 +32,23 @@ export function isCoordWithinRange(coord: IGeoCoord, range: IGpsLngLatMinMax): b
 	}
 
 	return true;
+}
+
+export function isSameCoordCore<T extends IGeoCoord>(coordA: T, coordB: NoInfer<T>): coordB is {
+	lat: T['lat'];
+	lng: T['lng'];
+}
+{
+	return coordA.lat === coordB.lat && coordA.lng === coordB.lng;
+}
+
+export function isSameCoord<T extends IGeoCoord>(coordA: T, coordB: NoInfer<T>): coordB is {
+	lat: T['lat'];
+	lng: T['lng'];
+}
+{
+	coordA = normalizeCoordToMarkerPrecision(coordA) as T;
+	coordB = normalizeCoordToMarkerPrecision(coordB);
+
+	return isSameCoordCore(coordA, coordB);
 }
