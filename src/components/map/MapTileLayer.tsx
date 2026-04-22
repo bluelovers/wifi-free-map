@@ -10,6 +10,7 @@ import { Map as LeafletMap, TileLayer as LeafletTileLayer } from 'leaflet';
 import { Dispatch, SetStateAction, useEffect } from 'react';
 import { IMapMoveHandlerComponentProps, MapMoveHandler } from './MapMoveHandler';
 import { FloatGeolocationButton, IFloatGeolocationButtonProps } from './map-btn/FloatGeolocationButton';
+import { MinimapControl } from './MiniMapControl';
 
 /** 最大縮放等級 / Maximum zoom level */
 const MAX_ZOOM = 25 as const;
@@ -38,6 +39,8 @@ export type IMapTileLayerProps = MapContainerProps
 	onMapCenterChange?: IMapMoveHandlerComponentProps["onChange"];
 
 	floatGeoProps?: IFloatGeolocationButtonProps;
+
+	zoom?: number;
 } & IMapZoomHandlerProps;
 
 /**
