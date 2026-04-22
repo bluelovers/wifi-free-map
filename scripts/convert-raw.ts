@@ -21,9 +21,10 @@ import {
 	categorySetPath,
 } from './utils/const-paths';
 import { __ROOT } from '../test/__root';
-import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-utils-global';
 import { execSync } from 'child_process';
 import { __DATA_ROOT } from '@/lib/__root';
+
+import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-sort';
 
 /**
  * 主執行函式

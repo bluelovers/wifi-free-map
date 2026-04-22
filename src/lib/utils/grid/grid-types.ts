@@ -53,12 +53,12 @@ export interface IGpsLngLatMinMax extends IGpsLngLatMin, IGpsLngLatMax
  * 用於識別網格系統中的特定區塊
  * Used to identify specific blocks in the grid system
  */
-export interface IGpsBlockIndex
+export interface IGeoBlockIndex
 {
 	/** X lng 方向索引（經度）/ X direction index (longitude) */
-	xIdx: number;
+	xLngIdx: number;
 	/** Y lat 方向索引（緯度）/ Y direction index (latitude) */
-	yIdx: number;
+	yLatIdx: number;
 }
 
 /**
@@ -68,7 +68,7 @@ export interface IGpsBlockIndex
  * 描述地理座標點
  * Describes geographic coordinate point
  */
-export interface IGpsCoordinate
+export interface IGeoCoord
 {
 	/** X 座標（經度）/ X coordinate (longitude) */
 	lng: number;
@@ -83,16 +83,16 @@ export interface IGpsCoordinate
  * 描述區塊的四角座標
  * Describes the four corner coordinates of a block
  */
-export interface IBounds
+export interface IGeoBounds
 {
 	/** (0,1) 西北角座標 / Northwest corner coordinates */
-	northWest: IGpsCoordinate;
+	northWest: IGeoCoord;
 	/** (1,1) 東北角座標 / Northeast corner coordinates */
-	northEast: IGpsCoordinate;
+	northEast: IGeoCoord;
 	/** (0,0) 西南角座標 / Southwest corner coordinates */
-	southWest: IGpsCoordinate;
+	southWest: IGeoCoord;
 	/** (1,0) 東南角座標 / Southeast corner coordinates */
-	southEast: IGpsCoordinate;
+	southEast: IGeoCoord;
 }
 
 /**
@@ -146,22 +146,22 @@ export type IFormatBlockKey<S extends string = '_'> = `${number}${S}${number}`;
  * 區塊索引邊界起止介面
  * Block index bounds start/end interface
  */
-export interface IBlockIndexBoundsStartEnd
+export interface IGeoBlockGridIndexRange
 {
 	/** X lng 方向（經度）索引最小值 / X direction (longitude) index minimum */
-	startX: number;
+	xLngIdxStart: number;
 	/** X lng 方向（經度）索引最大值 / X direction (longitude) index maximum */
-	endX: number;
+	xLngIdxEnd: number;
 	/** Y lat 方向（緯度）索引最小值 / Y direction (latitude) index minimum */
-	startY: number;
+	yLatIdxStart: number;
 	/** Y lat 方向（緯度）索引最大值 / Y direction (latitude) index maximum */
-	endY: number;
+	yLatIdxEnd: number;
 }
 
 /**
  * 分流組索引 (Bucket Index)
  */
-export interface IGpsBucketIndex
+export interface IGeoBucketGridIndex
 {
 	bucketX: number;
 	bucketY: number;
@@ -195,12 +195,12 @@ export type ISplitResultEntry<T> = Record<IFormatBlockKey<'_'>, T[]>;
 export type IValueArrayOrIterable<T> = T[] | Iterable<T>;
 
 /**
- * 注意: y lat 在前, x lng 在後
+ * 注意：Array 通常是 Leaflet/Google Maps 慣用的 [lat, lng], y lat 在前, x lng 在後
  *
  * 除非有必要否則請勿使用此格式(例如第三方API要求使用此格式)
- * 除此以外 一律使用 {@link IGpsCoordinate}
+ * 除此以外 一律使用 {@link IGeoCoord}
  */
-export type ICoordinateArrayLatLng = [
+export type IGeoPointTupleLatLng = [
 	/** y lat */
 	lat: number,
 	/** x lng */
@@ -208,3 +208,14 @@ export type ICoordinateArrayLatLng = [
 ];
 
 export type IMatchedBuckets = Record<IFormatBlockKey<'/'>, IFormatBlockKey<'_'>[]>;
+
+export interface IXYCoord
+{
+	x: number;
+	y: number;
+}
+
+/**
+ * 用於計算排序 或 距離的函數介面定義
+ */
+export type IFnGeoCoordProximity = (coordFrom: IGeoCoord, coordTo: IGeoCoord) => number;

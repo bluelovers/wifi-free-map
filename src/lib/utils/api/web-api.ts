@@ -5,7 +5,7 @@
  * 處理與外部網路服務相關的功能
  * Handles functions related to external web services
  */
-import { IGpsCoordinate } from '../grid/grid-types';
+import { IGeoCoord } from '../grid/grid-types';
 
 /**
  * 建立 Google 地圖導航網址
@@ -17,7 +17,7 @@ import { IGpsCoordinate } from '../grid/grid-types';
  * @param coord - 目標座標 / Target coordinates
  * @returns Google 地圖導航網址 / Google Maps navigation URL
  */
-export function createNavigationUrl(coord: IGpsCoordinate): string
+export function createNavigationUrl(coord: IGeoCoord): string
 {
 	return `https://www.google.com/maps/dir/?api=1&destination=${coord.lat},${coord.lng}`;
 }

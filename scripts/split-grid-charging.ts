@@ -14,15 +14,17 @@ import { fileURLToPath } from "url";
 // 使用 grid-utils-global 的工具函數
 import {
 	calcGlobalBlockIndexAndCoord,
-	_formatBlockKey,
 	calcCoordToBucketIndexAndCoord,
-	_sortCompByBucketAndBlock,
+
 } from "../src/lib/utils/grid/grid-utils-global";
 
 // 使用 grid-split 的生成器
 import { splitDataByL1GridGenerator } from "../src/lib/utils/grid/grid-split";
 import { __ROOT } from '../test/__root';
 import { __DATA_ROOT } from '@/lib/__root';
+import { _formatBlockKey } from '@/lib/utils/geo/geo-formatter';
+
+import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-sort';
 
 /**
  * 主執行函式

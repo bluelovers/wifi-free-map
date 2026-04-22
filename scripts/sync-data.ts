@@ -19,7 +19,6 @@
 import fs from "fs-extra";
 import { resolve, relative } from "path";
 import { execSync } from "child_process";
-import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-utils-global';
 import { __ROOT } from '../test/__root';
 import {
 	chargingNormalizePath,
@@ -29,6 +28,8 @@ import {
 	wifiRawPath_iTaiwan,
 } from './utils/const-paths';
 import { __DATA_ROOT } from '@/lib/__root';
+
+import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-sort';
 
 /**
  * iTaiwan Wi‑Fi API endpoint (Dataset 5962)

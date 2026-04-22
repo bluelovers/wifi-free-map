@@ -8,7 +8,6 @@ import { readFile } from 'fs/promises';
 import { join } from 'path';
 import { NextResponse } from 'next/server';
 import {
-	_formatBlockKey,
 	calcCoordToBucketIndexAndCoord,
 	calcGlobalBlockIndexAndCoord,
 } from '@/lib/utils/grid/grid-utils-global';
@@ -16,6 +15,7 @@ import { __DATA_ROOT } from '@/lib/__root';
 import { IHotspot } from '@/types/station-wifi';
 import { IApiReturnError, IApiReturnWifi, IWiFiHotspot } from '@/types';
 import { IFormatBlockKey } from '@/lib/utils/grid/grid-types';
+import { _formatBlockKey } from '@/lib/utils/geo/geo-formatter';
 
 /**
  * GET /api/wifi-block?lat=xxx&lng=xxx

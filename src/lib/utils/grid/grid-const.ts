@@ -20,7 +20,7 @@
  * * Rules: [Closed, Open).
  * Coordinates exactly at the boundary belong to the higher index block.
  */
-import { IGpsLngLatMinMax, IGpsCoordinate } from "./grid-types";
+import { IGeoCoord, IGpsLngLatMinMax } from "./grid-types";
 
 /**
  * 區塊大小（萬華區的座標範圍）原始值為 0.0306959
@@ -71,7 +71,7 @@ export const TAIWAN_BOUNDS = {
 export const GLOBAL_GRID_CONFIG_ORIGIN = {
 	lng: TAIWAN_BOUNDS.minLng,
 	lat: TAIWAN_BOUNDS.minLat,
-} as const satisfies IGpsCoordinate;
+} as const satisfies IGeoCoord;
 
 /** 浮點數 epsilon 值用於修正計算誤差 / Float epsilon value for correcting calculation errors */
 export const GLOBAL_GRID_CONFIG_EPSILON = 1e-9 as const;
@@ -168,3 +168,19 @@ export const DATA_TYPES = [
 	{ type: "wifi", dir: "grid-wifi", prefix: "grid-wifi/" },
 	{ type: "charging", dir: "grid-charging", prefix: "grid-charging/" },
 ] as const;
+
+/**
+ * 地球平均半徑 (Mean Radius, R1)
+ * 單位：公尺
+ * 來源：IUGG 定義，常用於 Haversine 等球面距離計算。
+ *
+ * @default 6371e3
+ */
+export const EARTH_MEAN_RADIUS = 6371e3 as const;
+
+/**
+ * WGS84 赤道半徑 (Equatorial Radius, a)
+ * 單位：公尺
+ * 來源：WGS84 座標系統長半軸，用於高精度投影與座標轉換 (如 TWD97)。
+ */
+export const EARTH_WGS84_EQUATORIAL_RADIUS = 6378137.0 as const;

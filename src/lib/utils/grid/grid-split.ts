@@ -5,9 +5,10 @@
  * 將地理資料陣列依據網格層級進行分割
  * Splits geographic data arrays according to grid hierarchy
  */
-import { IFormatBlockKey, IGpsCoordinate, ISplitResult, IValueArrayOrIterable } from './grid-types';
-import { _formatBlockKey, calcCoordToBucketIndexAndCoord, calcGlobalBlockIndexAndCoord } from './grid-utils-global';
+import { IFormatBlockKey, IGeoCoord, ISplitResult, IValueArrayOrIterable } from './grid-types';
+import { calcCoordToBucketIndexAndCoord, calcGlobalBlockIndexAndCoord } from './grid-utils-global';
 import { ITSGenerator } from 'ts-type';
+import { _formatBlockKey } from '@/lib/utils/geo/geo-formatter';
 
 /**
  * 基於 L1 層級切割資料陣列（生成器）
@@ -31,7 +32,7 @@ import { ITSGenerator } from 'ts-type';
  * @param data - 資料陣列或 Iterable
  * @yield [bucketPath, blockPath, items] - 分組後的資料
  */
-export function* splitDataByL1GridGenerator<T extends IGpsCoordinate>(data: IValueArrayOrIterable<T>): ITSGenerator<[IFormatBlockKey<'/'>, IFormatBlockKey<'_'>, T[]]>
+export function* splitDataByL1GridGenerator<T extends IGeoCoord>(data: IValueArrayOrIterable<T>): ITSGenerator<[IFormatBlockKey<'/'>, IFormatBlockKey<'_'>, T[]]>
 {
 	/** 上一次的 bucket 路徑 / Previous bucket path */
 	let lastBucketPath: IFormatBlockKey<'/'>;
@@ -117,7 +118,7 @@ export function* splitDataByL1GridGenerator<T extends IGpsCoordinate>(data: IVal
  *
  * @see splitDataByL1GridGenerator
  */
-export function splitDataByL1Grid<T extends IGpsCoordinate>(data: IValueArrayOrIterable<T>): ISplitResult<T>
+export function splitDataByL1Grid<T extends IGeoCoord>(data: IValueArrayOrIterable<T>): ISplitResult<T>
 {
 	const resultSplit: ISplitResult<T> = {};
 

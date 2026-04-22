@@ -21,17 +21,13 @@ import MarkerClusterGroup from 'react-leaflet-cluster'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.css'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.Default.css'
 import { MapTileLayer } from './map/MapTileLayer';
-import { calculateDistance, getAndFormatDistance } from '../lib/utils/grid/grid-calc-coords';
-import {
-	_formatBlockKey,
-	wrapCoordinate,
-	wrapCoordinateFromArray,
-	wrapLatLngArrayFromCoordinate,
-} from '@/lib/utils/grid/grid-utils-global';
-import { ICoordinateArrayLatLng, IGpsCoordinate, IGpsLngLatMinMax } from '@/lib/utils/grid/grid-types';
+import { IGeoPointTupleLatLng, IGeoCoord, IGpsLngLatMinMax, EnumDatasetType } from '@/lib/utils/grid/grid-types';
 import { requestPermissionsGeolocation } from '@/lib/utils/api/browser-api';
 import { fetchOSMReverseInfo } from '@/lib/utils/api/fetch-api';
 import { CircleMarkerSVG } from './map/icon/CircleMarkerSVG';
+import { _formatBlockKey, getAndFormatDistance } from '@/lib/utils/geo/geo-formatter';
+import { normalizeCoordToMarkerPrecision, wrapCoordinate, wrapCoordinateFromPointTupleLatLng, wrapPointTupleLatLngFromCoordinate } from '@/lib/utils/geo/geo-transform';
+import { calculateDistance } from '@/lib/utils/geo/geo-math';
 
 /**
  * 修正 Leaflet 預設圖示路徑
@@ -112,7 +108,7 @@ export default function FacilityMap()
 				if (manualMode)
 				{
 					setShouldAutoCenter(false); // 手動模式不自動置中
-					setPosition(wrapLatLngArrayFromCoordinate(e.latlng));
+					setPosition(wrapPointTupleLatLngFromCoordinate(e.latlng));
 					/** 保持目前的 zoom 等級，不改變 */
 					setLocationError(false);
 					setManualMode(false);
@@ -150,7 +146,7 @@ export default function FacilityMap()
 				// 右鍵點擊來移動定位點 - 不觸發自動置中
 				e.originalEvent.preventDefault();
 				setShouldAutoCenter(false); // 不自動置中
-				setPosition(wrapLatLngArrayFromCoordinate(e.latlng));
+				setPosition(wrapPointTupleLatLngFromCoordinate(e.latlng));
 				setLocationError(false);
 				updateAddress(e.latlng);
 			};
@@ -169,14 +165,14 @@ export default function FacilityMap()
 	const [chargingStations, setChargingStations] = useState<IChargingStationMarker[]>([]);
 	/** 當前資料的範圍邊界 / Current data range bounds */
 	const [rangeBounds, setRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
-	const [position, setPosition] = useState<ICoordinateArrayLatLng>([25.0330, 121.5654]); // 預設台北 101
+	const [position, setPosition] = useState<IGeoPointTupleLatLng>([25.0330, 121.5654]); // 預設台北 101
 	const [zoom, setZoom] = useState(18); // 記錄目前縮放等級，會在置中前保存當前縮放
 	/** 用於取得 Leaflet map 實例，以在需要時讀取當前 zoom 等級 */
 	const mapRef = useRef<L.Map | null>(null);
 
 
-	/** 檢查座標是否在当前範圍內 / Check if coordinate is within current range */
-	const isCoordWithinRange = (coord: IGpsCoordinate, range: IGpsLngLatMinMax): boolean =>
+	/** 檢查座標是否在當前範圍內 */
+	const isCoordWithinRange = (coord: IGeoCoord, range: IGpsLngLatMinMax): boolean =>
 	{
 		return (
 			coord.lng >= range.minLng &&
@@ -186,13 +182,26 @@ export default function FacilityMap()
 		);
 	};
 
-	/** 載入設施資料的函式（可重複呼叫） */
-	const loadBlockData = async (coord: IGpsCoordinate) =>
+	/** 載入設施資料的函式 */
+	const loadBlockData = async (coord: IGeoCoord) =>
 	{
-		/** 如果座標在當前範圍內，則不請求新的 API 資料 */
-		if (rangeBounds && isCoordWithinRange(coord, rangeBounds))
+		console.log('[loadBlockData] rangeBounds:', rangeBounds, 'coord:', coord);
+
+		/** 檢查是否需要獲取新資料 */
+		const needsFetch = !rangeBounds || !isCoordWithinRange(coord, rangeBounds);
+		console.log('[loadBlockData] needsFetch:', needsFetch);
+
+		console.log('[loadBlockData] rangeBounds:', rangeBounds, 'coord:', coord,
+			'\nMapCenter:', coord,
+			'\nposition:', (position && wrapCoordinateFromPointTupleLatLng(position)),
+			'\nneedsFetch:', needsFetch, needsFetch && '範圍內，跳過請求',
+		);
+
+		/** 總是更新 mapCenter 以觸發重新排序 */
+		setMapCenter(coord);
+
+		if (!needsFetch)
 		{
-			console.log('座標在範圍內，跳過請求:', coord);
 			return;
 		}
 
@@ -202,17 +211,20 @@ export default function FacilityMap()
 			fixLeafletIcon();
 
 			/** 使用批次 API 讀取區塊內的所有資料 */
-			const batchRes = await fetch(`/api/blocks-batch?lat=${coord.lat}&lng=${coord.lng}`);
+			const url = `/api/blocks-batch?lat=${coord.lat}&lng=${coord.lng}`;
+			console.log('[loadBlockData] Fetching:', url);
+			const batchRes = await fetch(url);
 			const batchData: IApiReturnBlocksBatch = await batchRes.json();
 
-			console.log('batchData.rangeBuckets', batchData.rangeBuckets);
-			console.log('batchData.data.wifi', batchData.data?.wifi?.length);
-			console.log('batchData.data.charging', batchData.data?.charging?.length);
+			console.log('[loadBlockData] API response:', batchData.success,
+				'wifi count:', batchData.data?.[EnumDatasetType.WIFI]?.length,
+				'charging count:', batchData.data?.[EnumDatasetType.CHARGING]?.length,
+				'range:', batchData.rangeBuckets);
 
 			if (batchData.success)
 			{
-				setHotspots(batchData.data?.wifi || []);
-				setChargingStations(batchData.data?.charging || []);
+				setHotspots(batchData.data?.[EnumDatasetType.WIFI] || []);
+				setChargingStations(batchData.data?.[EnumDatasetType.CHARGING] || []);
 				/** 更新範圍邊界 */
 				setRangeBounds(batchData.rangeBuckets);
 			}
@@ -244,12 +256,16 @@ export default function FacilityMap()
 			const handleMoveEnd = () =>
 			{
 				const center = map.getCenter();
+				const mapCenterCoord: IGeoCoord = normalizeCoordToMarkerPrecision(center);
+
+				console.log('[MapMoveHandler] 地圖移動到:', mapCenterCoord);
 
 				/** 檢查位置是否改變 */
 				if (lastPositionRef.current &&
 					lastPositionRef.current.lat === center.lat &&
 					lastPositionRef.current.lng === center.lng)
 				{
+					console.log('[MapMoveHandler] 位置没变，跳过');
 					return;
 				}
 
@@ -261,7 +277,7 @@ export default function FacilityMap()
 				/** 使用 debounce 避免頻繁載入 */
 				setTimeout(() =>
 				{
-					loadBlockData(center);
+					loadBlockData(mapCenterCoord);
 				}, 300);
 			};
 
@@ -329,7 +345,7 @@ export default function FacilityMap()
 
 				/** 標記需要自動置中 */
 				setShouldAutoCenter(true);
-				setPosition(wrapLatLngArrayFromCoordinate(coord));
+				setPosition(wrapPointTupleLatLngFromCoordinate(coord));
 				/** 若外部提供保留的 zoom，則使用它；若未提供則保持目前 zoom */
 				if (typeof preserveZoom === 'number')
 				{
@@ -351,7 +367,7 @@ export default function FacilityMap()
 	};
 
 	/** 手動設定後，同步更新地址 */
-	const updateAddress = async (coord: IGpsCoordinate) =>
+	const updateAddress = async (coord: IGeoCoord) =>
 	{
 		setAddressLoading(true);
 
@@ -500,7 +516,7 @@ export default function FacilityMap()
 					// 按權重和距離排序
 					if (position)
 					{
-						const from = wrapCoordinateFromArray(position);
+						const from = wrapCoordinateFromPointTupleLatLng(position);
 
 						enhancedResults.sort((a, b) =>
 						{
@@ -551,7 +567,7 @@ export default function FacilityMap()
 		const lng = parseFloat(result.lon);
 
 		setShouldAutoCenter(false);
-		setPosition(wrapLatLngArrayFromCoordinate({ lat, lng }));
+		setPosition(wrapPointTupleLatLngFromCoordinate({ lat, lng }));
 		setAddress(result.display_name);
 		setAddressSearchTerm('');
 		setAddressSearchResults([]);
@@ -560,12 +576,24 @@ export default function FacilityMap()
 	/** 搜尋關鍵字 */
 	const [searchTerm, setSearchTerm] = useState('');
 
+	/** 地圖中心座標 */
+	const [mapCenter, setMapCenter] = useState<IGeoCoord | null>(null);
+
 	/** 依據搜尋、密碼、距離過濾熱點 */
 	const filteredHotspots = useMemo(() =>
 	{
-		const from: IGpsCoordinate = position && wrapCoordinateFromArray(position);
+		console.log('[filteredHotspots] hotspots:', hotspots.length, 'mapCenter:', mapCenter);
 
-		const filtered = hotspots.filter((hotspot) =>
+		/** 優先使用地圖中心排序，否則使用定位點 */
+		const from: IGeoCoord = (position && wrapCoordinateFromPointTupleLatLng(position)) || mapCenter;
+
+		if (!from)
+		{
+			return hotspots;
+		}
+
+		/** 先複製陣列避免原地修改 */
+		let filtered = [...hotspots].filter((hotspot) =>
 		{
 			/** 關鍵字過濾：名稱或 SSID 包含搜尋字串（不分大小寫） */
 			const term = searchTerm.trim().toLowerCase();
@@ -581,27 +609,23 @@ export default function FacilityMap()
 			if (filters.maxDistance && from)
 			{
 				const dist = calculateDistance(from, hotspot);
-				// console.log(`filteredHotspots`, dist, filters.maxDistance, from, hotspot);
 				if (dist > filters.maxDistance) return false;
 			}
 			return true;
 		});
 
-		console.log('filteredHotspots', filtered.length, '/', hotspots.length);
+		console.log('[filteredHotspots] filtered:', filtered.length, 'from:', from, 'total source:', hotspots.length);
 
 		/** 依照距離排序 / Sort by distance */
-		if (from)
+		filtered = filtered.sort((a, b) =>
 		{
-			filtered.sort((a, b) =>
-			{
-				const distA = calculateDistance(from, a);
-				const distB = calculateDistance(from, b);
-				return distA - distB;
-			});
-		}
+			const distA = calculateDistance(from, a);
+			const distB = calculateDistance(from, b);
+			return distA - distB;
+		});
 
 		return filtered;
-	}, [hotspots, searchTerm, filters, wrapCoordinateFromArray(position)]);
+	}, [hotspots, searchTerm, filters, position, mapCenter]);
 
 	/** 當過濾條件改變時重置顯示數量 / Reset visible count when filters change */
 	useEffect(() =>
@@ -615,7 +639,7 @@ export default function FacilityMap()
 		// fixLeafletIcon();
 
 		/** 使用區塊化 API 根據目前位置載入 */
-		loadBlockData(wrapCoordinateFromArray(position));
+		loadBlockData(wrapCoordinateFromPointTupleLatLng(position));
 	}, []);
 	// 取得 GPS 權限並嘗試獲取使用者位置（已在外部定義）
 	// 此 useEffect 只在元件掛載時呼叫一次
@@ -659,7 +683,7 @@ export default function FacilityMap()
 	{
 		setSelectedHotspot(hotspot);
 		setShouldAutoCenter(true);
-		setPosition(wrapLatLngArrayFromCoordinate(hotspot));
+		setPosition(wrapPointTupleLatLngFromCoordinate(hotspot));
 		setZoom(16); // 放大到能看到詳細資訊的等級
 	};
 
@@ -747,10 +771,10 @@ export default function FacilityMap()
 							eventHandlers={{
 								dragend: (e) =>
 								{
-									const latlng = e.target.getLatLng() as IGpsCoordinate;
+									const latlng = e.target.getLatLng() as IGeoCoord;
 									/** 拖曳定位點後，不自動置中（打斷瀏覽體驗） */
 									setShouldAutoCenter(false);
-									setPosition(wrapLatLngArrayFromCoordinate(latlng));
+									setPosition(wrapPointTupleLatLngFromCoordinate(latlng));
 									// Preserve current zoom level; do not modify zoom
 									setLocationError(false);
 									/** 更新拖曳後的地址 */
@@ -969,7 +993,7 @@ export default function FacilityMap()
 										)}
 										<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
 											{hotspot.lat.toFixed(4)}, {hotspot.lng.toFixed(4)}
-											{' • '}{getAndFormatDistance(wrapCoordinateFromArray(position), hotspot)}
+											{' • '}{getAndFormatDistance(wrapCoordinateFromPointTupleLatLng(position), hotspot)}
 											{hotspot.password && ' • 有密碼'}
 										</Typography.Text>
 									</Flex>

@@ -11,7 +11,7 @@ import { getRangeAndBlockIdsFromAnyCoordForMap } from '@/lib/utils/grid/grid-uti
 import { __DATA_ROOT } from '@/lib/__root';
 import {
 	EnumDatasetType,
-	IGpsCoordinate,
+	IGeoCoord,
 	IGpsLngLatMinMax,
 	IMatchedBuckets,
 } from '@/lib/utils/grid/grid-types';
@@ -77,7 +77,7 @@ export async function GET(request: Request)
 		const {
 			matchedBuckets,
 			rangeBuckets,
-		} = getRangeAndBlockIdsFromAnyCoordForMap({ lng, lat } as IGpsCoordinate);
+		} = getRangeAndBlockIdsFromAnyCoordForMap({ lng, lat } as IGeoCoord);
 
 		/** 初始化資料容器 */
 		const wifiData: IWiFiHotspot[] = [];

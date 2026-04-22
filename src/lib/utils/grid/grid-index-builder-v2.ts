@@ -13,8 +13,8 @@ import {
 import { exists } from 'fs-extra';
 import path from 'upath2';
 import { opendir, writeFile, mkdir, readFile } from 'fs/promises';
-import { _formatBlockKey } from './grid-utils-global';
 import { cleanRoad, extractLocationInfo } from './grid-address';
+import { _formatBlockKey } from '@/lib/utils/geo/geo-formatter';
 
 /**
  * 區塊組索引元資料介面

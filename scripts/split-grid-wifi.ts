@@ -15,8 +15,9 @@ import { fileURLToPath } from "url";
 // 使用 grid-split 的生成器與同步函數
 import { splitDataByL1GridGenerator, splitDataByL1Grid } from "../src/lib/utils/grid/grid-split";
 import { __ROOT } from '../test/__root';
-import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-utils-global';
 import { __DATA_ROOT } from '@/lib/__root';
+
+import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-sort';
 
 /**
  * 主執行函式

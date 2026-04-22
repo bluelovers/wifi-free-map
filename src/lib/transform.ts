@@ -15,8 +15,8 @@ import type { IChargingStation, IRawChargingStation } from "@/types/station-char
 import { ITSGenerator, ITSPickExtra } from 'ts-type';
 import { EnumDatasetType, IValueArrayOrIterable } from '@/lib/utils/grid/grid-types';
 import { IStationBase } from '@/types/station-base';
-import { _fixCoordFromStringCore } from '@/lib/utils/grid/grid-utils-global';
 import { GLOBAL_GRID_CONFIG_PRECISION_MAKRER } from '@/lib/utils/grid/grid-const';
+import { _normalizeCoordScalarFromStringNumberCore } from '@/lib/utils/geo/geo-transform';
 
 // ==================== Wi-Fi 熱點轉換 / Wi-Fi Hotspot Conversion ====================
 
@@ -36,8 +36,8 @@ export function convertWiFiRaw_iTaiwan(raw: IRawHotspot_iTaiwan): IHotspot
 		dataType: EnumDatasetType.WIFI,
 		category: raw.Administration,
 		name: raw.Name,
-		lat: _fixCoordFromStringCore(raw.Latitude, GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
-		lng: _fixCoordFromStringCore(raw.Longitude, GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
+		lat: _normalizeCoordScalarFromStringNumberCore(raw.Latitude, GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
+		lng: _normalizeCoordScalarFromStringNumberCore(raw.Longitude, GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
 		address: raw.Address,
 	};
 }
@@ -200,8 +200,8 @@ export function convertChargingRaw(raw: IRawChargingStation): IChargingStation
 	return {
 		dataType: EnumDatasetType.CHARGING,
 		name: raw["充電站名稱"] ?? "",
-		lat: _fixCoordFromStringCore(raw["緯度"], GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
-		lng: _fixCoordFromStringCore(raw["經度"], GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
+		lat: _normalizeCoordScalarFromStringNumberCore(raw["緯度"], GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
+		lng: _normalizeCoordScalarFromStringNumberCore(raw["經度"], GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
 		address: raw["地址"] ?? "",
 	};
 }

@@ -10,9 +10,9 @@
  * @returns 包含地址資訊的物件 / Object with address information
  */
 import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
-import { IGpsCoordinate } from '../grid/grid-types';
+import { IGeoCoord } from '../grid/grid-types';
 
-export async function fetchOSMReverseInfo(coord: IGpsCoordinate, options?: RequestInit)
+export async function fetchOSMReverseInfo(coord: IGeoCoord, options?: RequestInit)
 {
 	options = {
 		...options,

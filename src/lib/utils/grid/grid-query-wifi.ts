@@ -10,16 +10,17 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import {
 	calcGlobalBlockIndexAndCoord,
-	_formatBlockKey,
 	calcCoordToBucketIndexAndCoord,
-	_fixCoordCore,
+
 } from './grid-utils-global';
 import {
-	IGpsCoordinate,
-	IGpsBucketIndex,
+	IGeoCoord,
+	IGeoBucketGridIndex,
 	IGpsLngLatMin,
 } from './grid-types';
 import { __ROOT as PROJECT_ROOT } from '../../../../test/__root';
+import { _formatBlockKey } from '@/lib/utils/geo/geo-formatter';
+import { _normalizeCoordScalarCore } from '@/lib/utils/geo/geo-transform';
 
 /**
  * 查詢選項
@@ -40,11 +41,11 @@ export interface IQueryWifiByBlockOptions
 export interface IQueryWifiByBlockResult
 {
 	/** 查詢的原始座標 / Query coordinate */
-	coord: IGpsCoordinate;
+	coord: IGeoCoord;
 	/** 區塊組資訊 / Bucket group info */
 	bucket: IGpsLngLatMin & {
 		/** 區塊組起始座標 / Bucket group start coordinate */
-		coord: IGpsCoordinate;
+		coord: IGeoCoord;
 		/** 區塊組最小經度 / Bucket group min longitude */
 		minLng: number;
 		/** 區塊組最小緯度 / Bucket group min latitude */
@@ -57,7 +58,7 @@ export interface IQueryWifiByBlockResult
 	/** 區塊資訊 / Block info */
 	block: IGpsLngLatMin & {
 		/** 區塊左下角座標 / Block bottom-left coordinate */
-		coord: IGpsCoordinate;
+		coord: IGeoCoord;
 		/** 區塊最小經度 / Block min longitude */
 		minLng: number;
 		/** 區塊最小緯度 / Block min latitude */
@@ -126,7 +127,7 @@ const DATA_BASE_PATH = join(PROJECT_ROOT, 'public', 'data');
 function _buildBlockDataPath(bucketLng: number, bucketLat: number, blockMinLng: number, blockMinLat: number): string
 {
 	const blockKey = _formatBlockKey(blockMinLng, blockMinLat);
-	return join(DATA_BASE_PATH, 'grid-wifi', _fixCoordCore(bucketLng) as any, _fixCoordCore(bucketLat) as any, `${blockKey}.json`);
+	return join(DATA_BASE_PATH, 'grid-wifi', _normalizeCoordScalarCore(bucketLng) as any, _normalizeCoordScalarCore(bucketLat) as any, `${blockKey}.json`);
 }
 
 /**
@@ -139,7 +140,7 @@ function _buildBlockDataPath(bucketLng: number, bucketLat: number, blockMinLng: 
  */
 function _buildBucketIndexPath(bucketLng: number, bucketLat: number): string
 {
-	return join(DATA_BASE_PATH, 'index', _fixCoordCore(bucketLng) as any, _fixCoordCore(bucketLat) as any, 'index.json');
+	return join(DATA_BASE_PATH, 'index', _normalizeCoordScalarCore(bucketLng) as any, _normalizeCoordScalarCore(bucketLat) as any, 'index.json');
 }
 
 /**
@@ -175,7 +176,7 @@ async function _fileExists(filePath: string): Promise<boolean>
  * @throws IQueryWifiError 當資料不存在或讀取失敗時 / Throws IQueryWifiError when data not found or read failed
  */
 export async function queryWifiDataByBlock(
-	coord: IGpsCoordinate,
+	coord: IGeoCoord,
 	options?: IQueryWifiByBlockOptions,
 ): Promise<IQueryWifiByBlockResult>
 {
