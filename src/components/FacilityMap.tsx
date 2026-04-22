@@ -27,7 +27,9 @@ import { fetchOSMReverseInfo } from '@/lib/utils/api/fetch-api';
 import { CircleMarkerSVG } from './map/icon/CircleMarkerSVG';
 import { _formatBlockKey, getAndFormatDistance } from '@/lib/utils/geo/geo-formatter';
 import { normalizeCoordToMarkerPrecision, wrapCoordinate, wrapCoordinateFromPointTupleLatLng, wrapPointTupleLatLngFromCoordinate } from '@/lib/utils/geo/geo-transform';
-import { calculateDistance } from '@/lib/utils/geo/geo-math';
+import { calculateDistance, calculateSquaredDistance } from '@/lib/utils/geo/geo-math';
+import { _createProximityComparator, sortByProximityFast } from '@/lib/utils/geo/geo-sort.';
+import { isCoordWithinRange } from '@/lib/utils/geo/geo-check';
 
 /**
  * 修正 Leaflet 預設圖示路徑
@@ -162,6 +164,8 @@ export default function FacilityMap()
 		return null;
 	};
 	const [hotspots, setHotspots] = useState<IWiFiHotspot[]>([]);
+	const [filteredHotspots, setFilteredHotspots] = useState<IWiFiHotspot[]>([]);
+
 	const [chargingStations, setChargingStations] = useState<IChargingStationMarker[]>([]);
 	/** 當前資料的範圍邊界 / Current data range bounds */
 	const [rangeBounds, setRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
@@ -170,35 +174,24 @@ export default function FacilityMap()
 	/** 用於取得 Leaflet map 實例，以在需要時讀取當前 zoom 等級 */
 	const mapRef = useRef<L.Map | null>(null);
 
-
-	/** 檢查座標是否在當前範圍內 */
-	const isCoordWithinRange = (coord: IGeoCoord, range: IGpsLngLatMinMax): boolean =>
-	{
-		return (
-			coord.lng >= range.minLng &&
-			coord.lng <= range.maxLng &&
-			coord.lat >= range.minLat &&
-			coord.lat <= range.maxLat
-		);
-	};
-
 	/** 載入設施資料的函式 */
 	const loadBlockData = async (coord: IGeoCoord) =>
 	{
-		console.log('[loadBlockData] rangeBounds:', rangeBounds, 'coord:', coord);
-
 		/** 檢查是否需要獲取新資料 */
 		const needsFetch = !rangeBounds || !isCoordWithinRange(coord, rangeBounds);
-		console.log('[loadBlockData] needsFetch:', needsFetch);
 
-		console.log('[loadBlockData] rangeBounds:', rangeBounds, 'coord:', coord,
-			'\nMapCenter:', coord,
+		console.log('[loadBlockData] rangeBounds:', rangeBounds,
+			'\ncoord:', coord,
+
+			'\nMapCenter:', mapCenter,
 			'\nposition:', (position && wrapCoordinateFromPointTupleLatLng(position)),
-			'\nneedsFetch:', needsFetch, needsFetch && '範圍內，跳過請求',
+			'\nneedsFetch:', needsFetch, !needsFetch && '範圍內，跳過請求',
 		);
 
-		/** 總是更新 mapCenter 以觸發重新排序 */
-		setMapCenter(coord);
+		// /** 總是更新 mapCenter 以觸發重新排序 */
+		setMapCenter({
+			...coord,
+		});
 
 		if (!needsFetch)
 		{
@@ -217,16 +210,17 @@ export default function FacilityMap()
 			const batchData: IApiReturnBlocksBatch = await batchRes.json();
 
 			console.log('[loadBlockData] API response:', batchData.success,
-				'wifi count:', batchData.data?.[EnumDatasetType.WIFI]?.length,
-				'charging count:', batchData.data?.[EnumDatasetType.CHARGING]?.length,
-				'range:', batchData.rangeBuckets);
+				'\nwifi count:', batchData.data?.[EnumDatasetType.WIFI]?.length,
+				'\ncharging count:', batchData.data?.[EnumDatasetType.CHARGING]?.length,
+				'\nrange:', batchData.matchedRange,
+			);
 
 			if (batchData.success)
 			{
 				setHotspots(batchData.data?.[EnumDatasetType.WIFI] || []);
 				setChargingStations(batchData.data?.[EnumDatasetType.CHARGING] || []);
 				/** 更新範圍邊界 */
-				setRangeBounds(batchData.rangeBuckets);
+				setRangeBounds(batchData.matchedRange);
 			}
 			else
 			{
@@ -275,10 +269,15 @@ export default function FacilityMap()
 				};
 
 				/** 使用 debounce 避免頻繁載入 */
-				setTimeout(() =>
-				{
-					loadBlockData(mapCenterCoord);
-				}, 300);
+				// setTimeout(() =>
+				// {
+				// 	console.log('[MapMoveHandler] loadBlockData', mapCenterCoord);
+				// 	// loadBlockData(mapCenterCoord);
+
+				// }, 300);
+
+
+				setMapCenter(mapCenterCoord);
 			};
 
 			map.on('moveend', handleMoveEnd);
@@ -579,18 +578,16 @@ export default function FacilityMap()
 	/** 地圖中心座標 */
 	const [mapCenter, setMapCenter] = useState<IGeoCoord | null>(null);
 
+	useEffect(() => {
+		console.log('deps changed:', { hotspots, searchTerm, filters, position, mapCenter });
+
+	}, [hotspots, searchTerm, filters, position, mapCenter]);
+
 	/** 依據搜尋、密碼、距離過濾熱點 */
-	const filteredHotspots = useMemo(() =>
+	useEffect(() =>
 	{
-		console.log('[filteredHotspots] hotspots:', hotspots.length, 'mapCenter:', mapCenter);
-
-		/** 優先使用地圖中心排序，否則使用定位點 */
+		/** 優先使用定位點排序，否則使用地圖中心 */
 		const from: IGeoCoord = (position && wrapCoordinateFromPointTupleLatLng(position)) || mapCenter;
-
-		if (!from)
-		{
-			return hotspots;
-		}
 
 		/** 先複製陣列避免原地修改 */
 		let filtered = [...hotspots].filter((hotspot) =>
@@ -614,17 +611,27 @@ export default function FacilityMap()
 			return true;
 		});
 
-		console.log('[filteredHotspots] filtered:', filtered.length, 'from:', from, 'total source:', hotspots.length);
-
 		/** 依照距離排序 / Sort by distance */
-		filtered = filtered.sort((a, b) =>
-		{
-			const distA = calculateDistance(from, a);
-			const distB = calculateDistance(from, b);
-			return distA - distB;
-		});
+		// filtered = filtered.sort((a, b) =>
+		// {
+		// 	const distA = calculateDistance(from, a);
+		// 	const distB = calculateDistance(from, b);
+		// 	return distA - distB;
+		// });
 
-		return filtered;
+		filtered = filtered.sort(_createProximityComparator(from, calculateDistance));
+
+		console.log('[filteredHotspots] hotspots:', hotspots.length,
+			'\nmapCenter:', mapCenter,
+			'\nposition:', position && wrapCoordinateFromPointTupleLatLng(position),
+			'\nfrom:', from,
+			'\nfiltered.length:', filtered.length,
+			'\nfiltered(0, 5):', filtered.slice(0, 5),
+			'\nfiltered(-5):', filtered.slice(-5),
+		);
+
+		setFilteredHotspots(filtered);
+
 	}, [hotspots, searchTerm, filters, position, mapCenter]);
 
 	/** 當過濾條件改變時重置顯示數量 / Reset visible count when filters change */
@@ -640,7 +647,7 @@ export default function FacilityMap()
 
 		/** 使用區塊化 API 根據目前位置載入 */
 		loadBlockData(wrapCoordinateFromPointTupleLatLng(position));
-	}, []);
+	}, [position]);
 	// 取得 GPS 權限並嘗試獲取使用者位置（已在外部定義）
 	// 此 useEffect 只在元件掛載時呼叫一次
 	useEffect(() =>

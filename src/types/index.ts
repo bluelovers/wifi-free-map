@@ -1,5 +1,6 @@
 import { IHotspot } from '@/types/station-wifi';
 import { IChargingStation as IChargingStationBase } from '@/types/station-charging';
+import { EnumDatasetType, IGpsLngLatMinMax, IMatchedBuckets } from '@/lib/utils/grid/grid-types';
 
 /**
  * 設施類型列舉
@@ -92,16 +93,16 @@ export interface IApiReturnCharging
 }
 
 /**
- * 批次區塊資料 API 回傳格式
- * Batch blocks data API response format
+ * API 回傳格式
+ * API response format
  */
 export interface IApiReturnBlocksBatch
 {
 	success: boolean;
 	data: {
-		wifi: IWiFiHotspot[];
-		charging: IChargingStationMarker[];
+		[EnumDatasetType.WIFI]: IWiFiHotspot[];
+		[EnumDatasetType.CHARGING]: IChargingStationMarker[];
 	};
-	matchedBuckets: Record<string, string[]>;
-	rangeBuckets: { minLng: number; maxLng: number; minLat: number; maxLat: number };
+	matchedBuckets: IMatchedBuckets;
+	matchedRange: IGpsLngLatMinMax;
 }

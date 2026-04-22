@@ -53,11 +53,11 @@ export function calcGlobalBlockIndexAndCoord({ lng, lat }: IGeoCoord): IGeoBlock
 	 * 算出該區塊的左下角座標
 	 * Calculate the bottom-left coordinates of that block
 	 */
-	const { minLng, minLat } = _calcBlockIndexToLngLatMin({ xIdx: xLngIdx, yIdx: yLatIdx });
+	const { minLng, minLat } = _calcBlockIndexToLngLatMin({ xLngIdx, yLatIdx });
 
 	return {
-		xIdx: xLngIdx,
-		yIdx: yLatIdx,
+		xLngIdx,
+		yLatIdx,
 		minLng,
 		minLat,
 	};
@@ -522,7 +522,7 @@ export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGeoCoord)
 
 	const result2 = calcBlockIdsInRange(range);
 
-	const rangeBuckets: IGpsLngLatMinMax = {
+	const matchedRange: IGpsLngLatMinMax = {
 		minLng: range.minLng,
 		maxLng: range.maxLng,
 		minLat: range.minLat,
@@ -534,16 +534,22 @@ export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGeoCoord)
 
 		const coord = decodeBlockKey(blockId);
 
-		const result = getBucketSpecsFromAnyPoint(coord);
+		const indices = _calcCoordToBlockIndex(coord);
 
-		rangeBuckets.minLng = Math.min(rangeBuckets.minLng, result.bucketBounds.southWest.lng);
-		rangeBuckets.minLat = Math.min(rangeBuckets.minLat, result.bucketBounds.southWest.lat);
+		const { bucketCoord } = calcCoordToBucketIndexAndCoord(coord);
 
-		rangeBuckets.maxLng = Math.max(rangeBuckets.maxLng, result.bucketBounds.northEast.lng);
-		rangeBuckets.maxLat = Math.max(rangeBuckets.maxLat, result.bucketBounds.northEast.lat);
+		const bucketPath = _formatBlockKey(bucketCoord.lng, bucketCoord.lat, { sep: '/' });
 
-		acc[result.bucketPath] ??= [];
-		acc[result.bucketPath].push(blockId);
+		const result = _idxToRangeLngLatMinMax(indices);
+
+		matchedRange.minLng = Math.min(matchedRange.minLng, result.minLng);
+		matchedRange.minLat = Math.min(matchedRange.minLat, result.minLat);
+
+		matchedRange.maxLng = Math.max(matchedRange.maxLng, result.maxLng);
+		matchedRange.maxLat = Math.max(matchedRange.maxLat, result.maxLat);
+
+		acc[bucketPath] ??= [];
+		acc[bucketPath].push(blockId);
 
 		return acc;
 	}, {} as IMatchedBuckets);
@@ -555,6 +561,6 @@ export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGeoCoord)
 		...result2,
 		// range,
 		matchedBuckets,
-		rangeBuckets,
+		matchedRange,
 	};
 }

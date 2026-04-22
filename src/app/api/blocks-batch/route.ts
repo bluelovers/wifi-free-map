@@ -16,22 +16,7 @@ import {
 	IMatchedBuckets,
 } from '@/lib/utils/grid/grid-types';
 import type { IMetadataBucketIndex } from '@/lib/utils/grid/grid-index-builder-v2';
-import { IWiFiHotspot, IChargingStationMarker } from '@/types';
-
-/**
- * API 回傳格式
- * API response format
- */
-interface IApiReturnBlocksBatch
-{
-	success: boolean;
-	data: {
-		[EnumDatasetType.WIFI]: IWiFiHotspot[];
-		[EnumDatasetType.CHARGING]: IChargingStationMarker[];
-	};
-	matchedBuckets: IMatchedBuckets;
-	rangeBuckets: IGpsLngLatMinMax;
-}
+import { IWiFiHotspot, IChargingStationMarker, IApiReturnBlocksBatch } from '@/types';
 
 /**
  * IApiReturnError
@@ -76,7 +61,7 @@ export async function GET(request: Request)
 		/** 計算區塊與區塊組資訊 */
 		const {
 			matchedBuckets,
-			rangeBuckets,
+			matchedRange,
 		} = getRangeAndBlockIdsFromAnyCoordForMap({ lng, lat } as IGeoCoord);
 
 		/** 初始化資料容器 */
@@ -147,14 +132,14 @@ export async function GET(request: Request)
 				success: false,
 				error: 'No data found',
 				matchedBuckets,
-				rangeBuckets,
+				matchedRange,
 			} as IApiReturnError, { status: 404 });
 		}
 
 		return NextResponse.json({
 			success: true,
 			matchedBuckets,
-			rangeBuckets,
+			matchedRange,
 			data: {
 				[EnumDatasetType.WIFI]: wifiData,
 				[EnumDatasetType.CHARGING]: chargingData,
