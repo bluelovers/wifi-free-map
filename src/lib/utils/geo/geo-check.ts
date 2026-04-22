@@ -1,4 +1,3 @@
-
 import { IGeoCoord, IGpsLngLatMinMax } from '@/lib/utils/grid/grid-types';
 import { normalizeCoordToMarkerPrecision } from './geo-transform';
 

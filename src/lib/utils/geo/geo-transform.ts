@@ -2,6 +2,7 @@ import {
 	IGeoBounds,
 	IGeoCoord,
 	IGeoPointTupleLatLng,
+	IGeolocationApiCoord,
 	IGpsLngLatMax,
 	IGpsLngLatMin,
 	IGpsLngLatMinMax,
@@ -25,6 +26,14 @@ export function wrapCoordinateFromPointTupleLatLng(pointTupleLatLng: IGeoPointTu
 		lng: pointTupleLatLng[1],
 		lat: pointTupleLatLng[0],
 	};
+}
+
+export function wrapCoordinateFromGeolocationCoordinates(geolocationCoordinates: IGeolocationApiCoord): IGeoCoord
+{
+	return normalizeCoordToMarkerPrecision({
+		lng: geolocationCoordinates.longitude,
+		lat: geolocationCoordinates.latitude,
+	});
 }
 
 /**

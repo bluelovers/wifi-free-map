@@ -1,7 +1,18 @@
 'use client';
 
 import { useEffect, useState, useRef, useMemo, useCallback } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker, useMapEvents, Pane, Rectangle, Circle } from 'react-leaflet';
+import {
+	MapContainer,
+	TileLayer,
+	Marker,
+	Popup,
+	useMap,
+	CircleMarker,
+	useMapEvents,
+	Pane,
+	Rectangle,
+	Circle,
+} from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L, { DivIcon } from 'leaflet';
 import { Input, Switch, InputNumber, Space, Flex, Button, Card, Alert, Typography, Row, Tag } from 'antd';
@@ -13,7 +24,14 @@ import {
 	ReloadOutlined,
 	AimOutlined,
 } from '@ant-design/icons';
-import { IWiFiHotspot, IChargingStationMarker, IApiReturnWifi, IApiReturnError, IApiReturnCharging, IApiReturnBlocksBatch } from '@/types';
+import {
+	IWiFiHotspot,
+	IChargingStationMarker,
+	IApiReturnWifi,
+	IApiReturnError,
+	IApiReturnCharging,
+	IApiReturnBlocksBatch,
+} from '@/types';
 import { EnumFacilityType } from '@/types';
 import { generateWiFiQRCode } from '@/lib/wifi-utils';
 import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
@@ -26,11 +44,17 @@ import { requestPermissionsGeolocation } from '@/lib/utils/api/browser-api';
 import { fetchOSMReverseInfo } from '@/lib/utils/api/fetch-api';
 import { CircleMarkerSVG } from './map/icon/CircleMarkerSVG';
 import { _formatBlockKey, getAndFormatDistance } from '@/lib/utils/geo/geo-formatter';
-import { normalizeCoordToMarkerPrecision, wrapCoordinate, wrapCoordinateFromPointTupleLatLng, wrapPointTupleLatLngFromCoordinate } from '@/lib/utils/geo/geo-transform';
+import {
+	normalizeCoordToMarkerPrecision,
+	wrapCoordinate,
+	wrapCoordinateFromPointTupleLatLng,
+	wrapPointTupleLatLngFromCoordinate,
+} from '@/lib/utils/geo/geo-transform';
 import { calculateDistance, calculateSquaredDistance } from '@/lib/utils/geo/geo-math';
 import { _createProximityComparator, sortByProximityFast } from '@/lib/utils/geo/geo-sort.';
 import { isCoordWithinRange } from '@/lib/utils/geo/geo-check';
 import { MapMoveHandler } from './map/MapMoveHandler';
+import { FloatButtonElement } from 'antd/es/float-button/FloatButton';
 
 /**
  * 修正 Leaflet 預設圖示路徑
@@ -271,55 +295,6 @@ export default function FacilityMap()
 
 	/** 每次載入的熱點數量 / Number of hotspots to load per batch */
 	const HOTSPOTS_PER_PAGE = 20;
-
-	/** 取得 GPS 權限並嘗試獲取使用者位置（可重複呼叫） */
-	const requestGeolocation = async (preserveZoom?: number): Promise<void> =>
-	{
-		return new Promise(async (resolve, reject) =>
-		{
-			await requestPermissionsGeolocation()
-				.then(result =>
-				{
-					return getPosition(preserveZoom, resolve, reject);
-				})
-				.catch((e) =>
-				{
-					setLocationError(true);
-					return reject(e)
-				})
-		});
-	};
-
-	/** 獲取位置的实际執行函式 */
-	const getPosition = (preserveZoom: number | undefined, resolve: () => void, reject: (reason?: unknown) => void) =>
-	{
-		navigator.geolocation.getCurrentPosition(
-			async (pos) =>
-			{
-				const coord = wrapCoordinate(pos.coords.longitude, pos.coords.latitude);
-
-				/** 標記需要自動置中 */
-				setShouldAutoCenter(true);
-				setPosition(wrapPointTupleLatLngFromCoordinate(coord));
-				/** 若外部提供保留的 zoom，則使用它；若未提供則保持目前 zoom */
-				if (typeof preserveZoom === 'number')
-				{
-					setZoom(preserveZoom);
-				}
-				setLocationError(false);
-				/** 反向地理編碼取得地址 */
-
-				updateAddress(coord);
-				resolve();
-			},
-			(err) =>
-			{
-				console.error('定位失敗 / Geolocation failed:', err);
-				setLocationError(true);
-				reject(err);
-			},
-		);
-	};
 
 	/** 手動設定後，同步更新地址 */
 	const updateAddress = async (coord: IGeoCoord) =>
@@ -599,14 +574,6 @@ export default function FacilityMap()
 		/** 使用區塊化 API 根據目前位置載入 */
 		loadBlockData(wrapCoordinateFromPointTupleLatLng(position));
 	}, [position]);
-	// 取得 GPS 權限並嘗試獲取使用者位置（已在外部定義）
-	// 此 useEffect 只在元件掛載時呼叫一次
-	useEffect(() =>
-	{
-		const currentZoom = mapRef.current?.getZoom() ?? zoom;
-		requestGeolocation(currentZoom).then(() => setZoom(currentZoom));
-	}, []);
-	// End of loadData effect
 
 	// 生成 QR Code
 	useEffect(() =>
@@ -645,6 +612,8 @@ export default function FacilityMap()
 		setZoom(16); // 放大到能看到詳細資訊的等級
 	};
 
+	const floatGeoRef = useRef<FloatButtonElement | null>(null);
+
 	/**
 	 * 地圖包裝容器
 	 * Map wrapper container
@@ -660,7 +629,7 @@ export default function FacilityMap()
 							<Space>
 								<Button size="small" onClick={() => setManualMode(true)}>手動定位</Button>
 								<Button size="small" icon={<ReloadOutlined />}
-								        onClick={() => requestGeolocation()}>重新請求定位</Button>
+								        onClick={() => floatGeoRef.current?.click()}>重新請求定位</Button>
 							</Space>
 						}
 						type="error"
@@ -719,6 +688,35 @@ export default function FacilityMap()
 						setZoom={setZoom}
 
 						onMapCenterChange={setMapCenter}
+
+						floatGeoProps={{
+							btnRef: floatGeoRef,
+							autoRequestGeolocation: true,
+							onRequestGeolocation(result)
+							{
+
+								/** 標記需要自動置中 */
+								setShouldAutoCenter(true);
+								setPosition(wrapPointTupleLatLngFromCoordinate(result.coord));
+
+								const currentZoom = mapRef.current?.getZoom();
+
+								/** 若外部提供保留的 zoom，則使用它；若未提供則保持目前 zoom */
+								if (typeof currentZoom === 'number')
+								{
+									//setZoom(currentZoom);
+								}
+
+								setLocationError(false);
+								/** 反向地理編碼取得地址 */
+
+								updateAddress(result.coord);
+							},
+							onError(error)
+							{
+								setLocationError(true);
+							},
+						}}
 					>
 
 						<CircleMarkerSVG
@@ -772,46 +770,6 @@ export default function FacilityMap()
 						{/* 變更視角 - 當位置改變時自動置中 */}
 						<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
 					</MapTileLayer>
-
-					{/* 浮動置中按鈕（Google Maps 風格） */}
-					<Button
-						type="primary"
-						shape="circle"
-						icon={<AimOutlined />}
-						onClick={() =>
-						{
-							console.log('Center button clicked, mapRef:', mapRef.current);
-							if (mapRef.current)
-							{
-								const currentZoom = mapRef.current.getZoom();
-								console.log('Current zoom:', currentZoom);
-								requestGeolocation(currentZoom)
-									.then(() =>
-									{
-										console.log('Geolocation success');
-										setZoom(currentZoom);
-									})
-									.catch(err => console.error('Geolocation error:', err));
-							}
-							else
-							{
-								console.log('No map ref, using default zoom');
-								requestGeolocation(zoom)
-									.then(() =>
-									{
-										setZoom(zoom);
-									})
-									.catch(err => console.error('Geolocation error:', err));
-							}
-						}}
-						style={{
-							position: 'absolute',
-							bottom: '30px',
-							right: '10px',
-							zIndex: 1000,
-						}}
-						title="置中至目前位置"
-					/>
 				</div>
 				{/* 搜尋列 / Search bar */}
 				<Card className="search-bar" size="small" hoverable>

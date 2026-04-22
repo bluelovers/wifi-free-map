@@ -24,7 +24,8 @@ export async function fetchOSMReverseInfo(coord: IGeoCoord, options?: RequestIni
 
 	return fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${coord.lat}&lon=${coord.lng}`, options)
 		.then(res => res.json())
-		.then(data => {
+		.then(data =>
+		{
 			console.log('fetchOSMReverseInfo', coord, data);
 			return data as IReturnOSMReverseInfo;
 		})

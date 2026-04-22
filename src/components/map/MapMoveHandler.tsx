@@ -7,6 +7,7 @@ import { useMap } from 'react-leaflet';
 export interface IMapMoveHandlerComponentProps
 {
 	onChange?(coord: IGeoCoord, lastCenterPosition: IGeoCoord | null): void;
+
 	debounce?: number;
 }
 

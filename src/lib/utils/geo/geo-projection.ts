@@ -24,7 +24,7 @@ export function lngLatToPixel({ lat, lng }: IGeoCoord, zoom: number, tileSize = 
 
 	return {
 		x: Math.floor(x * scale),
-		y: Math.floor(y * scale)
+		y: Math.floor(y * scale),
 	};
 }
 

@@ -9,6 +9,7 @@ import { LayersControl, MapContainer, MapContainerProps, TileLayer, TileLayerPro
 import { Map as LeafletMap, TileLayer as LeafletTileLayer } from 'leaflet';
 import { Dispatch, SetStateAction, useEffect } from 'react';
 import { IMapMoveHandlerComponentProps, MapMoveHandler } from './MapMoveHandler';
+import { FloatGeolocationButton, IFloatGeolocationButtonProps } from './map-btn/FloatGeolocationButton';
 
 /** 最大縮放等級 / Maximum zoom level */
 const MAX_ZOOM = 25 as const;
@@ -31,11 +32,13 @@ export interface IMapZoomHandlerProps
 export type IMapTileLayerProps = MapContainerProps
 	& React.RefAttributes<LeafletMap>
 	& {
-		/** 圖磚層額外屬性 / Additional tile layer properties */
-		tileLayerProps?: TileLayerProps & React.RefAttributes<LeafletTileLayer>;
+	/** 圖磚層額外屬性 / Additional tile layer properties */
+	tileLayerProps?: TileLayerProps & React.RefAttributes<LeafletTileLayer>;
 
-		onMapCenterChange?: IMapMoveHandlerComponentProps["onChange"];
-	} & IMapZoomHandlerProps ;
+	onMapCenterChange?: IMapMoveHandlerComponentProps["onChange"];
+
+	floatGeoProps?: IFloatGeolocationButtonProps;
+} & IMapZoomHandlerProps;
 
 /**
  * 地圖圖磚來源列舉
@@ -119,6 +122,8 @@ export function MapTileLayer(props: IMapTileLayerProps)
 			/>}
 
 			{props.children}
+
+			{props.floatGeoProps && <FloatGeolocationButton {...props.floatGeoProps} />}
 		</MapContainer>
 	);
 }

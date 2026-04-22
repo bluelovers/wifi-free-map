@@ -61,4 +61,9 @@ export interface IRawHotspot_TaipeiFree
 export interface IHotspot extends IStationBase
 {
 	dataType: EnumDatasetType.WIFI;
+
+	/** SSID */
+	ssid?: string;
+	/** 密碼（可選） */
+	password?: string;
 }

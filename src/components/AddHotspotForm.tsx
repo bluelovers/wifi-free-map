@@ -10,25 +10,15 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Form, Input, Button, InputNumber, Space } from 'antd';
+import { IHotspot } from '@/types/station-wifi';
 
 /**
  * 表單欄位定義
  * Form fields definition
  */
-interface IFormValues
+interface IFormValues extends IHotspot
 {
-	/** 熱點名稱 / Hotspot name */
-	name: string;
-	/** SSID */
-	ssid: string;
-	/** 密碼（可選） / Password (optional) */
-	password?: string;
-	/** 緯度 / Latitude */
-	lat: number;
-	/** 經度 / Longitude */
-	lng: number;
-	/** 地址（可選） / Address (optional) */
-	address?: string;
+
 }
 
 export default function AddHotspotForm({

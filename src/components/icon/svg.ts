@@ -50,7 +50,8 @@ export function createSvgGpsPulse(props: ISvgGpsPulseProps)
 	return mySvgIconHtml
 }
 
-export function createGpsPulseDivIcon(props: ISvgGpsPulseProps) {
+export function createGpsPulseDivIcon(props: ISvgGpsPulseProps)
+{
 	return new DivIcon({
 		html: createSvgGpsPulse(props),
 		className: '',

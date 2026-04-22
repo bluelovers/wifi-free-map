@@ -1,3 +1,6 @@
+import { wrapCoordinateFromGeolocationCoordinates } from '../geo/geo-transform';
+import { IGeoCoord } from '../grid/grid-types';
+
 /**
  * 複製文字至剪貼簿
  * Copy text to clipboard
@@ -29,43 +32,31 @@ export async function copyPassword(text: string): Promise<void>
  *
  * @returns 權限狀態或 undefined / Permission status or undefined
  */
-export function requestPermissionsGeolocation(): Promise<PermissionStatus | undefined>
+export async function requestPermissionsGeolocation(): Promise<PermissionStatus | undefined>
 {
-	return new Promise(async (resolve, reject) =>
+	if (typeof navigator !== 'undefined')
 	{
-		try
-		{
-			if (navigator.permissions?.query)
+		return navigator.permissions?.query({
+				name: 'geolocation' as PermissionName,
+			})
+			.then((result) =>
 			{
-				await navigator.permissions
-					.query({ name: 'geolocation' as PermissionName })
-					.then((result) =>
-					{
-						if (result.state === 'denied')
-						{
-							reject(new Error('Geolocation denied'));
-							return;
-						}
-						console.log('取得定位權限或位置', result);
-						resolve(result);
-					})
-					.catch(() =>
-					{
-						resolve(undefined);
-					})
-				;
-			}
-			else
+				if (result.state === 'denied')
+				{
+					const e = new Error('Geolocation denied');
+					e.cause = result;
+					return Promise.reject(e);
+				}
+				console.log('取得定位權限或位置', result);
+
+				return result
+			})
+			.catch((error: Error) =>
 			{
-				resolve(undefined);
-			}
-		}
-		catch (e)
-		{
-			console.error('取得定位權限或位置時發生錯誤', e);
-			reject(e);
-		}
-	});
+				console.error('取得定位權限或位置時發生錯誤', error);
+				return Promise.reject(error)
+			})
+	}
 }
 
 /**
@@ -75,7 +66,9 @@ export function requestPermissionsGeolocation(): Promise<PermissionStatus | unde
  * @param resolve - 成功回調函式 / Success callback function
  * @param reject - 失敗回調函式 / Error callback function
  */
-export function _getGeolocationPositionCore(resolve: (position: GeolocationPosition) => void, reject: (error: GeolocationPositionError) => void)
+export function _getGeolocationPositionCore(resolve: (position: GeolocationPosition) => void,
+	reject: (error: GeolocationPositionError) => void,
+)
 {
 	navigator.geolocation.getCurrentPosition(resolve, reject);
 }
@@ -89,4 +82,31 @@ export function _getGeolocationPositionCore(resolve: (position: GeolocationPosit
 export function getGeolocationPosition(): Promise<GeolocationPosition>
 {
 	return new Promise(_getGeolocationPositionCore);
+}
+
+export interface IGeolocationResult
+{
+	coord: IGeoCoord;
+	geoApiPosition: GeolocationPosition;
+}
+
+/**
+ * 取得 GPS 權限並嘗試獲取使用者位置
+ */
+export function requestGeoPermissionsAndPosition(): Promise<IGeolocationResult>
+{
+	return requestPermissionsGeolocation()
+		.then(result =>
+		{
+			return getGeolocationPosition()
+		})
+		.then(geoApiPosition =>
+		{
+			const coord = wrapCoordinateFromGeolocationCoordinates(geoApiPosition.coords);
+
+			return {
+				coord,
+				geoApiPosition,
+			}
+		})
 }

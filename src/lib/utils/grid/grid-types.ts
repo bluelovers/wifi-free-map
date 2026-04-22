@@ -1,3 +1,5 @@
+import { ITSPickExtra } from 'ts-type';
+
 /**
  * 資料集類型列舉
  * Dataset type enumeration
@@ -75,6 +77,12 @@ export interface IGeoCoord
 	/** Y 座標（緯度）/ Y coordinate (latitude) */
 	lat: number;
 }
+
+/**
+ * navigator.geolocation.getCurrentPosition 返回的座標
+ * Coordinates returned by navigator.geolocation.getCurrentPosition
+ */
+export type IGeolocationApiCoord = ITSPickExtra<GeolocationCoordinates, 'longitude' | 'latitude'>;
 
 /**
  * 統一格式的區塊邊界介面

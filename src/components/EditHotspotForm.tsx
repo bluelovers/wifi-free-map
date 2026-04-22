@@ -11,26 +11,15 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Form, Input, Button, InputNumber, Space } from 'antd';
 import type { IWiFiHotspot } from '@/types';
+import { IHotspot } from '@/types/station-wifi';
 
 /**
  * 表單欄位定義
  */
-interface IFormValues
+interface IFormValues extends IHotspot
 {
 	/** 熱點 ID */
 	id: string;
-	/** 熱點名稱 */
-	name: string;
-	/** SSID */
-	ssid: string;
-	/** 密碼（可選） */
-	password?: string;
-	/** 緯度 */
-	lat: number;
-	/** 經度 */
-	lng: number;
-	/** 地址（可選） */
-	address?: string;
 }
 
 export default function EditHotspotForm({
@@ -96,9 +85,9 @@ export default function EditHotspotForm({
 						name: hotspot.name,
 						ssid: hotspot.ssid,
 						password: hotspot.password ?? '',
-						lat: hotspot.location.lat,
-						lng: hotspot.location.lng,
-						address: hotspot.location.address ?? '',
+						lat: hotspot.lat,
+						lng: hotspot.lng,
+						address: hotspot.address ?? '',
 					}}
 				>
 					<Form.Item label="名稱" name="name" rules={[{ required: true, message: '請輸入熱點名稱' }]}>
