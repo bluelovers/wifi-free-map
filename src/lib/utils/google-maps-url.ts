@@ -28,6 +28,9 @@ export enum EnumGoogleMapsMode
 	WebCoordAddress = 'web-coord-address',
 	/** Web URL 模式 - 地址+名稱 */
 	WebAddressName = 'web-address-name',
+
+	/** Web URL 模式 - 自動選擇 */
+	WebAuto = 'web-auto',
 }
 
 /**
@@ -49,46 +52,22 @@ export interface IGoogleMapsQueryOptions
 }
 
 /**
- * 構建查詢字串 - 使用 name/address/coord 優先順序
- * Build query string - uses name/address/coord priority
- *
- * @param coord - 座標 / Coordinates
- * @param name - 名稱 / Name
- * @param address - 地址 / Address
- * @returns 查詢字串 / Query string
- */
-const buildGoogleQuery = (coord: IGeoCoord, name?: string, address?: string): string =>
-{
-	if (name) return `${coord.lat},${coord.lng}+(${encodeURIComponent(name)})`;
-	if (address) return `${coord.lat},${coord.lng}+(${encodeURIComponent(address)})`;
-	return `${coord.lat},${coord.lng}`;
-};
-
-/**
- * 構建 geo: scheme URL
- * Build geo: scheme URL
- */
-const buildGeoUrl = (coord: IGeoCoord, name?: string, address?: string, isNavigation = false): string =>
-{
-	const query = buildGoogleQuery(coord, name, address);
-	return isNavigation
-		? `geo:${coord.lat},${coord.lng}?q=${query}&mode=n`
-		: `geo:${coord.lat},${coord.lng}?q=${query}`;
-};
-
-/**
  * 構建網頁搜尋 URL
  * Build web search URL
  */
-const buildWebSearchUrl = (query: string): string =>
-	`https://www.google.com/maps/search/?api=1&query=${query}`;
+function buildWebSearchUrl(query: string): string
+{
+	return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
 
 /**
  * 構建導航 URL
  * Build navigation URL
  */
-const buildNavUrl = (dest: string): string =>
-	`https://www.google.com/maps/dir/?api=1&destination=${dest}`;
+function buildNavUrl(dest: string): string
+{
+	return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(dest)}`;
+}
 
 /**
  * 產生 Google Maps URL - 統一函式
@@ -103,87 +82,141 @@ export function generateGoogleMapsUrl(options: IGoogleMapsQueryOptions): string
 	// 驗證必須，至少要有 coord, name, 或 address 其一
 	if (!options.coord && !options.name && !options.address)
 	{
-		throw new Error('Google Maps URL: 至少需要提供 coord、name 或 address 其中之一');
+		throw new Error(`Maps URL[${options.mode}]: 至少需要提供 coord、name 或 address 其中之一`);
 	}
 
-	const mode = options.mode ?? EnumGoogleMapsMode.Web;
-	const isNavigation = options.isNavigation ?? false;
+	const mode = options.mode || EnumGoogleMapsMode.Web;
+	const isNavigation = options.isNavigation || false;
 	const { name, address, coord } = options;
 
-	// App 模式使用 geo: scheme
-	if (mode === EnumGoogleMapsMode.App && coord)
+	const queryLatLng = coord ? `${coord.lat},${coord.lng}` : '';
+
+	function requireCoord(coord: IGeoCoord | undefined): asserts coord is IGeoCoord
 	{
-		return buildGeoUrl(coord, name, address, isNavigation);
+		if (!coord) throw new Error(`Maps URL[${mode}]: 需要提供座標`);
 	}
 
-	// 導航模式
-	if (isNavigation)
+	let query = queryLatLng;
+
+	if (mode === EnumGoogleMapsMode.App)
 	{
-		const dest = coord
-			? `${coord.lat},${coord.lng}`
-			: address
-				? encodeURIComponent(address)
-				: '';
-		if (!dest) throw new Error('Google Maps URL: 導航模式需要提供座標或地址');
-		return buildNavUrl(dest);
+		requireCoord(coord);
+
+		const suffix = isNavigation ? '&mode=n' : '';
+
+		if (name)
+		{
+			query += `+(${name})`;
+		}
+		else if (address)
+		{
+			query += `+(${address})`;
+		}
+
+		return `geo:${queryLatLng}?q=${encodeURIComponent(query)}${suffix}`;
 	}
 
 	// Web 模式處理
 	switch (mode)
 	{
 		case EnumGoogleMapsMode.WebName:
-			return name ? buildWebSearchUrl(encodeURIComponent(name)) : '';
 
-		case EnumGoogleMapsMode.WebCoord:
-			return coord ? buildWebSearchUrl(`${coord.lat},${coord.lng}`) : '';
-
-		case EnumGoogleMapsMode.WebCoordName:
-			return coord && name
-				? buildWebSearchUrl(`${coord.lat},${coord.lng}+(${encodeURIComponent(name)})`)
-				: name
-					? buildWebSearchUrl(encodeURIComponent(name))
-					: '';
-
-		case EnumGoogleMapsMode.WebCoordAddress:
-			return coord && address
-				? buildWebSearchUrl(`${coord.lat},${coord.lng}+(${encodeURIComponent(address)})`)
-				: address
-					? buildWebSearchUrl(encodeURIComponent(address))
-					: '';
-
-		case EnumGoogleMapsMode.WebAddressName:
-			return address && name
-				? buildWebSearchUrl(`${encodeURIComponent(address)}+(${encodeURIComponent(name)})`)
-				: address
-					? buildWebSearchUrl(encodeURIComponent(address))
-					: name
-						? buildWebSearchUrl(encodeURIComponent(name))
-						: '';
-
-		case EnumGoogleMapsMode.Web:
-		default:
-			// 預設：使用優先順序 name > address > coord
-			if (coord)
-			{
-				const query = name
-					? `${coord.lat},${coord.lng}+(${encodeURIComponent(name)})`
-					: address
-						? `${coord.lat},${coord.lng}+(${encodeURIComponent(address)})`
-						: `${coord.lat},${coord.lng}`;
-				return buildWebSearchUrl(query);
-			}
-			if (address)
-			{
-				return buildWebSearchUrl(encodeURIComponent(address));
-			}
 			if (name)
 			{
-				return buildWebSearchUrl(encodeURIComponent(name));
+				query = name;
 			}
+
+			break;
+		case EnumGoogleMapsMode.WebCoordName:
+			requireCoord(coord);
+
+			if (name)
+			{
+				query += `+(${name})`;
+			}
+
+			break;
+
+		case EnumGoogleMapsMode.WebCoordAddress:
+			requireCoord(coord);
+
+			if (address)
+			{
+				query += `+(${address})`;
+			}
+
+			break;
+
+		case EnumGoogleMapsMode.WebAddressName:
+
+
+			if (address)
+			{
+				query = address;
+				if (name)
+				{
+					query += `+(${name})`;
+				}
+			}
+			else if (name)
+			{
+				query = name;
+			}
+			else
+			{
+				throw new Error(`Maps URL[${mode}]: 至少需要提供 address 或 name 其中之一`);
+			}
+
+			break;
+		case EnumGoogleMapsMode.WebAuto:
+
+			if (coord)
+			{
+				if (address)
+				{
+					query += `+(${address})`;
+				}
+				else if (name)
+				{
+					query += `+(${name})`;
+				}
+			}
+			else if (address)
+			{
+				query = address;
+				if (name)
+				{
+					query += `+(${name})`;
+				}
+			}
+			else if (name)
+			{
+				query = name;
+			}
+			else
+			{
+				throw new Error(`Maps URL[${mode}]: 至少需要提供 coord、name 或 address 其中之一`);
+			}
+
+			break;
+		case EnumGoogleMapsMode.WebCoord:
+		case EnumGoogleMapsMode.Web:
+		default:
+			requireCoord(coord);
 			break;
 	}
 
-	throw new Error('Google Maps URL: 無法產生 URL');
+	if (!query)
+	{
+		throw new Error(`Maps URL[${mode}]: 無法產生查詢字串`);
+	}
+
+	if (isNavigation)
+	{
+		return buildNavUrl(query);
+	}
+
+	return buildWebSearchUrl(query);
 }
 
 /**
@@ -201,27 +234,33 @@ export function openGoogleMaps(url: string): void
 }
 
 /**
- * 取得顯示名稱
+ * 取得显示名称
  * Get display name for mode
  *
  * @param mode - 模式 / Mode
- * @returns 顯示名稱 / Display name
+ * @returns 显示名称 / Display name
  */
 export function getGoogleMapsModeDisplayName(mode: EnumGoogleMapsMode): string
 {
 	switch (mode)
 	{
 		case EnumGoogleMapsMode.App:
-			return 'App (地圖App)';
+			return 'App (地图App)';
 		case EnumGoogleMapsMode.WebName:
-			return '名稱 (Name only)';
+			return '名称 (Name only)';
+		case EnumGoogleMapsMode.WebCoord:
+			return '坐标 (Coordinates)';
 		case EnumGoogleMapsMode.WebCoordName:
-			return '座標+名稱 (Coord + Name)';
+			return '坐标+名称 (Coord + Name)';
+		case EnumGoogleMapsMode.WebCoordAddress:
+			return '坐标+地址 (Coord + Address)';
 		case EnumGoogleMapsMode.WebAddressName:
-			return '地址+名稱 (Address + Name)';
+			return '地址+名称 (Address + Name)';
+		case EnumGoogleMapsMode.WebAuto:
+			return '自动 (Auto)';
 		case EnumGoogleMapsMode.Web:
 		default:
-			return '座標 (Coordinates)';
+			return '坐标 (Coordinates)';
 	}
 }
 
@@ -229,15 +268,18 @@ export function getGoogleMapsModeDisplayName(mode: EnumGoogleMapsMode): string
  * 取得所有可用模式
  * Get all available modes
  *
- * @returns 模式陣列 / Array of modes
+ * @returns 模式阵列 / Array of modes
  */
 export function getAvailableGoogleMapsModes(): EnumGoogleMapsMode[]
 {
 	return [
 		EnumGoogleMapsMode.Web,
 		EnumGoogleMapsMode.WebName,
+		EnumGoogleMapsMode.WebCoord,
 		EnumGoogleMapsMode.WebCoordName,
+		EnumGoogleMapsMode.WebCoordAddress,
 		EnumGoogleMapsMode.WebAddressName,
+		EnumGoogleMapsMode.WebAuto,
 		EnumGoogleMapsMode.App,
 	];
 }
