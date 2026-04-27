@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useMemo, useState, useEffect } from 'react'
 import {
 	MapContainer,
 	Rectangle,
@@ -7,7 +7,6 @@ import {
 	useMapEvent,
 } from 'react-leaflet'
 import L, { DivIcon, LeafletMouseEvent } from 'leaflet';
-import { useEventHandlers } from '@react-leaflet/core';
 
 const POSITION_CLASSES = {
 	bottomleft: 'leaflet-bottom leaflet-left',
@@ -54,8 +53,16 @@ function MinimapBounds({ parentMap, zoom }: IMinimapBoundsProps)
 	}, [minimap, parentMap, zoom])
 
 	// Listen to events on the parent map
-	const handlers = useMemo(() => ({ move: onChange, zoom: onChange }), [])
-	useEventHandlers({ instance: parentMap }, handlers)
+	useEffect(() =>
+	{
+		parentMap.on('move', onChange);
+		parentMap.on('zoom', onChange);
+		return () =>
+		{
+			parentMap.off('move', onChange);
+			parentMap.off('zoom', onChange);
+		};
+	}, [parentMap, onChange]);
 
 	return <Rectangle bounds={bounds} pathOptions={BOUNDS_STYLE} />
 }

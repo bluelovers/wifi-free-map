@@ -1,4 +1,4 @@
-import { ISvgGpsPulseProps, createGpsPulseDivIcon, customGpsIcon2 } from '@/components/icon/svg';
+import { ISvgGpsPulseProps, createGpsPulseDivIcon } from '@/components/icon/svg';
 import { CircleMarker, Marker, MarkerProps } from 'react-leaflet';
 import { LatLngExpression, Marker as LeafletMarker } from 'leaflet';
 

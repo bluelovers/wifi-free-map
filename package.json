@@ -110,7 +110,8 @@
     "ts-type": "^3.0.13",
     "ts-type-object-entries": "^1.0.10",
     "upath2": "^3.1.23",
-    "workbox-window": "^7.4.0"
+    "workbox-window": "^7.4.0",
+    "zustand": "^5.0.12"
   },
   "devDependencies": {
     "@bluelovers/jest-config": "^1.1.11",
