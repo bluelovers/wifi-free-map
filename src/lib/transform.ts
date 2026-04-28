@@ -10,10 +10,10 @@
  * - 將充電站原始資料轉換為標準格式
  * - 提供陣列和生成器兩種轉換模式
  */
-import { IHotspot, IRawHotspot_iTaiwan, IRawHotspot_TaipeiFree } from "@/types/station-wifi";
+import { IHotspot, IHotspot_auth, IRawHotspot_iTaiwan, IRawHotspot_TaipeiFree } from "@/types/station-wifi";
 import type { IChargingStation, IRawChargingStation } from "@/types/station-charging";
 import { ITSGenerator, ITSPickExtra } from 'ts-type';
-import { EnumDatasetType, IValueArrayOrIterable } from '@/lib/utils/grid/grid-types';
+import { EnumDatasetSource, EnumDatasetType, EnumWifiAuthType, EnumWifiSSIDName, IValueArrayOrIterable } from '@/lib/utils/grid/grid-types';
 import { IStationBase } from '@/types/station-base';
 import { GLOBAL_GRID_CONFIG_PRECISION_MAKRER } from '@/lib/utils/grid/grid-const';
 import { _normalizeCoordScalarFromStringNumberCore } from '@/lib/utils/geo/geo-transform';
@@ -30,15 +30,20 @@ import { _normalizeCoordScalarFromStringNumberCore } from '@/lib/utils/geo/geo-t
  * @param raw - iTaiwan 原始資料物件 / iTaiwan raw data object
  * @returns 轉換後的 IHotspot 物件 / Converted IHotspot object
  */
-export function convertWiFiRaw_iTaiwan(raw: IRawHotspot_iTaiwan): IHotspot
+export function convertWiFiRaw_iTaiwan(raw: IRawHotspot_iTaiwan & IHotspot_auth): IHotspot
 {
 	return {
 		dataType: EnumDatasetType.WIFI,
+		dataSource: raw.dataSource,
 		category: raw.Administration,
 		name: raw.Name,
 		lat: _normalizeCoordScalarFromStringNumberCore(raw.Latitude, GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
 		lng: _normalizeCoordScalarFromStringNumberCore(raw.Longitude, GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
 		address: raw.Address,
+
+		ssid: raw.ssid,
+		password: raw.password,
+		authType: raw.authType,
 	};
 }
 
@@ -61,13 +66,38 @@ export function convertWiFiRaw_TaipeiFree_To_iTaiwan(raw: IRawHotspot_TaipeiFree
 		Longitude: raw.LONGITUDE,
 		Address: raw.ADDR,
 		Administration: raw.STYPE,
+
+		ssid: raw.SSID,
+		password: raw.PASSWORD,
+		authType: raw.AUTH_TYPE as EnumWifiAuthType,
 	};
+}
+
+export function _normalizeWifiSSID(raw: IRawHotspot_iTaiwan, ssid: EnumWifiSSIDName): IRawHotspot_iTaiwan & IHotspot_auth
+{
+	if (!raw.ssid && ssid)
+	{
+		raw.ssid = ssid;
+	}
+
+	switch (raw.ssid)
+	{
+		case EnumWifiSSIDName.TAIPEI_FREE_WIFI:
+		case EnumWifiSSIDName.ITAIWAN:
+			raw.authType = EnumWifiAuthType.PORTAL;
+
+			raw.dataSource = EnumDatasetSource.GOV_DATA;
+
+			break;
+	}
+
+	return raw;
 }
 
 /**
  * 轉換選項介面 - 包含過濾器和回調
  * Conversion options interface - includes filter and callback
- *
+
  * @typeParam T - 目標類型 / Target type
  * @typeParam R - 來源類型 / Source type
  */
@@ -199,6 +229,7 @@ export function convertChargingRaw(raw: IRawChargingStation): IChargingStation
 {
 	return {
 		dataType: EnumDatasetType.CHARGING,
+		dataSource: EnumDatasetSource.GOV_DATA,
 		name: raw["充電站名稱"] ?? "",
 		lat: _normalizeCoordScalarFromStringNumberCore(raw["緯度"], GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,
 		lng: _normalizeCoordScalarFromStringNumberCore(raw["經度"], GLOBAL_GRID_CONFIG_PRECISION_MAKRER) || 0,

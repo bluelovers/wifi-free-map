@@ -83,7 +83,7 @@ export async function GET(request: Request)
 
 		try
 		{
-			const blockJson: (IHotspot & { password?: string })[] = await readFile(blockPath, 'utf-8').then(JSON.parse);
+			const blockJson: IHotspot[] = await readFile(blockPath, 'utf-8').then(JSON.parse);
 
 			/** 將 IHotspot 轉換為 IWiFiHotspot */
 			wifiData = blockJson.map((item, index) =>
@@ -91,13 +91,10 @@ export async function GET(request: Request)
 				return {
 					...item,
 					id: `${_formatBlockKey(item.lng, item.lat)}_${index}`,
-					source: 'user_contributed' as const,
-					ssid: '',
-					password: item.password || '',
 					provider: '',
 					isFree: true,
 					isOpen: true,
-					createdAt: '',
+					createdAt: new Date(),
 					createdBy: '',
 					verified: false,
 				};

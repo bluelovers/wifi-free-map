@@ -11,6 +11,7 @@ import {
 	convertWiFiArray,
 	convertChargingArray,
 	convertWiFiRaw_TaipeiFree_To_iTaiwan,
+	_normalizeWifiSSID,
 } from "../src/lib/transform";
 import {
 	chargingNormalizePath,
@@ -25,6 +26,9 @@ import { execSync } from 'child_process';
 import { __DATA_ROOT } from '@/lib/__root';
 
 import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-sort';
+import { IRawHotspot_TaipeiFree, IRawHotspot_iTaiwan } from '@/types/station-wifi';
+import { IRawChargingStation } from '@/types/station-charging';
+import { EnumWifiSSIDName } from '@/lib/utils/grid/grid-types';
 
 /**
  * 主執行函式
@@ -32,13 +36,15 @@ import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-sort';
  */
 async function main()
 {
-	const wifiRaw = await fs.readJSON(wifiRawPath_iTaiwan);
-	const taipeiWifiRaw = await fs.readJSON(wifiRawPath_TaipeiFree);
-	const chargingRaw = await fs.readJSON(chargingRawPath);
+	let wifiRaw = await fs.readJSON(wifiRawPath_iTaiwan) as IRawHotspot_iTaiwan[];
+	const taipeiWifiRaw = await fs.readJSON(wifiRawPath_TaipeiFree) as IRawHotspot_TaipeiFree[];
+	const chargingRaw = await fs.readJSON(chargingRawPath) as IRawChargingStation[];
+
+	wifiRaw = wifiRaw.map(raw => _normalizeWifiSSID(raw, EnumWifiSSIDName.ITAIWAN));
 
 	// 將台北市資料轉換為與 iTaiwan 相同的欄位格式
 	// 台北市 JSON 使用大寫欄位：NAME, LATITUDE, LONGITUDE, ADDR
-	const taipeiFormatted = taipeiWifiRaw.map(convertWiFiRaw_TaipeiFree_To_iTaiwan);
+	const taipeiFormatted = taipeiWifiRaw.map(raw => _normalizeWifiSSID(convertWiFiRaw_TaipeiFree_To_iTaiwan(raw), EnumWifiSSIDName.TAIPEI_FREE_WIFI));
 
 	// 合併 iTaiwan 與台北市 Wi-Fi 資料（僅用於轉換）
 	const allWifiRaw = [...wifiRaw, ...taipeiFormatted];

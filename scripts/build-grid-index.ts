@@ -1,8 +1,7 @@
 import { buildHierarchicalIndex } from '@/lib/utils/grid/grid-index-builder-v2';
-import { resolve } from 'path';
-import { __ROOT } from '../test/__root';
+import { __DATA_ROOT } from '@/lib/__root';
 
-buildHierarchicalIndex(resolve(__ROOT, `public/data/`))
+buildHierarchicalIndex(__DATA_ROOT)
 	.then(() =>
 	{
 		// console.log('Index build completed');

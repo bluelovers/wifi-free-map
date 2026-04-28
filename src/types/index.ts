@@ -22,30 +22,31 @@ export enum EnumFacilityType
  * 繼承 IHotspot 並添加前端所需的額外欄位
  * Extends IHotspot with additional fields for front-end
  */
-export interface IWiFiHotspot extends IHotspot
+export interface IWiFiHotspot extends IHotspot, IWiFiHotspot_not_impl
 {
 	/** 唯一識別碼 / Unique identifier */
 	id: string;
-	/** 資料來源 / Data source */
-	source: 'itaiwan' | 'user_contributed';
-	/** WiFi SSID / WiFi SSID */
-	ssid: string;
-	/** WiFi 密碼（可選） / WiFi password (optional) */
-	password?: string;
+}
+
+/**
+ * 未實裝的屬性
+ */
+export interface IWiFiHotspot_not_impl
+{
 	/** 提供者 / Provider */
-	provider: string;
+	provider?: string;
 	/** 是否免費 / Whether it is free */
-	isFree: boolean;
+	isFree?: boolean;
 	/** 是否開放中 / Whether it is open */
-	isOpen: boolean;
+	isOpen?: boolean;
 	/** 開放時間（可選） / Opening hours (optional) */
 	openTime?: string;
 	/** 建立時間 / Creation timestamp */
-	createdAt: Date;
+	createdAt?: Date;
 	/** 建立者 / Created by */
-	createdBy: string;
+	createdBy?: string;
 	/** 是否經過驗證 / Whether verified */
-	verified: boolean;
+	verified?: boolean;
 }
 
 /**

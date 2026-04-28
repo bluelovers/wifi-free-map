@@ -15,6 +15,43 @@ export enum EnumDatasetType
 	CHARGING = "charging",
 }
 
+export enum EnumDatasetSource
+{
+	/** 政府資料開放平臺 */
+	GOV_DATA = "gov-data",
+	/** 使用者貢獻 */
+	USER_CONTRIBUTED = "user_contributed",
+}
+
+export enum EnumWifiAuthType
+{
+	/** 無需認證 / No authentication */
+	NONE = "none",
+	/** Wi‑Fi 密碼認證 / Wi‑Fi password authentication */
+	PASSWORD = "password",
+
+	/** Wi‑Fi Portal 認證 / Wi‑Fi portal authentication */
+	PORTAL = "portal",
+
+	/** Wi‑Fi Portal 短信認證 / Wi‑Fi portal SMS authentication */
+	PORTAL_SMS = "portal_sms",
+
+	/** Wi‑Fi Portal 廣告認證 / Wi‑Fi portal advertisement authentication */
+	PORTAL_AD = "portal_ad",
+
+	/** Wi‑Fi Portal 使用者認證 / Wi‑Fi portal user authentication */
+	PORTAL_USER = "portal_user",
+}
+
+export enum EnumWifiSSIDName
+{
+	/** 台北市免費 Wi-Fi / Taipei City Free Wi-Fi */
+	TAIPEI_FREE_WIFI = "TPE-Free",
+
+	/** iTaiwan */
+	ITAIWAN = "iTaiwan",
+}
+
 /**
  * 經緯度最小值介面
  * Longitude/latitude minimum interface

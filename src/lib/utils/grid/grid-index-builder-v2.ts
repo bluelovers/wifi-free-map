@@ -48,6 +48,9 @@ export interface IMetadataBucketIndex
 	/** 行政區集合 / Administrative area locations */
 	locations: string[];
 
+	/** 類別集合 / Category locations */
+	categorys: string[];
+
 	/** 核心資料：以 blockId 為 Key / Core data: keyed by blockId */
 	data: Record<IFormatBlockKey<'_'>, IMetadataUnifiedBlockIndex>;
 }
@@ -68,6 +71,10 @@ export interface IMetadataUnifiedBlockIndex
 	 * (optional, for detailed filtering)
 	 */
 	locations: string[];
+
+	/** 該 Block 涵蓋的類別 / Categories covered by this block */
+	categorys: string[];
+
 	/** 該 Block 擁有的不同類型資料集 / Data sets owned by this block */
 	dataset: Record<EnumDatasetType, IDatasetEntry>;
 }
@@ -109,15 +116,18 @@ export async function buildHierarchicalIndex(dataRoot: string)
 	const bucketMap = new Map<string, {
 		locations: Set<string>,
 		types: Set<EnumDatasetType>,
+		categorys: Set<string>,
 		blocks: Map<IFormatBlockKey<'_'>, IMetadataUnifiedBlockIndex>
 	}>();
 
-	/** 統計：總資料筆數 / Statistics: total data count */
-	let totalCount = 0;
-	/** 統計：Wi-Fi 資料筆數 / Statistics: Wi-Fi data count */
-	let totalCountWifi = 0;
-	/** 統計：充電站資料筆數 / Statistics: charging station data count */
-	let totalCountCharging = 0;
+	const globalData = {
+		/** 統計：總資料筆數 / Statistics: total data count */
+		totalCount: 0,
+		/** 統計：Wi-Fi 資料筆數 / Statistics: Wi-Fi data count */
+		totalCountWifi: 0,
+		/** 統計：充電站資料筆數 / Statistics: charging station data count */
+		totalCountCharging: 0,
+	};
 
 	/** ==================== 階段 1：掃描實體檔案並彙整 / Stage 1: Scan entity files and aggregate ==================== */
 
@@ -163,6 +173,7 @@ export async function buildHierarchicalIndex(dataRoot: string)
 					bucketMap.set(bucketKey, {
 						locations: new Set(),
 						types: new Set(),
+						categorys: new Set(),
 						blocks: new Map(),
 					});
 				}
@@ -190,6 +201,7 @@ export async function buildHierarchicalIndex(dataRoot: string)
 						/** 取得或建立區塊資料 / Get or create block data */
 						const blockData: IMetadataUnifiedBlockIndex = bucketData.blocks.get(blockId) ?? {
 							locations: [],
+							categorys: [],
 							dataset: {} as any,
 						};
 
@@ -211,15 +223,15 @@ export async function buildHierarchicalIndex(dataRoot: string)
 						for (const entry of fileContent)
 						{
 							/** 累計總筆數 / Increment total count */
-							totalCount++;
+							globalData.totalCount++;
 							/** 統計各類型筆數 / Count each type */
 							if (type === EnumDatasetType.WIFI)
 							{
-								totalCountWifi++;
+								globalData.totalCountWifi++;
 							}
 							else if (type === EnumDatasetType.CHARGING)
 							{
-								totalCountCharging++;
+								globalData.totalCountCharging++;
 							}
 
 							/** 處理地址資訊 / Process address information */
@@ -246,10 +258,18 @@ export async function buildHierarchicalIndex(dataRoot: string)
 									bucketData.locations.add(locationWithRoad);
 								}
 							}
+
+							if (entry.category)
+							{
+								blockData.categorys.push(entry.category);
+								bucketData.categorys.add(entry.category);
+							}
 						}
 
 						/** 去重並設定位置資訊 / Deduplicate and set location info */
 						blockData.locations = Array.from(new Set(blockData.locations));
+
+						blockData.categorys = Array.from(new Set(blockData.categorys));
 
 						/** 設定區塊資料 / Set block data */
 						bucketData.blocks.set(blockId, blockData);
@@ -309,7 +329,9 @@ export async function buildHierarchicalIndex(dataRoot: string)
 		const bucketIndex: IMetadataBucketIndex = {
 			/** 排序後的行政區列表 / Sorted location list */
 			locations: Array.from(info.locations).sort(),
-			/** 排序後的活躍區塊列表 / Sorted active block list */
+			/** 排序後的類別列表 / Sorted category list */
+			categorys: Array.from(info.categorys).sort(),
+			/** 排序後的有效區塊列表 / Sorted active block list */
 			activeBlocks: Array.from(info.blocks.keys()).sort() as any[],
 			/** 區塊詳細資料 / Block details */
 			data: Object.fromEntries(info.blocks),
@@ -336,7 +358,7 @@ export async function buildHierarchicalIndex(dataRoot: string)
 	/** 輸出完成訊息 / Output completion message */
 	console.log('🚀 多級索引建立完成！');
 
-	console.log('📊 總資料筆數:', totalCount);
-	console.log('📊 Wi-Fi 資料筆數:', totalCountWifi);
-	console.log('📊 充電站資料筆數:', totalCountCharging);
+	console.log('📊 總資料筆數:', globalData.totalCount);
+	console.log('📊 Wi-Fi 資料筆數:', globalData.totalCountWifi);
+	console.log('📊 充電站資料筆數:', globalData.totalCountCharging);
 }

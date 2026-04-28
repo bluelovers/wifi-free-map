@@ -18,6 +18,7 @@ import { __ROOT } from '../test/__root';
 import { __DATA_ROOT } from '@/lib/__root';
 
 import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-sort';
+import { IHotspot } from '@/types/station-wifi';
 
 /**
  * 主執行函式
@@ -25,7 +26,7 @@ import { _sortCompByBucketAndBlock } from '@/lib/utils/grid/grid-sort';
 async function main()
 {
 	// 讀取 Wi-Fi 熱點資料
-	const wifiData = await import("../public/data/raw-normalize/wifi-hotspots.json").then((m) => m.default);
+	const wifiData = await import("../public/data/raw-normalize/wifi-hotspots.json").then((m) => m.default) as IHotspot[];
 
 	console.log(`載入 ${wifiData.length} 筆 Wi-Fi 熱點資料`);
 

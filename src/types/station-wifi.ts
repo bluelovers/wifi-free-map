@@ -1,6 +1,6 @@
 import { IStationBase } from '@/types/station-base';
 import { convertWiFiRaw_iTaiwan, convertWiFiRaw_TaipeiFree_To_iTaiwan } from '@/lib/transform';
-import { EnumDatasetType } from '@/lib/utils/grid/grid-types';
+import { EnumDatasetType, EnumWifiAuthType, EnumWifiSSIDName } from '@/lib/utils/grid/grid-types';
 
 /**
  * Wi‑Fi 熱點原始資料型別（iTaiwan 提供）
@@ -36,6 +36,16 @@ export interface IRawHotspot_iTaiwan
 	[key: string]: any; // 其他欄位保留
 }
 
+export interface IHotspot_auth
+{
+	/** SSID */
+	ssid?: string | EnumWifiSSIDName;
+	/** 密碼（可選） */
+	password?: string;
+
+	authType?: EnumWifiAuthType;
+}
+
 export interface IRawHotspot_TaipeiFree
 {
 	NAME: string;
@@ -58,12 +68,7 @@ export interface IRawHotspot_TaipeiFree
  * 過濾後的 Wi‑Fi 熱點型別，供前端使用
  * Filtered hotspot type for front‑end consumption.
  */
-export interface IHotspot extends IStationBase
+export interface IHotspot extends IStationBase, IHotspot_auth
 {
 	dataType: EnumDatasetType.WIFI;
-
-	/** SSID */
-	ssid?: string;
-	/** 密碼（可選） */
-	password?: string;
 }

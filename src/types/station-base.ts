@@ -5,7 +5,7 @@
  * 所有設施類型（WiFi/充電站）共用的基礎介面
  * Common base interface for all facility types (WiFi/charging stations)
  */
-import { EnumDatasetType, IGeoCoord } from '@/lib/utils/grid/grid-types';
+import { EnumDatasetSource, EnumDatasetType, IGeoCoord } from '@/lib/utils/grid/grid-types';
 
 /**
  * 設施基地介面
@@ -18,6 +18,8 @@ export interface IStationBase extends IGeoCoord
 {
 	/** 資料類型 / Data type */
 	dataType: EnumDatasetType;
+	/** 資料來源 / Data source */
+	dataSource?: EnumDatasetSource;
 	/** 類別（可選）/ Category (optional) */
 	category?: string;
 
