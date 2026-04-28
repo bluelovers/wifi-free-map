@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
+
 import L from 'leaflet';
 import { Alert, Button, Card, Flex, Input, Select, Space, Switch, Tag, Typography } from 'antd';
 import {
@@ -19,7 +19,7 @@ import MarkerClusterGroup from 'react-leaflet-cluster'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.css'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.Default.css'
 import { MapTileLayer } from './map/MapTileLayer';
-import { IGeoCoord, IGeoPointTupleLatLng } from '@/lib/utils/grid/grid-types';
+import { EnumDatasetType, IGeoCoord, IGeoPointTupleLatLng } from '@/lib/utils/grid/grid-types';
 import { fetchOSMReverseInfo } from '@/lib/utils/api/fetch-api';
 import { CircleMarkerSVG } from './map/icon/CircleMarkerSVG';
 import { getAndFormatDistance } from '@/lib/utils/geo/geo-formatter';
@@ -41,7 +41,8 @@ import {
 import { getGoogleMapsMode, setGoogleMapsMode as saveGoogleMapsMode } from '@/lib/utils/google-maps-settings';
 import { IStationBase } from '@/types/station-base';
 import { useFacilityPointBlocksData } from './facilityPoint/useFacilityPointBlocksData';
-import { chargingIcon, wifiIcon } from '@/components/icon/leaflet';
+import { FacilityPointDataListAll } from './facilityPoint/FacilityPointDataList';
+import { FacilityPointDataMarkerAll } from './facilityPoint/FacilityPointDataMarker';
 
 /**
  * 地圖中心位置組件（僅響應位置變更，不響應縮放）
@@ -107,32 +108,23 @@ export default function FacilityMap()
 	});
 
 	/** Google Maps 開啟模式 / Google Maps opening mode */
-	const [googleMapsMode, setGoogleMapsMode] = useState<EnumGoogleMapsMode>(() => getGoogleMapsMode());
+	const [mapMode, setMapMode] = useState<EnumGoogleMapsMode>(() => getGoogleMapsMode());
+	const mapModeRef = useRef(mapMode);
+
+	// 每次渲染時同步更新 ref
+	useEffect(() => {
+		mapModeRef.current = mapMode;
+	}, [mapMode]);
 
 	/** 開啟 Google 地圖處理函式 */
-	const handleOpenGoogleMaps = useCallback((item: IStationBase) =>
+	const handleOpenGoogleMaps = useCallback((item: IStationBase, isNavigation?: boolean) =>
 	{
-		const url = generateGoogleMapsUrl({
-			name: item.name,
-			address: item.address,
-			coord: { lat: item.lat, lng: item.lng },
-			mode: googleMapsMode,
+		const url = generateGoogleMapsUrl(item, {
+			mode: mapModeRef.current,
+			isNavigation,
 		});
 		openGoogleMaps(url);
-	}, [googleMapsMode]);
-
-	/** 開啟導航處理函式 */
-	const handleOpenNavigation = useCallback((item: IStationBase) =>
-	{
-		const url = generateGoogleMapsUrl({
-			name: item.name,
-			address: item.address,
-			coord: { lat: item.lat, lng: item.lng },
-			mode: googleMapsMode,
-			isNavigation: true,
-		});
-		openGoogleMaps(url);
-	}, [googleMapsMode]);
+	}, [mapMode]);
 
 	/** 右鍵點擊地圖移動定位點 */
 	const LongPressHandler = () =>
@@ -192,8 +184,7 @@ export default function FacilityMap()
 	/** 顯示的熱點數量（分頁用）/ Number of visible hotspots (for pagination) */
 	const [visibleHotspotCount, setVisibleHotspotCount] = useState(20);
 
-	/** 每次載入的熱點數量 / Number of hotspots to load per batch */
-	const HOTSPOTS_PER_PAGE = 20;
+
 
 	/** 手動設定後，同步更新地址 */
 	const updateAddress = async (coord: IGeoCoord) =>
@@ -438,12 +429,6 @@ export default function FacilityMap()
 
 	}, [facilityPointData, searchTerm, filters, mapCenter]);
 
-	/** 當過濾條件改變時重置顯示數量 / Reset visible count when filters change */
-	useEffect(() =>
-	{
-		setVisibleHotspotCount(HOTSPOTS_PER_PAGE);
-	}, [searchTerm, filters, position]);
-
 	// 處理列表項目點擊 - 連動地圖
 	const handleListItemClick = (hotspot: IWiFiHotspot) =>
 	{
@@ -517,11 +502,11 @@ export default function FacilityMap()
 					)}
 				</div>
 				{/* 地圖容器 */}
-				<div style={{ position: 'relative', height: '500px', width: '100%' }}>
+				<div style={{ position: 'relative', minHeight: 500, width: '100%' }}>
 					<MapTileLayer
 						center={position}
 						zoom={zoom}
-						style={{ height: '100%', width: '100%' }}
+						style={{ height: '100%', width: '100%', minHeight: 500 }}
 						doubleClickZoom={false}
 
 						mapRef={mapRef}
@@ -585,96 +570,13 @@ export default function FacilityMap()
 						<ManualLocationHandler />
 						{/* 右鍵點擊移動定位點 */}
 						<LongPressHandler />
-						{/* WiFi 熱點 */}
-						<MarkerClusterGroup chunkedLoading>
-							{filteredHotspots.map((hotspot, index) => (
-								<Marker
-									key={hotspot.id}
-									data-uuid={hotspot.id}
-
-									position={hotspot}
-									icon={wifiIcon}
-									eventHandlers={{
-										click: () =>
-										{
-											console.log(hotspot.dataType, 'clicked', hotspot);
-										},
-									}}
-								>
-									<Popup>
-										<Flex vertical gap="small">
-											<span>{hotspot.name}</span>
-											<Flex gap="small">
-												<Button
-													size="small"
-													icon={<GlobalOutlined />}
-													onClick={(e) =>
-													{
-														e.stopPropagation();
-														handleOpenGoogleMaps(hotspot);
-													}}
-												>
-													&nbsp;地圖
-												</Button>
-												<Button
-													size="small"
-													icon={<CompassOutlined />}
-													onClick={(e) =>
-													{
-														e.stopPropagation();
-														handleOpenNavigation(hotspot);
-													}}
-												>
-													&nbsp;導航
-												</Button>
-											</Flex>
-										</Flex>
-									</Popup>
-								</Marker>
-							))}
-						</MarkerClusterGroup>
-						{/* 充電站 */}
-						<MarkerClusterGroup chunkedLoading>
-							{facilityPointData?.charging.map((station, index) => (
-								<Marker
-									key={station.id}
-									data-uuid={station.id}
-
-									position={station}
-									icon={chargingIcon}
-								>
-									<Popup>
-										<Flex vertical gap="small">
-											<span>{station.name}</span>
-											<Flex gap="small">
-												<Button
-													size="small"
-													icon={<GlobalOutlined />}
-													onClick={(e) =>
-													{
-														e.stopPropagation();
-														handleOpenGoogleMaps(station);
-													}}
-												>
-													&nbsp;地圖
-												</Button>
-												<Button
-													size="small"
-													icon={<CompassOutlined />}
-													onClick={(e) =>
-													{
-														e.stopPropagation();
-														handleOpenNavigation(station);
-													}}
-												>
-													&nbsp;導航
-												</Button>
-											</Flex>
-										</Flex>
-									</Popup>
-								</Marker>
-							))}
-						</MarkerClusterGroup>
+						<FacilityPointDataMarkerAll
+							data={{
+								...facilityPointData,
+								[EnumDatasetType.WIFI]: filteredHotspots,
+							}}
+							onOpenMap={handleOpenGoogleMaps}
+						/>
 						{/* 變更視角 - 當位置改變時自動置中 */}
 						<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
 					</MapTileLayer>
@@ -726,10 +628,10 @@ export default function FacilityMap()
 							<Flex align="center" gap="small">
 								<Typography.Text>Google 地圖：</Typography.Text>
 								<Select
-									value={googleMapsMode}
+									value={mapMode}
 									onChange={(value) =>
 									{
-										setGoogleMapsMode(value);
+										setMapMode(value);
 										saveGoogleMapsMode(value); // 儲存到 localStorage
 									}}
 									style={{ width: 160 }}
@@ -764,106 +666,16 @@ export default function FacilityMap()
 				</Flex>
 
 				{/* 底部列表面板 / Bottom list panel */}
-				{(
-					<Card
-						className="bottom-panel"
-						style={{
-							maxHeight: '320px',
-							// overflow: 'visible',
-							overflow: 'auto',
-						}}
-						title={`WiFi 熱點列表 (${filteredHotspots.length})`}
-						size="small"
-						hoverable
+				<FacilityPointDataListAll
+					data={{
+						...facilityPointData,
+						[EnumDatasetType.WIFI]: filteredHotspots,
+					}}
 
-						onScroll={(e) =>
-						{
-							/** 捲動到底部時載入更多 / Load more when scrolled to bottom */
-							const target = e.target as HTMLDivElement;
-							const scrollBottom = target.scrollTop + target.clientHeight;
-							if (scrollBottom >= target.scrollHeight - 50)
-							{
-								/** 載入更多熱點 / Load more hotspots */
-								if (visibleHotspotCount < filteredHotspots.length)
-								{
-									setVisibleHotspotCount(prev => prev + HOTSPOTS_PER_PAGE);
-								}
-							}
-						}}
-					>
-						<Flex
-							className="facility-list"
-							wrap
-							justify={'space-around'}
-							align="flex-start"
-						>
-							{filteredHotspots.slice(0, visibleHotspotCount).map((hotspot, index) => (
-								<Card
-									key={hotspot.id}
-									data-uuid={hotspot.id}
+					onClick={handleListItemClick}
 
-									className="facility-item"
-
-									hoverable
-									variant="outlined"
-									size="small"
-
-									style={{
-										cursor: 'pointer',
-										width: 300,
-										marginBottom: 10,
-									}}
-									onClick={() => handleListItemClick(hotspot)}
-								>
-									<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />
-									<Flex vertical gap="zero">
-										<Typography.Text strong>{hotspot.name}</Typography.Text>
-										{hotspot.address && (
-											<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-												{hotspot.address}
-											</Typography.Text>
-										)}
-										<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-											{hotspot.lat.toFixed(4)}, {hotspot.lng.toFixed(4)}
-											{' • '}{getAndFormatDistance(wrapCoordinateFromPointTupleLatLng(position), hotspot)}
-											{hotspot.password && ' • 有密碼'}
-										</Typography.Text>
-									</Flex>
-									<Flex vertical gap="small">
-										<Button
-											size="small"
-											icon={<GlobalOutlined />}
-											onClick={(e) =>
-											{
-												e.stopPropagation();
-												handleOpenGoogleMaps(hotspot);
-											}}
-										>
-											&nbsp;地圖
-										</Button>
-										<Button
-											size="small"
-											icon={<CompassOutlined />}
-											onClick={(e) =>
-											{
-												e.stopPropagation();
-												handleOpenNavigation(hotspot);
-											}}
-										>
-											&nbsp;導航
-										</Button>
-									</Flex>
-								</Card>
-							))}
-						</Flex>
-						{visibleHotspotCount < filteredHotspots.length && (
-							<Typography.Text type="secondary" style={{ textAlign: 'center', display: 'block', padding: '8px' }}>
-								還有 {filteredHotspots.length - visibleHotspotCount} 個熱點...
-							</Typography.Text>
-						)}
-					</Card>
-				)}
-
+					onOpenMap={handleOpenGoogleMaps}
+				/>
 			</Flex>
 		</>
 	);

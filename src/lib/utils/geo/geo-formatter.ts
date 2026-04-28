@@ -25,7 +25,7 @@ export function formatDistance(distM: number)
  * 格式：[Lat, Lng] (符合 Google Maps 搜尋習慣)
  * 範例："25.0200, 121.4800"
  */
-export function formatToDD(coord: IGeoCoord, precision = 6): string
+export function formatToDD(coord: IGeoCoord, precision = GLOBAL_GRID_CONFIG_PRECISION_MAKRER): IFormatBlockKey<', '>
 {
 	return `${coord.lat.toFixed(precision)}, ${coord.lng.toFixed(precision)}`;
 }

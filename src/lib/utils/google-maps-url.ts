@@ -6,7 +6,9 @@
  * Provides generating Google Maps URLs, supporting Web URL and App Deep Link modes
  */
 
-import { IGeoCoord } from '@/lib/utils/grid/grid-types';
+import { IGeoBlockGridIndexRange, IGeoCoord } from '@/lib/utils/grid/grid-types';
+import { ITSPartialPick } from 'ts-type';
+import { IStationBase } from '@/types/station-base';
 
 /**
  * Google Maps 開啟模式
@@ -39,12 +41,6 @@ export enum EnumGoogleMapsMode
  */
 export interface IGoogleMapsQueryOptions
 {
-	/** 場所名稱 / Place name */
-	name?: string;
-	/** 完整地址 / Full address */
-	address?: string;
-	/** 座標 / Coordinates */
-	coord?: IGeoCoord;
 	/** 開啟模式（預設為 Web）/ Opening mode (default: Web) */
 	mode?: EnumGoogleMapsMode;
 	/** 是否為導航模式 / Navigation mode */
@@ -77,19 +73,22 @@ function buildNavUrl(dest: string): string
  * @returns Google Maps URL
  * @throws 若無法產生 URL則拋出錯誤 / Throws error if URL cannot be generated
  */
-export function generateGoogleMapsUrl(options: IGoogleMapsQueryOptions): string
+export function generateGoogleMapsUrl(item: ITSPartialPick<IStationBase, 'name' | 'address' | 'lat' | 'lng'>, options: IGoogleMapsQueryOptions): string
 {
+
+	let coord: IGeoCoord = (item.lat || item.lng) ? item as any : null;
+
 	// 驗證必須，至少要有 coord, name, 或 address 其一
-	if (!options.coord && !options.name && !options.address)
+	if (!coord! && !item.name && !item.address)
 	{
 		throw new Error(`Maps URL[${options.mode}]: 至少需要提供 coord、name 或 address 其中之一`);
 	}
 
 	const mode = options.mode || EnumGoogleMapsMode.Web;
 	const isNavigation = options.isNavigation || false;
-	const { name, address, coord } = options;
+	const { name, address } = item;
 
-	const queryLatLng = coord ? `${coord.lat},${coord.lng}` : '';
+	const queryLatLng = coord ? `${item.lat},${item.lng}` : '';
 
 	function requireCoord(coord: IGeoCoord | undefined): asserts coord is IGeoCoord
 	{
@@ -211,7 +210,7 @@ export function generateGoogleMapsUrl(options: IGoogleMapsQueryOptions): string
 			break;
 	}
 
-	if (!query)
+	if (!query.trim())
 	{
 		throw new Error(`Maps URL[${mode}]: 無法產生查詢字串`);
 	}
