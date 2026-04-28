@@ -96,6 +96,11 @@ export function generateGoogleMapsUrl(options: IGoogleMapsQueryOptions): string
 		if (!coord) throw new Error(`Maps URL[${mode}]: 需要提供座標`);
 	}
 
+	function _labelTag(value: string): string
+	{
+		return ` (${value})`;
+	}
+
 	let query = queryLatLng;
 
 	if (mode === EnumGoogleMapsMode.App)
@@ -106,11 +111,11 @@ export function generateGoogleMapsUrl(options: IGoogleMapsQueryOptions): string
 
 		if (name)
 		{
-			query += `+(${name})`;
+			query += _labelTag(name);
 		}
 		else if (address)
 		{
-			query += `+(${address})`;
+			query += _labelTag(address);
 		}
 
 		return `geo:${queryLatLng}?q=${encodeURIComponent(query)}${suffix}`;
@@ -132,7 +137,7 @@ export function generateGoogleMapsUrl(options: IGoogleMapsQueryOptions): string
 
 			if (name)
 			{
-				query += `+(${name})`;
+				query += _labelTag(name);
 			}
 
 			break;
@@ -142,7 +147,7 @@ export function generateGoogleMapsUrl(options: IGoogleMapsQueryOptions): string
 
 			if (address)
 			{
-				query += `+(${address})`;
+				query += _labelTag(address);
 			}
 
 			break;
@@ -155,7 +160,7 @@ export function generateGoogleMapsUrl(options: IGoogleMapsQueryOptions): string
 				query = address;
 				if (name)
 				{
-					query += `+(${name})`;
+					query += _labelTag(name);
 				}
 			}
 			else if (name)
@@ -174,11 +179,11 @@ export function generateGoogleMapsUrl(options: IGoogleMapsQueryOptions): string
 			{
 				if (address)
 				{
-					query += `+(${address})`;
+					query += _labelTag(address);
 				}
 				else if (name)
 				{
-					query += `+(${name})`;
+					query += _labelTag(name);
 				}
 			}
 			else if (address)
@@ -186,7 +191,7 @@ export function generateGoogleMapsUrl(options: IGoogleMapsQueryOptions): string
 				query = address;
 				if (name)
 				{
-					query += `+(${name})`;
+					query += _labelTag(name);
 				}
 			}
 			else if (name)

@@ -15,7 +15,7 @@ import {
 } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L, { DivIcon } from 'leaflet';
-import { Input, Switch, InputNumber, Space, Flex, Button, Card, Alert, Typography, Row, Tag } from 'antd';
+import { Input, Switch, InputNumber, Space, Flex, Button, Card, Alert, Typography, Row, Tag, Select } from 'antd';
 import {
 	SearchOutlined,
 	WifiOutlined,
@@ -23,6 +23,8 @@ import {
 	EnvironmentOutlined,
 	ReloadOutlined,
 	AimOutlined,
+	CompassOutlined,
+	GlobalOutlined,
 } from '@ant-design/icons';
 import {
 	IWiFiHotspot,
@@ -55,6 +57,16 @@ import { _createProximityComparator, sortByProximityFast } from '@/lib/utils/geo
 import { isCoordWithinRange } from '@/lib/utils/geo/geo-check';
 import { MapMoveHandler } from './map/MapMoveHandler';
 import { FloatButtonElement } from 'antd/es/float-button/FloatButton';
+import {
+	generateGoogleMapsUrl,
+	openGoogleMaps,
+	EnumGoogleMapsMode,
+	IGoogleMapsQueryOptions,
+	getAvailableGoogleMapsModes,
+	getGoogleMapsModeDisplayName,
+} from '@/lib/utils/google-maps-url';
+import { getGoogleMapsMode, setGoogleMapsMode as saveGoogleMapsMode } from '@/lib/utils/google-maps-settings';
+import { IStationBase } from '@/types/station-base';
 
 /**
  * 修正 Leaflet 預設圖示路徑
@@ -166,6 +178,34 @@ export default function FacilityMap()
 	});
 	/** 顯示列表面板 / Show list panel */
 	const [showList, setShowList] = useState<boolean>(true);
+
+	/** Google Maps 開啟模式 / Google Maps opening mode */
+	const [googleMapsMode, setGoogleMapsMode] = useState<EnumGoogleMapsMode>(() => getGoogleMapsMode());
+
+	/** 開啟 Google 地圖處理函式 */
+	const handleOpenGoogleMaps = useCallback((item: IStationBase) =>
+	{
+		const url = generateGoogleMapsUrl({
+			name: item.name,
+			address: item.address,
+			coord: { lat: item.lat, lng: item.lng },
+			mode: googleMapsMode,
+		});
+		openGoogleMaps(url);
+	}, [googleMapsMode]);
+
+	/** 開啟導航處理函式 */
+	const handleOpenNavigation = useCallback((item: IStationBase) =>
+	{
+		const url = generateGoogleMapsUrl({
+			name: item.name,
+			address: item.address,
+			coord: { lat: item.lat, lng: item.lng },
+			mode: googleMapsMode,
+			isNavigation: true,
+		});
+		openGoogleMaps(url);
+	}, [googleMapsMode]);
 
 	/** 右鍵點擊地圖移動定位點 */
 	const LongPressHandler = () =>
@@ -746,12 +786,42 @@ export default function FacilityMap()
 						<MarkerClusterGroup chunkedLoading>
 							{filteredHotspots.map((hotspot, index) => (
 								<Marker
-									key={hotspot.id ?? hotspot.lng + '_' + hotspot.lat + '_' + index}
+									key={hotspot.id}
+									data-uuid={hotspot.id}
+
 									position={hotspot}
 									icon={wifiIcon}
 									eventHandlers={{ click: () => handleMarkerClick(hotspot) }}
 								>
-									<Popup>{hotspot.name}</Popup>
+									<Popup>
+										<Flex vertical gap="small">
+											<span>{hotspot.name}</span>
+											<Flex gap="small">
+												<Button
+													size="small"
+													icon={<GlobalOutlined />}
+													onClick={(e) =>
+													{
+														e.stopPropagation();
+														handleOpenGoogleMaps(hotspot);
+													}}
+												>
+													&nbsp;地圖
+												</Button>
+												<Button
+													size="small"
+													icon={<CompassOutlined />}
+													onClick={(e) =>
+													{
+														e.stopPropagation();
+														handleOpenNavigation(hotspot);
+													}}
+												>
+													&nbsp;導航
+												</Button>
+											</Flex>
+										</Flex>
+									</Popup>
 								</Marker>
 							))}
 						</MarkerClusterGroup>
@@ -759,11 +829,41 @@ export default function FacilityMap()
 						<MarkerClusterGroup chunkedLoading>
 							{chargingStations.map((station, index) => (
 								<Marker
-									key={station.id ?? station.lng + '_' + station.lat + '_' + index}
+									key={station.id}
+									data-uuid={station.id}
+
 									position={station}
 									icon={chargingIcon}
 								>
-									<Popup>{station.name}</Popup>
+									<Popup>
+										<Flex vertical gap="small">
+											<span>{station.name}</span>
+											<Flex gap="small">
+												<Button
+													size="small"
+													icon={<GlobalOutlined />}
+													onClick={(e) =>
+													{
+														e.stopPropagation();
+														handleOpenGoogleMaps(station);
+													}}
+												>
+													&nbsp;地圖
+												</Button>
+												<Button
+													size="small"
+													icon={<CompassOutlined />}
+													onClick={(e) =>
+													{
+														e.stopPropagation();
+														handleOpenNavigation(station);
+													}}
+												>
+													&nbsp;導航
+												</Button>
+											</Flex>
+										</Flex>
+									</Popup>
 								</Marker>
 							))}
 						</MarkerClusterGroup>
@@ -833,14 +933,38 @@ export default function FacilityMap()
 								/>
 								<Typography.Text>顯示列表</Typography.Text>
 							</Flex>
+							<Flex align="center" gap="small">
+								<Typography.Text>Google 地圖：</Typography.Text>
+								<Select
+									value={googleMapsMode}
+									onChange={(value) =>
+									{
+										setGoogleMapsMode(value);
+										saveGoogleMapsMode(value); // 儲存到 localStorage
+									}}
+									style={{ width: 160 }}
+									size="small"
+									options={getAvailableGoogleMapsModes().map(mode => ({
+										value: mode,
+										label: getGoogleMapsModeDisplayName(mode),
+									}))}
+								/>
+							</Flex>
 						</Flex>
 					</Flex>
 				</Card>
 
-				<Flex>
-					{false && filteredHotspots.map((hotspot) => (
-						<Tag key={hotspot.id} color="blue" variant="solid">
-							{hotspot.name}
+				{/* 類別標籤 / Category tags */}
+				<Flex gap="small" align="center" wrap>
+					{[...new Set(filteredHotspots.slice(0, visibleHotspotCount).map(h => h.category).filter(Boolean))].map((category, idx) => (
+						<Tag
+							key={category}
+							color={['blue', 'green', 'red', 'gold', 'purple', 'cyan', 'orange', 'magenta'][idx % 8]}
+							style={{
+								//backgroundColor: ['blue', 'green', 'red', 'gold', 'purple', 'cyan', 'orange', 'magenta'][idx % 8],
+							}}
+						>
+							{category}
 						</Tag>
 					))}
 				</Flex>
@@ -881,7 +1005,9 @@ export default function FacilityMap()
 						>
 							{filteredHotspots.slice(0, visibleHotspotCount).map((hotspot, index) => (
 								<Card
-									key={hotspot.id ?? hotspot.lng + '_' + hotspot.lat + '_' + index}
+									key={hotspot.id}
+									data-uuid={hotspot.id}
+
 									className="facility-item"
 
 									hoverable
@@ -908,6 +1034,30 @@ export default function FacilityMap()
 											{' • '}{getAndFormatDistance(wrapCoordinateFromPointTupleLatLng(position), hotspot)}
 											{hotspot.password && ' • 有密碼'}
 										</Typography.Text>
+									</Flex>
+									<Flex vertical gap="small">
+										<Button
+											size="small"
+											icon={<GlobalOutlined />}
+											onClick={(e) =>
+											{
+												e.stopPropagation();
+												handleOpenGoogleMaps(hotspot);
+											}}
+										>
+											&nbsp;地圖
+										</Button>
+										<Button
+											size="small"
+											icon={<CompassOutlined />}
+											onClick={(e) =>
+											{
+												e.stopPropagation();
+												handleOpenNavigation(hotspot);
+											}}
+										>
+											&nbsp;導航
+										</Button>
 									</Flex>
 								</Card>
 							))}
