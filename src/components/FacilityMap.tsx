@@ -1,118 +1,47 @@
 'use client';
 
-import { useEffect, useState, useRef, useMemo, useCallback } from 'react';
-import {
-	MapContainer,
-	TileLayer,
-	Marker,
-	Popup,
-	useMap,
-	CircleMarker,
-	useMapEvents,
-	Pane,
-	Rectangle,
-	Circle,
-} from 'react-leaflet';
+import { useCallback, useEffect, useRef, useState } from 'react';
+import { Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import L, { DivIcon } from 'leaflet';
-import { Input, Switch, InputNumber, Space, Flex, Button, Card, Alert, Typography, Row, Tag, Select } from 'antd';
+import L from 'leaflet';
+import { Alert, Button, Card, Flex, Input, Select, Space, Switch, Tag, Typography } from 'antd';
 import {
-	SearchOutlined,
-	WifiOutlined,
-	ThunderboltOutlined,
-	EnvironmentOutlined,
-	ReloadOutlined,
-	AimOutlined,
 	CompassOutlined,
 	GlobalOutlined,
+	ReloadOutlined,
+	SearchOutlined,
+	ThunderboltOutlined,
+	WifiOutlined,
 } from '@ant-design/icons';
-import {
-	IWiFiHotspot,
-	IChargingStationMarker,
-	IApiReturnWifi,
-	IApiReturnError,
-	IApiReturnCharging,
-	IApiReturnBlocksBatch,
-} from '@/types';
-import { EnumFacilityType } from '@/types';
-import { generateWiFiQRCode } from '@/lib/wifi-utils';
+import { IWiFiHotspot } from '@/types';
 import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
 import MarkerClusterGroup from 'react-leaflet-cluster'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.css'
 import 'react-leaflet-cluster/dist/assets/MarkerCluster.Default.css'
 import { MapTileLayer } from './map/MapTileLayer';
-import { IGeoPointTupleLatLng, IGeoCoord, IGpsLngLatMinMax, EnumDatasetType } from '@/lib/utils/grid/grid-types';
-import { requestPermissionsGeolocation } from '@/lib/utils/api/browser-api';
+import { IGeoCoord, IGeoPointTupleLatLng } from '@/lib/utils/grid/grid-types';
 import { fetchOSMReverseInfo } from '@/lib/utils/api/fetch-api';
 import { CircleMarkerSVG } from './map/icon/CircleMarkerSVG';
-import { _formatBlockKey, getAndFormatDistance } from '@/lib/utils/geo/geo-formatter';
+import { getAndFormatDistance } from '@/lib/utils/geo/geo-formatter';
 import {
-	normalizeCoordToMarkerPrecision,
 	wrapCoordinate,
 	wrapCoordinateFromPointTupleLatLng,
 	wrapPointTupleLatLngFromCoordinate,
 } from '@/lib/utils/geo/geo-transform';
-import { calculateDistance, calculateSquaredDistance } from '@/lib/utils/geo/geo-math';
-import { _createProximityComparator, sortByProximityFast } from '@/lib/utils/geo/geo-sort.';
-import { isCoordWithinRange } from '@/lib/utils/geo/geo-check';
-import { MapMoveHandler } from './map/MapMoveHandler';
+import { calculateDistance } from '@/lib/utils/geo/geo-math';
+import { _createProximityComparator } from '@/lib/utils/geo/geo-sort.';
 import { FloatButtonElement } from 'antd/es/float-button/FloatButton';
 import {
-	generateGoogleMapsUrl,
-	openGoogleMaps,
 	EnumGoogleMapsMode,
-	IGoogleMapsQueryOptions,
+	generateGoogleMapsUrl,
 	getAvailableGoogleMapsModes,
 	getGoogleMapsModeDisplayName,
+	openGoogleMaps,
 } from '@/lib/utils/google-maps-url';
 import { getGoogleMapsMode, setGoogleMapsMode as saveGoogleMapsMode } from '@/lib/utils/google-maps-settings';
 import { IStationBase } from '@/types/station-base';
-
-/**
- * 修正 Leaflet 預設圖示路徑
- * Fix Leaflet default icon paths
- */
-const fixLeafletIcon = () =>
-{
-	/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-	delete (L.Icon.Default.prototype as any)._getIconUrl;
-	L.Icon.Default.mergeOptions({
-		iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
-		iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-		shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-	});
-};
-
-/**
- * 自定義圖示
- * Custom markers
- */
-const wifiIcon = new L.Icon({
-	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
-	shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-	iconSize: [25, 41],
-	iconAnchor: [12, 41],
-	popupAnchor: [1, -34],
-	shadowSize: [41, 41],
-});
-
-const chargingIcon = new L.Icon({
-	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png',
-	shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-	iconSize: [25, 41],
-	iconAnchor: [12, 41],
-	popupAnchor: [1, -34],
-	shadowSize: [41, 41],
-});
-
-const userIcon = new L.Icon({
-	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
-	shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-	iconSize: [25, 41],
-	iconAnchor: [12, 41],
-	popupAnchor: [1, -34],
-	shadowSize: [41, 41],
-});
+import { useFacilityPointBlocksData } from './facilityPoint/useFacilityPointBlocksData';
+import { chargingIcon, wifiIcon } from '@/components/icon/leaflet';
 
 /**
  * 地圖中心位置組件（僅響應位置變更，不響應縮放）
@@ -147,6 +76,8 @@ function ChangeView({ center, shouldAutoCenter }: {
  */
 export default function FacilityMap()
 {
+	const [initedReady, setInitedReady] = useState(false);
+
 	/** 手動定位模式點擊地圖時設定位置 */
 	const ManualLocationHandler = () =>
 	{
@@ -171,13 +102,9 @@ export default function FacilityMap()
 	const [filters, setFilters] = useState({
 		wifi: true,
 		charging: true,
-		userContrib: true,
 		passwordOnly: false,
-		maxDistance: 10000, // meters, default 10km
 		longPressToMove: true, // 右鍵點擊地圖移動定位點（預設開啟）
 	});
-	/** 顯示列表面板 / Show list panel */
-	const [showList, setShowList] = useState<boolean>(true);
 
 	/** Google Maps 開啟模式 / Google Maps opening mode */
 	const [googleMapsMode, setGoogleMapsMode] = useState<EnumGoogleMapsMode>(() => getGoogleMapsMode());
@@ -237,92 +164,24 @@ export default function FacilityMap()
 
 		return null;
 	};
-	const [hotspots, setHotspots] = useState<IWiFiHotspot[]>([]);
 	const [filteredHotspots, setFilteredHotspots] = useState<IWiFiHotspot[]>([]);
 
-	const [chargingStations, setChargingStations] = useState<IChargingStationMarker[]>([]);
-	/** 當前資料的範圍邊界 / Current data range bounds */
-	const [rangeBounds, setRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
+	/** 地圖中心座標 */
+	const [mapCenter, setMapCenter] = useState<IGeoCoord | null>(null);
 	const [position, setPosition] = useState<IGeoPointTupleLatLng>([25.0330, 121.5654]); // 預設台北 101
 	const [zoom, setZoom] = useState(18); // 記錄目前縮放等級，會在置中前保存當前縮放
 	/** 用於取得 Leaflet map 實例，以在需要時讀取當前 zoom 等級 */
 	const mapRef = useRef<L.Map | null>(null);
 
-	/** 載入設施資料的函式 */
-	const loadBlockData = async (coord: IGeoCoord) =>
-	{
-		/** 檢查是否需要獲取新資料 */
-		const needsFetch = !rangeBounds || !isCoordWithinRange(coord, rangeBounds);
+	const { facilityPointData } = useFacilityPointBlocksData(initedReady && mapCenter! as any);
 
-		console.log('[loadBlockData] rangeBounds:', rangeBounds,
-			'\ncoord:', coord,
-
-			'\nMapCenter:', mapCenter,
-			'\nposition:', (position && wrapCoordinateFromPointTupleLatLng(position)),
-			'\nneedsFetch:', needsFetch, !needsFetch && '範圍內，跳過請求',
-		);
-
-		// /** 總是更新 mapCenter 以觸發重新排序 */
-		// setMapCenter({
-		// 	...coord,
-		// });
-
-		if (!needsFetch)
-		{
-			return;
-		}
-
-		try
-		{
-			setLoading(true);
-			fixLeafletIcon();
-
-			/** 使用批次 API 讀取區塊內的所有資料 */
-			const url = `/api/blocks-batch?lat=${coord.lat}&lng=${coord.lng}`;
-			console.log('[loadBlockData] Fetching:', url);
-			const batchRes = await fetch(url);
-			const batchData: IApiReturnBlocksBatch = await batchRes.json();
-
-			console.log('[loadBlockData] API response:', batchData.success,
-				'\nwifi count:', batchData.data?.[EnumDatasetType.WIFI]?.length,
-				'\ncharging count:', batchData.data?.[EnumDatasetType.CHARGING]?.length,
-				'\nrange:', batchData.matchedRange,
-			);
-
-			if (batchData.success)
-			{
-				setHotspots(batchData.data?.[EnumDatasetType.WIFI] || []);
-				setChargingStations(batchData.data?.[EnumDatasetType.CHARGING] || []);
-				/** 更新範圍邊界 */
-				setRangeBounds(batchData.matchedRange);
-			}
-			else
-			{
-				console.error('載入資料失敗:', (batchData as any as IApiReturnError).error);
-				setHotspots([]);
-				setChargingStations([]);
-			}
-		}
-		catch (error)
-		{
-			console.error('載入資料失敗:', error);
-		}
-		finally
-		{
-			setLoading(false);
-		}
-	};
-
-	const [loading, setLoading] = useState(true);
-	const [selectedHotspot, setSelectedHotspot] = useState<IWiFiHotspot | null>(null);
-	const [qrCodeUrl, setQrCodeUrl] = useState<string>('');
 	const [address, setAddress] = useState<string>(''); // 位置地址
 	const [addressLoading, setAddressLoading] = useState<boolean>(false); // 地址查詢載入狀態
 	const [locationError, setLocationError] = useState<boolean>(false);
 	const [manualMode, setManualMode] = useState<boolean>(false);
 	const [shouldAutoCenter, setShouldAutoCenter] = useState<boolean>(false); // 是否應該自動置中
 	const [addressSearchTerm, setAddressSearchTerm] = useState<string>(''); // 地址搜尋關鍵字
-	const [addressSearchLoading, setAddressSearchLoading] = useState<boolean>(false); // 地址搜尋載入狀態
+
 	/** 地址搜尋結果 / Address search results */
 	const [addressSearchResults, setAddressSearchResults] = useState<{
 		lat: string,
@@ -339,6 +198,8 @@ export default function FacilityMap()
 	/** 手動設定後，同步更新地址 */
 	const updateAddress = async (coord: IGeoCoord) =>
 	{
+		return;
+
 		setAddressLoading(true);
 
 		await fetchOSMReverseInfo(coord)
@@ -362,12 +223,6 @@ export default function FacilityMap()
 
 	/** 防止重複搜尋的標記 */
 	const isSearchingRef = useRef<boolean>(false);
-
-	/** 上次搜尋的關鍵字 */
-	const lastSearchTermRef = useRef<string>('');
-
-	/** 搜尌 debounce 標記 */
-	const debouncingRef = useRef<boolean>(false);
 
 	/** 透過地址關鍵字搜尋位置（正向地理編碼）- 即時搜尋（防抖） */
 	const handleAddressSearch = useCallback((term: string) =>
@@ -409,7 +264,7 @@ export default function FacilityMap()
 
 			isSearchingRef.current = true;
 			console.log('🚀 Executing search for term:', term);
-			setAddressSearchLoading(true);
+
 			try
 			{
 				// 優先搜尋台灣，增加結果數量
@@ -522,7 +377,6 @@ export default function FacilityMap()
 			}
 			finally
 			{
-				setAddressSearchLoading(false);
 				searchTimerRef.current = null;
 				isSearchingRef.current = false;
 				console.log('✅ Search completed, timer reset');
@@ -546,17 +400,14 @@ export default function FacilityMap()
 	/** 搜尋關鍵字 */
 	const [searchTerm, setSearchTerm] = useState('');
 
-	/** 地圖中心座標 */
-	const [mapCenter, setMapCenter] = useState<IGeoCoord | null>(null);
-
 	/** 依據搜尋、密碼、距離過濾熱點 */
 	useEffect(() =>
 	{
 		/** 優先使用定位點排序，否則使用地圖中心 */
-		const from: IGeoCoord = (position && wrapCoordinateFromPointTupleLatLng(position)) || mapCenter;
+		const from: IGeoCoord = mapCenter || (position && wrapCoordinateFromPointTupleLatLng(position));
 
 		/** 先複製陣列避免原地修改 */
-		let filtered = [...hotspots].filter((hotspot) =>
+		let filtered = [...(facilityPointData?.wifi ?? [])].filter((hotspot) =>
 		{
 			/** 關鍵字過濾：名稱或 SSID 包含搜尋字串（不分大小寫） */
 			const term = searchTerm.trim().toLowerCase();
@@ -568,26 +419,13 @@ export default function FacilityMap()
 			}
 			// 密碼過濾
 			if (filters.passwordOnly && !hotspot.password) return false;
-			// 距離過濾
-			if (filters.maxDistance && from)
-			{
-				const dist = calculateDistance(from, hotspot);
-				if (dist > filters.maxDistance) return false;
-			}
+
 			return true;
 		});
 
-		/** 依照距離排序 / Sort by distance */
-		// filtered = filtered.sort((a, b) =>
-		// {
-		// 	const distA = calculateDistance(from, a);
-		// 	const distB = calculateDistance(from, b);
-		// 	return distA - distB;
-		// });
-
 		filtered = filtered.sort(_createProximityComparator(from, calculateDistance));
 
-		console.log('[filteredHotspots] hotspots:', hotspots.length,
+		console.log('[filteredHotspots] hotspots:', facilityPointData?.wifi.length,
 			'\nmapCenter:', mapCenter,
 			'\nposition:', position && wrapCoordinateFromPointTupleLatLng(position),
 			'\nfrom:', from,
@@ -598,7 +436,7 @@ export default function FacilityMap()
 
 		setFilteredHotspots(filtered);
 
-	}, [hotspots, searchTerm, filters, position, mapCenter]);
+	}, [facilityPointData, searchTerm, filters, mapCenter]);
 
 	/** 當過濾條件改變時重置顯示數量 / Reset visible count when filters change */
 	useEffect(() =>
@@ -606,47 +444,9 @@ export default function FacilityMap()
 		setVisibleHotspotCount(HOTSPOTS_PER_PAGE);
 	}, [searchTerm, filters, position]);
 
-	// 初始載入資料（使用區塊化 API）
-	useEffect(() =>
-	{
-		// fixLeafletIcon();
-
-		/** 使用區塊化 API 根據目前位置載入 */
-		loadBlockData(wrapCoordinateFromPointTupleLatLng(position));
-	}, [position]);
-
-	// 生成 QR Code
-	useEffect(() =>
-	{
-		const generateQR = async () =>
-		{
-			if (selectedHotspot?.ssid)
-			{
-				const password = selectedHotspot.password || '';
-				if (password)
-				{
-					const url = await generateWiFiQRCode(selectedHotspot.ssid, password);
-					setQrCodeUrl(url);
-				}
-				else
-				{
-					setQrCodeUrl('');
-				}
-			}
-		};
-		generateQR();
-	}, [selectedHotspot]);
-
-	// 處理標記點擊
-	const handleMarkerClick = (hotspot: IWiFiHotspot) =>
-	{
-		setSelectedHotspot(hotspot);
-	};
-
 	// 處理列表項目點擊 - 連動地圖
 	const handleListItemClick = (hotspot: IWiFiHotspot) =>
 	{
-		setSelectedHotspot(hotspot);
 		setShouldAutoCenter(true);
 		setPosition(wrapPointTupleLatLngFromCoordinate(hotspot));
 		setZoom(16); // 放大到能看到詳細資訊的等級
@@ -660,7 +460,7 @@ export default function FacilityMap()
 	 */
 	return (
 		<>
-			<Flex vertical gap="small" className={`map-wrapper${showList ? ' with-list' : ''}`}>
+			<Flex vertical gap="small" className={`map-wrapper`}>
 				{/* 位置錯誤提示與手動定位按鈕 */}
 				{locationError && (
 					<Alert
@@ -684,7 +484,7 @@ export default function FacilityMap()
 					<Flex gap="middle" wrap>
 						{position && (
 							<Typography.Text>
-								座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}
+								座標: {position[0]}, {position[1]}
 							</Typography.Text>
 						)}
 						<Typography.Text>縮放: {zoom}</Typography.Text>
@@ -747,6 +547,8 @@ export default function FacilityMap()
 									//setZoom(currentZoom);
 								}
 
+								setInitedReady(true);
+
 								setLocationError(false);
 								/** 反向地理編碼取得地址 */
 
@@ -754,6 +556,7 @@ export default function FacilityMap()
 							},
 							onError(error)
 							{
+								setInitedReady(true);
 								setLocationError(true);
 							},
 						}}
@@ -791,7 +594,12 @@ export default function FacilityMap()
 
 									position={hotspot}
 									icon={wifiIcon}
-									eventHandlers={{ click: () => handleMarkerClick(hotspot) }}
+									eventHandlers={{
+										click: () =>
+										{
+											console.log(hotspot.dataType, 'clicked', hotspot);
+										},
+									}}
 								>
 									<Popup>
 										<Flex vertical gap="small">
@@ -827,7 +635,7 @@ export default function FacilityMap()
 						</MarkerClusterGroup>
 						{/* 充電站 */}
 						<MarkerClusterGroup chunkedLoading>
-							{chargingStations.map((station, index) => (
+							{facilityPointData?.charging.map((station, index) => (
 								<Marker
 									key={station.id}
 									data-uuid={station.id}
@@ -908,30 +716,12 @@ export default function FacilityMap()
 								/>
 							</Flex>
 							<Flex align="center" gap="small">
-								<Typography.Text>距離上限 (m):</Typography.Text>
-								<InputNumber
-									min={0}
-									value={filters.maxDistance}
-									onChange={(value) => setFilters({ ...filters, maxDistance: value || 10000 })}
-									style={{ width: 100 }}
-									size="small"
-								/>
-							</Flex>
-							<Flex align="center" gap="small">
 								<Switch
 									checked={filters.longPressToMove}
 									onChange={(checked) => setFilters({ ...filters, longPressToMove: checked })}
 									size="small"
 								/>
 								<Typography.Text>右鍵點擊移動定位點</Typography.Text>
-							</Flex>
-							<Flex align="center" gap="small">
-								<Switch
-									checked={showList}
-									onChange={(checked) => setShowList(checked)}
-									size="small"
-								/>
-								<Typography.Text>顯示列表</Typography.Text>
 							</Flex>
 							<Flex align="center" gap="small">
 								<Typography.Text>Google 地圖：</Typography.Text>
@@ -956,7 +746,11 @@ export default function FacilityMap()
 
 				{/* 類別標籤 / Category tags */}
 				<Flex gap="small" align="center" wrap>
-					{[...new Set(filteredHotspots.slice(0, visibleHotspotCount).map(h => h.category).filter(Boolean))].map((category, idx) => (
+					{[
+						...new Set(filteredHotspots.slice(0, visibleHotspotCount)
+							.map(h => h.category)
+							.filter(Boolean)),
+					].map((category, idx) => (
 						<Tag
 							key={category}
 							color={['blue', 'green', 'red', 'gold', 'purple', 'cyan', 'orange', 'magenta'][idx % 8]}
@@ -970,7 +764,7 @@ export default function FacilityMap()
 				</Flex>
 
 				{/* 底部列表面板 / Bottom list panel */}
-				{showList && (
+				{(
 					<Card
 						className="bottom-panel"
 						style={{

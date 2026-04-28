@@ -45,6 +45,34 @@ export function wrapPointTupleLatLngFromCoordinate(coord: IGeoCoord): IGeoPointT
 	return [coord.lat, coord.lng];
 }
 
+/**
+ * 將座標轉換為 URI 查詢字串
+ *
+ * @param position 座標陣列 [lat, lng]
+ * @returns URI 查詢字串 "lat=lat&lng=lng"
+ */
+export function transformPointTupleLatLngToUriQueryLatLng(position: IGeoPointTupleLatLng): string
+{
+	return `lat=${position[0]}&lng=${position[1]}`;
+}
+
+/**
+ * 將座標轉換為 URI 查詢字串
+ *
+ * @param coord 座標物件
+ * @returns URI 查詢字串 "lat=coord.lat&lng=coord.lng"
+ */
+export function transformCoordinateToUriQueryLatLng(coord: IGeoCoord): string
+{
+	return `lat=${coord.lat}&lng=${coord.lng}`;
+}
+
+/**
+ * 建立座標物件
+ * @param lng 经度
+ * @param lat 纬度
+ * @returns 座標物件
+ */
 export function wrapCoordinate(lng: number, lat: number): IGeoCoord
 {
 	return {
