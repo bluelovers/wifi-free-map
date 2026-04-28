@@ -1,5 +1,6 @@
 [
   {
+    "id": "f82a0e71-cc30-5e33-937e-afa86634ffb3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東厚生郵局",
@@ -8,6 +9,7 @@
     "address": "900屏東縣屏東市建國路182號"
   },
   {
+    "id": "2be174d6-8618-505d-b62a-77de8a8b5f76",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東六塊厝郵局",

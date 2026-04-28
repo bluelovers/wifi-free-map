@@ -1,5 +1,6 @@
 [
   {
+    "id": "0577fd5d-b118-5b66-823c-c2850d17f594",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司小港服務所大廳",
@@ -8,6 +9,7 @@
     "address": "812高雄市小港區小港路118號6樓"
   },
   {
+    "id": "eafef03e-5306-5c75-a4a4-0ad1a3f30843",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄臨海工業區服務中心",
@@ -16,6 +18,7 @@
     "address": "812高雄市小港區大業北路37號1樓"
   },
   {
+    "id": "11660ae6-74df-5534-8ace-2b5b2e85b654",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司高雄市服務中心",
@@ -24,6 +27,7 @@
     "address": "812高雄市小港區中山四路31號"
   },
   {
+    "id": "72e8c412-3d1f-5053-9ab8-a938330a236a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄二苓郵局",
@@ -32,6 +36,7 @@
     "address": "812高雄市小港區中山四路7、9、11號"
   },
   {
+    "id": "6c3af021-d866-5921-b011-0dfcf5898aba",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄國際航空站國內航廈2樓",

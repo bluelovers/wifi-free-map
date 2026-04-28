@@ -1,5 +1,6 @@
 [
   {
+    "id": "7e177de8-206e-57b3-8f7e-c016b2bfab44",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苑裡山腳郵局",
@@ -8,6 +9,7 @@
     "address": "358苗栗縣苑裡鎮舊社里63號"
   },
   {
+    "id": "165c0827-5926-5893-a395-207399feaaac",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苑裡社苓郵局",

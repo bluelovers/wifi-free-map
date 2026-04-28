@@ -1,5 +1,6 @@
 [
   {
+    "id": "364eff89-19c1-5baa-8c2c-55ba01872328",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "善化溪美郵局",
@@ -8,6 +9,7 @@
     "address": "741臺南市善化區溪美里204號"
   },
   {
+    "id": "b1787a25-e771-5fda-9f04-268e7171eed3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台糖公司台南區處辦公大樓2樓",

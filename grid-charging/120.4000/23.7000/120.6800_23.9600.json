@@ -1,5 +1,6 @@
 [
   {
+    "id": "701cdee3-59ec-5d87-9bb8-d473c217f63e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "草屯碧山郵局",
@@ -8,6 +9,7 @@
     "address": "542南投縣草屯鎮碧山南路20、22號"
   },
   {
+    "id": "039a558f-e104-52d9-9346-f1a516b597b8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投縣政府警察局草屯分局",
@@ -16,6 +18,7 @@
     "address": "542南投縣草屯鎮中正路571號"
   },
   {
+    "id": "f898b0aa-3d4e-534e-a18a-8c193935ea9d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "草屯郵局",

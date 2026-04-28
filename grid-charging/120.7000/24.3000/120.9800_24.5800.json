@@ -1,5 +1,6 @@
 [
   {
+    "id": "f9a42c45-c8f8-59cc-a1ff-58388a6bb38b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苗栗縣南庄鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "353苗栗縣南庄鄉東村4鄰大同路25號"
   },
   {
+    "id": "29f407da-9416-5fb9-8e6d-913b1190fe48",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南庄遊客中心",

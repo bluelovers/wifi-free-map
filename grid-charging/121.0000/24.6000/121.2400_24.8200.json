@@ -1,5 +1,6 @@
 [
   {
+    "id": "bb91c4f5-f78f-514a-81a0-de4f41be6e36",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龍潭大平郵局",
@@ -8,6 +9,7 @@
     "address": "325桃園市龍潭區中正路三坑段743號"
   },
   {
+    "id": "7db79141-021a-5194-a268-9425cfd6d3b6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部水利署北區水資源局為民服務室",

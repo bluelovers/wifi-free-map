@@ -1,5 +1,6 @@
 [
   {
+    "id": "42b0f758-0892-5418-be47-fd17c8e4aba6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鹽埕郵局",
@@ -8,6 +9,7 @@
     "address": "803高雄市鹽埕區五福四路133號"
   },
   {
+    "id": "59c60362-3c90-560e-afce-8ff955cc8880",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市鹽埕區戶政事務所",
@@ -16,6 +18,7 @@
     "address": "803高雄市鹽埕區大仁路6號七樓"
   },
   {
+    "id": "451241a3-a922-5a29-a09c-afb1b1496b3d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄社東郵局",
@@ -24,6 +27,7 @@
     "address": "801高雄市前金區自強二路104-1號"
   },
   {
+    "id": "59bb427f-f392-55c8-a52d-97888edea1e0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄地方法院郵局",
@@ -32,6 +36,7 @@
     "address": "801高雄市前金區市中一路171號"
   },
   {
+    "id": "eb2c4675-37ec-5174-91fd-672628dabebd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市政府警察局",
@@ -40,6 +45,7 @@
     "address": "801高雄市前金區中中四路260號"
   },
   {
+    "id": "5de31aef-4ca5-5782-a468-6400253b4a4d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市前金區戶政事務所",
@@ -48,6 +54,7 @@
     "address": "801高雄市前金區自強二路169號1樓"
   },
   {
+    "id": "d0c57dbf-80b6-51f7-8e5d-f16b86bf664b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "觀光局旅遊服務中心高雄服務處",
@@ -56,6 +63,7 @@
     "address": "801高雄市前金區中正四路235號5樓之1"
   },
   {
+    "id": "c0dc9ea0-132a-59e6-9d2f-7e5e19676702",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部工業局南部服務處",
@@ -64,6 +72,7 @@
     "address": "801高雄市前金區成功一路436號5樓"
   },
   {
+    "id": "931ac12c-2aae-599e-9716-f97613ac8325",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "智慧財產局高雄服務處",
@@ -72,6 +81,7 @@
     "address": "801高雄市前金區成功一路436號8F"
   },
   {
+    "id": "27ed4dce-3419-52a5-afe2-c840d09c3788",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄府北郵局",
@@ -80,6 +90,7 @@
     "address": "803高雄市鹽埕區七賢二路470號"
   },
   {
+    "id": "2b0113c9-c712-5c5c-8315-c2b84b6ecd0e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部國際貿易局高雄辦事處廠商服務區",
@@ -88,6 +99,7 @@
     "address": "801高雄市前金區中正四路103號2樓"
   },
   {
+    "id": "d4de142c-1ba3-50bb-989a-17903325803c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "前金郵局",
@@ -96,6 +108,7 @@
     "address": "801高雄市前金區六合二路147號"
   },
   {
+    "id": "9b7388d6-a1b3-5d5d-a634-24671b7bdc26",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司高雄區處服務中心營業廳",
@@ -104,6 +117,7 @@
     "address": "804高雄市鼓山區鼓山二路39號"
   },
   {
+    "id": "8f4e73af-cd3a-5e0c-a83b-6c7a79ff9a8b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄三塊厝郵局",
@@ -112,6 +126,7 @@
     "address": "807高雄市三民區中華三路270號"
   },
   {
+    "id": "7ef85d52-84b3-5120-8350-3aebc17f0b7d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市鼓山區戶政事務所",
@@ -120,6 +135,7 @@
     "address": "804高雄市鼓山區鼓山二路166號1樓"
   },
   {
+    "id": "54773439-b4c4-54d1-8854-dd1e9616e13c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄鼓岩郵局",
@@ -128,6 +144,7 @@
     "address": "804高雄市鼓山區鼓山二路166-12、13號"
   },
   {
+    "id": "50ab90e9-a634-51dd-a9b1-130d246b015c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄中都郵局",

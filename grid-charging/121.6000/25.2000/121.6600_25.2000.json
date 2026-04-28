@@ -1,5 +1,6 @@
 [
   {
+    "id": "0dc5a3b3-68ff-5612-a242-2350c47889ad",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司核二廠北部展示館一樓",
@@ -8,6 +9,7 @@
     "address": "207新北市萬里區野柳里八斗60號1樓"
   },
   {
+    "id": "d6af2088-753f-5094-b1f0-9c45df0c09c4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司核二廠北部展示館二樓",

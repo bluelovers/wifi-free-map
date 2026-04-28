@@ -1,5 +1,6 @@
 [
   {
+    "id": "70b60d45-746f-5ff8-82b6-1d742378b045",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹南中港郵局",
@@ -8,6 +9,7 @@
     "address": "350苗栗縣竹南鎮中正路244號"
   },
   {
+    "id": "16aaa6ca-a2a7-54fb-aba6-ee07253ba401",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苗栗縣竹南鎮戶政事務所",
@@ -16,6 +18,7 @@
     "address": "350苗栗縣竹南鎮中正路110號"
   },
   {
+    "id": "9089e934-1444-504d-833d-f43ca757a9dd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹南郵局",
@@ -24,6 +27,7 @@
     "address": "350苗栗縣竹南鎮民族街86號"
   },
   {
+    "id": "0f51a689-0e72-5bb3-ac99-956c9fd6ed33",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹南照南郵局",

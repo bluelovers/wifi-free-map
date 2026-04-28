@@ -1,5 +1,6 @@
 [
   {
+    "id": "5d656c50-89ed-526c-845b-7c321b81c99e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新營新進路郵局",
@@ -8,6 +9,7 @@
     "address": "730臺南市新營區永生里新進路316號"
   },
   {
+    "id": "e3e2ae35-d54e-5066-b9dd-54f2b7cf0b38",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺南市政府警察局新營分局",
@@ -16,6 +18,7 @@
     "address": "730\n臺南市\n新營區\n中山路\n119號"
   },
   {
+    "id": "b1b1ef66-b59e-534e-8293-15d24ee6fdbd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新營中山路郵局",
@@ -24,6 +27,7 @@
     "address": "730臺南市新營區中山路126號"
   },
   {
+    "id": "12183de5-5871-5be3-a13f-218038a4f8e6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺南市政府警察局",
@@ -32,6 +36,7 @@
     "address": "730\n臺南市\n新營區\n中正路\n3號"
   },
   {
+    "id": "31c61e06-c649-572a-9ff0-684f9201d681",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新營民生郵局",
@@ -40,6 +45,7 @@
     "address": "730臺南市新營區三民路180-3號"
   },
   {
+    "id": "14e65412-1f17-5c3d-bbcc-51e2363ff488",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司新營營運所",
@@ -48,6 +54,7 @@
     "address": "730臺南市新營區三民路70號"
   },
   {
+    "id": "76d6f789-a018-525c-9588-80e19a374f76",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新營民治路郵局",
@@ -56,6 +63,7 @@
     "address": "730臺南市新營區民治路27-13號"
   },
   {
+    "id": "57d476b1-7361-5e02-a369-f98570fe5d74",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司新營區處服務中心營業廳",

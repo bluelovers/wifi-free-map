@@ -1,5 +1,6 @@
 [
   {
+    "id": "82b2e78f-3e73-5975-a4bc-6d3b11638bd9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司玉里營運所",
@@ -8,6 +9,7 @@
     "address": "981花蓮縣玉里鎮中華路361號"
   },
   {
+    "id": "d4bcf9d9-bfe3-5431-a517-1f76f28b4880",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮縣卓溪鄉戶政事務所",
@@ -16,6 +18,7 @@
     "address": "982花蓮縣卓溪鄉卓溪村中正66之6號"
   },
   {
+    "id": "b4a20778-fc7f-5fdf-bfbe-ee9c3e799c6a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "卓溪郵局",
@@ -24,6 +27,7 @@
     "address": "982花蓮縣卓溪鄉中正路61-1號"
   },
   {
+    "id": "fdf31d84-1753-5da8-90b8-7bccd45bc256",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局臺北區監理所花蓮監理站玉里分站",

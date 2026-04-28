@@ -1,5 +1,6 @@
 [
   {
+    "id": "bfad9ae2-5d9d-5402-893c-5dc245718f98",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "海軍官校郵局",
@@ -8,6 +9,7 @@
     "address": "811高雄市楠梓區軍校路669號"
   },
   {
+    "id": "106a6986-da8a-57fc-a172-becab764bb2a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楠梓莒光郵局",
@@ -16,6 +18,7 @@
     "address": "811高雄市楠梓區新昌街53、55號"
   },
   {
+    "id": "6c311169-ff74-5a9e-949d-174f1ae4ffdc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楠梓右昌郵局",
@@ -24,6 +27,7 @@
     "address": "811高雄市楠梓區右昌街347號"
   },
   {
+    "id": "b98f833c-fc2a-50e6-8277-5804e42c9250",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楠梓亞洲城郵局",

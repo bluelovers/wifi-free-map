@@ -1,5 +1,6 @@
 [
   {
+    "id": "dba9ce96-ec46-5159-84fd-2b28127598e4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "國道公路警察局第八公路警察大隊",
@@ -8,6 +9,7 @@
     "address": "733臺南市東山區枋子林74號之6"
   },
   {
+    "id": "66057260-0230-531e-a863-e918ad3a16a0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局南區工程處東山服務區服務台",

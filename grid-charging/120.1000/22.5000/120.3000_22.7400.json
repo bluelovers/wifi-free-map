@@ -1,5 +1,6 @@
 [
   {
+    "id": "3fd9e0e6-d1c0-592a-8ce7-9dc374f67630",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台灣糖業博物館",
@@ -8,6 +9,7 @@
     "address": "825高雄市橋頭區球場路3號"
   },
   {
+    "id": "3dd4569a-fc6d-5c9c-9256-5b9e59ce9bd7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司橋頭直銷中心",
@@ -16,6 +18,7 @@
     "address": "825高雄市橋頭區成功南路青埔溪邊1號"
   },
   {
+    "id": "30eafbcd-cd44-599e-9c20-d9bab12633e3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "橋頭郵局",
@@ -24,6 +27,7 @@
     "address": "825高雄市橋頭區橋頭村橋頭路113號"
   },
   {
+    "id": "5c5d9a7b-2e70-54c1-bb6f-a0d37a3c60c6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市橋頭區戶政事務所",

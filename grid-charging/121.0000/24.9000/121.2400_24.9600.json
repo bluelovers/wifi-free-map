@@ -1,5 +1,6 @@
 [
   {
+    "id": "dd2fd6b9-5367-52b9-89f3-91f4e2acece2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢自立郵局",
@@ -8,6 +9,7 @@
     "address": "320桃園市中壢區莊敬路856號1樓"
   },
   {
+    "id": "d14c2e03-3762-5c9d-aa13-8cbae967a67f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢忠義郵局",
@@ -16,6 +18,7 @@
     "address": "320桃園市中壢區中華路一段905、907號"
   },
   {
+    "id": "f7b7d65b-45f6-590c-b02b-2601416faea4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市中壢區戶政事所自強工作站",
@@ -24,6 +27,7 @@
     "address": "320桃園市中壢區強國路46號2樓"
   },
   {
+    "id": "3c700a06-401b-5912-9a23-e256c76d0ad3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局內壢站車站候車室",
@@ -32,6 +36,7 @@
     "address": "320桃園市中壢區中華路一段267號"
   },
   {
+    "id": "4513e529-e2ff-58c8-8afa-61d93452db1a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢內壢郵局",

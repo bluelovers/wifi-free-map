@@ -1,5 +1,6 @@
 [
   {
+    "id": "69ffb08c-afef-5393-bfaf-cad0bfb4f4b6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "汐止龍安郵局",
@@ -8,6 +9,7 @@
     "address": "221新北市汐止區龍安路42號"
   },
   {
+    "id": "004fa2fe-41a0-5364-9d19-0cf9371d2ee3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "汐止厚德郵局",
@@ -16,6 +18,7 @@
     "address": "221新北市汐止區樟樹一路224號"
   },
   {
+    "id": "28472e46-e9ce-5d75-9d89-1b53ecaf417d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "汐止郵局",

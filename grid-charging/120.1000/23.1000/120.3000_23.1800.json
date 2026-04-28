@@ -1,5 +1,6 @@
 [
   {
+    "id": "4b1e6738-e64d-5a5a-bcff-9b1a7a47c439",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局隆田站候車室",
@@ -8,6 +9,7 @@
     "address": "720臺南市官田區中山路一段1號"
   },
   {
+    "id": "a26f7d23-141a-5c76-9e01-4408accb2245",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "官田隆田郵局",

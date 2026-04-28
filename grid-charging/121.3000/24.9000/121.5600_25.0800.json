@@ -1,5 +1,6 @@
 [
   {
+    "id": "809c3ff3-2729-5620-b71f-fd8a040a34cf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司內湖服務所大廳",
@@ -8,6 +9,7 @@
     "address": "114臺北市內湖區堤頂大道2段405號"
   },
   {
+    "id": "5a819cdc-e701-5713-9c6a-d54fc91ad505",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖西湖郵局",
@@ -16,6 +18,7 @@
     "address": "114臺北市內湖區內湖路一段331號"
   },
   {
+    "id": "dd296693-b19c-557a-a274-56b909f0edc4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖北勢湖郵局",

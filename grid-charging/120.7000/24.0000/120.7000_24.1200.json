@@ -1,5 +1,6 @@
 [
   {
+    "id": "119eb925-b19f-5fbe-aa8a-e6343d770c0a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "太平郵局",
@@ -8,6 +9,7 @@
     "address": "411臺中市太平區中興東路25號"
   },
   {
+    "id": "142352c9-e739-5060-bbd3-fcb52ef910c7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中旱溪郵局",

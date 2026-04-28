@@ -1,5 +1,6 @@
 [
   {
+    "id": "c2d73e7b-b937-5657-b41c-04cdc34fdffc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部加工出口區管理處高雄分處1、2樓洽公區",
@@ -8,6 +9,7 @@
     "address": "806高雄市前鎮區高雄加工出口區中一路2號"
   },
   {
+    "id": "c830f219-f0d8-53da-8376-e3e421633185",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "前鎮加工區郵局",
@@ -16,6 +18,7 @@
     "address": "806高雄市前鎮區中四路1號"
   },
   {
+    "id": "fe7465bf-4866-5336-91db-eb81de86d4b6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄軟體科技園區",
@@ -24,6 +27,7 @@
     "address": "806高雄市前鎮區復興四路10號3樓之3"
   },
   {
+    "id": "c9ce28fa-382a-5535-9b77-a854afd87b73",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苓雅郵局",
@@ -32,6 +36,7 @@
     "address": "802高雄市苓雅區成功一路134號"
   },
   {
+    "id": "0aaabda2-2c42-54ed-8d3b-fea754fdb0a5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄港國際旅客服務中心",

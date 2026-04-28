@@ -1,5 +1,6 @@
 [
   {
+    "id": "47c1fc68-253a-5a5d-bf65-370b7e65911d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄國際航空站",
@@ -8,6 +9,7 @@
     "address": "806高雄市前鎮區中山四路二號"
   },
   {
+    "id": "04cb0a9d-b281-5cde-97b8-91de1aac8508",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄草衙郵局",
@@ -16,6 +18,7 @@
     "address": "806高雄市前鎮區草衙一路78、80號"
   },
   {
+    "id": "52205f0c-5e7f-5be7-bf66-beee95bdd026",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山五甲郵局",
@@ -24,6 +27,7 @@
     "address": "830高雄市鳳山區五甲三路45號"
   },
   {
+    "id": "ef5debb2-4b11-5b4e-8694-f77f0602da63",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市鳳山區第二戶政事務所",

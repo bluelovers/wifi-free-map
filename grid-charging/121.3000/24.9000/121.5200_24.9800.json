@@ -1,5 +1,6 @@
 [
   {
+    "id": "94f859ea-58d8-525b-89f6-707a297a09e5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新店水尾郵局",
@@ -8,6 +9,7 @@
     "address": "231新北市新店區中正路493之5號"
   },
   {
+    "id": "a17acabf-8ec0-5141-9488-7b6dd2a0ef2a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新店復興郵局",
@@ -16,6 +18,7 @@
     "address": "231新北市新店區忠孝里1鄰復興路30號"
   },
   {
+    "id": "a59a8057-aed6-5e93-af3e-1c3958c54c14",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中和秀山郵局",

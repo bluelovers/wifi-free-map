@@ -1,5 +1,6 @@
 [
   {
+    "id": "68fd153b-fadf-5284-b046-c789d2c7b997",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "壯圍戶政事務所",
@@ -8,6 +9,7 @@
     "address": "263宜蘭縣壯圍鄉壯五路260號"
   },
   {
+    "id": "18b3dd66-b567-5bbc-9809-5955277b0936",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "壯圍郵局",

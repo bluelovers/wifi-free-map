@@ -1,5 +1,6 @@
 [
   {
+    "id": "deee86cc-30fa-53cc-83d9-6e99d339b54f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司北南區處服務中心營業廳",
@@ -8,6 +9,7 @@
     "address": "220新北市板橋區四川路1段287號"
   },
   {
+    "id": "9532549e-490c-5479-872e-f192ea023b1c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋南雅郵局",
@@ -16,6 +18,7 @@
     "address": "220新北市板橋區南雅南路一段123號"
   },
   {
+    "id": "6bb67978-2637-5b64-b25b-f6dbd303a4bd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋大觀路郵局",
@@ -24,6 +27,7 @@
     "address": "220新北市板橋區大觀路一段47號"
   },
   {
+    "id": "6289763c-dced-5942-a68c-03fc539d27b1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "外事服務中心",
@@ -32,6 +36,7 @@
     "address": "220新北市板橋區府中路32號"
   },
   {
+    "id": "7af1c329-6deb-5b01-840a-4bb7e42c7d5e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋中正路郵局",

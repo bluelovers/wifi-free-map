@@ -1,5 +1,6 @@
 [
   {
+    "id": "6213c7fb-e512-5a2e-b8c3-cc2d5f8745e9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局嘉義區監理所東勢監理分站",
@@ -8,6 +9,7 @@
     "address": "635雲林縣東勢鄉所前街五號"
   },
   {
+    "id": "c89e675a-41e7-57b1-b897-3ec9bc0707d4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "東勢厝郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "70f0d9a7-1a5f-5d38-8229-447e81540757",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市大里區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "412臺中市大里區新興路7號"
   },
   {
+    "id": "04a0d614-643a-587b-9e98-121d701d5a03",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大里永隆郵局",

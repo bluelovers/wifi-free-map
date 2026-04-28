@@ -1,5 +1,6 @@
 [
   {
+    "id": "d5b26396-5894-5adf-b38c-44d98ec2707d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局北區工程處湖口服務區服務台(北上)",
@@ -8,6 +9,7 @@
     "address": "303新竹縣湖口鄉鳳山村榮光路158號"
   },
   {
+    "id": "7d1efbb6-ece4-5977-9383-96dcb4982683",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局北區工程處湖口服務區服務台(南下)",

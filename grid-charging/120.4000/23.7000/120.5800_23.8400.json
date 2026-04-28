@@ -1,5 +1,6 @@
 [
   {
+    "id": "20f7c5ad-a979-5200-a1f2-a33bd04852f9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "田中三潭郵局",
@@ -8,6 +9,7 @@
     "address": "520彰化縣田中鎮北洛里員集路二段616號"
   },
   {
+    "id": "825dd466-a0e0-51d7-a5f7-793fefd8e628",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "田中郵局",
@@ -16,6 +18,7 @@
     "address": "520彰化縣田中鎮南路里員集路二段305號"
   },
   {
+    "id": "1ad0a82e-e506-56f0-99fa-eede30f719c7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局田中站候車室",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "838de80d-3ad8-5778-9797-21ffaf9e362b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市觀音區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "328桃園市觀音區觀和路28號"
   },
   {
+    "id": "31a69744-21ca-596a-b9dc-e7584b8d6a25",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "觀音郵局",
@@ -16,6 +18,7 @@
     "address": "328桃園市觀音區觀音村中山路40號"
   },
   {
+    "id": "f491592d-7b0b-5b1d-ae8c-2022d020e80a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局大園分局觀音分駐所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "829e3891-d624-5a6f-8a3f-1134207547ab",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南澳郵局",
@@ -8,6 +9,7 @@
     "address": "272宜蘭縣南澳鄉蘇花路二段351號"
   },
   {
+    "id": "add1194d-d215-57b6-9048-068047a2273d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南澳鄉戶政事務所",

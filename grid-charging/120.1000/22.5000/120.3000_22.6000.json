@@ -1,5 +1,6 @@
 [
   {
+    "id": "984038b2-833a-5bad-90cd-b8baa0af379b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄君毅郵局",
@@ -8,6 +9,7 @@
     "address": "806高雄市前鎮區中華五路963號"
   },
   {
+    "id": "874458a5-2eda-52e1-9c93-17af56a31a6a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司南部發電廠電力展示館",
@@ -16,6 +18,7 @@
     "address": "806高雄市前鎮區成功二路5號"
   },
   {
+    "id": "6b675e2c-e499-5450-9c26-21e48facd766",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司高雄服務所",
@@ -24,6 +27,7 @@
     "address": "806高雄市前鎮區復興三路131號"
   },
   {
+    "id": "d3b0c51c-26a8-5589-a7f8-92b01dc21ec4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄西甲郵局",
@@ -32,6 +36,7 @@
     "address": "806高雄市前鎮區復興三路94號"
   },
   {
+    "id": "89641759-24c3-53c8-b680-a8880b9eb46e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄廣澤郵局",

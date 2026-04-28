@@ -1,5 +1,6 @@
 [
   {
+    "id": "1929af2d-71d6-5715-a063-45a4e0dc0ab1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大甲幼獅工業區服務中心",
@@ -8,6 +9,7 @@
     "address": "437臺中市大甲區日南里幼獅路36號"
   },
   {
+    "id": "a03fc77f-f083-507d-be1f-a98f8a452ca4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大甲幼獅郵局",

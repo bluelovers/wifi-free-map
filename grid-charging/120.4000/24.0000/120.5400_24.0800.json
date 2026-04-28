@@ -1,5 +1,6 @@
 [
   {
+    "id": "4d1dbd88-e702-5b79-927b-dac334e00ba5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化光復路郵局",
@@ -8,6 +9,7 @@
     "address": "500彰化縣彰化市光復路130號"
   },
   {
+    "id": "19c8bc23-b8cb-5481-9f7c-a06220b36b84",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化師大郵局",
@@ -16,6 +18,7 @@
     "address": "500彰化縣彰化市進德路1號"
   },
   {
+    "id": "ab9dd8f8-d9d5-579c-989c-31dcec2648c3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化市仔尾郵局",
@@ -24,6 +27,7 @@
     "address": "500彰化縣彰化市中正路一段214號"
   },
   {
+    "id": "49027b15-031c-5374-929d-10cdae83cfd5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司彰化直銷中心",
@@ -32,6 +36,7 @@
     "address": "500彰化縣彰化市中山路三段27號"
   },
   {
+    "id": "7ee4034e-22b2-5022-a0d3-4a9b1755c0ce",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化永安街郵局",

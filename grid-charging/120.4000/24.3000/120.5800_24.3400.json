@@ -1,5 +1,6 @@
 [
   {
+    "id": "2278a669-63c5-5fdc-9c14-1880972aef08",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市大安區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "439臺中市大安區中山南路302號"
   },
   {
+    "id": "cae85e88-b683-5cee-900b-6524bf1c51cd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大安郵局",

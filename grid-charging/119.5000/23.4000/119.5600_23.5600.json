@@ -1,5 +1,6 @@
 [
   {
+    "id": "ab86826f-4753-577b-8561-f144f2464f08",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "馬公管理處馬公港1F候船室",
@@ -8,6 +9,7 @@
     "address": "880澎湖縣馬公市臨海路36-1號"
   },
   {
+    "id": "eedb0314-b4ac-5b52-b78a-2694ce2cb0f5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "馬公管理處馬公港2F候船室",
@@ -16,6 +18,7 @@
     "address": "880澎湖縣馬公市臨海路36-1號"
   },
   {
+    "id": "6b94c56e-d9be-5287-bad7-3fb2adeebdbe",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司馬公直銷中心",
@@ -24,6 +27,7 @@
     "address": "880澎湖縣馬公市民福路16號"
   },
   {
+    "id": "448e98da-3b1f-573c-98b9-97cd17096045",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司澎湖縣馬公市馬公站",
@@ -32,6 +36,7 @@
     "address": "880澎湖縣馬公市民福路18號"
   },
   {
+    "id": "39fa14f4-38ab-5bec-a92d-1d4958d0ae4f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南海遊客中心",
@@ -40,6 +45,7 @@
     "address": "880澎湖縣馬公市新營路25號"
   },
   {
+    "id": "bd58fe97-ad27-5fe2-a76f-1be622d7df91",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "馬公中正路郵局",
@@ -48,6 +54,7 @@
     "address": "880澎湖縣馬公市中正路70號"
   },
   {
+    "id": "b5feeb25-b61b-5d1d-8e54-7d0ec7a7eae2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司澎湖營運所",
@@ -56,6 +63,7 @@
     "address": "880澎湖縣馬公市新生路130號"
   },
   {
+    "id": "e9c8eebe-fb21-5d37-bea3-1d68af3e423f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "澎湖縣政府警察局一樓大廳",
@@ -64,6 +72,7 @@
     "address": "880澎湖縣馬公市治平路36號"
   },
   {
+    "id": "76d6d00c-6e14-50a9-ade0-1f79aba1620a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局高雄分局澎湖辦事處",
@@ -72,6 +81,7 @@
     "address": "880澎湖縣馬公市新生路177-2號"
   },
   {
+    "id": "51af7a28-451d-5dc7-a118-1ef94f7b9de9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "馬公中華路郵局",

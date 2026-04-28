@@ -1,5 +1,6 @@
 [
   {
+    "id": "ce9e6cd3-6295-5a74-91ea-c6ea5cd20745",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "5a1911ad-2b72-57cc-b0b5-9a8103e13fd3",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -22,6 +24,7 @@
     "authType": "portal"
   },
   {
+    "id": "59fba095-7bc1-52ff-b864-9c018176c0ee",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -33,6 +36,7 @@
     "authType": "portal"
   },
   {
+    "id": "eb8d8929-6c40-53d5-8974-d28a844133ae",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -44,6 +48,7 @@
     "authType": "portal"
   },
   {
+    "id": "aa785f6f-fbab-596f-bb43-cac29618df9d",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -55,6 +60,7 @@
     "authType": "portal"
   },
   {
+    "id": "056273af-4383-5552-9707-3cac6b7b7717",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -66,6 +72,7 @@
     "authType": "portal"
   },
   {
+    "id": "8129b352-4a2d-53bf-ba3e-5be76afad9c5",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -77,6 +84,7 @@
     "authType": "portal"
   },
   {
+    "id": "39254b09-fca3-5f64-a74e-3dd8a0279c18",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -88,6 +96,7 @@
     "authType": "portal"
   },
   {
+    "id": "6962953b-cf5f-5e25-9647-229a463084de",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "文教館所",
@@ -99,6 +108,7 @@
     "authType": "portal"
   },
   {
+    "id": "62db919c-31b9-5915-8218-4a46897b2f9d",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -110,6 +120,7 @@
     "authType": "portal"
   },
   {
+    "id": "73ae155a-9a0a-598e-96b6-87aff92cff97",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -121,6 +132,7 @@
     "authType": "portal"
   },
   {
+    "id": "987a19f8-19bc-5c95-b2b5-f1f4b908b4a6",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -132,6 +144,7 @@
     "authType": "portal"
   },
   {
+    "id": "6524413b-f9fd-5d4b-afcd-4179ecfd0943",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -143,6 +156,7 @@
     "authType": "portal"
   },
   {
+    "id": "7a52b252-aa5e-5f80-8a21-6afd4236fe49",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "文教館所",
@@ -154,6 +168,7 @@
     "authType": "portal"
   },
   {
+    "id": "e0dbaab3-0010-5d79-8a70-308aeae3bbe0",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "文教館所",
@@ -165,6 +180,7 @@
     "authType": "portal"
   },
   {
+    "id": "aefdf232-29fc-5275-a271-5236fac52ee0",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -176,6 +192,7 @@
     "authType": "portal"
   },
   {
+    "id": "ac72cc80-dc6a-57de-a28f-08735a3307df",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -187,6 +204,7 @@
     "authType": "portal"
   },
   {
+    "id": "e999d476-bb48-5e9c-b70a-957229b3e4b9",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -198,6 +216,7 @@
     "authType": "portal"
   },
   {
+    "id": "7d3308d1-692b-5c5d-a3c6-ee33dee78dbb",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "旅遊景點",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "54cf25cc-07ad-53b1-bd85-b0199aca9111",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大林郵局",
@@ -8,6 +9,7 @@
     "address": "622嘉義縣大林鎮吉林里平和街28-1號"
   },
   {
+    "id": "983087cc-7edd-53a8-8969-f99ee89a57ae",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大林中山路郵局",

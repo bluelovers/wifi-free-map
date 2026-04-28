@@ -1,5 +1,6 @@
 [
   {
+    "id": "b963ea73-036f-57a9-8d20-19196ea47944",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄鼎金郵局",
@@ -8,6 +9,7 @@
     "address": "807高雄市三民區鼎強街264、266號"
   },
   {
+    "id": "1f4974bd-4f5d-5262-99a5-c94e3638cc6e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "左營榮總郵局",

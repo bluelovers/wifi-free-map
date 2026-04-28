@@ -1,5 +1,6 @@
 [
   {
+    "id": "1e0ed7d4-f3cd-5db6-aa01-ed070b75df6a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台灣糖業股份有限公司砂糖事業部",
@@ -8,6 +9,7 @@
     "address": "812高雄市小港區小港路133號"
   },
   {
+    "id": "10ca5f73-a003-5543-849b-e7c6342d3e9b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "小港郵局",
@@ -16,6 +18,7 @@
     "address": "812高雄市小港區小港一街1號"
   },
   {
+    "id": "453a6b81-ff4a-5351-971c-2d80b299248f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市小港區戶政事務所",
@@ -24,6 +27,7 @@
     "address": "812高雄市小港區小港路158號二樓"
   },
   {
+    "id": "ab7bc053-c974-509d-aca4-f4c8ef783b0b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄金福路郵局",

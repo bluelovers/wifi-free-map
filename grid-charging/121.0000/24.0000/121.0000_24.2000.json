@@ -1,5 +1,6 @@
 [
   {
+    "id": "8bbae372-5dec-5071-a7b2-ef4eb98a3f1f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "和平谷關郵局",
@@ -8,6 +9,7 @@
     "address": "424臺中市和平區博愛村東關路一段106號"
   },
   {
+    "id": "37ff0043-0c5c-56c9-9217-ffca09c90c9d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司谷關服務所大廳",
@@ -16,6 +18,7 @@
     "address": "424臺中市和平區東關路一段121號"
   },
   {
+    "id": "48ea09d9-3292-5fb9-88ab-8da0aa113a82",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "谷關遊客中心",
@@ -24,6 +27,7 @@
     "address": "424臺中市和平區東關路一段102號"
   },
   {
+    "id": "5cf3db70-f7ca-5865-b2c1-7b75a96213cb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司谷關訓練中心辦公大樓大廳川堂",

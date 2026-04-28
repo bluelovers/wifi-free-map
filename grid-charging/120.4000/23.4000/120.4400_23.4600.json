@@ -1,5 +1,6 @@
 [
   {
+    "id": "690403f0-2836-5bdf-bb03-88f97624de44",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司煉製研究所",
@@ -8,6 +9,7 @@
     "address": "600嘉義市西區民生南路217號"
   },
   {
+    "id": "76da9b7c-266c-5e6b-842e-4e471a0be1f0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司嘉義市服務中心",
@@ -16,6 +18,7 @@
     "address": "600嘉義市西區民生南路217號"
   },
   {
+    "id": "3df73ba4-01d0-5947-84b6-99439d60f7b0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司嘉義直銷中心",
@@ -24,6 +27,7 @@
     "address": "600嘉義市東區興業東路12號"
   },
   {
+    "id": "642f9c2c-5ecd-5d5c-924e-4598e2ada5a6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義興業路郵局",
@@ -32,6 +36,7 @@
     "address": "600嘉義市東區興業東路12號"
   },
   {
+    "id": "7e6b7fb2-1e5f-5774-b07e-08c0f179dfb4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台灣中油股份有限公司溶劑化學品事業部",
@@ -40,6 +45,7 @@
     "address": "600嘉義市東區興業東路6號"
   },
   {
+    "id": "a5c2aaee-7ca7-5f70-9ef5-b8fce0a9b11e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司煉製研究所招待所",
@@ -48,6 +54,7 @@
     "address": "600嘉義市東區吳鳳南路91號"
   },
   {
+    "id": "bfe8af9c-376f-5f37-8894-e568a2a430c6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義成功街郵局",
@@ -56,6 +63,7 @@
     "address": "600嘉義市西區成功街112號"
   },
   {
+    "id": "f5d12e66-cba3-5a2f-9093-98c8b1bb50ea",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司嘉義區處服務中心營業廳",
@@ -64,6 +72,7 @@
     "address": "600嘉義市東區垂楊路223號"
   },
   {
+    "id": "744d12cc-47a3-5810-8357-c126c70dfcf5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義文化路郵局",
@@ -72,6 +81,7 @@
     "address": "600嘉義市東區文化路134號"
   },
   {
+    "id": "1cf5df29-3f51-5597-a27e-72945d72e418",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義站前郵局",
@@ -80,6 +90,7 @@
     "address": "600嘉義市西區中正路647號"
   },
   {
+    "id": "c7072d79-55f4-52b5-88c1-2ae8510f5401",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義市東區戶政事務所",
@@ -88,6 +99,7 @@
     "address": "600嘉義市東區吳鳳北路184號4樓"
   },
   {
+    "id": "575ebf62-b176-567d-bf64-0159af1ccf2c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局嘉義站候車室",
@@ -96,6 +108,7 @@
     "address": "600嘉義市西區中山路528號"
   },
   {
+    "id": "b1fa5a8b-4ac3-5103-ba59-e7f4f063cf06",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局嘉義站第1月台3車位置",
@@ -104,6 +117,7 @@
     "address": "600嘉義市西區中山路528號"
   },
   {
+    "id": "c80f56a5-72fc-5197-81e7-346133679776",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局嘉義站第1月台10車位置",

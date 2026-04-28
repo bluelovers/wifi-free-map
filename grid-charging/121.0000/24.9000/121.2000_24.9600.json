@@ -1,5 +1,6 @@
 [
   {
+    "id": "2f1bcc64-fc55-5135-820a-2b78ec967f28",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢志廣郵局",
@@ -8,6 +9,7 @@
     "address": "320桃園市中壢區中央西路二段271、273號"
   },
   {
+    "id": "0eac0a48-c110-557a-a509-fce9fce231c9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢興國郵局",

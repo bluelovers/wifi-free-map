@@ -1,5 +1,6 @@
 [
   {
+    "id": "0d45e824-e710-5942-a045-48dab52dc340",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南虎尾寮郵局",
@@ -8,6 +9,7 @@
     "address": "701臺南市東區富農街一段167號"
   },
   {
+    "id": "3ddd7ad2-6c9e-5489-8008-1874f806aa02",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南東門郵局",
@@ -16,6 +18,7 @@
     "address": "701臺南市東區東門路二段216號"
   },
   {
+    "id": "d52ef0ff-55f2-5db2-878d-e22a2542dca1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南東寧路郵局",
@@ -24,6 +27,7 @@
     "address": "701臺南市東區東寧路323號"
   },
   {
+    "id": "50f10a13-47c1-55aa-b653-d12c9a4d8a4e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南小東郵局",
@@ -32,6 +36,7 @@
     "address": "701臺南市東區東和路45、47、49號"
   },
   {
+    "id": "a93628ee-6d5b-58a9-86d2-5fa97cf5b644",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永康網寮郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "7c84fec5-a783-5d94-9b5c-264ac2daa7a4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "仁德郵局",
@@ -8,6 +9,7 @@
     "address": "717臺南市仁德區中正路二段1118號"
   },
   {
+    "id": "1a88d789-a153-5e03-b6c6-d8d2f974c068",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺南市仁德區戶政事務所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "1a897b1d-d371-51f2-afde-bcfce31cf22d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司屏東直銷中心",
@@ -8,6 +9,7 @@
     "address": "900屏東縣屏東市復興路261號"
   },
   {
+    "id": "38fbf2fb-f392-5281-bd27-6451cdef1dd0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台糖公司屏東區處總務課",
@@ -16,6 +18,7 @@
     "address": "900屏東縣屏東市復興路245號"
   },
   {
+    "id": "d273000c-ede5-5e14-a3a9-c5b72b507d41",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東復興郵局",
@@ -24,6 +27,7 @@
     "address": "900屏東縣屏東市一心里臺糖街3號"
   },
   {
+    "id": "e1293d9d-5342-5328-b2d7-feba9af72564",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局屏東站候車室",
@@ -32,6 +36,7 @@
     "address": "900屏東縣屏東市光復路43號"
   },
   {
+    "id": "ecd1c79b-7a21-5ffd-8116-431d9d6661c6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局屏東站第1月台",
@@ -40,6 +45,7 @@
     "address": "900屏東縣屏東市光復路43號"
   },
   {
+    "id": "cb49e561-540c-559d-91fb-9690caa2cf8c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東民生路郵局",
@@ -48,6 +54,7 @@
     "address": "900屏東縣屏東市民生路250號"
   },
   {
+    "id": "d2ef0eaa-d8a9-5862-a430-abe464beefa9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東大埔郵局",
@@ -56,6 +63,7 @@
     "address": "900屏東縣屏東市民族路182-2號"
   },
   {
+    "id": "11db7759-e8d3-5d6c-a800-d6456ef5dfe2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東林森路郵局",
@@ -64,6 +72,7 @@
     "address": "900屏東縣屏東市林森路30-5號"
   },
   {
+    "id": "18542cfe-35d4-5670-8bae-9fc8944819d5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東北平路郵局",
@@ -72,6 +81,7 @@
     "address": "900屏東縣屏東市北平路26號"
   },
   {
+    "id": "45d0bf05-a8b9-5887-ac41-a0fe29f441b9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部加工出口區管理處屏東分處1樓洽公區",
@@ -80,6 +90,7 @@
     "address": "900屏東縣屏東市屏加路1號"
   },
   {
+    "id": "6e394b54-b23e-5ebf-bbd8-02276634e253",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東勝利路郵局",

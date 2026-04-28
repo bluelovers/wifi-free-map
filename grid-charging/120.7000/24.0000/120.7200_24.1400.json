@@ -1,5 +1,6 @@
 [
   {
+    "id": "bc5bdaa0-f268-5abd-a580-c8b9cbcf5f04",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "太平坪林郵局",
@@ -8,6 +9,7 @@
     "address": "411臺中市太平區中山路一段325、327號"
   },
   {
+    "id": "f4180fb6-a90b-5c78-b7c3-af0eafcd0b96",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市太平區戶政事務所",

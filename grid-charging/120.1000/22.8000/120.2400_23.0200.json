@@ -1,5 +1,6 @@
 [
   {
+    "id": "c2e069ef-1dc1-5a7e-918b-0a4e58c1eff5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永康二王郵局",
@@ -8,6 +9,7 @@
     "address": "710臺南市永康區中山南路363號"
   },
   {
+    "id": "366b2d4b-5f9b-5ab7-a8ac-3058c5f9ee1f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司永康服務所大廳",
@@ -16,6 +18,7 @@
     "address": "710臺南市永康區永明街43號"
   },
   {
+    "id": "c8a9a1be-be05-532a-95c2-4d4f21e74316",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永康郵局",
@@ -24,6 +27,7 @@
     "address": "710臺南市永康區中山路78號"
   },
   {
+    "id": "08f9b3b1-937c-59fa-b791-79e45e86d94f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局永康站候車室",

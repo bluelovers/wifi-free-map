@@ -1,5 +1,6 @@
 [
   {
+    "id": "be720fb7-3fb9-52bf-915a-aa2588d3e62b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市清水區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "436臺中市清水區鰲峰路239號"
   },
   {
+    "id": "42fc434d-95c1-5448-95bc-563563f904d1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "清水郵局",
@@ -16,6 +18,7 @@
     "address": "436臺中市清水區中山路124號"
   },
   {
+    "id": "fc83e17f-b0d2-5520-ad0b-9326c1f19d2b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司清水營運所",

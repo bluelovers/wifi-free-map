@@ -1,5 +1,6 @@
 [
   {
+    "id": "26b5e8b1-f742-5ccb-93a6-96d1eb026b36",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "員山郵局",
@@ -8,6 +9,7 @@
     "address": "264宜蘭縣員山鄉員山路一段299號"
   },
   {
+    "id": "e220f2d6-2833-57fc-a10f-ad7e0be8f27d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "員山鄉戶政事務所",
@@ -16,6 +18,7 @@
     "address": "264宜蘭縣員山鄉員山路一段207號2樓"
   },
   {
+    "id": "b498294b-ad0c-503c-ad18-e241cad205c5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "宜蘭金六結郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "8d884c1b-1400-5a41-b2cc-2231bebee1eb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "旗山旗尾郵局",
@@ -8,6 +9,7 @@
     "address": "842高雄市旗山區延平二路8、10號"
   },
   {
+    "id": "fb597191-8bd3-5d97-9d99-082ff726de9b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "旗山郵局",
@@ -16,6 +18,7 @@
     "address": "842高雄市旗山區延平一路690號"
   },
   {
+    "id": "7a277ad4-bcf7-5824-bb6e-eaa6c9108263",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市旗山區戶政事務所",
@@ -24,6 +27,7 @@
     "address": "842高雄市旗山區延平一路503號"
   },
   {
+    "id": "c7c01ecb-121b-5eb2-a352-b284ad80cd24",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司旗山營運所",
@@ -32,6 +36,7 @@
     "address": "842高雄市旗山區民權三街22號"
   },
   {
+    "id": "d1924d91-9943-5416-8b57-7a4dc3eb9190",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "旗山四保郵局",

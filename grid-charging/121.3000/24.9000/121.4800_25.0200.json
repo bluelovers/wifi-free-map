@@ -1,5 +1,6 @@
 [
   {
+    "id": "e11f908c-527c-5c88-b468-75e720dbddf4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋光復橋郵局",
@@ -8,6 +9,7 @@
     "address": "220新北市板橋區中山路二段422之13號"
   },
   {
+    "id": "08886765-3985-5ef8-a56e-7e84906c0bb6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北東園郵局",
@@ -16,6 +18,7 @@
     "address": "108臺北市萬華區東園街148、150號"
   },
   {
+    "id": "aea9020e-a9ff-5f67-bdc5-0c65d5adecf0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局1樓",
@@ -24,6 +27,7 @@
     "address": "108臺北市萬華區東園街65號"
   },
   {
+    "id": "1649ec75-265f-5ac5-8133-835d53f91131",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北華江橋郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "d75d5785-09ee-5892-bec4-bd01440518da",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "潮州郵局",
@@ -8,6 +9,7 @@
     "address": "920屏東縣潮州鎮光春路13號"
   },
   {
+    "id": "dc5eb33d-5698-5d16-851d-f62ea641f6e9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局潮州站候車室",
@@ -16,6 +18,7 @@
     "address": "920屏東縣潮州鎮信義路111號"
   },
   {
+    "id": "954052a1-9425-5ecc-86f5-06ab88d862d0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "潮州新生路郵局",

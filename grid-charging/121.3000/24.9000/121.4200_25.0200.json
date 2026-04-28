@@ -1,5 +1,6 @@
 [
   {
+    "id": "1cecee78-0407-5bd0-a960-8f525a42bb65",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市新莊戶政事務所福營辦事處",
@@ -8,6 +9,7 @@
     "address": "242新北市新莊區四維路9號2樓"
   },
   {
+    "id": "24c2ce55-460c-50ac-945c-cf43ecb6e951",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新莊後港路郵局",
@@ -16,6 +18,7 @@
     "address": "242新北市新莊區後港一路34、36號"
   },
   {
+    "id": "c3c5471f-29bc-5150-a49f-268db200c7f9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新莊丹鳳郵局",
@@ -24,6 +27,7 @@
     "address": "242新北市新莊區明志路15號"
   },
   {
+    "id": "3886a1db-aebc-530c-b3c9-d09ef6c54eb7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "輔仁大學郵局",

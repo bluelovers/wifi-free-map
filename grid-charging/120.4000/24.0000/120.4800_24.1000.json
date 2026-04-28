@@ -1,5 +1,6 @@
 [
   {
+    "id": "b5804fcf-45d0-543c-91dc-ad5469cfe611",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "和美道周郵局",
@@ -8,6 +9,7 @@
     "address": "508彰化縣和美鎮山犁里道周路458、460號"
   },
   {
+    "id": "ea03eda3-38c8-5252-b45a-0b3984785b29",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣和美鎮戶政事務所",
@@ -16,6 +18,7 @@
     "address": "508彰化縣和美鎮鹿和路六段335號"
   },
   {
+    "id": "b0e4e63b-1059-5328-a33d-4577e25b0148",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "和美郵局",

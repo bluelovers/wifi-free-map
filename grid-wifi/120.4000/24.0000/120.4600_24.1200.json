@@ -1,5 +1,6 @@
 [
   {
+    "id": "14abad3c-8aa7-551f-8abb-3131560139ca",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "ee25bd36-f507-5861-bfb1-fcbeb71b511d",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -22,6 +24,7 @@
     "authType": "portal"
   },
   {
+    "id": "24554119-8438-52f6-9591-07266bd6536f",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -33,6 +36,7 @@
     "authType": "portal"
   },
   {
+    "id": "03f61245-6594-5885-bbd1-dc7788513017",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -44,6 +48,7 @@
     "authType": "portal"
   },
   {
+    "id": "fae4e182-13c7-5a9d-abd0-a5e11bfffa84",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "文教館所",
@@ -55,6 +60,7 @@
     "authType": "portal"
   },
   {
+    "id": "8fb50dcd-3fb2-5f77-957a-3539313541d9",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -66,6 +72,7 @@
     "authType": "portal"
   },
   {
+    "id": "f90c2a6a-072e-58de-bebc-949fddf12499",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -77,6 +84,7 @@
     "authType": "portal"
   },
   {
+    "id": "d58fc41c-0c3c-56a0-ae20-1d34d7910fba",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -88,6 +96,7 @@
     "authType": "portal"
   },
   {
+    "id": "11bf579d-8407-51b6-8c1f-8de2660e892e",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -99,6 +108,7 @@
     "authType": "portal"
   },
   {
+    "id": "978c0a3d-4c06-558f-8d2a-01241133f221",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -110,6 +120,7 @@
     "authType": "portal"
   },
   {
+    "id": "553cfa10-42ea-51e4-afdc-fbbec8c951d5",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -121,6 +132,7 @@
     "authType": "portal"
   },
   {
+    "id": "2ea8d818-e2c4-503e-8d3f-f0315d125a75",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "文教館所",

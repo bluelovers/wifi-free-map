@@ -1,5 +1,6 @@
 [
   {
+    "id": "36781565-253c-506d-8f74-34477196edfc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹建中郵局",
@@ -8,6 +9,7 @@
     "address": "300新竹市東區建中一路8號"
   },
   {
+    "id": "b23f34d5-8831-5ce1-b8d7-66c292c1298b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹東園郵局",
@@ -16,6 +18,7 @@
     "address": "300新竹市東區忠孝路434巷3號"
   },
   {
+    "id": "1775b3dc-88f2-53b4-bfca-351442f19781",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹民主路郵局",
@@ -24,6 +27,7 @@
     "address": "300新竹市東區民主路18號"
   },
   {
+    "id": "a7e10071-5f75-5f25-b42a-811f2f29d2d0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局新竹區監理所新竹市監理站",

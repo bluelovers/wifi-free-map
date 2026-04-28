@@ -1,5 +1,6 @@
 [
   {
+    "id": "c7e82d34-2e53-554b-af2f-c4af4a7df06e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "左營新莊仔郵局",
@@ -8,6 +9,7 @@
     "address": "813高雄市左營區富民路356號"
   },
   {
+    "id": "9aec5157-6666-546a-b28c-0e6bf471d30d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄鼎泰郵局",
@@ -16,6 +18,7 @@
     "address": "807高雄市三民區民族一路519號"
   },
   {
+    "id": "f053202e-9bd8-5e86-8586-c495b5a3ff7f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "左營新莊仔郵局2樓",
@@ -24,6 +27,7 @@
     "address": "813高雄市左營區富民路356號2樓"
   },
   {
+    "id": "2a89b054-72c2-56b3-94d5-eef1f3b305b4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市左營區戶政事務所第二辦公處",
@@ -32,6 +36,7 @@
     "address": "813高雄市左營區立信路22號"
   },
   {
+    "id": "772fd776-f2ba-5ff5-985d-be60a07513e0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄郵件中心郵局",
@@ -40,6 +45,7 @@
     "address": "813高雄市左營區民族一路853號"
   },
   {
+    "id": "c107308b-d3c0-594a-954b-91b4793ffa51",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "左營菜公郵局",

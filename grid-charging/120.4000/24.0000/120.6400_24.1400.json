@@ -1,5 +1,6 @@
 [
   {
+    "id": "ed65e21a-0f9f-540b-95e4-1adde1f1080d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司台中市南屯區五權西路站",
@@ -8,6 +9,7 @@
     "address": "408臺中市南屯區五權西路二段562號"
   },
   {
+    "id": "253b89f7-2836-58ad-8921-1494d3cd9414",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中東興路郵局",
@@ -16,6 +18,7 @@
     "address": "408臺中市南屯區東興路二段186號"
   },
   {
+    "id": "d3e5cb8f-6d7c-586c-a5db-d46cfe0c618e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中向上郵局",
@@ -24,6 +27,7 @@
     "address": "408臺中市南屯區向上路二段199號"
   },
   {
+    "id": "c0345464-3c34-5dd6-b504-4c9d6e6b5062",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中郵件處理中心視聽室",
@@ -32,6 +36,7 @@
     "address": "408臺中市南屯區向上路2段199號6樓"
   },
   {
+    "id": "b1db2292-1a92-5e3f-a86f-2ef3efbd676d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中大隆路郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "2361795d-1a92-599c-8240-6ec42b798cee",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楊梅秀才郵局",
@@ -8,6 +9,7 @@
     "address": "326桃園市楊梅區秀才路205號"
   },
   {
+    "id": "88fad08e-dbc6-5c2d-8d4a-e1e5791200fc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局楊梅分局",
@@ -16,6 +18,7 @@
     "address": "326桃園市楊梅區中山路123號"
   },
   {
+    "id": "4263808f-8689-5140-b23c-9f951159bbdc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楊梅大同郵局",
@@ -24,6 +27,7 @@
     "address": "326桃園市楊梅區中山北路一段168號"
   },
   {
+    "id": "bb41d7ba-2489-5ceb-8465-d55bbc9ea250",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楊梅光華郵局",
@@ -32,6 +36,7 @@
     "address": "326桃園市楊梅區光華街53號"
   },
   {
+    "id": "5c8ec616-f0d2-5216-893c-56fb541b9f2e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楊梅郵局",
@@ -40,6 +45,7 @@
     "address": "326桃園市楊梅區大平街7號"
   },
   {
+    "id": "66175d12-eec5-5505-adf6-b53f50e14810",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司楊梅服務所",
@@ -48,6 +54,7 @@
     "address": "326桃園市楊梅區楊新路18巷2號"
   },
   {
+    "id": "d393662f-a891-5efd-af0a-78a643d5c299",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楊梅幼工郵局",

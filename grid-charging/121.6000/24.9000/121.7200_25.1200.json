@@ -1,5 +1,6 @@
 [
   {
+    "id": "d4eacba2-6dee-5157-9ad8-a0249e959067",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆市安樂戶政事務所",
@@ -8,6 +9,7 @@
     "address": "204基隆市安樂區安樂路2段164號1樓"
   },
   {
+    "id": "3f3da7d5-0ed0-5b68-8f55-7098e83b0e20",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆安樂路郵局",
@@ -16,6 +18,7 @@
     "address": "204基隆市安樂區安樂路二段132號"
   },
   {
+    "id": "de448523-72fc-5d18-aaae-59ca5323311e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆市仁愛戶政事務所",
@@ -24,6 +27,7 @@
     "address": "200基隆市仁愛區光一路28號"
   },
   {
+    "id": "aef23b06-86d9-59b4-813c-445816df33de",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司基隆直銷中心",
@@ -32,6 +36,7 @@
     "address": "200基隆市仁愛區成功一路107號1樓"
   },
   {
+    "id": "f366e692-f020-5c1f-8fb3-8e64d22893d7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆光二路郵局",
@@ -40,6 +45,7 @@
     "address": "200基隆市仁愛區光二路1號"
   },
   {
+    "id": "8d35304a-81a1-5ead-9d8b-64ecdd2f8fa4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆孝三路郵局",
@@ -48,6 +54,7 @@
     "address": "200基隆市仁愛區孝三路62號"
   },
   {
+    "id": "b04e9e38-5e9b-5316-8007-9fc04e200cec",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆新民郵局",
@@ -56,6 +63,7 @@
     "address": "203基隆市中山區新民路19號"
   },
   {
+    "id": "e3304b97-7a28-5108-a022-6d6fd9452ed0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆港務分公司西岸旅客大廳",
@@ -64,6 +72,7 @@
     "address": "200基隆市仁愛區港西街16號2樓"
   },
   {
+    "id": "c09d741d-093f-5903-ac2f-dd8f0502aafc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆西定路郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "bda6de21-8781-5f28-adf6-8fccc3b89f6b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部水利署南區水資源局高屏堰管理中心",
@@ -8,6 +9,7 @@
     "address": "840高雄市大樹區中正一路240號"
   },
   {
+    "id": "41bb3f92-434d-58d4-bebd-e57f3e5c3fd3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市大樹區戶政事務所",
@@ -16,6 +18,7 @@
     "address": "840高雄市大樹區檨腳里4鄰中興南路17號"
   },
   {
+    "id": "f1cbcb22-40cf-57b7-9f8f-a62435cd353e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大樹郵局",

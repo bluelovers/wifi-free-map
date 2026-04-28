@@ -1,5 +1,6 @@
 [
   {
+    "id": "86b05f5c-09dd-5712-8c68-9fec89a85cdf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "八里郵局",
@@ -8,6 +9,7 @@
     "address": "249新北市八里區訊塘路13號"
   },
   {
+    "id": "06df9640-7ebd-5cb4-8cd7-55a9560f86f0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "八里分駐所",
@@ -16,6 +18,7 @@
     "address": "249新北市八里區訊塘路37號"
   },
   {
+    "id": "7add046f-53e5-53a2-8b4f-e10d3efbd31c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市五股戶政事務所八里區所-1",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "c1518583-dc42-5be0-b2ca-639a89775e06",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義東門郵局",
@@ -8,6 +9,7 @@
     "address": "600嘉義市東區中正路141號"
   },
   {
+    "id": "d9c849f8-d64c-555a-8912-1de21001982a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部公路總局第五區養護工程處",
@@ -16,6 +18,7 @@
     "address": "600嘉義市東區安和街209號"
   },
   {
+    "id": "804d26d3-9d80-50d2-981b-85e03d8e6748",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義民權路郵局",
@@ -24,6 +27,7 @@
     "address": "600嘉義市西區民權路467號"
   },
   {
+    "id": "0afa916c-d44d-51ec-9abb-3f4f2d5d9926",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義中山路郵局",
@@ -32,6 +36,7 @@
     "address": "600嘉義市東區中山路107號"
   },
   {
+    "id": "aacab5da-88ce-514d-b39a-cffd45e3db35",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局臺南分局嘉義辦事處",
@@ -40,6 +45,7 @@
     "address": "600嘉義市東區民權路312號"
   },
   {
+    "id": "30ab1a6c-bd6f-51f4-87c5-502e79d08203",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司嘉義服務所",
@@ -48,6 +54,7 @@
     "address": "600嘉義市東區民權路293號"
   },
   {
+    "id": "ba8b725c-a0ee-553a-b5a2-e198276c09cd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司第五區管理處",
@@ -56,6 +63,7 @@
     "address": "600嘉義市東區民權路293號"
   },
   {
+    "id": "d247c8a0-4e67-5925-8b57-6965a199154f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義忠孝郵局",
@@ -64,6 +72,7 @@
     "address": "600嘉義市東區民權路208-1號"
   },
   {
+    "id": "e6670f77-4c7d-5475-8c75-6131001ac686",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義埤子頭郵局",

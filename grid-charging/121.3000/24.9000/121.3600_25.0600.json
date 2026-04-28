@@ -1,5 +1,6 @@
 [
   {
+    "id": "11a34555-f651-5e09-a1e3-d4c5f808c24a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司林口訓練中心行政教學大樓大廳川堂",
@@ -8,6 +9,7 @@
     "address": "333桃園市龜山區文明路27號"
   },
   {
+    "id": "e2639814-592b-58c7-9d63-8c8013573306",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龜山樂善郵局",
@@ -16,6 +18,7 @@
     "address": "333桃園市龜山區復興街5號"
   },
   {
+    "id": "6770dbe5-d810-5ca7-ba67-0064de84b9a8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "林口郵局",
@@ -24,6 +27,7 @@
     "address": "244新北市林口區文化二路一段8號"
   },
   {
+    "id": "055b3047-4873-504e-846a-6853d318e7de",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "林口國宅郵局",

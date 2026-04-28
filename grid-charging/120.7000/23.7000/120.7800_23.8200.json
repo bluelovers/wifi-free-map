@@ -1,5 +1,6 @@
 [
   {
+    "id": "f7727375-daa3-597e-8674-30184f2e9904",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局集集站候車室",
@@ -8,6 +9,7 @@
     "address": "552南投縣集集鎮民生路75號"
   },
   {
+    "id": "2b3011a8-4b9f-5e9c-8cf1-343dd11edb4e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司水里營運所",
@@ -16,6 +18,7 @@
     "address": "552南投縣集集鎮吳厝里民權路430號"
   },
   {
+    "id": "457bf8a8-9808-5cdc-ae1c-329ed66f6cd7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投縣政府警察局集集分局",
@@ -24,6 +27,7 @@
     "address": "552南投縣集集鎮民生路63號"
   },
   {
+    "id": "e2a76723-4c7e-581e-81cf-65aaf17e8ec9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "集集郵局",
@@ -32,6 +36,7 @@
     "address": "552南投縣集集鎮民生路110-1號"
   },
   {
+    "id": "453da83c-2c17-5512-8926-f43aeafc5731",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司集集服務所大廳",

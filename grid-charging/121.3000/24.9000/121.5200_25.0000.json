@@ -1,5 +1,6 @@
 [
   {
+    "id": "aef2f8e4-7a0e-5c8d-ac8a-2c96942ba7b3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永和秀朗郵局",
@@ -8,6 +9,7 @@
     "address": "234新北市永和區永亨路178號"
   },
   {
+    "id": "3672aec3-5dae-565f-a17c-5920309884d3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "文山武功郵局",
@@ -16,6 +18,7 @@
     "address": "116臺北市文山區羅斯福路五段147號"
   },
   {
+    "id": "c69eb56b-ccdd-52c5-94c4-75c8193773cf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永和福和郵局",
@@ -24,6 +27,7 @@
     "address": "234新北市永和區福和路154、156號"
   },
   {
+    "id": "9228d8c7-d13f-59e4-8995-62a5326b4f2b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "文山萬盛郵局",
@@ -32,6 +36,7 @@
     "address": "116臺北市文山區汀州路四段88號"
   },
   {
+    "id": "94a94bc4-35ab-5f35-95bb-41c2c9088e1e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市永和戶政事務所2F-1",
@@ -40,6 +45,7 @@
     "address": "234新北市永和區竹林路200-1號2樓"
   },
   {
+    "id": "e6b4e548-7188-5266-82e5-e415e75b3167",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市永和戶政事務所1F_A",
@@ -48,6 +54,7 @@
     "address": "234新北市永和區竹林路200-1號1樓"
   },
   {
+    "id": "d6956f2b-85cd-51bd-b396-45acab61e6d5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北汀洲郵局",
@@ -56,6 +63,7 @@
     "address": "100臺北市中正區汀洲路三段301號"
   },
   {
+    "id": "c89581b6-33a5-5793-8265-12c9f9142572",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司北市區處服務中心營業廳",
@@ -64,6 +72,7 @@
     "address": "106臺北市大安區基隆路4段75號"
   },
   {
+    "id": "660a3e23-385e-514e-90eb-00c89581ed55",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北公館郵局",
@@ -72,6 +81,7 @@
     "address": "106臺北市大安區羅斯福路4段64之1號B1"
   },
   {
+    "id": "1ab3dd0b-e65a-506a-8042-0f6db73af14b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台大郵局",
@@ -80,6 +90,7 @@
     "address": "106臺北市大安區羅斯福路4段1號"
   },
   {
+    "id": "dff5cd31-e526-5e06-8bc9-a17ce3a1fc8c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司台電大樓主樓會客室",
@@ -88,6 +99,7 @@
     "address": "100臺北市中正區羅斯福路三段242號"
   },
   {
+    "id": "28152115-9cd7-5811-b11f-36160c2330e0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司台電大樓副樓會客室",

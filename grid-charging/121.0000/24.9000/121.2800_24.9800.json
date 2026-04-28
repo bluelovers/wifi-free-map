@@ -1,5 +1,6 @@
 [
   {
+    "id": "0121445a-860e-5bdb-aacb-0a3e7a89481b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園茄苳郵局",
@@ -8,6 +9,7 @@
     "address": "330桃園市桃園區中路里38鄰中山路1090號"
   },
   {
+    "id": "40824679-9982-5bdb-9c7e-41e317afd70b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園中路郵局",
@@ -16,6 +18,7 @@
     "address": "330桃園市桃園區壽昌街20巷27-1、27-2號"
   },
   {
+    "id": "3fcdf3f1-ba27-5717-b091-daff4cd03a09",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局桃園分局中路派出所",
@@ -24,6 +27,7 @@
     "address": "330桃園市桃園區市府路51號"
   },
   {
+    "id": "c96f92e7-c513-5883-9a0e-86d8abb75838",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園永安郵局",

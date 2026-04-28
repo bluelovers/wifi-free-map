@@ -1,5 +1,6 @@
 [
   {
+    "id": "661f6e2e-e5b4-558e-bb60-8040d6bbb2cc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "福隆派出所",
@@ -8,6 +9,7 @@
     "address": "228新北市貢寮區福隆街19號"
   },
   {
+    "id": "7dc54428-4ed9-5fa5-a0e5-a826bf7181f4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "東北角暨宜蘭海岸國家風景區管理處管理處服務台",

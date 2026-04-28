@@ -1,5 +1,6 @@
 [
   {
+    "id": "d4abd6ce-407f-587c-9f7f-db552540961b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "土城工業區服務中心",
@@ -8,6 +9,7 @@
     "address": "236新北市土城區沛坡村三民路4號1樓"
   },
   {
+    "id": "097fd0d2-5b8c-5d99-82d2-d66722a890a1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "土城工業區郵局",

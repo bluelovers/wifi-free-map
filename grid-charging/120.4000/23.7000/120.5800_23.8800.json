@@ -1,5 +1,6 @@
 [
   {
+    "id": "4e724ac2-26b1-56fc-85b6-2c25d68619a5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "社頭郵局",
@@ -8,6 +9,7 @@
     "address": "511彰化縣社頭鄉員集路二段195號"
   },
   {
+    "id": "8aa34d1a-f120-597b-90b4-dd636d13cbdd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣社頭鄉戶政事務所",

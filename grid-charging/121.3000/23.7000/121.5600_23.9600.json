@@ -1,5 +1,6 @@
 [
   {
+    "id": "bd17ca1b-0e83-5c91-b121-12df92b1f76c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司吉安壽豐服務所",
@@ -8,6 +9,7 @@
     "address": "973花蓮縣吉安鄉稻香村16鄰稻香路8號"
   },
   {
+    "id": "ebeb4c85-e089-57fe-b9df-08d91240cf63",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮縣吉安鄉戶政事務所",
@@ -16,6 +18,7 @@
     "address": "970花蓮縣花蓮市府前路5號"
   },
   {
+    "id": "d2f8ff1f-ff94-5626-8500-34d9f1199d15",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "吉安郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "da5241ca-5560-55fe-88bc-3d979f7e9adc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義縣新港鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "616嘉義縣新港鄉中山路159號"
   },
   {
+    "id": "b62ec2ed-71a3-558a-a753-70f2f9cdbe11",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司新港營運所",
@@ -16,6 +18,7 @@
     "address": "616嘉義縣新港鄉中山路165號"
   },
   {
+    "id": "e54bf37f-c735-5d0e-9308-a70d95c17ddb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新港郵局",

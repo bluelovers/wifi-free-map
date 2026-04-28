@@ -1,5 +1,6 @@
 [
   {
+    "id": "019e0f3f-d9a5-5721-9758-befc536c9795",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司嘉義給水廠",
@@ -8,6 +9,7 @@
     "address": "600嘉義市東區民權東路46號"
   },
   {
+    "id": "ca85361d-f547-51a2-920b-4b614df88eb5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義林森郵局",

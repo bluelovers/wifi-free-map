@@ -1,5 +1,6 @@
 [
   {
+    "id": "0f245579-279f-5937-84dc-78a9802d4721",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部公路總局台中區監理所南投監理站3樓",
@@ -8,6 +9,7 @@
     "address": "540南投縣南投市中興路201號"
   },
   {
+    "id": "4faaf047-9775-5a32-83f5-f28b03e64a15",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投光明里郵局",

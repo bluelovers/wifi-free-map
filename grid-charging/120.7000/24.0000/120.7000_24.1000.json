@@ -1,5 +1,6 @@
 [
   {
+    "id": "2bc8149a-48be-5dc4-8aa9-022915832d66",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "太平永豐路郵局",
@@ -8,6 +9,7 @@
     "address": "411臺中市太平區永豐路338號"
   },
   {
+    "id": "fa7f908b-4cdc-53dd-ad1b-d37833615b5a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "太平長億郵局",

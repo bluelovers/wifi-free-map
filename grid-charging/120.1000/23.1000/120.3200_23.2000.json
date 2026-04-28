@@ -1,5 +1,6 @@
 [
   {
+    "id": "ee41dd96-ab06-52be-ba53-c1a73125a30b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "官田工業區服務中心",
@@ -8,6 +9,7 @@
     "address": "720臺南市官田區二鎮里村工業路2號"
   },
   {
+    "id": "c160e1a9-5f12-5f88-ba63-0b9871f4299d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "官田工業區郵局",

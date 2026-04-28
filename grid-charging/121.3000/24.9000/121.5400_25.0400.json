@@ -1,5 +1,6 @@
 [
   {
+    "id": "c3d9e1d4-c223-51b6-a406-ec47dc074715",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北敦南郵局",
@@ -8,6 +9,7 @@
     "address": "106臺北市大安區忠孝東路四段170巷9號"
   },
   {
+    "id": "790c1b92-b6ea-5667-9cd5-054bc02c1997",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部觀光局9樓辦公室",
@@ -16,6 +18,7 @@
     "address": "106臺北市大安區忠孝東路4段290號9樓"
   },
   {
+    "id": "4adb1735-e5e1-5181-b6a7-5900687c27cd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部觀光局6樓辦公室",
@@ -24,6 +27,7 @@
     "address": "106臺北市大安區忠孝東路4段290號6樓"
   },
   {
+    "id": "d1937550-9b09-57b7-b7d9-706e5f44e010",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部觀光局7樓辦公室",
@@ -32,6 +36,7 @@
     "address": "106臺北市大安區忠孝東路4段290號7樓"
   },
   {
+    "id": "5bab82fc-36fd-54b6-b45b-40fa70978046",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北光武郵局",
@@ -40,6 +45,7 @@
     "address": "106臺北市大安區大安路一段52巷16號"
   },
   {
+    "id": "9749b9f0-6187-5c0e-8cfe-caa5932b86fa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部能源局會客室",
@@ -48,6 +54,7 @@
     "address": "104臺北市中山區復興北路2號13樓"
   },
   {
+    "id": "20fc0763-a9a3-5618-86f0-bdc7bca9b5a8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北光復郵局",
@@ -56,6 +63,7 @@
     "address": "105臺北市松山區八德路三段240號"
   },
   {
+    "id": "06379189-68d7-5ca9-8daf-be6371d3dbe8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局台北市區監理所",
@@ -64,6 +72,7 @@
     "address": "105臺北市松山區八德路四段21號3樓"
   },
   {
+    "id": "bee3a411-4686-5c02-a5d4-2d3a08c11e83",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北中崙郵局",
@@ -72,6 +81,7 @@
     "address": "104臺北市中山區復興北路40號"
   },
   {
+    "id": "dc0de8de-a394-56ed-a84c-9adaa3817fff",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北體育場郵局-1",
@@ -80,6 +90,7 @@
     "address": "105臺北市松山區南京東路三段346號"
   },
   {
+    "id": "6767a0b2-ee35-5a0a-b30d-64d55698f524",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北體育場郵局-2",
@@ -88,6 +99,7 @@
     "address": "105臺北市松山區南京東路三段346號"
   },
   {
+    "id": "3daab6e5-9c55-56a0-a528-36a3a7a99d14",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北興安郵局",
@@ -96,6 +108,7 @@
     "address": "104臺北市中山區復興北路210、212號"
   },
   {
+    "id": "a0c9348a-85e5-5b27-ac6f-b0d07465b7cb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北台塑郵局",
@@ -104,6 +117,7 @@
     "address": "105臺北市松山區民生東路四段54號"
   },
   {
+    "id": "cb8a3694-dc9a-54f7-aac5-2cbd1308752b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北延壽郵局",

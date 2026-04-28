@@ -1,5 +1,6 @@
 [
   {
+    "id": "edebb708-2650-5959-8737-592c378b9252",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "埔里南光郵局",
@@ -8,6 +9,7 @@
     "address": "545南投縣埔里鎮中正路265號"
   },
   {
+    "id": "7cace372-0217-5be4-8ad8-95955d056179",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "埔里第三市場郵局",
@@ -16,6 +18,7 @@
     "address": "545南投縣埔里鎮南門里東榮路77號"
   },
   {
+    "id": "ac9b16ac-34ff-5d5f-8475-15a47913a411",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "埔里北平街郵局",
@@ -24,6 +27,7 @@
     "address": "545南投縣埔里鎮北平街131號"
   },
   {
+    "id": "62ee981c-555c-5bba-b897-e3da6a6b5621",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投縣政府警察局埔里分局",
@@ -32,6 +36,7 @@
     "address": "545南投縣埔里鎮中山路二段235號"
   },
   {
+    "id": "ff09184a-6029-53ef-8962-79055190cfb8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "埔里郵局",
@@ -40,6 +45,7 @@
     "address": "545南投縣埔里鎮南昌街284號"
   },
   {
+    "id": "e9d8f6a7-60e2-5038-93bf-8127626c4bdd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "埔里中心碑郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "569dbfad-0fd6-51d3-a35a-17bd22a3c3a7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北螢橋郵局",
@@ -8,6 +9,7 @@
     "address": "100臺北市中正區廈門街76號"
   },
   {
+    "id": "a03e07c3-f900-59bf-a893-8dc6f582863a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北青年郵局",
@@ -16,6 +18,7 @@
     "address": "108臺北市萬華區國興路34、36、38號"
   },
   {
+    "id": "2d423b58-8ade-5587-959e-b3afbb4b8bb7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部商業司民眾服務大廳",
@@ -24,6 +27,7 @@
     "address": "100臺北市中正區福州街15號D棟1樓"
   },
   {
+    "id": "bf509b0f-ddca-5565-9179-eafbb480bd16",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北龍口郵局",
@@ -32,6 +36,7 @@
     "address": "100臺北市中正區和平西路二段68號"
   },
   {
+    "id": "8cb15f9e-f09c-5936-809e-b68fb1b8a78d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北莒光郵局",
@@ -40,6 +45,7 @@
     "address": "108臺北市萬華區莒光路210號"
   },
   {
+    "id": "6ff03f78-495a-5fe4-816a-aaeefa10be69",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司台北直銷中心",
@@ -48,6 +54,7 @@
     "address": "100臺北市中正區莒光路2號2樓"
   },
   {
+    "id": "a7a3da31-d328-56fb-b998-fcae5fb35c3d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北史博館郵局",
@@ -56,6 +63,7 @@
     "address": "100臺北市中正區南海路49號"
   },
   {
+    "id": "314d1467-3b63-53d7-80aa-f2aef6f2b4b6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "郵政博物館",
@@ -64,6 +72,7 @@
     "address": "100臺北市中正區重慶南路2段45號"
   },
   {
+    "id": "406f9d1a-d00d-5aa9-abf7-b4ab077b6cfc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北南海郵局",
@@ -72,6 +81,7 @@
     "address": "100臺北市中正區重慶南路二段43號"
   },
   {
+    "id": "f0a43b7e-d334-5ead-b9ad-1be035515603",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部國際貿易局2樓廠商服務區",
@@ -80,6 +90,7 @@
     "address": "100臺北市中正區湖口街1號"
   },
   {
+    "id": "cdeba532-e06d-598c-9773-e28c7879bce3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "投審會5樓辦公區",
@@ -88,6 +99,7 @@
     "address": "100臺北市中正區羅斯福路1段7號5樓"
   },
   {
+    "id": "043d18d0-f312-56e4-a3db-a933f905efc3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "投審會8樓辦公區",
@@ -96,6 +108,7 @@
     "address": "100臺北市中正區羅斯福路1段7號8樓"
   },
   {
+    "id": "f82deb91-1130-5b41-8d23-6cd118b0c475",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北南門郵局",
@@ -104,6 +117,7 @@
     "address": "100臺北市中正區廣州街2號"
   },
   {
+    "id": "c023a888-2b7d-538a-88f4-4132a6111d97",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺服務中心",
@@ -112,6 +126,7 @@
     "address": "100台北市廣州街17號1樓"
   },
   {
+    "id": "9fc1c0a0-de3b-5a9d-89a0-6b933f2e9907",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺",
@@ -120,6 +135,7 @@
     "address": "100台北市廣州街17號4樓"
   },
   {
+    "id": "be327ee0-d61c-5651-9352-7fd95da476b3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北龍山郵局",
@@ -128,6 +144,7 @@
     "address": "108臺北市萬華區廣州街67號"
   },
   {
+    "id": "6f4c59aa-0927-591e-946a-06aa8525433b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北老松郵局",
@@ -136,6 +153,7 @@
     "address": "108臺北市萬華區桂林路51號"
   },
   {
+    "id": "5e8230a9-2f3d-510d-995a-5a512dc5bf69",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "國史館郵局",

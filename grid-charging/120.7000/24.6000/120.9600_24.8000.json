@@ -1,5 +1,6 @@
 [
   {
+    "id": "d1f18b32-83e9-5264-a153-06d338781f38",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹武昌街郵局",
@@ -8,6 +9,7 @@
     "address": "300新竹市東區武昌街81號"
   },
   {
+    "id": "d0bea78c-836e-5a3e-902e-ce8d36ff4267",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹西門郵局",
@@ -16,6 +18,7 @@
     "address": "300新竹市北區北大路471號"
   },
   {
+    "id": "caade4bd-6cf8-528d-b560-a0f761c9391c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司新竹區處服務中心營業廳",
@@ -24,6 +27,7 @@
     "address": "300新竹市東區中華路2段400號"
   },
   {
+    "id": "e542be65-8cb7-576a-8f2f-6cc8831501d4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹東門郵局",
@@ -32,6 +36,7 @@
     "address": "300新竹市東區東門街51號"
   },
   {
+    "id": "f8240857-5de6-5a77-add1-ed1dab934b8c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹市東區戶政事務所",
@@ -40,6 +45,7 @@
     "address": "300新竹市東區民族路40-1號1F"
   },
   {
+    "id": "ed67c580-d094-5cf3-8258-3de6a6a2f407",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹英明街郵局",
@@ -48,6 +54,7 @@
     "address": "300新竹市北區英明街10號"
   },
   {
+    "id": "17d2c0b5-299b-5cd0-b357-915c3ae59479",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局新竹分局商檢/計量業務民眾洽公區",
@@ -56,6 +63,7 @@
     "address": "300新竹市東區民族路109巷14號"
   },
   {
+    "id": "e3516b73-bc21-5c39-8e87-76ad169d6fe2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水利署第二河川局1樓服務台",
@@ -64,6 +72,7 @@
     "address": "300新竹市北區北大路97號"
   },
   {
+    "id": "15d7bd2f-eea3-5839-b4fd-9b11ed564b68",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹民生路郵局",
@@ -72,6 +81,7 @@
     "address": "300新竹市東區民生路243號"
   },
   {
+    "id": "c5181d96-bafa-5311-96b6-bbdaef32f282",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "智慧財產局新竹服務處",
@@ -80,6 +90,7 @@
     "address": "300新竹市北區北大路68號5樓"
   },
   {
+    "id": "266bdc87-a53f-5b24-b0b4-c8941f482d47",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹經國路郵局",
@@ -88,6 +99,7 @@
     "address": "300新竹市北區經國路二段56號1樓"
   },
   {
+    "id": "f9bf67fc-8c14-5503-92ff-48fa2004c99c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹復中里郵局",
@@ -96,6 +108,7 @@
     "address": "300新竹市東區經國路一段452-1號"
   },
   {
+    "id": "ef1bcade-5586-54da-acf0-2481fcd45be8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹市北區戶政事務所",
@@ -104,6 +117,7 @@
     "address": "300新竹市北區國華街69號2樓"
   },
   {
+    "id": "af66eb54-be33-51e5-bf8f-a0381a59b746",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹光華街郵局",

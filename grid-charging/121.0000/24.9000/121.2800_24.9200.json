@@ -1,5 +1,6 @@
 [
   {
+    "id": "727d237a-30a9-5d38-9781-9dd6dbc358cf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大溪僑愛郵局",
@@ -8,6 +9,7 @@
     "address": "335桃園市大溪區僑愛里36鄰介壽路42、44號"
   },
   {
+    "id": "720ac072-9472-5825-a070-82c8303a1fd0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市八德區戶政事務所",
@@ -16,6 +18,7 @@
     "address": "334桃園市八德區興豐路304巷2號"
   },
   {
+    "id": "d82e917c-057a-509b-a228-6944e643f9b1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "八德郵局",
@@ -24,6 +27,7 @@
     "address": "334桃園市八德區建國路18號"
   },
   {
+    "id": "1e0d569a-a947-5544-b4d8-42d447f4172e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "八德更寮腳郵局",

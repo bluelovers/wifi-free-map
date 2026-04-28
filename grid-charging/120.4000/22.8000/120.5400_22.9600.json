@@ -1,5 +1,6 @@
 [
   {
+    "id": "f0f888d4-70f7-5015-b703-875dfc00844f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "杉林郵局",
@@ -8,6 +9,7 @@
     "address": "846高雄市杉林區上平村山仙路26號"
   },
   {
+    "id": "d532373b-89c8-53e6-a35e-37e975dd304f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市杉林區戶政事務所",

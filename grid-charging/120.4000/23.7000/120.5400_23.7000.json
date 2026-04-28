@@ -1,5 +1,6 @@
 [
   {
+    "id": "f49d295a-0d10-506e-8927-6d79e0ca422d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司斗六營運所",
@@ -8,6 +9,7 @@
     "address": "640雲林縣斗六市成功路293號"
   },
   {
+    "id": "841bb788-239f-5af2-88ac-14153bc0bddc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "斗六永安郵局",
@@ -16,6 +18,7 @@
     "address": "640雲林縣斗六市永安路8號"
   },
   {
+    "id": "afce266d-1c78-55e5-88af-f80faf01cff2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局斗六站候車大廳",
@@ -24,6 +27,7 @@
     "address": "640雲林縣斗六市民生路187號"
   },
   {
+    "id": "59ee7b18-fdda-572c-8b0d-23582053580d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局斗六站第2月台行車室",
@@ -32,6 +36,7 @@
     "address": "640雲林縣斗六市民生路187號"
   },
   {
+    "id": "b5bbca85-efdc-5e98-b83b-8fe0c728aa7b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局斗六站第1月台運轉室",
@@ -40,6 +45,7 @@
     "address": "640雲林縣斗六市民生路187號"
   },
   {
+    "id": "75194f14-19f9-531a-a564-da84b139ac0f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司雲林直銷中心",

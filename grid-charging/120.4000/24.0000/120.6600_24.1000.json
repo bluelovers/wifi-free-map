@@ -1,5 +1,6 @@
 [
   {
+    "id": "e9a31112-394d-5150-b874-491f440cf713",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中南和路郵局",
@@ -8,6 +9,7 @@
     "address": "402臺中市南區南和路42、44號"
   },
   {
+    "id": "9d873ff5-aa43-5387-bf32-771d28adcf33",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局台中分局檢驗業務民眾洽公區",
@@ -16,6 +18,7 @@
     "address": "402臺中市南區工學路70號"
   },
   {
+    "id": "7d34d52c-2fed-544c-9382-a01c75d56ba1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市南區戶政事務所",
@@ -24,6 +27,7 @@
     "address": "402臺中市南區工學路72號一樓"
   },
   {
+    "id": "328656e3-5de1-57c7-acc3-660a9d87b879",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局台中分局",

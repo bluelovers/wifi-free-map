@@ -1,5 +1,6 @@
 [
   {
+    "id": "863cab7b-fb7d-5698-8352-c15071cc308a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部公路總局嘉義區監理所一樓辦公大廳左側",
@@ -8,6 +9,7 @@
     "address": "613嘉義縣朴子市朴子七路29號"
   },
   {
+    "id": "198e5a9b-ae9e-5339-aca0-5b1b29986f06",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局嘉義區監理所",
@@ -16,6 +18,7 @@
     "address": "613嘉義縣朴子市朴子七路29號"
   },
   {
+    "id": "a17438ad-7974-5203-b2f3-db2a6eea7a7d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "朴子祥和郵局",
@@ -24,6 +27,7 @@
     "address": "613嘉義縣朴子市大葛里祥和二路西段6號"
   },
   {
+    "id": "321bf977-ff30-5ad3-be0b-57bbda155639",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義縣警察局",

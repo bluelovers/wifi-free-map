@@ -1,5 +1,6 @@
 [
   {
+    "id": "d92c45a6-faae-5962-a7d6-8a50d5af105b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投文化郵局",
@@ -8,6 +9,7 @@
     "address": "112臺北市北投區文化三路8號"
   },
   {
+    "id": "e4df35e1-d3dc-5dfb-af2b-5966ff5fed07",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投豐年郵局",

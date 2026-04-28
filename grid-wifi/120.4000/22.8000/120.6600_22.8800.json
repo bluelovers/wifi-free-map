@@ -1,5 +1,6 @@
 [
   {
+    "id": "d7728ca3-2c22-5ebc-b9dc-5c8f024cd9b1",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "432ca16d-2476-595b-85ac-23990c9f5282",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",

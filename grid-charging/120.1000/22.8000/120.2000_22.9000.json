@@ -1,5 +1,6 @@
 [
   {
+    "id": "1c7c8156-0dda-519d-9a81-c293e2f6cda3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市湖內區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "829高雄市湖內區中正路二段97號"
   },
   {
+    "id": "84e9a384-7b4c-5fb1-9538-517868d732d0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "湖內郵局",

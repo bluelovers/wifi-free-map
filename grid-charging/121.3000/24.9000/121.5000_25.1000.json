@@ -1,5 +1,6 @@
 [
   {
+    "id": "b1970af7-0e35-5125-9c5e-4ce955b1f163",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投文林郵局",
@@ -8,6 +9,7 @@
     "address": "112臺北市北投區文林北路96號"
   },
   {
+    "id": "9db4a8ff-430d-5cef-a8ec-d2de095df238",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投致遠郵局",
@@ -16,6 +18,7 @@
     "address": "112臺北市北投區致遠一路一段121號"
   },
   {
+    "id": "bbde48aa-6ea0-5f75-8e8e-30fd815ffd4b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投實踐郵局",
@@ -24,6 +27,7 @@
     "address": "112臺北市北投區實踐街48巷11號"
   },
   {
+    "id": "dda1b923-8591-57ba-bd20-2d111e075904",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投石牌郵局",
@@ -32,6 +36,7 @@
     "address": "112臺北市北投區石牌路二段93之2號"
   },
   {
+    "id": "ca2ec0d0-753a-5d1c-a970-87117d0a1fb7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投尊賢郵局",
@@ -40,6 +45,7 @@
     "address": "112臺北市北投區尊賢街247號之4"
   },
   {
+    "id": "56e90c86-ec18-5c99-a166-38ba35446891",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "陽明大學郵局",

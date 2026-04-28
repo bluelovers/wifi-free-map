@@ -1,5 +1,6 @@
 [
   {
+    "id": "ea2be097-e4f4-5ed8-a2da-768ead0d60c0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山一甲郵局",
@@ -8,6 +9,7 @@
     "address": "830高雄市鳳山區五甲二路87、89、91號"
   },
   {
+    "id": "5de2c266-bf4a-5758-b4b7-29606ed765c9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山中崙郵局",
@@ -16,6 +18,7 @@
     "address": "830高雄市鳳山區中崙路576號"
   },
   {
+    "id": "686a3ce7-b326-5fba-99ec-c94ba4d8a0c3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山新甲郵局",
@@ -24,6 +27,7 @@
     "address": "830高雄市鳳山區大明路39、41號"
   },
   {
+    "id": "f611782d-18c1-57b4-9e0e-71aa2b6c4fbf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山新富郵局",
@@ -32,6 +36,7 @@
     "address": "830高雄市鳳山區新富路391號"
   },
   {
+    "id": "7a2213e4-9d61-562d-be1e-4b90f28f06fc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台糖公司五甲健康超市",

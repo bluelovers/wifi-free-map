@@ -1,5 +1,6 @@
 [
   {
+    "id": "b10dbfd5-79e8-54f1-903c-af8b52515d4e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "路竹郵局",
@@ -8,6 +9,7 @@
     "address": "821高雄市路竹區中興路11號"
   },
   {
+    "id": "f7ae0841-4b36-5803-b548-cb048d662564",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "路竹一甲郵局",

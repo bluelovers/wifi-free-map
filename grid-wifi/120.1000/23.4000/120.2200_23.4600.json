@@ -1,5 +1,6 @@
 [
   {
+    "id": "cf680ad0-5d7b-545b-bec3-f34b713da024",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "1ee25b9a-93cf-5591-8c81-aec5fa684d7e",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公立醫院",
@@ -22,6 +24,7 @@
     "authType": "portal"
   },
   {
+    "id": "0f658b69-6954-588a-861b-1e3de72a73d0",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公立醫院",
@@ -33,6 +36,7 @@
     "authType": "portal"
   },
   {
+    "id": "0b56394f-c577-5ee2-b0d1-2bd520b49d98",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公立醫院",

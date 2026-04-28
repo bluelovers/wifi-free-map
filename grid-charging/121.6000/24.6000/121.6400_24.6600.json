@@ -1,5 +1,6 @@
 [
   {
+    "id": "39ecbf26-5775-5ae1-bf78-256976ec21bb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三星郵局",
@@ -8,6 +9,7 @@
     "address": "266宜蘭縣三星鄉太平路134號"
   },
   {
+    "id": "fa7751ed-00e0-5e6a-a9b7-eb4e4e51d143",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三星鄉戶政事務所",

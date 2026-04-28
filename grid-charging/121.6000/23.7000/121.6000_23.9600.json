@@ -1,5 +1,6 @@
 [
   {
+    "id": "9bb79719-ee9a-5226-bef6-bed3dd2c4472",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水利署第九河川局1樓服務台",
@@ -8,6 +9,7 @@
     "address": "970花蓮縣花蓮市仁愛街19號"
   },
   {
+    "id": "bfd61e4d-89f1-57f2-a75f-e61b6ad8d7eb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮舊車站郵局",
@@ -16,6 +18,7 @@
     "address": "970花蓮縣花蓮市中山路92號"
   },
   {
+    "id": "44ac4087-0e14-5828-891c-14f88a660986",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮南京街郵局",
@@ -24,6 +27,7 @@
     "address": "970花蓮縣花蓮市南京街221號"
   },
   {
+    "id": "98b3bf99-baf2-539a-8514-cb6a202fccc2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮中山路郵局",
@@ -32,6 +36,7 @@
     "address": "970花蓮縣花蓮市中山路188號"
   },
   {
+    "id": "d9bd81bd-3047-559f-a494-17b6a7b32c47",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司花蓮區處服務中心營業廳",

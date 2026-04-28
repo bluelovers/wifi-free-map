@@ -1,5 +1,6 @@
 [
   {
+    "id": "dab1ea05-96ab-58ea-ad24-ef60eafb550b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局平鎮分局",
@@ -8,6 +9,7 @@
     "address": "324桃園市平鎮區中庸路123號"
   },
   {
+    "id": "a4451cc0-1d6d-53ef-89ce-83afd2dc4ccb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "平鎮南勢郵局",

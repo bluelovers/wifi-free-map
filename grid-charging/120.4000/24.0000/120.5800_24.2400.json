@@ -1,5 +1,6 @@
 [
   {
+    "id": "dc372011-c78f-5ca3-9bfa-dc35e924b34b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中航空站國際航廈1樓",
@@ -8,6 +9,7 @@
     "address": "406臺中市沙鹿區中清路42號"
   },
   {
+    "id": "defafb45-6c7a-5988-8567-de8851f9769b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中航空站國際航廈3樓",
@@ -16,6 +18,7 @@
     "address": "406臺中市沙鹿區中清路42號"
   },
   {
+    "id": "44e10099-7abe-5fd7-91b1-6ba412570e8d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中航空站國際航廈地下1樓",

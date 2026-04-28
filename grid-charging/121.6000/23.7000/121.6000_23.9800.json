@@ -1,5 +1,6 @@
 [
   {
+    "id": "a2fbd4c8-f4a2-51dd-bccc-ffe924b5cf78",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮港行政大樓",
@@ -8,6 +9,7 @@
     "address": "970花蓮縣花蓮市海岸路66號"
   },
   {
+    "id": "5d30a630-25b6-5e81-9999-e640871bd1dc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司花蓮服務所",
@@ -16,6 +18,7 @@
     "address": "970花蓮縣花蓮市水源街31號"
   },
   {
+    "id": "3082a83e-5118-5acc-af83-6aaa3f1d2da8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮國安郵局",
@@ -24,6 +27,7 @@
     "address": "970花蓮縣花蓮市中山路408號"
   },
   {
+    "id": "f8e29d01-9e67-58e1-8779-4b5480233019",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局花蓮火車站第2月台南端",
@@ -32,6 +36,7 @@
     "address": "970花蓮縣花蓮市國聯一路100號"
   },
   {
+    "id": "c9ee5879-7a49-5f66-beac-e42d65b5efa4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局花蓮火車站第3月台北端",
@@ -40,6 +45,7 @@
     "address": "970花蓮縣花蓮市國聯一路100號"
   },
   {
+    "id": "529c8084-2289-58c5-b729-df1a233b3bda",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局北區供應廠採購課",
@@ -48,6 +54,7 @@
     "address": "970花蓮縣花蓮市富裕二街38號"
   },
   {
+    "id": "d519c80b-6340-5629-8a76-613fbe27629d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局花蓮站前站候車室",
@@ -56,6 +63,7 @@
     "address": "970花蓮縣花蓮市國聯一路100號"
   },
   {
+    "id": "0ca3f734-09c7-53d2-8884-dc4365fe59e6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局花蓮站後站候車室",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "c36d7bd0-7961-515e-9442-fa90692e76a2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市大社區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "815高雄市大社區三民路332號"
   },
   {
+    "id": "5fef0f24-0541-501d-a888-388a217539a7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司楠梓服務所",
@@ -16,6 +18,7 @@
     "address": "815高雄市大社區自強街5號"
   },
   {
+    "id": "47ca4188-bbe9-5091-97ae-9c51dbefdf39",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大社郵局",

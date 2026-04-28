@@ -1,5 +1,6 @@
 [
   {
+    "id": "2726c953-cc89-56e0-933e-8fb76ea5b645",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化中央路郵局",
@@ -8,6 +9,7 @@
     "address": "500彰化縣彰化市中央路270號"
   },
   {
+    "id": "50bb05c5-24e9-5cd5-a2e3-a7cd703ad14d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化南瑤郵局",
@@ -16,6 +18,7 @@
     "address": "500彰化縣彰化市成功里中山路二段49號"
   },
   {
+    "id": "ab9f1610-a38b-5589-b35a-01fddaddc5dc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化曉陽郵局",
@@ -24,6 +27,7 @@
     "address": "500彰化縣彰化市民族路267號"
   },
   {
+    "id": "a2c03978-2d64-5dbd-b172-8ac797ef57fe",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化西門郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "56487e48-224d-5fc2-bfcc-f55e3f6adfd3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東中正路郵局",
@@ -8,6 +9,7 @@
     "address": "900屏東縣屏東市中正路247號"
   },
   {
+    "id": "fabddef5-bfaa-5cf0-8c00-7a32c7601eff",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東崇蘭郵局",
@@ -16,6 +18,7 @@
     "address": "900屏東縣屏東市廣東路990號"
   },
   {
+    "id": "006ee45e-808c-52ce-b642-24f4d1963dd9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局高雄區監理所屏東監理站",
@@ -24,6 +27,7 @@
     "address": "900屏東縣屏東市忠孝路222號1樓"
   },
   {
+    "id": "42cab275-0eee-55b5-8596-ed26794e3e42",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司屏東區處服務中心營業廳",

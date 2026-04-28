@@ -1,5 +1,6 @@
 [
   {
+    "id": "029e6e57-5c9e-54b1-ad9f-26dba02143b8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中大智郵局",
@@ -8,6 +9,7 @@
     "address": "401臺中市東區建成路676、678號"
   },
   {
+    "id": "ca279f45-53f8-52ae-8b5b-fd820a2a3640",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中台中路郵局",
@@ -16,6 +18,7 @@
     "address": "402臺中市南區臺中路100號"
   },
   {
+    "id": "4762232e-282b-50ae-ab80-2dd6e5eec5e4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市東區戶政事務所",
@@ -24,6 +27,7 @@
     "address": "401臺中市東區和平街61號"
   },
   {
+    "id": "bb090aea-cd18-5718-a91f-df7da840813a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺中站旅遊中心",
@@ -32,6 +36,7 @@
     "address": "400臺中市中區臺灣大道1號"
   },
   {
+    "id": "ede5487d-b962-58f6-9d34-5f316b284236",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺中站後站大廳",
@@ -40,6 +45,7 @@
     "address": "400臺中市中區臺灣大道1號"
   },
   {
+    "id": "257f03b5-519b-5b53-a501-8c3dfbf4c8f6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺中站月台8車位置",
@@ -48,6 +54,7 @@
     "address": "400臺中市中區臺灣大道1號"
   },
   {
+    "id": "742bba53-092a-5014-8acf-4d0c0ba4a195",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺中站前站女公廁",
@@ -56,6 +63,7 @@
     "address": "400臺中市中區臺灣大道1號"
   },
   {
+    "id": "169d4520-35c1-58ee-9506-818ca1db72e5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中建國路郵局",
@@ -64,6 +72,7 @@
     "address": "400臺中市中區建國路141號"
   },
   {
+    "id": "59763fd3-8997-5f9e-80e9-68e993016c05",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局中區供應廠採購課",

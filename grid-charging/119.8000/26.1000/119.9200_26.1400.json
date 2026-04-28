@@ -1,5 +1,6 @@
 [
   {
+    "id": "d79982d7-c5a0-5c13-a850-3db6d7d66e55",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "馬祖國家風景區管理處南竿遊客中心",
@@ -8,6 +9,7 @@
     "address": "209連江縣南竿鄉仁愛村95-2號"
   },
   {
+    "id": "be25e692-1f29-5289-b8b4-3fb2499e0f91",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南竿航空站",
@@ -16,6 +18,7 @@
     "address": "209連江縣南竿鄉復興村220號"
   },
   {
+    "id": "b9904c4b-b446-5ae2-99a1-5cd37652bcfd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "連江監理站辦公大廳",
@@ -24,6 +27,7 @@
     "address": "209連江縣南竿鄉津沙村155號"
   },
   {
+    "id": "c8fa1cb4-cc4d-5d1f-b961-e6d4ba2d6bb0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "馬祖馬港郵局",

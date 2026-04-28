@@ -1,5 +1,6 @@
 [
   {
+    "id": "0ed9dfa2-eda7-5369-80cc-46900f0fcb81",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆安瀾橋郵局",
@@ -8,6 +9,7 @@
     "address": "202基隆市中正區中正路330號"
   },
   {
+    "id": "94c3407f-6d32-550d-b415-7902c221243d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "海洋大學郵局",
@@ -16,6 +18,7 @@
     "address": "202基隆市中正區北寧路2號"
   },
   {
+    "id": "13c334b7-35e7-5dca-9c56-bc58341f2579",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆中正郵局",
@@ -24,6 +27,7 @@
     "address": "202基隆市中正區中正路393巷18號"
   },
   {
+    "id": "71533946-2682-5cfd-b7cd-fb23addd21c2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆市中正戶政事務所",
@@ -32,6 +36,7 @@
     "address": "202基隆市中正區中正路674號"
   },
   {
+    "id": "efc455f0-0fa9-5e09-ba4f-64f58fc967b7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆和平島郵局",

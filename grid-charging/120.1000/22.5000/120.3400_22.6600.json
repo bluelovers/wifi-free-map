@@ -1,5 +1,6 @@
 [
   {
+    "id": "ed981f6d-fcdb-599d-aaf2-7159b784563e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "仁武仁雄郵局",
@@ -8,6 +9,7 @@
     "address": "814高雄市仁武區仁和村仁忠路79、81號"
   },
   {
+    "id": "a3040e92-0668-5a70-b849-5ab632afb974",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "仁武八德郵局",

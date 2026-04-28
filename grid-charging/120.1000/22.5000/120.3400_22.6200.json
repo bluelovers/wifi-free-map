@@ -1,5 +1,6 @@
 [
   {
+    "id": "6a09497a-fa9e-597d-8c48-23be66dc26a2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司鳳山區處服務中心營業廳",
@@ -8,6 +9,7 @@
     "address": "830高雄市鳳山區青年路1段100號"
   },
   {
+    "id": "b831f3c4-cf77-5e1a-80de-f70c10e2600f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山三民路郵局",
@@ -16,6 +18,7 @@
     "address": "830高雄市鳳山區三民路289號"
   },
   {
+    "id": "6cc80e1b-1f10-5231-bc9f-d2164f4497f1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山行政中心郵局",
@@ -24,6 +27,7 @@
     "address": "830高雄市鳳山區光復路二段132號"
   },
   {
+    "id": "9f226b62-d282-5e16-af4e-4c14863c709f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局鳳山站候車大廳",
@@ -32,6 +36,7 @@
     "address": "830高雄市鳳山區曹公路70號"
   },
   {
+    "id": "b4a9e3cf-7540-58e4-b938-00be86fbbe70",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山文山郵局",
@@ -40,6 +45,7 @@
     "address": "830高雄市鳳山區文衡路236號"
   },
   {
+    "id": "282aa969-c07f-5aba-a742-02bff04205dd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄民壯郵局",

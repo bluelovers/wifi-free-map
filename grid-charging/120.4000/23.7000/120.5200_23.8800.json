@@ -1,5 +1,6 @@
 [
   {
+    "id": "883217e2-4b8d-5662-befe-0f4cefd63af3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "田尾郵局",
@@ -8,6 +9,7 @@
     "address": "522彰化縣田尾鄉田尾村光復路三段26號"
   },
   {
+    "id": "a7545b7a-89dd-5327-bf73-65b6ddce5d69",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣田尾鄉戶政事務所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "8f789568-72ba-5007-95e1-1d59b362ad55",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市三峽戶政事務所5F-1",
@@ -8,6 +9,7 @@
     "address": "237新北市三峽區光明路71號5樓"
   },
   {
+    "id": "b01bd39d-a7d7-5be9-b6d7-35eec059eeb6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三峽中山郵局",
@@ -16,6 +18,7 @@
     "address": "237新北市三峽區中山路11號"
   },
   {
+    "id": "3103dff3-208e-5c5d-9cd9-1dfd8069a450",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三峽郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "35a06924-c0bd-52c0-b5b4-9edfff847e89",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花壇郵局",
@@ -8,6 +9,7 @@
     "address": "503彰化縣花壇鄉中正路316號"
   },
   {
+    "id": "644bf52e-e4f7-58dd-93ec-74f65fce1ff5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局臺中區監理所彰化監理站-1",

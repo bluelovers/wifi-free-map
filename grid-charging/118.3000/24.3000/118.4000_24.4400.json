@@ -1,5 +1,6 @@
 [
   {
+    "id": "4be60272-927a-5c75-998f-b47d8e30f0a7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "金門山外郵局",
@@ -8,6 +9,7 @@
     "address": "891金門縣金湖鎮林森路39號"
   },
   {
+    "id": "b1cdb7e2-d659-56d6-a861-ac9f5b88f52e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "金門監理站",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "dcc74f19-367d-572e-a2a1-0e149da4b822",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "全興工業區服務中心",
@@ -8,6 +9,7 @@
     "address": "509彰化縣伸港鄉溪底村興工路67號2樓"
   },
   {
+    "id": "7fd940e2-ee93-5b05-80b8-0a7b9ff4bce1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "伸港全興郵局",

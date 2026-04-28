@@ -1,5 +1,6 @@
 [
   {
+    "id": "62f6ca13-9ca3-5e4c-b209-433f98232896",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "士林劍潭郵局",
@@ -8,6 +9,7 @@
     "address": "111臺北市士林區基河路14號"
   },
   {
+    "id": "1ee4aebd-9ef1-5877-8a03-21bdf11cd625",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "士林郵局",
@@ -16,6 +18,7 @@
     "address": "111臺北市士林區文林路162號"
   },
   {
+    "id": "4264ad53-5ef4-526f-b8ba-18fcbc64ee8e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司北北區處服務中心營業廳",

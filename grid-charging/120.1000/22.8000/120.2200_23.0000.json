@@ -1,5 +1,6 @@
 [
   {
+    "id": "61178f3b-bcc5-596a-8212-78551d86caea",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永康大橋郵局",
@@ -8,6 +9,7 @@
     "address": "710臺南市永康區中華路473號1樓"
   },
   {
+    "id": "2b505c17-2a7e-5c3b-b5b4-854de7f6221f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司永康服務所",

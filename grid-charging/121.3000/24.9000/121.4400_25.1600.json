@@ -1,5 +1,6 @@
 [
   {
+    "id": "8d36a163-80cb-5dd4-9338-1b9740549e34",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "淡水中興郵局",
@@ -8,6 +9,7 @@
     "address": "251新北市淡水區學府路29、31、33號"
   },
   {
+    "id": "765d46b1-8d8e-54a3-a911-9a92f555c68b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司淡水營運所",
@@ -16,6 +18,7 @@
     "address": "251新北市淡水區仁愛街17號"
   },
   {
+    "id": "ec1b0a2c-44f8-5a79-8d75-6dbc0da1db70",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "淡江大學郵局",
@@ -24,6 +27,7 @@
     "address": "251新北市淡水區英專路151號"
   },
   {
+    "id": "7a8130b6-c56b-5a3d-b317-a49b5c3a53b9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "淡水水碓郵局",

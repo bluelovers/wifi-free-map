@@ -1,5 +1,6 @@
 [
   {
+    "id": "e9e79d5d-cb4f-5439-898d-af169102b00e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "關廟郵局",
@@ -8,6 +9,7 @@
     "address": "718臺南市關廟區中央路222號"
   },
   {
+    "id": "95d0a5c1-3f0b-5ef6-a5a0-e54555f20984",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "關廟文衡路郵局",

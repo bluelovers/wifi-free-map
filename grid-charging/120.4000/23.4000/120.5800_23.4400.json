@@ -1,5 +1,6 @@
 [
   {
+    "id": "993cb95e-a36b-5ca8-833b-7ece2f8416ad",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "阿里山國家風景區管理處觀光推廣中心",
@@ -8,6 +9,7 @@
     "address": "602嘉義縣番路鄉車埕50號"
   },
   {
+    "id": "e753761e-d678-5c2d-9e58-98e769a98cae",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "阿里山國家風景區管理處遊客中心",

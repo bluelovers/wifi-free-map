@@ -1,5 +1,6 @@
 [
   {
+    "id": "5fb04887-1bb5-5186-add8-036976be4375",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "信義郵局",
@@ -8,6 +9,7 @@
     "address": "556南投縣信義鄉明德村玉山路44號"
   },
   {
+    "id": "00dbd7ef-5ddf-5f39-851e-f951318b5417",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投縣政府警察局信義分局",

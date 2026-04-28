@@ -1,5 +1,6 @@
 [
   {
+    "id": "f057ed5c-750c-5220-9e4e-6af909b1f928",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部公路總局嘉義區監理所嘉義市監理站-考驗大樓",
@@ -8,6 +9,7 @@
     "address": "600嘉義市東區保健街89號"
   },
   {
+    "id": "ecbbe5aa-df65-585b-bdf4-87e6d03bdf90",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局嘉義區監理所嘉義市監理站",
@@ -16,6 +18,7 @@
     "address": "600嘉義市東區保建街89號"
   },
   {
+    "id": "406afa58-e7dd-5cad-bcc6-87222b80fb08",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義後湖郵局",

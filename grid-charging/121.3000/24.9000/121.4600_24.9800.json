@@ -1,5 +1,6 @@
 [
   {
+    "id": "fd1a1eb8-4e1d-51ae-8eab-9f4a8c70819f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "土城平和郵局",
@@ -8,6 +9,7 @@
     "address": "236新北市土城區金城路3段185號"
   },
   {
+    "id": "f79f8187-7285-587e-81ad-2af68ed46c59",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋國慶郵局",
@@ -16,6 +18,7 @@
     "address": "220新北市板橋區國慶路132號"
   },
   {
+    "id": "9a7ff8ad-4717-51ff-a69c-e0adb63820b1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高鐵局檔案閱覽室",

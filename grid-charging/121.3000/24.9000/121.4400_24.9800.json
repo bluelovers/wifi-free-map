@@ -1,5 +1,6 @@
 [
   {
+    "id": "e9c5d88a-32e4-53b7-9cb4-6acca95650e6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "土城清水郵局",
@@ -8,6 +9,7 @@
     "address": "236新北市土城區青雲路228、230號"
   },
   {
+    "id": "6284b9c1-1b0b-5f63-b18d-394c0849ecab",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "土城青雲郵局",
@@ -16,6 +18,7 @@
     "address": "236新北市土城區青雲路138號"
   },
   {
+    "id": "bd18d085-316c-537a-a037-2920b6f6b054",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "土城貨饒郵局",
@@ -24,6 +27,7 @@
     "address": "236新北市土城區中央路一段240號"
   },
   {
+    "id": "3f1f9baa-b14c-50c3-8f77-cb6a8c3291ad",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "土城學府郵局",
@@ -32,6 +36,7 @@
     "address": "236新北市土城區明德路2段58號"
   },
   {
+    "id": "17d8a692-8833-5f6b-8d8f-e4131be77611",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司土城服務所",
@@ -40,6 +45,7 @@
     "address": "236新北市土城區學享街63號"
   },
   {
+    "id": "71b81886-4aef-522e-96e1-4bf47116a250",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋八甲郵局",
@@ -48,6 +54,7 @@
     "address": "220新北市板橋區四川路2段123號一樓"
   },
   {
+    "id": "0c8e0d4d-a6d6-5662-a6d6-cef2dded01b1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水利署第十河川局1樓服務台",
@@ -56,6 +63,7 @@
     "address": "220新北市板橋區四川路2段橋頭1號"
   },
   {
+    "id": "a0a4b58f-db22-5dd7-a84d-f7e55347e1e2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋浮洲郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "f1dcc386-983b-51ed-b988-eedfa170efdf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局北區工程處石碇服務區服務台",
@@ -8,6 +9,7 @@
     "address": "223新北市石碇區豐林里楓子林62號"
   },
   {
+    "id": "057271f8-1759-562f-9554-3b064a2f9a91",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "石碇分駐所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "92305d42-af16-5bd4-8246-a905f6fd2ba1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣永靖鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "512彰化縣永靖鄉永靖街20號"
   },
   {
+    "id": "18719345-ba78-547b-a80a-1c05769c705a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永靖郵局",
@@ -16,6 +18,7 @@
     "address": "512彰化縣永靖鄉永靖街27號"
   },
   {
+    "id": "5a77a3d1-06da-5768-994a-771e9e0e86b9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "埔心太平郵局",

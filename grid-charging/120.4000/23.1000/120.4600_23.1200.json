@@ -1,5 +1,6 @@
 [
   {
+    "id": "77bfe2c6-9de6-5bb3-8c05-28b04022f768",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司台南市玉井區玉井站",
@@ -8,6 +9,7 @@
     "address": "714臺南市玉井區玉田里中山路91號"
   },
   {
+    "id": "e5dd67a0-f92b-5d3c-9ae8-4968d8081248",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司玉井營運所",

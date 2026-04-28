@@ -1,5 +1,6 @@
 [
   {
+    "id": "559e04c3-48a0-54c6-a3e8-fac52b540706",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣寶山鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "308新竹縣寶山鄉雙溪村4鄰雙園路2段325號3樓"
   },
   {
+    "id": "2d9184c6-7b8d-5470-9b05-dd8e2abfb966",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "寶山郵局",

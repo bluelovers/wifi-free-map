@@ -1,5 +1,6 @@
 [
   {
+    "id": "313a2095-f39c-5a98-a381-35fe20275bb8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龜山派出所",
@@ -8,6 +9,7 @@
     "address": "231新北市新店區新烏路三段152號"
   },
   {
+    "id": "1e5e3b92-8b1b-5646-b0d3-e1c71c40fe8e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司訓練所在職大樓大廳川堂",
@@ -16,6 +18,7 @@
     "address": "231新北市新店區新烏路3段81號"
   },
   {
+    "id": "11106f51-acfb-52e5-bc27-0379108b0f4b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新店龜山郵局",

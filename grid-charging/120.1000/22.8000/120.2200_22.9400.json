@@ -1,5 +1,6 @@
 [
   {
+    "id": "f8df1088-66ba-5489-8931-2a8d0b8b9542",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺灣糖業股份有限公司量販事業部嘉年華購物中心",
@@ -8,6 +9,7 @@
     "address": "717臺南市仁德區仁愛1211號"
   },
   {
+    "id": "80ee6a70-8e40-5b84-ae49-128b00771b30",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "仁德二空郵局",

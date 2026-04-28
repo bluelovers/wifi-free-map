@@ -1,5 +1,6 @@
 [
   {
+    "id": "67c33c59-0fac-5d15-85f6-a745d0d54d87",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市烏日區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "414臺中市烏日區高鐵路一段170號"
   },
   {
+    "id": "9be1f6bf-1505-5bf4-a926-261d9f9e6233",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部工業局工業區環境保護中心",

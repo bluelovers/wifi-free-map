@@ -1,5 +1,6 @@
 [
   {
+    "id": "f1ead8ec-3f99-59a2-a3ab-c6227f1bca58",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄臺船郵局",
@@ -8,6 +9,7 @@
     "address": "812高雄市小港區中鋼路3號"
   },
   {
+    "id": "ec002f07-3bf7-5836-ac06-d123c9971353",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄中鋼郵局",

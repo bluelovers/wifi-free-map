@@ -1,5 +1,6 @@
 [
   {
+    "id": "4894c835-66a8-5b39-b36a-e3a248d3e521",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "頭份(兼竹南及銅鑼)工業區服務中心-頭份",
@@ -8,6 +9,7 @@
     "address": "351苗栗縣頭份鎮自強路2段166號"
   },
   {
+    "id": "3e67b59e-5444-51c1-b642-cdfe2dcd728a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "頭份工業區服務中心",
@@ -16,6 +18,7 @@
     "address": "351苗栗縣頭份鎮東庄里自強路2段166號"
   },
   {
+    "id": "775dfbfd-0071-55dc-9a75-6ab6fe26448f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司竹南服務中心",
@@ -24,6 +27,7 @@
     "address": "350苗栗縣竹南鎮新南里東平路99號"
   },
   {
+    "id": "94fc9b37-5610-5513-87ad-7a053438d51b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "頭份田寮郵局",
@@ -32,6 +36,7 @@
     "address": "351苗栗縣頭份鎮民族路738號"
   },
   {
+    "id": "637ffa79-2db1-5429-be9a-9f4e112ef445",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司竹南頭份營運所",
@@ -40,6 +45,7 @@
     "address": "351苗栗縣頭份鎮民族路522號"
   },
   {
+    "id": "b3c0a9a4-6167-5009-8de6-8f58bca47074",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局竹南站候車室",
@@ -48,6 +54,7 @@
     "address": "350苗栗縣竹南鎮中山路166號"
   },
   {
+    "id": "8b152a7c-e2d2-56ae-a7c8-ed12d79ed890",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局竹南站第2月台電梯南側",

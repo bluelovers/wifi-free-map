@@ -1,5 +1,6 @@
 [
   {
+    "id": "f501a4a8-ee9f-5df6-a7a9-e1e0a2e5e0e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖碧湖郵局",
@@ -8,6 +9,7 @@
     "address": "114臺北市內湖區內湖路二段225號"
   },
   {
+    "id": "e7bbf5d5-267b-5234-88ee-b2d4b8cbb114",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖金龍郵局",

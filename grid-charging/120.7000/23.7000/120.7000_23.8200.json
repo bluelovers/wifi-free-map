@@ -1,5 +1,6 @@
 [
   {
+    "id": "e062d5fb-f268-5f72-8f12-e4be1ee6165e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局濁水站候車室",
@@ -8,6 +9,7 @@
     "address": "551南投縣名間鄉濁水村車站路153號"
   },
   {
+    "id": "e9311213-dd95-5813-b4fa-41656753d4ef",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "名間郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "e78ed422-7617-573f-a553-a11d343bfe1b",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "旅遊景點",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "826f3c1f-258d-54da-9103-1586e1c683a3",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "旅遊景點",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "1e8dbfaf-af6f-5e4a-8478-2b88c7a55840",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "頭屋郵局",
@@ -8,6 +9,7 @@
     "address": "362苗栗縣頭屋鄉尖豐路17號"
   },
   {
+    "id": "2191d081-4707-5fc1-b112-8840939e2af8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苗栗縣頭屋鄉戶政事務所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "4ea4e8a3-56bc-51b7-906b-2afb8135a6b2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "汐止南昌郵局",
@@ -8,6 +9,7 @@
     "address": "221新北市汐止區新昌路72號"
   },
   {
+    "id": "db94a888-4d2a-586d-acea-aacdead226fa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "汐止建成郵局",
@@ -16,6 +18,7 @@
     "address": "221新北市汐止區建成路58號"
   },
   {
+    "id": "3b22f1f4-970a-5e6e-ac3c-99ef692ce425",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "汐止保長坑郵局",
@@ -24,6 +27,7 @@
     "address": "221新北市汐止區大同路三段188-1號"
   },
   {
+    "id": "15aa153c-0581-5bc1-81db-5c54c544c382",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司汐止營運所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "1cb650b2-25e4-57c4-9819-5d0f0af7ee0a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市汐止戶政事務所中興辦事處",
@@ -8,6 +9,7 @@
     "address": "221新北市汐止區福德一路258號2樓"
   },
   {
+    "id": "41783349-37f0-5ab2-9efa-b07b4cc0109d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "汐止社后郵局",

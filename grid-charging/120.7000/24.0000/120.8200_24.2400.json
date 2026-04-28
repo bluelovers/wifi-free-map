@@ -1,5 +1,6 @@
 [
   {
+    "id": "71bf7c0b-f1bf-5067-9ae6-b44896e363f0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "東勢中嵙口郵局",
@@ -8,6 +9,7 @@
     "address": "423臺中市東勢區延平里豐勢路188、190號"
   },
   {
+    "id": "4e80619f-a90e-5e17-9eb4-d8d239c9d47b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司東勢營運所",
@@ -16,6 +18,7 @@
     "address": "423臺中市東勢區中寧里正一街8號"
   },
   {
+    "id": "ba48ddbc-4eb2-5bbf-bd17-283c61afef3d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "東勢郵局",
@@ -24,6 +27,7 @@
     "address": "423臺中市東勢區廣興里中山路43號"
   },
   {
+    "id": "522cfe52-66a7-5231-8510-e0226a2cacab",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司東勢服務所大廳",
@@ -32,6 +36,7 @@
     "address": "423臺中市東勢區中新街西新巷88-1號"
   },
   {
+    "id": "bbbe3ec7-74d9-5baa-b6b1-dbdda9cc44ec",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市東勢區戶政事務所",

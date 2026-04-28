@@ -1,5 +1,6 @@
 [
   {
+    "id": "ea2fa6f5-ba7c-55f1-9b9f-1cb91293285c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "貢寮澳底郵局",
@@ -8,6 +9,7 @@
     "address": "228新北市貢寮區仁和路230號"
   },
   {
+    "id": "f9b5f68b-3242-5b32-8a5b-09db566c40f2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "澳底派出所",

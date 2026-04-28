@@ -1,5 +1,6 @@
 [
   {
+    "id": "32159afe-75a0-57f4-aeb0-c7283a6f2222",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北松江路郵局",
@@ -8,6 +9,7 @@
     "address": "104臺北市中山區松江路364號"
   },
   {
+    "id": "4698e48f-1832-5f6f-9657-3fd41b50d5f3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北民權郵局",
@@ -16,6 +18,7 @@
     "address": "104臺北市中山區民權西路22號"
   },
   {
+    "id": "c4f04491-6f97-5a5d-a946-4f7884a55e7e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北圓山郵局",

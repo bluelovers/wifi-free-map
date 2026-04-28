@@ -1,5 +1,6 @@
 [
   {
+    "id": "b53c8d8a-dbc3-5ad6-ad90-023d30f10c5e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北北安郵局",
@@ -8,6 +9,7 @@
     "address": "104臺北市中山區北安路630巷10號"
   },
   {
+    "id": "45183192-65f3-564d-8425-875f5750d075",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "東吳大學郵局",

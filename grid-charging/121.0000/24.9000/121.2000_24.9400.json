@@ -1,5 +1,6 @@
 [
   {
+    "id": "0d0c4068-ebfd-5255-81df-a2f9c10533bb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "平鎮郵局",
@@ -8,6 +9,7 @@
     "address": "324桃園市平鎮區延平路二段221號"
   },
   {
+    "id": "d2587ed0-021a-5643-b993-7fbf6ce05792",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "平鎮區戶政事務所民眾洽公區",
@@ -16,6 +18,7 @@
     "address": "324桃園市平鎮區德育路242號"
   },
   {
+    "id": "6fa62746-7312-5f27-ad32-d2195e4a0b6f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "平鎮廣明郵局",

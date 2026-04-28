@@ -1,5 +1,6 @@
 [
   {
+    "id": "c341f76a-fd79-554c-9970-a6b7591331b1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司花蓮直銷中心",
@@ -8,6 +9,7 @@
     "address": "970花蓮縣花蓮市東興路285號"
   },
   {
+    "id": "fb320086-21b0-5306-99af-56f337dc3d3e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "美崙(兼和平及光華)工業區服務中心-美崙服務中心",

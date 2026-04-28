@@ -1,5 +1,6 @@
 [
   {
+    "id": "fd8c9fdc-bdad-5b3f-8a5c-cecbae8fafa5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北古亭郵局",
@@ -8,6 +9,7 @@
     "address": "100臺北市中正區南昌路二段232號"
   },
   {
+    "id": "1a0d9014-b3f8-50c4-85e7-aa0ea965d24a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部中小企業處馬上解決問題中心服務櫃台區",
@@ -16,6 +18,7 @@
     "address": "106臺北市大安區羅斯福路二段95號3樓"
   },
   {
+    "id": "cba642fc-6a1d-5176-9303-df77c173c46e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北師大郵局",
@@ -24,6 +27,7 @@
     "address": "106臺北市大安區和平東路一段162號"
   },
   {
+    "id": "65c6cc80-360d-541d-9052-5423c99c1d94",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北青田郵局",
@@ -32,6 +36,7 @@
     "address": "106臺北市大安區和平東路一段155號"
   },
   {
+    "id": "95521db4-a6e6-5240-bfa2-5c0188610058",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北金南郵局-1",
@@ -40,6 +45,7 @@
     "address": "106臺北市大安區愛國東路216號"
   },
   {
+    "id": "15a5510a-c847-59b0-9a91-7527882f07a8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北金南郵局-2",
@@ -48,6 +54,7 @@
     "address": "106臺北市大安區愛國東路216號"
   },
   {
+    "id": "73364df3-57af-55ff-9fdc-3882caf20d1b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北大安郵局",
@@ -56,6 +63,7 @@
     "address": "106臺北市大安區信義路三段89號"
   },
   {
+    "id": "28e1c6b4-6ec1-5ec5-9a6f-4f6e8c9267c9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水利署台北辦公區",
@@ -64,6 +72,7 @@
     "address": "106臺北市大安區信義路三段41-3號9樓"
   },
   {
+    "id": "db5c1262-7352-59cd-b121-9d80f04222d8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部工業局1樓",
@@ -72,6 +81,7 @@
     "address": "106臺北市大安區信義路三段41-3號"
   },
   {
+    "id": "74d3f12f-f15c-591b-9492-ef2dce1a1949",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北東門郵局",
@@ -80,6 +90,7 @@
     "address": "100臺北市中正區信義路二段163號"
   },
   {
+    "id": "fec3c62b-7473-5447-8679-83c6167a42a1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北仁杭郵局",
@@ -88,6 +99,7 @@
     "address": "100臺北市中正區杭州南路一段24號1樓"
   },
   {
+    "id": "d12fc30d-351c-5f3c-a9a8-537f06fd47d3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通通信傳播大樓1樓服務台",
@@ -96,6 +108,7 @@
     "address": "100臺北市中正區仁愛路一段50號"
   },
   {
+    "id": "cc6d17da-2a76-5cdd-babf-a45f1db4499c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北仁愛路郵局",

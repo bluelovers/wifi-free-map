@@ -1,5 +1,6 @@
 [
   {
+    "id": "33f4c898-c7c4-5e26-af9f-78ee1698bf3b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司貢寮雙溪營運所",
@@ -8,6 +9,7 @@
     "address": "228新北市貢寮區下雙溪街20號"
   },
   {
+    "id": "992db811-d738-509c-af7e-14fede599432",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "福隆遊客中心",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "01d3871b-d629-53b0-9f0b-2546cb98c584",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司雲林縣斗南鎮斗南站",
@@ -8,6 +9,7 @@
     "address": "630雲林縣斗南鎮延平路二段165號"
   },
   {
+    "id": "b55e03da-40ad-5e9d-a72b-cab042c52374",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "斗南新光郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "1c143cb2-78e4-50f7-be8a-70b1a289b7b0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "溪州郵局",
@@ -8,6 +9,7 @@
     "address": "524彰化縣溪州鄉中央路三段321號"
   },
   {
+    "id": "466cb8a4-3e99-5a99-ba28-12770da83a4a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣溪州鄉戶政事務所服務台",

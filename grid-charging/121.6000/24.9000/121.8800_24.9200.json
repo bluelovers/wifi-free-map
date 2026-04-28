@@ -1,5 +1,6 @@
 [
   {
+    "id": "c8511005-ede6-548a-9ea1-3246dedde47d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局大溪站候車室",
@@ -8,6 +9,7 @@
     "address": "261宜蘭縣頭城鎮大溪里濱海路5段63號"
   },
   {
+    "id": "ac3d3b75-8f5f-5278-af05-3ca18bc45e7d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "頭城大溪港郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "fb72d709-3531-517c-b607-52815c842b73",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "伸港郵局",
@@ -8,6 +9,7 @@
     "address": "509彰化縣伸港鄉新港村中山路100號"
   },
   {
+    "id": "14abb91b-7942-5b12-b00f-4a3539138b13",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣伸港鄉戶政事務所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "754c0081-4d83-5d11-8422-d71d8acd3aaa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "佳里郵局",
@@ -8,6 +9,7 @@
     "address": "722臺南市佳里區延平路375號"
   },
   {
+    "id": "401be709-7ab3-5f01-bad6-dd532efdb52b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司佳里服務所",

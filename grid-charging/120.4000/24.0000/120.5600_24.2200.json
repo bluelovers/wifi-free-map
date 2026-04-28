@@ -1,5 +1,6 @@
 [
   {
+    "id": "8203fe5e-4951-536a-adbf-13cc5cb99f8d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "沙鹿北勢郵局",
@@ -8,6 +9,7 @@
     "address": "433臺中市沙鹿區北勢里東晉路253號"
   },
   {
+    "id": "33c0303e-4fab-5468-b4be-ffc9102d14fa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司沙鹿營運所",
@@ -16,6 +18,7 @@
     "address": "433臺中市沙鹿區北勢東路829號"
   },
   {
+    "id": "15efc220-558a-5072-99de-05e78f3555bb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市沙鹿區戶政事務所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "6ab53468-767c-5962-8f2f-e18111287138",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局西湖服務區客席區與服務台(北站)",
@@ -8,6 +9,7 @@
     "address": "368苗栗縣西湖鄉東村埔頂路29號"
   },
   {
+    "id": "61971138-34d2-51e7-991d-b13e37c89efe",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局西湖服務區客席區與服務台(南站)",
@@ -16,6 +18,7 @@
     "address": "368苗栗縣西湖鄉東村埔頂路29號"
   },
   {
+    "id": "410f17ec-6f82-53f4-801d-32a48028e5b7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苗栗縣西湖鄉戶政事務所",
@@ -24,6 +27,7 @@
     "address": "368苗栗縣西湖鄉金獅村2鄰金獅26之7號"
   },
   {
+    "id": "a934cb6b-7088-5f66-a3ba-a11d1f672470",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "西湖郵局",

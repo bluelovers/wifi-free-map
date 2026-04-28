@@ -1,5 +1,6 @@
 [
   {
+    "id": "4fddd1fe-3824-575e-bfc8-05ba488ec4a3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋溪崑郵局",
@@ -8,6 +9,7 @@
     "address": "220新北市板橋區金門街278號"
   },
   {
+    "id": "865751e5-588d-5cc6-91de-41fe747f5bb0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市板橋戶政事務所溪崑工作站",
@@ -16,6 +18,7 @@
     "address": "220新北市板橋區溪北路111號4樓"
   },
   {
+    "id": "ebd9ef39-cbcb-57c5-8f95-ce87572d8803",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "樹林育英街郵局",
@@ -24,6 +27,7 @@
     "address": "238新北市樹林區育英街36號"
   },
   {
+    "id": "a3497b17-2745-5a04-bdee-2593d96177ae",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局樹林站爭鮮柱旁",
@@ -32,6 +36,7 @@
     "address": "238新北市樹林區鎮前街112號"
   },
   {
+    "id": "cbfca2fb-8821-5d90-a994-306e4d11896f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局樹林站地2月台海側6車位置",
@@ -40,6 +45,7 @@
     "address": "238新北市樹林區鎮前街112號"
   },
   {
+    "id": "1b180097-579e-5cc1-aa9d-9e5417260dc7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "樹林鎮前街郵局",

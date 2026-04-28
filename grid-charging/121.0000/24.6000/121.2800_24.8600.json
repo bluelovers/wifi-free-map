@@ -1,5 +1,6 @@
 [
   {
+    "id": "a8807e69-54b1-506b-af0a-ee6b89b2a8e5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司大溪營運所",
@@ -8,6 +9,7 @@
     "address": "335桃園市大溪區文化路211巷5號"
   },
   {
+    "id": "efeea502-9dc2-5ac3-9a02-050ba6f8da52",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大溪郵局",
@@ -16,6 +18,7 @@
     "address": "335桃園市大溪區康莊路210號"
   },
   {
+    "id": "9e905242-666d-560e-8e80-71cdcd237b22",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市大溪區戶政事務所",

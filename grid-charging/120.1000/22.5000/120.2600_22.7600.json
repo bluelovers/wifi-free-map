@@ -1,5 +1,6 @@
 [
   {
+    "id": "9034c2cc-64cf-5a45-bb5f-c5d69cd62459",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "梓官郵局",
@@ -8,6 +9,7 @@
     "address": "826高雄市梓官區梓義村中崙路260號"
   },
   {
+    "id": "f6c5bd10-a381-5da2-9e70-e106856d2ab5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市梓官區戶政事務所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "e63a5c0d-914a-537e-8f87-3deddc6007fa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "雙溪分駐所",
@@ -8,6 +9,7 @@
     "address": "227新北市雙溪區太平路64號"
   },
   {
+    "id": "c833e30d-4257-5bc2-8822-c063f45e8b67",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市瑞芳戶政事務所雙溪區所-1",
@@ -16,6 +18,7 @@
     "address": "227新北市雙溪區太平路62號1樓"
   },
   {
+    "id": "13e2357c-4b57-534a-94d2-3050fead4385",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "雙溪郵局",

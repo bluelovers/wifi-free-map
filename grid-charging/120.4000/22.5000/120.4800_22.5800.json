@@ -1,5 +1,6 @@
 [
   {
+    "id": "120f9e56-00fa-5927-83f8-513e342606e2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東縣萬丹戶政事務所",
@@ -8,6 +9,7 @@
     "address": "913屏東縣萬丹鄉萬後村和平西路159號"
   },
   {
+    "id": "a4009429-8f7a-58ad-97da-b32cb2942018",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "萬丹郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "170c2f6d-8507-5e05-a43e-70f3281248d8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "美濃中壇郵局",
@@ -8,6 +9,7 @@
     "address": "843高雄市美濃區中興路一段788號"
   },
   {
+    "id": "26e5e41c-7004-55cf-a03e-18c260a1e1fa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司美濃營運所",

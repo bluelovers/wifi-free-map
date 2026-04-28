@@ -1,5 +1,6 @@
 [
   {
+    "id": "8cbbe6cd-6e0f-5e15-bc53-aae9e62da782",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹南勢郵局",
@@ -8,6 +9,7 @@
     "address": "300新竹市北區南勢里延平路一段373號"
   },
   {
+    "id": "42454043-c950-5c23-901b-f254287e1e63",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹文雅郵局",

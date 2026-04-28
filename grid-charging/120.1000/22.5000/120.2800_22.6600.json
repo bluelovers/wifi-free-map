@@ -1,5 +1,6 @@
 [
   {
+    "id": "2939cb73-8666-5d1e-9d82-997b11b51291",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄高分院郵局",
@@ -8,6 +9,7 @@
     "address": "804高雄市鼓山區明誠三路586號"
   },
   {
+    "id": "cdde685d-cce0-55ea-b1f4-500a013b18bb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄凹仔底郵局",
@@ -16,6 +18,7 @@
     "address": "804高雄市鼓山區文信路327號"
   },
   {
+    "id": "3dfc1e34-89f5-5074-a079-52a2b1a31c5a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄瑞豐郵局",
@@ -24,6 +27,7 @@
     "address": "804高雄市鼓山區中華一路316-3號"
   },
   {
+    "id": "8004c127-17aa-53ca-acf7-c3c8e676f1b1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市鼓山區戶政事務所第二辦公處",
@@ -32,6 +36,7 @@
     "address": "804高雄市鼓山區中華一路45號2樓"
   },
   {
+    "id": "6b755084-069c-5619-9ff7-ece0cfc0a4e6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄前峰郵局",
@@ -40,6 +45,7 @@
     "address": "804高雄市鼓山區九如四路2008、2010號"
   },
   {
+    "id": "5db3e640-477c-56ec-8773-e7ac3118b3b1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "左營果貿郵局",
@@ -48,6 +54,7 @@
     "address": "813高雄市左營區翠峰路2號"
   },
   {
+    "id": "0a7c0384-8f8d-5d92-a586-f85fc66617c2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "左營華夏路郵局",

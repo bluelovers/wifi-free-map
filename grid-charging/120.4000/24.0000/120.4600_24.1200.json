@@ -1,5 +1,6 @@
 [
   {
+    "id": "a5269b5b-f6dc-5cd9-8d86-0f7d329e69be",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "線西郵局",
@@ -8,6 +9,7 @@
     "address": "507彰化縣線西鄉寓埔村和線路949號"
   },
   {
+    "id": "fd579ce3-f33a-534e-99d9-81a2712d063b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣線西鄉戶政事務所",

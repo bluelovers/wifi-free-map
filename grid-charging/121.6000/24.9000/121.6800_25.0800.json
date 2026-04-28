@@ -1,5 +1,6 @@
 [
   {
+    "id": "291d53a8-7fba-5b47-be73-063e3b2e5abf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆百福郵局",
@@ -8,6 +9,7 @@
     "address": "206基隆市七堵區百五街93號"
   },
   {
+    "id": "8300d124-4803-5390-98f9-63961962f461",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局基隆分局五堵辦事處商檢/計量業務民眾洽公區",
@@ -16,6 +18,7 @@
     "address": "206基隆市七堵區福五街85巷3號"
   },
   {
+    "id": "5563d208-b51f-5259-b49d-b7ef7c37d676",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局臺北區監理所基隆監理站",

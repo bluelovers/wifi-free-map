@@ -1,5 +1,6 @@
 [
   {
+    "id": "3208f38c-9c54-5087-b5dc-c0a241718bee",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中樹仔腳郵局",
@@ -8,6 +9,7 @@
     "address": "402臺中市南區復興路一段236號"
   },
   {
+    "id": "5260fdc9-4cd9-5ace-a7fd-48eef889a3ce",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局大慶站候車室",

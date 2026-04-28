@@ -1,5 +1,6 @@
 [
   {
+    "id": "606d6355-eeab-5b0d-9b83-69ec6504d6fa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市內門區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "845高雄市內門區內門里內門114號"
   },
   {
+    "id": "fc15bd39-f7b5-5477-bc04-99e98a45d87f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內門郵局",

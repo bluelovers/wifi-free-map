@@ -1,5 +1,6 @@
 [
   {
+    "id": "c66f845d-2fd3-56b1-9379-84eba4b26095",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部觀光局茂林國家風景區賽嘉旅遊服務中心",
@@ -8,6 +9,7 @@
     "address": "901屏東縣三地門鄉賽嘉村賽嘉巷120號"
   },
   {
+    "id": "69cac59a-db96-5350-b267-6d91d2452212",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部觀光局茂林國家風景區管理處賽嘉遊客中心",

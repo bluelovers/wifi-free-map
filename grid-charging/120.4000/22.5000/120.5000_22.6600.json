@@ -1,5 +1,6 @@
 [
   {
+    "id": "5ed8fba9-d01d-5778-bcf3-ceba6f9f0001",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "屏東歸來郵局",
@@ -8,6 +9,7 @@
     "address": "900屏東縣屏東市民生路61-7號"
   },
   {
+    "id": "84350f19-d41f-582b-bfb0-81f06cd5112a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司屏東服務所",

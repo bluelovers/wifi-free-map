@@ -1,5 +1,6 @@
 [
   {
+    "id": "fd80cb89-549c-5af9-8350-8d1299a68990",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司竹山營運所",
@@ -8,6 +9,7 @@
     "address": "557南投縣竹山鎮大明路356號"
   },
   {
+    "id": "8244d5ff-77b1-5da8-b14d-265403c50f10",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹山延和郵局",

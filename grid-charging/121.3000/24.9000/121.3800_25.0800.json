@@ -1,5 +1,6 @@
 [
   {
+    "id": "c1cd1da2-e25d-52a8-85b2-e911977e0aac",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司林口服務所",
@@ -8,6 +9,7 @@
     "address": "244新北市林口區佳林路40號"
   },
   {
+    "id": "ce702fa9-a411-5b5f-be26-722dfb08f28c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "林口中湖頭郵局",

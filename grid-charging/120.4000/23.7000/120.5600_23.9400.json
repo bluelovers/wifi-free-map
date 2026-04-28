@@ -1,5 +1,6 @@
 [
   {
+    "id": "23b64292-abdc-574c-8b9c-b5f8a2627278",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "員林南門郵局",
@@ -8,6 +9,7 @@
     "address": "510彰化縣員林市中正路63、65號"
   },
   {
+    "id": "b5e9e2ff-dc3d-5262-96f9-b76b3d016d47",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "員林郵局",
@@ -16,6 +18,7 @@
     "address": "510彰化縣員林市員東路二段488號"
   },
   {
+    "id": "70072d15-b245-5d2f-8f32-a4185856b088",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "員林西門郵局",
@@ -24,6 +27,7 @@
     "address": "510彰化縣員林市新生路85號"
   },
   {
+    "id": "f902a6c0-7cad-5102-89aa-22540fe76a6b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "員林中正路郵局",
@@ -32,6 +36,7 @@
     "address": "510彰化縣員林市中正路457號"
   },
   {
+    "id": "2781e544-7da1-518d-ae7c-137849f9ac89",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局員林站1樓大廳",
@@ -40,6 +45,7 @@
     "address": "510彰化縣員林市民權街55號"
   },
   {
+    "id": "82218132-d042-54e6-ac80-5ea57fefc9d1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局員林站3F嚮導員室",
@@ -48,6 +54,7 @@
     "address": "510彰化縣員林市民權街55號"
   },
   {
+    "id": "494a1b2a-267b-596d-85c7-3f545b518157",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局員林站3F行車室",
@@ -56,6 +63,7 @@
     "address": "510彰化縣員林市民權街55號"
   },
   {
+    "id": "3d25b3c9-f85e-521c-a0cf-77c601b33be7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局員林站2F候車室",

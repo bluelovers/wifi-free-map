@@ -1,5 +1,6 @@
 [
   {
+    "id": "da64614d-7f47-592f-b6a6-30020bd7ce55",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣員林市戶政事務所",
@@ -8,6 +9,7 @@
     "address": "510彰化縣員林市和平東街1號"
   },
   {
+    "id": "9c7fa7f0-b82b-572c-8907-2d3e195643c9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣員林市戶政事務所民眾等候區",
@@ -16,6 +18,7 @@
     "address": "510彰化縣員林市和平東街1號"
   },
   {
+    "id": "ef248ac7-c59d-5e0c-9dba-2487fbd1877d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "員林三橋郵局",

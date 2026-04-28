@@ -1,5 +1,6 @@
 [
   {
+    "id": "090f0e84-0924-57b3-a17c-199fdb9264f2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "國道公路警察局第一公路警察大隊",
@@ -8,6 +9,7 @@
     "address": "243新北市泰山區大科里大科坑1號"
   },
   {
+    "id": "dfecbf29-22ec-58d5-a01e-bbbbcdaf5ef4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "林口台師大郵局",
@@ -16,6 +18,7 @@
     "address": "244新北市林口區仁愛路一段2號"
   },
   {
+    "id": "2611aedf-edc2-505d-9d3d-797b7fcb8399",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市林口戶政事務所1F",
@@ -24,6 +27,7 @@
     "address": "244新北市林口區仁愛路1段378號1樓"
   },
   {
+    "id": "54a05e8e-f717-5ad4-81fc-604e83da6c56",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "林口中正路郵局",

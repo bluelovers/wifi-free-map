@@ -1,5 +1,6 @@
 [
   {
+    "id": "90e3f6e2-1654-506d-9aa3-5cbfc8808911",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "觀光局旅遊服務中心服務台",
@@ -8,6 +9,7 @@
     "address": "105臺北市松山區敦化北路240號1樓"
   },
   {
+    "id": "d37cb528-2cd6-545c-8dd3-ae1d9e2d941b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "觀光局旅遊服務中心圖書館",
@@ -16,6 +18,7 @@
     "address": "105臺北市松山區敦化北路240號2樓"
   },
   {
+    "id": "48d97a5e-7888-5973-a9f0-f899ec40a616",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北榮星郵局",
@@ -24,6 +27,7 @@
     "address": "105臺北市松山區民權東路三段124之1、2號"
   },
   {
+    "id": "6c67a78f-a94e-55be-984c-2bf772fd253c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北龍江路郵局",
@@ -32,6 +36,7 @@
     "address": "104臺北市中山區龍江路335號"
   },
   {
+    "id": "dc0d7e0f-2786-5fcb-937b-7f4a3acb44e5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站觀景台",
@@ -40,6 +45,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "19b0e9e9-f625-56d6-90cc-d321c811ab78",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站入境長廊",
@@ -48,6 +54,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "ab907d93-81f4-5c0c-a083-d8e4e5368e68",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站國際線出境外候機室",
@@ -56,6 +63,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "0132e637-fe2b-598d-9c36-12d0488c512a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站國內線內候機室",
@@ -64,6 +72,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "deb2f7c2-0416-58b4-9004-b6fa67be5452",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站國內線到站大廳(行李提領區)",
@@ -72,6 +81,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "981e246e-5ab5-5fa3-98cc-8cb413fa920d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站國內線迎客大廳",
@@ -80,6 +90,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "f60b6205-bb79-5e45-8424-875bbeadc0de",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站國內線報到大廳",
@@ -88,6 +99,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "5502d49b-926d-569f-be98-dd17409d0104",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站國際線內候機室",
@@ -96,6 +108,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "2453f140-825d-5a9a-8dff-9e2e2b138a3e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站國際線外候機室",
@@ -104,6 +117,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "45c4430b-94d4-5319-8410-0231d12eaee9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站國際線迎客大廳",
@@ -112,6 +126,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "785e39b9-4b6e-5aa1-8153-86885d12896e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站國際線海關大廳(行李提領區)",
@@ -120,6 +135,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "c015f6d2-d750-5b81-a44e-5f9e390f8213",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站國際線報到大廳",
@@ -128,6 +144,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "fd1666c0-842e-5152-a4f6-81e50404a962",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺北國際航空站國際線內候機室(一航廈2樓)",
@@ -136,6 +153,7 @@
     "address": "105臺北市松山區敦化北路340之9號"
   },
   {
+    "id": "bfb22b60-6c87-5a07-a550-eecaafceb02b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "松山機場郵局",
@@ -144,6 +162,7 @@
     "address": "105臺北市松山區敦化北路340-9號"
   },
   {
+    "id": "42ebdc3b-5ee0-5711-8e7a-81b445505609",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北大直郵局",
@@ -152,6 +171,7 @@
     "address": "104臺北市中山區北安路518巷14弄18、20號"
   },
   {
+    "id": "006537f6-c4a2-5994-91a0-2d7174765a83",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北樂群二路郵局",

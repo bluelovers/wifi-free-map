@@ -1,5 +1,6 @@
 [
   {
+    "id": "a22cafcc-12ce-5ca1-9e24-9cc559f200cb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鹿谷郵局",
@@ -8,6 +9,7 @@
     "address": "558南投縣鹿谷鄉中正路二段115號"
   },
   {
+    "id": "bcc654cf-a719-5610-9b26-24f0efe06870",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司鹿谷服務所大廳",

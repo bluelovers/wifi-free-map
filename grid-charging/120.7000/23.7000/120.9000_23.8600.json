@@ -1,5 +1,6 @@
 [
   {
+    "id": "0d350dab-0865-5a1e-bce4-ba37421fab4b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "日月潭郵局",
@@ -8,6 +9,7 @@
     "address": "555南投縣魚池鄉水社村名勝街36號"
   },
   {
+    "id": "b0da12c0-c05f-5a54-b627-9721ce9aa6dc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "日月潭國家風景區管理處水社遊客中心",
@@ -16,6 +18,7 @@
     "address": "555南投縣魚池鄉水社村中山路163號"
   },
   {
+    "id": "4d973df4-d5ba-5dc8-aebe-23889519d0d4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司魚池服務所大廳",

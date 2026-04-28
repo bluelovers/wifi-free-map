@@ -1,5 +1,6 @@
 [
   {
+    "id": "777d8ec5-7543-5b1f-ad00-274bf50cfc70",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司崙背營運所",
@@ -8,6 +9,7 @@
     "address": "637雲林縣崙背鄉崙前村南光路13號"
   },
   {
+    "id": "011f76a2-4926-516a-904c-88aee2541f40",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "崙背郵局",

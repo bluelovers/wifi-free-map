@@ -1,5 +1,6 @@
 [
   {
+    "id": "55b5005f-3416-558c-b5d6-8586dc5168f6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司竹崎營運所",
@@ -8,6 +9,7 @@
     "address": "604嘉義縣竹崎鄉龍山村義崎3-2號"
   },
   {
+    "id": "1cbc46de-e505-517f-8d59-aba4a5bd58fb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹崎郵局",
@@ -16,6 +18,7 @@
     "address": "604嘉義縣竹崎鄉竹崎村中山路68號"
   },
   {
+    "id": "585e5012-c7d6-558d-8804-f1f2a74810ab",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義縣警察局竹崎分局",

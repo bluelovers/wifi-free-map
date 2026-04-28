@@ -1,5 +1,6 @@
 [
   {
+    "id": "6886445a-c562-5b78-aa09-561965dbb905",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮縣富里鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "983花蓮縣富里鄉富里村21鄰中山路144號"
   },
   {
+    "id": "a7eeb382-07fc-57f8-89a4-fa99097aa265",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "富里郵局",

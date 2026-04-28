@@ -1,5 +1,6 @@
 [
   {
+    "id": "e885ce92-56cc-5a21-a7b7-15146e61c6e9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市燕巢區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "824高雄市燕巢區南燕里14鄰中民路585之1號"
   },
   {
+    "id": "3d6eb801-2d5d-5141-876b-a9cbbf7a0ebc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "燕巢郵局",

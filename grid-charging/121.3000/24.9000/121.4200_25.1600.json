@@ -1,5 +1,6 @@
 [
   {
+    "id": "e0dce0f9-009b-5300-b580-f44685ec9cb9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "淡水郵局",
@@ -8,6 +9,7 @@
     "address": "251新北市淡水區中正路203號"
   },
   {
+    "id": "67cb67a8-c817-504f-8f78-42b65c3ca127",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市淡水戶政事務所-1",
@@ -16,6 +18,7 @@
     "address": "251新北市淡水區中正路227號1樓"
   },
   {
+    "id": "96be6643-ab44-57f2-b4e7-89ce88fe6831",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司淡水服務所大廳",

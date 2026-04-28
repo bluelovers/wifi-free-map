@@ -1,5 +1,6 @@
 [
   {
+    "id": "05a7f116-3dcc-55a4-8173-93df2a3268f6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局大園分局",
@@ -8,6 +9,7 @@
     "address": "337桃園市大園區中正西路13號"
   },
   {
+    "id": "e7d9fc45-3705-5475-8d4d-383022837549",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司大園服務所",
@@ -16,6 +18,7 @@
     "address": "337桃園市大園區忠孝一街10號"
   },
   {
+    "id": "ceb8bc8f-e1e0-5480-aaab-337b5a1549c0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大園郵局",
@@ -24,6 +27,7 @@
     "address": "337桃園市大園區中華路2號"
   },
   {
+    "id": "cd9222a8-5ae3-5eae-9521-0efad081679e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市大園區戶政事務所",
@@ -32,6 +36,7 @@
     "address": "337桃園市大園區中山北路162號"
   },
   {
+    "id": "d912d972-3d1c-5ee5-aa93-26fa1ee9a29a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大園工業區服務中心",

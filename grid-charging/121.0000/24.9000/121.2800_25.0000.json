@@ -1,5 +1,6 @@
 [
   {
+    "id": "2d2fe7a2-d6bd-517c-b992-9301ffeff034",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局桃園分局",
@@ -8,6 +9,7 @@
     "address": "330桃園市桃園區文中北路2號1樓"
   },
   {
+    "id": "ce597c33-5ce9-5a1b-945e-f425db97cfe5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園慈文郵局",

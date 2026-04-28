@@ -1,5 +1,6 @@
 [
   {
+    "id": "e3511891-5476-5d92-9be5-7687556f1ebf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "善化郵局",
@@ -8,6 +9,7 @@
     "address": "741臺南市善化區中正路332號"
   },
   {
+    "id": "90eb6d3b-0615-5114-a7c1-f72154257b49",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "善化中山路郵局",

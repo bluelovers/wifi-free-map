@@ -1,5 +1,6 @@
 [
   {
+    "id": "9a885e57-855e-590c-851b-e3c6d7189537",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司鳳林營運所",
@@ -8,6 +9,7 @@
     "address": "975花蓮縣鳳林鎮中華路25號"
   },
   {
+    "id": "a3bc1a3a-4eba-530f-8ddc-afaf596d8503",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮縣鳳林鎮戶政事務所",
@@ -16,6 +18,7 @@
     "address": "975花蓮縣鳳林鎮鳳智里公正街20號"
   },
   {
+    "id": "29c2d0dd-6654-556e-8d03-4d107dea8daa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳林郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "1efbff85-1a78-5e5a-9f48-6df6c1057e8d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司羅東服務所大廳",
@@ -8,6 +9,7 @@
     "address": "265宜蘭縣羅東鎮中正北路93號"
   },
   {
+    "id": "abf7e3e2-5916-5400-938d-621b83928d9b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "羅東竹林郵局",
@@ -16,6 +18,7 @@
     "address": "265宜蘭縣羅東鎮復興路二段193號"
   },
   {
+    "id": "ce2ff175-a699-5cf4-a3da-a87fe57c34a4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局臺北區監理所宜蘭監理站",
@@ -24,6 +27,7 @@
     "address": "268宜蘭縣五結鄉中正路2段9號"
   },
   {
+    "id": "e6d62534-7039-5814-a347-7f5e8b992a08",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司宜蘭縣五結鄉羅東站",
@@ -32,6 +36,7 @@
     "address": "268宜蘭縣五結鄉中正路二段94號"
   },
   {
+    "id": "60217311-f9ce-5fe6-8514-9f3e630cc048",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司宜蘭直銷中心",

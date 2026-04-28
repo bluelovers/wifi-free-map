@@ -1,5 +1,6 @@
 [
   {
+    "id": "dd20dc63-f1ef-5c0e-bbcb-11875a494c5d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹牛埔郵局",
@@ -8,6 +9,7 @@
     "address": "300新竹市香山區牛埔南路42號"
   },
   {
+    "id": "76c72bb8-0f0e-5658-923d-7bfbfcb6a89e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部公路總局第一區養護工程處新竹工務段",
@@ -16,6 +18,7 @@
     "address": "300新竹市香山區崧嶺路40號"
   },
   {
+    "id": "256890f0-1c8a-577d-b4bb-31b747629a67",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹市香山戶政事務所",

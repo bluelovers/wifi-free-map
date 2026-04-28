@@ -1,5 +1,6 @@
 [
   {
+    "id": "f1fc634c-cfa3-5124-9e9d-6d43653487a1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義縣警察局朴子分局",
@@ -8,6 +9,7 @@
     "address": "613嘉義縣朴子市光復路33號"
   },
   {
+    "id": "78323e3e-cfd0-5835-87c4-f9179af6fc9f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "朴子郵局",
@@ -16,6 +18,7 @@
     "address": "613嘉義縣朴子市光復路46號"
   },
   {
+    "id": "bc05869c-ccbb-59ed-8aa6-d889aa1ecf72",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司朴子服務所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "fff8e7f5-0dfb-5622-9579-29e015594de7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大肚郵局",
@@ -8,6 +9,7 @@
     "address": "432臺中市大肚區沙田路二段666號"
   },
   {
+    "id": "fd640479-de64-57ad-a93e-9b8ebd859f5b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局大肚站候車室",
@@ -16,6 +18,7 @@
     "address": "432臺中市大肚區平和街121號"
   },
   {
+    "id": "00936850-03a5-5b37-be1b-23292680fa87",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市大肚區戶政事務所",

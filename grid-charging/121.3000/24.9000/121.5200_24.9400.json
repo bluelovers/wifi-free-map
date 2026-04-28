@@ -1,5 +1,6 @@
 [
   {
+    "id": "3b6e2b47-b583-5415-b70a-3e52f66774fe",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新店碧潭郵局",
@@ -8,6 +9,7 @@
     "address": "231新北市新店區北宜路一段47號"
   },
   {
+    "id": "10831ff8-f4f8-5b0d-b8b2-6d55aa49534f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水利署台北水源特定區管理局4樓服務台",

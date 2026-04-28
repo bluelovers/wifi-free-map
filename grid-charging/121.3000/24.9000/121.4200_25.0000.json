@@ -1,5 +1,6 @@
 [
   {
+    "id": "76355cda-0234-502f-8637-0953dd7a10c4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "樹林樹新路郵局",
@@ -8,6 +9,7 @@
     "address": "238新北市樹林區樹新路229號"
   },
   {
+    "id": "128de291-701f-5380-bbf9-11ed9f2ccb02",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部公路總局第一區養護工程處",
@@ -16,6 +18,7 @@
     "address": "238新北市樹林區中正路212號"
   },
   {
+    "id": "a691c1b8-1dca-5821-953c-8a49d6084caf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新莊西盛郵局",
@@ -24,6 +27,7 @@
     "address": "242新北市新莊區新樹路457號"
   },
   {
+    "id": "c6121d46-d6e7-5947-9bc1-f9e7cfda05ef",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新莊民安郵局",

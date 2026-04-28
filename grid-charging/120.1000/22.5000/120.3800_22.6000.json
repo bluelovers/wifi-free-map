@@ -1,5 +1,6 @@
 [
   {
+    "id": "44f2e213-2376-5f20-970e-f7c1fc6b44f0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市大寮區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "831高雄市大寮區鳳林三路375號"
   },
   {
+    "id": "5bc278e7-f9e6-59c6-b70c-1e8722351dcd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大寮郵局",
@@ -16,6 +18,7 @@
     "address": "831高雄市大寮區永芳村鳳林三路530號"
   },
   {
+    "id": "11884cdd-eed9-5f18-b1c4-74c9794bc1c4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大寮中興郵局",

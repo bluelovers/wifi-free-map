@@ -1,5 +1,6 @@
 [
   {
+    "id": "472091ea-07b3-5e68-9e62-7b0b1fef2c6d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "智慧局3樓民眾服務台",
@@ -8,6 +9,7 @@
     "address": "106臺北市大安區辛亥路2段185號3樓"
   },
   {
+    "id": "305e3c89-5963-5ee1-b11d-2908dcfa2d04",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北六張犁郵局",
@@ -16,6 +18,7 @@
     "address": "106臺北市大安區和平東路三段208號"
   },
   {
+    "id": "7488bcfc-1b53-527a-bbe6-c07382e87705",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北成功郵局",
@@ -24,6 +27,7 @@
     "address": "106臺北市大安區四維路198巷38弄12號"
   },
   {
+    "id": "80efe5b8-d429-53b0-bae2-48224e8fe894",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北安和郵局",
@@ -32,6 +36,7 @@
     "address": "106臺北市大安區安和路二段61、63號"
   },
   {
+    "id": "2c238f9a-4a7a-54f7-9d11-8789261c0187",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北信維郵局",
@@ -40,6 +45,7 @@
     "address": "106臺北市大安區信義路四段74號"
   },
   {
+    "id": "4196b670-6a4f-59d5-a9c9-5bfd0c2c2bac",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北三張犁郵局",

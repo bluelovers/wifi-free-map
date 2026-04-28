@@ -1,5 +1,6 @@
 [
   {
+    "id": "8be328db-7a08-5ba1-b674-8ab53c397d9f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司新北市坪林區坪林站",
@@ -8,6 +9,7 @@
     "address": "232新北市坪林區水柳腳188-1號"
   },
   {
+    "id": "4b29e25e-7719-5d13-84f5-d52c1ac99034",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "坪林郵局",

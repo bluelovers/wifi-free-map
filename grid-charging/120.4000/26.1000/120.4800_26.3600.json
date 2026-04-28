@@ -1,5 +1,6 @@
 [
   {
+    "id": "4715a58b-c99f-5167-bf18-529017720e26",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "馬祖國家風景區管理處東引遊客中心",
@@ -8,6 +9,7 @@
     "address": "209連江縣東引鄉樂華村160-1號"
   },
   {
+    "id": "9233a265-c4d1-5755-85bd-1e2b408c1f6f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "馬祖東引郵局",

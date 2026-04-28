@@ -1,5 +1,6 @@
 [
   {
+    "id": "4b81d9b0-5038-52ed-bbd4-4c2a9258a496",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中南屯路郵局",
@@ -8,6 +9,7 @@
     "address": "408臺中市南屯區南屯路二段405號"
   },
   {
+    "id": "ce7aeb12-bc91-5b90-b6d6-120858267ad9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市南屯區戶政事務所",

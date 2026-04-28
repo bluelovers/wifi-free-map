@@ -1,5 +1,6 @@
 [
   {
+    "id": "327c1aec-fefc-5c9e-ade6-7de258385f32",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局大溪分局復興分駐所",
@@ -8,6 +9,7 @@
     "address": "335桃園市復興區澤仁村中正路2號"
   },
   {
+    "id": "03d44c1b-fc2a-5771-ac2d-91eb07f14a5a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "復興郵局",

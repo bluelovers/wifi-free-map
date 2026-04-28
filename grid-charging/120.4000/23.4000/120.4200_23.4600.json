@@ -1,5 +1,6 @@
 [
   {
+    "id": "afa8c0c1-30cd-583f-b8b1-1be43241b773",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義市西區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "600嘉義市西區錦州二街28號2樓"
   },
   {
+    "id": "a6ffe027-f8d3-5acf-a4ae-6cea35efc06d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義興嘉郵局",
@@ -16,6 +18,7 @@
     "address": "600嘉義市西區南京路409號"
   },
   {
+    "id": "dc76368b-f19f-5501-8cd3-b7d8d9242148",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義玉山郵局",
@@ -24,6 +27,7 @@
     "address": "600嘉義市西區中興路672號"
   },
   {
+    "id": "8bfa3d27-acb5-5c66-a9d1-4deb7e1e7d58",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義福全郵局",

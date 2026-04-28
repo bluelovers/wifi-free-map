@@ -1,5 +1,6 @@
 [
   {
+    "id": "86d6edf7-b71f-5df2-bc59-373055641f5b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市五股戶政事務所_A",
@@ -8,6 +9,7 @@
     "address": "248新北市五股區中興路4段70號1樓"
   },
   {
+    "id": "f50658da-8003-547f-a9c1-83d1701490e5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "五股中興路郵局",

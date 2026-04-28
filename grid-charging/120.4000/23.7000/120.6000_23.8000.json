@@ -1,5 +1,6 @@
 [
   {
+    "id": "8929e61f-510d-573f-b5e6-1a33e8567f8c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣二水鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "530彰化縣二水鄉員集路三段472號"
   },
   {
+    "id": "440a45a2-4add-5e5f-9df4-7f1ceb85e285",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "二水郵局",
@@ -16,6 +18,7 @@
     "address": "530彰化縣二水鄉二水村員集路三段741號"
   },
   {
+    "id": "c71bcb72-20d0-579a-a90a-96f13a1b2a47",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局二水站候車室",

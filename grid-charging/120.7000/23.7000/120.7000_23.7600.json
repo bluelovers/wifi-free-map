@@ -1,5 +1,6 @@
 [
   {
+    "id": "921d43bb-e322-5d36-a350-3060112f7cb8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹山東埔蚋郵局",
@@ -8,6 +9,7 @@
     "address": "557南投縣竹山鎮集山路三段99號"
   },
   {
+    "id": "53051591-ef3e-58c7-90d5-1d54c3e40f4d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南崗(兼竹山)工業區服務中心-竹山",

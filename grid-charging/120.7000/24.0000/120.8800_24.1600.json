@@ -1,5 +1,6 @@
 [
   {
+    "id": "41a0b544-1bf5-51cc-9c32-9350fe523b4a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "和平郵局",
@@ -8,6 +9,7 @@
     "address": "424臺中市和平區南勢村東關路三段160-9號"
   },
   {
+    "id": "fbe7e59f-18b5-5792-9afd-604ff19f0571",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市和平區戶政事務所",

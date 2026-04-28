@@ -1,5 +1,6 @@
 [
   {
+    "id": "c3c6d3cb-f629-53e9-89bd-2b2e46d9563f",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "cecce773-61aa-514b-acbf-4a6fe9f0181f",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "大眾運輸節點",
@@ -22,6 +24,7 @@
     "authType": "portal"
   },
   {
+    "id": "96309179-f785-551c-b45b-0f938cf801f4",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -33,6 +36,7 @@
     "authType": "portal"
   },
   {
+    "id": "3bdda713-ea29-56ff-ab7b-406da3056b6e",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -44,6 +48,7 @@
     "authType": "portal"
   },
   {
+    "id": "d83aa872-6947-58c0-b4fb-b1395e1301ba",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -55,6 +60,7 @@
     "authType": "portal"
   },
   {
+    "id": "27912695-3bdd-5449-b7fc-13cb17fbb40d",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -66,6 +72,7 @@
     "authType": "portal"
   },
   {
+    "id": "9805aeee-1d2b-59db-b289-2eb808795c07",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -77,6 +84,7 @@
     "authType": "portal"
   },
   {
+    "id": "d1d6ef9d-eeb6-5b91-8d81-c7fb36c9a9e5",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",

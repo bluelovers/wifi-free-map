@@ -1,5 +1,6 @@
 [
   {
+    "id": "f1634c22-2106-5882-990c-bf731686df58",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "下營中營郵局",
@@ -8,6 +9,7 @@
     "address": "735臺南市下營區中營村893號"
   },
   {
+    "id": "03d830d3-9a3f-5191-8eae-66ab4b043683",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "下營郵局",

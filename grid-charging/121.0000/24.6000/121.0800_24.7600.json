@@ -1,5 +1,6 @@
 [
   {
+    "id": "82ddf9df-9718-56bc-a36b-5ffde92817e1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "芎林郵局",
@@ -8,6 +9,7 @@
     "address": "307新竹縣芎林鄉新鳳村文衡路426號"
   },
   {
+    "id": "8587a000-9099-575f-981e-bc3e519e294a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣芎林鄉戶政事務所",

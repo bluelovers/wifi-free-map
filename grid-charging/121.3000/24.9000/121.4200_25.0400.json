@@ -1,5 +1,6 @@
 [
   {
+    "id": "4be1690f-46ac-58f1-9a9f-8a29e32737ab",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "明志科大郵局",
@@ -8,6 +9,7 @@
     "address": "243新北市泰山區工專路84號"
   },
   {
+    "id": "d3eaf222-b6e6-56ab-8350-8ca6b7dfad70",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "泰山貴子路郵局",
@@ -16,6 +18,7 @@
     "address": "243新北市泰山區明志路三段85號"
   },
   {
+    "id": "8b353d89-d336-5db4-9be1-8f9e2076a13b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "泰山同榮郵局",
@@ -24,6 +27,7 @@
     "address": "243新北市泰山區明志路一段510、512號"
   },
   {
+    "id": "476839c3-b26d-5261-96e8-985db0c3eaab",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市泰山戶政事務所4F-1",

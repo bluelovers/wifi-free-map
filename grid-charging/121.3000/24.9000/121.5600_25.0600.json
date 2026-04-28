@@ -1,5 +1,6 @@
 [
   {
+    "id": "a6aea9a6-e859-540b-86ca-1ce96069b929",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖舊宗郵局",
@@ -8,6 +9,7 @@
     "address": "114臺北市內湖區舊宗路一段189號"
   },
   {
+    "id": "7ec636dc-7fd0-5a80-8f7f-c877ff6c9d75",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖江南郵局",
@@ -16,6 +18,7 @@
     "address": "114臺北市內湖區瑞光路316巷1號"
   },
   {
+    "id": "d00857df-5f4c-578b-a749-08be7d6c8cb7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖文德郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "5dd801ea-f7ed-553d-b5a0-04f28f1839d0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺南航空站",
@@ -8,6 +9,7 @@
     "address": "702臺南市南區大同路二段1002號"
   },
   {
+    "id": "172b82ae-9e07-59d0-98a5-f8fe727458a3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺南航空站外候機室",

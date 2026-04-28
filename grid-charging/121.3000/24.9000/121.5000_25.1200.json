@@ -1,5 +1,6 @@
 [
   {
+    "id": "d38b5d9c-a5e7-5922-88fa-086dcc77d12a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投奇岩郵局",
@@ -8,6 +9,7 @@
     "address": "112臺北市北投區公館路271號"
   },
   {
+    "id": "6809ed82-5f85-5edf-b5a5-29bac5cde8ea",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投舊北投郵局",
@@ -16,6 +18,7 @@
     "address": "112臺北市北投區清江里1鄰中央南路一段201號"
   },
   {
+    "id": "712070c6-0aae-5885-ba0f-ee9087d08a7f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投郵局-1",
@@ -24,6 +27,7 @@
     "address": "112臺北市北投區光明路181號"
   },
   {
+    "id": "949ab4b8-e69c-5d7a-b1e1-48af4237c144",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投郵局-2",

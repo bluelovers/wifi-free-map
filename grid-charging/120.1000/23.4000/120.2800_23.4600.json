@@ -1,5 +1,6 @@
 [
   {
+    "id": "8703ed0f-6e7c-55c8-91a2-c3186e6259bb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "朴子長庚醫院郵局",
@@ -8,6 +9,7 @@
     "address": "613嘉義縣朴子市嘉朴路西段6號"
   },
   {
+    "id": "63cfb665-d4e0-5332-87f1-aeb3540a6899",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台糖公司嘉義區處總務課辦公室",

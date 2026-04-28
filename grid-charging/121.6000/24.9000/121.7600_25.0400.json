@@ -1,5 +1,6 @@
 [
   {
+    "id": "476eec1c-db87-5205-bac4-1dedf15cfbc9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局十分站候車室",
@@ -8,6 +9,7 @@
     "address": "226新北市平溪區十分街51號"
   },
   {
+    "id": "6216b6e2-b96c-57b6-a36e-7eedd7e0adea",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "十分派出所",

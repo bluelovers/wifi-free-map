@@ -1,5 +1,6 @@
 [
   {
+    "id": "f8436838-ecbd-5f10-bf60-e0144260b97c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "豐原南陽郵局",
@@ -8,6 +9,7 @@
     "address": "420臺中市豐原區南陽里12鄰圓環東路402號"
   },
   {
+    "id": "e1dd31ac-d00d-524d-88d5-9cf7f0a86f90",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司豐原服務所",
@@ -16,6 +18,7 @@
     "address": "420臺中市豐原區南陽路298巷15號"
   },
   {
+    "id": "ca69800d-7fe7-5bcb-91bd-4509b970b6ca",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局臺中區監理所豐原監理站",
@@ -24,6 +27,7 @@
     "address": "420臺中市豐原區豐東路120號"
   },
   {
+    "id": "131226e9-333b-5968-8a10-d9501b7d96e6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局豐原站售票前廳",
@@ -32,6 +36,7 @@
     "address": "420臺中市豐原區中正路1號"
   },
   {
+    "id": "3e1ae4f2-0fd2-5c6d-abf3-a9501751e491",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局豐原站第2月台4車處",
@@ -40,6 +45,7 @@
     "address": "420臺中市豐原區中正路1號"
   },
   {
+    "id": "e59473ad-fdb7-525b-9b8b-98d05d864f84",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "豐原水源郵局",
@@ -48,6 +54,7 @@
     "address": "420臺中市豐原區水源路594-2號"
   },
   {
+    "id": "9a84e8a3-2819-5cce-b804-80eae0233621",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "豐原翁子郵局",

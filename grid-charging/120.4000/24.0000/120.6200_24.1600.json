@@ -1,5 +1,6 @@
 [
   {
+    "id": "51c1801b-68bb-5f43-94c9-36793e5efd77",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市西屯區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "407臺中市西屯區市政北二路386號"
   },
   {
+    "id": "c1187106-8562-5b10-ba27-00a95b4a21f1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市西屯區戶政事務所",
@@ -16,6 +18,7 @@
     "address": "407臺中市西屯區市政北二路386號"
   },
   {
+    "id": "ca94c6f3-80bf-54b1-aa01-ef098998771b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中西屯郵局",

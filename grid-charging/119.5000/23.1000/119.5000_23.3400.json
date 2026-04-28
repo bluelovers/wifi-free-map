@@ -1,5 +1,6 @@
 [
   {
+    "id": "db621c94-cf65-5113-a6ae-3ac4890a3b58",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "澎湖縣政府警察局望安分局",
@@ -8,6 +9,7 @@
     "address": "882澎湖縣望安鄉東安村57號"
   },
   {
+    "id": "0d22a5be-9b01-5156-8faf-fb20e367d55a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "望安郵局",

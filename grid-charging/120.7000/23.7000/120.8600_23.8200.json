@@ -1,5 +1,6 @@
 [
   {
+    "id": "6c326339-891c-56dc-847d-2ebb8d71c7ba",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局車埕站候車室",
@@ -8,6 +9,7 @@
     "address": "553南投縣水里鄉車埕村民權路2號"
   },
   {
+    "id": "7a85347c-deb2-552f-919b-32bcd60a385b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投縣政府警察局集集分局車埕派出所",
@@ -16,6 +18,7 @@
     "address": "553南投縣水里鄉車埕村民權巷108號"
   },
   {
+    "id": "31b2e135-2447-590d-bf7e-03f2cc677c1b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "車埕遊客中心",

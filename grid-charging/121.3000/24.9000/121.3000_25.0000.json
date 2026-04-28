@@ -1,5 +1,6 @@
 [
   {
+    "id": "36976e88-d607-50c5-b3ad-a97504ca3a52",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園東埔郵局",
@@ -8,6 +9,7 @@
     "address": "330桃園市桃園區中正二街15號"
   },
   {
+    "id": "0b78b64b-2672-54a4-9f78-05079fc9755f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園大業郵局",

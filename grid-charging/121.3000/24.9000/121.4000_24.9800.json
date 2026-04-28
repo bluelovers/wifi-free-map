@@ -1,5 +1,6 @@
 [
   {
+    "id": "b04eb835-03d1-5824-9e20-671aa9830478",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "樹林大同郵局",
@@ -8,6 +9,7 @@
     "address": "238新北市樹林區中華路134、136號"
   },
   {
+    "id": "16061baf-47bd-5a46-bd06-2d8fa83371a7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市樹林戶政事務所1F_A",
@@ -16,6 +18,7 @@
     "address": "238新北市樹林區保安街1段285號1樓"
   },
   {
+    "id": "594c3370-863e-5292-9229-4b0c3c7e4058",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "樹林郵局",

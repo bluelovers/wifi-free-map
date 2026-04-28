@@ -1,5 +1,6 @@
 [
   {
+    "id": "85782892-2e52-5614-9181-69c2069e8e6a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內埔豐田郵局",
@@ -8,6 +9,7 @@
     "address": "912屏東縣內埔鄉豐田村中正路310號"
   },
   {
+    "id": "ede124f0-2e69-5434-9dd1-5f679d9d3482",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內埔工業區服務中心",

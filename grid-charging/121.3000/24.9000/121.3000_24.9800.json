@@ -1,5 +1,6 @@
 [
   {
+    "id": "034063ee-bf07-5b1c-87d8-12eae85e5688",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園福林郵局",
@@ -8,6 +9,7 @@
     "address": "330桃園市桃園區介壽路316、316-1號"
   },
   {
+    "id": "cafeb01d-f7ad-5366-834e-a3442b2c2bdc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園建國郵局",
@@ -16,6 +18,7 @@
     "address": "330桃園市桃園區建國路156-8號"
   },
   {
+    "id": "b2d2ffe2-9b09-5dea-8288-df5900a295d2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局桃園站候車大廳",
@@ -24,6 +27,7 @@
     "address": "330桃園市桃園區中正路1號"
   },
   {
+    "id": "cbad017b-c5a3-574a-b90c-6201ef19e6a2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局桃園站第2月台南側",
@@ -32,6 +36,7 @@
     "address": "330桃園市桃園區中正路1號"
   },
   {
+    "id": "14839552-de31-5771-9ef5-efde4c991d18",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司桃園區處服務中心營業廳",
@@ -40,6 +45,7 @@
     "address": "330桃園市桃園區復興路352號"
   },
   {
+    "id": "b70d9352-52c5-5523-afb7-cf84904ade2c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司桃園服務所",
@@ -48,6 +54,7 @@
     "address": "330桃園市桃園區中山路291號"
   },
   {
+    "id": "b2756ebf-5029-5158-a302-9de5ab15b647",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園成功路郵局2樓",
@@ -56,6 +63,7 @@
     "address": "330桃園市桃園區成功路一段51號2樓"
   },
   {
+    "id": "ca3b6d15-0242-5732-a093-4d7405b2b593",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園府前郵局",
@@ -64,6 +72,7 @@
     "address": "330桃園市桃園區縣府路326-330號"
   },
   {
+    "id": "2ba0f5ce-6ac1-5746-98f8-51ff875cd25a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園南門郵局",
@@ -72,6 +81,7 @@
     "address": "330桃園市桃園區中山路362號"
   },
   {
+    "id": "0916e642-3140-534b-8aec-af7a28a810aa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局",
@@ -80,14 +90,7 @@
     "address": "330桃園市桃園區市府路3號"
   },
   {
-    "dataType": "charging",
-    "dataSource": "gov-data",
-    "name": "桃園市政府警察局",
-    "lat": 24.993346,
-    "lng": 121.301897,
-    "address": "330桃園市桃園區市府路3號"
-  },
-  {
+    "id": "8e2f07d2-da3c-50fc-b6d9-efddf6d7f767",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園民生路郵局",

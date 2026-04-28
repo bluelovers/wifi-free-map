@@ -1,5 +1,6 @@
 [
   {
+    "id": "5fdcc81e-c6da-54b0-a8a1-0eae78f6a928",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "馬公航空站",
@@ -8,6 +9,7 @@
     "address": "885澎湖縣湖西鄉隘門村126-5號"
   },
   {
+    "id": "b8930389-2e84-54b5-a72f-59f1efc96ad5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "湖西隘門郵局",

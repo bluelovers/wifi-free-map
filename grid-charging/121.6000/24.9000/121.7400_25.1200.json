@@ -1,5 +1,6 @@
 [
   {
+    "id": "f656f1d8-a7ae-5e14-9f6e-afca48bbb578",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆南榮路郵局",
@@ -8,6 +9,7 @@
     "address": "200基隆市仁愛區南榮路20號"
   },
   {
+    "id": "b9b50fdf-b993-5aa6-a1fd-9dbd0368e2fa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆仁二路郵局",
@@ -16,6 +18,7 @@
     "address": "200基隆市仁愛區仁二路19號"
   },
   {
+    "id": "8a909a78-da2f-56e1-932c-26b09ffe5fe2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆市信義戶政事務所",
@@ -24,6 +27,7 @@
     "address": "201基隆市信義區信一路6號"
   },
   {
+    "id": "c9da2bb2-b8e4-5b0d-a42f-0139d9698d75",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司基隆區處服務中心營業廳",
@@ -32,6 +36,7 @@
     "address": "200基隆市仁愛區仁一路301號"
   },
   {
+    "id": "3babc40f-61cf-5532-9bf3-e93d8c712277",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆信義郵局",
@@ -40,6 +45,7 @@
     "address": "201基隆市信義區信二路178號"
   },
   {
+    "id": "1702d697-ca94-531c-a265-ff40d19c8afa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆愛三路郵局",
@@ -48,6 +54,7 @@
     "address": "200基隆市仁愛區愛三路130號一樓"
   },
   {
+    "id": "65858629-60e9-556d-b62e-b4c4a504dc31",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆港務分公司東岸旅客大廳",
@@ -56,6 +63,7 @@
     "address": "202基隆市中正區中正路1號2樓"
   },
   {
+    "id": "49f26f68-af1b-58a7-ab8e-fe470b9dcbad",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆港務分公司東岸旅客碼頭",
@@ -64,6 +72,7 @@
     "address": "202基隆市中正區中正路1號"
   },
   {
+    "id": "02527419-bb48-5d97-a1e5-a6c30b10d454",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司基隆服務所",
@@ -72,6 +81,7 @@
     "address": "202基隆市中正區義一路21號"
   },
   {
+    "id": "e24afc84-5070-5e22-8a41-68913fb8ddb6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局基隆分局商檢業務民眾洽公區",
@@ -80,6 +90,7 @@
     "address": "200基隆市仁愛區港西街8號"
   },
   {
+    "id": "cc3afd9f-e55a-5052-8152-510fc91d7750",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆港西街郵局",
@@ -88,6 +99,7 @@
     "address": "200基隆市仁愛區港西街10號"
   },
   {
+    "id": "34967110-f59f-53d3-b630-95ef78d387f3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆港東郵局",
@@ -96,6 +108,7 @@
     "address": "202基隆市中正區中正路56號"
   },
   {
+    "id": "6c34c84a-61e1-5712-be1c-5e2133050a34",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司第一區管理處",
@@ -104,6 +117,7 @@
     "address": "202基隆市中正區中正路106號"
   },
   {
+    "id": "983574e3-0b23-5ea2-9cc3-f8c8481373e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆港務分公司西岸旅客碼頭",
@@ -112,6 +126,7 @@
     "address": "200基隆市仁愛區港西街16號"
   },
   {
+    "id": "0cd45421-86d3-5af6-a4bb-0978b9547626",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆三沙灣郵局",

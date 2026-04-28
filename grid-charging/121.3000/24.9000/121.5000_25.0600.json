@@ -1,5 +1,6 @@
 [
   {
+    "id": "fca1932d-7ae7-5696-b32a-32d6402acf3f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北台北橋郵局",
@@ -8,6 +9,7 @@
     "address": "103臺北市大同區民權西路246號"
   },
   {
+    "id": "89d12232-fd5c-5797-904b-dd54403b9020",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三重永興郵局",
@@ -16,6 +18,7 @@
     "address": "241新北市三重區重新路一段52號"
   },
   {
+    "id": "5de85867-0908-50a1-b177-db540c64112b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北大同郵局",
@@ -24,6 +27,7 @@
     "address": "103臺北市大同區承德路三段83號"
   },
   {
+    "id": "1a49e0e4-88b7-5869-a358-7f95d63b0af2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北大龍峒郵局",

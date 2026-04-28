@@ -1,5 +1,6 @@
 [
   {
+    "id": "1e4f5644-9a35-58e8-ab30-5809f9fdf1ea",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "泰安南站大客車",
@@ -8,6 +9,7 @@
     "address": "421臺中市后里區月眉里安眉路113號"
   },
   {
+    "id": "68d136df-c55c-54e6-9799-ecc5c3daf20c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局泰安服務區客席區與服務台(南站)",
@@ -16,6 +18,7 @@
     "address": "421臺中市后里區月眉里安眉路113號"
   },
   {
+    "id": "c3cbbb87-ddaa-5bfb-b732-655b4ec5411f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "國道公路警察局第三公路警察大隊泰安分隊",
@@ -24,6 +27,7 @@
     "address": "421臺中市后里區月眉里九甲七路398號"
   },
   {
+    "id": "1937064e-3b0d-5990-836b-489db2251df4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局泰安服務區客席區與服務台(北站)",
@@ -32,6 +36,7 @@
     "address": "421臺中市后里區雲頭路3之5號"
   },
   {
+    "id": "96028858-3dcc-57b0-b7a0-52100c632dcd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "泰安北站大客車",

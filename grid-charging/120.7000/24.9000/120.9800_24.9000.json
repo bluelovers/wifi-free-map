@@ -1,5 +1,6 @@
 [
   {
+    "id": "b76b023b-a6ee-5797-b6d1-11eccd4610ce",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣新豐鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "304新竹縣新豐鄉建興路二段792巷6號"
   },
   {
+    "id": "6b2edb27-caca-5466-b75f-88955426860b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新豐郵局",

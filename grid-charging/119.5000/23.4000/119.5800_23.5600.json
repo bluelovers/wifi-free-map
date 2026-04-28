@@ -1,5 +1,6 @@
 [
   {
+    "id": "e57a4731-ecb0-5b65-883a-51e2ab7f6ab8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "馬公東文郵局",
@@ -8,6 +9,7 @@
     "address": "880澎湖縣馬公市東文里新店路465號1樓"
   },
   {
+    "id": "9b102002-0cb9-5e43-8395-e9875e4ac9de",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "澎湖縣馬公市戶政事務所服務台",

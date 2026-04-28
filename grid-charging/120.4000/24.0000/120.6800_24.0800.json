@@ -1,5 +1,6 @@
 [
   {
+    "id": "392e3a2c-fa4c-5bce-8cbd-c9c1de0bd7f6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中軟體園區",
@@ -8,6 +9,7 @@
     "address": "412臺中市大里區中興路一段157號"
   },
   {
+    "id": "534e8a9d-68a6-52a2-8c8b-3d18be132dca",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大里草湖郵局",

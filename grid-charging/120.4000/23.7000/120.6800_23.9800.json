@@ -1,5 +1,6 @@
 [
   {
+    "id": "9c34c2c7-284e-55a5-80c6-390660b085a3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司草屯營運所",
@@ -8,6 +9,7 @@
     "address": "542南投縣草屯鎮博愛路6號"
   },
   {
+    "id": "175737d0-ed2b-5a59-9d71-38727a3c6894",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司南投縣草屯鎮草屯站",
@@ -16,6 +18,7 @@
     "address": "542南投縣草屯鎮玉峰里中正路880號"
   },
   {
+    "id": "f62da4d3-d058-5c28-adc7-fc889aa52453",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "草屯大觀郵局",

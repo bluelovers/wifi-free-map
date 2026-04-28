@@ -1,5 +1,6 @@
 [
   {
+    "id": "799af521-75f0-5a33-a56d-38251210bc9c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苗栗縣後龍鎮戶政事務所",
@@ -8,6 +9,7 @@
     "address": "356苗栗縣後龍鎮大庄里中山路142號"
   },
   {
+    "id": "c92f4ecc-db7b-54e4-aa62-66ca032eaaa4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "後龍郵局",
@@ -16,6 +18,7 @@
     "address": "356苗栗縣後龍鎮中龍里中華路161號"
   },
   {
+    "id": "14d95894-653a-5463-a97e-b1ced4088403",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局後龍站候車室",

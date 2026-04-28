@@ -1,5 +1,6 @@
 [
   {
+    "id": "4d3db670-c9ac-5c73-8eab-ca9e0058d58a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "外埔郵局",
@@ -8,6 +9,7 @@
     "address": "438臺中市外埔區大同村甲后路333號"
   },
   {
+    "id": "bb122395-59cf-53ff-a4a1-9adc57e3067a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市外埔區戶政事務所",

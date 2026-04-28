@@ -1,5 +1,6 @@
 [
   {
+    "id": "fda48d5a-7152-5e49-906f-3234e9be9e3b",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "06226ec8-6656-577f-a1d3-6b253f49a605",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "旅遊景點",
@@ -22,6 +24,7 @@
     "authType": "portal"
   },
   {
+    "id": "f24f64cd-929b-516f-a87a-b32c62e5a972",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -33,6 +36,7 @@
     "authType": "portal"
   },
   {
+    "id": "8e11e80c-0a5b-5e97-9985-346b56fc5bb7",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -44,6 +48,7 @@
     "authType": "portal"
   },
   {
+    "id": "4431cabb-242b-5759-bfac-29b8b4521b90",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -55,6 +60,7 @@
     "authType": "portal"
   },
   {
+    "id": "ecff79f5-426e-5abe-bd50-e1046a11baed",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -66,6 +72,7 @@
     "authType": "portal"
   },
   {
+    "id": "49d3d866-0005-52dc-bc74-bb300fe77314",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -77,6 +84,7 @@
     "authType": "portal"
   },
   {
+    "id": "ca030f3c-ae80-5ae9-9dc8-031bef526938",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -88,6 +96,7 @@
     "authType": "portal"
   },
   {
+    "id": "36815a5a-36ed-5a3e-bf37-67a1fa86373d",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -99,6 +108,7 @@
     "authType": "portal"
   },
   {
+    "id": "4de2c2fd-72b7-56db-90bf-2032acecbdf2",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -110,6 +120,7 @@
     "authType": "portal"
   },
   {
+    "id": "f9a9ab39-c4ed-542b-9d2a-e66e9e491cda",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -121,6 +132,7 @@
     "authType": "portal"
   },
   {
+    "id": "d1ed87df-bc7b-52c9-9800-864c5abede48",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -132,6 +144,7 @@
     "authType": "portal"
   },
   {
+    "id": "5c840e3d-0609-596b-8693-b016aea9dd35",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公園",
@@ -143,6 +156,7 @@
     "authType": "portal"
   },
   {
+    "id": "84c97d83-17aa-5583-a64a-907ac3556b7e",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -154,6 +168,7 @@
     "authType": "portal"
   },
   {
+    "id": "2934c8f4-cf16-5c34-b245-9d267fc40153",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公園",
@@ -165,6 +180,7 @@
     "authType": "portal"
   },
   {
+    "id": "075ed6bf-ead3-5c5a-a0cd-0482e244c7f6",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公園",
@@ -176,6 +192,7 @@
     "authType": "portal"
   },
   {
+    "id": "60dc720c-3283-5d07-a31d-f461d26ef63f",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -187,6 +204,7 @@
     "authType": "portal"
   },
   {
+    "id": "d2e53df1-b42e-58c0-8be0-f48d7b78ada3",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -198,6 +216,7 @@
     "authType": "portal"
   },
   {
+    "id": "ea14dd40-e360-562e-a091-0a12918ea8b0",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",

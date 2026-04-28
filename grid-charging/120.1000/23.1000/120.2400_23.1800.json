@@ -1,5 +1,6 @@
 [
   {
+    "id": "2ff591e3-4f32-5a1c-b44d-dfebe8ecde71",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "麻豆郵局",
@@ -8,6 +9,7 @@
     "address": "721臺南市麻豆區興國路25號"
   },
   {
+    "id": "72338364-c470-5785-8663-faac58f9f80c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司麻豆服務所",
@@ -16,6 +18,7 @@
     "address": "721臺南市麻豆區興中路211號"
   },
   {
+    "id": "a659ca05-6375-54cc-a3b0-7dbf7fb74144",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "麻豆新生郵局",
@@ -24,6 +27,7 @@
     "address": "721臺南市麻豆區新生南路17號"
   },
   {
+    "id": "95f0d27a-0092-55ec-8346-5121b06fcc24",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局嘉義區監理所麻豆監理站",

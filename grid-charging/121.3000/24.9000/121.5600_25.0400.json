@@ -1,5 +1,6 @@
 [
   {
+    "id": "e113f7ef-c07b-5bdd-b2b3-514d7722c77e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北逸仙郵局",
@@ -8,6 +9,7 @@
     "address": "110臺北市信義區逸仙路46號"
   },
   {
+    "id": "b6d4e716-eb30-5b45-b097-e761158bbd63",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北永春郵局",
@@ -16,6 +18,7 @@
     "address": "110臺北市信義區忠孝東路五段464.466號"
   },
   {
+    "id": "e87745a6-5793-59fb-8008-9213dca05af8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北永吉郵局",
@@ -24,6 +27,7 @@
     "address": "110臺北市信義區永吉路168號1樓"
   },
   {
+    "id": "56d1adc0-94aa-5ea5-a48f-7289e4a8801d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局松山站售票大廳",
@@ -32,6 +36,7 @@
     "address": "105臺北市松山區松山路11號"
   },
   {
+    "id": "ba796d33-3e34-51b8-a092-6410868b24ef",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局松山站西剪票口候車處",
@@ -40,6 +45,7 @@
     "address": "105臺北市松山區松山路11號"
   },
   {
+    "id": "bb602378-35b5-546f-a513-1206de8d31fe",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局松山站第2月台3車位置",
@@ -48,6 +54,7 @@
     "address": "105臺北市松山區松山路11號"
   },
   {
+    "id": "195f4405-7db0-56ba-a2f2-4a93ce5386c7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局松山站第2月台10車位置",
@@ -56,6 +63,7 @@
     "address": "105臺北市松山區松山路11號"
   },
   {
+    "id": "e9e448f8-f068-53fd-bfc5-e630f1b0d6ca",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北松山郵局",
@@ -64,6 +72,7 @@
     "address": "105臺北市松山區八德路四段626號"
   },
   {
+    "id": "61251939-9640-5e0b-a3c2-d01478ba93f9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司松山服務所大廳",
@@ -72,6 +81,7 @@
     "address": "105臺北市松山區八德路四段598號2樓"
   },
   {
+    "id": "6a4b051a-4ed8-5952-ba63-fa40ed2a6510",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北西松郵局",
@@ -80,6 +90,7 @@
     "address": "105臺北市松山區南京東路五段311號"
   },
   {
+    "id": "28ee6487-5501-5dc1-ab89-09ebdd049b55",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北民生郵局",

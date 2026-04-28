@@ -1,5 +1,6 @@
 [
   {
+    "id": "b7b22484-0739-5188-a1e3-93c2e3b2b24d",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "社區中心",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "4964fa75-caf0-50d7-be47-b94715f12329",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -22,6 +24,7 @@
     "authType": "portal"
   },
   {
+    "id": "86600bcb-283c-52e2-adaf-68fed781d093",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",

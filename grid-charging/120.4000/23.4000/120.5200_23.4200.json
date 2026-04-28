@@ -1,5 +1,6 @@
 [
   {
+    "id": "6d782210-beb9-5597-8b35-0b18c3997318",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中埔郵局",
@@ -8,6 +9,7 @@
     "address": "606嘉義縣中埔鄉中埔村167號"
   },
   {
+    "id": "d8ffa2ec-d54c-5428-9660-536f83b86c83",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義縣警察局中埔分局",
@@ -16,6 +18,7 @@
     "address": "606嘉義縣中埔鄉中正路66號"
   },
   {
+    "id": "10459277-fcab-552b-af07-7783f4d80ae4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義縣中埔鄉戶政事務所",

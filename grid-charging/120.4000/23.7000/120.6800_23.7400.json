@@ -1,5 +1,6 @@
 [
   {
+    "id": "3b2994ab-0365-5605-834b-d0f4009054eb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹山郵局",
@@ -8,6 +9,7 @@
     "address": "557南投縣竹山鎮前山路一段2號"
   },
   {
+    "id": "e987ab0d-8c79-59dd-a542-f6eac4f0196b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投縣政府警察局竹山分局",

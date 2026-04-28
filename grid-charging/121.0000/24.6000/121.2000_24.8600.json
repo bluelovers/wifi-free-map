@@ -1,5 +1,6 @@
 [
   {
+    "id": "1c22b488-0359-5943-9d4d-979e639e88e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龍潭南龍郵局",
@@ -8,6 +9,7 @@
     "address": "325桃園市龍潭區龍潭村南龍路70號"
   },
   {
+    "id": "47dbb293-4d2a-5d5d-a1c1-4b76c741667b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市龍潭區戶政事務所",
@@ -16,6 +18,7 @@
     "address": "325桃園市龍潭區龍星村26鄰中正路210號二樓"
   },
   {
+    "id": "8559341e-d6e1-5465-8d37-5b491a010efb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龍潭郵局",
@@ -24,6 +27,7 @@
     "address": "325桃園市龍潭區中正路151號"
   },
   {
+    "id": "8cececbf-fac1-5b12-afcf-d47b60e6c3d5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局龍潭分局",

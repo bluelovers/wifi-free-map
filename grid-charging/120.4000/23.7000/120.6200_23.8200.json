@@ -1,5 +1,6 @@
 [
   {
+    "id": "e5d2458a-b90e-50c4-9690-66aaf5c22caf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "八卦山管理站",
@@ -8,6 +9,7 @@
     "address": "551南投縣名間鄉名松路二段181號"
   },
   {
+    "id": "0e98831b-050b-5d01-8c59-b79e4672e16f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "名間松嶺郵局",

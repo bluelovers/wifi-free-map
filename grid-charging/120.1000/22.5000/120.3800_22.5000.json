@@ -1,5 +1,6 @@
 [
   {
+    "id": "5a61dcb5-6ada-531b-b185-ac9a8cdca906",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "林園福興郵局",
@@ -8,6 +9,7 @@
     "address": "832高雄市林園區福興街104號"
   },
   {
+    "id": "234d0064-e843-5ee6-a027-1c07cdf06b9a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "林園郵局",
@@ -16,6 +18,7 @@
     "address": "832高雄市林園區鳳林路一段176號"
   },
   {
+    "id": "83b59638-d15c-5367-818e-d7e499061ce3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市林園區戶政事務所",

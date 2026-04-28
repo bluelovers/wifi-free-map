@@ -1,5 +1,6 @@
 [
   {
+    "id": "4ea57916-ebd9-5051-92e7-cb9f5ffef3ae",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣五峰鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "311新竹縣五峰鄉大隘村97號"
   },
   {
+    "id": "098732ca-3ac7-5f07-b47a-c0586da6a300",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "五峰郵局",

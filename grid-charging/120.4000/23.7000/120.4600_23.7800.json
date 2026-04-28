@@ -1,5 +1,6 @@
 [
   {
+    "id": "1463c2a9-cdc9-57c7-8239-e8f0fb7eb255",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局西螺服務區客席區與服務台(南站)",
@@ -8,6 +9,7 @@
     "address": "648雲林縣西螺鎮鎮興里1號"
   },
   {
+    "id": "15ed2456-34e3-5424-801d-d11db019d043",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局西螺服務區客席區與服務台(北站)",
@@ -16,6 +18,7 @@
     "address": "648雲林縣西螺鎮鎮興里1號"
   },
   {
+    "id": "a8fe99b0-58b4-5767-a252-7f62d942249a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司西螺營運所",
@@ -24,6 +27,7 @@
     "address": "648雲林縣西螺鎮光復東路100號"
   },
   {
+    "id": "206bc727-ef5f-5b6e-8574-ba3e07ce9329",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "西螺郵局",

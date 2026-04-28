@@ -1,5 +1,6 @@
 [
   {
+    "id": "0a8f2bef-491b-5143-914a-1fdab7c3c85f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市潭子區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "427臺中市潭子區中山路二段237巷3號"
   },
   {
+    "id": "dfca154e-80ce-5200-9b3d-854f480c86a2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "潭子郵局",
@@ -16,6 +18,7 @@
     "address": "427臺中市潭子區潭興路三段42號"
   },
   {
+    "id": "d9e87e14-3846-5207-b67c-0ad78ba96a22",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "潭子潭北郵局",
@@ -24,6 +27,7 @@
     "address": "427臺中市潭子區潭北村潭子街三段55號"
   },
   {
+    "id": "bfe904c5-b8ee-5f4f-99c2-d4ab1e7fb935",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "潭子加工區郵局",
@@ -32,6 +36,7 @@
     "address": "427臺中市潭子區南二路1之1號"
   },
   {
+    "id": "a8174743-e5e2-5fe8-9164-6e37ec8dd093",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部加工出口區管理處台中分處2樓洽公區",

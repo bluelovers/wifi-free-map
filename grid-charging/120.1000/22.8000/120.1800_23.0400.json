@@ -1,5 +1,6 @@
 [
   {
+    "id": "f5afaf75-1165-5ce4-b467-c77771d7584d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南原佃郵局",
@@ -8,6 +9,7 @@
     "address": "709臺南市安南區怡安路二段462號"
   },
   {
+    "id": "50c625e7-de03-5174-8839-fbab67ce99fb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南安南郵局",

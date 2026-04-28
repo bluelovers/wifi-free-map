@@ -1,5 +1,6 @@
 [
   {
+    "id": "a65a3d95-3550-5fa3-87fb-0f010e445958",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "仁大工業區服務中心",
@@ -8,6 +9,7 @@
     "address": "815高雄市大社區經建路6號1樓"
   },
   {
+    "id": "9c6668af-a9ba-53b8-aec6-423a73a565c5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局楠梓站候車室",
@@ -16,6 +18,7 @@
     "address": "811高雄市楠梓區建楠路229號"
   },
   {
+    "id": "c8f82840-70f7-537f-83b7-fb4db188b7d0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楠梓建楠郵局",
@@ -24,6 +27,7 @@
     "address": "811高雄市楠梓區建楠路3號"
   },
   {
+    "id": "275806d2-0a9d-56e0-a3d8-c319afb9af88",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楠梓郵局",
@@ -32,6 +36,7 @@
     "address": "811高雄市楠梓區楠梓新路247號"
   },
   {
+    "id": "24510159-8041-537d-a947-782ffe507270",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市楠梓區戶政事務所",
@@ -40,6 +45,7 @@
     "address": "811高雄市楠梓區楠梓新路264號1樓"
   },
   {
+    "id": "9e2e46ab-0063-58c9-b905-cdc7a24ca682",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄高等行政法院郵局",
@@ -48,6 +54,7 @@
     "address": "811高雄市楠梓區興楠路180號"
   },
   {
+    "id": "1a35c44f-7343-5fbd-b0c4-dfaaccc374e1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台糖公司量販事業部楠梓量販店",

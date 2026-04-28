@@ -1,5 +1,6 @@
 [
   {
+    "id": "06efb7da-22ef-52c5-b963-7a19b144d481",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三重五常郵局",
@@ -8,6 +9,7 @@
     "address": "241新北市三重區仁義街168號"
   },
   {
+    "id": "043b8452-2d4b-5f02-9097-8896af2d8740",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市蘆洲戶政事務所-1_A",

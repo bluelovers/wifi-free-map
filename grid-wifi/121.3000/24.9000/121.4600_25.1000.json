@@ -1,5 +1,6 @@
 [
   {
+    "id": "7cbe8ccf-c351-57db-b359-a49c3bc6d8b5",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "圖書館",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "7d866de2-c144-57bd-9d97-833f014f278d",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "社區中心",
@@ -22,6 +24,7 @@
     "authType": "portal"
   },
   {
+    "id": "e8a2e0fb-3c94-523c-8fd2-00590fcd5ea2",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -33,6 +36,7 @@
     "authType": "portal"
   },
   {
+    "id": "f15a3358-90cf-5af0-994e-53ffb162c9b9",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",
@@ -44,6 +48,7 @@
     "authType": "portal"
   },
   {
+    "id": "4312e469-b19d-5573-8fcb-df5b7776acf4",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公園",
@@ -55,6 +60,7 @@
     "authType": "portal"
   },
   {
+    "id": "1838b0e4-87c4-528e-95d7-74736b8013eb",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "公車站",

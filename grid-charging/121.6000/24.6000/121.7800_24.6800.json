@@ -1,5 +1,6 @@
 [
   {
+    "id": "42174312-f20b-5572-bbbf-16fc86a2032c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "五結郵局",
@@ -8,6 +9,7 @@
     "address": "268宜蘭縣五結鄉五結村自強路165、167號"
   },
   {
+    "id": "103deba8-2e9d-5165-8f82-6899d540358e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "五結戶政事務所",

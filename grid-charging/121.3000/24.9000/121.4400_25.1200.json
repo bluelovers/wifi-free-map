@@ -1,5 +1,6 @@
 [
   {
+    "id": "ed0913ed-2fc2-5391-81a8-542f4bd2a227",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "八里龍形郵局",
@@ -8,6 +9,7 @@
     "address": "249新北市八里區龍形二街7號"
   },
   {
+    "id": "93f44495-e599-5b25-899c-6ea33a7ab45d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "淡水竹圍郵局",

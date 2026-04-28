@@ -1,5 +1,6 @@
 [
   {
+    "id": "a1c6903d-6336-5bc1-a690-cd27b5436b2e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司竹北服務所大廳",
@@ -8,6 +9,7 @@
     "address": "302新竹縣竹北市縣政二路103號"
   },
   {
+    "id": "3fe97fbc-81d9-5f6f-9535-e5adc5fb3eaa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司竹北營運所",
@@ -16,6 +18,7 @@
     "address": "302新竹縣竹北市縣政五街188號"
   },
   {
+    "id": "d8581b97-fafc-5046-91ee-8e9638d5c874",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹北光明郵局",
@@ -24,6 +27,7 @@
     "address": "302新竹縣竹北市縣政九路138號"
   },
   {
+    "id": "bd48a714-10ce-59f8-87e4-e972033be17a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹北中山郵局",
@@ -32,6 +36,7 @@
     "address": "302新竹縣竹北市中正東路42號"
   },
   {
+    "id": "59ff4363-38f7-5baa-a934-dfccb08cab91",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹北博愛郵局",
@@ -40,6 +45,7 @@
     "address": "302新竹縣竹北市博愛街390號"
   },
   {
+    "id": "ca71e528-4d06-553a-af0c-4991eea7f396",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣竹北市戶政事務所",
@@ -48,6 +54,7 @@
     "address": "302新竹縣竹北市中正西路50-1號"
   },
   {
+    "id": "d3b0f491-d3f1-5b4b-ad24-442db906f2b7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹北郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "a8fb0345-fcbd-515f-b656-41325737aebb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局大里站候車室",
@@ -8,6 +9,7 @@
     "address": "261宜蘭縣頭城鎮大里里濱海路6段326號"
   },
   {
+    "id": "5ec69e0b-78c5-57af-8070-eed89e34fe90",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大里遊客中心",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "ba2ff606-16ff-5fe0-86e9-f23fc7852ac7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "六龜郵局",
@@ -8,6 +9,7 @@
     "address": "844高雄市六龜區義寶村光復路173號"
   },
   {
+    "id": "d6c0e981-95d5-534a-9fcc-625346d15f3e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市六龜區戶政事務所",

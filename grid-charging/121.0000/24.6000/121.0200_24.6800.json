@@ -1,5 +1,6 @@
 [
   {
+    "id": "a9d386d4-8af0-5e23-b4a1-86b3efe19d04",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣峨眉鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "315新竹縣峨眉鄉峨眉村峨眉街1號"
   },
   {
+    "id": "981fa5f9-d4a8-5fd0-9371-211fda021fe4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "峨眉郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "68240b28-98b2-50d7-8f16-034bc7291857",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局新左營站售票房",
@@ -8,6 +9,7 @@
     "address": "813高雄市左營區站前北路1號"
   },
   {
+    "id": "001623d0-c473-54a8-bb52-5839cd108e1c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局新左營站2樓大廳剪票入口",
@@ -16,6 +18,7 @@
     "address": "813高雄市左營區站前北路1號"
   },
   {
+    "id": "ae36a78a-20ef-54fa-af76-a1d6a2e75a25",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "左營福山郵局",
@@ -24,6 +27,7 @@
     "address": "813高雄市左營區華夏路1708號"
   },
   {
+    "id": "737d2fb7-3f46-5ea8-8bf2-24f94603cee0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺高雄分臺",
@@ -32,6 +36,7 @@
     "address": "813高雄市左營區博愛四路455號"
   },
   {
+    "id": "e0f2e5d0-0f14-5683-ad4e-c5e260b6223b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局南區供應廠採購課",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "37746ecc-ec60-5783-8392-a1e266f41eef",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣彰化市戶政事務所東區辦事處",
@@ -8,6 +9,7 @@
     "address": "500彰化縣彰化市安溪路81巷5號"
   },
   {
+    "id": "792b2657-0b66-58c4-a457-b84b5a12385f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化台化郵局",
@@ -16,6 +18,7 @@
     "address": "500彰化縣彰化市中山路三段359號"
   },
   {
+    "id": "616daf7f-7e48-5fba-83f7-de70763c974a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化中庄仔郵局",

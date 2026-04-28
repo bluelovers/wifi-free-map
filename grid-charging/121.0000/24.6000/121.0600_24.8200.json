@@ -1,5 +1,6 @@
 [
   {
+    "id": "a323b609-0bca-5dbd-8696-61562b8b0efd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局新竹區監理所",
@@ -8,6 +9,7 @@
     "address": "305新竹縣新埔鎮文德路3段58號"
   },
   {
+    "id": "9612ff8c-f80a-5a3e-9e42-36a3949f8a01",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣新埔鎮戶政事務所",
@@ -16,6 +18,7 @@
     "address": "305新竹縣新埔鎮廣和路8號"
   },
   {
+    "id": "68bc20f3-7e23-5e60-9d19-09ac08c51d3b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新埔中正郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "da047674-345e-57bc-a7b2-0182b69344fe",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大雅郵局",
@@ -8,6 +9,7 @@
     "address": "428臺中市大雅區中清路二段127號"
   },
   {
+    "id": "25ba4371-a905-5cfd-8c99-dc9ddcd3499e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市大雅區戶政事務所",

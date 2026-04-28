@@ -1,5 +1,6 @@
 [
   {
+    "id": "76e99f2e-a47d-5179-bffa-da0c233733e4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南鹽埕郵局",
@@ -8,6 +9,7 @@
     "address": "702臺南市南區金華路一段292號"
   },
   {
+    "id": "e47a6b6c-bf10-5ebc-b79a-16118c2a561b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南新義郵局",
@@ -16,6 +18,7 @@
     "address": "702臺南市南區安平工業區新義路1號"
   },
   {
+    "id": "9dc1ed6d-7973-5b00-a9b3-63fc802d71f3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "安平工業區服務中心",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "8b0042e8-56dc-5707-bb7b-0d010de6ed3c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹科學園郵局",
@@ -8,6 +9,7 @@
     "address": "300新竹市東區科學園區工業東二路2-1號"
   },
   {
+    "id": "34c5e610-385e-5285-99ce-e24b5515c597",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹關東橋郵局",
@@ -16,6 +18,7 @@
     "address": "300新竹市東區光復路一段313號"
   },
   {
+    "id": "2cce9bc7-1522-51a2-b008-484372c41412",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司新竹服務中心",
@@ -24,6 +27,7 @@
     "address": "300新竹市東區大學路8之1號"
   },
   {
+    "id": "aec06101-6e56-5ed4-9d72-b38add6fdf74",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司新竹直銷中心",

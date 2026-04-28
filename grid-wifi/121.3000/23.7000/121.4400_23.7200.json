@@ -1,5 +1,6 @@
 [
   {
+    "id": "3f14a09e-d5cc-57cb-ba9c-7c7bd8a46b8f",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "文教館所",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "58e3194f-97a6-57a0-8bc8-c9964361e37d",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",

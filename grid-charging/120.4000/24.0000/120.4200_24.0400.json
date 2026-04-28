@@ -1,5 +1,6 @@
 [
   {
+    "id": "00ddebf3-8949-597f-ae9b-cf29a2251ec3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鹿港郵局",
@@ -8,6 +9,7 @@
     "address": "505彰化縣鹿港鎮成功路1號"
   },
   {
+    "id": "b1865771-fa90-5f6a-b1f0-569c3a929817",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣鹿港鎮戶政事務所",
@@ -16,6 +18,7 @@
     "address": "505彰化縣鹿港鎮中山路292號"
   },
   {
+    "id": "6257f828-7eee-5ad7-bf49-422342dbf0c8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司鹿港服務所大廳",

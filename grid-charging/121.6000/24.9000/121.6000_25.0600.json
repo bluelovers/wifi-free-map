@@ -1,5 +1,6 @@
 [
   {
+    "id": "49154a05-8c83-59b3-b44f-cd20ab92e892",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖東湖郵局",
@@ -8,6 +9,7 @@
     "address": "114臺北市內湖區康樂街16號"
   },
   {
+    "id": "eb16bc8d-c8c7-58ea-9fa9-1d4ea88cdaed",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖康寧郵局",

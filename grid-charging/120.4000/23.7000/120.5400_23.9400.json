@@ -1,5 +1,6 @@
 [
   {
+    "id": "13362792-f688-599b-a13c-59a27490f88e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣埔心鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "513彰化縣埔心鄉員鹿路二段332號5樓之1"
   },
   {
+    "id": "4c393da2-2dfc-521c-99a7-44e707c2c59e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "埔心郵局",

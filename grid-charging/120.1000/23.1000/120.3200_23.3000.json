@@ -1,5 +1,6 @@
 [
   {
+    "id": "df9eca0e-3aa6-5f87-98fc-5cecc339cec0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局新營站辦公室",
@@ -8,6 +9,7 @@
     "address": "730臺南市新營區中山路1號"
   },
   {
+    "id": "8bc61bb8-f2dd-52c6-8902-dcae170a1b1c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局新營站候車大廳南側",
@@ -16,6 +18,7 @@
     "address": "730臺南市新營區中山路1號"
   },
   {
+    "id": "c3814d61-61b3-5e28-aa36-b671d1371faa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局嘉義區監理所新營監理站",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "b48f8e1b-ba81-5185-97bd-2c6b36d4f3c8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "士林名山里郵局",
@@ -8,6 +9,7 @@
     "address": "111臺北市士林區至誠路二段70號"
   },
   {
+    "id": "9492780a-4ed9-5441-bff1-1b3e6463b7b4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "士林蘭雅郵局",
@@ -16,6 +18,7 @@
     "address": "111臺北市士林區忠誠路一段52號"
   },
   {
+    "id": "20b1c029-a170-5fef-8841-05d123f37b86",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "士林芝山郵局",
@@ -24,6 +27,7 @@
     "address": "111臺北市士林區士東路286巷36號"
   },
   {
+    "id": "d25d385f-aa93-5309-b24a-549afed3fbd6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投明德郵局",

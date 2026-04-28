@@ -1,5 +1,6 @@
 [
   {
+    "id": "95836e98-71d8-5764-979a-7ded4ea18de9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮航空站",
@@ -8,6 +9,7 @@
     "address": "971花蓮縣新城鄉嘉里村機場一號"
   },
   {
+    "id": "e39cfffa-e353-53ef-9458-758f2926ae90",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新城北埔郵局",

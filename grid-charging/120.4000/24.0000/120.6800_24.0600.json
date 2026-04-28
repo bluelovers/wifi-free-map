@@ -1,5 +1,6 @@
 [
   {
+    "id": "effb241c-66d3-50a7-a35a-2503d0963345",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "霧峰郵局",
@@ -8,6 +9,7 @@
     "address": "413臺中市霧峰區中正路806號"
   },
   {
+    "id": "e2792512-6caf-5121-abd4-86ea2f2b2aaf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司台中市霧峰區霧峰站",
@@ -16,6 +18,7 @@
     "address": "413臺中市霧峰區中正路784號"
   },
   {
+    "id": "4ec8b878-a49e-5c39-8b17-93317757cb94",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司霧峰營運所",

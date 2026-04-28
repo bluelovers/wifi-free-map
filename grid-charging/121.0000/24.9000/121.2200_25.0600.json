@@ -1,5 +1,6 @@
 [
   {
+    "id": "ad622578-b970-5a53-8a03-784791a21ab2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台灣桃園國際機場郵局",
@@ -8,6 +9,7 @@
     "address": "337桃園市大園區臺灣桃園國際機場第二航廈一樓"
   },
   {
+    "id": "e2d81f3e-0b3b-5a69-8c1b-c79371105b37",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第二航廈出境大廳三樓北側",
@@ -16,6 +18,7 @@
     "address": "337桃園市大園區航站南路9號"
   },
   {
+    "id": "a5d59575-d6d0-546e-8e8b-346fb4f072a2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第二航廈出境大廳三樓南側",
@@ -24,6 +27,7 @@
     "address": "337桃園市大園區航站南路9號"
   },
   {
+    "id": "4b5d3cf1-4170-544f-9b33-d8b208a83d60",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第二航廈巡迴巴士站",
@@ -32,6 +36,7 @@
     "address": "337桃園市大園區航站南路9號"
   },
   {
+    "id": "7f66ccbb-c7f6-5914-b5b1-9705cfc4e0c8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第二航廈客運巴士站",
@@ -40,6 +45,7 @@
     "address": "337桃園市大園區航站南路9號"
   },
   {
+    "id": "bfc12949-0f63-534d-a6ff-bdafde043d84",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第二航廈接機大廳一樓北側",
@@ -48,6 +54,7 @@
     "address": "337桃園市大園區航站南路9號"
   },
   {
+    "id": "379e54ae-a90a-59e1-ae0d-02c5fcd2ffac",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第二航廈接機大廳一樓南側",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "452d6b4c-936b-5dd3-9b46-04d07effb3e6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "宜蘭大學郵局",
@@ -8,6 +9,7 @@
     "address": "260宜蘭縣宜蘭市神農路一段1號經德樓1樓"
   },
   {
+    "id": "e06a537a-7e44-5724-b2e8-3af7adc3a4f1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司宜蘭北區服務所",
@@ -16,6 +18,7 @@
     "address": "260宜蘭縣宜蘭市復興路一段5號"
   },
   {
+    "id": "27408e0e-914f-5af1-85c3-66c19a16495d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "宜蘭市戶政事務所",
@@ -24,6 +27,7 @@
     "address": "260宜蘭縣宜蘭市中華路146號2樓"
   },
   {
+    "id": "0034d95a-6c49-5037-a9d2-7aef357f4818",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水利署第一河川局1樓服務台",
@@ -32,6 +36,7 @@
     "address": "260宜蘭縣宜蘭市民權新路4號"
   },
   {
+    "id": "a0a1f4a0-6b70-5de1-9b61-af9694a9aee8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "宜蘭渭水路郵局",
@@ -40,6 +45,7 @@
     "address": "260宜蘭縣宜蘭市中山路2段275號"
   },
   {
+    "id": "e3c5c00b-8595-5df6-aee6-60f48b36a012",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "宜蘭西後街郵局",
@@ -48,6 +54,7 @@
     "address": "260宜蘭縣宜蘭市西後街2-1號"
   },
   {
+    "id": "f59098af-dea8-5719-990b-bb86f3537a05",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "宜蘭中山路郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "9ab6ddfa-a8ff-5e6f-8d72-ac539593669b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化南郭郵局",
@@ -8,6 +9,7 @@
     "address": "500彰化縣彰化市介壽北路88號"
   },
   {
+    "id": "b4b34449-9d94-57a2-a8fc-1859bd8176e1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣彰化市戶政事務所",
@@ -16,6 +18,7 @@
     "address": "500彰化縣彰化市中興路100號"
   },
   {
+    "id": "6ea4a893-0309-5880-8235-b351bc9e26ce",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司彰化服務所",
@@ -24,6 +27,7 @@
     "address": "500彰化縣彰化市桃源里公園路二段1號"
   },
   {
+    "id": "8b3bc443-7b21-5331-a328-db995b21174f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化府前郵局",
@@ -32,6 +36,7 @@
     "address": "500彰化縣彰化市中山路二段377號"
   },
   {
+    "id": "a2115fbd-c3d3-56af-a6f5-fcd4141ea208",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司彰化區處服務中心營業廳",
@@ -40,6 +45,7 @@
     "address": "500彰化縣彰化市中山路2段418號"
   },
   {
+    "id": "c526740a-3e87-58d9-ab08-c6133a5c815e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "八卦山脈生態遊客中心",

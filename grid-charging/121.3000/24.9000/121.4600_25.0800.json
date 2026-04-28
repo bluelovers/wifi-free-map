@@ -1,5 +1,6 @@
 [
   {
+    "id": "1a84dc83-44da-50c5-a88f-abf475e5407c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "蘆洲中山路郵局",
@@ -8,6 +9,7 @@
     "address": "247新北市蘆洲區中山一路37號"
   },
   {
+    "id": "808c1a24-45c5-5d56-b5b6-3fbe87984828",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局臺北區監理所蘆洲監理站",
@@ -16,6 +18,7 @@
     "address": "247新北市蘆洲區中山二路163號"
   },
   {
+    "id": "9f9a8e89-c422-56de-885f-835766ddb751",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "蘆洲郵局",
@@ -24,6 +27,7 @@
     "address": "247新北市蘆洲區中山一路161號"
   },
   {
+    "id": "372c0c7b-c39d-5dd7-bedc-96328f3c4fd6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "蘆洲光華路郵局",
@@ -32,6 +36,7 @@
     "address": "247新北市蘆洲區光華路108號"
   },
   {
+    "id": "ce38b837-d2f4-5724-8694-0debe91a8528",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "蘆洲空大郵局",
@@ -40,6 +45,7 @@
     "address": "247新北市蘆洲區中正路172號"
   },
   {
+    "id": "a20b76a4-9a3e-58a2-a187-cce5458710f8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "蘆洲民族路郵局",

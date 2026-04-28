@@ -1,5 +1,6 @@
 [
   {
+    "id": "f11a9ffc-2564-5131-b6bc-dcf5022e057d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄本揚郵局",
@@ -8,6 +9,7 @@
     "address": "807高雄市三民區澄和路65號"
   },
   {
+    "id": "963a3c51-177d-5f8b-90f4-fd5f98105843",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "澄清湖郵局",
@@ -16,6 +18,7 @@
     "address": "830高雄市鳳山區青年路二段634、636號"
   },
   {
+    "id": "9c153589-8b63-539c-bd8c-99d2566296d6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳥松長庚醫院郵局",

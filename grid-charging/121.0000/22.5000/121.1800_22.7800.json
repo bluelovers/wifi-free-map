@@ -1,5 +1,6 @@
 [
   {
+    "id": "495329a0-eff3-5ac9-b2aa-9eb5501b4bda",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台東管理站小野柳遊客中心",
@@ -8,6 +9,7 @@
     "address": "950臺東縣臺東市松江路1段500號"
   },
   {
+    "id": "60db670d-8b6b-5d01-8528-ab06c58f0b09",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "東部海岸國家風景區台東管理站",

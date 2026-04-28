@@ -1,5 +1,6 @@
 [
   {
+    "id": "34b650c4-1bf7-59de-935c-0b276a9d8fba",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局高雄區監理所澎湖監理站",
@@ -8,6 +9,7 @@
     "address": "880澎湖縣馬公市光華里121號1樓"
   },
   {
+    "id": "beaef6c8-74fb-5db3-8e9a-35983958fc6c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "澎湖國家風景區管理處管理處服務台",
@@ -16,6 +18,7 @@
     "address": "880澎湖縣馬公市光華里171號"
   },
   {
+    "id": "987c8b8b-fbe6-5d46-aaeb-1e211ddc5e8e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "澎湖遊客中心",

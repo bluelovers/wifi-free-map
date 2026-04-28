@@ -1,5 +1,6 @@
 [
   {
+    "id": "026fc744-2542-5a45-a71b-87957cb62cd6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中漢口路郵局",
@@ -8,6 +9,7 @@
     "address": "404臺中市北區漢口路三段189號"
   },
   {
+    "id": "0013f4f3-b049-5b6b-a0f3-2a73768793d5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司台中直銷中心",
@@ -16,6 +18,7 @@
     "address": "406臺中市北屯區文心路四段121號"
   },
   {
+    "id": "9260df9e-55d3-55b3-b7be-414b4338e68c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中水湳郵局",

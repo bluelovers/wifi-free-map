@@ -1,5 +1,6 @@
 [
   {
+    "id": "df6af0e9-0171-550e-b565-a255078ece11",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局蘆竹分局",
@@ -8,6 +9,7 @@
     "address": "338桃園市蘆竹區南崁路175巷10-2號"
   },
   {
+    "id": "21fdfd79-218c-5520-ab32-37fcef4d8339",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "蘆竹錦興郵局",
@@ -16,6 +18,7 @@
     "address": "338桃園市蘆竹區南崁路一段190號"
   },
   {
+    "id": "8a8816ca-7f62-5bcd-8b40-ee6407bcdc58",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "蘆竹郵局",

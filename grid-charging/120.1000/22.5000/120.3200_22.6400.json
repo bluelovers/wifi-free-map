@@ -1,5 +1,6 @@
 [
   {
+    "id": "700af5bb-41bb-5e9a-b657-39a1c5b060ad",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄大順郵局",
@@ -8,6 +9,7 @@
     "address": "807高雄市三民區大順二路207號"
   },
   {
+    "id": "96cf0561-4ca0-5bc4-8ab4-51fb93a36b5e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄義民郵局",
@@ -16,6 +18,7 @@
     "address": "807高雄市三民區大豐二路203號"
   },
   {
+    "id": "5d5444a8-d439-57ee-84f6-aa42bc989399",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市三民區第二戶政事務所",
@@ -24,6 +27,7 @@
     "address": "807高雄市三民區大順二路468號9樓"
   },
   {
+    "id": "284421e2-8ead-51e4-8873-c758156095e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄建工郵局",
@@ -32,6 +36,7 @@
     "address": "807高雄市三民區大昌二路517號"
   },
   {
+    "id": "5d810bd2-f419-509e-b55c-6c2b8495db5e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄大昌郵局",

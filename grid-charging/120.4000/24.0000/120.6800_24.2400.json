@@ -1,5 +1,6 @@
 [
   {
+    "id": "137b8ff5-e000-52b8-8541-8f781331080c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "神岡社口郵局",
@@ -8,6 +9,7 @@
     "address": "429臺中市神岡區社口村中山路611號"
   },
   {
+    "id": "53a75dd7-e1a4-5733-a449-2a2cbcfd5eb0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "神岡岸裡郵局",

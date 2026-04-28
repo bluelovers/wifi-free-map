@@ -1,5 +1,6 @@
 [
   {
+    "id": "bb669fbd-e6c1-52f6-bdfe-de317e2b7175",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "士林社子郵局",
@@ -8,6 +9,7 @@
     "address": "111臺北市士林區延平北路五段150號"
   },
   {
+    "id": "407dab19-3aac-5e88-8ad0-8631e4bf960c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "士林後港郵局",
@@ -16,6 +18,7 @@
     "address": "111臺北市士林區福港街149巷2號"
   },
   {
+    "id": "1eb8e160-86db-5d47-9e96-c7c72ccaaa41",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "士林社新里郵局",
@@ -24,6 +27,7 @@
     "address": "111臺北市士林區延平北路六段197號"
   },
   {
+    "id": "226dc69f-f335-5bba-a521-f0ea47282ef3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "士林中正路郵局",
@@ -32,6 +36,7 @@
     "address": "111臺北市士林區中正路420號"
   },
   {
+    "id": "5bd05ae1-d8d0-5de0-a435-3c80d40a7a34",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "士林監理站",
@@ -40,6 +45,7 @@
     "address": "111臺北市士林區承德路五段80號3樓"
   },
   {
+    "id": "4489fe64-1bc7-58e0-a159-a86e22cbb2e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局計量業務民眾洽公區",

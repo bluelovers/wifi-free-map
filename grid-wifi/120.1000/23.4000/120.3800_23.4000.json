@@ -1,5 +1,6 @@
 [
   {
+    "id": "423ed070-df4a-5721-8515-f3dbd8eec380",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "大眾運輸節點",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "ecbca1bf-e7ea-55de-af58-a12727687d23",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -22,6 +24,7 @@
     "authType": "portal"
   },
   {
+    "id": "a2942ac6-1bda-55cc-a29b-ec387d44efe5",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "洽公場所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "c4fba3fa-37de-530b-97b4-2977a4197b98",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投三興郵局",
@@ -8,6 +9,7 @@
     "address": "540南投縣南投市三興里南崗一路34號"
   },
   {
+    "id": "04338186-f1e9-56c1-a9ef-eb048fef8973",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投三和郵局",
@@ -16,6 +18,7 @@
     "address": "540南投縣南投市三和二路30號"
   },
   {
+    "id": "14e775b1-a2d4-58bb-8d09-5d51e82afa04",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司南投縣南投市南投三和站",
@@ -24,6 +27,7 @@
     "address": "540南投縣南投市三和里中興路549號"
   },
   {
+    "id": "4995960d-1f85-550a-ae1c-7b811b9aff44",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投民族路郵局",
@@ -32,6 +36,7 @@
     "address": "540南投縣南投市民族路91、93號"
   },
   {
+    "id": "c043b15b-cf38-5676-905f-4ae5e0dcea52",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投縣政府警察局南投分局南投派出所",
@@ -40,6 +45,7 @@
     "address": "540南投縣南投市彰南路2段109號"
   },
   {
+    "id": "ee3b8ad2-41fd-5331-9cbf-db0110e05c99",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投中山街郵局",

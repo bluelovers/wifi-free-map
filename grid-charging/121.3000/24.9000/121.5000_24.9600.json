@@ -1,5 +1,6 @@
 [
   {
+    "id": "d56ddfc3-3664-5670-b370-0a49a2c70cf4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市新店戶政事務所安康辦事處-1",
@@ -8,6 +9,7 @@
     "address": "231新北市新店區安康路2段120號3樓"
   },
   {
+    "id": "1c9b26d0-1905-5500-99b4-6c76035e1f42",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新店十四份郵局",

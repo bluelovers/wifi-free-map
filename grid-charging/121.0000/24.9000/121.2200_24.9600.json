@@ -1,5 +1,6 @@
 [
   {
+    "id": "e208a0bd-48e2-50e9-a3cc-0e7d7106ce99",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市中壢區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "320桃園市中壢區溪洲街298號"
   },
   {
+    "id": "2a2068e0-0c5b-59ed-b9ee-fcd56dcbec7d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢環北郵局",
@@ -16,6 +18,7 @@
     "address": "320桃園市中壢區環北路413號"
   },
   {
+    "id": "7ef3fcd1-8d4f-5d04-899f-6ea1140c137b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部公路總局第一區養護工程處中壢工務段",
@@ -24,6 +27,7 @@
     "address": "320桃園市中壢區中華路二段180號"
   },
   {
+    "id": "1d4da13a-eeaf-59fc-a0eb-69dd1c4f2c88",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢南園郵局",
@@ -32,6 +36,7 @@
     "address": "320桃園市中壢區南園二路4號"
   },
   {
+    "id": "4298a0b8-7266-562f-8e9d-ace81d688ec4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢工業區服務中心",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "82d6361a-92f8-5190-bb6a-a5dc4362fb6c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司池上營運所",
@@ -8,6 +9,7 @@
     "address": "958臺東縣池上鄉中山路198號"
   },
   {
+    "id": "54755557-e48b-578e-bfeb-d4f196076f0e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "池上郵局",

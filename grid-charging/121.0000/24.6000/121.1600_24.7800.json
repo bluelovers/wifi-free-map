@@ -1,5 +1,6 @@
 [
   {
+    "id": "71b723d0-5d77-55ce-a983-ab8227fd7786",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "關西郵局",
@@ -8,6 +9,7 @@
     "address": "306新竹縣關西鎮正義路86號"
   },
   {
+    "id": "9234d089-60b9-555d-a224-8df806aa67a9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣關西鎮戶政事務所",

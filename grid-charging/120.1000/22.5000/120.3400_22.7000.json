@@ -1,5 +1,6 @@
 [
   {
+    "id": "227cb58b-1524-5ff3-9569-035c28e30aae",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市仁武區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "814高雄市仁武區中正路94號4樓"
   },
   {
+    "id": "d6f499c1-7ffa-5cb1-83b3-e6e3708d39e3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "仁武郵局",

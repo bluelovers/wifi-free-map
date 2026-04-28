@@ -1,5 +1,6 @@
 [
   {
+    "id": "50973264-45f5-5488-b0b3-4ced5032ddd9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司台東營運所",
@@ -8,6 +9,7 @@
     "address": "950臺東縣臺東市臨海路1段48號"
   },
   {
+    "id": "345850f1-be27-5fcd-b263-18fb70f033ed",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司台東區處服務中心營業廳",
@@ -16,6 +18,7 @@
     "address": "950臺東縣臺東市正氣路38號"
   },
   {
+    "id": "a2b30ef7-3ca0-5462-94a4-497773a2f09d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台東大同路郵局",
@@ -24,6 +27,7 @@
     "address": "950臺東縣臺東市大同路126號"
   },
   {
+    "id": "3231a3bc-c3f7-50c7-8a8e-1c9bafde8f1a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台東中山路郵局",
@@ -32,6 +36,7 @@
     "address": "950臺東縣臺東市中山路382號"
   },
   {
+    "id": "83ea626e-ba19-5f70-8fbc-cec075b7ce3b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水利署第八河川局1樓服務台",
@@ -40,6 +45,7 @@
     "address": "950臺東縣臺東市寶桑路24號"
   },
   {
+    "id": "b2387802-b32d-5c7e-b7ec-842c372b2263",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺臺東分臺",
@@ -48,6 +54,7 @@
     "address": "950臺東縣臺東市中山路289號"
   },
   {
+    "id": "9f7f2f5e-dcb9-506a-b775-2a14c7d28977",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台東博愛路郵局",

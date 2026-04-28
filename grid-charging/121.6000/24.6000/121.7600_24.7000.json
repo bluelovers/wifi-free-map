@@ -1,5 +1,6 @@
 [
   {
+    "id": "17be3ed0-2eaf-5be4-ad12-59ad2bdf7d12",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局二結站候車室",
@@ -8,6 +9,7 @@
     "address": "268宜蘭縣五結鄉三興村復興中路37號"
   },
   {
+    "id": "03fe8ca5-7070-5a43-a9dc-16dde1035e9f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "五結二結郵局",

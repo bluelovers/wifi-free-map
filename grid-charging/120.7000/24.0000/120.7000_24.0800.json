@@ -1,5 +1,6 @@
 [
   {
+    "id": "d40f8856-633d-5f00-9245-e8393d3349b1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大里仁化郵局",
@@ -8,6 +9,7 @@
     "address": "412臺中市大里區至善路30號"
   },
   {
+    "id": "7350c409-09c3-511a-ba35-66915f46f7fc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大里工業區服務中心",

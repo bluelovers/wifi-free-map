@@ -1,5 +1,6 @@
 [
   {
+    "id": "a9d4039a-64f4-5d53-8a9c-528bb753a057",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "湖口新工郵局",
@@ -8,6 +9,7 @@
     "address": "303新竹縣湖口鄉大勇路6號"
   },
   {
+    "id": "85e412f0-0e32-5265-a94b-baabc5e352f9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹工業區服務中心",
@@ -16,6 +18,7 @@
     "address": "303新竹縣湖口鄉鳳山村中華路22號1樓"
   },
   {
+    "id": "74db5e89-4ebe-53bf-832e-25e67d6b5db4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司湖口營運所",

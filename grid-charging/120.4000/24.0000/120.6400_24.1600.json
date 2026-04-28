@@ -1,5 +1,6 @@
 [
   {
+    "id": "5abfa5f3-50bc-5911-8550-621c957d6e19",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中何厝郵局",
@@ -8,6 +9,7 @@
     "address": "407臺中市西屯區青海路一段83號"
   },
   {
+    "id": "f0ea6fd2-9265-56b7-a9bd-74030bb1f32c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中逢甲郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "c763e6b8-cc99-5120-a137-91fb6191cfd6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市金山戶政事務所石門區所",
@@ -8,6 +9,7 @@
     "address": "253新北市石門區中山路66號1樓"
   },
   {
+    "id": "58ce52ed-270f-5cb9-98b5-6af5d7df039d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "石門郵局",

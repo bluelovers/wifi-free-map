@@ -1,5 +1,6 @@
 [
   {
+    "id": "ba28564e-36c5-55a0-901c-a50818ca285a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北中聯郵局",
@@ -8,6 +9,7 @@
     "address": "100臺北市中正區徐州路5號地下一樓"
   },
   {
+    "id": "0f350447-ca22-52b5-b90e-7b55a305e6a9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北正義郵局",
@@ -16,6 +18,7 @@
     "address": "106臺北市大安區忠孝東路三段150、152、154號"
   },
   {
+    "id": "43bfea43-ef29-5e42-a049-e98b724fd6ab",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北杭南郵局",
@@ -24,6 +27,7 @@
     "address": "100臺北市中正區杭州南路一段23號之3"
   },
   {
+    "id": "e93d2f40-7daa-5f3e-a17d-81ceefe4b86a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局報驗發證業務民眾洽公區",
@@ -32,6 +36,7 @@
     "address": "100臺北市中正區濟南路一段4號"
   },
   {
+    "id": "c2d165ad-1e6d-59e5-abd3-c213fb2398d9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局資料中心閱覽室",
@@ -40,6 +45,7 @@
     "address": "100臺北市中正區濟南路一段4號"
   },
   {
+    "id": "fa30bbe3-5013-5279-9158-cfefba2f33b1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北光華郵局",
@@ -48,6 +54,7 @@
     "address": "106臺北市大安區新生北路一段7之2號"
   },
   {
+    "id": "a0eb9112-5d77-52ac-91a7-23f2224893a0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內政部警政署",
@@ -56,6 +63,7 @@
     "address": "100臺北市中正區忠孝東路一段7號"
   },
   {
+    "id": "8162f959-6c80-57ce-b737-547be78dbaeb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司台北市中山區中崙站",
@@ -64,6 +72,7 @@
     "address": "104臺北市中山區八德路二段214號"
   },
   {
+    "id": "b71c2596-5dd1-52b6-a4d9-b9cbb67bf840",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北長安郵局",
@@ -72,6 +81,7 @@
     "address": "104臺北市中山區長安東路二段97號"
   },
   {
+    "id": "90f0fcfa-ba8a-5d9c-89e5-f76dbb8022fd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北中山郵局",
@@ -80,6 +90,7 @@
     "address": "104臺北市中山區中山北路一段142號"
   },
   {
+    "id": "c67315b4-889a-55ed-a1e1-516addbd2da3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北長春路郵局",
@@ -88,6 +99,7 @@
     "address": "104臺北市中山區長春路129號之2"
   },
   {
+    "id": "647892fc-18f0-50a5-b845-b5e515b695a3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北建北郵局",
@@ -96,6 +108,7 @@
     "address": "104臺北市中山區建國北路二段33號"
   },
   {
+    "id": "3e6500e5-6888-57f5-8b21-1b3fb77dfc0c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北雙連郵局",

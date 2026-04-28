@@ -1,5 +1,6 @@
 [
   {
+    "id": "9cf16224-051e-565a-8e11-d5589379153b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新莊新泰路郵局",
@@ -8,6 +9,7 @@
     "address": "242新北市新莊區新泰路333號"
   },
   {
+    "id": "333efd46-fafc-5b4d-ad6a-a313927b0785",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新莊中港郵局",
@@ -16,6 +18,7 @@
     "address": "242新北市新莊區復興路二段22號"
   },
   {
+    "id": "f7238d1f-5f0d-531a-9d55-d8b3372b0166",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新莊思源路郵局",
@@ -24,6 +27,7 @@
     "address": "242新北市新莊區思源路213號"
   },
   {
+    "id": "2eb5505e-3689-5277-8b10-831bfa063acf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新莊幸福郵局",
@@ -32,6 +36,7 @@
     "address": "242新北市新莊區幸福路723號"
   },
   {
+    "id": "7f6dbc48-33e2-5989-a48a-45ed6fc6e46b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新莊昌盛郵局",

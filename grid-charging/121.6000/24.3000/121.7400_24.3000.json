@@ -1,5 +1,6 @@
 [
   {
+    "id": "c3257ca9-0c9a-5d0c-9a12-b25ac60f849a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "美崙(兼和平及光華)工業區服務中心-和平辦事處",
@@ -8,6 +9,7 @@
     "address": "972花蓮縣秀林鄉和平村克尼布東路1號"
   },
   {
+    "id": "05ffad60-1034-5fca-9d6a-ba944f2c84aa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "和平專用港管理小組",
@@ -16,6 +18,7 @@
     "address": "972花蓮縣秀林鄉和平村克尼布東路1號"
   },
   {
+    "id": "6dd62f60-cdcb-552a-82ae-ab02b7d998f1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "秀林和平郵局",

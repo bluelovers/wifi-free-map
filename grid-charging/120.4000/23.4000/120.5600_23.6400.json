@@ -1,5 +1,6 @@
 [
   {
+    "id": "7324386b-defd-534a-b9ce-9add96d54d75",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "古坑郵局",
@@ -8,6 +9,7 @@
     "address": "646雲林縣古坑鄉古坑村中山路123號"
   },
   {
+    "id": "8a3fd3b0-682a-51b2-922f-e03af3545500",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司古坑營運所",

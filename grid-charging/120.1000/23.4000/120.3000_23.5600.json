@@ -1,5 +1,6 @@
 [
   {
+    "id": "09eb8066-cf4f-51ad-a02c-da69783cb812",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北港南陽郵局",
@@ -8,6 +9,7 @@
     "address": "651雲林縣北港鎮中山路6號"
   },
   {
+    "id": "38135678-2aa3-589f-a01f-c165527e162b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北港郵局",
@@ -16,6 +18,7 @@
     "address": "651雲林縣北港鎮文化路54號"
   },
   {
+    "id": "41c3041b-54cc-5f85-8f67-bb151e47e331",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北港北辰郵局",
@@ -24,6 +27,7 @@
     "address": "651雲林縣北港鎮民有路26號"
   },
   {
+    "id": "8af8eba9-ae6b-5359-ae48-551f5f5e2019",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司北港營運所",

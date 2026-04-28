@@ -1,5 +1,6 @@
 [
   {
+    "id": "c3e8cf8e-4483-5e6f-8db8-6501f0d2e5c7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水里北埔郵局",
@@ -8,6 +9,7 @@
     "address": "553南投縣水里鄉民生路167號"
   },
   {
+    "id": "e8c0ddda-2081-5cc9-b5e6-7f69a06565e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水里郵局",
@@ -16,6 +18,7 @@
     "address": "553南投縣水里鄉中山路一段118、120號"
   },
   {
+    "id": "994c9a13-27a1-5271-8ef4-9d5e393fee05",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局水里站候車室",

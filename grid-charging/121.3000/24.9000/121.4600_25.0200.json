@@ -1,5 +1,6 @@
 [
   {
+    "id": "7640b3d5-d224-5afd-ac9d-dd7157c668e4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋三民路郵局",
@@ -8,6 +9,7 @@
     "address": "220新北市板橋區三民路一段120號"
   },
   {
+    "id": "f52376e4-4213-5902-9238-422cbc7cb377",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋文化路郵局",
@@ -16,6 +18,7 @@
     "address": "220新北市板橋區文化路一段395號"
   },
   {
+    "id": "ef6eaf28-2273-5718-9f36-79a2d9b3cf3f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋莒光郵局",
@@ -24,6 +27,7 @@
     "address": "220新北市板橋區莒光路213號"
   },
   {
+    "id": "7e90dedc-8489-5cbe-b168-e3a18be877e2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "江翠派出所",
@@ -32,6 +36,7 @@
     "address": "220新北市板橋區吳鳳路50巷36號"
   },
   {
+    "id": "afd79b8d-6e4e-5533-9912-d8654e0cbde9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋江翠郵局",

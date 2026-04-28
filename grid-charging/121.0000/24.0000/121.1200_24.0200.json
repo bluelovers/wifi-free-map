@@ -1,5 +1,6 @@
 [
   {
+    "id": "2c48f675-0f69-5661-a506-df9e7e85b3be",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "仁愛霧社郵局",
@@ -8,6 +9,7 @@
     "address": "546南投縣仁愛鄉大同村仁和路83號"
   },
   {
+    "id": "01b25e67-0a3f-5cc6-ad98-d77e04d03125",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投縣政府警察局仁愛分局",

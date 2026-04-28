@@ -1,5 +1,6 @@
 [
   {
+    "id": "cb61e5ef-57ea-52f5-9d0a-abcdeb52aa25",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢頂壢郵局",
@@ -8,6 +9,7 @@
     "address": "320桃園市中壢區榮民路53、55號"
   },
   {
+    "id": "3042aecb-7fcd-55d5-91d6-b3ded4689122",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "八德高城郵局",

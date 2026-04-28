@@ -1,5 +1,6 @@
 [
   {
+    "id": "7d56f84b-6752-53fc-926d-7ac04dd6c8e3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "野柳派出所",
@@ -8,6 +9,7 @@
     "address": "207新北市萬里區港西路9號"
   },
   {
+    "id": "6494be5a-7b0f-5234-9754-1bcac31a2823",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "野柳遊客中心",

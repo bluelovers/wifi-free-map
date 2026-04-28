@@ -1,5 +1,6 @@
 [
   {
+    "id": "b5086673-585a-5a13-8332-6676d59b5374",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投中興郵局",
@@ -8,6 +9,7 @@
     "address": "540南投縣南投市中興新村中學路4號"
   },
   {
+    "id": "0883ce29-87b5-58b6-b010-cb8d2ef123e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投縣政府警察局中興分局",
@@ -16,6 +18,7 @@
     "address": "540南投縣南投市光華里光華路115號"
   },
   {
+    "id": "3badaf03-35cf-5cde-b75e-db9847d6c4d7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司南投區處服務中心營業廳",
@@ -24,6 +27,7 @@
     "address": "542南投縣草屯鎮太平路1段42號"
   },
   {
+    "id": "2bd110b5-7433-58e7-935e-74a63f42fa74",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部中部辦公室第一科服務台",
@@ -32,6 +36,7 @@
     "address": "540南投縣南投市中興新村省府路4號2F"
   },
   {
+    "id": "0fbc029f-2a30-5be4-9788-21c6fed97053",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部中部辦公室第三科服務台",

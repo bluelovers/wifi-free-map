@@ -1,5 +1,6 @@
 [
   {
+    "id": "c0ec919d-dd4f-5a19-8159-20d7bd738c0d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局臺北區監理所花蓮監理站",
@@ -8,6 +9,7 @@
     "address": "973花蓮縣吉安鄉中正路2段152號"
   },
   {
+    "id": "82812f81-c3e0-58bb-b21b-0fabb97e1b59",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司花蓮縣吉安鄉南埔站",
@@ -16,6 +18,7 @@
     "address": "973花蓮縣吉安鄉仁和村中正路二段6號"
   },
   {
+    "id": "70449c2a-e3e8-5b68-8fbd-55631f010734",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "吉安仁里郵局",
@@ -24,6 +27,7 @@
     "address": "973花蓮縣吉安鄉仁里村中正路一段48號"
   },
   {
+    "id": "a4586bb9-e1b8-53c4-a1b8-e292b3b36f33",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "吉安宜昌郵局",
@@ -32,6 +36,7 @@
     "address": "973花蓮縣吉安鄉中華路二段83號"
   },
   {
+    "id": "24e8f215-c376-5fc7-b27f-cb920d938a55",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮中華路郵局",

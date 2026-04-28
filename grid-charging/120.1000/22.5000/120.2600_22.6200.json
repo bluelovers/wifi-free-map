@@ -1,5 +1,6 @@
 [
   {
+    "id": "2882d0ce-005e-5cf8-825c-ef5aecfa0625",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鼓山郵局",
@@ -8,6 +9,7 @@
     "address": "804高雄市鼓山區臨海二路17號"
   },
   {
+    "id": "d996380d-3207-590a-942c-12d3d55bc8a1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中山大學郵局",

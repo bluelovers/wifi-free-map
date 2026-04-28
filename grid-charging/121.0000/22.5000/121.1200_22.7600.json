@@ -1,5 +1,6 @@
 [
   {
+    "id": "ccd6da08-b8eb-5f91-8011-54aec1ca3158",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台東新生郵局",
@@ -8,6 +9,7 @@
     "address": "950臺東縣臺東市新生路706號"
   },
   {
+    "id": "dd555ca0-8a93-5893-9059-15c5d52eacee",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台糖公司台東區處會議室",
@@ -16,6 +18,7 @@
     "address": "950臺東縣臺東市中興路2段191號2樓"
   },
   {
+    "id": "83bf111b-3658-56a6-8cf6-da556e7434e9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台東東方大鎮郵局",
@@ -24,6 +27,7 @@
     "address": "950臺東縣臺東市中興路二段436號"
   },
   {
+    "id": "d76457fd-089b-5717-87e1-de55140f29c2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司台東直銷中心",
@@ -32,6 +36,7 @@
     "address": "950臺東縣臺東市中興路二段23號"
   },
   {
+    "id": "16e052d5-a3fc-5741-bbfe-2646b145d149",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台東卑南郵局",

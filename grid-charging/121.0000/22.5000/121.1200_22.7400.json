@@ -1,5 +1,6 @@
 [
   {
+    "id": "759000f1-ecc2-57f3-a54a-23b4ea94b30a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台東豐榮郵局",
@@ -8,6 +9,7 @@
     "address": "950臺東縣臺東市中華路二段168號"
   },
   {
+    "id": "8ab97598-4e22-5f30-b63b-441aa8c887ab",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局高雄區監理所台東監理站",
@@ -16,6 +18,7 @@
     "address": "950臺東縣臺東市正氣北路441號1樓"
   },
   {
+    "id": "f20e3428-b358-5399-9be5-6b635c66c339",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "豐樂工業區服務中心",

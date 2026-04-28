@@ -1,5 +1,6 @@
 [
   {
+    "id": "328b6436-1a12-5c0a-8661-70c18d1e1108",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中和大華郵局",
@@ -8,6 +9,7 @@
     "address": "235新北市中和區中興街132號"
   },
   {
+    "id": "f1caf6a1-1be3-5782-a2ae-1d588a6d3ebb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中和中正路郵局",
@@ -16,6 +18,7 @@
     "address": "235新北市中和區中正路277號一樓"
   },
   {
+    "id": "a33849a4-79a7-55ef-b139-12f5c0f201a2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中和連城路郵局",

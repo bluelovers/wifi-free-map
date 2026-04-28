@@ -1,5 +1,6 @@
 [
   {
+    "id": "5a1002a7-2282-5722-8024-ed65cad823f7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新屋郵局",
@@ -8,6 +9,7 @@
     "address": "327桃園市新屋區中山路279號"
   },
   {
+    "id": "6ba27a57-1f74-5d5b-bb13-056e5b73c9d8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市新屋區戶政事務所",
@@ -16,6 +18,7 @@
     "address": "327桃園市新屋區中山路241號三樓"
   },
   {
+    "id": "3535ea7d-2b47-541d-8fe3-64c3d39ed649",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局楊梅分局新屋分駐所",

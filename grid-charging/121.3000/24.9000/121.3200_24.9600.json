@@ -1,5 +1,6 @@
 [
   {
+    "id": "74b9c718-440a-53cc-9220-b75915f18ac0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鶯歌鳳鳴郵局",
@@ -8,6 +9,7 @@
     "address": "239新北市鶯歌區鶯桃路2段11號"
   },
   {
+    "id": "fa36d55b-703a-5fa4-800c-b40fca0d0fcf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園桃鶯郵局",

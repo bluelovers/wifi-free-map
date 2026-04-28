@@ -1,5 +1,6 @@
 [
   {
+    "id": "d7e285d6-b803-5f1f-b81a-7de129f9e1f2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司苗栗營運所",
@@ -8,6 +9,7 @@
     "address": "360苗栗縣苗栗市中山路335號"
   },
   {
+    "id": "c65631f0-6e14-5381-9fad-01545e0d898a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苗栗北苗郵局",
@@ -16,6 +18,7 @@
     "address": "360苗栗縣苗栗市中正路138號"
   },
   {
+    "id": "30676559-e970-5f6c-9c54-a8108bef7d29",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局苗栗站候車室",
@@ -24,6 +27,7 @@
     "address": "360苗栗縣苗栗市為公路1號"
   },
   {
+    "id": "d87e56f0-a8c4-52fb-b25e-120be679085b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司苗栗區處服務中心營業廳",
@@ -32,6 +36,7 @@
     "address": "360苗栗縣苗栗市為公路236號"
   },
   {
+    "id": "c9d9fb72-1354-56d3-935a-df11d460c11a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司苗栗服務中心",
@@ -40,6 +45,7 @@
     "address": "360苗栗縣苗栗市福星街25號"
   },
   {
+    "id": "e30ddd28-3894-5c7e-881f-c79c07855f9c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苗栗嘉盛郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "b45b5a12-0d8d-5465-bc7a-b50dfe62a8c4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "東部海岸國家風景區管理都歷處本部遊客中心",
@@ -8,6 +9,7 @@
     "address": "961臺東縣成功鎮信義里新村路25號"
   },
   {
+    "id": "509cf0e2-2f22-510a-bcc6-882298a787d3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部觀光局東部海岸國家風景區管理處阿美民俗中心",
@@ -16,6 +18,7 @@
     "address": "961臺東縣成功鎮信義里新村路25號"
   },
   {
+    "id": "c232d9ba-f807-57b3-893d-2e8a0524a09f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部觀光局東部海岸國家風景區管理處備勤宿舍1樓",
@@ -24,6 +27,7 @@
     "address": "961臺東縣成功鎮信義里新村路25號"
   },
   {
+    "id": "829f12aa-220b-59be-b5af-90497bf2c3b2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部觀光局東部海岸國家風景區管理處備勤宿舍2樓",
@@ -32,6 +36,7 @@
     "address": "961臺東縣成功鎮信義里新村路25號"
   },
   {
+    "id": "92978498-24b5-5fb7-a249-ab2e99a9c901",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部觀光局東部海岸國家風景區管理處遊客中心",

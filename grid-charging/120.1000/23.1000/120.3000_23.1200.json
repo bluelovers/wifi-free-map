@@ -1,5 +1,6 @@
 [
   {
+    "id": "0487f9a4-8ea0-5a44-8576-6434f659260b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "善化成功郵局",
@@ -8,6 +9,7 @@
     "address": "741臺南市善化區成功路41號"
   },
   {
+    "id": "eaa9a172-5bc9-53e5-b96e-c60766862262",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局善化站行車室",

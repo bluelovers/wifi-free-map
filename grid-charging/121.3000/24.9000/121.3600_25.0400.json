@@ -1,5 +1,6 @@
 [
   {
+    "id": "765ee720-233f-5008-afec-fc437332454f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龜山文化郵局",
@@ -8,6 +9,7 @@
     "address": "333桃園市龜山區文昌一街102號"
   },
   {
+    "id": "209326c2-b438-5d9a-a7de-097a2cad2570",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "林口工業區服務中心",
@@ -16,6 +18,7 @@
     "address": "333桃園市龜山區文化一路53號2樓"
   },
   {
+    "id": "d8ad99df-6a26-548f-a38b-2d550e778a76",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龜山大崗郵局",

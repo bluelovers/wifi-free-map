@@ -1,5 +1,6 @@
 [
   {
+    "id": "2b954126-2f65-5a6e-87a8-6c149b96de76",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "通霄郵局",
@@ -8,6 +9,7 @@
     "address": "357苗栗縣通霄鎮通西里中正路76號"
   },
   {
+    "id": "74c1e0f1-afb4-5ae4-9976-706c4fb704bd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局通霄站候車室",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "75194b0d-2188-5ac4-974d-ea33efd036f5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "芳苑郵局",
@@ -8,6 +9,7 @@
     "address": "528彰化縣芳苑鄉仁愛村斗苑路芳苑段231號"
   },
   {
+    "id": "0692fdde-2d43-5fe8-af60-17037871cf98",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣芳苑鄉戶政事務所",

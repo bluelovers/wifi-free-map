@@ -1,5 +1,6 @@
 [
   {
+    "id": "254333e3-0eba-5a2c-b484-9b2b830b4dcb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司南投直銷中心",
@@ -8,6 +9,7 @@
     "address": "540南投縣南投市仁和路13號"
   },
   {
+    "id": "2a4a2ee1-2d4b-5e78-8b23-f618fc7242be",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南崗(兼竹山)工業區服務中心-南崗",
@@ -16,6 +18,7 @@
     "address": "540南投縣南投市南崗三路21號1樓"
   },
   {
+    "id": "28e706eb-510c-5385-a6bc-6ab9fa2bba97",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南投南崗郵局",

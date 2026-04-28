@@ -1,5 +1,6 @@
 [
   {
+    "id": "a0da4a59-80aa-5487-9b68-732e0143ce7b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第一航廈巴士站北側",
@@ -8,6 +9,7 @@
     "address": "337桃園市大園區航站南路15號"
   },
   {
+    "id": "a6c6574d-5453-5ba6-9b27-20f2f107b6cb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第一航廈巴士站南側",
@@ -16,6 +18,7 @@
     "address": "337桃園市大園區航站南路15號"
   },
   {
+    "id": "62f5bd93-bd3e-5c27-b9bc-793dc211eadc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第一航廈出境大廳一樓北側",
@@ -24,6 +27,7 @@
     "address": "337桃園市大園區航站南路15號"
   },
   {
+    "id": "082cea3f-9387-52f7-bdb6-5c63742b7dd4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第一航廈出境大廳一樓南側",
@@ -32,6 +36,7 @@
     "address": "337桃園市大園區航站南路15號"
   },
   {
+    "id": "90e6e0a4-de96-5a35-a477-eaa784a40e36",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第一航廈出境大廳三樓北側",
@@ -40,6 +45,7 @@
     "address": "337桃園市大園區航站南路15號"
   },
   {
+    "id": "336e48a2-a4e4-5958-84ba-0b1f76077445",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第一航廈出境大廳三樓南側",
@@ -48,6 +54,7 @@
     "address": "337桃園市大園區航站南路15號"
   },
   {
+    "id": "8ff9c47a-4912-52ef-baf1-310679fb8b0d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第一航廈接機大廳北側",
@@ -56,6 +63,7 @@
     "address": "337桃園市大園區航站南路15號"
   },
   {
+    "id": "8994787d-5d65-59d4-8f06-ef6ef9a59c12",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園國際機場第一航廈接機大廳南側",

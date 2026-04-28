@@ -1,5 +1,6 @@
 [
   {
+    "id": "c4d2ba84-03c5-5318-9595-ef9cffae9581",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉太工業區服務中心",
@@ -8,6 +9,7 @@
     "address": "612嘉義縣太保市嘉太工業區中興路1號1樓"
   },
   {
+    "id": "e1a9f57c-9725-5861-ac5f-04f99df0bf81",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "太保嘉太郵局",

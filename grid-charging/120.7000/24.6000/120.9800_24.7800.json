@@ -1,5 +1,6 @@
 [
   {
+    "id": "1f9b655d-64fe-5f5d-a1d2-3dcb35a75757",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "清華大學郵局",
@@ -8,6 +9,7 @@
     "address": "300新竹市東區光復路二段99號"
   },
   {
+    "id": "e99620cf-2c9b-5ea4-bf2d-4b408b51ce00",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司新竹服務所",
@@ -16,6 +18,7 @@
     "address": "300新竹市東區博愛街1號"
   },
   {
+    "id": "6b0ae8f4-a3d1-55a1-ad8a-146485634031",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹學府路郵局",

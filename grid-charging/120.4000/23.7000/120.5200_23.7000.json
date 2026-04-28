@@ -1,5 +1,6 @@
 [
   {
+    "id": "8581ed05-8925-5cdc-a789-c6ac169a38f6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "斗六西平路郵局",
@@ -8,6 +9,7 @@
     "address": "640雲林縣斗六市西平路1號"
   },
   {
+    "id": "8c106771-7842-59e2-9608-d4229858b11d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司雲林區處服務中心營業廳",
@@ -16,6 +18,7 @@
     "address": "640雲林縣斗六市明德北路3段39號"
   },
   {
+    "id": "7276ddd3-8ac1-5de9-9525-5899486ea32f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "斗六鎮北郵局",

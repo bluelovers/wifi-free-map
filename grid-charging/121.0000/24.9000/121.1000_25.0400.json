@@ -1,5 +1,6 @@
 [
   {
+    "id": "a8dc21e5-a5bc-595b-8dac-a9cbe7195d3d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "觀音工業區郵局",
@@ -8,6 +9,7 @@
     "address": "328桃園市觀音區工業五路3號"
   },
   {
+    "id": "7a672c7a-2923-59aa-b274-b1a854815e5b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "觀音工業區服務中心",

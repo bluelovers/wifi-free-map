@@ -1,5 +1,6 @@
 [
   {
+    "id": "75b63429-baeb-57c4-92a5-3832a97249ed",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南永樂郵局",
@@ -8,6 +9,7 @@
     "address": "700臺南市中西區民族路三段282號"
   },
   {
+    "id": "14392cad-5664-5ef4-8409-ba03a15cac8e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南文元郵局",

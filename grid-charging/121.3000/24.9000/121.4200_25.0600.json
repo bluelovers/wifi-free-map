@@ -1,5 +1,6 @@
 [
   {
+    "id": "4ca79c82-f5ea-58a1-ae2c-61fd0768be06",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "泰山郵局",
@@ -8,6 +9,7 @@
     "address": "243新北市泰山區楓江路10號"
   },
   {
+    "id": "159df8dd-5917-5eba-a5ae-55ab742b62a8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司泰山營運所",
@@ -16,6 +18,7 @@
     "address": "243新北市泰山區泰林路二段347號"
   },
   {
+    "id": "278ae100-50fe-53bd-bc89-5e6087c7b1c1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "國道公路警察局",
@@ -24,6 +27,7 @@
     "address": "243新北市泰山區黎明里半山雅70之2號"
   },
   {
+    "id": "18dd4d1c-73b9-5f6e-a45a-e9bcb960af83",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "五股德音郵局",
@@ -32,6 +36,7 @@
     "address": "248新北市五股區成泰路一段77號"
   },
   {
+    "id": "2ccd1996-f494-568e-807d-8448d842e9b3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "五股登林路郵局",

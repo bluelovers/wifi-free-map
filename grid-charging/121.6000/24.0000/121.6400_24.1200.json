@@ -1,5 +1,6 @@
 [
   {
+    "id": "83496579-52c6-59f1-a243-4260f53e2920",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新城郵局",
@@ -8,6 +9,7 @@
     "address": "971花蓮縣新城鄉新城村中山路45號"
   },
   {
+    "id": "ea24be9b-1c22-5476-857e-531f22ee4224",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局新城站候車室",

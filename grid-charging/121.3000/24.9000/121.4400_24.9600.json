@@ -1,5 +1,6 @@
 [
   {
+    "id": "a9f981e9-bf26-5ea3-a989-4ba538acc956",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市土城戶政事務所_A",
@@ -8,6 +9,7 @@
     "address": "236新北市土城區和平路28號1樓"
   },
   {
+    "id": "9c54cbdc-e587-5c89-97e4-613f1e3b674a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "土城郵局",

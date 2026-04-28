@@ -1,5 +1,6 @@
 [
   {
+    "id": "0545942b-909d-5bc9-9e36-0c332c65af9d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市中區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "400臺中市中區興中街80號"
   },
   {
+    "id": "c5d87163-bc64-56b8-9c21-be19a5473cbc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中英才郵局",
@@ -16,6 +18,7 @@
     "address": "403臺中市西區民生路200號"
   },
   {
+    "id": "f8fe0dbf-4430-5e40-a5af-2f384a4a412e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中英才郵局國際包裹驗關室",
@@ -24,6 +27,7 @@
     "address": "403臺中市西區民生路200號7樓"
   },
   {
+    "id": "1767b78e-83ce-5d0a-a29b-6c50c08631a6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中中正路郵局",
@@ -32,6 +36,7 @@
     "address": "403臺中市西區中正路451號"
   },
   {
+    "id": "7b5d7a4d-224b-561f-bb22-3a0a41ae6bb9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中公益路郵局",
@@ -40,6 +45,7 @@
     "address": "403臺中市西區公益里公益路193號"
   },
   {
+    "id": "4cc59395-faab-53bb-a1f6-c82d57bc88f8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中五權路郵局",
@@ -48,6 +54,7 @@
     "address": "404臺中市北區五權路311、313號"
   },
   {
+    "id": "07f6b25a-9bf3-528b-804f-4d39a3e5c589",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中淡溝郵局",

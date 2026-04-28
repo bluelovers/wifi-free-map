@@ -1,5 +1,6 @@
 [
   {
+    "id": "36f6003f-7cc4-508c-a88e-ce3657423131",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹東下公館郵局",
@@ -8,6 +9,7 @@
     "address": "310新竹縣竹東鎮東寧路一段77號"
   },
   {
+    "id": "56f4cb99-fd2e-5e0a-ada9-2b9f940f3f95",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司竹東服務中心",
@@ -16,6 +18,7 @@
     "address": "310新竹縣竹東鎮東寧里北興路一段36號"
   },
   {
+    "id": "0b127020-3204-5822-9c19-fb319339c826",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司竹東營運所",
@@ -24,6 +27,7 @@
     "address": "310新竹縣竹東鎮長安路123號"
   },
   {
+    "id": "2ac3a28b-95e0-5519-8ba4-7d7b3f5679e5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹東郵局",
@@ -32,6 +36,7 @@
     "address": "310新竹縣竹東鎮東林路128號"
   },
   {
+    "id": "f2f9fec5-f19b-5a4b-8bff-4c4b3492c04f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣竹東鎮戶政事務所",
@@ -40,6 +45,7 @@
     "address": "310新竹縣竹東鎮康寧街89號"
   },
   {
+    "id": "1e49d7b1-615c-5772-af2e-76167efb03e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "竹東長春郵局",

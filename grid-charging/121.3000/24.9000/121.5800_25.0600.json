@@ -1,5 +1,6 @@
 [
   {
+    "id": "3e7d99e3-955b-5e2c-bdcd-095656169af3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司台北市內湖區內湖站",
@@ -8,6 +9,7 @@
     "address": "114臺北市內湖區民權東路六段50號"
   },
   {
+    "id": "e4cda8f9-3fac-5088-87bd-41bd2bbc9d05",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖郵局-1",
@@ -16,6 +18,7 @@
     "address": "114臺北市內湖區民權東路六段83號"
   },
   {
+    "id": "70dc4c51-63ba-54a3-8386-e2fd4c083658",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖郵局-2",

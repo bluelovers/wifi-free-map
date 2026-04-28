@@ -1,5 +1,6 @@
 [
   {
+    "id": "1335d571-c289-583b-a452-efeda1f03fc7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新店頂城郵局",
@@ -8,6 +9,7 @@
     "address": "231新北市新店區安康路一段50之1號"
   },
   {
+    "id": "dec39eee-ba2f-5028-b17b-7fb140f50f73",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新店中央郵局",
@@ -16,6 +18,7 @@
     "address": "231新北市新店區中央路232號"
   },
   {
+    "id": "297352ad-fa0f-5c10-9954-f6e49b7e8aeb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新店中正郵局",
@@ -24,6 +27,7 @@
     "address": "231新北市新店區中正路253號"
   },
   {
+    "id": "fdcb742d-c983-5b11-8b5f-a7a3ff3b82ab",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司新店服務所大廳",

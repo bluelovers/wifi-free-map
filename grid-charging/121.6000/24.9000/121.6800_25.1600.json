@@ -1,5 +1,6 @@
 [
   {
+    "id": "1fa6b85b-827d-531b-9e22-480e10c966d8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市金山戶政事務所萬里區所",
@@ -8,6 +9,7 @@
     "address": "207新北市萬里區瑪鋉路123號2樓"
   },
   {
+    "id": "1675d95e-2824-5708-abe9-6fae842e6374",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司萬里金山營運所",
@@ -16,6 +18,7 @@
     "address": "207新北市萬里區瑪鍊路54巷20號"
   },
   {
+    "id": "11429314-f86a-570c-b06b-caa59eff20ff",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "萬里郵局",

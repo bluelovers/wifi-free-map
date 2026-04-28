@@ -1,5 +1,6 @@
 [
   {
+    "id": "a0432e00-5eb3-5ee0-966f-7647a4438ef5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "澎湖縣西嶼鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "881澎湖縣西嶼鄉池東村6鄰小池角97之3號"
   },
   {
+    "id": "3fb4ae9b-88c6-5ec4-9cbd-dc9969ed8da2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "西嶼郵局",

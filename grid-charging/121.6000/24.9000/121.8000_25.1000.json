@@ -1,5 +1,6 @@
 [
   {
+    "id": "a875ec91-1c2e-5cae-870f-c46963b22542",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司瑞芳營運所",
@@ -8,6 +9,7 @@
     "address": "224新北市瑞芳區三爪子坑路13巷5號"
   },
   {
+    "id": "ed537f44-01db-5b23-a990-291c1e593827",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "瑞芳郵局",
@@ -16,6 +18,7 @@
     "address": "224新北市瑞芳區中正路13號"
   },
   {
+    "id": "6913ad83-4f82-5883-bfff-1d16dbb26aa6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市瑞芳戶政事務所",
@@ -24,6 +27,7 @@
     "address": "224新北市瑞芳區中正路30號5樓"
   },
   {
+    "id": "13a51d73-d0a6-52e9-85aa-12498b678d64",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局瑞芳站候車室",
@@ -32,6 +36,7 @@
     "address": "224新北市瑞芳區龍潭里明燈路3段82號"
   },
   {
+    "id": "2e64b552-eefd-5836-94a5-08f006e624e5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局瑞芳站第一月台",
@@ -40,6 +45,7 @@
     "address": "224新北市瑞芳區龍潭里明燈路3段82號"
   },
   {
+    "id": "5ccac1cc-0cb0-5125-aab8-11a2dffbb380",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局瑞芳站第二月台",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "4b8601e0-933c-543b-8609-644fb61341ce",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "田寮郵局",
@@ -8,6 +9,7 @@
     "address": "823高雄市田寮區南安村崗北路61號"
   },
   {
+    "id": "749b7073-e5d6-53b0-a893-865f87e9cd08",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市田寮區戶政事務所",

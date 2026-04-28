@@ -1,5 +1,6 @@
 [
   {
+    "id": "8bddd0b9-47b3-50b8-b7b1-6d8f0589cc4f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司二林營運所",
@@ -8,6 +9,7 @@
     "address": "526彰化縣二林鎮儒林路二段100號"
   },
   {
+    "id": "e0ac20e8-dfe2-589e-a7d1-cc03475db023",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "二林郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "566c402e-d301-5d79-b315-e1ee6beed159",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苑裡郵局",
@@ -8,6 +9,7 @@
     "address": "358苗栗縣苑裡鎮忠勇街15號"
   },
   {
+    "id": "0b018fa5-84a4-5522-8fac-6cab52bc0490",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局苑裡站候車室",

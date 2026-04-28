@@ -1,5 +1,6 @@
 [
   {
+    "id": "365612a7-483b-5462-b7be-4d36e1b628c0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢龍岡郵局",
@@ -8,6 +9,7 @@
     "address": "320桃園市中壢區龍岡路三段756號"
   },
   {
+    "id": "dc80f89a-f8ec-5230-b433-485a5152e2a4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢仁美郵局",
@@ -16,6 +18,7 @@
     "address": "320桃園市中壢區龍文街29號"
   },
   {
+    "id": "c87c5411-0331-56d1-8b18-dbea4a6f9a57",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢龍東路郵局",

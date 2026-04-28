@@ -1,5 +1,6 @@
 [
   {
+    "id": "bd7b5bc6-e7cd-55dd-a15b-5d173ccc8f2b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "文山樟腳里郵局",
@@ -8,6 +9,7 @@
     "address": "116臺北市文山區木新路三段25號"
   },
   {
+    "id": "02302d02-e6be-5b3e-944e-e0c970df58c4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "文山指南郵局",
@@ -16,6 +18,7 @@
     "address": "116臺北市文山區指南路二段115號"
   },
   {
+    "id": "e72afe62-48fe-58f0-a907-180b41c171b1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "木柵郵局-1",
@@ -24,6 +27,7 @@
     "address": "116臺北市文山區木柵路三段27號"
   },
   {
+    "id": "a61e7d83-049a-52c9-b8aa-51ca653bfc5e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "木柵郵局-2",

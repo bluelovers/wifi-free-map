@@ -1,5 +1,6 @@
 [
   {
+    "id": "6b1b17d8-f405-5666-8e0a-362dc4e934bc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "恆春墾丁郵局",
@@ -8,6 +9,7 @@
     "address": "946屏東縣恆春鎮墾丁路332號"
   },
   {
+    "id": "8802ed97-1748-553b-b45a-70dba5d46bd3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司屏東縣恆春鎮墾丁站",

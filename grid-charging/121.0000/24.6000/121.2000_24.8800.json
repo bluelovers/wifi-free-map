@@ -1,5 +1,6 @@
 [
   {
+    "id": "ee75a4f9-02e3-5ff2-97f0-6eb71e8644cf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龍潭烏林郵局",
@@ -8,6 +9,7 @@
     "address": "325桃園市龍潭區烏林村中豐路508號"
   },
   {
+    "id": "94608915-5b4b-5707-bf9a-a8449586a519",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "平鎮山仔頂郵局",
@@ -16,6 +18,7 @@
     "address": "324桃園市平鎮區中豐路山頂段296號"
   },
   {
+    "id": "a9bc7afb-edd7-57c9-a096-6d410a1ca698",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "平鎮工業區服務中心",

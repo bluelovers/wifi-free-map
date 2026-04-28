@@ -1,5 +1,6 @@
 [
   {
+    "id": "49179fef-75af-53a3-95de-1507a1cc602a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "歸仁郵局",
@@ -8,6 +9,7 @@
     "address": "711臺南市歸仁區中山路一段637號"
   },
   {
+    "id": "b2e913fb-ee09-59f4-91d6-64514b274f53",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司歸仁服務所",
@@ -16,6 +18,7 @@
     "address": "711臺南市歸仁區中山路二段6號"
   },
   {
+    "id": "dd378e66-9807-5082-8c1e-a95171df6459",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "歸仁南保郵局",

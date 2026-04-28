@@ -1,5 +1,6 @@
 [
   {
+    "id": "1dc2a991-4d40-5a22-ad6b-cbab9b293f08",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新市南科園區郵局",
@@ -8,6 +9,7 @@
     "address": "741臺南市新市區南科六路6號"
   },
   {
+    "id": "12835b4a-c093-5414-908d-c3601e33dc20",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "善化亞蔬郵局",

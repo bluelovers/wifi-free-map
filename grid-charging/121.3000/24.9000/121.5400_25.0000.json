@@ -1,5 +1,6 @@
 [
   {
+    "id": "55f06115-f575-5cde-addc-82ea7be2bb5b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "文山興隆路郵局",
@@ -8,6 +9,7 @@
     "address": "116臺北市文山區興隆路二段171號"
   },
   {
+    "id": "59242eef-5a22-53ed-9f1e-868b803ec2d8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台灣科大郵局",

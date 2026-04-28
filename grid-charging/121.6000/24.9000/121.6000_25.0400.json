@@ -1,5 +1,6 @@
 [
   {
+    "id": "62f42f9f-4a29-5ffc-9337-339040d5ef3a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中研院郵局",
@@ -8,6 +9,7 @@
     "address": "115臺北市南港區研究院路二段108號"
   },
   {
+    "id": "03a7aa13-20ba-583d-84c0-e35512dd5fb8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局南港站候車室",
@@ -16,6 +18,7 @@
     "address": "115臺北市南港區南港路1段313號"
   },
   {
+    "id": "cf8d26a9-6b51-5119-bdad-ef0c441d2622",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南港富康郵局",
@@ -24,6 +27,7 @@
     "address": "115臺北市南港區研究院路一段44號"
   },
   {
+    "id": "c25c69f2-d2c3-5ea7-9345-4eccfcbe4b40",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局南港站2月台11車",
@@ -32,6 +36,7 @@
     "address": "115臺北市南港區南港路1段313號B3"
   },
   {
+    "id": "d269cda9-3399-537e-9f6b-68f434d3020b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局南港站1月台9車",
@@ -40,6 +45,7 @@
     "address": "115臺北市南港區南港路1段313號B3"
   },
   {
+    "id": "fd6d765a-4809-51b2-8581-f60964b67ffc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南港郵局",
@@ -48,6 +54,7 @@
     "address": "115臺北市南港區南港路二段78號"
   },
   {
+    "id": "c8397d1d-08b8-5789-afe3-1e827d0020ce",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南港軟體園區郵局",
@@ -56,6 +63,7 @@
     "address": "115臺北市南港區園區街3之2號H棟一摟"
   },
   {
+    "id": "62ca8c55-f8f6-5c87-8ffa-e5eb9e9219e1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部工業局北區工業區管理處",

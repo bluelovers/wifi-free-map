@@ -1,5 +1,6 @@
 [
   {
+    "id": "805e5367-b5fe-56c0-8f35-40e970260854",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大里郵局",
@@ -8,6 +9,7 @@
     "address": "412臺中市大里區中興路二段212號"
   },
   {
+    "id": "35eb7ada-481c-503d-ae64-e23d65c47006",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司大里服務所",

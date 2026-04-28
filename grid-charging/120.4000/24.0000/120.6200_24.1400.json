@@ -1,5 +1,6 @@
 [
   {
+    "id": "44f719d4-d8fc-5c4d-a429-50d528e88b8f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺臺中分臺",
@@ -8,6 +9,7 @@
     "address": "408臺中市南屯區博愛街99號"
   },
   {
+    "id": "efdb6a6d-1f2f-5251-92f9-aa203bdd1cb8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內政部國土測繪中心地籍資料庫",
@@ -16,6 +18,7 @@
     "address": "408臺中市南屯區博愛街80巷51號"
   },
   {
+    "id": "c3429ea1-ddbf-5c5d-ad6a-efce4f9f737f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內政部國土測繪中心4樓會議室",
@@ -24,6 +27,7 @@
     "address": "408臺中市南屯區黎明路2段497號4樓"
   },
   {
+    "id": "dab3ef09-d483-5d3f-8165-311c07b8f796",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內政部國土測繪中心5樓會議室",
@@ -32,6 +36,7 @@
     "address": "408臺中市南屯區黎明路2段497號5樓"
   },
   {
+    "id": "3f98fcc0-37c4-516e-9124-c6d566ef8fc9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中黎明郵局",
@@ -40,6 +45,7 @@
     "address": "408臺中市南屯區博愛街80巷49號"
   },
   {
+    "id": "9d65be2d-483b-5ea9-a686-1a70ab82d03a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "觀光局旅遊服務中心台中服務處",
@@ -48,6 +54,7 @@
     "address": "408臺中市南屯區干城街95號1樓"
   },
   {
+    "id": "528c03ef-ecb0-578f-8125-6d0808b7923e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部水利署1樓服務台及會客室",
@@ -56,6 +63,7 @@
     "address": "408臺中市南屯區黎明路2段501號"
   },
   {
+    "id": "136dce0c-d1ce-5d5e-8d45-f264ce14692d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部中區聯合服務中心7樓民眾洽公櫃台",
@@ -64,6 +72,7 @@
     "address": "408臺中市南屯區黎明路2段503號7樓"
   },
   {
+    "id": "f0aa18d9-a504-5250-8d9a-17c1be02140b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "智慧財產局台中服務處",

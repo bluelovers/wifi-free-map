@@ -1,5 +1,6 @@
 [
   {
+    "id": "f52fed93-b99c-57c9-9146-1c1a9d57c371",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "大眾運輸節點",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "e8bb427e-9301-5273-b770-d05c74cf5820",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "文教館所",

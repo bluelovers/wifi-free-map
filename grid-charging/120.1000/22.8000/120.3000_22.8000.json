@@ -1,5 +1,6 @@
 [
   {
+    "id": "d61c4540-e663-5a42-8ddc-7b8e6ebc35d1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "岡山大仁郵局",
@@ -8,6 +9,7 @@
     "address": "820高雄市岡山區大仁路89號"
   },
   {
+    "id": "39d3e60b-d284-598a-9aeb-5748216c615a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "國道公路警察局第五公路警察大隊",

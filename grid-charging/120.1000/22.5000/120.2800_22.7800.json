@@ -1,5 +1,6 @@
 [
   {
+    "id": "f6ec5c0f-64c9-59e0-875d-bedc547a3348",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "岡山仁壽路郵局",
@@ -8,6 +9,7 @@
     "address": "820高雄市岡山區仁壽路215號"
   },
   {
+    "id": "1657cc43-18e4-5db4-94ac-3a889b92e7ba",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水利署第六河川局1樓服務台",
@@ -16,6 +18,7 @@
     "address": "820高雄市岡山區鎮柳橋西路15號"
   },
   {
+    "id": "f95efccf-b3a4-533c-8057-997c3a49860d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "岡山郵局",
@@ -24,6 +27,7 @@
     "address": "820高雄市岡山區民有路68號"
   },
   {
+    "id": "27336a5e-86d4-556b-92c6-2f2e003a4a50",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "岡山平和路郵局",
@@ -32,6 +36,7 @@
     "address": "820高雄市岡山區平和路65號"
   },
   {
+    "id": "dfc63825-7d24-5a5a-8b4c-af2ef6f82588",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市岡山區戶政事務所",
@@ -40,6 +45,7 @@
     "address": "820高雄市岡山區岡山路345巷1號"
   },
   {
+    "id": "f7cbb0a3-f2e4-548d-af4d-63e08a9f2489",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司岡山服務所",

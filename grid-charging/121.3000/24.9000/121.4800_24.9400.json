@@ -1,5 +1,6 @@
 [
   {
+    "id": "0f0189a5-676f-53ed-afba-850659112841",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新店玫瑰城郵局",
@@ -8,6 +9,7 @@
     "address": "231新北市新店區如意街112號"
   },
   {
+    "id": "99de3889-e174-5b9b-b442-ed7d9d570da0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新店雙城郵局",

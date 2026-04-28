@@ -1,5 +1,6 @@
 [
   {
+    "id": "c8915767-4f71-52dc-a619-5424a140ce4e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹南大路郵局",
@@ -8,6 +9,7 @@
     "address": "300新竹市東區南大路621號"
   },
   {
+    "id": "e01fce05-2b63-589b-a59a-7f4b0e93d13c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹西大路郵局",

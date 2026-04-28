@@ -1,5 +1,6 @@
 [
   {
+    "id": "94f9b3b7-1b4b-572e-8813-36d55c8fda58",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中和泰和街郵局",
@@ -8,6 +9,7 @@
     "address": "235新北市中和區泰和街6號"
   },
   {
+    "id": "0811e654-5d63-58b8-a926-f4ddd27101d7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中和郵局",
@@ -16,6 +18,7 @@
     "address": "235新北市中和區民樂路17號"
   },
   {
+    "id": "0a41d201-515e-5d10-84ef-69922f731eb1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中和中山路郵局",
@@ -24,6 +27,7 @@
     "address": "235新北市中和區中山路二段362號"
   },
   {
+    "id": "809ea130-f9d6-5146-a5e4-2e54dfc84b49",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市中和戶政事務所員山辦事處-1",
@@ -32,6 +36,7 @@
     "address": "235新北市中和區中正路1163號3樓"
   },
   {
+    "id": "5aa1d083-ff05-5344-9d60-030dcfb895f8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北萬大路郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "0f833c51-6f60-58c8-bdb1-6729761939cf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司鶯歌服務所",
@@ -8,6 +9,7 @@
     "address": "239新北市鶯歌區環河路57號"
   },
   {
+    "id": "fb355340-c03f-593a-8271-d34f7326ccd0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司鶯歌服務所大廳",
@@ -16,6 +18,7 @@
     "address": "239新北市鶯歌區文化路254號"
   },
   {
+    "id": "b18dc40b-14f8-56cb-bcf4-a010932f0be1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鶯歌郵局",

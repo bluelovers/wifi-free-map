@@ -1,5 +1,6 @@
 [
   {
+    "id": "dec5851a-298c-5818-8fbf-9a11ec0a6e1a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南金華郵局",
@@ -8,6 +9,7 @@
     "address": "702臺南市南區健康路二段182號"
   },
   {
+    "id": "dd7aced6-b612-502b-a824-4130928f0031",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南西門路郵局",
@@ -16,6 +18,7 @@
     "address": "702臺南市南區西門路一段681號"
   },
   {
+    "id": "0a16ada1-7e1e-5302-9c7a-ac9066e290f4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "智慧財產局台南服務處",
@@ -24,6 +27,7 @@
     "address": "700臺南市中西區永華路1段32號5樓"
   },
   {
+    "id": "bb4148ba-32b4-5b0b-a18f-ee7e838d27d4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南新南郵局",
@@ -32,6 +36,7 @@
     "address": "708臺南市安平區永華三街6號"
   },
   {
+    "id": "047f5532-ffe4-5b67-ad80-801edd0b0870",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南友愛街郵局",

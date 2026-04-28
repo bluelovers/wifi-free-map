@@ -1,5 +1,6 @@
 [
   {
+    "id": "a46612e4-4cca-5f2e-918f-0fd68895e3eb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局臺中區監理所臺中市監理站",
@@ -8,6 +9,7 @@
     "address": "404臺中市北區北屯路77號"
   },
   {
+    "id": "ea3792a7-b0da-5c0a-a1a0-01deeab137fd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中北屯郵局",
@@ -16,6 +18,7 @@
     "address": "406臺中市北屯區進化北路37-1號"
   },
   {
+    "id": "48006cbb-7880-59a9-b047-1dc7d2bdb44f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市北區戶政事務所",
@@ -24,6 +27,7 @@
     "address": "404臺中市北區永興街299號"
   },
   {
+    "id": "c10eaf9a-49f1-5a40-833e-57a450f1295d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中大坑口郵局",
@@ -32,6 +36,7 @@
     "address": "406臺中市北屯區東山路一段38-1號"
   },
   {
+    "id": "379d7d22-7018-5d8a-8682-3d8530d6085c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中文心路郵局",

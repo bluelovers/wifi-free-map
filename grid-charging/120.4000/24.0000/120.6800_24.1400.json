@@ -1,5 +1,6 @@
 [
   {
+    "id": "a9da77b6-a6a9-5a5c-af1c-feaaa8f3b856",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司台中區處服務中心營業廳",
@@ -8,6 +9,7 @@
     "address": "400臺中市中區自由路2段86號"
   },
   {
+    "id": "9a3256f6-f304-5cb2-8137-e9ff55c09513",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中公園路郵局",
@@ -16,6 +18,7 @@
     "address": "400臺中市中區公園路4號"
   },
   {
+    "id": "fda19a04-1efa-5fb9-9733-e314d6bc4b1b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中進化路郵局",
@@ -24,6 +27,7 @@
     "address": "401臺中市東區進化路184、186號"
   },
   {
+    "id": "234c6cd0-bf09-5a32-a574-be2d2928a122",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司台中服務所",
@@ -32,6 +36,7 @@
     "address": "404臺中市北區雙十路2段2號"
   },
   {
+    "id": "a33da32e-1c53-53a5-8227-23172fba562d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司總管理處",
@@ -40,6 +45,7 @@
     "address": "404臺中市北區雙十路二段2-1號"
   },
   {
+    "id": "1e65098a-6d2f-5ba0-97bc-7f9255ecaebd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中育才郵局",
@@ -48,6 +54,7 @@
     "address": "404臺中市北區三民路三段140號"
   },
   {
+    "id": "a3019e14-0e78-5561-8692-9275498efd95",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中力行路郵局",
@@ -56,6 +63,7 @@
     "address": "401臺中市東區力行路52巷5號"
   },
   {
+    "id": "fc70d702-c404-59e0-919c-a0e0b73db53c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中雙十路郵局",
@@ -64,6 +72,7 @@
     "address": "404臺中市北區雙十路二段119號"
   },
   {
+    "id": "314fc3c8-84be-5a93-ab68-2d67446cdd6e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中健行路郵局",

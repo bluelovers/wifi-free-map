@@ -1,5 +1,6 @@
 [
   {
+    "id": "524a6afd-056e-52cb-b621-e248f9c04e18",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "深坑郵局",
@@ -8,6 +9,7 @@
     "address": "222新北市深坑區北深路三段30號"
   },
   {
+    "id": "a6f85746-b404-5917-902c-8f49b9ff0454",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市新店戶政事務所深坑區所",

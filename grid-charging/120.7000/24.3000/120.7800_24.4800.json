@@ -1,5 +1,6 @@
 [
   {
+    "id": "8568d1dc-f2f9-5a1c-8818-9673d6df460d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "銅鑼工業區服務中心",
@@ -8,6 +9,7 @@
     "address": "366苗栗縣銅鑼鄉自強路17號"
   },
   {
+    "id": "82b37a3b-c27d-590e-b772-ae2229528efe",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局銅鑼站候車室",
@@ -16,6 +18,7 @@
     "address": "366苗栗縣銅鑼鄉銅鑼村大同路13號"
   },
   {
+    "id": "c9ebfe95-6451-5979-8792-6bb91cce7d5c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "銅鑼郵局",
@@ -24,6 +27,7 @@
     "address": "366苗栗縣銅鑼鄉中正路153號"
   },
   {
+    "id": "0d9809b5-8796-57f3-a0b4-1a448b303d29",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司通霄銅鑼營運所",

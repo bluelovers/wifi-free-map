@@ -1,5 +1,6 @@
 [
   {
+    "id": "724663a2-ef26-5757-af8c-d4e93319c8d1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北西園郵局",
@@ -8,6 +9,7 @@
     "address": "108臺北市萬華區長沙街二段156號"
   },
   {
+    "id": "374ec494-2c89-51f1-8a75-8300bc3d0244",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北漢中街郵局",
@@ -16,6 +18,7 @@
     "address": "108臺北市萬華區漢中街173號"
   },
   {
+    "id": "09873ce2-27e3-5c96-80c3-91d38219b7ce",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部國營事業委員會1樓大廳",
@@ -24,6 +27,7 @@
     "address": "100臺北市中正區寶慶路25號"
   },
   {
+    "id": "3a5f7bdb-9e44-5a41-a326-eb2943c84512",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部國營事業委員會4樓",
@@ -32,6 +36,7 @@
     "address": "100臺北市中正區寶慶路25號4F"
   },
   {
+    "id": "090a8e77-e7ac-5775-91c2-d62ef92ec053",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部國營事業委員會5樓",
@@ -40,6 +45,7 @@
     "address": "100臺北市中正區寶慶路25號5F"
   },
   {
+    "id": "d5fbb1cf-63ba-529e-843a-5f663b3f022f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部國營事業委員會6樓",
@@ -48,6 +54,7 @@
     "address": "100臺北市中正區寶慶路25號6F"
   },
   {
+    "id": "145b0a7d-7ebf-50e8-9bfd-4e6233d5df75",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部國營事業委員會7樓",
@@ -56,6 +63,7 @@
     "address": "100臺北市中正區寶慶路25號7F"
   },
   {
+    "id": "ac74596a-c0b8-5dd4-bdb8-02f70dd806e1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北中山堂郵局",
@@ -64,6 +72,7 @@
     "address": "100臺北市中正區秀山街1號"
   },
   {
+    "id": "e84b9701-4c24-575c-b013-d3dd27d9abb3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "立法院郵局",
@@ -72,6 +81,7 @@
     "address": "100臺北市中正區濟南路一段1號"
   },
   {
+    "id": "812bc5f8-7610-54ec-928e-c02c0ded3f37",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部礦務局5樓公開閱覽室",
@@ -80,6 +90,7 @@
     "address": "100臺北市中正區中華路1段53號5樓"
   },
   {
+    "id": "f7423338-5fc8-573e-8e69-2fab1379a3d2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "行政院台商聯合服務中心",
@@ -88,6 +99,7 @@
     "address": "100臺北市中正區館前路71號8樓"
   },
   {
+    "id": "c2baa232-d341-54b8-9922-645a0e01cff4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北南陽郵局",
@@ -96,6 +108,7 @@
     "address": "100臺北市中正區信陽街8號"
   },
   {
+    "id": "ae0e766e-43f9-5437-9761-4efc3fd8adae",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北復興橋郵局",
@@ -104,6 +117,7 @@
     "address": "100臺北市中正區忠孝西路一段1號"
   },
   {
+    "id": "9cb9ef1d-f1a4-516b-81fc-74b5bff60e33",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北北門郵局-1",
@@ -112,6 +126,7 @@
     "address": "100臺北市中正區忠孝西路一段114號"
   },
   {
+    "id": "851ef0e7-e4d8-5b6b-8a82-6501e36f1d84",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北北門郵局-2",
@@ -120,6 +135,7 @@
     "address": "100臺北市中正區忠孝西路一段114號"
   },
   {
+    "id": "dfe46e0f-a89d-50dd-8b86-2e18725c38f6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北北門郵局-3",
@@ -128,6 +144,7 @@
     "address": "100臺北市中正區忠孝西路一段114號"
   },
   {
+    "id": "ad04589e-1b2d-56d9-9816-9f8656ec06fc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北北門郵局-4",
@@ -136,6 +153,7 @@
     "address": "100臺北市中正區忠孝西路一段114號"
   },
   {
+    "id": "749c3397-bbf2-5469-99ac-d2177762c2a3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北北門郵局-5",
@@ -144,6 +162,7 @@
     "address": "100臺北市中正區忠孝西路一段114號"
   },
   {
+    "id": "256bef45-bfc8-53de-8f45-5d452b94343e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局材料處公開閱覽室",
@@ -152,6 +171,7 @@
     "address": "100臺北市中正區北平西路3號5樓5075室"
   },
   {
+    "id": "70c5afb0-9ac0-5ea7-a1df-0ebfe7345d3d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局秘書室國會聯絡室",
@@ -160,6 +180,7 @@
     "address": "100臺北市中正區北平西路3號6樓6002室"
   },
   {
+    "id": "2d75d1e0-bfb9-5b10-acab-e08a3047926e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局秘書室新聞聯絡室",
@@ -168,6 +189,7 @@
     "address": "100臺北市中正區北平西路3號5樓5007室"
   },
   {
+    "id": "588ec098-c09d-59d9-aae4-2aa18829f764",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺北站R13票房",
@@ -176,6 +198,7 @@
     "address": "100臺北市中正區北平西路3號"
   },
   {
+    "id": "360c6146-eeee-594c-a77e-b04287de2a33",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺北站大廳西側",
@@ -184,6 +207,7 @@
     "address": "100臺北市中正區北平西路3號"
   },
   {
+    "id": "9c17cbe4-e57f-52dd-ae47-4ef45b202e0e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺北站大廳東側",
@@ -192,6 +216,7 @@
     "address": "100臺北市中正區北平西路3號"
   },
   {
+    "id": "2624c8e6-987a-5b70-810c-66e80a4cbfc4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺北站西剪票入口(地下1樓)",
@@ -200,6 +225,7 @@
     "address": "100臺北市中正區北平西路3號"
   },
   {
+    "id": "c3780cee-ccb0-593b-b54d-835e4164d905",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺北站東剪票入口(地下1樓)",
@@ -208,6 +234,7 @@
     "address": "100臺北市中正區北平西路3號"
   },
   {
+    "id": "acca5bcc-1f97-5907-81a2-657e0bc499a0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺北站地下一樓東南角",
@@ -216,6 +243,7 @@
     "address": "100臺北市中正區北平西路3號"
   },
   {
+    "id": "65713445-0c93-5fc5-9e31-5a087f2f4f7f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺北站地下三樓剪收票口(R13)",
@@ -224,6 +252,7 @@
     "address": "100臺北市中正區北平西路3號"
   },
   {
+    "id": "de564e0e-972d-5ea6-a998-811987afe193",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北火車站郵局",
@@ -232,6 +261,7 @@
     "address": "100臺北市中正區北平西路3號"
   },
   {
+    "id": "bb1692c2-80a6-5296-b868-722d732e69fa",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北圓環郵局",
@@ -240,6 +270,7 @@
     "address": "103臺北市大同區重慶北路二段15號"
   },
   {
+    "id": "a16c4dde-8f95-5255-b2c2-d0cad8932688",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北迪化街郵局",
@@ -248,6 +279,7 @@
     "address": "103臺北市大同區迪化街一段38號"
   },
   {
+    "id": "d868bbfa-5a7c-5fb0-a692-1b96f08225b5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北保安郵局",

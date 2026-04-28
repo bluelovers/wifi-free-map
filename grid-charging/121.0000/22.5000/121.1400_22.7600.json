@@ -1,5 +1,6 @@
 [
   {
+    "id": "c806c00c-94ed-529c-968c-32a5a93e4499",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台東馬蘭郵局",
@@ -8,6 +9,7 @@
     "address": "950臺東縣臺東市鄭州街3號一樓"
   },
   {
+    "id": "979c593f-abac-53e8-9273-18fbb669831a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局花蓮分局台東辦事處",

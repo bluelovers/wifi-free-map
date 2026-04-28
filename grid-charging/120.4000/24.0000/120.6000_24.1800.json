@@ -1,5 +1,6 @@
 [
   {
+    "id": "bceef71c-bf90-580e-ab0c-b5b934a33112",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中福安郵局",
@@ -8,6 +9,7 @@
     "address": "407臺中市西屯區福順路318號"
   },
   {
+    "id": "9ec1afa2-10f2-54f9-a72e-86bbb77b4c3e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台糖量販台中店",
@@ -16,6 +18,7 @@
     "address": "407臺中市西屯區台中港路三段118之68號"
   },
   {
+    "id": "bef4427f-ecc1-5481-8505-8d68c0f0427f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中永安郵局",

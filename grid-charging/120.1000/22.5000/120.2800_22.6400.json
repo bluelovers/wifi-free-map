@@ -1,5 +1,6 @@
 [
   {
+    "id": "b3b6c897-3c37-5283-8b15-aa281f0e8fdb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄九如二路郵局",
@@ -8,6 +9,7 @@
     "address": "807高雄市三民區九如二路661、663號"
   },
   {
+    "id": "9e612448-d67c-510e-a007-6583fdb98a98",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市三民區第一戶政事務所",

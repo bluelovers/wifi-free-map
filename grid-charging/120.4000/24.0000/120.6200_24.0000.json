@@ -1,5 +1,6 @@
 [
   {
+    "id": "cc019ef5-823b-58d2-8734-7fd93cfa6240",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "芬園郵局",
@@ -8,6 +9,7 @@
     "address": "502彰化縣芬園鄉社口村芬草路二段225號"
   },
   {
+    "id": "915fc844-a2c4-5ae9-a6ed-b1f8f7373c78",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣芬園鄉戶政事務所",

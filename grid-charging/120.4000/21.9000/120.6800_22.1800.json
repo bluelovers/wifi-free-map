@@ -1,5 +1,6 @@
 [
   {
+    "id": "a6d5c810-98c6-53cf-b45b-1c37613bedce",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "枋山郵局",
@@ -8,6 +9,7 @@
     "address": "941屏東縣枋山鄉舊庄路47號"
   },
   {
+    "id": "65b68ceb-3cb4-5212-99ac-0f651370b85a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司屏東縣枋山鄉楓港站",

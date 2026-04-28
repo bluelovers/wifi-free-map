@@ -1,5 +1,6 @@
 [
   {
+    "id": "31e7d34e-89a2-55ac-92d8-17c657163e38",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南地方法院郵局",
@@ -8,6 +9,7 @@
     "address": "708臺南市安平區健康路三段308號"
   },
   {
+    "id": "c41045e2-f1e9-535a-86e5-e244a56b24c2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南育平郵局",

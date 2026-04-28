@@ -1,5 +1,6 @@
 [
   {
+    "id": "1552c69f-def6-5a48-a6ff-0a296a0e05fb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楠梓後勁郵局",
@@ -8,6 +9,7 @@
     "address": "811高雄市楠梓區後昌路128號"
   },
   {
+    "id": "3f22ce26-5d89-53ab-80e8-23baf7ca2897",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部加工出口區管理處1樓洽公區",

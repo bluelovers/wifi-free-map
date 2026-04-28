@@ -1,5 +1,6 @@
 [
   {
+    "id": "e4dda8c5-5707-59bb-887e-11f890d691dc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大同郵局",
@@ -8,6 +9,7 @@
     "address": "267宜蘭縣大同鄉崙埤村泰雅路一段58號"
   },
   {
+    "id": "26ad2aac-27de-5773-9acb-14e8a524e34f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大同鄉戶政事務所",

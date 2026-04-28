@@ -1,5 +1,6 @@
 [
   {
+    "id": "1ffc295d-8efd-5fd2-8642-0f2f7a59c667",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "潭子東寶郵局",
@@ -8,6 +9,7 @@
     "address": "427臺中市潭子區民族路一段8號"
   },
   {
+    "id": "6e99ad34-eb7d-5b91-b53b-1f0ff73d8c5a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大雅馬岡厝郵局",

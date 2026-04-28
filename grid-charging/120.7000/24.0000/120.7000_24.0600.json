@@ -1,5 +1,6 @@
 [
   {
+    "id": "da569975-b29e-516f-8ca5-d5e13df381c1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "霧峰民生路郵局",
@@ -8,6 +9,7 @@
     "address": "413臺中市霧峰區民生路93號"
   },
   {
+    "id": "0b92db3d-82bb-5858-ba20-ccba4a9e3476",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市霧峰區戶政事務所",
@@ -16,6 +18,7 @@
     "address": "413臺中市霧峰區吉峰路16號"
   },
   {
+    "id": "6a96c434-ace7-5ee5-b8c2-d80e67d087e1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水利署水利規劃試驗所1樓服務台",
@@ -24,6 +27,7 @@
     "address": "413臺中市霧峰區中正路1340號"
   },
   {
+    "id": "0740c32f-5dac-5468-89ad-2f8b1f8b8cec",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水利署中區水資源局1樓服務台",
@@ -32,6 +36,7 @@
     "address": "413臺中市霧峰區峰堤路195號"
   },
   {
+    "id": "406cc7ec-6ced-5030-9d66-1b205e176a62",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "水利署第三河川局1樓服務台",

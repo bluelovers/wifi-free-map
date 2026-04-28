@@ -1,5 +1,6 @@
 [
   {
+    "id": "cd2faf11-c48e-5ef2-8520-7bc7d5354df8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司新莊服務所",
@@ -8,6 +9,7 @@
     "address": "242新北市新莊區思源路32號"
   },
   {
+    "id": "bd883365-c4f2-5909-9e29-22fe2b0058c6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新莊化成路郵局",
@@ -16,6 +18,7 @@
     "address": "242新北市新莊區化成路87號"
   },
   {
+    "id": "0d10a475-b1f8-5b9e-b26c-3c7717542a49",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司北西區處服務中心營業廳",
@@ -24,6 +27,7 @@
     "address": "242新北市新莊區化成路135號"
   },
   {
+    "id": "7563846f-8b8d-5b96-a0ff-5933e857864a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三重二重埔郵局",

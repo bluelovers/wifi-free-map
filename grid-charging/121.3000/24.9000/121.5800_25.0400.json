@@ -1,5 +1,6 @@
 [
   {
+    "id": "37f6937d-f1e2-5d6c-99d5-4e03fe3995d1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南港後山埤郵局",
@@ -8,6 +9,7 @@
     "address": "115臺北市南港區忠孝東路五段994號"
   },
   {
+    "id": "fb12eaad-3a3e-5765-8fb8-31c544c8f7ce",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南港同德郵局",
@@ -16,6 +18,7 @@
     "address": "115臺北市南港區同德路85巷2號"
   },
   {
+    "id": "10bdf17e-c055-5c00-8327-6f28f2fdc03c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南港聯勤郵局",
@@ -24,6 +27,7 @@
     "address": "115臺北市南港區忠孝東路6段360號"
   },
   {
+    "id": "95a3dcb3-1c84-5afe-9b4d-00f90b6a373c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南港昆陽郵局",
@@ -32,6 +36,7 @@
     "address": "115臺北市南港區忠孝東路六段400-406號"
   },
   {
+    "id": "39856979-7006-54a6-973d-9f4a4f7ff1ba",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "南港港三郵局",
@@ -40,6 +45,7 @@
     "address": "115臺北市南港區南港路三段184號"
   },
   {
+    "id": "4d7d866d-0736-5e14-aaad-d51e253134c4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司南港服務所大廳",
@@ -48,6 +54,7 @@
     "address": "115臺北市南港區南港路二段157號"
   },
   {
+    "id": "0861cb31-4133-5606-9b73-367b4fa32337",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內湖週美郵局",
@@ -56,6 +63,7 @@
     "address": "114臺北市內湖區新明路380巷4弄4號"
   },
   {
+    "id": "0ab34a3e-5b08-5fe9-8e78-56a84ce6d5cb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局北區工程處1樓服務台",

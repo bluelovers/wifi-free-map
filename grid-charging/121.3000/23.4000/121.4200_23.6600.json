@@ -1,5 +1,6 @@
 [
   {
+    "id": "be9bf368-370f-5f9c-a286-8495d4140ce5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "光復郵局",
@@ -8,6 +9,7 @@
     "address": "976花蓮縣光復鄉中正路一段124號"
   },
   {
+    "id": "a220d0ec-0f28-5fc2-b9e5-4a2fe88041b0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮縣光復鄉戶政事務所",

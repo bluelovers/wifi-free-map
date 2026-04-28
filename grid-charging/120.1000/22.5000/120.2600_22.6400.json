@@ -1,5 +1,6 @@
 [
   {
+    "id": "bb6f0e7a-dfc7-551d-8d57-d06d06abf6e7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄民強郵局",
@@ -8,6 +9,7 @@
     "address": "804高雄市鼓山區九如四路636、638號"
   },
   {
+    "id": "c3df8395-c6b9-5f6d-be87-db6809e9bdee",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄內惟郵局",

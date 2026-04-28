@@ -1,5 +1,6 @@
 [
   {
+    "id": "e3f53db7-fcc3-5643-9423-42c73d0e42d0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司烏日營運所",
@@ -8,6 +9,7 @@
     "address": "414臺中市烏日區五光路1031號"
   },
   {
+    "id": "15231c4a-aeb8-5245-afb5-1b04beb27348",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "烏日明道郵局",
@@ -16,6 +18,7 @@
     "address": "414臺中市烏日區仁德村信義街100號"
   },
   {
+    "id": "17765fb1-482a-599d-bf13-b1b915f0149c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "烏日郵局",
@@ -24,6 +27,7 @@
     "address": "414臺中市烏日區光日路123號"
   },
   {
+    "id": "0443e0c6-bbac-5320-ba7e-62b179d07dd1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司台中市大肚區服務中心",

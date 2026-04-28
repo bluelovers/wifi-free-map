@@ -1,5 +1,6 @@
 [
   {
+    "id": "d384869a-e6e8-559e-a8f5-566595e5a66d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公館郵局",
@@ -8,6 +9,7 @@
     "address": "363苗栗縣公館鄉大同路115號"
   },
   {
+    "id": "f354d773-98e8-556e-8241-126acf9f134a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苗栗縣公館鄉戶政事務所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "9d04ca83-fb1f-5023-97af-ae1fa17272e9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市金山戶政事務所-1",
@@ -8,6 +9,7 @@
     "address": "208新北市金山區民生路67號1樓"
   },
   {
+    "id": "9e710400-47f3-553b-93a5-ee49a05353d4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "金山遊客中心",

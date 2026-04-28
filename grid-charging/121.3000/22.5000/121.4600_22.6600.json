@@ -1,5 +1,6 @@
 [
   {
+    "id": "bbb14060-7b62-5397-aee0-b6c1756f9ebd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "綠島管理站",
@@ -8,6 +9,7 @@
     "address": "951臺東縣綠島鄉南寮298號"
   },
   {
+    "id": "1984c9c6-7ed9-51b4-b743-9caee17d950d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "綠島郵局",

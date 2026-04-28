@@ -1,5 +1,6 @@
 [
   {
+    "id": "3bead433-2f40-5bc5-9af7-a440f4c336c9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮縣玉里鎮戶政事務所",
@@ -8,6 +9,7 @@
     "address": "981花蓮縣玉里鎮中城里3鄰忠孝路149號"
   },
   {
+    "id": "30dd908b-85f2-5e00-ad81-db81d0775f6f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局第四區養護工程處玉里工務段",
@@ -16,6 +18,7 @@
     "address": "981花蓮縣玉里鎮源城里客城1之2號"
   },
   {
+    "id": "83203574-8453-5587-a19f-58e27c584eb4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "玉里郵局",
@@ -24,6 +27,7 @@
     "address": "981花蓮縣玉里鎮光復路111號"
   },
   {
+    "id": "18dbc9db-a6f0-5919-80bd-b52bbfc9ae9e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司玉里服務所營業廳",
@@ -32,6 +36,7 @@
     "address": "981花蓮縣玉里鎮光復路104號"
   },
   {
+    "id": "f259ee7b-4bd3-503c-ba75-db52d8abb25a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局玉里站候車室",
@@ -40,6 +45,7 @@
     "address": "981花蓮縣玉里鎮康樂街39號"
   },
   {
+    "id": "22ae4dd8-bc48-5a2e-a244-83fd43ddbb16",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局玉里火車站第1月台",
@@ -48,6 +54,7 @@
     "address": "981花蓮縣玉里鎮康樂街39號"
   },
   {
+    "id": "62201a16-ac4b-595a-ba18-6fccef824ae1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "玉里泰昌郵局",
@@ -56,6 +63,7 @@
     "address": "981花蓮縣玉里鎮中山路二段139號"
   },
   {
+    "id": "bb7565b7-46f2-5a17-bef5-004f8ed18d59",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "玉里新興郵局",

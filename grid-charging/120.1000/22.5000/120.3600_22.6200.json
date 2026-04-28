@@ -1,5 +1,6 @@
 [
   {
+    "id": "7c2d3597-4669-5c9f-ab98-b717151ae5e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山中山路郵局",
@@ -8,6 +9,7 @@
     "address": "830高雄市鳳山區大東一路122、124號"
   },
   {
+    "id": "7ee08dd7-762f-5bed-a2fe-30daede15cf6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山中山東路郵局",
@@ -16,6 +18,7 @@
     "address": "830高雄市鳳山區中山東路86-2號"
   },
   {
+    "id": "42156610-1502-57df-868e-d3ac24a98e66",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市鳳山區第一戶政事務所",
@@ -24,6 +27,7 @@
     "address": "830高雄市鳳山區經武路34巷1號"
   },
   {
+    "id": "dce52b2b-d713-5c0f-85fe-17e7e78ada60",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司鳳山服務所",
@@ -32,6 +36,7 @@
     "address": "830高雄市鳳山區光復路11號"
   },
   {
+    "id": "9717209c-3a56-5c59-b47d-6088e4695b7f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山鳳松路郵局",
@@ -40,6 +45,7 @@
     "address": "830高雄市鳳山區鳳松路11號"
   },
   {
+    "id": "13ea6651-755c-5996-9c2c-f7a10f98f3d5",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山工協郵局",
@@ -48,6 +54,7 @@
     "address": "830高雄市鳳山區勝利路50號"
   },
   {
+    "id": "fa526168-b4a1-53c0-aade-0c0a33cc7e6e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "鳳山鎮北郵局",

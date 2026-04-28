@@ -1,5 +1,6 @@
 [
   {
+    "id": "2e8cca58-ba60-54ec-aa26-3ce5167a6c18",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南南小北郵局",
@@ -8,6 +9,7 @@
     "address": "704臺南市北區西門路三段214號"
   },
   {
+    "id": "1e380493-648f-5157-ac28-d2c56053f1f6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司台南服務所",
@@ -16,6 +18,7 @@
     "address": "704臺南市北區開元路67號"
   },
   {
+    "id": "259d37e4-298e-5db3-bbe9-c0b3a3c952b9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南開元路郵局",
@@ -24,6 +27,7 @@
     "address": "704臺南市北區開元路162號"
   },
   {
+    "id": "80d541b7-c7b9-582e-9bc8-ccbff0cdc24d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南大光郵局",
@@ -32,6 +36,7 @@
     "address": "704臺南市北區長榮路五段266號"
   },
   {
+    "id": "0cc7f0fe-2d94-5cce-bef6-5bf2cf9f2c4f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南北小北郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "25d05aed-1542-5b4f-9924-634a5e14fbea",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "清水頂樓用餐區",
@@ -8,6 +9,7 @@
     "address": "436臺中市清水區東山路145號"
   },
   {
+    "id": "6043ab4e-aab6-5a60-865e-bccd15c21225",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大甲廟口郵局",
@@ -16,6 +18,7 @@
     "address": "437臺中市大甲區順天里9鄰順天路159號"
   },
   {
+    "id": "cfdf40ba-3a7e-5b69-9da9-426f15a03948",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大甲郵局",
@@ -24,6 +27,7 @@
     "address": "437臺中市大甲區新政路1號"
   },
   {
+    "id": "085565c8-9643-5b28-8f1a-de1769ea3f79",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市大甲區戶政事務所",

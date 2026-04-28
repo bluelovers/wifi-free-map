@@ -1,5 +1,6 @@
 [
   {
+    "id": "a3c13027-39e4-5fee-b014-20e1d39e3abe",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "其他",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "34cb8849-afb3-5e4d-9e1d-8e52fa4bce8e",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "大眾運輸節點",

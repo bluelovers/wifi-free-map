@@ -1,5 +1,6 @@
 [
   {
+    "id": "064b447e-6db9-5fcb-be0a-6f479ac4f7d9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "大發(兼鳳山)工業區服務中心",
@@ -8,6 +9,7 @@
     "address": "831高雄市大寮區過溪村華中路1號1樓"
   },
   {
+    "id": "a1ff4c6b-285f-5dbf-a223-7b01973bc96f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司高雄訓練中心實習大樓一樓大廳",

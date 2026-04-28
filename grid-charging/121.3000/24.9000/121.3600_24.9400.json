@@ -1,5 +1,6 @@
 [
   {
+    "id": "12c475fa-238c-5a12-b100-5579fa58de5c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台灣糖業股份有限公司北大健康超市",
@@ -8,6 +9,7 @@
     "address": "237新北市三峽區學成路398號"
   },
   {
+    "id": "57a6cbd1-dd02-5a8f-81e1-cb6e0f41b525",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北大學郵局",

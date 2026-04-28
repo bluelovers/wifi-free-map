@@ -1,5 +1,6 @@
 [
   {
+    "id": "f159e57a-5ce4-5cff-979c-f137913bec26",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苗栗府前郵局",
@@ -8,6 +9,7 @@
     "address": "360苗栗縣苗栗市忠孝路119號"
   },
   {
+    "id": "e07d2302-32ae-5485-9bf1-decf2179dade",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苗栗文山郵局",
@@ -16,6 +18,7 @@
     "address": "360苗栗縣苗栗市至公路420-1號"
   },
   {
+    "id": "f17a8e40-95b8-556b-92c0-03f73fac23b0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局新竹區監理所苗栗監理站",

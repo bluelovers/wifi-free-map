@@ -1,5 +1,6 @@
 [
   {
+    "id": "6d1cf28a-975a-57c0-b477-845cfca35e99",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司民雄營運所",
@@ -8,6 +9,7 @@
     "address": "621嘉義縣民雄鄉西安村安和路393號"
   },
   {
+    "id": "633d4d80-ad9a-5d97-876c-a6ac0331a5c9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "民雄郵局",
@@ -16,6 +18,7 @@
     "address": "621嘉義縣民雄鄉東榮村民族路17號"
   },
   {
+    "id": "c3a925d7-360d-5e11-8faf-4a986f52bbdc",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義縣警察局民雄分局",
@@ -24,6 +27,7 @@
     "address": "621嘉義縣民雄鄉民族路21號"
   },
   {
+    "id": "48f4fc06-e525-57ba-9d55-18b5d415c121",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義縣民雄鄉戶政事務所",

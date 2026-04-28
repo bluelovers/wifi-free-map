@@ -1,5 +1,6 @@
 [
   {
+    "id": "822694c5-1c67-5055-8d4f-3ef8e43fcbe8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "望安綠蠵龜觀光保育中心",
@@ -8,6 +9,7 @@
     "address": "882澎湖縣望安鄉東安村1-4號"
   },
   {
+    "id": "756979e5-28b9-5722-a824-55ea4cb525bb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "望安航空站",

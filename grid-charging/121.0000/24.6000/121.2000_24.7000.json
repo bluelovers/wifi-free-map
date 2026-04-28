@@ -1,5 +1,6 @@
 [
   {
+    "id": "f89ee0e8-ed9d-5610-aa28-b18d03814a3e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "尖石郵局",
@@ -8,6 +9,7 @@
     "address": "313新竹縣尖石鄉嘉樂村2鄰28-1號"
   },
   {
+    "id": "cb204e6a-34a6-5b8d-aee3-b91605dc709a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣尖石鄉戶政事務所",

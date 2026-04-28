@@ -1,5 +1,6 @@
 [
   {
+    "id": "1d555b47-26c6-5f07-a2d5-c7d093997561",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內埔水門郵局",
@@ -8,6 +9,7 @@
     "address": "912屏東縣內埔鄉水門村育英路1號"
   },
   {
+    "id": "35e2c4a1-c97c-559a-995e-69a100478166",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三地門郵局",

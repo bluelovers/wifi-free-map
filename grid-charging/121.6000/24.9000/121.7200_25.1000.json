@@ -1,5 +1,6 @@
 [
   {
+    "id": "c39b4c8e-2c66-5899-a6cb-cd0e7be0fd7a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆市暖暖戶政事務所",
@@ -8,6 +9,7 @@
     "address": "205基隆市暖暖區暖暖街246巷180號"
   },
   {
+    "id": "7b040589-700b-5e66-851b-184a72e40552",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆過港路郵局",
@@ -16,6 +18,7 @@
     "address": "205基隆市暖暖區過港路58號"
   },
   {
+    "id": "d01fab2d-5b0e-5cc5-9802-7d657c57e7ee",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局八堵站候車室",

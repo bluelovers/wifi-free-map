@@ -1,5 +1,6 @@
 [
   {
+    "id": "a195536a-c91a-511c-b24e-42522609399f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投關渡郵局",
@@ -8,6 +9,7 @@
     "address": "112臺北市北投區知行路293巷9弄11號"
   },
   {
+    "id": "b9c1b8b9-357b-5e51-aaea-3d87459073d4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司台北市北投區中央北路站",
@@ -16,6 +18,7 @@
     "address": "112臺北市北投區中央北路四段584號"
   },
   {
+    "id": "3c3a9998-686b-5cf7-bf27-81c6bff261e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北投一德郵局",

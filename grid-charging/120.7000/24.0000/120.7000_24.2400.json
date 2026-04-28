@@ -1,5 +1,6 @@
 [
   {
+    "id": "56545624-9ad8-5aab-ade3-8ee0296d225e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市豐原區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "420臺中市豐原區市政路2號"
   },
   {
+    "id": "867b51df-16d4-5166-8367-9ea3e75a0f4f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "豐原博愛郵局",
@@ -16,6 +18,7 @@
     "address": "420臺中市豐原區博愛街112號"
   },
   {
+    "id": "47527d0e-ffeb-564d-a481-3de13d5a271d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司豐原分處服務中心營業廳",
@@ -24,6 +27,7 @@
     "address": "420臺中市豐原區中正路599號"
   },
   {
+    "id": "9c417a24-3a8f-545a-b467-22eba99e55ee",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "豐原中正路郵局",
@@ -32,6 +36,7 @@
     "address": "420臺中市豐原區中正路298號"
   },
   {
+    "id": "766c44fa-3bcc-5d7f-8959-28e6950582f3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "豐原三民路郵局",

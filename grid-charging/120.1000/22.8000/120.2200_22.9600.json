@@ -1,5 +1,6 @@
 [
   {
+    "id": "d2ac2c9b-a6bf-5e1a-943e-28961f733648",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台糖公司福利社",
@@ -8,6 +9,7 @@
     "address": "701臺南市東區生產路54號"
   },
   {
+    "id": "0fe1b92d-6b1b-5c51-b374-7e2e24067003",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台南德高厝郵局",

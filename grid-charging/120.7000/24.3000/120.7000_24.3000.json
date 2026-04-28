@@ -1,5 +1,6 @@
 [
   {
+    "id": "c047cd8f-3a64-562a-8d1e-87743e317569",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "后里郵局",
@@ -8,6 +9,7 @@
     "address": "421臺中市后里區墩西村公安路77號"
   },
   {
+    "id": "c0e6222a-7b12-530d-be0b-43967d06db4b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市后里區戶政事務所",

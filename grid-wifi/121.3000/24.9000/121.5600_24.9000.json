@@ -1,5 +1,6 @@
 [
   {
+    "id": "faea3f23-c4fa-501f-8370-6ef13676a1eb",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "行政機關",
@@ -11,6 +12,7 @@
     "authType": "portal"
   },
   {
+    "id": "c09714c8-55c7-59de-94a8-407e321ae222",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "行政機關",
@@ -22,6 +24,7 @@
     "authType": "portal"
   },
   {
+    "id": "fedb68a7-b392-52ca-8b3c-2741b7f67c84",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "行政機關",
@@ -33,6 +36,7 @@
     "authType": "portal"
   },
   {
+    "id": "986c1cc7-fe57-5941-92ef-4cf554d814cc",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "行政機關",
@@ -44,6 +48,7 @@
     "authType": "portal"
   },
   {
+    "id": "72df6043-5805-5225-8a3d-36eff701800f",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "行政機關",
@@ -55,6 +60,7 @@
     "authType": "portal"
   },
   {
+    "id": "7eef9e74-64d3-574b-a05f-a8491b756e7d",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "行政機關",
@@ -66,6 +72,7 @@
     "authType": "portal"
   },
   {
+    "id": "3e669f1a-9590-5f5d-8981-92af6803be77",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "行政機關",
@@ -77,6 +84,7 @@
     "authType": "portal"
   },
   {
+    "id": "08285649-0fb7-520a-9fe8-7ed9059b3fd0",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "行政機關",
@@ -88,6 +96,7 @@
     "authType": "portal"
   },
   {
+    "id": "a46a11df-5c7d-5a25-bb44-5198a52668a1",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "行政機關",
@@ -99,6 +108,7 @@
     "authType": "portal"
   },
   {
+    "id": "219fa985-f98c-57fd-83f9-2dad34044e26",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "行政機關",
@@ -110,6 +120,7 @@
     "authType": "portal"
   },
   {
+    "id": "1fd3aba3-aef8-59c9-93b2-884a81ce6087",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "行政機關",
@@ -121,6 +132,7 @@
     "authType": "portal"
   },
   {
+    "id": "763f8f8c-a17c-598a-a1fa-ae15db2de652",
     "dataType": "wifi",
     "dataSource": "gov-data",
     "category": "觀光名勝",

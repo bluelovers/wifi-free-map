@@ -1,5 +1,6 @@
 [
   {
+    "id": "234260d4-a626-565a-9f42-cc0a5009784a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "造橋郵局",
@@ -8,6 +9,7 @@
     "address": "361苗栗縣造橋鄉造橋村平仁路32號"
   },
   {
+    "id": "5d39d061-2697-568c-b9b6-9af4e5fa04b1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "國道公路警察局第二公路警察大隊",
@@ -16,6 +18,7 @@
     "address": "361苗栗縣造橋鄉造橋村雙鵝山9號"
   },
   {
+    "id": "9b88a084-7ee3-5bfe-b55c-6831584fd904",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "苗栗縣造橋鄉戶政事務所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "07b5efbb-674a-5dd5-94fc-96ef20195c7c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永康工業區服務中心",
@@ -8,6 +9,7 @@
     "address": "710臺南市永康區王行里環工路6號"
   },
   {
+    "id": "660a726b-5e83-5f25-94ef-72d807b37e83",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永康王行郵局",

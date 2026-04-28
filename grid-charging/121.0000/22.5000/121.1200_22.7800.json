@@ -1,5 +1,6 @@
 [
   {
+    "id": "83aaffc4-5ee7-556d-89d9-4268dab54c88",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺東站第2月台南側",
@@ -8,6 +9,7 @@
     "address": "950臺東縣臺東市岩灣路101巷598號"
   },
   {
+    "id": "f1efed09-4043-5a99-8517-9505d41c06ae",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺東站第3月台北側",
@@ -16,6 +18,7 @@
     "address": "950臺東縣臺東市岩灣路101巷599號"
   },
   {
+    "id": "33fe42fb-d1d3-5727-9957-6f7526dce23d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局臺東站候車室",

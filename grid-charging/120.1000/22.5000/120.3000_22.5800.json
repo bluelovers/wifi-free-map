@@ -1,5 +1,6 @@
 [
   {
+    "id": "bb5e8de8-8ad3-5c34-8d16-ec63739c96cf",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市前鎮區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "806高雄市前鎮區康定路151號"
   },
   {
+    "id": "15632d8a-6150-5d0f-bf1b-234b6b867b58",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "前鎮郵局",
@@ -16,6 +18,7 @@
     "address": "806高雄市前鎮區前鎮街92號"
   },
   {
+    "id": "4bbf0be3-d614-5c15-9b13-824816faf512",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司高雄直銷中心",

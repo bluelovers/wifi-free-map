@@ -1,5 +1,6 @@
 [
   {
+    "id": "8237996d-7b00-586a-a913-abeda0f8c054",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局太原站候車室",
@@ -8,6 +9,7 @@
     "address": "406臺中市北屯區東光路838號"
   },
   {
+    "id": "1d66324f-ef74-56c0-9bf9-9235b3ff7fd9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中軍功郵局",

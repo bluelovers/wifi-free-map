@@ -1,5 +1,6 @@
 [
   {
+    "id": "34282742-e036-5c84-ae3c-a8b70b6800e6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣北埔鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "314新竹縣北埔鄉南興村14鄰南興街68號"
   },
   {
+    "id": "b6e9e061-7bff-5277-8fdc-77093e793138",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北埔郵局",

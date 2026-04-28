@@ -1,5 +1,6 @@
 [
   {
+    "id": "7cceb30d-c21d-5757-9cc5-ed87bed6b07a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龍井龍津郵局",
@@ -8,6 +9,7 @@
     "address": "434臺中市龍井區中央路一段246、248號"
   },
   {
+    "id": "2945088a-efda-5d98-aa39-ff71dd71e278",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中港關連工業區服務中心",

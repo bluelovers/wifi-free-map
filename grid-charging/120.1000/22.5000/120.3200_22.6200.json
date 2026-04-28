@@ -1,5 +1,6 @@
 [
   {
+    "id": "df220534-d550-54c3-b689-ab44c6ab7069",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄五塊厝郵局",
@@ -8,6 +9,7 @@
     "address": "802高雄市苓雅區三多一路237號"
   },
   {
+    "id": "2623b40a-4672-518c-95e7-470bc294772e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市苓雅區戶政事務所第二辦公處",
@@ -16,6 +18,7 @@
     "address": "802高雄市苓雅區三多一路166號"
   },
   {
+    "id": "6cd82fb4-9df1-5519-a636-2fd24d255f0e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄師大郵局",
@@ -24,6 +27,7 @@
     "address": "802高雄市苓雅區和平一路116號"
   },
   {
+    "id": "69d7d7d0-b43e-5349-811c-af002d596e25",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄正言郵局",
@@ -32,6 +36,7 @@
     "address": "802高雄市苓雅區中正一路322、324號"
   },
   {
+    "id": "c6e97db6-5e11-5eb7-88d9-73b2470f5666",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄武廟郵局",
@@ -40,6 +45,7 @@
     "address": "802高雄市苓雅區武廟路83號"
   },
   {
+    "id": "361d8603-33e2-53a0-ba50-aa3bdbe71f84",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局高雄市區監理所苓雅監理站",
@@ -48,6 +54,7 @@
     "address": "802高雄市苓雅區安康路22號"
   },
   {
+    "id": "bc71dd4f-d39e-5f1a-b811-254017e16835",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局高雄分局計量業務民眾洽公區",
@@ -56,6 +63,7 @@
     "address": "802高雄市苓雅區憲政路242巷3號"
   },
   {
+    "id": "bb0544f1-b214-5ab1-9d5a-340838e886e4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局高雄分局商檢業務民眾洽公區",

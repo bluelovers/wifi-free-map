@@ -1,5 +1,6 @@
 [
   {
+    "id": "c49223c2-2c41-5cae-8b81-abec89f7ca97",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司知本服務所大廳",
@@ -8,6 +9,7 @@
     "address": "950臺東縣臺東市知本路3段658號"
   },
   {
+    "id": "79345481-4c3a-5399-8381-e6d2108a097d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台東知本郵局",

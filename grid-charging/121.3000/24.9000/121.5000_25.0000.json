@@ -1,5 +1,6 @@
 [
   {
+    "id": "7760a0e6-e916-5077-9218-c3ec50d06753",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永和永安郵局",
@@ -8,6 +9,7 @@
     "address": "234新北市永和區安樂路270號"
   },
   {
+    "id": "3ecd2220-64d8-507d-9b69-d2009387009e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司北區工程處1F",
@@ -16,6 +18,7 @@
     "address": "234新北市永和區水源街52號"
   },
   {
+    "id": "3befbb0a-f0eb-5d39-81df-92599275c86a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司北區工程處4F",
@@ -24,6 +27,7 @@
     "address": "234新北市永和區水源街52號"
   },
   {
+    "id": "6b078daa-87f9-5487-8e9c-9043a8018b89",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永和永貞郵局",
@@ -32,6 +36,7 @@
     "address": "234新北市永和區自由街53號"
   },
   {
+    "id": "40164780-2694-5861-9d3b-f5705e24e443",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永和中山路郵局",
@@ -40,6 +45,7 @@
     "address": "234新北市永和區中山路一段249、251號"
   },
   {
+    "id": "93f91b0e-d5f4-5b6e-a293-3b819d4ba06a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永和郵局",

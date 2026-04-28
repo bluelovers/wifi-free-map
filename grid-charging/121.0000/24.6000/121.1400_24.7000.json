@@ -1,5 +1,6 @@
 [
   {
+    "id": "a15e04b3-b6a1-5709-af16-7143c7c054c7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣橫山鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "312新竹縣橫山鄉新興村新興街105號"
   },
   {
+    "id": "491ba084-a68e-5b7f-a63e-2426c2d6d986",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "橫山郵局",

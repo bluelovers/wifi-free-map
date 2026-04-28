@@ -1,5 +1,6 @@
 [
   {
+    "id": "6846bc29-1ed5-5ee8-93ed-845c1af6beb1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新莊五工郵局",
@@ -8,6 +9,7 @@
     "address": "242新北市新莊區五工三路50巷2號"
   },
   {
+    "id": "b1cbd225-c97f-5c22-b86c-9aa58b13fc7f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "五股褒仔寮郵局",

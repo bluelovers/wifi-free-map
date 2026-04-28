@@ -1,5 +1,6 @@
 [
   {
+    "id": "10ec0303-a77f-542d-9dee-2032b0481a2c",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "礁溪鄉戶政事務所",
@@ -8,6 +9,7 @@
     "address": "262宜蘭縣礁溪鄉礁溪路四段126號"
   },
   {
+    "id": "8072bd44-f84a-5a24-bdc7-888e4bf22b1e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "礁溪郵局",
@@ -16,6 +18,7 @@
     "address": "262宜蘭縣礁溪鄉礁溪路四段130號"
   },
   {
+    "id": "7378e1e0-da8d-5901-affd-f2570a4b2675",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "礁溪湯仔城郵局",

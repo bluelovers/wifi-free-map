@@ -1,5 +1,6 @@
 [
   {
+    "id": "c1e9f0fd-513a-5b4c-9f4f-ad409ac472a0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆復興路郵局",
@@ -8,6 +9,7 @@
     "address": "203基隆市中山區復興路38號"
   },
   {
+    "id": "5c3004ea-a8a6-5564-94e0-6c1b4d483a76",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆中山郵局",
@@ -16,6 +18,7 @@
     "address": "203基隆市中山區中華路3號"
   },
   {
+    "id": "ed1d83d6-04f8-52cf-a943-e20af5b4d866",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "基隆市中山戶政事務所",

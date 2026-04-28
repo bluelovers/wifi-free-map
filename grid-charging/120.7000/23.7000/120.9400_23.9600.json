@@ -1,5 +1,6 @@
 [
   {
+    "id": "73f4c347-00f9-5e53-baca-d5271033c94a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司埔里營運所",
@@ -8,6 +9,7 @@
     "address": "545南投縣埔里鎮大城路9號"
   },
   {
+    "id": "554d6ed5-415c-5530-be67-a785942aa8da",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "埔里崎下郵局",

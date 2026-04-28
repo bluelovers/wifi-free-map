@@ -1,5 +1,6 @@
 [
   {
+    "id": "f48b7c94-f0cd-5d1d-9043-0cc8b5137794",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "福興(兼埤頭及田中)工業區服務中心-福興",
@@ -8,6 +9,7 @@
     "address": "506彰化縣福興鄉萬豐村福工路1號1樓"
   },
   {
+    "id": "371f10f8-69d1-5c1f-8687-b8bddb7ad56d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "福興福工郵局",

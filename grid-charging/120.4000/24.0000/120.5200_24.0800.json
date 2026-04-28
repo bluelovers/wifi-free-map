@@ -1,5 +1,6 @@
 [
   {
+    "id": "ab1411f1-b3f2-5e03-8bba-24bebeb33543",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局彰化站候車室",
@@ -8,6 +9,7 @@
     "address": "500彰化縣彰化市三民路1號"
   },
   {
+    "id": "456d634c-8c39-5b48-a3e0-faaa665b734d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局彰化站候車大廳出口處",
@@ -16,6 +18,7 @@
     "address": "500彰化縣彰化市三民路1號"
   },
   {
+    "id": "efaed13b-20e2-524f-a442-a39700ea342e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局彰化站第1月台4-5車處",
@@ -24,6 +27,7 @@
     "address": "500彰化縣彰化市三民路1號"
   },
   {
+    "id": "ae19a1c3-dd21-5ad9-8276-bb48c14d2ff0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局彰化機務段扇形車庫",
@@ -32,6 +36,7 @@
     "address": "500彰化縣彰化市彰美路1段1號"
   },
   {
+    "id": "3739576c-d5f6-5253-b5b6-6e3044b17beb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化過溝仔郵局",

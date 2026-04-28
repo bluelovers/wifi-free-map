@@ -1,5 +1,6 @@
 [
   {
+    "id": "3e472174-531d-5a85-9b82-99ea3b04f500",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺臺南分臺",
@@ -8,6 +9,7 @@
     "address": "721臺南市麻豆區南勢里南勢85-21號"
   },
   {
+    "id": "00fe81b9-3f78-5803-9377-da787f4f61c6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "麻豆總爺郵局",

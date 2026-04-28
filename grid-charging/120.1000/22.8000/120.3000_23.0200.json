@@ -1,5 +1,6 @@
 [
   {
+    "id": "5b85c491-4174-566b-a87a-6dfa2bc749f0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新化郵局",
@@ -8,6 +9,7 @@
     "address": "712臺南市新化區中正路312號"
   },
   {
+    "id": "691cc58f-6c6c-51f7-946d-a9a664e6d650",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新化中山路郵局",

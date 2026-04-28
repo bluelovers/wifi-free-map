@@ -1,5 +1,6 @@
 [
   {
+    "id": "154d05d6-3098-509b-af05-702965a6c0d8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市旗津區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "805高雄市旗津區振興里18鄰旗津三路1100號一樓"
   },
   {
+    "id": "66f759f3-b2c0-5d4a-b44c-d43604a75ff6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "旗津郵局",
@@ -16,6 +18,7 @@
     "address": "805高雄市旗津區中洲三路817號"
   },
   {
+    "id": "ae4de214-3af5-5c2f-82f6-46de701a3176",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司旗津服務所大廳",
@@ -24,6 +27,7 @@
     "address": "805高雄市旗津區大關路28號"
   },
   {
+    "id": "059a13be-d65e-5759-8faf-4ebc918e89c4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄蓬萊路郵局",
@@ -32,6 +36,7 @@
     "address": "804高雄市鼓山區蓬萊路26號"
   },
   {
+    "id": "3eaa9ab1-5d8e-57b6-aaa9-6049c288c2ce",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄港國際旅運中心",

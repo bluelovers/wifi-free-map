@@ -1,5 +1,6 @@
 [
   {
+    "id": "0f919dfa-ba8b-51e6-847e-4d17e71ad65b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "向山遊客中心",
@@ -8,6 +9,7 @@
     "address": "555南投縣魚池鄉水社村中山路599號"
   },
   {
+    "id": "07b1b7ee-7564-51df-8611-75368ae83534",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "日月潭風管處2F辦公室",
@@ -16,6 +18,7 @@
     "address": "555南投縣魚池鄉中山路599號"
   },
   {
+    "id": "5925902e-9347-5e5c-960f-dd98e7481bad",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "日月潭風管處1F會議區",
@@ -24,6 +27,7 @@
     "address": "555南投縣魚池鄉中山路599號"
   },
   {
+    "id": "532117ce-35d4-5c2f-bee6-060c850179f0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "日月潭風管處1F辦公區",
@@ -32,6 +36,7 @@
     "address": "555南投縣魚池鄉中山路599號"
   },
   {
+    "id": "5048d798-25e0-573b-bcb0-133302ae7432",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "日月潭風管處2F會議區",
@@ -40,6 +45,7 @@
     "address": "555南投縣魚池鄉中山路599號"
   },
   {
+    "id": "74d8d7c5-6622-5a8d-922c-158125ad8f2f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "日月潭遊客中心展示區2",

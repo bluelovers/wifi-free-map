@@ -1,5 +1,6 @@
 [
   {
+    "id": "8ece35f9-c61a-50f1-ab6d-b7d373ab77c8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "恆春郵局",
@@ -8,6 +9,7 @@
     "address": "946屏東縣恆春鎮恆西路一巷32號"
   },
   {
+    "id": "5e922c68-d624-5418-9048-40a2410cce97",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "恆春南門郵局",

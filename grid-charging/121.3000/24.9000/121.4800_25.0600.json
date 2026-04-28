@@ -1,5 +1,6 @@
 [
   {
+    "id": "c92814aa-afb8-55fd-b6f9-047b44aaf5de",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市三重戶政事務所5F-1",
@@ -8,6 +9,7 @@
     "address": "241新北市三重區新北大道1段9號5樓"
   },
   {
+    "id": "00c6284b-2b6c-5a94-84b5-804ae56d56c9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三重中山路郵局",
@@ -16,6 +18,7 @@
     "address": "241新北市三重區中山路14號"
   },
   {
+    "id": "d37b1f24-256e-52e4-b1d9-a7d5fd188b01",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三重正義郵局",
@@ -24,6 +27,7 @@
     "address": "241新北市三重區正義南路10號"
   },
   {
+    "id": "9b914af1-0f02-5781-a192-1ae4869bd842",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三重中正路郵局",
@@ -32,6 +36,7 @@
     "address": "241新北市三重區中正北路278號"
   },
   {
+    "id": "318f2aaf-457c-5949-8bfb-760afafad744",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三重介壽路郵局",
@@ -40,6 +45,7 @@
     "address": "241新北市三重區介壽路5號"
   },
   {
+    "id": "7a7bf92d-8c27-54b7-93e4-a26c7d9a967b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三重忠孝路郵局",
@@ -48,6 +54,7 @@
     "address": "241新北市三重區忠孝路一段6之2號"
   },
   {
+    "id": "3e3a9fc0-73c2-54f1-bc3e-e8fce918f6b9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市三重戶政事務所溪美辦事處2F",
@@ -56,6 +63,7 @@
     "address": "241新北市三重區溪尾街73號2樓"
   },
   {
+    "id": "6ec80bfc-c283-50a1-adc0-0d4407f1fce2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "三重溪尾街郵局",

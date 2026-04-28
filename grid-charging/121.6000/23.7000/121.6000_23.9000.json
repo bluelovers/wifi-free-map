@@ -1,5 +1,6 @@
 [
   {
+    "id": "6a55fb99-e5d9-533b-b3f6-6ced4f98063d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "東部海岸國家風景區管理處鹽寮遊客中心",
@@ -8,6 +9,7 @@
     "address": "974花蓮縣壽豐鄉鹽寮村大坑5號"
   },
   {
+    "id": "79ce4d38-f573-5dff-909c-dc50828c6500",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "東部海岸國家風景區花蓮管理站",

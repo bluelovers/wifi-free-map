@@ -1,5 +1,6 @@
 [
   {
+    "id": "f46b8f86-5cd8-5ef0-886e-7395a20c6958",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義北社郵局",
@@ -8,6 +9,7 @@
     "address": "600嘉義市西區北興街245號"
   },
   {
+    "id": "6cd0a5e4-680b-5945-9cce-a57b21e71e06",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "嘉義保安郵局",

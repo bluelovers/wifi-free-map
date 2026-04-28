@@ -1,5 +1,6 @@
 [
   {
+    "id": "dd17e978-fb1d-5355-944e-eed61635b7d1",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "湖口郵局",
@@ -8,6 +9,7 @@
     "address": "303新竹縣湖口鄉忠孝路26號"
   },
   {
+    "id": "ed10de3e-7f28-5d16-822b-d35477c6ffd0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局湖口站候車室",
@@ -16,6 +18,7 @@
     "address": "303新竹縣湖口鄉中山路2段121號"
   },
   {
+    "id": "895f7635-8b5f-561a-9598-80ebabdde9dd",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新竹縣湖口鄉戶政事務所",
@@ -24,6 +27,7 @@
     "address": "303新竹縣湖口鄉成功路119巷8號"
   },
   {
+    "id": "9b779ee3-16ea-5793-a0d2-53f3f71ce026",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "湖口德盛郵局",

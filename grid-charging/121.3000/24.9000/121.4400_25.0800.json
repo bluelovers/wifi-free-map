@@ -1,5 +1,6 @@
 [
   {
+    "id": "f9773111-5a19-5dc3-a02e-de5937be0ec0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司蘆洲服務所",
@@ -8,6 +9,7 @@
     "address": "247新北市蘆洲區中原路68號"
   },
   {
+    "id": "62c841ca-11ab-575e-a0d7-309e8c2c0f79",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "蘆洲中原路郵局",

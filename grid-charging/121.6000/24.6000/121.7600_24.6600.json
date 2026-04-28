@@ -1,5 +1,6 @@
 [
   {
+    "id": "f9e75191-4a4a-5530-a426-a8116fd88127",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "冬山群英郵局",
@@ -8,6 +9,7 @@
     "address": "269宜蘭縣冬山鄉義成路三段482號"
   },
   {
+    "id": "65e819a3-3c8b-539b-b557-888513d1e62f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "冬山鄉戶政事務所",
@@ -16,6 +18,7 @@
     "address": "269宜蘭縣冬山鄉冬山路170號"
   },
   {
+    "id": "8d3acfb3-4eed-566e-ae8e-1c845962250a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "羅東南門郵局",
@@ -24,6 +27,7 @@
     "address": "265宜蘭縣羅東鎮南昌里中正南路102號"
   },
   {
+    "id": "fee1ac25-291b-5ba7-9efa-ea9680b12c64",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "羅東郵局",
@@ -32,6 +36,7 @@
     "address": "265宜蘭縣羅東鎮賢文里興東路69號"
   },
   {
+    "id": "e70ede81-5acf-590f-bd67-3410465c4667",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "羅東鎮戶政事務所",
@@ -40,6 +45,7 @@
     "address": "265宜蘭縣羅東鎮公正路159之1號"
   },
   {
+    "id": "c7f09ad1-095d-5a5e-96a6-d34ee04b01f8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "羅東大同路郵局",

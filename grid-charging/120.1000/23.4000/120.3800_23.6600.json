@@ -1,5 +1,6 @@
 [
   {
+    "id": "68110f82-200b-5e50-b595-89079e65c3a3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司土庫營運所",
@@ -8,6 +9,7 @@
     "address": "633雲林縣土庫鎮中正路53號"
   },
   {
+    "id": "40af6b9d-0d69-5b09-98d3-db70e0f83461",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "土庫郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "1f0ebeeb-5f97-5f10-b56b-0b7b57efc35a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄籬仔內郵局",
@@ -8,6 +9,7 @@
     "address": "806高雄市前鎮區瑞隆路482號"
   },
   {
+    "id": "0f3f9717-373d-530e-8e2b-d10888c16597",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄崗山仔郵局",
@@ -16,6 +18,7 @@
     "address": "806高雄市前鎮區瑞北路39號"
   },
   {
+    "id": "725f0ed9-a3e3-5bd5-9025-60e117fa83d9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄英德街郵局",
@@ -24,6 +27,7 @@
     "address": "806高雄市前鎮區英德街149號"
   },
   {
+    "id": "5dd9c1e1-0bba-5fbc-bb6c-13784a8d96d3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局高雄區監理所",
@@ -32,6 +36,7 @@
     "address": "830高雄市鳳山區武營路361號1樓"
   },
   {
+    "id": "c01d697d-7acc-541b-b087-9f426561be7f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄林華郵局",

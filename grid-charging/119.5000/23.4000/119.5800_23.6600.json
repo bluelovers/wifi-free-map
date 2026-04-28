@@ -1,5 +1,6 @@
 [
   {
+    "id": "a131890e-b540-5f99-a248-f25ea825fe41",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "北海遊客中心",
@@ -8,6 +9,7 @@
     "address": "884澎湖縣白沙鄉鄉赤崁村37-4號"
   },
   {
+    "id": "ec7abefb-4fdc-5b29-b9f5-b7b811ff222f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "白沙郵局",

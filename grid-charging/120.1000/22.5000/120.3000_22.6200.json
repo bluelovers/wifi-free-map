@@ -1,5 +1,6 @@
 [
   {
+    "id": "05b56357-5975-5d28-9b0e-ab8669635541",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市府郵局",
@@ -8,6 +9,7 @@
     "address": "802高雄市苓雅區四維三路2號"
   },
   {
+    "id": "dcb409e2-6d47-5bb4-bc65-e842f54f4448",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市苓雅區戶政事務所所本部",
@@ -16,6 +18,7 @@
     "address": "802高雄市苓雅區民權一路85號2樓"
   },
   {
+    "id": "f26ac1e0-8389-5883-83a7-9f5d931dd7e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄新田郵局",
@@ -24,6 +27,7 @@
     "address": "800高雄市新興區新田路133號"
   },
   {
+    "id": "c602b693-fad7-5c68-8181-29d35b8df793",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄文化中心郵局",
@@ -32,6 +36,7 @@
     "address": "802高雄市苓雅區光華一路148-30號"
   },
   {
+    "id": "65809503-d794-5bc9-8970-cc6dbe03595d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中油公司高雄市新興區林森二路站",
@@ -40,6 +45,7 @@
     "address": "800高雄市新興區新田路82號"
   },
   {
+    "id": "09f62489-5a6e-5e81-8dbf-69fc727cc67e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄青年郵局",
@@ -48,6 +54,7 @@
     "address": "800高雄市新興區復興二路171號"
   },
   {
+    "id": "6442c638-0075-5acf-8cb4-40a30d437ba4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新興郵局-1",
@@ -56,6 +63,7 @@
     "address": "800高雄市新興區中正三路177、179號"
   },
   {
+    "id": "7e1b8056-56aa-5978-8f5d-f95a68e6c3b3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新興郵局-2",
@@ -64,6 +72,7 @@
     "address": "800高雄市新興區中正三路177、179號"
   },
   {
+    "id": "5400aed0-f31d-5a01-afb6-daa53abbffc4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市新興區戶政事務所",
@@ -72,6 +81,7 @@
     "address": "800高雄市新興區中正三路34號2樓"
   },
   {
+    "id": "5143390f-9936-505e-851d-db8e85a2388f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄順昌郵局",
@@ -80,6 +90,7 @@
     "address": "800高雄市新興區七賢一路104、106號"
   },
   {
+    "id": "8ae5ca60-f060-57f0-b26c-97456b149121",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄站前郵局",
@@ -88,6 +99,7 @@
     "address": "807高雄市三民區建國三路2-2號"
   },
   {
+    "id": "1f67c19e-d28a-56fd-bb0c-f66445af3903",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局高雄前站候車室",
@@ -96,6 +108,7 @@
     "address": "807高雄市三民區建國二路318號"
   },
   {
+    "id": "32f4a119-28a6-5827-9cdc-fbf1d41ba328",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局高雄後站候車室",
@@ -104,6 +117,7 @@
     "address": "807高雄市三民區建國二路318號"
   },
   {
+    "id": "624be478-2e76-5f3b-be60-57f47a255be7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局高雄站前站1F東側",
@@ -112,6 +126,7 @@
     "address": "807高雄市三民區建國二路318號"
   },
   {
+    "id": "7e14554b-7355-57d5-87fd-07b2c519d020",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局高雄站第4月台",
@@ -120,6 +135,7 @@
     "address": "807高雄市三民區建國二路318號"
   },
   {
+    "id": "02ae90c2-f435-51f0-bc9b-2561ff54af05",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局高雄站第5月台",
@@ -128,6 +144,7 @@
     "address": "807高雄市三民區建國二路318號"
   },
   {
+    "id": "b3f9dc6d-59c5-56c8-b29f-8dfebb00f2c7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局高雄站前站3F候車大廳",

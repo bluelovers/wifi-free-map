@@ -1,5 +1,6 @@
 [
   {
+    "id": "493d74bb-fa38-5709-b026-365ba2ea1536",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "平鎮北勢郵局",
@@ -8,6 +9,7 @@
     "address": "324桃園市平鎮區金陵路2段59號"
   },
   {
+    "id": "a75931d0-e5b6-56c2-b3d5-67f2bb7aa3cb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢東興郵局",
@@ -16,6 +18,7 @@
     "address": "320桃園市中壢區龍岡路一段229號"
   },
   {
+    "id": "f42db1b3-8ef7-59d3-ad62-636b634acef6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局新竹分局桃園辦事處商檢/計量業務民眾洽公區",
@@ -24,6 +27,7 @@
     "address": "320桃園市中壢區龍岡路一段46號"
   },
   {
+    "id": "93fb9c7d-e9c5-5e1c-acfc-1e0d733b99fe",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司中壢服務所",
@@ -32,6 +36,7 @@
     "address": "324桃園市平鎮區延平路一段26號"
   },
   {
+    "id": "0d567e5d-36cf-5bfa-b973-beb105b95563",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局中壢分局",
@@ -40,6 +45,7 @@
     "address": "320桃園市中壢區延平路607號1樓"
   },
   {
+    "id": "15358cdf-71c8-5628-9264-a30b43c29f95",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢普仁郵局",
@@ -48,6 +54,7 @@
     "address": "320桃園市中壢區中山東路二段24號"
   },
   {
+    "id": "d7fddc53-b285-59dc-991c-0c5c73fe8a65",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中壢建國路郵局",
@@ -56,6 +63,7 @@
     "address": "320桃園市中壢區建國路36號"
   },
   {
+    "id": "4209c0a4-60f5-52c1-8ff8-db9e3390e980",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台電公司中壢服務所大廳",
@@ -64,6 +72,7 @@
     "address": "320桃園市中壢區延平路499號"
   },
   {
+    "id": "27a20167-53dc-5d06-905d-e7fd298a1841",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局新竹區監理所中壢監理站",

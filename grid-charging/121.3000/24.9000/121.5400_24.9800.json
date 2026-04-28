@@ -1,5 +1,6 @@
 [
   {
+    "id": "e4f7f198-fd82-5de4-a5c3-0ec079ce0030",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "文山木新郵局",
@@ -8,6 +9,7 @@
     "address": "116臺北市文山區木新路三段329號"
   },
   {
+    "id": "6474ff90-8692-54dd-87cf-51f2cb435ad8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新店大坪林郵局",
@@ -16,6 +18,7 @@
     "address": "231新北市新店區北新路三段116號"
   },
   {
+    "id": "e5da8b9b-ee19-5771-9cae-adb558029872",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "文山溝子口郵局",
@@ -24,6 +27,7 @@
     "address": "116臺北市文山區木柵路一段119號"
   },
   {
+    "id": "9dacd74b-d3bf-592b-b535-7bee2ecd2d1f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "世新大學郵局",
@@ -32,6 +36,7 @@
     "address": "116臺北市文山區木柵路一段17巷1號"
   },
   {
+    "id": "c062b1f7-979b-5465-b4fb-4a7a2491f0e8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "文山景美郵局",
@@ -40,6 +45,7 @@
     "address": "116臺北市文山區羅斯福路六段389號"
   },
   {
+    "id": "b6cad771-306a-58b4-9802-d0e476e8d1d0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部公路總局第一區養護工程處景美工務段",
@@ -48,6 +54,7 @@
     "address": "116臺北市文山區三福街12號"
   },
   {
+    "id": "c6baf82c-0373-5816-8cf5-e93a420f5e5d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "文山萬芳郵局",

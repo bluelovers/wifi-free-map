@@ -1,5 +1,6 @@
 [
   {
+    "id": "b2624f01-548b-5ad3-bd2e-b9b5d92fea2d",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龜山工業區服務中心",
@@ -8,6 +9,7 @@
     "address": "330桃園市桃園區大誠路9號2樓"
   },
   {
+    "id": "b8a095fa-6a03-5977-9523-4a576dbd1ba2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園大樹林郵局",
@@ -16,6 +18,7 @@
     "address": "330桃園市桃園區大誠路9號"
   },
   {
+    "id": "bc194f83-8fbf-51c5-a89a-81d2fc59365e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龜山民安街郵局",
@@ -24,6 +27,7 @@
     "address": "333桃園市龜山區民安街120號"
   },
   {
+    "id": "967e27ec-ff33-5936-b688-e613186b81ca",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市政府警察局龜山分局",
@@ -32,6 +36,7 @@
     "address": "333桃園市龜山區自強南路123號"
   },
   {
+    "id": "7b671240-cbd0-5fe7-829e-926a38febd39",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "桃園市龜山區戶政事務所",
@@ -40,6 +45,7 @@
     "address": "333桃園市龜山區自強南路99號"
   },
   {
+    "id": "276d6eb6-3eae-5a2a-a777-d34670fc8403",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龜山郵局",

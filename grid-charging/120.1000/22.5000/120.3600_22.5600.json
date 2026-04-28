@@ -1,5 +1,6 @@
 [
   {
+    "id": "3d9fab4e-4425-5c68-ba98-bfcae636c000",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄宏平郵局",
@@ -8,6 +9,7 @@
     "address": "812高雄市小港區宏平路322號"
   },
   {
+    "id": "779c3180-eff9-572b-8fb0-ac9fa7d4ee45",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄高松郵局",

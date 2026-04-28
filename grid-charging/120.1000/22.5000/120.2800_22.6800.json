@@ -1,5 +1,6 @@
 [
   {
+    "id": "f7ae3dda-4bd1-5cf8-bdc4-a99487df7f02",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局左營站售票房",
@@ -8,6 +9,7 @@
     "address": "813高雄市左營區勝利路1號"
   },
   {
+    "id": "685ca247-7d95-56ff-8fba-93f782809f2f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "左營南站郵局",
@@ -16,6 +18,7 @@
     "address": "813高雄市左營區左營大路75號"
   },
   {
+    "id": "2294952c-e6fc-57c2-b83c-56cc29e80b49",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市左營區戶政事務所",
@@ -24,6 +27,7 @@
     "address": "813高雄市左營區左營大路479號3樓"
   },
   {
+    "id": "0fb5437b-c56c-5a9f-be96-2ff33a06073f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "左營郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "58257dfa-10b6-5074-837f-399ac2accc9b",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "溪湖郵局",
@@ -8,6 +9,7 @@
     "address": "514彰化縣溪湖鎮彰水路3段430號"
   },
   {
+    "id": "7db08766-2398-5e08-ac00-f024cf98a283",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "彰化縣溪湖鎮戶政事務所",
@@ -16,6 +18,7 @@
     "address": "514彰化縣溪湖鎮青雅路68號"
   },
   {
+    "id": "0b5c829c-a1e3-5b63-9fa0-467cea1b7dd9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司溪湖營運所",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "498ecb72-26ba-5f20-84cc-30e4a95fe03f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "經濟部加工出口區管理處從業員工服務中心",
@@ -8,6 +9,7 @@
     "address": "811高雄市楠梓區經二路15號"
   },
   {
+    "id": "ea1abab3-3dcd-5769-be9f-9711be6888e6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楠梓加工區郵局",
@@ -16,6 +18,7 @@
     "address": "811高雄市楠梓區加昌路600-15號"
   },
   {
+    "id": "88f93de5-5892-5d0a-96c8-19fe6d1bb6b7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "楠梓翠屏郵局",
@@ -24,6 +27,7 @@
     "address": "811高雄市楠梓區德祥路129、131號"
   },
   {
+    "id": "5d7ec3ac-ff24-5b9d-82e5-b0c58a6a46f2",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "交通部公路總局高雄市區監理所",

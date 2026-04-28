@@ -1,5 +1,6 @@
 [
   {
+    "id": "ee8d1da9-5c07-594f-85be-894ab8332844",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "斗南郵局",
@@ -8,6 +9,7 @@
     "address": "630雲林縣斗南鎮南昌里中山路77號"
   },
   {
+    "id": "74895e2d-d7ff-5396-ad2a-22a94f0316d0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司斗南營運所",

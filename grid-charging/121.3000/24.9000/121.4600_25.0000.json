@@ -1,5 +1,6 @@
 [
   {
+    "id": "300b2a79-7edf-52cf-aae0-8f3573712b23",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中和國光街郵局",
@@ -8,6 +9,7 @@
     "address": "235新北市中和區國光街159號一樓"
   },
   {
+    "id": "eb940e33-df49-5487-b4cb-feb1eee1c798",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋後埔郵局",
@@ -16,6 +18,7 @@
     "address": "220新北市板橋區實踐路128號"
   },
   {
+    "id": "5a626662-4ad4-5603-bc62-4f9d5375a588",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市中和戶政事務所民享辦事處",
@@ -24,6 +27,7 @@
     "address": "235新北市中和區民享街37號2樓之1"
   },
   {
+    "id": "62a4cc2d-00c5-51b3-9ce9-52346e7d0c34",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局臺北區監理所板橋監理站",
@@ -32,6 +36,7 @@
     "address": "235新北市中和區中山路3段116號"
   },
   {
+    "id": "9f838fbd-ffe7-5096-884b-046bcdc50e86",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "中和民富街郵局",
@@ -40,6 +45,7 @@
     "address": "235新北市中和區中山路三段110號"
   },
   {
+    "id": "ba199a75-6ebb-5fcd-9483-d611cfbe6238",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋民族路郵局",
@@ -48,6 +54,7 @@
     "address": "220新北市板橋區民族路263號"
   },
   {
+    "id": "fbcdd584-5fdd-596d-99d5-9cb233c29c1f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋站前郵局",
@@ -56,6 +63,7 @@
     "address": "220新北市板橋區挹秀里8鄰府中路16號"
   },
   {
+    "id": "29602f2a-0036-5430-9204-fe3eafb5f968",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "新北市板橋戶政事務所海山辦事處_A",
@@ -64,6 +72,7 @@
     "address": "220新北市板橋區漢生東路195-1號1樓"
   },
   {
+    "id": "fd5800c5-6109-5699-85e2-2ee9eb6ac7be",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司板橋服務所",
@@ -72,6 +81,7 @@
     "address": "220新北市板橋區三民路二段253號"
   },
   {
+    "id": "cd3efff2-fa0f-5e17-be75-a53298159f29",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台北縣政府郵局",
@@ -80,6 +90,7 @@
     "address": "220新北市板橋區中山路一段161號B1"
   },
   {
+    "id": "2b023fde-65af-5e1f-9582-7d4df16c88c6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋海山郵局",
@@ -88,6 +99,7 @@
     "address": "220新北市板橋區漢生東路171號"
   },
   {
+    "id": "ea1fd7f0-d387-553b-a442-09e48d352d1f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高鐵局民眾閱覽室",
@@ -96,6 +108,7 @@
     "address": "220新北市板橋區縣民大道2段7號13樓"
   },
   {
+    "id": "726cc90a-4877-52d7-a141-9e57d5378b05",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高鐵局沿革展示室",
@@ -104,6 +117,7 @@
     "address": "220新北市板橋區縣民大道2段7號12樓"
   },
   {
+    "id": "1db8fcea-ff5a-5cbc-afa8-5e0da1c56f2a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高鐵局圖資室",
@@ -112,6 +126,7 @@
     "address": "220新北市板橋區縣民大道2段7號11樓"
   },
   {
+    "id": "40065db1-6194-51b7-b00d-2c460fb85579",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高鐵局服務台",
@@ -120,6 +135,7 @@
     "address": "220新北市板橋區縣民大道2段7號9樓東側"
   },
   {
+    "id": "27c382e7-ee7d-562f-b4ab-8977e9e35b80",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局板橋站車站1F票房",
@@ -128,6 +144,7 @@
     "address": "220新北市板橋區縣民大道2段7號"
   },
   {
+    "id": "0960374a-40cf-55a1-8286-0cb9041d72d3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局板橋站值班站長室",
@@ -136,6 +153,7 @@
     "address": "220新北市板橋區縣民大道2段7號"
   },
   {
+    "id": "14c05597-e50e-5a70-a6e6-073b45e2ec48",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局板橋站地下1樓剪票口(東)",
@@ -144,6 +162,7 @@
     "address": "220新北市板橋區縣民大道2段7號"
   },
   {
+    "id": "b22fe7e8-cdac-59e0-ba8e-d25df1d27b49",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局板橋站地下1樓剪票口(西)",
@@ -152,6 +171,7 @@
     "address": "220新北市板橋區縣民大道2段7號"
   },
   {
+    "id": "65a3e558-af5c-5909-a405-69cb7070e1ce",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局板橋站第1月台南側",
@@ -160,6 +180,7 @@
     "address": "220新北市板橋區縣民大道2段7號"
   },
   {
+    "id": "34d54575-7b4c-5a0e-8084-aad43b26ce0a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺鐵局板橋站第2月台北側",
@@ -168,6 +189,7 @@
     "address": "220新北市板橋區縣民大道2段7號"
   },
   {
+    "id": "d9f787b8-6b9f-5315-bf41-4c12df8d04c8",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋埔墘郵局",
@@ -176,6 +198,7 @@
     "address": "220新北市板橋區中山路二段109號"
   },
   {
+    "id": "88258605-189f-51cd-a0a5-1edbf5418f47",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "板橋漢生郵局",

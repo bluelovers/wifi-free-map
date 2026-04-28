@@ -1,5 +1,6 @@
 [
   {
+    "id": "632f6f59-e3c6-5b09-8d3f-93beec7ae277",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司樹林服務所",
@@ -8,6 +9,7 @@
     "address": "238新北市樹林區武林街6-1號"
   },
   {
+    "id": "da2746b3-c87e-58aa-b749-4a2c71aad155",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "樹林工業區服務中心",
@@ -16,6 +18,7 @@
     "address": "238新北市樹林區武林街6號1樓"
   },
   {
+    "id": "72152b50-7f22-5e2f-8f83-432f893ba183",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "樹林中正路郵局",
@@ -24,6 +27,7 @@
     "address": "238新北市樹林區中正路248巷12號"
   },
   {
+    "id": "f4ab8193-7f3b-51dd-a41e-77dcb9e88f9a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公路總局臺北區監理所",
@@ -32,6 +36,7 @@
     "address": "238新北市樹林區中正路248巷7號"
   },
   {
+    "id": "8dbad8b4-7e3f-51c3-88f0-0640352121b3",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "行政院交通部公路總局臺北區監理所行政大樓4樓",
@@ -40,6 +45,7 @@
     "address": "238新北市樹林區中正路248巷7號4樓"
   },
   {
+    "id": "dafeb966-3461-52b0-97f1-904b6724eab0",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "樹林三多郵局",
@@ -48,6 +54,7 @@
     "address": "238新北市樹林區三福街70巷1號"
   },
   {
+    "id": "c9cb2123-e992-5339-9517-3ea7af993543",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "龜山迴龍郵局",
@@ -56,6 +63,7 @@
     "address": "333桃園市龜山區萬壽路一段374、376號"
   },
   {
+    "id": "dffa0aec-ea7b-50af-8b0c-1b6a7ee0d6af",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "樹林迴龍郵局",

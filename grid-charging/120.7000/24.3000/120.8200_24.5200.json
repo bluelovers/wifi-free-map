@@ -1,5 +1,6 @@
 [
   {
+    "id": "f705312a-4e20-5ca3-b169-2f7b2ee917b7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高速公路局苗栗工務段會議室",
@@ -8,6 +9,7 @@
     "address": "363苗栗縣公館鄉五谷村11鄰11之1號"
   },
   {
+    "id": "60a366ac-93ed-52ae-aee0-742690756bb6",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "公館鶴岡郵局",

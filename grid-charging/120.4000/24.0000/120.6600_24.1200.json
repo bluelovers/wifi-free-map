@@ -1,5 +1,6 @@
 [
   {
+    "id": "a9095da5-7bf2-5773-869e-7c401e15c641",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中國光路郵局",
@@ -8,6 +9,7 @@
     "address": "402臺中市南區國光路297號"
   },
   {
+    "id": "1e32d06e-44dd-5db9-a69e-540181fdb52a",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中福平里郵局",
@@ -16,6 +18,7 @@
     "address": "402臺中市南區復興路二段169號"
   },
   {
+    "id": "6bccc47b-6f70-552b-a3c8-ac28f3261aca",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中愛國街郵局",
@@ -24,6 +27,7 @@
     "address": "402臺中市南區愛國街87號"
   },
   {
+    "id": "10faa538-7e75-54e8-b596-f8107f412924",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中大全街郵局",
@@ -32,6 +36,7 @@
     "address": "403臺中市西區大全街42、44、46號"
   },
   {
+    "id": "ec9480c7-0735-50ce-ac9e-45d89f56caf7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市西區戶政事務所",
@@ -40,6 +45,7 @@
     "address": "403臺中市西區三民路一段161號3樓"
   },
   {
+    "id": "fe26856c-9729-5e8d-bb99-f17aa74e0683",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中民權路郵局",

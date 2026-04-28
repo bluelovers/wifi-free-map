@@ -1,5 +1,6 @@
 [
   {
+    "id": "969ea132-71b4-5cf5-b370-8a4c8aa57a07",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "潭子栗林郵局",
@@ -8,6 +9,7 @@
     "address": "427臺中市潭子區栗林村中山路三段334號"
   },
   {
+    "id": "8ed68516-b0e4-59b4-ad71-0e68e565a054",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "豐原中山路郵局",

@@ -1,5 +1,6 @@
 [
   {
+    "id": "acfab268-c389-540d-8f50-51b81be44364",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "永安郵局",
@@ -8,6 +9,7 @@
     "address": "828高雄市永安區永華村永華路15號"
   },
   {
+    "id": "f0ad39af-2b85-55d9-8073-cc02e73ad4a9",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "高雄市永安區戶政事務所",

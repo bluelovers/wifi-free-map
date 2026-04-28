@@ -1,5 +1,6 @@
 [
   {
+    "id": "109f56bc-ef86-55f2-a904-a6a42c7685df",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮港務局郵局",
@@ -8,6 +9,7 @@
     "address": "970花蓮縣花蓮市民權路27號"
   },
   {
+    "id": "040c0f00-83e4-5711-be19-7accad898da7",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "標準檢驗局花蓮分局商檢/計量業務民眾洽公區",
@@ -16,6 +18,7 @@
     "address": "970花蓮縣花蓮市海岸路19號"
   },
   {
+    "id": "f839d102-6333-52fd-bc2f-3440227ef9f4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮府前路郵局",
@@ -24,6 +27,7 @@
     "address": "970花蓮縣花蓮市府前路146號"
   },
   {
+    "id": "91db86eb-284f-554b-93f0-183708ed3292",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮縣花蓮市戶政事務所",
@@ -32,6 +36,7 @@
     "address": "970花蓮縣花蓮市民權路127號"
   },
   {
+    "id": "d3e38e02-9ffd-5d6a-8b1c-a832225ccaa4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "花蓮下美崙郵局",
@@ -40,6 +45,7 @@
     "address": "970花蓮縣花蓮市民權路132號"
   },
   {
+    "id": "d16dab46-e056-54d3-988e-d8cb16d315f4",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺花蓮分臺",

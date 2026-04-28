@@ -1,5 +1,6 @@
 [
   {
+    "id": "01121083-d4a4-5276-8c5d-8422ab85b069",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "成功郵局",
@@ -8,6 +9,7 @@
     "address": "961臺東縣成功鎮中華路77號"
   },
   {
+    "id": "06487c9d-fc73-511f-b21b-65d23875bb1f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "自來水公司成功營運所",

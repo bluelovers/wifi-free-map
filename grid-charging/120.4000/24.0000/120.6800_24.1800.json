@@ -1,5 +1,6 @@
 [
   {
+    "id": "ed9f6efa-20c8-5733-980e-a022de4ec2bb",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "臺中市北屯區戶政事務所",
@@ -8,6 +9,7 @@
     "address": "406臺中市北屯區崇德路三段10號1樓"
   },
   {
+    "id": "a9524dac-a242-5202-8e6d-dafba7bbe14f",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中松竹郵局",
@@ -16,6 +18,7 @@
     "address": "406臺中市北屯區松竹北路110號"
   },
   {
+    "id": "7667ebd6-179e-529b-9c05-f7300a85800e",
     "dataType": "charging",
     "dataSource": "gov-data",
     "name": "台中四張犁郵局",
