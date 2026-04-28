@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "通霄郵局",
     "lat": 24.490606,
     "lng": 120.679906,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局通霄站候車室",
     "lat": 24.491476,
     "lng": 120.678388,

@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣光復鄉大進社區發展協會",
     "lat": 23.654069,
     "lng": 121.419306,
-    "address": "976花蓮縣光復鄉大進村糖廠街2號"
+    "address": "976花蓮縣光復鄉大進村糖廠街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣光復鄉大進國民小學",
     "lat": 23.654942,
     "lng": 121.419353,
-    "address": "976花蓮縣光復鄉大進村糖廠街4號"
+    "address": "976花蓮縣光復鄉大進村糖廠街4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "光復糖廠花蓮旅店",
     "lat": 23.658103,
     "lng": 121.419225,
-    "address": "976花蓮縣光復鄉糖廠街19號"
+    "address": "976花蓮縣光復鄉糖廠街19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

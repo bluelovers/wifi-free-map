@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市新屋區石牌社區發展協會",
     "lat": 25.002859,
     "lng": 121.052394,
-    "address": "327桃園市新屋區石牌里3鄰東興路二段568號"
+    "address": "327桃園市新屋區石牌里3鄰東興路二段568號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市觀音區保生社區發展協會",
     "lat": 25.015767,
     "lng": 121.055976,
-    "address": "328桃園市觀音區保生里11鄰保成路32號"
+    "address": "328桃園市觀音區保生里11鄰保成路32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣佳冬鄉塭豐社區發展協會",
     "lat": 22.412296,
     "lng": 120.521762,
-    "address": "931屏東縣佳冬鄉塭豐村塭田路206號"
+    "address": "931屏東縣佳冬鄉塭豐村塭田路206號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

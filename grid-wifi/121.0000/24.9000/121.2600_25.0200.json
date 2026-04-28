@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "蘆竹大竹郵局",
     "lat": 25.020407,
     "lng": 121.264733,
-    "address": "338桃園市蘆竹區大竹路385號"
+    "address": "338桃園市蘆竹區大竹路385號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市蘆竹區富竹社區發展協會",
     "lat": 25.030741,
     "lng": 121.264048,
-    "address": "338桃園市蘆竹區富竹里南竹路四段富竹街109號"
+    "address": "338桃園市蘆竹區富竹里南竹路四段富竹街109號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

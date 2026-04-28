@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "枋山郵局",
     "lat": 22.198478,
     "lng": 120.689669,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司屏東縣枋山鄉楓港站",
     "lat": 22.199387,
     "lng": 120.689349,

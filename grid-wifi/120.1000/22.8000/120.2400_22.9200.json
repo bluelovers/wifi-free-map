@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局仁德站候車室",
     "lat": 22.921678,
     "lng": 120.243151,
-    "address": "717臺南市仁德區永德路10號"
+    "address": "717臺南市仁德區永德路10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市仁德區文賢里辦公處",
     "lat": 22.937,
     "lng": 120.244,
-    "address": "717臺南市仁德區文賢里保安路二段481號"
+    "address": "717臺南市仁德區文賢里保安路二段481號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

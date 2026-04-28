@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會佳里榮譽國民之家行政大樓一樓大廳",
     "lat": 23.120185,
     "lng": 120.072301,
-    "address": "724臺南市七股區三股村147號"
+    "address": "724臺南市七股區三股村147號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "台江國家公園六孔遊客中心",
     "lat": 23.122916,
     "lng": 120.077691,
-    "address": "724臺南市七股區三股里海埔18號"
+    "address": "724臺南市七股區三股里海埔18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

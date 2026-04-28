@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "二子坪遊客服務站",
     "lat": 25.237046,
     "lng": 121.525582,
-    "address": "252新北市三芝區新華里車埕53-3號"
+    "address": "252新北市三芝區新華里車埕53-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "大屯遊客服務站",
     "lat": 25.237046,
     "lng": 121.525582,
-    "address": "252新北市三芝區新華里車埕53-2號"
+    "address": "252新北市三芝區新華里車埕53-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "三芝遊客中心",
     "lat": 25.237046,
     "lng": 121.525582,
-    "address": "252新北市三芝區埔平里埔頭坑164-2號"
+    "address": "252新北市三芝區埔平里埔頭坑164-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

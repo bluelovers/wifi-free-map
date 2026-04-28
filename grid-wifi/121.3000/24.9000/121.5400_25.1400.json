@@ -1,122 +1,167 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "第一展望-E-紗帽路",
     "lat": 25.142227,
     "lng": 121.544236,
-    "address": "112臺北市北投區紗帽路84號旁候車亭"
+    "address": "112臺北市北投區紗帽路84號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "山豬湖-N-菁山路",
     "lat": 25.14233,
     "lng": 121.556449,
-    "address": "111臺北市士林區菁山路101巷口(菁山路101巷與菁山路交叉口)候車亭"
+    "address": "111臺北市士林區菁山路101巷口(菁山路101巷與菁山路交叉口)候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "菁山一-S-菁山路",
     "lat": 25.14507,
     "lng": 121.557613,
-    "address": "111臺北市士林區菁山路101巷21弄2號旁候車亭"
+    "address": "111臺北市士林區菁山路101巷21弄2號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "菁山二-N-菁山路",
     "lat": 25.146411,
     "lng": 121.558929,
-    "address": "111臺北市士林區菁山路101巷28號候車亭"
+    "address": "111臺北市士林區菁山路101巷28號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "紗帽陽明路口",
     "lat": 25.149148,
     "lng": 121.548456,
-    "address": "112臺北市北投區紗帽路110號(公園派出所)右轉中橫路威溫泉路公共浴室前"
+    "address": "112臺北市北投區紗帽路110號(公園派出所)右轉中橫路威溫泉路公共浴室前",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "教師中心-N-紗帽路",
     "lat": 25.15022,
     "lng": 121.547798,
-    "address": "112臺北市北投區紗帽路123號對面候車亭"
+    "address": "112臺北市北投區紗帽路123號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "教師研習中心行政大樓1F會客室旁走廊上方",
     "lat": 25.150633,
     "lng": 121.549644,
-    "address": "112臺北市北投區建國街2號1F"
+    "address": "112臺北市北投區建國街2號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "教師研習中心行政大樓1F中正堂門口內上方",
     "lat": 25.150669,
     "lng": 121.54974,
-    "address": "112臺北市北投區建國街2號1F"
+    "address": "112臺北市北投區建國街2號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "教師研習中心研習大樓1F演講廳大門內上方",
     "lat": 25.151115,
     "lng": 121.549673,
-    "address": "112臺北市北投區建國街2號1F"
+    "address": "112臺北市北投區建國街2號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "陽明山郵局",
     "lat": 25.151339,
     "lng": 121.54599,
-    "address": "112臺北市北投區紗帽路139-1號"
+    "address": "112臺北市北投區紗帽路139-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "陽明教養院華岡院區1F咖啡廳與門口中央上方",
     "lat": 25.15174,
     "lng": 121.546545,
-    "address": "111臺北市士林區凱旋路61巷4弄9號1F"
+    "address": "111臺北市士林區凱旋路61巷4弄9號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "陽明山-E-湖山路一段",
     "lat": 25.152284,
     "lng": 121.547355,
-    "address": "112臺北市北投區湖山路一段14號對面候車亭"
+    "address": "112臺北市北投區湖山路一段14號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "陽明山-S-紗帽路",
     "lat": 25.1523,
     "lng": 121.547387,
-    "address": "112臺北市北投區湖山路一段14號對面候車亭"
+    "address": "112臺北市北投區湖山路一段14號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "陽明山國家公園管理處-N-竹子湖路",
     "lat": 25.155414,
     "lng": 121.546096,
-    "address": "112臺北市北投區竹子湖路1號旁候車亭(陽明山國家公園遊客中心出入口)"
+    "address": "112臺北市北投區竹子湖路1號旁候車亭(陽明山國家公園遊客中心出入口)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "陽明山國家公園遊客中心",
     "lat": 25.155735,
     "lng": 121.547679,
-    "address": "112臺北市北投區陽明山竹子湖路1-20號"
+    "address": "112臺北市北投區陽明山竹子湖路1-20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

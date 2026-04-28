@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣五結鄉協和社區發展協會",
     "lat": 24.688298,
     "lng": 121.804461,
-    "address": "268宜蘭縣五結鄉協和村五結路二段199號"
+    "address": "268宜蘭縣五結鄉協和村五結路二段199號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣五結鄉孝威社區發展協會",
     "lat": 24.696676,
     "lng": 121.811437,
-    "address": "268宜蘭縣五結鄉孝威村孝威路326號"
+    "address": "268宜蘭縣五結鄉孝威村孝威路326號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣五結鄉孝威國小樂學樓一樓川堂",
     "lat": 24.697149,
     "lng": 121.811299,
-    "address": "268宜蘭縣五結鄉孝威路328號"
+    "address": "268宜蘭縣五結鄉孝威路328號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

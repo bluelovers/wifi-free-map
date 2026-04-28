@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "金門烈嶼郵局",
     "lat": 24.430222,
     "lng": 118.246608,

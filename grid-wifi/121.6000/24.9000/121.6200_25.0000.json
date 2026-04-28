@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市深坑區土庫里辦公處",
     "lat": 25.010023,
     "lng": 121.634587,
-    "address": "222新北市深坑區土庫里北深路一段83巷8弄36號三樓"
+    "address": "222新北市深坑區土庫里北深路一段83巷8弄36號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市三峽區老人會",
     "lat": 24.943191,
     "lng": 121.401314,
-    "address": "237新北市三峽區溪北里介壽路三段148號一樓之2"
+    "address": "237新北市三峽區溪北里介壽路三段148號一樓之2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市土城區祖田里辦公處",
     "lat": 24.952375,
     "lng": 121.411545,
-    "address": "236新北市土城區頂新里中央路四段283之1號二樓"
+    "address": "236新北市土城區頂新里中央路四段283之1號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "頂欣社區發展協會",
     "lat": 24.952911,
     "lng": 121.411858,
-    "address": "236新北市土城區頂新里中央路四段283之1號一樓"
+    "address": "236新北市土城區頂新里中央路四段283之1號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣水上鄉龍德社區發展協會",
     "lat": 23.425,
     "lng": 120.387,
-    "address": "608嘉義縣水上鄉龍德村5鄰十一指厝53之6號"
+    "address": "608嘉義縣水上鄉龍德村5鄰十一指厝53之6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣水上鄉公所",
     "lat": 23.428588,
     "lng": 120.39808,
-    "address": "608嘉義縣水上鄉正義路141號"
+    "address": "608嘉義縣水上鄉正義路141號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣水上戶政事務所",
     "lat": 23.42979,
     "lng": 120.395861,
-    "address": "608嘉義縣水上鄉水上村2鄰市政街31巷23號"
+    "address": "608嘉義縣水上鄉水上村2鄰市政街31巷23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣水上地政事務所",
     "lat": 23.430542,
     "lng": 120.395789,
-    "address": "608嘉義縣水上鄉嘉朴路33號"
+    "address": "608嘉義縣水上鄉嘉朴路33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣警察局水上分局",
     "lat": 23.432391,
     "lng": 120.399147,
-    "address": "608嘉義縣水上鄉中興路528號"
+    "address": "608嘉義縣水上鄉中興路528號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

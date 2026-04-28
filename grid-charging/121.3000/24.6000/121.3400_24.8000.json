@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局大溪分局復興分駐所",
     "lat": 24.814185,
     "lng": 121.350963,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "復興郵局",
     "lat": 24.81569,
     "lng": 121.351272,

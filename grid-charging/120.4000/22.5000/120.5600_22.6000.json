@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內埔郵局",
     "lat": 22.612388,
     "lng": 120.567046,

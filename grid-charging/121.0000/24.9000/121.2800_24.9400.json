@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "八德麻園郵局",
     "lat": 24.949655,
     "lng": 121.297486,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "太平坪林郵局",
     "lat": 24.145076,
     "lng": 120.734317,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市太平區戶政事務所",
     "lat": 24.146811,
     "lng": 120.725472,

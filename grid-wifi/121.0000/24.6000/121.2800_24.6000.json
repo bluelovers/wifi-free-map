@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣尖石鄉泰崗部落",
     "lat": 24.61127,
     "lng": 121.29621,
-    "address": "313新竹縣尖石鄉秀巒村泰崗7鄰58號"
+    "address": "313新竹縣尖石鄉秀巒村泰崗7鄰58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣尖石鄉控溪部落",
     "lat": 24.61873,
     "lng": 121.28546,
-    "address": "313新竹縣尖石鄉秀巒村控溪4鄰8號"
+    "address": "313新竹縣尖石鄉秀巒村控溪4鄰8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

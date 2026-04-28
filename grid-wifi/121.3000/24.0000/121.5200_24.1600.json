@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "太魯閣國家公園管理處布洛灣管理站遊客中心廣場",
     "lat": 24.169767,
     "lng": 121.534607,
-    "address": "972花蓮縣秀林鄉富世232號-1"
+    "address": "972花蓮縣秀林鄉富世232號-1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

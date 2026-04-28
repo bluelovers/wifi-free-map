@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市復興區戶政事務所",
     "lat": 24.822263,
     "lng": 121.350775,
-    "address": "336桃園市復興區澤仁里14鄰中正路180號"
+    "address": "336桃園市復興區澤仁里14鄰中正路180號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園巿復興區新村部落",
     "lat": 24.826285,
     "lng": 121.34783,
-    "address": "336桃園市復興區三民里水管頭1鄰12號"
+    "address": "336桃園市復興區三民里水管頭1鄰12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

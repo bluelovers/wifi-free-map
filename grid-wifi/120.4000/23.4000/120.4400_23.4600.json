@@ -1,682 +1,937 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市嘉油鐵馬道(世賢路四段)",
     "lat": 23.461898,
     "lng": 120.447066,
-    "address": "600嘉義市西區世賢路四段250號後"
+    "address": "600嘉義市西區世賢路四段250號後",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院勞動部勞工保險局嘉義辦事處洽公櫃台",
     "lat": 23.463632,
     "lng": 120.455436,
-    "address": "600嘉義市東區大業街2號"
+    "address": "600嘉義市東區大業街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市政府警察局第二分局",
     "lat": 23.463778,
     "lng": 120.455743,
-    "address": "600嘉義市東區吳鳳南路367號"
+    "address": "600嘉義市東區吳鳳南路367號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市南興公園",
     "lat": 23.465869,
     "lng": 120.457435,
-    "address": "600嘉義市東區南興公園"
+    "address": "600嘉義市東區南興公園",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司嘉義市服務中心",
     "lat": 23.466967,
     "lng": 120.446211,
-    "address": "600嘉義市西區民生南路217號"
+    "address": "600嘉義市西區民生南路217號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中油公司煉製研究所",
     "lat": 23.466967,
     "lng": 120.446211,
-    "address": "600嘉義市西區民生南路217號"
+    "address": "600嘉義市西區民生南路217號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市民生公園-1",
     "lat": 23.467551,
     "lng": 120.446162,
-    "address": "600嘉義市西區民生南路222號對面電信箱"
+    "address": "600嘉義市西區民生南路222號對面電信箱",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市民生公園-2",
     "lat": 23.468523,
     "lng": 120.446371,
-    "address": "600嘉義市西區民生南路與興業西路口公話亭"
+    "address": "600嘉義市西區民生南路與興業西路口公話亭",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市西區白川町社區發展協會",
     "lat": 23.4688,
     "lng": 120.44212,
-    "address": "600嘉義市西區翠岱里志昇街107號一樓"
+    "address": "600嘉義市西區翠岱里志昇街107號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義興業路郵局",
     "lat": 23.469252,
     "lng": 120.454641,
-    "address": "600嘉義市東區興業東路12號"
+    "address": "600嘉義市東區興業東路12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司嘉義直銷中心",
     "lat": 23.469252,
     "lng": 120.454641,
-    "address": "600嘉義市東區興業東路12號"
+    "address": "600嘉義市東區興業東路12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署雲嘉南分署嘉義就業中心",
     "lat": 23.469468,
     "lng": 120.455458,
-    "address": "600嘉義市東區興業東路267號"
+    "address": "600嘉義市東區興業東路267號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市經國新城社區健康關懷小站",
     "lat": 23.469723,
     "lng": 120.444027,
-    "address": "600嘉義市西區新榮路35巷1號"
+    "address": "600嘉義市西區新榮路35巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人私立天主教中華聖母社會福慈善事業基金會",
     "lat": 23.47,
     "lng": 120.4446,
-    "address": "600嘉義市西區致遠里新榮路35巷14號一樓"
+    "address": "600嘉義市西區致遠里新榮路35巷14號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台灣中油股份有限公司溶劑化學品事業部",
     "lat": 23.470234,
     "lng": 120.454938,
-    "address": "600嘉義市東區興業東路6號"
+    "address": "600嘉義市東區興業東路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市南田公園",
     "lat": 23.470766,
     "lng": 120.455286,
-    "address": "600嘉義市東區興業東路265巷1號前"
+    "address": "600嘉義市東區興業東路265巷1號前",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市崇文公園",
     "lat": 23.471148,
     "lng": 120.452141,
-    "address": "600嘉義市西區永安街22號對面"
+    "address": "600嘉義市西區永安街22號對面",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市西區育英里辦公處",
     "lat": 23.47143,
     "lng": 120.44944,
-    "address": "600嘉義市西區育英里國華街52號"
+    "address": "600嘉義市西區育英里國華街52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中油公司煉製研究所招待所",
     "lat": 23.471454,
     "lng": 120.454295,
-    "address": "600嘉義市東區吳鳳南路91號"
+    "address": "600嘉義市東區吳鳳南路91號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "嘉義市大同國民小學1樓中廊",
     "lat": 23.472153,
     "lng": 120.445572,
-    "address": "600嘉義市西區成功街15號"
+    "address": "600嘉義市西區成功街15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義成功街郵局",
     "lat": 23.472182,
     "lng": 120.442699,
-    "address": "600嘉義市西區成功街112號"
+    "address": "600嘉義市西區成功街112號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市西區鳳梨會社社區發展協會",
     "lat": 23.47228,
     "lng": 120.44051,
-    "address": "600嘉義市西區垂楊里建成街58巷73號"
+    "address": "600嘉義市西區垂楊里建成街58巷73號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市政府警察局第二分局新南派出所",
     "lat": 23.472399,
     "lng": 120.454334,
-    "address": "600嘉義市東區吳鳳南路75號"
+    "address": "600嘉義市東區吳鳳南路75號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市垂楊路候車亭(遠東百貨前)",
     "lat": 23.472892,
     "lng": 120.441117,
-    "address": "600嘉義市西區垂楊路537號(遠東百貨前公話亭)"
+    "address": "600嘉義市西區垂楊路537號(遠東百貨前公話亭)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺灣菸酒嘉義便利店",
     "lat": 23.473112,
     "lng": 120.444697,
-    "address": "600嘉義市西區垂楊路427號1樓"
+    "address": "600嘉義市西區垂楊路427號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市西區導民社區發展協會",
     "lat": 23.47338,
     "lng": 120.44751,
-    "address": "600嘉義市西區導明里7鄰垂楊路309號"
+    "address": "600嘉義市西區導明里7鄰垂楊路309號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市文化路商圈5",
     "lat": 23.47378,
     "lng": 120.45036,
-    "address": "600嘉義市西區垂楊路、文化路口公話亭"
+    "address": "600嘉義市西區垂楊路、文化路口公話亭",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司嘉義區處服務中心營業廳",
     "lat": 23.474034,
     "lng": 120.455123,
-    "address": "600嘉義市東區垂楊路223號"
+    "address": "600嘉義市東區垂楊路223號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會動植物防疫檢疫局臺中分局嘉義檢疫站",
     "lat": 23.474082,
     "lng": 120.44215,
-    "address": "600嘉義市西區仁愛路327號2樓"
+    "address": "600嘉義市西區仁愛路327號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市蘇周連宗祠",
     "lat": 23.474166,
     "lng": 120.45176,
-    "address": "600嘉義市東區垂楊路326號"
+    "address": "600嘉義市東區垂楊路326號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會農糧署南區分署-嘉義辦事處",
     "lat": 23.474269,
     "lng": 120.44228,
-    "address": "600嘉義市西區仁愛路327號"
+    "address": "600嘉義市西區仁愛路327號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市文化公園2",
     "lat": 23.4744,
     "lng": 120.451,
-    "address": "600嘉義市西區文化路1-5號對面(靠近垂楊路公廁)"
+    "address": "600嘉義市西區文化路1-5號對面(靠近垂楊路公廁)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺中榮總嘉義分院附設門診部門診大樓1F大廳",
     "lat": 23.474972,
     "lng": 120.453281,
-    "address": "600嘉義市東區吳鳳北路35巷4號"
+    "address": "600嘉義市東區吳鳳北路35巷4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺中榮總嘉義分院健檢中心",
     "lat": 23.474972,
     "lng": 120.453281,
-    "address": "600嘉義市西區世賢路二段601號"
+    "address": "600嘉義市西區世賢路二段601號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台灣聖公會",
     "lat": 23.47498,
     "lng": 120.45186,
-    "address": "600嘉義市東區過溝里興中街8號"
+    "address": "600嘉義市東區過溝里興中街8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市文化公園1",
     "lat": 23.475192,
     "lng": 120.450257,
-    "address": "600嘉義市東區文化路與康樂街口(諸羅印象水泥牆體上)"
+    "address": "600嘉義市東區文化路與康樂街口(諸羅印象水泥牆體上)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市東區神農社區發展協會",
     "lat": 23.47588,
     "lng": 120.4594,
-    "address": "600嘉義市東區朝陽里朝陽街64號"
+    "address": "600嘉義市東區朝陽里朝陽街64號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "嘉義市民族國民小學",
     "lat": 23.476256,
     "lng": 120.455153,
-    "address": "600嘉義市東區民族路235號"
+    "address": "600嘉義市東區民族路235號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "嘉義市黃賓圖書館",
     "lat": 23.476483,
     "lng": 120.446825,
-    "address": "600嘉義市東區延平街328號"
+    "address": "600嘉義市東區延平街328號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行嘉南分行",
     "lat": 23.476584,
     "lng": 120.440822,
-    "address": "600嘉義市西區蘭井街469號"
+    "address": "600嘉義市西區蘭井街469號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "嘉義市黃賓圖書館3樓",
     "lat": 23.476633,
     "lng": 120.446969,
-    "address": "600嘉義市東區延平街328號3樓(多功能教室旁機櫃)"
+    "address": "600嘉義市東區延平街328號3樓(多功能教室旁機櫃)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "嘉義市美術館B棟1樓",
     "lat": 23.476733,
     "lng": 120.440704,
-    "address": "600嘉義市西區廣寧街101號B棟1樓"
+    "address": "600嘉義市西區廣寧街101號B棟1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "嘉義市美術館B棟3樓",
     "lat": 23.476733,
     "lng": 120.440704,
-    "address": "600嘉義市西區廣寧街101號B棟3樓"
+    "address": "600嘉義市西區廣寧街101號B棟3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "嘉義市美術館C棟1樓",
     "lat": 23.476758,
     "lng": 120.440726,
-    "address": "600嘉義市西區廣寧街101號C棟1樓"
+    "address": "600嘉義市西區廣寧街101號C棟1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市義昌公園",
     "lat": 23.476917,
     "lng": 120.44625,
-    "address": "600嘉義市西區延平街370號"
+    "address": "600嘉義市西區延平街370號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市政府警察局第二分局南門派出所",
     "lat": 23.476945,
     "lng": 120.454806,
-    "address": "600嘉義市東區民族路230號"
+    "address": "600嘉義市東區民族路230號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市立美術館",
     "lat": 23.477263,
     "lng": 120.440997,
-    "address": "600嘉義市西區廣寧街101號"
+    "address": "600嘉義市西區廣寧街101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市文化路商圈3",
     "lat": 23.477345,
     "lng": 120.44992,
-    "address": "600嘉義市東區文化路114號前(路口立桿)"
+    "address": "600嘉義市東區文化路114號前(路口立桿)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義文化路郵局",
     "lat": 23.477789,
     "lng": 120.450018,
-    "address": "600嘉義市東區文化路134號"
+    "address": "600嘉義市東區文化路134號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市西區文化社區發展協會",
     "lat": 23.478,
     "lng": 120.45,
-    "address": "600嘉義市西區文化里文化路81號七樓"
+    "address": "600嘉義市西區文化里文化路81號七樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市城隍廟",
     "lat": 23.478416,
     "lng": 120.453877,
-    "address": "600嘉義市東區吳鳳北路168號"
+    "address": "600嘉義市東區吳鳳北路168號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義站前郵局",
     "lat": 23.478495,
     "lng": 120.443412,
-    "address": "600嘉義市西區中正路647號"
+    "address": "600嘉義市西區中正路647號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市文昌公園",
     "lat": 23.478674,
     "lng": 120.45634,
-    "address": "600嘉義市東區文昌街96號對面"
+    "address": "600嘉義市東區文昌街96號對面",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市政府環境保護局",
     "lat": 23.478687,
     "lng": 120.453576,
-    "address": "600嘉義市東區吳鳳北路184號5樓"
+    "address": "600嘉義市東區吳鳳北路184號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市東區區公所",
     "lat": 23.478687,
     "lng": 120.453576,
-    "address": "600嘉義市東區吳鳳北路184號"
+    "address": "600嘉義市東區吳鳳北路184號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市東區戶政事務所",
     "lat": 23.478687,
     "lng": 120.453576,
-    "address": "600嘉義市東區吳鳳北路184號4樓"
+    "address": "600嘉義市東區吳鳳北路184號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "外交部領事事務局雲嘉南辦事處(大廳)",
     "lat": 23.478766,
     "lng": 120.453426,
-    "address": "600嘉義市東區吳鳳北路184號2樓"
+    "address": "600嘉義市東區吳鳳北路184號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市文化路商圈2",
     "lat": 23.478836,
     "lng": 120.449783,
-    "address": "600嘉義市東區中正路410號前(路口立桿)"
+    "address": "600嘉義市東區中正路410號前(路口立桿)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署嘉義市服務站(新)",
     "lat": 23.478884,
     "lng": 120.453581,
-    "address": "600嘉義市東區吳鳳北路184號2樓"
+    "address": "600嘉義市東區吳鳳北路184號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "嘉義火車站前廣場",
     "lat": 23.478998,
     "lng": 120.441136,
-    "address": "600嘉義市西區中山路530號前"
+    "address": "600嘉義市西區中山路530號前",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局嘉義站候車室",
     "lat": 23.479084,
     "lng": 120.441261,
-    "address": "600嘉義市西區中山路528號"
+    "address": "600嘉義市西區中山路528號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局嘉義站第1月台3車位置",
     "lat": 23.479084,
     "lng": 120.441261,
-    "address": "600嘉義市西區中山路528號"
+    "address": "600嘉義市西區中山路528號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局嘉義站第1月台10車位置",
     "lat": 23.479084,
     "lng": 120.441261,
-    "address": "600嘉義市西區中山路528號"
+    "address": "600嘉義市西區中山路528號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局嘉義站售票大廳",
     "lat": 23.479119,
     "lng": 120.441138,
-    "address": "600嘉義市東區中山路528號"
+    "address": "600嘉義市東區中山路528號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局嘉義站後站大廳",
     "lat": 23.479119,
     "lng": 120.441138,
-    "address": "600嘉義市東區中山路528號"
+    "address": "600嘉義市東區中山路528號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市中山路商圈(西門街口)",
     "lat": 23.479174,
     "lng": 120.443084,
-    "address": "600嘉義市西區中山路567號(長榮派出所)前公話亭"
+    "address": "600嘉義市西區中山路567號(長榮派出所)前公話亭",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市西市場1樓",
     "lat": 23.47922,
     "lng": 120.448177,
-    "address": "600嘉義市西區國華街245號(忠義街、國華街之間)"
+    "address": "600嘉義市西區國華街245號(忠義街、國華街之間)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市西市場7樓",
     "lat": 23.47922,
     "lng": 120.448177,
-    "address": "600嘉義市西區國華街245號7樓(市府電腦教室)"
+    "address": "600嘉義市西區國華街245號7樓(市府電腦教室)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市地政事務所",
     "lat": 23.479248,
     "lng": 120.448319,
-    "address": "600嘉義市西區國華街245號8樓"
+    "address": "600嘉義市西區國華街245號8樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局嘉義站第2月台1車",
     "lat": 23.479336,
     "lng": 120.440838,
-    "address": "600嘉義市西區中山路528號"
+    "address": "600嘉義市西區中山路528號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局嘉義站第2月台9車",
     "lat": 23.479336,
     "lng": 120.440838,
-    "address": "600嘉義市西區中山路528號"
+    "address": "600嘉義市西區中山路528號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市西市場2樓(數位翻轉基地)",
     "lat": 23.479388,
     "lng": 120.44823,
-    "address": "600嘉義市西區國華街245號2樓"
+    "address": "600嘉義市西區國華街245號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市西市場2樓(西市場自治會)",
     "lat": 23.479388,
     "lng": 120.44823,
-    "address": "600嘉義市西區國華街245號2樓"
+    "address": "600嘉義市西區國華街245號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市中山路商圈(嘉義客運總站前)",
     "lat": 23.47948,
     "lng": 120.44511,
-    "address": "600嘉義市西區中山路497號前電信箱(嘉義客運總站附近)"
+    "address": "600嘉義市西區中山路497號前電信箱(嘉義客運總站附近)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市中山路商圈(民生路口)",
     "lat": 23.479486,
     "lng": 120.446348,
-    "address": "600嘉義市西區中山路443號前路口監控桿"
+    "address": "600嘉義市西區中山路443號前路口監控桿",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行嘉義分行",
     "lat": 23.479578,
     "lng": 120.449873,
-    "address": "600嘉義市東區中山路309號"
+    "address": "600嘉義市東區中山路309號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市中山路商圈(忠義街口)",
     "lat": 23.479649,
     "lng": 120.446925,
-    "address": "600嘉義市西區中山路411號前光化箱"
+    "address": "600嘉義市西區中山路411號前光化箱",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市政府警察局第一分局長榮派出所",
     "lat": 23.479701,
     "lng": 120.443048,
-    "address": "600嘉義市西區中山路567號"
+    "address": "600嘉義市西區中山路567號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市中山路商圈(國華街口)",
     "lat": 23.479832,
     "lng": 120.448457,
-    "address": "600嘉義市西區中山路306號(台灣銀行)前路口立桿"
+    "address": "600嘉義市西區中山路306號(台灣銀行)前路口立桿",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市中山路中央噴水池圓環-2",
     "lat": 23.479907,
     "lng": 120.449285,
-    "address": "600嘉義市西區中山路294號(玉山證券)前公話亭"
+    "address": "600嘉義市西區中山路294號(玉山證券)前公話亭",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行嘉義分行",
     "lat": 23.479925,
     "lng": 120.448793,
-    "address": "600嘉義市西區中山路306號"
+    "address": "600嘉義市西區中山路306號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市中山路中央噴水池圓環-1",
     "lat": 23.479975,
     "lng": 120.449825,
-    "address": "600嘉義市東區中山路309號(土地銀行)旁公話亭"
+    "address": "600嘉義市東區中山路309號(土地銀行)旁公話亭",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行嘉義分行",
     "lat": 23.479976,
     "lng": 120.447965,
-    "address": "600嘉義市西區中山路320號"
+    "address": "600嘉義市西區中山路320號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市中山路中央噴水池圓環-3",
     "lat": 23.47999,
     "lng": 120.449868,
-    "address": "600嘉義市東區中山路289號前公話亭"
+    "address": "600嘉義市東區中山路289號前公話亭",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "嘉義市交通轉運中心",
     "lat": 23.479997,
     "lng": 120.440139,
-    "address": "600嘉義市西區中興路1號(國光客運櫃台上方)"
+    "address": "600嘉義市西區中興路1號(國光客運櫃台上方)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

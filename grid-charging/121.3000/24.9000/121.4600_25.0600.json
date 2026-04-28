@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊五工郵局",
     "lat": 25.06429,
     "lng": 121.460038,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "五股褒仔寮郵局",
     "lat": 25.072284,
     "lng": 121.469547,

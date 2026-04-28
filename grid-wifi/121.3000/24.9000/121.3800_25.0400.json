@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龜山文青郵局",
     "lat": 25.040899,
     "lng": 121.387248,
-    "address": "333桃園市龜山區樂善一路6號"
+    "address": "333桃園市龜山區樂善一路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龜山區長庚里辦公處",
     "lat": 25.057978,
     "lng": 121.384674,
-    "address": "333桃園市龜山區長庚里長庚醫護新村129號B1"
+    "address": "333桃園市龜山區長庚里長庚醫護新村129號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

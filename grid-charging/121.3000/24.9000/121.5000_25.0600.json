@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北台北橋郵局",
     "lat": 25.062771,
     "lng": 121.512713,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三重永興郵局",
     "lat": 25.063611,
     "lng": 121.50277,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北大同郵局",
     "lat": 25.065848,
     "lng": 121.518601,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北大龍峒郵局",
     "lat": 25.07604,
     "lng": 121.513639,

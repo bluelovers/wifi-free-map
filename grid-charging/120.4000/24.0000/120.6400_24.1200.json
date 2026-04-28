@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中南屯路郵局",
     "lat": 24.138069,
     "lng": 120.643561,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市南屯區戶政事務所",
     "lat": 24.138241,
     "lng": 120.642744,

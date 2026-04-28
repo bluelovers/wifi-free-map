@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "潭子東寶郵局",
     "lat": 24.203266,
     "lng": 120.674619,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大雅馬岡厝郵局",
     "lat": 24.217824,
     "lng": 120.668151,

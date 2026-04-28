@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局林榮新光站候車室",
     "lat": 23.801633,
     "lng": 121.461659,
-    "address": "975花蓮縣鳳林鎮林榮里55號"
+    "address": "975花蓮縣鳳林鎮林榮里55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣壽豐鄉溪口國民小學",
     "lat": 23.819083,
     "lng": 121.473663,
-    "address": "974花蓮縣壽豐鄉溪口村溪口路87號"
+    "address": "974花蓮縣壽豐鄉溪口村溪口路87號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣壽豐鄉公所溪口村辦公處",
     "lat": 23.819163,
     "lng": 121.473467,
-    "address": "974花蓮縣壽豐鄉溪口村溪口路103巷2號"
+    "address": "974花蓮縣壽豐鄉溪口村溪口路103巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

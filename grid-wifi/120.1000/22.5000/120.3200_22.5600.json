@@ -1,82 +1,112 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部關務署高雄關小港分關",
     "lat": 22.560123,
     "lng": 120.334539,
-    "address": "812高雄市小港區東亞南路36號1樓"
+    "address": "812高雄市小港區東亞南路36號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台灣糖業股份有限公司砂糖事業部",
     "lat": 22.563132,
     "lng": 120.339078,
-    "address": "812高雄市小港區小港路133號"
+    "address": "812高雄市小港區小港路133號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄港務警察總隊-大仁中隊",
     "lat": 22.563999,
     "lng": 120.330869,
-    "address": "812高雄市小港區東亞南路2-22號"
+    "address": "812高雄市小港區東亞南路2-22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "小港郵局",
     "lat": 22.564197,
     "lng": 120.336869,
-    "address": "812高雄市小港區小港一街1號"
+    "address": "812高雄市小港區小港一街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部高雄國稅局小港稽徵所",
     "lat": 22.56523,
     "lng": 120.338019,
-    "address": "812高雄市小港區小港路158號6樓"
+    "address": "812高雄市小港區小港路158號6樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市小港區公所",
     "lat": 22.565235,
     "lng": 120.33808,
-    "address": "812高雄市小港區小港路158號3樓"
+    "address": "812高雄市小港區小港路158號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市稅捐稽徵處小港分處",
     "lat": 22.565292,
     "lng": 120.338015,
-    "address": "812高雄市小港區小港路158號5樓"
+    "address": "812高雄市小港區小港路158號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市小港區戶政事務所",
     "lat": 22.565374,
     "lng": 120.337962,
-    "address": "812高雄市小港區小港路158號2樓"
+    "address": "812高雄市小港區小港路158號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄金福路郵局",
     "lat": 22.568209,
     "lng": 120.323516,
-    "address": "806高雄市前鎮區金福路20號"
+    "address": "806高雄市前鎮區金福路20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市草衙朝陽長青會",
     "lat": 22.574,
     "lng": 120.322,
-    "address": "806高雄市前鎮區草衙里后安路152號二樓"
+    "address": "806高雄市前鎮區草衙里后安路152號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

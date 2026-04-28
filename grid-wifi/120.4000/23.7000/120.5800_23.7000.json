@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣斗六市梅林社區發展協會",
     "lat": 23.70202,
     "lng": 120.598228,
-    "address": "640雲林縣斗六市梅林里梅中路22號"
+    "address": "640雲林縣斗六市梅林里梅中路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "斗六工業區服務中心",
     "lat": 23.71354,
     "lng": 120.58952,
-    "address": "640雲林縣斗六市榴南里斗工十路7號2樓"
+    "address": "640雲林縣斗六市榴南里斗工十路7號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

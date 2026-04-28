@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "七美遊客中心",
     "lat": 23.208056,
     "lng": 119.428611,

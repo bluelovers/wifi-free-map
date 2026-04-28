@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林名山里郵局",
     "lat": 25.101717,
     "lng": 121.528282,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林蘭雅郵局",
     "lat": 25.104626,
     "lng": 121.526931,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林芝山郵局",
     "lat": 25.112615,
     "lng": 121.538119,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北投明德郵局",
     "lat": 25.113316,
     "lng": 121.5222,

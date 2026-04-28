@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣社頭鄉衛生所",
     "lat": 23.902121,
     "lng": 120.58597,
-    "address": "511彰化縣社頭鄉社頭村員集路二段409號"
+    "address": "511彰化縣社頭鄉社頭村員集路二段409號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "彰化縣社頭鄉產業發展推廣中心",
     "lat": 23.909228,
     "lng": 120.580377,
-    "address": "511彰化縣社頭鄉橋頭村員集路三段706巷25號"
+    "address": "511彰化縣社頭鄉橋頭村員集路三段706巷25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

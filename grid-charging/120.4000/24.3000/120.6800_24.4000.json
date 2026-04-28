@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苑裡山腳郵局",
     "lat": 24.412872,
     "lng": 120.681818,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苑裡社苓郵局",
     "lat": 24.415823,
     "lng": 120.6848,

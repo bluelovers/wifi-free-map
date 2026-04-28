@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市六龜新開部落發展協會",
     "lat": 22.881,
     "lng": 120.614,
-    "address": "844高雄市六龜區新發里和平路115之1號"
+    "address": "844高雄市六龜區新發里和平路115之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "福安宮",
     "lat": 22.881,
     "lng": 120.614,
-    "address": "929屏東縣琉球鄉大福村仁愛路43號"
+    "address": "929屏東縣琉球鄉大福村仁愛路43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

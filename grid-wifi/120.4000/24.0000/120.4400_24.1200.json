@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣線西鄉老人會館",
     "lat": 24.139646,
     "lng": 120.456462,
-    "address": "507彰化縣線西鄉寓埔村中央路二段15號"
+    "address": "507彰化縣線西鄉寓埔村中央路二段15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

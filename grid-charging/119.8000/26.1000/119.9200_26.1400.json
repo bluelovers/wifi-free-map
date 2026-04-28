@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "馬祖國家風景區管理處南竿遊客中心",
     "lat": 26.141223,
     "lng": 119.927572,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南竿航空站",
     "lat": 26.14561,
     "lng": 119.936142,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "連江監理站辦公大廳",
     "lat": 26.14861,
     "lng": 119.921865,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "馬祖馬港郵局",
     "lat": 26.156478,
     "lng": 119.922674,

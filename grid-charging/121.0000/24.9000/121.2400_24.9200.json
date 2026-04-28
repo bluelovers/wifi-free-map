@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中壢龍岡郵局",
     "lat": 24.925772,
     "lng": 121.243711,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中壢仁美郵局",
     "lat": 24.933641,
     "lng": 121.255174,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中壢龍東路郵局",
     "lat": 24.935882,
     "lng": 121.257332,

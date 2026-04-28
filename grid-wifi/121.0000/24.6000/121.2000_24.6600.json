@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣尖石鄉梅阿尤達克部落",
     "lat": 24.67322,
     "lng": 121.20431,
-    "address": "313新竹縣尖石鄉梅花村梅花5鄰128號"
+    "address": "313新竹縣尖石鄉梅花村梅花5鄰128號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣尖石鄉梅達拜部落",
     "lat": 24.677236,
     "lng": 121.208499,
-    "address": "313新竹縣尖石鄉梅花村梅花27之1號"
+    "address": "313新竹縣尖石鄉梅花村梅花27之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

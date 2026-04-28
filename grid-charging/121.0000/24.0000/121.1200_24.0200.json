@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "仁愛霧社郵局",
     "lat": 24.023326,
     "lng": 121.132745,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投縣政府警察局仁愛分局",
     "lat": 24.023363,
     "lng": 121.132538,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣新豐鄉衛生所",
     "lat": 24.899439,
     "lng": 120.985093,
-    "address": "304新竹縣新豐鄉建興路二段748巷25號"
+    "address": "304新竹縣新豐鄉建興路二段748巷25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

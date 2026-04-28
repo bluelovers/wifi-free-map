@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "澎湖縣水產種苗繁殖場",
     "lat": 23.520198,
     "lng": 119.573806,
-    "address": "880澎湖縣馬公市時裡里66-6號"
+    "address": "880澎湖縣馬公市時裡里66-6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣馬公市井垵社區發展協會",
     "lat": 23.52141,
     "lng": 119.577151,
-    "address": "880澎湖縣馬公市井垵里井子垵17之2號"
+    "address": "880澎湖縣馬公市井垵里井子垵17之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣馬公市嵵裡社區發展協會",
     "lat": 23.524408,
     "lng": 119.571638,
-    "address": "880澎湖縣馬公市時裡里時裡99之8號"
+    "address": "880澎湖縣馬公市時裡里時裡99之8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

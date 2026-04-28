@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局迴龍分隊",
     "lat": 25.020362,
     "lng": 121.409311,
-    "address": "333桃園市龜山區萬壽路一段42號"
+    "address": "333桃園市龜山區萬壽路一段42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新莊龍鳳郵局",
     "lat": 25.023041,
     "lng": 121.4134,
-    "address": "242新北市新莊區中正路740-2號"
+    "address": "242新北市新莊區中正路740-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀丹鳳分行",
     "lat": 25.024855,
     "lng": 121.416576,
-    "address": "242新北市新莊區中正路708-5號"
+    "address": "242新北市新莊區中正路708-5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行新泰分行",
     "lat": 25.024993,
     "lng": 121.416844,
-    "address": "242新北市新莊區中正路708號"
+    "address": "242新北市新莊區中正路708號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華培愛全人關懷協會",
     "lat": 25.024996,
     "lng": 121.416756,
-    "address": "242新北市新莊區雙鳳里中正路708之6號三樓"
+    "address": "242新北市新莊區雙鳳里中正路708之6號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(林口工二分行)",
     "lat": 25.029843,
     "lng": 121.41275,
-    "address": "244新北市林口區中山路498號"
+    "address": "244新北市林口區中山路498號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人國際奔享體驗教育發展協會",
     "lat": 25.029962,
     "lng": 121.414705,
-    "address": "242新北市新莊區丹鳳里天祥街120巷6號"
+    "address": "242新北市新莊區丹鳳里天祥街120巷6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台灣新興原住民文化發展協會-金峰鄉-壢坵",
     "lat": 22.526076,
     "lng": 120.927566,
-    "address": "964臺東縣金峰鄉歷坵村歷坵42之2號"
+    "address": "964臺東縣金峰鄉歷坵村歷坵42之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋溪崑郵局",
     "lat": 24.986173,
     "lng": 121.429584,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市板橋戶政事務所溪崑工作站",
     "lat": 24.988727,
     "lng": 121.430444,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "樹林育英街郵局",
     "lat": 24.989281,
     "lng": 121.421578,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局樹林站爭鮮柱旁",
     "lat": 24.991504,
     "lng": 121.42446,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局樹林站地2月台海側6車位置",
     "lat": 24.991504,
     "lng": 121.42446,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "樹林鎮前街郵局",
     "lat": 24.99238,
     "lng": 121.425854,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市茂林原住民婦幼發展協會",
     "lat": 22.911,
     "lng": 120.679,
-    "address": "851高雄市茂林區茂林里茂林巷37號"
+    "address": "851高雄市茂林區茂林里茂林巷37號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

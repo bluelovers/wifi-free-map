@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "仁愛萬大郵局",
     "lat": 23.958033,
     "lng": 121.151407,

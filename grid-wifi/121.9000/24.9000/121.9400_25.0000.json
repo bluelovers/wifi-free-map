@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局福隆站候車室",
     "lat": 25.01589,
     "lng": 121.942527,
-    "address": "228新北市貢寮區福隆街2號"
+    "address": "228新北市貢寮區福隆街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "東北角暨宜蘭海岸國家風景區管理處管理處服務台",
     "lat": 25.017024,
     "lng": 121.942576,
-    "address": "228新北市貢寮區興隆街36號"
+    "address": "228新北市貢寮區興隆街36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市貢寮區福隆里辦公處",
     "lat": 25.0176,
     "lng": 121.9479,
-    "address": "228新北市貢寮區福隆里東興街70號"
+    "address": "228新北市貢寮區福隆里東興街70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市雙溪區平林里辦公處",
     "lat": 25.018,
     "lng": 121.948,
-    "address": "227新北市雙溪區外平林五十二號"
+    "address": "227新北市雙溪區外平林五十二號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華民國照顧服務員專業發展協會",
     "lat": 25.018379,
     "lng": 121.945732,
-    "address": "228新北市貢寮區福隆里福隆街60號二樓"
+    "address": "228新北市貢寮區福隆里福隆街60號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

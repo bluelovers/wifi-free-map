@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "貢寮澳底郵局",
     "lat": 25.053976,
     "lng": 121.924142,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "澳底派出所",
     "lat": 25.0563,
     "lng": 121.9246,

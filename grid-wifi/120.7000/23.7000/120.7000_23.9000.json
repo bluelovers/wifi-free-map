@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "高速公路局南投服務區客席區與服務台",
     "lat": 23.900158,
     "lng": 120.71088,
-    "address": "540南投縣南投市南鄉路250巷142弄6號"
+    "address": "540南投縣南投市南鄉路250巷142弄6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

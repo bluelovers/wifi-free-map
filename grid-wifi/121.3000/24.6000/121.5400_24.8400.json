@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "烏來郵局",
     "lat": 24.859471,
     "lng": 121.551596,
-    "address": "233新北市烏來區烏來村溫泉街69號"
+    "address": "233新北市烏來區烏來村溫泉街69號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

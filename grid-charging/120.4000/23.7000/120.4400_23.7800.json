@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "西螺埔心郵局",
     "lat": 23.798199,
     "lng": 120.441437,

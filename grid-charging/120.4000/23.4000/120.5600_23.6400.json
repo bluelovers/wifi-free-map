@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "古坑郵局",
     "lat": 23.644368,
     "lng": 120.561998,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司古坑營運所",
     "lat": 23.649867,
     "lng": 120.560733,

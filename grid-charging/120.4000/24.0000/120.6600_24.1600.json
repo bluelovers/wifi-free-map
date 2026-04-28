@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中漢口路郵局",
     "lat": 24.167123,
     "lng": 120.671302,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司台中直銷中心",
     "lat": 24.173908,
     "lng": 120.674203,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中水湳郵局",
     "lat": 24.177825,
     "lng": 120.669725,

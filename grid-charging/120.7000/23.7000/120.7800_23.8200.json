@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局集集站候車室",
     "lat": 23.826451,
     "lng": 120.784891,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司水里營運所",
     "lat": 23.826881,
     "lng": 120.796171,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投縣政府警察局集集分局",
     "lat": 23.826969,
     "lng": 120.784827,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "集集郵局",
     "lat": 23.828642,
     "lng": 120.786022,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司集集服務所大廳",
     "lat": 23.832618,
     "lng": 120.799656,

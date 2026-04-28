@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣三星鄉大義社區發展協會",
     "lat": 24.684366,
     "lng": 121.70406,
-    "address": "266宜蘭縣三星鄉大義村上將路三段375巷31號"
+    "address": "266宜蘭縣三星鄉大義村上將路三段375巷31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會花蓮區農業改良場(蘭陽分場)",
     "lat": 24.68621,
     "lng": 121.716132,
-    "address": "266宜蘭縣三星鄉上將路三段81巷6號"
+    "address": "266宜蘭縣三星鄉上將路三段81巷6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

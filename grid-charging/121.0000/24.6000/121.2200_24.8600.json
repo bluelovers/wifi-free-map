@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龍潭中興郵局",
     "lat": 24.874225,
     "lng": 121.234201,

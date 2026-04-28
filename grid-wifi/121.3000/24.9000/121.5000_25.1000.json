@@ -1,426 +1,585 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華健康美好生活協會(洲美)",
     "lat": 25.10006,
     "lng": 121.504059,
-    "address": "112臺北市北投區洲美里福美路207號"
+    "address": "112臺北市北投區洲美里福美路207號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "北投洲美區民活動中心1F中央",
     "lat": 25.100296,
     "lng": 121.505052,
-    "address": "112臺北市北投區福美路207號1F"
+    "address": "112臺北市北投區福美路207號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(臺北高等行政法院)",
     "lat": 25.101407,
     "lng": 121.518668,
-    "address": "111臺北市士林區福國路101號"
+    "address": "111臺北市士林區福國路101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立傳統藝術中心臺灣戲曲中心小表演廳",
     "lat": 25.102434,
     "lng": 121.519836,
-    "address": "111臺北市士林區文林路751號"
+    "address": "111臺北市士林區文林路751號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立傳統藝術中心臺灣戲曲中心臺音館2樓",
     "lat": 25.102598,
     "lng": 121.519896,
-    "address": "111臺北市士林區文林路751號"
+    "address": "111臺北市士林區文林路751號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立傳統藝術中心臺灣戲曲中心大表演廳",
     "lat": 25.102598,
     "lng": 121.519896,
-    "address": "111臺北市士林區文林路751號"
+    "address": "111臺北市士林區文林路751號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺北高等行政法院",
     "lat": 25.102783,
     "lng": 121.519456,
-    "address": "111臺北市士林區文林路725號"
+    "address": "111臺北市士林區文林路725號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區建民里辦公處",
     "lat": 25.104715,
     "lng": 121.518817,
-    "address": "112臺北市北投區建民里文林北路36號"
+    "address": "112臺北市北投區建民里文林北路36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投文林郵局",
     "lat": 25.105663,
     "lng": 121.517672,
-    "address": "112臺北市北投區文林北路96號"
+    "address": "112臺北市北投區文林北路96號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市北投青溪協會(建民里)",
     "lat": 25.105716,
     "lng": 121.518894,
-    "address": "112臺北市北投區建民里文林北路80巷38弄2號一樓"
+    "address": "112臺北市北投區建民里文林北路80巷38弄2號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行石牌分行",
     "lat": 25.105924,
     "lng": 121.517244,
-    "address": "112臺北市北投區文林北路116號"
+    "address": "112臺北市北投區文林北路116號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區文林里辦公處",
     "lat": 25.107648,
     "lng": 121.517389,
-    "address": "112臺北市北投區文林里致遠一路一段9號"
+    "address": "112臺北市北投區文林里致遠一路一段9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "石牌-文林北路",
     "lat": 25.109472,
     "lng": 121.512374,
-    "address": "112臺北市北投區文林北路261號旁候車亭"
+    "address": "112臺北市北投區文林北路261號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(石牌分行)",
     "lat": 25.109587,
     "lng": 121.519934,
-    "address": "112臺北市北投區明德路100號"
+    "address": "112臺北市北投區明德路100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區我愛石牌社區發展協會",
     "lat": 25.109848,
     "lng": 121.517879,
-    "address": "112臺北市北投區石牌里建民路116巷13號"
+    "address": "112臺北市北投區石牌里建民路116巷13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投致遠郵局",
     "lat": 25.110091,
     "lng": 121.514895,
-    "address": "112臺北市北投區致遠一路一段121號"
+    "address": "112臺北市北投區致遠一路一段121號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "承德路七段-S-承德路七段",
     "lat": 25.11276,
     "lng": 121.508583,
-    "address": "112臺北市北投區承德路七段141號候車亭"
+    "address": "112臺北市北投區承德路七段141號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行石牌分行",
     "lat": 25.113581,
     "lng": 121.511491,
-    "address": "112臺北市北投區石牌路一段78號"
+    "address": "112臺北市北投區石牌路一段78號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區榮光社區發展協會",
     "lat": 25.114032,
     "lng": 121.515011,
-    "address": "112臺北市北投區榮光里石牌路一段166巷43弄15號"
+    "address": "112臺北市北投區榮光里石牌路一段166巷43弄15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "石牌國小-W-石牌路一段",
     "lat": 25.11433,
     "lng": 121.512921,
-    "address": "112臺北市北投區石牌路一段146號對面(石牌國小側)候車亭"
+    "address": "112臺北市北投區石牌路一段146號對面(石牌國小側)候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投實踐郵局",
     "lat": 25.114571,
     "lng": 121.509348,
-    "address": "112臺北市北投區實踐街48巷11號"
+    "address": "112臺北市北投區實踐街48巷11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人國際奔享體驗教育發展協會(新白石)",
     "lat": 25.114987,
     "lng": 121.509207,
-    "address": "112臺北市北投區吉慶里實踐街48巷3號一樓"
+    "address": "112臺北市北投區吉慶里實踐街48巷3號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "北投吉慶區民活動中心2F電視上方",
     "lat": 25.115026,
     "lng": 121.51163,
-    "address": "112臺北市北投區致遠二路61巷2-2號2F"
+    "address": "112臺北市北投區致遠二路61巷2-2號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人國際奔享體驗教育發展協會(吉利真光)",
     "lat": 25.11594,
     "lng": 121.510944,
-    "address": "112臺北市北投區吉利里石牌路一段39巷80弄41號一樓"
+    "address": "112臺北市北投區吉利里石牌路一段39巷80弄41號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "義理街口",
     "lat": 25.115959,
     "lng": 121.514781,
-    "address": "112臺北市北投區東華街二段10號"
+    "address": "112臺北市北投區東華街二段10號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "北投運動中心2F大廳",
     "lat": 25.116636,
     "lng": 121.509787,
-    "address": "112臺北市北投區石牌路一段39巷100號2F"
+    "address": "112臺北市北投區石牌路一段39巷100號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "北投運動中心3F大廳",
     "lat": 25.116636,
     "lng": 121.509787,
-    "address": "112臺北市北投區石牌路一段39巷100號3F"
+    "address": "112臺北市北投區石牌路一段39巷100號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "北投運動中心B1F大廳",
     "lat": 25.116636,
     "lng": 121.509787,
-    "address": "112臺北市北投區石牌路一段39巷100號B1F"
+    "address": "112臺北市北投區石牌路一段39巷100號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "北投運動中心1F大廳",
     "lat": 25.116761,
     "lng": 121.50979,
-    "address": "112臺北市北投區石牌路一段39巷100號1F"
+    "address": "112臺北市北投區石牌路一段39巷100號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投石牌郵局",
     "lat": 25.117363,
     "lng": 121.516397,
-    "address": "112臺北市北投區石牌路二段93-2號"
+    "address": "112臺北市北投區石牌路二段93-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "永明派出所-E1-石牌路二段",
     "lat": 25.117374,
     "lng": 121.516616,
-    "address": "112臺北市北投區石牌路二段100號旁候車亭"
+    "address": "112臺北市北投區石牌路二段100號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投尊賢郵局",
     "lat": 25.117507,
     "lng": 121.506939,
-    "address": "112臺北市北投區尊賢街247號-4"
+    "address": "112臺北市北投區尊賢街247號-4",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "北投永明區民活動中心10F中央",
     "lat": 25.118065,
     "lng": 121.517173,
-    "address": "112臺北市北投區石牌路二段115號10F"
+    "address": "112臺北市北投區石牌路二段115號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "北投永明區民活動中心9F門口前方",
     "lat": 25.118066,
     "lng": 121.517175,
-    "address": "112臺北市北投區石牌路二段115號9F"
+    "address": "112臺北市北投區石牌路二段115號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館永明民眾閱覽室8F自修區中央",
     "lat": 25.118125,
     "lng": 121.517539,
-    "address": "112臺北市北投區石牌路二段115號8F"
+    "address": "112臺北市北投區石牌路二段115號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "北投區健康服務中心2F電梯出口",
     "lat": 25.11814,
     "lng": 121.517302,
-    "address": "112臺北市北投區石牌路二段111號1F"
+    "address": "112臺北市北投區石牌路二段111號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館永明民眾閱覽室7F兒童圖書區前方",
     "lat": 25.118144,
     "lng": 121.517484,
-    "address": "112臺北市北投區石牌路二段115號7F"
+    "address": "112臺北市北投區石牌路二段115號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區尊賢社區發展協會",
     "lat": 25.11816,
     "lng": 121.507704,
-    "address": "112臺北市北投區尊賢里尊賢街302巷19號一樓"
+    "address": "112臺北市北投區尊賢里尊賢街302巷19號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "北投區健康服務中心1F女洗手間門口",
     "lat": 25.118186,
     "lng": 121.517267,
-    "address": "112臺北市北投區石牌路二段111號1F"
+    "address": "112臺北市北投區石牌路二段111號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館永明民眾閱覽室8F座位區中央",
     "lat": 25.118187,
     "lng": 121.517484,
-    "address": "112臺北市北投區石牌路二段115號8F"
+    "address": "112臺北市北投區石牌路二段115號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館永明民眾閱覽室7F一般圖書區",
     "lat": 25.118392,
     "lng": 121.517341,
-    "address": "112臺北市北投區石牌路二段115號7F"
+    "address": "112臺北市北投區石牌路二段115號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "榮總-E1-石牌路二段",
     "lat": 25.118599,
     "lng": 121.519732,
-    "address": "112臺北市北投區明德路365號候車亭(教學大樓旁)(石牌路二段本線上)"
+    "address": "112臺北市北投區明德路365號候車亭(教學大樓旁)(石牌路二段本線上)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "榮總-E2-石牌路二段",
     "lat": 25.118674,
     "lng": 121.519551,
-    "address": "112臺北市北投區明德路365號候車亭(教學大樓旁)(石牌路二段本線上)"
+    "address": "112臺北市北投區明德路365號候車亭(教學大樓旁)(石牌路二段本線上)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "保一總隊-石牌路二段",
     "lat": 25.118865,
     "lng": 121.517372,
-    "address": "112臺北市北投區立農街二段301號斜對面候車亭"
+    "address": "112臺北市北投區立農街二段301號斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "承德公館路口-S-承德路七段",
     "lat": 25.1189,
     "lng": 121.501965,
-    "address": "112臺北市北投區承德路七段383號前方候車亭"
+    "address": "112臺北市北投區承德路七段383號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣守護有祢生命關懷協會(守護八禱小站)",
     "lat": 25.119017,
     "lng": 121.509477,
-    "address": "112臺北市北投區立農里吉利街231號一樓"
+    "address": "112臺北市北投區立農里吉利街231號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館吉利分館5F自習區轉角處",
     "lat": 25.119263,
     "lng": 121.508481,
-    "address": "112臺北市北投區立農街一段366號5F"
+    "address": "112臺北市北投區立農街一段366號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館吉利分館6F綜合服務台前",
     "lat": 25.119288,
     "lng": 121.508403,
-    "address": "112臺北市北投區立農街一段366號6F"
+    "address": "112臺北市北投區立農街一段366號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館吉利分館7F中文圖書區中央",
     "lat": 25.119407,
     "lng": 121.508507,
-    "address": "112臺北市北投區立農街一段366號7F"
+    "address": "112臺北市北投區立農街一段366號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館吉利分館8F一般圖書區中央",
     "lat": 25.11951,
     "lng": 121.508398,
-    "address": "112臺北市北投區立農街一段366號8F"
+    "address": "112臺北市北投區立農街一段366號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投榮總郵局",
     "lat": 25.119636,
     "lng": 121.519586,
-    "address": "112臺北市北投區石牌路二段201號(榮總醫院地下1樓)"
+    "address": "112臺北市北投區石牌路二段201號(榮總醫院地下1樓)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺北陽明交大郵局",
     "lat": 25.119672,
     "lng": 121.514375,
-    "address": "112臺北市北投區立農街二段155號"
+    "address": "112臺北市北投區立農街二段155號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "陽明大學(東華)-N-東華街二段",
     "lat": 25.119692,
     "lng": 121.511928,
-    "address": "112臺北市北投區東華街二段138號旁候車亭"
+    "address": "112臺北市北投區東華街二段138號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

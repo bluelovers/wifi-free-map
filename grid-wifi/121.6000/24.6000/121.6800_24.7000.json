@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局內城派出所",
     "lat": 24.715087,
     "lng": 121.69543,
-    "address": "264宜蘭縣員山鄉員山路二段235號"
+    "address": "264宜蘭縣員山鄉員山路二段235號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣立榮源國中行政大樓二樓牆面朝校門方向",
     "lat": 24.718625,
     "lng": 121.687816,
-    "address": "264宜蘭縣員山鄉內城路545號"
+    "address": "264宜蘭縣員山鄉內城路545號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

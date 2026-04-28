@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龍潭區三和社區發展協會",
     "lat": 24.844645,
     "lng": 121.175231,
-    "address": "325桃園市龍潭區三和里番子窩路5號"
+    "address": "325桃園市龍潭區三和里番子窩路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

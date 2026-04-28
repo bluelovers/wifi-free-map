@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會臺南區農業改良場",
     "lat": 23.060958,
     "lng": 120.337983,
-    "address": "712臺南市新化區牧場70號"
+    "address": "712臺南市新化區牧場70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市新市區新和里辦公處",
     "lat": 23.078,
     "lng": 120.321,
-    "address": "744臺南市新市區新和里27鄰忠孝街189號"
+    "address": "744臺南市新市區新和里27鄰忠孝街189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

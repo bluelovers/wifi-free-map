@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中壢青埔郵局",
     "lat": 25.00271,
     "lng": 121.204539,
-    "address": "320桃園市中壢區高鐵南路二段289號"
+    "address": "320桃園市中壢區高鐵南路二段289號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市立圖書館青埔智慧科技分館",
     "lat": 25.00278,
     "lng": 121.2019,
-    "address": "320桃園市中壢區領航北路一段100號"
+    "address": "320桃園市中壢區領航北路一段100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐銀行-青埔分行之1",
     "lat": 25.006224,
     "lng": 121.216065,
-    "address": "320桃園市中壢區領航南路二段360號1樓"
+    "address": "320桃園市中壢區領航南路二段360號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市中壢區洽溪社區發展協會",
     "lat": 25.008747,
     "lng": 121.202022,
-    "address": "320桃園市中壢區洽溪里18鄰民權路四段546號"
+    "address": "320桃園市中壢區洽溪里18鄰民權路四段546號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(青埔分行)",
     "lat": 25.010186,
     "lng": 121.216137,
-    "address": "320桃園市中壢區高鐵站前西路一段208、210、212號1、2樓"
+    "address": "320桃園市中壢區高鐵站前西路一段208、210、212號1、2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "高鐵桃園車站旅遊服務中心",
     "lat": 25.013148,
     "lng": 121.215119,
-    "address": "320桃園市中壢區高鐵北路一段6號"
+    "address": "320桃園市中壢區高鐵北路一段6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市大園區青山社區發展協會",
     "lat": 25.017261,
     "lng": 121.210524,
-    "address": "337桃園市大園區青山里興德路131號"
+    "address": "337桃園市大園區青山里興德路131號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

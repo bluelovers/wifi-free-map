@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龜山文化郵局",
     "lat": 25.057348,
     "lng": 121.369889,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "林口工業區服務中心",
     "lat": 25.057404,
     "lng": 121.374066,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龜山大崗郵局",
     "lat": 25.057537,
     "lng": 121.360764,

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司義竹服務所",
     "lat": 23.340648,
     "lng": 120.242394,
-    "address": "624嘉義縣義竹鄉傳芳村475-2號"
+    "address": "624嘉義縣義竹鄉傳芳村475-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣義竹鄉岸腳社區發展協會",
     "lat": 23.341,
     "lng": 120.252,
-    "address": "624嘉義縣義竹鄉岸腳50號"
+    "address": "624嘉義縣義竹鄉岸腳50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

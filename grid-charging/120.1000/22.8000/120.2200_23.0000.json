@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永康大橋郵局",
     "lat": 23.01124,
     "lng": 120.231836,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司永康服務所",
     "lat": 23.015611,
     "lng": 120.236477,

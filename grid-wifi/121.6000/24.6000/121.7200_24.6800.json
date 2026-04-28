@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣三星鄉大洲社區關懷據點",
     "lat": 24.69247,
     "lng": 121.73063,
-    "address": "266宜蘭縣三星鄉大洲村五分路二段180號"
+    "address": "266宜蘭縣三星鄉大洲村五分路二段180號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局大洲派出所",
     "lat": 24.692987,
     "lng": 121.728908,
-    "address": "266宜蘭縣三星鄉上將路二段468號"
+    "address": "266宜蘭縣三星鄉上將路二段468號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

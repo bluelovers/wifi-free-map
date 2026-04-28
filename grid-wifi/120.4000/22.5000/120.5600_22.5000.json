@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣潮州鎮新生社區發展協會",
     "lat": 22.5,
     "lng": 120.571,
-    "address": "920屏東縣潮州鎮新生里平安路60號"
+    "address": "920屏東縣潮州鎮新生里平安路60號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣潮州鎮九塊社區發展協會",
     "lat": 22.518907,
     "lng": 120.560885,
-    "address": "920屏東縣潮州鎮九塊里復興路1號"
+    "address": "920屏東縣潮州鎮九塊里復興路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

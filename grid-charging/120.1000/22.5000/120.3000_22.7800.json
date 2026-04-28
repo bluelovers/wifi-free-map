@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局岡山站候車室大廳",
     "lat": 22.792571,
     "lng": 120.300165,

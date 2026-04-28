@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司核二廠北部展示館一樓",
     "lat": 25.203213,
     "lng": 121.662834,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司核二廠北部展示館二樓",
     "lat": 25.203213,
     "lng": 121.662834,

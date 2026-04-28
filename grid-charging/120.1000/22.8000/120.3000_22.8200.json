@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "岡山五甲尾郵局",
     "lat": 22.821781,
     "lng": 120.303607,

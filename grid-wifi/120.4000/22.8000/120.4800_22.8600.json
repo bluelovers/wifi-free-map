@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市旗山區糖廠社區發展協會",
     "lat": 22.878161,
     "lng": 120.491967,
-    "address": "842高雄市旗山區東昌里忠孝街33之8號"
+    "address": "842高雄市旗山區東昌里忠孝街33之8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "旗山糖廠(休息區)",
     "lat": 22.878231,
     "lng": 120.49224,
-    "address": "842高雄市旗山區忠孝街33號"
+    "address": "842高雄市旗山區忠孝街33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "旗山糖廠(販賣部)",
     "lat": 22.878231,
     "lng": 120.49224,
-    "address": "842高雄市旗山區忠孝街33號"
+    "address": "842高雄市旗山區忠孝街33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

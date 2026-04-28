@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司吉安壽豐服務所",
     "lat": 23.962064,
     "lng": 121.572024,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮縣吉安鄉戶政事務所",
     "lat": 23.973254,
     "lng": 121.563871,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "吉安郵局",
     "lat": 23.978419,
     "lng": 121.566677,

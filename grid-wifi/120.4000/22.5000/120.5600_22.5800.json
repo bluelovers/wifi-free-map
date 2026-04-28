@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣內埔鄉燈籠花社區營造協會",
     "lat": 22.5976,
     "lng": 120.564358,
-    "address": "912屏東縣內埔鄉和興村和仁路32號"
+    "address": "912屏東縣內埔鄉和興村和仁路32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署第九河川局1樓服務台",
     "lat": 23.972894,
     "lng": 121.606166,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮舊車站郵局",
     "lat": 23.975327,
     "lng": 121.61085,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮南京街郵局",
     "lat": 23.975404,
     "lng": 121.607367,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮中山路郵局",
     "lat": 23.978272,
     "lng": 121.608513,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司花蓮區處服務中心營業廳",
     "lat": 23.979798,
     "lng": 121.607423,

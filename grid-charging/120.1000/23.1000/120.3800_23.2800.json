@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "國道公路警察局第八公路警察大隊",
     "lat": 23.285168,
     "lng": 120.398548,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局南區工程處東山服務區服務台",
     "lat": 23.295673,
     "lng": 120.39505,

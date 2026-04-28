@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣光復鄉馬佛部落",
     "lat": 23.6363,
     "lng": 121.42946,
-    "address": "976花蓮縣光復鄉西富村民有街51巷3-1號"
+    "address": "976花蓮縣光復鄉西富村民有街51巷3-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣光復鄉西富國民小學",
     "lat": 23.636681,
     "lng": 121.429696,
-    "address": "976花蓮縣光復鄉西富村民有街51巷3號"
+    "address": "976花蓮縣光復鄉西富村民有街51巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

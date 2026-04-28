@@ -1,114 +1,156 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣伸港鄉圖書館1樓",
     "lat": 24.144641,
     "lng": 120.48529,
-    "address": "509彰化縣伸港鄉中正路89號"
+    "address": "509彰化縣伸港鄉中正路89號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣伸港鄉圖書館1樓服務台",
     "lat": 24.144659,
     "lng": 120.48528,
-    "address": "509彰化縣伸港鄉中正路89號1樓"
+    "address": "509彰化縣伸港鄉中正路89號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣伸港鄉圖書館2樓親子閱覽室",
     "lat": 24.144659,
     "lng": 120.48528,
-    "address": "509彰化縣伸港鄉中正路89號2樓"
+    "address": "509彰化縣伸港鄉中正路89號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣伸港鄉圖書館4樓展覽區",
     "lat": 24.144659,
     "lng": 120.48528,
-    "address": "509彰化縣伸港鄉中正路89號4樓"
+    "address": "509彰化縣伸港鄉中正路89號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "伸港郵局",
     "lat": 24.146851,
     "lng": 120.484676,
-    "address": "509彰化縣伸港鄉新港村中山路100號"
+    "address": "509彰化縣伸港鄉新港村中山路100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣伸港鄉公所清潔隊",
     "lat": 24.147472,
     "lng": 120.484838,
-    "address": "509彰化縣伸港鄉仁愛路38號"
+    "address": "509彰化縣伸港鄉仁愛路38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣伸港鄉老人會",
     "lat": 24.14848,
     "lng": 120.487414,
-    "address": "509彰化縣伸港鄉忠孝東街50號"
+    "address": "509彰化縣伸港鄉忠孝東街50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣伸港鄉老人會2樓研習教室",
     "lat": 24.148907,
     "lng": 120.487425,
-    "address": "509彰化縣伸港鄉忠孝東街50號2樓"
+    "address": "509彰化縣伸港鄉忠孝東街50號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣伸港鄉衛生所",
     "lat": 24.159578,
     "lng": 120.485623,
-    "address": "509彰化縣伸港鄉大同村中興路二段197號"
+    "address": "509彰化縣伸港鄉大同村中興路二段197號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣和美戶政事務所伸港辦公室",
     "lat": 24.159598,
     "lng": 120.485644,
-    "address": "509彰化縣伸港鄉中興路二段197號2樓"
+    "address": "509彰化縣伸港鄉中興路二段197號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣伸港公所4樓禮堂",
     "lat": 24.159618,
     "lng": 120.486151,
-    "address": "509彰化縣伸港鄉中興路二段201號4樓"
+    "address": "509彰化縣伸港鄉中興路二段201號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣伸港鄉公所大廳",
     "lat": 24.159627,
     "lng": 120.486151,
-    "address": "509彰化縣伸港鄉中興路二段201號"
+    "address": "509彰化縣伸港鄉中興路二段201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣伸港鄉老人文康中心",
     "lat": 24.15968,
     "lng": 120.486,
-    "address": "509彰化縣伸港鄉新港村忠孝東街50號3樓"
+    "address": "509彰化縣伸港鄉新港村忠孝東街50號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣伸港鄉公所4樓禮堂",
     "lat": 24.159715,
     "lng": 120.486138,
-    "address": "509彰化縣伸港鄉中興路二段201號4樓"
+    "address": "509彰化縣伸港鄉中興路二段201號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

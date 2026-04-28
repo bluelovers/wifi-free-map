@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "泰武郵局",
     "lat": 22.591383,
     "lng": 120.631055,
-    "address": "921屏東縣泰武鄉佳平村佳平巷102號"
+    "address": "921屏東縣泰武鄉佳平村佳平巷102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣泰武鄉佳平部落",
     "lat": 22.591912,
     "lng": 120.631944,
-    "address": "921屏東縣泰武鄉佳平巷169號"
+    "address": "921屏東縣泰武鄉佳平巷169號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

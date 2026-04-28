@@ -1,90 +1,123 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "五結郵局",
     "lat": 24.683749,
     "lng": 121.795105,
-    "address": "268宜蘭縣五結鄉五結村自強路165、167號"
+    "address": "268宜蘭縣五結鄉五結村自強路165、167號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "五結鄉圖書館-公所3F會議室門邊上方",
     "lat": 24.684354,
     "lng": 121.798159,
-    "address": "268宜蘭縣五結鄉五結中路一段500號"
+    "address": "268宜蘭縣五結鄉五結中路一段500號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "五結鄉圖書館-圖書館1F櫃台",
     "lat": 24.684354,
     "lng": 121.798159,
-    "address": "268宜蘭縣五結鄉五結中路一段500號"
+    "address": "268宜蘭縣五結鄉五結中路一段500號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "五結鄉公所-1F櫃檯",
     "lat": 24.684852,
     "lng": 121.798384,
-    "address": "268宜蘭縣五結鄉五結路二段343號"
+    "address": "268宜蘭縣五結鄉五結路二段343號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "五結鄉公所-圖書館",
     "lat": 24.684852,
     "lng": 121.798384,
-    "address": "268宜蘭縣五結鄉五結路二段343號"
+    "address": "268宜蘭縣五結鄉五結路二段343號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "五結鄉衛生所",
     "lat": 24.684876,
     "lng": 121.798908,
-    "address": "268宜蘭縣五結鄉五結路二段337號"
+    "address": "268宜蘭縣五結鄉五結路二段337號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "五結戶政事務所",
     "lat": 24.684932,
     "lng": 121.798725,
-    "address": "268宜蘭縣五結鄉五結路二段339號"
+    "address": "268宜蘭縣五結鄉五結路二段339號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣生命樹全人發展協會",
     "lat": 24.686382,
     "lng": 121.797942,
-    "address": "268宜蘭縣五結鄉五結村五結中路二段76號"
+    "address": "268宜蘭縣五結鄉五結村五結中路二段76號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣私立舒活居家長照機構(舒活五結)",
     "lat": 24.686392,
     "lng": 121.796841,
-    "address": "268宜蘭縣五結鄉五結村五結北路29號"
+    "address": "268宜蘭縣五結鄉五結村五結北路29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局五結分駐所",
     "lat": 24.687473,
     "lng": 121.79788,
-    "address": "268宜蘭縣五結鄉國民路17號"
+    "address": "268宜蘭縣五結鄉國民路17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣五結鄉三興社區發展協會",
     "lat": 24.697312,
     "lng": 121.782525,
-    "address": "268宜蘭縣五結鄉三興村三結五路188號"
+    "address": "268宜蘭縣五結鄉三興村三結五路188號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

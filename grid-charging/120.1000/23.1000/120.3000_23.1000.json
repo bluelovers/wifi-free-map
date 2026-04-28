@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新市大營郵局",
     "lat": 23.100596,
     "lng": 120.307701,

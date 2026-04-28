@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館內門內埔分館",
     "lat": 22.940852,
     "lng": 120.457287,
-    "address": "845高雄市內門區內豐里內埔140-1號"
+    "address": "845高雄市內門區內豐里內埔140-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

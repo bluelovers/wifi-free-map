@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市七堵區堵南社區發展協會",
     "lat": 25.082096,
     "lng": 121.689726,
-    "address": "206基隆市七堵區堵南里大德路44號"
+    "address": "206基隆市七堵區堵南里大德路44號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市七堵區堵北里辦公處",
     "lat": 25.083356,
     "lng": 121.695279,
-    "address": "206基隆市七堵區堵北里福一街136號"
+    "address": "206基隆市七堵區堵北里福一街136號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市百福圖書館",
     "lat": 25.083947,
     "lng": 121.698754,
-    "address": "206基隆市七堵區福五街1號"
+    "address": "206基隆市七堵區福五街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆百福郵局",
     "lat": 25.08423,
     "lng": 121.698018,
-    "address": "206基隆市七堵區百五街93號"
+    "address": "206基隆市七堵區百五街93號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "標準檢驗局基隆分局五堵辦事處商檢/計量業務民眾洽公區",
     "lat": 25.084325,
     "lng": 121.698555,
-    "address": "206基隆市七堵區福五街85巷3號"
+    "address": "206基隆市七堵區福五街85巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司基隆區處七堵巡修課",
     "lat": 25.084334,
     "lng": 121.696346,
-    "address": "206基隆市七堵區福五街3號"
+    "address": "206基隆市七堵區福五街3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局臺北區監理所基隆監理站",
     "lat": 25.088146,
     "lng": 121.696027,
-    "address": "206基隆市七堵區實踐路296號"
+    "address": "206基隆市七堵區實踐路296號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

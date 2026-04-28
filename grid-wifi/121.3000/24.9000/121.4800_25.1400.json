@@ -1,178 +1,244 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "稻香市場-N-稻香路",
     "lat": 25.140579,
     "lng": 121.489624,
-    "address": "112臺北市北投區稻香路75號對面候車亭"
+    "address": "112臺北市北投區稻香路75號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館稻香分館7F外文圖書區前",
     "lat": 25.140856,
     "lng": 121.489161,
-    "address": "112臺北市北投區稻香路81號"
+    "address": "112臺北市北投區稻香路81號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館稻香分館7F參考書座位區",
     "lat": 25.140886,
     "lng": 121.489141,
-    "address": "112臺北市北投區稻香路81號7F"
+    "address": "112臺北市北投區稻香路81號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人國際奔享體驗教育發展協會(稻香真光)",
     "lat": 25.140903,
     "lng": 121.489367,
-    "address": "112臺北市北投區稻香里稻香路81號"
+    "address": "112臺北市北投區稻香里稻香路81號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "北投稻香區民活動中心6F大會場",
     "lat": 25.140952,
     "lng": 121.488862,
-    "address": "112臺北市北投區稻香路81號6F"
+    "address": "112臺北市北投區稻香路81號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館稻香分館8F研習教室前",
     "lat": 25.141006,
     "lng": 121.489255,
-    "address": "112臺北市北投區稻香路81號8F"
+    "address": "112臺北市北投區稻香路81號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館稻香分館9F自修室",
     "lat": 25.141012,
     "lng": 121.489258,
-    "address": "112臺北市北投區稻香路81號9F"
+    "address": "112臺北市北投區稻香路81號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館稻香分館9F多功能活動空間中央",
     "lat": 25.141014,
     "lng": 121.489363,
-    "address": "112臺北市北投區稻香路81號9F"
+    "address": "112臺北市北投區稻香路81號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館稻香分館8F親子共讀區後方",
     "lat": 25.141029,
     "lng": 121.489382,
-    "address": "112臺北市北投區稻香路81號8F"
+    "address": "112臺北市北投區稻香路81號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館稻香分館7F期刊書報區",
     "lat": 25.141035,
     "lng": 121.489365,
-    "address": "112臺北市北投區稻香路81號7F"
+    "address": "112臺北市北投區稻香路81號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區智仁里辦公處",
     "lat": 25.14292,
     "lng": 121.495909,
-    "address": "112臺北市北投區智仁里杏林二路74巷3號"
+    "address": "112臺北市北投區智仁里杏林二路74巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "致遠新村-S-秀山路",
     "lat": 25.143016,
     "lng": 121.490882,
-    "address": "112臺北市北投區秀山路15號斜對面候車亭"
+    "address": "112臺北市北投區秀山路15號斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "致遠新村-N-秀山路",
     "lat": 25.14302,
     "lng": 121.490745,
-    "address": "112臺北市北投區秀山路24號旁候車亭"
+    "address": "112臺北市北投區秀山路24號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投山腳郵局",
     "lat": 25.143712,
     "lng": 121.498103,
-    "address": "112臺北市北投區中和街408號"
+    "address": "112臺北市北投區中和街408號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "貴子坑水土保持園區-S-中和街",
     "lat": 25.145221,
     "lng": 121.492584,
-    "address": "112臺北市北投區中和街525巷6弄25號對面候車亭"
+    "address": "112臺北市北投區中和街525巷6弄25號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "北投秀山區民活動中心9F儲藏室前",
     "lat": 25.145561,
     "lng": 121.493386,
-    "address": "112臺北市北投區中和街534號9F"
+    "address": "112臺北市北投區中和街534號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "北投秀山區民活動中心10F桌球室右側",
     "lat": 25.145566,
     "lng": 121.4933,
-    "address": "112臺北市北投區中和街534號10F"
+    "address": "112臺北市北投區中和街534號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區秀山社區發展協會",
     "lat": 25.14558,
     "lng": 121.494898,
-    "address": "112臺北市北投區秀山里中和街502巷2弄11號一樓(里民活動場所)"
+    "address": "112臺北市北投區秀山里中和街502巷2弄11號一樓(里民活動場所)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館秀山民眾閱覽室7F自修區後",
     "lat": 25.145679,
     "lng": 121.493366,
-    "address": "112臺北市北投區中和街534號7F"
+    "address": "112臺北市北投區中和街534號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館秀山民眾閱覽室6F兒童閱覽室門口",
     "lat": 25.145716,
     "lng": 121.493332,
-    "address": "112臺北市北投區中和街534號6F"
+    "address": "112臺北市北投區中和街534號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館秀山民眾閱讀室6F閱讀室前",
     "lat": 25.145744,
     "lng": 121.493363,
-    "address": "112臺北市北投區中和街534號6F"
+    "address": "112臺北市北投區中和街534號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "北投秀山區民活動中心10F門口",
     "lat": 25.14575,
     "lng": 121.493344,
-    "address": "112臺北市北投區中和街534號10F"
+    "address": "112臺北市北投區中和街534號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

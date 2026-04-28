@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新營工業區服務中心",
     "lat": 23.303343,
     "lng": 120.281379,

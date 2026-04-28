@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "銅鑼客家大院",
     "lat": 24.472414,
     "lng": 120.803255,
-    "address": "366苗栗縣銅鑼鄉龍泉15號"
+    "address": "366苗栗縣銅鑼鄉龍泉15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣公館鄉石墻社區發展協會",
     "lat": 24.472692,
     "lng": 120.81698,
-    "address": "363苗栗縣公館鄉石墻村9鄰石墻185之1號"
+    "address": "363苗栗縣公館鄉石墻村9鄰石墻185之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉太工業區服務中心",
     "lat": 23.508577,
     "lng": 120.362772,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "太保嘉太郵局",
     "lat": 23.508577,
     "lng": 120.362772,

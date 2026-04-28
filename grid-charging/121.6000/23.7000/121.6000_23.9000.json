@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東部海岸國家風景區管理處鹽寮遊客中心",
     "lat": 23.904306,
     "lng": 121.602986,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東部海岸國家風景區花蓮管理站",
     "lat": 23.904428,
     "lng": 121.602623,

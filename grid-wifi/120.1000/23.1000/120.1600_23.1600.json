@@ -1,82 +1,112 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(佳里分行)",
     "lat": 23.160716,
     "lng": 120.178421,
-    "address": "722臺南市佳里區延平路290號"
+    "address": "722臺南市佳里區延平路290號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "佳里郵局",
     "lat": 23.163681,
     "lng": 120.178133,
-    "address": "722臺南市佳里區延平路375號"
+    "address": "722臺南市佳里區延平路375號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司佳里服務所",
     "lat": 23.163837,
     "lng": 120.178936,
-    "address": "722臺南市佳里區進學路139號"
+    "address": "722臺南市佳里區進學路139號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市佳里地政事務所",
     "lat": 23.164746,
     "lng": 120.177362,
-    "address": "722臺南市佳里區中山路417號"
+    "address": "722臺南市佳里區中山路417號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市佳里區民安里辦公處",
     "lat": 23.165,
     "lng": 120.17,
-    "address": "722臺南市佳里區民安里同安寮34號之2"
+    "address": "722臺南市佳里區民安里同安寮34號之2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部南區國稅局佳里稽徵所",
     "lat": 23.165427,
     "lng": 120.175796,
-    "address": "722臺南市佳里區忠孝路25號3樓"
+    "address": "722臺南市佳里區忠孝路25號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市佳里區蚶寮社區發展協會",
     "lat": 23.169,
     "lng": 120.17,
-    "address": "722臺南市佳里區塭內里51-1號"
+    "address": "722臺南市佳里區塭內里51-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市佳里區子龍社區發展協會",
     "lat": 23.17,
     "lng": 120.171,
-    "address": "722臺南市佳里區子龍里麻佳路三段239號"
+    "address": "722臺南市佳里區子龍里麻佳路三段239號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市政府消防局第三大隊部",
     "lat": 23.17104,
     "lng": 120.175445,
-    "address": "722臺南市佳里區六安里六順路23號1樓"
+    "address": "722臺南市佳里區六安里六順路23號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市佳里區忠仁里辦公處",
     "lat": 23.178,
     "lng": 120.168,
-    "address": "722臺南市佳里區忠仁里13鄰忠仁112號"
+    "address": "722臺南市佳里區忠仁里13鄰忠仁112號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

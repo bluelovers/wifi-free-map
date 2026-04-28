@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀竹北分行",
     "lat": 24.820683,
     "lng": 121.024531,
-    "address": "302新竹縣竹北市光明六路東一段208號"
+    "address": "302新竹縣竹北市光明六路東一段208號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "竹北六家郵局",
     "lat": 24.822039,
     "lng": 121.032438,
-    "address": "302新竹縣竹北市嘉興路457號"
+    "address": "302新竹縣竹北市嘉興路457號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

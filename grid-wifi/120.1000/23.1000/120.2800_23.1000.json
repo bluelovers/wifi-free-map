@@ -1,90 +1,123 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南科管理局大樓2樓記者室",
     "lat": 23.100398,
     "lng": 120.282698,
-    "address": "741臺南市新市區南科三路22號"
+    "address": "741臺南市新市區南科三路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南科管理局大樓3樓訪客區",
     "lat": 23.100398,
     "lng": 120.282698,
-    "address": "741臺南市新市區南科三路22號"
+    "address": "741臺南市新市區南科三路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南科管理局大樓北側中央廣場",
     "lat": 23.100398,
     "lng": 120.282698,
-    "address": "741臺南市新市區南科三路22號"
+    "address": "741臺南市新市區南科三路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南科管理局大樓3樓301會議室",
     "lat": 23.100398,
     "lng": 120.282698,
-    "address": "741臺南市新市區南科三路22號"
+    "address": "741臺南市新市區南科三路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南科管理局大樓4樓401會議室",
     "lat": 23.100398,
     "lng": 120.282698,
-    "address": "741臺南市新市區南科三路22號"
+    "address": "741臺南市新市區南科三路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南科管理局大樓5樓501會議室",
     "lat": 23.100398,
     "lng": 120.282698,
-    "address": "741臺南市新市區南科三路22號"
+    "address": "741臺南市新市區南科三路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南科管理局大樓6樓601會議室",
     "lat": 23.100398,
     "lng": 120.282698,
-    "address": "741臺南市新市區南科三路22號"
+    "address": "741臺南市新市區南科三路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新市南科園區郵局",
     "lat": 23.105762,
     "lng": 120.280091,
-    "address": "741臺南市新市區南科六路6號"
+    "address": "741臺南市新市區南科六路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局南科站第1月台4車位置",
     "lat": 23.107024,
     "lng": 120.299734,
-    "address": "744臺南市新市區大營里大營村287-300號"
+    "address": "744臺南市新市區大營里大營村287-300號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局南科站第2月台4車位置",
     "lat": 23.107024,
     "lng": 120.299734,
-    "address": "744臺南市新市區大營里大營村287-300號"
+    "address": "744臺南市新市區大營里大營村287-300號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局南科站售票房",
     "lat": 23.107024,
     "lng": 120.299734,
-    "address": "744臺南市新市區大營里大營村287-300號"
+    "address": "744臺南市新市區大營里大營村287-300號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

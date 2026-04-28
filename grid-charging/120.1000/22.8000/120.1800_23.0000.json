@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南永樂郵局",
     "lat": 23.000404,
     "lng": 120.192513,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南文元郵局",
     "lat": 23.01224,
     "lng": 120.19529,

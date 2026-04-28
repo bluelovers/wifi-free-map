@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "金門縣溫馨之家關懷協會",
     "lat": 24.478279,
     "lng": 118.426443,
-    "address": "890金門縣金沙鎮光前里陽翟新興社區120號之5"
+    "address": "890金門縣金沙鎮光前里陽翟新興社區120號之5",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

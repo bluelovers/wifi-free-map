@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "國道公路警察局第六公路警察大隊",
     "lat": 24.835889,
     "lng": 121.198465,

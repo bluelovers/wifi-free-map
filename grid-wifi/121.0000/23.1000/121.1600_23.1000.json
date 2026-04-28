@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "海端郵局",
     "lat": 23.100052,
     "lng": 121.176596,
-    "address": "957臺東縣海端鄉海端村山界路27號"
+    "address": "957臺東縣海端鄉海端村山界路27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "屏東縣獅子鄉內獅左-2左分1桿旁(候車室)",
     "lat": 23.102917,
     "lng": 121.176204,
-    "address": "956臺東縣關山鎮德高里西莊49號"
+    "address": "956臺東縣關山鎮德高里西莊49號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

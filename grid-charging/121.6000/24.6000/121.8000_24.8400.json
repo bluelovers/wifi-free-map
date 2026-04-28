@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "頭城頂埔郵局",
     "lat": 24.845434,
     "lng": 121.807106,

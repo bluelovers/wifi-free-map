@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中壢自立郵局",
     "lat": 24.963636,
     "lng": 121.253709,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中壢忠義郵局",
     "lat": 24.96666,
     "lng": 121.244335,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市中壢區戶政事所自強工作站",
     "lat": 24.967748,
     "lng": 121.259015,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局內壢站車站候車室",
     "lat": 24.972689,
     "lng": 121.257954,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中壢內壢郵局",
     "lat": 24.974435,
     "lng": 121.255718,

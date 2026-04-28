@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣吉安鄉光華社區發展協會",
     "lat": 23.933981,
     "lng": 121.578445,
-    "address": "973花蓮縣吉安鄉光華村光華二街200號"
+    "address": "973花蓮縣吉安鄉光華村光華二街200號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣全民全人關懷協會",
     "lat": 23.93816,
     "lng": 121.57133,
-    "address": "973花蓮縣吉安鄉永興村全民街25號"
+    "address": "973花蓮縣吉安鄉永興村全民街25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "陽明山郵局",
     "lat": 25.151306,
     "lng": 121.546005,

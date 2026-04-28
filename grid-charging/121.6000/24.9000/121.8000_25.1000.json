@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司瑞芳營運所",
     "lat": 25.106297,
     "lng": 121.814937,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "瑞芳郵局",
     "lat": 25.106968,
     "lng": 121.80828,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市瑞芳戶政事務所",
     "lat": 25.107532,
     "lng": 121.809131,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局瑞芳站候車室",
     "lat": 25.108681,
     "lng": 121.806033,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局瑞芳站第一月台",
     "lat": 25.108917,
     "lng": 121.806021,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局瑞芳站第二月台",
     "lat": 25.108917,
     "lng": 121.806021,

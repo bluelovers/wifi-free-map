@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市安定區港尾社區發展協會",
     "lat": 23.084,
     "lng": 120.213,
-    "address": "745臺南市安定區港尾里74-11號"
+    "address": "745臺南市安定區港尾里74-11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中國輸出入銀行臺南分行",
     "lat": 23.085943,
     "lng": 120.210394,
-    "address": "745臺南市安定區新吉里新吉49-9號"
+    "address": "745臺南市安定區新吉里新吉49-9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市安定區保西社區發展協會",
     "lat": 23.094,
     "lng": 120.21,
-    "address": "745臺南市安定區安定131之1號"
+    "address": "745臺南市安定區安定131之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

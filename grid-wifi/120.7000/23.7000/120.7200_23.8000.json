@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "竹山後埔郵局",
     "lat": 23.813863,
     "lng": 120.733057,
-    "address": "557南投縣竹山鎮中央里集山路一段1234號"
+    "address": "557南投縣竹山鎮中央里集山路一段1234號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮中央社區發展協會",
     "lat": 23.814377,
     "lng": 120.733509,
-    "address": "557南投縣竹山鎮中央里集山路一段1236巷6之1號"
+    "address": "557南投縣竹山鎮中央里集山路一段1236巷6之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮中央社區",
     "lat": 23.81453,
     "lng": 120.73337,
-    "address": "557南投縣竹山鎮中央里集山路一段1236巷6號"
+    "address": "557南投縣竹山鎮中央里集山路一段1236巷6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "順心憶學堂",
     "lat": 23.817259,
     "lng": 120.724169,
-    "address": "557南投縣竹山鎮社寮里田中巷58號"
+    "address": "557南投縣竹山鎮社寮里田中巷58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮社寮社區發展協會",
     "lat": 23.817428,
     "lng": 120.722346,
-    "address": "557南投縣竹山鎮社寮里大公街75號"
+    "address": "557南投縣竹山鎮社寮里大公街75號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

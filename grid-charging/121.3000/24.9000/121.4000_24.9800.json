@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "樹林大同郵局",
     "lat": 24.980344,
     "lng": 121.416855,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市樹林戶政事務所1F_A",
     "lat": 24.996643,
     "lng": 121.418949,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "樹林郵局",
     "lat": 24.997887,
     "lng": 121.417313,

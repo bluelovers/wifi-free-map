@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣泰武鄉吾拉魯滋部落",
     "lat": 22.60451,
     "lng": 120.61135,
-    "address": "921屏東縣泰武鄉泰武村大武山一街36號"
+    "address": "921屏東縣泰武鄉泰武村大武山一街36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣泰武鄉衛生所(泰武鄉Singlit樂智社區服務據點)",
     "lat": 22.604701,
     "lng": 120.612368,
-    "address": "921屏東縣泰武鄉泰武村大武山一街6號"
+    "address": "921屏東縣泰武鄉泰武村大武山一街6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

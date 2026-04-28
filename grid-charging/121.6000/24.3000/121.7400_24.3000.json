@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "美崙(兼和平及光華)工業區服務中心-和平辦事處",
     "lat": 24.30596,
     "lng": 121.7498,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "和平專用港管理小組",
     "lat": 24.30596,
     "lng": 121.7498,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "秀林和平郵局",
     "lat": 24.312403,
     "lng": 121.748771,

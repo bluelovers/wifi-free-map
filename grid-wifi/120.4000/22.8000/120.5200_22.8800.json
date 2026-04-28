@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市美濃區南興社區發展協會",
     "lat": 22.883,
     "lng": 120.534,
-    "address": "843高雄市美濃區中壇里19鄰五穀街32號"
+    "address": "843高雄市美濃區中壇里19鄰五穀街32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市美濃老人福利協進會",
     "lat": 22.8833,
     "lng": 120.5341,
-    "address": "843高雄市美濃區中壇里中正路二段351號"
+    "address": "843高雄市美濃區中壇里中正路二段351號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "美濃中壇郵局",
     "lat": 22.886849,
     "lng": 120.531418,
-    "address": "843高雄市美濃區中興路一段788號"
+    "address": "843高雄市美濃區中興路一段788號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市美濃區獅山社區發展協會",
     "lat": 22.888,
     "lng": 120.53,
-    "address": "843高雄市美濃區獅山里獅山街57號"
+    "address": "843高雄市美濃區獅山里獅山街57號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司美濃營運所",
     "lat": 22.888106,
     "lng": 120.536352,
-    "address": "843高雄市美濃區中正路二段169巷1號"
+    "address": "843高雄市美濃區中正路二段169巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

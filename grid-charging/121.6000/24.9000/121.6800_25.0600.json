@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局百福站候車室",
     "lat": 25.077923,
     "lng": 121.693785,

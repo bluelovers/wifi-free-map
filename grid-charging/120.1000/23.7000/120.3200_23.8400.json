@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣大城鄉戶政事務所",
     "lat": 23.855404,
     "lng": 120.323017,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大城郵局",
     "lat": 23.856046,
     "lng": 120.321583,

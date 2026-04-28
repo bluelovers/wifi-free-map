@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市將軍區馬沙溝社區發展協會",
     "lat": 23.223,
     "lng": 120.161,
-    "address": "725臺南市將軍區長沙里長沙24之30號"
+    "address": "725臺南市將軍區長沙里長沙24之30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

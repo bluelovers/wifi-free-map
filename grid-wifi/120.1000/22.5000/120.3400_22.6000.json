@@ -1,98 +1,134 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行五甲分行",
     "lat": 22.601972,
     "lng": 120.340978,
-    "address": "830高雄市鳳山區五甲二路168號"
+    "address": "830高雄市鳳山區五甲二路168號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳳山一甲郵局",
     "lat": 22.602061,
     "lng": 120.341808,
-    "address": "830高雄市鳳山區五甲二路87、89、91號"
+    "address": "830高雄市鳳山區五甲二路87、89、91號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳳山中崙郵局",
     "lat": 22.602226,
     "lng": 120.351117,
-    "address": "830高雄市鳳山區中崙路576號"
+    "address": "830高雄市鳳山區中崙路576號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣全人關懷照護服務協會",
     "lat": 22.603,
     "lng": 120.34,
-    "address": "830高雄市鳳山區文衡里八德路329號"
+    "address": "830高雄市鳳山區文衡里八德路329號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市關懷台灣協會",
     "lat": 22.605,
     "lng": 120.349,
-    "address": "830高雄市鳳山區中崙里中崙四路5號"
+    "address": "830高雄市鳳山區中崙里中崙四路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳳山新甲郵局",
     "lat": 22.607586,
     "lng": 120.341857,
-    "address": "830高雄市鳳山區大明路39、41號"
+    "address": "830高雄市鳳山區大明路39、41號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台灣寬霖關懷協會(海光站)",
     "lat": 22.612,
     "lng": 120.347,
-    "address": "830高雄市鳳山區海光里勝國街67號"
+    "address": "830高雄市鳳山區海光里勝國街67號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市鳳山區幸福海洋社區發展協會",
     "lat": 22.616,
     "lng": 120.349,
-    "address": "830高雄市鳳山區海洋里南福街152巷15號"
+    "address": "830高雄市鳳山區海洋里南福街152巷15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳳山新富郵局",
     "lat": 22.616274,
     "lng": 120.348663,
-    "address": "830高雄市鳳山區新富路391號"
+    "address": "830高雄市鳳山區新富路391號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市心故鄉社區營造協會",
     "lat": 22.619,
     "lng": 120.347,
-    "address": "830高雄市鳳山區國富里國富路31號"
+    "address": "830高雄市鳳山區國富里國富路31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市甲仙區甲仙社區發展協會",
     "lat": 22.619,
     "lng": 120.347,
-    "address": "847高雄市甲仙區和安里中山路56號"
+    "address": "847高雄市甲仙區和安里中山路56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(高雄地方法院-鳳山辦公大樓)",
     "lat": 22.61992,
     "lng": 120.348714,
-    "address": "830高雄市鳳山區國泰路二段96號"
+    "address": "830高雄市鳳山區國泰路二段96號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

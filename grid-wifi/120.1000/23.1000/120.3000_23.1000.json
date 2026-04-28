@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新市大營郵局",
     "lat": 23.100596,
     "lng": 120.307701,
-    "address": "744臺南市新市區大營里大營131號之-18"
+    "address": "744臺南市新市區大營里大營131號之-18",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市新市區大洲社區發展協會",
     "lat": 23.101,
     "lng": 120.308,
-    "address": "744臺南市新市區大洲29之1號"
+    "address": "744臺南市新市區大洲29之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市善化區蓮潭里活動中心",
     "lat": 23.117496,
     "lng": 120.307877,
-    "address": "741臺南市善化區陽光大道239號"
+    "address": "741臺南市善化區陽光大道239號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

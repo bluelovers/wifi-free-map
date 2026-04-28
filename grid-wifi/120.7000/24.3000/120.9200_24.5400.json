@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "獅潭郵局",
     "lat": 24.541872,
     "lng": 120.922282,
-    "address": "354苗栗縣獅潭鄉新店村7鄰58-2號"
+    "address": "354苗栗縣獅潭鄉新店村7鄰58-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣獅潭鄉民眾服務社",
     "lat": 24.542261,
     "lng": 120.921423,
-    "address": "354苗栗縣獅潭鄉新店村4鄰新店46號"
+    "address": "354苗栗縣獅潭鄉新店村4鄰新店46號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

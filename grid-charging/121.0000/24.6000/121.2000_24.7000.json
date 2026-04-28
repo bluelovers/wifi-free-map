@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "尖石郵局",
     "lat": 24.705502,
     "lng": 121.201883,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹縣尖石鄉戶政事務所",
     "lat": 24.706038,
     "lng": 121.203135,

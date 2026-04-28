@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南和順郵局",
     "lat": 23.065382,
     "lng": 120.218287,

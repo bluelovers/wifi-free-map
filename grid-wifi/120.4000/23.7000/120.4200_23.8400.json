@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣二林戶政事務所竹塘辦公室",
     "lat": 23.859584,
     "lng": 120.427752,
-    "address": "525彰化縣竹塘鄉竹塘村竹林路一段253號"
+    "address": "525彰化縣竹塘鄉竹塘村竹林路一段253號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局芳苑分局竹塘分駐所",
     "lat": 23.859598,
     "lng": 120.427769,
-    "address": "525彰化縣竹塘鄉竹塘村竹林路一段255號"
+    "address": "525彰化縣竹塘鄉竹塘村竹林路一段255號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華善德關懷協會(土城站)",
     "lat": 24.906,
     "lng": 121.399,
-    "address": "236新北市土城區青山里明德路一段74之1號(青山里市民活動中心)"
+    "address": "236新北市土城區青山里明德路一段74之1號(青山里市民活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會臺北榮譽國民之家行政大樓一樓",
     "lat": 24.909658,
     "lng": 121.393411,
-    "address": "237新北市三峽區白雞路127號"
+    "address": "237新北市三峽區白雞路127號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

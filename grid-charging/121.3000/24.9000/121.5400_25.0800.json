@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北北安郵局",
     "lat": 25.082658,
     "lng": 121.549846,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東吳大學郵局",
     "lat": 25.094305,
     "lng": 121.546597,

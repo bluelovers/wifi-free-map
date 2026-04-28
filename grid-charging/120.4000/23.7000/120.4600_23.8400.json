@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "埤頭路口厝郵局",
     "lat": 23.84672,
     "lng": 120.460656,

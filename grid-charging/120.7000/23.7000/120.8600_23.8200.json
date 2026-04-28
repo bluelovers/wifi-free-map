@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局車埕站候車室",
     "lat": 23.833253,
     "lng": 120.866127,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投縣政府警察局集集分局車埕派出所",
     "lat": 23.833984,
     "lng": 120.866428,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "車埕遊客中心",
     "lat": 23.834746,
     "lng": 120.865606,

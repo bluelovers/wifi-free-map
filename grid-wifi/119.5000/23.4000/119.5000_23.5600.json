@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣西嶼鄉內垵社區發展協會",
     "lat": 23.5693,
     "lng": 119.5079,
-    "address": "881澎湖縣西嶼鄉4鄰內垵43之5號"
+    "address": "881澎湖縣西嶼鄉4鄰內垵43之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

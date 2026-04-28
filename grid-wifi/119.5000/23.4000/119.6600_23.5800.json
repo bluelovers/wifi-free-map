@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣湖西鄉湖東社區發展協會",
     "lat": 23.581733,
     "lng": 119.662362,
-    "address": "885澎湖縣湖西鄉湖東村湖東23之1號"
+    "address": "885澎湖縣湖西鄉湖東村湖東23之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "澎湖縣湖西鄉立幼兒園",
     "lat": 23.585257,
     "lng": 119.662649,
-    "address": "885澎湖縣湖西鄉湖西村180號"
+    "address": "885澎湖縣湖西鄉湖西村180號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣湖西鄉南寮社區發展協會",
     "lat": 23.58542,
     "lng": 119.668966,
-    "address": "885澎湖縣湖西鄉南寮村南寮121之5號"
+    "address": "885澎湖縣湖西鄉南寮村南寮121之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣湖西鄉北寮社區發展協會",
     "lat": 23.598761,
     "lng": 119.669616,
-    "address": "885澎湖縣湖西鄉北寮村北寮25之2號"
+    "address": "885澎湖縣湖西鄉北寮村北寮25之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

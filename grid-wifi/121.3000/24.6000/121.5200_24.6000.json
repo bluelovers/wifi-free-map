@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣大同鄉梵梵部落",
     "lat": 24.61287,
     "lng": 121.52525,
-    "address": "267宜蘭縣大同鄉英士村梵梵巷90號-5"
+    "address": "267宜蘭縣大同鄉英士村梵梵巷90號-5",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局英士派出所",
     "lat": 24.613411,
     "lng": 121.526246,
-    "address": "267宜蘭縣大同鄉英士村梵梵72號"
+    "address": "267宜蘭縣大同鄉英士村梵梵72號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大同衛生所-英士村衛生室",
     "lat": 24.61347,
     "lng": 121.526156,
-    "address": "267宜蘭縣大同鄉英士村梵梵巷72之1號"
+    "address": "267宜蘭縣大同鄉英士村梵梵巷72之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

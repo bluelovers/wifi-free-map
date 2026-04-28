@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行福興分行",
     "lat": 24.047415,
     "lng": 120.446546,
-    "address": "506彰化縣福興鄉彰鹿路七段399號1~4樓"
+    "address": "506彰化縣福興鄉彰鹿路七段399號1~4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣福興鄉公所",
     "lat": 24.047851,
     "lng": 120.443823,
-    "address": "506彰化縣福興鄉彰鹿路七段495號"
+    "address": "506彰化縣福興鄉彰鹿路七段495號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣福興鄉公所調解委員會",
     "lat": 24.04788,
     "lng": 120.44378,
-    "address": "506彰化縣福興鄉彰鹿路七段495號1樓"
+    "address": "506彰化縣福興鄉彰鹿路七段495號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局鹿港分局福興分駐所",
     "lat": 24.047973,
     "lng": 120.44421,
-    "address": "506彰化縣福興鄉橋頭村彰鹿路七段489號"
+    "address": "506彰化縣福興鄉橋頭村彰鹿路七段489號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

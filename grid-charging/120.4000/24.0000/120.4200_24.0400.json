@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鹿港郵局",
     "lat": 24.055376,
     "lng": 120.432336,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣鹿港鎮戶政事務所",
     "lat": 24.057143,
     "lng": 120.433631,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司鹿港服務所大廳",
     "lat": 24.057711,
     "lng": 120.433052,

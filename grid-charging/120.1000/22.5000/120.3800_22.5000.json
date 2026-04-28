@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "林園福興郵局",
     "lat": 22.504961,
     "lng": 120.394708,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "林園郵局",
     "lat": 22.506119,
     "lng": 120.396861,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市林園區戶政事務所",
     "lat": 22.508236,
     "lng": 120.394857,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "七股郵局",
     "lat": 23.14103,
     "lng": 120.14594,

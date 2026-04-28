@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局三義站第1月台行車室",
     "lat": 24.42064,
     "lng": 120.773959,
-    "address": "367苗栗縣三義鄉雙湖村90號"
+    "address": "367苗栗縣三義鄉雙湖村90號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局三義站第2月台行車室",
     "lat": 24.42064,
     "lng": 120.773959,
-    "address": "367苗栗縣三義鄉雙湖村90號"
+    "address": "367苗栗縣三義鄉雙湖村90號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局三義站候車室",
     "lat": 24.420707,
     "lng": 120.773971,
-    "address": "367苗栗縣三義鄉雙湖村90號"
+    "address": "367苗栗縣三義鄉雙湖村90號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣三義鄉龍騰社區發展協會",
     "lat": 24.422,
     "lng": 120.774,
-    "address": "367苗栗縣三義鄉龍騰村4鄰外庄10號"
+    "address": "367苗栗縣三義鄉龍騰村4鄰外庄10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "太平郵局",
     "lat": 24.129883,
     "lng": 120.719687,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中旱溪郵局",
     "lat": 24.138893,
     "lng": 120.70219,

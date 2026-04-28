@@ -1,162 +1,222 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市八德區茄明社區發展協會",
     "lat": 24.986235,
     "lng": 121.281855,
-    "address": "334桃園市八德區茄明里中華路27號"
+    "address": "334桃園市八德區茄明里中華路27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區中原里辦公處",
     "lat": 24.986669,
     "lng": 121.294398,
-    "address": "330桃園市桃園區泰昌六街45號1樓及18鄰宏昌七街74號"
+    "address": "330桃園市桃園區泰昌六街45號1樓及18鄰宏昌七街74號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區五中社區發展協會",
     "lat": 24.986684,
     "lng": 121.292754,
-    "address": "330桃園市桃園區中山里中平路118號"
+    "address": "330桃園市桃園區中山里中平路118號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區泰山里辦公處",
     "lat": 24.986731,
     "lng": 121.298622,
-    "address": "330桃園市桃園區泰山里宏昌六街19巷96號"
+    "address": "330桃園市桃園區泰山里宏昌六街19巷96號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市新生活文化推廣協會",
     "lat": 24.986832,
     "lng": 121.28889,
-    "address": "330桃園市桃園區中聖里宏昌六街316號"
+    "address": "330桃園市桃園區中聖里宏昌六街316號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園茄苳郵局",
     "lat": 24.987295,
     "lng": 121.281882,
-    "address": "330桃園市桃園區龍安街12號"
+    "address": "330桃園市桃園區龍安街12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司桃園縣桃園市武陵站",
     "lat": 24.988224,
     "lng": 121.285168,
-    "address": "330桃園市桃園區中山路1020號"
+    "address": "330桃園市桃園區中山路1020號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園捷運紅線先導公車智慧站牌-武陵高中",
     "lat": 24.988587,
     "lng": 121.285199,
-    "address": "330桃園市桃園區中山路1004號"
+    "address": "330桃園市桃園區中山路1004號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行南桃園分行",
     "lat": 24.989367,
     "lng": 121.288088,
-    "address": "330桃園市桃園區中山路835號"
+    "address": "330桃園市桃園區中山路835號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園中路郵局",
     "lat": 24.989793,
     "lng": 121.293084,
-    "address": "330桃園市桃園區壽昌街20巷27-1、27-2號"
+    "address": "330桃園市桃園區壽昌街20巷27-1、27-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區龍岡里辦公處",
     "lat": 24.990912,
     "lng": 121.283043,
-    "address": "330桃園市桃園區龍岡里江南九街53號"
+    "address": "330桃園市桃園區龍岡里江南九街53號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府環境保護局",
     "lat": 24.99317,
     "lng": 121.29582,
-    "address": "330桃園市桃園區法治路1號"
+    "address": "330桃園市桃園區法治路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府環境保護局二樓",
     "lat": 24.99317,
     "lng": 121.29582,
-    "address": "330桃園市桃園區法治路1號"
+    "address": "330桃園市桃園區法治路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府環境清潔稽查大隊1樓設保組",
     "lat": 24.993253,
     "lng": 121.295828,
-    "address": "330桃園市桃園區法治路1號"
+    "address": "330桃園市桃園區法治路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府環境清潔稽查大隊1樓檔案室",
     "lat": 24.993253,
     "lng": 121.295828,
-    "address": "330桃園市桃園區法治路1號"
+    "address": "330桃園市桃園區法治路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府環境清潔稽查大隊2樓市容研考",
     "lat": 24.993253,
     "lng": 121.295828,
-    "address": "330桃園市桃園區法治路1號"
+    "address": "330桃園市桃園區法治路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府環境清潔稽查大隊2樓勞工組",
     "lat": 24.993253,
     "lng": 121.295828,
-    "address": "330桃園市桃園區法治路1號"
+    "address": "330桃園市桃園區法治路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府環境清潔稽查大隊2樓人政會",
     "lat": 24.993253,
     "lng": 121.295828,
-    "address": "330桃園市桃園區法治路1號"
+    "address": "330桃園市桃園區法治路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市向陽社會服務協會",
     "lat": 24.99358,
     "lng": 121.294964,
-    "address": "330桃園市桃園區中正里廈門街62號"
+    "address": "330桃園市桃園區中正里廈門街62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園永安郵局",
     "lat": 24.999903,
     "lng": 121.299661,
-    "address": "330桃園市桃園區永安路365號"
+    "address": "330桃園市桃園區永安路365號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

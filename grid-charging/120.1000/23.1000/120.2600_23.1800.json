@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺臺南分臺",
     "lat": 23.189571,
     "lng": 120.264747,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "麻豆總爺郵局",
     "lat": 23.195015,
     "lng": 120.265696,

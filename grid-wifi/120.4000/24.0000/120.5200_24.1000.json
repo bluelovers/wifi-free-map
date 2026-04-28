@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局和美分局中寮派出所",
     "lat": 24.105296,
     "lng": 120.533195,
-    "address": "508彰化縣和美鎮犁盛里彰新路三段10號"
+    "address": "508彰化縣和美鎮犁盛里彰新路三段10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "和美中寮郵局",
     "lat": 24.10646,
     "lng": 120.530456,
-    "address": "508彰化縣和美鎮彰新路三段123、125號"
+    "address": "508彰化縣和美鎮彰新路三段123、125號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(彰化地方法院-彰化簡易庭)",
     "lat": 24.109141,
     "lng": 120.534606,
-    "address": "508彰化縣和美鎮東萊路275號"
+    "address": "508彰化縣和美鎮東萊路275號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

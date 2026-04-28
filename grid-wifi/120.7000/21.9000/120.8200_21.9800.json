@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣滿州鄉港口社區發展協會",
     "lat": 21.990766,
     "lng": 120.826838,
-    "address": "947屏東縣滿州鄉港口村港口路42號"
+    "address": "947屏東縣滿州鄉港口村港口路42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

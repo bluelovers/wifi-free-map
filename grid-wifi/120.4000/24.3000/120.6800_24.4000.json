@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苑裡山腳郵局",
     "lat": 24.412872,
     "lng": 120.681818,
-    "address": "358苗栗縣苑裡鎮舊社里63號"
+    "address": "358苗栗縣苑裡鎮舊社里63號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苑裡社苓郵局",
     "lat": 24.415823,
     "lng": 120.6848,
-    "address": "358苗栗縣苑裡鎮社苓里90-5號"
+    "address": "358苗栗縣苑裡鎮社苓里90-5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣苑裡鎮舊社社區發展協會",
     "lat": 24.416992,
     "lng": 120.685106,
-    "address": "358苗栗縣苑裡鎮舊社里10鄰舊社110之1號"
+    "address": "358苗栗縣苑裡鎮舊社里10鄰舊社110之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

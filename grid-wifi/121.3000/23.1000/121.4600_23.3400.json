@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣長濱鄉真柄部落",
     "lat": 23.34156,
     "lng": 121.46463,
-    "address": "962臺東縣長濱鄉三間村真柄11號"
+    "address": "962臺東縣長濱鄉三間村真柄11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

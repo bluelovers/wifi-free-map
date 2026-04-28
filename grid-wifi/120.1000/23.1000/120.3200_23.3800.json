@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣鹿草鄉三角社區發展協會",
     "lat": 23.396,
     "lng": 120.329,
-    "address": "611嘉義縣鹿草鄉三角村109之1號"
+    "address": "611嘉義縣鹿草鄉三角村109之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

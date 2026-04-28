@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "獅子鄉樂智社區服務據點",
     "lat": 22.191909,
     "lng": 120.717751,
-    "address": "943屏東縣獅子鄉楓林村一巷6-4號"
+    "address": "943屏東縣獅子鄉楓林村一巷6-4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣獅子鄉楓林部落",
     "lat": 22.19992,
     "lng": 120.70616,
-    "address": "943屏東縣獅子鄉楓林1巷6號之4"
+    "address": "943屏東縣獅子鄉楓林1巷6號之4",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

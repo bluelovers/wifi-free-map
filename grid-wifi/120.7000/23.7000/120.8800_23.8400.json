@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "向山遊客中心展覽館1",
     "lat": 23.851753,
     "lng": 120.899645,
-    "address": "555南投縣魚池鄉中山路559號"
+    "address": "555南投縣魚池鄉中山路559號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

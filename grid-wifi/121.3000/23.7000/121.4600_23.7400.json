@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣鳳林鎮大榮國民小學",
     "lat": 23.7542,
     "lng": 121.468577,
-    "address": "975花蓮縣鳳林鎮大榮里復興路85號"
+    "address": "975花蓮縣鳳林鎮大榮里復興路85號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

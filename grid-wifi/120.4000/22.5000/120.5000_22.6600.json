@@ -1,90 +1,123 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣屏東市瑞光社區發展協會",
     "lat": 22.662522,
     "lng": 120.511394,
-    "address": "900屏東縣屏東市瑞光里瑞屏街28號"
+    "address": "900屏東縣屏東市瑞光里瑞屏街28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東工業區服務中心",
     "lat": 22.662817,
     "lng": 120.500406,
-    "address": "900屏東縣屏東市工業一路5號"
+    "address": "900屏東縣屏東市工業一路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東林區管理處",
     "lat": 22.663883,
     "lng": 120.5031,
-    "address": "900屏東縣屏東市民興路39號"
+    "address": "900屏東縣屏東市民興路39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東歸來郵局",
     "lat": 22.664166,
     "lng": 120.503324,
-    "address": "900屏東縣屏東市民生路61-7號"
+    "address": "900屏東縣屏東市民生路61-7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "衛生福利部南區老人之家行政大樓",
     "lat": 22.667093,
     "lng": 120.508748,
-    "address": "900屏東縣屏東市瑞光里香揚巷1號"
+    "address": "900屏東縣屏東市瑞光里香揚巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣屏東市豐源社區發展協會",
     "lat": 22.669601,
     "lng": 120.505482,
-    "address": "900屏東縣屏東市豐源里林森路東段86號三樓"
+    "address": "900屏東縣屏東市豐源里林森路東段86號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司屏東服務所",
     "lat": 22.669682,
     "lng": 120.504063,
-    "address": "900屏東縣屏東市林森路6號"
+    "address": "900屏東縣屏東市林森路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "屏東縣鄉土藝術館",
     "lat": 22.67352,
     "lng": 120.50744,
-    "address": "900屏東縣屏東市田寮巷26號"
+    "address": "900屏東縣屏東市田寮巷26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣屏東市五線譜社區服務協進會",
     "lat": 22.674224,
     "lng": 120.506281,
-    "address": "900屏東縣屏東市豐田里建豐路105巷50號"
+    "address": "900屏東縣屏東市豐田里建豐路105巷50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東縣家畜疾病防治所",
     "lat": 22.674226,
     "lng": 120.50475,
-    "address": "900屏東縣屏東市民學路58巷23號"
+    "address": "900屏東縣屏東市民學路58巷23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政執行署屏東分署服務台",
     "lat": 22.676555,
     "lng": 120.505412,
-    "address": "900屏東縣屏東市建豐路180巷28號"
+    "address": "900屏東縣屏東市建豐路180巷28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

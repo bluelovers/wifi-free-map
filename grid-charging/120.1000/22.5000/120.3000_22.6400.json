@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄民族社區郵局",
     "lat": 22.640332,
     "lng": 120.316542,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄站後郵局",
     "lat": 22.642173,
     "lng": 120.303117,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄德智郵局",
     "lat": 22.643529,
     "lng": 120.311174,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄灣仔內郵局",
     "lat": 22.647844,
     "lng": 120.317341,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄醫學大學郵局",
     "lat": 22.648868,
     "lng": 120.309949,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄博愛路郵局",
     "lat": 22.650942,
     "lng": 120.303986,

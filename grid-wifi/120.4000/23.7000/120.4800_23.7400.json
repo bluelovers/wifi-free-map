@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣莿桐鄉婦女會（甘西據點）",
     "lat": 23.755,
     "lng": 120.486,
-    "address": "647雲林縣莿桐鄉甘西村49之1號"
+    "address": "647雲林縣莿桐鄉甘西村49之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "莿桐郵局",
     "lat": 23.756398,
     "lng": 120.499511,
-    "address": "647雲林縣莿桐鄉莿桐村中山路71號"
+    "address": "647雲林縣莿桐鄉莿桐村中山路71號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

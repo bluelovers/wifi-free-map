@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "頭份尖山郵局",
     "lat": 24.664266,
     "lng": 120.879676,

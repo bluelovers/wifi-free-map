@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "金門縣成功出海口",
     "lat": 24.435867,
     "lng": 118.386866,
-    "address": "891金門縣金湖鎮成功1-3號"
+    "address": "891金門縣金湖鎮成功1-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "金門縣陳景蘭洋樓-2F服務台",
     "lat": 24.437241,
     "lng": 118.389865,
-    "address": "891金門縣金湖鎮正義里成功村1號"
+    "address": "891金門縣金湖鎮正義里成功村1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

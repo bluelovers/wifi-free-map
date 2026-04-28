@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大林大埔美郵局",
     "lat": 23.598447,
     "lng": 120.514133,
-    "address": "622嘉義縣大林鎮大美里大埔美園區三路99號"
+    "address": "622嘉義縣大林鎮大美里大埔美園區三路99號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣長期照護推廣協會",
     "lat": 23.599,
     "lng": 120.513,
-    "address": "622嘉義縣大林鎮大美里互助社區13巷6弄10號"
+    "address": "622嘉義縣大林鎮大美里互助社區13巷6弄10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

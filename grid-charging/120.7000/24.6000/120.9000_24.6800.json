@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "頭份郵局",
     "lat": 24.685824,
     "lng": 120.906124,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗縣頭份鎮戶政事務所",
     "lat": 24.687069,
     "lng": 120.90776,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "頭份上公園郵局",
     "lat": 24.688381,
     "lng": 120.914206,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "頭份蟠桃郵局",
     "lat": 24.696212,
     "lng": 120.909061,

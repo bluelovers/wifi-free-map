@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "沙鹿郵局",
     "lat": 24.239267,
     "lng": 120.559871,

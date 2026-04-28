@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄鼎金郵局",
     "lat": 22.668196,
     "lng": 120.32189,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "左營榮總郵局",
     "lat": 22.677537,
     "lng": 120.322504,

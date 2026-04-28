@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "太麻里郵局",
     "lat": 22.61201,
     "lng": 121.006478,

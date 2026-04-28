@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人嘉義縣晶聖發展協會-梅埔站",
     "lat": 23.442,
     "lng": 120.34,
-    "address": "612嘉義縣太保市梅埔里梅子厝70之1號"
+    "address": "612嘉義縣太保市梅埔里梅子厝70之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣水上戶政事務所太保辦公室",
     "lat": 23.442042,
     "lng": 120.355548,
-    "address": "612嘉義縣太保市太保里太保22號"
+    "address": "612嘉義縣太保市太保里太保22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人嘉義縣晶聖發展協會-後潭站",
     "lat": 23.452,
     "lng": 120.344,
-    "address": "612嘉義縣太保市後潭里後潭298號"
+    "address": "612嘉義縣太保市後潭里後潭298號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

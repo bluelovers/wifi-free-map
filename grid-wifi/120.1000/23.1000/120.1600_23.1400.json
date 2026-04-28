@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "佳里中山路郵局",
     "lat": 23.157338,
     "lng": 120.177184,
-    "address": "722臺南市佳里區中山路141號"
+    "address": "722臺南市佳里區中山路141號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

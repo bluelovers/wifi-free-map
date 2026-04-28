@@ -1,162 +1,222 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "泰山郵局",
     "lat": 25.062482,
     "lng": 121.433622,
-    "address": "243新北市泰山區楓江路10號"
+    "address": "243新北市泰山區楓江路10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市泰山區山腳社區發展協會",
     "lat": 25.062661,
     "lng": 121.432334,
-    "address": "243新北市泰山區山腳里福德街14號"
+    "address": "243新北市泰山區山腳里福德街14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(泰山分行)",
     "lat": 25.063361,
     "lng": 121.433397,
-    "address": "243新北市泰山區明志路一段135號"
+    "address": "243新北市泰山區明志路一段135號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司泰山營運所",
     "lat": 25.063696,
     "lng": 121.428743,
-    "address": "243新北市泰山區泰林路二段347號"
+    "address": "243新北市泰山區泰林路二段347號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部第2辦公室3樓",
     "lat": 25.067284,
     "lng": 121.42324,
-    "address": "243新北市泰山區黎明里半山雅70-4號"
+    "address": "243新北市泰山區黎明里半山雅70-4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部簡報室",
     "lat": 25.067675,
     "lng": 121.423292,
-    "address": "243新北市泰山區黎明里半山雅70號"
+    "address": "243新北市泰山區黎明里半山雅70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局北區工程處交通控制中心2樓",
     "lat": 25.067839,
     "lng": 121.429449,
-    "address": "243新北市泰山區黎明里半山雅70-4號"
+    "address": "243新北市泰山區黎明里半山雅70-4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部第1辦公室1樓",
     "lat": 25.068057,
     "lng": 121.423876,
-    "address": "243新北市泰山區黎明里半山雅70號"
+    "address": "243新北市泰山區黎明里半山雅70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部第1辦公室3樓",
     "lat": 25.068057,
     "lng": 121.423876,
-    "address": "243新北市泰山區黎明里半山雅70號"
+    "address": "243新北市泰山區黎明里半山雅70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部第1辦公室2樓",
     "lat": 25.068057,
     "lng": 121.423876,
-    "address": "243新北市泰山區黎明里半山雅70號"
+    "address": "243新北市泰山區黎明里半山雅70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部第1辦公室側棟",
     "lat": 25.068057,
     "lng": 121.423876,
-    "address": "243新北市泰山區黎明里半山雅70號"
+    "address": "243新北市泰山區黎明里半山雅70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部警政署國道公路警察局",
     "lat": 25.068076,
     "lng": 121.422257,
-    "address": "243新北市泰山區黎明里半山雅70-2號"
+    "address": "243新北市泰山區黎明里半山雅70-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部擋案室1樓",
     "lat": 25.068316,
     "lng": 121.425093,
-    "address": "243新北市泰山區黎明里半山雅70號"
+    "address": "243新北市泰山區黎明里半山雅70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部第五辦公室2樓",
     "lat": 25.068316,
     "lng": 121.425093,
-    "address": "243新北市泰山區黎明里半山雅70號"
+    "address": "243新北市泰山區黎明里半山雅70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部第3辦公室1樓",
     "lat": 25.068577,
     "lng": 121.425649,
-    "address": "243新北市泰山區黎明里半山雅70-1號"
+    "address": "243新北市泰山區黎明里半山雅70-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部第3辦公室2樓",
     "lat": 25.068577,
     "lng": 121.425649,
-    "address": "243新北市泰山區黎明里半山雅70-1號"
+    "address": "243新北市泰山區黎明里半山雅70-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部第五辦公室1樓",
     "lat": 25.068775,
     "lng": 121.427158,
-    "address": "243新北市泰山區黎明里半山雅72號"
+    "address": "243新北市泰山區黎明里半山雅72號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局局本部第五辦公室3樓",
     "lat": 25.068775,
     "lng": 121.427158,
-    "address": "243新北市泰山區黎明里半山雅72號"
+    "address": "243新北市泰山區黎明里半山雅72號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "五股登林路郵局",
     "lat": 25.069468,
     "lng": 121.4299,
-    "address": "248新北市五股區登林路76-10號"
+    "address": "248新北市五股區登林路76-10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人私立廣恩老人養護中心(新北市五股老人公寓)",
     "lat": 25.071275,
     "lng": 121.430461,
-    "address": "248新北市五股區水碓里水碓二路1號"
+    "address": "248新北市五股區水碓里水碓二路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商豐原豐勢路翁子店(公話)",
     "lat": 24.260874,
     "lng": 120.736004,
-    "address": "420臺中市豐原區豐勢路一段669號(公話)"
+    "address": "420臺中市豐原區豐勢路一段669號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市豐原區翁社社區發展協會",
     "lat": 24.264966,
     "lng": 120.738517,
-    "address": "420臺中市豐原區翁社里豐年路263巷3號"
+    "address": "420臺中市豐原區翁社里豐年路263巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商豐原三豐路豐后店(公話)",
     "lat": 24.267434,
     "lng": 120.720777,
-    "address": "420臺中市豐原區三豐路692號"
+    "address": "420臺中市豐原區三豐路692號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商豐原三豐路三豐路店(公話)",
     "lat": 24.271549,
     "lng": 120.721553,
-    "address": "420臺中市豐原區三豐路909號"
+    "address": "420臺中市豐原區三豐路909號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統ㄧ超商豐原三豐路豐王店(公話)",
     "lat": 24.274641,
     "lng": 120.722214,
-    "address": "420臺中市豐原區三豐路940號"
+    "address": "420臺中市豐原區三豐路940號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東海豐郵局",
     "lat": 22.700864,
     "lng": 120.510861,
-    "address": "900屏東縣屏東市海豐街36-4號"
+    "address": "900屏東縣屏東市海豐街36-4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

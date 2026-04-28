@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龜山誠園郵局",
     "lat": 25.04629,
     "lng": 121.35185,
-    "address": "333桃園市龜山區樹人路56號"
+    "address": "333桃園市龜山區樹人路56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市家庭照顧者關懷協會（大崗里據點）",
     "lat": 25.046934,
     "lng": 121.356712,
-    "address": "333桃園市龜山區大崗里新興街205號"
+    "address": "333桃園市龜山區大崗里新興街205號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市家庭照顧者關懷協會-龜山智樂學堂",
     "lat": 25.046934,
     "lng": 121.356721,
-    "address": "333桃園市龜山區大崗里新興街205號"
+    "address": "333桃園市龜山區大崗里新興街205號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "杉林郵局",
     "lat": 22.973011,
     "lng": 120.540863,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市杉林區戶政事務所",
     "lat": 22.974574,
     "lng": 120.541775,

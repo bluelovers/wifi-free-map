@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東部海岸國家風景區奚卜蘭遊客中心",
     "lat": 23.466081,
     "lng": 121.488403,

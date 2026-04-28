@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣港務股份有限公司臺中港務分公司船機處",
     "lat": 24.282896,
     "lng": 120.531609,
-    "address": "436臺中市清水區北橫12路2號"
+    "address": "436臺中市清水區北橫12路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "海岸資源漁業發展所",
     "lat": 24.292395,
     "lng": 120.523923,
-    "address": "436臺中市清水區北堤路3號"
+    "address": "436臺中市清水區北堤路3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "梧棲漁港",
     "lat": 24.29427,
     "lng": 120.521607,
-    "address": "436臺中市清水區北堤路30號"
+    "address": "436臺中市清水區北堤路30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

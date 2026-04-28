@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鹿谷清水郵局",
     "lat": 23.795792,
     "lng": 120.788596,

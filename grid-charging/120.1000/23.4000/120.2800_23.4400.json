@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通部公路總局嘉義區監理所一樓辦公大廳左側",
     "lat": 23.4569,
     "lng": 120.2844,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局嘉義區監理所",
     "lat": 23.456911,
     "lng": 120.28446,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "朴子祥和郵局",
     "lat": 23.458285,
     "lng": 120.287207,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義縣警察局",
     "lat": 23.458672,
     "lng": 120.294845,

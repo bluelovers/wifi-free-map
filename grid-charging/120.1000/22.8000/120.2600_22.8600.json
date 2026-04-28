@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "路竹郵局",
     "lat": 22.860899,
     "lng": 120.260898,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "路竹一甲郵局",
     "lat": 22.873968,
     "lng": 120.270534,

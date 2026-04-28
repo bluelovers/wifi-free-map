@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "五結利澤郵局",
     "lat": 24.667756,
     "lng": 121.822056,

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部警政署高雄港務警察總隊機動中隊",
     "lat": 22.574856,
     "lng": 120.299107,
-    "address": "805高雄市旗津區中洲二路中洲巷76號"
+    "address": "805高雄市旗津區中洲二路中洲巷76號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄中洲郵局",
     "lat": 22.576288,
     "lng": 120.295725,
-    "address": "805高雄市旗津區旗津二路243號"
+    "address": "805高雄市旗津區旗津二路243號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南土城郵局",
     "lat": 23.064985,
     "lng": 120.128418,

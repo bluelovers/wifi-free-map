@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化莿桐腳郵局",
     "lat": 24.061819,
     "lng": 120.51936,
-    "address": "500彰化縣彰化市彰水路35-7號"
+    "address": "500彰化縣彰化市彰水路35-7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

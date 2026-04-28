@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "芎林郵局",
     "lat": 24.772141,
     "lng": 121.083714,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹縣芎林鄉戶政事務所",
     "lat": 24.774824,
     "lng": 121.081344,

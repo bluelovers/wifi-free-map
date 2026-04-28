@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣卑南鄉初鹿部落1",
     "lat": 22.856544,
     "lng": 121.090322,
-    "address": "954臺東縣卑南鄉初鹿二街67巷18號"
+    "address": "954臺東縣卑南鄉初鹿二街67巷18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人一粒麥子社會福利慈善事業基金會-卑南鄉-初鹿",
     "lat": 22.857191,
     "lng": 121.091443,
-    "address": "954臺東縣卑南鄉初鹿村初鹿二街21巷5號"
+    "address": "954臺東縣卑南鄉初鹿村初鹿二街21巷5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "卑南初鹿郵局",
     "lat": 22.857288,
     "lng": 121.092447,
-    "address": "954臺東縣卑南鄉明峰村文泰路12號"
+    "address": "954臺東縣卑南鄉明峰村文泰路12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

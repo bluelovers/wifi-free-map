@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "瑞芳金瓜石郵局",
     "lat": 25.108306,
     "lng": 121.857731,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "瑞芳九份郵局",
     "lat": 25.110088,
     "lng": 121.844167,

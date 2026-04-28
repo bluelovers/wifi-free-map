@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣恆春鎮水蛙窟社區營造協會",
     "lat": 21.940146,
     "lng": 120.837752,
-    "address": "946屏東縣恆春鎮鵝鑾里風沙路500巷10之5號"
+    "address": "946屏東縣恆春鎮鵝鑾里風沙路500巷10之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

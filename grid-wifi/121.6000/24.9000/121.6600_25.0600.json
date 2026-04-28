@@ -1,218 +1,299 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華關懷身心促進關懷發展協會(秀山站)",
     "lat": 25.062159,
     "lng": 121.660621,
-    "address": "221新北市汐止區秀山里秀峰路149號一樓"
+    "address": "221新北市汐止區秀山里秀峰路149號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局汐止站第1月台7車位置",
     "lat": 25.068315,
     "lng": 121.661734,
-    "address": "221新北市汐止區信望里信義路1號"
+    "address": "221新北市汐止區信望里信義路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局汐止站第2月台9車位置",
     "lat": 25.068315,
     "lng": 121.661734,
-    "address": "221新北市汐止區信望里信義路1號"
+    "address": "221新北市汐止區信望里信義路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局汐止站候車大廳剪收票口",
     "lat": 25.068315,
     "lng": 121.661734,
-    "address": "221新北市汐止區信望里信義路1號"
+    "address": "221新北市汐止區信望里信義路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局汐止站候車室(新)",
     "lat": 25.068315,
     "lng": 121.661734,
-    "address": "221新北市汐止區信望里信義路1號"
+    "address": "221新北市汐止區信望里信義路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "汐止南昌郵局",
     "lat": 25.068515,
     "lng": 121.663088,
-    "address": "221新北市汐止區新昌路72號"
+    "address": "221新北市汐止區新昌路72號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣樂活服務發展協會(汐止信望站)",
     "lat": 25.068572,
     "lng": 121.662001,
-    "address": "221新北市汐止區信望里信義路1號二樓"
+    "address": "221新北市汐止區信望里信義路1號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行汐止分行",
     "lat": 25.06939,
     "lng": 121.66086,
-    "address": "221新北市汐止區中正路101號"
+    "address": "221新北市汐止區中正路101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局汐止站候車室",
     "lat": 25.069404,
     "lng": 121.662142,
-    "address": "221新北市汐止區信義路1號"
+    "address": "221新北市汐止區信義路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人新北市汐止區全人社區關懷發展協會-崇德站",
     "lat": 25.069921,
     "lng": 121.668825,
-    "address": "221新北市汐止區崇德里茄苳路82號一樓"
+    "address": "221新北市汐止區崇德里茄苳路82號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院汐止院區B1-杏一醫療器材前(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.072543,
     "lng": 121.660581,
-    "address": "221新北市汐止區建成路59巷2號B1樓"
+    "address": "221新北市汐止區建成路59巷2號B1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院汐止院區1F-大廳(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.072543,
     "lng": 121.660581,
-    "address": "221新北市汐止區建成路59巷2號1樓"
+    "address": "221新北市汐止區建成路59巷2號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院汐止院區1F-急診觀留室(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.072543,
     "lng": 121.660581,
-    "address": "221新北市汐止區建成路59巷2號1樓"
+    "address": "221新北市汐止區建成路59巷2號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院汐止院區1F-急診掛號櫃台(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.072543,
     "lng": 121.660581,
-    "address": "221新北市汐止區建成路59巷2號1樓"
+    "address": "221新北市汐止區建成路59巷2號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院汐止院區2F-二樓大廳詢問台(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.072543,
     "lng": 121.660581,
-    "address": "221新北市汐止區建成路59巷2號2樓"
+    "address": "221新北市汐止區建成路59巷2號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院汐止院區2F-洗腎中心前(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.072543,
     "lng": 121.660581,
-    "address": "221新北市汐止區建成路59巷2號2樓"
+    "address": "221新北市汐止區建成路59巷2號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院汐止院區2F-ENT候診室走廊(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.072543,
     "lng": 121.660581,
-    "address": "221新北市汐止區建成路59巷2號2樓"
+    "address": "221新北市汐止區建成路59巷2號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院汐止院區3F-大廳右下(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.072543,
     "lng": 121.660581,
-    "address": "221新北市汐止區建成路59巷2號3樓"
+    "address": "221新北市汐止區建成路59巷2號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院汐止院區3F-健檢中心餐廳(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.072543,
     "lng": 121.660581,
-    "address": "221新北市汐止區建成路59巷2號3樓"
+    "address": "221新北市汐止區建成路59巷2號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院汐止院區3F-掛號區走廊(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.072543,
     "lng": 121.660581,
-    "address": "221新北市汐止區建成路59巷2號3樓"
+    "address": "221新北市汐止區建成路59巷2號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "汐止建成郵局",
     "lat": 25.073,
     "lng": 121.663544,
-    "address": "221新北市汐止區建成路58號"
+    "address": "221新北市汐止區建成路58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "汐止保長坑郵局",
     "lat": 25.07391,
     "lng": 121.674551,
-    "address": "221新北市汐止區大同路三段188-1號"
+    "address": "221新北市汐止區大同路三段188-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市汐止區保長里辦公處",
     "lat": 25.074,
     "lng": 121.662,
-    "address": "221新北市汐止區保長里保長路51巷11號"
+    "address": "221新北市汐止區保長里保長路51巷11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "關務署基隆關五堵分關2樓",
     "lat": 25.076025,
     "lng": 121.67401,
-    "address": "221新北市汐止區大同路三段273號2樓"
+    "address": "221新北市汐止區大同路三段273號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局五堵站第1月台行車室(6-7車)",
     "lat": 25.077857,
     "lng": 121.667629,
-    "address": "221新北市汐止區長安里長安路17號"
+    "address": "221新北市汐止區長安里長安路17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局五堵站售票房",
     "lat": 25.077857,
     "lng": 121.66763,
-    "address": "221新北市汐止區長安里長安路17號"
+    "address": "221新北市汐止區長安里長安路17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司汐止營運所",
     "lat": 25.079058,
     "lng": 121.671957,
-    "address": "221新北市汐止區長興街一段100號"
+    "address": "221新北市汐止區長興街一段100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

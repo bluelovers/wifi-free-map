@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東部海岸國家風景區都歷處本部",
     "lat": 23.020263,
     "lng": 121.325508,

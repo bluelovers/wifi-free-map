@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣來義鄉古樓部落",
     "lat": 22.52596,
     "lng": 120.63111,
-    "address": "922屏東縣來義鄉中正路105號"
+    "address": "922屏東縣來義鄉中正路105號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "來義郵局",
     "lat": 22.526154,
     "lng": 120.635641,
-    "address": "922屏東縣來義鄉古樓村中正路6號"
+    "address": "922屏東縣來義鄉古樓村中正路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

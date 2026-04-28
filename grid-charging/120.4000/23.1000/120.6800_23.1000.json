@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "六龜寶來郵局",
     "lat": 23.10829,
     "lng": 120.699728,

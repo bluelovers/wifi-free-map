@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楠梓後勁郵局",
     "lat": 22.718122,
     "lng": 120.310145,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部加工出口區管理處1樓洽公區",
     "lat": 22.719188,
     "lng": 120.305629,

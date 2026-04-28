@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中和國光街郵局",
     "lat": 25.001185,
     "lng": 121.468588,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋後埔郵局",
     "lat": 25.002919,
     "lng": 121.464309,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市中和戶政事務所民享辦事處",
     "lat": 25.003546,
     "lng": 121.47412,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局臺北區監理所板橋監理站",
     "lat": 25.006124,
     "lng": 121.475367,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中和民富街郵局",
     "lat": 25.00638,
     "lng": 121.476761,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋民族路郵局",
     "lat": 25.006928,
     "lng": 121.470523,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋站前郵局",
     "lat": 25.00985,
     "lng": 121.460103,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市板橋戶政事務所海山辦事處_A",
     "lat": 25.011582,
     "lng": 121.470433,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司板橋服務所",
     "lat": 25.011868,
     "lng": 121.479007,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北縣政府郵局",
     "lat": 25.012102,
     "lng": 121.465651,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋海山郵局",
     "lat": 25.012256,
     "lng": 121.469448,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高鐵局民眾閱覽室",
     "lat": 25.013903,
     "lng": 121.464071,
@@ -85,6 +97,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高鐵局沿革展示室",
     "lat": 25.013903,
     "lng": 121.464071,
@@ -92,6 +105,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高鐵局圖資室",
     "lat": 25.013903,
     "lng": 121.464071,
@@ -99,6 +113,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高鐵局服務台",
     "lat": 25.013903,
     "lng": 121.464071,
@@ -106,6 +121,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局板橋站車站1F票房",
     "lat": 25.013903,
     "lng": 121.464071,
@@ -113,6 +129,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局板橋站值班站長室",
     "lat": 25.013903,
     "lng": 121.464071,
@@ -120,6 +137,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局板橋站地下1樓剪票口(東)",
     "lat": 25.013903,
     "lng": 121.464071,
@@ -127,6 +145,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局板橋站地下1樓剪票口(西)",
     "lat": 25.013903,
     "lng": 121.464071,
@@ -134,6 +153,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局板橋站第1月台南側",
     "lat": 25.013903,
     "lng": 121.464071,
@@ -141,6 +161,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局板橋站第2月台北側",
     "lat": 25.013903,
     "lng": 121.464071,
@@ -148,6 +169,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋埔墘郵局",
     "lat": 25.016309,
     "lng": 121.474591,
@@ -155,6 +177,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋漢生郵局",
     "lat": 25.018635,
     "lng": 121.461922,

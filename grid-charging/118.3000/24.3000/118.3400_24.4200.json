@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "金門航空站",
     "lat": 24.420555,
     "lng": 118.344444,

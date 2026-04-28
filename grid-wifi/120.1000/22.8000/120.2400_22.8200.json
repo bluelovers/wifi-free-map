@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行高雄科學園區分行",
     "lat": 22.831201,
     "lng": 120.255825,
-    "address": "821高雄市路竹區路科五路23號1-3樓"
+    "address": "821高雄市路竹區路科五路23號1-3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南科高雄園區行政服務大樓1樓大廳",
     "lat": 22.836185,
     "lng": 120.25623,
-    "address": "821高雄市路竹區路科五路23號1樓"
+    "address": "821高雄市路竹區路科五路23號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南科高雄園區行政服務大樓4樓會議室",
     "lat": 22.836185,
     "lng": 120.25623,
-    "address": "821高雄市路竹區路科五路23號4樓"
+    "address": "821高雄市路竹區路科五路23號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

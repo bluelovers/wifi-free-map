@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人嘉義縣仁里慈濟會(社口站)",
     "lat": 23.441085,
     "lng": 120.547338,
-    "address": "606嘉義縣中埔鄉社口村檨仔林43之20號"
+    "address": "606嘉義縣中埔鄉社口村檨仔林43之20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會林務局嘉義林區管理處觸口工作站",
     "lat": 23.453094,
     "lng": 120.559463,
-    "address": "602嘉義縣番路鄉新福村1鄰五虎寮18號"
+    "address": "602嘉義縣番路鄉新福村1鄰五虎寮18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

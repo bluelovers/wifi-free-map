@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "泰安郵局",
     "lat": 24.446289,
     "lng": 120.905516,
-    "address": "365苗栗縣泰安鄉清安村洗水坑23號"
+    "address": "365苗栗縣泰安鄉清安村洗水坑23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗縣泰安鄉衛生所",
     "lat": 24.447505,
     "lng": 120.908539,
-    "address": "365苗栗縣泰安鄉清安村2鄰洗水坑72號"
+    "address": "365苗栗縣泰安鄉清安村2鄰洗水坑72號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

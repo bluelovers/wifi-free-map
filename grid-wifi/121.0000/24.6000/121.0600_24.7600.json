@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣芎林鄉衛生所",
     "lat": 24.777512,
     "lng": 121.077627,
-    "address": "307新竹縣芎林鄉文山路532號"
+    "address": "307新竹縣芎林鄉文山路532號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣芎林鄉公所",
     "lat": 24.779564,
     "lng": 121.075331,
-    "address": "307新竹縣芎林鄉上山村文富街133號"
+    "address": "307新竹縣芎林鄉上山村文富街133號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

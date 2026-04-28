@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣口湖鄉口湖社區發展協會",
     "lat": 23.5894,
     "lng": 120.1787,
-    "address": "653雲林縣口湖鄉口湖村聖安路100號"
+    "address": "653雲林縣口湖鄉口湖村聖安路100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣家園關懷協會-青蚶據點",
     "lat": 23.597866,
     "lng": 120.160771,
-    "address": "653雲林縣口湖鄉青蚶村青蚶93號"
+    "address": "653雲林縣口湖鄉青蚶村青蚶93號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

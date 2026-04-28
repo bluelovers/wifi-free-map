@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局和平站候車室",
     "lat": 24.298587,
     "lng": 121.754293,

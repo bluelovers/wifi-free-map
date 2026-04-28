@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人新北市台灣基督長老教會幸福教會(幸福俱樂部)",
     "lat": 25.117,
     "lng": 121.299,
-    "address": "242新北市新莊區仁義里福樂街78號"
+    "address": "242新北市新莊區仁義里福樂街78號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

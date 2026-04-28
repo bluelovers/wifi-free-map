@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "埔基醫療財團法人埔里基督教醫院(麒麟)",
     "lat": 23.928846,
     "lng": 120.989481,
-    "address": "545南投縣埔里鎮中正路26號"
+    "address": "545南投縣埔里鎮中正路26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

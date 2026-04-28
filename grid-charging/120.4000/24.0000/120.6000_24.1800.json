@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中福安郵局",
     "lat": 24.183497,
     "lng": 120.618516,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台糖量販台中店",
     "lat": 24.183933,
     "lng": 120.614417,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中永安郵局",
     "lat": 24.190603,
     "lng": 120.612348,

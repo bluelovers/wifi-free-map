@@ -1,122 +1,167 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大崙尾山步道口-N-中社路二段",
     "lat": 25.10609,
     "lng": 121.5678,
-    "address": "111臺北市士林區中社路二段150號對面東北側候車"
+    "address": "111臺北市士林區中社路二段150號對面東北側候車",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "士林外雙溪郵局",
     "lat": 25.107,
     "lng": 121.565204,
-    "address": "111臺北市士林區明溪街15號"
+    "address": "111臺北市士林區明溪街15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中央站-S-中社路一段",
     "lat": 25.10757,
     "lng": 121.56151,
-    "address": "111臺北市士林區中社路一段80號對面西南側候車亭"
+    "address": "111臺北市士林區中社路一段80號對面西南側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "翠山派出所-N-中社路一段",
     "lat": 25.107958,
     "lng": 121.560541,
-    "address": "111臺北市士林區中社路一段56號斜對面候車亭"
+    "address": "111臺北市士林區中社路一段56號斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台北市中華基督教浸信會慈光堂",
     "lat": 25.10871,
     "lng": 121.56019,
-    "address": "111臺北市士林區翠山里中社路一段43巷1號"
+    "address": "111臺北市士林區翠山里中社路一段43巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "社區發展協會-N-中社路一段",
     "lat": 25.10949,
     "lng": 121.56012,
-    "address": "111臺北市士林區中社路一段32號(36巷雙號巷口)斜對面候車亭"
+    "address": "111臺北市士林區中社路一段32號(36巷雙號巷口)斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中社路11巷-W-中社路二段",
     "lat": 25.111099,
     "lng": 121.560132,
-    "address": "111臺北市士林區中社路一段與中社路一段11巷31弄口東北側候車亭"
+    "address": "111臺北市士林區中社路一段與中社路一段11巷31弄口東北側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "翠山莊-W-中社路一段",
     "lat": 25.111261,
     "lng": 121.562161,
-    "address": "111臺北市士林區中社路一段11號旁候車亭"
+    "address": "111臺北市士林區中社路一段11號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "嶺腳-E-至善路三段",
     "lat": 25.11236,
     "lng": 121.56341,
-    "address": "111臺北市士林區至善路三段31號對面候車亭"
+    "address": "111臺北市士林區至善路三段31號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "明德樂園-E-至善路三段",
     "lat": 25.112909,
     "lng": 121.564949,
-    "address": "111臺北市士林區至善路三段51號對面候車亭"
+    "address": "111臺北市士林區至善路三段51號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "沙崙-E-至善路三段",
     "lat": 25.113372,
     "lng": 121.566764,
-    "address": "111臺北市士林區至善路三段76號旁候車亭"
+    "address": "111臺北市士林區至善路三段76號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "雙溪淨水廠-E-至善路三段",
     "lat": 25.114458,
     "lng": 121.569625,
-    "address": "111臺北市士林區至善路三段110號旁候車亭"
+    "address": "111臺北市士林區至善路三段110號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "至善路三段-E-至善路三段",
     "lat": 25.114964,
     "lng": 121.571799,
-    "address": "111臺北市士林區至善路三段129號斜對面候車亭"
+    "address": "111臺北市士林區至善路三段129號斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "礁坑-E-至善路三段",
     "lat": 25.118312,
     "lng": 121.575555,
-    "address": "111臺北市士林區至善路三段175號往西約300m南側候車亭"
+    "address": "111臺北市士林區至善路三段175號往西約300m南側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "礁坑橋-E-至善路三段",
     "lat": 25.119475,
     "lng": 121.578501,
-    "address": "111臺北市士林區至善路三段189號對面候車亭"
+    "address": "111臺北市士林區至善路三段189號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

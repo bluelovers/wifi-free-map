@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投三興郵局",
     "lat": 23.900844,
     "lng": 120.684257,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投三和郵局",
     "lat": 23.904367,
     "lng": 120.688465,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司南投縣南投市南投三和站",
     "lat": 23.906699,
     "lng": 120.690651,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投民族路郵局",
     "lat": 23.910151,
     "lng": 120.691715,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投縣政府警察局南投分局南投派出所",
     "lat": 23.910262,
     "lng": 120.68327,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投中山街郵局",
     "lat": 23.910518,
     "lng": 120.683924,

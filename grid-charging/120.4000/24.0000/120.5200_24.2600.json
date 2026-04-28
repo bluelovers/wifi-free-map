@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺灣港務股份有限公司臺中港務分公司棧埠處(旅客服務中心)",
     "lat": 24.260722,
     "lng": 120.521411,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中港郵局",
     "lat": 24.262124,
     "lng": 120.537127,

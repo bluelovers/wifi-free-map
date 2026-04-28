@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "草屯南埔郵局",
     "lat": 23.979311,
     "lng": 120.720444,

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣湧泉關懷協會(田寮站)",
     "lat": 22.835625,
     "lng": 120.370453,
-    "address": "823高雄市田寮區新興里和興路39號之5"
+    "address": "823高雄市田寮區新興里和興路39號之5",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華富德關懷協會",
     "lat": 22.83567,
     "lng": 120.367282,
-    "address": "823高雄市田寮區新興里新興路107號"
+    "address": "823高雄市田寮區新興里新興路107號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

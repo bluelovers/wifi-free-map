@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣恆春鎮水泉社區發展協會",
     "lat": 21.940498,
     "lng": 120.732502,
-    "address": "946屏東縣恆春鎮水泉里頂泉路1號"
+    "address": "946屏東縣恆春鎮水泉里頂泉路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

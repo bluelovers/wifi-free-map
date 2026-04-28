@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "金門縣社會福利館-1F廣場",
     "lat": 24.45246,
     "lng": 118.381057,
-    "address": "891金門縣金湖鎮瓊林里瓊徑路35號"
+    "address": "891金門縣金湖鎮瓊林里瓊徑路35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

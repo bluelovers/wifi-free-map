@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣莿桐鄉婦女會（五華據點）",
     "lat": 23.78,
     "lng": 120.562,
-    "address": "647雲林縣莿桐鄉五華村湖內27之1號"
+    "address": "647雲林縣莿桐鄉五華村湖內27之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

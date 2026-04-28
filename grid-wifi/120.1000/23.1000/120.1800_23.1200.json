@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市西港區劉厝里辦公處",
     "lat": 23.123,
     "lng": 120.196,
-    "address": "723臺南市西港區劉厝58號"
+    "address": "723臺南市西港區劉厝58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

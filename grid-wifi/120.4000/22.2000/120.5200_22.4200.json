@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣佳冬鄉燄溫社區發展協會",
     "lat": 22.4204,
     "lng": 120.524924,
-    "address": "931屏東縣佳冬鄉燄溫村炯興路2之5號"
+    "address": "931屏東縣佳冬鄉燄溫村炯興路2之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣佳冬鄉羌園社區發展協會",
     "lat": 22.429778,
     "lng": 120.529247,
-    "address": "931屏東縣佳冬鄉羌園村內管路25號(福園宮)"
+    "address": "931屏東縣佳冬鄉羌園村內管路25號(福園宮)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

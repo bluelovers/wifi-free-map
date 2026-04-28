@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人雲林縣崙背鄉老人會",
     "lat": 23.756587,
     "lng": 120.346615,
-    "address": "637雲林縣崙背鄉南陽村長青街100號"
+    "address": "637雲林縣崙背鄉南陽村長青街100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣崙背鄉崙前社區發展協會",
     "lat": 23.757,
     "lng": 120.354,
-    "address": "637雲林縣崙背鄉崙前村崙前70號"
+    "address": "637雲林縣崙背鄉崙前村崙前70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "雲林縣崙背鄉立圖書館",
     "lat": 23.758711,
     "lng": 120.352987,
-    "address": "637雲林縣崙背鄉南光路9號"
+    "address": "637雲林縣崙背鄉南光路9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "崙背郵局",
     "lat": 23.759581,
     "lng": 120.352678,
-    "address": "637雲林縣崙背鄉南陽村民主路5號"
+    "address": "637雲林縣崙背鄉南陽村民主路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

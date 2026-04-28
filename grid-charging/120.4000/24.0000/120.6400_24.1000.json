@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中樹仔腳郵局",
     "lat": 24.114468,
     "lng": 120.654718,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局大慶站候車室",
     "lat": 24.118051,
     "lng": 120.64683,

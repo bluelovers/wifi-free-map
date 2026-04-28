@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局關山站候車室",
     "lat": 23.045487,
     "lng": 121.16436,
-    "address": "956臺東縣關山鎮博愛路2號"
+    "address": "956臺東縣關山鎮博愛路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣關山鎮中福社區發展協會-關山鎮-中福",
     "lat": 23.047581,
     "lng": 121.162317,
-    "address": "956臺東縣關山鎮中福里中華路2巷1號"
+    "address": "956臺東縣關山鎮中福里中華路2巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "關山郵局",
     "lat": 23.047881,
     "lng": 121.160687,
-    "address": "956臺東縣關山鎮中正路25號"
+    "address": "956臺東縣關山鎮中正路25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

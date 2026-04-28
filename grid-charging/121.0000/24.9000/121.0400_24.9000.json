@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "湖口郵局",
     "lat": 24.900489,
     "lng": 121.046217,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局湖口站候車室",
     "lat": 24.90276,
     "lng": 121.044145,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹縣湖口鄉戶政事務所",
     "lat": 24.904762,
     "lng": 121.043941,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "湖口德盛郵局",
     "lat": 24.905277,
     "lng": 121.043522,

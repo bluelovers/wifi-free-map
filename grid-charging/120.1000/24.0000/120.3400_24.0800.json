@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局臺中區監理所第二辦公室",
     "lat": 24.09184,
     "lng": 120.34237,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內湖東湖郵局",
     "lat": 25.068196,
     "lng": 121.617867,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內湖康寧郵局",
     "lat": 25.072334,
     "lng": 121.60762,

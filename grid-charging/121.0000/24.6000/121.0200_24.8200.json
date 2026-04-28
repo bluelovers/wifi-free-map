@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹北六家郵局",
     "lat": 24.822039,
     "lng": 121.032438,

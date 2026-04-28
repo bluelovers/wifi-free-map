@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內湖大湖郵局",
     "lat": 25.084306,
     "lng": 121.600554,

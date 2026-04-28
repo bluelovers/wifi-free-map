@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺中監獄家屬接見室",
     "lat": 24.142017,
     "lng": 120.598671,
-    "address": "408臺中市南屯區培德路9號"
+    "address": "408臺中市南屯區培德路9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中市望高寮夜景公園",
     "lat": 24.143555,
     "lng": 120.581307,
-    "address": "408臺中市南屯區中台路601號(電桿處)"
+    "address": "408臺中市南屯區中台路601號(電桿處)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

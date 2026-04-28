@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華基督教521福源全人關懷協會-中興據點",
     "lat": 25.082413,
     "lng": 121.439239,
-    "address": "248新北市五股區五股里中興路四段19之1號"
+    "address": "248新北市五股區五股里中興路四段19之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行五股分行",
     "lat": 25.082958,
     "lng": 121.438496,
-    "address": "248新北市五股區中興路四段42號"
+    "address": "248新北市五股區中興路四段42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "五股中興路郵局",
     "lat": 25.083433,
     "lng": 121.438384,
-    "address": "248新北市五股區中興路四段48巷15號"
+    "address": "248新北市五股區中興路四段48巷15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市五股區農會",
     "lat": 25.083692,
     "lng": 121.437075,
-    "address": "248新北市五股區五股里民義路一段13號"
+    "address": "248新北市五股區五股里民義路一段13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華民國松村社會福利暨身心障礙發展協會",
     "lat": 25.084684,
     "lng": 121.436374,
-    "address": "248新北市五股區五股里民義路一段68號"
+    "address": "248新北市五股區五股里民義路一段68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市五股區五股社區發展協會",
     "lat": 25.086096,
     "lng": 121.435608,
-    "address": "248新北市五股區民義里工商路127號"
+    "address": "248新北市五股區民義里工商路127號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市蘆洲區長安里辦公處",
     "lat": 25.09,
     "lng": 121.432,
-    "address": "247新北市蘆洲區長安里長安街96號四樓"
+    "address": "247新北市蘆洲區長安里長安街96號四樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

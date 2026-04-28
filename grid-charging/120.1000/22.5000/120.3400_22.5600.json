@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司小港服務所大廳",
     "lat": 22.565966,
     "lng": 120.342237,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄臨海工業區服務中心",
     "lat": 22.56659,
     "lng": 120.345063,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司高雄市服務中心",
     "lat": 22.569241,
     "lng": 120.347885,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄二苓郵局",
     "lat": 22.569247,
     "lng": 120.347754,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄國際航空站國內航廈2樓",
     "lat": 22.570937,
     "lng": 120.345236,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "玉里三民郵局",
     "lat": 23.429744,
     "lng": 121.349061,

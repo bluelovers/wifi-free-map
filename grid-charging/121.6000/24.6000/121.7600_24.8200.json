@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "礁溪鄉戶政事務所",
     "lat": 24.821279,
     "lng": 121.769564,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "礁溪郵局",
     "lat": 24.821625,
     "lng": 121.769908,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "礁溪湯仔城郵局",
     "lat": 24.827266,
     "lng": 121.774484,

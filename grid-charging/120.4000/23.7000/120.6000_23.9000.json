@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "社頭湳雅郵局",
     "lat": 23.919308,
     "lng": 120.604639,

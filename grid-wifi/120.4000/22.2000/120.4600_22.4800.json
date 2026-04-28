@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣東港鎮海坪關懷促進協會",
     "lat": 22.488583,
     "lng": 120.469298,
-    "address": "928屏東縣東港鎮興農里興農路4之12號"
+    "address": "928屏東縣東港鎮興農里興農路4之12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣新園鄉烏龍社區發展協會",
     "lat": 22.491094,
     "lng": 120.460539,
-    "address": "932屏東縣新園鄉烏龍村龍頭路64之55號"
+    "address": "932屏東縣新園鄉烏龍村龍頭路64之55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

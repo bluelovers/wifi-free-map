@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市林口區嘉瑞社區發展協會",
     "lat": 25.108345,
     "lng": 121.339328,
-    "address": "244新北市林口區嘉寶里1鄰嘉溪雅坑22號"
+    "address": "244新北市林口區嘉寶里1鄰嘉溪雅坑22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

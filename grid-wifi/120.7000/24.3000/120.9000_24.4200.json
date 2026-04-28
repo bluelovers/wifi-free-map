@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣泰安鄉榮安部落",
     "lat": 24.42122,
     "lng": 120.91094,
-    "address": "365苗栗縣泰安鄉大興村高熊卡22號"
+    "address": "365苗栗縣泰安鄉大興村高熊卡22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

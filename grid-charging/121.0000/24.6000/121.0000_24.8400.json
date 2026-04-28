@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局北區工程處湖口服務區服務台(北上)",
     "lat": 24.858209,
     "lng": 121.013825,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局北區工程處湖口服務區服務台(南下)",
     "lat": 24.858228,
     "lng": 121.008546,

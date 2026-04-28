@@ -1,138 +1,189 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(富強分行)",
     "lat": 22.980849,
     "lng": 120.230751,
-    "address": "701臺南市東區東門路三段31號"
+    "address": "701臺南市東區東門路三段31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市東區崇善里辦公處",
     "lat": 22.981,
     "lng": 120.222,
-    "address": "701臺南市東區崇善里仁和路70巷38號"
+    "address": "701臺南市東區崇善里仁和路70巷38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市東區復興社區發展協會",
     "lat": 22.981,
     "lng": 120.238,
-    "address": "701臺南市東區復興里21鄰自由路三段268號"
+    "address": "701臺南市東區復興里21鄰自由路三段268號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市東區虎尾社區發展協會",
     "lat": 22.982,
     "lng": 120.235,
-    "address": "701臺南市東區虎尾里25鄰富農街一段188巷10弄7號"
+    "address": "701臺南市東區虎尾里25鄰富農街一段188巷10弄7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台南虎尾寮郵局",
     "lat": 22.982668,
     "lng": 120.237318,
-    "address": "701臺南市東區自由路三段386號"
+    "address": "701臺南市東區自由路三段386號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市東南地政事務所1F服務處",
     "lat": 22.983306,
     "lng": 120.220191,
-    "address": "701臺南市東區林森路一段318號"
+    "address": "701臺南市東區林森路一段318號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台南東門郵局",
     "lat": 22.984862,
     "lng": 120.223887,
-    "address": "701臺南市東區東門路二段216號"
+    "address": "701臺南市東區東門路二段216號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市政府衛生局林森辦公室",
     "lat": 22.984964,
     "lng": 120.222195,
-    "address": "701臺南市東區林森路一段418號"
+    "address": "701臺南市東區林森路一段418號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市東區富強社區發展協會",
     "lat": 22.986,
     "lng": 120.232,
-    "address": "701臺南市東區富強里裕農路446巷88號"
+    "address": "701臺南市東區富強里裕農路446巷88號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行東台南分行",
     "lat": 22.98745,
     "lng": 120.22352,
-    "address": "701臺南市東區林森路二段90號"
+    "address": "701臺南市東區林森路二段90號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台南東寧路郵局",
     "lat": 22.990292,
     "lng": 120.227522,
-    "address": "701臺南市東區東寧路323號"
+    "address": "701臺南市東區東寧路323號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市東區東光社區發展協會",
     "lat": 22.992,
     "lng": 120.231,
-    "address": "701臺南市東區東光里東光路一段39之1號"
+    "address": "701臺南市東區東光里東光路一段39之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐銀行-東台南分行之1",
     "lat": 22.993821,
     "lng": 120.22378,
-    "address": "701臺南市東區林森路二段351號"
+    "address": "701臺南市東區林森路二段351號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台南小東郵局",
     "lat": 22.998594,
     "lng": 120.229443,
-    "address": "701臺南市東區東和路45、47、49號"
+    "address": "701臺南市東區東和路45、47、49號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "永康網寮郵局",
     "lat": 22.998719,
     "lng": 120.235215,
-    "address": "710臺南市永康區小東路481、483號"
+    "address": "710臺南市永康區小東路481、483號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行永康分行",
     "lat": 22.998792,
     "lng": 120.236242,
-    "address": "710臺南市永康區小東路513號"
+    "address": "710臺南市永康區小東路513號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀永康分行",
     "lat": 22.998805,
     "lng": 120.239753,
-    "address": "710臺南市永康區小東路689號"
+    "address": "710臺南市永康區小東路689號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

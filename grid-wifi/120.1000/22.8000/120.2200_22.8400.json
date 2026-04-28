@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣湧泉關懷協會(新達站)",
     "lat": 22.846786,
     "lng": 120.227243,
-    "address": "821高雄市路竹區新達里下甲路161號"
+    "address": "821高雄市路竹區新達里下甲路161號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市路竹區頂寮社區發展協會",
     "lat": 22.859186,
     "lng": 120.224294,
-    "address": "821高雄市路竹區頂寮里三公路73之1號"
+    "address": "821高雄市路竹區頂寮里三公路73之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

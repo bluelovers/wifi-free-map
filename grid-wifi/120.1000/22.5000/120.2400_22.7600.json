@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館彌陀分館",
     "lat": 22.762666,
     "lng": 120.244551,
-    "address": "827高雄市彌陀區漯底里四維路1之1號"
+    "address": "827高雄市彌陀區漯底里四維路1之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市梓官區大舍社區發展協會",
     "lat": 22.766,
     "lng": 120.244,
-    "address": "826高雄市梓官區大舍里大舍東路公厝巷4號"
+    "address": "826高雄市梓官區大舍里大舍東路公厝巷4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市彌陀區漯底社區發展協會",
     "lat": 22.7673,
     "lng": 120.2435,
-    "address": "827高雄市彌陀區漯底里樂安路廟巷14號"
+    "address": "827高雄市彌陀區漯底里樂安路廟巷14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彌陀郵局",
     "lat": 22.779327,
     "lng": 120.249924,
-    "address": "827高雄市彌陀區彌陀村中正路7號"
+    "address": "827高雄市彌陀區彌陀村中正路7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

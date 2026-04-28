@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "溪山國小-E-至善路三段",
     "lat": 25.119716,
     "lng": 121.580439,
-    "address": "111臺北市士林區至善路三段199號斜對面候車亭"
+    "address": "111臺北市士林區至善路三段199號斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大豐-E-至善路三段",
     "lat": 25.11985,
     "lng": 121.581502,
-    "address": "111臺北市士林區至善路三段230號附近候車亭"
+    "address": "111臺北市士林區至善路三段230號附近候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

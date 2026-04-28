@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市新屋區東明社區發展協會",
     "lat": 24.973444,
     "lng": 121.093764,
-    "address": "327桃園市新屋區東明里4鄰上庄一路120號"
+    "address": "327桃園市新屋區東明里4鄰上庄一路120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市新屋區後湖社區發展協會",
     "lat": 24.977113,
     "lng": 121.096076,
-    "address": "327桃園市新屋區後湖里三民路一段68號"
+    "address": "327桃園市新屋區後湖里三民路一段68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

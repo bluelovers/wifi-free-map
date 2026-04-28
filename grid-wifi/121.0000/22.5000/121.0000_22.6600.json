@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺東縣弱勢者關懷協會-太麻里鄉-大王",
     "lat": 22.664,
     "lng": 121.018,
-    "address": "963臺東縣太麻里鄉泰和村8鄰太麻里街392號"
+    "address": "963臺東縣太麻里鄉泰和村8鄰太麻里街392號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺東縣弱勢者關懷協會-東河鄉-泰源",
     "lat": 22.671,
     "lng": 121.019,
-    "address": "959臺東縣東河鄉泰源村本部落49號"
+    "address": "959臺東縣東河鄉泰源村本部落49號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

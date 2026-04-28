@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣東石鄉蔦松社區發展協會",
     "lat": 23.471786,
     "lng": 120.217348,
-    "address": "614嘉義縣東石鄉蔦松村43號"
+    "address": "614嘉義縣東石鄉蔦松村43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

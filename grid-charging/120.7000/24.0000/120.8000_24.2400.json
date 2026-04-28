@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新社郵局",
     "lat": 24.247745,
     "lng": 120.808801,

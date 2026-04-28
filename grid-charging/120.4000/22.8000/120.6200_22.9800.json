@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "六龜郵局",
     "lat": 22.994371,
     "lng": 120.635562,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市六龜區戶政事務所",
     "lat": 22.999721,
     "lng": 120.632973,

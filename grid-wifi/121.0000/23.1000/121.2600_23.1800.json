@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣富里鄉石牌村辦公處",
     "lat": 23.192677,
     "lng": 121.264191,
-    "address": "983花蓮縣富里鄉石牌村富北342號"
+    "address": "983花蓮縣富里鄉石牌村富北342號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

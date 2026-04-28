@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北榮民醫院玉里分院",
     "lat": 23.363609,
     "lng": 121.324116,
-    "address": "981花蓮縣玉里鎮大禹里酸柑88之1號"
+    "address": "981花蓮縣玉里鎮大禹里酸柑88之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣玉里鎮大禹國民小學",
     "lat": 23.378758,
     "lng": 121.328866,
-    "address": "981花蓮縣玉里鎮大禹里225號"
+    "address": "981花蓮縣玉里鎮大禹里225號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

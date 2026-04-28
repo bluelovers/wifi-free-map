@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "竹山秀傳醫療社團法人竹山秀傳醫院(秀峰村)",
     "lat": 23.793226,
     "lng": 120.785108,
-    "address": "558南投縣鹿谷鄉仁愛路153-5號"
+    "address": "558南投縣鹿谷鄉仁愛路153-5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鹿谷清水郵局",
     "lat": 23.795792,
     "lng": 120.788596,
-    "address": "558南投縣鹿谷鄉仁愛路103號"
+    "address": "558南投縣鹿谷鄉仁愛路103號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

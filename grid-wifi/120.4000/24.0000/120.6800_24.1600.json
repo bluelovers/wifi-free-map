@@ -1,602 +1,827 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市北區錦洲社區發展協會",
     "lat": 24.16017,
     "lng": 120.696062,
-    "address": "404臺中市北區錦洲里國豐街146號"
+    "address": "404臺中市北區錦洲里國豐街146號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車新民高中(崇德路)",
     "lat": 24.160265,
     "lng": 120.68497,
-    "address": "404臺中市北區崇德路1段與梅亭街口(省三國小)"
+    "address": "404臺中市北區崇德路1段與梅亭街口(省三國小)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北區進化路育仁店(公話)",
     "lat": 24.160404,
     "lng": 120.694166,
-    "address": "404臺中市北區進化路583號"
+    "address": "404臺中市北區進化路583號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北區北屯路親親店(公話)",
     "lat": 24.160519,
     "lng": 120.69206,
-    "address": "404臺中市北區北屯路14號"
+    "address": "404臺中市北區北屯路14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北區崇德路庚樺店(公話)",
     "lat": 24.161471,
     "lng": 120.684875,
-    "address": "404臺中市北區崇德路一段143號-2"
+    "address": "404臺中市北區崇德路一段143號-2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局臺中區監理所臺中市監理站第一辦公大樓",
     "lat": 24.161655,
     "lng": 120.692212,
-    "address": "404臺中市北區北屯路77號"
+    "address": "404臺中市北區北屯路77號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局臺中區監理所臺中市監理站",
     "lat": 24.161669,
     "lng": 120.692211,
-    "address": "404臺中市北區北屯路77號"
+    "address": "404臺中市北區北屯路77號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺灣家庭關懷協會",
     "lat": 24.162389,
     "lng": 120.688796,
-    "address": "406臺中市北屯區北京里衛道路112號"
+    "address": "406臺中市北屯區北京里衛道路112號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台中北屯郵局",
     "lat": 24.162883,
     "lng": 120.690948,
-    "address": "406臺中市北屯區進化北路37-1號"
+    "address": "406臺中市北屯區進化北路37-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北區進化北路永進店(公話)",
     "lat": 24.16292,
     "lng": 120.682496,
-    "address": "404臺中市北區進化北路297號"
+    "address": "404臺中市北區進化北路297號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀東台中分行",
     "lat": 24.163256,
     "lng": 120.681421,
-    "address": "404臺中市北區進化北路330號"
+    "address": "404臺中市北區進化北路330號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(進化分行)",
     "lat": 24.163275,
     "lng": 120.684058,
-    "address": "404臺中市北區進化北路236號"
+    "address": "404臺中市北區進化北路236號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北區進化北路豐華店(公話)",
     "lat": 24.163362,
     "lng": 120.68602,
-    "address": "404臺中市北區進化北路148號"
+    "address": "404臺中市北區進化北路148號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市北區邱厝慈善協會",
     "lat": 24.164,
     "lng": 120.694,
-    "address": "404臺中市北區邱厝里大義街20號(騎樓下)"
+    "address": "404臺中市北區邱厝里大義街20號(騎樓下)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車崇德橋站",
     "lat": 24.164135,
     "lng": 120.684874,
-    "address": "404臺中市北區崇德路一段485號前(TCPT6060交接箱)"
+    "address": "404臺中市北區崇德路一段485號前(TCPT6060交接箱)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局太原站第1月台4車位置",
     "lat": 24.16423,
     "lng": 120.699792,
-    "address": "406臺中市北屯區東光路665號"
+    "address": "406臺中市北屯區東光路665號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局太原站第1月台9車位置",
     "lat": 24.16423,
     "lng": 120.699792,
-    "address": "406臺中市北屯區東光路665號"
+    "address": "406臺中市北屯區東光路665號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局太原站第2月台4車位置",
     "lat": 24.16423,
     "lng": 120.699792,
-    "address": "406臺中市北屯區東光路665號"
+    "address": "406臺中市北屯區東光路665號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局太原站第2月台9車位置",
     "lat": 24.16423,
     "lng": 120.699792,
-    "address": "406臺中市北屯區東光路665號"
+    "address": "406臺中市北屯區東光路665號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局太原站2樓出口處公用電話旁",
     "lat": 24.16423,
     "lng": 120.699792,
-    "address": "406臺中市北屯區東光路665號"
+    "address": "406臺中市北屯區東光路665號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯太原路新北屯店(公話)",
     "lat": 24.164801,
     "lng": 120.69644,
-    "address": "406臺中市北屯區太原路三段516號"
+    "address": "406臺中市北屯區太原路三段516號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯國校巷國校店(公話)",
     "lat": 24.164829,
     "lng": 120.690834,
-    "address": "406臺中市北屯區國校巷16號1樓"
+    "address": "406臺中市北屯區國校巷16號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車卅張犁公園站",
     "lat": 24.165191,
     "lng": 120.697214,
-    "address": "406臺中市北屯區太原路三段365號"
+    "address": "406臺中市北屯區太原路三段365號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北區戶政事務所",
     "lat": 24.165873,
     "lng": 120.682272,
-    "address": "404臺中市北區永興街299號"
+    "address": "404臺中市北區永興街299號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北區區公所",
     "lat": 24.165931,
     "lng": 120.682277,
-    "address": "404臺中市北區永興街301號"
+    "address": "404臺中市北區永興街301號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "北區衛生所",
     "lat": 24.165931,
     "lng": 120.682277,
-    "address": "406臺中市北區永興街301號4樓"
+    "address": "406臺中市北區永興街301號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市北屯社區文化推廣協會",
     "lat": 24.166004,
     "lng": 120.691097,
-    "address": "406臺中市北屯區北屯里崇興路一段38號"
+    "address": "406臺中市北屯區北屯里崇興路一段38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店北區綏遠路遠大店(公話)",
     "lat": 24.166037,
     "lng": 120.680746,
-    "address": "404臺中市北區綏遠路一段8號"
+    "address": "404臺中市北區綏遠路一段8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺中市北區區公所三樓",
     "lat": 24.166489,
     "lng": 120.682111,
-    "address": "404臺中市北區永興街301號3樓"
+    "address": "404臺中市北區永興街301號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北區漢口路漢華店(公話)",
     "lat": 24.166846,
     "lng": 120.686602,
-    "address": "404臺中市北區漢口路五段62號"
+    "address": "404臺中市北區漢口路五段62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車漢口國中站",
     "lat": 24.166853,
     "lng": 120.682995,
-    "address": "407臺中市西屯區漢口路一段57號對面(漢口國中旁HL5170交接箱內)"
+    "address": "407臺中市西屯區漢口路一段57號對面(漢口國中旁HL5170交接箱內)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中市統一超商北屯昌平路昌平店(公話)",
     "lat": 24.168104,
     "lng": 120.692966,
-    "address": "406臺中市北屯區昌平路一段70號"
+    "address": "406臺中市北屯區昌平路一段70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯青島路青河店(公話)",
     "lat": 24.168531,
     "lng": 120.683328,
-    "address": "406臺中市北屯區青島路三段155號"
+    "address": "406臺中市北屯區青島路三段155號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯天津路熱天店(公話)",
     "lat": 24.169278,
     "lng": 120.687006,
-    "address": "406臺中市北屯區天津路四段68號"
+    "address": "406臺中市北屯區天津路四段68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中市昌平皮鞋商圈(臺中市立圖書館興安分館)(公話)",
     "lat": 24.16929,
     "lng": 120.694567,
-    "address": "406臺中市北屯區興安路一段162號"
+    "address": "406臺中市北屯區興安路一段162號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "積善樓",
     "lat": 24.16946,
     "lng": 120.69394,
-    "address": "406臺中市北屯區興安路一段165號(TCPT1253交接箱)"
+    "address": "406臺中市北屯區興安路一段165號(TCPT1253交接箱)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺中市立圖書館興安分館",
     "lat": 24.169504,
     "lng": 120.694599,
-    "address": "406臺中市北屯區興安路一段162號"
+    "address": "406臺中市北屯區興安路一段162號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店北屯天津路偉如店(公話)",
     "lat": 24.169594,
     "lng": 120.681417,
-    "address": "406臺中市北屯區天津路三段72號(公話)"
+    "address": "406臺中市北屯區天津路三段72號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "OK超商北屯柳陽東街柳陽店(公話)",
     "lat": 24.169761,
     "lng": 120.690342,
-    "address": "406臺中市北屯區柳陽東街45號之4"
+    "address": "406臺中市北屯區柳陽東街45號之4",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "東峰公有零售市場",
     "lat": 24.16984,
     "lng": 120.68098,
-    "address": "406臺中市北屯區天津路三段45號1"
+    "address": "406臺中市北屯區天津路三段45號1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市東光公有零售市場",
     "lat": 24.170056,
     "lng": 120.690662,
-    "address": "406臺中市北屯區北平路四段68號"
+    "address": "406臺中市北屯區北平路四段68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台中大坑口郵局",
     "lat": 24.170076,
     "lng": 120.699645,
-    "address": "406臺中市北屯區東山路一段38-1號"
+    "address": "406臺中市北屯區東山路一段38-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市北屯區三光社區發展協會",
     "lat": 24.170354,
     "lng": 120.696537,
-    "address": "406臺中市北屯區三光里忠勤新活動中心(文昌東十二街85號)"
+    "address": "406臺中市北屯區三光里忠勤新活動中心(文昌東十二街85號)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車北屯文化路口站",
     "lat": 24.170601,
     "lng": 120.697985,
-    "address": "406臺中市北屯區北屯路250號"
+    "address": "406臺中市北屯區北屯路250號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中正地政事務所",
     "lat": 24.170903,
     "lng": 120.680538,
-    "address": "406臺中市北屯區北平路三段36號"
+    "address": "406臺中市北屯區北平路三段36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "地方稅務局_東山分局",
     "lat": 24.170994,
     "lng": 120.680968,
-    "address": "406臺中市北屯區北平路三段38號"
+    "address": "406臺中市北屯區北平路三段38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "台中捷運四維國小站(公話)",
     "lat": 24.171051,
     "lng": 120.693282,
-    "address": "406臺中市北屯區文心路四段898號(公話)"
+    "address": "406臺中市北屯區文心路四段898號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯北平路遠平店公話",
     "lat": 24.171213,
     "lng": 120.68138,
-    "address": "406臺中市北屯區北平路三段75號-4"
+    "address": "406臺中市北屯區北平路三段75號-4",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店北屯河北路金河店(公話)",
     "lat": 24.171575,
     "lng": 120.683481,
-    "address": "406臺中市北屯區河北路二段98號"
+    "address": "406臺中市北屯區河北路二段98號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(北屯分行)",
     "lat": 24.171622,
     "lng": 120.687356,
-    "address": "406臺中市北屯區文心路四段696號"
+    "address": "406臺中市北屯區文心路四段696號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台中文心路郵局",
     "lat": 24.171638,
     "lng": 120.688419,
-    "address": "406臺中市北屯區文心路四段752號"
+    "address": "406臺中市北屯區文心路四段752號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中捷運崇德文心站(公話)",
     "lat": 24.171983,
     "lng": 120.685053,
-    "address": "406臺中市北屯區文心路四段538號(公話)"
+    "address": "406臺中市北屯區文心路四段538號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯昌平路昌陽店(公話)",
     "lat": 24.172196,
     "lng": 120.690838,
-    "address": "406臺中市北屯區昌平路一段264號"
+    "address": "406臺中市北屯區昌平路一段264號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店北屯北屯路北新店(公話)",
     "lat": 24.17225,
     "lng": 120.698519,
-    "address": "406臺中市北屯區北屯路288號"
+    "address": "406臺中市北屯區北屯路288號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店北屯熱河路熱河店(公話)",
     "lat": 24.172349,
     "lng": 120.687825,
-    "address": "406臺中市北屯區熱河路二段164號"
+    "address": "406臺中市北屯區熱河路二段164號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車文心國小站",
     "lat": 24.172874,
     "lng": 120.680936,
-    "address": "406臺中市北屯區文心路四段339號前(交接箱TCST7293)"
+    "address": "406臺中市北屯區文心路四段339號前(交接箱TCST7293)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯興安路新興陽店(公話)",
     "lat": 24.173112,
     "lng": 120.694286,
-    "address": "406臺中市北屯區興安路一段299號"
+    "address": "406臺中市北屯區興安路一段299號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車崇德瀋陽路口站",
     "lat": 24.173189,
     "lng": 120.685766,
-    "address": "406臺中市北屯區崇德路二段182號"
+    "address": "406臺中市北屯區崇德路二段182號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯熱河路熱陽店(公話)",
     "lat": 24.173806,
     "lng": 120.687845,
-    "address": "406臺中市北屯區熱河路二段217號"
+    "address": "406臺中市北屯區熱河路二段217號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華民國紅心字會",
     "lat": 24.173945,
     "lng": 120.686352,
-    "address": "406臺中市北屯區平心里安順三街13號"
+    "address": "406臺中市北屯區平心里安順三街13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "OK超商北屯梅川東路梅川店(公話)",
     "lat": 24.174374,
     "lng": 120.68005,
-    "address": "406臺中市北屯區梅川東路四段102號"
+    "address": "406臺中市北屯區梅川東路四段102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北屯區青少年福利服務中心",
     "lat": 24.174435,
     "lng": 120.682611,
-    "address": "406臺中市北屯區安順東五街13號"
+    "address": "406臺中市北屯區安順東五街13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯遼路平興店(公話)",
     "lat": 24.174437,
     "lng": 120.696936,
-    "address": "406臺中市北屯區遼寧路一段120號"
+    "address": "406臺中市北屯區遼寧路一段120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺中市立圖書館北屯分館",
     "lat": 24.174548,
     "lng": 120.694231,
-    "address": "406臺中市北屯區大連路三段122號"
+    "address": "406臺中市北屯區大連路三段122號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "大連路三段興安路興安路口",
     "lat": 24.1746,
     "lng": 120.69492,
-    "address": "406臺中市北屯區大連路3段151號前(TCST1149)"
+    "address": "406臺中市北屯區大連路3段151號前(TCST1149)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市沐風60之長者之愛關懷協會(北屯據點)",
     "lat": 24.174989,
     "lng": 120.685906,
-    "address": "406臺中市北屯區平福里崇德路二段252號B1"
+    "address": "406臺中市北屯區平福里崇德路二段252號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華傳愛社區服務協會(三木日光)",
     "lat": 24.175041,
     "lng": 120.698402,
-    "address": "406臺中市北屯區平興里北屯路409之42號"
+    "address": "406臺中市北屯區平興里北屯路409之42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車崇德國中(民俗公園)站",
     "lat": 24.175108,
     "lng": 120.685428,
-    "address": "406臺中市北屯區崇德路二段227號"
+    "address": "406臺中市北屯區崇德路二段227號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "外埔東西巷久松超市(公話)",
     "lat": 24.176176,
     "lng": 120.683778,
-    "address": "438臺中市外埔區東西巷83號(公話)"
+    "address": "438臺中市外埔區東西巷83號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯興安路興昌店(公話)",
     "lat": 24.176414,
     "lng": 120.694834,
-    "address": "406臺中市北屯區興安路二段60號"
+    "address": "406臺中市北屯區興安路二段60號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店北屯崇德二路昌盛店(公話)",
     "lat": 24.176624,
     "lng": 120.691421,
-    "address": "406臺中市北屯區崇德二路一段259號"
+    "address": "406臺中市北屯區崇德二路一段259號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行水湳分行",
     "lat": 24.178709,
     "lng": 120.686075,
-    "address": "406臺中市北屯區崇德路二段416號"
+    "address": "406臺中市北屯區崇德路二段416號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車崇德五路口站",
     "lat": 24.178733,
     "lng": 120.686111,
-    "address": "406臺中市北屯區崇德路二段416號"
+    "address": "406臺中市北屯區崇德路二段416號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯崇德六路松強店(公話)",
     "lat": 24.179779,
     "lng": 120.694766,
-    "address": "406臺中市北屯區崇德六路一段47號"
+    "address": "406臺中市北屯區崇德六路一段47號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "崇德六路松和街口",
     "lat": 24.17993,
     "lng": 120.69353,
-    "address": "406臺中市北屯區崇德六路一段99號前(TCST1262)"
+    "address": "406臺中市北屯區崇德六路一段99號前(TCST1262)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

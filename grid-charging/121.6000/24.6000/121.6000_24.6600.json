@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大同郵局",
     "lat": 24.675779,
     "lng": 121.609628,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大同鄉戶政事務所",
     "lat": 24.677808,
     "lng": 121.608095,

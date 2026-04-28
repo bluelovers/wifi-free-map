@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣古坑鄉荷苞社區發展協會",
     "lat": 23.669007,
     "lng": 120.57853,
-    "address": "646雲林縣古坑鄉荷苞村103號"
+    "address": "646雲林縣古坑鄉荷苞村103號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣古坑鄉高林社區發展協會",
     "lat": 23.673689,
     "lng": 120.570199,
-    "address": "646雲林縣古坑鄉高林61號"
+    "address": "646雲林縣古坑鄉高林61號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

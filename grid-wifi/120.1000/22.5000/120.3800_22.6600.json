@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣湧泉關懷協會(華美站)",
     "lat": 22.662365,
     "lng": 120.392033,
-    "address": "833高雄市鳥松區華美里中山西路115號二樓"
+    "address": "833高雄市鳥松區華美里中山西路115號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

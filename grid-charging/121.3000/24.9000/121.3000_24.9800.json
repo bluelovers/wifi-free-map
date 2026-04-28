@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園福林郵局",
     "lat": 24.981244,
     "lng": 121.30653,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園建國郵局",
     "lat": 24.985247,
     "lng": 121.309797,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局桃園站候車大廳",
     "lat": 24.989206,
     "lng": 121.313549,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局桃園站第2月台南側",
     "lat": 24.989206,
     "lng": 121.313549,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司桃園區處服務中心營業廳",
     "lat": 24.989738,
     "lng": 121.304971,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司桃園服務所",
     "lat": 24.991983,
     "lng": 121.304544,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園成功路郵局2樓",
     "lat": 24.991986,
     "lng": 121.311336,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園府前郵局",
     "lat": 24.992272,
     "lng": 121.300512,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園南門郵局",
     "lat": 24.992386,
     "lng": 121.304833,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局",
     "lat": 24.993346,
     "lng": 121.301897,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局",
     "lat": 24.993346,
     "lng": 121.301897,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園民生路郵局",
     "lat": 24.995151,
     "lng": 121.312797,

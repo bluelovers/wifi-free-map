@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "嘉義市蘭潭國民中學活動中心",
     "lat": 23.482426,
     "lng": 120.481449,
-    "address": "600嘉義市東區民權東路32號"
+    "address": "600嘉義市東區民權東路32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市政府警察局第二分局長竹派出所",
     "lat": 23.483007,
     "lng": 120.480727,
-    "address": "600嘉義市東區民權東路34號"
+    "address": "600嘉義市東區民權東路34號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

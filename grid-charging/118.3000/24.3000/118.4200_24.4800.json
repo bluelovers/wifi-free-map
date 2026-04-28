@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "金門沙美郵局",
     "lat": 24.481109,
     "lng": 118.427993,

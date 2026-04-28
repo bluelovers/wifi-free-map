@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "旗山大洲郵局",
     "lat": 22.841923,
     "lng": 120.463628,
-    "address": "842高雄市旗山區旗南二路192-1號"
+    "address": "842高雄市旗山區旗南二路192-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市旗山區中洲社區發展協會",
     "lat": 22.844148,
     "lng": 120.469851,
-    "address": "842高雄市旗山區中洲里中洲路151之1號"
+    "address": "842高雄市旗山區中洲里中洲路151之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市旗山區大山社區發展協會",
     "lat": 22.847761,
     "lng": 120.469655,
-    "address": "842高雄市旗山區大山里大山街12之2號"
+    "address": "842高雄市旗山區大山里大山街12之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市旗山區頂洲社區發展協會",
     "lat": 22.856982,
     "lng": 120.473479,
-    "address": "842高雄市旗山區上洲里後角街2號"
+    "address": "842高雄市旗山區上洲里後角街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

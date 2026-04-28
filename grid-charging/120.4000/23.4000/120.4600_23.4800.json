@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司嘉義給水廠",
     "lat": 23.483912,
     "lng": 120.476836,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義林森郵局",
     "lat": 23.491945,
     "lng": 120.470592,

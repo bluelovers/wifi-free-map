@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義縣警察局水上分局",
     "lat": 23.432391,
     "lng": 120.399147,

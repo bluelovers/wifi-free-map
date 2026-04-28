@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "陽明山國家公園陽明書屋遊客服務站",
     "lat": 25.161773,
     "lng": 121.538927,
-    "address": "112臺北市北投區陽明山中興路12號"
+    "address": "112臺北市北投區陽明山中興路12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "竹子湖蓬萊米原種田故事館",
     "lat": 25.168229,
     "lng": 121.539325,
-    "address": "112臺北市北投區竹子湖路15-1號"
+    "address": "112臺北市北投區竹子湖路15-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "湖田橋-S-竹子湖路",
     "lat": 25.169975,
     "lng": 121.53849,
-    "address": "112臺北市北投區竹子湖路25號旁候車亭"
+    "address": "112臺北市北投區竹子湖路25號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

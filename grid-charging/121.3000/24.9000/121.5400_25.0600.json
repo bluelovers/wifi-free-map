@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "觀光局旅遊服務中心服務台",
     "lat": 25.060121,
     "lng": 121.549497,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "觀光局旅遊服務中心圖書館",
     "lat": 25.060121,
     "lng": 121.549497,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北榮星郵局",
     "lat": 25.061876,
     "lng": 121.545755,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北龍江路郵局",
     "lat": 25.063198,
     "lng": 121.541012,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站觀景台",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站入境長廊",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站國際線出境外候機室",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站國內線內候機室",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站國內線到站大廳(行李提領區)",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站國內線迎客大廳",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站國內線報到大廳",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站國際線內候機室",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -85,6 +97,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站國際線外候機室",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -92,6 +105,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站國際線迎客大廳",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -99,6 +113,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站國際線海關大廳(行李提領區)",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -106,6 +121,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站國際線報到大廳",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -113,6 +129,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺北國際航空站國際線內候機室(一航廈2樓)",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -120,6 +137,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "松山機場郵局",
     "lat": 25.063666,
     "lng": 121.551513,
@@ -127,6 +145,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北大直郵局",
     "lat": 25.079086,
     "lng": 121.545623,
@@ -134,6 +153,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北樂群二路郵局",
     "lat": 25.07994,
     "lng": 121.558227,

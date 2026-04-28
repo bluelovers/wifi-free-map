@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市白河區玉豐社區發展協會",
     "lat": 23.347,
     "lng": 120.416,
-    "address": "732臺南市白河區玉豐里白河區玉豐里86號"
+    "address": "732臺南市白河區玉豐里白河區玉豐里86號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "白河郵局",
     "lat": 23.351609,
     "lng": 120.416252,
-    "address": "732臺南市白河區永安里三民路410號"
+    "address": "732臺南市白河區永安里三民路410號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行白河分行",
     "lat": 23.351676,
     "lng": 120.414802,
-    "address": "732臺南市白河區三民路395號"
+    "address": "732臺南市白河區三民路395號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市白河地政事務所",
     "lat": 23.35279,
     "lng": 120.412779,
-    "address": "732臺南市白河區國泰路317號"
+    "address": "732臺南市白河區國泰路317號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

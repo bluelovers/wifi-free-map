@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣卓溪鄉卓清村辦公處",
     "lat": 23.295457,
     "lng": 121.270474,
-    "address": "982花蓮縣卓溪鄉卓清村12鄰18號"
+    "address": "982花蓮縣卓溪鄉卓清村12鄰18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣卓溪鄉卓樂部落",
     "lat": 23.2958,
     "lng": 121.27029,
-    "address": "982花蓮縣卓溪鄉卓清村卓樂18號"
+    "address": "982花蓮縣卓溪鄉卓清村卓樂18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣卓溪鄉卓樂國民小學",
     "lat": 23.295821,
     "lng": 121.267025,
-    "address": "982花蓮縣卓溪鄉卓清村卓樂86號"
+    "address": "982花蓮縣卓溪鄉卓清村卓樂86號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

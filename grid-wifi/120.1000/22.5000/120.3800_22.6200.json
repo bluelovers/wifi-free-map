@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大寮中庄郵局",
     "lat": 22.63504,
     "lng": 120.390713,
-    "address": "831高雄市大寮區鳳屏一路370、372號"
+    "address": "831高雄市大寮區鳳屏一路370、372號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行中庄分行",
     "lat": 22.636927,
     "lng": 120.393569,
-    "address": "831高雄市大寮區鳳屏一路339號"
+    "address": "831高雄市大寮區鳳屏一路339號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

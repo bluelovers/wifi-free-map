@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大埤郵局",
     "lat": 23.645587,
     "lng": 120.431921,

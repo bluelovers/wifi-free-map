@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹縣寶山鄉戶政事務所",
     "lat": 24.76583,
     "lng": 120.991133,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "寶山郵局",
     "lat": 24.766785,
     "lng": 120.990543,

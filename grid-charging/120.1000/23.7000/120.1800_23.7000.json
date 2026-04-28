@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台西郵局",
     "lat": 23.70048,
     "lng": 120.196922,

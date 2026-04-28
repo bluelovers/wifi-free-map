@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "馬公東文郵局",
     "lat": 23.563329,
     "lng": 119.582891,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "澎湖縣馬公市戶政事務所服務台",
     "lat": 23.565856,
     "lng": 119.580989,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鯉魚潭遊客中心",
     "lat": 23.935307,
     "lng": 121.508368,

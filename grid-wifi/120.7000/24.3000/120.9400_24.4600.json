@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "苗栗縣泰安鄉泰雅原住民文化產業區",
     "lat": 24.468275,
     "lng": 120.945625,
-    "address": "365苗栗縣泰安鄉錦水村6鄰圓墩46之3號"
+    "address": "365苗栗縣泰安鄉錦水村6鄰圓墩46之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

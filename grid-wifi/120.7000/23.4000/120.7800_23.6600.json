@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣政府警察局竹山分局溪頭派出所",
     "lat": 23.673308,
     "lng": 120.795373,
-    "address": "558南投縣鹿谷鄉內湖村興產路1-20號"
+    "address": "558南投縣鹿谷鄉內湖村興產路1-20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

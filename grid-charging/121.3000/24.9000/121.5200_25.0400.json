@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北中聯郵局",
     "lat": 25.041044,
     "lng": 121.522158,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北正義郵局",
     "lat": 25.041498,
     "lng": 121.538303,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北杭南郵局",
     "lat": 25.042327,
     "lng": 121.526473,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局報驗發證業務民眾洽公區",
     "lat": 25.042573,
     "lng": 121.520572,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局資料中心閱覽室",
     "lat": 25.042573,
     "lng": 121.520572,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北光華郵局",
     "lat": 25.044838,
     "lng": 121.533164,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署",
     "lat": 25.045,
     "lng": 121.522,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司台北市中山區中崙站",
     "lat": 25.046359,
     "lng": 121.539601,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北長安郵局",
     "lat": 25.048546,
     "lng": 121.534813,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北中山郵局",
     "lat": 25.051482,
     "lng": 121.522115,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北長春路郵局",
     "lat": 25.054956,
     "lng": 121.53056,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北建北郵局",
     "lat": 25.055017,
     "lng": 121.537188,
@@ -85,6 +97,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北雙連郵局",
     "lat": 25.059484,
     "lng": 121.522657,

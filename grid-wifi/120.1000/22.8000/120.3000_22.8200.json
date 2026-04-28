@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "岡山五甲尾郵局",
     "lat": 22.821781,
     "lng": 120.303607,
-    "address": "820高雄市岡山區嘉興路255號"
+    "address": "820高雄市岡山區嘉興路255號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市安和社會福利發展協會(嘉興站)",
     "lat": 22.822488,
     "lng": 120.306604,
-    "address": "820高雄市岡山區嘉興里嘉興路374之3號"
+    "address": "820高雄市岡山區嘉興里嘉興路374之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市安和社會福利發展協會(岡山站)",
     "lat": 22.829847,
     "lng": 120.312372,
-    "address": "820高雄市岡山區嘉峰里宮中街50號"
+    "address": "820高雄市岡山區嘉峰里宮中街50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

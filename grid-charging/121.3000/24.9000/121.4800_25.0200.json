@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋光復橋郵局",
     "lat": 25.021733,
     "lng": 121.484627,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北東園郵局",
     "lat": 25.023372,
     "lng": 121.49756,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局1樓",
     "lat": 25.026439,
     "lng": 121.497051,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北華江橋郵局",
     "lat": 25.035285,
     "lng": 121.493028,

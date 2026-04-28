@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市麻豆區龍泉社區發展協會",
     "lat": 23.181,
     "lng": 120.269,
-    "address": "721臺南市麻豆區清水里20號"
+    "address": "721臺南市麻豆區清水里20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部警政署警察廣播電臺臺南臺",
     "lat": 23.189571,
     "lng": 120.264747,
-    "address": "721臺南市麻豆區南勢里南勢85-21號"
+    "address": "721臺南市麻豆區南勢里南勢85-21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "麻豆總爺郵局",
     "lat": 23.195015,
     "lng": 120.265696,
-    "address": "721臺南市麻豆區南勢里106號"
+    "address": "721臺南市麻豆區南勢里106號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局濁水站候車室",
     "lat": 23.834674,
     "lng": 120.704792,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "名間郵局",
     "lat": 23.836643,
     "lng": 120.701965,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "文山樟腳里郵局",
     "lat": 24.982504,
     "lng": 121.564724,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "文山指南郵局",
     "lat": 24.987599,
     "lng": 121.576331,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "木柵郵局-1",
     "lat": 24.988493,
     "lng": 121.565403,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "木柵郵局-2",
     "lat": 24.988493,
     "lng": 121.565403,

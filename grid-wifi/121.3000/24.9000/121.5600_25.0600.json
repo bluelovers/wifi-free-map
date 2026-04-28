@@ -1,474 +1,651 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新湖一路口-S1-舊宗路一段",
     "lat": 25.060479,
     "lng": 121.578884,
-    "address": "114臺北市內湖區舊宗路一段135號對面候車亭"
+    "address": "114臺北市內湖區舊宗路一段135號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新湖一路口-N-舊宗路一段",
     "lat": 25.060855,
     "lng": 121.578907,
-    "address": "114臺北市內湖區舊宗路一段135號旁候車亭"
+    "address": "114臺北市內湖區舊宗路一段135號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "塔悠路-N-塔悠路",
     "lat": 25.061009,
     "lng": 121.568823,
-    "address": "105臺北市松山區塔悠路311號旁邊候車亭"
+    "address": "105臺北市松山區塔悠路311號旁邊候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新湖舊宗路口-E-新湖二路",
     "lat": 25.062054,
     "lng": 121.578644,
-    "address": "114臺北市內湖區新湖二路128號對面候車亭"
+    "address": "114臺北市內湖區新湖二路128號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新湖三路口(台北花市)-舊宗路一段",
     "lat": 25.062248,
     "lng": 121.577544,
-    "address": "114臺北市內湖區舊宗路一段130號前候車亭"
+    "address": "114臺北市內湖區舊宗路一段130號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內湖舊宗郵局",
     "lat": 25.062276,
     "lng": 121.577982,
-    "address": "114臺北市內湖區舊宗路一段189號"
+    "address": "114臺北市內湖區舊宗路一段189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "撫遠抽水站-N-塔悠路",
     "lat": 25.062389,
     "lng": 121.568634,
-    "address": "105臺北市松山區塔悠路351號旁候車亭"
+    "address": "105臺北市松山區塔悠路351號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "花卉批發市場1FA館1206攤位旁",
     "lat": 25.062877,
     "lng": 121.574316,
-    "address": "114臺北市內湖區新湖三路28號1F"
+    "address": "114臺北市內湖區新湖三路28號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "花卉批發市場1F A館1401攤位旁",
     "lat": 25.062881,
     "lng": 121.574406,
-    "address": "114臺北市內湖區新湖三路28號1F"
+    "address": "114臺北市內湖區新湖三路28號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "花卉批發市場1F A館1706攤位旁",
     "lat": 25.063023,
     "lng": 121.574026,
-    "address": "114臺北市內湖區新湖三路28號1F"
+    "address": "114臺北市內湖區新湖三路28號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "三民國小-N-民權東路五段",
     "lat": 25.063053,
     "lng": 121.564009,
-    "address": "105臺北市松山區民權東路五段24號對面候車亭"
+    "address": "105臺北市松山區民權東路五段24號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "花卉批發市場1F B館3403攤位旁",
     "lat": 25.063249,
     "lng": 121.575374,
-    "address": "114臺北市內湖區新湖三路36號1F"
+    "address": "114臺北市內湖區新湖三路36號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "花卉批發市場1F A館1512攤位旁",
     "lat": 25.063279,
     "lng": 121.574096,
-    "address": "114臺北市內湖區新湖三路28號1F"
+    "address": "114臺北市內湖區新湖三路28號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "花卉批發市場1F B館3408攤位旁",
     "lat": 25.06337,
     "lng": 121.575126,
-    "address": "114臺北市內湖區新湖三路36號1F"
+    "address": "114臺北市內湖區新湖三路36號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "花卉批發市場1F A館1717攤位旁",
     "lat": 25.063483,
     "lng": 121.573916,
-    "address": "114臺北市內湖區新湖三路28號1F"
+    "address": "114臺北市內湖區新湖三路28號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "花卉批發市場1F A館1217攤位旁",
     "lat": 25.063602,
     "lng": 121.574174,
-    "address": "114臺北市內湖區新湖三路28號1F"
+    "address": "114臺北市內湖區新湖三路28號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人愛樂福關懷文創發展協會",
     "lat": 25.0638,
     "lng": 121.566112,
-    "address": "105臺北市松山區莊敬里撫遠街367巷4號"
+    "address": "105臺北市松山區莊敬里撫遠街367巷4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行南內湖分行",
     "lat": 25.063887,
     "lng": 121.579985,
-    "address": "114臺北市內湖區行愛路130號"
+    "address": "114臺北市內湖區行愛路130號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "行忠路口-N-舊宗路一段",
     "lat": 25.064305,
     "lng": 121.576345,
-    "address": "114臺北市內湖區舊宗路一段319號候車亭"
+    "address": "114臺北市內湖區舊宗路一段319號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(新湖分行)",
     "lat": 25.06484,
     "lng": 121.579915,
-    "address": "114臺北市內湖區行愛路159號"
+    "address": "114臺北市內湖區行愛路159號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "新工處養護隊第二分隊1F右側辦公室內",
     "lat": 25.065321,
     "lng": 121.573999,
-    "address": "114臺北市內湖區民權東路六段臨8-1號1F"
+    "address": "114臺北市內湖區民權東路六段臨8-1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "內湖運動公園-N-舊宗路二段",
     "lat": 25.066866,
     "lng": 121.574776,
-    "address": "114臺北市內湖區舊宗路二段11號旁候車亭"
+    "address": "114臺北市內湖區舊宗路二段11號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "民權大橋-W1-民權東路六段",
     "lat": 25.066937,
     "lng": 121.578977,
-    "address": "114臺北市內湖區民權東路六段13之15號旁候車亭"
+    "address": "114臺北市內湖區民權東路六段13之15號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處路燈工程隊東區分隊-園藝工程隊辦公室",
     "lat": 25.067249,
     "lng": 121.572778,
-    "address": "114臺北市內湖區堤頂大道一段389號2F"
+    "address": "114臺北市內湖區堤頂大道一段389號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處路燈工程隊東區分隊-園藝工程隊會議室",
     "lat": 25.067295,
     "lng": 121.572726,
-    "address": "114臺北市內湖區堤頂大道一段389號2F"
+    "address": "114臺北市內湖區堤頂大道一段389號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處路燈工程隊東區分隊-路燈工程隊辦公室",
     "lat": 25.067351,
     "lng": 121.572918,
-    "address": "114臺北市內湖區堤頂大道一段389號1F"
+    "address": "114臺北市內湖區堤頂大道一段389號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "內湖運動公園-S-舊宗路二段",
     "lat": 25.067846,
     "lng": 121.574576,
-    "address": "114臺北市內湖區舊宗路二段95號對面候車亭"
+    "address": "114臺北市內湖區舊宗路二段95號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "瑞光社會住宅1F大廳",
     "lat": 25.073372,
     "lng": 121.578661,
-    "address": "114臺北市內湖區陽光街321巷1號1F"
+    "address": "114臺北市內湖區陽光街321巷1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "瑞光社會住宅3F會議室",
     "lat": 25.073586,
     "lng": 121.579361,
-    "address": "114臺北市內湖區陽光街321巷1號3F"
+    "address": "114臺北市內湖區陽光街321巷1號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀西湖分行",
     "lat": 25.07368,
     "lng": 121.576697,
-    "address": "114臺北市內湖區瑞光路188巷48號"
+    "address": "114臺北市內湖區瑞光路188巷48號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "瑞光社會住宅1F東側梯廳",
     "lat": 25.07373,
     "lng": 121.579215,
-    "address": "114臺北市內湖區陽光街321巷1號1F"
+    "address": "114臺北市內湖區陽光街321巷1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "瑞光路-E1-瑞光路",
     "lat": 25.074781,
     "lng": 121.577475,
-    "address": "114臺北市內湖區瑞光路196號前候車亭"
+    "address": "114臺北市內湖區瑞光路196號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀東內湖分行",
     "lat": 25.075779,
     "lng": 121.574354,
-    "address": "114臺北市內湖區港墘路202號"
+    "address": "114臺北市內湖區港墘路202號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行西湖分行",
     "lat": 25.075924,
     "lng": 121.575033,
-    "address": "114臺北市內湖區港墘路185號"
+    "address": "114臺北市內湖區港墘路185號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內湖江南郵局",
     "lat": 25.076524,
     "lng": 121.574047,
-    "address": "114臺北市內湖區瑞光路316巷1號"
+    "address": "114臺北市內湖區瑞光路316巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "瑞光港墘路口-E-瑞光路",
     "lat": 25.077193,
     "lng": 121.573256,
-    "address": "114臺北市內湖區瑞光路356號對面候車亭"
+    "address": "114臺北市內湖區瑞光路356號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "內湖運動中心7F游泳池櫃檯",
     "lat": 25.077944,
     "lng": 121.574484,
-    "address": "114臺北市內湖區洲子街12號7F"
+    "address": "114臺北市內湖區洲子街12號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內湖文德郵局",
     "lat": 25.078256,
     "lng": 121.579703,
-    "address": "114臺北市內湖區文德路26號"
+    "address": "114臺北市內湖區文德路26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀內湖科學園區分行",
     "lat": 25.078425,
     "lng": 121.569746,
-    "address": "114臺北市內湖區瑞光路472號"
+    "address": "114臺北市內湖區瑞光路472號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀內湖科技園區分行",
     "lat": 25.078465,
     "lng": 121.565979,
-    "address": "114臺北市內湖區堤頂大道二段259號"
+    "address": "114臺北市內湖區堤頂大道二段259號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台灣基督教恩惠福音會",
     "lat": 25.078544,
     "lng": 121.578434,
-    "address": "114臺北市內湖區港墘里內湖路一段608號"
+    "address": "114臺北市內湖區港墘里內湖路一段608號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "內湖運動中心1F大廳中央",
     "lat": 25.078552,
     "lng": 121.574814,
-    "address": "114臺北市內湖區洲子街12號1F"
+    "address": "114臺北市內湖區洲子街12號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "內湖運動中心B1F韻律教室門口",
     "lat": 25.078654,
     "lng": 121.574604,
-    "address": "114臺北市內湖區洲子街12號B1F"
+    "address": "114臺北市內湖區洲子街12號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "內湖運動中心5F體適能中心中央",
     "lat": 25.078654,
     "lng": 121.574604,
-    "address": "114臺北市內湖區洲子街12號5F"
+    "address": "114臺北市內湖區洲子街12號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "內湖運動中心5F健身中心櫃檯",
     "lat": 25.078654,
     "lng": 121.574604,
-    "address": "114臺北市內湖區洲子街12號5F"
+    "address": "114臺北市內湖區洲子街12號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "內湖港墘區民活動中心1F中央",
     "lat": 25.078663,
     "lng": 121.576968,
-    "address": "114臺北市內湖區內湖路一段552號1F"
+    "address": "114臺北市內湖區內湖路一段552號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館西湖分館4F音樂廳舞臺左側",
     "lat": 25.07868,
     "lng": 121.577146,
-    "address": "114臺北市內湖區內湖路一段594號4F"
+    "address": "114臺北市內湖區內湖路一段594號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館西湖分館2F宗教類與語文類中央",
     "lat": 25.078685,
     "lng": 121.577242,
-    "address": "114臺北市內湖區內湖路一段594號2F"
+    "address": "114臺北市內湖區內湖路一段594號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館西湖分館3F視聽資料閱覽區",
     "lat": 25.078685,
     "lng": 121.577242,
-    "address": "114臺北市內湖區內湖路一段594號3F"
+    "address": "114臺北市內湖區內湖路一段594號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館西湖分館2F空調室右前方",
     "lat": 25.078699,
     "lng": 121.577164,
-    "address": "114臺北市內湖區內湖路一段594號2F"
+    "address": "114臺北市內湖區內湖路一段594號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館西湖分館1F期刊合訂本區",
     "lat": 25.078708,
     "lng": 121.577294,
-    "address": "114臺北市內湖區內湖路一段594號1F"
+    "address": "114臺北市內湖區內湖路一段594號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館西湖分館B1F自修室",
     "lat": 25.078717,
     "lng": 121.577269,
-    "address": "114臺北市內湖區內湖路一段594號B1F"
+    "address": "114臺北市內湖區內湖路一段594號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市內湖紳士協會",
     "lat": 25.078724,
     "lng": 121.57699,
-    "address": "114臺北市內湖區港墘里內湖路一段552號(港墘區民活動中心)"
+    "address": "114臺北市內湖區港墘里內湖路一段552號(港墘區民活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館西湖分館B1F自修室中央",
     "lat": 25.078908,
     "lng": 121.577292,
-    "address": "114臺北市內湖區內湖路一段594號B1F"
+    "address": "114臺北市內湖區內湖路一段594號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "西湖圖書館-E-內湖路一段",
     "lat": 25.07903,
     "lng": 121.57771,
-    "address": "114臺北市內湖區內湖路一段596號旁候車亭"
+    "address": "114臺北市內湖區內湖路一段596號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "仁寶大樓-N1-瑞光路",
     "lat": 25.079417,
     "lng": 121.568423,
-    "address": "114臺北市內湖區瑞光路502號對面候車亭"
+    "address": "114臺北市內湖區瑞光路502號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院內湖院區1F-第2門診飲水機上方(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.079429,
     "lng": 121.567782,
-    "address": "114臺北市內湖區瑞光路506號1樓"
+    "address": "114臺北市內湖區瑞光路506號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院內湖院區2F-電梯旁(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.079429,
     "lng": 121.567782,
-    "address": "114臺北市內湖區瑞光路506號2樓"
+    "address": "114臺北市內湖區瑞光路506號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "基湖站-S1-基湖路",
     "lat": 25.079685,
     "lng": 121.564603,
-    "address": "114臺北市內湖區基湖路37號對面候車亭"
+    "address": "114臺北市內湖區基湖路37號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市將軍區巷口社區發展協會",
     "lat": 23.205,
     "lng": 120.101,
-    "address": "725臺南市將軍區巷埔里仁巷52號"
+    "address": "725臺南市將軍區巷埔里仁巷52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市七股區龍山社區發展協會",
     "lat": 23.218,
     "lng": 120.104,
-    "address": "724臺南市七股區龍山里2鄰龍山211之33號"
+    "address": "724臺南市七股區龍山里2鄰龍山211之33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

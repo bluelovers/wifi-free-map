@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "聯合活動中心",
     "lat": 23.041892,
     "lng": 120.306837,
-    "address": "712臺南市新化區民生路269號"
+    "address": "712臺南市新化區民生路269號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部南區國稅局新化稽徵所後棟",
     "lat": 23.04263,
     "lng": 120.305432,
-    "address": "712臺南市新化區中正路588號後棟"
+    "address": "712臺南市新化區中正路588號後棟",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部南區國稅局新化稽徵所",
     "lat": 23.042659,
     "lng": 120.305415,
-    "address": "712臺南市新化區中正路588號"
+    "address": "712臺南市新化區中正路588號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

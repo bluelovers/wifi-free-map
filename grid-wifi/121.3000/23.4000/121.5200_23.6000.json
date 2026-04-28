@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣豐濱鄉公所",
     "lat": 23.601326,
     "lng": 121.521195,
-    "address": "977花蓮縣豐濱鄉光豐路32號"
+    "address": "977花蓮縣豐濱鄉光豐路32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣豐濱鄉圖書館",
     "lat": 23.601407,
     "lng": 121.520919,
-    "address": "977花蓮縣豐濱鄉豐濱村光豐路36號"
+    "address": "977花蓮縣豐濱鄉豐濱村光豐路36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立豐濱國民中學",
     "lat": 23.601489,
     "lng": 121.521492,
-    "address": "977花蓮縣豐濱鄉光豐路26號"
+    "address": "977花蓮縣豐濱鄉光豐路26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣豐濱鄉衛生所-KALIPAHAK樂智據點",
     "lat": 23.601763,
     "lng": 121.5215,
-    "address": "977花蓮縣豐濱鄉豐濱村光豐路39號"
+    "address": "977花蓮縣豐濱鄉豐濱村光豐路39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "豐濱郵局",
     "lat": 23.601824,
     "lng": 121.520501,
-    "address": "977花蓮縣豐濱鄉光豐路48號"
+    "address": "977花蓮縣豐濱鄉光豐路48號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

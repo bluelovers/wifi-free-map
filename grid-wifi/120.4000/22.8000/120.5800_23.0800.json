@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "甲仙郵局",
     "lat": 23.082982,
     "lng": 120.589264,
-    "address": "847高雄市甲仙區林森路44號"
+    "address": "847高雄市甲仙區林森路44號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市甲仙區公所",
     "lat": 23.0838,
     "lng": 120.5877,
-    "address": "847高雄市甲仙區中山路50號"
+    "address": "847高雄市甲仙區中山路50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市甲仙區大田社區發展協會",
     "lat": 23.084,
     "lng": 120.587,
-    "address": "847高雄市甲仙區大田里新興路49之1號"
+    "address": "847高雄市甲仙區大田里新興路49之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館甲仙分館",
     "lat": 23.084252,
     "lng": 120.587457,
-    "address": "847高雄市甲仙區和安里中山路48號"
+    "address": "847高雄市甲仙區和安里中山路48號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

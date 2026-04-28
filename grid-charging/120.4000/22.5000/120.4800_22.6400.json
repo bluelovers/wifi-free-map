@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東永安郵局",
     "lat": 22.655809,
     "lng": 120.481559,

@@ -1,954 +1,1311 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園家庭服務中心",
     "lat": 24.980002,
     "lng": 121.307345,
-    "address": "330桃園市桃園區陽明三街33號4樓"
+    "address": "330桃園市桃園區陽明三街33號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園延平公園大豐路189號對面燈桿左前方",
     "lat": 24.980032,
     "lng": 121.314829,
-    "address": "330桃園市桃園區大豐路189號"
+    "address": "330桃園市桃園區大豐路189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園延平公園大豐路189號對面燈桿右前方",
     "lat": 24.980032,
     "lng": 121.314829,
-    "address": "330桃園市桃園區大豐路189號"
+    "address": "330桃園市桃園區大豐路189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園陽明公園長沙街72號號誌桿左前方",
     "lat": 24.980117,
     "lng": 121.309004,
-    "address": "330桃園市桃園區長沙街72號"
+    "address": "330桃園市桃園區長沙街72號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園陽明公園長沙街72號號誌桿右前方",
     "lat": 24.980117,
     "lng": 121.309004,
-    "address": "330桃園市桃園區長沙街72號"
+    "address": "330桃園市桃園區長沙街72號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園介壽公園介壽路與介新街口電信桿左前方",
     "lat": 24.980159,
     "lng": 121.305399,
-    "address": "330桃園市桃園區介壽路與介新街口"
+    "address": "330桃園市桃園區介壽路與介新街口",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園介壽公園介壽路與介新街口電信桿右前方",
     "lat": 24.980159,
     "lng": 121.305399,
-    "address": "330桃園市桃園區介壽路與介新街口"
+    "address": "330桃園市桃園區介壽路與介新街口",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園福林公園陽明十一街口前燈桿",
     "lat": 24.980927,
     "lng": 121.307013,
-    "address": "330桃園市桃園區陽明十一街84號"
+    "address": "330桃園市桃園區陽明十一街84號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園福林郵局",
     "lat": 24.981244,
     "lng": 121.30653,
-    "address": "330桃園市桃園區介壽路316、316-1號"
+    "address": "330桃園市桃園區介壽路316、316-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市婦女館",
     "lat": 24.981857,
     "lng": 121.315391,
-    "address": "330桃園市桃園區延平路147號"
+    "address": "330桃園市桃園區延平路147號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華一貫道宏發道德實踐研究會",
     "lat": 24.982284,
     "lng": 121.31117,
-    "address": "330桃園市桃園區福安里保羅街18之1號B1"
+    "address": "330桃園市桃園區福安里保羅街18之1號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園區公所里集會所-陽明公園管理中心",
     "lat": 24.982329,
     "lng": 121.308159,
-    "address": "330桃園市桃園區介壽路199號"
+    "address": "330桃園市桃園區介壽路199號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園玉山公園南豐二街59號燈桿左前方",
     "lat": 24.982506,
     "lng": 121.303989,
-    "address": "330桃園市桃園區南豐二街59號"
+    "address": "330桃園市桃園區南豐二街59號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園玉山公園南豐二街59號燈桿右前方",
     "lat": 24.982506,
     "lng": 121.303989,
-    "address": "330桃園市桃園區南豐二街59號"
+    "address": "330桃園市桃園區南豐二街59號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區玉山里辦公處",
     "lat": 24.98385,
     "lng": 121.300719,
-    "address": "330桃園市桃園區玉山里玉山街233巷36弄3號"
+    "address": "330桃園市桃園區玉山里玉山街233巷36弄3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "和頌銀髮健身俱樂部",
     "lat": 24.98472,
     "lng": 121.30496,
-    "address": "330桃園市桃園區建國路313號"
+    "address": "330桃園市桃園區建國路313號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園建國郵局",
     "lat": 24.985247,
     "lng": 121.309797,
-    "address": "330桃園市桃園區建國路156-8號"
+    "address": "330桃園市桃園區建國路156-8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "板信商業銀行桃鶯分行",
     "lat": 24.986608,
     "lng": 121.314077,
-    "address": "330桃園市桃園區延平路28號-8號1樓、2樓"
+    "address": "330桃園市桃園區延平路28號-8號1樓、2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園客運總公司(試辦單位)",
     "lat": 24.986797,
     "lng": 121.314061,
-    "address": "330桃園市桃園區福安里延平路28號"
+    "address": "330桃園市桃園區福安里延平路28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園區公所里集會所-建國公園管理中心",
     "lat": 24.986885,
     "lng": 121.316752,
-    "address": "330桃園市桃園區建成街88號"
+    "address": "330桃園市桃園區建成街88號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區豐林社區發展協會",
     "lat": 24.98701,
     "lng": 121.307305,
-    "address": "330桃園市桃園區豐林里三民路三段459號一樓"
+    "address": "330桃園市桃園區豐林里三民路三段459號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園火車站旅遊服務中心",
     "lat": 24.988975,
     "lng": 121.313825,
-    "address": "330桃園市桃園區中正路1號"
+    "address": "330桃園市桃園區中正路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府勞動檢查處",
     "lat": 24.989015,
     "lng": 121.310091,
-    "address": "330桃園市桃園區大同路108號13樓"
+    "address": "330桃園市桃園區大同路108號13樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會農糧署北區分署",
     "lat": 24.989112,
     "lng": 121.309336,
-    "address": "330桃園市桃園區大同路111號"
+    "address": "330桃園市桃園區大同路111號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局桃園站候車大廳(付費區漂書處)",
     "lat": 24.989206,
     "lng": 121.313545,
-    "address": "330桃園市桃園區武陵里中正路1號"
+    "address": "330桃園市桃園區武陵里中正路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局桃園站第2月台南端(4-5車位置)",
     "lat": 24.989206,
     "lng": 121.313545,
-    "address": "330桃園市桃園區武陵里中正路1號"
+    "address": "330桃園市桃園區武陵里中正路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局桃園站第2月台北端(9-10車位置)",
     "lat": 24.989206,
     "lng": 121.313545,
-    "address": "330桃園市桃園區武陵里中正路1號"
+    "address": "330桃園市桃園區武陵里中正路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局桃園站候車大廳",
     "lat": 24.989206,
     "lng": 121.313549,
-    "address": "330桃園市桃園區中正路1號"
+    "address": "330桃園市桃園區中正路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局桃園站第2月台南側",
     "lat": 24.989206,
     "lng": 121.313549,
-    "address": "330桃園市桃園區中正路1號"
+    "address": "330桃園市桃園區中正路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園區國光客運桃園站",
     "lat": 24.989536,
     "lng": 121.311002,
-    "address": "330桃園市桃園區復興路157號"
+    "address": "330桃園市桃園區復興路157號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司桃園區處服務中心營業廳",
     "lat": 24.989738,
     "lng": 121.304971,
-    "address": "330桃園市桃園區復興路352號"
+    "address": "330桃園市桃園區復興路352號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府就業服務處桃園就業中心1F",
     "lat": 24.989985,
     "lng": 121.308546,
-    "address": "330桃園市桃園區南華街92號"
+    "address": "330桃園市桃園區南華街92號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府就業服務處桃園就業中心2F",
     "lat": 24.989985,
     "lng": 121.308546,
-    "address": "330桃園市桃園區南華街92號"
+    "address": "330桃園市桃園區南華街92號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行桃園分行2F",
     "lat": 24.990188,
     "lng": 121.309667,
-    "address": "330桃園市桃園區民族路55號"
+    "address": "330桃園市桃園區民族路55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀桃興分行",
     "lat": 24.990235,
     "lng": 121.311872,
-    "address": "330桃園市桃園區復興路180號"
+    "address": "330桃園市桃園區復興路180號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園客運桃園車站(試辦單位)",
     "lat": 24.990648,
     "lng": 121.313159,
-    "address": "330桃園市桃園區復興路158號"
+    "address": "330桃園市桃園區復興路158號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人桃園市全人生命教育協會",
     "lat": 24.990788,
     "lng": 121.310787,
-    "address": "330桃園市桃園區文化里7鄰中華路49號"
+    "address": "330桃園市桃園區文化里7鄰中華路49號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行桃園分行",
     "lat": 24.990847,
     "lng": 121.313058,
-    "address": "330桃園市桃園區中正路46號"
+    "address": "330桃園市桃園區中正路46號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "中壢客運桃園站(試辦單位)",
     "lat": 24.990901,
     "lng": 121.313524,
-    "address": "330桃園市桃園區復興路142號"
+    "address": "330桃園市桃園區復興路142號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園捷運紅線先導公車智慧站牌-統領百貨",
     "lat": 24.991159,
     "lng": 121.31195,
-    "address": "330桃園市桃園區中華路1-44號"
+    "address": "330桃園市桃園區中華路1-44號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行桃園分行",
     "lat": 24.991214,
     "lng": 121.308034,
-    "address": "330桃園市桃園區南華街79號"
+    "address": "330桃園市桃園區南華街79號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署桃竹苗分署桃園就業中心洽公櫃台",
     "lat": 24.991367,
     "lng": 121.308127,
-    "address": "330桃園市桃園區南華街92號"
+    "address": "330桃園市桃園區南華街92號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園捷運紅線先導公車智慧站牌-桃園市政府(往桃園)",
     "lat": 24.991701,
     "lng": 121.301604,
-    "address": "330桃園市桃園區中山路389號"
+    "address": "330桃園市桃園區中山路389號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行桃園分行",
     "lat": 24.991764,
     "lng": 121.312438,
-    "address": "330桃園市桃園區中正路75號"
+    "address": "330桃園市桃園區中正路75號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園捷運綠線先導公車智慧站牌-統領百貨公司",
     "lat": 24.991804,
     "lng": 121.311894,
-    "address": "330桃園市桃園區中華路8號"
+    "address": "330桃園市桃園區中華路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "土地銀行桃園分行2樓大廳",
     "lat": 24.99186,
     "lng": 121.312474,
-    "address": "330桃園市桃園區中正路75號2樓"
+    "address": "330桃園市桃園區中正路75號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司桃園直銷中心",
     "lat": 24.99197,
     "lng": 121.300015,
-    "address": "330桃園市桃園區中山路522號"
+    "address": "330桃園市桃園區中山路522號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司桃園服務所",
     "lat": 24.991983,
     "lng": 121.304544,
-    "address": "330桃園市桃園區中山路291號"
+    "address": "330桃園市桃園區中山路291號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園成功路郵局2樓",
     "lat": 24.991986,
     "lng": 121.311336,
-    "address": "330桃園市桃園區成功路一段51號2樓"
+    "address": "330桃園市桃園區成功路一段51號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園捷運紅線先導公車智慧站牌-桃園市政府(往中壢)",
     "lat": 24.992119,
     "lng": 121.301623,
-    "address": "330桃園市桃園區中山路468號"
+    "address": "330桃園市桃園區中山路468號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市加利利愛鄰全人關懷協會",
     "lat": 24.992223,
     "lng": 121.300605,
-    "address": "330桃園市桃園區光興里縣府路332號四樓"
+    "address": "330桃園市桃園區光興里縣府路332號四樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園府前郵局",
     "lat": 24.992272,
     "lng": 121.300512,
-    "address": "330桃園市桃園區縣府路326-330號"
+    "address": "330桃園市桃園區縣府路326-330號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園南門郵局",
     "lat": 24.992386,
     "lng": 121.304833,
-    "address": "330桃園市桃園區中山路362號"
+    "address": "330桃園市桃園區中山路362號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院勞動部勞工保險局桃園辦事處洽公櫃台",
     "lat": 24.992396,
     "lng": 121.301854,
-    "address": "330桃園市桃園區縣府路26號"
+    "address": "330桃園市桃園區縣府路26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府水務局啟聖大樓7樓",
     "lat": 24.992547,
     "lng": 121.311193,
-    "address": "330桃園市桃園區成功路一段32號7樓"
+    "address": "330桃園市桃園區成功路一段32號7樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府水務局啟聖大樓4樓",
     "lat": 24.992547,
     "lng": 121.311193,
-    "address": "330桃園市桃園區成功路一段32號4樓"
+    "address": "330桃園市桃園區成功路一段32號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園捷運紅線先導公車智慧站牌-成功路",
     "lat": 24.992555,
     "lng": 121.312709,
-    "address": "330桃園市桃園區成功路一段25號"
+    "address": "330桃園市桃園區成功路一段25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園火車站前商圈中正路84號前號誌桿",
     "lat": 24.992617,
     "lng": 121.31253,
-    "address": "330桃園市桃園區中正路84號"
+    "address": "330桃園市桃園區中正路84號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府水務局中華大樓6樓",
     "lat": 24.992737,
     "lng": 121.311422,
-    "address": "330桃園市桃園區成功路一段30號6樓"
+    "address": "330桃園市桃園區成功路一段30號6樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園區市政府廣場",
     "lat": 24.992903,
     "lng": 121.30106,
-    "address": "330桃園市桃園區縣府路1號"
+    "address": "330桃園市桃園區縣府路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園區市政府免費電動巴士停靠站",
     "lat": 24.992903,
     "lng": 121.30106,
-    "address": "330桃園市桃園區縣府路1號"
+    "address": "330桃園市桃園區縣府路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區縣府路1號B2樓電梯處",
     "lat": 24.992936,
     "lng": 121.301063,
-    "address": "333桃園市桃園區縣府路1號B2"
+    "address": "333桃園市桃園區縣府路1號B2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區縣府路1號B2樓大禮堂入口",
     "lat": 24.992936,
     "lng": 121.301063,
-    "address": "333桃園市桃園區縣府路1號B2"
+    "address": "333桃園市桃園區縣府路1號B2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園郵局郵務科",
     "lat": 24.992945,
     "lng": 121.312088,
-    "address": "330桃園市桃園區中正路103號4樓"
+    "address": "330桃園市桃園區中正路103號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府衛生局",
     "lat": 24.993092,
     "lng": 121.300032,
-    "address": "330桃園市桃園區光興里縣府路55號"
+    "address": "330桃園市桃園區光興里縣府路55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀桃園分行",
     "lat": 24.99314,
     "lng": 121.313779,
-    "address": "330桃園市桃園區成功路二段2號"
+    "address": "330桃園市桃園區成功路二段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府1樓前棟右側民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號1樓"
+    "address": "330桃園市桃園區縣府路1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府1樓前棟左側民眾洽公區1",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號1樓"
+    "address": "330桃園市桃園區縣府路1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府1樓前棟左側民眾洽公區2",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號1樓"
+    "address": "330桃園市桃園區縣府路1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府1樓後棟左側民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號1樓"
+    "address": "330桃園市桃園區縣府路1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府1樓後棟右側民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號1樓"
+    "address": "330桃園市桃園區縣府路1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府2樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號2樓"
+    "address": "330桃園市桃園區縣府路1號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府2樓後棟右側民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號2樓"
+    "address": "330桃園市桃園區縣府路1號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府3樓前棟左側民眾洽公區1",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號3樓"
+    "address": "330桃園市桃園區縣府路1號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府3樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號3樓"
+    "address": "330桃園市桃園區縣府路1號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府4樓前棟左側民眾洽公區1",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號4樓"
+    "address": "330桃園市桃園區縣府路1號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府4樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號4樓"
+    "address": "330桃園市桃園區縣府路1號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府5樓前棟左側民眾洽公區1",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號5樓"
+    "address": "330桃園市桃園區縣府路1號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府5樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號5樓"
+    "address": "330桃園市桃園區縣府路1號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府6樓前棟左側民眾洽公區1",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號6樓"
+    "address": "330桃園市桃園區縣府路1號6樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府6樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號6樓"
+    "address": "330桃園市桃園區縣府路1號6樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府7樓前棟左側民眾洽公區1",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號7樓"
+    "address": "330桃園市桃園區縣府路1號7樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府7樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號7樓"
+    "address": "330桃園市桃園區縣府路1號7樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府8樓前棟右側民眾洽公區1",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號8樓"
+    "address": "330桃園市桃園區縣府路1號8樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府8樓前棟左側民眾洽公區1",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號8樓"
+    "address": "330桃園市桃園區縣府路1號8樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府8樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號8樓"
+    "address": "330桃園市桃園區縣府路1號8樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府9樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號9樓"
+    "address": "330桃園市桃園區縣府路1號9樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府13樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號13樓"
+    "address": "330桃園市桃園區縣府路1號13樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府13樓後棟左側民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號13樓"
+    "address": "330桃園市桃園區縣府路1號13樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府14樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號14樓"
+    "address": "330桃園市桃園區縣府路1號14樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府15樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號15樓"
+    "address": "330桃園市桃園區縣府路1號15樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府17樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號1樓"
+    "address": "330桃園市桃園區縣府路1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府17樓後棟民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號1樓"
+    "address": "330桃園市桃園區縣府路1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府B2樓走廊民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號B2樓"
+    "address": "330桃園市桃園區縣府路1號B2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府B2樓民眾洽公區",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號B2樓"
+    "address": "330桃園市桃園區縣府路1號B2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府B1樓前棟餐廳",
     "lat": 24.99322,
     "lng": 121.30102,
-    "address": "330桃園市桃園區縣府路1號1樓"
+    "address": "330桃園市桃園區縣府路1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府11樓後棟民眾洽公區",
     "lat": 24.993235,
     "lng": 121.300957,
-    "address": "330桃園市桃園區縣府路1號"
+    "address": "330桃園市桃園區縣府路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府16樓後棟民眾洽公區",
     "lat": 24.993235,
     "lng": 121.300957,
-    "address": "330桃園市桃園區縣府路1號"
+    "address": "330桃園市桃園區縣府路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園郵局郵務管理股",
     "lat": 24.993265,
     "lng": 121.31202,
-    "address": "330桃園市桃園區中正路103號"
+    "address": "330桃園市桃園區中正路103號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀桃園分行",
     "lat": 24.993297,
     "lng": 121.305663,
-    "address": "330桃園市桃園區三民路三段178號"
+    "address": "330桃園市桃園區三民路三段178號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府警察局",
     "lat": 24.993346,
     "lng": 121.301897,
-    "address": "330桃園市桃園區縣府路3號"
+    "address": "330桃園市桃園區縣府路3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園火車站前商圈中正路127號左前測速桿",
     "lat": 24.993367,
     "lng": 121.311669,
-    "address": "330桃園市桃園區中正路127號"
+    "address": "330桃園市桃園區中正路127號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園勞工育樂中心",
     "lat": 24.993575,
     "lng": 121.300186,
-    "address": "330桃園市桃園區縣府路59號"
+    "address": "330桃園市桃園區縣府路59號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園文昌公園文昌廟前燈桿左前方",
     "lat": 24.993658,
     "lng": 121.310085,
-    "address": "330桃園市桃園區民權路75號"
+    "address": "330桃園市桃園區民權路75號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園文昌公園文昌廟前燈桿右前方",
     "lat": 24.993658,
     "lng": 121.310085,
-    "address": "330桃園市桃園區民權路75號"
+    "address": "330桃園市桃園區民權路75號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府1樓前棟",
     "lat": 24.993799,
     "lng": 121.301036,
-    "address": "330桃園市桃園區縣府路1號"
+    "address": "330桃園市桃園區縣府路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府1樓後棟",
     "lat": 24.993799,
     "lng": 121.301036,
-    "address": "330桃園市桃園區縣府路1號"
+    "address": "330桃園市桃園區縣府路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市綜合會議廳1F",
     "lat": 24.993943,
     "lng": 121.300963,
-    "address": "330桃園市桃園區縣府路11號"
+    "address": "330桃園市桃園區縣府路11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府文化局",
     "lat": 24.994224,
     "lng": 121.300521,
-    "address": "330桃園市桃園區縣府路21號"
+    "address": "330桃園市桃園區縣府路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署桃園市服務站",
     "lat": 24.994321,
     "lng": 121.302779,
-    "address": "330桃園市桃園區縣府路106號1樓"
+    "address": "330桃園市桃園區縣府路106號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園火車站前商圈中正路174號前號誌桿",
     "lat": 24.994546,
     "lng": 121.311246,
-    "address": "330桃園市桃園區中正路174號"
+    "address": "330桃園市桃園區中正路174號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府環境清潔稽查大隊辦公室",
     "lat": 24.994592,
     "lng": 121.302538,
-    "address": "330桃園市桃園區縣府路110號10、11樓"
+    "address": "330桃園市桃園區縣府路110號10、11樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市桃園區公所",
     "lat": 24.994693,
     "lng": 121.301808,
-    "address": "330桃園市桃園區縣府路7號"
+    "address": "330桃園市桃園區縣府路7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園民生路郵局",
     "lat": 24.995151,
     "lng": 121.312797,
-    "address": "330桃園市桃園區民生路246-1號"
+    "address": "330桃園市桃園區民生路246-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府地方稅務局桃園總局二樓",
     "lat": 24.995276,
     "lng": 121.319722,
-    "address": "330桃園市桃園區成功路二段179號"
+    "address": "330桃園市桃園區成功路二段179號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府地方稅務局桃園總局土地增值稅股",
     "lat": 24.995374,
     "lng": 121.319983,
-    "address": "330桃園市桃園區成功路二段179號"
+    "address": "330桃園市桃園區成功路二段179號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府地方稅務局桃園總局",
     "lat": 24.995588,
     "lng": 121.319791,
-    "address": "330桃園市桃園區成功路二段179號"
+    "address": "330桃園市桃園區成功路二段179號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園東溪綠園和平路1號旁路燈",
     "lat": 24.997449,
     "lng": 121.312738,
-    "address": "330桃園市桃園區和平路1號"
+    "address": "330桃園市桃園區和平路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人天主教德來會（認知休憩站）",
     "lat": 24.999122,
     "lng": 121.309457,
-    "address": "330桃園市桃園區中和里永樂街147號"
+    "address": "330桃園市桃園區中和里永樂街147號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

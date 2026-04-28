@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "金山郵局",
     "lat": 25.219031,
     "lng": 121.639839,

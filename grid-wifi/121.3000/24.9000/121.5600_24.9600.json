@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "樟山寺-W-指南路三段",
     "lat": 24.97119,
     "lng": 121.579923,
-    "address": "116臺北市文山區指南路三段與老泉街45巷口旁候車亭"
+    "address": "116臺北市文山區指南路三段與老泉街45巷口旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

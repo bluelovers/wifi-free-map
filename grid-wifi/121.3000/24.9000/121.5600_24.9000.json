@@ -1,98 +1,134 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "翡翠水庫水資源生態教育館1F演講廳後方",
     "lat": 24.904239,
     "lng": 121.563688,
-    "address": "231新北市新店區新烏路三段43號"
+    "address": "231新北市新店區新烏路三段43號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "翡翠水庫水資源生態教育館1F辦公室門口",
     "lat": 24.90447,
     "lng": 121.563451,
-    "address": "231新北市新店區新烏路三段43號"
+    "address": "231新北市新店區新烏路三段43號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "翡翠水庫水資源生態教育館1F右側門口",
     "lat": 24.90447,
     "lng": 121.563451,
-    "address": "231新北市新店區新烏路三段43號"
+    "address": "231新北市新店區新烏路三段43號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "翡翠水庫水資源生態教育館2F第一會議室門口",
     "lat": 24.90447,
     "lng": 121.563451,
-    "address": "231新北市新店區新烏路三段43號"
+    "address": "231新北市新店區新烏路三段43號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "翡翠水庫第一行政大樓3F中央走道東側",
     "lat": 24.90454,
     "lng": 121.562335,
-    "address": "231新北市新店區新烏路三段43號"
+    "address": "231新北市新店區新烏路三段43號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "翡翠水庫第一行政大樓1F左側秘書室門口",
     "lat": 24.904556,
     "lng": 121.562311,
-    "address": "231新北市新店區新烏路三段43號"
+    "address": "231新北市新店區新烏路三段43號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "翡翠水庫第一行政大樓2F第三會議室門口",
     "lat": 24.904667,
     "lng": 121.562493,
-    "address": "231新北市新店區新烏路三段43號"
+    "address": "231新北市新店區新烏路三段43號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "翡翠水庫第一行政大樓3F中央走道西側",
     "lat": 24.904667,
     "lng": 121.562493,
-    "address": "231新北市新店區新烏路三段43號"
+    "address": "231新北市新店區新烏路三段43號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "翡翠水庫第一行政大樓1F右側秘書室中央",
     "lat": 24.90467,
     "lng": 121.562107,
-    "address": "231新北市新店區新烏路三段43號"
+    "address": "231新北市新店區新烏路三段43號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "翡翠水庫第二行政大樓1F第二會議室門口",
     "lat": 24.904674,
     "lng": 121.5637,
-    "address": "231新北市新店區新烏路三段43號"
+    "address": "231新北市新店區新烏路三段43號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "翡翠水庫第二行政大樓2F水庫操作科內後門",
     "lat": 24.904854,
     "lng": 121.563524,
-    "address": "231新北市新店區新烏路三段43號"
+    "address": "231新北市新店區新烏路三段43號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "觀光名勝",
     "name": "翡翠水庫-水壩觀測亭",
     "lat": 24.910934,
     "lng": 121.578085,
-    "address": "231新北市新店區新烏路三段43號(水壩觀測站亭外牆)"
+    "address": "231新北市新店區新烏路三段43號(水壩觀測站亭外牆)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "民雄(兼頭橋)工業區服務中心",
     "lat": 23.520251,
     "lng": 120.458112,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "民雄雙福郵局",
     "lat": 23.523487,
     "lng": 120.447439,

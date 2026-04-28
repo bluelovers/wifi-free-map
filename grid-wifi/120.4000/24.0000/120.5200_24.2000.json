@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺中市立圖書館龍井龍津分館",
     "lat": 24.200873,
     "lng": 120.523108,
-    "address": "434臺中市龍井區龍津里中央路一段167號3樓"
+    "address": "434臺中市龍井區龍津里中央路一段167號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "龍井區龍津中央路商圈(中央路一段246號)(公話)",
     "lat": 24.202647,
     "lng": 120.523493,
-    "address": "434臺中市龍井區中央路一段246號"
+    "address": "434臺中市龍井區中央路一段246號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店龍井龍津店(公話)",
     "lat": 24.203885,
     "lng": 120.523208,
-    "address": "434臺中市龍井區中央路二段33號(公話)"
+    "address": "434臺中市龍井區中央路二段33號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "喜美超市龍井中央路龍井店(公話)",
     "lat": 24.20594,
     "lng": 120.523533,
-    "address": "434臺中市龍井區中央路二段116號(公話)"
+    "address": "434臺中市龍井區中央路二段116號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市環保慈善會",
     "lat": 24.213638,
     "lng": 120.52495,
-    "address": "434臺中市龍井區忠和里中央路三段123巷3號"
+    "address": "434臺中市龍井區忠和里中央路三段123巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商龍井西濱路廣洽店(公話)",
     "lat": 24.219713,
     "lng": 120.522847,
-    "address": "434臺中市龍井區西濱路三段247號"
+    "address": "434臺中市龍井區西濱路三段247號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

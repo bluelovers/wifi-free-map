@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(中科分行)",
     "lat": 24.208529,
     "lng": 120.618842,
-    "address": "428臺中市大雅區中科路6-3號"
+    "address": "428臺中市大雅區中科路6-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中部科學工業園區管理局",
     "lat": 24.2088,
     "lng": 120.618935,
-    "address": "407臺中市西屯區中科路2號"
+    "address": "407臺中市西屯區中科路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

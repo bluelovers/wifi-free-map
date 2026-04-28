@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鹽埔鹽中郵局",
     "lat": 22.756474,
     "lng": 120.575658,

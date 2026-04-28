@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣愛樂服全人關懷服務協會-達仁鄉-森永",
     "lat": 22.279901,
     "lng": 120.864494,
-    "address": "966臺東縣達仁鄉森永村3鄰森永31號"
+    "address": "966臺東縣達仁鄉森永村3鄰森永31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

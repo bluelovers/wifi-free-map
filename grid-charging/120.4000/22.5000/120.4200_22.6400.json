@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大樹九曲堂郵局",
     "lat": 22.65575,
     "lng": 120.420145,

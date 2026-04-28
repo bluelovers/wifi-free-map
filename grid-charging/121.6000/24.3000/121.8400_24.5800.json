@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘇澳蘇西里郵局",
     "lat": 24.59562,
     "lng": 121.844019,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘇澳鎮戶政事務所",
     "lat": 24.59588,
     "lng": 121.844527,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司宜蘭縣蘇澳鎮蘇澳站",
     "lat": 24.595993,
     "lng": 121.847033,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘇澳郵局",
     "lat": 24.596035,
     "lng": 121.853039,

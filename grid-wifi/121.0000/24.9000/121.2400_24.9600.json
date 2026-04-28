@@ -1,210 +1,288 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行內壢分行",
     "lat": 24.962093,
     "lng": 121.254867,
-    "address": "320桃園市中壢區環中東路260號"
+    "address": "320桃園市中壢區環中東路260號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中壢自立郵局",
     "lat": 24.963636,
     "lng": 121.253709,
-    "address": "320桃園市中壢區莊敬路856號1樓"
+    "address": "320桃園市中壢區莊敬路856號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "中原文創園區",
     "lat": 24.963722,
     "lng": 121.241495,
-    "address": "320桃園市中壢區忠信路160號"
+    "address": "320桃園市中壢區忠信路160號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行內壢分行",
     "lat": 24.966316,
     "lng": 121.259979,
-    "address": "320桃園市中壢區環中東路33號1~2樓"
+    "address": "320桃園市中壢區環中東路33號1~2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中壢忠義郵局",
     "lat": 24.96666,
     "lng": 121.244335,
-    "address": "320桃園市中壢區中華路一段905、907號"
+    "address": "320桃園市中壢區中華路一段905、907號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國防部內壢福利站服務台",
     "lat": 24.967181,
     "lng": 121.252572,
-    "address": "320桃園市中壢區永福路1138號"
+    "address": "320桃園市中壢區永福路1138號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市中壢區戶政事所自強工作站",
     "lat": 24.967748,
     "lng": 121.259015,
-    "address": "320桃園市中壢區強國路46號2樓"
+    "address": "320桃園市中壢區強國路46號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府交通事件裁決處",
     "lat": 24.967929,
     "lng": 121.258628,
-    "address": "320桃園市中壢區自強里20鄰強國路68號7樓"
+    "address": "320桃園市中壢區自強里20鄰強國路68號7樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人桃園市幸福家庭培力協會",
     "lat": 24.968,
     "lng": 121.257,
-    "address": "320桃園市中壢區忠福里福安二街50號一樓"
+    "address": "320桃園市中壢區忠福里福安二街50號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "活力診所",
     "lat": 24.968025,
     "lng": 121.25741,
-    "address": "320桃園市中壢區莊敬里莊敬路160號2樓"
+    "address": "320桃園市中壢區莊敬里莊敬路160號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園捷運紅線先導公車智慧站牌-自立新村",
     "lat": 24.969614,
     "lng": 121.250265,
-    "address": "320桃園市中壢區中華路一段632號"
+    "address": "320桃園市中壢區中華路一段632號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局內壢站車站候車室",
     "lat": 24.972689,
     "lng": 121.257954,
-    "address": "320桃園市中壢區中華路一段267號"
+    "address": "320桃園市中壢區中華路一段267號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局內壢站候車大廳",
     "lat": 24.972774,
     "lng": 121.258274,
-    "address": "320桃園市中壢區中原里中華路一段267號"
+    "address": "320桃園市中壢區中原里中華路一段267號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市銀髮族協會-中壢",
     "lat": 24.973631,
     "lng": 121.255692,
-    "address": "320桃園市中壢區中原里信義路47號"
+    "address": "320桃園市中壢區中原里信義路47號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢復興公園復華街195號前燈桿左前方",
     "lat": 24.973648,
     "lng": 121.247922,
-    "address": "320桃園市中壢區復華街195號"
+    "address": "320桃園市中壢區復華街195號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢復興公園復華街195號前燈桿右前方",
     "lat": 24.973648,
     "lng": 121.247922,
-    "address": "320桃園市中壢區復華街195號"
+    "address": "320桃園市中壢區復華街195號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢元生公園文化路134號號誌桿右前方",
     "lat": 24.974253,
     "lng": 121.253628,
-    "address": "320桃園市中壢區文化路134號"
+    "address": "320桃園市中壢區文化路134號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中壢內壢郵局",
     "lat": 24.974435,
     "lng": 121.255718,
-    "address": "320桃園市中壢區忠勤街25號"
+    "address": "320桃園市中壢區忠勤街25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(內壢分行)",
     "lat": 24.974554,
     "lng": 121.257304,
-    "address": "320桃園市中壢區信義路117號"
+    "address": "320桃園市中壢區信義路117號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢長樂公園長樂街83巷8號前燈桿右前方",
     "lat": 24.975727,
     "lng": 121.250552,
-    "address": "320桃園市中壢區長樂街83巷8號"
+    "address": "320桃園市中壢區長樂街83巷8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢忠孝公園原住民會館後電信桿左前方",
     "lat": 24.975819,
     "lng": 121.252686,
-    "address": "320桃園市中壢區元生二街"
+    "address": "320桃園市中壢區元生二街",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢忠孝公園原住民會館後電信桿右前方",
     "lat": 24.975819,
     "lng": 121.252686,
-    "address": "320桃園市中壢區元生二街"
+    "address": "320桃園市中壢區元生二街",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華光明之家共生家園協會(興華據點)",
     "lat": 24.977162,
     "lng": 121.249909,
-    "address": "320桃園市中壢區復興里10鄰長樂街65號"
+    "address": "320桃園市中壢區復興里10鄰長樂街65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢甲蟲兒童公園文成南街13巷5號電信桿左前方",
     "lat": 24.978692,
     "lng": 121.252874,
-    "address": "320桃園市中壢區文成南街13巷5號"
+    "address": "320桃園市中壢區文成南街13巷5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢甲蟲兒童公園文成南街13巷5號電信桿右前方",
     "lat": 24.978692,
     "lng": 121.252874,
-    "address": "320桃園市中壢區文成南街13巷5號"
+    "address": "320桃園市中壢區文成南街13巷5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局內壢分隊",
     "lat": 24.979387,
     "lng": 121.245503,
-    "address": "320桃園市中壢區吉林路62號"
+    "address": "320桃園市中壢區吉林路62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

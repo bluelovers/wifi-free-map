@@ -1,122 +1,167 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣基督徒見證協會",
     "lat": 25.168781,
     "lng": 121.448216,
-    "address": "251新北市淡水區鄧公里學府路36號一樓"
+    "address": "251新北市淡水區鄧公里學府路36號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "淡水中興郵局",
     "lat": 25.1688,
     "lng": 121.447677,
-    "address": "251新北市淡水區學府路29、31、33號"
+    "address": "251新北市淡水區學府路29、31、33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市五股區陸一里辦公處",
     "lat": 25.169,
     "lng": 121.445,
-    "address": "248新北市五股區陸一里12鄰六合街53號一樓"
+    "address": "248新北市五股區陸一里12鄰六合街53號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市淡水區農會",
     "lat": 25.16952,
     "lng": 121.44355,
-    "address": "251新北市淡水區長庚里中正路42之1號六樓"
+    "address": "251新北市淡水區長庚里中正路42之1號六樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市淡水區幸福里辦公處",
     "lat": 25.1696,
     "lng": 121.447149,
-    "address": "251新北市淡水區幸福里7鄰學府路51巷3弄11號"
+    "address": "251新北市淡水區幸福里7鄰學府路51巷3弄11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行淡水分行",
     "lat": 25.169601,
     "lng": 121.444545,
-    "address": "251新北市淡水區中正路28號"
+    "address": "251新北市淡水區中正路28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司淡水營運所",
     "lat": 25.170571,
     "lng": 121.446605,
-    "address": "251新北市淡水區仁愛街17號"
+    "address": "251新北市淡水區仁愛街17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市淡水區鄧公社區發展協會",
     "lat": 25.171402,
     "lng": 121.451043,
-    "address": "251新北市淡水區鄧公里鄧公路32巷7號一樓"
+    "address": "251新北市淡水區鄧公里鄧公路32巷7號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人新北市博德書院文教公益推廣協會(學府站)",
     "lat": 25.171973,
     "lng": 121.447407,
-    "address": "251新北市淡水區學府里2鄰水源街一段143巷2號一樓"
+    "address": "251新北市淡水區學府里2鄰水源街一段143巷2號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "淡江大學郵局",
     "lat": 25.173615,
     "lng": 121.448507,
-    "address": "251新北市淡水區英專路151號"
+    "address": "251新北市淡水區英專路151號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行淡水分行",
     "lat": 25.175425,
     "lng": 121.441744,
-    "address": "251新北市淡水區中山北路一段42號"
+    "address": "251新北市淡水區中山北路一段42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "淡水水碓郵局",
     "lat": 25.176148,
     "lng": 121.443325,
-    "address": "251新北市淡水區大忠街9、11號"
+    "address": "251新北市淡水區大忠街9、11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華仁親社區關懷協會",
     "lat": 25.177682,
     "lng": 121.44434,
-    "address": "251新北市淡水區水碓里北新路2之1號二樓"
+    "address": "251新北市淡水區水碓里北新路2之1號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市淡水區正德里辦公處",
     "lat": 25.179421,
     "lng": 121.448416,
-    "address": "251新北市淡水區正德里北新路141巷27號"
+    "address": "251新北市淡水區正德里北新路141巷27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市淡水區正德里辦公處(分站)",
     "lat": 25.179554,
     "lng": 121.450016,
-    "address": "251新北市淡水區正德里北新路169巷3號"
+    "address": "251新北市淡水區正德里北新路169巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

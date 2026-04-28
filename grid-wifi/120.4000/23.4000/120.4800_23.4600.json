@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義大學郵局",
     "lat": 23.463187,
     "lng": 120.483563,
-    "address": "600嘉義市東區鹿寮里學府路300號"
+    "address": "600嘉義市東區鹿寮里學府路300號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人私立天主教中華聖母社會福利慈善事業基金會-崇仁護校",
     "lat": 23.478,
     "lng": 120.483,
-    "address": "600嘉義市東區盧厝里紅毛埤217號"
+    "address": "600嘉義市東區盧厝里紅毛埤217號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

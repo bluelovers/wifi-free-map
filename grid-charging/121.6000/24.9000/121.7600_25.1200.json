@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆東信路郵局",
     "lat": 25.127885,
     "lng": 121.76369,

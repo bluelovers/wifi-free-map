@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局北區工程處中壢服務區服務台",
     "lat": 25.003657,
     "lng": 121.251665,

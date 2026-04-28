@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(梓本分行)",
     "lat": 22.732501,
     "lng": 120.254716,
-    "address": "826高雄市梓官區中正路306號"
+    "address": "826高雄市梓官區中正路306號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市赤慈長青會",
     "lat": 22.734064,
     "lng": 120.254994,
-    "address": "826高雄市梓官區禮蚵里光明路62巷18號"
+    "address": "826高雄市梓官區禮蚵里光明路62巷18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市梓官區赤西社區發展協會",
     "lat": 22.73414,
     "lng": 120.24784,
-    "address": "826高雄市梓官區赤西里赤崁南路130巷26號"
+    "address": "826高雄市梓官區赤西里赤崁南路130巷26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華悠樂關懷協會",
     "lat": 22.734504,
     "lng": 120.254895,
-    "address": "826高雄市梓官區茄苳里嘉好路88號"
+    "address": "826高雄市梓官區茄苳里嘉好路88號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "梓官蚵子寮郵局",
     "lat": 22.737658,
     "lng": 120.247564,
-    "address": "826高雄市梓官區赤東村赤崁南路14號"
+    "address": "826高雄市梓官區赤東村赤崁南路14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館梓官赤東分館",
     "lat": 22.739177,
     "lng": 120.249011,
-    "address": "826高雄市梓官區赤崁東路48-5號2樓"
+    "address": "826高雄市梓官區赤崁東路48-5號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市梓官區赤崁社區發展協會",
     "lat": 22.739454,
     "lng": 120.248961,
-    "address": "826高雄市梓官區赤崁里赤崁東路57號"
+    "address": "826高雄市梓官區赤崁里赤崁東路57號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

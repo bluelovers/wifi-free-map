@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣竹田鄉南勢社區發展協會",
     "lat": 22.602918,
     "lng": 120.535959,
-    "address": "911屏東縣竹田鄉南勢村南興路9號"
+    "address": "911屏東縣竹田鄉南勢村南興路9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣竹田鄉六巷社區發展協會",
     "lat": 22.606534,
     "lng": 120.520355,
-    "address": "911屏東縣竹田鄉六巷村太平路47號"
+    "address": "911屏東縣竹田鄉六巷村太平路47號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "竹田老人文康中心",
     "lat": 22.61484,
     "lng": 120.5235,
-    "address": "911屏東縣竹田鄉龍南路26-1號"
+    "address": "911屏東縣竹田鄉龍南路26-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣竹田鄉福田社區發展協會",
     "lat": 22.614875,
     "lng": 120.536093,
-    "address": "911屏東縣竹田鄉福田村瑞竹路1之5號"
+    "address": "911屏東縣竹田鄉福田村瑞竹路1之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局西勢站候車室內",
     "lat": 22.616412,
     "lng": 120.526667,
-    "address": "911屏東縣竹田鄉西勢村西豐路2號"
+    "address": "911屏東縣竹田鄉西勢村西豐路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "屏東縣客家文物館地下一樓",
     "lat": 22.617377,
     "lng": 120.523504,
-    "address": "911屏東縣竹田鄉西勢村龍門路97號"
+    "address": "911屏東縣竹田鄉西勢村龍門路97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "屏東縣客家文物館一樓",
     "lat": 22.617377,
     "lng": 120.523504,
-    "address": "911屏東縣竹田鄉西勢村龍門路97號"
+    "address": "911屏東縣竹田鄉西勢村龍門路97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "屏東縣客家文物館二樓",
     "lat": 22.617377,
     "lng": 120.523504,
-    "address": "911屏東縣竹田鄉西勢村龍門路97號"
+    "address": "911屏東縣竹田鄉西勢村龍門路97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣竹田鄉社區關懷服務協會",
     "lat": 22.617404,
     "lng": 120.523712,
-    "address": "911屏東縣竹田鄉西勢村龍門路44號"
+    "address": "911屏東縣竹田鄉西勢村龍門路44號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

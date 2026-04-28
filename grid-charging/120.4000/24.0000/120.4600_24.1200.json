@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "線西郵局",
     "lat": 24.130384,
     "lng": 120.4707,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣線西鄉戶政事務所",
     "lat": 24.131186,
     "lng": 120.470409,

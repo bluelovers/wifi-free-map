@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "元長郵局",
     "lat": 23.649487,
     "lng": 120.313917,

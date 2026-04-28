@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市那瑪夏區達卡努瓦部落(二村)",
     "lat": 23.27907,
     "lng": 120.71981,
-    "address": "849高雄市那瑪夏區大光巷123號"
+    "address": "849高雄市那瑪夏區大光巷123號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

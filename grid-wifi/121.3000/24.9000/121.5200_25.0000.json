@@ -1,610 +1,838 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "萬隆-S-羅斯福路六段",
     "lat": 25.000022,
     "lng": 121.539543,
-    "address": "116臺北市文山區羅斯福路六段22號前候車亭"
+    "address": "116臺北市文山區羅斯福路六段22號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市文山區萬龍社區發展協會",
     "lat": 25.000253,
     "lng": 121.538033,
-    "address": "116臺北市文山區萬隆里萬隆街25號一樓"
+    "address": "116臺北市文山區萬隆里萬隆街25號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "古亭地政2F地政講堂門口",
     "lat": 25.000278,
     "lng": 121.535973,
-    "address": "116臺北市文山區萬隆街47之12號2F"
+    "address": "116臺北市文山區萬隆街47之12號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "古亭地政4F人事機構門口",
     "lat": 25.000323,
     "lng": 121.535932,
-    "address": "116臺北市文山區萬隆街47之12號4F"
+    "address": "116臺北市文山區萬隆街47之12號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "古亭地政3F測量課洽公櫃臺前",
     "lat": 25.000325,
     "lng": 121.535941,
-    "address": "116臺北市文山區萬隆街47之12號3F"
+    "address": "116臺北市文山區萬隆街47之12號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "文山萬福區民活動中心B1F舞臺前",
     "lat": 25.000627,
     "lng": 121.536019,
-    "address": "116臺北市文山區萬隆街47之12號B1F"
+    "address": "116臺北市文山區萬隆街47之12號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "古亭地政3F謄本櫃臺13號前方",
     "lat": 25.000816,
     "lng": 121.536069,
-    "address": "116臺北市文山區萬隆街47之12號3F"
+    "address": "116臺北市文山區萬隆街47之12號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "古亭地政4F會議室門口",
     "lat": 25.000834,
     "lng": 121.536012,
-    "address": "116臺北市文山區萬隆街47之12號4F"
+    "address": "116臺北市文山區萬隆街47之12號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀文山分行",
     "lat": 25.001388,
     "lng": 121.539459,
-    "address": "116臺北市文山區羅斯福路五段251號"
+    "address": "116臺北市文山區羅斯福路五段251號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市永和區得和社區發展協會",
     "lat": 25.001963,
     "lng": 121.520261,
-    "address": "234新北市永和區永元里秀朗路二段24巷35號"
+    "address": "234新北市永和區永元里秀朗路二段24巷35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市文山區萬和社區發展協會",
     "lat": 25.002,
     "lng": 121.5359,
-    "address": "116臺北市文山區萬和里汀州路四段251號一樓"
+    "address": "116臺北市文山區萬和里汀州路四段251號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市文山區順興社區發展協會",
     "lat": 25.002,
     "lng": 121.536,
-    "address": "116臺北市文山區順興里興隆路四段165巷12號二樓"
+    "address": "116臺北市文山區順興里興隆路四段165巷12號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "永和秀朗郵局",
     "lat": 25.002728,
     "lng": 121.526062,
-    "address": "234新北市永和區永亨路178號"
+    "address": "234新北市永和區永亨路178號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國防部秀朗福利站服務台",
     "lat": 25.003085,
     "lng": 121.521995,
-    "address": "234新北市永和區永利路248號2樓"
+    "address": "234新北市永和區永利路248號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "核能安全委員會",
     "lat": 25.003182,
     "lng": 121.526695,
-    "address": "234新北市永和區成功路一段80號"
+    "address": "234新北市永和區成功路一段80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館景美分館3F一般書庫區",
     "lat": 25.003659,
     "lng": 121.536241,
-    "address": "116臺北市文山區羅斯福路五段176巷50號3F"
+    "address": "116臺北市文山區羅斯福路五段176巷50號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館景美分館4F自修室",
     "lat": 25.003754,
     "lng": 121.536436,
-    "address": "116臺北市文山區羅斯福路五段176巷50號4F"
+    "address": "116臺北市文山區羅斯福路五段176巷50號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館景美分館2F綜合服務臺",
     "lat": 25.003763,
     "lng": 121.536304,
-    "address": "116臺北市文山區羅斯福路五段176巷50號2F"
+    "address": "116臺北市文山區羅斯福路五段176巷50號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "文山武功郵局",
     "lat": 25.004192,
     "lng": 121.539013,
-    "address": "116臺北市文山區羅斯福路五段147號"
+    "address": "116臺北市文山區羅斯福路五段147號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市永和區秀朗社區發展協會",
     "lat": 25.004989,
     "lng": 121.526991,
-    "address": "234新北市永和區秀朗里5鄰成功路一段20號之1"
+    "address": "234新北市永和區秀朗里5鄰成功路一段20號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "師大分部-N-羅斯福路五段",
     "lat": 25.007568,
     "lng": 121.53849,
-    "address": "116臺北市文山區羅斯福路五段27號公車專用道(往北)候車亭"
+    "address": "116臺北市文山區羅斯福路五段27號公車專用道(往北)候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "永和福和郵局",
     "lat": 25.008078,
     "lng": 121.521614,
-    "address": "234新北市永和區福和路154、156號"
+    "address": "234新北市永和區福和路154、156號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行福和分行",
     "lat": 25.008097,
     "lng": 121.521479,
-    "address": "234新北市永和區福和路158號"
+    "address": "234新北市永和區福和路158號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "文山萬盛郵局",
     "lat": 25.008111,
     "lng": 121.536606,
-    "address": "116臺北市文山區汀州路四段88號"
+    "address": "116臺北市文山區汀州路四段88號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市永和區福林里辦公處",
     "lat": 25.008121,
     "lng": 121.521856,
-    "address": "234新北市永和區福林里22鄰福和路122號一樓"
+    "address": "234新北市永和區福林里22鄰福和路122號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市永和區河濱社區發展協會",
     "lat": 25.00821,
     "lng": 121.525283,
-    "address": "234新北市永和區河濱里福和路1之1號"
+    "address": "234新北市永和區河濱里福和路1之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "師大分部-S-羅斯福路五段",
     "lat": 25.008254,
     "lng": 121.538064,
-    "address": "116臺北市文山區羅斯福路五段70號公車專用道(往南)候車亭"
+    "address": "116臺北市文山區羅斯福路五段70號公車專用道(往南)候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人新北市基督教協同會永和佳音堂",
     "lat": 25.010315,
     "lng": 121.52018,
-    "address": "234新北市永和區永興里豫溪街137之6號七樓"
+    "address": "234新北市永和區永興里豫溪街137之6號七樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市寶藏巖文化村協會",
     "lat": 25.010567,
     "lng": 121.532416,
-    "address": "100臺北市中正區水源里汀州路三段230巷14弄10號"
+    "address": "100臺北市中正區水源里汀州路三段230巷14弄10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北汀洲郵局",
     "lat": 25.011816,
     "lng": 121.535887,
-    "address": "100臺北市中正區汀洲路三段301號"
+    "address": "100臺北市中正區汀洲路三段301號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "觀光名勝",
     "name": "自來水園區-噴水庭園-廁所入口",
     "lat": 25.011874,
     "lng": 121.530823,
-    "address": "100臺北市中正區思源街1號(自來水園區-噴水庭園-廁所入口)"
+    "address": "100臺北市中正區思源街1號(自來水園區-噴水庭園-廁所入口)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "公館-E-基隆路四段",
     "lat": 25.012118,
     "lng": 121.538567,
-    "address": "106臺北市大安區基隆路四段75號左側候車亭(台電北市區)"
+    "address": "106臺北市大安區基隆路四段75號左側候車亭(台電北市區)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司北市區處服務中心營業廳",
     "lat": 25.012438,
     "lng": 121.538905,
-    "address": "106臺北市大安區基隆路四段75號"
+    "address": "106臺北市大安區基隆路四段75號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "觀光名勝",
     "name": "自來水園區-行政大樓-頂樓(面向自來水博物館)",
     "lat": 25.013331,
     "lng": 121.530606,
-    "address": "100臺北市中正區思源街1號(自來水園區-行政大樓-頂樓(面向自來水博物館))"
+    "address": "100臺北市中正區思源街1號(自來水園區-行政大樓-頂樓(面向自來水博物館))",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "裁決所8F會議室門口",
     "lat": 25.013405,
     "lng": 121.534986,
-    "address": "100臺北市中正區羅斯福路四段92號8F"
+    "address": "100臺北市中正區羅斯福路四段92號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "裁決所7F服務臺第4個柱子",
     "lat": 25.013451,
     "lng": 121.535037,
-    "address": "100臺北市中正區羅斯福路四段92號7F"
+    "address": "100臺北市中正區羅斯福路四段92號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "觀光名勝",
     "name": "自來水園區-行政大樓-頂樓(面向水鄉庭園)",
     "lat": 25.013452,
     "lng": 121.530628,
-    "address": "100臺北市中正區思源街1號(自來水園區-行政大樓-頂樓(面向水鄉庭園))"
+    "address": "100臺北市中正區思源街1號(自來水園區-行政大樓-頂樓(面向水鄉庭園))",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "臺北市藝文推廣處水源劇場10F器材室門口",
     "lat": 25.013473,
     "lng": 121.535181,
-    "address": "100臺北市中正區羅斯福路四段92號10F"
+    "address": "100臺北市中正區羅斯福路四段92號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "水源市場1F023攤販與024攤販中央",
     "lat": 25.013481,
     "lng": 121.534982,
-    "address": "100臺北市中正區羅斯福路四段92號1F"
+    "address": "100臺北市中正區羅斯福路四段92號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "水源市場1F048攤販與076攤販中央",
     "lat": 25.013482,
     "lng": 121.535066,
-    "address": "100臺北市中正區羅斯福路四段92號1F"
+    "address": "100臺北市中正區羅斯福路四段92號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "水源市場1F029攤販前",
     "lat": 25.013563,
     "lng": 121.534927,
-    "address": "100臺北市中正區羅斯福路四段92號1F"
+    "address": "100臺北市中正區羅斯福路四段92號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "中正水源區民活動中心4F中央",
     "lat": 25.013582,
     "lng": 121.535028,
-    "address": "100臺北市中正區羅斯福路四段92號4F"
+    "address": "100臺北市中正區羅斯福路四段92號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "裁決所7F服務臺第2個柱子",
     "lat": 25.013587,
     "lng": 121.534909,
-    "address": "100臺北市中正區羅斯福路四段92號7F"
+    "address": "100臺北市中正區羅斯福路四段92號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "臺北市藝文推廣處水源劇場10F服務台",
     "lat": 25.013604,
     "lng": 121.5349,
-    "address": "100臺北市中正區羅斯福路四段92號10F"
+    "address": "100臺北市中正區羅斯福路四段92號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "水源市場1F059攤販與098攤販中央",
     "lat": 25.013609,
     "lng": 121.534869,
-    "address": "100臺北市中正區羅斯福路四段92號1F"
+    "address": "100臺北市中正區羅斯福路四段92號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "水源市場2F51攤販中央",
     "lat": 25.01361,
     "lng": 121.535075,
-    "address": "100臺北市中正區羅斯福路四段92號2F"
+    "address": "100臺北市中正區羅斯福路四段92號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "水源市場2F094攤販與095攤販中央",
     "lat": 25.013651,
     "lng": 121.534972,
-    "address": "100臺北市中正區羅斯福路四段92號2F"
+    "address": "100臺北市中正區羅斯福路四段92號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "水源市場2F098攤販前",
     "lat": 25.013675,
     "lng": 121.534941,
-    "address": "100臺北市中正區羅斯福路四段92號2F"
+    "address": "100臺北市中正區羅斯福路四段92號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "自來水博物館(太子學舍)-N-思源街",
     "lat": 25.014517,
     "lng": 121.531677,
-    "address": "100臺北市中正區思源街12號對面候車亭"
+    "address": "100臺北市中正區思源街12號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運公館站-N-羅斯福路四段",
     "lat": 25.015285,
     "lng": 121.534073,
-    "address": "106臺北市大安區羅斯福路四段50號對面候車亭"
+    "address": "106臺北市大安區羅斯福路四段50號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運公館站-W-捷運公館站三號出口",
     "lat": 25.015352,
     "lng": 121.534014,
-    "address": "106臺北市大安區羅斯福路四段50號對面候車亭"
+    "address": "106臺北市大安區羅斯福路四段50號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "嘉禾新村日式聚場",
     "lat": 25.015614,
     "lng": 121.527317,
-    "address": "100臺北市中正區永春街131巷1號1F"
+    "address": "100臺北市中正區永春街131巷1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "嘉禾新村戶外劇場",
     "lat": 25.015739,
     "lng": 121.527236,
-    "address": "100臺北市中正區永春街131巷1號1F"
+    "address": "100臺北市中正區永春街131巷1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "嘉禾新村嘉禾故事館1F民眾座位區",
     "lat": 25.015922,
     "lng": 121.527038,
-    "address": "100臺北市中正區永春街131巷1號1F"
+    "address": "100臺北市中正區永春街131巷1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "嘉禾新村嘉禾故事館1F服務台",
     "lat": 25.015983,
     "lng": 121.527049,
-    "address": "100臺北市中正區永春街131巷1號1F"
+    "address": "100臺北市中正區永春街131巷1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "嘉禾新村嘉禾故事館2F展覽空間",
     "lat": 25.016031,
     "lng": 121.527083,
-    "address": "100臺北市中正區永春街131巷1號2F"
+    "address": "100臺北市中正區永春街131巷1號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "三軍總醫院汀州院區1樓門診大廳",
     "lat": 25.016476,
     "lng": 121.529829,
-    "address": "100臺北市中正區汀州路三段40號"
+    "address": "100臺北市中正區汀州路三段40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處路燈工程隊南區分隊",
     "lat": 25.017214,
     "lng": 121.526694,
-    "address": "100臺北市中正區汀洲路三段8號1F"
+    "address": "100臺北市中正區汀洲路三段8號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司台電大樓主樓會客室",
     "lat": 25.017328,
     "lng": 121.530696,
-    "address": "100臺北市中正區羅斯福路三段242號"
+    "address": "100臺北市中正區羅斯福路三段242號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司台電大樓副樓會客室",
     "lat": 25.017328,
     "lng": 121.530696,
-    "address": "100臺北市中正區羅斯福路三段242號"
+    "address": "100臺北市中正區羅斯福路三段242號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處工務科西區分隊",
     "lat": 25.017462,
     "lng": 121.526725,
-    "address": "100臺北市中正區汀洲路三段8號1F"
+    "address": "100臺北市中正區汀洲路三段8號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "替代役中心1F運動中心內",
     "lat": 25.01748,
     "lng": 121.526749,
-    "address": "100臺北市中正區汀洲路三段8號1F"
+    "address": "100臺北市中正區汀洲路三段8號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人環宇國際文化教育基金會古亭據點",
     "lat": 25.0177,
     "lng": 121.529145,
-    "address": "100臺北市中正區文盛里羅斯福路三段240巷17弄3號"
+    "address": "100臺北市中正區文盛里羅斯福路三段240巷17弄3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行公館分行",
     "lat": 25.017721,
     "lng": 121.531625,
-    "address": "106臺北市大安區羅斯福路三段293號"
+    "address": "106臺北市大安區羅斯福路三段293號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺大-N-新生南路三段",
     "lat": 25.018023,
     "lng": 121.533734,
-    "address": "106臺北市大安區新生南路三段88之2號對面候車亭"
+    "address": "106臺北市大安區新生南路三段88之2號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "台電大樓-N1-羅斯福路三段",
     "lat": 25.018102,
     "lng": 121.531071,
-    "address": "106臺北市大安區羅斯福路三段279號候車亭"
+    "address": "106臺北市大安區羅斯福路三段279號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北公館郵局",
     "lat": 25.018221,
     "lng": 121.53117,
-    "address": "106臺北市大安區羅斯福路四段64-1號B1"
+    "address": "106臺北市大安區羅斯福路四段64-1號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺大-S1-新生南路三段",
     "lat": 25.018236,
     "lng": 121.533453,
-    "address": "106臺北市大安區新生南路三段88號旁候車亭"
+    "address": "106臺北市大安區新生南路三段88號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺大-S2-新生南路三段",
     "lat": 25.018236,
     "lng": 121.533453,
-    "address": "106臺北市大安區新生南路三段88號旁候車亭"
+    "address": "106臺北市大安區新生南路三段88號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "台電大樓-N2-羅斯福路三段",
     "lat": 25.018491,
     "lng": 121.530538,
-    "address": "106臺北市大安區羅斯福路三段271號前候車亭"
+    "address": "106臺北市大安區羅斯福路三段271號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行台大分行",
     "lat": 25.018703,
     "lng": 121.539709,
-    "address": "106臺北市大安區羅斯福路四段1號"
+    "address": "106臺北市大安區羅斯福路四段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人耕莘文教基金會",
     "lat": 25.018914,
     "lng": 121.52891,
-    "address": "100臺北市中正區文盛里辛亥路一段22號四樓"
+    "address": "100臺北市中正區文盛里辛亥路一段22號四樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "耕莘文教院-E-辛亥路一段",
     "lat": 25.018958,
     "lng": 121.528725,
-    "address": "100臺北市中正區辛亥路一段22號候車亭"
+    "address": "100臺北市中正區辛亥路一段22號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行公館分行",
     "lat": 25.019012,
     "lng": 121.529072,
-    "address": "100臺北市中正區羅斯福路三段216號"
+    "address": "100臺北市中正區羅斯福路三段216號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市中正區新林興社區發展協會",
     "lat": 25.019726,
     "lng": 121.527306,
-    "address": "100臺北市中正區林興里汀州路三段27巷16號"
+    "address": "100臺北市中正區林興里汀州路三段27巷16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區大學里辦公處",
     "lat": 25.019917,
     "lng": 121.532703,
-    "address": "106臺北市大安區大學里溫州街74巷2弄4號一樓"
+    "address": "106臺北市大安區大學里溫州街74巷2弄4號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

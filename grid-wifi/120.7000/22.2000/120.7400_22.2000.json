@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣獅子鄉上丹路部落",
     "lat": 22.202632,
     "lng": 120.751573,
-    "address": "943屏東縣獅子鄉丹路一巷1號"
+    "address": "943屏東縣獅子鄉丹路一巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣獅子鄉下丹路部落",
     "lat": 22.20326,
     "lng": 120.74794,
-    "address": "943屏東縣獅子鄉巴士巷35之2號"
+    "address": "943屏東縣獅子鄉巴士巷35之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中埔郵局",
     "lat": 23.424707,
     "lng": 120.523122,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義縣警察局中埔分局",
     "lat": 23.424845,
     "lng": 120.523779,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義縣中埔鄉戶政事務所",
     "lat": 23.425941,
     "lng": 120.522809,

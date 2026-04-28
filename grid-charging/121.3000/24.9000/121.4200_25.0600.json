@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "泰山郵局",
     "lat": 25.062482,
     "lng": 121.433622,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司泰山營運所",
     "lat": 25.063696,
     "lng": 121.428743,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "國道公路警察局",
     "lat": 25.067602,
     "lng": 121.422336,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "五股德音郵局",
     "lat": 25.068405,
     "lng": 121.435137,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "五股登林路郵局",
     "lat": 25.069468,
     "lng": 121.4299,

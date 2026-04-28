@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大肚福山郵局",
     "lat": 24.117548,
     "lng": 120.579726,

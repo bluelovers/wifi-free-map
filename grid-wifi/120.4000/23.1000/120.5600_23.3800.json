@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣中埔鄉石硦村辦公處",
     "lat": 23.397,
     "lng": 120.574,
-    "address": "606嘉義縣中埔鄉石弄村6鄰籐寮仔45之2號"
+    "address": "606嘉義縣中埔鄉石弄村6鄰籐寮仔45之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

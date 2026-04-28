@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄中洲郵局",
     "lat": 22.576288,
     "lng": 120.295725,

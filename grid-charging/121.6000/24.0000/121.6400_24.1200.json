@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新城郵局",
     "lat": 24.126245,
     "lng": 121.652967,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局新城站候車室",
     "lat": 24.128394,
     "lng": 121.641828,

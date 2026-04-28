@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東部海岸國家風景區海洋環境教室",
     "lat": 23.4597,
     "lng": 121.49838,

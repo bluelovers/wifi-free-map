@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市大肚區成功社區發展協會",
     "lat": 24.172994,
     "lng": 120.530504,
-    "address": "432臺中市大肚區成功里文昌路三段301號"
+    "address": "432臺中市大肚區成功里文昌路三段301號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市龍井區龍東社區發展協會",
     "lat": 24.176451,
     "lng": 120.533225,
-    "address": "434臺中市龍井區龍東里1鄰茄投路5號"
+    "address": "434臺中市龍井區龍東里1鄰茄投路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店龍井茄投路茄投店(公話)",
     "lat": 24.17835,
     "lng": 120.530365,
-    "address": "434臺中市龍井區茄投路67號之1"
+    "address": "434臺中市龍井區茄投路67號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台中市龍龍社區關懷協會(龍西)",
     "lat": 24.179949,
     "lng": 120.524434,
-    "address": "434臺中市龍井區龍西里茄投路147號"
+    "address": "434臺中市龍井區龍西里茄投路147號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

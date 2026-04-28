@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "林園工業區服務中心",
     "lat": 22.49813,
     "lng": 120.410863,

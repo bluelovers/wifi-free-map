@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市大安區戶政事務所",
     "lat": 24.345971,
     "lng": 120.587296,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大安郵局",
     "lat": 24.346624,
     "lng": 120.586047,

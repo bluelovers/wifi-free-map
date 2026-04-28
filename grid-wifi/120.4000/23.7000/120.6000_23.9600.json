@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局員林分局東山派出所",
     "lat": 23.963686,
     "lng": 120.600657,
-    "address": "510彰化縣員林市鎮興里山腳路四段2號"
+    "address": "510彰化縣員林市鎮興里山腳路四段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

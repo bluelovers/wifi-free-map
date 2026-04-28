@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "旗山大洲郵局",
     "lat": 22.841923,
     "lng": 120.463628,

@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局三城派出所",
     "lat": 24.810172,
     "lng": 121.767024,
-    "address": "262宜蘭縣礁溪鄉礁溪路三段195號"
+    "address": "262宜蘭縣礁溪鄉礁溪路三段195號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣立礁溪國中行政大樓二樓牆面朝礁溪路四段",
     "lat": 24.816673,
     "lng": 121.76671,
-    "address": "262宜蘭縣礁溪鄉礁溪路四段23號"
+    "address": "262宜蘭縣礁溪鄉礁溪路四段23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "礁溪鄉圖書館-電腦桌下方",
     "lat": 24.817194,
     "lng": 121.768038,
-    "address": "262宜蘭縣礁溪鄉大忠村礁溪路四段23之10號"
+    "address": "262宜蘭縣礁溪鄉大忠村礁溪路四段23之10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "礁溪鄉圖書館-櫃檯後方",
     "lat": 24.817194,
     "lng": 121.768038,
-    "address": "262宜蘭縣礁溪鄉大忠村礁溪路四段23之10號"
+    "address": "262宜蘭縣礁溪鄉大忠村礁溪路四段23之10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

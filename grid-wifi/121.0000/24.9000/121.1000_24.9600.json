@@ -1,98 +1,134 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "桃園醫院新屋分院-1F門診大廳",
     "lat": 24.969548,
     "lng": 121.106707,
-    "address": "327桃園市新屋區新屋村14鄰新福二路6號"
+    "address": "327桃園市新屋區新屋村14鄰新福二路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "桃園醫院新屋分院-門診藥局等候區",
     "lat": 24.969548,
     "lng": 121.106707,
-    "address": "327桃園市新屋區新屋村14鄰新福二路6號"
+    "address": "327桃園市新屋區新屋村14鄰新福二路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市立圖書館新屋分館",
     "lat": 24.970585,
     "lng": 121.102891,
-    "address": "327桃園市新屋區中興路91巷11號"
+    "address": "327桃園市新屋區中興路91巷11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新屋郵局",
     "lat": 24.972488,
     "lng": 121.104466,
-    "address": "327桃園市新屋區中山路279號"
+    "address": "327桃園市新屋區中山路279號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新屋區公所",
     "lat": 24.972544,
     "lng": 121.105533,
-    "address": "327桃園市新屋區中山路265號"
+    "address": "327桃園市新屋區中山路265號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市新屋區戶政事務所",
     "lat": 24.972696,
     "lng": 121.106393,
-    "address": "327桃園市新屋區中山路241號3樓"
+    "address": "327桃園市新屋區中山路241號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新屋家庭服務中心",
     "lat": 24.972707,
     "lng": 121.104662,
-    "address": "327桃園市新屋區中山路277號1樓"
+    "address": "327桃園市新屋區中山路277號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府警察局楊梅分局新屋分駐所",
     "lat": 24.972725,
     "lng": 121.106434,
-    "address": "327桃園市新屋區中山路241號"
+    "address": "327桃園市新屋區中山路241號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園客運新屋站",
     "lat": 24.97273,
     "lng": 121.10306,
-    "address": "327桃園市新屋區中山路361號"
+    "address": "327桃園市新屋區中山路361號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市新屋區槺榔社區發展協會",
     "lat": 24.973,
     "lng": 121.104,
-    "address": "327桃園市新屋區康榔里保安路439號"
+    "address": "327桃園市新屋區康榔里保安路439號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市新屋區衛生所",
     "lat": 24.973007,
     "lng": 121.106586,
-    "address": "327桃園市新屋區新屋里中山路239號"
+    "address": "327桃園市新屋區新屋里中山路239號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局新屋分隊",
     "lat": 24.976916,
     "lng": 121.106479,
-    "address": "327桃園市新屋區中華路436號"
+    "address": "327桃園市新屋區中華路436號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

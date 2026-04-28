@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司林口訓練中心行政教學大樓大廳川堂",
     "lat": 25.0608,
     "lng": 121.37915,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龜山樂善郵局",
     "lat": 25.061049,
     "lng": 121.368027,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "林口郵局",
     "lat": 25.066285,
     "lng": 121.364563,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "林口國宅郵局",
     "lat": 25.07006,
     "lng": 121.376632,

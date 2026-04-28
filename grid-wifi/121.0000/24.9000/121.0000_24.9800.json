@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "永安漁港觀光漁市",
     "lat": 24.987928,
     "lng": 121.015342,
-    "address": "327桃園市新屋區中山西路三段1165號"
+    "address": "327桃園市新屋區中山西路三段1165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中壢區漁會",
     "lat": 24.988555,
     "lng": 121.018017,
-    "address": "327桃園市新屋區中山西路三段1156號"
+    "address": "327桃園市新屋區中山西路三段1156號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "永安海螺文化體驗園區-1",
     "lat": 24.98993,
     "lng": 121.01542,
-    "address": "327桃園市新屋區新港路85號"
+    "address": "327桃園市新屋區新港路85號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

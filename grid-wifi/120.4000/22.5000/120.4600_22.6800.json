@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣屏東市崇蘭服務協會",
     "lat": 22.681725,
     "lng": 120.476287,
-    "address": "900屏東縣屏東市潭墘里崇德一路231號"
+    "address": "900屏東縣屏東市潭墘里崇德一路231號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中央健康保險署-高屏業務組屏東聯絡辦公室",
     "lat": 22.684003,
     "lng": 120.475641,
-    "address": "900屏東縣屏東市廣東路1518號"
+    "address": "900屏東縣屏東市廣東路1518號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣屏東市社區人文關懷協會",
     "lat": 22.686515,
     "lng": 120.472392,
-    "address": "900屏東縣屏東市潭墘里機場北路710號"
+    "address": "900屏東縣屏東市潭墘里機場北路710號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

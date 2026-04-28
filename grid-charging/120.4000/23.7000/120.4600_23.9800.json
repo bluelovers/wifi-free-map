@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "埔鹽郵局",
     "lat": 23.992214,
     "lng": 120.477263,

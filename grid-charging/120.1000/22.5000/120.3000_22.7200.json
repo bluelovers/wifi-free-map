@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部加工出口區管理處從業員工服務中心",
     "lat": 22.723569,
     "lng": 120.306808,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楠梓加工區郵局",
     "lat": 22.724082,
     "lng": 120.302804,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楠梓翠屏郵局",
     "lat": 22.726995,
     "lng": 120.310173,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通部公路總局高雄市區監理所",
     "lat": 22.732233,
     "lng": 120.31821,

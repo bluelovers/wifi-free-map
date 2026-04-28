@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣國姓鄉港源社區發展協會",
     "lat": 23.935876,
     "lng": 120.869163,
-    "address": "544南投縣國姓鄉南港村南港路11之5號"
+    "address": "544南投縣國姓鄉南港村南港路11之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

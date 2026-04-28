@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局蘆竹分局",
     "lat": 25.04736,
     "lng": 121.293341,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘆竹錦興郵局",
     "lat": 25.053206,
     "lng": 121.286315,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘆竹郵局",
     "lat": 25.054726,
     "lng": 121.290858,

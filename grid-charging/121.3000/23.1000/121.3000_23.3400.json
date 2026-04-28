@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司玉里營運所",
     "lat": 23.342394,
     "lng": 121.316436,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮縣卓溪鄉戶政事務所",
     "lat": 23.345055,
     "lng": 121.303917,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "卓溪郵局",
     "lat": 23.345878,
     "lng": 121.304609,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局臺北區監理所花蓮監理站玉里分站",
     "lat": 23.347107,
     "lng": 121.317224,

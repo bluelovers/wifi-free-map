@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中何厝郵局",
     "lat": 24.16492,
     "lng": 120.653783,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中逢甲郵局",
     "lat": 24.175272,
     "lng": 120.649134,

@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "芎林郵局",
     "lat": 24.772141,
     "lng": 121.083714,
-    "address": "307新竹縣芎林鄉新鳳村文衡路426號"
+    "address": "307新竹縣芎林鄉新鳳村文衡路426號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "新竹縣芎林鄉立圖書館",
     "lat": 24.774656,
     "lng": 121.081985,
-    "address": "307新竹縣芎林鄉文林村文山路290號"
+    "address": "307新竹縣芎林鄉文林村文山路290號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣芎林鄉戶政事務所",
     "lat": 24.774824,
     "lng": 121.081344,
-    "address": "307新竹縣芎林鄉文山路339號"
+    "address": "307新竹縣芎林鄉文山路339號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

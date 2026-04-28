@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹樹林頭郵局",
     "lat": 24.820418,
     "lng": 120.960605,

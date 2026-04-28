@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市楊梅區三湖社區發展協會",
     "lat": 24.911967,
     "lng": 121.108509,
-    "address": "326桃園市楊梅區三湖里楊湖路二段491號"
+    "address": "326桃園市楊梅區三湖里楊湖路二段491號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "梓官郵局",
     "lat": 22.761123,
     "lng": 120.26866,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市梓官區戶政事務所",
     "lat": 22.761125,
     "lng": 120.266368,

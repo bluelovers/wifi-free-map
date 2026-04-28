@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "東山郵局",
     "lat": 23.322574,
     "lng": 120.40239,
-    "address": "733臺南市東山區東中村新東路一段18號"
+    "address": "733臺南市東山區東中村新東路一段18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "東山國小文教活動中心",
     "lat": 23.32277,
     "lng": 120.40124,
-    "address": "733臺南市東山區龍鳳一街1號"
+    "address": "733臺南市東山區龍鳳一街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市東山區東中里辦公處",
     "lat": 23.325,
     "lng": 120.41,
-    "address": "733臺南市東山區東中里9鄰福安街2號"
+    "address": "733臺南市東山區東中里9鄰福安街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市東山區三榮里辦公處",
     "lat": 23.326,
     "lng": 120.403,
-    "address": "733臺南市東山區三榮里木柵56號"
+    "address": "733臺南市東山區三榮里木柵56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

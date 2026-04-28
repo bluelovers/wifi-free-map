@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣萬丹鄉崙頂社區發展協會",
     "lat": 22.590138,
     "lng": 120.460763,
-    "address": "913屏東縣萬丹鄉崙頂村惠崙路976號"
+    "address": "913屏東縣萬丹鄉崙頂村惠崙路976號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣萬丹鄉慈愛關懷協會",
     "lat": 22.596483,
     "lng": 120.461702,
-    "address": "913屏東縣萬丹鄉廈南村三青路156號"
+    "address": "913屏東縣萬丹鄉廈南村三青路156號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

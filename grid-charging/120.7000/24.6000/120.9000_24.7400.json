@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹內湖路郵局",
     "lat": 24.743843,
     "lng": 120.90568,

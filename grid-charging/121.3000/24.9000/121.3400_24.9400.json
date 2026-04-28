@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司鶯歌服務所",
     "lat": 24.944967,
     "lng": 121.351257,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司鶯歌服務所大廳",
     "lat": 24.947817,
     "lng": 121.352862,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鶯歌郵局",
     "lat": 24.953891,
     "lng": 121.352305,

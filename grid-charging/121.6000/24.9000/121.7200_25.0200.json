@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "平溪派出所",
     "lat": 25.0233,
     "lng": 121.7224,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "平溪郵局",
     "lat": 25.025967,
     "lng": 121.738489,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市瑞芳戶政事務所平溪區所",
     "lat": 25.026484,
     "lng": 121.73827,

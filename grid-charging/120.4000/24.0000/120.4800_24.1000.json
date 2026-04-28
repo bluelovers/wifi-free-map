@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "和美道周郵局",
     "lat": 24.109021,
     "lng": 120.494464,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣和美鎮戶政事務所",
     "lat": 24.109389,
     "lng": 120.493755,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "和美郵局",
     "lat": 24.111095,
     "lng": 120.499158,

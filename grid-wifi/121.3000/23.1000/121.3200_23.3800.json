@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮大禹里辦公室",
     "lat": 23.380627,
     "lng": 121.3245,
-    "address": "981花蓮縣玉里鎮大禹里21鄰大禹226號"
+    "address": "981花蓮縣玉里鎮大禹里21鄰大禹226號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣玉里鎮大禹社區發展協會",
     "lat": 23.381,
     "lng": 121.325,
-    "address": "981花蓮縣玉里鎮21鄰大禹226號"
+    "address": "981花蓮縣玉里鎮21鄰大禹226號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

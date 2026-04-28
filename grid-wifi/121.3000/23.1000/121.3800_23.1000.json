@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台東縣原住民長青協會-成功鎮-民富",
     "lat": 23.100776,
     "lng": 121.383703,
-    "address": "961臺東縣成功鎮忠仁里民富路45號"
+    "address": "961臺東縣成功鎮忠仁里民富路45號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人天主教會花蓮教區-成功鎮-聖心",
     "lat": 23.10135,
     "lng": 121.381088,
-    "address": "961臺東縣成功鎮忠智里26鄰中華路150號"
+    "address": "961臺東縣成功鎮忠智里26鄰中華路150號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣成功鎮芝田部落",
     "lat": 23.11026,
     "lng": 121.38503,
-    "address": "961臺東縣成功鎮芝田路10號"
+    "address": "961臺東縣成功鎮芝田路10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

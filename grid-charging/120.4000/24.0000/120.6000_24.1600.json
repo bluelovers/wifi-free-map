@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部工業局中區工業區管理處",
     "lat": 24.164257,
     "lng": 120.611256,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中工業區郵局",
     "lat": 24.168722,
     "lng": 120.606322,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中工業區服務中心",
     "lat": 24.168883,
     "lng": 120.608626,

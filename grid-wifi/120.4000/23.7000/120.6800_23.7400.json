@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮桂林社區發展協會",
     "lat": 23.747243,
     "lng": 120.69603,
-    "address": "557南投縣竹山鎮桂林里中山路38之1號"
+    "address": "557南投縣竹山鎮桂林里中山路38之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣竹山鎮戶政事務所",
     "lat": 23.749987,
     "lng": 120.680028,
-    "address": "557南投縣竹山鎮中山里大智路823號"
+    "address": "557南投縣竹山鎮中山里大智路823號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣私立迦南居家式長期照顧服務機構(桂林1)",
     "lat": 23.752261,
     "lng": 120.691454,
-    "address": "557南投縣竹山鎮桂林里中山路7-80號"
+    "address": "557南投縣竹山鎮桂林里中山路7-80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣私立迦南居家式長期照顧服務機構(桂林2)",
     "lat": 23.754845,
     "lng": 120.697023,
-    "address": "557南投縣竹山鎮桂林里中正巷13-7號"
+    "address": "557南投縣竹山鎮桂林里中正巷13-7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮包府社區發展協會",
     "lat": 23.75581,
     "lng": 120.683309,
-    "address": "557南投縣竹山鎮中正里橫街80號二樓"
+    "address": "557南投縣竹山鎮中正里橫街80號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮竹山社區發展協會",
     "lat": 23.756,
     "lng": 120.683,
-    "address": "557南投縣竹山鎮竹山里橫街90號二樓"
+    "address": "557南投縣竹山鎮竹山里橫街90號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "竹山郵局",
     "lat": 23.756857,
     "lng": 120.682149,
-    "address": "557南投縣竹山鎮前山路一段2號"
+    "address": "557南投縣竹山鎮前山路一段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣政府警察局竹山分局",
     "lat": 23.75702,
     "lng": 120.682813,
-    "address": "557南投縣竹山鎮集山路三段968號"
+    "address": "557南投縣竹山鎮集山路三段968號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣政府竹鹿區綜合社會福利館",
     "lat": 23.758356,
     "lng": 120.681804,
-    "address": "557南投縣竹山鎮大禮路50號"
+    "address": "557南投縣竹山鎮大禮路50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

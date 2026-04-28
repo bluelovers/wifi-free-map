@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮管理站秀姑巒溪泛舟中心",
     "lat": 23.488881,
     "lng": 121.401203,

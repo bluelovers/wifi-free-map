@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹建中郵局",
     "lat": 24.800593,
     "lng": 120.99405,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹東園郵局",
     "lat": 24.802878,
     "lng": 120.983034,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹民主路郵局",
     "lat": 24.809008,
     "lng": 120.981335,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局新竹區監理所新竹市監理站",
     "lat": 24.810676,
     "lng": 120.983019,

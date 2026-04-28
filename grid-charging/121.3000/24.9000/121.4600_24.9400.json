@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新店五城郵局",
     "lat": 24.944973,
     "lng": 121.479462,

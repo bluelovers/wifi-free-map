@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市大里區戶政事務所",
     "lat": 24.098141,
     "lng": 120.676807,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大里永隆郵局",
     "lat": 24.099578,
     "lng": 120.678734,

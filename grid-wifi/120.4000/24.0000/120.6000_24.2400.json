@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市沙鹿區清泉社區發展協會",
     "lat": 24.241869,
     "lng": 120.614614,
-    "address": "433臺中市沙鹿區清泉里東大路二段1579號"
+    "address": "433臺中市沙鹿區清泉里東大路二段1579號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商沙鹿東大路新忠貞店(公話)",
     "lat": 24.242215,
     "lng": 120.614766,
-    "address": "433臺中市沙鹿區東大路二段1587號"
+    "address": "433臺中市沙鹿區東大路二段1587號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市沙鹿區公明社區發展協會",
     "lat": 24.245572,
     "lng": 120.607547,
-    "address": "433臺中市沙鹿區公明里中清路六段263巷68號"
+    "address": "433臺中市沙鹿區公明里中清路六段263巷68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國工局第二區工程處臺中工務所",
     "lat": 24.2458,
     "lng": 120.604086,
-    "address": "433臺中市沙鹿區忠貞路20巷176號"
+    "address": "433臺中市沙鹿區忠貞路20巷176號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商沙鹿中清路清泉崗店(公話)",
     "lat": 24.246366,
     "lng": 120.608231,
-    "address": "433臺中市沙鹿區中清路六段259號"
+    "address": "433臺中市沙鹿區中清路六段259號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中航空站",
     "lat": 24.255261,
     "lng": 120.60042,
-    "address": "433臺中市沙鹿區中清路42號"
+    "address": "433臺中市沙鹿區中清路42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店沙鹿中清路飛航店(公話)",
     "lat": 24.257582,
     "lng": 120.600731,
-    "address": "433臺中市沙鹿區中清路43號之52"
+    "address": "433臺中市沙鹿區中清路43號之52",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

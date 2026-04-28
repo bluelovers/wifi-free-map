@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣三義鄉雙湖社區發展協會",
     "lat": 24.348,
     "lng": 120.744,
-    "address": "367苗栗縣三義鄉雙湖村17鄰雙湖106之2號"
+    "address": "367苗栗縣三義鄉雙湖村17鄰雙湖106之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

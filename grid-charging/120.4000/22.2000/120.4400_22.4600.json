@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司東港營運所",
     "lat": 22.463821,
     "lng": 120.455178,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東港郵局",
     "lat": 22.468897,
     "lng": 120.450953,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東港大鵬郵局",
     "lat": 22.469815,
     "lng": 120.458098,

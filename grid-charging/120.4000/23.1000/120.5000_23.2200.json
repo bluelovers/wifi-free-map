@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署南區水資源局1樓服務台",
     "lat": 23.220701,
     "lng": 120.5,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局太原站候車室",
     "lat": 24.16792,
     "lng": 120.700769,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中軍功郵局",
     "lat": 24.178124,
     "lng": 120.719302,

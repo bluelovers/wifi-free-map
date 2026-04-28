@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "番路郵局",
     "lat": 23.46391,
     "lng": 120.55457,

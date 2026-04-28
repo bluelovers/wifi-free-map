@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中埔後庄郵局",
     "lat": 23.43584,
     "lng": 120.451293,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園幼獅工業區服務中心",
     "lat": 24.923434,
     "lng": 121.171453,

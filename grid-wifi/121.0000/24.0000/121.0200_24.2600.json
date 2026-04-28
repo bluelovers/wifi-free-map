@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "林務局東勢林區管理處大雪山國家森林遊樂區遊客中心",
     "lat": 24.278795,
     "lng": 121.025031,
-    "address": "424臺中市和平區雪山路18號"
+    "address": "424臺中市和平區雪山路18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "林務局南投林區管理處松雪樓1樓大廳",
     "lat": 24.278795,
     "lng": 121.025031,
-    "address": "972花蓮縣秀林鄉關原路33號"
+    "address": "972花蓮縣秀林鄉關原路33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

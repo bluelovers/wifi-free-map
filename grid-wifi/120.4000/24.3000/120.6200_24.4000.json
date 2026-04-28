@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人中華民國佛教慈濟慈善事業基金會(大甲西歧據點)",
     "lat": 24.419402,
     "lng": 120.628688,
-    "address": "437臺中市大甲區西岐里順帆路99巷1之1號"
+    "address": "437臺中市大甲區西岐里順帆路99巷1之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市大甲區銅安社區發展協會",
     "lat": 24.423944,
     "lng": 120.632519,
-    "address": "437臺中市大甲區銅安里長壽路79之6號"
+    "address": "437臺中市大甲區銅安里長壽路79之6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市大甲區福德社區發展協會",
     "lat": 24.430094,
     "lng": 120.626209,
-    "address": "437臺中市大甲區福德里順帆路194號"
+    "address": "437臺中市大甲區福德里順帆路194號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

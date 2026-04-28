@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司鹿港營運所",
     "lat": 24.060768,
     "lng": 120.442107,
-    "address": "505彰化縣鹿港鎮鹿和路一段184號"
+    "address": "505彰化縣鹿港鎮鹿和路一段184號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局鹿港分局海埔派出所",
     "lat": 24.072543,
     "lng": 120.440326,
-    "address": "505彰化縣鹿港鎮海埔里鹿草路二段909號"
+    "address": "505彰化縣鹿港鎮海埔里鹿草路二段909號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

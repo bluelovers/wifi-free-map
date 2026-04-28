@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永康工業區服務中心",
     "lat": 23.04911,
     "lng": 120.274452,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永康王行郵局",
     "lat": 23.04911,
     "lng": 120.274452,

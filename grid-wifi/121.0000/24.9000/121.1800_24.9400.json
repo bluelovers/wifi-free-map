@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "平鎮高雙郵局",
     "lat": 24.955034,
     "lng": 121.189525,
-    "address": "324桃園市平鎮區高雙路181號"
+    "address": "324桃園市平鎮區高雙路181號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區高連社區發展協會",
     "lat": 24.955179,
     "lng": 121.189118,
-    "address": "324桃園市平鎮區高雙里高雙路80號"
+    "address": "324桃園市平鎮區高雙里高雙路80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

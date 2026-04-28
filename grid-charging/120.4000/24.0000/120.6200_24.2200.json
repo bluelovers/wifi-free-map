@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大雅清泉崗郵局",
     "lat": 24.236064,
     "lng": 120.621086,

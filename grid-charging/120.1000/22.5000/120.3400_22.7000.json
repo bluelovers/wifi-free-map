@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市仁武區戶政事務所",
     "lat": 22.701455,
     "lng": 120.348299,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "仁武郵局",
     "lat": 22.701683,
     "lng": 120.348569,

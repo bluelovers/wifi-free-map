@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "七美郵局",
     "lat": 23.19711,
     "lng": 119.421705,

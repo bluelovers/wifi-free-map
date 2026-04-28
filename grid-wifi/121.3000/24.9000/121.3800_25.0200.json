@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龜山長庚大學郵局",
     "lat": 25.033404,
     "lng": 121.38752,
-    "address": "333桃園市龜山區文化一路259號"
+    "address": "333桃園市龜山區文化一路259號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國立體育大學綜合體育館",
     "lat": 25.034828,
     "lng": 121.386606,
-    "address": "333桃園市龜山區文化一路250號"
+    "address": "333桃園市龜山區文化一路250號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

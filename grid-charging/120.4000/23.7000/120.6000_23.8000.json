@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣二水鄉戶政事務所",
     "lat": 23.809017,
     "lng": 120.619626,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "二水郵局",
     "lat": 23.810888,
     "lng": 120.615415,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局二水站候車室",
     "lat": 23.813161,
     "lng": 120.618203,

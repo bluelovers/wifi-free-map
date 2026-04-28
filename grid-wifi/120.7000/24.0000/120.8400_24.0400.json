@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣國姓鄉戶政事務所",
     "lat": 24.040048,
     "lng": 120.857508,
-    "address": "544南投縣國姓鄉國姓路267之1號"
+    "address": "544南投縣國姓鄉國姓路267之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣國姓鄉石門社區發展協會",
     "lat": 24.040065,
     "lng": 120.85685,
-    "address": "544南投縣國姓鄉石門村國姓路207之19號"
+    "address": "544南投縣國姓鄉石門村國姓路207之19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

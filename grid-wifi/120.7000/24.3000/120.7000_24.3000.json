@@ -1,122 +1,167 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "后里郵局",
     "lat": 24.304655,
     "lng": 120.710851,
-    "address": "421臺中市后里區墩西村公安路77號"
+    "address": "421臺中市后里區墩西村公安路77號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商后里三光路久豐店(公話)",
     "lat": 24.304742,
     "lng": 120.710487,
-    "address": "421臺中市后里區三光路36號"
+    "address": "421臺中市后里區三光路36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "后里區公所",
     "lat": 24.305084,
     "lng": 120.710801,
-    "address": "421臺中市后里區公安路84號"
+    "address": "421臺中市后里區公安路84號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "后里區衛生所",
     "lat": 24.305166,
     "lng": 120.710366,
-    "address": "421臺中市后里區公安路86號"
+    "address": "421臺中市后里區公安路86號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺中市福康關懷協會(中和)",
     "lat": 24.305215,
     "lng": 120.707334,
-    "address": "421臺中市后里區中和里中和社區活動中心(后里區中正路140號)"
+    "address": "421臺中市后里區中和里中和社區活動中心(后里區中正路140號)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "后里區戶政事務所",
     "lat": 24.305422,
     "lng": 120.709996,
-    "address": "421臺中市后里區墩西里公安路90號"
+    "address": "421臺中市后里區墩西里公安路90號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市后里第一公有市場(公話)",
     "lat": 24.305909,
     "lng": 120.71339,
-    "address": "421臺中市后里區四村路121號(公話)"
+    "address": "421臺中市后里區四村路121號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商后里民生路月眉店(公話)",
     "lat": 24.306363,
     "lng": 120.713502,
-    "address": "421臺中市后里區民生路226號"
+    "address": "421臺中市后里區民生路226號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺中市立圖書館后里分館",
     "lat": 24.306961,
     "lng": 120.715377,
-    "address": "421臺中市后里區墩東里文化路28號"
+    "address": "421臺中市后里區墩東里文化路28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人彭婉如文教基金會",
     "lat": 24.307,
     "lng": 120.716,
-    "address": "420臺中市豐原區西勢里西安街71號"
+    "address": "420臺中市豐原區西勢里西安街71號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市墩仔腳庄文化創生發展協會",
     "lat": 24.308234,
     "lng": 120.707857,
-    "address": "421臺中市后里區墩北里大興路196號"
+    "address": "421臺中市后里區墩北里大興路196號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商后里民生路后冠店(公話)",
     "lat": 24.309059,
     "lng": 120.716896,
-    "address": "421臺中市后里區民生路1號"
+    "address": "421臺中市后里區民生路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀后里分行",
     "lat": 24.309754,
     "lng": 120.716993,
-    "address": "421臺中市后里區甲后路619-1號"
+    "address": "421臺中市后里區甲后路619-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商后里甲后路后興店(公話)",
     "lat": 24.311288,
     "lng": 120.708886,
-    "address": "421臺中市后里區甲后路742號"
+    "address": "421臺中市后里區甲后路742號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通部高速公路局第二新建工程處",
     "lat": 24.314841,
     "lng": 120.701176,
-    "address": "421臺中市后里區月眉里雲頭路44號-35"
+    "address": "421臺中市后里區月眉里雲頭路44號-35",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

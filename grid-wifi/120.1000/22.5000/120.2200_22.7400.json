@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市彌陀區南寮社區發展協會",
     "lat": 22.759867,
     "lng": 120.237979,
-    "address": "827高雄市彌陀區南寮里南寮路101巷10之1號"
+    "address": "827高雄市彌陀區南寮里南寮路101巷10之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

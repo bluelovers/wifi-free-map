@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大甲日南郵局",
     "lat": 24.381273,
     "lng": 120.655142,

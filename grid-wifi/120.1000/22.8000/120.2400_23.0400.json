@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市永康區塩興里辦公處",
     "lat": 23.044,
     "lng": 120.243,
-    "address": "710臺南市永康區鹽興里永安一街100號"
+    "address": "710臺南市永康區鹽興里永安一街100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市永康區三民社區發展協會",
     "lat": 23.053,
     "lng": 120.247,
-    "address": "710臺南市永康區三民里三民街108號"
+    "address": "710臺南市永康區三民里三民街108號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

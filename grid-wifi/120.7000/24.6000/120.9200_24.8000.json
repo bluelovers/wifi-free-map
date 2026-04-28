@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市虎林生活館市民活動中心",
     "lat": 24.808354,
     "lng": 120.934261,
-    "address": "300新竹市香山區延平路二段336號"
+    "address": "300新竹市香山區延平路二段336號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

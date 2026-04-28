@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣新希望社區關懷協會(得仁站)",
     "lat": 25.241,
     "lng": 121.45,
-    "address": "247新北市蘆洲區得仁里7鄰民生街129巷14號"
+    "address": "247新北市蘆洲區得仁里7鄰民生街129巷14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

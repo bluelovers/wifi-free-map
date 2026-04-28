@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市橋頭區東林社區發展協會",
     "lat": 22.747,
     "lng": 120.277,
-    "address": "825高雄市橋頭區東林里里林東路楊厝巷5之1號"
+    "address": "825高雄市橋頭區東林里里林東路楊厝巷5之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市梓官區梓和社區發展協會",
     "lat": 22.758858,
     "lng": 120.265548,
-    "address": "826高雄市梓官區梓和里大宅街38號"
+    "address": "826高雄市梓官區梓和里大宅街38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

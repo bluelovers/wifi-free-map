@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商烏日溪南路喀哩店(公話)",
     "lat": 24.061116,
     "lng": 120.643418,
-    "address": "414臺中市烏日區溪南路二段380號"
+    "address": "414臺中市烏日區溪南路二段380號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "烏日溪壩郵局",
     "lat": 24.061345,
     "lng": 120.64336,
-    "address": "414臺中市烏日區溪南路二段372號"
+    "address": "414臺中市烏日區溪南路二段372號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市烏日區溪壩社區發展協會",
     "lat": 24.077011,
     "lng": 120.641305,
-    "address": "414臺中市烏日區溪埧里溪南路一段680巷110號二樓"
+    "address": "414臺中市烏日區溪埧里溪南路一段680巷110號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

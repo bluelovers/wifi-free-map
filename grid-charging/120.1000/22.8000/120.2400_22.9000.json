@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局中洲站候車室",
     "lat": 22.904095,
     "lng": 120.252823,

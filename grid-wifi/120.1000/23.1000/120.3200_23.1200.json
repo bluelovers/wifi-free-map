@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市善化區嘉北社區發展協會",
     "lat": 23.135,
     "lng": 120.327,
-    "address": "741臺南市善化區嘉北里茄拔271號"
+    "address": "741臺南市善化區嘉北里茄拔271號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市善化區嘉南社區活動中心",
     "lat": 23.135157,
     "lng": 120.327004,
-    "address": "741臺南市善化區80之1號"
+    "address": "741臺南市善化區80之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市善化區溪美社區發展協會",
     "lat": 23.139,
     "lng": 120.327,
-    "address": "741臺南市善化區溪美里溪尾71號"
+    "address": "741臺南市善化區溪美里溪尾71號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

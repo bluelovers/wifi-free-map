@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南澳郵局",
     "lat": 24.465192,
     "lng": 121.802246,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南澳鄉戶政事務所",
     "lat": 24.467209,
     "lng": 121.805763,

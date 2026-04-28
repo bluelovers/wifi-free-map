@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人南投縣中寮鄉龍眼林福利協會（龍岩村）",
     "lat": 23.937591,
     "lng": 120.762932,
-    "address": "541南投縣中寮鄉龍岩村龍南路154號"
+    "address": "541南投縣中寮鄉龍岩村龍南路154號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "龍眼林高齡友善健身俱樂部",
     "lat": 23.93768,
     "lng": 120.7629,
-    "address": "541南投縣中寮鄉龍岩村龍南路154號"
+    "address": "541南投縣中寮鄉龍岩村龍南路154號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

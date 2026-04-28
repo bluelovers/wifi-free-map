@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "野柳派出所",
     "lat": 25.2036,
     "lng": 121.6847,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "野柳遊客中心",
     "lat": 25.205291,
     "lng": 121.689928,

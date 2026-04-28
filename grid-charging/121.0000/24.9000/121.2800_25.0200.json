@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘆竹光明郵局",
     "lat": 25.038619,
     "lng": 121.293507,

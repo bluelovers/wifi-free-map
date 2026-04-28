@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰濱工業區服務中心-鹿港汙水廠",
     "lat": 24.080538,
     "lng": 120.394558,
-    "address": "505彰化縣鹿港鎮鹿工北三路8號1樓"
+    "address": "505彰化縣鹿港鎮鹿工北三路8號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

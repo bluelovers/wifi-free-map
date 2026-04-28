@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司草屯營運所",
     "lat": 23.98112,
     "lng": 120.693019,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司南投縣草屯鎮草屯站",
     "lat": 23.984616,
     "lng": 120.686587,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "草屯大觀郵局",
     "lat": 23.985713,
     "lng": 120.684467,

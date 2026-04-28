@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "燕巢鳳山厝郵局",
     "lat": 22.755425,
     "lng": 120.357067,

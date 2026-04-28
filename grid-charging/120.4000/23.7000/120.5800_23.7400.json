@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司林內營運所",
     "lat": 23.752397,
     "lng": 120.595895,

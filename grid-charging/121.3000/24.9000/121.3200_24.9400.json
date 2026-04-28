@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鶯歌永昌郵局",
     "lat": 24.954548,
     "lng": 121.33746,

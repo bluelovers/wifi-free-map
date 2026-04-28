@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南庄郵局",
     "lat": 24.603892,
     "lng": 121.000867,

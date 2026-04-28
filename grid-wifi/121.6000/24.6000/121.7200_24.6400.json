@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "冬山鄉梅花湖風景區",
     "lat": 24.644833,
     "lng": 121.730576,
-    "address": "269宜蘭縣冬山鄉得安村環湖路"
+    "address": "269宜蘭縣冬山鄉得安村環湖路",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "宜蘭縣梅花湖風景特定區",
     "lat": 24.644833,
     "lng": 121.730576,
-    "address": "269宜蘭縣冬山鄉得安村環湖路"
+    "address": "269宜蘭縣冬山鄉得安村環湖路",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

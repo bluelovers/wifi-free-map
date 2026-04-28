@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新社中興嶺郵局",
     "lat": 24.205418,
     "lng": 120.794518,

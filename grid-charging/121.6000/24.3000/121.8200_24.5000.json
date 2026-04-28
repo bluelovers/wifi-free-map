@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘇澳東澳路郵局",
     "lat": 24.519744,
     "lng": 121.832461,

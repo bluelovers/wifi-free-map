@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "水利署中區水資源局湖山水庫管理中心",
     "lat": 23.685734,
     "lng": 120.620727,
-    "address": "646雲林縣古坑鄉棋盤村興東53號"
+    "address": "646雲林縣古坑鄉棋盤村興東53號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

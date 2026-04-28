@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣秀林鄉固祿部落",
     "lat": 24.14425,
     "lng": 121.63289,
-    "address": "972花蓮縣秀林鄉富世村35號"
+    "address": "972花蓮縣秀林鄉富世村35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣秀林鄉富世村辦公處",
     "lat": 24.147462,
     "lng": 121.627824,
-    "address": "972花蓮縣秀林鄉富世村富世路97號"
+    "address": "972花蓮縣秀林鄉富世村富世路97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "布洛灣管理站",
     "lat": 24.148064,
     "lng": 121.628449,
-    "address": "972花蓮縣秀林鄉富世232號-1"
+    "address": "972花蓮縣秀林鄉富世232號-1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺灣紫社公益創新協會",
     "lat": 24.15094,
     "lng": 121.625198,
-    "address": "972花蓮縣秀林鄉富世182之1號"
+    "address": "972花蓮縣秀林鄉富世182之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "太魯閣遊客中心",
     "lat": 24.157336,
     "lng": 121.621614,
-    "address": "972花蓮縣秀林鄉富世291號"
+    "address": "972花蓮縣秀林鄉富世291號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "太魯閣國家公園管理處太魯閣遊客中心廣場",
     "lat": 24.158069,
     "lng": 121.623033,
-    "address": "972花蓮縣秀林鄉富世村291號"
+    "address": "972花蓮縣秀林鄉富世村291號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "太魯閣國家公園管理處太魯閣台地步道",
     "lat": 24.158069,
     "lng": 121.623033,
-    "address": "972花蓮縣秀林鄉富世村291號"
+    "address": "972花蓮縣秀林鄉富世村291號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "太魯閣國家公園管理處遊客中心下館服務台",
     "lat": 24.158574,
     "lng": 121.622954,
-    "address": "972花蓮縣秀林鄉富世291號遊棟"
+    "address": "972花蓮縣秀林鄉富世291號遊棟",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮山崇社區發展協會",
     "lat": 23.804,
     "lng": 120.715,
-    "address": "557南投縣竹山鎮山崇里山崇巷25之2號"
+    "address": "557南投縣竹山鎮山崇里山崇巷25之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "竹山秀傳醫療社團法人竹山秀傳醫院(山崇里)",
     "lat": 23.805071,
     "lng": 120.709959,
-    "address": "557南投縣竹山鎮14鄰溫水巷24號"
+    "address": "557南投縣竹山鎮14鄰溫水巷24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

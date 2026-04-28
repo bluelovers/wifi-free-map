@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "和美派出所",
     "lat": 25.083,
     "lng": 121.9136,

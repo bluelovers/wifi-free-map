@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "永康鹽行郵局",
     "lat": 23.041711,
     "lng": 120.239939,
-    "address": "710臺南市永康區中正北路79號"
+    "address": "710臺南市永康區中正北路79號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市永康區鹽洲社區發展協會",
     "lat": 23.044,
     "lng": 120.234,
-    "address": "710臺南市永康區鹽洲里鹽行路100巷40弄16號"
+    "address": "710臺南市永康區鹽洲里鹽行路100巷40弄16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立臺灣歷史博物館園區(15點位)",
     "lat": 23.057809,
     "lng": 120.234119,
-    "address": "709臺南市安南區長和路一段250號"
+    "address": "709臺南市安南區長和路一段250號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立臺灣歷史博物館行政典藏大樓(19點位)",
     "lat": 23.059201,
     "lng": 120.235319,
-    "address": "709臺南市安南區長和路一段250號"
+    "address": "709臺南市安南區長和路一段250號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立臺灣歷史博物館展示教育大樓(25點位)",
     "lat": 23.059201,
     "lng": 120.235319,
-    "address": "709臺南市安南區長和路一段250號"
+    "address": "709臺南市安南區長和路一段250號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

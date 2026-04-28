@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司新北市坪林區坪林站",
     "lat": 24.940149,
     "lng": 121.702166,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "坪林郵局",
     "lat": 24.948087,
     "lng": 121.711349,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新屋永安郵局",
     "lat": 24.988216,
     "lng": 121.026946,

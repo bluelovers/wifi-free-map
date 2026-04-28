@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "長治繁華郵局",
     "lat": 22.702276,
     "lng": 120.573738,
-    "address": "908屏東縣長治鄉繁華村水源路90號"
+    "address": "908屏東縣長治鄉繁華村水源路90號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣長治鄉繁昌社區發展協會",
     "lat": 22.704219,
     "lng": 120.576473,
-    "address": "908屏東縣長治鄉繁昌村昌隆一街11之1號"
+    "address": "908屏東縣長治鄉繁昌村昌隆一街11之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

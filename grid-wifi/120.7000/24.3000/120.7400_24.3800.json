@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣大湖鄉新開社區發展協會",
     "lat": 24.384,
     "lng": 120.757,
-    "address": "364苗栗縣大湖鄉新開村新開24號"
+    "address": "364苗栗縣大湖鄉新開村新開24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

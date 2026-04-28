@@ -1,90 +1,123 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局山峰分隊",
     "lat": 24.900061,
     "lng": 121.203554,
-    "address": "324桃園市平鎮區南豐路263號"
+    "address": "324桃園市平鎮區南豐路263號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行平鎮分行",
     "lat": 24.900261,
     "lng": 121.208263,
-    "address": "324桃園市平鎮區南豐路94~98號"
+    "address": "324桃園市平鎮區南豐路94~98號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區福林里辦公處",
     "lat": 24.901868,
     "lng": 121.219252,
-    "address": "324桃園市平鎮區福林里東豐路326號"
+    "address": "324桃園市平鎮區福林里東豐路326號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區莊敬里辦公處",
     "lat": 24.904124,
     "lng": 121.21491,
-    "address": "324桃園市平鎮區莊敬里自強街100號"
+    "address": "324桃園市平鎮區莊敬里自強街100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "平鎮家庭服務中心",
     "lat": 24.910591,
     "lng": 121.207964,
-    "address": "324桃園市平鎮區平南里大興街66巷35號2樓"
+    "address": "324桃園市平鎮區平南里大興街66巷35號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國宏老人長期照顧中心-幸福認知小站",
     "lat": 24.910975,
     "lng": 121.20875,
-    "address": "324桃園市平鎮區平南里大興街26號1樓"
+    "address": "324桃園市平鎮區平南里大興街26號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "聯恩診所",
     "lat": 24.911241,
     "lng": 121.204223,
-    "address": "324桃園市平鎮區平南里開封街88號"
+    "address": "324桃園市平鎮區平南里開封街88號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府警察局平鎮分局",
     "lat": 24.913269,
     "lng": 121.207287,
-    "address": "324桃園市平鎮區中庸路123號"
+    "address": "324桃園市平鎮區中庸路123號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮國民運動中心",
     "lat": 24.91349,
     "lng": 121.20941,
-    "address": "324桃園市平鎮區中庸路18號"
+    "address": "324桃園市平鎮區中庸路18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局平鎮分隊",
     "lat": 24.914716,
     "lng": 121.210549,
-    "address": "324桃園市平鎮區中豐路南勢二段174號"
+    "address": "324桃園市平鎮區中豐路南勢二段174號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "平鎮南勢郵局",
     "lat": 24.916405,
     "lng": 121.210011,
-    "address": "324桃園市平鎮區南京路19、21、23號"
+    "address": "324桃園市平鎮區南京路19、21、23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

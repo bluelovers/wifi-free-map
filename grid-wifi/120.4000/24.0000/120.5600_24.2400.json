@@ -1,98 +1,134 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行沙鹿分行",
     "lat": 24.241551,
     "lng": 120.56046,
-    "address": "433臺中市沙鹿區中山路407號"
+    "address": "433臺中市沙鹿區中山路407號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商沙鹿成功東街童醫店",
     "lat": 24.2427,
     "lng": 120.5614,
-    "address": "433臺中市沙鹿區成功東街1號(公話)"
+    "address": "433臺中市沙鹿區成功東街1號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店沙鹿光華路光榮店(公話)",
     "lat": 24.242748,
     "lng": 120.564926,
-    "address": "433臺中市沙鹿區光華路359號"
+    "address": "433臺中市沙鹿區光華路359號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市沙鹿區鹿寮社區發展協會",
     "lat": 24.242922,
     "lng": 120.566971,
-    "address": "433臺中市沙鹿區鹿寮里賢義街162號"
+    "address": "433臺中市沙鹿區鹿寮里賢義街162號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車沙鹿高工站",
     "lat": 24.243852,
     "lng": 120.570199,
-    "address": "433臺中市沙鹿區沙鹿高工正門左側交接箱(CSLL2010)"
+    "address": "433臺中市沙鹿區沙鹿高工正門左側交接箱(CSLL2010)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀沙鹿分行",
     "lat": 24.248672,
     "lng": 120.564083,
-    "address": "433臺中市沙鹿區中山路533號"
+    "address": "433臺中市沙鹿區中山路533號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商沙鹿中山路丹聯店(公話)",
     "lat": 24.250364,
     "lng": 120.56562,
-    "address": "433臺中市沙鹿區中山路田尾巷3號"
+    "address": "433臺中市沙鹿區中山路田尾巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "沙鹿鹿寮郵局",
     "lat": 24.252856,
     "lng": 120.567644,
-    "address": "433臺中市沙鹿區鹿峰里中山路584-1號"
+    "address": "433臺中市沙鹿區鹿峰里中山路584-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺中市回生關懷協會(沙鹿鹿峰)",
     "lat": 24.254882,
     "lng": 120.568306,
-    "address": "433臺中市沙鹿區鹿峰里中山路653之2號二樓"
+    "address": "433臺中市沙鹿區鹿峰里中山路653之2號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商沙鹿中山路星河店(公話)",
     "lat": 24.255665,
     "lng": 120.569292,
-    "address": "433臺中市沙鹿區中山路646號(公話)"
+    "address": "433臺中市沙鹿區中山路646號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "沙鹿區勞工服務中心",
     "lat": 24.257301,
     "lng": 120.570334,
-    "address": "433臺中市沙鹿區中山路658號"
+    "address": "433臺中市沙鹿區中山路658號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(臺中地方法院-沙鹿簡易庭)",
     "lat": 24.258162,
     "lng": 120.569698,
-    "address": "433臺中市沙鹿區中山路689號"
+    "address": "433臺中市沙鹿區中山路689號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

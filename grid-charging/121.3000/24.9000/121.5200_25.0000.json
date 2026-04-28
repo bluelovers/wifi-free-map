@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永和秀朗郵局",
     "lat": 25.002728,
     "lng": 121.526062,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "文山武功郵局",
     "lat": 25.004052,
     "lng": 121.538914,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永和福和郵局",
     "lat": 25.008078,
     "lng": 121.521614,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "文山萬盛郵局",
     "lat": 25.008082,
     "lng": 121.537169,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市永和戶政事務所2F-1",
     "lat": 25.008961,
     "lng": 121.520279,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市永和戶政事務所1F_A",
     "lat": 25.008961,
     "lng": 121.520279,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北汀洲郵局",
     "lat": 25.011785,
     "lng": 121.535881,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司北市區處服務中心營業廳",
     "lat": 25.012429,
     "lng": 121.539752,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北公館郵局",
     "lat": 25.013673,
     "lng": 121.529989,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台大郵局",
     "lat": 25.016984,
     "lng": 121.533697,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司台電大樓主樓會客室",
     "lat": 25.017679,
     "lng": 121.531062,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司台電大樓副樓會客室",
     "lat": 25.017679,
     "lng": 121.531062,

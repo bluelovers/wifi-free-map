@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署航空警察局",
     "lat": 25.085412,
     "lng": 121.25278,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署航空警察局刑事警察大隊",
     "lat": 25.085412,
     "lng": 121.25278,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署航空警察局保安警察大隊",
     "lat": 25.085412,
     "lng": 121.25278,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署航空警察局安全檢查大隊",
     "lat": 25.085412,
     "lng": 121.25278,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大園航勤北路郵局",
     "lat": 25.088053,
     "lng": 121.244511,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局新竹分局桃園機場辦事處商檢業務民眾洽公區",
     "lat": 25.090399,
     "lng": 121.246963,

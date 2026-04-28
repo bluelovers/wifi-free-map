@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市瑞芳區猴硐社區發展協會",
     "lat": 25.083031,
     "lng": 121.825616,
-    "address": "224新北市瑞芳區猴硐里侯硐路25號"
+    "address": "224新北市瑞芳區猴硐里侯硐路25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局侯硐站二樓候車室",
     "lat": 25.086851,
     "lng": 121.827523,
-    "address": "224新北市瑞芳區光復里柴寮路70號"
+    "address": "224新北市瑞芳區光復里柴寮路70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

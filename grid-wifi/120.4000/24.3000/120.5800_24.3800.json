@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "大安港媽祖文化園區",
     "lat": 24.380887,
     "lng": 120.584775,
-    "address": "439臺中市大安區中山北路117號"
+    "address": "439臺中市大安區中山北路117號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

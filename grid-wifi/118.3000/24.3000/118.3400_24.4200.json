@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "金門航空站",
     "lat": 24.420555,
     "lng": 118.344444,
-    "address": "891金門縣金湖鎮尚義機場二號"
+    "address": "891金門縣金湖鎮尚義機場二號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "金門縣昔果山社區發展協會",
     "lat": 24.42897,
     "lng": 118.35052,
-    "address": "892金門縣金寧鄉榜林村昔果山58-1號"
+    "address": "892金門縣金寧鄉榜林村昔果山58-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "金門縣金門酒廠-福利社",
     "lat": 24.43222,
     "lng": 118.344322,
-    "address": "892金門縣金寧鄉桃園路1號"
+    "address": "892金門縣金寧鄉桃園路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

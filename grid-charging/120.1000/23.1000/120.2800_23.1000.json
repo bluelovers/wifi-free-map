@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新市南科園區郵局",
     "lat": 23.105762,
     "lng": 120.280091,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "善化亞蔬郵局",
     "lat": 23.114283,
     "lng": 120.298477,

@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局青埔分隊",
     "lat": 24.991699,
     "lng": 121.179745,
-    "address": "320桃園市中壢區青埔路一段69號"
+    "address": "320桃園市中壢區青埔路一段69號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "賀立安診所",
     "lat": 24.99225,
     "lng": 121.17272,
-    "address": "320桃園市中壢區中正路四段596號"
+    "address": "320桃園市中壢區中正路四段596號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "賀立安診所-翔壑學堂",
     "lat": 24.992256,
     "lng": 121.172724,
-    "address": "320桃園市中壢區山東里中正路四段596號"
+    "address": "320桃園市中壢區山東里中正路四段596號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

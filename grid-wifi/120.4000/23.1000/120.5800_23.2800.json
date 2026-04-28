@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣大埔鄉茄苳社區發展協會",
     "lat": 23.2937,
     "lng": 120.5894,
-    "address": "607嘉義縣大埔鄉茄苳村竹圍仔38之1號"
+    "address": "607嘉義縣大埔鄉茄苳村竹圍仔38之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣大埔鄉公所",
     "lat": 23.295043,
     "lng": 120.593619,
-    "address": "607嘉義縣大埔鄉大埔村54號"
+    "address": "607嘉義縣大埔鄉大埔村54號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣竹崎戶政事務所(大埔辦公室)",
     "lat": 23.295154,
     "lng": 120.593631,
-    "address": "607嘉義縣大埔鄉大埔村4鄰大埔53號"
+    "address": "607嘉義縣大埔鄉大埔村4鄰大埔53號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大埔郵局",
     "lat": 23.299304,
     "lng": 120.593598,
-    "address": "607嘉義縣大埔鄉大埔村262號-1"
+    "address": "607嘉義縣大埔鄉大埔村262號-1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

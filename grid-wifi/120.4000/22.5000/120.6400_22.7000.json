@@ -1,106 +1,145 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣瑪家鄉裡納里永久屋2",
     "lat": 22.701256,
     "lng": 120.647531,
-    "address": "902屏東縣霧臺鄉好茶村和平路一段35巷9號"
+    "address": "902屏東縣霧臺鄉好茶村和平路一段35巷9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣瑪家鄉裡納里永久屋1",
     "lat": 22.70345,
     "lng": 120.64774,
-    "address": "903屏東縣瑪家鄉瑪家村瑪卡札亞街1號"
+    "address": "903屏東縣瑪家鄉瑪家村瑪卡札亞街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺灣原住民族文化園區文物館",
     "lat": 22.706556,
     "lng": 120.653,
-    "address": "903屏東縣瑪家鄉北葉村風景104號"
+    "address": "903屏東縣瑪家鄉北葉村風景104號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "原住民族委員會文化園區工藝街",
     "lat": 22.707176,
     "lng": 120.652413,
-    "address": "903屏東縣瑪家鄉北葉村104號"
+    "address": "903屏東縣瑪家鄉北葉村104號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "原住民族委員會文化園區迎賓區",
     "lat": 22.707176,
     "lng": 120.652413,
-    "address": "903屏東縣瑪家鄉北葉村風景104號"
+    "address": "903屏東縣瑪家鄉北葉村風景104號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣碰坑口發展協進會",
     "lat": 22.707923,
     "lng": 120.6442,
-    "address": "912屏東縣內埔鄉水門村中山路263號"
+    "address": "912屏東縣內埔鄉水門村中山路263號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣瑪家鄉北葉部落",
     "lat": 22.70949,
     "lng": 120.64787,
-    "address": "903屏東縣瑪家鄉北葉村風景1之16號"
+    "address": "903屏東縣瑪家鄉北葉村風景1之16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內埔水門郵局",
     "lat": 22.709647,
     "lng": 120.64514,
-    "address": "912屏東縣內埔鄉水門村育英路1號"
+    "address": "912屏東縣內埔鄉水門村育英路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺灣原住民族文化園區生態館",
     "lat": 22.712482,
     "lng": 120.659981,
-    "address": "903屏東縣瑪家鄉北葉村風景104號"
+    "address": "903屏東縣瑪家鄉北葉村風景104號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東基督教醫院(三地門失智社區服務據點)",
     "lat": 22.714221,
     "lng": 120.653839,
-    "address": "901屏東縣三地門鄉三地村行政街11號"
+    "address": "901屏東縣三地門鄉三地村行政街11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "三地門郵局",
     "lat": 22.714657,
     "lng": 120.653339,
-    "address": "901屏東縣三地門鄉三地村行政街3號"
+    "address": "901屏東縣三地門鄉三地村行政街3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣三地門鄉地磨兒全人關懷協會",
     "lat": 22.715344,
     "lng": 120.651764,
-    "address": "901屏東縣三地門鄉三地村中正路二段29巷8號"
+    "address": "901屏東縣三地門鄉三地村中正路二段29巷8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣三地門鄉三地部落",
     "lat": 22.715956,
     "lng": 120.652629,
-    "address": "901屏東縣三地門鄉中正路二段81巷6號"
+    "address": "901屏東縣三地門鄉中正路二段81巷6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南科技工業區服務中心",
     "lat": 23.044055,
     "lng": 120.141136,

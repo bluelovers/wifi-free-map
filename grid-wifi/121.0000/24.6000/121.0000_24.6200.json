@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "銀海社區型職能治療所(南庄2)",
     "lat": 24.620921,
     "lng": 121.007706,
-    "address": "353苗栗縣南庄鄉田美村17鄰153號"
+    "address": "353苗栗縣南庄鄉田美村17鄰153號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣南庄鄉獅山社區發展協會",
     "lat": 24.634634,
     "lng": 121.012961,
-    "address": "353苗栗縣南庄鄉獅山村15鄰獅山166之2號"
+    "address": "353苗栗縣南庄鄉獅山村15鄰獅山166之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

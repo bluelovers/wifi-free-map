@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "神岡豐洲郵局",
     "lat": 24.260835,
     "lng": 120.706285,

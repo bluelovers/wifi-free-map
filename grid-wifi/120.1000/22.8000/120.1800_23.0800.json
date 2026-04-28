@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市西港區港東里辦公處",
     "lat": 23.087,
     "lng": 120.185,
-    "address": "723臺南市西港區港東里11鄰烏竹林58之5號"
+    "address": "723臺南市西港區港東里11鄰烏竹林58之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺東縣弱勢者關懷協會-長濱鄉-長濱",
     "lat": 23.317096,
     "lng": 121.456045,
-    "address": "962臺東縣長濱鄉長濱村8鄰長濱82之6號"
+    "address": "962臺東縣長濱鄉長濱村8鄰長濱82之6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "長濱郵局",
     "lat": 23.317528,
     "lng": 121.454713,
-    "address": "962臺東縣長濱鄉長濱村中興路16號"
+    "address": "962臺東縣長濱鄉長濱村中興路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

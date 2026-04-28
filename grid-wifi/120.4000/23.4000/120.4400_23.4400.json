@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣消防局第三大隊三和分隊(1F值班室)",
     "lat": 23.442809,
     "lng": 120.451897,
-    "address": "606嘉義縣中埔鄉和興路100號"
+    "address": "606嘉義縣中埔鄉和興路100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣中埔鄉和睦社區發展協會",
     "lat": 23.444543,
     "lng": 120.457071,
-    "address": "606嘉義縣中埔鄉和睦村中華路630巷43之3號"
+    "address": "606嘉義縣中埔鄉和睦村中華路630巷43之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市興村人文關懷協會",
     "lat": 23.45377,
     "lng": 120.45622,
-    "address": "600嘉義市東區興村里溪興街265之1號"
+    "address": "600嘉義市東區興村里溪興街265之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義湖內郵局",
     "lat": 23.459104,
     "lng": 120.443389,
-    "address": "600嘉義市西區民生南路540號"
+    "address": "600嘉義市西區民生南路540號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "嘉義市嘉油鐵馬道(民生南路)",
     "lat": 23.459131,
     "lng": 120.443293,
-    "address": "600嘉義市西區民生南路530號後"
+    "address": "600嘉義市西區民生南路530號後",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

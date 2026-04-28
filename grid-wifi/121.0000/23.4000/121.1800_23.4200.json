@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "卓溪鄉衛生所巷弄⾧照站太平站",
     "lat": 23.430386,
     "lng": 121.193945,
-    "address": "982花蓮縣卓溪鄉太平村2號"
+    "address": "982花蓮縣卓溪鄉太平村2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

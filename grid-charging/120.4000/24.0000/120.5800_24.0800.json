@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化大竹郵局",
     "lat": 24.085031,
     "lng": 120.581368,

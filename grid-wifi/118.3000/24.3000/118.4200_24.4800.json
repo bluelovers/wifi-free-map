@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "金門沙美郵局",
     "lat": 24.481109,
     "lng": 118.427993,
-    "address": "890金門縣金沙鎮汶沙里國中路21號"
+    "address": "890金門縣金沙鎮汶沙里國中路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局大甲工務段會議室",
     "lat": 24.383207,
     "lng": 120.668107,

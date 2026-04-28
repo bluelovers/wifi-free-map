@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗縣後龍鎮戶政事務所",
     "lat": 24.613859,
     "lng": 120.791683,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "後龍郵局",
     "lat": 24.614288,
     "lng": 120.786089,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局後龍站候車室",
     "lat": 24.615915,
     "lng": 120.787129,

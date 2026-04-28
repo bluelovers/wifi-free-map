@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新店公崙郵局",
     "lat": 24.959127,
     "lng": 121.509631,

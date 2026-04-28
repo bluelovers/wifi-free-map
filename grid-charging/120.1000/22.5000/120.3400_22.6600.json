@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "仁武仁雄郵局",
     "lat": 22.677292,
     "lng": 120.356017,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "仁武八德郵局",
     "lat": 22.679164,
     "lng": 120.340531,

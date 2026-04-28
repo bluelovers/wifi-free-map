@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投基督教醫院(永平失智社區照顧服務據點)",
     "lat": 23.870863,
     "lng": 120.777135,
-    "address": "541南投縣中寮鄉永平村永平路333之5號"
+    "address": "541南投縣中寮鄉永平村永平路333之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中寮郵局",
     "lat": 23.878322,
     "lng": 120.768861,
-    "address": "541南投縣中寮鄉永平村永平路133號"
+    "address": "541南投縣中寮鄉永平村永平路133號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

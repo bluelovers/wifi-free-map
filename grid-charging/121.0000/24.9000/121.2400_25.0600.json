@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大園果林郵局",
     "lat": 25.075168,
     "lng": 121.258863,

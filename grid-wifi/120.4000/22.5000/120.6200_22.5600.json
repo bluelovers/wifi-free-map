@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣泰武鄉武潭部落",
     "lat": 22.57771,
     "lng": 120.63541,
-    "address": "921屏東縣泰武鄉武潭村潭北巷4號"
+    "address": "921屏東縣泰武鄉武潭村潭北巷4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

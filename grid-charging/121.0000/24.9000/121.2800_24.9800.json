@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園茄苳郵局",
     "lat": 24.987066,
     "lng": 121.282682,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園中路郵局",
     "lat": 24.989793,
     "lng": 121.293084,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局桃園分局中路派出所",
     "lat": 24.99347,
     "lng": 121.299687,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園永安郵局",
     "lat": 24.999903,
     "lng": 121.299661,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "里港郵局",
     "lat": 22.772712,
     "lng": 120.494406,

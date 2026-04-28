@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "雲林科技工業區服務中心",
     "lat": 23.722693,
     "lng": 120.504205,
-    "address": "640雲林縣斗六市虎溪里科工六路6號"
+    "address": "640雲林縣斗六市虎溪里科工六路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

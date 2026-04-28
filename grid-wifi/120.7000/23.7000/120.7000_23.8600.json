@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人南投縣青年返鄉服務協會（仁和村）",
     "lat": 23.867,
     "lng": 120.706,
-    "address": "551南投縣名間鄉仁和村山腳巷17之2號"
+    "address": "551南投縣名間鄉仁和村山腳巷17之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,226 +1,310 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(北桃分行)",
     "lat": 25.000048,
     "lng": 121.31021,
-    "address": "330桃園市桃園區三民路二段258號"
+    "address": "330桃園市桃園區三民路二段258號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園永康公園永康街97號對面號誌桿左前方",
     "lat": 25.00016,
     "lng": 121.303968,
-    "address": "330桃園市桃園區永康街97號"
+    "address": "330桃園市桃園區永康街97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園永康公園永康街97號對面號誌桿右前方",
     "lat": 25.00016,
     "lng": 121.303968,
-    "address": "330桃園市桃園區永康街97號"
+    "address": "330桃園市桃園區永康街97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園三民公園三民路一段386號燈桿左前方",
     "lat": 25.001368,
     "lng": 121.317389,
-    "address": "330桃園市桃園區三民路一段386號"
+    "address": "330桃園市桃園區三民路一段386號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園三民公園三民路一段386號燈桿右前方",
     "lat": 25.001368,
     "lng": 121.317389,
-    "address": "330桃園市桃園區三民路一段386號"
+    "address": "330桃園市桃園區三民路一段386號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園東埔郵局",
     "lat": 25.0014,
     "lng": 121.30768,
-    "address": "330桃園市桃園區中正二街15號"
+    "address": "330桃園市桃園區中正二街15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園中正夜市中正路與北埔路口",
     "lat": 25.002642,
     "lng": 121.306082,
-    "address": "330桃園市桃園區中正路與北埔路口"
+    "address": "330桃園市桃園區中正路與北埔路口",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園中正夜市北埔路與正康二街口右側",
     "lat": 25.00288,
     "lng": 121.306431,
-    "address": "330桃園市桃園區北埔路與正康二街口"
+    "address": "330桃園市桃園區北埔路與正康二街口",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園中正夜市北埔路與正康二街口左側",
     "lat": 25.00288,
     "lng": 121.306431,
-    "address": "330桃園市桃園區北埔路與正康二街口"
+    "address": "330桃園市桃園區北埔路與正康二街口",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市勞工教育大樓1-2樓",
     "lat": 25.00323,
     "lng": 121.30956,
-    "address": "330桃園市桃園區民生路650號"
+    "address": "330桃園市桃園區民生路650號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市勞工教育大樓3樓",
     "lat": 25.00323,
     "lng": 121.30956,
-    "address": "330桃園市桃園區民生路650號"
+    "address": "330桃園市桃園區民生路650號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市勞工教育大樓4樓",
     "lat": 25.00323,
     "lng": 121.30956,
-    "address": "330桃園市桃園區民生路650號"
+    "address": "330桃園市桃園區民生路650號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市勞工教育大樓5樓",
     "lat": 25.00323,
     "lng": 121.30956,
-    "address": "330桃園市桃園區民生路650號"
+    "address": "330桃園市桃園區民生路650號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區長德里辦公處",
     "lat": 25.003808,
     "lng": 121.300581,
-    "address": "330桃園市桃園區長德里愛七街15號"
+    "address": "330桃園市桃園區長德里愛七街15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園第二河濱公園大業路一段19巷38號路燈桿",
     "lat": 25.003826,
     "lng": 121.316969,
-    "address": "330桃園市桃園區大業路一段19巷38號"
+    "address": "330桃園市桃園區大業路一段19巷38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園第三河濱公園三元街47巷電信桿",
     "lat": 25.004283,
     "lng": 121.315392,
-    "address": "330桃園市桃園區三元街47巷"
+    "address": "330桃園市桃園區三元街47巷",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區福元社區發展協會",
     "lat": 25.00572,
     "lng": 121.317974,
-    "address": "330桃園市桃園區福元里福元街135號"
+    "address": "330桃園市桃園區福元里福元街135號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區東埔里辦公處",
     "lat": 25.005723,
     "lng": 121.306884,
-    "address": "330桃園市桃園區東埔里信光路55號"
+    "address": "330桃園市桃園區東埔里信光路55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人桃園市怡仁愛心基金會",
     "lat": 25.009107,
     "lng": 121.310573,
-    "address": "330桃園市桃園區大業里經國路9號12樓之2"
+    "address": "330桃園市桃園區大業里經國路9號12樓之2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園捷運綠線先導公車智慧站牌-慈文國中(往蘆竹)",
     "lat": 25.00914,
     "lng": 121.302196,
-    "address": "330桃園市桃園區中正路782號"
+    "address": "330桃園市桃園區中正路782號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園捷運綠線先導公車智慧站牌-慈文國中(往桃園)",
     "lat": 25.009347,
     "lng": 121.301669,
-    "address": "330桃園市桃園區中正路835號"
+    "address": "330桃園市桃園區中正路835號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區信光里辦公處",
     "lat": 25.010148,
     "lng": 121.305584,
-    "address": "330桃園市桃園區信光里慈文路65號"
+    "address": "330桃園市桃園區信光里慈文路65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區大有社區發展協會",
     "lat": 25.011468,
     "lng": 121.318963,
-    "address": "330桃園市桃園區大有里大有路422號二樓"
+    "address": "330桃園市桃園區大有里大有路422號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園大業郵局",
     "lat": 25.013275,
     "lng": 121.312213,
-    "address": "330桃園市桃園區大業路一段372號"
+    "address": "330桃園市桃園區大業路一段372號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區大檜溪社區發展協會",
     "lat": 25.01422,
     "lng": 121.316128,
-    "address": "330桃園市桃園區會稽里興一街65巷50號B1"
+    "address": "330桃園市桃園區會稽里興一街65巷50號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園中正藝文特區商圈南平路266號對面號誌桿",
     "lat": 25.018997,
     "lng": 121.300042,
-    "address": "330桃園市桃園區南平路266號"
+    "address": "330桃園市桃園區南平路266號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園南平公園五福四街1號旁燈桿左前方",
     "lat": 25.019092,
     "lng": 121.307387,
-    "address": "330桃園市桃園區五福四街1號"
+    "address": "330桃園市桃園區五福四街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園南平公園五福四街1號旁燈桿右前方",
     "lat": 25.019092,
     "lng": 121.307387,
-    "address": "330桃園市桃園區五福四街1號"
+    "address": "330桃園市桃園區五福四街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

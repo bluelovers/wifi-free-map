@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣九如鄉新庄社區發展協會",
     "lat": 22.724043,
     "lng": 120.497685,
-    "address": "904屏東縣九如鄉東寧村新庄路16號"
+    "address": "904屏東縣九如鄉東寧村新庄路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣九如鄉九明社區發展協會",
     "lat": 22.73175,
     "lng": 120.484556,
-    "address": "904屏東縣九如鄉九明村光復街66號"
+    "address": "904屏東縣九如鄉九明村光復街66號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣九如鄉老人會",
     "lat": 22.73253,
     "lng": 120.483401,
-    "address": "904屏東縣九如鄉九明村九龍路55號"
+    "address": "904屏東縣九如鄉九明村九龍路55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "九如郵局",
     "lat": 22.73374,
     "lng": 120.490343,
-    "address": "904屏東縣九如鄉東寧路190號"
+    "address": "904屏東縣九如鄉東寧路190號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "向日葵護理之家(九如鄉)",
     "lat": 22.734975,
     "lng": 120.497417,
-    "address": "904屏東縣九如鄉東寧村東寧路91-1號"
+    "address": "904屏東縣九如鄉東寧村東寧路91-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "九如全人照顧整合支援中心",
     "lat": 22.73501,
     "lng": 120.48945,
-    "address": "904屏東縣九如鄉九如路二段266號"
+    "address": "904屏東縣九如鄉九如路二段266號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣九如鄉東寧社區發展協會",
     "lat": 22.735122,
     "lng": 120.496939,
-    "address": "904屏東縣九如鄉東寧村東寧路64之3號"
+    "address": "904屏東縣九如鄉東寧村東寧路64之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

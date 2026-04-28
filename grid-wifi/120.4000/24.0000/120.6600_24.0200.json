@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商霧峰豐正路康勢店(公話)",
     "lat": 24.036802,
     "lng": 120.665966,
-    "address": "413臺中市霧峰區豐正路648號"
+    "address": "413臺中市霧峰區豐正路648號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

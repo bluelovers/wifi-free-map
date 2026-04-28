@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "雲林科技工業區服務中心",
     "lat": 23.722693,
     "lng": 120.504205,

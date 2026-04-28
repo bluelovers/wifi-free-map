@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮桶頭社區發展協會",
     "lat": 23.645451,
     "lng": 120.656756,
-    "address": "557南投縣竹山鎮桶頭里鯉南路312號"
+    "address": "557南投縣竹山鎮桶頭里鯉南路312號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

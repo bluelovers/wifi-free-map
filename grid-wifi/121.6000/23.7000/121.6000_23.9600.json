@@ -1,378 +1,519 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣主商社區發展協會",
     "lat": 23.968854,
     "lng": 121.60183,
-    "address": "970花蓮縣花蓮市主商里廣東街247號"
+    "address": "970花蓮縣花蓮市主商里廣東街247號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮市立殯儀館",
     "lat": 23.970557,
     "lng": 121.611026,
-    "address": "970花蓮縣花蓮市博愛街10之3號"
+    "address": "970花蓮縣花蓮市博愛街10之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣花蓮市主和里辦公處",
     "lat": 23.9707,
     "lng": 121.60502,
-    "address": "970花蓮縣花蓮市廣東街146號"
+    "address": "970花蓮縣花蓮市廣東街146號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣花蓮市國華里辦公處",
     "lat": 23.9707,
     "lng": 121.60502,
-    "address": "970花蓮縣花蓮市博愛街220巷11號"
+    "address": "970花蓮縣花蓮市博愛街220巷11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣花蓮市信義國民小學",
     "lat": 23.970847,
     "lng": 121.606464,
-    "address": "970花蓮縣花蓮市主計里信義街1號"
+    "address": "970花蓮縣花蓮市主計里信義街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣單親家庭關懷協會",
     "lat": 23.97224,
     "lng": 121.605956,
-    "address": "970花蓮縣花蓮市主計里信義街18之3號"
+    "address": "970花蓮縣花蓮市主計里信義街18之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "水利署第九河川局1樓服務台",
     "lat": 23.972894,
     "lng": 121.606166,
-    "address": "970花蓮縣花蓮市仁愛街19號"
+    "address": "970花蓮縣花蓮市仁愛街19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣花蓮市第三聯合里辦公室",
     "lat": 23.97346,
     "lng": 121.60602,
-    "address": "970花蓮縣花蓮市成功街212號"
+    "address": "970花蓮縣花蓮市成功街212號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮市北濱社區發展協會",
     "lat": 23.973921,
     "lng": 121.615256,
-    "address": "970花蓮縣花蓮市民有里海濱街57號"
+    "address": "970花蓮縣花蓮市民有里海濱街57號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國防部花蓮福利站服務台",
     "lat": 23.974921,
     "lng": 121.605969,
-    "address": "970花蓮縣花蓮市忠孝街60-1號"
+    "address": "970花蓮縣花蓮市忠孝街60-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行花蓮分行",
     "lat": 23.975058,
     "lng": 121.611099,
-    "address": "970花蓮縣花蓮市中山路78號"
+    "address": "970花蓮縣花蓮市中山路78號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺銀人壽保險股份有限公司花蓮分公司",
     "lat": 23.975061,
     "lng": 121.611077,
-    "address": "970花蓮縣花蓮市中山路78號7樓"
+    "address": "970花蓮縣花蓮市中山路78號7樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮舊車站郵局",
     "lat": 23.975327,
     "lng": 121.61085,
-    "address": "970花蓮縣花蓮市中山路92號"
+    "address": "970花蓮縣花蓮市中山路92號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮南京街郵局",
     "lat": 23.975404,
     "lng": 121.607367,
-    "address": "970花蓮縣花蓮市南京街221號"
+    "address": "970花蓮縣花蓮市南京街221號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "宗泰食品中華店",
     "lat": 23.975867,
     "lng": 121.604342,
-    "address": "970花蓮縣花蓮市中華路123號"
+    "address": "970花蓮縣花蓮市中華路123號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "a-zone花蓮文化創意產業園區",
     "lat": 23.976025,
     "lng": 121.604369,
-    "address": "970花蓮縣花蓮市中華路144號"
+    "address": "970花蓮縣花蓮市中華路144號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣警察局花蓮分局",
     "lat": 23.976073,
     "lng": 121.609918,
-    "address": "970花蓮縣花蓮市軒轅路32號"
+    "address": "970花蓮縣花蓮市軒轅路32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中央健康保險署-東區業務1樓聯合服務中心",
     "lat": 23.976116,
     "lng": 121.611972,
-    "address": "970花蓮縣花蓮市軒轅路36號1樓"
+    "address": "970花蓮縣花蓮市軒轅路36號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣警察局警光會館",
     "lat": 23.976215,
     "lng": 121.610811,
-    "address": "970花蓮縣花蓮市樹人街15號"
+    "address": "970花蓮縣花蓮市樹人街15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣花蓮市第二聯合里辦公處",
     "lat": 23.97637,
     "lng": 121.61153,
-    "address": "970花蓮縣花蓮市軒轅路29號"
+    "address": "970花蓮縣花蓮市軒轅路29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行花蓮分行",
     "lat": 23.97647,
     "lng": 121.610026,
-    "address": "970花蓮縣花蓮市公園路3號"
+    "address": "970花蓮縣花蓮市公園路3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行花蓮分行",
     "lat": 23.976651,
     "lng": 121.610491,
-    "address": "970花蓮縣花蓮市公園路22號"
+    "address": "970花蓮縣花蓮市公園路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣後備指揮部",
     "lat": 23.976656,
     "lng": 121.616146,
-    "address": "970花蓮縣花蓮市北濱街105-1號"
+    "address": "970花蓮縣花蓮市北濱街105-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀花蓮分行",
     "lat": 23.976771,
     "lng": 121.610751,
-    "address": "970花蓮縣花蓮市公園路26號"
+    "address": "970花蓮縣花蓮市公園路26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮市復興市場",
     "lat": 23.977169,
     "lng": 121.609932,
-    "address": "970花蓮縣花蓮市復興街31-1號"
+    "address": "970花蓮縣花蓮市復興街31-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣花蓮市民生社區發展協會",
     "lat": 23.977214,
     "lng": 121.608955,
-    "address": "970花蓮縣花蓮市民生里三民街7號、三民街9號、三民街11號、三民街13號"
+    "address": "970花蓮縣花蓮市民生里三民街7號、三民街9號、三民街11號、三民街13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣花蓮市主權里辦公處",
     "lat": 23.977604,
     "lng": 121.60465,
-    "address": "970花蓮縣花蓮市中原路666號2樓"
+    "address": "970花蓮縣花蓮市中原路666號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "花蓮市鐵道商圈",
     "lat": 23.977604,
     "lng": 121.606188,
-    "address": "970花蓮縣花蓮市中正路551巷21號"
+    "address": "970花蓮縣花蓮市中正路551巷21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立花崗國民中學",
     "lat": 23.977692,
     "lng": 121.612177,
-    "address": "970花蓮縣花蓮市民族里21鄰公園路40號"
+    "address": "970花蓮縣花蓮市民族里21鄰公園路40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "花蓮市北濱公園極限運動場",
     "lat": 23.977903,
     "lng": 121.617408,
-    "address": "970花蓮縣花蓮市海濱街138號"
+    "address": "970花蓮縣花蓮市海濱街138號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮中山路郵局",
     "lat": 23.978272,
     "lng": 121.608513,
-    "address": "970花蓮縣花蓮市中山路188號"
+    "address": "970花蓮縣花蓮市中山路188號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮市公園路與花崗街口",
     "lat": 23.978388,
     "lng": 121.613264,
-    "address": "970花蓮縣花蓮市公園路40之11號"
+    "address": "970花蓮縣花蓮市公園路40之11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "宗泰食品中正店",
     "lat": 23.978474,
     "lng": 121.607385,
-    "address": "970花蓮縣花蓮市中正路576號"
+    "address": "970花蓮縣花蓮市中正路576號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣花蓮市北濱國民小學",
     "lat": 23.978509,
     "lng": 121.616914,
-    "address": "970花蓮縣花蓮市北濱街113號"
+    "address": "970花蓮縣花蓮市北濱街113號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣真善美協會",
     "lat": 23.978528,
     "lng": 121.613647,
-    "address": "970花蓮縣花蓮市民生里公園路39號四樓"
+    "address": "970花蓮縣花蓮市民生里公園路39號四樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣花蓮市明義國民小學",
     "lat": 23.978959,
     "lng": 121.603632,
-    "address": "970花蓮縣花蓮市明義街107號"
+    "address": "970花蓮縣花蓮市明義街107號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人花蓮縣肢體傷殘福利協進會",
     "lat": 23.979,
     "lng": 121.605,
-    "address": "970花蓮縣花蓮市民意里41鄰民光483之1號"
+    "address": "970花蓮縣花蓮市民意里41鄰民光483之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行北花蓮分行",
     "lat": 23.979352,
     "lng": 121.602349,
-    "address": "970花蓮縣花蓮市林森路281號"
+    "address": "970花蓮縣花蓮市林森路281號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "花蓮醫院-內科候診區",
     "lat": 23.979383,
     "lng": 121.611337,
-    "address": "970花蓮縣花蓮市中正路600號"
+    "address": "970花蓮縣花蓮市中正路600號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "花蓮醫院-多媒體中心",
     "lat": 23.979383,
     "lng": 121.611337,
-    "address": "970花蓮縣花蓮市中正路600號"
+    "address": "970花蓮縣花蓮市中正路600號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "花蓮醫院-急診外科候診區",
     "lat": 23.979383,
     "lng": 121.611337,
-    "address": "970花蓮縣花蓮市中正路600號"
+    "address": "970花蓮縣花蓮市中正路600號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "花蓮醫院-健康管理中心",
     "lat": 23.979383,
     "lng": 121.611337,
-    "address": "970花蓮縣花蓮市中正路600號"
+    "address": "970花蓮縣花蓮市中正路600號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "花蓮醫院-掛號大廳",
     "lat": 23.979383,
     "lng": 121.611337,
-    "address": "970花蓮縣花蓮市中正路600號"
+    "address": "970花蓮縣花蓮市中正路600號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "花蓮醫院-第二會議室",
     "lat": 23.979383,
     "lng": 121.611337,
-    "address": "970花蓮縣花蓮市中正路600號"
+    "address": "970花蓮縣花蓮市中正路600號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "花蓮醫院-檢驗候檢區",
     "lat": 23.979383,
     "lng": 121.611337,
-    "address": "970花蓮縣花蓮市中正路600號"
+    "address": "970花蓮縣花蓮市中正路600號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣花蓮市民代表會",
     "lat": 23.979443,
     "lng": 121.603387,
-    "address": "970花蓮縣花蓮市光復街112號"
+    "address": "970花蓮縣花蓮市光復街112號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣花蓮市明禮國民小學",
     "lat": 23.979969,
     "lng": 121.610456,
-    "address": "970花蓮縣花蓮市明禮路6號"
+    "address": "970花蓮縣花蓮市明禮路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

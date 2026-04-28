@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車國軍臺中總醫院站",
     "lat": 24.296785,
     "lng": 120.591032,
-    "address": "411臺中市太平區中山路二段348號(TCYH3151)"
+    "address": "411臺中市太平區中山路二段348號(TCYH3151)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

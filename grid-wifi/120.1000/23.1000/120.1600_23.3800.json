@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣布袋鎮衛生所",
     "lat": 23.381451,
     "lng": 120.167709,
-    "address": "625嘉義縣布袋鎮新厝里21號"
+    "address": "625嘉義縣布袋鎮新厝里21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人私立天主教中華聖母社會福利慈善事業基金會-龍江站",
     "lat": 23.386629,
     "lng": 120.169493,
-    "address": "625嘉義縣布袋鎮龍江里新厝仔300之1號"
+    "address": "625嘉義縣布袋鎮龍江里新厝仔300之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

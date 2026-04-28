@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄九如二路郵局",
     "lat": 22.641674,
     "lng": 120.293831,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市三民區第一戶政事務所",
     "lat": 22.64766,
     "lng": 120.299542,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中研院郵局",
     "lat": 25.043259,
     "lng": 121.616207,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局南港站候車室",
     "lat": 25.053277,
     "lng": 121.607047,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南港富康郵局",
     "lat": 25.053552,
     "lng": 121.616129,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局南港站2月台11車",
     "lat": 25.053704,
     "lng": 121.607065,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局南港站1月台9車",
     "lat": 25.053704,
     "lng": 121.607065,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南港郵局",
     "lat": 25.053867,
     "lng": 121.603417,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南港軟體園區郵局",
     "lat": 25.05784,
     "lng": 121.611783,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部工業局北區工業區管理處",
     "lat": 25.058303,
     "lng": 121.613953,

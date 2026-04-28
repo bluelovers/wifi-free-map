@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鹿谷郵局",
     "lat": 23.747306,
     "lng": 120.753065,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司鹿谷服務所大廳",
     "lat": 23.747974,
     "lng": 120.752599,

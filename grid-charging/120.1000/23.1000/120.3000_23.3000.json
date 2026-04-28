@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新營新進路郵局",
     "lat": 23.301442,
     "lng": 120.315325,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺南市政府警察局新營分局",
     "lat": 23.304773,
     "lng": 120.31764,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新營中山路郵局",
     "lat": 23.305135,
     "lng": 120.31791,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺南市政府警察局",
     "lat": 23.305286,
     "lng": 120.316295,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新營民生郵局",
     "lat": 23.305608,
     "lng": 120.308644,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司新營營運所",
     "lat": 23.307475,
     "lng": 120.317381,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新營民治路郵局",
     "lat": 23.310772,
     "lng": 120.317651,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司新營區處服務中心營業廳",
     "lat": 23.318472,
     "lng": 120.316524,

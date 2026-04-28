@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市烏來區忠治(桶壁)部落",
     "lat": 24.88369,
     "lng": 121.54846,
-    "address": "233新北市烏來區忠治16號"
+    "address": "233新北市烏來區忠治16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市新店區長春里辦公處",
     "lat": 24.884,
     "lng": 121.548,
-    "address": "231新北市新店區長春里10鄰新坡一街39號二樓"
+    "address": "231新北市新店區長春里10鄰新坡一街39號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市家庭照顧者關懷協會",
     "lat": 24.984369,
     "lng": 121.346909,
-    "address": "333桃園市龜山區福源里大同路356巷62弄59之1號"
+    "address": "333桃園市龜山區福源里大同路356巷62弄59之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龜山區兔坑社區發展協會",
     "lat": 24.988102,
     "lng": 121.357853,
-    "address": "333桃園市龜山區兔坑里大同路918號"
+    "address": "333桃園市龜山區兔坑里大同路918號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龜山區大同社區發展協會",
     "lat": 24.991378,
     "lng": 121.342193,
-    "address": "333桃園市龜山區大同里明德路203巷10號"
+    "address": "333桃園市龜山區大同里明德路203巷10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人桃園市社會服務關懷協會(龜山據點)",
     "lat": 24.995825,
     "lng": 121.343456,
-    "address": "333桃園市龜山區龜山里自強東路164號一樓"
+    "address": "333桃園市龜山區龜山里自強東路164號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司龜山服務所",
     "lat": 24.996427,
     "lng": 121.34039,
-    "address": "333桃園市龜山區光峰路2號"
+    "address": "333桃園市龜山區光峰路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃籽園文化協會",
     "lat": 24.998453,
     "lng": 121.340465,
-    "address": "333桃園市龜山區精忠里光峰路43號(眷村故事館)"
+    "address": "333桃園市龜山區精忠里光峰路43號(眷村故事館)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局龜山分隊",
     "lat": 24.998952,
     "lng": 121.344895,
-    "address": "333桃園市龜山區萬壽路二段639號"
+    "address": "333桃園市龜山區萬壽路二段639號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

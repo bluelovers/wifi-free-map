@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "玉山國家公園排雲登山服務中心",
     "lat": 23.48177,
     "lng": 120.886983,
-    "address": "556南投縣信義鄉同富村太平巷151號"
+    "address": "556南投縣信義鄉同富村太平巷151號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "塔塔加遊客中心",
     "lat": 23.487451,
     "lng": 120.891665,
-    "address": "556南投縣信義鄉同富村太平巷118號"
+    "address": "556南投縣信義鄉同富村太平巷118號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

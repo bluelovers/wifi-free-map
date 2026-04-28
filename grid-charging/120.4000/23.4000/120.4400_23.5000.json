@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通部公路總局嘉義區監理所嘉義市監理站-考驗大樓",
     "lat": 23.500399,
     "lng": 120.45354,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局嘉義區監理所嘉義市監理站",
     "lat": 23.50077,
     "lng": 120.452311,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義後湖郵局",
     "lat": 23.501086,
     "lng": 120.455124,

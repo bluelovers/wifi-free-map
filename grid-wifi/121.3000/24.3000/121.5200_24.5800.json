@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣大同鄉碼崙部落",
     "lat": 24.599049,
     "lng": 121.530032,
-    "address": "267宜蘭縣大同鄉碼崙46號"
+    "address": "267宜蘭縣大同鄉碼崙46號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大同衛生所-樂水村衛生室",
     "lat": 24.599607,
     "lng": 121.52938,
-    "address": "267宜蘭縣大同鄉樂水村碼崙路31號"
+    "address": "267宜蘭縣大同鄉樂水村碼崙路31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

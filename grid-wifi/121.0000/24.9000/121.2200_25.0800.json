@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園國際機場第一航廈巴士站北側",
     "lat": 25.0811,
     "lng": 121.237021,
-    "address": "337桃園市大園區航站南路15號"
+    "address": "337桃園市大園區航站南路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園國際機場第一航廈巴士站南側",
     "lat": 25.0811,
     "lng": 121.237021,
-    "address": "337桃園市大園區航站南路15號"
+    "address": "337桃園市大園區航站南路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園國際機場第一航廈出境大廳一樓北側",
     "lat": 25.0811,
     "lng": 121.237021,
-    "address": "337桃園市大園區航站南路15號"
+    "address": "337桃園市大園區航站南路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園國際機場第一航廈出境大廳一樓南側",
     "lat": 25.0811,
     "lng": 121.237021,
-    "address": "337桃園市大園區航站南路15號"
+    "address": "337桃園市大園區航站南路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園國際機場第一航廈出境大廳三樓北側",
     "lat": 25.0811,
     "lng": 121.237021,
-    "address": "337桃園市大園區航站南路15號"
+    "address": "337桃園市大園區航站南路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園國際機場第一航廈出境大廳三樓南側",
     "lat": 25.0811,
     "lng": 121.237021,
-    "address": "337桃園市大園區航站南路15號"
+    "address": "337桃園市大園區航站南路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園國際機場第一航廈接機大廳北側",
     "lat": 25.0811,
     "lng": 121.237021,
-    "address": "337桃園市大園區航站南路15號"
+    "address": "337桃園市大園區航站南路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園國際機場第一航廈接機大廳南側",
     "lat": 25.0811,
     "lng": 121.237021,
-    "address": "337桃園市大園區航站南路15號"
+    "address": "337桃園市大園區航站南路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局竹圍分隊",
     "lat": 25.093528,
     "lng": 121.231728,
-    "address": "337桃園市大園區竹圍村11鄰海方厝33之23號"
+    "address": "337桃園市大園區竹圍村11鄰海方厝33之23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

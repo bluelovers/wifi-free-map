@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永康六甲頂郵局",
     "lat": 23.022983,
     "lng": 120.217426,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南安順郵局",
     "lat": 23.034747,
     "lng": 120.213261,

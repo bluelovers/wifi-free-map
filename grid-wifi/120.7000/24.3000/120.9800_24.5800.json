@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗縣南庄鄉戶政事務所",
     "lat": 24.597692,
     "lng": 120.999408,
-    "address": "353苗栗縣南庄鄉東村4鄰大同路25號"
+    "address": "353苗栗縣南庄鄉東村4鄰大同路25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "南庄遊客中心",
     "lat": 24.598146,
     "lng": 120.999226,
-    "address": "353苗栗縣南庄鄉東村4鄰大同路43號"
+    "address": "353苗栗縣南庄鄉東村4鄰大同路43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣南庄鄉東村社區發展協會",
     "lat": 24.599916,
     "lng": 120.999597,
-    "address": "353苗栗縣南庄鄉東村12鄰27-1號"
+    "address": "353苗栗縣南庄鄉東村12鄰27-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣元長鄉崙仔社區發展協會",
     "lat": 23.601128,
     "lng": 120.353484,
-    "address": "655雲林縣元長鄉崙仔村安北65號"
+    "address": "655雲林縣元長鄉崙仔村安北65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

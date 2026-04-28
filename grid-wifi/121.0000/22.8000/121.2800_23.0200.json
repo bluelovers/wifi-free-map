@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣東河鄉公所北源村辦公處",
     "lat": 23.03135,
     "lng": 121.286477,
-    "address": "959臺東縣東河鄉北源村19鄰43號"
+    "address": "959臺東縣東河鄉北源村19鄰43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

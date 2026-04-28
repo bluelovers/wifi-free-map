@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣豐濱鄉磯崎村辦公處",
     "lat": 23.70897,
     "lng": 121.54734,
-    "address": "977花蓮縣豐濱鄉磯崎71號"
+    "address": "977花蓮縣豐濱鄉磯崎71號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

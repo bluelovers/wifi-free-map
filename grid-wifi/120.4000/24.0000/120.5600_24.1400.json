@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺中動物之家南屯園區",
     "lat": 24.147591,
     "lng": 120.575066,
-    "address": "408臺中市南屯區中台路601號"
+    "address": "408臺中市南屯區中台路601號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局臺中區監理所",
     "lat": 24.155106,
     "lng": 120.573258,
-    "address": "432臺中市大肚區遊園路一段2號"
+    "address": "432臺中市大肚區遊園路一段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局臺中區監理所第二辦公室",
     "lat": 24.156879,
     "lng": 120.572929,
-    "address": "432臺中市大肚區遊園路一段2號"
+    "address": "432臺中市大肚區遊園路一段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺中市立圖書館大肚瑞井分館",
     "lat": 24.158453,
     "lng": 120.568191,
-    "address": "432臺中市大肚區華山路700號"
+    "address": "432臺中市大肚區華山路700號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

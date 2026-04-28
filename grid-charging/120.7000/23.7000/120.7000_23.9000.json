@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局南投服務區客席區與服務台",
     "lat": 23.900158,
     "lng": 120.71088,

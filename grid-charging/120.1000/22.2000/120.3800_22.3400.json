@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "小琉球遊客中心",
     "lat": 22.354299,
     "lng": 120.381124,

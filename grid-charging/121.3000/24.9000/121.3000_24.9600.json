@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局新竹區監理所桃園監理站",
     "lat": 24.979028,
     "lng": 121.303168,

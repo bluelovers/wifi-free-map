@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "國軍退除役官兵輔導委員會臺東農場招待所",
     "lat": 23.11461,
     "lng": 121.199671,
-    "address": "958臺東縣池上鄉新興村104號"
+    "address": "958臺東縣池上鄉新興村104號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

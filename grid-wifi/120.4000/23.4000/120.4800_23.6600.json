@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局斗南站第2月台行車室",
     "lat": 23.672972,
     "lng": 120.480841,
-    "address": "630雲林縣斗南鎮南昌里中山路2號"
+    "address": "630雲林縣斗南鎮南昌里中山路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局斗南站候車室",
     "lat": 23.673208,
     "lng": 120.480739,
-    "address": "630雲林縣斗南鎮中山路2號"
+    "address": "630雲林縣斗南鎮中山路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "衛生福利部雲林教養院會客區",
     "lat": 23.673416,
     "lng": 120.490644,
-    "address": "630雲林縣斗南鎮忠孝路157號"
+    "address": "630雲林縣斗南鎮忠孝路157號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣聖心社會關懷協會-斗南據點",
     "lat": 23.675446,
     "lng": 120.481195,
-    "address": "630雲林縣斗南鎮東仁里新興街42號"
+    "address": "630雲林縣斗南鎮東仁里新興街42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

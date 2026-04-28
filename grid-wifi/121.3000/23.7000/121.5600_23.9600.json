@@ -1,154 +1,211 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司吉安壽豐服務所",
     "lat": 23.962064,
     "lng": 121.572024,
-    "address": "973花蓮縣吉安鄉稻香村16鄰稻香路8號"
+    "address": "973花蓮縣吉安鄉稻香村16鄰稻香路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣吉安鄉稻香國民小學",
     "lat": 23.963333,
     "lng": 121.569096,
-    "address": "973花蓮縣吉安鄉稻香村稻香路99號"
+    "address": "973花蓮縣吉安鄉稻香村稻香路99號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局吉安消防分隊",
     "lat": 23.966429,
     "lng": 121.574109,
-    "address": "973花蓮縣吉安鄉吉安路二段120號"
+    "address": "973花蓮縣吉安鄉吉安路二段120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局吉安站候車室",
     "lat": 23.970977,
     "lng": 121.577498,
-    "address": "973花蓮縣吉安鄉南昌路200號"
+    "address": "973花蓮縣吉安鄉南昌路200號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "吉安鄉客家產業交流中心",
     "lat": 23.972133,
     "lng": 121.56234,
-    "address": "973花蓮縣吉安鄉吉安路二段65號"
+    "address": "973花蓮縣吉安鄉吉安路二段65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "吉安鄉吉安路二段與吉昌一街口",
     "lat": 23.972586,
     "lng": 121.562871,
-    "address": "973花蓮縣吉安鄉吉安路二段102號"
+    "address": "973花蓮縣吉安鄉吉安路二段102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣吉安鄉公所",
     "lat": 23.972903,
     "lng": 121.561322,
-    "address": "973花蓮縣吉安鄉吉安村吉安路二段116號"
+    "address": "973花蓮縣吉安鄉吉安村吉安路二段116號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣吉安鄉民代表會",
     "lat": 23.97295,
     "lng": 121.56037,
-    "address": "973花蓮縣吉安鄉吉安村吉安路二段110號"
+    "address": "973花蓮縣吉安鄉吉安村吉安路二段110號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣吉安鄉戶政事務所",
     "lat": 23.973254,
     "lng": 121.563871,
-    "address": "970花蓮縣花蓮市府前路5號"
+    "address": "970花蓮縣花蓮市府前路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣吉安鄉吉安國民小學",
     "lat": 23.973264,
     "lng": 121.562959,
-    "address": "973花蓮縣吉安鄉吉安路二段97號"
+    "address": "973花蓮縣吉安鄉吉安路二段97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣吉安鄉公所吉安鄉立圖書館",
     "lat": 23.973289,
     "lng": 121.578069,
-    "address": "973花蓮縣吉安鄉吉安村中山路三段3號"
+    "address": "973花蓮縣吉安鄉吉安村中山路三段3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣吉安派出所",
     "lat": 23.97356,
     "lng": 121.56335,
-    "address": "973花蓮縣吉安鄉吉安村吉安路二段122號"
+    "address": "973花蓮縣吉安鄉吉安村吉安路二段122號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣吉安鄉宜昌活動中心(村里辦公處)",
     "lat": 23.973943,
     "lng": 121.579651,
-    "address": "973花蓮縣吉安鄉宜昌村吉祥九街19號"
+    "address": "973花蓮縣吉安鄉宜昌村吉祥九街19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣衛生局吉安鄉衛生所",
     "lat": 23.973948,
     "lng": 121.563662,
-    "address": "973花蓮縣吉安鄉吉安路二段132號"
+    "address": "973花蓮縣吉安鄉吉安路二段132號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "吉安鄉中興路與中興路355巷口",
     "lat": 23.974033,
     "lng": 121.564308,
-    "address": "973花蓮縣吉安鄉中興路355巷5號"
+    "address": "973花蓮縣吉安鄉中興路355巷5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "行政院農業委員會花蓮區農業改良場",
     "lat": 23.974839,
     "lng": 121.564106,
-    "address": "973花蓮縣吉安鄉吉安路二段150號"
+    "address": "973花蓮縣吉安鄉吉安路二段150號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "吉安郵局",
     "lat": 23.978419,
     "lng": 121.566677,
-    "address": "973花蓮縣吉安鄉慶豐村吉安路二段280號"
+    "address": "973花蓮縣吉安鄉慶豐村吉安路二段280號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "衛生福利部玉里醫院",
     "lat": 23.978678,
     "lng": 121.570661,
-    "address": "973花蓮縣吉安鄉慶豐村16鄰慶豐六街165號"
+    "address": "973花蓮縣吉安鄉慶豐村16鄰慶豐六街165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "吉安鄉吉安路一段與中山路三段口",
     "lat": 23.979281,
     "lng": 121.56742,
-    "address": "973花蓮縣吉安鄉中山路三段423號"
+    "address": "973花蓮縣吉安鄉中山路三段423號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

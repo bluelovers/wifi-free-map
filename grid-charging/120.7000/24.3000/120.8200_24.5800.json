@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗福星郵局",
     "lat": 24.585578,
     "lng": 120.825134,

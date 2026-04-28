@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "雙流森林遊樂區",
     "lat": 22.218298,
     "lng": 120.796115,
-    "address": "943屏東縣獅子鄉丹路村二巷23號"
+    "address": "943屏東縣獅子鄉丹路村二巷23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

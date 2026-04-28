@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鹿港彰濱郵局",
     "lat": 24.06557,
     "lng": 120.435687,
-    "address": "505彰化縣鹿港鎮鹿草路一段449號"
+    "address": "505彰化縣鹿港鎮鹿草路一段449號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

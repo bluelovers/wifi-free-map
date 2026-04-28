@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "霧台鄉憶智社區服務據點",
     "lat": 22.693168,
     "lng": 120.58103,
-    "address": "902屏東縣霧臺鄉百合路200號"
+    "address": "902屏東縣霧臺鄉百合路200號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣霧台鄉佳暮部落",
     "lat": 22.69353,
     "lng": 120.58218,
-    "address": "902屏東縣長治鄉霧台鄉百合路116號"
+    "address": "902屏東縣長治鄉霧台鄉百合路116號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣長治鄉頭前社區發展協會",
     "lat": 22.697483,
     "lng": 120.584771,
-    "address": "908屏東縣長治鄉繁華村繁華路171號"
+    "address": "908屏東縣長治鄉繁華村繁華路171號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣瑪家鄉美園部落",
     "lat": 22.6977,
     "lng": 120.59969,
-    "address": "903屏東縣瑪家鄉三和村美園4號-10"
+    "address": "903屏東縣瑪家鄉三和村美園4號-10",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

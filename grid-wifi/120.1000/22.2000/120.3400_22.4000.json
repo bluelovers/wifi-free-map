@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄榮民總醫院屏東分院護理之家",
     "lat": 22.403006,
     "lng": 120.355507,
-    "address": "912屏東縣內埔鄉龍潭村昭勝路安平1巷1號"
+    "address": "912屏東縣內埔鄉龍潭村昭勝路安平1巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄榮民總醫院屏東分院急診室",
     "lat": 22.403006,
     "lng": 120.355507,
-    "address": "912屏東縣內埔鄉龍潭村昭勝路安平1巷1號"
+    "address": "912屏東縣內埔鄉龍潭村昭勝路安平1巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄榮民總醫院屏東分院行政大樓",
     "lat": 22.403006,
     "lng": 120.355507,
-    "address": "912屏東縣內埔鄉龍潭村昭勝路安平1巷1號"
+    "address": "912屏東縣內埔鄉龍潭村昭勝路安平1巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄榮民總醫院屏東分院圖書室",
     "lat": 22.403006,
     "lng": 120.355507,
-    "address": "912屏東縣內埔鄉龍潭村昭勝路安平1巷1號"
+    "address": "912屏東縣內埔鄉龍潭村昭勝路安平1巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

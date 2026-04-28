@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "口湖植梧郵局",
     "lat": 23.546361,
     "lng": 120.19127,

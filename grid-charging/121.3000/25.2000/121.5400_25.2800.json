@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "老梅派出所",
     "lat": 25.289,
     "lng": 121.5456,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投中興郵局",
     "lat": 23.949518,
     "lng": 120.694397,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投縣政府警察局中興分局",
     "lat": 23.950363,
     "lng": 120.693546,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司南投區處服務中心營業廳",
     "lat": 23.956439,
     "lng": 120.681072,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部中部辦公室第一科服務台",
     "lat": 23.957895,
     "lng": 120.686604,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部中部辦公室第三科服務台",
     "lat": 23.957895,
     "lng": 120.686604,

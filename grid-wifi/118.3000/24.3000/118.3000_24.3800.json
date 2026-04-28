@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "金門古崗社區發展協會",
     "lat": 24.397906,
     "lng": 118.315732,
-    "address": "893金門縣金城鎮小古崗40-2號"
+    "address": "893金門縣金城鎮小古崗40-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "金門葉華成紀念館",
     "lat": 24.399332,
     "lng": 118.305787,
-    "address": "893金門縣金城鎮金門城51號"
+    "address": "893金門縣金城鎮金門城51號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "金門縣金城鎮古崗社區發展協會",
     "lat": 24.399931,
     "lng": 118.313045,
-    "address": "893金門縣金城鎮古城里大古崗2-2號"
+    "address": "893金門縣金城鎮古城里大古崗2-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

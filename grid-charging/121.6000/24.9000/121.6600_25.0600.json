@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "汐止南昌郵局",
     "lat": 25.068515,
     "lng": 121.663088,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "汐止建成郵局",
     "lat": 25.073,
     "lng": 121.663544,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "汐止保長坑郵局",
     "lat": 25.07391,
     "lng": 121.674551,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司汐止營運所",
     "lat": 25.079058,
     "lng": 121.671957,

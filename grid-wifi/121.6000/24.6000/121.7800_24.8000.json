@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣礁溪鄉二龍社區發展協會",
     "lat": 24.808547,
     "lng": 121.785242,
-    "address": "262宜蘭縣礁溪鄉二龍村淇武蘭路110號"
+    "address": "262宜蘭縣礁溪鄉二龍村淇武蘭路110號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

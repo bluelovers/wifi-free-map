@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人桃園市安平鎮庄文化協會",
     "lat": 24.905076,
     "lng": 121.190651,
-    "address": "324桃園市平鎮區鎮興里中興路平鎮段229號"
+    "address": "324桃園市平鎮區鎮興里中興路平鎮段229號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市楊梅區金龍社區發展協會",
     "lat": 24.914501,
     "lng": 121.186274,
-    "address": "326桃園市楊梅區金龍里中興路236之1號"
+    "address": "326桃園市楊梅區金龍里中興路236之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市立圖書館埔心分館",
     "lat": 24.915023,
     "lng": 121.186324,
-    "address": "326桃園市楊梅區中興路145號"
+    "address": "326桃園市楊梅區中興路145號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "楊梅埔心里郵局",
     "lat": 24.915627,
     "lng": 121.187892,
-    "address": "326桃園市楊梅區中興路25號"
+    "address": "326桃園市楊梅區中興路25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(楊梅分行)",
     "lat": 24.915943,
     "lng": 121.180673,
-    "address": "326桃園市楊梅區永美路385之1號"
+    "address": "326桃園市楊梅區永美路385之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣樂活服務發展協會(榮耀堂據點)",
     "lat": 24.916108,
     "lng": 121.183653,
-    "address": "326桃園市楊梅區光華里新興街125巷42號"
+    "address": "326桃園市楊梅區光華里新興街125巷42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "姜博文診所(楊梅1)",
     "lat": 24.917471,
     "lng": 121.186585,
-    "address": "326桃園市楊梅區仁美里福德街121巷4號1樓"
+    "address": "326桃園市楊梅區仁美里福德街121巷4號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局埔心站3樓補票房",
     "lat": 24.919588,
     "lng": 121.181313,
-    "address": "326桃園市楊梅區埔心里永美路208-1號3樓"
+    "address": "326桃園市楊梅區埔心里永美路208-1號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局埔心站第2月台行車室",
     "lat": 24.919588,
     "lng": 121.183502,
-    "address": "326桃園市楊梅區埔心里永美路208-1號"
+    "address": "326桃園市楊梅區埔心里永美路208-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投縣政府警察局集集分局德化派出所",
     "lat": 23.868257,
     "lng": 120.952334,

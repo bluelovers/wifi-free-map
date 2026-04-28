@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新店青潭郵局",
     "lat": 24.953348,
     "lng": 121.557597,
-    "address": "231新北市新店區郵政路1號"
+    "address": "231新北市新店區郵政路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人新北市中華基督教青潭浸信會",
     "lat": 24.953878,
     "lng": 121.554621,
-    "address": "231新北市新店區美潭里13鄰北宜路二段267巷2號"
+    "address": "231新北市新店區美潭里13鄰北宜路二段267巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

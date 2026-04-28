@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮田家樂社區發展協會",
     "lat": 23.722404,
     "lng": 120.68865,
-    "address": "557南投縣竹山鎮田子里田東路31號"
+    "address": "557南投縣竹山鎮田子里田東路31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "康能護理之家(竹山1)",
     "lat": 23.737825,
     "lng": 120.687141,
-    "address": "557南投縣竹山鎮頂林路369-9號"
+    "address": "557南投縣竹山鎮頂林路369-9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

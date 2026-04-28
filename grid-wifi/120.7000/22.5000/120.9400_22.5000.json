@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣太麻里鄉查拉密部落",
     "lat": 22.50852,
     "lng": 120.95704,
-    "address": "963臺東縣太麻里鄉多良村5鄰63號"
+    "address": "963臺東縣太麻里鄉多良村5鄰63號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中市全家便利商店和平東關路新谷關店(公話)",
     "lat": 24.202863,
     "lng": 121.005431,
-    "address": "424臺中市和平區東關路一段127號-1"
+    "address": "424臺中市和平區東關路一段127號-1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "和平谷關郵局",
     "lat": 24.203037,
     "lng": 121.005605,
-    "address": "424臺中市和平區博愛村東關路一段106號"
+    "address": "424臺中市和平區博愛村東關路一段106號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司谷關服務所大廳",
     "lat": 24.203083,
     "lng": 121.006535,
-    "address": "424臺中市和平區東關路一段121號"
+    "address": "424臺中市和平區東關路一段121號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "谷關遊客中心",
     "lat": 24.203206,
     "lng": 121.007124,
-    "address": "424臺中市和平區東關路一段102號"
+    "address": "424臺中市和平區東關路一段102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中市和平谷關形象商圈(遊客中心)",
     "lat": 24.203306,
     "lng": 121.006778,
-    "address": "424臺中市和平區東關路一段102號"
+    "address": "424臺中市和平區東關路一段102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司谷關訓練中心辦公大樓大廳川堂",
     "lat": 24.208651,
     "lng": 121.018556,
-    "address": "424臺中市和平區東關路一段臺電巷33號"
+    "address": "424臺中市和平區東關路一段臺電巷33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "路竹竹南郵局",
     "lat": 22.856529,
     "lng": 120.260868,

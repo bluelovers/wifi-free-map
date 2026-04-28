@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局嘉義區監理所東勢監理分站",
     "lat": 23.675846,
     "lng": 120.251543,
-    "address": "635雲林縣東勢鄉所前街5號"
+    "address": "635雲林縣東勢鄉所前街5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "東勢厝郵局",
     "lat": 23.675917,
     "lng": 120.252614,
-    "address": "635雲林縣東勢鄉東南村東勢西路32號"
+    "address": "635雲林縣東勢鄉東南村東勢西路32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣鄉土人文關懷協會-東南據點",
     "lat": 23.676032,
     "lng": 120.253437,
-    "address": "635雲林縣東勢鄉東南村富農北路33號/東榮路29-1號"
+    "address": "635雲林縣東勢鄉東南村富農北路33號/東榮路29-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

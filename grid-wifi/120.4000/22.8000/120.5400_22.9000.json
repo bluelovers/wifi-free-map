@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館美濃分館",
     "lat": 22.90007,
     "lng": 120.542439,
-    "address": "843高雄市美濃區中正路一段59號"
+    "address": "843高雄市美濃區中正路一段59號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "美濃郵局",
     "lat": 22.900599,
     "lng": 120.541827,
-    "address": "843高雄市美濃區中正路一段39號"
+    "address": "843高雄市美濃區中正路一段39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市旗山區南新社區發展協會",
     "lat": 22.908,
     "lng": 120.548,
-    "address": "842高雄市旗山區南洲里石岩巷1之1號"
+    "address": "842高雄市旗山區南洲里石岩巷1之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "衛生福利部南投啟智教養院",
     "lat": 23.849343,
     "lng": 120.701471,
-    "address": "551南投縣名間鄉仁和村山腳巷1-7號"
+    "address": "551南投縣名間鄉仁和村山腳巷1-7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

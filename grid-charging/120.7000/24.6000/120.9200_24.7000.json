@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹南頂埔郵局",
     "lat": 24.709328,
     "lng": 120.923933,

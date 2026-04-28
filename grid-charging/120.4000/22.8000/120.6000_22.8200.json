@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高樹郵局",
     "lat": 22.826293,
     "lng": 120.600523,

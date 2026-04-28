@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三重五常郵局",
     "lat": 25.081054,
     "lng": 121.49689,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市蘆洲戶政事務所-1_A",
     "lat": 25.08494,
     "lng": 121.481649,

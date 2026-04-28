@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣五峰鄉茅圃部落",
     "lat": 24.61627,
     "lng": 121.1028,
-    "address": "311新竹縣五峰鄉大隘村22鄰茅圃432號"
+    "address": "311新竹縣五峰鄉大隘村22鄰茅圃432號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣五峰鄉高峰部落",
     "lat": 24.61972,
     "lng": 121.10232,
-    "address": "311新竹縣五峰鄉大隘村19鄰茅圃372號"
+    "address": "311新竹縣五峰鄉大隘村19鄰茅圃372號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市大寮區上寮社區發展協會",
     "lat": 22.60048,
     "lng": 120.421711,
-    "address": "831高雄市大寮區上寮里上寮路140號"
+    "address": "831高雄市大寮區上寮里上寮路140號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

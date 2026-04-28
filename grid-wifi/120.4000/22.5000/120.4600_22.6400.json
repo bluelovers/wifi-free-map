@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣屏東市大洲社區發展協會",
     "lat": 22.641426,
     "lng": 120.463245,
-    "address": "900屏東縣屏東市大洲里大洲路188號"
+    "address": "900屏東縣屏東市大洲里大洲路188號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東頭前溪郵局",
     "lat": 22.648534,
     "lng": 120.464714,
-    "address": "900屏東縣屏東市前進里清進巷79-6號"
+    "address": "900屏東縣屏東市前進里清進巷79-6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣屏東市前進社區發展協會",
     "lat": 22.650888,
     "lng": 120.463935,
-    "address": "900屏東縣屏東市前進里清進路699號"
+    "address": "900屏東縣屏東市前進里清進路699號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東縣後備指揮部",
     "lat": 22.657809,
     "lng": 120.468069,
-    "address": "900屏東縣屏東市建國路239號"
+    "address": "900屏東縣屏東市建國路239號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "水利署第七河川局1樓服務台",
     "lat": 22.65845,
     "lng": 120.469308,
-    "address": "900屏東縣屏東市建國路291號"
+    "address": "900屏東縣屏東市建國路291號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

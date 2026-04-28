@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司深溝給水廠",
     "lat": 24.720609,
     "lng": 121.705835,

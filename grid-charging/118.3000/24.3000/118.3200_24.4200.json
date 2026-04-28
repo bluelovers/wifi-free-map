@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "金門郵局",
     "lat": 24.43296,
     "lng": 118.320387,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "梧棲大庄郵局",
     "lat": 24.248484,
     "lng": 120.538333,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市梧棲區戶政事務所",
     "lat": 24.254959,
     "lng": 120.533882,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "梧棲郵局",
     "lat": 24.2576,
     "lng": 120.52954,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣宜蘭市七張社區發展協會",
     "lat": 24.764193,
     "lng": 121.769568,
-    "address": "260宜蘭縣宜蘭市七張里七張路537號"
+    "address": "260宜蘭縣宜蘭市七張里七張路537號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

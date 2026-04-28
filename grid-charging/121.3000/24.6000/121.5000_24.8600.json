@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "烏來分駐所",
     "lat": 24.865,
     "lng": 121.5119,

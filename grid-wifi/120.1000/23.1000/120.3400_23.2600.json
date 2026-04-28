@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市柳營區果毅社區發展協會",
     "lat": 23.261,
     "lng": 120.358,
-    "address": "736臺南市柳營區果毅里61-1號"
+    "address": "736臺南市柳營區果毅里61-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

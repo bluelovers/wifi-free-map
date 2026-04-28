@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "綠島管理站",
     "lat": 22.667982,
     "lng": 121.468775,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "綠島郵局",
     "lat": 22.667982,
     "lng": 121.468775,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "古坑草嶺郵局",
     "lat": 23.584483,
     "lng": 120.694028,

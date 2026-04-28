@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "朴子(兼義竹)工業區服務中心-朴子",
     "lat": 23.438344,
     "lng": 120.247272,
-    "address": "613嘉義縣朴子市朴子工業區二街1號"
+    "address": "613嘉義縣朴子市朴子工業區二街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

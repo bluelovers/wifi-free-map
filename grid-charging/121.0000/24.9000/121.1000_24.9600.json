@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新屋郵局",
     "lat": 24.972488,
     "lng": 121.104466,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市新屋區戶政事務所",
     "lat": 24.972696,
     "lng": 121.106393,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局楊梅分局新屋分駐所",
     "lat": 24.972725,
     "lng": 121.106434,

@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "瑞芳四腳亭郵局",
     "lat": 25.100612,
     "lng": 121.761687,
-    "address": "224新北市瑞芳區鎮吉安里大埔路132-1號"
+    "address": "224新北市瑞芳區鎮吉安里大埔路132-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市瑞芳區吉安里辦公處",
     "lat": 25.101409,
     "lng": 121.764387,
-    "address": "224新北市瑞芳區吉安里6鄰大埔路23巷20之1號"
+    "address": "224新北市瑞芳區吉安里6鄰大埔路23巷20之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局四腳亭站候車室",
     "lat": 25.102726,
     "lng": 121.761886,
-    "address": "224新北市瑞芳區吉慶里中央路65號"
+    "address": "224新北市瑞芳區吉慶里中央路65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

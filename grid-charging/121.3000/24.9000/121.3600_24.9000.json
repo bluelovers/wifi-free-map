@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三峽大埔郵局",
     "lat": 24.911586,
     "lng": 121.366144,

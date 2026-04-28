@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局新竹區監理所",
     "lat": 24.822428,
     "lng": 121.077774,
-    "address": "305新竹縣新埔鎮文德路三段58號"
+    "address": "305新竹縣新埔鎮文德路三段58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "新竹縣新埔鎮立圖書館",
     "lat": 24.827326,
     "lng": 121.079539,
-    "address": "305新竹縣新埔鎮文化街142號"
+    "address": "305新竹縣新埔鎮文化街142號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣新埔鎮戶政事務所",
     "lat": 24.827511,
     "lng": 121.074529,
-    "address": "305新竹縣新埔鎮廣和路8號"
+    "address": "305新竹縣新埔鎮廣和路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新埔中正郵局",
     "lat": 24.827883,
     "lng": 121.075717,
-    "address": "305新竹縣新埔鎮中正路411號"
+    "address": "305新竹縣新埔鎮中正路411號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣新埔鎮公所",
     "lat": 24.82791,
     "lng": 121.071285,
-    "address": "305新竹縣新埔鎮中正路776號"
+    "address": "305新竹縣新埔鎮中正路776號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣新埔鎮衛生所",
     "lat": 24.828144,
     "lng": 121.071643,
-    "address": "305新竹縣新埔鎮新民里3鄰中正路758號"
+    "address": "305新竹縣新埔鎮新民里3鄰中正路758號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

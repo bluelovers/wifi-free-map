@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店豐原鎌村路鐮村店(公話)",
     "lat": 24.221829,
     "lng": 120.724804,
-    "address": "420臺中市豐原區鎌村路649號"
+    "address": "420臺中市豐原區鎌村路649號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市烏日區光明社區發展協會",
     "lat": 24.226,
     "lng": 120.727,
-    "address": "414臺中市烏日區光明里五光路復光四巷89號"
+    "address": "414臺中市烏日區光明里五光路復光四巷89號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商豐原鎌村路水豐店(公話)",
     "lat": 24.22602,
     "lng": 120.724313,
-    "address": "420臺中市豐原區鎌村路462號"
+    "address": "420臺中市豐原區鎌村路462號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "豐原鐮村郵局",
     "lat": 24.231346,
     "lng": 120.724611,
-    "address": "420臺中市豐原區鐮村里鐮村路169號"
+    "address": "420臺中市豐原區鐮村里鐮村路169號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市豐原區豐田社區發展協會",
     "lat": 24.238145,
     "lng": 120.721657,
-    "address": "420臺中市豐原區豐田里田心路二段272巷1號"
+    "address": "420臺中市豐原區豐田里田心路二段272巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商豐原豐原大道瑞慶店(公話)",
     "lat": 24.239135,
     "lng": 120.727257,
-    "address": "420臺中市豐原區豐原大道三段261號"
+    "address": "420臺中市豐原區豐原大道三段261號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

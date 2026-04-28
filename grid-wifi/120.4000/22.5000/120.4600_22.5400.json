@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新園郵局",
     "lat": 22.54059,
     "lng": 120.460196,
-    "address": "932屏東縣新園鄉仙吉村仙吉路40號"
+    "address": "932屏東縣新園鄉仙吉村仙吉路40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東縣東港戶政事務所新園辦公室",
     "lat": 22.543582,
     "lng": 120.46159,
-    "address": "932屏東縣新園鄉仙吉路142號"
+    "address": "932屏東縣新園鄉仙吉路142號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣新園鄉健康營造協會",
     "lat": 22.5436,
     "lng": 120.460911,
-    "address": "932屏東縣新園鄉仙吉村仙吉路89之2號"
+    "address": "932屏東縣新園鄉仙吉村仙吉路89之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣新園鄉瓦磘社區發展協會",
     "lat": 22.551571,
     "lng": 120.473593,
-    "address": "932屏東縣新園鄉瓦嗂村後厝路16號之13"
+    "address": "932屏東縣新園鄉瓦嗂村後厝路16號之13",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

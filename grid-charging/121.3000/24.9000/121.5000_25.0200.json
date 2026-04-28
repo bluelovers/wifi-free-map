@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北螢橋郵局",
     "lat": 25.0246,
     "lng": 121.517365,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北青年郵局",
     "lat": 25.024862,
     "lng": 121.508163,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部商業司民眾服務大廳",
     "lat": 25.027897,
     "lng": 121.516849,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北龍口郵局",
     "lat": 25.029124,
     "lng": 121.511537,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北莒光郵局",
     "lat": 25.031387,
     "lng": 121.501124,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司台北直銷中心",
     "lat": 25.031393,
     "lng": 121.507302,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北史博館郵局",
     "lat": 25.031454,
     "lng": 121.511227,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "郵政博物館",
     "lat": 25.031731,
     "lng": 121.514696,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北南海郵局",
     "lat": 25.03182,
     "lng": 121.514701,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部國際貿易局2樓廠商服務區",
     "lat": 25.033153,
     "lng": 121.514748,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "投審會5樓辦公區",
     "lat": 25.033561,
     "lng": 121.517937,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "投審會8樓辦公區",
     "lat": 25.033561,
     "lng": 121.517937,
@@ -85,6 +97,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北南門郵局",
     "lat": 25.034924,
     "lng": 121.510324,
@@ -92,6 +105,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺服務中心",
     "lat": 25.035884,
     "lng": 121.507635,
@@ -99,6 +113,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺",
     "lat": 25.036052,
     "lng": 121.507629,
@@ -106,6 +121,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北龍山郵局",
     "lat": 25.036602,
     "lng": 121.504592,
@@ -113,6 +129,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北老松郵局",
     "lat": 25.038131,
     "lng": 121.504126,
@@ -120,6 +137,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "國史館郵局",
     "lat": 25.039177,
     "lng": 121.51098,

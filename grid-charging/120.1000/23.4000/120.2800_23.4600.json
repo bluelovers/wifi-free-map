@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "朴子長庚醫院郵局",
     "lat": 23.462333,
     "lng": 120.285942,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台糖公司嘉義區處總務課辦公室",
     "lat": 23.479446,
     "lng": 120.299717,

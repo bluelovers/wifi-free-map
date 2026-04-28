@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "清水南社郵局",
     "lat": 24.271913,
     "lng": 120.558172,

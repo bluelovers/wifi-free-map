@@ -1,170 +1,233 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "馬祖WiFi加值_津沙西邊山週邊",
     "lat": 26.152096,
     "lng": 119.953369,
-    "address": "209連江縣南竿鄉津沙村西邊山防空洞"
+    "address": "209連江縣南竿鄉津沙村西邊山防空洞",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣介壽澳口公園東側",
     "lat": 26.154867,
     "lng": 119.950658,
-    "address": "209連江縣南竿鄉介壽村(MT-1030交接箱)"
+    "address": "209連江縣南竿鄉介壽村(MT-1030交接箱)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "連江縣南竿鄉鐵板社區發展協會",
     "lat": 26.155,
     "lng": 119.955,
-    "address": "209連江縣南竿鄉仁愛村馬祖59之1號"
+    "address": "209連江縣南竿鄉仁愛村馬祖59之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "連江縣公車總站(山隴)",
     "lat": 26.155433,
     "lng": 119.951672,
-    "address": "209連江縣南竿鄉介壽村347-1號"
+    "address": "209連江縣南竿鄉介壽村347-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "福建連江地方法院檢察署1F",
     "lat": 26.155438,
     "lng": 119.954052,
-    "address": "209連江縣南竿鄉復興村210號"
+    "address": "209連江縣南竿鄉復興村210號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "連江縣介壽村活動中心(室內)",
     "lat": 26.155464,
     "lng": 119.951765,
-    "address": "209連江縣南竿鄉介壽村156號"
+    "address": "209連江縣南竿鄉介壽村156號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "連江縣介壽村活動中心(戶外)",
     "lat": 26.155464,
     "lng": 119.951765,
-    "address": "209連江縣南竿鄉介壽村156號"
+    "address": "209連江縣南竿鄉介壽村156號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "馬祖WiFi加值_獅子市場二樓",
     "lat": 26.15553,
     "lng": 119.951341,
-    "address": "209連江縣南竿鄉介壽村獅子市場"
+    "address": "209連江縣南竿鄉介壽村獅子市場",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "馬祖WiFi加值_縣立醫院(一樓家醫科侯診大廳)",
     "lat": 26.15553,
     "lng": 119.951341,
-    "address": "209連江縣南竿鄉復興村217號"
+    "address": "209連江縣南竿鄉復興村217號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣枕戈待旦紀念公園",
     "lat": 26.156384,
     "lng": 119.940237,
-    "address": "209連江縣南竿鄉福沃村139號"
+    "address": "209連江縣南竿鄉福沃村139號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣蔬菜公園北側",
     "lat": 26.156478,
     "lng": 119.951715,
-    "address": "209連江縣南竿鄉介壽村(MT-2010交接箱)"
+    "address": "209連江縣南竿鄉介壽村(MT-2010交接箱)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行馬祖分行",
     "lat": 26.157056,
     "lng": 119.94984,
-    "address": "209連江縣南竿鄉介壽村257號"
+    "address": "209連江縣南竿鄉介壽村257號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署北基宜花金馬分署連江就業服務站洽公櫃台",
     "lat": 26.15748,
     "lng": 119.954303,
-    "address": "209連江縣南竿鄉介壽村76號"
+    "address": "209連江縣南竿鄉介壽村76號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "馬祖WiFi加值_福沃村社區發展協會",
     "lat": 26.15763,
     "lng": 119.944114,
-    "address": "209連江縣南竿鄉福沃村58號"
+    "address": "209連江縣南竿鄉福沃村58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "連江縣南竿機場(戶外)",
     "lat": 26.157643,
     "lng": 119.955229,
-    "address": "209連江縣南竿鄉復興村220號"
+    "address": "209連江縣南竿鄉復興村220號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣蔬菜公園南側",
     "lat": 26.157727,
     "lng": 119.952175,
-    "address": "209連江縣南竿鄉介壽村(MT-2020交接箱)"
+    "address": "209連江縣南竿鄉介壽村(MT-2020交接箱)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "連江縣政府B1簡報廳",
     "lat": 26.157903,
     "lng": 119.95185,
-    "address": "209連江縣南竿鄉介壽村76號B1"
+    "address": "209連江縣南竿鄉介壽村76號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "馬祖郵局",
     "lat": 26.158625,
     "lng": 119.950551,
-    "address": "209連江縣南竿鄉介壽村文化路258號"
+    "address": "209連江縣南竿鄉介壽村文化路258號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "馬祖WiFi加值_縣立醫院一樓急診室",
     "lat": 26.158917,
     "lng": 119.949781,
-    "address": "209連江縣南竿鄉復興村217號"
+    "address": "209連江縣南竿鄉復興村217號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "馬祖WiFi加值_珠螺活動中心周邊",
     "lat": 26.159389,
     "lng": 119.942769,
-    "address": "209連江縣南竿鄉珠螺村49號"
+    "address": "209連江縣南竿鄉珠螺村49號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣福沃運動場",
     "lat": 26.159434,
     "lng": 119.944537,
-    "address": "209連江縣南竿鄉福澳村運動台"
+    "address": "209連江縣南竿鄉福澳村運動台",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

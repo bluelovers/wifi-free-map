@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣草屯鎮平林社區發展協會",
     "lat": 23.991133,
     "lng": 120.764291,
-    "address": "542南投縣草屯鎮平林里健行路65巷31號"
+    "address": "542南投縣草屯鎮平林里健行路65巷31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

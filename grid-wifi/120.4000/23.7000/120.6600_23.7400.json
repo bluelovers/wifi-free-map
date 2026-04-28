@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣私立迦南居家式長期照顧服務機構(硘磘)",
     "lat": 23.74693,
     "lng": 120.675823,
-    "address": "557南投縣竹山鎮鯉南路99-1號"
+    "address": "557南投縣竹山鎮鯉南路99-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投林區管理處竹山工作站",
     "lat": 23.749551,
     "lng": 120.678915,
-    "address": "557南投縣竹山鎮鯉南路21號"
+    "address": "557南投縣竹山鎮鯉南路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣竹山地政事務所",
     "lat": 23.750031,
     "lng": 120.679364,
-    "address": "557南投縣竹山鎮鯉南路23號"
+    "address": "557南投縣竹山鎮鯉南路23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "東華醫院(中山)",
     "lat": 23.750449,
     "lng": 120.67581,
-    "address": "557南投縣竹山鎮新生路346號"
+    "address": "557南投縣竹山鎮新生路346號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "私立東華居家式長期照顧服務機構(竹山1)",
     "lat": 23.750449,
     "lng": 120.67581,
-    "address": "557南投縣竹山鎮中山里新生路346號1樓"
+    "address": "557南投縣竹山鎮中山里新生路346號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "東華醫院(中崎)",
     "lat": 23.75744,
     "lng": 120.668689,
-    "address": "557南投縣竹山鎮中崎里集山路三段1392號"
+    "address": "557南投縣竹山鎮中崎里集山路三段1392號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部中區國稅局竹山稽徵所",
     "lat": 23.758161,
     "lng": 120.67185,
-    "address": "557南投縣竹山鎮雲林里公所路106號"
+    "address": "557南投縣竹山鎮雲林里公所路106號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

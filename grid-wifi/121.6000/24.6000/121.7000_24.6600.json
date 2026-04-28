@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局大隱派出所",
     "lat": 24.667304,
     "lng": 121.700812,
-    "address": "266宜蘭縣三星鄉三星路二段350號"
+    "address": "266宜蘭縣三星鄉三星路二段350號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣三星鄉大隱社區發展協會",
     "lat": 24.668715,
     "lng": 121.714697,
-    "address": "266宜蘭縣三星鄉大隱村三星路一段533巷50號"
+    "address": "266宜蘭縣三星鄉大隱村三星路一段533巷50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣長期照護及社會福祉推廣協會(三星)",
     "lat": 24.668971,
     "lng": 121.705912,
-    "address": "266宜蘭縣三星鄉大隱村三星路二段97之1號"
+    "address": "266宜蘭縣三星鄉大隱村三星路二段97之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣三星鄉大隱國小教學大樓二樓牆面朝大隱中路",
     "lat": 24.671354,
     "lng": 121.713409,
-    "address": "266宜蘭縣三星鄉大隱中路347號"
+    "address": "266宜蘭縣三星鄉大隱中路347號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

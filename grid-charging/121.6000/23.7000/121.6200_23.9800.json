@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮港務局郵局",
     "lat": 23.983275,
     "lng": 121.621662,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局花蓮分局商檢/計量業務民眾洽公區",
     "lat": 23.989836,
     "lng": 121.632952,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮府前路郵局",
     "lat": 23.990471,
     "lng": 121.621856,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮縣花蓮市戶政事務所",
     "lat": 23.990912,
     "lng": 121.627333,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮下美崙郵局",
     "lat": 23.993752,
     "lng": 121.631117,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺花蓮分臺",
     "lat": 23.994006,
     "lng": 121.620346,

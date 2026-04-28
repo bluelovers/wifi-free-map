@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣尖石鄉石磊部落",
     "lat": 24.65525,
     "lng": 121.32689,
-    "address": "313新竹縣尖石鄉玉峰村石磊10鄰54號"
+    "address": "313新竹縣尖石鄉玉峰村石磊10鄰54號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

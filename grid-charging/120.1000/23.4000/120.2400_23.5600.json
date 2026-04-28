@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水林郵局",
     "lat": 23.572558,
     "lng": 120.246152,

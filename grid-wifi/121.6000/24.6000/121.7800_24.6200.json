@@ -1,114 +1,156 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣冬山鄉香和社區發展協會",
     "lat": 24.628801,
     "lng": 121.797626,
-    "address": "269宜蘭縣冬山鄉香和村香南路33號"
+    "address": "269宜蘭縣冬山鄉香和村香南路33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣長期照護及社會福祉推廣協會(冬瓜山)",
     "lat": 24.630077,
     "lng": 121.793293,
-    "address": "269宜蘭縣冬山鄉南興村照安路56號"
+    "address": "269宜蘭縣冬山鄉南興村照安路56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣冬山鄉南興社區發展協會",
     "lat": 24.633076,
     "lng": 121.794619,
-    "address": "269宜蘭縣冬山鄉南興村冬山路98之2號"
+    "address": "269宜蘭縣冬山鄉南興村冬山路98之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣冬山鄉冬山國小活動中心面向香南路",
     "lat": 24.633189,
     "lng": 121.790314,
-    "address": "269宜蘭縣冬山鄉安中路35號"
+    "address": "269宜蘭縣冬山鄉安中路35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "冬山郵局",
     "lat": 24.634404,
     "lng": 121.791616,
-    "address": "269宜蘭縣冬山鄉南興村10鄰冬山路177號"
+    "address": "269宜蘭縣冬山鄉南興村10鄰冬山路177號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "冬山鄉公所-2F會議室",
     "lat": 24.634506,
     "lng": 121.792181,
-    "address": "269宜蘭縣冬山鄉冬山路100號"
+    "address": "269宜蘭縣冬山鄉冬山路100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "冬山鄉公所-村里聯合辦公室",
     "lat": 24.634506,
     "lng": 121.792181,
-    "address": "269宜蘭縣冬山鄉冬山路100號"
+    "address": "269宜蘭縣冬山鄉冬山路100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局冬山分駐所",
     "lat": 24.634802,
     "lng": 121.79033,
-    "address": "269宜蘭縣冬山鄉冬山路168號"
+    "address": "269宜蘭縣冬山鄉冬山路168號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "冬山鄉圖書館-2F服務台旁",
     "lat": 24.636007,
     "lng": 121.791298,
-    "address": "269宜蘭縣冬山鄉冬山村中正路20號火車站)"
+    "address": "269宜蘭縣冬山鄉冬山村中正路20號火車站)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "冬山鄉圖書館-2F滅火器上方",
     "lat": 24.636007,
     "lng": 121.791298,
-    "address": "269宜蘭縣冬山鄉冬山村中正路20號火車站)"
+    "address": "269宜蘭縣冬山鄉冬山村中正路20號火車站)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣冬山鄉冬瓜山社區發展協會",
     "lat": 24.63601,
     "lng": 121.79139,
-    "address": "269宜蘭縣冬山鄉冬山村中正路20號"
+    "address": "269宜蘭縣冬山鄉冬山村中正路20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "冬山鄉衛生所",
     "lat": 24.636098,
     "lng": 121.791521,
-    "address": "269宜蘭縣冬山鄉中正路16號"
+    "address": "269宜蘭縣冬山鄉中正路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局冬山站候車室大廳",
     "lat": 24.636418,
     "lng": 121.792001,
-    "address": "269宜蘭縣冬山鄉冬山村中正路1-1號"
+    "address": "269宜蘭縣冬山鄉冬山村中正路1-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局冬山站第2月台候車區",
     "lat": 24.636715,
     "lng": 121.792187,
-    "address": "269宜蘭縣冬山鄉冬山村中正路1-2號"
+    "address": "269宜蘭縣冬山鄉冬山村中正路1-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市政府消防局第四大隊部",
     "lat": 23.117086,
     "lng": 120.270564,
-    "address": "741臺南市善化區南科九路20號1樓"
+    "address": "741臺南市善化區南科九路20號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

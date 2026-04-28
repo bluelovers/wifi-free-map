@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東頭前溪郵局",
     "lat": 22.648534,
     "lng": 120.464714,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署第七河川局1樓服務台",
     "lat": 22.65845,
     "lng": 120.469308,

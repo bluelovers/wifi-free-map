@@ -1,122 +1,167 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "朝陽社區銀髮健身俱樂部",
     "lat": 24.46136,
     "lng": 121.81592,
-    "address": "270宜蘭縣蘇澳鎮朝陽路40號2樓"
+    "address": "270宜蘭縣蘇澳鎮朝陽路40號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣蘇澳鎮朝陽社區發展協會",
     "lat": 24.461472,
     "lng": 121.815814,
-    "address": "270宜蘭縣蘇澳鎮朝陽里6鄰朝陽路40號"
+    "address": "270宜蘭縣蘇澳鎮朝陽里6鄰朝陽路40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局南澳站候車室",
     "lat": 24.463402,
     "lng": 121.801018,
-    "address": "270宜蘭縣蘇澳鎮南強里大通路22號"
+    "address": "270宜蘭縣蘇澳鎮南強里大通路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "私立天主教弘道仁愛之家",
     "lat": 24.464625,
     "lng": 121.80019,
-    "address": "272宜蘭縣南澳鄉蘇花路2段251號"
+    "address": "272宜蘭縣南澳鄉蘇花路2段251號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣蘇澳鎮蓬萊國小辦公室大樓二樓樓面",
     "lat": 24.46508,
     "lng": 121.803489,
-    "address": "270宜蘭縣蘇澳鎮南澳路85號"
+    "address": "270宜蘭縣蘇澳鎮南澳路85號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南澳郵局",
     "lat": 24.465192,
     "lng": 121.802246,
-    "address": "272宜蘭縣南澳鄉蘇花路二段351號"
+    "address": "272宜蘭縣南澳鄉蘇花路二段351號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南澳消防分隊",
     "lat": 24.465451,
     "lng": 121.80304,
-    "address": "272宜蘭縣南澳鄉蘇花路二段365號"
+    "address": "272宜蘭縣南澳鄉蘇花路二段365號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局南澳分駐所",
     "lat": 24.465599,
     "lng": 121.803355,
-    "address": "272宜蘭縣南澳鄉南澳村蘇花路二段373號"
+    "address": "272宜蘭縣南澳鄉南澳村蘇花路二段373號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南澳鄉衛生所",
     "lat": 24.465666,
     "lng": 121.803478,
-    "address": "272宜蘭縣南澳鄉蘇花路二段375號"
+    "address": "272宜蘭縣南澳鄉蘇花路二段375號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南澳鄉公所-1F左",
     "lat": 24.465881,
     "lng": 121.803768,
-    "address": "272宜蘭縣南澳鄉蘇花路二段381號"
+    "address": "272宜蘭縣南澳鄉蘇花路二段381號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南澳鄉公所-1F右",
     "lat": 24.465881,
     "lng": 121.803768,
-    "address": "272宜蘭縣南澳鄉蘇花路二段381號"
+    "address": "272宜蘭縣南澳鄉蘇花路二段381號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "南澳鄉圖書館-2FA",
     "lat": 24.466052,
     "lng": 121.803719,
-    "address": "272宜蘭縣南澳鄉蘇花路二段381號3樓"
+    "address": "272宜蘭縣南澳鄉蘇花路二段381號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "南澳鄉圖書館-2FB",
     "lat": 24.466052,
     "lng": 121.803719,
-    "address": "272宜蘭縣南澳鄉蘇花路二段381號3樓"
+    "address": "272宜蘭縣南澳鄉蘇花路二段381號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南澳鄉戶政事務所",
     "lat": 24.467209,
     "lng": 121.805763,
-    "address": "272宜蘭縣南澳鄉蘇花路二段431號"
+    "address": "272宜蘭縣南澳鄉蘇花路二段431號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣南澳鄉各姆姆部落",
     "lat": 24.46746,
     "lng": 121.80183,
-    "address": "272宜蘭縣南澳鄉南澳村中正路25號"
+    "address": "272宜蘭縣南澳鄉南澳村中正路25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

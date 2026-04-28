@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹縣橫山鄉戶政事務所",
     "lat": 24.716769,
     "lng": 121.141369,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "橫山郵局",
     "lat": 24.717602,
     "lng": 121.14015,

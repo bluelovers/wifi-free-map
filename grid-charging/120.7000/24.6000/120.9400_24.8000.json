@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹南勢郵局",
     "lat": 24.804859,
     "lng": 120.949455,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹文雅郵局",
     "lat": 24.811517,
     "lng": 120.956692,

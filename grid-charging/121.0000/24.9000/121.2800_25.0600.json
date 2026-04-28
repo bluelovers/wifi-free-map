@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市蘆竹區戶政事務所",
     "lat": 25.063967,
     "lng": 121.281059,

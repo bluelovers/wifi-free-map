@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "文山興隆路郵局",
     "lat": 25.000705,
     "lng": 121.548897,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台灣科大郵局",
     "lat": 25.01307,
     "lng": 121.541598,

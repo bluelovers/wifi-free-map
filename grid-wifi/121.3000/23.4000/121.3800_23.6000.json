@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣大富派出所",
     "lat": 23.605884,
     "lng": 121.392487,
-    "address": "976花蓮縣光復鄉中正路一段23號"
+    "address": "976花蓮縣光復鄉中正路一段23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣光復鄉大富國民小學",
     "lat": 23.607998,
     "lng": 121.391587,
-    "address": "976花蓮縣光復鄉大富村明德路29巷12號"
+    "address": "976花蓮縣光復鄉大富村明德路29巷12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

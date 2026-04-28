@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人桃園市蘆竹區新莊社區發展協會",
     "lat": 25.024165,
     "lng": 121.248855,
-    "address": "338桃園市蘆竹區新莊里大新路417之5號"
+    "address": "338桃園市蘆竹區新莊里大新路417之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "慶成診所",
     "lat": 25.02467,
     "lng": 121.255919,
-    "address": "338桃園市蘆竹區大竹里大新路107號2樓"
+    "address": "338桃園市蘆竹區大竹里大新路107號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣宥青愛心關懷協會(新園村)",
     "lat": 22.521363,
     "lng": 120.453483,
-    "address": "932屏東縣新園鄉新園村港崗路116號"
+    "address": "932屏東縣新園鄉新園村港崗路116號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣新園鄉園東關懷協會",
     "lat": 22.526242,
     "lng": 120.457553,
-    "address": "932屏東縣新園鄉新東村平和路166號"
+    "address": "932屏東縣新園鄉新東村平和路166號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

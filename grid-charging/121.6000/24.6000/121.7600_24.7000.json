@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局二結站候車室",
     "lat": 24.705301,
     "lng": 121.77418,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "五結二結郵局",
     "lat": 24.705875,
     "lng": 121.767511,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司台中區處服務中心營業廳",
     "lat": 24.141638,
     "lng": 120.684021,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中公園路郵局",
     "lat": 24.142064,
     "lng": 120.684845,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中進化路郵局",
     "lat": 24.147056,
     "lng": 120.694553,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司台中服務所",
     "lat": 24.15016,
     "lng": 120.688441,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司總管理處",
     "lat": 24.150843,
     "lng": 120.688156,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中育才郵局",
     "lat": 24.151011,
     "lng": 120.684916,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中力行路郵局",
     "lat": 24.151107,
     "lng": 120.695716,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中雙十路郵局",
     "lat": 24.157109,
     "lng": 120.690357,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中健行路郵局",
     "lat": 24.159322,
     "lng": 120.686133,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "歸仁郵局",
     "lat": 22.966703,
     "lng": 120.294595,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司歸仁服務所",
     "lat": 22.966828,
     "lng": 120.293887,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "歸仁南保郵局",
     "lat": 22.970971,
     "lng": 120.287057,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄高分院郵局",
     "lat": 22.66137,
     "lng": 120.299085,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄凹仔底郵局",
     "lat": 22.664411,
     "lng": 120.298522,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄瑞豐郵局",
     "lat": 22.664832,
     "lng": 120.291959,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市鼓山區戶政事務所第二辦公處",
     "lat": 22.667799,
     "lng": 120.289907,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄前峰郵局",
     "lat": 22.668007,
     "lng": 120.286247,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "左營果貿郵局",
     "lat": 22.671349,
     "lng": 120.28998,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "左營華夏路郵局",
     "lat": 22.673046,
     "lng": 120.298877,

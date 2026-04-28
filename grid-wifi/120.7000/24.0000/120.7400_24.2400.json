@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "[目前暫停使用施工中]臺中市立圖書館豐原南嵩分館",
     "lat": 24.255042,
     "lng": 120.744705,
-    "address": "420臺中市豐原區水源路17巷2號"
+    "address": "420臺中市豐原區水源路17巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商豐原水源路葫蘆墩店(公話)",
     "lat": 24.255612,
     "lng": 120.741483,
-    "address": "420臺中市豐原區水源路127號之1"
+    "address": "420臺中市豐原區水源路127號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "豐原漆藝館",
     "lat": 24.255671,
     "lng": 120.745797,
-    "address": "420臺中市豐原區水源路1-1號"
+    "address": "420臺中市豐原區水源路1-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車豐原高中站",
     "lat": 24.255801,
     "lng": 120.741246,
-    "address": "420臺中市豐原區水源路162號"
+    "address": "420臺中市豐原區水源路162號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

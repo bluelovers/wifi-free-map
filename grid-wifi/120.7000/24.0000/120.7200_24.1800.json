@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台中市厝邊關懷協會(仁愛之家)",
     "lat": 24.184065,
     "lng": 120.720083,
-    "address": "406臺中市北屯區軍功里軍功路二段490號"
+    "address": "406臺中市北屯區軍功里軍功路二段490號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

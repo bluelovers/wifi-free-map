@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣造橋鄉錦水社區發展協會",
     "lat": 24.606239,
     "lng": 120.890669,
-    "address": "361苗栗縣造橋鄉錦水村4鄰錦水31號"
+    "address": "361苗栗縣造橋鄉錦水村4鄰錦水31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

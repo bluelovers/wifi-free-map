@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "汐止翠柏郵局",
     "lat": 25.112439,
     "lng": 121.602571,

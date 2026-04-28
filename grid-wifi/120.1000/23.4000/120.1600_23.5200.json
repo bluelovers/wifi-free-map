@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣家園關懷協會-湖口據點",
     "lat": 23.534041,
     "lng": 120.161758,
-    "address": "653雲林縣口湖鄉湖口村湖口127號"
+    "address": "653雲林縣口湖鄉湖口村湖口127號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,1970 +1,2708 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "客庄生活館-愛的經緯度",
     "lat": 25.020224,
     "lng": 121.524083,
-    "address": "100臺北市中正區汀州路三段2號(陸橋燈桿上)"
+    "address": "100臺北市中正區汀州路三段2號(陸橋燈桿上)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "客家文化主題公園(師大)-E-師大路",
     "lat": 25.020639,
     "lng": 121.524411,
-    "address": "100臺北市中正區師大路192號對面候車亭"
+    "address": "100臺北市中正區師大路192號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運台電大樓站-N-羅斯福路三段",
     "lat": 25.020648,
     "lng": 121.528495,
-    "address": "106臺北市大安區羅斯福路三段138號對面候車亭"
+    "address": "106臺北市大安區羅斯福路三段138號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺大綜合體育館-N1-新生南路三段",
     "lat": 25.021277,
     "lng": 121.534422,
-    "address": "106臺北市大安區新生南路三段42號對面候車亭"
+    "address": "106臺北市大安區新生南路三段42號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺灣菸酒景美訓練教室4樓",
     "lat": 25.021383,
     "lng": 121.527115,
-    "address": "116臺北市文山區羅斯福路六段142巷13號4樓"
+    "address": "116臺北市文山區羅斯福路六段142巷13號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺灣菸酒景美訓練教室5樓",
     "lat": 25.021403,
     "lng": 121.527115,
-    "address": "116臺北市文山區羅斯福路六段142巷13號5樓"
+    "address": "116臺北市文山區羅斯福路六段142巷13號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "溫州街口-N-辛亥路一段",
     "lat": 25.021403,
     "lng": 121.531688,
-    "address": "106臺北市大安區辛亥路一段120號候車亭"
+    "address": "106臺北市大安區辛亥路一段120號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺大綜合體育館-S-新生南路三段",
     "lat": 25.021486,
     "lng": 121.534116,
-    "address": "106臺北市大安區新生南路三段40號旁候車亭"
+    "address": "106臺北市大安區新生南路三段40號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "紀州庵新館3F人文講臺門口",
     "lat": 25.021537,
     "lng": 121.520721,
-    "address": "100臺北市中正區同安街107號"
+    "address": "100臺北市中正區同安街107號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "紀州庵新館2F多功能展演廳門口",
     "lat": 25.021543,
     "lng": 121.520703,
-    "address": "100臺北市中正區同安街107號"
+    "address": "100臺北市中正區同安街107號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "台大綜合體育館-S-新生南路三段",
     "lat": 25.021557,
     "lng": 121.53416,
-    "address": "106臺北市大安區新生南路三段40號旁候車亭"
+    "address": "106臺北市大安區新生南路三段40號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "紀州庵新館1F文創書店櫃台前",
     "lat": 25.021558,
     "lng": 121.520653,
-    "address": "100臺北市中正區同安街107號"
+    "address": "100臺北市中正區同安街107號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區龍坡里辦公處",
     "lat": 25.022,
     "lng": 121.532,
-    "address": "106臺北市大安區龍坡里辛亥路一段臨141號"
+    "address": "106臺北市大安區龍坡里辛亥路一段臨141號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行古亭分行",
     "lat": 25.022038,
     "lng": 121.527002,
-    "address": "106臺北市大安區羅斯福路三段125號"
+    "address": "106臺北市大安區羅斯福路三段125號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市大安區古風社區發展協會",
     "lat": 25.022177,
     "lng": 121.530854,
-    "address": "106臺北市大安區古風里師大路117巷1號"
+    "address": "106臺北市大安區古風里師大路117巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安辛亥區民活動中心1F門口",
     "lat": 25.022266,
     "lng": 121.5324,
-    "address": "106臺北市大安區辛亥路一段141號1F"
+    "address": "106臺北市大安區辛亥路一段141號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新民國小-W-辛亥路一段",
     "lat": 25.02229,
     "lng": 121.532033,
-    "address": "106臺北市大安區辛亥路一段133號旁候車亭"
+    "address": "106臺北市大安區辛亥路一段133號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館王貫英先生紀念圖書館2F兒童閱覽區",
     "lat": 25.022395,
     "lng": 121.52393,
-    "address": "100臺北市中正區汀州路二段265號2F"
+    "address": "100臺北市中正區汀州路二段265號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館王貫英先生紀念圖書館1F期刊區入口",
     "lat": 25.022439,
     "lng": 121.52395,
-    "address": "100臺北市中正區汀州路二段265號1F"
+    "address": "100臺北市中正區汀州路二段265號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館王貫英先生紀念圖書館3F筆電區",
     "lat": 25.02244,
     "lng": 121.523968,
-    "address": "100臺北市中正區汀州路二段265號3F"
+    "address": "100臺北市中正區汀州路二段265號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館王貫英先生紀念圖書館2F新移民閱覽區",
     "lat": 25.022465,
     "lng": 121.523857,
-    "address": "100臺北市中正區汀州路二段265號2F"
+    "address": "100臺北市中正區汀州路二段265號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館王貫英先生紀念圖書館3F自修區",
     "lat": 25.022474,
     "lng": 121.52394,
-    "address": "100臺北市中正區汀州路二段265號3F"
+    "address": "100臺北市中正區汀州路二段265號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市大安區古莊里辦公處",
     "lat": 25.023345,
     "lng": 121.525908,
-    "address": "106臺北市大安區古莊里浦城街十六巷1之2號二樓"
+    "address": "106臺北市大安區古莊里浦城街十六巷1之2號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "行政院人事行政總處公務人力發展中心圖書館閱覽區",
     "lat": 25.023508,
     "lng": 121.534312,
-    "address": "106臺北市大安區新生南路三段30號"
+    "address": "106臺北市大安區新生南路三段30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "行政院人事行政總處公務人力發展中心1樓大廳服務台",
     "lat": 25.023508,
     "lng": 121.534312,
-    "address": "106臺北市大安區新生南路三段30號"
+    "address": "106臺北市大安區新生南路三段30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "行政院人事行政總處公務人力發展中心1樓前瞻廳外廳",
     "lat": 25.023508,
     "lng": 121.534312,
-    "address": "106臺北市大安區新生南路三段30號"
+    "address": "106臺北市大安區新生南路三段30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "行政院人事行政總處公務人力發展中心2樓卓越堂外廳",
     "lat": 25.023508,
     "lng": 121.534312,
-    "address": "106臺北市大安區新生南路三段30號"
+    "address": "106臺北市大安區新生南路三段30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "行政院人事行政總處公務人力發展中心3樓卓越堂外廳",
     "lat": 25.023508,
     "lng": 121.534312,
-    "address": "106臺北市大安區新生南路三段30號"
+    "address": "106臺北市大安區新生南路三段30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台大郵局",
     "lat": 25.023592,
     "lng": 121.524778,
-    "address": "106臺北市大安區羅斯福路四段1號"
+    "address": "106臺北市大安區羅斯福路四段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北古亭郵局",
     "lat": 25.023675,
     "lng": 121.524711,
-    "address": "100臺北市中正區南昌路二段232號"
+    "address": "100臺北市中正區南昌路二段232號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華民國紅十字會臺灣省分會",
     "lat": 25.024222,
     "lng": 121.534447,
-    "address": "106臺北市大安區龍坡里新生南路三段20號四樓"
+    "address": "106臺北市大安區龍坡里新生南路三段20號四樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "龍門國中-S-建國南路二段",
     "lat": 25.024234,
     "lng": 121.537315,
-    "address": "106臺北市大安區建國南路二段304號候車亭"
+    "address": "106臺北市大安區建國南路二段304號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "龍門國中-N-建國南路二段",
     "lat": 25.024354,
     "lng": 121.537956,
-    "address": "106臺北市大安區建國南路二段269號旁(龍門國中)候車亭"
+    "address": "106臺北市大安區建國南路二段269號旁(龍門國中)候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "龍安國小-S-新生南路三段",
     "lat": 25.024705,
     "lng": 121.534561,
-    "address": "106臺北市大安區新生南路三段14之1號候車亭"
+    "address": "106臺北市大安區新生南路三段14之1號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(古亭分行)",
     "lat": 25.025007,
     "lng": 121.524344,
-    "address": "106臺北市大安區羅斯福路二段95號"
+    "address": "106臺北市大安區羅斯福路二段95號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "經濟部中小企業處馬上解決問題中心服務櫃台區",
     "lat": 25.025026,
     "lng": 121.524344,
-    "address": "106臺北市大安區羅斯福路二段95號3樓"
+    "address": "106臺北市大安區羅斯福路二段95號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "經濟部中小企業處會議室區",
     "lat": 25.025036,
     "lng": 121.524344,
-    "address": "106臺北市大安區羅斯福路二段95號3樓"
+    "address": "106臺北市大安區羅斯福路二段95號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "龍安國小-N-新生南路三段",
     "lat": 25.025191,
     "lng": 121.534909,
-    "address": "106臺北市大安區新生南路三段11號旁候車亭"
+    "address": "106臺北市大安區新生南路三段11號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區古莊社區發展協會",
     "lat": 25.02535,
     "lng": 121.524741,
-    "address": "106臺北市大安區古莊里6鄰羅斯福路二段81巷16弄1之2號二樓"
+    "address": "106臺北市大安區古莊里6鄰羅斯福路二段81巷16弄1之2號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "經濟部中小企業處2樓會議室區",
     "lat": 25.0255,
     "lng": 121.524,
-    "address": "106臺北市大安區羅斯福路二段91號2樓"
+    "address": "106臺北市大安區羅斯福路二段91號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "經濟部中小企業處3樓洽公區",
     "lat": 25.0255,
     "lng": 121.524,
-    "address": "106臺北市大安區羅斯福路二段95號3樓"
+    "address": "106臺北市大安區羅斯福路二段95號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "龍門國中(和平)-E-和平東路二段",
     "lat": 25.025503,
     "lng": 121.538504,
-    "address": "106臺北市大安區和平東路二段60號候車亭"
+    "address": "106臺北市大安區和平東路二段60號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行和平分行",
     "lat": 25.025577,
     "lng": 121.53983,
-    "address": "106臺北市大安區和平東路二段93號"
+    "address": "106臺北市大安區和平東路二段93號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "龍門國中(和平)-W-和平東路二段",
     "lat": 25.025595,
     "lng": 121.539131,
-    "address": "106臺北市大安區和平東路二段68號對面候車亭"
+    "address": "106臺北市大安區和平東路二段68號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大安森林公園-E-和平東路二段",
     "lat": 25.025772,
     "lng": 121.536255,
-    "address": "106臺北市大安區和平東路二段22號候車亭"
+    "address": "106臺北市大安區和平東路二段22號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大安森林公園-W-和平東路二段",
     "lat": 25.025932,
     "lng": 121.536324,
-    "address": "106臺北市大安區和平東路二段20號對面候車亭"
+    "address": "106臺北市大安區和平東路二段20號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北師大郵局",
     "lat": 25.025971,
     "lng": 121.527457,
-    "address": "106臺北市大安區和平東路一段162號"
+    "address": "106臺北市大安區和平東路一段162號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "溫州街口-N-和平東路一段",
     "lat": 25.026127,
     "lng": 121.533056,
-    "address": "106臺北市大安區和平東路一段256號旁候車亭"
+    "address": "106臺北市大安區和平東路一段256號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "大安區行政大樓8F社會課綜合受理櫃檯5號櫃臺前",
     "lat": 25.026209,
     "lng": 121.534529,
-    "address": "106臺北市大安區新生南路二段86號8F"
+    "address": "106臺北市大安區新生南路二段86號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安區行政大樓8F民政課中央柱子旁",
     "lat": 25.02623,
     "lng": 121.534482,
-    "address": "106臺北市大安區新生南路二段86號8F"
+    "address": "106臺北市大安區新生南路二段86號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安區行政大樓9F副區長室門口",
     "lat": 25.026234,
     "lng": 121.534604,
-    "address": "106臺北市大安區新生南路二段86號9F"
+    "address": "106臺北市大安區新生南路二段86號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安區行政大樓10F大禮堂內側靠門口",
     "lat": 25.026234,
     "lng": 121.534604,
-    "address": "106臺北市大安區新生南路二段86號10F"
+    "address": "106臺北市大安區新生南路二段86號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行和平分行",
     "lat": 25.026261,
     "lng": 121.52958,
-    "address": "106臺北市大安區和平東路一段180號"
+    "address": "106臺北市大安區和平東路一段180號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "大安區行政大樓9F經建課櫃檯前",
     "lat": 25.026269,
     "lng": 121.534674,
-    "address": "106臺北市大安區新生南路二段86號9F"
+    "address": "106臺北市大安區新生南路二段86號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "師大綜合大樓-E-和平東路一段",
     "lat": 25.026405,
     "lng": 121.530039,
-    "address": "106臺北市大安區106臺北市大安區和平東路一段184號候車亭"
+    "address": "106臺北市大安區106臺北市大安區和平東路一段184號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部臺北國稅局大安分局7樓民眾服務區",
     "lat": 25.02642,
     "lng": 121.534511,
-    "address": "106臺北市大安區新生南路二段86號7樓"
+    "address": "106臺北市大安區新生南路二段86號7樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部臺北國稅局大安分局4樓民眾服務區",
     "lat": 25.02642,
     "lng": 121.534511,
-    "address": "106臺北市大安區新生南路二段86號4樓"
+    "address": "106臺北市大安區新生南路二段86號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安區行政大樓稅捐處大安分處3F北側辦公區走廊到中央",
     "lat": 25.02642,
     "lng": 121.534511,
-    "address": "106臺北市大安區新生南路二段86號3F"
+    "address": "106臺北市大安區新生南路二段86號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安區行政大樓大安戶政2F走廊到人事室門口",
     "lat": 25.026445,
     "lng": 121.53438,
-    "address": "106臺北市大安區新生南路二段86號2F"
+    "address": "106臺北市大安區新生南路二段86號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國家教育研究院1、2樓",
     "lat": 25.026447,
     "lng": 121.532898,
-    "address": "106臺北市大安區和平東路一段179-181號"
+    "address": "106臺北市大安區和平東路一段179-181號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "大安區行政大樓大安戶政1F綜合受理櫃檯6號櫃臺前",
     "lat": 25.026535,
     "lng": 121.534413,
-    "address": "106臺北市大安區新生南路二段86號1F"
+    "address": "106臺北市大安區新生南路二段86號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "大安區行政大樓稅捐處大安分處3F娛樂稅服務臺4號櫃臺前",
     "lat": 25.026535,
     "lng": 121.534413,
-    "address": "106臺北市大安區新生南路二段86號3F"
+    "address": "106臺北市大安區新生南路二段86號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南福板溪(南昌公園)-E-和平西路一段",
     "lat": 25.026582,
     "lng": 121.520431,
-    "address": "100臺北市中正區和平西路一段36號旁候車亭"
+    "address": "100臺北市中正區和平西路一段36號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北青田郵局",
     "lat": 25.026618,
     "lng": 121.53114,
-    "address": "106臺北市大安區和平東路一段155號"
+    "address": "106臺北市大安區和平東路一段155號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "師大綜合大樓-W-和平東路一段",
     "lat": 25.026619,
     "lng": 121.530027,
-    "address": "106臺北市大安區和平東路一段129號旁候車亭"
+    "address": "106臺北市大安區和平東路一段129號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "師大-E-和平東路一段",
     "lat": 25.026625,
     "lng": 121.527683,
-    "address": "106臺北市大安區和平東路一段162號候車亭"
+    "address": "106臺北市大安區和平東路一段162號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "大安區行政大樓大安戶政1F綜合受理櫃檯6號櫃臺前",
     "lat": 25.026647,
     "lng": 121.534459,
-    "address": "106臺北市大安區新生南路二段86號1F"
+    "address": "106臺北市大安區新生南路二段86號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安區行政大樓大安戶政2F走廊到檔案室門口",
     "lat": 25.026709,
     "lng": 121.534573,
-    "address": "106臺北市大安區新生南路二段86號2F"
+    "address": "106臺北市大安區新生南路二段86號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-7號公廁-入口處",
     "lat": 25.026766,
     "lng": 121.53629,
-    "address": "106臺北市大安區新生南路二段1號(7號公廁口東北方燈桿)"
+    "address": "106臺北市大安區新生南路二段1號(7號公廁口東北方燈桿)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "師大-W-和平東路一段",
     "lat": 25.026811,
     "lng": 121.527883,
-    "address": "106臺北市大安區和平東路一段125號候車亭"
+    "address": "106臺北市大安區和平東路一段125號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運古亭站(和平)-E-和平東路一段",
     "lat": 25.026976,
     "lng": 121.524668,
-    "address": "106臺北市大安區和平東路一段76號候車亭"
+    "address": "106臺北市大安區和平東路一段76號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "法務部行政執行署2F民眾洽公區",
     "lat": 25.026976,
     "lng": 121.52692,
-    "address": "106臺北市大安區和平東路一段115號2樓"
+    "address": "106臺北市大安區和平東路一段115號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安錦安二區民活動中心B2F門口",
     "lat": 25.027133,
     "lng": 121.527457,
-    "address": "106臺北市大安區和平東路一段121號B2F"
+    "address": "106臺北市大安區和平東路一段121號B2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運古亭站(和平)-W-和平東路一段",
     "lat": 25.027173,
     "lng": 121.523217,
-    "address": "106臺北市大安區和平東路一段29號候車亭"
+    "address": "106臺北市大安區和平東路一段29號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安錦安二區民活動中心B2F教室門口",
     "lat": 25.027205,
     "lng": 121.527471,
-    "address": "106臺北市大安區和平東路一段121號B2F"
+    "address": "106臺北市大安區和平東路一段121號B2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南昌家具街-S-南昌路二段",
     "lat": 25.027337,
     "lng": 121.520387,
-    "address": "100臺北市中正區南昌路二段65號對面候車亭"
+    "address": "100臺北市中正區南昌路二段65號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "文化部-蒙藏文化館(1、2、3樓)",
     "lat": 25.02786,
     "lng": 121.53126,
-    "address": "106臺北市大安區青田街8巷3號"
+    "address": "106臺北市大安區青田街8巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-1號公廁後方",
     "lat": 25.02787,
     "lng": 121.535356,
-    "address": "106臺北市大安區新生南路二段1號"
+    "address": "106臺北市大安區新生南路二段1號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-5號涼亭",
     "lat": 25.028088,
     "lng": 121.537043,
-    "address": "106臺北市大安區新生南路二段1號(5號涼亭旁燈桿)"
+    "address": "106臺北市大安區新生南路二段1號(5號涼亭旁燈桿)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區錦華里辦公處",
     "lat": 25.028207,
     "lng": 121.522947,
-    "address": "106臺北市大安區錦華里杭州南路2段93巷1號1-1樓/潮州街68號"
+    "address": "106臺北市大安區錦華里杭州南路2段93巷1號1-1樓/潮州街68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行金山分行",
     "lat": 25.028286,
     "lng": 121.526371,
-    "address": "106臺北市大安區金山南路二段189號"
+    "address": "106臺北市大安區金山南路二段189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館龍安民眾閱覽室3F自修室中央",
     "lat": 25.028539,
     "lng": 121.529378,
-    "address": "106臺北市大安區永康街60號3F"
+    "address": "106臺北市大安區永康街60號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區錦町社區發展協會",
     "lat": 25.028544,
     "lng": 121.527575,
-    "address": "106臺北市大安區錦安里潮州街130巷3號一樓"
+    "address": "106臺北市大安區錦安里潮州街130巷3號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "錦安市場1F靠近永康街",
     "lat": 25.028567,
     "lng": 121.529457,
-    "address": "106臺北市大安區永康街60號1F"
+    "address": "106臺北市大安區永康街60號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館龍安民眾閱覽室2F期刊區",
     "lat": 25.028567,
     "lng": 121.529457,
-    "address": "106臺北市大安區永康街60號2F"
+    "address": "106臺北市大安區永康街60號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安錦安區民活動中心4F中央",
     "lat": 25.028572,
     "lng": 121.529362,
-    "address": "106臺北市大安區永康街60號4F"
+    "address": "106臺北市大安區永康街60號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館10F會議室",
     "lat": 25.028606,
     "lng": 121.53815,
-    "address": "106臺北市大安區建國南路二段125號10F"
+    "address": "106臺北市大安區建國南路二段125號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "金山潮州街口-N-金山南路二段",
     "lat": 25.028638,
     "lng": 121.526349,
-    "address": "106臺北市大安區金山南路二段175號候車亭"
+    "address": "106臺北市大安區金山南路二段175號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館10F會議廳",
     "lat": 25.028667,
     "lng": 121.538172,
-    "address": "106臺北市大安區建國南路二段125號10F"
+    "address": "106臺北市大安區建國南路二段125號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行台北南門分行",
     "lat": 25.028688,
     "lng": 121.521644,
-    "address": "106臺北市大安區羅斯福路二段11號"
+    "address": "106臺北市大安區羅斯福路二段11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀南台北分行",
     "lat": 25.028788,
     "lng": 121.521543,
-    "address": "100臺北市中正區羅斯福路二段9-1號"
+    "address": "100臺北市中正區羅斯福路二段9-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館6F自修區西北",
     "lat": 25.028834,
     "lng": 121.538322,
-    "address": "106臺北市大安區建國南路二段125號6F"
+    "address": "106臺北市大安區建國南路二段125號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館B2F演講廳東北側",
     "lat": 25.028889,
     "lng": 121.538162,
-    "address": "106臺北市大安區建國南路二段125號B2F"
+    "address": "106臺北市大安區建國南路二段125號B2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館1F學習E樂園",
     "lat": 25.028889,
     "lng": 121.538162,
-    "address": "106臺北市大安區建國南路二段125號1F"
+    "address": "106臺北市大安區建國南路二段125號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館4F採編課",
     "lat": 25.028889,
     "lng": 121.538162,
-    "address": "106臺北市大安區建國南路二段125號4F"
+    "address": "106臺北市大安區建國南路二段125號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館4F閱覽區西南",
     "lat": 25.028889,
     "lng": 121.538162,
-    "address": "106臺北市大安區建國南路二段125號4F"
+    "address": "106臺北市大安區建國南路二段125號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館5F閱覽區西北",
     "lat": 25.028889,
     "lng": 121.538162,
-    "address": "106臺北市大安區建國南路二段125號5F"
+    "address": "106臺北市大安區建國南路二段125號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館7F人事室東側走廊",
     "lat": 25.028889,
     "lng": 121.538162,
-    "address": "106臺北市大安區建國南路二段125號7F"
+    "address": "106臺北市大安區建國南路二段125號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館B1F學齡兒童讀物區",
     "lat": 25.028894,
     "lng": 121.538151,
-    "address": "106臺北市大安區建國南路二段125號B1F"
+    "address": "106臺北市大安區建國南路二段125號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館B1F藝廊",
     "lat": 25.028894,
     "lng": 121.538151,
-    "address": "106臺北市大安區建國南路二段125號B1F"
+    "address": "106臺北市大安區建國南路二段125號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館8F服務臺",
     "lat": 25.028894,
     "lng": 121.538151,
-    "address": "106臺北市大安區建國南路二段125號8F"
+    "address": "106臺北市大安區建國南路二段125號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館10F會議廳外走廊",
     "lat": 25.028894,
     "lng": 121.538151,
-    "address": "106臺北市大安區建國南路二段125號10F"
+    "address": "106臺北市大安區建國南路二段125號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館11F臺北市樂齡學習示範中心",
     "lat": 25.028894,
     "lng": 121.538151,
-    "address": "106臺北市大安區建國南路二段125號11F"
+    "address": "106臺北市大安區建國南路二段125號11F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館11F研習教室",
     "lat": 25.028894,
     "lng": 121.538151,
-    "address": "106臺北市大安區建國南路二段125號11F"
+    "address": "106臺北市大安區建國南路二段125號11F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-5號公廁-入口處",
     "lat": 25.028918,
     "lng": 121.537139,
-    "address": "106臺北市大安區新生南路二段1號(5號公廁外牆)"
+    "address": "106臺北市大安區新生南路二段1號(5號公廁外牆)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館B1F服務臺",
     "lat": 25.028944,
     "lng": 121.538132,
-    "address": "106臺北市大安區建國南路二段125號B1F"
+    "address": "106臺北市大安區建國南路二段125號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館8F視聽資料閱覽區西南",
     "lat": 25.028944,
     "lng": 121.538132,
-    "address": "106臺北市大安區建國南路二段125號8F"
+    "address": "106臺北市大安區建國南路二段125號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行東門分行",
     "lat": 25.029029,
     "lng": 121.52654,
-    "address": "106臺北市大安區金山南路二段165號1~3樓"
+    "address": "106臺北市大安區金山南路二段165號1~3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館B2F演講廳東南側",
     "lat": 25.029057,
     "lng": 121.538321,
-    "address": "106臺北市大安區建國南路二段125號B2F"
+    "address": "106臺北市大安區建國南路二段125號B2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館B2F資料檢索區",
     "lat": 25.029067,
     "lng": 121.53833,
-    "address": "106臺北市大安區建國南路二段125號B2F"
+    "address": "106臺北市大安區建國南路二段125號B2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館B2F演講廳西側",
     "lat": 25.029067,
     "lng": 121.53833,
-    "address": "106臺北市大安區建國南路二段125號B2F"
+    "address": "106臺北市大安區建國南路二段125號B2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區大安新龍社區發展協會",
     "lat": 25.029082,
     "lng": 121.538945,
-    "address": "106臺北市大安區新龍里臺北市信義路3段134巷98號1樓,臺北市信義路3段134巷82號2樓"
+    "address": "106臺北市大安區新龍里臺北市信義路3段134巷98號1樓,臺北市信義路3段134巷82號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館9F影印區",
     "lat": 25.029152,
     "lng": 121.537982,
-    "address": "106臺北市大安區建國南路二段125號9F"
+    "address": "106臺北市大安區建國南路二段125號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館7F館長室前方",
     "lat": 25.029157,
     "lng": 121.538325,
-    "address": "106臺北市大安區建國南路二段125號7F"
+    "address": "106臺北市大安區建國南路二段125號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館B1F吳大猷書房",
     "lat": 25.029161,
     "lng": 121.538205,
-    "address": "106臺北市大安區建國南路二段125號B1F"
+    "address": "106臺北市大安區建國南路二段125號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館4F閱覽區東北",
     "lat": 25.029161,
     "lng": 121.538205,
-    "address": "106臺北市大安區建國南路二段125號4F"
+    "address": "106臺北市大安區建國南路二段125號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館6F自修區東南",
     "lat": 25.029161,
     "lng": 121.538205,
-    "address": "106臺北市大安區建國南路二段125號6F"
+    "address": "106臺北市大安區建國南路二段125號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館7F資訊室",
     "lat": 25.029161,
     "lng": 121.538205,
-    "address": "106臺北市大安區建國南路二段125號7F"
+    "address": "106臺北市大安區建國南路二段125號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館7F秘書室",
     "lat": 25.029161,
     "lng": 121.538205,
-    "address": "106臺北市大安區建國南路二段125號7F"
+    "address": "106臺北市大安區建國南路二段125號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館B2F兒童說故事室",
     "lat": 25.029161,
     "lng": 121.538417,
-    "address": "106臺北市大安區建國南路二段125號B2F"
+    "address": "106臺北市大安區建國南路二段125號B2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館1F推廣課",
     "lat": 25.029161,
     "lng": 121.538417,
-    "address": "106臺北市大安區建國南路二段125號1F"
+    "address": "106臺北市大安區建國南路二段125號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館5F閱覽區東南",
     "lat": 25.029161,
     "lng": 121.538417,
-    "address": "106臺北市大安區建國南路二段125號5F"
+    "address": "106臺北市大安區建國南路二段125號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館4F筆記型電腦區",
     "lat": 25.0292,
     "lng": 121.538331,
-    "address": "106臺北市大安區建國南路二段125號4F"
+    "address": "106臺北市大安區建國南路二段125號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會林務局羅東林區管理處台北工作站",
     "lat": 25.029252,
     "lng": 121.524748,
-    "address": "106臺北市大安區潮州街61-3號3樓"
+    "address": "106臺北市大安區潮州街61-3號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館B2F閱覽室",
     "lat": 25.029252,
     "lng": 121.538332,
-    "address": "106臺北市大安區建國南路二段125號B2F"
+    "address": "106臺北市大安區建國南路二段125號B2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館2F中外文期刊區",
     "lat": 25.029252,
     "lng": 121.538332,
-    "address": "106臺北市大安區建國南路二段125號2F"
+    "address": "106臺北市大安區建國南路二段125號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館2F中文期刊區",
     "lat": 25.029252,
     "lng": 121.538332,
-    "address": "106臺北市大安區建國南路二段125號2F"
+    "address": "106臺北市大安區建國南路二段125號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館8F視聽資料閱覽區東側",
     "lat": 25.029265,
     "lng": 121.538082,
-    "address": "106臺北市大安區建國南路二段125號8F"
+    "address": "106臺北市大安區建國南路二段125號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館1F閱覽典藏課",
     "lat": 25.029304,
     "lng": 121.538333,
-    "address": "106臺北市大安區建國南路二段125號1F"
+    "address": "106臺北市大安區建國南路二段125號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區新龍里辦公處",
     "lat": 25.029389,
     "lng": 121.539235,
-    "address": "106臺北市大安區新龍里信義路三段134巷82號二樓"
+    "address": "106臺北市大安區新龍里信義路三段134巷82號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館8F辦公室外",
     "lat": 25.029409,
     "lng": 121.538335,
-    "address": "106臺北市大安區建國南路二段125號8F"
+    "address": "106臺北市大安區建國南路二段125號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館總館3F外文參考資料區",
     "lat": 25.029417,
     "lng": 121.538132,
-    "address": "106臺北市大安區建國南路二段125號3F"
+    "address": "106臺北市大安區建國南路二段125號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-2號公廁-入口處",
     "lat": 25.029481,
     "lng": 121.535209,
-    "address": "106臺北市大安區新生南路二段1號(2號公廁外牆)"
+    "address": "106臺北市大安區新生南路二段1號(2號公廁外牆)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安建南區民活動中心2F門口左側",
     "lat": 25.029489,
     "lng": 121.539301,
-    "address": "106臺北市大安區信義路三段134巷82號2F"
+    "address": "106臺北市大安區信義路三段134巷82號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大安國宅-N-建國南路二段",
     "lat": 25.029695,
     "lng": 121.53807,
-    "address": "106臺北市大安區建國南路二段117號對面候車亭"
+    "address": "106臺北市大安區建國南路二段117號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人臺北市松年長春社會福利基金會(284)",
     "lat": 25.03,
     "lng": 121.52,
-    "address": "100臺北市中正區南福里羅斯福路一段94號十一樓(中央教會)"
+    "address": "100臺北市中正區南福里羅斯福路一段94號十一樓(中央教會)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區福住里辦公處",
     "lat": 25.030045,
     "lng": 121.530137,
-    "address": "106臺北市大安區福住里永康街47巷10之1號一樓"
+    "address": "106臺北市大安區福住里永康街47巷10之1號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處青年所大安分隊辦公室",
     "lat": 25.030083,
     "lng": 121.535363,
-    "address": "106臺北市大安區新生南路二段1號B1F"
+    "address": "106臺北市大安區新生南路二段1號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處青年所大安分隊綠化教室",
     "lat": 25.030083,
     "lng": 121.535363,
-    "address": "106臺北市大安區新生南路二段1號B1F"
+    "address": "106臺北市大安區新生南路二段1號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-音樂臺-戶外座位區左側",
     "lat": 25.030113,
     "lng": 121.535561,
-    "address": "106臺北市大安區新生南路二段1號(音樂臺左側)"
+    "address": "106臺北市大安區新生南路二段1號(音樂臺左側)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-音樂臺-戶外座位區右側",
     "lat": 25.03022,
     "lng": 121.535501,
-    "address": "106臺北市大安區新生南路二段1號(音樂臺右側)"
+    "address": "106臺北市大安區新生南路二段1號(音樂臺右側)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "金華新生路口-N-新生南路二段",
     "lat": 25.030446,
     "lng": 121.533838,
-    "address": "106臺北市大安區新生南路二段、金華街口東南側(新生南路236號對面大安森林公園側)"
+    "address": "106臺北市大安區新生南路二段、金華街口東南側(新生南路236號對面大安森林公園側)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "公企中心-S-金山南路二段",
     "lat": 25.030535,
     "lng": 121.526545,
-    "address": "106臺北市大安區金山南路二段86號旁候車亭"
+    "address": "106臺北市大安區金山南路二段86號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區永康里辦公處",
     "lat": 25.030562,
     "lng": 121.528419,
-    "address": "106臺北市大安區永康里金華街199巷3弄6號一樓"
+    "address": "106臺北市大安區永康里金華街199巷3弄6號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "公企中心-N-金山南路二段",
     "lat": 25.030632,
     "lng": 121.526771,
-    "address": "106臺北市大安區金山南路二段109號候車亭"
+    "address": "106臺北市大安區金山南路二段109號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "潮州街口-N-杭州南路二段",
     "lat": 25.03068,
     "lng": 121.522271,
-    "address": "106臺北市大安區杭州南路二段61之1號旁候車亭"
+    "address": "106臺北市大安區杭州南路二段61之1號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-3號公廁-入口處",
     "lat": 25.030737,
     "lng": 121.534501,
-    "address": "106臺北市大安區新生南路二段1號(3號公廁外牆)"
+    "address": "106臺北市大安區新生南路二段1號(3號公廁外牆)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-帳蓬區",
     "lat": 25.030742,
     "lng": 121.535893,
-    "address": "106臺北市大安區新生南路二段1號"
+    "address": "106臺北市大安區新生南路二段1號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人愛福家協會(台北)",
     "lat": 25.031657,
     "lng": 121.520414,
-    "address": "100臺北市中正區新營里金華街20號一樓"
+    "address": "100臺北市中正區新營里金華街20號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北金南郵局-1",
     "lat": 25.031817,
     "lng": 121.524567,
-    "address": "106臺北市大安區愛國東路216號"
+    "address": "106臺北市大安區愛國東路216號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北金南郵局-2",
     "lat": 25.031817,
     "lng": 121.524567,
-    "address": "106臺北市大安區愛國東路216號"
+    "address": "106臺北市大安區愛國東路216號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "總公司金山大樓",
     "lat": 25.032201,
     "lng": 121.527249,
-    "address": "106臺北市大安區金山南路二段55號"
+    "address": "106臺北市大安區金山南路二段55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-6號公廁-入口處",
     "lat": 25.032229,
     "lng": 121.536993,
-    "address": "106臺北市大安區新生南路二段1號(6號公廁外牆)"
+    "address": "106臺北市大安區新生南路二段1號(6號公廁外牆)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-4號公廁-入口處",
     "lat": 25.032526,
     "lng": 121.534877,
-    "address": "106臺北市大安區新生南路二段1號(4號公廁外牆)"
+    "address": "106臺北市大安區新生南路二段1號(4號公廁外牆)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "大安森林公園-兒童遊戲區",
     "lat": 25.032741,
     "lng": 121.536248,
-    "address": "106臺北市大安區新生南路二段1號(兒童遊戲區旁燈杆)"
+    "address": "106臺北市大安區新生南路二段1號(兒童遊戲區旁燈杆)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義新生路口-N-新生南路",
     "lat": 25.033243,
     "lng": 121.532852,
-    "address": "106臺北市大安區新生南路二段2號對面分隔島候車亭"
+    "address": "106臺北市大安區新生南路二段2號對面分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義建國路口-E-信義路三段",
     "lat": 25.03343,
     "lng": 121.539058,
-    "address": "106臺北市大安區信義路三段132號前分隔島候車亭"
+    "address": "106臺北市大安區信義路三段132號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義建國路口-W-信義路三段",
     "lat": 25.03346,
     "lng": 121.538284,
-    "address": "106臺北市大安區信義路三段89號前(信義路三段本線)分隔島候車亭"
+    "address": "106臺北市大安區信義路三段89號前(信義路三段本線)分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義新生路口-E-信義路二段",
     "lat": 25.033567,
     "lng": 121.532176,
-    "address": "106臺北市大安區信義路二段246號前分隔島候車亭"
+    "address": "106臺北市大安區信義路二段246號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義新生路口-W-信義路三段",
     "lat": 25.033587,
     "lng": 121.533169,
-    "address": "106臺北市大安區信義路三段3號前分隔島候車亭"
+    "address": "106臺北市大安區信義路三段3號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運大安森林公園站-W-信義路三段",
     "lat": 25.033618,
     "lng": 121.536167,
-    "address": "106臺北市大安區信義路三段59號前分隔島候車亭"
+    "address": "106臺北市大安區信義路三段59號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運大安森林公園站-E-信義路三段",
     "lat": 25.033644,
     "lng": 121.535555,
-    "address": "106臺北市大安區信義路三段41之3號對面分隔島候車亭"
+    "address": "106臺北市大安區信義路三段41之3號對面分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義永康街口(捷運東門站)-W-信義路二段",
     "lat": 25.033711,
     "lng": 121.530392,
-    "address": "106臺北市大安區信義路二段207號前分隔島候車亭"
+    "address": "106臺北市大安區信義路二段207號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北大安郵局",
     "lat": 25.033725,
     "lng": 121.538302,
-    "address": "106臺北市大安區信義路三段89號"
+    "address": "106臺北市大安區信義路三段89號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "經濟部產業發展署1樓",
     "lat": 25.033775,
     "lng": 121.535211,
-    "address": "106臺北市大安區信義路三段41-3號"
+    "address": "106臺北市大安區信義路三段41-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "水利署台北辦公區",
     "lat": 25.033775,
     "lng": 121.535211,
-    "address": "106臺北市大安區信義路三段41-3號9樓"
+    "address": "106臺北市大安區信義路三段41-3號9樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "經濟部產業發展署2樓-會議室前段",
     "lat": 25.033783,
     "lng": 121.535201,
-    "address": "106臺北市大安區信義路三段41-3號"
+    "address": "106臺北市大安區信義路三段41-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "經濟部產業發展署2樓-會議室後段",
     "lat": 25.033783,
     "lng": 121.535201,
-    "address": "106臺北市大安區信義路三段41-3號"
+    "address": "106臺北市大安區信義路三段41-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區光明里辦公處",
     "lat": 25.033799,
     "lng": 121.525788,
-    "address": "106臺北市大安區光明里信義路二段86巷26號"
+    "address": "106臺北市大安區光明里信義路二段86巷26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義永康街口(捷運東門站)-E-信義路二段",
     "lat": 25.033812,
     "lng": 121.529496,
-    "address": "106臺北市大安區信義路二段176號前分隔島候車亭"
+    "address": "106臺北市大安區信義路二段176號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(信義分行)",
     "lat": 25.033812,
     "lng": 121.533417,
-    "address": "106臺北市大安區信義路三段7號"
+    "address": "106臺北市大安區信義路三段7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "信義市場1F 26攤位旁",
     "lat": 25.033895,
     "lng": 121.538867,
-    "address": "106臺北市大安區信義路三段107號1F"
+    "address": "106臺北市大安區信義路三段107號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義市場-N-信義路三段",
     "lat": 25.033966,
     "lng": 121.538104,
-    "address": "106臺北市大安區信義路三段89號旁(建國南路一段本線)候車亭"
+    "address": "106臺北市大安區信義路三段89號旁(建國南路一段本線)候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行信義分行",
     "lat": 25.033979,
     "lng": 121.529434,
-    "address": "100臺北市中正區信義路二段183號"
+    "address": "100臺北市中正區信義路二段183號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "關務署臺北關臺北郵局支局",
     "lat": 25.033987,
     "lng": 121.538302,
-    "address": "106臺北市大安區信義路三段89號2樓"
+    "address": "106臺北市大安區信義路三段89號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義新生路口-S-新生南路",
     "lat": 25.033993,
     "lng": 121.532574,
-    "address": "106臺北市大安區信義路二段287號前分隔島候車亭"
+    "address": "106臺北市大安區信義路二段287號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運東門站-W-信義路二段",
     "lat": 25.034036,
     "lng": 121.527754,
-    "address": "106臺北市大安區信義路二段101號前分隔島候車亭"
+    "address": "106臺北市大安區信義路二段101號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北東門郵局",
     "lat": 25.03407,
     "lng": 121.528913,
-    "address": "100臺北市中正區信義路二段163號"
+    "address": "100臺北市中正區信義路二段163號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區民炤里辦公處",
     "lat": 25.034147,
     "lng": 121.534618,
-    "address": "106臺北市大安區民炤里信義路三段31巷5號一樓"
+    "address": "106臺北市大安區民炤里信義路三段31巷5號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區新民炤社區發展協會",
     "lat": 25.034147,
     "lng": 121.534618,
-    "address": "106臺北市大安區民炤里臺北市建國南路1段286巷35號1樓、建國南路1段286巷48號1樓(協會住?"
+    "address": "106臺北市大安區民炤里臺北市建國南路1段286巷35號1樓、建國南路1段286巷48號1樓(協會住?",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運東門站-E-信義路二段",
     "lat": 25.034177,
     "lng": 121.526828,
-    "address": "106臺北市大安區信義路二段88號前分隔島候車亭"
+    "address": "106臺北市大安區信義路二段88號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安和安區民活動中心2F中央",
     "lat": 25.034208,
     "lng": 121.538898,
-    "address": "106臺北市大安區信義路三段107號2F"
+    "address": "106臺北市大安區信義路三段107號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義市場-S-建國南路一段",
     "lat": 25.034319,
     "lng": 121.537545,
-    "address": "106臺北市大安區建國南路一段350號候車亭"
+    "address": "106臺北市大安區建國南路一段350號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行信義分行",
     "lat": 25.034328,
     "lng": 121.526777,
-    "address": "106臺北市大安區信義路二段88號"
+    "address": "106臺北市大安區信義路二段88號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "東門市場1F 6、10攤位前",
     "lat": 25.034698,
     "lng": 121.527148,
-    "address": "100臺北市中正區金山南路一段134號1F"
+    "address": "100臺北市中正區金山南路一段134號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "東門市場1F 25、26攤位前",
     "lat": 25.034726,
     "lng": 121.527206,
-    "address": "100臺北市中正區金山南路一段134號1F"
+    "address": "100臺北市中正區金山南路一段134號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立中正紀念堂管理處迴廊(愛國東路)-1",
     "lat": 25.034835,
     "lng": 121.521781,
-    "address": "100臺北市中正區中山南路21號"
+    "address": "100臺北市中正區中山南路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立中正紀念堂管理處迴廊(愛國東路)-2",
     "lat": 25.034835,
     "lng": 121.521781,
-    "address": "100臺北市中正區中山南路21號"
+    "address": "100臺北市中正區中山南路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立中正紀念堂管理處迴廊(杭州南路)-3",
     "lat": 25.034835,
     "lng": 121.521781,
-    "address": "100臺北市中正區中山南路21號"
+    "address": "100臺北市中正區中山南路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立中正紀念堂管理處迴廊(杭州南路)-4",
     "lat": 25.034835,
     "lng": 121.521781,
-    "address": "100臺北市中正區中山南路21號"
+    "address": "100臺北市中正區中山南路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立中正紀念堂管理處迴廊(信義路)-5",
     "lat": 25.034835,
     "lng": 121.521781,
-    "address": "100臺北市中正區中山南路21號"
+    "address": "100臺北市中正區中山南路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立中正紀念堂管理處迴廊(信義路)-6",
     "lat": 25.034835,
     "lng": 121.521781,
-    "address": "100臺北市中正區中山南路21號"
+    "address": "100臺北市中正區中山南路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立中正紀念堂管理處(民主大道)-7",
     "lat": 25.034835,
     "lng": 121.521781,
-    "address": "100臺北市中正區中山南路21號"
+    "address": "100臺北市中正區中山南路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立中正紀念堂管理處迴廊(愛國東路)3",
     "lat": 25.034835,
     "lng": 121.521781,
-    "address": "100臺北市中正區中山南路21號"
+    "address": "100臺北市中正區中山南路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "金甌女中-N-杭州南路二段",
     "lat": 25.035019,
     "lng": 121.524115,
-    "address": "106臺北市大安區杭州南路二段1號候車亭"
+    "address": "106臺北市大安區杭州南路二段1號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義杭州路口-E-信義路二段",
     "lat": 25.035201,
     "lng": 121.524635,
-    "address": "100臺北市中正區信義路二段1號前分隔島候車亭"
+    "address": "100臺北市中正區信義路二段1號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義杭州路口-E-信義路一段",
     "lat": 25.035636,
     "lng": 121.523918,
-    "address": "100臺北市中正區信義路一段與杭州南路二段口西南側分隔島候車亭"
+    "address": "100臺北市中正區信義路一段與杭州南路二段口西南側分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市中正區文祥社區發展協會(大東門)",
     "lat": 25.036137,
     "lng": 121.526515,
-    "address": "100臺北市中正區文祥里杭州南路一段131巷22號"
+    "address": "100臺北市中正區文祥里杭州南路一段131巷22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "新生市場1F入口處",
     "lat": 25.036586,
     "lng": 121.532332,
-    "address": "100臺北市中正區新生南路一段134之1號1F"
+    "address": "100臺北市中正區新生南路一段134之1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "延平中學-N-建國南路一段",
     "lat": 25.036725,
     "lng": 121.538247,
-    "address": "106臺北市大安區建國南路一段275號候車亭"
+    "address": "106臺北市大安區建國南路一段275號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中正紀念堂-W-信義路一段",
     "lat": 25.037215,
     "lng": 121.520703,
-    "address": "100臺北市中正區信義路一段與林森南路口西側分隔島候車亭"
+    "address": "100臺北市中正區信義路一段與林森南路口西側分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中正紀念堂-E-信義路一段",
     "lat": 25.037255,
     "lng": 121.520807,
-    "address": "100臺北市中正區信義路一段與林森南路口西北側(東門國小側)分隔島候車亭"
+    "address": "100臺北市中正區信義路一段與林森南路口西北側(東門國小側)分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北仁杭郵局",
     "lat": 25.037576,
     "lng": 121.524648,
-    "address": "100臺北市中正區杭州南路一段24號1樓"
+    "address": "100臺北市中正區杭州南路一段24號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "交通部國際會議中心1、2樓",
     "lat": 25.037576,
     "lng": 121.524648,
-    "address": "100臺北市中正區杭州南路一段24號"
+    "address": "100臺北市中正區杭州南路一段24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "交通部國際會議中心3、4樓",
     "lat": 25.037576,
     "lng": 121.524648,
-    "address": "100臺北市中正區杭州南路一段24號"
+    "address": "100臺北市中正區杭州南路一段24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "交通部國際會議中心5樓",
     "lat": 25.037576,
     "lng": 121.524648,
-    "address": "100臺北市中正區杭州南路一段24號"
+    "address": "100臺北市中正區杭州南路一段24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀仁愛分行",
     "lat": 25.038053,
     "lng": 121.526237,
-    "address": "100臺北市中正區仁愛路二段16號"
+    "address": "100臺北市中正區仁愛路二段16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通信傳播大樓1樓服務台",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號"
+    "address": "100臺北市中正區仁愛路一段50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓1樓大廳",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號1樓"
+    "address": "100臺北市中正區仁愛路一段50號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓8樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號8樓"
+    "address": "100臺北市中正區仁愛路一段50號8樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓9樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號9樓"
+    "address": "100臺北市中正區仁愛路一段50號9樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓10樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號10樓"
+    "address": "100臺北市中正區仁愛路一段50號10樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "交通通訊傳播大樓7樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號7樓"
+    "address": "100臺北市中正區仁愛路一段50號7樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓16樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號16樓"
+    "address": "100臺北市中正區仁愛路一段50號16樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓18樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號18樓"
+    "address": "100臺北市中正區仁愛路一段50號18樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓19樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號19樓"
+    "address": "100臺北市中正區仁愛路一段50號19樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓20樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號20樓"
+    "address": "100臺北市中正區仁愛路一段50號20樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓21樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號21樓"
+    "address": "100臺北市中正區仁愛路一段50號21樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓2樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號2樓"
+    "address": "100臺北市中正區仁愛路一段50號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓3樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號3樓"
+    "address": "100臺北市中正區仁愛路一段50號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓11樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號11樓"
+    "address": "100臺北市中正區仁愛路一段50號11樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓12樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號12樓"
+    "address": "100臺北市中正區仁愛路一段50號12樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓13樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號13樓"
+    "address": "100臺北市中正區仁愛路一段50號13樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓14樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號14樓"
+    "address": "100臺北市中正區仁愛路一段50號14樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓15樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號15樓"
+    "address": "100臺北市中正區仁愛路一段50號15樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓17樓",
     "lat": 25.038114,
     "lng": 121.524677,
-    "address": "100臺北市中正區仁愛路一段50號16樓"
+    "address": "100臺北市中正區仁愛路一段50號16樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通通訊傳播大樓地下2樓",
     "lat": 25.038128,
     "lng": 121.524652,
-    "address": "100臺北市中正區仁愛路一段50號地下2樓"
+    "address": "100臺北市中正區仁愛路一段50號地下2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "仁愛新生路口-W-仁愛路三段",
     "lat": 25.038284,
     "lng": 121.533357,
-    "address": "106臺北市大安區仁愛路三段1號前分隔島候車亭"
+    "address": "106臺北市大安區仁愛路三段1號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新生南路口-W-仁愛路三段",
     "lat": 25.038398,
     "lng": 121.533952,
-    "address": "106臺北市大安區仁愛路三段17號候車亭"
+    "address": "106臺北市大安區仁愛路三段17號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行仁愛分行",
     "lat": 25.038476,
     "lng": 121.532371,
-    "address": "100臺北市中正區仁愛路二段99號"
+    "address": "100臺北市中正區仁愛路二段99號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行仁愛分行",
     "lat": 25.038655,
     "lng": 121.534581,
-    "address": "106臺北市大安區仁愛路三段29號"
+    "address": "106臺北市大安區仁愛路三段29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北仁愛路郵局",
     "lat": 25.038672,
     "lng": 121.535602,
-    "address": "106臺北市大安區仁愛路三段47號"
+    "address": "106臺北市大安區仁愛路三段47號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "仁愛新生路口-新生南路一段",
     "lat": 25.038761,
     "lng": 121.532699,
-    "address": "104臺北市中山區新生南路一段122之3號前分隔島候車亭"
+    "address": "104臺北市中山區新生南路一段122之3號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "臺北市青少年發展暨家庭教育中心1F大廳",
     "lat": 25.039023,
     "lng": 121.522261,
-    "address": "100臺北市中正區仁愛路一段17號1F"
+    "address": "100臺北市中正區仁愛路一段17號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "臺北市青少年發展暨家庭教育中心2F電梯口",
     "lat": 25.039023,
     "lng": 121.522261,
-    "address": "100臺北市中正區仁愛路一段17號2F"
+    "address": "100臺北市中正區仁愛路一段17號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "臺北市青少年發展暨家庭教育中心6F國際會議廳",
     "lat": 25.039063,
     "lng": 121.52251,
-    "address": "100臺北市中正區仁愛路一段17號6F"
+    "address": "100臺北市中正區仁愛路一段17號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "臺北市青少年發展暨家庭教育中心2F開放輔導區",
     "lat": 25.039088,
     "lng": 121.522322,
-    "address": "100臺北市中正區仁愛路一段17號2F"
+    "address": "100臺北市中正區仁愛路一段17號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "臺北市青少年發展暨家庭教育中心3F台北演藝廳",
     "lat": 25.039138,
     "lng": 121.522593,
-    "address": "100臺北市中正區仁愛路一段17號3F"
+    "address": "100臺北市中正區仁愛路一段17號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "臺北市青少年發展暨家庭教育中心5F展場中央",
     "lat": 25.039138,
     "lng": 121.522593,
-    "address": "100臺北市中正區仁愛路一段17號5F"
+    "address": "100臺北市中正區仁愛路一段17號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "內湖樂康區民活動中心6F舞臺後方",
     "lat": 25.039138,
     "lng": 121.522593,
-    "address": "114臺北市內湖區康樂街150號6F之1"
+    "address": "114臺北市內湖區康樂街150號6F之1",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "臺北市青少年發展暨家庭教育中心5F流行廣場",
     "lat": 25.039138,
     "lng": 121.522593,
-    "address": "100臺北市中正區仁愛路一段17號5F"
+    "address": "100臺北市中正區仁愛路一段17號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "臺北市青少年發展暨家庭教育中心6F國際會議廳",
     "lat": 25.039138,
     "lng": 121.522593,
-    "address": "100臺北市中正區仁愛路一段17號6F"
+    "address": "100臺北市中正區仁愛路一段17號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "仁愛林森路口-S-林森南路",
     "lat": 25.039251,
     "lng": 121.521673,
-    "address": "100臺北市中正區林森南路85號對面候車亭"
+    "address": "100臺北市中正區林森南路85號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "仁愛林森路口-S-林森南路",
     "lat": 25.039545,
     "lng": 121.521801,
-    "address": "100臺北市中正區林森南路85號對面候車亭"
+    "address": "100臺北市中正區林森南路85號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "金山泰安街口-S-金山南路一段",
     "lat": 25.039818,
     "lng": 121.528936,
-    "address": "100臺北市中正區金山南路一段64號旁候車亭"
+    "address": "100臺北市中正區金山南路一段64號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館城中分館3F參考資料區中央",
     "lat": 25.039888,
     "lng": 121.530854,
-    "address": "100臺北市中正區濟南路二段46號3F"
+    "address": "100臺北市中正區濟南路二段46號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

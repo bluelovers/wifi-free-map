@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄大林蒲郵局",
     "lat": 22.526417,
     "lng": 120.346577,
-    "address": "812高雄市小港區鳳林路82號"
+    "address": "812高雄市小港區鳳林路82號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市老人暨身心障礙者關懷協會",
     "lat": 22.528,
     "lng": 120.347,
-    "address": "812高雄市小港區港墘里港中街38號"
+    "address": "812高雄市小港區港墘里港中街38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄臨海林園大發工業區聯合污水處理廠-臨海廠",
     "lat": 22.528862,
     "lng": 120.343364,
-    "address": "812高雄市小港區大林浦鳳北路4號1樓"
+    "address": "812高雄市小港區大林浦鳳北路4號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司大林廠行政大樓總機櫃檯",
     "lat": 22.529422,
     "lng": 120.347353,
-    "address": "812高雄市小港區沿海四路50號"
+    "address": "812高雄市小港區沿海四路50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

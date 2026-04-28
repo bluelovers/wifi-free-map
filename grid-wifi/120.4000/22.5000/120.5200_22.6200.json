@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "竹田西勢郵局",
     "lat": 22.621416,
     "lng": 120.524375,
-    "address": "911屏東縣竹田鄉西勢村光明路12-2號"
+    "address": "911屏東縣竹田鄉西勢村光明路12-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣竹田鄉永豐社區發展協會",
     "lat": 22.627337,
     "lng": 120.53761,
-    "address": "911屏東縣竹田鄉永豐村永豐路5號"
+    "address": "911屏東縣竹田鄉永豐村永豐路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局南區工程處屏東工務段會議室",
     "lat": 22.627866,
     "lng": 120.533055,
-    "address": "911屏東縣竹田鄉永豐村永豐路227號"
+    "address": "911屏東縣竹田鄉永豐村永豐路227號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣麟洛鄉田心社區發展協會",
     "lat": 22.637018,
     "lng": 120.523415,
-    "address": "909屏東縣麟洛鄉田心村中正路320號"
+    "address": "909屏東縣麟洛鄉田心村中正路320號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

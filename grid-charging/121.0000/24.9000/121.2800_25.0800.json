@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘆竹山腳郵局",
     "lat": 25.084504,
     "lng": 121.286241,

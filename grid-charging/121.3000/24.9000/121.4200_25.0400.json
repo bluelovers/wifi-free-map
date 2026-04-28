@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "明志科大郵局",
     "lat": 25.040678,
     "lng": 121.422189,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "泰山貴子路郵局",
     "lat": 25.041498,
     "lng": 121.425136,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "泰山同榮郵局",
     "lat": 25.053997,
     "lng": 121.430287,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市泰山戶政事務所4F-1",
     "lat": 25.0549,
     "lng": 121.43446,

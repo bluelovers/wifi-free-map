@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司知本服務所大廳",
     "lat": 22.706238,
     "lng": 121.041264,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台東知本郵局",
     "lat": 22.707848,
     "lng": 121.041259,

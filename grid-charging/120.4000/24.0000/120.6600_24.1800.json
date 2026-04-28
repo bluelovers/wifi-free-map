@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中中清路郵局",
     "lat": 24.186782,
     "lng": 120.66363,

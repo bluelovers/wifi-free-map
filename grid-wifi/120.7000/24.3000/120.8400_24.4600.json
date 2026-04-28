@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司苗栗縣採油工程處陳列館",
     "lat": 24.460061,
     "lng": 120.856326,
-    "address": "363苗栗縣公館鄉開礦村3鄰36號"
+    "address": "363苗栗縣公館鄉開礦村3鄰36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司苗栗縣採油工程處石油文化園區",
     "lat": 24.460061,
     "lng": 120.856326,
-    "address": "363苗栗縣公館鄉開礦村3鄰36號"
+    "address": "363苗栗縣公館鄉開礦村3鄰36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

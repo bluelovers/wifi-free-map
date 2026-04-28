@@ -1,122 +1,167 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣三星鄉三星社區發展協會",
     "lat": 24.665151,
     "lng": 121.653579,
-    "address": "266宜蘭縣三星鄉集慶村義路186號"
+    "address": "266宜蘭縣三星鄉集慶村義路186號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "三星鄉公所-1F左",
     "lat": 24.66548,
     "lng": 121.654036,
-    "address": "266宜蘭縣三星鄉成功路67號"
+    "address": "266宜蘭縣三星鄉成功路67號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "三星鄉公所-1F右",
     "lat": 24.66548,
     "lng": 121.654036,
-    "address": "266宜蘭縣三星鄉成功路67號"
+    "address": "266宜蘭縣三星鄉成功路67號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "三星鄉衛生所",
     "lat": 24.666124,
     "lng": 121.651552,
-    "address": "266宜蘭縣三星鄉三星路五段70號"
+    "address": "266宜蘭縣三星鄉三星路五段70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣警察局三星分局3樓",
     "lat": 24.666489,
     "lng": 121.652244,
-    "address": "266宜蘭縣三星鄉三星路五段6號"
+    "address": "266宜蘭縣三星鄉三星路五段6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣警察局三星分局",
     "lat": 24.666489,
     "lng": 121.652244,
-    "address": "266宜蘭縣三星鄉三星路五段6號"
+    "address": "266宜蘭縣三星鄉三星路五段6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "三星郵局",
     "lat": 24.666642,
     "lng": 121.653026,
-    "address": "266宜蘭縣三星鄉太平路134號"
+    "address": "266宜蘭縣三星鄉太平路134號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "三星消防分隊",
     "lat": 24.666879,
     "lng": 121.65226,
-    "address": "266宜蘭縣三星鄉義德村中山路7-7號"
+    "address": "266宜蘭縣三星鄉義德村中山路7-7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "三星鄉老人文康中心",
     "lat": 24.66715,
     "lng": 121.65125,
-    "address": "266宜蘭縣三星鄉三星路五段82巷71號2樓"
+    "address": "266宜蘭縣三星鄉三星路五段82巷71號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "三星鄉圖書館-1F櫃台",
     "lat": 24.66737,
     "lng": 121.6498,
-    "address": "266宜蘭縣三星鄉義興路12之2號"
+    "address": "266宜蘭縣三星鄉義興路12之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "三星鄉圖書館-1F閱讀室",
     "lat": 24.66737,
     "lng": 121.6498,
-    "address": "266宜蘭縣三星鄉義興路12之2號"
+    "address": "266宜蘭縣三星鄉義興路12之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "三星鄉圖書館-2F會議室",
     "lat": 24.66737,
     "lng": 121.6498,
-    "address": "266宜蘭縣三星鄉義興路12之2號"
+    "address": "266宜蘭縣三星鄉義興路12之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣三星鄉老人福利協會",
     "lat": 24.667734,
     "lng": 121.651038,
-    "address": "266宜蘭縣三星鄉義德村三星路五段82巷71號"
+    "address": "266宜蘭縣三星鄉義德村三星路五段82巷71號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣立三星國中體育館牆面朝月眉街",
     "lat": 24.668273,
     "lng": 121.653993,
-    "address": "266宜蘭縣三星鄉月眉街54號"
+    "address": "266宜蘭縣三星鄉月眉街54號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "三星鄉戶政事務所",
     "lat": 24.66917,
     "lng": 121.651611,
-    "address": "266宜蘭縣三星鄉中山路7之6號"
+    "address": "266宜蘭縣三星鄉中山路7之6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣斗六市溝埧社區發展協會",
     "lat": 23.673711,
     "lng": 120.53679,
-    "address": "640雲林縣斗六市溝埧里三樂路1號"
+    "address": "640雲林縣斗六市溝埧里三樂路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "斗六大崙郵局",
     "lat": 23.679119,
     "lng": 120.538531,
-    "address": "640雲林縣斗六市崙峰里仁義路89號"
+    "address": "640雲林縣斗六市崙峰里仁義路89號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "光復富田郵局",
     "lat": 23.659609,
     "lng": 121.448715,

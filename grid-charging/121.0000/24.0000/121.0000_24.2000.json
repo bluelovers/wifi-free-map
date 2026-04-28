@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "和平谷關郵局",
     "lat": 24.203037,
     "lng": 121.005605,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司谷關服務所大廳",
     "lat": 24.203083,
     "lng": 121.006535,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "谷關遊客中心",
     "lat": 24.203206,
     "lng": 121.007124,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司谷關訓練中心辦公大樓大廳川堂",
     "lat": 24.208651,
     "lng": 121.018556,

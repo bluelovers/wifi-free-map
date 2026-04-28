@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北松江路郵局",
     "lat": 25.062056,
     "lng": 121.532979,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北民權郵局",
     "lat": 25.062625,
     "lng": 121.52179,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北圓山郵局",
     "lat": 25.064958,
     "lng": 121.525839,

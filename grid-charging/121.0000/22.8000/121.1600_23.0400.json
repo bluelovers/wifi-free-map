@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "關山郵局",
     "lat": 23.047881,
     "lng": 121.160687,

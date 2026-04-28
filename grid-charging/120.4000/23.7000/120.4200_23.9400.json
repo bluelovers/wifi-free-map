@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "二林萬興郵局",
     "lat": 23.954626,
     "lng": 120.422875,

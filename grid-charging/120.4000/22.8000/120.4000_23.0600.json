@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "左鎮郵局",
     "lat": 23.061396,
     "lng": 120.415597,

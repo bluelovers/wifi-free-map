@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "太平山森林遊樂區遊客服務中心",
     "lat": 24.503241,
     "lng": 121.52761,
-    "address": "267宜蘭縣大同鄉太平村太平巷58-1號"
+    "address": "267宜蘭縣大同鄉太平村太平巷58-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

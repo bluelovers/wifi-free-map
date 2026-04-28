@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鹽埕郵局",
     "lat": 22.62308,
     "lng": 120.28431,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市鹽埕區戶政事務所",
     "lat": 22.624707,
     "lng": 120.286689,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄社東郵局",
     "lat": 22.62632,
     "lng": 120.295173,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄地方法院郵局",
     "lat": 22.626945,
     "lng": 120.290587,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市政府警察局",
     "lat": 22.627856,
     "lng": 120.290712,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市前金區戶政事務所",
     "lat": 22.627955,
     "lng": 120.294306,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "觀光局旅遊服務中心高雄服務處",
     "lat": 22.628014,
     "lng": 120.292718,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部工業局南部服務處",
     "lat": 22.6291,
     "lng": 120.291962,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "智慧財產局高雄服務處",
     "lat": 22.629185,
     "lng": 120.291922,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄府北郵局",
     "lat": 22.629584,
     "lng": 120.284374,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部國際貿易局高雄辦事處廠商服務區",
     "lat": 22.629803,
     "lng": 120.298197,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "前金郵局",
     "lat": 22.63154,
     "lng": 120.296345,
@@ -85,6 +97,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司高雄區處服務中心營業廳",
     "lat": 22.632193,
     "lng": 120.281931,
@@ -92,6 +105,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄三塊厝郵局",
     "lat": 22.635601,
     "lng": 120.293638,
@@ -99,6 +113,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市鼓山區戶政事務所",
     "lat": 22.637263,
     "lng": 120.281024,
@@ -106,6 +121,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄鼓岩郵局",
     "lat": 22.63728,
     "lng": 120.280835,
@@ -113,6 +129,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄中都郵局",
     "lat": 22.638473,
     "lng": 120.288445,

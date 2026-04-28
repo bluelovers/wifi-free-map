@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "社子社區活動中心",
     "lat": 23.181923,
     "lng": 120.359513,
-    "address": "720臺南市官田區社子里社子11號"
+    "address": "720臺南市官田區社子里社子11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市龍崎區崎頂里辦公處",
     "lat": 23.189,
     "lng": 120.34,
-    "address": "719臺南市龍崎區崎頂里新市子201號二樓"
+    "address": "719臺南市龍崎區崎頂里新市子201號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

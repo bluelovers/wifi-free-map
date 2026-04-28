@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局芳苑分局原斗派出所",
     "lat": 23.896709,
     "lng": 120.426342,
-    "address": "526彰化縣二林鎮原斗里斗苑路一段917號"
+    "address": "526彰化縣二林鎮原斗里斗苑路一段917號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

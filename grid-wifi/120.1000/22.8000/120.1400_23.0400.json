@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台南科技工業區服務中心",
     "lat": 23.044055,
     "lng": 120.141136,
-    "address": "709臺南市安南區鹽田里五鄰科技五路600號1樓"
+    "address": "709臺南市安南區鹽田里五鄰科技五路600號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台南科技工業區服務中心",
     "lat": 23.045383,
     "lng": 120.147605,
-    "address": "709臺南市安南區科技公園大道1號1樓"
+    "address": "709臺南市安南區科技公園大道1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

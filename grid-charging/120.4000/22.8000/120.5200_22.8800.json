@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "美濃中壇郵局",
     "lat": 22.886849,
     "lng": 120.531418,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司美濃營運所",
     "lat": 22.888106,
     "lng": 120.536352,

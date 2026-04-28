@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "遠雄海洋公園",
     "lat": 23.90126,
     "lng": 121.601348,
-    "address": "974花蓮縣壽豐鄉福德189號"
+    "address": "974花蓮縣壽豐鄉福德189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "東部海岸國家風景區管理處鹽寮遊客中心",
     "lat": 23.904306,
     "lng": 121.602986,
-    "address": "974花蓮縣壽豐鄉鹽寮村大坑5號"
+    "address": "974花蓮縣壽豐鄉鹽寮村大坑5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "東部海岸國家風景區花蓮管理站",
     "lat": 23.904428,
     "lng": 121.602623,
-    "address": "974花蓮縣壽豐鄉鹽寮村大坑5號"
+    "address": "974花蓮縣壽豐鄉鹽寮村大坑5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

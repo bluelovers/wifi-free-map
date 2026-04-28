@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "國姓長流郵局",
     "lat": 24.070594,
     "lng": 120.875858,

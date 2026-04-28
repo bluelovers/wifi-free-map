@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "雪霸國家公園管理處汶水行政中心",
     "lat": 24.448458,
     "lng": 120.88058,
-    "address": "364苗栗縣大湖鄉富興村水尾坪100號(汶水行政中心)"
+    "address": "364苗栗縣大湖鄉富興村水尾坪100號(汶水行政中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "雪霸國家公園管理處遊客中心櫃台",
     "lat": 24.448458,
     "lng": 120.88058,
-    "address": "364苗栗縣大湖鄉富興村水尾坪100號"
+    "address": "364苗栗縣大湖鄉富興村水尾坪100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

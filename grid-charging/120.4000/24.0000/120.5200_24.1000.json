@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "和美中寮郵局",
     "lat": 24.10646,
     "lng": 120.530456,

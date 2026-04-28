@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆市暖暖戶政事務所",
     "lat": 25.10029,
     "lng": 121.735811,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆過港路郵局",
     "lat": 25.105189,
     "lng": 121.737755,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局八堵站候車室",
     "lat": 25.10844,
     "lng": 121.729002,

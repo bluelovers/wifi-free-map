@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "福興郵局",
     "lat": 24.039444,
     "lng": 120.436209,

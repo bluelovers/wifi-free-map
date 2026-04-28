@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新營太子宮郵局",
     "lat": 23.294795,
     "lng": 120.278866,

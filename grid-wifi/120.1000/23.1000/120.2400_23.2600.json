@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市鹽水區田寮社區發展協會",
     "lat": 23.262,
     "lng": 120.24,
-    "address": "737臺南市鹽水區三和里4鄰大豐45號"
+    "address": "737臺南市鹽水區三和里4鄰大豐45號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市鹽水區三明里辦公處",
     "lat": 23.262,
     "lng": 120.24,
-    "address": "737臺南市鹽水區三明里116號"
+    "address": "737臺南市鹽水區三明里116號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

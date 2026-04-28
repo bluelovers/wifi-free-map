@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大溪南興郵局",
     "lat": 24.903393,
     "lng": 121.26688,

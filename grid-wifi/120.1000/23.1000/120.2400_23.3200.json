@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人嘉義縣基督教青年會-義竹教會",
     "lat": 23.334,
     "lng": 120.249,
-    "address": "624嘉義縣義竹鄉義竹村義竹133號"
+    "address": "624嘉義縣義竹鄉義竹村義竹133號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "義竹郵局",
     "lat": 23.335867,
     "lng": 120.24353,
-    "address": "624嘉義縣義竹鄉仁里村422-2號"
+    "address": "624嘉義縣義竹鄉仁里村422-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣朴子戶政事務所義竹辦公室",
     "lat": 23.336248,
     "lng": 120.243347,
-    "address": "624嘉義縣義竹鄉仁里村389之2號"
+    "address": "624嘉義縣義竹鄉仁里村389之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣義竹鄉衛生所",
     "lat": 23.337325,
     "lng": 120.243199,
-    "address": "624嘉義縣義竹鄉仁里村422-1號"
+    "address": "624嘉義縣義竹鄉仁里村422-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

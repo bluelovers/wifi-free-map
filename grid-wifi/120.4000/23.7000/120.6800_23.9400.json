@@ -1,378 +1,519 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "第三市場",
     "lat": 23.944908,
     "lng": 120.696707,
-    "address": "540南投縣南投市光榮西路13號"
+    "address": "540南投縣南投市光榮西路13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "衛生福利部南投醫院(南投)",
     "lat": 23.948071,
     "lng": 120.690488,
-    "address": "540南投縣南投市中正路194號"
+    "address": "540南投縣南投市中正路194號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "光華公園",
     "lat": 23.949136,
     "lng": 120.694064,
-    "address": "540南投縣南投市光華10路2號(附近)"
+    "address": "540南投縣南投市光華10路2號(附近)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "中興會堂(戶外)",
     "lat": 23.949308,
     "lng": 120.696249,
-    "address": "540南投縣南投市中興新村光榮北路1號"
+    "address": "540南投縣南投市中興新村光榮北路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "中興會堂(室內)",
     "lat": 23.949308,
     "lng": 120.696249,
-    "address": "540南投縣南投市中興新村光榮北路1號"
+    "address": "540南投縣南投市中興新村光榮北路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投中興郵局",
     "lat": 23.949518,
     "lng": 120.694397,
-    "address": "540南投縣南投市中興新村中學路4號"
+    "address": "540南投縣南投市中興新村中學路4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立公共資訊圖書館-中興分館",
     "lat": 23.949744,
     "lng": 120.694163,
-    "address": "540南投縣南投市中興新村光華路123號"
+    "address": "540南投縣南投市中興新村光華路123號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "中興商場",
     "lat": 23.949799,
     "lng": 120.693304,
-    "address": "540南投縣南投市光華十路2號"
+    "address": "540南投縣南投市光華十路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "青少年活動中心",
     "lat": 23.949902,
     "lng": 120.696208,
-    "address": "540南投縣南投市中學路1號"
+    "address": "540南投縣南投市中學路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣政府警察局中興分局",
     "lat": 23.950363,
     "lng": 120.693546,
-    "address": "540南投縣南投市光華里光華路115號"
+    "address": "540南投縣南投市光華里光華路115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣樂活農業發展協會",
     "lat": 23.952,
     "lng": 120.688,
-    "address": "540南投縣南投市營北里中正路152之7號"
+    "address": "540南投縣南投市營北里中正路152之7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "第一市場",
     "lat": 23.954446,
     "lng": 120.689837,
-    "address": "540南投縣南投市光華二路1號"
+    "address": "540南投縣南投市光華二路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_1F_大廳",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_1F_會議室1",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_1F_會議室2",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_1F_中庭1",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_1F_中庭2",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_2F_會議室1",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_2F_會議室2",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_保育治理組1",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_保育治理組2",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_保育治理組3",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_土石流防災中心1",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_土石流防災中心2",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_2F_走道1",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_2F_走道2",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_2F_走道3",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_2F_走道4",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_1F_走道1",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_1F_走道2",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_1F_走道3",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會水土保持局_1F_走道4",
     "lat": 23.955605,
     "lng": 120.687305,
-    "address": "540南投縣南投市中興新村光華路6號"
+    "address": "540南投縣南投市中興新村光華路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會農糧署中興辦公區",
     "lat": 23.955783,
     "lng": 120.687429,
-    "address": "540南投縣南投市光華路8號"
+    "address": "540南投縣南投市光華路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行中興新村分行",
     "lat": 23.955818,
     "lng": 120.688747,
-    "address": "540南投縣南投市光華路11號"
+    "address": "540南投縣南投市光華路11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺灣省政府資料館",
     "lat": 23.956013,
     "lng": 120.686265,
-    "address": "540南投縣南投市中正路2號"
+    "address": "540南投縣南投市中正路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司南投區處服務中心營業廳",
     "lat": 23.956439,
     "lng": 120.681072,
-    "address": "542南投縣草屯鎮太平路一段42號"
+    "address": "542南投縣草屯鎮太平路一段42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺灣省政府資料館第1棟",
     "lat": 23.956521,
     "lng": 120.686445,
-    "address": "540南投縣南投市中興新村中正路2號"
+    "address": "540南投縣南投市中興新村中正路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺灣省政府資料館第2棟",
     "lat": 23.956521,
     "lng": 120.686445,
-    "address": "540南投縣南投市中興新村省府路2號"
+    "address": "540南投縣南投市中興新村省府路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "中興新村-牌樓",
     "lat": 23.95669,
     "lng": 120.685559,
-    "address": "540南投縣南投市中興新村省府路11號(附近)"
+    "address": "540南投縣南投市中興新村省府路11號(附近)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部國有財產署中區分署南投辦事處",
     "lat": 23.956994,
     "lng": 120.684379,
-    "address": "540南投縣南投市中興新村省府路40號"
+    "address": "540南投縣南投市中興新村省府路40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部國有財產署中區分署南投辦事處2F洽公區",
     "lat": 23.956994,
     "lng": 120.684379,
-    "address": "540南投縣南投市中興新村省府路40號2樓"
+    "address": "540南投縣南投市中興新村省府路40號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部國有財產署中區分署南投辦事處3F洽公區",
     "lat": 23.956994,
     "lng": 120.684379,
-    "address": "540南投縣南投市中興新村省府路40號3樓"
+    "address": "540南投縣南投市中興新村省府路40號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通事業管理小組",
     "lat": 23.957477,
     "lng": 120.686542,
-    "address": "540南投縣南投市中興新村省府路6號"
+    "address": "540南投縣南投市中興新村省府路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通事業管理小組服務台",
     "lat": 23.957477,
     "lng": 120.686542,
-    "address": "540南投縣南投市中興新村省府路6號"
+    "address": "540南投縣南投市中興新村省府路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "經濟部中部辦公室第一科服務台",
     "lat": 23.957895,
     "lng": 120.686604,
-    "address": "540南投縣南投市中興新村省府路4號2樓"
+    "address": "540南投縣南投市中興新村省府路4號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "經濟部中部辦公室第三科服務台",
     "lat": 23.957895,
     "lng": 120.686604,
-    "address": "540南投縣南投市中興新村省府路4號1樓"
+    "address": "540南投縣南投市中興新村省府路4號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國家發展委員會中興辦公室",
     "lat": 23.959833,
     "lng": 120.686531,
-    "address": "540南投縣南投市中興新村府西路71號1樓"
+    "address": "540南投縣南投市中興新村府西路71號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

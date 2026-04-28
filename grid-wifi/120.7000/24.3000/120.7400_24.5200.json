@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣西湖鄉二湖社區發展協會",
     "lat": 24.532,
     "lng": 120.744,
-    "address": "368苗栗縣西湖鄉二湖村2鄰土牛溝22之1號"
+    "address": "368苗栗縣西湖鄉二湖村2鄰土牛溝22之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣西湖鄉四湖社區發展協會",
     "lat": 24.5321,
     "lng": 120.7437,
-    "address": "368苗栗縣西湖鄉四湖村4鄰學堂下11號"
+    "address": "368苗栗縣西湖鄉四湖村4鄰學堂下11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

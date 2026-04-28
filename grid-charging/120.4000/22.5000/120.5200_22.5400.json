@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "潮州郵局",
     "lat": 22.544526,
     "lng": 120.53712,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局潮州站候車室",
     "lat": 22.550086,
     "lng": 120.53642,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "潮州新生路郵局",
     "lat": 22.551286,
     "lng": 120.538586,

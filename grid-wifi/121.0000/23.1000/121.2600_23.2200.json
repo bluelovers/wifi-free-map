@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣卓溪鄉古風村辦公處",
     "lat": 23.22023,
     "lng": 121.264978,
-    "address": "982花蓮縣卓溪鄉古風村1鄰20號"
+    "address": "982花蓮縣卓溪鄉古風村1鄰20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "花蓮縣卓溪鄉公所伊入柑布農部落",
     "lat": 23.220799,
     "lng": 121.264094,
-    "address": "982花蓮縣卓溪鄉古風村崙天18-1號"
+    "address": "982花蓮縣卓溪鄉古風村崙天18-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立富北國民中學",
     "lat": 23.224714,
     "lng": 121.279415,
-    "address": "983花蓮縣富里鄉新興村1鄰8號"
+    "address": "983花蓮縣富里鄉新興村1鄰8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局東竹站候車室",
     "lat": 23.226025,
     "lng": 121.278481,
-    "address": "983花蓮縣富里鄉新興村26號"
+    "address": "983花蓮縣富里鄉新興村26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

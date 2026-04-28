@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館小港分館",
     "lat": 22.560638,
     "lng": 120.370631,
-    "address": "812高雄市小港區博學路365號"
+    "address": "812高雄市小港區博學路365號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市楠梓區宏榮社區發展協會",
     "lat": 22.565,
     "lng": 120.361,
-    "address": "811高雄市楠梓區宏榮里宏毅二路南十二巷2號"
+    "address": "811高雄市楠梓區宏榮里宏毅二路南十二巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市傳愛社區關懷協會",
     "lat": 22.5652,
     "lng": 120.3613,
-    "address": "812高雄市小港區二苓里學府路111號一樓"
+    "address": "812高雄市小港區二苓里學府路111號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市小港區山明水秀社區發展協會",
     "lat": 22.566,
     "lng": 120.361,
-    "address": "812高雄市小港區山明里宏光街438之1號"
+    "address": "812高雄市小港區山明里宏光街438之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄宏平郵局",
     "lat": 22.57012,
     "lng": 120.360497,
-    "address": "812高雄市小港區宏平路322號"
+    "address": "812高雄市小港區宏平路322號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市合作快樂志工協會",
     "lat": 22.573,
     "lng": 120.366,
-    "address": "812高雄市小港區合作里孔祥街150號"
+    "address": "812高雄市小港區合作里孔祥街150號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市和平大使協會",
     "lat": 22.574,
     "lng": 120.374,
-    "address": "807高雄市三民區精華里博愛一路27號八樓"
+    "address": "807高雄市三民區精華里博愛一路27號八樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄高松郵局",
     "lat": 22.574452,
     "lng": 120.371378,
-    "address": "812高雄市小港區高鳳路33-3、4號"
+    "address": "812高雄市小港區高鳳路33-3、4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

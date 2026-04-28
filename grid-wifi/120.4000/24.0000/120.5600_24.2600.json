@@ -1,170 +1,233 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商清水中央北路菁埔店(公話)",
     "lat": 24.263258,
     "lng": 120.570168,
-    "address": "436臺中市清水區中正街79號"
+    "address": "436臺中市清水區中正街79號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局清水站候車室",
     "lat": 24.263676,
     "lng": 120.569072,
-    "address": "436臺中市清水區中正街115號"
+    "address": "436臺中市清水區中正街115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市清水區南社社區發展協會",
     "lat": 24.264847,
     "lng": 120.563359,
-    "address": "436臺中市清水區南社里中華路171號"
+    "address": "436臺中市清水區南社里中華路171號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "清水區戶政事務所",
     "lat": 24.26638,
     "lng": 120.562884,
-    "address": "436臺中市清水區鰲峰路239號"
+    "address": "436臺中市清水區鰲峰路239號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺中市立圖書館清水分館",
     "lat": 24.266543,
     "lng": 120.561547,
-    "address": "436臺中市清水區鎮政路50號"
+    "address": "436臺中市清水區鎮政路50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "清水區衛生所",
     "lat": 24.26662,
     "lng": 120.574644,
-    "address": "436臺中市清水區中山路92號"
+    "address": "436臺中市清水區中山路92號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店清水中山路中山店(公話)",
     "lat": 24.267618,
     "lng": 120.575069,
-    "address": "436臺中市清水區中山路110號"
+    "address": "436臺中市清水區中山路110號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "清水郵局",
     "lat": 24.268059,
     "lng": 120.575274,
-    "address": "436臺中市清水區中山路124號"
+    "address": "436臺中市清水區中山路124號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商清水中華路清峰店(公話)",
     "lat": 24.268239,
     "lng": 120.566867,
-    "address": "436臺中市清水區中華路330號(公話)"
+    "address": "436臺中市清水區中華路330號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行清水分行",
     "lat": 24.268506,
     "lng": 120.575144,
-    "address": "436臺中市清水區中山路241號"
+    "address": "436臺中市清水區中山路241號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司清水營運所",
     "lat": 24.268693,
     "lng": 120.579084,
-    "address": "436臺中市清水區大街路134號"
+    "address": "436臺中市清水區大街路134號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市清水老人會",
     "lat": 24.268968,
     "lng": 120.578335,
-    "address": "436臺中市清水區靈泉里清水街2號三樓"
+    "address": "436臺中市清水區靈泉里清水街2號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "清水地政事務所",
     "lat": 24.269082,
     "lng": 120.578756,
-    "address": "436臺中市清水區鰲峰里大街路138號"
+    "address": "436臺中市清水區鰲峰里大街路138號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺中市回生關懷協會",
     "lat": 24.269117,
     "lng": 120.575146,
-    "address": "436臺中市清水區南寧里鰲峰路1之1號五樓"
+    "address": "436臺中市清水區南寧里鰲峰路1之1號五樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商清水文昌街昌興店(公話)",
     "lat": 24.269695,
     "lng": 120.577433,
-    "address": "436臺中市清水區文昌街12號之1"
+    "address": "436臺中市清水區文昌街12號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "紫雲巖廟口商圈",
     "lat": 24.271139,
     "lng": 120.579279,
-    "address": "436臺中市清水區大街路206號[(公話)]"
+    "address": "436臺中市清水區大街路206號[(公話)]",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(清水分行)",
     "lat": 24.271458,
     "lng": 120.578618,
-    "address": "436臺中市清水區光明路35-10號"
+    "address": "436臺中市清水區光明路35-10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺灣省社區關懷協會(清水文昌)",
     "lat": 24.271839,
     "lng": 120.575895,
-    "address": "436臺中市清水區文昌里中興街40號"
+    "address": "436臺中市清水區文昌里中興街40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商清水董公街清中店(公話)",
     "lat": 24.272972,
     "lng": 120.577183,
-    "address": "436臺中市清水區董公街56號"
+    "address": "436臺中市清水區董公街56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市清水區秀水社區發展協會",
     "lat": 24.278347,
     "lng": 120.56243,
-    "address": "436臺中市清水區秀水里海濱路189號"
+    "address": "436臺中市清水區秀水里海濱路189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市清水區橋頭社區發展協會",
     "lat": 24.279221,
     "lng": 120.572075,
-    "address": "436臺中市清水區橋頭里橋江南街68號"
+    "address": "436臺中市清水區橋頭里橋江南街68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

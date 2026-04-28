@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司恆春營運所",
     "lat": 21.986332,
     "lng": 120.731166,

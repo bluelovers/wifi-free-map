@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗縣南庄鄉戶政事務所",
     "lat": 24.597692,
     "lng": 120.999408,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南庄遊客中心",
     "lat": 24.598146,
     "lng": 120.999226,

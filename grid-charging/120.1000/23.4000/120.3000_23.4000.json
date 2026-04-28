@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鹿草郵局",
     "lat": 23.411251,
     "lng": 120.30839,

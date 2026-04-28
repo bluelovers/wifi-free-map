@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣長治鄉潭頭社區發展協會",
     "lat": 22.669288,
     "lng": 120.520406,
-    "address": "908屏東縣長治鄉香楊村潭頭路242號"
+    "address": "908屏東縣長治鄉香楊村潭頭路242號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "長治郵局",
     "lat": 22.676774,
     "lng": 120.53082,
-    "address": "908屏東縣長治鄉進興村復興路68號"
+    "address": "908屏東縣長治鄉進興村復興路68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣長治鄉進興社區發展協會",
     "lat": 22.67715,
     "lng": 120.528491,
-    "address": "908屏東縣長治鄉進興村復興路9號"
+    "address": "908屏東縣長治鄉進興村復興路9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

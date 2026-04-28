@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司池上營運所",
     "lat": 23.123322,
     "lng": 121.21715,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "池上郵局",
     "lat": 23.124269,
     "lng": 121.218011,

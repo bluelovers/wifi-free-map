@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣瑞穗鄉拉加善部落",
     "lat": 23.5644,
     "lng": 121.37533,
-    "address": "978花蓮縣瑞穗鄉富民村民七街21-2號"
+    "address": "978花蓮縣瑞穗鄉富民村民七街21-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣瑞穗鄉牧魯棧部落",
     "lat": 23.57383,
     "lng": 121.37421,
-    "address": "978花蓮縣瑞穗鄉中正路一段207號"
+    "address": "978花蓮縣瑞穗鄉中正路一段207號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣萬榮鄉馬遠國民小學",
     "lat": 23.576874,
     "lng": 121.362062,
-    "address": "979花蓮縣萬榮鄉馬遠村39號"
+    "address": "979花蓮縣萬榮鄉馬遠村39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣萬榮鄉馬遠村辦公處",
     "lat": 23.576887,
     "lng": 121.362654,
-    "address": "979花蓮縣萬榮鄉馬遠村1鄰5號"
+    "address": "979花蓮縣萬榮鄉馬遠村1鄰5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣瑞穗鄉富源村辦公處",
     "lat": 23.577774,
     "lng": 121.375952,
-    "address": "978花蓮縣瑞穗鄉富源村10鄰31號"
+    "address": "978花蓮縣瑞穗鄉富源村10鄰31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局富源消防分隊",
     "lat": 23.577817,
     "lng": 121.374192,
-    "address": "978花蓮縣瑞穗鄉中正路157號"
+    "address": "978花蓮縣瑞穗鄉中正路157號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣瑞穗鄉富源國民小學",
     "lat": 23.578639,
     "lng": 121.375644,
-    "address": "978花蓮縣瑞穗鄉富源村30號"
+    "address": "978花蓮縣瑞穗鄉富源村30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "瑞穗富源郵局",
     "lat": 23.57884,
     "lng": 121.378155,
-    "address": "978花蓮縣瑞穗鄉富源村中正路88號"
+    "address": "978花蓮縣瑞穗鄉富源村中正路88號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

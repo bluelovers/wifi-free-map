@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣獅子鄉橋西部落",
     "lat": 22.234892,
     "lng": 120.802981,
-    "address": "943屏東縣獅子鄉草埔7巷5號1"
+    "address": "943屏東縣獅子鄉草埔7巷5號1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

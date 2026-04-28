@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "淡水義山郵局",
     "lat": 25.205195,
     "lng": 121.448722,

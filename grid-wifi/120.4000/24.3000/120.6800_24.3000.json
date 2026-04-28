@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市后里區聯合社區發展協會",
     "lat": 24.306009,
     "lng": 120.682855,
-    "address": "421臺中市后里區聯合里水門路55之10號"
+    "address": "421臺中市后里區聯合里水門路55之10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "后里月眉郵局",
     "lat": 24.313412,
     "lng": 120.695157,
-    "address": "421臺中市后里區甲后路843號"
+    "address": "421臺中市后里區甲后路843號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商后里甲后路后糖店(公話)",
     "lat": 24.313428,
     "lng": 120.694019,
-    "address": "421臺中市后里區甲后路835號"
+    "address": "421臺中市后里區甲后路835號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市后里區眉山社區發展協會",
     "lat": 24.315316,
     "lng": 120.690892,
-    "address": "421臺中市后里區眉山里甲后路二段588號"
+    "address": "421臺中市后里區眉山里甲后路二段588號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣秀林鄉銅蘭國民小學",
     "lat": 23.947219,
     "lng": 121.507453,
-    "address": "972花蓮縣秀林鄉文蘭村70號"
+    "address": "972花蓮縣秀林鄉文蘭村70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣秀林鄉文蘭村辦公處",
     "lat": 23.947469,
     "lng": 121.506438,
-    "address": "972花蓮縣秀林鄉文蘭村6鄰79號"
+    "address": "972花蓮縣秀林鄉文蘭村6鄰79號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

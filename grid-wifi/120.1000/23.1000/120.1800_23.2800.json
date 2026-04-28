@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市學甲區三慶里辦公處",
     "lat": 23.2821,
     "lng": 120.1932,
-    "address": "726臺南市學甲區三慶里紅茄10之2號"
+    "address": "726臺南市學甲區三慶里紅茄10之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市將軍區廣山社區發展協會",
     "lat": 23.287,
     "lng": 120.199,
-    "address": "725臺南市將軍區廣山里廣山97之6號"
+    "address": "725臺南市將軍區廣山里廣山97之6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

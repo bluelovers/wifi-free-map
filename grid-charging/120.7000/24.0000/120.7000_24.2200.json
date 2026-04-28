@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "潭子栗林郵局",
     "lat": 24.231655,
     "lng": 120.708857,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "豐原中山路郵局",
     "lat": 24.239804,
     "lng": 120.710915,

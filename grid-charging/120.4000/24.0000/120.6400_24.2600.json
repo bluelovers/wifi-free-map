@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "神岡圳堵郵局",
     "lat": 24.271316,
     "lng": 120.656539,

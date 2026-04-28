@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司高雄市橋頭區橋頭站",
     "lat": 22.76249,
     "lng": 120.308168,

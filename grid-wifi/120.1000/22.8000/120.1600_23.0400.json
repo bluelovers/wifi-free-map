@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市安南地政事務所",
     "lat": 23.049764,
     "lng": 120.175412,
-    "address": "709臺南市安南區仁安路1號"
+    "address": "709臺南市安南區仁安路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

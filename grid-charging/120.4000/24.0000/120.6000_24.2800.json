@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局清水服務區客席區與服務台",
     "lat": 24.281381,
     "lng": 120.601313,

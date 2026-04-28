@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北海遊客中心",
     "lat": 23.664044,
     "lng": 119.594854,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "白沙郵局",
     "lat": 23.666942,
     "lng": 119.598338,

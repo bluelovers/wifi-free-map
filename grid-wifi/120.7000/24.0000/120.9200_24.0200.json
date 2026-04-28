@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "埔基醫療財團法人埔里基督教醫院(合成)",
     "lat": 24.036333,
     "lng": 120.924678,
-    "address": "545南投縣埔里鎮西安路三段221號"
+    "address": "545南投縣埔里鎮西安路三段221號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "埔里大坪頂郵局",
     "lat": 24.03757,
     "lng": 120.92523,
-    "address": "545南投縣埔里鎮合成里西安路三段249巷2號"
+    "address": "545南投縣埔里鎮合成里西安路三段249巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

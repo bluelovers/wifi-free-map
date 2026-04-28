@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中國光路郵局",
     "lat": 24.12271,
     "lng": 120.679597,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中福平里郵局",
     "lat": 24.127495,
     "lng": 120.665667,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中愛國街郵局",
     "lat": 24.130872,
     "lng": 120.677936,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中大全街郵局",
     "lat": 24.136168,
     "lng": 120.671231,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市西區戶政事務所",
     "lat": 24.136402,
     "lng": 120.673022,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中民權路郵局",
     "lat": 24.139117,
     "lng": 120.678872,

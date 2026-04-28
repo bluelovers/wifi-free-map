@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "佳冬郵局",
     "lat": 22.414342,
     "lng": 120.552084,

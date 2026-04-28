@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局十分站候車室",
     "lat": 25.041118,
     "lng": 121.775027,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "十分派出所",
     "lat": 25.0455,
     "lng": 121.7785,

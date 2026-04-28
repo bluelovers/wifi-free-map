@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司尖山發電廠展示館",
     "lat": 23.570674,
     "lng": 119.664717,

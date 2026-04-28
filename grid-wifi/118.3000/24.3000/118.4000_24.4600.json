@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "金門縣金沙鎮斗門社區發展協會",
     "lat": 24.473695,
     "lng": 118.401683,
-    "address": "890金門縣金沙鎮何斗里斗門55-3號"
+    "address": "890金門縣金沙鎮何斗里斗門55-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "金門何斗里民活動中心",
     "lat": 24.473746,
     "lng": 118.401698,
-    "address": "890金門縣金沙鎮斗門55-3號"
+    "address": "890金門縣金沙鎮斗門55-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

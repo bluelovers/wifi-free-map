@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "褒忠郵局",
     "lat": 23.693262,
     "lng": 120.311675,
-    "address": "634雲林縣褒忠鄉三民路44號"
+    "address": "634雲林縣褒忠鄉三民路44號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

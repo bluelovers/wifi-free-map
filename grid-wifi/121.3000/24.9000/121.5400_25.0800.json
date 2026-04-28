@@ -1,338 +1,464 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大直美堤花園二-W1-樂群二路",
     "lat": 25.080047,
     "lng": 121.55749,
-    "address": "104臺北市中山區樂群二路147號旁候車亭"
+    "address": "104臺北市中山區樂群二路147號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "明水路口-W-敬業一路",
     "lat": 25.080085,
     "lng": 121.552519,
-    "address": "104臺北市中山區敬業一路3號前方候車亭"
+    "address": "104臺北市中山區敬業一路3號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大直美堤花園三-W-樂群二路",
     "lat": 25.080085,
     "lng": 121.555664,
-    "address": "104臺北市中山區樂群二路111號旁候車亭"
+    "address": "104臺北市中山區樂群二路111號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大直美堤花園一-W-樂群二路",
     "lat": 25.080095,
     "lng": 121.558982,
-    "address": "104臺北市中山區樂群二路199號旁候車亭"
+    "address": "104臺北市中山區樂群二路199號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大直婦女暨家庭服務中心2F辦公室門口",
     "lat": 25.080291,
     "lng": 121.546911,
-    "address": "104臺北市中山區大直街1號2F"
+    "address": "104臺北市中山區大直街1號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大直婦女暨家庭服務中心3F兒童遊戲室門口",
     "lat": 25.080364,
     "lng": 121.546884,
-    "address": "104臺北市中山區大直街1號3F"
+    "address": "104臺北市中山區大直街1號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "中山大直二區民活動中心4F門口",
     "lat": 25.080383,
     "lng": 121.546906,
-    "address": "104臺北市中山區大直街1號4F"
+    "address": "104臺北市中山區大直街1號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(大直分行)",
     "lat": 25.080703,
     "lng": 121.552041,
-    "address": "104臺北市中山區明水路588號"
+    "address": "104臺北市中山區明水路588號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐銀行-大直分行之1",
     "lat": 25.08114,
     "lng": 121.552631,
-    "address": "104臺北市中山區敬業一路17號"
+    "address": "104臺北市中山區敬業一路17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐銀行-大直分行之2",
     "lat": 25.08114,
     "lng": 121.552631,
-    "address": "104臺北市中山區敬業一路17號"
+    "address": "104臺北市中山區敬業一路17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐銀行-大直分行之3",
     "lat": 25.08114,
     "lng": 121.552631,
-    "address": "104臺北市中山區敬業一路17號"
+    "address": "104臺北市中山區敬業一路17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "敬業四路-N-敬業四路",
     "lat": 25.081149,
     "lng": 121.558559,
-    "address": "104臺北市中山區敬業四路33號對面候車亭"
+    "address": "104臺北市中山區敬業四路33號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "敬業三路二-敬業三路",
     "lat": 25.081249,
     "lng": 121.556198,
-    "address": "104臺北市中山區敬業三路123號旁候車亭"
+    "address": "104臺北市中山區敬業三路123號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館大直分館3F期刊報紙區中央",
     "lat": 25.081487,
     "lng": 121.546599,
-    "address": "104臺北市中山區大直街25號3F"
+    "address": "104臺北市中山區大直街25號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "中山大直一區民活動中心4F門口",
     "lat": 25.081641,
     "lng": 121.546879,
-    "address": "104臺北市中山區大直街21巷2號4F"
+    "address": "104臺北市中山區大直街21巷2號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館大直分館5F視聽室後方",
     "lat": 25.081725,
     "lng": 121.546651,
-    "address": "104臺北市中山區大直街25號5F"
+    "address": "104臺北市中山區大直街25號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館大直分館5F自修區中央",
     "lat": 25.08173,
     "lng": 121.546527,
-    "address": "104臺北市中山區大直街25號5F"
+    "address": "104臺北市中山區大直街25號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館大直分館4F外文圖書區",
     "lat": 25.081884,
     "lng": 121.546757,
-    "address": "104臺北市中山區大直街25號4F"
+    "address": "104臺北市中山區大直街25號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館大直分館3F筆電區",
     "lat": 25.081959,
     "lng": 121.546746,
-    "address": "104臺北市中山區大直街25號3F"
+    "address": "104臺北市中山區大直街25號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館大直分館4F外文圖書區中央",
     "lat": 25.081984,
     "lng": 121.546699,
-    "address": "104臺北市中山區大直街25號4F"
+    "address": "104臺北市中山區大直街25號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "明水路一-N-明水路",
     "lat": 25.082192,
     "lng": 121.551463,
-    "address": "104臺北市中山區明水路609號對面候車亭"
+    "address": "104臺北市中山區明水路609號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行大直分行",
     "lat": 25.082503,
     "lng": 121.552725,
-    "address": "104臺北市中山區樂群三路56號"
+    "address": "104臺北市中山區樂群三路56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市中山區大直社區發展協會",
     "lat": 25.082582,
     "lng": 121.546735,
-    "address": "104臺北市中山區大直里大直街1號4樓及大直街39巷3號1樓(大直第二區民活動中心)"
+    "address": "104臺北市中山區大直里大直街1號4樓及大直街39巷3號1樓(大直第二區民活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北北安郵局",
     "lat": 25.082655,
     "lng": 121.549843,
-    "address": "104臺北市中山區北安路630巷10號"
+    "address": "104臺北市中山區北安路630巷10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國防部郵局",
     "lat": 25.082979,
     "lng": 121.540154,
-    "address": "104臺北市中山區北安路409號(國防部內)"
+    "address": "104臺北市中山區北安路409號(國防部內)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "敬業三路一-S-敬業三路",
     "lat": 25.083023,
     "lng": 121.556183,
-    "address": "104臺北市中山區敬業三路20號對面候車亭"
+    "address": "104臺北市中山區敬業三路20號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "敬業三路一-N-敬業三路",
     "lat": 25.083206,
     "lng": 121.556475,
-    "address": "104臺北市中山區敬業三路20號旁候車亭"
+    "address": "104臺北市中山區敬業三路20號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大直加油站-W-北安路",
     "lat": 25.083988,
     "lng": 121.550125,
-    "address": "104臺北市中山區北安路670巷14號候車亭"
+    "address": "104臺北市中山區北安路670巷14號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "美麗華-E1-北安路",
     "lat": 25.084525,
     "lng": 121.558183,
-    "address": "104臺北市中山區北安路與敬業四路口西南側候車亭"
+    "address": "104臺北市中山區北安路與敬業四路口西南側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "美麗華-W1-內湖路一段",
     "lat": 25.084835,
     "lng": 121.558113,
-    "address": "114臺北市內湖區北安路與內湖路一段1巷口西北側候車亭"
+    "address": "114臺北市內湖區北安路與內湖路一段1巷口西北側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運劍南路站-W1-北安路",
     "lat": 25.085381,
     "lng": 121.554656,
-    "address": "104臺北市中山區北安路807號前候車亭"
+    "address": "104臺北市中山區北安路807號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台北市家庭照顧者關懷協會",
     "lat": 25.086,
     "lng": 121.554,
-    "address": "104臺北市中山區北安里北安路805巷4弄5號地下一層"
+    "address": "104臺北市中山區北安里北安路805巷4弄5號地下一層",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "東吳大學郵局",
     "lat": 25.094483,
     "lng": 121.545694,
-    "address": "111臺北市士林區臨溪路70號"
+    "address": "111臺北市士林區臨溪路70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "外雙溪(故宮)-N-故宮路",
     "lat": 25.096637,
     "lng": 121.547279,
-    "address": "111臺北市士林區故宮路35巷2號旁候車亭"
+    "address": "111臺北市士林區故宮路35巷2號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "東吳大學(錢穆故居)-E1-至善路二段",
     "lat": 25.097098,
     "lng": 121.541895,
-    "address": "111臺北市士林區至善路一段與臨溪路口西南側候車亭"
+    "address": "111臺北市士林區至善路一段與臨溪路口西南側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中影文化城-至善路二段",
     "lat": 25.097119,
     "lng": 121.544623,
-    "address": "111臺北市士林區至善路二段34號旁候車亭"
+    "address": "111臺北市士林區至善路二段34號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "梅林新村-E-至善路一段",
     "lat": 25.097169,
     "lng": 121.540206,
-    "address": "111臺北市士林區至善路一段與至善路一段138巷弄口東南側候車亭"
+    "address": "111臺北市士林區至善路一段與至善路一段138巷弄口東南側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "外雙溪(故宮)-S-故宮路",
     "lat": 25.097338,
     "lng": 121.546802,
-    "address": "111臺北市士林區故宮路18號旁候車亭"
+    "address": "111臺北市士林區故宮路18號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "東吳大學(錢穆故居)-W1-至善路二段",
     "lat": 25.097464,
     "lng": 121.541306,
-    "address": "111臺北市士林區至善路二段1之1號西側約200M候車亭"
+    "address": "111臺北市士林區至善路二段1之1號西側約200M候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "梅林新村-至善路一段",
     "lat": 25.097527,
     "lng": 121.540128,
-    "address": "111臺北市士林區至善路一段138巷3弄1號對面候車亭"
+    "address": "111臺北市士林區至善路一段138巷3弄1號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "故宮路口-W1-至善路二段",
     "lat": 25.0981,
     "lng": 121.545997,
-    "address": "111臺北市士林區至善路二段96號對面候車亭"
+    "address": "111臺北市士林區至善路二段96號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "外雙溪(至善)-至善路二段",
     "lat": 25.098222,
     "lng": 121.547134,
-    "address": "111臺北市士林區至善路二段114號候車亭"
+    "address": "111臺北市士林區至善路二段114號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

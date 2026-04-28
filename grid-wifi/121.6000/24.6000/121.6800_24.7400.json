@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局大湖派出所",
     "lat": 24.7434,
     "lng": 121.697346,
-    "address": "264宜蘭縣員山鄉大安路120號"
+    "address": "264宜蘭縣員山鄉大安路120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣員山鄉大湖國小家長接送區牆面",
     "lat": 24.748098,
     "lng": 121.691501,
-    "address": "264宜蘭縣員山鄉蜊埤路55號"
+    "address": "264宜蘭縣員山鄉蜊埤路55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣員山鄉雙湖社區發展協會",
     "lat": 24.748286,
     "lng": 121.68547,
-    "address": "264宜蘭縣員山鄉湖西村隘界路131號"
+    "address": "264宜蘭縣員山鄉湖西村隘界路131號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "殯葬管理所",
     "lat": 24.755435,
     "lng": 121.699797,
-    "address": "264宜蘭縣員山鄉湖東村蜊埤路27號"
+    "address": "264宜蘭縣員山鄉湖東村蜊埤路27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

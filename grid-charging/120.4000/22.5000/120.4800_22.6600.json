@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司屏東直銷中心",
     "lat": 22.660946,
     "lng": 120.487895,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台糖公司屏東區處總務課",
     "lat": 22.662229,
     "lng": 120.48826,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東復興郵局",
     "lat": 22.662988,
     "lng": 120.488917,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局屏東站候車室",
     "lat": 22.669306,
     "lng": 120.486203,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局屏東站第1月台",
     "lat": 22.669306,
     "lng": 120.486203,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東民生路郵局",
     "lat": 22.670473,
     "lng": 120.491605,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東大埔郵局",
     "lat": 22.670981,
     "lng": 120.482672,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東林森路郵局",
     "lat": 22.671507,
     "lng": 120.497799,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東北平路郵局",
     "lat": 22.67581,
     "lng": 120.488853,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部加工出口區管理處屏東分處1樓洽公區",
     "lat": 22.676111,
     "lng": 120.494167,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東勝利路郵局",
     "lat": 22.679277,
     "lng": 120.486011,

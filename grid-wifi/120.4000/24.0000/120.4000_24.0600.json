@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣鹿港鎮白蘭氏健康博物館",
     "lat": 24.078028,
     "lng": 120.400565,
-    "address": "505彰化縣鹿港鎮鹿工路18號"
+    "address": "505彰化縣鹿港鎮鹿工路18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰濱工業區服務中心",
     "lat": 24.078788,
     "lng": 120.413937,
-    "address": "505彰化縣鹿港鎮鹿工路2號1樓"
+    "address": "505彰化縣鹿港鎮鹿工路2號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

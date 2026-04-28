@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣北埔鄉戶政事務所",
     "lat": 24.698874,
     "lng": 121.057086,
-    "address": "314新竹縣北埔鄉南興村14鄰南興街68號"
+    "address": "314新竹縣北埔鄉南興村14鄰南興街68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北埔郵局",
     "lat": 24.699979,
     "lng": 121.054737,
-    "address": "314新竹縣北埔鄉長興街1號"
+    "address": "314新竹縣北埔鄉長興街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

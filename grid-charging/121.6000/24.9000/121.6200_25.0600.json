@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市汐止戶政事務所中興辦事處",
     "lat": 25.064646,
     "lng": 121.633342,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "汐止社后郵局",
     "lat": 25.067972,
     "lng": 121.631186,

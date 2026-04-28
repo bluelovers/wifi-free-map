@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市新社區戶政事務所",
     "lat": 24.233573,
     "lng": 120.809058,

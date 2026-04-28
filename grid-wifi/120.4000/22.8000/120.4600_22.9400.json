@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市內門區公所",
     "lat": 22.942828,
     "lng": 120.462615,
-    "address": "845高雄市內門區內門里內門20號"
+    "address": "845高雄市內門區內門里內門20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市內門區內東社區發展協會",
     "lat": 22.943,
     "lng": 120.463,
-    "address": "845高雄市內門區內東里虎頭山20號"
+    "address": "845高雄市內門區內東里虎頭山20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市內門老人福利協進會",
     "lat": 22.943,
     "lng": 120.463,
-    "address": "845高雄市內門區內門13之10號"
+    "address": "845高雄市內門區內門13之10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市內門區戶政事務所",
     "lat": 22.943614,
     "lng": 120.461998,
-    "address": "845高雄市內門區內門里內門114號"
+    "address": "845高雄市內門區內門里內門114號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內門郵局",
     "lat": 22.956009,
     "lng": 120.470326,
-    "address": "845高雄市內門區內豐村內埔121號"
+    "address": "845高雄市內門區內豐村內埔121號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

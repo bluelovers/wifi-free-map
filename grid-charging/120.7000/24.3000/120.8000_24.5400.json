@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗南苗郵局",
     "lat": 24.550191,
     "lng": 120.81619,

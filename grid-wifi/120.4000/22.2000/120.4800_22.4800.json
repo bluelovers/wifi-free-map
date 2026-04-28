@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣東港鎮興和社區發展協會",
     "lat": 22.487926,
     "lng": 120.484354,
-    "address": "928屏東縣東港鎮興和里興和路205號"
+    "address": "928屏東縣東港鎮興和里興和路205號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "潮州南進路郵局",
     "lat": 22.493837,
     "lng": 120.492215,
-    "address": "924屏東縣崁頂鄉潮州鎮長興路1-13、1-15號"
+    "address": "924屏東縣崁頂鄉潮州鎮長興路1-13、1-15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "後壁菁寮郵局",
     "lat": 23.37637,
     "lng": 120.327695,

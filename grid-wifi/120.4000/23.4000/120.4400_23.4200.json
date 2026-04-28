@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中埔後庄郵局",
     "lat": 23.43584,
     "lng": 120.451293,
-    "address": "606嘉義縣中埔鄉和興村中華路889號"
+    "address": "606嘉義縣中埔鄉和興村中華路889號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣中埔鄉和興社區發展協會",
     "lat": 23.438233,
     "lng": 120.451035,
-    "address": "606嘉義縣中埔鄉和興村中華路305巷246號"
+    "address": "606嘉義縣中埔鄉和興村中華路305巷246號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

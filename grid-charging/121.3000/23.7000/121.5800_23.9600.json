@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局臺北區監理所花蓮監理站",
     "lat": 23.961019,
     "lng": 121.586981,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司花蓮縣吉安鄉南埔站",
     "lat": 23.963956,
     "lng": 121.589869,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "吉安仁里郵局",
     "lat": 23.967483,
     "lng": 121.592809,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "吉安宜昌郵局",
     "lat": 23.973718,
     "lng": 121.585187,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮中華路郵局",
     "lat": 23.974752,
     "lng": 121.596985,

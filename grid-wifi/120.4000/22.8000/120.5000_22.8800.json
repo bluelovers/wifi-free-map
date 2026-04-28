@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "美濃民俗村",
     "lat": 22.893121,
     "lng": 120.513974,
-    "address": "843高雄市美濃區中山路二段421巷80號"
+    "address": "843高雄市美濃區中山路二段421巷80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

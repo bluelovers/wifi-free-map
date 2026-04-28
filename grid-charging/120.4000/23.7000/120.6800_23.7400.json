@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹山郵局",
     "lat": 23.756857,
     "lng": 120.682149,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投縣政府警察局竹山分局",
     "lat": 23.75702,
     "lng": 120.682813,

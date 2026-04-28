@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大同衛生所-復興衛生室",
     "lat": 24.6314,
     "lng": 121.60801,
-    "address": "267宜蘭縣大同鄉泰雅一路35巷1號"
+    "address": "267宜蘭縣大同鄉泰雅一路35巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "麟洛鄉樂智社區服務據點",
     "lat": 22.648951,
     "lng": 120.527828,
-    "address": "909屏東縣麟洛鄉麟趾村大同街2-1號"
+    "address": "909屏東縣麟洛鄉麟趾村大同街2-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "麟洛郵局",
     "lat": 22.653277,
     "lng": 120.523281,
-    "address": "909屏東縣麟洛鄉麟蹄村中山路292號"
+    "address": "909屏東縣麟洛鄉麟蹄村中山路292號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

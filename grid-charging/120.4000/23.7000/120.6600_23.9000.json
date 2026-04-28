@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投縣政府警察局",
     "lat": 23.909693,
     "lng": 120.678914,

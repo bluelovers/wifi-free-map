@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林劍潭郵局",
     "lat": 25.081736,
     "lng": 121.523909,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林郵局",
     "lat": 25.089272,
     "lng": 121.52689,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司北北區處服務中心營業廳",
     "lat": 25.090558,
     "lng": 121.52771,

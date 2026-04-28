@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "豐原鐮村郵局",
     "lat": 24.231346,
     "lng": 120.724611,

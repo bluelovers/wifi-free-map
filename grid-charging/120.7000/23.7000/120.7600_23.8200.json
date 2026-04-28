@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署中區水資源局集集攔河堰管理中心",
     "lat": 23.820953,
     "lng": 120.76519,

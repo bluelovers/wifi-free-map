@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "左營新莊仔郵局",
     "lat": 22.664853,
     "lng": 120.305228,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄鼎泰郵局",
     "lat": 22.665242,
     "lng": 120.316125,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "左營新莊仔郵局2樓",
     "lat": 22.665324,
     "lng": 120.305314,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市左營區戶政事務所第二辦公處",
     "lat": 22.666254,
     "lng": 120.307932,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄郵件中心郵局",
     "lat": 22.676883,
     "lng": 120.318455,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "左營菜公郵局",
     "lat": 22.679343,
     "lng": 120.308766,

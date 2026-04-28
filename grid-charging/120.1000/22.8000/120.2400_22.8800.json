@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "湖內大湖郵局",
     "lat": 22.892519,
     "lng": 120.242159,

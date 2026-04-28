@@ -2,6 +2,10 @@
   "locations": [
     "884澎湖縣白沙鄉"
   ],
+  "categorys": [
+    "其他",
+    "旅遊景點"
+  ],
   "activeBlocks": [
     "119.6000_23.7200",
     "119.6000_23.7400",
@@ -11,6 +15,9 @@
     "119.6000_23.7200": {
       "locations": [
         "884澎湖縣白沙鄉"
+      ],
+      "categorys": [
+        "旅遊景點"
       ],
       "dataset": {
         "wifi": {
@@ -25,6 +32,9 @@
       "locations": [
         "884澎湖縣白沙鄉"
       ],
+      "categorys": [
+        "其他"
+      ],
       "dataset": {
         "wifi": {
           "fileName": "grid-wifi/119.5000/23.7000/119.6000_23.7400.json"
@@ -35,6 +45,7 @@
       "locations": [
         "884澎湖縣白沙鄉"
       ],
+      "categorys": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/119.5000/23.7000/119.6000_23.8000.json"

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司大溪營運所",
     "lat": 24.876643,
     "lng": 121.289972,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大溪郵局",
     "lat": 24.879326,
     "lng": 121.288397,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市大溪區戶政事務所",
     "lat": 24.879731,
     "lng": 121.288652,

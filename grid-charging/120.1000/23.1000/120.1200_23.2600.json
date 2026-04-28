@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北門遊客中心",
     "lat": 23.269892,
     "lng": 120.124168,

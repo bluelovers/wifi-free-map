@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆復興路郵局",
     "lat": 25.141885,
     "lng": 121.727019,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆中山郵局",
     "lat": 25.14522,
     "lng": 121.738599,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆市中山戶政事務所",
     "lat": 25.15284,
     "lng": 121.72961,

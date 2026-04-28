@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司池上營運所",
     "lat": 23.123322,
     "lng": 121.21715,
-    "address": "958臺東縣池上鄉中山路198號"
+    "address": "958臺東縣池上鄉中山路198號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人一粒麥子社會福利慈善事業基金會-池上鄉-福文",
     "lat": 23.123953,
     "lng": 121.212658,
-    "address": "958臺東縣池上鄉福原村中西一路58號"
+    "address": "958臺東縣池上鄉福原村中西一路58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "池上郵局",
     "lat": 23.124269,
     "lng": 121.218011,
-    "address": "958臺東縣池上鄉中山路201號"
+    "address": "958臺東縣池上鄉中山路201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局池上站候車室",
     "lat": 23.126158,
     "lng": 121.219389,
-    "address": "958臺東縣池上鄉鐵花路30號"
+    "address": "958臺東縣池上鄉鐵花路30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣池上鄉福文老人會-池上鄉-車路後",
     "lat": 23.126836,
     "lng": 121.215191,
-    "address": "958臺東縣池上鄉福文村中西三路136號"
+    "address": "958臺東縣池上鄉福文村中西三路136號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

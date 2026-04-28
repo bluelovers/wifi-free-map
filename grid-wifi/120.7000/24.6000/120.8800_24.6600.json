@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣頭份市新華社區發展協會",
     "lat": 24.678,
     "lng": 120.898,
-    "address": "351苗栗縣頭份市中正一路8鄰三角仔180巷22號"
+    "address": "351苗栗縣頭份市中正一路8鄰三角仔180巷22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣頭份市民生社區發展協會",
     "lat": 24.6783,
     "lng": 120.8982,
-    "address": "351苗栗縣頭份市民生里9鄰中華路595號"
+    "address": "351苗栗縣頭份市民生里9鄰中華路595號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

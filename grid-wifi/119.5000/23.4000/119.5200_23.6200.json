@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣西嶼鄉竹灣社區發展協會",
     "lat": 23.630785,
     "lng": 119.523,
-    "address": "881澎湖縣西嶼鄉竹灣村竹篙灣224號"
+    "address": "881澎湖縣西嶼鄉竹灣村竹篙灣224號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣西嶼鄉橫礁社區發展協會",
     "lat": 23.633283,
     "lng": 119.537262,
-    "address": "881澎湖縣西嶼鄉橫礁村橫礁37之1號"
+    "address": "881澎湖縣西嶼鄉橫礁村橫礁37之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

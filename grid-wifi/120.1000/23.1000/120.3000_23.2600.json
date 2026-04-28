@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "柳營郵局",
     "lat": 23.265419,
     "lng": 120.310261,
-    "address": "736臺南市柳營區士林村柳營路一段745號"
+    "address": "736臺南市柳營區士林村柳營路一段745號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市柳營區旭山里辦公處",
     "lat": 23.271,
     "lng": 120.319,
-    "address": "736臺南市柳營區山子腳16鄰9之1號"
+    "address": "736臺南市柳營區山子腳16鄰9之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺南市柳營區柳營聯合活動中心",
     "lat": 23.276997,
     "lng": 120.317601,
-    "address": "736臺南市柳營區中山西路二段19巷31弄35號"
+    "address": "736臺南市柳營區中山西路二段19巷31弄35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

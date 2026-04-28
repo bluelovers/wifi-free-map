@@ -1,162 +1,222 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹南大路郵局",
     "lat": 24.788028,
     "lng": 120.967424,
-    "address": "300新竹市東區南大路621號"
+    "address": "300新竹市東區南大路621號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市光鎮市民活動中心",
     "lat": 24.789207,
     "lng": 120.966479,
-    "address": "300新竹市東區南大路571號"
+    "address": "300新竹市東區南大路571號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市建華市民活動中心",
     "lat": 24.793736,
     "lng": 120.975197,
-    "address": "300新竹市東區建華街36號"
+    "address": "300新竹市東區建華街36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市東山市民活動中心",
     "lat": 24.796538,
     "lng": 120.976974,
-    "address": "300新竹市東區食品路155巷29號"
+    "address": "300新竹市東區食品路155巷29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行大眾分行",
     "lat": 24.796611,
     "lng": 120.970373,
-    "address": "300新竹市東區西大路118號"
+    "address": "300新竹市東區西大路118號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市柴橋人文關懷協會",
     "lat": 24.797,
     "lng": 120.973,
-    "address": "300新竹市東區柴橋里明湖路775巷36號(柴橋市民活動中心)"
+    "address": "300新竹市東區柴橋里明湖路775巷36號(柴橋市民活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市中興長青協進會",
     "lat": 24.797,
     "lng": 120.973,
-    "address": "300新竹市東區頂竹里竹蓮街10號"
+    "address": "300新竹市東區頂竹里竹蓮街10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人喜憨兒社會福利基金會桃竹事務所",
     "lat": 24.797,
     "lng": 120.975,
-    "address": "300新竹市東區頂竹里竹蓮街6號三樓"
+    "address": "300新竹市東區頂竹里竹蓮街6號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市頂竹市民活動中心",
     "lat": 24.797097,
     "lng": 120.972506,
-    "address": "300新竹市東區竹蓮街10號"
+    "address": "300新竹市東區竹蓮街10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹西大路郵局",
     "lat": 24.797115,
     "lng": 120.968656,
-    "address": "300新竹市東區南大路428號"
+    "address": "300新竹市東區南大路428號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署新竹市服務站(新)",
     "lat": 24.797142,
     "lng": 120.963066,
-    "address": "300新竹市北區中華路三段12號1、2樓"
+    "address": "300新竹市北區中華路三段12號1、2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院新竹院區B1F-啦叭旁邊(試辦單位-暫停服務至2016/12/31)",
     "lat": 24.798352,
     "lng": 120.96531,
-    "address": "300新竹市東區中華路二段678號B1樓"
+    "address": "300新竹市東區中華路二段678號B1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院新竹院區1F-啦叭旁邊(試辦單位-暫停服務至2016/12/31)",
     "lat": 24.798352,
     "lng": 120.96531,
-    "address": "300新竹市東區中華路二段678號1樓"
+    "address": "300新竹市東區中華路二段678號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院新竹院區2F(試辦單位-暫停服務至2016/12/31)",
     "lat": 24.798352,
     "lng": 120.96531,
-    "address": "300新竹市東區中華路二段678號2樓"
+    "address": "300新竹市東區中華路二段678號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院新竹院區3F(試辦單位-暫停服務至2016/12/31)",
     "lat": 24.798352,
     "lng": 120.96531,
-    "address": "300新竹市東區中華路二段678號3樓"
+    "address": "300新竹市東區中華路二段678號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院新竹院區3F-陽台(試辦單位-暫停服務至2016/12/31)",
     "lat": 24.798352,
     "lng": 120.96531,
-    "address": "300新竹市東區中華路二段678號3樓陽台"
+    "address": "300新竹市東區中華路二段678號3樓陽台",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院新竹院區5F(試辦單位-暫停服務至2016/12/31)",
     "lat": 24.798352,
     "lng": 120.96531,
-    "address": "300新竹市東區中華路二段678號5樓"
+    "address": "300新竹市東區中華路二段678號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹公園(體育館大廳)",
     "lat": 24.799486,
     "lng": 120.979022,
-    "address": "300新竹市東區公園路295號"
+    "address": "300新竹市東區公園路295號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹公園(體育館內右側)",
     "lat": 24.799486,
     "lng": 120.979022,
-    "address": "300新竹市東區公園路295號"
+    "address": "300新竹市東區公園路295號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹公園(體育館內左側)",
     "lat": 24.799486,
     "lng": 120.979022,
-    "address": "300新竹市東區公園路295號"
+    "address": "300新竹市東區公園路295號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

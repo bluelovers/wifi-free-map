@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣口湖鄉老人福利協進會-後厝據點",
     "lat": 23.543293,
     "lng": 120.196417,
-    "address": "653雲林縣口湖鄉後厝村後厝108號"
+    "address": "653雲林縣口湖鄉後厝村後厝108號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "口湖植梧郵局",
     "lat": 23.546361,
     "lng": 120.19127,
-    "address": "653雲林縣口湖鄉梧北村光明路36號"
+    "address": "653雲林縣口湖鄉梧北村光明路36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣口湖鄉梧北社區發展協會",
     "lat": 23.549314,
     "lng": 120.18973,
-    "address": "653雲林縣口湖鄉梧北村復興路175之6號"
+    "address": "653雲林縣口湖鄉梧北村復興路175之6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

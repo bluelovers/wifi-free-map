@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台糖公司台中區處辦公大樓1樓",
     "lat": 23.952036,
     "lng": 120.481195,

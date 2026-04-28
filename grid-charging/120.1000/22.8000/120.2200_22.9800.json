@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南虎尾寮郵局",
     "lat": 22.982761,
     "lng": 120.234816,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南東門郵局",
     "lat": 22.984862,
     "lng": 120.223887,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南東寧路郵局",
     "lat": 22.990292,
     "lng": 120.227522,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南小東郵局",
     "lat": 22.998594,
     "lng": 120.229443,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永康網寮郵局",
     "lat": 22.998719,
     "lng": 120.235215,

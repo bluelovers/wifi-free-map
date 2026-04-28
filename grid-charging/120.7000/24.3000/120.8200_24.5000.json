@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公館郵局",
     "lat": 24.501597,
     "lng": 120.828014,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗縣公館鄉戶政事務所",
     "lat": 24.503592,
     "lng": 120.827084,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "池南自然教育中心",
     "lat": 23.917148,
     "lng": 121.496445,
-    "address": "974花蓮縣壽豐鄉林園路65號"
+    "address": "974花蓮縣壽豐鄉林園路65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

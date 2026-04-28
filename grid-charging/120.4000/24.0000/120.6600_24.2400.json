@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "神岡郵局",
     "lat": 24.25823,
     "lng": 120.663555,

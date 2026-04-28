@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "瑞穗富源郵局",
     "lat": 23.57884,
     "lng": 121.378155,

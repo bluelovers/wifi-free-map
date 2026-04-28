@@ -1,130 +1,178 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會花蓮榮譽國民之家行政大樓一樓大廳",
     "lat": 24.001678,
     "lng": 121.61951,
-    "address": "970花蓮縣花蓮市府前路29號"
+    "address": "970花蓮縣花蓮市府前路29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會花蓮榮譽國民之家門診大樓一樓大廳",
     "lat": 24.00248,
     "lng": 121.61875,
-    "address": "970花蓮縣花蓮市府前路29號"
+    "address": "970花蓮縣花蓮市府前路29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人花蓮縣愛在球崙關懷發展協會",
     "lat": 24.003917,
     "lng": 121.619581,
-    "address": "970花蓮縣花蓮市民享里華民街1號"
+    "address": "970花蓮縣花蓮市民享里華民街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣花蓮市民心里辦公處",
     "lat": 24.00395,
     "lng": 121.61708,
-    "address": "970花蓮縣花蓮市民光71之1號"
+    "address": "970花蓮縣花蓮市民光71之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣後山人文發展協會",
     "lat": 24.004,
     "lng": 121.617,
-    "address": "970花蓮縣花蓮市民心里華西21號"
+    "address": "970花蓮縣花蓮市民心里華西21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政執行署花蓮分署1樓為民服務等候區",
     "lat": 24.00432,
     "lng": 121.61967,
-    "address": "970花蓮縣花蓮市府前路612號"
+    "address": "970花蓮縣花蓮市府前路612號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣新城鄉嘉新村辦公處",
     "lat": 24.005435,
     "lng": 121.612414,
-    "address": "971花蓮縣新城鄉嘉新村嘉南一街43巷5號"
+    "address": "971花蓮縣新城鄉嘉新村嘉南一街43巷5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣花蓮市復興國民小學",
     "lat": 24.006361,
     "lng": 121.618357,
-    "address": "970花蓮縣花蓮市府前路682號"
+    "address": "970花蓮縣花蓮市府前路682號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮師院郵局",
     "lat": 24.009477,
     "lng": 121.618517,
-    "address": "970花蓮縣花蓮市華西路123號"
+    "address": "970花蓮縣花蓮市華西路123號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局花蓮消防分隊",
     "lat": 24.013234,
     "lng": 121.612492,
-    "address": "970花蓮縣花蓮市三民街53號"
+    "address": "970花蓮縣花蓮市三民街53號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣新城鄉嘉里國民小學",
     "lat": 24.014323,
     "lng": 121.60919,
-    "address": "971花蓮縣新城鄉嘉里村3街28號"
+    "address": "971花蓮縣新城鄉嘉里村3街28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新城鄉嘉里三街福德路口",
     "lat": 24.015115,
     "lng": 121.607891,
-    "address": "971花蓮縣新城鄉福德路16號"
+    "address": "971花蓮縣新城鄉福德路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新城鄉福德路與嘉里路口",
     "lat": 24.015651,
     "lng": 121.608347,
-    "address": "971花蓮縣新城鄉嘉里路15號"
+    "address": "971花蓮縣新城鄉嘉里路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣新城鄉嘉里社區發展協會",
     "lat": 24.017426,
     "lng": 121.60785,
-    "address": "971花蓮縣新城鄉嘉里村嘉里二街31巷20號"
+    "address": "971花蓮縣新城鄉嘉里村嘉里二街31巷20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣新城鄉嘉里村辦公處",
     "lat": 24.018869,
     "lng": 121.608494,
-    "address": "971花蓮縣新城鄉嘉里村嘉里二路31巷20號"
+    "address": "971花蓮縣新城鄉嘉里村嘉里二路31巷20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣新城鄉嘉里部落",
     "lat": 24.01981,
     "lng": 121.6057,
-    "address": "971花蓮縣新城鄉嘉里三街112號-6"
+    "address": "971花蓮縣新城鄉嘉里三街112號-6",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

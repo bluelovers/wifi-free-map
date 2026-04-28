@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立東里國民中學",
     "lat": 23.263742,
     "lng": 121.302087,
-    "address": "983花蓮縣富里鄉東里村道化路82號"
+    "address": "983花蓮縣富里鄉東里村道化路82號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣富里鄉東里國民小學",
     "lat": 23.265595,
     "lng": 121.302345,
-    "address": "983花蓮縣富里鄉東里村道化路74號"
+    "address": "983花蓮縣富里鄉東里村道化路74號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣富里鄉東里村辦公處",
     "lat": 23.267724,
     "lng": 121.305309,
-    "address": "983花蓮縣富里鄉東里村福安路5號"
+    "address": "983花蓮縣富里鄉東里村福安路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局東里站候車室",
     "lat": 23.267935,
     "lng": 121.303716,
-    "address": "983花蓮縣富里鄉東里村大莊路15-6號"
+    "address": "983花蓮縣富里鄉東里村大莊路15-6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "富里東里郵局",
     "lat": 23.26807,
     "lng": 121.30437,
-    "address": "983花蓮縣富里鄉東里村道化路9號"
+    "address": "983花蓮縣富里鄉東里村道化路9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣東里派出所鐵馬驛站",
     "lat": 23.268381,
     "lng": 121.304609,
-    "address": "983花蓮縣富里鄉東里村大莊路5鄰38號"
+    "address": "983花蓮縣富里鄉東里村大莊路5鄰38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局東里消防分隊",
     "lat": 23.268461,
     "lng": 121.303104,
-    "address": "983花蓮縣富里鄉大莊路52號"
+    "address": "983花蓮縣富里鄉大莊路52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

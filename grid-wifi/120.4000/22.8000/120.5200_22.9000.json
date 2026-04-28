@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行美濃分行",
     "lat": 22.901241,
     "lng": 120.539648,
-    "address": "843高雄市美濃區中山路一段65號"
+    "address": "843高雄市美濃區中山路一段65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市美濃區龍肚社區發展協會",
     "lat": 22.902,
     "lng": 120.537,
-    "address": "843高雄市美濃區龍山里文化街6巷20號"
+    "address": "843高雄市美濃區龍山里文化街6巷20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

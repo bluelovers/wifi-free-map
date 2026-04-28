@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺灣菸酒隆田酒廠",
     "lat": 23.195719,
     "lng": 120.321168,
-    "address": "720臺南市官田區隆本里中華路一段335號"
+    "address": "720臺南市官田區隆本里中華路一段335號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

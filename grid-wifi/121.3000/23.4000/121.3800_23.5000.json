@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣瑞穗鄉鶴岡村辦公處",
     "lat": 23.50972,
     "lng": 121.391198,
-    "address": "978花蓮縣瑞穗鄉鶴岡村14鄰85-6號"
+    "address": "978花蓮縣瑞穗鄉鶴岡村14鄰85-6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

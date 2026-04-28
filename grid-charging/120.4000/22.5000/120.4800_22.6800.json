@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東中正路郵局",
     "lat": 22.682085,
     "lng": 120.491782,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東崇蘭郵局",
     "lat": 22.687726,
     "lng": 120.485391,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局高雄區監理所屏東監理站",
     "lat": 22.692868,
     "lng": 120.489073,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司屏東區處服務中心營業廳",
     "lat": 22.694808,
     "lng": 120.492602,

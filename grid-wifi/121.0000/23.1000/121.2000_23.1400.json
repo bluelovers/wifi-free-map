@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺東縣天主教愛德婦女協會-海端鄉-廣原",
     "lat": 23.149914,
     "lng": 121.206186,
-    "address": "957臺東縣海端鄉1鄰大埔12之1號"
+    "address": "957臺東縣海端鄉1鄰大埔12之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,154 +1,211 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市社區醫療發展協會",
     "lat": 23.46767,
     "lng": 120.4612,
-    "address": "600嘉義市東區芳安里宣信街157號"
+    "address": "600嘉義市東區芳安里宣信街157號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "嘉義市彌陀路候車亭(大同技術學院對面)",
     "lat": 23.46905,
     "lng": 120.4659,
-    "address": "600嘉義市東區彌陀路253號對面電信箱體(編號E1-3270)"
+    "address": "600嘉義市東區彌陀路253號對面電信箱體(編號E1-3270)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市政府勞青處(勞工服務中心)",
     "lat": 23.469491,
     "lng": 120.464748,
-    "address": "600嘉義市東區彌陀路253號"
+    "address": "600嘉義市東區彌陀路253號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市兒童福利服務中心",
     "lat": 23.470844,
     "lng": 120.460614,
-    "address": "600嘉義市東區興業東路555號"
+    "address": "600嘉義市東區興業東路555號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市東區新開社區發展協會",
     "lat": 23.47124,
     "lng": 120.46333,
-    "address": "600嘉義市東區新開里16鄰彌陀路289巷22號"
+    "address": "600嘉義市東區新開里16鄰彌陀路289巷22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市彌陀路候車亭(嘉義高工對面)",
     "lat": 23.4716,
     "lng": 120.4638,
-    "address": "600嘉義市東區彌陀路295號前電信箱體"
+    "address": "600嘉義市東區彌陀路295號前電信箱體",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市國民運動中心1樓",
     "lat": 23.47175,
     "lng": 120.462532,
-    "address": "600嘉義市東區彌陀路327巷15號1樓"
+    "address": "600嘉義市東區彌陀路327巷15號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市國民運動中心4樓",
     "lat": 23.47175,
     "lng": 120.462532,
-    "address": "600嘉義市東區彌陀路327巷15號4樓"
+    "address": "600嘉義市東區彌陀路327巷15號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市國民運動中心(服務台)",
     "lat": 23.47175,
     "lng": 120.462532,
-    "address": "600嘉義市東區隬陀路327巷15號1樓(服務台)"
+    "address": "600嘉義市東區隬陀路327巷15號1樓(服務台)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市田徑場",
     "lat": 23.471779,
     "lng": 120.461901,
-    "address": "600嘉義市東區體育路2號"
+    "address": "600嘉義市東區體育路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市政府消防局",
     "lat": 23.472527,
     "lng": 120.467191,
-    "address": "600嘉義市東區立學街16號"
+    "address": "600嘉義市東區立學街16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市東區體育館",
     "lat": 23.473403,
     "lng": 120.462457,
-    "address": "600嘉義市東區彌陀路381號"
+    "address": "600嘉義市東區彌陀路381號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義彌陀郵局",
     "lat": 23.474072,
     "lng": 120.462751,
-    "address": "600嘉義市東區彌陀路268號"
+    "address": "600嘉義市東區彌陀路268號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市青少年福利服務中心",
     "lat": 23.474633,
     "lng": 120.461665,
-    "address": "600嘉義市東區體育路10號"
+    "address": "600嘉義市東區體育路10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "嘉義市長青綜合服務中心2F",
     "lat": 23.47566,
     "lng": 120.46388,
-    "address": "600嘉義市東區公義路1號"
+    "address": "600嘉義市東區公義路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義市長青綜合服務中心",
     "lat": 23.476197,
     "lng": 120.463677,
-    "address": "600嘉義市東區公義路1號"
+    "address": "600嘉義市東區公義路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "嘉義市二二八紀念館",
     "lat": 23.476663,
     "lng": 120.462425,
-    "address": "600嘉義市東區大雅路二段695號"
+    "address": "600嘉義市東區大雅路二段695號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義市東區衛生所",
     "lat": 23.476916,
     "lng": 120.466268,
-    "address": "600嘉義市東區大雅路二段625號"
+    "address": "600嘉義市東區大雅路二段625號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "嘉義縣公共汽車管理處",
     "lat": 23.477684,
     "lng": 120.465218,
-    "address": "600嘉義市東區大雅路二段635號"
+    "address": "600嘉義市東區大雅路二段635號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

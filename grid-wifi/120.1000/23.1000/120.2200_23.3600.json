@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "朴子(兼義竹)工業區服務中心-義竹",
     "lat": 23.360025,
     "lng": 120.22047,
-    "address": "624嘉義縣義竹鄉義工一路4號1樓"
+    "address": "624嘉義縣義竹鄉義工一路4號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

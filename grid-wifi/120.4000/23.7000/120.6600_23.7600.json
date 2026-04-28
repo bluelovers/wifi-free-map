@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "竹山秀傳醫院(中和樂智學堂)",
     "lat": 23.768548,
     "lng": 120.662657,
-    "address": "557南投縣竹山鎮中和里中和路96-16號"
+    "address": "557南投縣竹山鎮中和里中和路96-16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "東華醫院(下坪)",
     "lat": 23.776437,
     "lng": 120.679422,
-    "address": "557南投縣竹山鎮下坪里下坪路19-3號"
+    "address": "557南投縣竹山鎮下坪里下坪路19-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

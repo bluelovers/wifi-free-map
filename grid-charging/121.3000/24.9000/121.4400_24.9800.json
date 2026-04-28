@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "土城清水郵局",
     "lat": 24.980958,
     "lng": 121.458943,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "土城青雲郵局",
     "lat": 24.984495,
     "lng": 121.458658,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "土城貨饒郵局",
     "lat": 24.984987,
     "lng": 121.444577,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "土城學府郵局",
     "lat": 24.985202,
     "lng": 121.448793,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司土城服務所",
     "lat": 24.986965,
     "lng": 121.452131,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋八甲郵局",
     "lat": 24.993992,
     "lng": 121.451255,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署第十河川局1樓服務台",
     "lat": 24.994863,
     "lng": 121.452589,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋浮洲郵局",
     "lat": 24.99846,
     "lng": 121.441881,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台東管理站小野柳遊客中心",
     "lat": 22.793809,
     "lng": 121.187066,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東部海岸國家風景區台東管理站",
     "lat": 22.795432,
     "lng": 121.194857,

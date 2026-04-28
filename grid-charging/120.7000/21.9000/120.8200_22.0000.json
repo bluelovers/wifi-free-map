@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "滿州郵局",
     "lat": 22.018543,
     "lng": 120.837955,

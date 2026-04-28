@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "布袋過溝郵局",
     "lat": 23.416895,
     "lng": 120.182171,

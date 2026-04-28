@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中日超商太平長龍路新城店(公話)",
     "lat": 24.124292,
     "lng": 120.749075,
-    "address": "411臺中市太平區長龍路一段696號(公話)"
+    "address": "411臺中市太平區長龍路一段696號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

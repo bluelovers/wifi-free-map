@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀觀音分行",
     "lat": 25.042777,
     "lng": 121.137108,
-    "address": "328桃園市觀音區大觀路二段321號"
+    "address": "328桃園市觀音區大觀路二段321號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市觀音區草漯社區發展協會",
     "lat": 25.043091,
     "lng": 121.135729,
-    "address": "328桃園市觀音區草漯里忠孝路82號"
+    "address": "328桃園市觀音區草漯里忠孝路82號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市觀音區樹林社區發展協會",
     "lat": 25.0507,
     "lng": 121.1232,
-    "address": "328桃園市觀音區樹林里泰安街209號"
+    "address": "328桃園市觀音區樹林里泰安街209號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市新屋區新生社區發展協會",
     "lat": 25.051,
     "lng": 121.123,
-    "address": "327桃園市新屋區新生里中山路370號二樓"
+    "address": "327桃園市新屋區新生里中山路370號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市慈心完善庭院溫馨協會",
     "lat": 25.055671,
     "lng": 121.138182,
-    "address": "328桃園市觀音區保障里忠孝路386號"
+    "address": "328桃園市觀音區保障里忠孝路386號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

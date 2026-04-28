@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣滿州鄉分水嶺部落",
     "lat": 22.10214,
     "lng": 120.84026,
-    "address": "947屏東縣滿州鄉八瑤路67號"
+    "address": "947屏東縣滿州鄉八瑤路67號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

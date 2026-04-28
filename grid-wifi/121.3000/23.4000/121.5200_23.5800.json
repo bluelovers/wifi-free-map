@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣豐濱鄉民代表會",
     "lat": 23.59803,
     "lng": 121.52097,
-    "address": "977花蓮縣豐濱鄉豐濱村5鄰民族街24號"
+    "address": "977花蓮縣豐濱鄉豐濱村5鄰民族街24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局豐濱消防分隊",
     "lat": 23.598249,
     "lng": 121.520452,
-    "address": "977花蓮縣豐濱鄉三民路106號"
+    "address": "977花蓮縣豐濱鄉三民路106號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣豐濱鄉戶政事務所",
     "lat": 23.59835,
     "lng": 121.522315,
-    "address": "977花蓮縣豐濱鄉三民路102號"
+    "address": "977花蓮縣豐濱鄉三民路102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣豐濱鄉豐濱國民小學",
     "lat": 23.598363,
     "lng": 121.521149,
-    "address": "977花蓮縣豐濱鄉豐濱村民族街5號"
+    "address": "977花蓮縣豐濱鄉豐濱村民族街5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北西園郵局",
     "lat": 25.04071,
     "lng": 121.501037,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北漢中街郵局",
     "lat": 25.041328,
     "lng": 121.507015,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部國營事業委員會1樓大廳",
     "lat": 25.041418,
     "lng": 121.510962,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部國營事業委員會4樓",
     "lat": 25.041438,
     "lng": 121.511064,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部國營事業委員會5樓",
     "lat": 25.041438,
     "lng": 121.511064,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部國營事業委員會6樓",
     "lat": 25.041438,
     "lng": 121.511064,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部國營事業委員會7樓",
     "lat": 25.041438,
     "lng": 121.511064,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北中山堂郵局",
     "lat": 25.043122,
     "lng": 121.50896,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "立法院郵局",
     "lat": 25.043251,
     "lng": 121.519867,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部礦務局5樓公開閱覽室",
     "lat": 25.043418,
     "lng": 121.508875,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "行政院台商聯合服務中心",
     "lat": 25.044021,
     "lng": 121.515167,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北南陽郵局",
     "lat": 25.044665,
     "lng": 121.515998,
@@ -85,6 +97,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北復興橋郵局",
     "lat": 25.046021,
     "lng": 121.51941,
@@ -92,6 +105,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北北門郵局-1",
     "lat": 25.047296,
     "lng": 121.512154,
@@ -99,6 +113,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北北門郵局-2",
     "lat": 25.047296,
     "lng": 121.512154,
@@ -106,6 +121,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北北門郵局-3",
     "lat": 25.047296,
     "lng": 121.512154,
@@ -113,6 +129,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北北門郵局-4",
     "lat": 25.047296,
     "lng": 121.512154,
@@ -120,6 +137,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北北門郵局-5",
     "lat": 25.047296,
     "lng": 121.512154,
@@ -127,6 +145,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局材料處公開閱覽室",
     "lat": 25.048203,
     "lng": 121.515698,
@@ -134,6 +153,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局秘書室國會聯絡室",
     "lat": 25.048203,
     "lng": 121.515698,
@@ -141,6 +161,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局秘書室新聞聯絡室",
     "lat": 25.048203,
     "lng": 121.515698,
@@ -148,6 +169,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺北站R13票房",
     "lat": 25.048203,
     "lng": 121.515698,
@@ -155,6 +177,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺北站大廳西側",
     "lat": 25.048203,
     "lng": 121.515698,
@@ -162,6 +185,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺北站大廳東側",
     "lat": 25.048203,
     "lng": 121.515698,
@@ -169,6 +193,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺北站西剪票入口(地下1樓)",
     "lat": 25.048203,
     "lng": 121.515698,
@@ -176,6 +201,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺北站東剪票入口(地下1樓)",
     "lat": 25.048203,
     "lng": 121.515698,
@@ -183,6 +209,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺北站地下一樓東南角",
     "lat": 25.048203,
     "lng": 121.515698,
@@ -190,6 +217,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺北站地下三樓剪收票口(R13)",
     "lat": 25.048203,
     "lng": 121.515698,
@@ -197,6 +225,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北火車站郵局",
     "lat": 25.048203,
     "lng": 121.515698,
@@ -204,6 +233,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北圓環郵局",
     "lat": 25.054635,
     "lng": 121.514475,
@@ -211,6 +241,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北迪化街郵局",
     "lat": 25.054789,
     "lng": 121.509986,
@@ -218,6 +249,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北保安郵局",
     "lat": 25.059894,
     "lng": 121.513671,

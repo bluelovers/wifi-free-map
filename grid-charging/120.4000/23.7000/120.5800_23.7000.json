@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "斗六工業區服務中心",
     "lat": 23.71354,
     "lng": 120.58952,

@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行仁德分行",
     "lat": 22.965366,
     "lng": 120.25323,
-    "address": "717臺南市仁德區中正路二段899號"
+    "address": "717臺南市仁德區中正路二段899號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市仁德區仁義社區發展協會",
     "lat": 22.968,
     "lng": 120.259,
-    "address": "717臺南市仁德區仁義里仁義路130號之2"
+    "address": "717臺南市仁德區仁義里仁義路130號之2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "仁德郵局",
     "lat": 22.969644,
     "lng": 120.252193,
-    "address": "717臺南市仁德區中正路二段1118號"
+    "address": "717臺南市仁德區中正路二段1118號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市仁德區仁德社區發展協會",
     "lat": 22.971,
     "lng": 120.251,
-    "address": "717臺南市仁德區仁德里中正路二段1247號"
+    "address": "717臺南市仁德區仁德里中正路二段1247號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行仁德分行",
     "lat": 22.971287,
     "lng": 120.254301,
-    "address": "717臺南市仁德區中山路511號"
+    "address": "717臺南市仁德區中山路511號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市仁德戶政事務所",
     "lat": 22.972559,
     "lng": 120.251327,
-    "address": "717臺南市仁德區中山路606巷3號"
+    "address": "717臺南市仁德區中山路606巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "衛生福利部胸腔病院仁德院區-病房大樓東側",
     "lat": 22.975299,
     "lng": 120.241805,
-    "address": "717臺南市仁德區中山路864號"
+    "address": "717臺南市仁德區中山路864號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "衛生福利部胸腔病院仁德院區-病房大樓西側",
     "lat": 22.975299,
     "lng": 120.241805,
-    "address": "717臺南市仁德區中山路864號"
+    "address": "717臺南市仁德區中山路864號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "衛生福利部嘉南療養院門診候診區",
     "lat": 22.976973,
     "lng": 120.242428,
-    "address": "717臺南市仁德區裕忠路539號"
+    "address": "717臺南市仁德區裕忠路539號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

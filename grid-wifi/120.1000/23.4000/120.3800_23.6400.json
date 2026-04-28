@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣聖心社會關懷協會-土庫溪邊據點",
     "lat": 23.657,
     "lng": 120.387,
-    "address": "633雲林縣土庫鎮溪邊里竹寮35之8號"
+    "address": "633雲林縣土庫鎮溪邊里竹寮35之8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣如願慈善關懷協會-土庫下庄據點",
     "lat": 23.658833,
     "lng": 120.385258,
-    "address": "633雲林縣土庫鎮石廟里中興路101號"
+    "address": "633雲林縣土庫鎮石廟里中興路101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,178 +1,244 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣蘇澳鎮白米社區發展協會",
     "lat": 24.582633,
     "lng": 121.84541,
-    "address": "270宜蘭縣蘇澳鎮永春里永春路134巷11之1號"
+    "address": "270宜蘭縣蘇澳鎮永春里永春路134巷11之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣蘇澳鎮士敏國小行政大樓二樓牆面朝生態池",
     "lat": 24.591929,
     "lng": 121.853571,
-    "address": "270宜蘭縣蘇澳鎮光明路8號"
+    "address": "270宜蘭縣蘇澳鎮光明路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣蘇澳鎮長安社區發展協會",
     "lat": 24.592792,
     "lng": 121.854053,
-    "address": "270宜蘭縣蘇澳鎮長安里勝利路1之1號"
+    "address": "270宜蘭縣蘇澳鎮長安里勝利路1之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "蘇澳鎮衛生所",
     "lat": 24.593163,
     "lng": 121.842346,
-    "address": "270宜蘭縣蘇澳鎮志成路60號"
+    "address": "270宜蘭縣蘇澳鎮志成路60號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣蘇澳鎮蘇西社區發展協會",
     "lat": 24.593943,
     "lng": 121.841248,
-    "address": "270宜蘭縣蘇澳鎮蘇西里志成路62號"
+    "address": "270宜蘭縣蘇澳鎮蘇西里志成路62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣蘇澳鎮永光社區發展協會",
     "lat": 24.594029,
     "lng": 121.852119,
-    "address": "270宜蘭縣蘇澳鎮永光里蘇港路85號"
+    "address": "270宜蘭縣蘇澳鎮永光里蘇港路85號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "蘇澳消防分隊",
     "lat": 24.59431,
     "lng": 121.85228,
-    "address": "270宜蘭縣蘇澳鎮蘇港路80號"
+    "address": "270宜蘭縣蘇澳鎮蘇港路80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "蘇澳鎮公所-1F",
     "lat": 24.594739,
     "lng": 121.842027,
-    "address": "270宜蘭縣蘇澳鎮蘇港路215號"
+    "address": "270宜蘭縣蘇澳鎮蘇港路215號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "蘇澳鎮公所-1F後方",
     "lat": 24.594739,
     "lng": 121.842027,
-    "address": "270宜蘭縣蘇澳鎮蘇港路215號"
+    "address": "270宜蘭縣蘇澳鎮蘇港路215號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局蘇澳站第1月台北端",
     "lat": 24.595181,
     "lng": 121.851461,
-    "address": "270宜蘭縣蘇澳鎮蘇南里太平路1號"
+    "address": "270宜蘭縣蘇澳鎮蘇南里太平路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局蘇澳站第1月台南端",
     "lat": 24.595181,
     "lng": 121.851461,
-    "address": "270宜蘭縣蘇澳鎮蘇南里太平路1號"
+    "address": "270宜蘭縣蘇澳鎮蘇南里太平路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局蘇澳站候車室",
     "lat": 24.59523,
     "lng": 121.85144,
-    "address": "270宜蘭縣蘇澳鎮太平路1號"
+    "address": "270宜蘭縣蘇澳鎮太平路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "蘇澳蘇西里郵局",
     "lat": 24.59562,
     "lng": 121.844019,
-    "address": "270宜蘭縣蘇澳鎮中山路一段253號"
+    "address": "270宜蘭縣蘇澳鎮中山路一段253號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行蘇澳分行",
     "lat": 24.595699,
     "lng": 121.851317,
-    "address": "270宜蘭縣蘇澳鎮太平路17號"
+    "address": "270宜蘭縣蘇澳鎮太平路17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣警察局蘇澳分局",
     "lat": 24.595875,
     "lng": 121.844795,
-    "address": "270宜蘭縣蘇澳鎮中山路一段252號"
+    "address": "270宜蘭縣蘇澳鎮中山路一段252號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "蘇澳鎮戶政事務所",
     "lat": 24.59588,
     "lng": 121.844527,
-    "address": "270宜蘭縣蘇澳鎮中山路一段254號"
+    "address": "270宜蘭縣蘇澳鎮中山路一段254號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司宜蘭縣蘇澳鎮蘇澳站",
     "lat": 24.595993,
     "lng": 121.847033,
-    "address": "270宜蘭縣蘇澳鎮中山路一段196號"
+    "address": "270宜蘭縣蘇澳鎮中山路一段196號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "蘇澳郵局",
     "lat": 24.596035,
     "lng": 121.853039,
-    "address": "270宜蘭縣蘇澳鎮中山路一段1號"
+    "address": "270宜蘭縣蘇澳鎮中山路一段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(蘇澳分行)",
     "lat": 24.596308,
     "lng": 121.852776,
-    "address": "270宜蘭縣蘇澳鎮中山路一段12號"
+    "address": "270宜蘭縣蘇澳鎮中山路一段12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣蘇澳鎮蘇澳國小活動中心一樓廁所牆面",
     "lat": 24.596612,
     "lng": 121.84164,
-    "address": "270宜蘭縣蘇澳鎮中山路一段366號"
+    "address": "270宜蘭縣蘇澳鎮中山路一段366號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣蘇澳鎮蘇北社區發展協會",
     "lat": 24.596778,
     "lng": 121.850502,
-    "address": "270宜蘭縣蘇澳鎮蘇北里新生路8號"
+    "address": "270宜蘭縣蘇澳鎮蘇北里新生路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆港務分公司蘇澳港營運處大樓2、3、4樓",
     "lat": 24.596873,
     "lng": 121.857191,
-    "address": "270宜蘭縣蘇澳鎮港區1號"
+    "address": "270宜蘭縣蘇澳鎮港區1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

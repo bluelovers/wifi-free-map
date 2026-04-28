@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大里仁化郵局",
     "lat": 24.093409,
     "lng": 120.703284,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大里工業區服務中心",
     "lat": 24.097216,
     "lng": 120.712886,

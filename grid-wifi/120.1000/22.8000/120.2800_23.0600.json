@@ -1,90 +1,123 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市新市區大營里辦公處",
     "lat": 23.063,
     "lng": 120.293,
-    "address": "744臺南市新市區大營213號"
+    "address": "744臺南市新市區大營213號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局南區工程處白河工務段會議室",
     "lat": 23.068095,
     "lng": 120.290137,
-    "address": "732臺南市白河區崁頭里崁子頭65-37號"
+    "address": "732臺南市白河區崁頭里崁子頭65-37號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局新市站第1月台10~11車位置",
     "lat": 23.068233,
     "lng": 120.287863,
-    "address": "744臺南市新市區新和里中華路1號"
+    "address": "744臺南市新市區新和里中華路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局新市站第2月台8~9車位置",
     "lat": 23.068233,
     "lng": 120.287863,
-    "address": "744臺南市新市區新和里中華路1號"
+    "address": "744臺南市新市區新和里中華路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局新市站候車室",
     "lat": 23.068233,
     "lng": 120.287863,
-    "address": "744臺南市新市區新和里中華路1號"
+    "address": "744臺南市新市區新和里中華路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣臺南地方法院新市庭",
     "lat": 23.07245,
     "lng": 120.291308,
-    "address": "744臺南市新市區富強路12號"
+    "address": "744臺南市新市區富強路12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(臺南地方法院-新市簡易庭)",
     "lat": 23.07246,
     "lng": 120.290439,
-    "address": "744臺南市新市區富強路12號"
+    "address": "744臺南市新市區富強路12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新市郵局",
     "lat": 23.07569,
     "lng": 120.293455,
-    "address": "744臺南市新市區仁愛街217號"
+    "address": "744臺南市新市區仁愛街217號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行新市分行",
     "lat": 23.075834,
     "lng": 120.291609,
-    "address": "744臺南市新市區中正路232-1號"
+    "address": "744臺南市新市區中正路232-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市新市區社內社區發展協會",
     "lat": 23.076,
     "lng": 120.294,
-    "address": "744臺南市新市區社內91之22號"
+    "address": "744臺南市新市區社內91之22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市新市區永就里辦公處",
     "lat": 23.077,
     "lng": 120.281,
-    "address": "744臺南市新市區永就里94-3號"
+    "address": "744臺南市新市區永就里94-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

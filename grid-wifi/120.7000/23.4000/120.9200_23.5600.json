@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "東埔溫泉公園",
     "lat": 23.56148,
     "lng": 120.9271,
-    "address": "556南投縣信義鄉開高巷80號"
+    "address": "556南投縣信義鄉開高巷80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "東埔停車場",
     "lat": 23.56167,
     "lng": 120.92269,
-    "address": "556南投縣信義鄉開高巷987號"
+    "address": "556南投縣信義鄉開高巷987號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

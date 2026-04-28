@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義縣新港鄉戶政事務所",
     "lat": 23.551477,
     "lng": 120.347543,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司新港營運所",
     "lat": 23.552245,
     "lng": 120.347653,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新港郵局",
     "lat": 23.5551,
     "lng": 120.346293,

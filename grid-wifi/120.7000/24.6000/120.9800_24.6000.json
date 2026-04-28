@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "銀海社區型職能治療所(南庄鄉西村失智據點)",
     "lat": 24.600287,
     "lng": 120.998288,
-    "address": "353苗栗縣南庄鄉西村中山路16號"
+    "address": "353苗栗縣南庄鄉西村中山路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

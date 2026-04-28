@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中嶺東郵局",
     "lat": 24.135807,
     "lng": 120.610542,

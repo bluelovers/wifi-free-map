@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市後壁區新嘉社區發展協會",
     "lat": 23.355,
     "lng": 120.369,
-    "address": "731臺南市後壁區新嘉里白沙屯172號"
+    "address": "731臺南市後壁區新嘉里白沙屯172號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

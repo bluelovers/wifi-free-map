@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹南工業區服務中心",
     "lat": 24.710463,
     "lng": 120.880637,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣鹽埔鄉振興社區發展協會",
     "lat": 22.723283,
     "lng": 120.611478,
-    "address": "907屏東縣鹽埔鄉振興村中正路28之1號"
+    "address": "907屏東縣鹽埔鄉振興村中正路28之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

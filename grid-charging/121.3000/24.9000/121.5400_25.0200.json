@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "智慧局3樓民眾服務台",
     "lat": 25.02171,
     "lng": 121.541468,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北六張犁郵局",
     "lat": 25.02286,
     "lng": 121.553823,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北成功郵局",
     "lat": 25.026504,
     "lng": 121.545929,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北安和郵局",
     "lat": 25.030832,
     "lng": 121.552611,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北信維郵局",
     "lat": 25.033128,
     "lng": 121.546239,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北三張犁郵局",
     "lat": 25.033232,
     "lng": 121.556387,

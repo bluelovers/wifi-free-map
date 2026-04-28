@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣五峰鄉桃山部落",
     "lat": 24.59601,
     "lng": 121.1085,
-    "address": "311新竹縣五峰鄉桃山村3鄰52之1號"
+    "address": "311新竹縣五峰鄉桃山村3鄰52之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

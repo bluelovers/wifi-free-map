@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東河都蘭郵局",
     "lat": 22.874529,
     "lng": 121.228793,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣九如鄉玉水社區發展協會",
     "lat": 22.71459,
     "lng": 120.478078,
-    "address": "904屏東縣九如鄉玉水村清水路75號"
+    "address": "904屏東縣九如鄉玉水村清水路75號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

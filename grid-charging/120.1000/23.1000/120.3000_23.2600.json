@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "柳營郵局",
     "lat": 23.265419,
     "lng": 120.310261,

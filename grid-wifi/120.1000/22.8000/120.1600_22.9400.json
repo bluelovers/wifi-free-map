@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺南市車仔寮關懷協會",
     "lat": 22.94,
     "lng": 120.178,
-    "address": "702臺南市南區喜東里喜樹路181號"
+    "address": "702臺南市南區喜東里喜樹路181號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺南市基督教鯤鯓牧鄰協會",
     "lat": 22.959,
     "lng": 120.171,
-    "address": "702臺南市南區鯤鯓里鯤鯓路119巷3號"
+    "address": "702臺南市南區鯤鯓里鯤鯓路119巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

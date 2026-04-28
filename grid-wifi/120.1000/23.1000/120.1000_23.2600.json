@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北門郵局",
     "lat": 23.268584,
     "lng": 120.114179,
-    "address": "727臺南市北門區北門村舊埕91號"
+    "address": "727臺南市北門區北門村舊埕91號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市北門區文山里辦公處",
     "lat": 23.276,
     "lng": 120.117,
-    "address": "727臺南市北門區文山里二重港27號"
+    "address": "727臺南市北門區文山里二重港27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

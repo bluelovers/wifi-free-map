@@ -1,642 +1,882 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣擺厘社區關懷協會",
     "lat": 24.74382,
     "lng": 121.751177,
-    "address": "260宜蘭縣宜蘭市擺厘里擺厘路9之62號"
+    "address": "260宜蘭縣宜蘭市擺厘里擺厘路9之62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國立宜蘭大學圖書資訊館",
     "lat": 24.745044,
     "lng": 121.748704,
-    "address": "260宜蘭縣宜蘭市神農路一段2號"
+    "address": "260宜蘭縣宜蘭市神農路一段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "衛生局-健康大樓-1F",
     "lat": 24.745433,
     "lng": 121.752355,
-    "address": "260宜蘭縣宜蘭市健康路二段2-2號"
+    "address": "260宜蘭縣宜蘭市健康路二段2-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "衛生局-健康大樓-2F",
     "lat": 24.745433,
     "lng": 121.752355,
-    "address": "260宜蘭縣宜蘭市健康路二段2-2號"
+    "address": "260宜蘭縣宜蘭市健康路二段2-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "衛生局-健康大樓-3F",
     "lat": 24.745433,
     "lng": 121.752355,
-    "address": "260宜蘭縣宜蘭市健康路二段2-3號"
+    "address": "260宜蘭縣宜蘭市健康路二段2-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭大學郵局",
     "lat": 24.746344,
     "lng": 121.748836,
-    "address": "260宜蘭縣宜蘭市神農路一段1號經德樓1樓"
+    "address": "260宜蘭縣宜蘭市神農路一段1號經德樓1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國立宜蘭大學行政大樓",
     "lat": 24.746344,
     "lng": 121.748836,
-    "address": "260宜蘭縣宜蘭市神農路一段1號"
+    "address": "260宜蘭縣宜蘭市神農路一段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會農糧署東區分署宜蘭辦事處",
     "lat": 24.74805,
     "lng": 121.754376,
-    "address": "260宜蘭縣宜蘭市中山路二段163號"
+    "address": "260宜蘭縣宜蘭市中山路二段163號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部北區國稅局宜蘭縣分局第1辦公室",
     "lat": 24.748557,
     "lng": 121.754107,
-    "address": "260宜蘭縣宜蘭市中山路二段165號2樓"
+    "address": "260宜蘭縣宜蘭市中山路二段165號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院勞動部勞工保險局宜蘭辦事處洽公櫃台",
     "lat": 24.748733,
     "lng": 121.743031,
-    "address": "260宜蘭縣宜蘭市農權路三段6號"
+    "address": "260宜蘭縣宜蘭市農權路三段6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣地方稅務局-1F收發室",
     "lat": 24.748926,
     "lng": 121.754136,
-    "address": "260宜蘭縣宜蘭市中山路二段165號"
+    "address": "260宜蘭縣宜蘭市中山路二段165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣地方稅務局為民服務區A",
     "lat": 24.748926,
     "lng": 121.754136,
-    "address": "260宜蘭縣宜蘭市中山路二段165號"
+    "address": "260宜蘭縣宜蘭市中山路二段165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣地方稅務局為民服務區B",
     "lat": 24.748926,
     "lng": 121.754136,
-    "address": "260宜蘭縣宜蘭市中山路二段165號"
+    "address": "260宜蘭縣宜蘭市中山路二段165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣地方稅務局-土地稅科-1F",
     "lat": 24.748926,
     "lng": 121.754136,
-    "address": "260宜蘭縣宜蘭市中山路二段165號"
+    "address": "260宜蘭縣宜蘭市中山路二段165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣地方稅務局-法務科-2F",
     "lat": 24.748926,
     "lng": 121.754136,
-    "address": "260宜蘭縣宜蘭市中山路二段165號"
+    "address": "260宜蘭縣宜蘭市中山路二段165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣地方稅務局-集議廳-2F",
     "lat": 24.748926,
     "lng": 121.754136,
-    "address": "260宜蘭縣宜蘭市中山路二段165號"
+    "address": "260宜蘭縣宜蘭市中山路二段165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣地方稅務局-資管科及人事室中間走道-3F",
     "lat": 24.748926,
     "lng": 121.754136,
-    "address": "260宜蘭縣宜蘭市中山路二段165號"
+    "address": "260宜蘭縣宜蘭市中山路二段165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司宜蘭北區服務所",
     "lat": 24.749124,
     "lng": 121.752818,
-    "address": "260宜蘭縣宜蘭市復興路一段5號"
+    "address": "260宜蘭縣宜蘭市復興路一段5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣警察局",
     "lat": 24.749236,
     "lng": 121.754036,
-    "address": "260宜蘭縣宜蘭市中山路二段167號"
+    "address": "260宜蘭縣宜蘭市中山路二段167號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭市衛生所",
     "lat": 24.749262,
     "lng": 121.753063,
-    "address": "260宜蘭縣宜蘭市復興路一段3號"
+    "address": "260宜蘭縣宜蘭市復興路一段3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭市戶政事務所",
     "lat": 24.749326,
     "lng": 121.752977,
-    "address": "260宜蘭縣宜蘭市中華路146號2樓"
+    "address": "260宜蘭縣宜蘭市中華路146號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣警察局大廳A",
     "lat": 24.749384,
     "lng": 121.754007,
-    "address": "260宜蘭縣宜蘭市中山路二段167號"
+    "address": "260宜蘭縣宜蘭市中山路二段167號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣警察局洽公區B",
     "lat": 24.749384,
     "lng": 121.754007,
-    "address": "260宜蘭縣宜蘭市中山路二段167號"
+    "address": "260宜蘭縣宜蘭市中山路二段167號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣政府文化局-戲劇館1F",
     "lat": 24.749754,
     "lng": 121.74448,
-    "address": "260宜蘭縣宜蘭市復興路二段101號"
+    "address": "260宜蘭縣宜蘭市復興路二段101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣政府文化局-戲劇館2F",
     "lat": 24.749754,
     "lng": 121.74448,
-    "address": "260宜蘭縣宜蘭市復興路二段101號"
+    "address": "260宜蘭縣宜蘭市復興路二段101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣政府文化局-戲劇館4F",
     "lat": 24.749754,
     "lng": 121.74448,
-    "address": "260宜蘭縣宜蘭市復興路二段101號"
+    "address": "260宜蘭縣宜蘭市復興路二段101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣政府文化局-圖書館櫃台",
     "lat": 24.749754,
     "lng": 121.74448,
-    "address": "260宜蘭縣宜蘭市復興路二段101號"
+    "address": "260宜蘭縣宜蘭市復興路二段101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣政府文化局-兒童閱覽室",
     "lat": 24.749754,
     "lng": 121.74448,
-    "address": "260宜蘭縣宜蘭市復興路二段101號"
+    "address": "260宜蘭縣宜蘭市復興路二段101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院市區門診一樓掛號區",
     "lat": 24.750346,
     "lng": 121.757633,
-    "address": "260宜蘭縣宜蘭市林森路1號"
+    "address": "260宜蘭縣宜蘭市林森路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會宜蘭縣榮民服務處一樓大廳",
     "lat": 24.750403,
     "lng": 121.758077,
-    "address": "260宜蘭縣宜蘭市校舍路200號"
+    "address": "260宜蘭縣宜蘭市校舍路200號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "水利署第一河川局1樓服務台",
     "lat": 24.75097,
     "lng": 121.752109,
-    "address": "260宜蘭縣宜蘭市民權新路4號"
+    "address": "260宜蘭縣宜蘭市民權新路4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "宜蘭轉運站",
     "lat": 24.751021,
     "lng": 121.759629,
-    "address": "260宜蘭縣宜蘭市校舍路"
+    "address": "260宜蘭縣宜蘭市校舍路",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "宜蘭縣宜蘭轉運站葛瑪蘭站區",
     "lat": 24.751021,
     "lng": 121.759629,
-    "address": "260宜蘭縣宜蘭市校舍路"
+    "address": "260宜蘭縣宜蘭市校舍路",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "宜蘭縣宜蘭轉運站首都站區",
     "lat": 24.751021,
     "lng": 121.759629,
-    "address": "260宜蘭縣宜蘭市校舍路"
+    "address": "260宜蘭縣宜蘭市校舍路",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀宜蘭分行",
     "lat": 24.751128,
     "lng": 121.745553,
-    "address": "260宜蘭縣宜蘭市民族路338號"
+    "address": "260宜蘭縣宜蘭市民族路338號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "宜蘭縣宜蘭市幾米公園",
     "lat": 24.751625,
     "lng": 121.756459,
-    "address": "260宜蘭縣宜蘭市宜興路一段178號"
+    "address": "260宜蘭縣宜蘭市宜興路一段178號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭市公所-1F",
     "lat": 24.752015,
     "lng": 121.753106,
-    "address": "260宜蘭縣宜蘭市中山路二段432號"
+    "address": "260宜蘭縣宜蘭市中山路二段432號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭市公所-2F",
     "lat": 24.752015,
     "lng": 121.753106,
-    "address": "260宜蘭縣宜蘭市中山路二段432號"
+    "address": "260宜蘭縣宜蘭市中山路二段432號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政執行署宜蘭分署1樓民眾洽公區",
     "lat": 24.752273,
     "lng": 121.752333,
-    "address": "260宜蘭縣宜蘭市中山路二段261號"
+    "address": "260宜蘭縣宜蘭市中山路二段261號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭市圖書館-1F",
     "lat": 24.752426,
     "lng": 121.754506,
-    "address": "260宜蘭縣宜蘭市民權路一段53號"
+    "address": "260宜蘭縣宜蘭市民權路一段53號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭市圖書館-2F",
     "lat": 24.752426,
     "lng": 121.754506,
-    "address": "260宜蘭縣宜蘭市民權路一段53號"
+    "address": "260宜蘭縣宜蘭市民權路一段53號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市石門區草里里辦公處",
     "lat": 24.753,
     "lng": 121.741,
-    "address": "253新北市石門區草里里阿里荖38之1號"
+    "address": "253新北市石門區草里里阿里荖38之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣宜蘭市宜蘭國小川堂朝崇聖街",
     "lat": 24.753067,
     "lng": 121.754093,
-    "address": "260宜蘭縣宜蘭市崇聖街2號"
+    "address": "260宜蘭縣宜蘭市崇聖街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭渭水路郵局",
     "lat": 24.753396,
     "lng": 121.752429,
-    "address": "260宜蘭縣宜蘭市中山路二段275號"
+    "address": "260宜蘭縣宜蘭市中山路二段275號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣宜蘭市民族社區發展協會",
     "lat": 24.75352,
     "lng": 121.749488,
-    "address": "260宜蘭縣宜蘭市民族里民權路二段41巷10號"
+    "address": "260宜蘭縣宜蘭市民族里民權路二段41巷10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "宜蘭遊客服務中心",
     "lat": 24.75419,
     "lng": 121.757516,
-    "address": "260宜蘭縣宜蘭市宜興路一段252號"
+    "address": "260宜蘭縣宜蘭市宜興路一段252號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "宜蘭縣宜蘭遊客服務中心",
     "lat": 24.75419,
     "lng": 121.757516,
-    "address": "260宜蘭縣宜蘭市宜興路一段252號"
+    "address": "260宜蘭縣宜蘭市宜興路一段252號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣宜蘭市南屏國小近校門口之二樓涼亭外牆",
     "lat": 24.754256,
     "lng": 121.742871,
-    "address": "260宜蘭縣宜蘭市泰山路98號"
+    "address": "260宜蘭縣宜蘭市泰山路98號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局宜蘭站第1月台12車位置",
     "lat": 24.754312,
     "lng": 121.758378,
-    "address": "260宜蘭縣宜蘭市和睦里光復路1號"
+    "address": "260宜蘭縣宜蘭市和睦里光復路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭地政事務所",
     "lat": 24.754343,
     "lng": 121.745811,
-    "address": "260宜蘭縣宜蘭市泰山路66號"
+    "address": "260宜蘭縣宜蘭市泰山路66號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部國有財產署北區分署宜蘭辦事處",
     "lat": 24.754363,
     "lng": 121.745836,
-    "address": "260宜蘭縣宜蘭市泰山路66號5樓"
+    "address": "260宜蘭縣宜蘭市泰山路66號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局宜蘭站第一月台(第9車)",
     "lat": 24.754528,
     "lng": 121.758235,
-    "address": "260宜蘭縣宜蘭市和睦里光復路1號"
+    "address": "260宜蘭縣宜蘭市和睦里光復路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局宜蘭站第一月台(第5車)",
     "lat": 24.754528,
     "lng": 121.758235,
-    "address": "260宜蘭縣宜蘭市和睦里光復路1號"
+    "address": "260宜蘭縣宜蘭市和睦里光復路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "宜蘭縣宜蘭市丟丟銅公園",
     "lat": 24.754723,
     "lng": 121.757011,
-    "address": "260宜蘭縣宜蘭市光復路13號"
+    "address": "260宜蘭縣宜蘭市光復路13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣宜蘭市光復國小五信外牆靠地政大樓",
     "lat": 24.754821,
     "lng": 121.747012,
-    "address": "260宜蘭縣宜蘭市泰山路60號"
+    "address": "260宜蘭縣宜蘭市泰山路60號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣消防局",
     "lat": 24.754874,
     "lng": 121.755182,
-    "address": "260宜蘭縣宜蘭市舊城南路1號"
+    "address": "260宜蘭縣宜蘭市舊城南路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行宜蘭分行",
     "lat": 24.754944,
     "lng": 121.755693,
-    "address": "260宜蘭縣宜蘭市光復路43號"
+    "address": "260宜蘭縣宜蘭市光復路43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行宜蘭分行",
     "lat": 24.754947,
     "lng": 121.751443,
-    "address": "260宜蘭縣宜蘭市舊城南路50號"
+    "address": "260宜蘭縣宜蘭市舊城南路50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣警察局宜蘭分局",
     "lat": 24.75533,
     "lng": 121.755407,
-    "address": "260宜蘭縣宜蘭市光復路50號"
+    "address": "260宜蘭縣宜蘭市光復路50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局宜蘭分局3樓",
     "lat": 24.755345,
     "lng": 121.755519,
-    "address": "260宜蘭縣宜蘭市光復路50號3樓"
+    "address": "260宜蘭縣宜蘭市光復路50號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一消防大隊",
     "lat": 24.755383,
     "lng": 121.755198,
-    "address": "260宜蘭縣宜蘭市光復路52號"
+    "address": "260宜蘭縣宜蘭市光復路52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭消防分隊",
     "lat": 24.755383,
     "lng": 121.755198,
-    "address": "260宜蘭縣宜蘭市光復路52號"
+    "address": "260宜蘭縣宜蘭市光復路52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣失智症照顧服務協會(和睦據點)",
     "lat": 24.755405,
     "lng": 121.756923,
-    "address": "260宜蘭縣宜蘭市和睦路20號2樓"
+    "address": "260宜蘭縣宜蘭市和睦路20號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "創創新村宜蘭A棟",
     "lat": 24.755503,
     "lng": 121.757977,
-    "address": "260宜蘭縣宜蘭市宜興路一段280號"
+    "address": "260宜蘭縣宜蘭市宜興路一段280號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "創創新村宜蘭B棟",
     "lat": 24.755503,
     "lng": 121.757977,
-    "address": "260宜蘭縣宜蘭市宜興路一段280號"
+    "address": "260宜蘭縣宜蘭市宜興路一段280號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭西後街郵局",
     "lat": 24.755589,
     "lng": 121.751317,
-    "address": "260宜蘭縣宜蘭市西後街2-1號"
+    "address": "260宜蘭縣宜蘭市西後街2-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局宜蘭站前站候車室",
     "lat": 24.755884,
     "lng": 121.753203,
-    "address": "260宜蘭縣宜蘭市和睦里光復路1號"
+    "address": "260宜蘭縣宜蘭市和睦里光復路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局宜蘭站後站候車室",
     "lat": 24.755884,
     "lng": 121.753203,
-    "address": "260宜蘭縣宜蘭市和睦里光復路1號"
+    "address": "260宜蘭縣宜蘭市和睦里光復路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局民族派出所",
     "lat": 24.756013,
     "lng": 121.748248,
-    "address": "260宜蘭縣宜蘭市三清路33號"
+    "address": "260宜蘭縣宜蘭市三清路33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣政府文化局化龍一村",
     "lat": 24.756847,
     "lng": 121.750078,
-    "address": "260宜蘭縣宜蘭市武營街71巷16號"
+    "address": "260宜蘭縣宜蘭市武營街71巷16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "台灣菸酒宜蘭酒廠紅麴大街",
     "lat": 24.756958,
     "lng": 121.749529,
-    "address": "260宜蘭縣宜蘭市舊城西路3號"
+    "address": "260宜蘭縣宜蘭市舊城西路3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局新民派出所",
     "lat": 24.757387,
     "lng": 121.754031,
-    "address": "260宜蘭縣宜蘭市新民路143號"
+    "address": "260宜蘭縣宜蘭市新民路143號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(宜蘭分行)",
     "lat": 24.757452,
     "lng": 121.752402,
-    "address": "260宜蘭縣宜蘭市中山路三段77號"
+    "address": "260宜蘭縣宜蘭市中山路三段77號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "國立陽明大學附設醫院C棟1F門診",
     "lat": 24.758036,
     "lng": 121.754093,
-    "address": "260宜蘭縣宜蘭市新民路152號"
+    "address": "260宜蘭縣宜蘭市新民路152號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "私立德仁社區式服務類長期照顧服務機構",
     "lat": 24.758283,
     "lng": 121.751055,
-    "address": "260宜蘭縣宜蘭市文昌路66-1號"
+    "address": "260宜蘭縣宜蘭市文昌路66-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣宜蘭市中山國小學校北側門臨光復路",
     "lat": 24.75846,
     "lng": 121.754265,
-    "address": "260宜蘭縣宜蘭市崇聖街4號"
+    "address": "260宜蘭縣宜蘭市崇聖街4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭中山路郵局",
     "lat": 24.758515,
     "lng": 121.752915,
-    "address": "260宜蘭縣宜蘭市中山路三段130號"
+    "address": "260宜蘭縣宜蘭市中山路三段130號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "衛生局-長照大樓-1F",
     "lat": 24.75864,
     "lng": 121.75469,
-    "address": "260宜蘭縣宜蘭市聖後街141號"
+    "address": "260宜蘭縣宜蘭市聖後街141號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "衛生局-長照大樓-2F",
     "lat": 24.75864,
     "lng": 121.75469,
-    "address": "260宜蘭縣宜蘭市聖後街141號"
+    "address": "260宜蘭縣宜蘭市聖後街141號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行宜蘭分行",
     "lat": 24.758731,
     "lng": 121.75349,
-    "address": "260宜蘭縣宜蘭市中山路三段140號"
+    "address": "260宜蘭縣宜蘭市中山路三段140號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

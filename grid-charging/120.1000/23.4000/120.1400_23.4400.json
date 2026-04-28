@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東石郵局",
     "lat": 23.455833,
     "lng": 120.150514,

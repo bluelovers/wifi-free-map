@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄大林蒲郵局",
     "lat": 22.526417,
     "lng": 120.346577,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄臨海林園大發工業區聯合污水處理廠-臨海廠",
     "lat": 22.528862,
     "lng": 120.343364,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司大林廠行政大樓總機櫃檯",
     "lat": 22.529422,
     "lng": 120.347353,

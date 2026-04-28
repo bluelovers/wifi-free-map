@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣泰武鄉萬安部落-2",
     "lat": 22.62801,
     "lng": 120.63886,
-    "address": "921屏東縣泰武鄉萬安村8鄰達里27號"
+    "address": "921屏東縣泰武鄉萬安村8鄰達里27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣瑪家鄉排灣部落",
     "lat": 22.62975,
     "lng": 120.62669,
-    "address": "903屏東縣瑪家鄉排灣村41號"
+    "address": "903屏東縣瑪家鄉排灣村41號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

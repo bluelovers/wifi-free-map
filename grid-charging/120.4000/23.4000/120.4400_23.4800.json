@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義東門郵局",
     "lat": 23.480121,
     "lng": 120.456044,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通部公路總局第五區養護工程處",
     "lat": 23.481255,
     "lng": 120.457663,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義民權路郵局",
     "lat": 23.481678,
     "lng": 120.445231,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義中山路郵局",
     "lat": 23.481872,
     "lng": 120.457832,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局臺南分局嘉義辦事處",
     "lat": 23.482495,
     "lng": 120.450668,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司嘉義服務所",
     "lat": 23.482989,
     "lng": 120.455276,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司第五區管理處",
     "lat": 23.482989,
     "lng": 120.455276,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義忠孝郵局",
     "lat": 23.483195,
     "lng": 120.454547,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義埤子頭郵局",
     "lat": 23.488809,
     "lng": 120.446686,

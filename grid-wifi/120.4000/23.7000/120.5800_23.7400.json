@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司林內營運所",
     "lat": 23.752397,
     "lng": 120.595895,
-    "address": "643雲林縣林內鄉烏麻村長源路180號"
+    "address": "643雲林縣林內鄉烏麻村長源路180號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

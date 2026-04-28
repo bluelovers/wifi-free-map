@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大溪崎頂郵局",
     "lat": 24.900324,
     "lng": 121.283728,
-    "address": "335桃園市大溪區仁武里38鄰介壽路890號"
+    "address": "335桃園市大溪區仁武里38鄰介壽路890號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市大溪區崎頂社區發展協會",
     "lat": 24.904846,
     "lng": 121.284177,
-    "address": "335桃園市大溪區仁武里1鄰公園路30號二樓"
+    "address": "335桃園市大溪區仁武里1鄰公園路30號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局圳頂分隊",
     "lat": 24.904966,
     "lng": 121.284599,
-    "address": "335桃園市大溪區介壽路740號"
+    "address": "335桃園市大溪區介壽路740號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市大溪區仁善社區發展協會",
     "lat": 24.914175,
     "lng": 121.28172,
-    "address": "335桃園市大溪區仁善里仁德街19號"
+    "address": "335桃園市大溪區仁善里仁德街19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園縣社區大學協會",
     "lat": 24.919181,
     "lng": 121.294617,
-    "address": "335桃園市大溪區仁義里介壽路211巷54弄131號"
+    "address": "335桃園市大溪區仁義里介壽路211巷54弄131號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市大溪區仁義里辦公室",
     "lat": 24.919711,
     "lng": 121.293376,
-    "address": "335桃園市大溪區仁義里28鄰介壽路211巷2弄32號"
+    "address": "335桃園市大溪區仁義里28鄰介壽路211巷2弄32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

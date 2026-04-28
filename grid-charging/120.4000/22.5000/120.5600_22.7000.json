@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "長治繁華郵局",
     "lat": 22.702276,
     "lng": 120.573738,

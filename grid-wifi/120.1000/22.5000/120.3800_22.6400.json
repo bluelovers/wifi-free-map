@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市大寮區後庄社區發展協會",
     "lat": 22.640743,
     "lng": 120.390201,
-    "address": "831高雄市大寮區後庄里成功路188號"
+    "address": "831高雄市大寮區後庄里成功路188號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市鳥松區仁美社區發展協會",
     "lat": 22.651111,
     "lng": 120.39534,
-    "address": "833高雄市鳥松區仁美里仁德路11號"
+    "address": "833高雄市鳥松區仁美里仁德路11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳥松仁美郵局",
     "lat": 22.658392,
     "lng": 120.391951,
-    "address": "833高雄市鳥松區學堂路89號"
+    "address": "833高雄市鳥松區學堂路89號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龜山長庚大學郵局",
     "lat": 25.033404,
     "lng": 121.38752,

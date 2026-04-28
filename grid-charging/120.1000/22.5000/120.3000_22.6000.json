@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄君毅郵局",
     "lat": 22.601497,
     "lng": 120.306329,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司南部發電廠電力展示館",
     "lat": 22.602339,
     "lng": 120.301098,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司高雄服務所",
     "lat": 22.60828,
     "lng": 120.30828,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄西甲郵局",
     "lat": 22.609664,
     "lng": 120.309958,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄廣澤郵局",
     "lat": 22.615773,
     "lng": 120.310643,

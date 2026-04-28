@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大武崙(兼瑞芳)工業區服務中心",
     "lat": 25.148652,
     "lng": 121.699008,
-    "address": "204基隆市安樂區武訓街59號"
+    "address": "204基隆市安樂區武訓街59號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市安樂區內寮里辦公處",
     "lat": 25.156828,
     "lng": 121.696422,
-    "address": "204基隆市安樂區內寮里武聖街9號"
+    "address": "204基隆市安樂區內寮里武聖街9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東廣東路郵局",
     "lat": 22.680437,
     "lng": 120.501774,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市路竹區三爺社區發展協會",
     "lat": 22.834079,
     "lng": 120.279918,
-    "address": "821高雄市路竹區三爺里三民路50之1號"
+    "address": "821高雄市路竹區三爺里三民路50之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

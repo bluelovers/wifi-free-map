@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南地方法院郵局",
     "lat": 22.984293,
     "lng": 120.172193,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南育平郵局",
     "lat": 22.992972,
     "lng": 120.167455,

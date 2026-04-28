@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大埔遊客中心",
     "lat": 23.301202,
     "lng": 120.598775,

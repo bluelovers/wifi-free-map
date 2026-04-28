@@ -1,82 +1,112 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署宜蘭收容所",
     "lat": 24.663747,
     "lng": 121.743606,
-    "address": "269宜蘭縣冬山鄉梅花路255巷22弄33號"
+    "address": "269宜蘭縣冬山鄉梅花路255巷22弄33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣冬山鄉廣興社區發展協會",
     "lat": 24.669183,
     "lng": 121.749287,
-    "address": "269宜蘭縣冬山鄉廣興村永興路二段916號"
+    "address": "269宜蘭縣冬山鄉廣興村永興路二段916號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局廣興派出所",
     "lat": 24.669749,
     "lng": 121.749278,
-    "address": "269宜蘭縣冬山鄉廣興路193號"
+    "address": "269宜蘭縣冬山鄉廣興路193號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "廣興消防分隊",
     "lat": 24.67111,
     "lng": 121.743882,
-    "address": "269宜蘭縣冬山鄉復興路382號"
+    "address": "269宜蘭縣冬山鄉復興路382號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人感恩社會福利慈善基金會",
     "lat": 24.672077,
     "lng": 121.759728,
-    "address": "265宜蘭縣羅東鎮維揚里維揚路132號"
+    "address": "265宜蘭縣羅東鎮維揚里維揚路132號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "羅東西門郵局",
     "lat": 24.672971,
     "lng": 121.758492,
-    "address": "265宜蘭縣羅東鎮中山路四段235號"
+    "address": "265宜蘭縣羅東鎮中山路四段235號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣北投社文化發展協會",
     "lat": 24.674075,
     "lng": 121.751721,
-    "address": "265宜蘭縣羅東鎮北成里北投街62巷65號"
+    "address": "265宜蘭縣羅東鎮北成里北投街62巷65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣羅東鎮北成國小警衛室二樓牆面朝敬業路",
     "lat": 24.675546,
     "lng": 121.758674,
-    "address": "265宜蘭縣羅東鎮北成路一段125號"
+    "address": "265宜蘭縣羅東鎮北成路一段125號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣羅東鎮國華社區發展協會",
     "lat": 24.678462,
     "lng": 121.75905,
-    "address": "265宜蘭縣羅東鎮國華里培英路109號"
+    "address": "265宜蘭縣羅東鎮國華里培英路109號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣羅東鎮北成社區發展協會",
     "lat": 24.679003,
     "lng": 121.754564,
-    "address": "265宜蘭縣羅東鎮北成里北成路二段21號"
+    "address": "265宜蘭縣羅東鎮北成里北成路二段21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

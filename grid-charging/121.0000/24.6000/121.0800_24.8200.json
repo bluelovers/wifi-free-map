@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新埔郵局",
     "lat": 24.827162,
     "lng": 121.082494,

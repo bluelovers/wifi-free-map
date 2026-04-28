@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄五塊厝郵局",
     "lat": 22.622264,
     "lng": 120.330421,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市苓雅區戶政事務所第二辦公處",
     "lat": 22.622637,
     "lng": 120.330417,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄師大郵局",
     "lat": 22.625638,
     "lng": 120.320034,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄正言郵局",
     "lat": 22.629859,
     "lng": 120.326762,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄武廟郵局",
     "lat": 22.630599,
     "lng": 120.32986,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局高雄市區監理所苓雅監理站",
     "lat": 22.637422,
     "lng": 120.32057,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局高雄分局計量業務民眾洽公區",
     "lat": 22.637585,
     "lng": 120.321952,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局高雄分局商檢業務民眾洽公區",
     "lat": 22.637585,
     "lng": 120.321952,

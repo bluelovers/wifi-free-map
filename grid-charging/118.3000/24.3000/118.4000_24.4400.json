@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "金門山外郵局",
     "lat": 24.442474,
     "lng": 118.415156,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "金門監理站",
     "lat": 24.446864,
     "lng": 118.418482,

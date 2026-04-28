@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龍潭區三林社區發展協會",
     "lat": 24.840452,
     "lng": 121.229966,
-    "address": "325桃園市龍潭區三林里富華街三林段395巷142號一樓"
+    "address": "325桃園市龍潭區三林里富華街三林段395巷142號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園市客家文化館-1",
     "lat": 24.84572,
     "lng": 121.23446,
-    "address": "325桃園市龍潭區中正路三林段500號"
+    "address": "325桃園市龍潭區中正路三林段500號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園市客家文化館-2",
     "lat": 24.84572,
     "lng": 121.23446,
-    "address": "325桃園市龍潭區中正路三林段500號"
+    "address": "325桃園市龍潭區中正路三林段500號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園市客家文化館-3",
     "lat": 24.84572,
     "lng": 121.23446,
-    "address": "325桃園市龍潭區中正路三林段500號"
+    "address": "325桃園市龍潭區中正路三林段500號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園市客家文化館-4",
     "lat": 24.84572,
     "lng": 121.23446,
-    "address": "325桃園市龍潭區中正路三林段500號"
+    "address": "325桃園市龍潭區中正路三林段500號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龍潭區富林里辦公處",
     "lat": 24.84685,
     "lng": 121.231578,
-    "address": "325桃園市龍潭區富林里建國路278號"
+    "address": "325桃園市龍潭區富林里建國路278號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園客家文化館郵局",
     "lat": 24.849311,
     "lng": 121.229855,
-    "address": "325桃園市龍潭區中正路三林段500號"
+    "address": "325桃園市龍潭區中正路三林段500號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府客家事務局洽公場所",
     "lat": 24.849622,
     "lng": 121.229925,
-    "address": "325桃園市龍潭區中正路三林段500號"
+    "address": "325桃園市龍潭區中正路三林段500號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(龍潭分行)",
     "lat": 24.853016,
     "lng": 121.222713,
-    "address": "325桃園市龍潭區中正路80號"
+    "address": "325桃園市龍潭區中正路80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

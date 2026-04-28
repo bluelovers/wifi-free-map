@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大園埔心街郵局",
     "lat": 25.054048,
     "lng": 121.225836,

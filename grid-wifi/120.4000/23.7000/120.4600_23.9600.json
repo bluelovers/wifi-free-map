@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "溪湖湖西郵局",
     "lat": 23.960806,
     "lng": 120.475527,
-    "address": "514彰化縣溪湖鎮湖西里大公路34號"
+    "address": "514彰化縣溪湖鎮湖西里大公路34號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣溪湖地政事務所1樓服務台",
     "lat": 23.961245,
     "lng": 120.474548,
-    "address": "514彰化縣溪湖鎮大公路99號1樓"
+    "address": "514彰化縣溪湖鎮大公路99號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣溪湖地政事務所2樓綜合櫃台",
     "lat": 23.961245,
     "lng": 120.474548,
-    "address": "514彰化縣溪湖鎮大公路99號2樓"
+    "address": "514彰化縣溪湖鎮大公路99號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣溪湖地政事務所3樓會議室",
     "lat": 23.961245,
     "lng": 120.474548,
-    "address": "514彰化縣溪湖鎮大公路99號3樓"
+    "address": "514彰化縣溪湖鎮大公路99號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣溪湖藝文館服務中心",
     "lat": 23.962329,
     "lng": 120.47923,
-    "address": "514彰化縣溪湖鎮光平里員鹿路三段245號"
+    "address": "514彰化縣溪湖鎮光平里員鹿路三段245號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣溪湖鎮立圖書館",
     "lat": 23.962346,
     "lng": 120.478591,
-    "address": "514彰化縣溪湖鎮太平里太平街147號"
+    "address": "514彰化縣溪湖鎮太平里太平街147號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣溪湖鎮湖埔社區大學",
     "lat": 23.962351,
     "lng": 120.477821,
-    "address": "514彰化縣溪湖鎮文二街14號"
+    "address": "514彰化縣溪湖鎮文二街14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局溪湖分局溪湖派出所",
     "lat": 23.962666,
     "lng": 120.479486,
-    "address": "514彰化縣溪湖鎮光平里員鹿路三段262號"
+    "address": "514彰化縣溪湖鎮光平里員鹿路三段262號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

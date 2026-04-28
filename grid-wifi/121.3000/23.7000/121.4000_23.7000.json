@@ -1,122 +1,167 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣萬榮鄉明利村辦公處",
     "lat": 23.70478,
     "lng": 121.41255,
-    "address": "979花蓮縣萬榮鄉明利村2鄰34-8號"
+    "address": "979花蓮縣萬榮鄉明利村2鄰34-8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣萬榮鄉明利國民小學",
     "lat": 23.706014,
     "lng": 121.412659,
-    "address": "979花蓮縣萬榮鄉明利村35號"
+    "address": "979花蓮縣萬榮鄉明利村35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣鳳林鎮長橋國民小學",
     "lat": 23.709403,
     "lng": 121.419809,
-    "address": "975花蓮縣鳳林鎮長橋里長橋路2號"
+    "address": "975花蓮縣鳳林鎮長橋里長橋路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣鳳林鎮長橋里辦公處",
     "lat": 23.710216,
     "lng": 121.419541,
-    "address": "975花蓮縣鳳林鎮長橋路4號"
+    "address": "975花蓮縣鳳林鎮長橋路4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣長橋派出所",
     "lat": 23.711837,
     "lng": 121.419631,
-    "address": "975花蓮縣鳳林鎮長橋里91號"
+    "address": "975花蓮縣鳳林鎮長橋里91號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局萬榮站候車室",
     "lat": 23.711978,
     "lng": 121.419067,
-    "address": "975花蓮縣鳳林鎮長德街17號"
+    "address": "975花蓮縣鳳林鎮長德街17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣萬榮鄉圖書館",
     "lat": 23.714866,
     "lng": 121.410214,
-    "address": "979花蓮縣萬榮鄉萬榮村2鄰23號"
+    "address": "979花蓮縣萬榮鄉萬榮村2鄰23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣萬榮鄉公所",
     "lat": 23.714878,
     "lng": 121.411015,
-    "address": "979花蓮縣萬榮鄉萬榮村1鄰19號"
+    "address": "979花蓮縣萬榮鄉萬榮村1鄰19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花連縣萬榮鄉魯巴斯部落",
     "lat": 23.7149,
     "lng": 121.41039,
-    "address": "979花蓮縣萬榮鄉萬榮村萬榮23號"
+    "address": "979花蓮縣萬榮鄉萬榮村萬榮23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣萬榮鄉馬里巴西部落",
     "lat": 23.715111,
     "lng": 121.408915,
-    "address": "979花蓮縣萬榮鄉明利村2鄰明利27-2號"
+    "address": "979花蓮縣萬榮鄉明利村2鄰明利27-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣萬榮鄉戶政事務所",
     "lat": 23.715174,
     "lng": 121.409624,
-    "address": "979花蓮縣萬榮鄉萬榮村1鄰12號"
+    "address": "979花蓮縣萬榮鄉萬榮村1鄰12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣衛生局萬榮鄉衛生所",
     "lat": 23.715252,
     "lng": 121.409585,
-    "address": "979花蓮縣萬榮鄉萬榮村十二號"
+    "address": "979花蓮縣萬榮鄉萬榮村十二號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣萬榮鄉民代表會",
     "lat": 23.71528,
     "lng": 121.41106,
-    "address": "979花蓮縣萬榮鄉萬榮村1鄰19號3樓"
+    "address": "979花蓮縣萬榮鄉萬榮村1鄰19號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣萬榮鄉萬榮國民小學",
     "lat": 23.715474,
     "lng": 121.410856,
-    "address": "979花蓮縣萬榮鄉萬榮村2鄰31號"
+    "address": "979花蓮縣萬榮鄉萬榮村2鄰31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局萬榮消防分隊",
     "lat": 23.719113,
     "lng": 121.402611,
-    "address": "975花蓮縣萬榮鄉8鄰萬榮212號"
+    "address": "975花蓮縣萬榮鄉8鄰萬榮212號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

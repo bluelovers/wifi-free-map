@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市山上區南洲里辦公處",
     "lat": 23.099,
     "lng": 120.363,
-    "address": "743臺南市山上區南洲里8鄰南洲197號"
+    "address": "743臺南市山上區南洲里8鄰南洲197號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

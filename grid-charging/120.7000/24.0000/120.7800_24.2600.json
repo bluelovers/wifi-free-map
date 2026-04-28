@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市石岡區戶政事務所",
     "lat": 24.274462,
     "lng": 120.780989,

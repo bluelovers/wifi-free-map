@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大寮大發郵局",
     "lat": 22.591412,
     "lng": 120.416166,

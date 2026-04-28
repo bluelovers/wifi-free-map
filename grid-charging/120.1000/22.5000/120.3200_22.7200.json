@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "仁大工業區服務中心",
     "lat": 22.725626,
     "lng": 120.338798,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局楠梓站候車室",
     "lat": 22.727062,
     "lng": 120.324309,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楠梓建楠郵局",
     "lat": 22.727281,
     "lng": 120.329878,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楠梓郵局",
     "lat": 22.728428,
     "lng": 120.325831,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市楠梓區戶政事務所",
     "lat": 22.729918,
     "lng": 120.325913,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄高等行政法院郵局",
     "lat": 22.731406,
     "lng": 120.335807,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台糖公司量販事業部楠梓量販店",
     "lat": 22.736824,
     "lng": 120.330781,

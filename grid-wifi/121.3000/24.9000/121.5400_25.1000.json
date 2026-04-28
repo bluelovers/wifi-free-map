@@ -1,154 +1,211 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林臨溪區民活動中心1F中央",
     "lat": 25.101212,
     "lng": 121.552314,
-    "address": "111臺北市士林區至善路二段286號1F"
+    "address": "111臺北市士林區至善路二段286號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "國立故宮博物院第一展覽區B1F大廳",
     "lat": 25.101264,
     "lng": 121.547762,
-    "address": "111臺北市士林區至善路二段221號"
+    "address": "111臺北市士林區至善路二段221號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "國立故宮博物院第一展覽區1樓大廳",
     "lat": 25.101274,
     "lng": 121.547752,
-    "address": "111臺北市士林區至善路二段221號"
+    "address": "111臺北市士林區至善路二段221號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "至善老人養護中心1F服務臺",
     "lat": 25.101374,
     "lng": 121.544044,
-    "address": "111臺北市士林區仰德大道二段2巷50號1F"
+    "address": "111臺北市士林區仰德大道二段2巷50號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "衛理女中-E-至善路二段",
     "lat": 25.101665,
     "lng": 121.55269,
-    "address": "111臺北市士林區至善路二段321號對面候車亭"
+    "address": "111臺北市士林區至善路二段321號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "私立衛理女子高級中學-S-至善路二段",
     "lat": 25.10191,
     "lng": 121.552512,
-    "address": "111臺北市士林區至善路二段321號(衛理女中)候車亭"
+    "address": "111臺北市士林區至善路二段321號(衛理女中)候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "嶺頭-W-仰德大道二段",
     "lat": 25.103261,
     "lng": 121.54156,
-    "address": "111臺北市士林區仰德大道二段11巷12號對面候車亭"
+    "address": "111臺北市士林區仰德大道二段11巷12號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "至善國中-E-至善路二段",
     "lat": 25.103773,
     "lng": 121.555586,
-    "address": "111臺北市士林區至善路二段360號旁候車亭"
+    "address": "111臺北市士林區至善路二段360號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "雙溪別墅-S-至善路二段",
     "lat": 25.10543,
     "lng": 121.55714,
-    "address": "111臺北市士林區至善路二段389號候車亭"
+    "address": "111臺北市士林區至善路二段389號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "劍南橋-S-至善路二段",
     "lat": 25.106748,
     "lng": 121.557282,
-    "address": "111臺北市士林區至善路二段417號旁候車亭"
+    "address": "111臺北市士林區至善路二段417號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "永嶺-S-仰德大道二段",
     "lat": 25.106812,
     "lng": 121.54525,
-    "address": "111臺北市士林區仰德大道二段88巷口對面公車亭"
+    "address": "111臺北市士林區仰德大道二段88巷口對面公車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大經橋-至善路二段",
     "lat": 25.109246,
     "lng": 121.557283,
-    "address": "111臺北市士林區至善路二段449號候車亭"
+    "address": "111臺北市士林區至善路二段449號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "林語堂故居1F展覽室後方",
     "lat": 25.10952,
     "lng": 121.546944,
-    "address": "111臺北市士林區仰德大道二段141號1F"
+    "address": "111臺北市士林區仰德大道二段141號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "林語堂故居1F閱讀研討室中央",
     "lat": 25.109725,
     "lng": 121.547327,
-    "address": "111臺北市士林區仰德大道二段141號1F"
+    "address": "111臺北市士林區仰德大道二段141號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "社區發展協會-中社路一段",
     "lat": 25.109766,
     "lng": 121.55989,
-    "address": "111臺北市士林區中社路一段32號(36巷雙號巷口旁)候車亭"
+    "address": "111臺北市士林區中社路一段32號(36巷雙號巷口旁)候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "外雙溪橋-W-至善路二段",
     "lat": 25.111428,
     "lng": 121.55796,
-    "address": "111臺北市士林區至善路二段471號候車亭"
+    "address": "111臺北市士林區至善路二段471號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "福音-S-仰德大道三段",
     "lat": 25.11409,
     "lng": 121.550314,
-    "address": "111臺北市士林區仰德大道三段5巷口候車亭"
+    "address": "111臺北市士林區仰德大道三段5巷口候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "陽明山國小-S-仰德大道三段",
     "lat": 25.117966,
     "lng": 121.5521,
-    "address": "111臺北市士林區仰德大道三段40號對面候車亭"
+    "address": "111臺北市士林區仰德大道三段40號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "明德新村-S-仰德大道三段",
     "lat": 25.119916,
     "lng": 121.552932,
-    "address": "111臺北市士林區仰德大道三段86號對面候車亭"
+    "address": "111臺北市士林區仰德大道三段86號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

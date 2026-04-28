@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "神岡社口郵局",
     "lat": 24.247116,
     "lng": 120.681902,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "神岡岸裡郵局",
     "lat": 24.248616,
     "lng": 120.697934,

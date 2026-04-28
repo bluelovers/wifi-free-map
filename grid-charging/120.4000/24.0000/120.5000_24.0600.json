@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化莿桐腳郵局",
     "lat": 24.061819,
     "lng": 120.51936,

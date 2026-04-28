@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市浩德人文關懷協會",
     "lat": 24.305617,
     "lng": 120.726573,
-    "address": "421臺中市后里區義德里大山路211號"
+    "address": "421臺中市后里區義德里大山路211號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商后里三豐路寶利旺店(公話)",
     "lat": 24.306126,
     "lng": 120.721609,
-    "address": "421臺中市后里區三豐路227號之3"
+    "address": "421臺中市后里區三豐路227號之3",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商后里甲后路后綜店(公話)",
     "lat": 24.308962,
     "lng": 120.72454,
-    "address": "421臺中市后里區甲后路一段349號(公話)"
+    "address": "421臺中市后里區甲后路一段349號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "后里義里郵局",
     "lat": 24.309173,
     "lng": 120.727761,
-    "address": "421臺中市后里區甲后路193號"
+    "address": "421臺中市后里區甲后路193號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局后里站候車室",
     "lat": 24.309187,
     "lng": 120.732951,
-    "address": "421臺中市后里區甲后路1號"
+    "address": "421臺中市后里區甲后路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商后里甲后路后東店(公話)",
     "lat": 24.309266,
     "lng": 120.730331,
-    "address": "421臺中市后里區甲后路97號"
+    "address": "421臺中市后里區甲后路97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市基督教豐盛協會",
     "lat": 24.31012,
     "lng": 120.722509,
-    "address": "421臺中市后里區后里里三豐路四段43號"
+    "address": "421臺中市后里區后里里三豐路四段43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

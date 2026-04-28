@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北產業園區服務中心",
     "lat": 25.063717,
     "lng": 121.457221,

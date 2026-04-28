@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹山東埔蚋郵局",
     "lat": 23.765007,
     "lng": 120.704607,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南崗(兼竹山)工業區服務中心-竹山",
     "lat": 23.768222,
     "lng": 120.704792,

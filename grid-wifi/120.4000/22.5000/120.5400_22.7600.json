@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "三聖宮",
     "lat": 22.760503,
     "lng": 120.557799,
-    "address": "907屏東縣鹽埔鄉仕絨村北還路2之1號"
+    "address": "907屏東縣鹽埔鄉仕絨村北還路2之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

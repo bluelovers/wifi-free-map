@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹武昌街郵局",
     "lat": 24.801521,
     "lng": 120.9682,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹西門郵局",
     "lat": 24.801747,
     "lng": 120.960466,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司新竹區處服務中心營業廳",
     "lat": 24.803137,
     "lng": 120.973007,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹東門郵局",
     "lat": 24.80398,
     "lng": 120.973034,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹市東區戶政事務所",
     "lat": 24.805259,
     "lng": 120.973248,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹英明街郵局",
     "lat": 24.806783,
     "lng": 120.967444,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局新竹分局商檢/計量業務民眾洽公區",
     "lat": 24.807636,
     "lng": 120.977283,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署第二河川局1樓服務台",
     "lat": 24.81065,
     "lng": 120.969708,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹民生路郵局",
     "lat": 24.812196,
     "lng": 120.975164,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "智慧財產局新竹服務處",
     "lat": 24.81226,
     "lng": 120.971893,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹經國路郵局",
     "lat": 24.812882,
     "lng": 120.965665,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹復中里郵局",
     "lat": 24.814989,
     "lng": 120.979354,
@@ -85,6 +97,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹市北區戶政事務所",
     "lat": 24.816303,
     "lng": 120.970244,
@@ -92,6 +105,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹光華街郵局",
     "lat": 24.816821,
     "lng": 120.971164,

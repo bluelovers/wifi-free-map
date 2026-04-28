@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市新屋區石磊社區發展協會",
     "lat": 24.993294,
     "lng": 121.079614,
-    "address": "327桃園市新屋區石磊里三民路二段276號"
+    "address": "327桃園市新屋區石磊里三民路二段276號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

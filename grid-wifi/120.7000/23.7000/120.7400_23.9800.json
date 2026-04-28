@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣土城社區發展協會",
     "lat": 23.984794,
     "lng": 120.743913,
-    "address": "542南投縣草屯鎮土城里中正路167-15號"
+    "address": "542南投縣草屯鎮土城里中正路167-15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

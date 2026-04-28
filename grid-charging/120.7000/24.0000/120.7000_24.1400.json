@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "太平宜欣郵局",
     "lat": 24.149723,
     "lng": 120.71257,

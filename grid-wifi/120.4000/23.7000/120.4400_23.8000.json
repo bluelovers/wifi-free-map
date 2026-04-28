@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(西螺分行)",
     "lat": 23.800975,
     "lng": 120.459486,
-    "address": "648雲林縣西螺鎮延平路189號"
+    "address": "648雲林縣西螺鎮延平路189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

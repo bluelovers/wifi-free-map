@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "那瑪夏郵局",
     "lat": 23.274298,
     "lng": 120.734995,

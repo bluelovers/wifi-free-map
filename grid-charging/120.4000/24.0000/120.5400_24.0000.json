@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司花壇營運所",
     "lat": 24.019982,
     "lng": 120.556932,

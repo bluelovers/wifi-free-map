@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部加工出口區管理處高雄分處1、2樓洽公區",
     "lat": 22.60128,
     "lng": 120.291924,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "前鎮加工區郵局",
     "lat": 22.601362,
     "lng": 120.291241,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄軟體科技園區",
     "lat": 22.604572,
     "lng": 120.299617,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苓雅郵局",
     "lat": 22.614825,
     "lng": 120.297629,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄港國際旅客服務中心",
     "lat": 22.616378,
     "lng": 120.283427,

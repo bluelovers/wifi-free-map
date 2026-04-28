@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "岡山仁壽路郵局",
     "lat": 22.78586,
     "lng": 120.285783,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署第六河川局1樓服務台",
     "lat": 22.790288,
     "lng": 120.287453,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "岡山郵局",
     "lat": 22.792104,
     "lng": 120.297054,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "岡山平和路郵局",
     "lat": 22.794419,
     "lng": 120.294782,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市岡山區戶政事務所",
     "lat": 22.797359,
     "lng": 120.295218,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司岡山服務所",
     "lat": 22.798137,
     "lng": 120.295658,

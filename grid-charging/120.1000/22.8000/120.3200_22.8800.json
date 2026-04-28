@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "阿蓮郵局",
     "lat": 22.883314,
     "lng": 120.326911,

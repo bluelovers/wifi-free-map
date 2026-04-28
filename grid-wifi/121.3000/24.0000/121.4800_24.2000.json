@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣秀林鄉西寶國民小學",
     "lat": 24.207389,
     "lng": 121.482224,
-    "address": "972花蓮縣秀林鄉富世村西寶11號"
+    "address": "972花蓮縣秀林鄉富世村西寶11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

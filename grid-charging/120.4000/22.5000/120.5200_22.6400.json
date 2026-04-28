@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "麟洛郵局",
     "lat": 22.653277,
     "lng": 120.523281,

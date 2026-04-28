@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣三地門鄉馬兒部落",
     "lat": 22.7875,
     "lng": 120.63049,
-    "address": "901屏東縣三地門鄉馬兒村馬兒巷4號"
+    "address": "901屏東縣三地門鄉馬兒村馬兒巷4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣三地門鄉安坡部落",
     "lat": 22.797745,
     "lng": 120.637766,
-    "address": "901屏東縣三地門鄉高山巷2號"
+    "address": "901屏東縣三地門鄉高山巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣三地門鄉達來部落",
     "lat": 22.79815,
     "lng": 120.63838,
-    "address": "901屏東縣三地門鄉達發達旺巷32號"
+    "address": "901屏東縣三地門鄉達發達旺巷32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

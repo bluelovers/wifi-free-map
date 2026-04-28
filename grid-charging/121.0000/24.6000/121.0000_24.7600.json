@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "寶山大崎郵局",
     "lat": 24.772382,
     "lng": 121.001171,

@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "連江縣馬祖村公所",
     "lat": 26.160155,
     "lng": 119.918864,
-    "address": "209連江縣南竿鄉馬祖村84號"
+    "address": "209連江縣南竿鄉馬祖村84號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣馬祖村光武街(尾)",
     "lat": 26.160155,
     "lng": 119.918864,
-    "address": "209連江縣南竿鄉馬祖村84號"
+    "address": "209連江縣南竿鄉馬祖村84號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "馬祖馬港郵局",
     "lat": 26.160178,
     "lng": 119.919109,
-    "address": "209連江縣南竿鄉馬祖村84號"
+    "address": "209連江縣南竿鄉馬祖村84號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣馬港巨神像",
     "lat": 26.160897,
     "lng": 119.916507,
-    "address": "209連江縣南竿鄉馬港村馬港巨神像"
+    "address": "209連江縣南竿鄉馬港村馬港巨神像",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

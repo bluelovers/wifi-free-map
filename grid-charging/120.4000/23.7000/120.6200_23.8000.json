@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司二水營運所",
     "lat": 23.809178,
     "lng": 120.620961,

@@ -1,138 +1,189 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "馬祖WiFi加值_后沃海濱公園",
     "lat": 26.160373,
     "lng": 119.953246,
-    "address": "210連江縣北竿鄉后沃海濱公園"
+    "address": "210連江縣北竿鄉后沃海濱公園",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "復興村_老人活動中心",
     "lat": 26.160419,
     "lng": 119.95325,
-    "address": "209連江縣南竿鄉復興村88-1號"
+    "address": "209連江縣南竿鄉復興村88-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "馬祖WiFi加值_福沃港島際交通售票處(戶外)",
     "lat": 26.160652,
     "lng": 119.943364,
-    "address": "209連江縣南竿鄉馬祖連江縣福沃村135之10號"
+    "address": "209連江縣南竿鄉馬祖連江縣福沃村135之10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "連江縣福沃候船室",
     "lat": 26.16066,
     "lng": 119.943898,
-    "address": "209連江縣南竿鄉福沃村候船室"
+    "address": "209連江縣南竿鄉福沃村候船室",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "馬祖WiFi加值_福沃島際候船室(戶外)",
     "lat": 26.160676,
     "lng": 119.943947,
-    "address": "209連江縣南竿鄉福沃村候船室"
+    "address": "209連江縣南竿鄉福沃村候船室",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "馬祖航政事務處",
     "lat": 26.160707,
     "lng": 119.950304,
-    "address": "209連江縣南竿鄉福沃村135號2樓"
+    "address": "209連江縣南竿鄉福沃村135號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣馬祖酒廠(導覽室)",
     "lat": 26.160823,
     "lng": 119.951791,
-    "address": "209連江縣南竿鄉復興村208號"
+    "address": "209連江縣南竿鄉復興村208號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "馬祖WiFi加值_縣立醫院三樓病房",
     "lat": 26.161026,
     "lng": 119.94889,
-    "address": "209連江縣南竿鄉復興村217號"
+    "address": "209連江縣南竿鄉復興村217號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "馬祖WiFi加值_馬祖故事館",
     "lat": 26.161026,
     "lng": 119.94889,
-    "address": "209連江縣南竿鄉仁愛村19號"
+    "address": "209連江縣南竿鄉仁愛村19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "馬祖WiFi加值_福澳漁港碼頭",
     "lat": 26.161026,
     "lng": 119.94889,
-    "address": "209連江縣南竿鄉福澳漁港碼頭"
+    "address": "209連江縣南竿鄉福澳漁港碼頭",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(福建連江地方法院)",
     "lat": 26.161209,
     "lng": 119.950052,
-    "address": "209連江縣南竿鄉復興村209號"
+    "address": "209連江縣南竿鄉復興村209號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "馬祖WiFi加值_港務大樓(小三通入境區)",
     "lat": 26.16127,
     "lng": 119.94367,
-    "address": "209連江縣南竿鄉福沃村135-6號"
+    "address": "209連江縣南竿鄉福沃村135-6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "馬祖WiFi加值_福沃港運大樓侯船大廳",
     "lat": 26.161903,
     "lng": 119.943073,
-    "address": "209連江縣南竿鄉新港務大樓"
+    "address": "209連江縣南竿鄉新港務大樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "馬祖WiFi加值_東引民眾活動中心(鄉代會2樓)",
     "lat": 26.161903,
     "lng": 119.943073,
-    "address": "212連江縣東引鄉樂華村72號之1"
+    "address": "212連江縣東引鄉樂華村72號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣復興村牛角聚落",
     "lat": 26.164572,
     "lng": 119.952657,
-    "address": "209連江縣南竿鄉復興村146-1號"
+    "address": "209連江縣南竿鄉復興村146-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "連江縣紅十字會",
     "lat": 26.165,
     "lng": 119.958,
-    "address": "209連江縣南竿鄉清水村14號之2"
+    "address": "209連江縣南竿鄉清水村14號之2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣12軍事文化據點",
     "lat": 26.166178,
     "lng": 119.95191,
-    "address": "212連江縣東引鄉復興村12軍事據點"
+    "address": "212連江縣東引鄉復興村12軍事據點",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

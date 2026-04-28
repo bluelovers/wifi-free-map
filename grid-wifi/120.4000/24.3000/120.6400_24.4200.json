@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華民國藥師佛琉璃光學會(北房)",
     "lat": 24.436544,
     "lng": 120.647756,
-    "address": "358苗栗縣苑裡鎮房裡里14鄰北房11-27號"
+    "address": "358苗栗縣苑裡鎮房裡里14鄰北房11-27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "安平診所",
     "lat": 24.439008,
     "lng": 120.65743,
-    "address": "358苗栗縣苑裡鎮客庄里世界路一段91-5號"
+    "address": "358苗栗縣苑裡鎮客庄里世界路一段91-5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苑裡鎮衛生所",
     "lat": 24.439523,
     "lng": 120.652682,
-    "address": "358苗栗縣苑裡鎮客庄里公民街16號"
+    "address": "358苗栗縣苑裡鎮客庄里公民街16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗縣苑裡鎮公所1F",
     "lat": 24.439767,
     "lng": 120.653238,
-    "address": "358苗栗縣苑裡鎮信義路1號"
+    "address": "358苗栗縣苑裡鎮信義路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗縣苑裡鎮公所2F",
     "lat": 24.439767,
     "lng": 120.653238,
-    "address": "358苗栗縣苑裡鎮信義路1號"
+    "address": "358苗栗縣苑裡鎮信義路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

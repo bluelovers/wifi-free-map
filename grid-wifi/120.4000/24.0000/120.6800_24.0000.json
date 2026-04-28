@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署南投收容所",
     "lat": 24.002051,
     "lng": 120.696249,
-    "address": "542南投縣草屯鎮中正路1776巷43號"
+    "address": "542南投縣草屯鎮中正路1776巷43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會農業藥物毒物試驗所教育訓練中心一樓大廳與第一會議室",
     "lat": 24.016146,
     "lng": 120.694385,
-    "address": "413臺中市霧峰區舊正里光明路11號"
+    "address": "413臺中市霧峰區舊正里光明路11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

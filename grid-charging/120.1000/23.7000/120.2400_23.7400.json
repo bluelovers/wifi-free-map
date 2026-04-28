@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "麥寮郵局",
     "lat": 23.747389,
     "lng": 120.25603,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "麥寮專用港管理小組",
     "lat": 23.75,
     "lng": 120.25,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "麥寮工業區郵局",
     "lat": 23.75,
     "lng": 120.25,

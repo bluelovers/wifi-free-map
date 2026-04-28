@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "冷水坑遊客服務站",
     "lat": 25.165613,
     "lng": 121.56391,
-    "address": "111臺北市士林區菁山路101巷170號"
+    "address": "111臺北市士林區菁山路101巷170號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "冷水坑服務站-S-菁山路",
     "lat": 25.166012,
     "lng": 121.563987,
-    "address": "111臺北市士林區菁山路101巷170號斜對面候車亭"
+    "address": "111臺北市士林區菁山路101巷170號斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "擎天崗遊客服務站",
     "lat": 25.167183,
     "lng": 121.574214,
-    "address": "111臺北市士林區菁山路101巷246號"
+    "address": "111臺北市士林區菁山路101巷246號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,514 +1,706 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運唭哩岸站一(東華)-W-東華街二段",
     "lat": 25.120931,
     "lng": 121.507308,
-    "address": "112臺北市北投區東華街二段294號候車亭"
+    "address": "112臺北市北投區東華街二段294號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運唭哩岸站二(西安)-E-西安街二段",
     "lat": 25.120935,
     "lng": 121.504035,
-    "address": "112臺北市北投區西安街二段375號旁候車亭"
+    "address": "112臺北市北投區西安街二段375號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "奇岩一站-N-公館路",
     "lat": 25.123075,
     "lng": 121.504783,
-    "address": "112臺北市北投區公館路352號對面候車亭"
+    "address": "112臺北市北投區公館路352號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投奇岩郵局",
     "lat": 25.125178,
     "lng": 121.507666,
-    "address": "112臺北市北投區公館路271號"
+    "address": "112臺北市北投區公館路271號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "奇岩新村-N-公館路",
     "lat": 25.125658,
     "lng": 121.508354,
-    "address": "112臺北市北投區公館路253號候車亭"
+    "address": "112臺北市北投區公館路253號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "清江國小-S-公館路",
     "lat": 25.127346,
     "lng": 121.507627,
-    "address": "112臺北市北投區公館路215號對面候車亭"
+    "address": "112臺北市北投區公館路215號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區清江社區發展協會",
     "lat": 25.127505,
     "lng": 121.501918,
-    "address": "112臺北市北投區清江里清江路201號"
+    "address": "112臺北市北投區清江里清江路201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館清江分館3F服務台辦公室內",
     "lat": 25.127609,
     "lng": 121.506811,
-    "address": "112臺北市北投區公館路198號"
+    "address": "112臺北市北投區公館路198號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館清江分館3F報紙閱覽區中央",
     "lat": 25.127609,
     "lng": 121.506811,
-    "address": "112臺北市北投區公館路198號3F"
+    "address": "112臺北市北投區公館路198號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館清江分館3F自修室",
     "lat": 25.127728,
     "lng": 121.506937,
-    "address": "112臺北市北投區公館路198號"
+    "address": "112臺北市北投區公館路198號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館清江分館3F親子共讀區",
     "lat": 25.127728,
     "lng": 121.506937,
-    "address": "112臺北市北投區公館路198號3F"
+    "address": "112臺北市北投區公館路198號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館清江分館3F書庫區22號櫃中央",
     "lat": 25.127772,
     "lng": 121.507101,
-    "address": "112臺北市北投區公館路198號3F"
+    "address": "112臺北市北投區公館路198號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館清江分館3F多功能活動室中央",
     "lat": 25.127919,
     "lng": 121.507176,
-    "address": "112臺北市北投區公館路198號3F"
+    "address": "112臺北市北投區公館路198號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投舊北投郵局",
     "lat": 25.128507,
     "lng": 121.501317,
-    "address": "112臺北市北投區清江里1鄰中央南路一段201號"
+    "address": "112臺北市北投區清江里1鄰中央南路一段201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行北投分行",
     "lat": 25.129762,
     "lng": 121.50088,
-    "address": "112臺北市北投區中央南路一段152號"
+    "address": "112臺北市北投區中央南路一段152號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "福安宮-S-公館路",
     "lat": 25.130544,
     "lng": 121.504655,
-    "address": "112臺北市北投區公館路91號對面候車亭"
+    "address": "112臺北市北投區公館路91號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "北投區行政大樓4F區長辦公室前",
     "lat": 25.131997,
     "lng": 121.50299,
-    "address": "112臺北市北投區新市街30號4F"
+    "address": "112臺北市北投區新市街30號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "北投區行政大樓4F中央走廊南側",
     "lat": 25.132094,
     "lng": 121.503162,
-    "address": "112臺北市北投區新市街30號4F"
+    "address": "112臺北市北投區新市街30號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "北投區行政大樓4F門口社會科前",
     "lat": 25.132116,
     "lng": 121.503137,
-    "address": "112臺北市北投區新市街30號4F"
+    "address": "112臺北市北投區新市街30號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "北投區行政大樓北投戶政3F綜合受理櫃檯11櫃前",
     "lat": 25.132131,
     "lng": 121.503082,
-    "address": "112臺北市北投區新市街30號3F"
+    "address": "112臺北市北投區新市街30號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "北投區行政大樓6F會議室",
     "lat": 25.132131,
     "lng": 121.503237,
-    "address": "112臺北市北投區新市街30號6F"
+    "address": "112臺北市北投區新市街30號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "北投區行政大樓6F北投區民活動中心",
     "lat": 25.132184,
     "lng": 121.502873,
-    "address": "112臺北市北投區新市街30號6F"
+    "address": "112臺北市北投區新市街30號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "北投區行政大樓4F中央走廊北側",
     "lat": 25.132193,
     "lng": 121.503144,
-    "address": "112臺北市北投區新市街30號4F"
+    "address": "112臺北市北投區新市街30號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "北投區行政大樓6F中央走廊南側",
     "lat": 25.132306,
     "lng": 121.503049,
-    "address": "112臺北市北投區新市街30號6F"
+    "address": "112臺北市北投區新市街30號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "北投區行政大樓6F防災應變中心",
     "lat": 25.132325,
     "lng": 121.503237,
-    "address": "112臺北市北投區新市街30號6F"
+    "address": "112臺北市北投區新市街30號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "北投區行政大樓社會局5樓服務台",
     "lat": 25.132367,
     "lng": 121.502927,
-    "address": "112臺北市北投區新市街30號5F"
+    "address": "112臺北市北投區新市街30號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "北投市場(磺港)-S-磺港路",
     "lat": 25.132406,
     "lng": 121.503143,
-    "address": "112臺北市北投區磺港路30號候車亭"
+    "address": "112臺北市北投區磺港路30號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "北投區行政大樓6F中央走廊北側",
     "lat": 25.132418,
     "lng": 121.503365,
-    "address": "112臺北市北投區新市街30號6F"
+    "address": "112臺北市北投區新市街30號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "北投區行政大樓稅捐處北投分處3F事務處中央",
     "lat": 25.132534,
     "lng": 121.502659,
-    "address": "112臺北市北投區新市街30號3F"
+    "address": "112臺北市北投區新市街30號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山區行政大樓10F防災中心",
     "lat": 25.132594,
     "lng": 121.503238,
-    "address": "104臺北市中山區松江路367號10F"
+    "address": "104臺北市中山區松江路367號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "北投國小-E1-中央北路一段",
     "lat": 25.1338,
     "lng": 121.500846,
-    "address": "112臺北市北投區中央北路一段36號對面候車亭"
+    "address": "112臺北市北投區中央北路一段36號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "石牌長青會社區照顧關懷據點4F電梯前",
     "lat": 25.133891,
     "lng": 121.500903,
-    "address": "112臺北市北投區中央北路一段12號4F"
+    "address": "112臺北市北投區中央北路一段12號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區硫磺谷社區發展協會",
     "lat": 25.134,
     "lng": 121.501,
-    "address": "112臺北市北投區文化里文化三路4樓"
+    "address": "112臺北市北投區文化里文化三路4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "石牌長青會社區照顧關懷據點3F電梯前",
     "lat": 25.134001,
     "lng": 121.501207,
-    "address": "112臺北市北投區中央北路一段12號3F"
+    "address": "112臺北市北投區中央北路一段12號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(北投分行)",
     "lat": 25.134656,
     "lng": 121.50229,
-    "address": "112臺北市北投區光明路133號"
+    "address": "112臺北市北投區光明路133號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣多元社會福利協會",
     "lat": 25.13497,
     "lng": 121.504909,
-    "address": "112臺北市北投區溫泉里溫泉路68之10號"
+    "address": "112臺北市北投區溫泉里溫泉路68之10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投郵局-1",
     "lat": 25.135759,
     "lng": 121.502947,
-    "address": "112臺北市北投區光明路181號"
+    "address": "112臺北市北投區光明路181號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投郵局-2",
     "lat": 25.135759,
     "lng": 121.502947,
-    "address": "112臺北市北投區光明路181號"
+    "address": "112臺北市北投區光明路181號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館北投分館B1F視聽室中央",
     "lat": 25.136342,
     "lng": 121.506294,
-    "address": "112臺北市北投區光明路251號B1F"
+    "address": "112臺北市北投區光明路251號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館北投分館2F中央柱子上",
     "lat": 25.136356,
     "lng": 121.506289,
-    "address": "112臺北市北投區光明路251號2F"
+    "address": "112臺北市北投區光明路251號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館北投分館1F閱報區中央",
     "lat": 25.136368,
     "lng": 121.506275,
-    "address": "112臺北市北投區光明路251號1F"
+    "address": "112臺北市北投區光明路251號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館北投分館B1F閱讀區中央",
     "lat": 25.136393,
     "lng": 121.506192,
-    "address": "112臺北市北投區光明路251號B1F"
+    "address": "112臺北市北投區光明路251號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館北投分館2F辦公室門口",
     "lat": 25.136396,
     "lng": 121.506193,
-    "address": "112臺北市北投區光明路251號2F"
+    "address": "112臺北市北投區光明路251號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館北投分館1F中文圖書區中央",
     "lat": 25.13641,
     "lng": 121.506306,
-    "address": "112臺北市北投區光明路251號1F"
+    "address": "112臺北市北投區光明路251號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "北投公園-N-光明路",
     "lat": 25.136584,
     "lng": 121.504365,
-    "address": "112臺北市北投區光明路235號對面候車亭"
+    "address": "112臺北市北投區光明路235號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "新北投車站1F電信箱上方",
     "lat": 25.136646,
     "lng": 121.50346,
-    "address": "112臺北市北投區七星街1號1F"
+    "address": "112臺北市北投區七星街1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "北投溫泉博物館2F採光中庭",
     "lat": 25.136652,
     "lng": 121.507167,
-    "address": "112臺北市北投區中山路2號2F"
+    "address": "112臺北市北投區中山路2號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華仁親社區關懷協會(470)",
     "lat": 25.137288,
     "lng": 121.502234,
-    "address": "112臺北市北投區中心里大業路721號一樓"
+    "address": "112臺北市北投區中心里大業路721號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市北投青溪協會",
     "lat": 25.137541,
     "lng": 121.501247,
-    "address": "112臺北市北投區中庸里珠海路2號"
+    "address": "112臺北市北投區中庸里珠海路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "北投區公民會館1F館長室門口",
     "lat": 25.137855,
     "lng": 121.509977,
-    "address": "112臺北市北投區中山路5之7號1F"
+    "address": "112臺北市北投區中山路5之7號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新北投-S-泉源路",
     "lat": 25.137947,
     "lng": 121.504504,
-    "address": "112臺北市北投區泉源路11號斜對面候車亭"
+    "address": "112臺北市北投區泉源路11號斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市愛肯關懷協會",
     "lat": 25.13849,
     "lng": 121.501204,
-    "address": "112臺北市北投區中庸里雙全街19巷4號一樓"
+    "address": "112臺北市北投區中庸里雙全街19巷4號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "北投中心新村展示區A 1F服務台",
     "lat": 25.138679,
     "lng": 121.507424,
-    "address": "112臺北市北投區新民路22巷9號1F"
+    "address": "112臺北市北投區新民路22巷9號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "北投中心新村展示區B 1F右側",
     "lat": 25.138755,
     "lng": 121.507551,
-    "address": "112臺北市北投區新民路22巷9號1F"
+    "address": "112臺北市北投區新民路22巷9號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "北投中心新村展示區D 1F右側",
     "lat": 25.138869,
     "lng": 121.507378,
-    "address": "112臺北市北投區新民路22巷9號1F"
+    "address": "112臺北市北投區新民路22巷9號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中和街-S-中和街",
     "lat": 25.13898,
     "lng": 121.50166,
-    "address": "112臺北市北投區中和街207號旁候車亭"
+    "address": "112臺北市北投區中和街207號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "北投復興公園-公廁-泡腳池",
     "lat": 25.139005,
     "lng": 121.502276,
-    "address": "112臺北市北投區中和街與珠海路交叉口2號廁所後方牆上"
+    "address": "112臺北市北投區中和街與珠海路交叉口2號廁所後方牆上",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "北投復興公園-公廁-遊戲區",
     "lat": 25.139119,
     "lng": 121.502401,
-    "address": "112臺北市北投區中和街與珠海路交叉口2號廁所後方牆上"
+    "address": "112臺北市北投區中和街與珠海路交叉口2號廁所後方牆上",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "北投復興公園-公廁-球場",
     "lat": 25.139408,
     "lng": 121.503327,
-    "address": "112臺北市北投區中和街與珠海路交叉口1號廁所屋頂"
+    "address": "112臺北市北投區中和街與珠海路交叉口1號廁所屋頂",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "北投復興公園-公廁-廣場",
     "lat": 25.139416,
     "lng": 121.503166,
-    "address": "112臺北市北投區中和街與珠海路交叉口1號廁所屋頂"
+    "address": "112臺北市北投區中和街與珠海路交叉口1號廁所屋頂",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "華僑會館-S-泉源路",
     "lat": 25.139417,
     "lng": 121.506179,
-    "address": "112臺北市北投區泉源路25號前方候車亭"
+    "address": "112臺北市北投區泉源路25號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "國軍北投醫院急診室病患等候區",
     "lat": 25.139592,
     "lng": 121.509766,
-    "address": "112臺北市北投區新民路60號"
+    "address": "112臺北市北投區新民路60號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "國軍北投醫院一般診間等候處",
     "lat": 25.139725,
     "lng": 121.5012,
-    "address": "112臺北市北投區中和街250號"
+    "address": "112臺北市北投區中和街250號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區開明社區發展協會",
     "lat": 25.13986,
     "lng": 121.501455,
-    "address": "112臺北市北投區開明里永興路二段8號"
+    "address": "112臺北市北投區開明里永興路二段8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

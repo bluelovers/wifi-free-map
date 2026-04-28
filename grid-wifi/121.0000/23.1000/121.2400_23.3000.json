@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "南安遊客中心",
     "lat": 23.302749,
     "lng": 121.258548,
-    "address": "982花蓮縣卓溪鄉卓清村83-3號"
+    "address": "982花蓮縣卓溪鄉卓清村83-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

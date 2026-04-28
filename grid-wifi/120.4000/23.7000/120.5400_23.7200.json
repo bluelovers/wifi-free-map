@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣斗六市長安社區發展協會",
     "lat": 23.726693,
     "lng": 120.55094,
-    "address": "640雲林縣斗六市長安里萬年路416巷49號"
+    "address": "640雲林縣斗六市長安里萬年路416巷49號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

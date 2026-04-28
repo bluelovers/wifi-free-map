@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市復興區嘎色鬧部落",
     "lat": 24.77803,
     "lng": 121.32549,
-    "address": "336桃園市復興區奎輝里嘎色鬧7鄰2號"
+    "address": "336桃園市復興區奎輝里嘎色鬧7鄰2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

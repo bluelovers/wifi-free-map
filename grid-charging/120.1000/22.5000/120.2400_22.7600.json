@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彌陀郵局",
     "lat": 22.779327,
     "lng": 120.249924,

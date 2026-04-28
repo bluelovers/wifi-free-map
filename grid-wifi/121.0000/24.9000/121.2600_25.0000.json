@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區西埔社區發展協會",
     "lat": 25.013149,
     "lng": 121.276716,
-    "address": "330桃園市桃園區西埔里富國路681巷22號"
+    "address": "330桃園市桃園區西埔里富國路681巷22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局大竹分隊",
     "lat": 25.019234,
     "lng": 121.260588,
-    "address": "338桃園市蘆竹區上興路188號"
+    "address": "338桃園市蘆竹區上興路188號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

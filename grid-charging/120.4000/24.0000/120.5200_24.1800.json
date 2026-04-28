@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龍井茄投郵局",
     "lat": 24.182417,
     "lng": 120.531339,

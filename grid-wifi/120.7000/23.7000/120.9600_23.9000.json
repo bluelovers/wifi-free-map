@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺中區農業改良場埔里分場",
     "lat": 23.902707,
     "lng": 120.963777,
-    "address": "555南投縣魚池鄉五馬巷11-1號"
+    "address": "555南投縣魚池鄉五馬巷11-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "愚人之友社會福利慈善事業基金會(大智然菜園仔)",
     "lat": 23.919699,
     "lng": 120.965157,
-    "address": "555南投縣魚池鄉共和村五馬巷60-4號"
+    "address": "555南投縣魚池鄉共和村五馬巷60-4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

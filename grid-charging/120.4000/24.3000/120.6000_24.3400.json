@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大甲庄美郵局",
     "lat": 24.354774,
     "lng": 120.61922,

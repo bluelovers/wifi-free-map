@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市新店戶政事務所安康辦事處-1",
     "lat": 24.962729,
     "lng": 121.512837,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新店十四份郵局",
     "lat": 24.97199,
     "lng": 121.51739,

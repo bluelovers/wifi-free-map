@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣卓溪鄉卓楓國民小學",
     "lat": 23.243416,
     "lng": 121.271188,
-    "address": "982花蓮縣卓溪鄉古風村12鄰古楓6號"
+    "address": "982花蓮縣卓溪鄉古風村12鄰古楓6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣卓溪鄉古楓部落",
     "lat": 23.24413,
     "lng": 121.27189,
-    "address": "982花蓮縣卓溪鄉古風村12鄰古風4號"
+    "address": "982花蓮縣卓溪鄉古風村12鄰古風4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣卓溪鄉白端部落",
     "lat": 23.24973,
     "lng": 121.27345,
-    "address": "982花蓮縣卓溪鄉古風村古楓64號"
+    "address": "982花蓮縣卓溪鄉古風村古楓64號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

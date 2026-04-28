@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局新左營站售票房",
     "lat": 22.687544,
     "lng": 120.306788,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局新左營站2樓大廳剪票入口",
     "lat": 22.687736,
     "lng": 120.307072,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "左營福山郵局",
     "lat": 22.68811,
     "lng": 120.31967,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺高雄分臺",
     "lat": 22.688459,
     "lng": 120.317125,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局南區供應廠採購課",
     "lat": 22.691953,
     "lng": 120.307159,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東歸來郵局",
     "lat": 22.664166,
     "lng": 120.503324,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司屏東服務所",
     "lat": 22.669682,
     "lng": 120.504063,

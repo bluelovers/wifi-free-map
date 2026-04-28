@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "善化郵局",
     "lat": 23.126872,
     "lng": 120.294106,
-    "address": "741臺南市善化區中正路332號"
+    "address": "741臺南市善化區中正路332號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市善化區文昌社區活動中心",
     "lat": 23.1277,
     "lng": 120.290589,
-    "address": "741臺南市善化區光復路175號之1"
+    "address": "741臺南市善化區光復路175號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市善化區昌隆里辦公處",
     "lat": 23.13,
     "lng": 120.288,
-    "address": "741臺南市善化區昌隆里10鄰東勢寮106之6號"
+    "address": "741臺南市善化區昌隆里10鄰東勢寮106之6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市善化區東關頂街聯合里活動中心",
     "lat": 23.13123,
     "lng": 120.29251,
-    "address": "741臺南市善化區東關里大信路17之1號"
+    "address": "741臺南市善化區東關里大信路17之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署臺南市第一服務站",
     "lat": 23.131997,
     "lng": 120.293265,
-    "address": "741臺南市善化區中山路353號1樓"
+    "address": "741臺南市善化區中山路353號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "善化中山路郵局",
     "lat": 23.132124,
     "lng": 120.29208,
-    "address": "741臺南市善化區中山路371號"
+    "address": "741臺南市善化區中山路371號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(善化分行)",
     "lat": 23.132295,
     "lng": 120.292973,
-    "address": "741臺南市善化區中山路366號"
+    "address": "741臺南市善化區中山路366號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市善化區公所",
     "lat": 23.132467,
     "lng": 120.29671,
-    "address": "741臺南市善化區建國路190號"
+    "address": "741臺南市善化區建國路190號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市善化區六分社區發展協會",
     "lat": 23.137,
     "lng": 120.286,
-    "address": "741臺南市善化區六分里六分寮471號"
+    "address": "741臺南市善化區六分里六分寮471號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

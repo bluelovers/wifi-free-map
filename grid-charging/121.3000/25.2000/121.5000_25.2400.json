@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三芝郵局",
     "lat": 25.259338,
     "lng": 121.502701,

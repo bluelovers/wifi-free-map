@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "麻豆郵局",
     "lat": 23.181648,
     "lng": 120.248121,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司麻豆服務所",
     "lat": 23.183857,
     "lng": 120.256071,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "麻豆新生郵局",
     "lat": 23.184136,
     "lng": 120.241315,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局嘉義區監理所麻豆監理站",
     "lat": 23.18995,
     "lng": 120.248364,

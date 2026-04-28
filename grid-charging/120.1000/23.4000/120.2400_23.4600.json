@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義縣警察局朴子分局",
     "lat": 23.465189,
     "lng": 120.246366,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "朴子郵局",
     "lat": 23.466156,
     "lng": 120.24631,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司朴子服務所",
     "lat": 23.468834,
     "lng": 120.248292,

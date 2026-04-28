@@ -1,194 +1,266 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "雲林縣斗六市立繪本圖書館",
     "lat": 23.703821,
     "lng": 120.54941,
-    "address": "640雲林縣斗六市莊敬路66號"
+    "address": "640雲林縣斗六市莊敬路66號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會雲林榮譽國民之家秘書室一樓",
     "lat": 23.703928,
     "lng": 120.558856,
-    "address": "640雲林縣斗六市榮譽路160號"
+    "address": "640雲林縣斗六市榮譽路160號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會雲林縣榮民服務處一樓大廳",
     "lat": 23.704031,
     "lng": 120.558055,
-    "address": "640雲林縣斗六市榮譽路160-1號"
+    "address": "640雲林縣斗六市榮譽路160-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院勞動部勞工保險局雲林辦事處洽公櫃台",
     "lat": 23.70445,
     "lng": 120.556171,
-    "address": "640雲林縣斗六市榮譽路128號"
+    "address": "640雲林縣斗六市榮譽路128號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署雲林縣服務站(新)",
     "lat": 23.705864,
     "lng": 120.541434,
-    "address": "640雲林縣斗六市府前街38號1樓"
+    "address": "640雲林縣斗六市府前街38號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部國有財產署中區分署雲林辦事處",
     "lat": 23.706073,
     "lng": 120.542151,
-    "address": "640雲林縣斗六市府前街73號"
+    "address": "640雲林縣斗六市府前街73號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部國有財產署中區分署雲林辦事處2F洽公區",
     "lat": 23.706073,
     "lng": 120.542151,
-    "address": "640雲林縣斗六市府前街73號2樓"
+    "address": "640雲林縣斗六市府前街73號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司斗六營運所",
     "lat": 23.707233,
     "lng": 120.548533,
-    "address": "640雲林縣斗六市成功路293號"
+    "address": "640雲林縣斗六市成功路293號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "雲林縣斗六市立圖書館中山分館",
     "lat": 23.7081,
     "lng": 120.540705,
-    "address": "640雲林縣斗六市中山路84號"
+    "address": "640雲林縣斗六市中山路84號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣聖心社會關懷協會-斗六據點",
     "lat": 23.708282,
     "lng": 120.543777,
-    "address": "640雲林縣斗六市公正里中華路80號"
+    "address": "640雲林縣斗六市公正里中華路80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人雲林縣技職教育訓練鑑定發展協會",
     "lat": 23.708555,
     "lng": 120.5442,
-    "address": "640雲林縣斗六市仁愛里中華路100號二樓"
+    "address": "640雲林縣斗六市仁愛里中華路100號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行斗六分行",
     "lat": 23.708902,
     "lng": 120.541125,
-    "address": "640雲林縣斗六市中山路72號"
+    "address": "640雲林縣斗六市中山路72號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(斗六分行)",
     "lat": 23.709857,
     "lng": 120.542567,
-    "address": "640雲林縣斗六市太平路16號"
+    "address": "640雲林縣斗六市太平路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行斗六分行",
     "lat": 23.70987,
     "lng": 120.542636,
-    "address": "640雲林縣斗六市大同路45號"
+    "address": "640雲林縣斗六市大同路45號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "斗六永安郵局",
     "lat": 23.710611,
     "lng": 120.54769,
-    "address": "640雲林縣斗六市永安路8號"
+    "address": "640雲林縣斗六市永安路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "農糧署中區分署雲林辦事處",
     "lat": 23.710926,
     "lng": 120.546026,
-    "address": "640雲林縣斗六市文化路40號"
+    "address": "640雲林縣斗六市文化路40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行斗六分行",
     "lat": 23.711005,
     "lng": 120.544546,
-    "address": "640雲林縣斗六市文化路27號"
+    "address": "640雲林縣斗六市文化路27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局斗六站候車大廳",
     "lat": 23.711757,
     "lng": 120.541481,
-    "address": "640雲林縣斗六市民生路187號"
+    "address": "640雲林縣斗六市民生路187號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局斗六站第2月台行車室",
     "lat": 23.711757,
     "lng": 120.541481,
-    "address": "640雲林縣斗六市民生路187號"
+    "address": "640雲林縣斗六市民生路187號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局斗六站第1月台運轉室",
     "lat": 23.711757,
     "lng": 120.541481,
-    "address": "640雲林縣斗六市民生路187號"
+    "address": "640雲林縣斗六市民生路187號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣斗六市鎮東社區發展協會",
     "lat": 23.712144,
     "lng": 120.551411,
-    "address": "640雲林縣斗六市鎮東里育英北街60號"
+    "address": "640雲林縣斗六市鎮東里育英北街60號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司雲林直銷中心",
     "lat": 23.71256,
     "lng": 120.557172,
-    "address": "640雲林縣斗六市文化路522號"
+    "address": "640雲林縣斗六市文化路522號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署雲嘉南分署斗六就業中心1F",
     "lat": 23.714431,
     "lng": 120.540921,
-    "address": "640雲林縣斗六市上海路222-1號1樓"
+    "address": "640雲林縣斗六市上海路222-1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署雲嘉南分署斗六就業中心2F",
     "lat": 23.714431,
     "lng": 120.540921,
-    "address": "640雲林縣斗六市上海路222-1號2樓"
+    "address": "640雲林縣斗六市上海路222-1號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

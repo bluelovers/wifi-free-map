@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "草屯療養院社區心理衛生大樓",
     "lat": 23.980304,
     "lng": 120.68795,
-    "address": "542南投縣草屯鎮玉峰街16號"
+    "address": "542南投縣草屯鎮玉峰街16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "衛生福利部草屯療養院",
     "lat": 23.980697,
     "lng": 120.687221,
-    "address": "542南投縣草屯鎮玉峰里玉峰街16號"
+    "address": "542南投縣草屯鎮玉峰里玉峰街16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人南投縣基督教青年會私立青年會綜合長照機構",
     "lat": 23.981024,
     "lng": 120.688062,
-    "address": "542南投縣草屯鎮富寮里大成街188號3樓"
+    "address": "542南投縣草屯鎮富寮里大成街188號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "草屯銀髮俱樂部",
     "lat": 23.98106,
     "lng": 120.68804,
-    "address": "542南投縣草屯鎮大成街188號"
+    "address": "542南投縣草屯鎮大成街188號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺灣工藝文化園區生活工藝館",
     "lat": 23.981077,
     "lng": 120.691831,
-    "address": "542南投縣草屯鎮中正路573號"
+    "address": "542南投縣草屯鎮中正路573號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司草屯營運所",
     "lat": 23.98112,
     "lng": 120.693019,
-    "address": "542南投縣草屯鎮博愛路6號"
+    "address": "542南投縣草屯鎮博愛路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司南投縣草屯鎮草屯站",
     "lat": 23.984616,
     "lng": 120.686587,
-    "address": "542南投縣草屯鎮玉峰里中正路880號"
+    "address": "542南投縣草屯鎮玉峰里中正路880號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "草屯大觀郵局",
     "lat": 23.985713,
     "lng": 120.684467,
-    "address": "542南投縣草屯鎮博愛路449、451號"
+    "address": "542南投縣草屯鎮博愛路449、451號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣草屯鎮御史社區發展協會",
     "lat": 23.9892,
     "lng": 120.691317,
-    "address": "542南投縣草屯鎮御史里登輝路163號"
+    "address": "542南投縣草屯鎮御史里登輝路163號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

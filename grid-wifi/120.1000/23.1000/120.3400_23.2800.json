@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市柳營區大農里辦公處",
     "lat": 23.281,
     "lng": 120.355,
-    "address": "736臺南市柳營區大農里義士路一段450號"
+    "address": "736臺南市柳營區大農里義士路一段450號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "柳營重溪郵局",
     "lat": 23.294718,
     "lng": 120.352198,
-    "address": "736臺南市柳營區重溪村12-4號"
+    "address": "736臺南市柳營區重溪村12-4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

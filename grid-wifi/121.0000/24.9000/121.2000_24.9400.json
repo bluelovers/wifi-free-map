@@ -1,362 +1,497 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國宏老人長期照顧中心-北貴認知學堂",
     "lat": 24.940534,
     "lng": 121.215252,
-    "address": "324桃園市平鎮區新英里環南路二段265號2樓"
+    "address": "324桃園市平鎮區新英里環南路二段265號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行平鎮分行",
     "lat": 24.940908,
     "lng": 121.215334,
-    "address": "324桃園市平鎮區環南路二段265號"
+    "address": "324桃園市平鎮區環南路二段265號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市平鎮區衛生所",
     "lat": 24.944312,
     "lng": 121.218874,
-    "address": "324桃園市平鎮區振興路1號"
+    "address": "324桃園市平鎮區振興路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行平鎮分行",
     "lat": 24.944931,
     "lng": 121.209256,
-    "address": "324桃園市平鎮區環南路二段11號"
+    "address": "324桃園市平鎮區環南路二段11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "平鎮郵局",
     "lat": 24.945478,
     "lng": 121.209548,
-    "address": "324桃園市平鎮區延平路二段221號"
+    "address": "324桃園市平鎮區延平路二段221號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區平興里辦公處",
     "lat": 24.94554,
     "lng": 121.20458,
-    "address": "324桃園市平鎮區平興里廣泰路85號"
+    "address": "324桃園市平鎮區平興里廣泰路85號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "聯新國際醫院",
     "lat": 24.945579,
     "lng": 121.204453,
-    "address": "324桃園市平鎮區義民里廣泰路85號"
+    "address": "324桃園市平鎮區義民里廣泰路85號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "平鎮區公所一樓大廳",
     "lat": 24.945927,
     "lng": 121.218123,
-    "address": "324桃園市平鎮區振興路5號"
+    "address": "324桃園市平鎮區振興路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "平鎮區公所二樓大廳",
     "lat": 24.945927,
     "lng": 121.218123,
-    "address": "324桃園市平鎮區振興路5號"
+    "address": "324桃園市平鎮區振興路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "平鎮區調解委員會",
     "lat": 24.945927,
     "lng": 121.218123,
-    "address": "324桃園市平鎮區振興路7號二樓"
+    "address": "324桃園市平鎮區振興路7號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區新榮里辦公處",
     "lat": 24.945969,
     "lng": 121.214348,
-    "address": "324桃園市平鎮區新榮里振興西路112號之1"
+    "address": "324桃園市平鎮區新榮里振興西路112號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "平鎮區戶政事務所民眾洽公區",
     "lat": 24.946083,
     "lng": 121.218553,
-    "address": "324桃園市平鎮區德育路242號"
+    "address": "324桃園市平鎮區德育路242號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區義民社區發展協會",
     "lat": 24.946589,
     "lng": 121.204476,
-    "address": "324桃園市平鎮區義民里復旦路二段二十三巷8號左段/右段二樓"
+    "address": "324桃園市平鎮區義民里復旦路二段二十三巷8號左段/右段二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局復旦分隊",
     "lat": 24.948067,
     "lng": 121.202438,
-    "address": "324桃園市平鎮區復旦路二段133號"
+    "address": "324桃園市平鎮區復旦路二段133號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市立圖書館義民分館5樓",
     "lat": 24.948488,
     "lng": 121.203804,
-    "address": "324桃園市平鎮區復旦路二段115號"
+    "address": "324桃園市平鎮區復旦路二段115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市立圖書館義民分館6樓",
     "lat": 24.948488,
     "lng": 121.203804,
-    "address": "324桃園市平鎮區復旦路二段115號"
+    "address": "324桃園市平鎮區復旦路二段115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區義興里辦公處",
     "lat": 24.949729,
     "lng": 121.209269,
-    "address": "324桃園市平鎮區義興里義興街80號"
+    "address": "324桃園市平鎮區義興里義興街80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "平鎮新勢公園延平路一段201號對面號誌桿左前方",
     "lat": 24.95047,
     "lng": 121.21615,
-    "address": "324桃園市平鎮區延平路一段201號"
+    "address": "324桃園市平鎮區延平路一段201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "平鎮新勢公園延平路一段201號對面號誌桿右前方",
     "lat": 24.95047,
     "lng": 121.21615,
-    "address": "324桃園市平鎮區延平路一段201號"
+    "address": "324桃園市平鎮區延平路一段201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "平鎮新勢公園延平路一段143號前路燈桿左前方",
     "lat": 24.950602,
     "lng": 121.218004,
-    "address": "324桃園市平鎮區延平路一段143號"
+    "address": "324桃園市平鎮區延平路一段143號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "平鎮新勢公園延平路一段143號前路燈桿右前方",
     "lat": 24.950602,
     "lng": 121.218004,
-    "address": "324桃園市平鎮區延平路一段143號"
+    "address": "324桃園市平鎮區延平路一段143號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區守望相助推廣協會",
     "lat": 24.950796,
     "lng": 121.21632,
-    "address": "324桃園市平鎮區新勢里延平路一段162號"
+    "address": "324桃園市平鎮區新勢里延平路一段162號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府社會局桃園市南區青少年活動中心",
     "lat": 24.951141,
     "lng": 121.21572,
-    "address": "324桃園市平鎮區延平路一段168號"
+    "address": "324桃園市平鎮區延平路一段168號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區廣興里辦公處",
     "lat": 24.953389,
     "lng": 121.21452,
-    "address": "324桃園市平鎮區廣興里廣東路13號"
+    "address": "324桃園市平鎮區廣興里廣東路13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局中壢分隊",
     "lat": 24.953768,
     "lng": 121.215591,
-    "address": "320桃園市中壢區義民路120號"
+    "address": "320桃園市中壢區義民路120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "平鎮廣明郵局",
     "lat": 24.953852,
     "lng": 121.213457,
-    "address": "324桃園市平鎮區廣明路71、73號1樓"
+    "address": "324桃園市平鎮區廣明路71、73號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區復興里辦公處",
     "lat": 24.954228,
     "lng": 121.204959,
-    "address": "324桃園市平鎮區復興里復興街55號"
+    "address": "324桃園市平鎮區復興里復興街55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行中壢分行",
     "lat": 24.955696,
     "lng": 121.214862,
-    "address": "320桃園市中壢區民族路35號"
+    "address": "320桃園市中壢區民族路35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "聯新樂智服務據點(平鎮復旦站)",
     "lat": 24.955925,
     "lng": 121.202676,
-    "address": "324桃園市平鎮區復旦里文化街24巷6號"
+    "address": "324桃園市平鎮區復旦里文化街24巷6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢五福商圈志成路71號路燈",
     "lat": 24.958007,
     "lng": 121.207841,
-    "address": "320桃園市中壢區志成路71號"
+    "address": "320桃園市中壢區志成路71號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(西壢分行)",
     "lat": 24.95832,
     "lng": 121.217594,
-    "address": "320桃園市中壢區中央西路二段30號"
+    "address": "320桃園市中壢區中央西路二段30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢五福商圈志欣路67號路燈",
     "lat": 24.958441,
     "lng": 121.207793,
-    "address": "320桃園市中壢區志欣路67號"
+    "address": "320桃園市中壢區志欣路67號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市中壢地政事務所",
     "lat": 24.958787,
     "lng": 121.217608,
-    "address": "320桃園市中壢區中央西路二段30號三至五樓"
+    "address": "320桃園市中壢區中央西路二段30號三至五樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢五權兒童公園五族二街56號前燈桿左前方",
     "lat": 24.958831,
     "lng": 121.204811,
-    "address": "320桃園市中壢區五族二街56號"
+    "address": "320桃園市中壢區五族二街56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢五權兒童公園五族二街56號前燈桿右前方",
     "lat": 24.958831,
     "lng": 121.204811,
-    "address": "320桃園市中壢區五族二街56號"
+    "address": "320桃園市中壢區五族二街56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "老街溪開蓋紀念館廣場義民路二段17號前路燈桿左前方",
     "lat": 24.959039,
     "lng": 121.218075,
-    "address": "320桃園市中壢區義民路二段17號"
+    "address": "320桃園市中壢區義民路二段17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "老街溪開蓋紀念館廣場義民路二段17號前路燈桿右前方",
     "lat": 24.959039,
     "lng": 121.218075,
-    "address": "320桃園市中壢區義民路二段17號"
+    "address": "320桃園市中壢區義民路二段17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "中壢新民夜市新民路83號路燈左側",
     "lat": 24.959388,
     "lng": 121.214919,
-    "address": "320桃園市中壢區新民路83號"
+    "address": "320桃園市中壢區新民路83號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人桃園市濟世功德協進會(中壢站)",
     "lat": 24.959429,
     "lng": 121.216897,
-    "address": "320桃園市中壢區光明里明德路178號二樓"
+    "address": "320桃園市中壢區光明里明德路178號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢五福商圈五穀街40號路燈左側",
     "lat": 24.959445,
     "lng": 121.207791,
-    "address": "320桃園市中壢區五穀街40號"
+    "address": "320桃園市中壢區五穀街40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢五福商圈五穀街40號路燈右側",
     "lat": 24.959445,
     "lng": 121.207791,
-    "address": "320桃園市中壢區五穀街40號"
+    "address": "320桃園市中壢區五穀街40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(平鎮分行)",
     "lat": 24.959452,
     "lng": 121.207193,
-    "address": "320桃園市中壢區環西路68號"
+    "address": "320桃園市中壢區環西路68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "中壢區五福商圈五常街22巷9號路燈北向",
     "lat": 24.959518,
     "lng": 121.208228,
-    "address": "320桃園市中壢區五常街22巷9號"
+    "address": "320桃園市中壢區五常街22巷9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "中壢區五福商圈五常街22巷9號路燈南向",
     "lat": 24.959518,
     "lng": 121.208228,
-    "address": "320桃園市中壢區五常街22巷9號"
+    "address": "320桃園市中壢區五常街22巷9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢區五福商圈五常街22巷9號路燈西向",
     "lat": 24.959518,
     "lng": 121.208228,
-    "address": "320桃園市中壢區五常街22巷9號"
+    "address": "320桃園市中壢區五常街22巷9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

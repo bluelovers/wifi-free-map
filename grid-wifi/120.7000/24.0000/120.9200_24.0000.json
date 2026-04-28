@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "埔基醫療財團法人埔里基督教醫院(一新)",
     "lat": 24.006549,
     "lng": 120.932334,
-    "address": "545南投縣埔里鎮永興路29號"
+    "address": "545南投縣埔里鎮永興路29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣埔里鎮一新社區發展協會",
     "lat": 24.007584,
     "lng": 120.932333,
-    "address": "545南投縣埔里鎮一新里永興路29號"
+    "address": "545南投縣埔里鎮一新里永興路29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市新莊戶政事務所福營辦事處",
     "lat": 25.024545,
     "lng": 121.42381,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊後港路郵局",
     "lat": 25.026098,
     "lng": 121.425603,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊丹鳳郵局",
     "lat": 25.029017,
     "lng": 121.420083,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "輔仁大學郵局",
     "lat": 25.034167,
     "lng": 121.434031,

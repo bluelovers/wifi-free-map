@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "外埔郵局",
     "lat": 24.329833,
     "lng": 120.655018,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市外埔區戶政事務所",
     "lat": 24.332265,
     "lng": 120.655293,

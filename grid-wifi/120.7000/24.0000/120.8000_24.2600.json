@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "土牛客家文化館",
     "lat": 24.267154,
     "lng": 120.809183,
-    "address": "422臺中市石岡區土牛村豐勢路德成巷10號"
+    "address": "422臺中市石岡區土牛村豐勢路德成巷10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺中市福康關懷協會(墩南)",
     "lat": 24.269,
     "lng": 120.8,
-    "address": "421臺中市后里區墩南里南村路134號"
+    "address": "421臺中市后里區墩南里南村路134號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人老五老基金會(大土牛)",
     "lat": 24.269017,
     "lng": 120.800102,
-    "address": "422臺中市石岡區梅子里豐勢路503之1號"
+    "address": "422臺中市石岡區梅子里豐勢路503之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

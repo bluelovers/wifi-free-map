@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司台中市南屯區五權西路站",
     "lat": 24.141304,
     "lng": 120.641738,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中東興路郵局",
     "lat": 24.141357,
     "lng": 120.653168,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中向上郵局",
     "lat": 24.146749,
     "lng": 120.640866,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中郵件處理中心視聽室",
     "lat": 24.147165,
     "lng": 120.640934,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中大隆路郵局",
     "lat": 24.156532,
     "lng": 120.652867,

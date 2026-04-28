@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊新泰路郵局",
     "lat": 25.041788,
     "lng": 121.44475,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊中港郵局",
     "lat": 25.043931,
     "lng": 121.454369,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊思源路郵局",
     "lat": 25.046026,
     "lng": 121.459594,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊幸福郵局",
     "lat": 25.048932,
     "lng": 121.449481,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊昌盛郵局",
     "lat": 25.051171,
     "lng": 121.453374,

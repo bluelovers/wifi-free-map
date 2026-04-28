@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "澎湖縣白沙鄉戶政事務所",
     "lat": 23.6644,
     "lng": 119.6002,
-    "address": "884澎湖縣白沙鄉赤崁村大赤崁9號之5"
+    "address": "884澎湖縣白沙鄉赤崁村大赤崁9號之5",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣白沙鄉赤崁社區發展協會",
     "lat": 23.667055,
     "lng": 119.601799,
-    "address": "884澎湖縣白沙鄉赤崁村35號"
+    "address": "884澎湖縣白沙鄉赤崁村35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

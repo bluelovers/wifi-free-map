@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市永康區烏竹社區發展協會",
     "lat": 23.045,
     "lng": 120.263,
-    "address": "710臺南市永康區烏竹里烏竹北街85號"
+    "address": "710臺南市永康區烏竹里烏竹北街85號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "永康王行郵局",
     "lat": 23.04911,
     "lng": 120.274452,
-    "address": "710臺南市永康區永康工業區環工路6號"
+    "address": "710臺南市永康區永康工業區環工路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "永康工業區服務中心",
     "lat": 23.04911,
     "lng": 120.274452,
-    "address": "710臺南市永康區王行里環工路6號"
+    "address": "710臺南市永康區王行里環工路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市永康區王行社區發展協會",
     "lat": 23.051,
     "lng": 120.278,
-    "address": "710臺南市永康區王行里王行路866巷29弄118號"
+    "address": "710臺南市永康區王行里王行路866巷29弄118號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

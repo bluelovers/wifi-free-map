@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局高雄區監理所澎湖監理站",
     "lat": 23.553341,
     "lng": 119.56659,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "澎湖國家風景區管理處管理處服務台",
     "lat": 23.553341,
     "lng": 119.56659,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "澎湖遊客中心",
     "lat": 23.553341,
     "lng": 119.56659,

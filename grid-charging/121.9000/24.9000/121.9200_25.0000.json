@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司貢寮雙溪營運所",
     "lat": 25.010508,
     "lng": 121.920685,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "福隆遊客中心",
     "lat": 25.018224,
     "lng": 121.936012,

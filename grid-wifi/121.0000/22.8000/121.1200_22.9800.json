@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣鹿野鄉瑞隆社區發展協會-鹿野鄉-瑞豐",
     "lat": 22.987965,
     "lng": 121.139842,
-    "address": "955臺東縣鹿野鄉瑞豐村景新路60巷2號"
+    "address": "955臺東縣鹿野鄉瑞豐村景新路60巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

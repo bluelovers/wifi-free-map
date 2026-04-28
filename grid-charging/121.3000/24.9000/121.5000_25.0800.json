@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林社子郵局",
     "lat": 25.082432,
     "lng": 121.510451,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林後港郵局",
     "lat": 25.08752,
     "lng": 121.517855,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林社新里郵局",
     "lat": 25.089378,
     "lng": 121.505847,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林中正路郵局",
     "lat": 25.093335,
     "lng": 121.519746,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林監理站",
     "lat": 25.09345,
     "lng": 121.514604,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局計量業務民眾洽公區",
     "lat": 25.093866,
     "lng": 121.514298,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹縣峨眉鄉戶政事務所",
     "lat": 24.688293,
     "lng": 121.021601,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "峨眉郵局",
     "lat": 24.68843,
     "lng": 121.02003,

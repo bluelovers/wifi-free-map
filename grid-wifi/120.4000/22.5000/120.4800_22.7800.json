@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣里港鄉過江社區發展協會",
     "lat": 22.783295,
     "lng": 120.493912,
-    "address": "905屏東縣里港鄉過江村過江路79之3號"
+    "address": "905屏東縣里港鄉過江村過江路79之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

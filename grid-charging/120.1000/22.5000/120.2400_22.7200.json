@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "梓官蚵子寮郵局",
     "lat": 22.737658,
     "lng": 120.247564,

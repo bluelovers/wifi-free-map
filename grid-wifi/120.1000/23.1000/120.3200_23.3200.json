@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市新營區民榮社區發展協會",
     "lat": 23.33,
     "lng": 120.32,
-    "address": "730臺南市新營區南興里南昌街135號"
+    "address": "730臺南市新營區南興里南昌街135號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市後壁區新東社區發展協會",
     "lat": 23.338,
     "lng": 120.3307,
-    "address": "731臺南市後壁區新東里新港東60之2號"
+    "address": "731臺南市後壁區新東里新港東60之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

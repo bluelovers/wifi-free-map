@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市旗津區戶政事務所",
     "lat": 22.610978,
     "lng": 120.26794,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "旗津郵局",
     "lat": 22.612528,
     "lng": 120.269409,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司旗津服務所大廳",
     "lat": 22.613357,
     "lng": 120.269834,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄蓬萊路郵局",
     "lat": 22.61851,
     "lng": 120.279581,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄港國際旅運中心",
     "lat": 22.619017,
     "lng": 120.274994,

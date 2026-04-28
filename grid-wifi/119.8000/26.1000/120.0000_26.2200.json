@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "連江縣后沃村候車亭",
     "lat": 26.223144,
     "lng": 120.006106,
-    "address": "210連江縣北竿鄉后沃村侯車亭"
+    "address": "210連江縣北竿鄉后沃村侯車亭",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "馬祖WiFi加值_芹壁村",
     "lat": 26.22316,
     "lng": 120.006106,
-    "address": "210連江縣北竿鄉芹壁村60號"
+    "address": "210連江縣北竿鄉芹壁村60號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣楊公八使宮",
     "lat": 26.223673,
     "lng": 120.006701,
-    "address": "210連江縣北竿鄉后沃村楊公八使宮"
+    "address": "210連江縣北竿鄉后沃村楊公八使宮",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "北竿航空站",
     "lat": 26.223889,
     "lng": 120.002479,
-    "address": "210連江縣北竿鄉21041塘岐村261-2號"
+    "address": "210連江縣北竿鄉21041塘岐村261-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "立川漁場",
     "lat": 23.864463,
     "lng": 121.520032,
-    "address": "974花蓮縣壽豐鄉魚池45號"
+    "address": "974花蓮縣壽豐鄉魚池45號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣壽豐鄉公所共和村辦公處",
     "lat": 23.867833,
     "lng": 121.534146,
-    "address": "974花蓮縣壽豐鄉共和村農墾2街38號"
+    "address": "974花蓮縣壽豐鄉共和村農墾2街38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

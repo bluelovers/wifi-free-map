@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "旗山旗尾郵局",
     "lat": 22.881776,
     "lng": 120.492509,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "旗山郵局",
     "lat": 22.883957,
     "lng": 120.482973,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市旗山區戶政事務所",
     "lat": 22.889381,
     "lng": 120.48337,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司旗山營運所",
     "lat": 22.891236,
     "lng": 120.484002,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "旗山四保郵局",
     "lat": 22.891669,
     "lng": 120.481383,

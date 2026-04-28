@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏南工業區服務中心",
     "lat": 22.411928,
     "lng": 120.577208,

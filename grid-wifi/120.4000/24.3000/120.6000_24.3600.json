@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市大安區松雅社區發展協會(功能型據點)",
     "lat": 24.361389,
     "lng": 120.603673,
-    "address": "439臺中市大安區松雅里松一街1號"
+    "address": "439臺中市大安區松雅里松一街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車大安國中站",
     "lat": 24.36518,
     "lng": 120.602418,
-    "address": "439臺中市大安區大安港路691號"
+    "address": "439臺中市大安區大安港路691號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

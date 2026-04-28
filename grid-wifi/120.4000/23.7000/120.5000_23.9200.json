@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣埔心羅厝天主堂原教堂(文物館)",
     "lat": 23.937826,
     "lng": 120.513604,
-    "address": "513彰化縣埔心鄉羅厝村羅永路109號"
+    "address": "513彰化縣埔心鄉羅厝村羅永路109號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

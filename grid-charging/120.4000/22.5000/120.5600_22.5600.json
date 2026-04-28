@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "萬巒郵局",
     "lat": 22.571366,
     "lng": 120.566112,

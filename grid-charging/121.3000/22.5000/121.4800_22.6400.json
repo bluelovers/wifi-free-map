@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "綠島航空站",
     "lat": 22.656072,
     "lng": 121.482751,

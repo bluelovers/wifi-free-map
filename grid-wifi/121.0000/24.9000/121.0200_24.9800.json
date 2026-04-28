@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新屋永安郵局",
     "lat": 24.988216,
     "lng": 121.026946,
-    "address": "327桃園市新屋區中山西路三段222、224號"
+    "address": "327桃園市新屋區中山西路三段222、224號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市新屋區永安社區發展協會",
     "lat": 24.988398,
     "lng": 121.027768,
-    "address": "327桃園市新屋區永安里保生路55號"
+    "address": "327桃園市新屋區永安里保生路55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

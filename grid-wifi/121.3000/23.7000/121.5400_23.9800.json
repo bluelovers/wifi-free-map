@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "吉安鄉公所清潔隊",
     "lat": 23.984183,
     "lng": 121.552525,
-    "address": "973花蓮縣吉安鄉中山路三段953巷13號"
+    "address": "973花蓮縣吉安鄉中山路三段953巷13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣吉安鄉七腳川部落",
     "lat": 23.9939,
     "lng": 121.55674,
-    "address": "973花蓮縣吉安鄉明義七街36號"
+    "address": "973花蓮縣吉安鄉明義七街36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

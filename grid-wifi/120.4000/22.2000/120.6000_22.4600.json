@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣新埤鄉獅頭社區發展協會",
     "lat": 22.465112,
     "lng": 120.602717,
-    "address": "925屏東縣新埤鄉箕湖村進化路122號"
+    "address": "925屏東縣新埤鄉箕湖村進化路122號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣新埤鄉餉潭社區發展協會",
     "lat": 22.47613,
     "lng": 120.611127,
-    "address": "925屏東縣新埤鄉餉潭村龍潭路137之1號"
+    "address": "925屏東縣新埤鄉餉潭村龍潭路137之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

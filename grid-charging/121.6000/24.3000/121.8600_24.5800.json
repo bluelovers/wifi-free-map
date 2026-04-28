@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘇澳南方澳郵局",
     "lat": 24.581699,
     "lng": 121.865133,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通部觀光局東北角暨宜蘭海岸國家風景區管理處南方澳遊客中心",
     "lat": 24.585159,
     "lng": 121.862755,

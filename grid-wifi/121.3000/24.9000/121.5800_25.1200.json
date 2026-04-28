@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "聖人橋-E-至善路三段",
     "lat": 25.124918,
     "lng": 121.587735,
-    "address": "111臺北市士林區至善路三段336號旁候車亭"
+    "address": "111臺北市士林區至善路三段336號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "聖人瀑布-N-至善路三段",
     "lat": 25.12712,
     "lng": 121.587646,
-    "address": "111臺北市士林區至善路三段369號對面旁候車亭"
+    "address": "111臺北市士林區至善路三段369號對面旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

@@ -1,114 +1,156 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店龍井遊園南路學園店(公話)",
     "lat": 24.180237,
     "lng": 120.583476,
-    "address": "434臺中市龍井區遊園南路297號"
+    "address": "434臺中市龍井區遊園南路297號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商龍井龍新興路龍新店(公話)",
     "lat": 24.181022,
     "lng": 120.590182,
-    "address": "434臺中市龍井區新興路22號"
+    "address": "434臺中市龍井區新興路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店龍井新文勝店",
     "lat": 24.181206,
     "lng": 120.587395,
-    "address": "434臺中市龍井區臺灣大道五段3巷62弄49號_(交接箱CSHK1102)"
+    "address": "434臺中市龍井區臺灣大道五段3巷62弄49號_(交接箱CSHK1102)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商龍井臺灣大道東海店(公話)",
     "lat": 24.181614,
     "lng": 120.592713,
-    "address": "434臺中市龍井區臺灣大道五段3巷49號"
+    "address": "434臺中市龍井區臺灣大道五段3巷49號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商龍井遊園南路龍井店(公話)",
     "lat": 24.182124,
     "lng": 120.584006,
-    "address": "434臺中市龍井區遊園南路208號"
+    "address": "434臺中市龍井區遊園南路208號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車東海商圈站",
     "lat": 24.182408,
     "lng": 120.581856,
-    "address": "434臺中市龍井區新興路2號之9"
+    "address": "434臺中市龍井區新興路2號之9",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龍井新庄郵局",
     "lat": 24.182415,
     "lng": 120.584281,
-    "address": "434臺中市龍井區遊園南路171號"
+    "address": "434臺中市龍井區遊園南路171號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車東海別墅站",
     "lat": 24.18306,
     "lng": 120.59348,
-    "address": "407臺中市西屯區臺灣大道四段2168號(TCTH3392)"
+    "address": "407臺中市西屯區臺灣大道四段2168號(TCTH3392)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商龍井臺灣大道新庄店(公話)",
     "lat": 24.185552,
     "lng": 120.587547,
-    "address": "434臺中市龍井區臺灣大道五段236號"
+    "address": "434臺中市龍井區臺灣大道五段236號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀中科分行",
     "lat": 24.18557,
     "lng": 120.58741,
-    "address": "434臺中市龍井區臺灣大道五段43號2樓"
+    "address": "434臺中市龍井區臺灣大道五段43號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商龍井國際街理想店(公話)",
     "lat": 24.187568,
     "lng": 120.595559,
-    "address": "434臺中市龍井區國際街153號"
+    "address": "434臺中市龍井區國際街153號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中市全家便利商店龍井藝術街藝術店(公話)",
     "lat": 24.188069,
     "lng": 120.592631,
-    "address": "434臺中市龍井區藝術街92號"
+    "address": "434臺中市龍井區藝術街92號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市龍井區東海社區發展協會",
     "lat": 24.188126,
     "lng": 120.592032,
-    "address": "434臺中市龍井區東海里藝術街101號"
+    "address": "434臺中市龍井區東海里藝術街101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商龍井遠東街東風店(公話)",
     "lat": 24.191148,
     "lng": 120.587828,
-    "address": "434臺中市龍井區遠東街3號"
+    "address": "434臺中市龍井區遠東街3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

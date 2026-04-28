@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司台東營運所",
     "lat": 22.749553,
     "lng": 121.15582,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司台東區處服務中心營業廳",
     "lat": 22.750063,
     "lng": 121.154718,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台東大同路郵局",
     "lat": 22.752596,
     "lng": 121.154054,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台東中山路郵局",
     "lat": 22.753107,
     "lng": 121.148434,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署第八河川局1樓服務台",
     "lat": 22.753249,
     "lng": 121.158385,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺臺東分臺",
     "lat": 22.756059,
     "lng": 121.151174,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台東博愛路郵局",
     "lat": 22.759888,
     "lng": 121.151291,

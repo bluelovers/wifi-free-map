@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市東山區東河社區發展協會",
     "lat": 23.268,
     "lng": 120.447,
-    "address": "733臺南市東山區東河里吉貝耍16之1號"
+    "address": "733臺南市東山區東河里吉貝耍16之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "東山東原郵局",
     "lat": 23.275912,
     "lng": 120.453046,
-    "address": "733臺南市東山區東原村170號"
+    "address": "733臺南市東山區東原村170號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

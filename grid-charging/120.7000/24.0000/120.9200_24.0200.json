@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "埔里大坪頂郵局",
     "lat": 24.03757,
     "lng": 120.92523,

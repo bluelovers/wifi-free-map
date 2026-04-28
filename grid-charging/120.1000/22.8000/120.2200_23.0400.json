@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永康鹽行郵局",
     "lat": 23.041711,
     "lng": 120.239939,

@@ -1,194 +1,266 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "榮光新村-S-石牌路二段",
     "lat": 25.120244,
     "lng": 121.522644,
-    "address": "112臺北市北投區石牌路二段322號對面候車亭"
+    "address": "112臺北市北投區石牌路二段322號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "天母新村-S-中山北路七段",
     "lat": 25.121298,
     "lng": 121.531367,
-    "address": "111臺北市士林區中山北路七段75號候車亭"
+    "address": "111臺北市士林區中山北路七段75號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台北市天母基督教會",
     "lat": 25.122035,
     "lng": 121.530737,
-    "address": "111臺北市士林區天母里天玉街63號"
+    "address": "111臺北市士林區天母里天玉街63號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人臺北市松年長春社會福利基金會(士林)",
     "lat": 25.122334,
     "lng": 121.532001,
-    "address": "111臺北市士林區天山里中山北路七段122號三樓"
+    "address": "111臺北市士林區天山里中山北路七段122號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "天北站-S-天母北路",
     "lat": 25.122589,
     "lng": 121.526715,
-    "address": "111臺北市士林區天母北路87巷2弄與天母北路口西側候車亭"
+    "address": "111臺北市士林區天母北路87巷2弄與天母北路口西側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "士林天母郵局",
     "lat": 25.122657,
     "lng": 121.532168,
-    "address": "111臺北市士林區中山北路七段130號"
+    "address": "111臺北市士林區中山北路七段130號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀天母分行",
     "lat": 25.12276,
     "lng": 121.531777,
-    "address": "111臺北市士林區中山北路七段125號"
+    "address": "111臺北市士林區中山北路七段125號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人天主教遣使會(天母天主堂)",
     "lat": 25.122764,
     "lng": 121.532212,
-    "address": "111臺北市士林區天山里中山北路七段134號"
+    "address": "111臺北市士林區天山里中山北路七段134號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市士林區天和社區發展協會",
     "lat": 25.123448,
     "lng": 121.532947,
-    "address": "111臺北市士林區天山里中山北路七段154巷6號四樓"
+    "address": "111臺北市士林區天山里中山北路七段154巷6號四樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館天母分館3F服務台",
     "lat": 25.123555,
     "lng": 121.532875,
-    "address": "111臺北市士林區中山北路七段154巷6號3F"
+    "address": "111臺北市士林區中山北路七段154巷6號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館天母分館4F視聽室",
     "lat": 25.123677,
     "lng": 121.532986,
-    "address": "111臺北市士林區中山北路七段154巷6號4F"
+    "address": "111臺北市士林區中山北路七段154巷6號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館天母分館4F自修區中央",
     "lat": 25.123872,
     "lng": 121.53294,
-    "address": "111臺北市士林區中山北路七段154巷6號4F"
+    "address": "111臺北市士林區中山北路七段154巷6號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館天母分館3F主題書展處右方",
     "lat": 25.123966,
     "lng": 121.533033,
-    "address": "111臺北市士林區中山北路七段154巷6號3F"
+    "address": "111臺北市士林區中山北路七段154巷6號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林天母區民活動中心4F舞台左邊機櫃後面",
     "lat": 25.123966,
     "lng": 121.533033,
-    "address": "111臺北市士林區中山北路七段154巷6號4F"
+    "address": "111臺北市士林區中山北路七段154巷6號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館天母分館4F自修區",
     "lat": 25.123966,
     "lng": 121.533033,
-    "address": "111臺北市士林區中山北路七段154巷6號4F"
+    "address": "111臺北市士林區中山北路七段154巷6號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "天母-S1-中山北路七段",
     "lat": 25.124198,
     "lng": 121.532455,
-    "address": "111臺北市士林區中山北路七段165之2號候車亭"
+    "address": "111臺北市士林區中山北路七段165之2號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "天母圓環-E-中山北路七段",
     "lat": 25.125032,
     "lng": 121.532356,
-    "address": "111臺北市士林區中山北路七段191巷77號前方候車亭"
+    "address": "111臺北市士林區中山北路七段191巷77號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀天母分行",
     "lat": 25.125193,
     "lng": 121.53275,
-    "address": "111臺北市士林區中山北路七段193號"
+    "address": "111臺北市士林區中山北路七段193號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人陽明山基督教天母禮拜堂",
     "lat": 25.125861,
     "lng": 121.533002,
-    "address": "111臺北市士林區天母里中山北路七段216巷1號一樓"
+    "address": "111臺北市士林區天母里中山北路七段216巷1號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "磺溪-S-行義路",
     "lat": 25.125892,
     "lng": 121.527603,
-    "address": "112臺北市北投區行義路53號旁候車亭"
+    "address": "112臺北市北投區行義路53號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區幸福永和社區發展協會",
     "lat": 25.126214,
     "lng": 121.52795,
-    "address": "112臺北市北投區永和里行義路63號"
+    "address": "112臺北市北投區永和里行義路63號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "天溪綠地游泳池",
     "lat": 25.128387,
     "lng": 121.530987,
-    "address": "112臺北市北投區中山北路七段219巷3弄170號旁回收場外牆"
+    "address": "112臺北市北投區中山北路七段219巷3弄170號旁回收場外牆",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市北投區永和社區發展協會",
     "lat": 25.129604,
     "lng": 121.52796,
-    "address": "112臺北市北投區永和里行義路138之1號一樓"
+    "address": "112臺北市北投區永和里行義路138之1號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "臺北市殯葬管理處陽明山臻愛樓1F中央",
     "lat": 25.139216,
     "lng": 121.523217,
-    "address": "112臺北市北投區泉源路220號臻愛樓1F"
+    "address": "112臺北市北投區泉源路220號臻愛樓1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

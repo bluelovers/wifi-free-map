@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "平鎮金陵郵局",
     "lat": 24.924762,
     "lng": 121.228093,
-    "address": "324桃園市平鎮區金陵路三段235-1、235-2號"
+    "address": "324桃園市平鎮區金陵路三段235-1、235-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區獅子林社區發展協會",
     "lat": 24.928193,
     "lng": 121.225399,
-    "address": "324桃園市平鎮區北貴里大仁街46號"
+    "address": "324桃園市平鎮區北貴里大仁街46號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人桃園市私立國宏老人長期照顧中心(養護型)",
     "lat": 24.9285,
     "lng": 121.223731,
-    "address": "324桃園市平鎮區北貴里大勇街86號"
+    "address": "324桃園市平鎮區北貴里大勇街86號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人桃園市地球村代間藝術教育促進會",
     "lat": 24.92975,
     "lng": 121.222397,
-    "address": "324桃園市平鎮區北貴里正義路70號"
+    "address": "324桃園市平鎮區北貴里正義路70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢龍岡森林公園龍岡路三段262巷38弄口燈桿左前方",
     "lat": 24.932725,
     "lng": 121.233373,
-    "address": "320桃園市中壢區龍岡路三段262巷38弄"
+    "address": "320桃園市中壢區龍岡路三段262巷38弄",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "馬祖新村眷村文創園區",
     "lat": 24.936082,
     "lng": 121.237575,
-    "address": "320桃園市中壢區龍吉二街155號"
+    "address": "320桃園市中壢區龍吉二街155號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市中壢區龍德里辦公處",
     "lat": 24.936979,
     "lng": 121.237478,
-    "address": "320桃園市中壢區龍德里龍岡路三段213號"
+    "address": "320桃園市中壢區龍德里龍岡路三段213號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區北興社區發展協會",
     "lat": 24.937407,
     "lng": 121.224622,
-    "address": "324桃園市平鎮區北興里3鄰金陵路二段353號"
+    "address": "324桃園市平鎮區北興里3鄰金陵路二段353號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市中壢區龍興社區發展協會",
     "lat": 24.939461,
     "lng": 121.23325,
-    "address": "320桃園市中壢區龍興里龍岡路三段37巷92弄102號"
+    "address": "320桃園市中壢區龍興里龍岡路三段37巷92弄102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

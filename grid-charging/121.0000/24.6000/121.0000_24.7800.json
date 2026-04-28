@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹科學園郵局",
     "lat": 24.780192,
     "lng": 121.004751,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹關東橋郵局",
     "lat": 24.782661,
     "lng": 121.018739,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司新竹服務中心",
     "lat": 24.789815,
     "lng": 121.003569,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司新竹直銷中心",
     "lat": 24.790918,
     "lng": 121.004378,

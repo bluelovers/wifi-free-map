@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "平鎮北勢郵局",
     "lat": 24.941972,
     "lng": 121.223201,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中壢東興郵局",
     "lat": 24.947719,
     "lng": 121.226089,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局新竹分局桃園辦事處商檢/計量業務民眾洽公區",
     "lat": 24.951039,
     "lng": 121.222156,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司中壢服務所",
     "lat": 24.952805,
     "lng": 121.220809,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局中壢分局",
     "lat": 24.954006,
     "lng": 121.222297,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中壢普仁郵局",
     "lat": 24.954153,
     "lng": 121.237239,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中壢建國路郵局",
     "lat": 24.955491,
     "lng": 121.225018,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司中壢服務所大廳",
     "lat": 24.957085,
     "lng": 121.223745,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局新竹區監理所中壢監理站",
     "lat": 24.959568,
     "lng": 121.224307,

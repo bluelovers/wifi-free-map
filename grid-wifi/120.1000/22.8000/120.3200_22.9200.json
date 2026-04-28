@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市關廟區深坑里辦公處",
     "lat": 22.938,
     "lng": 120.334,
-    "address": "718臺南市關廟區深坑里南雄路一段425號"
+    "address": "718臺南市關廟區深坑里南雄路一段425號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

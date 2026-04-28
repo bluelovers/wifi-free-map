@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "斗六石榴郵局",
     "lat": 23.722312,
     "lng": 120.591903,

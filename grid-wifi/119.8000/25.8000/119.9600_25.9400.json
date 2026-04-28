@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "馬祖WiFi加值_菜圃沃觀景台",
     "lat": 25.946484,
     "lng": 119.967134,
-    "address": "211連江縣莒光鄉田沃村菜埔沃觀景台"
+    "address": "211連江縣莒光鄉田沃村菜埔沃觀景台",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣塘歧運動場",
     "lat": 25.950965,
     "lng": 119.967895,
-    "address": "210連江縣北竿鄉塘岐村260-1號"
+    "address": "210連江縣北竿鄉塘岐村260-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "連江縣東莒大埔石刻聚落",
     "lat": 25.951901,
     "lng": 119.976898,
-    "address": "211連江縣莒光鄉大埔村六四據點"
+    "address": "211連江縣莒光鄉大埔村六四據點",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "馬祖東莒郵局",
     "lat": 25.958508,
     "lng": 119.979451,
-    "address": "211連江縣莒光鄉東莒大坪村55號"
+    "address": "211連江縣莒光鄉東莒大坪村55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

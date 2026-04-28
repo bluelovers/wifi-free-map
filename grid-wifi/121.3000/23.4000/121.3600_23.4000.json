@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立玉東國民中學",
     "lat": 23.417337,
     "lng": 121.370409,
-    "address": "981花蓮縣玉里鎮松浦里松浦39號"
+    "address": "981花蓮縣玉里鎮松浦里松浦39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

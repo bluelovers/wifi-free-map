@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市三峽戶政事務所5F-1",
     "lat": 24.928548,
     "lng": 121.375924,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三峽中山郵局",
     "lat": 24.934151,
     "lng": 121.369617,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三峽郵局",
     "lat": 24.935997,
     "lng": 121.374662,

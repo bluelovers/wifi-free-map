@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣壽豐鄉月眉國民小學",
     "lat": 23.868105,
     "lng": 121.556135,
-    "address": "974花蓮縣壽豐鄉月眉村三段24號"
+    "address": "974花蓮縣壽豐鄉月眉村三段24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣壽豐鄉公所月眉村辦公處",
     "lat": 23.868407,
     "lng": 121.555341,
-    "address": "974花蓮縣壽豐鄉月眉村月眉路三段108號"
+    "address": "974花蓮縣壽豐鄉月眉村月眉路三段108號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣月眉派出所",
     "lat": 23.868412,
     "lng": 121.553153,
-    "address": "974花蓮縣壽豐鄉月眉村月眉三段42號"
+    "address": "974花蓮縣壽豐鄉月眉村月眉三段42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

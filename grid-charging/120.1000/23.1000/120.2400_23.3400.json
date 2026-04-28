@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司義竹服務所",
     "lat": 23.340648,
     "lng": 120.242394,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣水上戶政事務所鹿草辦公室",
     "lat": 23.424668,
     "lng": 120.296391,
-    "address": "611嘉義縣鹿草鄉西井村鹿草286號"
+    "address": "611嘉義縣鹿草鄉西井村鹿草286號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

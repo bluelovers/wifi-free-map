@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "八卦山管理站",
     "lat": 23.833866,
     "lng": 120.636299,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "名間松嶺郵局",
     "lat": 23.834632,
     "lng": 120.635561,

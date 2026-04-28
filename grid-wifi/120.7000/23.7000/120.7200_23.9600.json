@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "衛生福利部衛生福利人員訓練中心",
     "lat": 23.974069,
     "lng": 120.729673,
-    "address": "542南投縣草屯鎮南埔里南坪路528號"
+    "address": "542南投縣草屯鎮南埔里南坪路528號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣草屯鎮南埔社區發展協會",
     "lat": 23.9788,
     "lng": 120.7256,
-    "address": "542南投縣草屯鎮南埔里青宅巷56號"
+    "address": "542南投縣草屯鎮南埔里青宅巷56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "草屯南埔郵局",
     "lat": 23.979311,
     "lng": 120.720444,
-    "address": "542南投縣草屯鎮雙冬里中正路286-5號"
+    "address": "542南投縣草屯鎮雙冬里中正路286-5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

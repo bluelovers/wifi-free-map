@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局坪頂分隊",
     "lat": 25.052309,
     "lng": 121.372891,
-    "address": "333桃園市龜山區復興三路80號"
+    "address": "333桃園市龜山區復興三路80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行林口分行",
     "lat": 25.054493,
     "lng": 121.369633,
-    "address": "333桃園市龜山區文化二路109號1~3樓、109-1號"
+    "address": "333桃園市龜山區文化二路109號1~3樓、109-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(林口分行)",
     "lat": 25.056148,
     "lng": 121.36763,
-    "address": "333桃園市龜山區文化二路76號"
+    "address": "333桃園市龜山區文化二路76號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龜山文化郵局",
     "lat": 25.057348,
     "lng": 121.369889,
-    "address": "333桃園市龜山區文昌一街102號"
+    "address": "333桃園市龜山區文昌一街102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "林口工業區服務中心",
     "lat": 25.057404,
     "lng": 121.374066,
-    "address": "333桃園市龜山區文化一路53號2樓"
+    "address": "333桃園市龜山區文化一路53號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龜山大崗郵局",
     "lat": 25.057537,
     "lng": 121.360764,
-    "address": "333桃園市龜山區大崗村大湖56-1號"
+    "address": "333桃園市龜山區大崗村大湖56-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行林口分行",
     "lat": 25.057723,
     "lng": 121.366096,
-    "address": "333桃園市龜山區文化二路38-11號"
+    "address": "333桃園市龜山區文化二路38-11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南大同路郵局",
     "lat": 22.974438,
     "lng": 120.214183,

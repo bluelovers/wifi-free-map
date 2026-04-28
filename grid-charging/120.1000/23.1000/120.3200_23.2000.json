@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "官田工業區服務中心",
     "lat": 23.207745,
     "lng": 120.322437,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "官田工業區郵局",
     "lat": 23.211064,
     "lng": 120.323003,

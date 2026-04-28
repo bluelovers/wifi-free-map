@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三義郵局",
     "lat": 24.414283,
     "lng": 120.772563,

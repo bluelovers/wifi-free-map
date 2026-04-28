@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司台南市玉井區玉井站",
     "lat": 23.122245,
     "lng": 120.466011,
-    "address": "714臺南市玉井區玉田里中山路91號"
+    "address": "714臺南市玉井區玉田里中山路91號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市玉井地政事務所1F服務處",
     "lat": 23.123721,
     "lng": 120.466944,
-    "address": "714臺南市玉井區民族路146號"
+    "address": "714臺南市玉井區民族路146號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司玉井營運所",
     "lat": 23.123859,
     "lng": 120.465988,
-    "address": "714臺南市玉井區民族路249號"
+    "address": "714臺南市玉井區民族路249號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市玉井區中正里辦公處",
     "lat": 23.1307,
     "lng": 120.4692,
-    "address": "714臺南市玉井區中正里健康街10號"
+    "address": "714臺南市玉井區中正里健康街10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市玉井區竹圍里辦公處",
     "lat": 23.134,
     "lng": 120.479,
-    "address": "714臺南市玉井區竹圍里武成街155巷7號"
+    "address": "714臺南市玉井區竹圍里武成街155巷7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

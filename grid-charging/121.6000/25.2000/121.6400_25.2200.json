@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市金山戶政事務所-1",
     "lat": 25.220278,
     "lng": 121.640416,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "金山遊客中心",
     "lat": 25.224396,
     "lng": 121.644007,

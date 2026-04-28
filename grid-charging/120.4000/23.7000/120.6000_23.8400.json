@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "田中內灣郵局",
     "lat": 23.852969,
     "lng": 120.605471,

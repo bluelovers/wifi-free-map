@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "仁德車路墘郵局",
     "lat": 22.919071,
     "lng": 120.227474,

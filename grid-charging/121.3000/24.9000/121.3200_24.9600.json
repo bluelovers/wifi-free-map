@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鶯歌鳳鳴郵局",
     "lat": 24.972035,
     "lng": 121.325882,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園桃鶯郵局",
     "lat": 24.977927,
     "lng": 121.322157,

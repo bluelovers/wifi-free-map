@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台東縣鹿野鄉山嶺榴部落",
     "lat": 22.93759,
     "lng": 121.14223,
-    "address": "955臺東縣鹿野鄉中華路三段5號"
+    "address": "955臺東縣鹿野鄉中華路三段5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

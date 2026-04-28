@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "崁頂郵局",
     "lat": 22.514782,
     "lng": 120.512937,

@@ -1,1210 +1,1663 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "松江市場B1F 66攤位",
     "lat": 25.060187,
     "lng": 121.531777,
-    "address": "104臺北市中山區錦州街222號1F"
+    "address": "104臺北市中山區錦州街222號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "中山松江區民活動中心2F教室中央",
     "lat": 25.060294,
     "lng": 121.531764,
-    "address": "104臺北市中山區錦州街222號2F"
+    "address": "104臺北市中山區錦州街222號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "松江市場1F 80攤位",
     "lat": 25.060325,
     "lng": 121.532075,
-    "address": "104臺北市中山區錦州街222號1F"
+    "address": "104臺北市中山區錦州街222號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "建國錦州街口-S-建國北路二段",
     "lat": 25.060788,
     "lng": 121.536722,
-    "address": "104臺北市中山區建國北路二段216號旁候車亭"
+    "address": "104臺北市中山區建國北路二段216號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行圓山分行",
     "lat": 25.060875,
     "lng": 121.522487,
-    "address": "104臺北市中山區中山北路二段112號"
+    "address": "104臺北市中山區中山北路二段112號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新興國中-S-新生北路二段",
     "lat": 25.061494,
     "lng": 121.527508,
-    "address": "104臺北市中山區新生北路二段139號斜對面候車亭"
+    "address": "104臺北市中山區新生北路二段139號斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山社會福利服務中心3F辦公室門口外",
     "lat": 25.061569,
     "lng": 121.539421,
-    "address": "104臺北市中山區合江街137號3F"
+    "address": "104臺北市中山區合江街137號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "中山松花區民活動中心4F門口",
     "lat": 25.061611,
     "lng": 121.539507,
-    "address": "104臺北市中山區合江街137號4F"
+    "address": "104臺北市中山區合江街137號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山社會福利服務中心3F辦公室走廊",
     "lat": 25.061618,
     "lng": 121.539508,
-    "address": "104臺北市中山區合江街137號3F"
+    "address": "104臺北市中山區合江街137號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀圓山分行",
     "lat": 25.061635,
     "lng": 121.523142,
-    "address": "104臺北市中山區中山北路二段133號"
+    "address": "104臺北市中山區中山北路二段133號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行松江分行2F",
     "lat": 25.061723,
     "lng": 121.533478,
-    "address": "104臺北市中山區松江路309號"
+    "address": "104臺北市中山區松江路309號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山區公民會館2F文史工作室",
     "lat": 25.061783,
     "lng": 121.52272,
-    "address": "104臺北市中山區中山北路二段128號2F"
+    "address": "104臺北市中山區中山北路二段128號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北松江路郵局",
     "lat": 25.062065,
     "lng": 121.532964,
-    "address": "104臺北市中山區松江路364號"
+    "address": "104臺北市中山區松江路364號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀營業部",
     "lat": 25.06249,
     "lng": 121.523089,
-    "address": "104臺北市中山區民權東路一段2號"
+    "address": "104臺北市中山區民權東路一段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀國際金融業務分行",
     "lat": 25.06249,
     "lng": 121.523089,
-    "address": "104臺北市中山區民權東路一段2號"
+    "address": "104臺北市中山區民權東路一段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "行天宮商場B1F地下道東5號攤位前",
     "lat": 25.062572,
     "lng": 121.533317,
-    "address": "104臺北市中山區民權東路二段109號B1F"
+    "address": "104臺北市中山區民權東路二段109號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行民權分行",
     "lat": 25.062574,
     "lng": 121.52162,
-    "address": "104臺北市中山區民權西路26號"
+    "address": "104臺北市中山區民權西路26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "行天宮商場B1F地下道西5號攤位前",
     "lat": 25.062619,
     "lng": 121.533137,
-    "address": "104臺北市中山區民權東路二段109號B1F"
+    "address": "104臺北市中山區民權東路二段109號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北民權郵局",
     "lat": 25.062642,
     "lng": 121.521807,
-    "address": "104臺北市中山區民權西路22號"
+    "address": "104臺北市中山區民權西路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "榮星花園公園-噴水池表演台",
     "lat": 25.062789,
     "lng": 121.539437,
-    "address": "104臺北市中山區民權東路三段1號(榮星花園公園-噴水池表演台)"
+    "address": "104臺北市中山區民權東路三段1號(榮星花園公園-噴水池表演台)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運中山國小站-W-民權東路一段",
     "lat": 25.062898,
     "lng": 121.524607,
-    "address": "104臺北市中山區民權東路一段45號前候車亭"
+    "address": "104臺北市中山區民權東路一段45號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "榮星花園公園AP2-第1 公廁左",
     "lat": 25.063057,
     "lng": 121.537556,
-    "address": "104臺北市中山區民權東路三段1號(榮星花園公園-第1公廁(AP2))"
+    "address": "104臺北市中山區民權東路三段1號(榮星花園公園-第1公廁(AP2))",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(圓山分行)",
     "lat": 25.063067,
     "lng": 121.520642,
-    "address": "104臺北市中山區民權西路53號"
+    "address": "104臺北市中山區民權西路53號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "榮星花園公園AP1-第1 公廁右",
     "lat": 25.063152,
     "lng": 121.537556,
-    "address": "104臺北市中山區民權東路三段1號(榮星花園公園-第1公廁(AP1))"
+    "address": "104臺北市中山區民權東路三段1號(榮星花園公園-第1公廁(AP1))",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山地政5F測量課中央",
     "lat": 25.06327,
     "lng": 121.534225,
-    "address": "104臺北市中山區松江路357巷1號5F"
+    "address": "104臺北市中山區松江路357巷1號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館恆安民眾閱覽室1F與服務臺中央",
     "lat": 25.063361,
     "lng": 121.527225,
-    "address": "104臺北市中山區民權東路一段71巷19號1F"
+    "address": "104臺北市中山區民權東路一段71巷19號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "行天宮-S-松江路",
     "lat": 25.063361,
     "lng": 121.533136,
-    "address": "104臺北市中山區松江路382號旁候車亭"
+    "address": "104臺北市中山區松江路382號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區8F資訊中心",
     "lat": 25.063362,
     "lng": 121.525979,
-    "address": "104臺北市中山區林森北路530號8F"
+    "address": "104臺北市中山區林森北路530號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館恆安民眾閱覽室5F自修室門口",
     "lat": 25.063377,
     "lng": 121.527253,
-    "address": "104臺北市中山區民權東路一段71巷19號5F"
+    "address": "104臺北市中山區民權東路一段71巷19號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區3F32診前",
     "lat": 25.063388,
     "lng": 121.525499,
-    "address": "104臺北市中山區林森北路530號3F"
+    "address": "104臺北市中山區林森北路530號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館恆安民眾閱覽室3F整理工作室門口",
     "lat": 25.063414,
     "lng": 121.527312,
-    "address": "104臺北市中山區民權東路一段71巷19號3F"
+    "address": "104臺北市中山區民權東路一段71巷19號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區6F南側走廊中央",
     "lat": 25.063422,
     "lng": 121.52552,
-    "address": "104臺北市中山區林森北路530號6F"
+    "address": "104臺北市中山區林森北路530號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區1F3號櫃臺前",
     "lat": 25.063424,
     "lng": 121.525496,
-    "address": "104臺北市中山區林森北路530號1F"
+    "address": "104臺北市中山區林森北路530號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山地政2F登記課中央",
     "lat": 25.063427,
     "lng": 121.53419,
-    "address": "104臺北市中山區松江路357巷1號2F"
+    "address": "104臺北市中山區松江路357巷1號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山地政4F走廊到主任室門口",
     "lat": 25.063427,
     "lng": 121.53419,
-    "address": "104臺北市中山區松江路357巷1號4F"
+    "address": "104臺北市中山區松江路357巷1號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中山國小-新生-S-新生北路三段",
     "lat": 25.063433,
     "lng": 121.527523,
-    "address": "104臺北市中山區新生北路三段12號旁候車亭"
+    "address": "104臺北市中山區新生北路三段12號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "榮星花園公園-管理室-前廣場",
     "lat": 25.063441,
     "lng": 121.539103,
-    "address": "104臺北市中山區民權東路三段1號(榮星花園公園-管理室-前廣場)"
+    "address": "104臺北市中山區民權東路三段1號(榮星花園公園-管理室-前廣場)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "榮星花園公園-管理室-後廣場",
     "lat": 25.063441,
     "lng": 121.539103,
-    "address": "104臺北市中山區民權東路三段1號(榮星花園公園-管理室-後廣場)"
+    "address": "104臺北市中山區民權東路三段1號(榮星花園公園-管理室-後廣場)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館恆安民眾閱覽室2F辦公室門口",
     "lat": 25.063448,
     "lng": 121.527256,
-    "address": "104臺北市中山區民權東路一段71巷19號2F"
+    "address": "104臺北市中山區民權東路一段71巷19號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "榮星花園-N-建國北路三段",
     "lat": 25.063479,
     "lng": 121.537324,
-    "address": "104臺北市中山區建國北路三段6號對面候車亭"
+    "address": "104臺北市中山區建國北路三段6號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區2F21診前",
     "lat": 25.063483,
     "lng": 121.525497,
-    "address": "104臺北市中山區林森北路530號2F"
+    "address": "104臺北市中山區林森北路530號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區5F護理站",
     "lat": 25.063498,
     "lng": 121.525437,
-    "address": "104臺北市中山區林森北路530號5F"
+    "address": "104臺北市中山區林森北路530號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區1F12診前",
     "lat": 25.063498,
     "lng": 121.525644,
-    "address": "104臺北市中山區林森北路530號1F"
+    "address": "104臺北市中山區林森北路530號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區2F南側走廊",
     "lat": 25.063498,
     "lng": 121.525644,
-    "address": "104臺北市中山區林森北路530號2F"
+    "address": "104臺北市中山區林森北路530號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區3F治療室",
     "lat": 25.063498,
     "lng": 121.525644,
-    "address": "104臺北市中山區林森北路530號3F"
+    "address": "104臺北市中山區林森北路530號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區7F行政中心影印機",
     "lat": 25.063498,
     "lng": 121.525644,
-    "address": "104臺北市中山區林森北路530號7F"
+    "address": "104臺北市中山區林森北路530號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山地政7F第一會議室",
     "lat": 25.063522,
     "lng": 121.534446,
-    "address": "104臺北市中山區松江路357巷1號7F"
+    "address": "104臺北市中山區松江路357巷1號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "中山地政1F綜合謄本櫃臺5號櫃臺前",
     "lat": 25.063567,
     "lng": 121.534017,
-    "address": "104臺北市中山區松江路357巷1號1F"
+    "address": "104臺北市中山區松江路357巷1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "中山地政1F網路申辦櫃臺15號櫃臺前",
     "lat": 25.063567,
     "lng": 121.534017,
-    "address": "104臺北市中山區松江路357巷1號1F"
+    "address": "104臺北市中山區松江路357巷1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山地政2F第二會議室",
     "lat": 25.063567,
     "lng": 121.534017,
-    "address": "104臺北市中山區松江路357巷1號2F"
+    "address": "104臺北市中山區松江路357巷1號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山地政3F電工室",
     "lat": 25.063567,
     "lng": 121.534017,
-    "address": "104臺北市中山區松江路357巷1號3F"
+    "address": "104臺北市中山區松江路357巷1號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山地政4F行政課中央",
     "lat": 25.063567,
     "lng": 121.534017,
-    "address": "104臺北市中山區松江路357巷1號4F"
+    "address": "104臺北市中山區松江路357巷1號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區5F505房門口",
     "lat": 25.063596,
     "lng": 121.525519,
-    "address": "104臺北市中山區林森北路530號5F"
+    "address": "104臺北市中山區林森北路530號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區4F41診前",
     "lat": 25.063641,
     "lng": 121.525469,
-    "address": "104臺北市中山區林森北路530號4F"
+    "address": "104臺北市中山區林森北路530號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區4F針灸科公佈欄",
     "lat": 25.063641,
     "lng": 121.525469,
-    "address": "104臺北市中山區林森北路530號4F"
+    "address": "104臺北市中山區林森北路530號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區6F605病房門口",
     "lat": 25.063641,
     "lng": 121.525469,
-    "address": "104臺北市中山區林森北路530號6F"
+    "address": "104臺北市中山區林森北路530號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫林森院區7F醫生研究室三門口",
     "lat": 25.063664,
     "lng": 121.525645,
-    "address": "104臺北市中山區林森北路530號7F"
+    "address": "104臺北市中山區林森北路530號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "行天宮-N-松江路",
     "lat": 25.06368,
     "lng": 121.53337,
-    "address": "104臺北市中山區松江路363號前候車亭"
+    "address": "104臺北市中山區松江路363號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山地政3F資訊課中央",
     "lat": 25.063746,
     "lng": 121.533967,
-    "address": "104臺北市中山區松江路357巷1號3F"
+    "address": "104臺北市中山區松江路357巷1號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中山國小-新生-N-新生北路三段",
     "lat": 25.063852,
     "lng": 121.527944,
-    "address": "104臺北市中山區新生南路三段19巷15號旁候車亭"
+    "address": "104臺北市中山區新生南路三段19巷15號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山區行政大樓6F中央走廊靠調解會",
     "lat": 25.06394,
     "lng": 121.533263,
-    "address": "104臺北市中山區松江路367號6F"
+    "address": "104臺北市中山區松江路367號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "榮星花園-建國北路三段",
     "lat": 25.064045,
     "lng": 121.536781,
-    "address": "104臺北市中山區建國北路三段28號前候車亭"
+    "address": "104臺北市中山區建國北路三段28號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "中山區行政大樓9F調解委員會專用會議室中央",
     "lat": 25.064115,
     "lng": 121.533275,
-    "address": "104臺北市中山區松江路367號9F"
+    "address": "104臺北市中山區松江路367號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "中山區行政大樓中山戶政2F綜合受理12號櫃臺前",
     "lat": 25.064277,
     "lng": 121.533578,
-    "address": "104臺北市中山區松江路367號2F"
+    "address": "104臺北市中山區松江路367號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "中山區行政大樓5F原住民櫃臺西側",
     "lat": 25.064277,
     "lng": 121.533578,
-    "address": "104臺北市中山區松江路367號5F"
+    "address": "104臺北市中山區松江路367號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山區行政大樓6F副區長室門口",
     "lat": 25.064285,
     "lng": 121.533313,
-    "address": "104臺北市中山區松江路367號6F"
+    "address": "104臺北市中山區松江路367號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山區行政大樓中山區健康服務中心7F收發文臺",
     "lat": 25.064285,
     "lng": 121.533313,
-    "address": "104臺北市中山區松江路367號7F"
+    "address": "104臺北市中山區松江路367號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山區行政大樓10F大禮堂控制室外",
     "lat": 25.064285,
     "lng": 121.533313,
-    "address": "104臺北市中山區松江路367號10F"
+    "address": "104臺北市中山區松江路367號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "中山區行政大樓中山區健康服務中心7F服務臺",
     "lat": 25.06432,
     "lng": 121.53349,
-    "address": "104臺北市中山區松江路367號7F"
+    "address": "104臺北市中山區松江路367號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "中山區行政大樓圖書館總館中山分館臺北市8F期刊區中央",
     "lat": 25.06432,
     "lng": 121.53349,
-    "address": "104臺北市中山區松江路367號8F"
+    "address": "104臺北市中山區松江路367號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山區行政大樓1F電梯間走廊",
     "lat": 25.064386,
     "lng": 121.533655,
-    "address": "104臺北市中山區松江路367號1F"
+    "address": "104臺北市中山區松江路367號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山區行政大樓中山戶政2F北側會議室門外",
     "lat": 25.064386,
     "lng": 121.533655,
-    "address": "104臺北市中山區松江路367號2F"
+    "address": "104臺北市中山區松江路367號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山區行政大樓稅捐處中山分處3F7號櫃台",
     "lat": 25.064386,
     "lng": 121.533655,
-    "address": "104臺北市中山區松江路367號3F"
+    "address": "104臺北市中山區松江路367號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "中山區行政大樓稅捐處中山分處3F書寫桌",
     "lat": 25.064431,
     "lng": 121.533601,
-    "address": "104臺北市中山區松江路367號3F"
+    "address": "104臺北市中山區松江路367號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人天主教中華道明會",
     "lat": 25.064485,
     "lng": 121.53022,
-    "address": "104臺北市中山區新福里吉林路378號"
+    "address": "104臺北市中山區新福里吉林路378號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "中山區行政大樓5F諮詢櫃臺西側",
     "lat": 25.064535,
     "lng": 121.533335,
-    "address": "104臺北市中山區松江路367號5F"
+    "address": "104臺北市中山區松江路367號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新福里-N-吉林路",
     "lat": 25.064577,
     "lng": 121.530441,
-    "address": "104臺北市中山區吉林路351號旁候車亭"
+    "address": "104臺北市中山區吉林路351號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "稻江護校-S-新生北路三段",
     "lat": 25.065033,
     "lng": 121.527582,
-    "address": "104臺北市中山區新生北路三段52號對面候車亭"
+    "address": "104臺北市中山區新生北路三段52號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "中山區行政大樓圖書館總館中山分館臺北市8F電梯間走廊",
     "lat": 25.065232,
     "lng": 121.533543,
-    "address": "104臺北市中山區松江路367號8F"
+    "address": "104臺北市中山區松江路367號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北圓山郵局",
     "lat": 25.065255,
     "lng": 121.525768,
-    "address": "104臺北市中山區林森北路573號"
+    "address": "104臺北市中山區林森北路573號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行圓山分行",
     "lat": 25.065681,
     "lng": 121.525862,
-    "address": "104臺北市中山區林森北路577號"
+    "address": "104臺北市中山區林森北路577號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "第二果菜市場-S-建國北路三段",
     "lat": 25.06578,
     "lng": 121.53574,
-    "address": "104臺北市中山區建國北路三段78號旁候車亭"
+    "address": "104臺北市中山區建國北路三段78號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "內政部資訊中心1樓會議室",
     "lat": 25.066132,
     "lng": 121.534158,
-    "address": "104臺北市中山區松江路469巷4號"
+    "address": "104臺北市中山區松江路469巷4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "民族魚市場B1F電梯口右側",
     "lat": 25.06642,
     "lng": 121.536824,
-    "address": "104臺北市中山區民族東路410巷2弄20號B1F"
+    "address": "104臺北市中山區民族東路410巷2弄20號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "民族魚市場B2F電梯口右側",
     "lat": 25.066423,
     "lng": 121.536855,
-    "address": "104臺北市中山區民族東路410巷2弄20號B2F"
+    "address": "104臺北市中山區民族東路410巷2弄20號B2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "民族魚市場1F辦公室外",
     "lat": 25.066511,
     "lng": 121.536641,
-    "address": "104臺北市中山區民族東路410巷2弄20號1F"
+    "address": "104臺北市中山區民族東路410巷2弄20號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新喜里-S-松江路",
     "lat": 25.066848,
     "lng": 121.533182,
-    "address": "104臺北市中山區松江路528號前候車亭"
+    "address": "104臺北市中山區松江路528號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人新北市基督教新希望教會(新喜)",
     "lat": 25.067034,
     "lng": 121.531285,
-    "address": "104臺北市中山區新喜里吉林路433巷17號"
+    "address": "104臺北市中山區新喜里吉林路433巷17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F北農嚴選櫃檯前",
     "lat": 25.067118,
     "lng": 121.537017,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 18-17攤位前",
     "lat": 25.067206,
     "lng": 121.537707,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 4-13攤位前",
     "lat": 25.067308,
     "lng": 121.536835,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 25-07攤位前",
     "lat": 25.06732,
     "lng": 121.53745,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 6-13攤位前",
     "lat": 25.06734,
     "lng": 121.536918,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 19-12攤位前",
     "lat": 25.067348,
     "lng": 121.537777,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 22-12攤位前",
     "lat": 25.067376,
     "lng": 121.537889,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "民族東路口-S-新生北路三段",
     "lat": 25.067385,
     "lng": 121.527623,
-    "address": "104臺北市中山區新生北路三段82之6號附近候車亭"
+    "address": "104臺北市中山區新生北路三段82之6號附近候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人佳音文教基金會",
     "lat": 25.067417,
     "lng": 121.524907,
-    "address": "104臺北市中山區圓山里雙城街43巷2號一樓"
+    "address": "104臺北市中山區圓山里雙城街43巷2號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 23-08攤位前",
     "lat": 25.067485,
     "lng": 121.537409,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 6-09攤位前",
     "lat": 25.067506,
     "lng": 121.536982,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 17-08攤位前",
     "lat": 25.067516,
     "lng": 121.537434,
-    "address": "104臺北市中山區民族東路336號"
+    "address": "104臺北市中山區民族東路336號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 1-09攤位前",
     "lat": 25.06752,
     "lng": 121.536632,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 17-11攤位前",
     "lat": 25.067571,
     "lng": 121.537686,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 21-07攤位前",
     "lat": 25.067577,
     "lng": 121.53784,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 22-03攤位前",
     "lat": 25.067598,
     "lng": 121.538032,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 3-07攤位前",
     "lat": 25.067604,
     "lng": 121.536798,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 1-02攤位前",
     "lat": 25.06776,
     "lng": 121.536707,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 6-01攤位前",
     "lat": 25.067794,
     "lng": 121.536992,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 14-02攤位前",
     "lat": 25.067802,
     "lng": 121.53745,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 18-02攤位前",
     "lat": 25.067803,
     "lng": 121.537742,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "第二果菜批發市場1F 9-02攤位前",
     "lat": 25.067811,
     "lng": 121.537199,
-    "address": "104臺北市中山區民族東路336號1F"
+    "address": "104臺北市中山區民族東路336號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "中山行孝區民活動中心4F右側",
     "lat": 25.067968,
     "lng": 121.535727,
-    "address": "104臺北市中山區民族東路282號4F"
+    "address": "104臺北市中山區民族東路282號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市中山區行孝里辦公處",
     "lat": 25.068019,
     "lng": 121.535956,
-    "address": "104臺北市中山區行孝里民族東路282號四樓"
+    "address": "104臺北市中山區行孝里民族東路282號四樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺北漁市-E-民族東路",
     "lat": 25.068044,
     "lng": 121.537162,
-    "address": "104臺北市中山區民族東路336號旁候車亭"
+    "address": "104臺北市中山區民族東路336號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "花博公園-E-民族西路",
     "lat": 25.068374,
     "lng": 121.521996,
-    "address": "104臺北市中山區民族西路2之3號旁候車亭"
+    "address": "104臺北市中山區民族西路2之3號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新生公園-W2-民族東路",
     "lat": 25.068418,
     "lng": 121.531289,
-    "address": "104臺北市中山區民族東路210號對面候車停"
+    "address": "104臺北市中山區民族東路210號對面候車停",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新生公園-W1-民族東路",
     "lat": 25.06842,
     "lng": 121.529072,
-    "address": "104臺北市中山區民族東路146號對面候車停"
+    "address": "104臺北市中山區民族東路146號對面候車停",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大同大學(美術公園)-W-民族東路",
     "lat": 25.068519,
     "lng": 121.523697,
-    "address": "104臺北市中山區民族東路6號對面候車亭"
+    "address": "104臺北市中山區民族東路6號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "花博公園-W-民族西路",
     "lat": 25.068586,
     "lng": 121.52079,
-    "address": "104臺北市中山區玉門街1號旁候車亭(民族西路本線花博公園側)"
+    "address": "104臺北市中山區玉門街1號旁候車亭(民族西路本線花博公園側)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "花博公園爭豔館1F館內右門A7區出口",
     "lat": 25.068757,
     "lng": 121.522301,
-    "address": "104臺北市中山區玉門街1號1F"
+    "address": "104臺北市中山區玉門街1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運圓山站-民族西路",
     "lat": 25.069133,
     "lng": 121.520019,
-    "address": "103臺北市大同區民族西路31巷18號前方候車亭"
+    "address": "103臺北市大同區民族西路31巷18號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處圓山所2F園藝股辦公室機房門口上方",
     "lat": 25.070135,
     "lng": 121.528769,
-    "address": "104臺北市中山區新生北路三段105號2F"
+    "address": "104臺北市中山區新生北路三段105號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館新生公園閱覽室1F中央",
     "lat": 25.070161,
     "lng": 121.528868,
-    "address": "104臺北市中山區新生北路三段105號1F"
+    "address": "104臺北市中山區新生北路三段105號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處圓山所2F副主任室",
     "lat": 25.070182,
     "lng": 121.528953,
-    "address": "104臺北市中山區新生北路三段105號2F"
+    "address": "104臺北市中山區新生北路三段105號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處圓山所2F辦公室牆上",
     "lat": 25.070186,
     "lng": 121.5288,
-    "address": "104臺北市中山區新生北路三段105號2F"
+    "address": "104臺北市中山區新生北路三段105號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處圓山所1F老人活動據點",
     "lat": 25.070188,
     "lng": 121.528893,
-    "address": "104臺北市中山區新生北路三段105號1F"
+    "address": "104臺北市中山區新生北路三段105號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處圓山所2F主任室",
     "lat": 25.070188,
     "lng": 121.528915,
-    "address": "104臺北市中山區新生北路三段105號2F"
+    "address": "104臺北市中山區新生北路三段105號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處圓山所1F綠化教室",
     "lat": 25.070235,
     "lng": 121.528779,
-    "address": "104臺北市中山區新生北路三段105號1F"
+    "address": "104臺北市中山區新生北路三段105號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺北市立美術館-S-中山北路三段酒泉街",
     "lat": 25.07028,
     "lng": 121.523176,
-    "address": "104臺北市中山區中山北路三段（與酒泉街南側80M）"
+    "address": "104臺北市中山區中山北路三段（與酒泉街南側80M）",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "花博公園爭豔館1F館內左門A3區出口",
     "lat": 25.070682,
     "lng": 121.522506,
-    "address": "104臺北市中山區玉門街1號1F"
+    "address": "104臺北市中山區玉門街1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "花博公園夢想館1F販賣機後方",
     "lat": 25.070938,
     "lng": 121.531143,
-    "address": "104臺北市中山區濱江街6號1F"
+    "address": "104臺北市中山區濱江街6號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "水利處抽水站總管理中心大樓1F走廊",
     "lat": 25.071576,
     "lng": 121.529379,
-    "address": "104臺北市中山區濱江街3號總管理中心大樓1F走廊"
+    "address": "104臺北市中山區濱江街3號總管理中心大樓1F走廊",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "新生公園(林安泰)-S-濱江街",
     "lat": 25.071776,
     "lng": 121.532038,
-    "address": "104臺北市中山區濱江街16號植物園旁候車亭"
+    "address": "104臺北市中山區濱江街16號植物園旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺北市立美術館-N-中山北路三段",
     "lat": 25.072151,
     "lng": 121.523965,
-    "address": "104臺北市中山區中山北路三段181號旁（美術館左側）"
+    "address": "104臺北市中山區中山北路三段181號旁（美術館左側）",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "觀光名勝",
     "name": "林安泰古厝-雨前樓-二樓屋簷下",
     "lat": 25.07226,
     "lng": 121.530917,
-    "address": "104臺北市中山區濱江街5號-雨前樓2F屋簷下"
+    "address": "104臺北市中山區濱江街5號-雨前樓2F屋簷下",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "臺北市立美術館B1F第一會議室投影機旁",
     "lat": 25.072276,
     "lng": 121.525154,
-    "address": "104臺北市中山區中山北路三段181號B1F"
+    "address": "104臺北市中山區中山北路三段181號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大佳國小-E-濱江街",
     "lat": 25.072433,
     "lng": 121.536477,
-    "address": "104臺北市中山區濱江街142號左側候車亭"
+    "address": "104臺北市中山區濱江街142號左側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "河濱公園大佳段-W-濱江街",
     "lat": 25.072652,
     "lng": 121.539276,
-    "address": "104臺北市中山區濱江街183號旁候車亭"
+    "address": "104臺北市中山區濱江街183號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大佳國小-W-濱江街",
     "lat": 25.072678,
     "lng": 121.537051,
-    "address": "104臺北市中山區濱江街152之7號對面候車亭"
+    "address": "104臺北市中山區濱江街152之7號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "臺北市立美術館1F售票處旁",
     "lat": 25.072837,
     "lng": 121.524558,
-    "address": "104臺北市中山區中山北路三段181號1F"
+    "address": "104臺北市中山區中山北路三段181號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "明倫社會住宅A棟2F創造力學園大會議室中央",
     "lat": 25.073138,
     "lng": 121.520056,
-    "address": "103臺北市大同區承德路三段285號2F"
+    "address": "103臺北市大同區承德路三段285號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "明倫社會住宅B棟1F住戶大廳櫃台",
     "lat": 25.073215,
     "lng": 121.520095,
-    "address": "103臺北市大同區承德路三段285號1F"
+    "address": "103臺北市大同區承德路三段285號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "明倫社會住宅A棟2F創造力學園舞蹈教室門口外",
     "lat": 25.073215,
     "lng": 121.520095,
-    "address": "103臺北市大同區承德路三段285號2F"
+    "address": "103臺北市大同區承德路三段285號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "明倫社會住宅A棟1F住戶大廳櫃台",
     "lat": 25.073419,
     "lng": 121.5201,
-    "address": "103臺北市大同區承德路三段285號1F"
+    "address": "103臺北市大同區承德路三段285號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "圓山大飯店-E1-北安路",
     "lat": 25.077306,
     "lng": 121.528307,
-    "address": "104臺北市中山區北安路47號斜對面候車亭"
+    "address": "104臺北市中山區北安路47號斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "圓山大飯店-W1-北安路",
     "lat": 25.07736,
     "lng": 121.52796,
-    "address": "104臺北市中山區北安路47號旁候車亭"
+    "address": "104臺北市中山區北安路47號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "七海文化園區-E-北安路",
     "lat": 25.077835,
     "lng": 121.535353,
-    "address": "104臺北市中山區北安路305號對面候車亭"
+    "address": "104臺北市中山區北安路305號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中央電台-E-北安路",
     "lat": 25.07786,
     "lng": 121.53,
-    "address": "104臺北市中山區北安路87巷斜對面候車亭"
+    "address": "104臺北市中山區北安路87巷斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "忠烈祠-E-北安路",
     "lat": 25.077975,
     "lng": 121.531974,
-    "address": "104臺北市中山區北安路139號對面候車亭"
+    "address": "104臺北市中山區北安路139號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "忠烈祠-W-北安路",
     "lat": 25.078015,
     "lng": 121.535514,
-    "address": "104臺北市中山區北安路305號旁候車亭"
+    "address": "104臺北市中山區北安路305號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中央電台-W1-北安路",
     "lat": 25.078075,
     "lng": 121.530033,
-    "address": "104臺北市中山區北安路與北安路87巷口西北側候車亭"
+    "address": "104臺北市中山區北安路與北安路87巷口西北側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林承德區民活動中心1F中央",
     "lat": 25.079179,
     "lng": 121.52182,
-    "address": "111臺北市士林區承德路四段5之1號1F"
+    "address": "111臺北市士林區承德路四段5之1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

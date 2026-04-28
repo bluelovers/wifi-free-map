@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司羅東服務所大廳",
     "lat": 24.682215,
     "lng": 121.771173,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "羅東竹林郵局",
     "lat": 24.689388,
     "lng": 121.764995,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局臺北區監理所宜蘭監理站",
     "lat": 24.693988,
     "lng": 121.769135,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司宜蘭縣五結鄉羅東站",
     "lat": 24.697559,
     "lng": 121.769264,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司宜蘭直銷中心",
     "lat": 24.697997,
     "lng": 121.769194,

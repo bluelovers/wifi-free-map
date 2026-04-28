@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人雲林縣北港身心障礙者福利協會",
     "lat": 23.583617,
     "lng": 120.30534,
-    "address": "651雲林縣北港鎮新街里太平路255號"
+    "address": "651雲林縣北港鎮新街里太平路255號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

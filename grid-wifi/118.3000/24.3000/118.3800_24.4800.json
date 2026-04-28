@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "金門浦山里民活動中心",
     "lat": 24.480068,
     "lng": 118.390816,
-    "address": "890金門縣金沙鎮浦邊4-3號"
+    "address": "890金門縣金沙鎮浦邊4-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

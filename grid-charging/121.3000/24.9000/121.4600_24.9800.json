@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "土城平和郵局",
     "lat": 24.988997,
     "lng": 121.46965,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋國慶郵局",
     "lat": 24.995872,
     "lng": 121.460986,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高鐵局檔案閱覽室",
     "lat": 24.999832,
     "lng": 121.477592,

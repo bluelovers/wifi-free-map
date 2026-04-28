@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "陽明山國家公園管理處",
     "lat": 25.161678,
     "lng": 121.547756,
-    "address": "112臺北市北投區陽明山竹子湖路1-20號"
+    "address": "112臺北市北投區陽明山竹子湖路1-20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "水雲澗站-S-竹子湖路",
     "lat": 25.164623,
     "lng": 121.543807,
-    "address": "112臺北市北投區竹子湖路4號斜對面西北側約100m候車亭"
+    "address": "112臺北市北投區竹子湖路4號斜對面西北側約100m候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "小油坑遊客服務站",
     "lat": 25.176429,
     "lng": 121.546842,
-    "address": "112臺北市北投區竹子湖路69號"
+    "address": "112臺北市北投區竹子湖路69號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

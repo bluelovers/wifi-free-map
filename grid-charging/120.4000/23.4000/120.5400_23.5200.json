@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司竹崎營運所",
     "lat": 23.520962,
     "lng": 120.558111,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹崎郵局",
     "lat": 23.523056,
     "lng": 120.550797,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義縣警察局竹崎分局",
     "lat": 23.523109,
     "lng": 120.550876,

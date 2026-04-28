@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司樹林服務所",
     "lat": 25.001724,
     "lng": 121.418107,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "樹林工業區服務中心",
     "lat": 25.001724,
     "lng": 121.418107,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "樹林中正路郵局",
     "lat": 25.007685,
     "lng": 121.41819,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局臺北區監理所",
     "lat": 25.008948,
     "lng": 121.418212,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "行政院交通部公路總局臺北區監理所行政大樓4樓",
     "lat": 25.009308,
     "lng": 121.418731,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "樹林三多郵局",
     "lat": 25.016323,
     "lng": 121.404752,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龜山迴龍郵局",
     "lat": 25.01679,
     "lng": 121.400589,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "樹林迴龍郵局",
     "lat": 25.017946,
     "lng": 121.409136,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水湳洞派出所",
     "lat": 25.1215,
     "lng": 121.862,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市中壢區過嶺社區發展協會",
     "lat": 24.978459,
     "lng": 121.170336,
-    "address": "320桃園市中壢區過嶺里福達路二段1巷110號"
+    "address": "320桃園市中壢區過嶺里福達路二段1巷110號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

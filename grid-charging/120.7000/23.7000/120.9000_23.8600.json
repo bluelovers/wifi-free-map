@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "日月潭郵局",
     "lat": 23.864653,
     "lng": 120.910999,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "日月潭國家風景區管理處水社遊客中心",
     "lat": 23.866462,
     "lng": 120.911139,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司魚池服務所大廳",
     "lat": 23.866726,
     "lng": 120.904799,

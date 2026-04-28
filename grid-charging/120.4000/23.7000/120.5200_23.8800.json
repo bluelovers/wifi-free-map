@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "田尾郵局",
     "lat": 23.892385,
     "lng": 120.528797,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣田尾鄉戶政事務所",
     "lat": 23.892555,
     "lng": 120.526033,

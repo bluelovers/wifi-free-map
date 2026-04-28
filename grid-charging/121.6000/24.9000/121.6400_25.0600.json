@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "汐止龍安郵局",
     "lat": 25.063807,
     "lng": 121.65434,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "汐止厚德郵局",
     "lat": 25.066453,
     "lng": 121.642391,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "汐止郵局",
     "lat": 25.067396,
     "lng": 121.657866,

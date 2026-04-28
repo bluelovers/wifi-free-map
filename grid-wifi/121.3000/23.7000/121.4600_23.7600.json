@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣鄉村社區大學發展協會-北林三村",
     "lat": 23.767185,
     "lng": 121.470991,
-    "address": "975花蓮縣鳳林鎮北林里民和路1號"
+    "address": "975花蓮縣鳳林鎮北林里民和路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣鳳林鎮北林里辦公處",
     "lat": 23.770429,
     "lng": 121.470408,
-    "address": "975花蓮縣鳳林鎮民和路1號"
+    "address": "975花蓮縣鳳林鎮民和路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣牛根草社區發展促進會-北林",
     "lat": 23.77153,
     "lng": 121.467819,
-    "address": "975花蓮縣鳳林鎮北林里平園路8號"
+    "address": "975花蓮縣鳳林鎮北林里平園路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣鳳林鎮北林國民小學",
     "lat": 23.771629,
     "lng": 121.468186,
-    "address": "975花蓮縣鳳林鎮北林里平園路32號"
+    "address": "975花蓮縣鳳林鎮北林里平園路32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

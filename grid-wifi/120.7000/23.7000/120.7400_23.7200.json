@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人南投縣鹿谷鄉竹林社區發展協會",
     "lat": 23.727001,
     "lng": 120.755472,
-    "address": "558南投縣鹿谷鄉竹林村光復路106之2號"
+    "address": "558南投縣鹿谷鄉竹林村光復路106之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣鹿谷鄉竹豐社區發展協會",
     "lat": 23.731362,
     "lng": 120.749959,
-    "address": "558南投縣鹿谷鄉竹豐村光復路92之12號"
+    "address": "558南投縣鹿谷鄉竹豐村光復路92之12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

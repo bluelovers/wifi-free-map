@@ -1,530 +1,728 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市士林海光社區發展協會",
     "lat": 25.081224,
     "lng": 121.510414,
-    "address": "111臺北市士林區富光里延平北路五段99號"
+    "address": "111臺北市士林區富光里延平北路五段99號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "士林簡易庭-N-重慶北路四段",
     "lat": 25.081549,
     "lng": 121.513125,
-    "address": "111臺北市士林區重慶北路四段58號前方候車亭"
+    "address": "111臺北市士林區重慶北路四段58號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "海光公園",
     "lat": 25.081818,
     "lng": 121.507922,
-    "address": "111臺北市士林區葫蘆街102號海光公園溜滑梯旁燈桿"
+    "address": "111臺北市士林區葫蘆街102號海光公園溜滑梯旁燈桿",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館葫蘆堵分館4F門口",
     "lat": 25.082207,
     "lng": 121.510871,
-    "address": "111臺北市士林區延平北路五段136巷1號4F"
+    "address": "111臺北市士林區延平北路五段136巷1號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館葫蘆堵分館4F筆記型電腦中央",
     "lat": 25.082278,
     "lng": 121.510642,
-    "address": "111臺北市士林區延平北路五段136巷1號4F"
+    "address": "111臺北市士林區延平北路五段136巷1號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館葫蘆堵分館6F自修區中央",
     "lat": 25.082305,
     "lng": 121.510782,
-    "address": "111臺北市士林區延平北路五段136巷1號6F"
+    "address": "111臺北市士林區延平北路五段136巷1號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館葫蘆堵分館3F藏書閣中央",
     "lat": 25.082306,
     "lng": 121.510658,
-    "address": "111臺北市士林區延平北路五段136巷1號3F"
+    "address": "111臺北市士林區延平北路五段136巷1號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館葫蘆堵分館5F服務臺",
     "lat": 25.082337,
     "lng": 121.510568,
-    "address": "111臺北市士林區延平北路五段136巷1號5F"
+    "address": "111臺北市士林區延平北路五段136巷1號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館葫蘆堵分館6F報紙閱覽區",
     "lat": 25.082362,
     "lng": 121.510816,
-    "address": "111臺北市士林區延平北路五段136巷1號6F"
+    "address": "111臺北市士林區延平北路五段136巷1號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館葫蘆堵分館8F書庫區",
     "lat": 25.082387,
     "lng": 121.510829,
-    "address": "111臺北市士林區延平北路五段136巷1號8F"
+    "address": "111臺北市士林區延平北路五段136巷1號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館葫蘆堵分館9F視聽室",
     "lat": 25.082393,
     "lng": 121.510795,
-    "address": "111臺北市士林區延平北路五段136巷1號9F"
+    "address": "111臺北市士林區延平北路五段136巷1號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館葫蘆堵分館7F館藏特色區",
     "lat": 25.0824,
     "lng": 121.51083,
-    "address": "111臺北市士林區延平北路五段136巷1號7F"
+    "address": "111臺北市士林區延平北路五段136巷1號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林葫蘆堵區民活動中心10F",
     "lat": 25.082478,
     "lng": 121.510769,
-    "address": "111臺北市士林區延平北路五段136巷1號10F"
+    "address": "111臺北市士林區延平北路五段136巷1號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "士林社子郵局",
     "lat": 25.0825,
     "lng": 121.510448,
-    "address": "111臺北市士林區延平北路五段150號"
+    "address": "111臺北市士林區延平北路五段150號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(士林地方法院-士林簡易庭)",
     "lat": 25.083441,
     "lng": 121.51451,
-    "address": "111臺北市士林區重慶北路四段2號(士簡院區)"
+    "address": "111臺北市士林區重慶北路四段2號(士簡院區)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "百齡里-S-華齡街",
     "lat": 25.085378,
     "lng": 121.519344,
-    "address": "111臺北市士林區福港街205號旁候車亭(華齡街本線上近前港街交叉口)"
+    "address": "111臺北市士林區福港街205號旁候車亭(華齡街本線上近前港街交叉口)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館百齡智慧圖書館1F門口",
     "lat": 25.086091,
     "lng": 121.518064,
-    "address": "111臺北市士林區福港街205號1F"
+    "address": "111臺北市士林區福港街205號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "重陽橋-中正路",
     "lat": 25.086236,
     "lng": 121.508514,
-    "address": "111臺北市士林區中正路629號前方候車亭"
+    "address": "111臺北市士林區中正路629號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "前港公園-N-華齡街",
     "lat": 25.08659,
     "lng": 121.519445,
-    "address": "111臺北市士林區華齡街與後港街134巷口西南側候車亭"
+    "address": "111臺北市士林區華齡街與後港街134巷口西南側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "前港公園-S-華齡街",
     "lat": 25.08663,
     "lng": 121.51955,
-    "address": "111臺北市士林區華齡街166號候車亭"
+    "address": "111臺北市士林區華齡街166號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市士林區葫東里辦公處",
     "lat": 25.08665,
     "lng": 121.510724,
-    "address": "111臺北市士林區葫東里中正路589號一樓"
+    "address": "111臺北市士林區葫東里中正路589號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林葫東區民活動中心1F門口",
     "lat": 25.086723,
     "lng": 121.510713,
-    "address": "111臺北市士林區中正路589號1F"
+    "address": "111臺北市士林區中正路589號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫松德院區福中職能工作坊5F 522花坊外走道",
     "lat": 25.08715,
     "lng": 121.51827,
-    "address": "111臺北市士林區福港路151號5F"
+    "address": "111臺北市士林區福港路151號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林福中區民活動中心10F中央",
     "lat": 25.08718,
     "lng": 121.517731,
-    "address": "111臺北市士林區福港街151號10F"
+    "address": "111臺北市士林區福港街151號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫松德院區福中職能工作坊5F 509職能工作室外走道",
     "lat": 25.087331,
     "lng": 121.51804,
-    "address": "111臺北市士林區福港路151號5F"
+    "address": "111臺北市士林區福港路151號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "士林後港郵局",
     "lat": 25.087459,
     "lng": 121.518172,
-    "address": "111臺北市士林區福港街149巷2號"
+    "address": "111臺北市士林區福港街149巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "士林社新里郵局",
     "lat": 25.089378,
     "lng": 121.505847,
-    "address": "111臺北市士林區延平北路六段197號"
+    "address": "111臺北市士林區延平北路六段197號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "社子國小-N-延平北路六段",
     "lat": 25.089816,
     "lng": 121.502657,
-    "address": "111臺北市士林區延平北路六段308號旁候車亭"
+    "address": "111臺北市士林區延平北路六段308號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "士商路-S-士商路",
     "lat": 25.09099,
     "lng": 121.519981,
-    "address": "111臺北市士林區士商路55號候車亭"
+    "address": "111臺北市士林區士商路55號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "陽明高中-E1-中正路",
     "lat": 25.091183,
     "lng": 121.516998,
-    "address": "111臺北市士林區中正路519號附近候車亭"
+    "address": "111臺北市士林區中正路519號附近候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "永倫里(社中)-E-社中街",
     "lat": 25.091564,
     "lng": 121.502365,
-    "address": "111臺北市士林區社中街436號對面候車亭"
+    "address": "111臺北市士林區社中街436號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市三樂樂齡關懷協會",
     "lat": 25.091567,
     "lng": 121.507602,
-    "address": "111臺北市士林區社園里社中街226號一樓"
+    "address": "111臺北市士林區社園里社中街226號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "陽明高中-W2-中正路",
     "lat": 25.09226,
     "lng": 121.518007,
-    "address": "111臺北市士林區中正路497號對面候車亭"
+    "address": "111臺北市士林區中正路497號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "士林區行政大樓-動質處士林分處1F動質處門口西北方",
     "lat": 25.09271,
     "lng": 121.519679,
-    "address": "111臺北市士林區中正路439號1F"
+    "address": "111臺北市士林區中正路439號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "士林區行政大樓-健康服務中心2F個案管理組",
     "lat": 25.09271,
     "lng": 121.519679,
-    "address": "111臺北市士林區中正路439號2F"
+    "address": "111臺北市士林區中正路439號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "士林區行政大樓士林戶政4F出納室外側走廊",
     "lat": 25.09271,
     "lng": 121.519679,
-    "address": "111臺北市士林區中正路439號4F"
+    "address": "111臺北市士林區中正路439號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行士林分行",
     "lat": 25.092793,
     "lng": 121.518581,
-    "address": "111臺北市士林區中正路458號"
+    "address": "111臺北市士林區中正路458號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "士林區行政大樓10F大禮堂東北方",
     "lat": 25.092793,
     "lng": 121.519412,
-    "address": "111臺北市士林區中正路439號10F"
+    "address": "111臺北市士林區中正路439號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "士林區行政大樓-健康服務中心1F高齡友善體驗館門口",
     "lat": 25.092864,
     "lng": 121.519747,
-    "address": "111臺北市士林區中正路439號1F"
+    "address": "111臺北市士林區中正路439號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "士林區行政大樓-士林戶政3F辦公區22號櫃臺",
     "lat": 25.092864,
     "lng": 121.519747,
-    "address": "111臺北市士林區中正路439號3F"
+    "address": "111臺北市士林區中正路439號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "士林區行政大樓士林戶政3F機房門口",
     "lat": 25.092864,
     "lng": 121.519747,
-    "address": "111臺北市士林區中正路439號3F"
+    "address": "111臺北市士林區中正路439號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "士林區行政大樓士林地政5F登記課",
     "lat": 25.092864,
     "lng": 121.519747,
-    "address": "111臺北市士林區中正路439號5F"
+    "address": "111臺北市士林區中正路439號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "士林區行政大樓士林地政士5F地籍資料課9號櫃臺後上方",
     "lat": 25.092864,
     "lng": 121.519747,
-    "address": "111臺北市士林區中正路439號5F"
+    "address": "111臺北市士林區中正路439號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "士林區行政中心-E1-中正路",
     "lat": 25.092868,
     "lng": 121.519553,
-    "address": "111臺北市士林區中正路439號前方候車亭"
+    "address": "111臺北市士林區中正路439號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "士林區行政大樓警察局少年隊7F少年輔導組門口",
     "lat": 25.092966,
     "lng": 121.519297,
-    "address": "111臺北市士林區中正路439號7F"
+    "address": "111臺北市士林區中正路439號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "士林區行政大樓士林地政7F行政課門口",
     "lat": 25.093002,
     "lng": 121.519587,
-    "address": "111臺北市士林區中正路439號7F"
+    "address": "111臺北市士林區中正路439號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "士林區行政大樓10F大禮堂西北方",
     "lat": 25.093034,
     "lng": 121.519806,
-    "address": "111臺北市士林區中正路439號10F"
+    "address": "111臺北市士林區中正路439號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "士林區行政大樓9F經建課櫃臺前",
     "lat": 25.093038,
     "lng": 121.519814,
-    "address": "111臺北市士林區中正路439號9F"
+    "address": "111臺北市士林區中正路439號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "士林區行政大樓8F秘書室門口西北方",
     "lat": 25.093043,
     "lng": 121.519769,
-    "address": "111臺北市士林區中正路439號8F"
+    "address": "111臺北市士林區中正路439號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "士林區行政大樓9F兵役課業務櫃臺前",
     "lat": 25.093105,
     "lng": 121.519909,
-    "address": "111臺北市士林區中正路439號9F"
+    "address": "111臺北市士林區中正路439號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "士林中正路郵局",
     "lat": 25.093505,
     "lng": 121.519594,
-    "address": "111臺北市士林區中正路420號"
+    "address": "111臺北市士林區中正路420號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "標準檢驗局計量業務民眾洽公區",
     "lat": 25.09384,
     "lng": 121.514468,
-    "address": "111臺北市士林區承德路五段78號"
+    "address": "111臺北市士林區承德路五段78號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "士林高商-S-士商路",
     "lat": 25.094154,
     "lng": 121.517105,
-    "address": "111臺北市士林區士商路153號對面附近候車亭"
+    "address": "111臺北市士林區士商路153號對面附近候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "士林監理站",
     "lat": 25.094623,
     "lng": 121.514292,
-    "address": "111臺北市士林區承德路五段80號3樓"
+    "address": "111臺北市士林區承德路五段80號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "士林監理站-N-承德路五段",
     "lat": 25.095229,
     "lng": 121.514605,
-    "address": "111臺北市士林區承德路五段80號對面候車亭"
+    "address": "111臺北市士林區承德路五段80號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "天文科學教育館1F服務臺右側",
     "lat": 25.095857,
     "lng": 121.518453,
-    "address": "111臺北市士林區基河路363號1F"
+    "address": "111臺北市士林區基河路363號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "天文科學教育館1F服務臺左側",
     "lat": 25.095857,
     "lng": 121.518453,
-    "address": "111臺北市士林區基河路363號1F"
+    "address": "111臺北市士林區基河路363號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "天文科學教育館3F公共展示區前方",
     "lat": 25.096003,
     "lng": 121.51848,
-    "address": "111臺北市士林區基河路363號3F"
+    "address": "111臺北市士林區基河路363號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "天文科學教育館B1F立體劇場前",
     "lat": 25.096003,
     "lng": 121.51848,
-    "address": "111臺北市士林區基河路363號B1F"
+    "address": "111臺北市士林區基河路363號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "天文科學教育館2F用餐區",
     "lat": 25.096176,
     "lng": 121.518633,
-    "address": "111臺北市士林區基河路363號2F"
+    "address": "111臺北市士林區基河路363號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立臺灣科學教育館1F大廳民眾休憩區",
     "lat": 25.096195,
     "lng": 121.516677,
-    "address": "111臺北市士林區士商路189號1樓"
+    "address": "111臺北市士林區士商路189號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立臺灣科學教育館2F大廳民眾用餐區",
     "lat": 25.096195,
     "lng": 121.516677,
-    "address": "111臺北市士林區士商路189號2樓"
+    "address": "111臺北市士林區士商路189號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "兒童新樂園-士商路",
     "lat": 25.09621,
     "lng": 121.515214,
-    "address": "111臺北市士林區士商路150號旁(兒童新樂園對面)候車亭"
+    "address": "111臺北市士林區士商路150號旁(兒童新樂園對面)候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "天文科學教育館2F資訊組",
     "lat": 25.096624,
     "lng": 121.519069,
-    "address": "111臺北市士林區基河路363號2F"
+    "address": "111臺北市士林區基河路363號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林福佳區民活動中心1F左側",
     "lat": 25.09716,
     "lng": 121.517523,
-    "address": "111臺北市士林區美崙街190號1F"
+    "address": "111臺北市士林區美崙街190號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市士林區福佳社區發展協會",
     "lat": 25.097175,
     "lng": 121.517493,
-    "address": "111臺北市士林區福佳里美崙街190號(福佳區民活動中心)"
+    "address": "111臺北市士林區福佳里美崙街190號(福佳區民活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

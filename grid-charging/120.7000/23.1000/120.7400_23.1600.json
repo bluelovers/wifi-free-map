@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃源郵局",
     "lat": 23.175542,
     "lng": 120.74649,

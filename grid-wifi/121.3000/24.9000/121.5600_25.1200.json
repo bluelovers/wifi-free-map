@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林平等區民活動中心1F右側中央",
     "lat": 25.13026,
     "lng": 121.574809,
-    "address": "111臺北市士林區平菁街106巷10號1F"
+    "address": "111臺北市士林區平菁街106巷10號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "館地坪-N-永公路",
     "lat": 25.13384,
     "lng": 121.561187,
-    "address": "111臺北市士林區永公路245巷34弄258號旁候車亭"
+    "address": "111臺北市士林區永公路245巷34弄258號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "興農橋-E-平菁街",
     "lat": 25.139344,
     "lng": 121.570258,
-    "address": "111臺北市士林區平菁路16號斜對面候車亭"
+    "address": "111臺北市士林區平菁路16號斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

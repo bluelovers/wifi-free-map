@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "銅鑼工業區服務中心",
     "lat": 24.481368,
     "lng": 120.791953,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局銅鑼站候車室",
     "lat": 24.486326,
     "lng": 120.786281,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "銅鑼郵局",
     "lat": 24.488234,
     "lng": 120.787123,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司通霄銅鑼營運所",
     "lat": 24.492856,
     "lng": 120.784639,

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣萬巒鄉赤山社區發展協會",
     "lat": 22.588879,
     "lng": 120.611412,
-    "address": "923屏東縣萬巒鄉赤山村建興路14號"
+    "address": "923屏東縣萬巒鄉赤山村建興路14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣萬巒鄉萬金社區發展協會",
     "lat": 22.598043,
     "lng": 120.610755,
-    "address": "923屏東縣萬巒鄉萬金村萬興路65號"
+    "address": "923屏東縣萬巒鄉萬金村萬興路65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

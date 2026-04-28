@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "明志科大郵局",
     "lat": 25.040678,
     "lng": 121.422189,
-    "address": "243新北市泰山區工專路84號"
+    "address": "243新北市泰山區工專路84號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "泰山貴子路郵局",
     "lat": 25.041498,
     "lng": 121.425136,
-    "address": "243新北市泰山區明志路三段85號"
+    "address": "243新北市泰山區明志路三段85號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市泰山區義仁社區發展協會",
     "lat": 25.04855,
     "lng": 121.428098,
-    "address": "243新北市泰山區義仁里明志路二段177號一樓"
+    "address": "243新北市泰山區義仁里明志路二段177號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行泰山分行",
     "lat": 25.051911,
     "lng": 121.428441,
-    "address": "243新北市泰山區明志路二段99號"
+    "address": "243新北市泰山區明志路二段99號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "泰山同榮郵局",
     "lat": 25.053997,
     "lng": 121.430287,
-    "address": "243新北市泰山區明志路一段510、512號"
+    "address": "243新北市泰山區明志路一段510、512號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市市敏動齡健康關懷協會(泰山全興站)",
     "lat": 25.055619,
     "lng": 121.432248,
-    "address": "243新北市泰山區全興里仁義路11巷1號"
+    "address": "243新北市泰山區全興里仁義路11巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市泰山區同榮社區發展協會",
     "lat": 25.057056,
     "lng": 121.430525,
-    "address": "243新北市泰山區同興里明志路一段427號"
+    "address": "243新北市泰山區同興里明志路一段427號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

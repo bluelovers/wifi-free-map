@@ -1,2146 +1,2950 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "和平高中-S-基隆路三段",
     "lat": 25.020221,
     "lng": 121.547672,
-    "address": "106臺北市大安區基隆路三段16號旁候車亭"
+    "address": "106臺北市大安區基隆路三段16號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "信義黎忠里區民活動中心2F門口",
     "lat": 25.020343,
     "lng": 121.558164,
-    "address": "110臺北市信義區和平東路三段391巷16號2F"
+    "address": "110臺北市信義區和平東路三段391巷16號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "大安運動中心2F韻律教室4前",
     "lat": 25.020421,
     "lng": 121.546121,
-    "address": "106臺北市大安區辛亥路三段55號2F"
+    "address": "106臺北市大安區辛亥路三段55號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "大安運動中心3F撞球室",
     "lat": 25.020496,
     "lng": 121.546165,
-    "address": "106臺北市大安區辛亥路三段55號3F"
+    "address": "106臺北市大安區辛亥路三段55號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "大安運動中心2F廁所前",
     "lat": 25.020572,
     "lng": 121.545798,
-    "address": "106臺北市大安區辛亥路三段55號2F"
+    "address": "106臺北市大安區辛亥路三段55號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "大安運動中心3F廁所前",
     "lat": 25.020651,
     "lng": 121.545776,
-    "address": "106臺北市大安區辛亥路三段55號3F"
+    "address": "106臺北市大安區辛亥路三段55號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "大安運動中心4樓壁球室2前",
     "lat": 25.020669,
     "lng": 121.54585,
-    "address": "106臺北市大安區辛亥路三段55號1F"
+    "address": "106臺北市大安區辛亥路三段55號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "大安運動中心1F服務臺前方左側",
     "lat": 25.020669,
     "lng": 121.54585,
-    "address": "106臺北市大安區辛亥路三段55號1F"
+    "address": "106臺北市大安區辛亥路三段55號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "大安運動中心4F廁所前",
     "lat": 25.020704,
     "lng": 121.545688,
-    "address": "106臺北市大安區辛亥路三段55號4F"
+    "address": "106臺北市大安區辛亥路三段55號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "大安運動中心2F韻律教室1前",
     "lat": 25.020719,
     "lng": 121.545963,
-    "address": "106臺北市大安區辛亥路三段55號2F"
+    "address": "106臺北市大安區辛亥路三段55號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺大計資中心-辛亥路二段",
     "lat": 25.021032,
     "lng": 121.540924,
-    "address": "106臺北市大安區辛亥路二段169號對面候車亭"
+    "address": "106臺北市大安區辛亥路二段169號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安嘉興區民活動中心B1F側門",
     "lat": 25.021318,
     "lng": 121.551893,
-    "address": "106臺北市大安區樂業街97號B1F"
+    "address": "106臺北市大安區樂業街97號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "智慧局3樓民眾服務台",
     "lat": 25.021517,
     "lng": 121.54164,
-    "address": "106臺北市大安區辛亥路二段185號3樓"
+    "address": "106臺北市大安區辛亥路二段185號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館道藩分館3F閱覽區後方",
     "lat": 25.021577,
     "lng": 121.544274,
-    "address": "106臺北市大安區辛亥路三段11號3F"
+    "address": "106臺北市大安區辛亥路三段11號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "大安區健康服務中心1F民眾休息區中央",
     "lat": 25.021577,
     "lng": 121.544274,
-    "address": "106臺北市大安區辛亥路三段15號1F"
+    "address": "106臺北市大安區辛亥路三段15號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安區健康服務中心2F會計室門口",
     "lat": 25.021577,
     "lng": 121.544274,
-    "address": "106臺北市大安區辛亥路三段15號2F"
+    "address": "106臺北市大安區辛亥路三段15號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺大資訊大樓-W-辛亥路二段",
     "lat": 25.021605,
     "lng": 121.540379,
-    "address": "106臺北市大安區辛亥路二段155號前方候車亭"
+    "address": "106臺北市大安區辛亥路二段155號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館道藩分館3F綜合服務臺前",
     "lat": 25.021611,
     "lng": 121.544056,
-    "address": "106臺北市大安區辛亥路三段11號3F"
+    "address": "106臺北市大安區辛亥路三段11號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安區健康服務中心2F茶水間門口",
     "lat": 25.021706,
     "lng": 121.544284,
-    "address": "106臺北市大安區辛亥路三段15號2F"
+    "address": "106臺北市大安區辛亥路三段15號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北六張犁郵局",
     "lat": 25.022865,
     "lng": 121.553841,
-    "address": "106臺北市大安區和平東路三段208號"
+    "address": "106臺北市大安區和平東路三段208號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區臥龍里辦公處",
     "lat": 25.023069,
     "lng": 121.543564,
-    "address": "106臺北市大安區臥龍里復興南路二段355號一樓"
+    "address": "106臺北市大安區臥龍里復興南路二段355號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運六張犁站(和平)-E-和平東路三段",
     "lat": 25.023226,
     "lng": 121.553615,
-    "address": "106臺北市大安區和平東路三段215號對面候車亭"
+    "address": "106臺北市大安區和平東路三段215號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信安街候車亭",
     "lat": 25.023533,
     "lng": 121.555576,
-    "address": "110臺北市信義區信安街137號候車亭"
+    "address": "110臺北市信義區信安街137號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "敦化和平路口-S-敦化南路二段",
     "lat": 25.023561,
     "lng": 121.548436,
-    "address": "106臺北市大安區敦化南路二段182號前候車亭"
+    "address": "106臺北市大安區敦化南路二段182號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運六張犁站(基隆路)-S-基隆路二段",
     "lat": 25.023591,
     "lng": 121.551529,
-    "address": "106臺北市大安區基隆路二段222號前候車亭"
+    "address": "106臺北市大安區基隆路二段222號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "敦化和平路口-N-敦化南路二段",
     "lat": 25.023733,
     "lng": 121.548988,
-    "address": "106臺北市大安區敦化南路二段293巷口左側候車亭"
+    "address": "106臺北市大安區敦化南路二段293巷口左側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市信義區黎順里辦公處",
     "lat": 25.024415,
     "lng": 121.553494,
-    "address": "110臺北市信義區黎順里崇德街15號"
+    "address": "110臺北市信義區黎順里崇德街15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺北教育大學-S-復興南路二段",
     "lat": 25.024433,
     "lng": 121.543341,
-    "address": "106臺北市大安區復興南路二段280號旁候車亭"
+    "address": "106臺北市大安區復興南路二段280號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臥龍街-E-和平東路三段",
     "lat": 25.02451,
     "lng": 121.54771,
-    "address": "106臺北市大安區和平東路三段40號前候車亭"
+    "address": "106臺北市大安區和平東路三段40號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "國立臺北教育大學-E-和平東路二段",
     "lat": 25.02467,
     "lng": 121.545363,
-    "address": "106臺北市大安區和平東路二段323號對面候車亭"
+    "address": "106臺北市大安區和平東路二段323號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臥龍街-W-和平東路三段",
     "lat": 25.024742,
     "lng": 121.547479,
-    "address": "106臺北市大安區和平東路三段15號前候車亭"
+    "address": "106臺北市大安區和平東路三段15號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行和平分行",
     "lat": 25.024878,
     "lng": 121.547502,
-    "address": "106臺北市大安區和平東路三段15號"
+    "address": "106臺北市大安區和平東路三段15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "復興南路口-E-和平東路二段",
     "lat": 25.024909,
     "lng": 121.542204,
-    "address": "106臺北市大安區和平東路二段106號候車亭"
+    "address": "106臺北市大安區和平東路二段106號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部科技大樓2樓會議中心東側",
     "lat": 25.024915,
     "lng": 121.541969,
-    "address": "106臺北市大安區和平東路二段106號2樓"
+    "address": "106臺北市大安區和平東路二段106號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部科技大樓1樓會客室",
     "lat": 25.024915,
     "lng": 121.541969,
-    "address": "106臺北市大安區和平東路二段106號1樓"
+    "address": "106臺北市大安區和平東路二段106號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部科技大樓2樓會議中心西側",
     "lat": 25.024915,
     "lng": 121.541969,
-    "address": "106臺北市大安區和平東路二段106號2樓"
+    "address": "106臺北市大安區和平東路二段106號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部科技大樓17樓",
     "lat": 25.024915,
     "lng": 121.541969,
-    "address": "106臺北市大安區和平東路二段106號17樓"
+    "address": "106臺北市大安區和平東路二段106號17樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部科技大樓18樓",
     "lat": 25.024915,
     "lng": 121.541969,
-    "address": "106臺北市大安區和平東路二段106號18樓"
+    "address": "106臺北市大安區和平東路二段106號18樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部科技大樓19樓",
     "lat": 25.024915,
     "lng": 121.541969,
-    "address": "106臺北市大安區和平東路二段106號19樓"
+    "address": "106臺北市大安區和平東路二段106號19樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部科技大樓20樓",
     "lat": 25.024915,
     "lng": 121.541969,
-    "address": "106臺北市大安區和平東路二段106號20樓"
+    "address": "106臺北市大安區和平東路二段106號20樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部科技大樓21樓",
     "lat": 25.024915,
     "lng": 121.541969,
-    "address": "106臺北市大安區和平東路二段106號21樓"
+    "address": "106臺北市大安區和平東路二段106號21樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部科技大樓22樓",
     "lat": 25.024915,
     "lng": 121.541969,
-    "address": "106臺北市大安區和平東路二段106號22樓"
+    "address": "106臺北市大安區和平東路二段106號22樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部科技大樓16樓",
     "lat": 25.024915,
     "lng": 121.541969,
-    "address": "106臺北市大安區和平東路二段106號16樓"
+    "address": "106臺北市大安區和平東路二段106號16樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國道新建工程局局本部1樓",
     "lat": 25.025145,
     "lng": 121.547065,
-    "address": "106臺北市大安區四維路236巷6號1樓"
+    "address": "106臺北市大安區四維路236巷6號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行敦化分行",
     "lat": 25.025227,
     "lng": 121.549141,
-    "address": "106臺北市大安區敦化南路二段267號"
+    "address": "106臺北市大安區敦化南路二段267號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "國北教大實小-W-和平東路二段",
     "lat": 25.025379,
     "lng": 121.540666,
-    "address": "106臺北市大安區和平東路二段129號候車亭"
+    "address": "106臺北市大安區和平東路二段129號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國道新建工程局局本部5樓",
     "lat": 25.025379,
     "lng": 121.547343,
-    "address": "106臺北市大安區和平東路三段1巷1號5樓"
+    "address": "106臺北市大安區和平東路三段1巷1號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國道新建工程局局本部7樓",
     "lat": 25.025379,
     "lng": 121.547343,
-    "address": "106臺北市大安區和平東路三段1巷1號7樓"
+    "address": "106臺北市大安區和平東路三段1巷1號7樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通部航港局",
     "lat": 25.025379,
     "lng": 121.547343,
-    "address": "106臺北市大安區和平東路三段1巷1號"
+    "address": "106臺北市大安區和平東路三段1巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行和平分行",
     "lat": 25.025392,
     "lng": 121.541249,
-    "address": "106臺北市大安區和平東路二段151號"
+    "address": "106臺北市大安區和平東路二段151號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館成功民眾閱覽室4F中央",
     "lat": 25.025546,
     "lng": 121.545361,
-    "address": "106臺北市大安區和平東路二段311巷29號"
+    "address": "106臺北市大安區和平東路二段311巷29號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區群賢里辦公處",
     "lat": 25.025558,
     "lng": 121.545971,
-    "address": "106臺北市大安區群賢里和平東路二段311巷43弄36號"
+    "address": "106臺北市大安區群賢里和平東路二段311巷43弄36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "全安里-N-安和路二段",
     "lat": 25.025581,
     "lng": 121.550236,
-    "address": "106臺北市大安區安和路二段225號旁候車亭"
+    "address": "106臺北市大安區安和路二段225號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區龍生里辦公處",
     "lat": 25.02568,
     "lng": 121.540402,
-    "address": "106臺北市大安區龍生里和平東路二段107巷9號"
+    "address": "106臺北市大安區龍生里和平東路二段107巷9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市信義區正和里辦公處",
     "lat": 25.026,
     "lng": 121.557,
-    "address": "110臺北市信義區正和里仁愛路四段452巷3號(正和區民活動中心)"
+    "address": "110臺北市信義區正和里仁愛路四段452巷3號(正和區民活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區全安里辦公處",
     "lat": 25.02609,
     "lng": 121.55137,
-    "address": "106臺北市大安區全安里和平東路三段119巷25號一樓"
+    "address": "106臺北市大安區全安里和平東路三段119巷25號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區法治里辦公處",
     "lat": 25.026171,
     "lng": 121.552922,
-    "address": "106臺北市大安區法治里通化街192號"
+    "address": "106臺北市大安區法治里通化街192號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "鳳雛公園-S-敦化南路二段",
     "lat": 25.026419,
     "lng": 121.548455,
-    "address": "106臺北市大安區敦化南路二段126號旁候車亭"
+    "address": "106臺北市大安區敦化南路二段126號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "成功中繼市場2F 136攤位前",
     "lat": 25.026437,
     "lng": 121.548311,
-    "address": "106臺北市大安區敦化南路二段120號2F"
+    "address": "106臺北市大安區敦化南路二段120號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區群英里社區照顧關懷據點",
     "lat": 25.026442,
     "lng": 121.545899,
-    "address": "106臺北市大安區群英里四維路198巷30弄9號一樓"
+    "address": "106臺北市大安區群英里四維路198巷30弄9號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "成功中繼市場1F 085攤位前",
     "lat": 25.026461,
     "lng": 121.548351,
-    "address": "106臺北市大安區敦化南路二段120號1F"
+    "address": "106臺北市大安區敦化南路二段120號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "大安社會福利中心2F服務台",
     "lat": 25.026491,
     "lng": 121.546131,
-    "address": "106臺北市大安區四維路198巷30弄5號2F"
+    "address": "106臺北市大安區四維路198巷30弄5號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北成功郵局",
     "lat": 25.026504,
     "lng": 121.545929,
-    "address": "106臺北市大安區四維路198巷38弄12號"
+    "address": "106臺北市大安區四維路198巷38弄12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安成功區民活動中心1F中央",
     "lat": 25.026515,
     "lng": 121.546098,
-    "address": "106臺北市大安區四維路198巷30弄9號1F"
+    "address": "106臺北市大安區四維路198巷30弄9號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "成功中繼市場1F 047與048攤位中間",
     "lat": 25.026542,
     "lng": 121.548396,
-    "address": "106臺北市大安區敦化南路二段120號1F"
+    "address": "106臺北市大安區敦化南路二段120號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "成功中繼市場2F 24攤位前",
     "lat": 25.026549,
     "lng": 121.548229,
-    "address": "106臺北市大安區敦化南路二段120號2F"
+    "address": "106臺北市大安區敦化南路二段120號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "群英里社區關懷據點1F門口",
     "lat": 25.026567,
     "lng": 121.545441,
-    "address": "106臺北市大安區四維路198巷30弄9號1F"
+    "address": "106臺北市大安區四維路198巷30弄9號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台灣基督長老教會大安教會",
     "lat": 25.026602,
     "lng": 121.546909,
-    "address": "106臺北市大安區群賢里和平東路三段1巷51號"
+    "address": "106臺北市大安區群賢里和平東路三段1巷51號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "群英里社區關懷據點1F中央",
     "lat": 25.026766,
     "lng": 121.545552,
-    "address": "106臺北市大安區四維路198巷30弄9號1F"
+    "address": "106臺北市大安區四維路198巷30弄9號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "喬治商職-S-基隆路二段",
     "lat": 25.026879,
     "lng": 121.555273,
-    "address": "106臺北市大安區基隆路二段170號候車亭"
+    "address": "106臺北市大安區基隆路二段170號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運科技大樓站-S-復興南路二段",
     "lat": 25.026907,
     "lng": 121.543284,
-    "address": "106臺北市大安區復興南路二段198號候車亭"
+    "address": "106臺北市大安區復興南路二段198號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "成功國宅-N-敦化南路二段",
     "lat": 25.027497,
     "lng": 121.548979,
-    "address": "106臺北市大安區敦化南路二段113號旁候車亭"
+    "address": "106臺北市大安區敦化南路二段113號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市信義區嘉興里辦公處",
     "lat": 25.027587,
     "lng": 121.557578,
-    "address": "110臺北市信義區嘉興里嘉興街175巷6號"
+    "address": "110臺北市信義區嘉興里嘉興街175巷6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市永健長青促進協會",
     "lat": 25.028,
     "lng": 121.541,
-    "address": "106臺北市大安區龍陣里瑞安街71巷5弄1號一樓"
+    "address": "106臺北市大安區龍陣里瑞安街71巷5弄1號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市大安區龍陣里辦公處",
     "lat": 25.028,
     "lng": 121.541,
-    "address": "106臺北市大安區龍陣里瑞安街75號三樓(瑞安區民活動中心)"
+    "address": "106臺北市大安區龍陣里瑞安街75號三樓(瑞安區民活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安瑞安區民活動中心3F中央",
     "lat": 25.028025,
     "lng": 121.541163,
-    "address": "106臺北市大安區71巷2號3F"
+    "address": "106臺北市大安區71巷2號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "安東市場1F 137攤位",
     "lat": 25.028139,
     "lng": 121.541186,
-    "address": "106臺北市大安區瑞安街75號1F"
+    "address": "106臺北市大安區瑞安街75號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "三興國小(臨江街觀光夜市)-S-基隆路二段",
     "lat": 25.028286,
     "lng": 121.556646,
-    "address": "106臺北市大安區基隆路二段138號前候車亭"
+    "address": "106臺北市大安區基隆路二段138號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行敦和分行",
     "lat": 25.028312,
     "lng": 121.549081,
-    "address": "106臺北市大安區敦化南路二段107號"
+    "address": "106臺北市大安區敦化南路二段107號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區臨江里辦公處",
     "lat": 25.028425,
     "lng": 121.555956,
-    "address": "106臺北市大安區臨江里通化街143巷33號一樓"
+    "address": "106臺北市大安區臨江里通化街143巷33號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "三興國小(臨江街觀光夜市)-N-基隆路二段",
     "lat": 25.028569,
     "lng": 121.557087,
-    "address": "110臺北市信義區基隆路二段115號旁候車亭"
+    "address": "110臺北市信義區基隆路二段115號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "立人國際國中小學-S-安和路二段",
     "lat": 25.028785,
     "lng": 121.550411,
-    "address": "106臺北市大安區安和路二段92號旁候車亭"
+    "address": "106臺北市大安區安和路二段92號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "開平餐飲學校-N-復興南路二段",
     "lat": 25.028833,
     "lng": 121.543581,
-    "address": "106臺北市大安區復興南路二段133號前候車亭"
+    "address": "106臺北市大安區復興南路二段133號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區臺北龍雲社區發展協會",
     "lat": 25.029,
     "lng": 121.541,
-    "address": "106臺北市大安區龍雲里大安路二段160巷24號"
+    "address": "106臺北市大安區龍雲里大安路二段160巷24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "成功國宅-S-敦化南路二段",
     "lat": 25.029008,
     "lng": 121.548458,
-    "address": "106臺北市大安區敦化南路二段76號旁候車亭"
+    "address": "106臺北市大安區敦化南路二段76號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行敦化分行",
     "lat": 25.02912,
     "lng": 121.548226,
-    "address": "106臺北市大安區敦化南路二段76號"
+    "address": "106臺北市大安區敦化南路二段76號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "開平餐飲學校-S-復興南路二段",
     "lat": 25.029556,
     "lng": 121.543392,
-    "address": "106臺北市大安區復興南路二段108號前候車亭"
+    "address": "106臺北市大安區復興南路二段108號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大安國中-N-敦化南路二段",
     "lat": 25.02965,
     "lng": 121.549036,
-    "address": "106臺北市大安區敦化南路二段93號旁公園候車亭"
+    "address": "106臺北市大安區敦化南路二段93號旁公園候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安通安區民活動中心1F中央",
     "lat": 25.029798,
     "lng": 121.552833,
-    "address": "106臺北市大安區通安街98號1F"
+    "address": "106臺北市大安區通安街98號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀敦南分行",
     "lat": 25.030114,
     "lng": 121.548389,
-    "address": "106臺北市大安區敦化南路二段62號"
+    "address": "106臺北市大安區敦化南路二段62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀安和分行",
     "lat": 25.030489,
     "lng": 121.552165,
-    "address": "106臺北市大安區安和路二段62號"
+    "address": "106臺北市大安區安和路二段62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行大安分行",
     "lat": 25.030645,
     "lng": 121.549205,
-    "address": "106臺北市大安區敦化南路二段69號1樓"
+    "address": "106臺北市大安區敦化南路二段69號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北安和郵局",
     "lat": 25.030768,
     "lng": 121.552582,
-    "address": "106臺北市大安區安和路二段61、63號"
+    "address": "106臺北市大安區安和路二段61、63號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀信義分行",
     "lat": 25.030783,
     "lng": 121.558442,
-    "address": "110臺北市信義區基隆路二段65號"
+    "address": "110臺北市信義區基隆路二段65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(世貿分行)",
     "lat": 25.030801,
     "lng": 121.549183,
-    "address": "106臺北市大安區敦化南路二段65號"
+    "address": "106臺北市大安區敦化南路二段65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "文昌街口-S-安和路二段",
     "lat": 25.031183,
     "lng": 121.552268,
-    "address": "106臺北市大安區安和路二段48號旁候車亭"
+    "address": "106臺北市大安區安和路二段48號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀信義分行",
     "lat": 25.031606,
     "lng": 121.548313,
-    "address": "106臺北市大安區敦化南路二段40號"
+    "address": "106臺北市大安區敦化南路二段40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "大安高工-N-復興南路二段",
     "lat": 25.031717,
     "lng": 121.543679,
-    "address": "106臺北市大安區復興南路二段33-1號前候車亭"
+    "address": "106臺北市大安區復興南路二段33-1號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區通化里辦公處",
     "lat": 25.031739,
     "lng": 121.555311,
-    "address": "106臺北市大安區通化里通化街19巷19號"
+    "address": "106臺北市大安區通化里通化街19巷19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行大安分行",
     "lat": 25.031793,
     "lng": 121.546223,
-    "address": "106臺北市大安區大安路二段37號"
+    "address": "106臺北市大安區大安路二段37號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區住安社區發展協會",
     "lat": 25.032155,
     "lng": 121.545635,
-    "address": "106臺北市大安區住安里信義路四段30巷27弄24號"
+    "address": "106臺北市大安區住安里信義路四段30巷27弄24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "文昌街AP5-文昌街167號",
     "lat": 25.032486,
     "lng": 121.55366,
-    "address": "106臺北市大安區文昌街167號"
+    "address": "106臺北市大安區文昌街167號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行大安分行",
     "lat": 25.032903,
     "lng": 121.556142,
-    "address": "106臺北市大安區信義路四段382號"
+    "address": "106臺北市大安區信義路四段382號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行世貿分行",
     "lat": 25.032943,
     "lng": 121.558525,
-    "address": "110臺北市信義區信義路四段458號"
+    "address": "110臺北市信義區信義路四段458號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行敦化分行",
     "lat": 25.032948,
     "lng": 121.548381,
-    "address": "106臺北市大安區敦化南路二段2號"
+    "address": "106臺北市大安區敦化南路二段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(安和分行)",
     "lat": 25.033013,
     "lng": 121.551333,
-    "address": "106臺北市大安區信義路四段184號"
+    "address": "106臺北市大安區信義路四段184號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義光復路口-E-信義路四段",
     "lat": 25.033058,
     "lng": 121.55713,
-    "address": "106臺北市大安區信義路四段418號前分隔島候車亭"
+    "address": "106臺北市大安區信義路四段418號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義通化街口-E-信義路四段",
     "lat": 25.033113,
     "lng": 121.553925,
-    "address": "106臺北市大安區信義路四段258號前分隔島候車亭"
+    "address": "106臺北市大安區信義路四段258號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義光復路口-W-信義路四段",
     "lat": 25.033118,
     "lng": 121.557815,
-    "address": "110臺北市信義區信義路四段375號前分隔島候車亭"
+    "address": "110臺北市信義區信義路四段375號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運信義安和站-E-信義路四段",
     "lat": 25.033167,
     "lng": 121.551227,
-    "address": "106臺北市大安區信義路四段184號前分隔島候車亭"
+    "address": "106臺北市大安區信義路四段184號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義通化街口-W-信義路四段",
     "lat": 25.033195,
     "lng": 121.55462,
-    "address": "106臺北市大安區信義路四段279號前分隔島候車亭"
+    "address": "106臺北市大安區信義路四段279號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀大安分行",
     "lat": 25.03321,
     "lng": 121.542483,
-    "address": "106臺北市大安區信義路三段182號"
+    "address": "106臺北市大安區信義路三段182號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商業銀行資訊處信義大樓8樓",
     "lat": 25.03321,
     "lng": 121.542483,
-    "address": "106臺北市大安區信義路三段182號"
+    "address": "106臺北市大安區信義路三段182號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行信維分行",
     "lat": 25.033211,
     "lng": 121.544163,
-    "address": "106臺北市大安區信義路四段6號2樓"
+    "address": "106臺北市大安區信義路四段6號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義敦化路口-E-信義路四段",
     "lat": 25.033261,
     "lng": 121.548333,
-    "address": "106臺北市大安區信義路四段115號前分隔島候車亭"
+    "address": "106臺北市大安區信義路四段115號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運信義安和站-W-信義路四段",
     "lat": 25.033272,
     "lng": 121.552915,
-    "address": "106臺北市大安區信義路四段225號旁前分隔島候車亭"
+    "address": "106臺北市大安區信義路四段225號旁前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台北市中華基督教信義會(復興堂)",
     "lat": 25.033283,
     "lng": 121.557734,
-    "address": "110臺北市信義區中興里信義路四段375號十樓之2"
+    "address": "110臺北市信義區中興里信義路四段375號十樓之2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義敦化路口-W-信義路四段",
     "lat": 25.03329,
     "lng": 121.549608,
-    "address": "106臺北市大安區信義路四段137號前分隔島候車亭"
+    "address": "106臺北市大安區信義路四段137號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運大安站(信義)-E-信義路三段",
     "lat": 25.033292,
     "lng": 121.543266,
-    "address": "106臺北市大安區信義路三段200號前分隔島候車亭"
+    "address": "106臺北市大安區信義路三段200號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義大安路口-W-信義路四段",
     "lat": 25.033301,
     "lng": 121.545638,
-    "address": "106臺北市大安區信義路四段60之18號前分隔島候車亭"
+    "address": "106臺北市大安區信義路四段60之18號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市紅十字會",
     "lat": 25.033304,
     "lng": 121.559235,
-    "address": "110臺北市信義區中興里信義路四段415號五樓之3"
+    "address": "110臺北市信義區中興里信義路四段415號五樓之3",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義大安路口-E-信義路四段",
     "lat": 25.033337,
     "lng": 121.546276,
-    "address": "106臺北市大安區信義路四段89號前分隔島候車亭"
+    "address": "106臺北市大安區信義路四段89號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運大安站(信義)-W-信義路四段",
     "lat": 25.033365,
     "lng": 121.544076,
-    "address": "106臺北市大安區信義路四段1之10號前分隔島候車亭"
+    "address": "106臺北市大安區信義路四段1之10號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀松南分行",
     "lat": 25.03338,
     "lng": 121.554636,
-    "address": "106臺北市大安區信義路四段275號"
+    "address": "106臺北市大安區信義路四段275號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "師大附中-W-信義路三段",
     "lat": 25.033389,
     "lng": 121.542283,
-    "address": "106臺北市大安區信義路三段149號前分隔島候車亭"
+    "address": "106臺北市大安區信義路三段149號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北信維郵局",
     "lat": 25.03343,
     "lng": 121.54771,
-    "address": "106臺北市大安區信義路四段101號"
+    "address": "106臺北市大安區信義路四段101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北三張犁郵局",
     "lat": 25.03343,
     "lng": 121.556385,
-    "address": "106臺北市大安區信義路四段337號"
+    "address": "106臺北市大安區信義路四段337號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安地政2F203儲藏室門口左側",
     "lat": 25.033564,
     "lng": 121.556519,
-    "address": "106臺北市大安區信義路四段335巷6號2F"
+    "address": "106臺北市大安區信義路四段335巷6號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "大安地政1F19號審查櫃臺前",
     "lat": 25.033599,
     "lng": 121.556465,
-    "address": "106臺北市大安區信義路四段335巷6號1F"
+    "address": "106臺北市大安區信義路四段335巷6號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義敦化路口-S-敦化南路一段",
     "lat": 25.033642,
     "lng": 121.548713,
-    "address": "106臺北市大安區敦化南路一段376號前分隔島候車亭"
+    "address": "106臺北市大安區敦化南路一段376號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行信義分行",
     "lat": 25.033649,
     "lng": 121.559531,
-    "address": "110臺北市信義區基隆路一段436號"
+    "address": "110臺北市信義區基隆路一段436號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安地政3F301行政課門口",
     "lat": 25.033692,
     "lng": 121.556483,
-    "address": "106臺北市大安區信義路四段335巷6號3F"
+    "address": "106臺北市大安區信義路四段335巷6號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安地政2F205製圖室門口右側",
     "lat": 25.033789,
     "lng": 121.5565,
-    "address": "106臺北市大安區信義路四段335巷6號2F"
+    "address": "106臺北市大安區信義路四段335巷6號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "大安地政1F綜合謄本6號櫃臺前",
     "lat": 25.033808,
     "lng": 121.556432,
-    "address": "106臺北市大安區信義路四段335巷6號1F"
+    "address": "106臺北市大安區信義路四段335巷6號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安地政3F304文物用品室門口",
     "lat": 25.033808,
     "lng": 121.556432,
-    "address": "106臺北市大安區信義路四段335巷6號3F"
+    "address": "106臺北市大安區信義路四段335巷6號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "大安地政4F402地籍資料課門口",
     "lat": 25.033808,
     "lng": 121.556432,
-    "address": "106臺北市大安區信義路四段335巷6號4F"
+    "address": "106臺北市大安區信義路四段335巷6號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "信義敦化路口-S-敦化南路一段",
     "lat": 25.034126,
     "lng": 121.548551,
-    "address": "106臺北市大安區敦化南路一段362號旁候車亭"
+    "address": "106臺北市大安區敦化南路一段362號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安老人服務中心",
     "lat": 25.034204,
     "lng": 121.54735,
-    "address": "106臺北市大安區德安里四維路76巷12號"
+    "address": "106臺北市大安區德安里四維路76巷12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安德安區民活動中心6F中央",
     "lat": 25.034205,
     "lng": 121.547305,
-    "address": "106臺北市大安區四維路76巷12號6F"
+    "address": "106臺北市大安區四維路76巷12號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "敦安公園-採光罩下",
     "lat": 25.034401,
     "lng": 121.553847,
-    "address": "106臺北市大安區安和路一段135巷22號對面敦安公園"
+    "address": "106臺北市大安區安和路一段135巷22號對面敦安公園",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運大安站(復興)-N-復興南路一段",
     "lat": 25.034491,
     "lng": 121.543739,
-    "address": "106臺北市大安區復興南路一段305號前候車亭"
+    "address": "106臺北市大安區復興南路一段305號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "客家文化會館1F警衛室前",
     "lat": 25.034705,
     "lng": 121.543096,
-    "address": "106臺北市大安區信義路三段157巷11號1F"
+    "address": "106臺北市大安區信義路三段157巷11號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "客家文化會館2F文教推廣組前",
     "lat": 25.034706,
     "lng": 121.543146,
-    "address": "106臺北市大安區信義路三段157巷11號2F"
+    "address": "106臺北市大安區信義路三段157巷11號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "客家文化會館4F會議室",
     "lat": 25.034713,
     "lng": 121.543099,
-    "address": "106臺北市大安區信義路三段157巷11號4F"
+    "address": "106臺北市大安區信義路三段157巷11號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(信維分行)",
     "lat": 25.034738,
     "lng": 121.543353,
-    "address": "106臺北市大安區復興南路一段370號"
+    "address": "106臺北市大安區復興南路一段370號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "信義西村區民活動中心1F門口",
     "lat": 25.035011,
     "lng": 121.559198,
-    "address": "110臺北市信義區基隆路一段364巷22號"
+    "address": "110臺北市信義區基隆路一段364巷22號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區仁慈里辦公處",
     "lat": 25.035056,
     "lng": 121.545019,
-    "address": "106臺北市大安區仁慈里復興南路一段295巷18號一樓"
+    "address": "106臺北市大安區仁慈里復興南路一段295巷18號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市信義區西村里辦公處",
     "lat": 25.03506,
     "lng": 121.559221,
-    "address": "110臺北市信義區西村里基隆路一段364巷22號"
+    "address": "110臺北市信義區西村里基隆路一段364巷22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人天主教中華基督神修小會之友人文關懷與服務促進協會（大安）",
     "lat": 25.035183,
     "lng": 121.542783,
-    "address": "106臺北市大安區和安里信義路三段147巷15弄23號一樓"
+    "address": "106臺北市大安區和安里信義路三段147巷15弄23號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行大安分行",
     "lat": 25.035322,
     "lng": 121.557287,
-    "address": "106臺北市大安區光復南路458號"
+    "address": "106臺北市大安區光復南路458號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財團法人臺灣民主基金會",
     "lat": 25.035484,
     "lng": 121.542442,
-    "address": "106臺北市大安區信義路三路147巷17弄4號"
+    "address": "106臺北市大安區信義路三路147巷17弄4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財團法人臺灣民主基金會-一期大廳",
     "lat": 25.035484,
     "lng": 121.542442,
-    "address": "106臺北市大安區信義路三段147巷17弄4號"
+    "address": "106臺北市大安區信義路三段147巷17弄4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財團法人臺灣民主基金會-二期大廳",
     "lat": 25.035484,
     "lng": 121.542442,
-    "address": "106臺北市大安區信義路三段147巷17弄4號"
+    "address": "106臺北市大安區信義路三段147巷17弄4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財團法人臺灣民主基金會-會客室",
     "lat": 25.035484,
     "lng": 121.542442,
-    "address": "106臺北市大安區信義路三段147巷17弄4號"
+    "address": "106臺北市大安區信義路三段147巷17弄4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "和安里-N-復興南路一段",
     "lat": 25.035722,
     "lng": 121.543761,
-    "address": "106臺北市大安區復興南路一段271號前候車亭"
+    "address": "106臺北市大安區復興南路一段271號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人成長文教基金會",
     "lat": 25.03616,
     "lng": 121.543972,
-    "address": "106臺北市大安區仁慈里東豐街1號二樓"
+    "address": "106臺北市大安區仁慈里東豐街1號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安光信區民活動中心2F門口",
     "lat": 25.036448,
     "lng": 121.55516,
-    "address": "106臺北市大安區延吉街236巷17號2F"
+    "address": "106臺北市大安區延吉街236巷17號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館延吉民眾閱覽室3F過期報紙區中央",
     "lat": 25.036448,
     "lng": 121.55516,
-    "address": "106臺北市大安區延吉街236巷17號3F"
+    "address": "106臺北市大安區延吉街236巷17號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館延吉民眾閱覽室4F自修室門口",
     "lat": 25.036448,
     "lng": 121.55516,
-    "address": "106臺北市大安區延吉街236巷17號4F"
+    "address": "106臺北市大安區延吉街236巷17號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "仁愛國中-N-安和路一段",
     "lat": 25.03661,
     "lng": 121.5522,
-    "address": "106臺北市大安區安和路一段83號旁候車亭"
+    "address": "106臺北市大安區安和路一段83號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓1F研究室（三）門口",
     "lat": 25.036784,
     "lng": 121.544597,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓4F412病房門口",
     "lat": 25.036832,
     "lng": 121.544483,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓4F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓4F428病房門口",
     "lat": 25.036833,
     "lng": 121.544386,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓4F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓7F736病房門口",
     "lat": 25.036833,
     "lng": 121.546012,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓5F西北側走道上",
     "lat": 25.036836,
     "lng": 121.54435,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓5F茶水間旁壁櫃",
     "lat": 25.036837,
     "lng": 121.546002,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓5F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓6F第二會議室門口",
     "lat": 25.036837,
     "lng": 121.546002,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓6F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓6F管理室門口",
     "lat": 25.036837,
     "lng": 121.546002,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓6F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓6F座椅中央",
     "lat": 25.036837,
     "lng": 121.546002,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓6F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓B1F醫療事務課",
     "lat": 25.036837,
     "lng": 121.546002,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓B1F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓7F710病房門口",
     "lat": 25.036837,
     "lng": 121.546002,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓8F829病房",
     "lat": 25.036837,
     "lng": 121.546002,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓8F東側大樓左側走廊",
     "lat": 25.036837,
     "lng": 121.546002,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓11F醫師研究室六門外",
     "lat": 25.036837,
     "lng": 121.546002,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓11FD梯",
     "lat": 25.036837,
     "lng": 121.546002,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院3F-內視鏡門診門口(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號3樓(台北總院)"
+    "address": "106臺北市大安區仁愛路四段280號3樓(台北總院)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院2F-手術室直外處置室門口(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號2樓(台北總院)"
+    "address": "106臺北市大安區仁愛路四段280號2樓(台北總院)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院2F-婦產科門診中間(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號2樓(台北總院)"
+    "address": "106臺北市大安區仁愛路四段280號2樓(台北總院)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院2F-門診手術室中間(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號2樓(台北總院)"
+    "address": "106臺北市大安區仁愛路四段280號2樓(台北總院)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院2F-52門診門口(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號2樓(台北總院)"
+    "address": "106臺北市大安區仁愛路四段280號2樓(台北總院)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院1F-糖尿病衛教室門口(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號1樓(台北總院)"
+    "address": "106臺北市大安區仁愛路四段280號1樓(台北總院)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院1F-家醫科門診門口(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號1樓(台北總院)"
+    "address": "106臺北市大安區仁愛路四段280號1樓(台北總院)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院1F-門診調劑組上方(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號1樓(台北總院)"
+    "address": "106臺北市大安區仁愛路四段280號1樓(台北總院)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院1F-22與29門診中間(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號1樓(台北總院)"
+    "address": "106臺北市大安區仁愛路四段280號1樓(台北總院)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院1F-急診室中間(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號1樓(台北總院)"
+    "address": "106臺北市大安區仁愛路四段280號1樓(台北總院)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院第一院區1F-71門診口(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號1樓(第一院區)"
+    "address": "106臺北市大安區仁愛路四段280號1樓(第一院區)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院第一院區1F-口腔篩檢門口(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號1樓(第一院區)"
+    "address": "106臺北市大安區仁愛路四段280號1樓(第一院區)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院第一院區1F-眼鏡部(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號1樓(第一院區)"
+    "address": "106臺北市大安區仁愛路四段280號1樓(第一院區)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院第一院區RF-樓頂(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.036883,
     "lng": 121.553638,
-    "address": "106臺北市大安區仁愛路四段280號1樓(第一院區)"
+    "address": "106臺北市大安區仁愛路四段280號1樓(第一院區)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "聯合醫院仁愛院區-S-復興南路一段",
     "lat": 25.036931,
     "lng": 121.543486,
-    "address": "106臺北市大安區復興南路一段318號前候車亭"
+    "address": "106臺北市大安區復興南路一段318號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區南棟3F護理站內左側通道",
     "lat": 25.036956,
     "lng": 121.545252,
-    "address": "106臺北市大安區仁愛路四段10號南棟3F"
+    "address": "106臺北市大安區仁愛路四段10號南棟3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓1F藥劑科",
     "lat": 25.036975,
     "lng": 121.546007,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓8F診療室1",
     "lat": 25.036985,
     "lng": 121.545979,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區南棟1F中醫第一診門口東側",
     "lat": 25.037013,
     "lng": 121.545567,
-    "address": "106臺北市大安區仁愛路四段10號南棟1F"
+    "address": "106臺北市大安區仁愛路四段10號南棟1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區南棟2F腹膜透析治療室(二)走廊",
     "lat": 25.037013,
     "lng": 121.545567,
-    "address": "106臺北市大安區仁愛路四段10號南棟2F"
+    "address": "106臺北市大安區仁愛路四段10號南棟2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區南棟3F護理站左側走廊",
     "lat": 25.037013,
     "lng": 121.545567,
-    "address": "106臺北市大安區仁愛路四段10號南棟3F"
+    "address": "106臺北市大安區仁愛路四段10號南棟3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區南棟5F物理治療區大門口",
     "lat": 25.037013,
     "lng": 121.545567,
-    "address": "106臺北市大安區仁愛路四段10號南棟5F"
+    "address": "106臺北市大安區仁愛路四段10號南棟5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區南棟7F電腦檢索區",
     "lat": 25.037013,
     "lng": 121.545567,
-    "address": "106臺北市大安區仁愛路四段10號南棟7F"
+    "address": "106臺北市大安區仁愛路四段10號南棟7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "信義正和區民活動中心1F門口",
     "lat": 25.037043,
     "lng": 121.559338,
-    "address": "110臺北市信義區仁愛路四段452巷3號1F"
+    "address": "110臺北市信義區仁愛路四段452巷3號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區南棟1F牙醫門診櫃台",
     "lat": 25.037097,
     "lng": 121.545211,
-    "address": "106臺北市大安區仁愛路四段10號南棟1F"
+    "address": "106臺北市大安區仁愛路四段10號南棟1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓1F老人健檢中心櫃台",
     "lat": 25.037102,
     "lng": 121.545966,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓1F治療師辦公室門口",
     "lat": 25.037102,
     "lng": 121.545966,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓1F自動掛號系統前方",
     "lat": 25.037102,
     "lng": 121.545966,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓1F急診室大門",
     "lat": 25.037102,
     "lng": 121.545966,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓8F護理站左側",
     "lat": 25.037102,
     "lng": 121.545966,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓8F辦公室門內",
     "lat": 25.037102,
     "lng": 121.545966,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓8FB梯",
     "lat": 25.037102,
     "lng": 121.545966,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓9F護理站",
     "lat": 25.037102,
     "lng": 121.545966,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓9F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓11F會議室",
     "lat": 25.037102,
     "lng": 121.545966,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓11F1128病房門",
     "lat": 25.037106,
     "lng": 121.545961,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓3F女性健康中心門口",
     "lat": 25.037207,
     "lng": 121.545839,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓3F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓2F7號檢查室門口",
     "lat": 25.037228,
     "lng": 121.545822,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓2F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓11FC梯",
     "lat": 25.037238,
     "lng": 121.546019,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓9F會議室門內",
     "lat": 25.037297,
     "lng": 121.544778,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓9F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓2F精神科門口",
     "lat": 25.037298,
     "lng": 121.545385,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓7F候診區",
     "lat": 25.037298,
     "lng": 121.545385,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓3F控制室門口右方",
     "lat": 25.037298,
     "lng": 121.545757,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓3F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓6F612病房門口",
     "lat": 25.037302,
     "lng": 121.544799,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓10F1006病房門口",
     "lat": 25.037306,
     "lng": 121.544835,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓10F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國泰醫院台北總院第二院區RF-樓頂(試辦單位-暫停服務至2016/12/31)",
     "lat": 25.037349,
     "lng": 121.55279,
-    "address": "106臺北市大安區仁愛路四段266巷6號(第二院區)"
+    "address": "106臺北市大安區仁愛路四段266巷6號(第二院區)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行仁和分行",
     "lat": 25.037351,
     "lng": 121.555829,
-    "address": "106臺北市大安區仁愛路四段376號"
+    "address": "106臺北市大安區仁愛路四段376號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓2F內科",
     "lat": 25.037352,
     "lng": 121.544733,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓B1F樓梯旁用餐區",
     "lat": 25.037373,
     "lng": 121.545315,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓B1F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓B1F供應室內中央",
     "lat": 25.037389,
     "lng": 121.545001,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓B1F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓6F護理站右側",
     "lat": 25.037389,
     "lng": 121.545001,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓10F觀察室門口",
     "lat": 25.037389,
     "lng": 121.545001,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓10F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓7F護理站右方",
     "lat": 25.037389,
     "lng": 121.545002,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓10F1028病房門口",
     "lat": 25.037396,
     "lng": 121.544664,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓10F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓2F眼科2診門口",
     "lat": 25.037397,
     "lng": 121.545634,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓5F癌症中心門口",
     "lat": 25.037397,
     "lng": 121.545634,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓5F受訓學員休息室門口",
     "lat": 25.037397,
     "lng": 121.545634,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓6F共同檢查室門口",
     "lat": 25.037397,
     "lng": 121.545634,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓6F護理站二左側",
     "lat": 25.037397,
     "lng": 121.545634,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓7FD梯",
     "lat": 25.037397,
     "lng": 121.545634,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓12F茶水間走廊",
     "lat": 25.037397,
     "lng": 121.545634,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓12F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓12F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓1F核醫科櫃台",
     "lat": 25.037422,
     "lng": 121.545872,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓1F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓1F螢幕前方",
     "lat": 25.037426,
     "lng": 121.545769,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓1F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓B1F藥劑科走廊中間",
     "lat": 25.03743,
     "lng": 121.545487,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓B1F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓B1F來賓用餐區中央",
     "lat": 25.037438,
     "lng": 121.545392,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓B1F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓10F健康管理中心櫃台",
     "lat": 25.03745,
     "lng": 121.54548,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓10F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓2F一般兒科",
     "lat": 25.037456,
     "lng": 121.544755,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓2F3號檢查室門口",
     "lat": 25.037478,
     "lng": 121.545825,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓2F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓9F汙物室",
     "lat": 25.037493,
     "lng": 121.544659,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓9F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓6F638病房門口",
     "lat": 25.037499,
     "lng": 121.544718,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓10F1037病房門口",
     "lat": 25.0375,
     "lng": 121.5454,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓10F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓2F志工服務台",
     "lat": 25.037512,
     "lng": 121.545224,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓2F內分泌科",
     "lat": 25.037512,
     "lng": 121.545224,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓5F仁愛健身中心左側走廊",
     "lat": 25.037512,
     "lng": 121.545224,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓6F護理站一左側",
     "lat": 25.037512,
     "lng": 121.545224,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓7F護理站左側",
     "lat": 25.037512,
     "lng": 121.545224,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓12F企劃課",
     "lat": 25.037512,
     "lng": 121.545224,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓12F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓12F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓12F解剖病理科門口",
     "lat": 25.037512,
     "lng": 121.545224,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓12F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓12F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓B1F管制區門口",
     "lat": 25.037562,
     "lng": 121.54587,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓B1F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(仁愛分行)",
     "lat": 25.037571,
     "lng": 121.547292,
-    "address": "106臺北市大安區仁愛路四段50號"
+    "address": "106臺北市大安區仁愛路四段50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓4F06號房門口",
     "lat": 25.037627,
     "lng": 121.545472,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓4F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓4F21號房門口",
     "lat": 25.037627,
     "lng": 121.545472,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓4F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區檢驗大樓4F茶水間旁壁櫃",
     "lat": 25.037642,
     "lng": 121.54604,
-    "address": "106臺北市大安區仁愛路四段10號檢驗大樓4F"
+    "address": "106臺北市大安區仁愛路四段10號檢驗大樓4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓5F客用電梯西側",
     "lat": 25.037752,
     "lng": 121.544373,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓12F1252病房",
     "lat": 25.037764,
     "lng": 121.54482,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓12F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓12F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓12F被服室",
     "lat": 25.037764,
     "lng": 121.54482,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓12F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓12F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓5F西南側走道上",
     "lat": 25.037793,
     "lng": 121.544968,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫仁愛院區醫療大樓11F公共電話",
     "lat": 25.037799,
     "lng": 121.546045,
-    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F"
+    "address": "106臺北市大安區仁愛路四段10號醫療大樓11F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "仁愛復興路口(福華飯店)-E-仁愛路三段",
     "lat": 25.037857,
     "lng": 121.543339,
-    "address": "106臺北市大安區仁愛路三段160號前分隔島候車亭"
+    "address": "106臺北市大安區仁愛路三段160號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行仁愛路分行",
     "lat": 25.038279,
     "lng": 121.544799,
-    "address": "106臺北市大安區仁愛路四段25號"
+    "address": "106臺北市大安區仁愛路四段25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "聯合醫院仁愛院區-N-復興南路一段",
     "lat": 25.038597,
     "lng": 121.543831,
-    "address": "106臺北市大安區復興南路一段227號旁候車亭"
+    "address": "106臺北市大安區復興南路一段227號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "國父紀念館-S-光復南路",
     "lat": 25.039252,
     "lng": 121.557561,
-    "address": "106臺北市大安區光復南路300號前候車亭"
+    "address": "106臺北市大安區光復南路300號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "安和敦化路口-N-敦化南路一段",
     "lat": 25.039408,
     "lng": 121.54909,
-    "address": "106臺北市大安區敦化南路一段243號候車亭"
+    "address": "106臺北市大安區敦化南路一段243號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "懷生國中-S-復興南路一段",
     "lat": 25.039607,
     "lng": 121.543584,
-    "address": "106臺北市大安區復興南路一段202號前候車亭"
+    "address": "106臺北市大安區復興南路一段202號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

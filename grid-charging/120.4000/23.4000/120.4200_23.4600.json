@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義市西區戶政事務所",
     "lat": 23.464506,
     "lng": 120.435476,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義興嘉郵局",
     "lat": 23.464748,
     "lng": 120.43595,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義玉山郵局",
     "lat": 23.472416,
     "lng": 120.42875,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義福全郵局",
     "lat": 23.476971,
     "lng": 120.435086,

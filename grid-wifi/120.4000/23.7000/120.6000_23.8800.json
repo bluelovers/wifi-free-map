@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣清水岩寺",
     "lat": 23.886364,
     "lng": 120.613872,
-    "address": "511彰化縣社頭鄉清水村清水岩路1號"
+    "address": "511彰化縣社頭鄉清水村清水岩路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣社頭鄉清水岩生態展示中心",
     "lat": 23.886397,
     "lng": 120.613908,
-    "address": "511彰化縣社頭鄉清水村清水岩路1-1號"
+    "address": "511彰化縣社頭鄉清水村清水岩路1-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣社頭鄉清聖宮",
     "lat": 23.889055,
     "lng": 120.607867,
-    "address": "511彰化縣社頭鄉清水村清興路50巷71號"
+    "address": "511彰化縣社頭鄉清水村清興路50巷71號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀竹南科學園區分行",
     "lat": 24.706867,
     "lng": 120.919776,
-    "address": "350苗栗縣竹南鎮科研路36號1樓105室"
+    "address": "350苗栗縣竹南鎮科研路36號1樓105室",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

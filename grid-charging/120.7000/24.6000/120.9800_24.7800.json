@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "清華大學郵局",
     "lat": 24.795979,
     "lng": 120.997598,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司新竹服務所",
     "lat": 24.797151,
     "lng": 120.987737,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹學府路郵局",
     "lat": 24.797184,
     "lng": 120.986483,

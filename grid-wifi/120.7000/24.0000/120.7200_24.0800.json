@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市大里區竹仔坑社區發展協會",
     "lat": 24.089624,
     "lng": 120.729798,
-    "address": "412臺中市大里區健民里校前路27號"
+    "address": "412臺中市大里區健民里校前路27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車竹仔坑站",
     "lat": 24.091537,
     "lng": 120.729345,
-    "address": "412臺中市大里區仁化路25號對面(TCTL1230)"
+    "address": "412臺中市大里區仁化路25號對面(TCTL1230)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

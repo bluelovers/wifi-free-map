@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣南投市福山社區發展協會",
     "lat": 23.913068,
     "lng": 120.637551,
-    "address": "540南投縣南投市福山里八卦路521之12號"
+    "address": "540南投縣南投市福山里八卦路521之12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市中區戶政事務所",
     "lat": 24.144106,
     "lng": 120.679567,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中英才郵局",
     "lat": 24.144563,
     "lng": 120.665928,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中英才郵局國際包裹驗關室",
     "lat": 24.144913,
     "lng": 120.665996,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中中正路郵局",
     "lat": 24.147255,
     "lng": 120.673927,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中公益路郵局",
     "lat": 24.150631,
     "lng": 120.660753,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中五權路郵局",
     "lat": 24.152103,
     "lng": 120.678591,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中淡溝郵局",
     "lat": 24.157046,
     "lng": 120.670352,

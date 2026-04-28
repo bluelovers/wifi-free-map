@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "望安綠蠵龜觀光保育中心",
     "lat": 23.364391,
     "lng": 119.50709,
-    "address": "882澎湖縣望安鄉東安村1-4號"
+    "address": "882澎湖縣望安鄉東安村1-4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "望安航空站",
     "lat": 23.367423,
     "lng": 119.50319,
-    "address": "882澎湖縣望安鄉中社村156號"
+    "address": "882澎湖縣望安鄉中社村156號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

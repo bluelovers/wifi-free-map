@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市岡山區大後協社區發展協會",
     "lat": 22.783385,
     "lng": 120.279465,
-    "address": "820高雄市岡山區後協里後協路75巷2號"
+    "address": "820高雄市岡山區後協里後協路75巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

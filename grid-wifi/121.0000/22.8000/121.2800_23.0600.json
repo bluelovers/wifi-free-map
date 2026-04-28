@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣東河鄉北源村村民服務處一",
     "lat": 23.069172,
     "lng": 121.285525,
-    "address": "959臺東縣東河鄉北源村2鄰13-10號"
+    "address": "959臺東縣東河鄉北源村2鄰13-10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣東河鄉北源村村民服務處二",
     "lat": 23.069172,
     "lng": 121.285525,
-    "address": "959臺東縣東河鄉北源村1鄰14-8號"
+    "address": "959臺東縣東河鄉北源村1鄰14-8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣東河鄉北源村村民服務處三",
     "lat": 23.069172,
     "lng": 121.285525,
-    "address": "959臺東縣東河鄉北源村1鄰12號"
+    "address": "959臺東縣東河鄉北源村1鄰12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "國軍退除役官兵輔導委員會臺東農場東河分場遊客服務中心大廳",
     "lat": 23.074396,
     "lng": 121.299948,
-    "address": "959臺東縣東河鄉北源村德高老67號"
+    "address": "959臺東縣東河鄉北源村德高老67號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

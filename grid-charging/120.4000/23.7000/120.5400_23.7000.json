@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司斗六營運所",
     "lat": 23.707233,
     "lng": 120.548533,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "斗六永安郵局",
     "lat": 23.710611,
     "lng": 120.54769,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局斗六站候車大廳",
     "lat": 23.711757,
     "lng": 120.541481,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局斗六站第2月台行車室",
     "lat": 23.711757,
     "lng": 120.541481,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局斗六站第1月台運轉室",
     "lat": 23.711757,
     "lng": 120.541481,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司雲林直銷中心",
     "lat": 23.71256,
     "lng": 120.557172,

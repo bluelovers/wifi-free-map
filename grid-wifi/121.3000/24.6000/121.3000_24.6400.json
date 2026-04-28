@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣尖石鄉馬里光部落(下6鄰)",
     "lat": 24.65353,
     "lng": 121.31605,
-    "address": "313新竹縣尖石鄉玉峰村6鄰宇抬41號"
+    "address": "313新竹縣尖石鄉玉峰村6鄰宇抬41號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣尖石鄉馬里光部落(上6鄰)",
     "lat": 24.65945,
     "lng": 121.30203,
-    "address": "313新竹縣尖石鄉玉峰村5鄰55號之1"
+    "address": "313新竹縣尖石鄉玉峰村5鄰55號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

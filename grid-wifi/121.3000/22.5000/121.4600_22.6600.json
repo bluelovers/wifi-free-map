@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "綠島郵局",
     "lat": 22.667982,
     "lng": 121.468775,
-    "address": "951臺東縣綠島鄉南寮村南寮路186號"
+    "address": "951臺東縣綠島鄉南寮村南寮路186號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "綠島管理站",
     "lat": 22.667982,
     "lng": 121.468775,
-    "address": "951臺東縣綠島鄉南寮298號"
+    "address": "951臺東縣綠島鄉南寮298號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

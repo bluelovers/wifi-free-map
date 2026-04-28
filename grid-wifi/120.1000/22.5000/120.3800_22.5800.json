@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市政府地政局大寮地政事務所",
     "lat": 22.593013,
     "lng": 120.397625,
-    "address": "831高雄市大寮區內坑里仁勇路69號"
+    "address": "831高雄市大寮區內坑里仁勇路69號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市源生慈善會(內坑站)",
     "lat": 22.594615,
     "lng": 120.39017,
-    "address": "831高雄市大寮區內坑里內坑路105號"
+    "address": "831高雄市大寮區內坑里內坑路105號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

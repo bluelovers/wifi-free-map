@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司內湖服務所大廳",
     "lat": 25.080323,
     "lng": 121.563191,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內湖西湖郵局",
     "lat": 25.082207,
     "lng": 121.568275,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內湖北勢湖郵局",
     "lat": 25.084606,
     "lng": 121.561343,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局大里站候車室",
     "lat": 24.966821,
     "lng": 121.922522,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大里遊客中心",
     "lat": 24.969428,
     "lng": 121.92407,

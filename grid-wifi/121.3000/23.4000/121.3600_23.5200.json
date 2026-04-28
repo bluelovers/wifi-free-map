@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣瑞穗鄉瑞北國民小學",
     "lat": 23.525667,
     "lng": 121.378391,
-    "address": "978花蓮縣瑞穗鄉中正北路二段35號"
+    "address": "978花蓮縣瑞穗鄉中正北路二段35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣萬榮鄉東光村辦公處",
     "lat": 23.527102,
     "lng": 121.368652,
-    "address": "979花蓮縣萬榮鄉馬遠村9鄰209號"
+    "address": "979花蓮縣萬榮鄉馬遠村9鄰209號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣瑞穗鄉瑞北村辦公處",
     "lat": 23.52942,
     "lng": 121.37801,
-    "address": "978花蓮縣瑞穗鄉瑞北村4鄰54-1號"
+    "address": "978花蓮縣瑞穗鄉瑞北村4鄰54-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

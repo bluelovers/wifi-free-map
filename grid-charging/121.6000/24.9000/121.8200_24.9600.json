@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "太平派出所",
     "lat": 24.9715,
     "lng": 121.8259,

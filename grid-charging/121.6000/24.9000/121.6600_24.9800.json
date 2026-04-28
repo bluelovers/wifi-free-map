@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市新店戶政事務所石碇區所",
     "lat": 24.991319,
     "lng": 121.660435,

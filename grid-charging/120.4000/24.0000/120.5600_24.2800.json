@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "清水田寮郵局",
     "lat": 24.281494,
     "lng": 120.575188,

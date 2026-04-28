@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "魚池頭社郵局",
     "lat": 23.832502,
     "lng": 120.895586,

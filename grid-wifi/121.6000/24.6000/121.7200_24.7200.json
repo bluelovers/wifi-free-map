@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局惠好派出所",
     "lat": 24.729322,
     "lng": 121.729152,
-    "address": "264宜蘭縣員山鄉尚惠路63號"
+    "address": "264宜蘭縣員山鄉尚惠路63號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣員山鄉惠好社區發展協會",
     "lat": 24.731738,
     "lng": 121.730742,
-    "address": "264宜蘭縣員山鄉惠好村賢德路二段66巷50號"
+    "address": "264宜蘭縣員山鄉惠好村賢德路二段66巷50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣宜蘭市育才國小行政大樓一樓牆面朝進士路",
     "lat": 24.733726,
     "lng": 121.737254,
-    "address": "260宜蘭縣宜蘭市進士路8號"
+    "address": "260宜蘭縣宜蘭市進士路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣員山鄉尚德社區發展協會",
     "lat": 24.737618,
     "lng": 121.722128,
-    "address": "264宜蘭縣員山鄉尚德村三鬮路35巷13號"
+    "address": "264宜蘭縣員山鄉尚德村三鬮路35巷13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

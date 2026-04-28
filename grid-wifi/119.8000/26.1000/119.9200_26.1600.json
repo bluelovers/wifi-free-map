@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "連江縣南竿鄉津沙社區發展協會",
     "lat": 26.161,
     "lng": 119.92,
-    "address": "209連江縣南竿鄉津沙村61之1號"
+    "address": "209連江縣南竿鄉津沙村61之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

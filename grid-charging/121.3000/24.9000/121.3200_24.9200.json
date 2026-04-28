@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鶯歌二橋郵局",
     "lat": 24.938056,
     "lng": 121.33176,

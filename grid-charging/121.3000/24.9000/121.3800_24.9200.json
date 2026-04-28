@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三峽橫溪郵局",
     "lat": 24.937318,
     "lng": 121.395544,

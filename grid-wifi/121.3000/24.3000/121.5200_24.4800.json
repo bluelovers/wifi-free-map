@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局太平山派出所",
     "lat": 24.492314,
     "lng": 121.536768,
-    "address": "267宜蘭縣大同鄉太平村太平巷94之2號"
+    "address": "267宜蘭縣大同鄉太平村太平巷94之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "太平山森林遊樂區雲海咖啡館服務台",
     "lat": 24.492769,
     "lng": 121.536006,
-    "address": "267宜蘭縣大同鄉太平村太平巷58-1號"
+    "address": "267宜蘭縣大同鄉太平村太平巷58-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

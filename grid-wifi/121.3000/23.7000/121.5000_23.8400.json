@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣壽豐鄉豐裡國民小學",
     "lat": 23.841489,
     "lng": 121.507695,
-    "address": "974花蓮縣壽豐鄉豐裡村中山路299號"
+    "address": "974花蓮縣壽豐鄉豐裡村中山路299號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣壽豐鄉公所豐裡村辦公處",
     "lat": 23.842904,
     "lng": 121.505281,
-    "address": "974花蓮縣壽豐鄉豐裡村中山路257號"
+    "address": "974花蓮縣壽豐鄉豐裡村中山路257號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "門諾豐裡睿智據點",
     "lat": 23.844036,
     "lng": 121.501633,
-    "address": "974花蓮縣壽豐鄉豐裡村忠孝街102號"
+    "address": "974花蓮縣壽豐鄉豐裡村忠孝街102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立壽豐國民中學",
     "lat": 23.845812,
     "lng": 121.500437,
-    "address": "974花蓮縣壽豐鄉豐裡村中山路132號"
+    "address": "974花蓮縣壽豐鄉豐裡村中山路132號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鹿港草港郵局",
     "lat": 24.108125,
     "lng": 120.459429,
-    "address": "505彰化縣鹿港鎮草中里頂草路四段406號"
+    "address": "505彰化縣鹿港鎮草中里頂草路四段406號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣鹿港鎮山崙社區活動中心",
     "lat": 24.119622,
     "lng": 120.454287,
-    "address": "505彰化縣鹿港鎮山崙里山寮巷52號"
+    "address": "505彰化縣鹿港鎮山崙里山寮巷52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

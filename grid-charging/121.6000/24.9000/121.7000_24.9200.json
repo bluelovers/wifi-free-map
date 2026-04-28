@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市新店戶政事務所坪林區所3F_A",
     "lat": 24.936094,
     "lng": 121.711781,

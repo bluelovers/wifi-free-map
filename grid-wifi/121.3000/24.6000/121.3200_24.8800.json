@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市三峽區二鬮里辦公處",
     "lat": 24.898296,
     "lng": 121.338292,
-    "address": "237新北市三峽區二鬮里大埔里中正路二段449號"
+    "address": "237新北市三峽區二鬮里大埔里中正路二段449號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

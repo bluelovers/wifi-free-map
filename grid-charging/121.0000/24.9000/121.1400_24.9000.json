@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楊梅秀才郵局",
     "lat": 24.904761,
     "lng": 121.142575,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局楊梅分局",
     "lat": 24.906722,
     "lng": 121.145819,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楊梅大同郵局",
     "lat": 24.907932,
     "lng": 121.153292,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楊梅光華郵局",
     "lat": 24.908173,
     "lng": 121.145394,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楊梅郵局",
     "lat": 24.911043,
     "lng": 121.143592,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司楊梅服務所",
     "lat": 24.91353,
     "lng": 121.147693,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楊梅幼工郵局",
     "lat": 24.916667,
     "lng": 121.15,

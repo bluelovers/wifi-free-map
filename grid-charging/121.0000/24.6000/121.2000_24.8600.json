@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龍潭南龍郵局",
     "lat": 24.863884,
     "lng": 121.212225,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市龍潭區戶政事務所",
     "lat": 24.864196,
     "lng": 121.216589,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龍潭郵局",
     "lat": 24.866656,
     "lng": 121.216914,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局龍潭分局",
     "lat": 24.868712,
     "lng": 121.207389,

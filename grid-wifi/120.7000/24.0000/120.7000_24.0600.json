@@ -1,130 +1,178 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "霧峰區衛生所",
     "lat": 24.06072,
     "lng": 120.700703,
-    "address": "413臺中市霧峰區民生路1-9號"
+    "address": "413臺中市霧峰區民生路1-9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "霧峰區公所",
     "lat": 24.061142,
     "lng": 120.700185,
-    "address": "413臺中市霧峰區大同路20號"
+    "address": "413臺中市霧峰區大同路20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺中市霧峰區公所",
     "lat": 24.061228,
     "lng": 120.700157,
-    "address": "413臺中市霧峰區大同路20號"
+    "address": "413臺中市霧峰區大同路20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市霧峰區萊園社區發展協會",
     "lat": 24.063636,
     "lng": 120.702266,
-    "address": "413臺中市霧峰區萊園里萊園路57巷3號"
+    "address": "413臺中市霧峰區萊園里萊園路57巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "霧峰民生路郵局",
     "lat": 24.065922,
     "lng": 120.700407,
-    "address": "413臺中市霧峰區民生路93號"
+    "address": "413臺中市霧峰區民生路93號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市霧峰區甲寅社區發展協會",
     "lat": 24.068024,
     "lng": 120.701077,
-    "address": "413臺中市霧峰區甲寅里民生路125巷8號"
+    "address": "413臺中市霧峰區甲寅里民生路125巷8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店霧峰民生路新六順店(公話)",
     "lat": 24.070743,
     "lng": 120.703014,
-    "address": "413臺中市霧峰區民生路201號"
+    "address": "413臺中市霧峰區民生路201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商霧峰吉峰東路朝陽大學店(公話)",
     "lat": 24.07434,
     "lng": 120.714483,
-    "address": "413臺中市霧峰區吉峰東路62號"
+    "address": "413臺中市霧峰區吉峰東路62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市霧峰區吉峰社區發展協會",
     "lat": 24.07557,
     "lng": 120.700974,
-    "address": "413臺中市霧峰區吉峰里吉峰路184號一樓"
+    "address": "413臺中市霧峰區吉峰里吉峰路184號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "霧峰區戶政事務所",
     "lat": 24.07559,
     "lng": 120.700504,
-    "address": "413臺中市霧峰區吉峰路16號"
+    "address": "413臺中市霧峰區吉峰路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店霧峰錦州路新錦峰店(公話)",
     "lat": 24.07667,
     "lng": 120.70719,
-    "address": "413臺中市霧峰區錦州路331號"
+    "address": "413臺中市霧峰區錦州路331號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商霧峰吉峰路新峰店(公話)",
     "lat": 24.077452,
     "lng": 120.713849,
-    "address": "413臺中市霧峰區吉峰路153號"
+    "address": "413臺中市霧峰區吉峰路153號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "水利署水利規劃試驗所1樓服務台",
     "lat": 24.077788,
     "lng": 120.700328,
-    "address": "413臺中市霧峰區中正路1340號"
+    "address": "413臺中市霧峰區中正路1340號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "水利署中區水資源局1樓服務台",
     "lat": 24.078469,
     "lng": 120.701841,
-    "address": "413臺中市霧峰區峰堤路195號"
+    "address": "413臺中市霧峰區峰堤路195號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店霧峰區民生路吉峰店(公話)",
     "lat": 24.078758,
     "lng": 120.718469,
-    "address": "413臺中市霧峰區民生路353號"
+    "address": "413臺中市霧峰區民生路353號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "水利署第三河川局1樓服務台",
     "lat": 24.0794,
     "lng": 120.703397,
-    "address": "413臺中市霧峰區峰堤路191號"
+    "address": "413臺中市霧峰區峰堤路191號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

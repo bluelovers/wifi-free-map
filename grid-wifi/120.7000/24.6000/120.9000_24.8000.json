@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市虎山市民活動中心",
     "lat": 24.808808,
     "lng": 120.919258,
-    "address": "300新竹市香山區華江街69巷50號"
+    "address": "300新竹市香山區華江街69巷50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

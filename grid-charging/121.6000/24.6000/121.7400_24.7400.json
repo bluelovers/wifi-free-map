@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "宜蘭大學郵局",
     "lat": 24.746344,
     "lng": 121.748836,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司宜蘭北區服務所",
     "lat": 24.749124,
     "lng": 121.752818,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "宜蘭市戶政事務所",
     "lat": 24.749326,
     "lng": 121.752977,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署第一河川局1樓服務台",
     "lat": 24.75097,
     "lng": 121.752109,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "宜蘭渭水路郵局",
     "lat": 24.753396,
     "lng": 121.752429,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "宜蘭西後街郵局",
     "lat": 24.755589,
     "lng": 121.751317,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "宜蘭中山路郵局",
     "lat": 24.758515,
     "lng": 121.752915,

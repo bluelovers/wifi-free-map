@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司台東縣大武鄉大武站",
     "lat": 22.341747,
     "lng": 120.894912,

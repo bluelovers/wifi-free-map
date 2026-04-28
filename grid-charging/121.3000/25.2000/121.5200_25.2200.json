@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三芝遊客中心",
     "lat": 25.237046,
     "lng": 121.525582,

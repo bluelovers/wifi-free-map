@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "[目前暫停使用施工中]臺中市立圖書館大安分館",
     "lat": 24.34574,
     "lng": 120.589288,
-    "address": "439臺中市大安區中庄里興安路378號"
+    "address": "439臺中市大安區中庄里興安路378號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺中市立圖書館大安分館",
     "lat": 24.345741,
     "lng": 120.589252,
-    "address": "439臺中市大安區興安路378號"
+    "address": "439臺中市大安區興安路378號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車大安區圖書館站",
     "lat": 24.34587,
     "lng": 120.58921,
-    "address": "439臺中市大安區興安路378號(公話)"
+    "address": "439臺中市大安區興安路378號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大安區戶政事務所",
     "lat": 24.345971,
     "lng": 120.587296,
-    "address": "439臺中市大安區中山南路302號"
+    "address": "439臺中市大安區中山南路302號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "大安區衛生所",
     "lat": 24.346102,
     "lng": 120.586273,
-    "address": "439臺中市大安區中山南路333號"
+    "address": "439臺中市大安區中山南路333號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大安區公所",
     "lat": 24.346264,
     "lng": 120.586592,
-    "address": "439臺中市大安區中山南路356號"
+    "address": "439臺中市大安區中山南路356號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大安郵局",
     "lat": 24.346624,
     "lng": 120.586047,
-    "address": "439臺中市大安區中山南路343號"
+    "address": "439臺中市大安區中山南路343號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

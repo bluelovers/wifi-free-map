@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大肚蔗部郵局",
     "lat": 24.170389,
     "lng": 120.579589,

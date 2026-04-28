@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "南投縣政府福興溫泉遊客中心",
     "lat": 24.009552,
     "lng": 120.967033,
-    "address": "545南投縣埔里鎮福興路293號"
+    "address": "545南投縣埔里鎮福興路293號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "福興溫泉區親子公園",
     "lat": 24.011724,
     "lng": 120.966153,
-    "address": "545南投縣埔里鎮福興路293號"
+    "address": "545南投縣埔里鎮福興路293號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

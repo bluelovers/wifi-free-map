@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三灣郵局",
     "lat": 24.656626,
     "lng": 120.958894,

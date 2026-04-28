@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "墾丁國家公園管理處龍坑管制站",
     "lat": 21.903126,
     "lng": 120.855702,
-    "address": "946屏東縣恆春鎮鵝鑾路50號"
+    "address": "946屏東縣恆春鎮鵝鑾路50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "墾丁國家公園管理處鵝鑾鼻(1)",
     "lat": 21.904143,
     "lng": 120.850856,
-    "address": "946屏東縣恆春鎮燈塔路301號"
+    "address": "946屏東縣恆春鎮燈塔路301號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

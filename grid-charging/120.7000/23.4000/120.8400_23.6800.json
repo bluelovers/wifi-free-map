@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "信義郵局",
     "lat": 23.697027,
     "lng": 120.854066,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投縣政府警察局信義分局",
     "lat": 23.697217,
     "lng": 120.854215,

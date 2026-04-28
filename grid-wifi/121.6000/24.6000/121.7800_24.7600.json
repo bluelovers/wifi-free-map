@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣壯圍鄉古亭國小體育館一樓牆面朝古亭路",
     "lat": 24.776448,
     "lng": 121.79718,
-    "address": "263宜蘭縣壯圍鄉古亭路81號"
+    "address": "263宜蘭縣壯圍鄉古亭路81號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣壯圍鄉美城社區發展協會",
     "lat": 24.77736,
     "lng": 121.788925,
-    "address": "263宜蘭縣壯圍鄉美城村永美路二段121號"
+    "address": "263宜蘭縣壯圍鄉美城村永美路二段121號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局美城派出所",
     "lat": 24.777582,
     "lng": 121.787526,
-    "address": "263宜蘭縣壯圍鄉大福路三段38號"
+    "address": "263宜蘭縣壯圍鄉大福路三段38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

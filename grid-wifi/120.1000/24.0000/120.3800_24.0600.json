@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣台灣玻璃館1樓",
     "lat": 24.068958,
     "lng": 120.395157,
-    "address": "505彰化縣鹿港鎮鹿工南四路30號"
+    "address": "505彰化縣鹿港鎮鹿工南四路30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣台灣玻璃館2樓",
     "lat": 24.068958,
     "lng": 120.395157,
-    "address": "505彰化縣鹿港鎮鹿工南四路30號"
+    "address": "505彰化縣鹿港鎮鹿工南四路30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣緞帶王織帶文化園區觀光工廠",
     "lat": 24.076833,
     "lng": 120.395243,
-    "address": "505彰化縣鹿港鎮鹿工路15號"
+    "address": "505彰化縣鹿港鎮鹿工路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

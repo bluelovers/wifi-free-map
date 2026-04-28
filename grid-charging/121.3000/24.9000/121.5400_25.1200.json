@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林文化大學郵局",
     "lat": 25.137688,
     "lng": 121.540962,

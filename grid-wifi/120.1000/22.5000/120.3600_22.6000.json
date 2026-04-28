@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市活泉愛鄰社區服務協會",
     "lat": 22.6108,
     "lng": 120.362,
-    "address": "830高雄市鳳山區誠義里誠東街1號"
+    "address": "830高雄市鳳山區誠義里誠東街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市鳳山區瑞竹社區發展協會",
     "lat": 22.615,
     "lng": 120.36,
-    "address": "830高雄市鳳山區瑞興里光遠路120巷16號"
+    "address": "830高雄市鳳山區瑞興里光遠路120巷16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "黃埔借問站",
     "lat": 22.617965,
     "lng": 120.364189,
-    "address": "830高雄市鳳山區西五巷47號"
+    "address": "830高雄市鳳山區西五巷47號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

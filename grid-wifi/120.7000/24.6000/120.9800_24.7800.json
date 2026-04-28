@@ -1,98 +1,134 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹陽明交大郵局",
     "lat": 24.788321,
     "lng": 120.998322,
-    "address": "300新竹市東區大學路1001號"
+    "address": "300新竹市東區大學路1001號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國立交通大學資訊技術服務中心",
     "lat": 24.789397,
     "lng": 120.99979,
-    "address": "300新竹市東區大學路1001號"
+    "address": "300新竹市東區大學路1001號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國立交通大學資訊技術服務中心外小木屋廣場",
     "lat": 24.789397,
     "lng": 120.99979,
-    "address": "300新竹市東區大學路1001號"
+    "address": "300新竹市東區大學路1001號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "新竹市十八尖山愛林亭",
     "lat": 24.79141,
     "lng": 120.982819,
-    "address": "300新竹市東區十八尖山愛林亭"
+    "address": "300新竹市東區十八尖山愛林亭",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "新竹市十八尖山介壽亭",
     "lat": 24.792423,
     "lng": 120.984578,
-    "address": "300新竹市東區十八尖山介壽亭"
+    "address": "300新竹市東區十八尖山介壽亭",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "清華大學郵局",
     "lat": 24.792997,
     "lng": 120.993135,
-    "address": "300新竹市東區光復路二段101號"
+    "address": "300新竹市東區光復路二段101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "新竹市十八尖山幸福亭",
     "lat": 24.794663,
     "lng": 120.98666,
-    "address": "300新竹市東區十八尖山幸福亭"
+    "address": "300新竹市東區十八尖山幸福亭",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國立清華大學小吃部",
     "lat": 24.796138,
     "lng": 120.996425,
-    "address": "300新竹市東區光復路二段101號"
+    "address": "300新竹市東區光復路二段101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國立清華大學成功湖畔",
     "lat": 24.796138,
     "lng": 120.996425,
-    "address": "300新竹市東區光復路二段101號"
+    "address": "300新竹市東區光復路二段101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司新竹服務所",
     "lat": 24.797151,
     "lng": 120.987737,
-    "address": "300新竹市東區博愛街1號"
+    "address": "300新竹市東區博愛街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹學府路郵局",
     "lat": 24.797184,
     "lng": 120.986483,
-    "address": "300新竹市東區學府路128號"
+    "address": "300新竹市東區學府路128號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣老是在玩創新服務協會",
     "lat": 24.798,
     "lng": 120.985,
-    "address": "300新竹市東區新興里南大路473巷7弄21號"
+    "address": "300新竹市東區新興里南大路473巷7弄21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

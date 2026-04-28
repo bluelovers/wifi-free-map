@@ -1,114 +1,156 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "碧湖社區發展協會",
     "lat": 24.987762,
     "lng": 121.49257,
-    "address": "235新北市中和區錦昌里圓通路367巷15之1號五樓"
+    "address": "235新北市中和區錦昌里圓通路367巷15之1號五樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人新北市幸福種子全人關懷協會",
     "lat": 24.99059,
     "lng": 121.490451,
-    "address": "235新北市中和區錦中里錦和路388號二樓"
+    "address": "235新北市中和區錦中里錦和路388號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中和大華郵局",
     "lat": 24.991893,
     "lng": 121.499767,
-    "address": "235新北市中和區中興街132號"
+    "address": "235新北市中和區中興街132號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "雙和醫院-醫療大樓1樓大廳",
     "lat": 24.993731,
     "lng": 121.493983,
-    "address": "235新北市中和區中正路291號"
+    "address": "235新北市中和區中正路291號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中和中正路郵局",
     "lat": 24.993751,
     "lng": 121.495097,
-    "address": "235新北市中和區中正路277號1樓"
+    "address": "235新北市中和區中正路277號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人新北市銀髮族關懷推廣協會(中和仁和分站)",
     "lat": 24.995003,
     "lng": 121.483078,
-    "address": "235新北市中和區仁和里連城路477巷6弄1號"
+    "address": "235新北市中和區仁和里連城路477巷6弄1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣喜樂家族協會",
     "lat": 24.995331,
     "lng": 121.497903,
-    "address": "235新北市中和區正行里圓通路167巷3號"
+    "address": "235新北市中和區正行里圓通路167巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行連城分行",
     "lat": 24.996549,
     "lng": 121.486901,
-    "address": "235新北市中和區連城路258號"
+    "address": "235新北市中和區連城路258號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行圓通分行",
     "lat": 24.996711,
     "lng": 121.492261,
-    "address": "235新北市中和區連城路192號"
+    "address": "235新北市中和區連城路192號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行連城分行",
     "lat": 24.996745,
     "lng": 121.487914,
-    "address": "235新北市中和區建一路186號"
+    "address": "235新北市中和區建一路186號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中和連城路郵局",
     "lat": 24.996857,
     "lng": 121.49231,
-    "address": "235新北市中和區連城路192-1號"
+    "address": "235新北市中和區連城路192-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市中和區連城里辦公處",
     "lat": 24.99788,
     "lng": 121.495974,
-    "address": "235新北市中和區連城里安邦街18號二樓"
+    "address": "235新北市中和區連城里安邦街18號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市中和區世紀皇家管理委員會",
     "lat": 24.998532,
     "lng": 121.499117,
-    "address": "235新北市中和區力行里連勝街9號"
+    "address": "235新北市中和區力行里連勝街9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人慈暉文教基金會",
     "lat": 24.999,
     "lng": 121.498,
-    "address": "234新北市永和區信義里中山路一段24號B1"
+    "address": "234新北市永和區信義里中山路一段24號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

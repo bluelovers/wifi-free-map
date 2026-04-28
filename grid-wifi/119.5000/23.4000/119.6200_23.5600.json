@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "馬公航空站",
     "lat": 23.560616,
     "lng": 119.6297,
-    "address": "885澎湖縣湖西鄉隘門村126-5號"
+    "address": "885澎湖縣湖西鄉隘門村126-5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣湖西鄉隘門社區發展協會",
     "lat": 23.561694,
     "lng": 119.636901,
-    "address": "885澎湖縣湖西鄉隘門村隘門41之1號"
+    "address": "885澎湖縣湖西鄉隘門村隘門41之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "湖西隘門郵局",
     "lat": 23.565566,
     "lng": 119.635505,
-    "address": "885澎湖縣湖西鄉隘門村27-1號"
+    "address": "885澎湖縣湖西鄉隘門村27-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣湖西鄉城北村辦公處",
     "lat": 23.565608,
     "lng": 119.623378,
-    "address": "885澎湖縣湖西鄉城北村大城北23之1號"
+    "address": "885澎湖縣湖西鄉城北村大城北23之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

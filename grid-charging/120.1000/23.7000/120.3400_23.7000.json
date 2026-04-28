@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "土庫馬光郵局",
     "lat": 23.705206,
     "lng": 120.353155,

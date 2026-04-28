@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "西拉雅國家風景區管理處管理處服務台",
     "lat": 23.349837,
     "lng": 120.481043,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "橫山內灣郵局",
     "lat": 24.706683,
     "lng": 121.180298,

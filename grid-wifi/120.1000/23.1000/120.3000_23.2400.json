@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局林鳳營站第1月台天橋樓梯口",
     "lat": 23.24257,
     "lng": 120.318826,
-    "address": "734臺南市六甲區中社里林鳳營16號"
+    "address": "734臺南市六甲區中社里林鳳營16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市六甲區菁埔里辦公處",
     "lat": 23.252,
     "lng": 120.315,
-    "address": "734臺南市六甲區菁埔83號"
+    "address": "734臺南市六甲區菁埔83號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

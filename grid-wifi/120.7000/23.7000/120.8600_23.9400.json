@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣國姓鄉南港社區發展協會",
     "lat": 23.949936,
     "lng": 120.868877,
-    "address": "544南投縣國姓鄉南港村南港路112之11號"
+    "address": "544南投縣國姓鄉南港村南港路112之11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

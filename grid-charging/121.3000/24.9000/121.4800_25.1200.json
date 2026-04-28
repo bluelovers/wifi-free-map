@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北投文化郵局",
     "lat": 25.137362,
     "lng": 121.497491,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北投豐年郵局",
     "lat": 25.138382,
     "lng": 121.489231,

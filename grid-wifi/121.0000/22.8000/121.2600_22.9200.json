@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺東縣溫馨關懷協會-東河鄉-七里橋",
     "lat": 22.927717,
     "lng": 121.269365,
-    "address": "959臺東縣東河鄉隆昌村12鄰隆昌127號"
+    "address": "959臺東縣東河鄉隆昌村12鄰隆昌127號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣東河鄉公所隆昌村辦公處",
     "lat": 22.927987,
     "lng": 121.269166,
-    "address": "959臺東縣東河鄉隆昌村18鄰230號"
+    "address": "959臺東縣東河鄉隆昌村18鄰230號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣東河鄉隆昌村村民服務處一",
     "lat": 22.939716,
     "lng": 121.268359,
-    "address": "959臺東縣東河鄉隆昌村15鄰195-1號"
+    "address": "959臺東縣東河鄉隆昌村15鄰195-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣東河鄉隆昌村村民服務處二",
     "lat": 22.939716,
     "lng": 121.268359,
-    "address": "959臺東縣東河鄉隆昌村12鄰159號"
+    "address": "959臺東縣東河鄉隆昌村12鄰159號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣東河鄉隆昌村村民服務處三",
     "lat": 22.939716,
     "lng": 121.268359,
-    "address": "959臺東縣東河鄉隆昌村185號"
+    "address": "959臺東縣東河鄉隆昌村185號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

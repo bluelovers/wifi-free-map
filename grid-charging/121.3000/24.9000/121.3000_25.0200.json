@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園水汴頭郵局",
     "lat": 25.026725,
     "lng": 121.306077,

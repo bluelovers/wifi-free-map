@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市霧峰區萬豐社區發展協會",
     "lat": 24.023372,
     "lng": 120.697793,
-    "address": "413臺中市霧峰區萬豐里中正路144巷14號"
+    "address": "413臺中市霧峰區萬豐里中正路144巷14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺中市霧峰區舊正社區發展協會",
     "lat": 24.02543,
     "lng": 120.689948,
-    "address": "413臺中市霧峰區舊正里光明路116巷13號(光明路113號)"
+    "address": "413臺中市霧峰區舊正里光明路116巷13號(光明路113號)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "農業試驗所生物技術組",
     "lat": 24.027987,
     "lng": 120.688366,
-    "address": "413臺中市霧峰區舊正村豐正路255號"
+    "address": "413臺中市霧峰區舊正村豐正路255號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "農業試驗所行政大樓1F",
     "lat": 24.030026,
     "lng": 120.696488,
-    "address": "413臺中市霧峰區中正路189號"
+    "address": "413臺中市霧峰區中正路189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "農業試驗所行政大樓2F",
     "lat": 24.030026,
     "lng": 120.696488,
-    "address": "413臺中市霧峰區中正路189號"
+    "address": "413臺中市霧峰區中正路189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "農業試驗所行政大樓3F",
     "lat": 24.030026,
     "lng": 120.696488,
-    "address": "413臺中市霧峰區中正路189號"
+    "address": "413臺中市霧峰區中正路189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "農業試驗所行政大樓大禮堂",
     "lat": 24.030026,
     "lng": 120.696488,
-    "address": "413臺中市霧峰區中正路189號"
+    "address": "413臺中市霧峰區中正路189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市霧峰區六股社區發展協會",
     "lat": 24.037861,
     "lng": 120.689961,
-    "address": "413臺中市霧峰區六股里9鄰六股路51號"
+    "address": "413臺中市霧峰區六股里9鄰六股路51號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

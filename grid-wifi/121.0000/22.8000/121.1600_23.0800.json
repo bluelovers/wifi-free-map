@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣橄欖社會服務關懷協會-關山鎮-月眉",
     "lat": 23.096693,
     "lng": 121.179995,
-    "address": "956臺東縣關山鎮月眉里盛豐路10號"
+    "address": "956臺東縣關山鎮月眉里盛豐路10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

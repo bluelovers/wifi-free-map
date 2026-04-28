@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "布袋新塭郵局",
     "lat": 23.328101,
     "lng": 120.159091,

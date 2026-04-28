@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司深溝給水廠",
     "lat": 24.720609,
     "lng": 121.705835,
-    "address": "264宜蘭縣員山鄉員山路二段236號"
+    "address": "264宜蘭縣員山鄉員山路二段236號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

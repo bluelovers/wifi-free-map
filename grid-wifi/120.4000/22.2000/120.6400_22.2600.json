@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東縣枋寮戶政事務所枋山辦公室",
     "lat": 22.262918,
     "lng": 120.652252,
-    "address": "941屏東縣枋山鄉國中路26巷1-1號"
+    "address": "941屏東縣枋山鄉國中路26巷1-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局枋山站月台候車區",
     "lat": 22.267071,
     "lng": 120.657272,
-    "address": "943屏東縣獅子鄉內獅村內獅巷84號"
+    "address": "943屏東縣獅子鄉內獅村內獅巷84號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

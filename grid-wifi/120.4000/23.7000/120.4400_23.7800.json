@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行西螺分行",
     "lat": 23.796497,
     "lng": 120.457685,
-    "address": "648雲林縣西螺鎮光復西路239號"
+    "address": "648雲林縣西螺鎮光復西路239號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人雲林縣正駿關懷協會",
     "lat": 23.797105,
     "lng": 120.45588,
-    "address": "648雲林縣西螺鎮漢光里西興南路95號"
+    "address": "648雲林縣西螺鎮漢光里西興南路95號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "西螺埔心郵局",
     "lat": 23.798199,
     "lng": 120.441437,
-    "address": "648雲林縣西螺鎮埔心路164號"
+    "address": "648雲林縣西螺鎮埔心路164號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "雲林縣西螺鎮立圖書館",
     "lat": 23.798973,
     "lng": 120.457689,
-    "address": "648雲林縣西螺鎮漢光里平和路111之1號"
+    "address": "648雲林縣西螺鎮漢光里平和路111之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司金門行銷中心",
     "lat": 24.437691,
     "lng": 118.427993,

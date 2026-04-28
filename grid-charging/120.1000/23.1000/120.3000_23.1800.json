@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局隆田站候車室",
     "lat": 23.192663,
     "lng": 120.318898,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "官田隆田郵局",
     "lat": 23.194349,
     "lng": 120.316127,

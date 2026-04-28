@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市大內區內郭里辦公處",
     "lat": 23.123,
     "lng": 120.354,
-    "address": "742臺南市大內區內郭里2鄰後堀24號"
+    "address": "742臺南市大內區內郭里2鄰後堀24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

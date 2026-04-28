@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹田西勢郵局",
     "lat": 22.621416,
     "lng": 120.524375,

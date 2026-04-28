@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣仁愛鄉清流部落",
     "lat": 24.06869,
     "lng": 120.95333,
-    "address": "546南投縣仁愛鄉明月巷80號之1"
+    "address": "546南投縣仁愛鄉明月巷80號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

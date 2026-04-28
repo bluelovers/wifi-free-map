@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "伸港郵局",
     "lat": 24.146851,
     "lng": 120.484676,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣伸港鄉戶政事務所",
     "lat": 24.159598,
     "lng": 120.485644,

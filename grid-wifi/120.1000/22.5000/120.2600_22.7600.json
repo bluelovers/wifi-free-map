@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "梓官郵局",
     "lat": 22.761123,
     "lng": 120.26866,
-    "address": "826高雄市梓官區梓義村中崙路260號"
+    "address": "826高雄市梓官區梓義村中崙路260號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市梓官區戶政事務所",
     "lat": 22.761125,
     "lng": 120.266368,
-    "address": "826高雄市梓官區進學路5號"
+    "address": "826高雄市梓官區進學路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市梓官區公所",
     "lat": 22.761125,
     "lng": 120.267248,
-    "address": "826高雄市梓官區梓官路258號"
+    "address": "826高雄市梓官區梓官路258號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市梓官區梓義社區發展協會",
     "lat": 22.761852,
     "lng": 120.263662,
-    "address": "826高雄市梓官區梓義里進學路57號"
+    "address": "826高雄市梓官區梓義里進學路57號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館梓官分館",
     "lat": 22.762411,
     "lng": 120.266547,
-    "address": "826高雄市梓官區梓官路263號"
+    "address": "826高雄市梓官區梓官路263號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市梓官區梓信社區發展協會",
     "lat": 22.764429,
     "lng": 120.264398,
-    "address": "826高雄市梓官區梓信里中學路73號"
+    "address": "826高雄市梓官區梓信里中學路73號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市岡山區石潭社區發展協會",
     "lat": 22.77438,
     "lng": 120.266756,
-    "address": "820高雄市岡山區石潭里石潭路205巷26號"
+    "address": "820高雄市岡山區石潭里石潭路205巷26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市岡山區福興社區發展協會",
     "lat": 22.775867,
     "lng": 120.267209,
-    "address": "820高雄市岡山區福興里頂潭路13巷57之2號"
+    "address": "820高雄市岡山區福興里頂潭路13巷57之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

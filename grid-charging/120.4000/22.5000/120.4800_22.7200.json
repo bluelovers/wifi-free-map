@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "九如郵局",
     "lat": 22.73374,
     "lng": 120.490343,

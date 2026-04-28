@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "慈湖遊客中心",
     "lat": 24.839836,
     "lng": 121.292855,
-    "address": "335桃園市大溪區復興路一段1268號"
+    "address": "335桃園市大溪區復興路一段1268號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府警察局大溪分局慈湖分駐所",
     "lat": 24.839935,
     "lng": 121.292946,
-    "address": "335桃園市大溪區復興路一段1268號"
+    "address": "335桃園市大溪區復興路一段1268號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

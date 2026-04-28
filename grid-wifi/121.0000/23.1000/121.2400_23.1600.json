@@ -1,106 +1,145 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣富里鄉富南村辦公處",
     "lat": 23.162654,
     "lng": 121.241763,
-    "address": "983花蓮縣富里鄉富南村7鄰80號"
+    "address": "983花蓮縣富里鄉富南村7鄰80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣富里鄉富里國民小學",
     "lat": 23.17235,
     "lng": 121.248175,
-    "address": "983花蓮縣富里鄉富里村永安街52號"
+    "address": "983花蓮縣富里鄉富里村永安街52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣富里鄉圖書館",
     "lat": 23.172561,
     "lng": 121.250024,
-    "address": "983花蓮縣富里鄉富里村永安街123-2號"
+    "address": "983花蓮縣富里鄉富里村永安街123-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣富里鄉民代表會",
     "lat": 23.173741,
     "lng": 121.247637,
-    "address": "983花蓮縣富里鄉富里村中山路180號"
+    "address": "983花蓮縣富里鄉富里村中山路180號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "富里鄉文化館",
     "lat": 23.174039,
     "lng": 121.24554,
-    "address": "983花蓮縣富里鄉中山路184號"
+    "address": "983花蓮縣富里鄉中山路184號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "佛教慈濟醫療財團法人玉里慈濟醫院-富里鄉",
     "lat": 23.174171,
     "lng": 121.247675,
-    "address": "983花蓮縣富里鄉富里村中山路184號"
+    "address": "983花蓮縣富里鄉富里村中山路184號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立富里國民中學",
     "lat": 23.175499,
     "lng": 121.248786,
-    "address": "983花蓮縣富里鄉永安街173號"
+    "address": "983花蓮縣富里鄉永安街173號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣富里鄉戶政事務所",
     "lat": 23.175905,
     "lng": 121.248329,
-    "address": "983花蓮縣富里鄉富里村21鄰中山路144號"
+    "address": "983花蓮縣富里鄉富里村21鄰中山路144號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "富里郵局",
     "lat": 23.176511,
     "lng": 121.248247,
-    "address": "983花蓮縣富里鄉中山路169號"
+    "address": "983花蓮縣富里鄉中山路169號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣衛生局富里鄉衛生所",
     "lat": 23.17843,
     "lng": 121.249023,
-    "address": "983花蓮縣富里鄉中山路203號"
+    "address": "983花蓮縣富里鄉中山路203號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣富里鄉富里村辦公處",
     "lat": 23.17887,
     "lng": 121.249298,
-    "address": "983花蓮縣富里鄉富里村中山路205號"
+    "address": "983花蓮縣富里鄉富里村中山路205號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局富里站候車室",
     "lat": 23.179165,
     "lng": 121.248686,
-    "address": "983花蓮縣富里鄉車站街56號"
+    "address": "983花蓮縣富里鄉車站街56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣富里鄉公所",
     "lat": 23.179448,
     "lng": 121.250253,
-    "address": "983花蓮縣富里鄉中山路376號"
+    "address": "983花蓮縣富里鄉中山路376號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

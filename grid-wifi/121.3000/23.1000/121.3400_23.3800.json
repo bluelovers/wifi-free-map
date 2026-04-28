@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣玉里鎮巴島力安部落",
     "lat": 23.38035,
     "lng": 121.35792,
-    "address": "981花蓮縣玉里鎮觀音里高寮159號1"
+    "address": "981花蓮縣玉里鎮觀音里高寮159號1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "花蓮縣玉里鎮赤柯山民宿",
     "lat": 23.381049,
     "lng": 121.358708,
-    "address": "981花蓮縣玉里鎮觀音里高寮82號"
+    "address": "981花蓮縣玉里鎮觀音里高寮82號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣玉里鎮高寮國民小學",
     "lat": 23.382953,
     "lng": 121.359079,
-    "address": "981花蓮縣玉里鎮觀音里高寮92號"
+    "address": "981花蓮縣玉里鎮觀音里高寮92號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "花蓮縣玉里鎮宣園居無毒農園民宿",
     "lat": 23.383705,
     "lng": 121.356547,
-    "address": "981花蓮縣玉里鎮觀音里14鄰高寮268號"
+    "address": "981花蓮縣玉里鎮觀音里14鄰高寮268號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮觀音里辦公室",
     "lat": 23.384619,
     "lng": 121.348383,
-    "address": "981花蓮縣玉里鎮觀音里16鄰觀音9之1號"
+    "address": "981花蓮縣玉里鎮觀音里16鄰觀音9之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣玉里鎮觀音國民小學",
     "lat": 23.395173,
     "lng": 121.356622,
-    "address": "981花蓮縣玉里鎮觀音里16鄰9號"
+    "address": "981花蓮縣玉里鎮觀音里16鄰9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局觀音消防分隊",
     "lat": 23.395719,
     "lng": 121.356069,
-    "address": "981花蓮縣玉里鎮16鄰觀音14之5號"
+    "address": "981花蓮縣玉里鎮16鄰觀音14之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣觀音派出所鐵馬驛站",
     "lat": 23.395912,
     "lng": 121.358285,
-    "address": "981花蓮縣玉里鎮觀音里觀音14號"
+    "address": "981花蓮縣玉里鎮觀音里觀音14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

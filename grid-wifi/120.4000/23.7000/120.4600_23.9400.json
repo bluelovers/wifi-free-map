@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣溪湖鎮老人文康中心",
     "lat": 23.956935,
     "lng": 120.479006,
-    "address": "514彰化縣溪湖鎮德華街17號"
+    "address": "514彰化縣溪湖鎮德華街17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣溪湖鎮婦幼中心",
     "lat": 23.956935,
     "lng": 120.479006,
-    "address": "514彰化縣溪湖鎮德華街17號2樓"
+    "address": "514彰化縣溪湖鎮德華街17號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣溪湖鎮婦幼中心禮堂",
     "lat": 23.956935,
     "lng": 120.479006,
-    "address": "514彰化縣溪湖鎮德華街17號3樓"
+    "address": "514彰化縣溪湖鎮德華街17號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行溪湖分行",
     "lat": 23.958548,
     "lng": 120.477576,
-    "address": "514彰化縣溪湖鎮西環路250號"
+    "address": "514彰化縣溪湖鎮西環路250號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

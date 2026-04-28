@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區北勢社區發展協會",
     "lat": 24.844,
     "lng": 121.153,
-    "address": "324桃園市平鎮區北華里振平街153號"
+    "address": "324桃園市平鎮區北華里振平街153號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

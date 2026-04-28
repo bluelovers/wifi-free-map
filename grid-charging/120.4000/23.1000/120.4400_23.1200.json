@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "玉井郵局",
     "lat": 23.121916,
     "lng": 120.459317,

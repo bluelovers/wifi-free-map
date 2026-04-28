@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣花壇鄉文德宮A區",
     "lat": 24.042927,
     "lng": 120.54738,
-    "address": "503彰化縣花壇鄉文德村彰員路三段2號"
+    "address": "503彰化縣花壇鄉文德村彰員路三段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣花壇鄉文德宮B區",
     "lat": 24.042927,
     "lng": 120.54738,
-    "address": "503彰化縣花壇鄉文德村彰員路三段2號"
+    "address": "503彰化縣花壇鄉文德村彰員路三段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣花壇虎山巖正殿右側諮詢室",
     "lat": 24.043436,
     "lng": 120.559581,
-    "address": "503彰化縣花壇鄉虎山街1號"
+    "address": "503彰化縣花壇鄉虎山街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣彰化市殯儀館服務台",
     "lat": 24.057016,
     "lng": 120.546374,
-    "address": "500彰化縣彰化市大埔路172號"
+    "address": "500彰化縣彰化市大埔路172號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鳳山過埤郵局",
     "lat": 22.590312,
     "lng": 120.364516,

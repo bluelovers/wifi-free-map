@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市安南區鹽田社區發展協會",
     "lat": 23.034,
     "lng": 120.145,
-    "address": "709臺南市安南區鹽田里鹽安路28號"
+    "address": "709臺南市安南區鹽田里鹽安路28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市橋頭區仕和社區發展協會",
     "lat": 23.034,
     "lng": 120.145,
-    "address": "825高雄市橋頭區仕和里仕豐路神農巷14號"
+    "address": "825高雄市橋頭區仕和里仕豐路神農巷14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

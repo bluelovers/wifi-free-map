@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中角派出所",
     "lat": 25.2626,
     "lng": 121.6312,

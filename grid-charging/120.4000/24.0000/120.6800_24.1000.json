@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大里郵局",
     "lat": 24.103018,
     "lng": 120.688781,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司大里服務所",
     "lat": 24.106261,
     "lng": 120.683047,

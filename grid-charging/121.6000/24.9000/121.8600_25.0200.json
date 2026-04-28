@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "雙溪分駐所",
     "lat": 25.0357,
     "lng": 121.865,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市瑞芳戶政事務所雙溪區所-1",
     "lat": 25.035727,
     "lng": 121.865178,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "雙溪郵局",
     "lat": 25.036256,
     "lng": 121.865347,

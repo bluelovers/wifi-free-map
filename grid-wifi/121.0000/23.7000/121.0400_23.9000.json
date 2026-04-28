@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣仁愛鄉武界部落",
     "lat": 23.9141,
     "lng": 121.04369,
-    "address": "546南投縣仁愛鄉法治村界山巷63之1號"
+    "address": "546南投縣仁愛鄉法治村界山巷63之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "埔里基督教醫院(武界失智社區服務據點)",
     "lat": 23.916092,
     "lng": 121.044804,
-    "address": "546南投縣仁愛鄉法治村界山巷14號"
+    "address": "546南投縣仁愛鄉法治村界山巷14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

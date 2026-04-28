@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台灣活力老化推展協會-月眉站",
     "lat": 23.520462,
     "lng": 120.35258,
-    "address": "616嘉義縣新港鄉月眉村月眉潭121號之9"
+    "address": "616嘉義縣新港鄉月眉村月眉潭121號之9",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣諸羅護生協會",
     "lat": 23.52341,
     "lng": 120.350065,
-    "address": "616嘉義縣新港鄉第1鄰月眉潭189號"
+    "address": "616嘉義縣新港鄉第1鄰月眉潭189號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣新港鄉菜公社區發展協會",
     "lat": 23.534,
     "lng": 120.3584,
-    "address": "616嘉義縣新港鄉菜公村咬仔竹41號"
+    "address": "616嘉義縣新港鄉菜公村咬仔竹41號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

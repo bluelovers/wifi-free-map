@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "卑南初鹿郵局",
     "lat": 22.857288,
     "lng": 121.092447,

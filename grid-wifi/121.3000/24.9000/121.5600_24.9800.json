@@ -1,626 +1,860 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "政大郵局",
     "lat": 24.982251,
     "lng": 121.572312,
-    "address": "116臺北市文山區指南路二段64號(國立政治大學藝文中心內)"
+    "address": "116臺北市文山區指南路二段64號(國立政治大學藝文中心內)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "文山樟腳區民活動中心8F中央",
     "lat": 24.982435,
     "lng": 121.567299,
-    "address": "116臺北市文山區恆光街45號8F"
+    "address": "116臺北市文山區恆光街45號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "文山樟腳里郵局",
     "lat": 24.982501,
     "lng": 121.564726,
-    "address": "116臺北市文山區木新路三段25號"
+    "address": "116臺北市文山區木新路三段25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "三角公園-S-指南路三段",
     "lat": 24.983758,
     "lng": 121.579627,
-    "address": "116臺北市文山區指南路三段55號對面候車亭"
+    "address": "116臺北市文山區指南路三段55號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人利伯他茲教育基金會",
     "lat": 24.984,
     "lng": 121.563,
-    "address": "116臺北市文山區木新里永安街1號"
+    "address": "116臺北市文山區木新里永安街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "景文中學-S-木新路二段",
     "lat": 24.98413,
     "lng": 121.568962,
-    "address": "116臺北市文山區木新路二段156號候車亭"
+    "address": "116臺北市文山區木新路二段156號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市文山區順興里辦公處",
     "lat": 24.984273,
     "lng": 121.56403,
-    "address": "116臺北市文山區順興里興隆路4段165巷50號1樓"
+    "address": "116臺北市文山區順興里興隆路4段165巷50號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "文山忠順區民活動中心2F門口",
     "lat": 24.984554,
     "lng": 121.563091,
-    "address": "116臺北市文山區忠順街二段22號2F"
+    "address": "116臺北市文山區忠順街二段22號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市文山區忠順社區發展協會",
     "lat": 24.985265,
     "lng": 121.56201,
-    "address": "116臺北市文山區忠順里興隆路四段145巷30號"
+    "address": "116臺北市文山區忠順里興隆路四段145巷30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "木南公園-N-木新路二段",
     "lat": 24.98535,
     "lng": 121.570587,
-    "address": "116臺北市文山區木新路二段73號前候車亭"
+    "address": "116臺北市文山區木新路二段73號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "景文中學-S-保儀路",
     "lat": 24.985843,
     "lng": 121.567559,
-    "address": "116臺北市文山區保儀路113號候車亭"
+    "address": "116臺北市文山區保儀路113號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "老人自費安養中心松柏樓1F哺集乳室前",
     "lat": 24.985893,
     "lng": 121.562261,
-    "address": "116臺北市文山區興隆路四段109巷30弄6號1F"
+    "address": "116臺北市文山區興隆路四段109巷30弄6號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "老人自費安養中心松柏樓1F餐廳門口",
     "lat": 24.985939,
     "lng": 121.56217,
-    "address": "116臺北市文山區興隆路四段109巷30弄6號1F"
+    "address": "116臺北市文山區興隆路四段109巷30弄6號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國立政治大學行政大樓大廳",
     "lat": 24.986357,
     "lng": 121.575152,
-    "address": "116臺北市文山區指南路二段64號行政大樓"
+    "address": "116臺北市文山區指南路二段64號行政大樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "指南路口-N-木新路二段",
     "lat": 24.987228,
     "lng": 121.570721,
-    "address": "116臺北市文山區木新路二段8號對面候車亭"
+    "address": "116臺北市文山區木新路二段8號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國立政治大學圖書館大廳",
     "lat": 24.987419,
     "lng": 121.576107,
-    "address": "116臺北市文山區指南路二段64號"
+    "address": "116臺北市文山區指南路二段64號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "文山指南郵局",
     "lat": 24.987576,
     "lng": 121.576268,
-    "address": "116臺北市文山區指南路二段115號"
+    "address": "116臺北市文山區指南路二段115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "聯合醫院政大門診部1F第一診療室門口",
     "lat": 24.98768,
     "lng": 121.576485,
-    "address": "116臺北市文山區指南路二段117號1F"
+    "address": "116臺北市文山區指南路二段117號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "政大一-S-萬壽路",
     "lat": 24.987811,
     "lng": 121.576048,
-    "address": "116臺北市文山區萬壽路6號旁候車亭"
+    "address": "116臺北市文山區萬壽路6號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館安康民眾閱覽室4F門口",
     "lat": 24.987907,
     "lng": 121.560491,
-    "address": "116臺北市文山區興隆路四段105巷1號4F"
+    "address": "116臺北市文山區興隆路四段105巷1號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "興隆社會住宅D2區1F管理櫃檯",
     "lat": 24.98802,
     "lng": 121.562775,
-    "address": "116臺北市文山區興隆路四段105巷45號1F"
+    "address": "116臺北市文山區興隆路四段105巷45號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "興隆社會住宅D2區12F休憩室門口內側",
     "lat": 24.988156,
     "lng": 121.562546,
-    "address": "116臺北市文山區興隆路四段105巷45號12F"
+    "address": "116臺北市文山區興隆路四段105巷45號12F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "興隆社會住宅D2區12F閱覽室左側",
     "lat": 24.988163,
     "lng": 121.562889,
-    "address": "116臺北市文山區興隆路四段105巷45號12F"
+    "address": "116臺北市文山區興隆路四段105巷45號12F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華民國紅心字會(興隆老人社會關懷照顧據點)",
     "lat": 24.988281,
     "lng": 121.563125,
-    "address": "116臺北市文山區明義里興隆路四段105巷47號"
+    "address": "116臺北市文山區明義里興隆路四段105巷47號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "政大一",
     "lat": 24.988364,
     "lng": 121.576288,
-    "address": "116臺北市文山區萬壽路16巷2號"
+    "address": "116臺北市文山區萬壽路16巷2號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館萬興分館5F自修室門前",
     "lat": 24.988408,
     "lng": 121.576202,
-    "address": "116臺北市文山區萬壽路27號5F"
+    "address": "116臺北市文山區萬壽路27號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "木柵-E-木柵路三段",
     "lat": 24.988489,
     "lng": 121.566566,
-    "address": "116臺北市文山區木柵路三段80號旁候車亭"
+    "address": "116臺北市文山區木柵路三段80號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行木柵分行",
     "lat": 24.988497,
     "lng": 121.564418,
-    "address": "116臺北市文山區木柵路三段4號"
+    "address": "116臺北市文山區木柵路三段4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(木柵分行)",
     "lat": 24.988507,
     "lng": 121.568677,
-    "address": "116臺北市文山區保儀路11號"
+    "address": "116臺北市文山區保儀路11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "木柵郵局-1",
     "lat": 24.98851,
     "lng": 121.565528,
-    "address": "116臺北市文山區木柵路三段27號"
+    "address": "116臺北市文山區木柵路三段27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "木柵郵局-2",
     "lat": 24.98851,
     "lng": 121.565528,
-    "address": "116臺北市文山區木柵路三段27號"
+    "address": "116臺北市文山區木柵路三段27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "木柵市場2F103攤位前",
     "lat": 24.988526,
     "lng": 121.569139,
-    "address": "116臺北市文山區保儀路13巷3號2F"
+    "address": "116臺北市文山區保儀路13巷3號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "木柵市場1F門口",
     "lat": 24.98853,
     "lng": 121.56923,
-    "address": "116臺北市文山區保儀路13巷3號1F"
+    "address": "116臺北市文山區保儀路13巷3號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館萬興分館4F綜合服務臺前",
     "lat": 24.988553,
     "lng": 121.576731,
-    "address": "116臺北市文山區萬壽路27號4F"
+    "address": "116臺北市文山區萬壽路27號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "木柵市場1F44攤位左側",
     "lat": 24.988612,
     "lng": 121.569192,
-    "address": "116臺北市文山區保儀路13巷3號1F"
+    "address": "116臺北市文山區保儀路13巷3號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "木柵市場2F149攤位左側",
     "lat": 24.988667,
     "lng": 121.56932,
-    "address": "116臺北市文山區保儀路13巷3號2F"
+    "address": "116臺北市文山區保儀路13巷3號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "文山萬興區民活動中心7F中央",
     "lat": 24.988729,
     "lng": 121.576794,
-    "address": "116臺北市文山區萬壽路27號7F"
+    "address": "116臺北市文山區萬壽路27號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館萬興分館4F筆記型電腦區前",
     "lat": 24.988749,
     "lng": 121.576699,
-    "address": "116臺北市文山區萬壽路27號4F"
+    "address": "116臺北市文山區萬壽路27號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館木柵分館3F書架中央",
     "lat": 24.988784,
     "lng": 121.569262,
-    "address": "116臺北市文山區保儀路13巷3號3F"
+    "address": "116臺北市文山區保儀路13巷3號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館木柵分館3F館藏特色區",
     "lat": 24.988784,
     "lng": 121.569262,
-    "address": "116臺北市文山區保儀路13巷3號3F"
+    "address": "116臺北市文山區保儀路13巷3號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館木柵分館4F自修室門口",
     "lat": 24.988861,
     "lng": 121.569201,
-    "address": "116臺北市文山區保儀路13巷3號4F"
+    "address": "116臺北市文山區保儀路13巷3號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "木柵市場1F57攤位前",
     "lat": 24.988868,
     "lng": 121.569215,
-    "address": "116臺北市文山區保儀路13巷3號1F"
+    "address": "116臺北市文山區保儀路13巷3號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "木柵市場2F148攤位左側",
     "lat": 24.988875,
     "lng": 121.56926,
-    "address": "116臺北市文山區保儀路13巷3號2F"
+    "address": "116臺北市文山區保儀路13巷3號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "文山區行政大樓文山區健康服務中心1F哺乳室",
     "lat": 24.989132,
     "lng": 121.570285,
-    "address": "116臺北市文山區木柵路三段220號1F"
+    "address": "116臺北市文山區木柵路三段220號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "文山區行政大樓稅捐處文山分處4F地政便民工作站前",
     "lat": 24.989132,
     "lng": 121.570285,
-    "address": "116臺北市文山區木柵路三段220號4F"
+    "address": "116臺北市文山區木柵路三段220號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台北市松年長春社會福利基金會(開元)",
     "lat": 24.989203,
     "lng": 121.569929,
-    "address": "116臺北市文山區木新里開元街25、27號"
+    "address": "116臺北市文山區木新里開元街25、27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "文山區行政大樓文山戶政3F總務室",
     "lat": 24.989226,
     "lng": 121.569871,
-    "address": "116臺北市文山區木柵路三段220號3F"
+    "address": "116臺北市文山區木柵路三段220號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "木柵社會住宅1F櫃檯",
     "lat": 24.989227,
     "lng": 121.566361,
-    "address": "116臺北市文山區久康街24巷36號"
+    "address": "116臺北市文山區久康街24巷36號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "文山區行政大樓文山戶政2F秘書室門口西北",
     "lat": 24.989234,
     "lng": 121.570468,
-    "address": "116臺北市文山區木柵路三段220號2F"
+    "address": "116臺北市文山區木柵路三段220號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "文山區行政大樓文山戶政3F人事室",
     "lat": 24.989234,
     "lng": 121.570468,
-    "address": "116臺北市文山區木柵路三段220號3F"
+    "address": "116臺北市文山區木柵路三段220號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "文山區行政大樓稅捐處文山分處4F印花稅服務臺柱子旁",
     "lat": 24.98929,
     "lng": 121.570228,
-    "address": "116臺北市文山區木柵路三段220號4F"
+    "address": "116臺北市文山區木柵路三段220號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "文山區行政大樓文山戶政2F綜合受理10號櫃臺前",
     "lat": 24.989357,
     "lng": 121.570213,
-    "address": "116臺北市文山區木柵路三段220號2F"
+    "address": "116臺北市文山區木柵路三段220號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "文山區行政大樓9F會議室門內西北",
     "lat": 24.989503,
     "lng": 121.57002,
-    "address": "116臺北市文山區木柵路三段220號9F"
+    "address": "116臺北市文山區木柵路三段220號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "久康街口-E-秀明路一段",
     "lat": 24.989547,
     "lng": 121.564658,
-    "address": "116臺北市文山區秀明路一段31號斜對面候車亭"
+    "address": "116臺北市文山區秀明路一段31號斜對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "文山區行政大樓7F第一會議室後方",
     "lat": 24.989624,
     "lng": 121.570133,
-    "address": "116臺北市文山區木柵路三段220號7F"
+    "address": "116臺北市文山區木柵路三段220號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "文山區行政大樓8F綜合受理10號櫃臺前",
     "lat": 24.989624,
     "lng": 121.570133,
-    "address": "116臺北市文山區木柵路三段220號8F"
+    "address": "116臺北市文山區木柵路三段220號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "文山區行政大樓9F人事室門口",
     "lat": 24.989624,
     "lng": 121.570133,
-    "address": "116臺北市文山區木柵路三段220號9F"
+    "address": "116臺北市文山區木柵路三段220號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "文山區行政大樓10F大禮堂",
     "lat": 24.989624,
     "lng": 121.570133,
-    "address": "116臺北市文山區木柵路三段220號10F"
+    "address": "116臺北市文山區木柵路三段220號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "文山區行政大樓10F電腦教室",
     "lat": 24.989624,
     "lng": 121.570133,
-    "address": "116臺北市文山區木柵路三段220號10F"
+    "address": "116臺北市文山區木柵路三段220號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部臺北國稅局文山稽徵所民眾服務區",
     "lat": 24.98964,
     "lng": 121.570083,
-    "address": "116臺北市文山區木柵路三段220號6樓"
+    "address": "116臺北市文山區木柵路三段220號6樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "萬興國小-S1-秀明路二段",
     "lat": 24.989666,
     "lng": 121.576808,
-    "address": "116臺北市文山區秀明路二段114號旁候車亭"
+    "address": "116臺北市文山區秀明路二段114號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "久康街口-W-秀明路一段",
     "lat": 24.989744,
     "lng": 121.564636,
-    "address": "116臺北市文山區秀明路一段31號旁候車亭"
+    "address": "116臺北市文山區秀明路一段31號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "文山行政中心-S-木柵路三段",
     "lat": 24.989748,
     "lng": 121.569808,
-    "address": "116臺北市文山區木柵路三段220號前方候車亭"
+    "address": "116臺北市文山區木柵路三段220號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "文山區公民會館1F教室",
     "lat": 24.989878,
     "lng": 121.569847,
-    "address": "116臺北市文山區木柵路三段189號1F"
+    "address": "116臺北市文山區木柵路三段189號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "文山行政中心-N-木柵路三段",
     "lat": 24.99015,
     "lng": 121.570083,
-    "address": "116臺北市文山區木柵路三段191號前方候車亭"
+    "address": "116臺北市文山區木柵路三段191號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "萬壽橋頭(木柵)-N1-木柵路三段",
     "lat": 24.991353,
     "lng": 121.571088,
-    "address": "116臺北市文山區木柵路三段295號對面候車亭"
+    "address": "116臺北市文山區木柵路三段295號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "萬壽橋頭(木柵)-S-木柵路三段",
     "lat": 24.991446,
     "lng": 121.571129,
-    "address": "116臺北市文山區木柵路三段295號候車亭"
+    "address": "116臺北市文山區木柵路三段295號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "木柵國小-E-秀明路一段",
     "lat": 24.991596,
     "lng": 121.570182,
-    "address": "116臺北市文山區秀明路一段191號旁對面候車亭"
+    "address": "116臺北市文山區秀明路一段191號旁對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "木柵國小-W-秀明路一段",
     "lat": 24.991764,
     "lng": 121.57022,
-    "address": "116臺北市文山區秀明路一段191號旁候車亭"
+    "address": "116臺北市文山區秀明路一段191號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "萬壽橋頭(新光)-S1-新光路一段",
     "lat": 24.993472,
     "lng": 121.573739,
-    "address": "116臺北市文山區新光路一段189號對面候車亭"
+    "address": "116臺北市文山區新光路一段189號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "萬芳路口-N-木柵路四段",
     "lat": 24.993648,
     "lng": 121.571609,
-    "address": "116臺北市文山區木柵路四段31號對面候車亭"
+    "address": "116臺北市文山區木柵路四段31號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人雙福社會福利慈善事業基金會(家家堂)",
     "lat": 24.994857,
     "lng": 121.560093,
-    "address": "116臺北市文山區興家里興隆路三段207巷6弄8號"
+    "address": "116臺北市文山區興家里興隆路三段207巷6弄8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "木柵高工-N-萬芳路",
     "lat": 24.996441,
     "lng": 121.570756,
-    "address": "116臺北市文山區萬芳路22號對面候車亭"
+    "address": "116臺北市文山區萬芳路22號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "木柵高工-S-木柵路四段",
     "lat": 24.996512,
     "lng": 121.572595,
-    "address": "116臺北市文山區木柵路四段20號對面候車亭"
+    "address": "116臺北市文山區木柵路四段20號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "棕櫚泉社區-W-萬芳路",
     "lat": 24.997552,
     "lng": 121.562507,
-    "address": "116臺北市文山區萬芳路103號對面候車亭"
+    "address": "116臺北市文山區萬芳路103號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "博嘉國小-W-木柵路四段",
     "lat": 24.999037,
     "lng": 121.575161,
-    "address": "116臺北市文山區木柵路四段153巷3號對面候車亭"
+    "address": "116臺北市文山區木柵路四段153巷3號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "萬利街口-W-萬利街",
     "lat": 24.999114,
     "lng": 121.567354,
-    "address": "116臺北市文山區萬利街2巷9號對面公園旁候車亭"
+    "address": "116臺北市文山區萬利街2巷9號對面公園旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "軍功新村-S-和平東路四段",
     "lat": 24.999675,
     "lng": 121.573738,
-    "address": "116臺北市文山區和平東路四段326號旁候車亭"
+    "address": "116臺北市文山區和平東路四段326號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

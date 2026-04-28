@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆碇內郵局",
     "lat": 25.099552,
     "lng": 121.75818,

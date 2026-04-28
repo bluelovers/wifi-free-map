@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台東新生郵局",
     "lat": 22.764013,
     "lng": 121.135563,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台糖公司台東區處會議室",
     "lat": 22.767219,
     "lng": 121.129649,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台東東方大鎮郵局",
     "lat": 22.768827,
     "lng": 121.12443,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司台東直銷中心",
     "lat": 22.768841,
     "lng": 121.123425,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台東卑南郵局",
     "lat": 22.777551,
     "lng": 121.126329,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司高樹營運所",
     "lat": 22.825483,
     "lng": 120.596902,

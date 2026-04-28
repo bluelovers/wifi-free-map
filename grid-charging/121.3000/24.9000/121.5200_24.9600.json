@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新店頂城郵局",
     "lat": 24.961024,
     "lng": 121.530635,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新店中央郵局",
     "lat": 24.972724,
     "lng": 121.529327,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新店中正郵局",
     "lat": 24.973358,
     "lng": 121.538877,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司新店服務所大廳",
     "lat": 24.975176,
     "lng": 121.524665,

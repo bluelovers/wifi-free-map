@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "佳里佳里興郵局",
     "lat": 23.187462,
     "lng": 120.180579,

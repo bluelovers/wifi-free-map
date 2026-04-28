@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楠西郵局",
     "lat": 23.177485,
     "lng": 120.486097,

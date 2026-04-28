@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新埤郵局",
     "lat": 22.468468,
     "lng": 120.550768,

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣冬山鄉武淵社區發展協會",
     "lat": 24.66069,
     "lng": 121.7977,
-    "address": "269宜蘭縣冬山鄉武淵村富農路二段325號"
+    "address": "269宜蘭縣冬山鄉武淵村富農路二段325號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣羅東鎮新群社區發展協會",
     "lat": 24.667267,
     "lng": 121.792181,
-    "address": "265宜蘭縣羅東鎮新群里月眉路300號"
+    "address": "265宜蘭縣羅東鎮新群里月眉路300號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

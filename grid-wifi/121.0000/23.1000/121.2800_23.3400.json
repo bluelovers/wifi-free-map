@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣富里鄉姆拉丁部落",
     "lat": 23.3531,
     "lng": 121.29853,
-    "address": "983花蓮縣富里鄉萬寧村鎮寧25之1號"
+    "address": "983花蓮縣富里鄉萬寧村鎮寧25之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

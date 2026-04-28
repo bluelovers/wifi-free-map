@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣中埔鄉中埔社區發展協會",
     "lat": 23.423,
     "lng": 120.523,
-    "address": "606嘉義縣中埔鄉中埔79之2號"
+    "address": "606嘉義縣中埔鄉中埔79之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中埔郵局",
     "lat": 23.424707,
     "lng": 120.523122,
-    "address": "606嘉義縣中埔鄉中埔村167號"
+    "address": "606嘉義縣中埔鄉中埔村167號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣警察局中埔分局",
     "lat": 23.424845,
     "lng": 120.523779,
-    "address": "606嘉義縣中埔鄉中正路66號"
+    "address": "606嘉義縣中埔鄉中正路66號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人私立天主教中華聖母社會福利慈善事業基金會-中埔站",
     "lat": 23.425157,
     "lng": 120.522353,
-    "address": "606嘉義縣中埔鄉中埔128號之2"
+    "address": "606嘉義縣中埔鄉中埔128號之2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣水上戶政事務所中埔辦公室",
     "lat": 23.425941,
     "lng": 120.522809,
-    "address": "606嘉義縣中埔鄉中正路64號"
+    "address": "606嘉義縣中埔鄉中正路64號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人私立天主教中華聖母社會福利慈善事業基金會-隆興站",
     "lat": 23.438366,
     "lng": 120.527343,
-    "address": "606嘉義縣中埔鄉隆興村中正路515號"
+    "address": "606嘉義縣中埔鄉隆興村中正路515號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

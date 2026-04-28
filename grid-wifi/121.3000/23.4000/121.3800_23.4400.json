@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣玉里鎮春日國民小學",
     "lat": 23.451972,
     "lng": 121.39332,
-    "address": "981花蓮縣玉里鎮春日里泰林95號"
+    "address": "981花蓮縣玉里鎮春日里泰林95號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣玉里鎮春日部落",
     "lat": 23.45425,
     "lng": 121.39611,
-    "address": "981花蓮縣玉里鎮春日里神農29之1"
+    "address": "981花蓮縣玉里鎮春日里神農29之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮春日里辦公室",
     "lat": 23.455001,
     "lng": 121.396912,
-    "address": "981花蓮縣玉里鎮春日里11鄰神農75-1號"
+    "address": "981花蓮縣玉里鎮春日里11鄰神農75-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣春日派出所鐵馬驛站",
     "lat": 23.455235,
     "lng": 121.396286,
-    "address": "981花蓮縣玉里鎮春日里神農74號"
+    "address": "981花蓮縣玉里鎮春日里神農74號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

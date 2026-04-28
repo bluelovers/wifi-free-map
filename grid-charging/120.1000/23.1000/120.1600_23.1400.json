@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "佳里中山路郵局",
     "lat": 23.157338,
     "lng": 120.177184,

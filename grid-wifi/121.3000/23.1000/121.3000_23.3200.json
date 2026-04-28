@@ -1,426 +1,585 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮公所源城里辦公處",
     "lat": 23.321159,
     "lng": 121.300307,
-    "address": "981花蓮縣玉里鎮源城里水源57之1號"
+    "address": "981花蓮縣玉里鎮源城里水源57之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣玉里鎮源城國民小學",
     "lat": 23.321449,
     "lng": 121.300435,
-    "address": "981花蓮縣玉里鎮源城里水源62號"
+    "address": "981花蓮縣玉里鎮源城里水源62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮戶政事務所",
     "lat": 23.324147,
     "lng": 121.306979,
-    "address": "981花蓮縣玉里鎮中城里3鄰忠孝路149號"
+    "address": "981花蓮縣玉里鎮中城里3鄰忠孝路149號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣玉里鎮中城國民小學",
     "lat": 23.324509,
     "lng": 121.318175,
-    "address": "981花蓮縣玉里鎮中山路一段1號"
+    "address": "981花蓮縣玉里鎮中山路一段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣地方稅務局玉里分局",
     "lat": 23.324627,
     "lng": 121.31674,
-    "address": "981花蓮縣玉里鎮忠孝路151號"
+    "address": "981花蓮縣玉里鎮忠孝路151號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局玉里消防分隊",
     "lat": 23.324727,
     "lng": 121.316488,
-    "address": "981花蓮縣玉里鎮忠孝街153號"
+    "address": "981花蓮縣玉里鎮忠孝街153號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "玉里慈濟醫院(玉里環保站)",
     "lat": 23.325628,
     "lng": 121.318397,
-    "address": "981花蓮縣玉里鎮中城里忠孝路120號"
+    "address": "981花蓮縣玉里鎮中城里忠孝路120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣勝安宗壇發展協會",
     "lat": 23.326425,
     "lng": 121.317242,
-    "address": "981花蓮縣玉里鎮中城里中山路一段35號"
+    "address": "981花蓮縣玉里鎮中城里中山路一段35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "公路總局第四區養護工程處玉里工務段",
     "lat": 23.326746,
     "lng": 121.314592,
-    "address": "981花蓮縣玉里鎮源城里客城1-2號"
+    "address": "981花蓮縣玉里鎮源城里客城1-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人一粒麥子社會福利慈善事業基金會-玉里",
     "lat": 23.327365,
     "lng": 121.318827,
-    "address": "981花蓮縣玉里鎮中城里忠勇路57號"
+    "address": "981花蓮縣玉里鎮中城里忠勇路57號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人門諾社會福利慈善事業基金會-玉里",
     "lat": 23.329146,
     "lng": 121.310518,
-    "address": "981花蓮縣玉里鎮中城里更生路38號"
+    "address": "981花蓮縣玉里鎮中城里更生路38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "玉里郵局",
     "lat": 23.331059,
     "lng": 121.313921,
-    "address": "981花蓮縣玉里鎮光復路111號"
+    "address": "981花蓮縣玉里鎮光復路111號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司玉里服務所營業廳",
     "lat": 23.331498,
     "lng": 121.314533,
-    "address": "981花蓮縣玉里鎮光復路104號"
+    "address": "981花蓮縣玉里鎮光復路104號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署北基宜花金馬分署玉里就業服務站洽公櫃台",
     "lat": 23.33155,
     "lng": 121.313063,
-    "address": "981花蓮縣玉里鎮光復路160號"
+    "address": "981花蓮縣玉里鎮光復路160號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局玉里站候車室",
     "lat": 23.331576,
     "lng": 121.311805,
-    "address": "981花蓮縣玉里鎮康樂街39號"
+    "address": "981花蓮縣玉里鎮康樂街39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "勞動部勞動力發展署北基宜花金馬分署玉里就業中心洽公櫃台",
     "lat": 23.33158,
     "lng": 121.313061,
-    "address": "981花蓮縣玉里鎮光復路160號"
+    "address": "981花蓮縣玉里鎮光復路160號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局玉里站剪票口",
     "lat": 23.331582,
     "lng": 121.311802,
-    "address": "981花蓮縣玉里鎮康樂街39號"
+    "address": "981花蓮縣玉里鎮康樂街39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局玉里站行李房",
     "lat": 23.331582,
     "lng": 121.311802,
-    "address": "981花蓮縣玉里鎮康樂街39號"
+    "address": "981花蓮縣玉里鎮康樂街39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局玉里站南端商店區",
     "lat": 23.331582,
     "lng": 121.311802,
-    "address": "981花蓮縣玉里鎮康樂街39號"
+    "address": "981花蓮縣玉里鎮康樂街39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局玉里站第1月台北側",
     "lat": 23.331582,
     "lng": 121.311802,
-    "address": "981花蓮縣玉里鎮康樂街39號"
+    "address": "981花蓮縣玉里鎮康樂街39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局玉里站地1月台南側",
     "lat": 23.331582,
     "lng": 121.311802,
-    "address": "981花蓮縣玉里鎮康樂街39號"
+    "address": "981花蓮縣玉里鎮康樂街39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局玉里火車站第1月台",
     "lat": 23.33205,
     "lng": 121.311743,
-    "address": "981花蓮縣玉里鎮康樂街39號"
+    "address": "981花蓮縣玉里鎮康樂街39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部北區國稅局玉里稽徵所",
     "lat": 23.332325,
     "lng": 121.316873,
-    "address": "981花蓮縣玉里鎮光復路52號1樓"
+    "address": "981花蓮縣玉里鎮光復路52號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣真誠社區發展協會",
     "lat": 23.332765,
     "lng": 121.31487,
-    "address": "981花蓮縣玉里鎮國武里民生街51之1號"
+    "address": "981花蓮縣玉里鎮國武里民生街51之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行玉里分行",
     "lat": 23.332805,
     "lng": 121.314659,
-    "address": "981花蓮縣玉里鎮中山路二段51號"
+    "address": "981花蓮縣玉里鎮中山路二段51號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人花蓮縣家庭照顧者關懷協會-玉里鎮",
     "lat": 23.333333,
     "lng": 121.317446,
-    "address": "981花蓮縣玉里鎮國武里民國路一段202號"
+    "address": "981花蓮縣玉里鎮國武里民國路一段202號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮國武里辦公室",
     "lat": 23.333371,
     "lng": 121.316897,
-    "address": "981花蓮縣玉里鎮國武里16鄰民生街46號"
+    "address": "981花蓮縣玉里鎮國武里16鄰民生街46號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司花蓮縣玉里鎮玉里站",
     "lat": 23.333374,
     "lng": 121.31253,
-    "address": "981花蓮縣玉里鎮大同路219號"
+    "address": "981花蓮縣玉里鎮大同路219號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣基督教全人更新協會",
     "lat": 23.333823,
     "lng": 121.31296,
-    "address": "981花蓮縣玉里鎮中城里大同路258號"
+    "address": "981花蓮縣玉里鎮中城里大同路258號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣玉里鎮玉里國民小學",
     "lat": 23.334695,
     "lng": 121.316957,
-    "address": "981花蓮縣玉里鎮忠智路43號"
+    "address": "981花蓮縣玉里鎮忠智路43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "花蓮縣玉里鎮東部台灣黑熊教育館",
     "lat": 23.334976,
     "lng": 121.316961,
-    "address": "981花蓮縣玉里鎮民權街50號"
+    "address": "981花蓮縣玉里鎮民權街50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "玉里鎮民權街與中華路口",
     "lat": 23.33501,
     "lng": 121.315844,
-    "address": "981花蓮縣玉里鎮民權街50號"
+    "address": "981花蓮縣玉里鎮民權街50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "橋頭冰店",
     "lat": 23.335018,
     "lng": 121.313774,
-    "address": "981花蓮縣玉里鎮中華路79號"
+    "address": "981花蓮縣玉里鎮中華路79號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "花蓮玉里客家生活館",
     "lat": 23.335137,
     "lng": 121.316613,
-    "address": "981花蓮縣玉里鎮民權街50號"
+    "address": "981花蓮縣玉里鎮民權街50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立玉里國民中學",
     "lat": 23.335264,
     "lng": 121.312931,
-    "address": "981花蓮縣玉里鎮民族街30號"
+    "address": "981花蓮縣玉里鎮民族街30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "玉里鎮中山路二段與民族街口",
     "lat": 23.335452,
     "lng": 121.31429,
-    "address": "981花蓮縣玉里鎮中山路二段152號"
+    "address": "981花蓮縣玉里鎮中山路二段152號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮公所",
     "lat": 23.335527,
     "lng": 121.315197,
-    "address": "981花蓮縣玉里鎮中正路148號"
+    "address": "981花蓮縣玉里鎮中正路148號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣卓溪鄉公所",
     "lat": 23.335527,
     "lng": 121.315197,
-    "address": "982花蓮縣卓溪鄉卓溪村中正70號"
+    "address": "982花蓮縣卓溪鄉卓溪村中正70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "玉里泰昌郵局",
     "lat": 23.335776,
     "lng": 121.314002,
-    "address": "981花蓮縣玉里鎮中山路二段139號"
+    "address": "981花蓮縣玉里鎮中山路二段139號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "花蓮縣玉里鎮玉里天主堂",
     "lat": 23.33591,
     "lng": 121.314171,
-    "address": "981花蓮縣玉里鎮中山路二段166號"
+    "address": "981花蓮縣玉里鎮中山路二段166號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮啟模里辦公室",
     "lat": 23.336105,
     "lng": 121.316267,
-    "address": "981花蓮縣玉里鎮啟模里31鄰五權街1號"
+    "address": "981花蓮縣玉里鎮啟模里31鄰五權街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮民代表會",
     "lat": 23.33611,
     "lng": 121.314078,
-    "address": "981花蓮縣玉里鎮五權街5號"
+    "address": "981花蓮縣玉里鎮五權街5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮圖書館",
     "lat": 23.336207,
     "lng": 121.316013,
-    "address": "981花蓮縣玉里鎮民族街2號"
+    "address": "981花蓮縣玉里鎮民族街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣玉里鎮啟模社區發展協會",
     "lat": 23.336312,
     "lng": 121.316066,
-    "address": "981花蓮縣玉里鎮啟模里五權街1號"
+    "address": "981花蓮縣玉里鎮啟模里五權街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "玉里鎮衛生所",
     "lat": 23.336361,
     "lng": 121.31479,
-    "address": "981花蓮縣玉里鎮泰昌里中正路152號"
+    "address": "981花蓮縣玉里鎮泰昌里中正路152號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣衛生局玉里鎮衛生所",
     "lat": 23.336551,
     "lng": 121.315013,
-    "address": "981花蓮縣玉里鎮中正路152號"
+    "address": "981花蓮縣玉里鎮中正路152號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里派出所鐵馬驛站",
     "lat": 23.336698,
     "lng": 121.313748,
-    "address": "981花蓮縣玉里鎮博愛路200號"
+    "address": "981花蓮縣玉里鎮博愛路200號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院玉里分院榮八病房",
     "lat": 23.33745,
     "lng": 121.310788,
-    "address": "981花蓮縣玉里鎮新興街91號"
+    "address": "981花蓮縣玉里鎮新興街91號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "玉里新興郵局",
     "lat": 23.338503,
     "lng": 121.31258,
-    "address": "981花蓮縣玉里鎮新興街91號"
+    "address": "981花蓮縣玉里鎮新興街91號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院玉里分院醫療大樓一樓大廳",
     "lat": 23.338503,
     "lng": 121.31258,
-    "address": "981花蓮縣玉里鎮新興街91號"
+    "address": "981花蓮縣玉里鎮新興街91號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院玉里分院璞石學苑一樓",
     "lat": 23.338598,
     "lng": 121.318259,
-    "address": "981花蓮縣玉里鎮民國路二段102號"
+    "address": "981花蓮縣玉里鎮民國路二段102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院玉里分院璞石學苑二樓",
     "lat": 23.338598,
     "lng": 121.318259,
-    "address": "981花蓮縣玉里鎮民國路二段102號"
+    "address": "981花蓮縣玉里鎮民國路二段102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院玉里分院圓馨病房",
     "lat": 23.339575,
     "lng": 121.311367,
-    "address": "981花蓮縣玉里鎮新興街91號"
+    "address": "981花蓮縣玉里鎮新興街91號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

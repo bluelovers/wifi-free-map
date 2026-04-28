@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣以斯帖全人關懷協會",
     "lat": 23.458563,
     "lng": 120.239428,
-    "address": "613嘉義縣朴子市竹圍里四維路二段157之1號"
+    "address": "613嘉義縣朴子市竹圍里四維路二段157之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "燕巢義大醫院郵局",
     "lat": 22.765493,
     "lng": 120.364639,

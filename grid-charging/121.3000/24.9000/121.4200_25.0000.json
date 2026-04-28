@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "樹林樹新路郵局",
     "lat": 25.000696,
     "lng": 121.431064,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通部公路總局第一區養護工程處",
     "lat": 25.005939,
     "lng": 121.420104,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊西盛郵局",
     "lat": 25.013276,
     "lng": 121.432793,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊民安郵局",
     "lat": 25.019611,
     "lng": 121.427196,

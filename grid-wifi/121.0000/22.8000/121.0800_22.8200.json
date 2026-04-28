@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人基督教蘭恩文教基金會-蘭嶼鄉-漁人",
     "lat": 22.838,
     "lng": 121.097,
-    "address": "952臺東縣蘭嶼鄉紅頭村漁人147號"
+    "address": "952臺東縣蘭嶼鄉紅頭村漁人147號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

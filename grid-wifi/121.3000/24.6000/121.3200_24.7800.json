@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市復興區中奎輝部落",
     "lat": 24.79713,
     "lng": 121.33455,
-    "address": "336桃園市復興區奎輝里3鄰21號"
+    "address": "336桃園市復興區奎輝里3鄰21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局嘉義區監理所東勢監理分站",
     "lat": 23.675846,
     "lng": 120.251543,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東勢厝郵局",
     "lat": 23.675917,
     "lng": 120.252614,

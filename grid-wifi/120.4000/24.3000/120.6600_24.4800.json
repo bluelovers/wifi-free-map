@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人苗栗縣全人關懷協會-通南站",
     "lat": 24.484803,
     "lng": 120.674279,
-    "address": "357苗栗縣通霄鎮通南里18鄰通南104號"
+    "address": "357苗栗縣通霄鎮通南里18鄰通南104號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行通霄分行",
     "lat": 24.490369,
     "lng": 120.679436,
-    "address": "357苗栗縣通霄鎮中正路85號"
+    "address": "357苗栗縣通霄鎮中正路85號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "通霄郵局",
     "lat": 24.490606,
     "lng": 120.679906,
-    "address": "357苗栗縣通霄鎮通西里中正路76號"
+    "address": "357苗栗縣通霄鎮通西里中正路76號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局通霄站候車室",
     "lat": 24.491476,
     "lng": 120.678388,
-    "address": "357苗栗縣通霄鎮通西里中山路109號"
+    "address": "357苗栗縣通霄鎮通西里中山路109號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

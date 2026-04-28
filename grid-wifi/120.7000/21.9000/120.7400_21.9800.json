@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "恆春旅遊醫院-醫療大樓1樓掛號室大廳",
     "lat": 21.999027,
     "lng": 120.744467,
-    "address": "946屏東縣恆春鎮恆南路188號"
+    "address": "946屏東縣恆春鎮恆南路188號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

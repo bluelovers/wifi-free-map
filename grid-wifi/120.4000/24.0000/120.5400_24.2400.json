@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商梧棲文昌路港臻店(公話)",
     "lat": 24.24328,
     "lng": 120.543472,
-    "address": "435臺中市梧棲區文昌路333號(公話)"
+    "address": "435臺中市梧棲區文昌路333號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店梧棲臺灣大道大庄店(公話)",
     "lat": 24.24628,
     "lng": 120.547467,
-    "address": "435臺中市梧棲區臺灣大道八段506號"
+    "address": "435臺中市梧棲區臺灣大道八段506號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市梧棲區大庄社區發展協會",
     "lat": 24.2463,
     "lng": 120.542571,
-    "address": "435臺中市梧棲區大庄里文華街168巷1號"
+    "address": "435臺中市梧棲區大庄里文華街168巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台中市梧棲區童綜合醫院1樓大廳(試辦單位)",
     "lat": 24.247474,
     "lng": 120.542802,
-    "address": "435臺中市梧棲區臺灣大道八段699號"
+    "address": "435臺中市梧棲區臺灣大道八段699號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市龍井區新庄社區發展協會",
     "lat": 24.248,
     "lng": 120.544,
-    "address": "434臺中市龍井區新庄里中沙路新庄仔巷19之1號"
+    "address": "434臺中市龍井區新庄里中沙路新庄仔巷19之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車邱厝庄站",
     "lat": 24.248518,
     "lng": 120.541615,
-    "address": "435臺中市梧棲區臺灣大道八段802號"
+    "address": "435臺中市梧棲區臺灣大道八段802號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會動植物防疫檢疫局臺中分局臺中港檢疫站",
     "lat": 24.249782,
     "lng": 120.548515,
-    "address": "435臺中市梧棲區中棲路3號2號中港大樓A棟1樓"
+    "address": "435臺中市梧棲區中棲路3號2號中港大樓A棟1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市梧棲區福德社區發展協會",
     "lat": 24.253327,
     "lng": 120.540195,
-    "address": "435臺中市梧棲區福德里中央路二段238之1號"
+    "address": "435臺中市梧棲區福德里中央路二段238之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商梧棲大智路詠珊店(公話)",
     "lat": 24.257163,
     "lng": 120.541153,
-    "address": "435臺中市梧棲區大智路1017號"
+    "address": "435臺中市梧棲區大智路1017號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

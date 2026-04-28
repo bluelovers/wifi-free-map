@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人私立健順養護中心",
     "lat": 25.034,
     "lng": 121.841,
-    "address": "222新北市深坑區昇高里王軍寮9號"
+    "address": "222新北市深坑區昇高里王軍寮9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

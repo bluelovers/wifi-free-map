@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市蘆竹區外社社區發展協會",
     "lat": 25.082188,
     "lng": 121.305643,
-    "address": "338桃園市蘆竹區外社里山林路二段490號"
+    "address": "338桃園市蘆竹區外社里山林路二段490號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

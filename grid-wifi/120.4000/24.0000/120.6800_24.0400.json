@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市政府青創基地(光復新村供應市場)",
     "lat": 24.045633,
     "lng": 120.694467,
-    "address": "413臺中市霧峰區光復新村中正路9號(公話亭)"
+    "address": "413臺中市霧峰區光復新村中正路9號(公話亭)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商台中霧峰中正路坑口店(公話)",
     "lat": 24.046641,
     "lng": 120.69237,
-    "address": "413臺中市霧峰區中正路563號"
+    "address": "413臺中市霧峰區中正路563號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車亞洲大學安藤館站",
     "lat": 24.04703,
     "lng": 120.687241,
-    "address": "413臺中市霧峰區柳豐路500號"
+    "address": "413臺中市霧峰區柳豐路500號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "立法院中部辦公室議政博物館",
     "lat": 24.053124,
     "lng": 120.699854,
-    "address": "413臺中市霧峰區中正路734號"
+    "address": "413臺中市霧峰區中正路734號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台中市私立林蘭生慈善基金會",
     "lat": 24.056664,
     "lng": 120.696288,
-    "address": "413臺中市霧峰區本堂里林森路346號"
+    "address": "413臺中市霧峰區本堂里林森路346號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立臺灣交響樂團行政大樓1F服務台",
     "lat": 24.059024,
     "lng": 120.699143,
-    "address": "413臺中市霧峰區中正路738-2號"
+    "address": "413臺中市霧峰區中正路738-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中市統一超商霧峰樹仁路育成店(公話)",
     "lat": 24.05947,
     "lng": 120.696465,
-    "address": "413臺中市霧峰區樹仁路161號-1"
+    "address": "413臺中市霧峰區樹仁路161號-1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺中市愛鄰舍關懷協會(功能型據點)",
     "lat": 24.059634,
     "lng": 120.69758,
-    "address": "413臺中市霧峰區本堂里育成路6號"
+    "address": "413臺中市霧峰區本堂里育成路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市霧峰區本堂社區發展協會",
     "lat": 24.059639,
     "lng": 120.697798,
-    "address": "413臺中市霧峰區本堂里中正路749號"
+    "address": "413臺中市霧峰區本堂里中正路749號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

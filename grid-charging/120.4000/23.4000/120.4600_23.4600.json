@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義彌陀郵局",
     "lat": 23.474072,
     "lng": 120.462751,

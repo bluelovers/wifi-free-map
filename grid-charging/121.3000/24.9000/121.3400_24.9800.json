@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司龜山服務所",
     "lat": 24.996427,
     "lng": 121.34039,

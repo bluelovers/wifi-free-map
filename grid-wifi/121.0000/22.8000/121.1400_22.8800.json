@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "鹿野中興崗哨",
     "lat": 22.889113,
     "lng": 121.141188,
-    "address": "955臺東縣鹿野鄉和平路196號"
+    "address": "955臺東縣鹿野鄉和平路196號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣延平鄉拿卡努部落",
     "lat": 22.89898,
     "lng": 121.15163,
-    "address": "953臺東縣延平鄉鸞山村鸞山路16號"
+    "address": "953臺東縣延平鄉鸞山村鸞山路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

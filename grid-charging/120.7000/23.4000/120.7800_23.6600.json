@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投縣政府警察局竹山分局溪頭派出所",
     "lat": 23.673308,
     "lng": 120.795373,

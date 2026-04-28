@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣白沙鄉惜福長青協會",
     "lat": 23.741367,
     "lng": 119.613414,
-    "address": "884澎湖縣白沙鄉吉貝村吉貝82之1號"
+    "address": "884澎湖縣白沙鄉吉貝村吉貝82之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

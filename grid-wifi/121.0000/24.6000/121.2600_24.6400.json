@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣尖石鄉上田埔部落",
     "lat": 24.64046,
     "lng": 121.2784,
-    "address": "313新竹縣尖石鄉秀巒村1鄰田埔1號"
+    "address": "313新竹縣尖石鄉秀巒村1鄰田埔1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

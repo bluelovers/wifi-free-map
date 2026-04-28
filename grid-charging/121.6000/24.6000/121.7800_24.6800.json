@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "五結郵局",
     "lat": 24.683749,
     "lng": 121.795105,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "五結戶政事務所",
     "lat": 24.684932,
     "lng": 121.798725,

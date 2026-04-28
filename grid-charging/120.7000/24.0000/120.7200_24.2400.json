@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "豐原南陽郵局",
     "lat": 24.245188,
     "lng": 120.724893,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司豐原服務所",
     "lat": 24.24604,
     "lng": 120.726451,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局臺中區監理所豐原監理站",
     "lat": 24.247412,
     "lng": 120.730868,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局豐原站售票前廳",
     "lat": 24.254112,
     "lng": 120.722917,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局豐原站第2月台4車處",
     "lat": 24.254112,
     "lng": 120.722917,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "豐原水源郵局",
     "lat": 24.255128,
     "lng": 120.728831,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "豐原翁子郵局",
     "lat": 24.25959,
     "lng": 120.734306,

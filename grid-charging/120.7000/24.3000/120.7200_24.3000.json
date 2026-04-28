@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "后里義里郵局",
     "lat": 24.309173,
     "lng": 120.727761,

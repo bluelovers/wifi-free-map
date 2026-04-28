@@ -1,82 +1,112 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗縣苗栗地政事務所",
     "lat": 24.562159,
     "lng": 120.818236,
-    "address": "360苗栗縣苗栗市大埔街38號"
+    "address": "360苗栗縣苗栗市大埔街38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗縣政府稅務局3樓",
     "lat": 24.562649,
     "lng": 120.819775,
-    "address": "360苗栗縣苗栗市府前路46號"
+    "address": "360苗栗縣苗栗市府前路46號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗縣政府稅務局1樓",
     "lat": 24.562649,
     "lng": 120.819775,
-    "address": "360苗栗縣苗栗市府前路46號"
+    "address": "360苗栗縣苗栗市府前路46號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗府前郵局",
     "lat": 24.562857,
     "lng": 120.818401,
-    "address": "360苗栗縣苗栗市忠孝路119號"
+    "address": "360苗栗縣苗栗市忠孝路119號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺灣龍鳳社會工作實務交流發展協會",
     "lat": 24.563,
     "lng": 120.816,
-    "address": "360苗栗縣苗栗市福安里13鄰福星127之19號"
+    "address": "360苗栗縣苗栗市福安里13鄰福星127之19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗文山郵局",
     "lat": 24.56413,
     "lng": 120.811823,
-    "address": "360苗栗縣苗栗市至公路420-1號"
+    "address": "360苗栗縣苗栗市至公路420-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗縣苗栗市戶政事務所",
     "lat": 24.567421,
     "lng": 120.810385,
-    "address": "350苗栗縣苗栗市至公路555號"
+    "address": "350苗栗縣苗栗市至公路555號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局新竹區監理所苗栗監理站",
     "lat": 24.567633,
     "lng": 120.808569,
-    "address": "360苗栗縣苗栗市福麗里福麗98號"
+    "address": "360苗栗縣苗栗市福麗里福麗98號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華民國全國特教園區永續關懷協會",
     "lat": 24.569916,
     "lng": 120.812024,
-    "address": "360苗栗縣苗栗市文山里8鄰文發路145號"
+    "address": "360苗栗縣苗栗市文山里8鄰文發路145號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗縣頭屋鄉衛生所",
     "lat": 24.578452,
     "lng": 120.815504,
-    "address": "362苗栗縣頭屋鄉頭屋村13鄰中山街54號"
+    "address": "362苗栗縣頭屋鄉頭屋村13鄰中山街54號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

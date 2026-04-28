@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人雲林縣身心障礙福利協會-公安據點",
     "lat": 23.720057,
     "lng": 120.443333,
-    "address": "632雲林縣虎尾鎮公安里水源路14號二樓"
+    "address": "632雲林縣虎尾鎮公安里水源路14號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣虎尾鎮埒內社區發展協會",
     "lat": 23.7208,
     "lng": 120.445495,
-    "address": "632雲林縣虎尾鎮埒內143之5號"
+    "address": "632雲林縣虎尾鎮埒內143之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

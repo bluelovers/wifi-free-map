@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華恩感基督文化協會",
     "lat": 22.744,
     "lng": 120.291,
-    "address": "825高雄市橋頭區仕隆里仕隆路28號"
+    "address": "825高雄市橋頭區仕隆里仕隆路28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

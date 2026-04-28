@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市官田區官田社區發展協會",
     "lat": 23.182,
     "lng": 120.3,
-    "address": "720臺南市官田區官田315號"
+    "address": "720臺南市官田區官田315號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局隆田站候車室",
     "lat": 23.192663,
     "lng": 120.318898,
-    "address": "720臺南市官田區中山路一段1號"
+    "address": "720臺南市官田區中山路一段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市官田區隆本里辦公處",
     "lat": 23.193,
     "lng": 120.315,
-    "address": "720臺南市官田區隆本里興隆街33號"
+    "address": "720臺南市官田區隆本里興隆街33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "官田隆田郵局",
     "lat": 23.194349,
     "lng": 120.316127,
-    "address": "720臺南市官田區勝利路2號"
+    "address": "720臺南市官田區勝利路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市官田區拔林社區發展協會",
     "lat": 23.198,
     "lng": 120.316,
-    "address": "720臺南市官田區渡拔里拔林里43-7號"
+    "address": "720臺南市官田區渡拔里拔林里43-7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

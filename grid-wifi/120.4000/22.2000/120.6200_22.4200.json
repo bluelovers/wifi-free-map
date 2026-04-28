@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣春日鄉七佳部落",
     "lat": 22.42803,
     "lng": 120.62761,
-    "address": "942屏東縣春日鄉自強1路18號"
+    "address": "942屏東縣春日鄉自強1路18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全齡春日鄉樂智據點",
     "lat": 22.428335,
     "lng": 120.629113,
-    "address": "942屏東縣春日鄉歸崇村玉山路165號"
+    "address": "942屏東縣春日鄉歸崇村玉山路165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

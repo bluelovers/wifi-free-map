@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "白河內角郵局",
     "lat": 23.398458,
     "lng": 120.439064,
-    "address": "732臺南市白河區內角里24-1號"
+    "address": "732臺南市白河區內角里24-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市白河區內角里活動中心",
     "lat": 23.399575,
     "lng": 120.438478,
-    "address": "732臺南市白河區內角里6鄰內角84之18號"
+    "address": "732臺南市白河區內角里6鄰內角84之18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

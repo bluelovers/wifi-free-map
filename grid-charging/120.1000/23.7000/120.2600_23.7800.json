@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "麥寮橋頭郵局",
     "lat": 23.796327,
     "lng": 120.277549,

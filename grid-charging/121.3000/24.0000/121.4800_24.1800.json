@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "秀林天祥郵局",
     "lat": 24.183064,
     "lng": 121.494942,

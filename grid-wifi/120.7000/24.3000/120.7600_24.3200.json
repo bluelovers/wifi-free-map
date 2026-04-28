@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "水利署中區水資源局鯉魚潭水庫管理中心",
     "lat": 24.33651,
     "lng": 120.77336,
-    "address": "367苗栗縣三義鄉鯉魚潭村三櫃106號"
+    "address": "367苗栗縣三義鄉鯉魚潭村三櫃106號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

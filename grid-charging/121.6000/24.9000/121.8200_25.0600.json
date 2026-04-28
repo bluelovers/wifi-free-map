@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局三貂嶺站站辦公室",
     "lat": 25.065609,
     "lng": 121.822555,

@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "後壁安溪寮郵局",
     "lat": 23.323134,
     "lng": 120.353154,
-    "address": "731臺南市後壁區福安村下寮102-16號"
+    "address": "731臺南市後壁區福安村下寮102-16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市後壁區嘉苳社區發展協會",
     "lat": 23.325,
     "lng": 120.354,
-    "address": "731臺南市後壁區嘉苳里67-2號"
+    "address": "731臺南市後壁區嘉苳里67-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市後壁區竹新社區發展協會",
     "lat": 23.335,
     "lng": 120.359,
-    "address": "731臺南市後壁區竹新里106號"
+    "address": "731臺南市後壁區竹新里106號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市後壁區烏樹林社區發展協會",
     "lat": 23.336,
     "lng": 120.353,
-    "address": "731臺南市後壁區烏樹里28號"
+    "address": "731臺南市後壁區烏樹里28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

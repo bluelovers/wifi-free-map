@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人嘉義縣晶聖發展協會-塘興站",
     "lat": 23.494,
     "lng": 120.569,
-    "address": "604嘉義縣竹崎鄉塘興村3鄰塘下寮61之2號"
+    "address": "604嘉義縣竹崎鄉塘興村3鄰塘下寮61之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

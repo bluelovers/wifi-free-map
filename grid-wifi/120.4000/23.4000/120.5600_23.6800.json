@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "古坑東和郵局",
     "lat": 23.684042,
     "lng": 120.568716,
-    "address": "646雲林縣古坑鄉東和村文化路96號"
+    "address": "646雲林縣古坑鄉東和村文化路96號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人雲林縣愛家園關懷協會",
     "lat": 23.693203,
     "lng": 120.568055,
-    "address": "640雲林縣斗六市重光里重光路21之1號"
+    "address": "640雲林縣斗六市重光里重光路21之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

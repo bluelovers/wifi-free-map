@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "國道公路警察局第九公路警察大隊",
     "lat": 24.838173,
     "lng": 121.790754,

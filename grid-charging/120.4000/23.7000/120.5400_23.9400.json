@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣埔心鄉戶政事務所",
     "lat": 23.952968,
     "lng": 120.544138,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "埔心郵局",
     "lat": 23.954401,
     "lng": 120.543192,

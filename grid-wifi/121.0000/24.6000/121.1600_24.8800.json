@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市楊梅區山城社區發展協會",
     "lat": 24.894059,
     "lng": 121.160336,
-    "address": "326桃園市楊梅區裕成里光裕南街213號"
+    "address": "326桃園市楊梅區裕成里光裕南街213號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台灣左鄰右舍關懷與照護協會-裕成路",
     "lat": 24.898334,
     "lng": 121.160197,
-    "address": "326桃園市楊梅區裕成里裕成路170巷16號"
+    "address": "326桃園市楊梅區裕成里裕成路170巷16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

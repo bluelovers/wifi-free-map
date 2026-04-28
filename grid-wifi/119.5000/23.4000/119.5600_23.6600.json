@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣白沙鄉後寮社區發展協會",
     "lat": 23.667015,
     "lng": 119.57487,
-    "address": "884澎湖縣白沙鄉後寮村後寮92之1號"
+    "address": "884澎湖縣白沙鄉後寮村後寮92之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通部觀光局澎湖國家風景區管理處後寮遊客服務中心",
     "lat": 23.671451,
     "lng": 119.57056,
-    "address": "884澎湖縣白沙鄉後寮村104-18號"
+    "address": "884澎湖縣白沙鄉後寮村104-18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

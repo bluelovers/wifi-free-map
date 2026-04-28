@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司北斗營運所",
     "lat": 23.870895,
     "lng": 120.531932,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣北斗鎮戶政事務所",
     "lat": 23.874575,
     "lng": 120.523421,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北斗郵局",
     "lat": 23.874893,
     "lng": 120.524368,

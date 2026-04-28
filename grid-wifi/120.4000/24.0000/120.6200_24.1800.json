@@ -1,90 +1,123 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店西屯福安路福華店(公話)",
     "lat": 24.180651,
     "lng": 120.622124,
-    "address": "407臺中市西屯區福安路57號"
+    "address": "407臺中市西屯區福安路57號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "黎明商圈(黎明路三段306號)",
     "lat": 24.181507,
     "lng": 120.638624,
-    "address": "407臺中市西屯區黎明路三段306號前面(交接箱)"
+    "address": "407臺中市西屯區黎明路三段306號前面(交接箱)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商西屯福科路港強店(公話)",
     "lat": 24.181957,
     "lng": 120.624683,
-    "address": "407臺中市西屯區福科路295號"
+    "address": "407臺中市西屯區福科路295號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商西屯永福路俊國店(公話)",
     "lat": 24.182587,
     "lng": 120.620394,
-    "address": "407臺中市西屯區永福路40巷5號"
+    "address": "407臺中市西屯區永福路40巷5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "福安兒童暨老人活動中心",
     "lat": 24.182614,
     "lng": 120.620086,
-    "address": "407臺中市西屯區永福路26號"
+    "address": "407臺中市西屯區永福路26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店西屯永福路新福樂店(公話)",
     "lat": 24.184685,
     "lng": 120.621208,
-    "address": "407臺中市西屯區永福路122號"
+    "address": "407臺中市西屯區永福路122號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車永安國小(西屯路)站",
     "lat": 24.184908,
     "lng": 120.625189,
-    "address": "407臺中市西屯區西屯路三段133號(永安國小)前"
+    "address": "407臺中市西屯區西屯路三段133號(永安國小)前",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商西屯西屯路福茂店(公話)",
     "lat": 24.185752,
     "lng": 120.623969,
-    "address": "407臺中市西屯區西屯路三段148號之30"
+    "address": "407臺中市西屯區西屯路三段148號之30",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市興安柳陽關懷協會",
     "lat": 24.187,
     "lng": 120.627,
-    "address": "406臺中市北屯區松安里興安路二段412號"
+    "address": "406臺中市北屯區松安里興安路二段412號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商西屯福雅路福雅店(公話)",
     "lat": 24.19401,
     "lng": 120.6242,
-    "address": "407臺中市西屯區福雅路338號"
+    "address": "407臺中市西屯區福雅路338號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市西屯區林厝社區發展協會",
     "lat": 24.197857,
     "lng": 120.623577,
-    "address": "407臺中市西屯區林厝里安林路29號"
+    "address": "407臺中市西屯區林厝里安林路29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

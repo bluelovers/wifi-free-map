@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣員山鄉內城社區發展協會",
     "lat": 24.720743,
     "lng": 121.688925,
-    "address": "264宜蘭縣員山鄉內城村榮光路321號"
+    "address": "264宜蘭縣員山鄉內城村榮光路321號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "員山內城郵局",
     "lat": 24.721165,
     "lng": 121.687926,
-    "address": "264宜蘭縣員山鄉內城村榮光路353號"
+    "address": "264宜蘭縣員山鄉內城村榮光路353號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院醫療大樓一樓門診掛號區",
     "lat": 24.721643,
     "lng": 121.687887,
-    "address": "264宜蘭縣員山鄉內城村榮光路386號"
+    "address": "264宜蘭縣員山鄉內城村榮光路386號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

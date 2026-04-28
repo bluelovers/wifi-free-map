@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司台南市玉井區玉井站",
     "lat": 23.122245,
     "lng": 120.466011,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司玉井營運所",
     "lat": 23.123859,
     "lng": 120.465988,

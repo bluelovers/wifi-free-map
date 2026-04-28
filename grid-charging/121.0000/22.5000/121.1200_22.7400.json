@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台東豐榮郵局",
     "lat": 22.744453,
     "lng": 121.138314,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局高雄區監理所台東監理站",
     "lat": 22.754224,
     "lng": 121.132898,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "豐樂工業區服務中心",
     "lat": 22.756535,
     "lng": 121.132397,

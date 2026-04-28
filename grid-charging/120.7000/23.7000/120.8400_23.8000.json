@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水里北埔郵局",
     "lat": 23.811281,
     "lng": 120.855607,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水里郵局",
     "lat": 23.81236,
     "lng": 120.852249,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局水里站候車室",
     "lat": 23.818517,
     "lng": 120.853365,

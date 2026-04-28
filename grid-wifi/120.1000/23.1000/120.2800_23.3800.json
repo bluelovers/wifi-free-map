@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣鹿草鄉碧潭社區發展協會",
     "lat": 23.385,
     "lng": 120.297,
-    "address": "611嘉義縣鹿草鄉碧潭村頂潭18之3號之3"
+    "address": "611嘉義縣鹿草鄉碧潭村頂潭18之3號之3",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣鹿草鄉松竹社區發展協會",
     "lat": 23.394,
     "lng": 120.29,
-    "address": "611嘉義縣鹿草鄉松竹村8鄰竹子腳68之2號"
+    "address": "611嘉義縣鹿草鄉松竹村8鄰竹子腳68之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

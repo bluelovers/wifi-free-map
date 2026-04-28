@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局八德分局",
     "lat": 24.938364,
     "lng": 121.308538,

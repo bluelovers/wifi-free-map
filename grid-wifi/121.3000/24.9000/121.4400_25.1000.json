@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "五股郵局",
     "lat": 25.101591,
     "lng": 121.449451,
-    "address": "248新北市五股區成泰路三段541號"
+    "address": "248新北市五股區成泰路三段541號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

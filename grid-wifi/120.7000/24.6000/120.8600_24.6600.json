@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣竹南鎮公義社區發展協會",
     "lat": 24.663,
     "lng": 120.875,
-    "address": "350苗栗縣竹南鎮公義里6鄰大坪25號"
+    "address": "350苗栗縣竹南鎮公義里6鄰大坪25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "頭份尖山郵局",
     "lat": 24.664266,
     "lng": 120.879676,
-    "address": "351苗栗縣頭份市中華路87號"
+    "address": "351苗栗縣頭份市中華路87號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣竹南鎮海口社區發展協會",
     "lat": 24.675209,
     "lng": 120.862254,
-    "address": "350苗栗縣竹南鎮海口里7鄰育才路6號"
+    "address": "350苗栗縣竹南鎮海口里7鄰育才路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣銀髮族自強協會",
     "lat": 24.678369,
     "lng": 120.871498,
-    "address": "350苗栗縣竹南鎮大厝里27鄰真如路560號"
+    "address": "350苗栗縣竹南鎮大厝里27鄰真如路560號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

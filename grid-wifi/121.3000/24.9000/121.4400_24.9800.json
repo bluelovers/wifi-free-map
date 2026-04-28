@@ -1,250 +1,343 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "土城清水郵局",
     "lat": 24.980958,
     "lng": 121.458943,
-    "address": "236新北市土城區青雲路228、230號"
+    "address": "236新北市土城區青雲路228、230號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(新北地方法院-土城院區)-2",
     "lat": 24.983331,
     "lng": 121.458498,
-    "address": "236新北市土城區青雲路152號6樓#為民服務處"
+    "address": "236新北市土城區青雲路152號6樓#為民服務處",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣新北地方法院民事執行處",
     "lat": 24.98336,
     "lng": 121.458923,
-    "address": "236新北市土城區青雲路152號6樓"
+    "address": "236新北市土城區青雲路152號6樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "土城青雲郵局",
     "lat": 24.984495,
     "lng": 121.458658,
-    "address": "236新北市土城區青雲路138號"
+    "address": "236新北市土城區青雲路138號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣新北地方法院院本部",
     "lat": 24.984524,
     "lng": 121.458335,
-    "address": "236新北市土城區金城路二段249號"
+    "address": "236新北市土城區金城路二段249號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣新北地方檢察署行政大樓1F民眾洽公區",
     "lat": 24.984554,
     "lng": 121.458319,
-    "address": "236新北市土城區金城路二段249號"
+    "address": "236新北市土城區金城路二段249號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(新北地方法院-土城院區)-1",
     "lat": 24.984655,
     "lng": 121.457806,
-    "address": "236新北市土城區金城路2段249號#為民服務處(行政大樓一樓)"
+    "address": "236新北市土城區金城路2段249號#為民服務處(行政大樓一樓)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(新北地方法院-土城院區)-3",
     "lat": 24.984655,
     "lng": 121.457806,
-    "address": "236新北市土城區金城路2段249號#西側大樓一樓"
+    "address": "236新北市土城區金城路2段249號#西側大樓一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(新北地方法院-土城院區)-4",
     "lat": 24.984655,
     "lng": 121.457806,
-    "address": "236新北市土城區金城路2段249號#民庭大樓一樓"
+    "address": "236新北市土城區金城路2段249號#民庭大樓一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(新北地方法院-土城院區)-5",
     "lat": 24.984655,
     "lng": 121.457806,
-    "address": "236新北市土城區金城路2段249號#法庭大樓二樓調解區"
+    "address": "236新北市土城區金城路2段249號#法庭大樓二樓調解區",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華全齡關懷協會(土城中正站)",
     "lat": 24.984676,
     "lng": 121.453899,
-    "address": "236新北市土城區中正里裕民路185巷8號"
+    "address": "236新北市土城區中正里裕民路185巷8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "土城貨饒郵局",
     "lat": 24.984987,
     "lng": 121.444577,
-    "address": "236新北市土城區中央路一段240號"
+    "address": "236新北市土城區中央路一段240號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市土城區日新里辦公處",
     "lat": 24.98509,
     "lng": 121.446203,
-    "address": "236新北市土城區日新里裕生路100巷7號"
+    "address": "236新北市土城區日新里裕生路100巷7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "土城學府郵局",
     "lat": 24.985202,
     "lng": 121.448793,
-    "address": "236新北市土城區明德路二段58號"
+    "address": "236新北市土城區明德路二段58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行北土城分行",
     "lat": 24.986155,
     "lng": 121.452098,
-    "address": "236新北市土城區裕民路149號"
+    "address": "236新北市土城區裕民路149號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "裕生社區發展協會",
     "lat": 24.986951,
     "lng": 121.446297,
-    "address": "236新北市土城區裕生里中央路一段189巷2號"
+    "address": "236新北市土城區裕生里中央路一段189巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司土城服務所",
     "lat": 24.986965,
     "lng": 121.452131,
-    "address": "236新北市土城區學享街63號"
+    "address": "236新北市土城區學享街63號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行土城分行",
     "lat": 24.988287,
     "lng": 121.447129,
-    "address": "236新北市土城區中央路一段127號"
+    "address": "236新北市土城區中央路一段127號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市崇德光慧經典教育推廣協會",
     "lat": 24.989723,
     "lng": 121.446302,
-    "address": "236新北市土城區貨饒里中華路一段36號六樓"
+    "address": "236新北市土城區貨饒里中華路一段36號六樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "廣厚宮附設鶴齡交誼中心",
     "lat": 24.99134,
     "lng": 121.459265,
-    "address": "220新北市板橋區信義里信義路164之1號"
+    "address": "220新北市板橋區信義里信義路164之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市板橋區四汴頭社區發展協會",
     "lat": 24.991507,
     "lng": 121.457601,
-    "address": "220新北市板橋區信義里信義路150巷43號"
+    "address": "220新北市板橋區信義里信義路150巷43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "板橋八甲郵局",
     "lat": 24.993992,
     "lng": 121.451255,
-    "address": "220新北市板橋區四川路二段123號1樓"
+    "address": "220新北市板橋區四川路二段123號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市板橋勞工志工發展協會-華德站",
     "lat": 24.994344,
     "lng": 121.453933,
-    "address": "220新北市板橋區華德里四川路二段47巷6弄10號"
+    "address": "220新北市板橋區華德里四川路二段47巷6弄10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市華東關華服務協會",
     "lat": 24.994543,
     "lng": 121.449673,
-    "address": "220新北市板橋區華東里四川路二段130巷32號"
+    "address": "220新北市板橋區華東里四川路二段130巷32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "水利署第十河川局1樓服務台",
     "lat": 24.994863,
     "lng": 121.452589,
-    "address": "220新北市板橋區四川路二段橋頭1號"
+    "address": "220新北市板橋區四川路二段橋頭1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀板南分行",
     "lat": 24.995911,
     "lng": 121.451615,
-    "address": "220新北市板橋區南雅南路二段148號"
+    "address": "220新北市板橋區南雅南路二段148號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人中華民國佛教慈濟慈善事業基金會(板橋靜思堂)",
     "lat": 24.996104,
     "lng": 121.442937,
-    "address": "220新北市板橋區福安里大觀路二段265巷15號"
+    "address": "220新北市板橋區福安里大觀路二段265巷15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市板橋區華福里辦公處",
     "lat": 24.997,
     "lng": 121.456,
-    "address": "220新北市板橋區華福里東興街17號一樓"
+    "address": "220新北市板橋區華福里東興街17號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市中正愛心關懷協會(福安站)",
     "lat": 24.998092,
     "lng": 121.441135,
-    "address": "220新北市板橋區福安里大觀路二段365巷15號"
+    "address": "220新北市板橋區福安里大觀路二段365巷15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "板橋浮洲郵局",
     "lat": 24.99846,
     "lng": 121.441881,
-    "address": "220新北市板橋區大觀路二段313號"
+    "address": "220新北市板橋區大觀路二段313號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市板橋區大浮洲發展協進會(大觀站)",
     "lat": 24.999585,
     "lng": 121.441383,
-    "address": "220新北市板橋區大觀里僑中二街12巷24號"
+    "address": "220新北市板橋區大觀里僑中二街12巷24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

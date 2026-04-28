@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣向揚推展關懷協會-下埔站",
     "lat": 24.522042,
     "lng": 120.760857,
-    "address": "368苗栗縣西湖鄉下埔村1鄰16-1號"
+    "address": "368苗栗縣西湖鄉下埔村1鄰16-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "永忻物理治療所(西湖)",
     "lat": 24.524668,
     "lng": 120.770333,
-    "address": "368苗栗縣西湖鄉五湖村13鄰五湖街194-4號"
+    "address": "368苗栗縣西湖鄉五湖村13鄰五湖街194-4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

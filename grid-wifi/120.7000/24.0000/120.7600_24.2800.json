@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "水利署中區水資源局石岡壩管理中心",
     "lat": 24.280211,
     "lng": 120.769958,
-    "address": "422臺中市石岡區石岡里豐勢路1238號"
+    "address": "422臺中市石岡區石岡里豐勢路1238號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行太平分行",
     "lat": 24.29704,
     "lng": 120.761719,
-    "address": "411臺中市太平區中興東路58號"
+    "address": "411臺中市太平區中興東路58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鹿野遊客中心",
     "lat": 22.923851,
     "lng": 121.125548,

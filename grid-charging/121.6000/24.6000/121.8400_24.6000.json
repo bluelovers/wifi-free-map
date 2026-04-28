@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘇澳港邊里郵局",
     "lat": 24.612995,
     "lng": 121.849615,

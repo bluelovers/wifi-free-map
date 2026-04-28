@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "金門縣烈嶼鄉青岐社區發展協會",
     "lat": 24.416104,
     "lng": 118.225721,
-    "address": "894金門縣烈嶼鄉上岐村青岐41-16號"
+    "address": "894金門縣烈嶼鄉上岐村青岐41-16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "金門縣音律活化健康協會烈嶼鄉失智據點",
     "lat": 24.41616,
     "lng": 118.226347,
-    "address": "894金門縣烈嶼鄉上岐村62-2號"
+    "address": "894金門縣烈嶼鄉上岐村62-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

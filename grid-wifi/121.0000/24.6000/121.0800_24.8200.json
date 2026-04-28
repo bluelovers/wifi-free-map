@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀北新竹分行",
     "lat": 24.826959,
     "lng": 121.083175,
-    "address": "305新竹縣新埔鎮中正路198號"
+    "address": "305新竹縣新埔鎮中正路198號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新埔郵局",
     "lat": 24.827162,
     "lng": 121.082494,
-    "address": "305新竹縣新埔鎮中正路210號"
+    "address": "305新竹縣新埔鎮中正路210號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局瀧溪站候車室",
     "lat": 22.460896,
     "lng": 120.941814,
-    "address": "963臺東縣太麻里鄉多良村大溪37-1號"
+    "address": "963臺東縣太麻里鄉多良村大溪37-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

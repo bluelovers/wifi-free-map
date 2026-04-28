@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(南投地方法院-埔里簡易庭)",
     "lat": 23.959982,
     "lng": 120.955481,
-    "address": "545南投縣埔里鎮南環路640號"
+    "address": "545南投縣埔里鎮南環路640號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

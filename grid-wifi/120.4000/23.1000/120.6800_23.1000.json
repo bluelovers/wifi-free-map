@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市桃源區建山社區發展協會",
     "lat": 23.106654,
     "lng": 120.683956,
-    "address": "848高雄市桃源區建山巷86號"
+    "address": "848高雄市桃源區建山巷86號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "六龜寶來郵局",
     "lat": 23.10829,
     "lng": 120.699728,
-    "address": "844高雄市六龜區寶來街18-1號"
+    "address": "844高雄市六龜區寶來街18-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

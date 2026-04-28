@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣潮州鎮四春社區發展協會",
     "lat": 22.548568,
     "lng": 120.578679,
-    "address": "920屏東縣潮州鎮四春里大德路22號"
+    "address": "920屏東縣潮州鎮四春里大德路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣潮州鎮泗林社區發展協會",
     "lat": 22.549123,
     "lng": 120.566873,
-    "address": "920屏東縣潮州鎮泗林里明倫路1之1號"
+    "address": "920屏東縣潮州鎮泗林里明倫路1之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

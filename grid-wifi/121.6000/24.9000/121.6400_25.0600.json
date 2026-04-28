@@ -1,114 +1,156 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀汐止分行",
     "lat": 25.061065,
     "lng": 121.646158,
-    "address": "221新北市汐止區新臺五路一段81號-2"
+    "address": "221新北市汐止區新臺五路一段81號-2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "板信商銀汐止分行",
     "lat": 25.061292,
     "lng": 121.648171,
-    "address": "221新北市汐止區新台五路一段91-2號1-2樓"
+    "address": "221新北市汐止區新台五路一段91-2號1-2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局汐科站第1月台9-10車處嚮導室",
     "lat": 25.062562,
     "lng": 121.64665,
-    "address": "221新北市汐止區大同路二段182號"
+    "address": "221新北市汐止區大同路二段182號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局汐科站第2月台嚮導室(9-10車位置)",
     "lat": 25.062562,
     "lng": 121.64665,
-    "address": "221新北市汐止區大同路二段182號"
+    "address": "221新北市汐止區大同路二段182號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局汐科站北站售票房",
     "lat": 25.062846,
     "lng": 121.64918,
-    "address": "221新北市汐止區大同路二段182號"
+    "address": "221新北市汐止區大同路二段182號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部北區國稅局汐止稽徵所",
     "lat": 25.063784,
     "lng": 121.658948,
-    "address": "221新北市汐止區新臺五路一段268號9樓"
+    "address": "221新北市汐止區新臺五路一段268號9樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "汐止龍安郵局",
     "lat": 25.063807,
     "lng": 121.65434,
-    "address": "221新北市汐止區龍安路42號"
+    "address": "221新北市汐止區龍安路42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(汐科分行)",
     "lat": 25.064097,
     "lng": 121.650734,
-    "address": "221新北市汐止區大同路二段133號"
+    "address": "221新北市汐止區大同路二段133號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行股份有限公司汐止分公司",
     "lat": 25.06422,
     "lng": 121.65141,
-    "address": "221新北市汐止區大同路二段175號1樓"
+    "address": "221新北市汐止區大同路二段175號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華關懷身心促進發展協會(大同站)",
     "lat": 25.065362,
     "lng": 121.655019,
-    "address": "221新北市汐止區大同里大同路二段312巷16弄35號一樓"
+    "address": "221新北市汐止區大同里大同路二段312巷16弄35號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "汐止厚德郵局",
     "lat": 25.066453,
     "lng": 121.642391,
-    "address": "221新北市汐止區樟樹一路224號"
+    "address": "221新北市汐止區樟樹一路224號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "汐止郵局",
     "lat": 25.067396,
     "lng": 121.657866,
-    "address": "221新北市汐止區大同路二段393號"
+    "address": "221新北市汐止區大同路二段393號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市水岸都市永續發展協會",
     "lat": 25.071523,
     "lng": 121.651214,
-    "address": "221新北市汐止區江北里汐萬路一段211巷31號"
+    "address": "221新北市汐止區江北里汐萬路一段211巷31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司基隆區處汐止服務所",
     "lat": 25.072702,
     "lng": 121.652117,
-    "address": "221新北市汐止區汐萬路一段216號"
+    "address": "221新北市汐止區汐萬路一段216號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

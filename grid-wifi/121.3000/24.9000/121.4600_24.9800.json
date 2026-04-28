@@ -1,146 +1,200 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市銀髮族關懷推廣協會(中和景安分站)",
     "lat": 24.981,
     "lng": 121.465,
-    "address": "235新北市中和區景安里景安路167巷11號"
+    "address": "235新北市中和區景安里景安路167巷11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲溪社區發展協會",
     "lat": 24.985701,
     "lng": 121.460134,
-    "address": "236新北市土城區清溪里清水路243之1號"
+    "address": "236新北市土城區清溪里清水路243之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀土城分行",
     "lat": 24.98653,
     "lng": 121.465889,
-    "address": "236新北市土城區金城路三段50號"
+    "address": "236新北市土城區金城路三段50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市土城區延吉社區發展協會",
     "lat": 24.986578,
     "lng": 121.471244,
-    "address": "236新北市土城區延吉里廷吉街113號、延吉街137巷13號"
+    "address": "236新北市土城區延吉里廷吉街113號、延吉街137巷13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台北市基督教台灣貴格會(土城教會)",
     "lat": 24.987115,
     "lng": 121.466127,
-    "address": "236新北市土城區延和里金城路三段67號五樓"
+    "address": "236新北市土城區延和里金城路三段67號五樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "土城平和郵局",
     "lat": 24.988997,
     "lng": 121.46965,
-    "address": "236新北市土城區金城路三段185號"
+    "address": "236新北市土城區金城路三段185號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "衛生福利部八里療養院土城門診",
     "lat": 24.990142,
     "lng": 121.460102,
-    "address": "236新北市土城區青雲路6號"
+    "address": "236新北市土城區青雲路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "平和社區發展協會",
     "lat": 24.991089,
     "lng": 121.467738,
-    "address": "236新北市土城區平和里延和路105巷6弄8號三樓"
+    "address": "236新北市土城區平和里延和路105巷6弄8號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "頤安老人日間照顧中心",
     "lat": 24.992993,
     "lng": 121.465645,
-    "address": "220新北市板橋區五權里廣權路130號二樓"
+    "address": "220新北市板橋區五權里廣權路130號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市板橋區福泰社區發展協會",
     "lat": 24.994,
     "lng": 121.461,
-    "address": "220新北市板橋區福德里忠孝路忠義巷9弄1之1號"
+    "address": "220新北市板橋區福德里忠孝路忠義巷9弄1之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市中和區明德里辦公處",
     "lat": 24.994784,
     "lng": 121.467347,
-    "address": "235新北市中和區明德里民德路311號二樓"
+    "address": "235新北市中和區明德里民德路311號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "板橋國慶郵局",
     "lat": 24.995872,
     "lng": 121.460986,
-    "address": "220新北市板橋區國慶路132號"
+    "address": "220新北市板橋區國慶路132號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市中和區壽德里辦公處",
     "lat": 24.996074,
     "lng": 121.464676,
-    "address": "235新北市中和區壽德里華順街138號一樓"
+    "address": "235新北市中和區壽德里華順街138號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市板橋區大後埔文化關懷協進會-重慶站",
     "lat": 24.996778,
     "lng": 121.460939,
-    "address": "220新北市板橋區重慶里國慶路149巷3弄7號"
+    "address": "220新北市板橋區重慶里國慶路149巷3弄7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "重慶社區發展協會",
     "lat": 24.996778,
     "lng": 121.460939,
-    "address": "220新北市板橋區重慶里國慶路149巷3弄7號"
+    "address": "220新北市板橋區重慶里國慶路149巷3弄7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市中和區莒西社區發展協會",
     "lat": 24.998899,
     "lng": 121.472022,
-    "address": "235新北市中和區自強里莒光路200號之3"
+    "address": "235新北市中和區自強里莒光路200號之3",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署新北市服務站(新)",
     "lat": 24.99959,
     "lng": 121.476476,
-    "address": "235新北市中和區民安街135號"
+    "address": "235新北市中和區民安街135號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高鐵局檔案閱覽室",
     "lat": 24.999832,
     "lng": 121.477592,
-    "address": "235新北市中和區民安街170號1樓"
+    "address": "235新北市中和區民安街170號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

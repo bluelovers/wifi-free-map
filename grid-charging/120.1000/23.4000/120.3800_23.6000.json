@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "溪口郵局",
     "lat": 23.603788,
     "lng": 120.39563,

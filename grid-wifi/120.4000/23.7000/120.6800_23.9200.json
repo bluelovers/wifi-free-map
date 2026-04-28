@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人南投縣家庭照顧者關懷協會(軍功里)",
     "lat": 23.920891,
     "lng": 120.697802,
-    "address": "540南投縣南投市軍功里軍功路144巷2號(福順宮)"
+    "address": "540南投縣南投市軍功里軍功路144巷2號(福順宮)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "南投縣會展中心",
     "lat": 23.926549,
     "lng": 120.68792,
-    "address": "540南投縣南投市祖祠東路26號"
+    "address": "540南投縣南投市祖祠東路26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣南投市內轆社區發展協會",
     "lat": 23.934819,
     "lng": 120.690883,
-    "address": "540南投縣南投市內新里東閔路360巷53之1號"
+    "address": "540南投縣南投市內新里東閔路360巷53之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通部公路總局台中區監理所南投監理站3樓",
     "lat": 23.935602,
     "lng": 120.694904,
-    "address": "540南投縣南投市中興路201號"
+    "address": "540南投縣南投市中興路201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院主計總處(中部辦公園區)",
     "lat": 23.938997,
     "lng": 120.698673,
-    "address": "540南投縣南投市中興新村光明路25號"
+    "address": "540南投縣南投市中興新村光明路25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投光明里郵局",
     "lat": 23.939432,
     "lng": 120.697178,
-    "address": "540南投縣南投市光明里中正路648號"
+    "address": "540南投縣南投市光明里中正路648號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

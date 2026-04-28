@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司台中發電廠接待中心",
     "lat": 24.214287,
     "lng": 120.49221,
-    "address": "434臺中市龍井區龍昌路1號"
+    "address": "434臺中市龍井區龍昌路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

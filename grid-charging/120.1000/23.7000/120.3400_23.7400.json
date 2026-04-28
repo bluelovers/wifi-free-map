@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司崙背營運所",
     "lat": 23.757852,
     "lng": 120.354041,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "崙背郵局",
     "lat": 23.759581,
     "lng": 120.352678,

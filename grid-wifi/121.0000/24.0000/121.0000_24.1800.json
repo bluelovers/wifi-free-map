@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "林務局東勢林區管理處八仙山國家森林遊樂區遊客中心",
     "lat": 24.19737,
     "lng": 121.005655,
-    "address": "424臺中市和平區東關路一段200-8號"
+    "address": "424臺中市和平區東關路一段200-8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

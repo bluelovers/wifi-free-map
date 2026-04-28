@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "吉貝遊客中心",
     "lat": 23.738744,
     "lng": 119.611181,
-    "address": "884澎湖縣白沙鄉吉貝村182-2號"
+    "address": "884澎湖縣白沙鄉吉貝村182-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南灣裡郵局",
     "lat": 22.931399,
     "lng": 120.180743,

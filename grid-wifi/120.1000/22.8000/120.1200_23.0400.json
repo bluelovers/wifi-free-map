@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市安南區佃東里辦公處",
     "lat": 23.059,
     "lng": 120.136,
-    "address": "709臺南市安南區佃東里海佃路四段388巷100號"
+    "address": "709臺南市安南區佃東里海佃路四段388巷100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

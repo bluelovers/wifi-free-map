@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "芳苑郵局",
     "lat": 23.924199,
     "lng": 120.320002,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣芳苑鄉戶政事務所",
     "lat": 23.924385,
     "lng": 120.320463,

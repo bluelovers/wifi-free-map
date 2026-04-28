@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "恆春郵局",
     "lat": 22.001551,
     "lng": 120.742192,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "恆春南門郵局",
     "lat": 22.002571,
     "lng": 120.744943,

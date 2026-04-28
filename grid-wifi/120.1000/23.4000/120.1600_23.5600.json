@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣家園關懷協會-蚵寮據點",
     "lat": 23.571,
     "lng": 120.1746,
-    "address": "653雲林縣口湖鄉蚵寮村仁愛街55號"
+    "address": "653雲林縣口湖鄉蚵寮村仁愛街55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

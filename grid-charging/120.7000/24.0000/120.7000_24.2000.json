@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市潭子區戶政事務所",
     "lat": 24.209473,
     "lng": 120.70433,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "潭子郵局",
     "lat": 24.211694,
     "lng": 120.703734,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "潭子潭北郵局",
     "lat": 24.214913,
     "lng": 120.706578,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "潭子加工區郵局",
     "lat": 24.217403,
     "lng": 120.701604,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部加工出口區管理處台中分處2樓洽公區",
     "lat": 24.217456,
     "lng": 120.70555,

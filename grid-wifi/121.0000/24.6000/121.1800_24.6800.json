@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣尖石鄉馬胎部落-2",
     "lat": 24.68248,
     "lng": 121.18303,
-    "address": "313新竹縣尖石鄉義興村9鄰馬胎68號"
+    "address": "313新竹縣尖石鄉義興村9鄰馬胎68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

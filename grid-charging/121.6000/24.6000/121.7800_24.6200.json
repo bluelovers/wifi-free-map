@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "冬山郵局",
     "lat": 24.634404,
     "lng": 121.791616,

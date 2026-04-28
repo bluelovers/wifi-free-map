@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "社頭郵局",
     "lat": 23.898339,
     "lng": 120.587628,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣社頭鄉戶政事務所",
     "lat": 23.898718,
     "lng": 120.587853,

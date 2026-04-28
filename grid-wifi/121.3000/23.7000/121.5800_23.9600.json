@@ -1,290 +1,398 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局臺北區監理所花蓮監理站",
     "lat": 23.961019,
     "lng": 121.586981,
-    "address": "973花蓮縣吉安鄉中正路二段152號"
+    "address": "973花蓮縣吉安鄉中正路二段152號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣政府客家事務處",
     "lat": 23.961668,
     "lng": 121.588219,
-    "address": "973花蓮縣吉安鄉中正路二段60號"
+    "address": "973花蓮縣吉安鄉中正路二段60號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣吉安鄉化仁國民小學",
     "lat": 23.962901,
     "lng": 121.595564,
-    "address": "973花蓮縣吉安鄉東昌村東里11街83號"
+    "address": "973花蓮縣吉安鄉東昌村東里11街83號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "花蓮縣客家文化會館演藝堂",
     "lat": 23.963213,
     "lng": 121.587163,
-    "address": "973花蓮縣吉安鄉中正路二段58號"
+    "address": "973花蓮縣吉安鄉中正路二段58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司花蓮縣吉安鄉南埔站",
     "lat": 23.963956,
     "lng": 121.589869,
-    "address": "973花蓮縣吉安鄉仁和村中正路二段6號"
+    "address": "973花蓮縣吉安鄉仁和村中正路二段6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立化仁國民中學",
     "lat": 23.965097,
     "lng": 121.593263,
-    "address": "973花蓮縣吉安鄉東昌村東海10街3號"
+    "address": "973花蓮縣吉安鄉東昌村東海10街3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣吉安鄉東昌社區發展協會",
     "lat": 23.965756,
     "lng": 121.595869,
-    "address": "973花蓮縣吉安鄉東昌村東海六街74號"
+    "address": "973花蓮縣吉安鄉東昌村東海六街74號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局仁里消防分隊",
     "lat": 23.966386,
     "lng": 121.58943,
-    "address": "973花蓮縣吉安鄉仁里三街11-1號"
+    "address": "973花蓮縣吉安鄉仁里三街11-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人門諾社會福利慈善事業基金會-吉安",
     "lat": 23.966405,
     "lng": 121.595433,
-    "address": "973花蓮縣吉安鄉東昌村東海六街73號"
+    "address": "973花蓮縣吉安鄉東昌村東海六街73號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣吉安鄉仁里社區發展協會",
     "lat": 23.967073,
     "lng": 121.591996,
-    "address": "973花蓮縣吉安鄉仁里村五街1號"
+    "address": "973花蓮縣吉安鄉仁里村五街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "吉安仁里郵局",
     "lat": 23.967483,
     "lng": 121.592809,
-    "address": "973花蓮縣吉安鄉仁里村中正路一段48號"
+    "address": "973花蓮縣吉安鄉仁里村中正路一段48號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "吉安鄉中正路一段與仁里三街口",
     "lat": 23.967991,
     "lng": 121.593583,
-    "address": "973花蓮縣吉安鄉中正路一段37之1號"
+    "address": "973花蓮縣吉安鄉中正路一段37之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣仁里派出所",
     "lat": 23.96805,
     "lng": 121.59358,
-    "address": "973花蓮縣吉安鄉仁里村中正路一段38號"
+    "address": "973花蓮縣吉安鄉仁里村中正路一段38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮市立圖書館樂齡館",
     "lat": 23.968779,
     "lng": 121.596804,
-    "address": "970花蓮縣花蓮市中順街77號"
+    "address": "970花蓮縣花蓮市中順街77號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "主農社區發展協會",
     "lat": 23.968789,
     "lng": 121.596804,
-    "address": "970花蓮縣花蓮市主農里中順街77號"
+    "address": "970花蓮縣花蓮市主農里中順街77號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣花蓮市主農里辦公處",
     "lat": 23.96895,
     "lng": 121.59624,
-    "address": "970花蓮縣花蓮市中順街77號"
+    "address": "970花蓮縣花蓮市中順街77號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "吉安鄉阿美文物館",
     "lat": 23.970212,
     "lng": 121.580612,
-    "address": "973花蓮縣吉安鄉文化五街43號"
+    "address": "973花蓮縣吉安鄉文化五街43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "吉安鄉中山路二段南昌北路口",
     "lat": 23.970831,
     "lng": 121.583028,
-    "address": "973花蓮縣吉安鄉中山路二段71之2號"
+    "address": "973花蓮縣吉安鄉中山路二段71之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣吉安鄉宜昌國民小學",
     "lat": 23.971186,
     "lng": 121.585447,
-    "address": "973花蓮縣吉安鄉宜昌1街45號"
+    "address": "973花蓮縣吉安鄉宜昌1街45號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣花蓮市中正國民小學",
     "lat": 23.971899,
     "lng": 121.599504,
-    "address": "970花蓮縣花蓮市中正路210號"
+    "address": "970花蓮縣花蓮市中正路210號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮市中正路與榮正街口",
     "lat": 23.971983,
     "lng": 121.599388,
-    "address": "970花蓮縣花蓮市中正路239號"
+    "address": "970花蓮縣花蓮市中正路239號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立宜昌國民中學",
     "lat": 23.972038,
     "lng": 121.586552,
-    "address": "973花蓮縣吉安鄉宜昌村宜昌1街41號"
+    "address": "973花蓮縣吉安鄉宜昌村宜昌1街41號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣花蓮市中原國民小學",
     "lat": 23.972115,
     "lng": 121.596366,
-    "address": "970花蓮縣花蓮市中原路531號"
+    "address": "970花蓮縣花蓮市中原路531號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮市主權發展協會",
     "lat": 23.972442,
     "lng": 121.594067,
-    "address": "970花蓮縣花蓮市主權里德安一街118號"
+    "address": "970花蓮縣花蓮市主權里德安一街118號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "吉安宜昌郵局",
     "lat": 23.973718,
     "lng": 121.585187,
-    "address": "973花蓮縣吉安鄉中華路二段83號"
+    "address": "973花蓮縣吉安鄉中華路二段83號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會農糧署東區分署",
     "lat": 23.974399,
     "lng": 121.590199,
-    "address": "970花蓮縣花蓮市中華路512號"
+    "address": "970花蓮縣花蓮市中華路512號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮中華路郵局",
     "lat": 23.974752,
     "lng": 121.596985,
-    "address": "970花蓮縣花蓮市中華路335-5號"
+    "address": "970花蓮縣花蓮市中華路335-5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣花蓮市忠孝國民小學",
     "lat": 23.975136,
     "lng": 121.598729,
-    "address": "970花蓮縣花蓮市中華路298號"
+    "address": "970花蓮縣花蓮市中華路298號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "勝安村活動中心",
     "lat": 23.97543,
     "lng": 121.58677,
-    "address": "973花蓮縣吉安鄉慈惠一街30號"
+    "address": "973花蓮縣吉安鄉慈惠一街30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮市主力社區發展協會",
     "lat": 23.975655,
     "lng": 121.596153,
-    "address": "970花蓮縣花蓮市主力里榮正街186巷18號二樓"
+    "address": "970花蓮縣花蓮市主力里榮正街186巷18號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人花蓮縣老人暨家庭關懷協會-主權",
     "lat": 23.975732,
     "lng": 121.593814,
-    "address": "970花蓮縣花蓮市主權里中原路666號"
+    "address": "970花蓮縣花蓮市主權里中原路666號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮市林森路與國風街",
     "lat": 23.976804,
     "lng": 121.597808,
-    "address": "970花蓮縣花蓮市林森路80號"
+    "address": "970花蓮縣花蓮市林森路80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "花蓮勝安宮",
     "lat": 23.977486,
     "lng": 121.584541,
-    "address": "973花蓮縣吉安鄉慈惠三街118號"
+    "address": "973花蓮縣吉安鄉慈惠三街118號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣社區文建關懷協會",
     "lat": 23.978198,
     "lng": 121.597456,
-    "address": "970花蓮縣花蓮市國風里林榮街45號"
+    "address": "970花蓮縣花蓮市國風里林榮街45號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立國風國民中學",
     "lat": 23.978224,
     "lng": 121.595757,
-    "address": "970花蓮縣花蓮市國風里林政街7號"
+    "address": "970花蓮縣花蓮市國風里林政街7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣花蓮市國風里辦公處",
     "lat": 23.97837,
     "lng": 121.59744,
-    "address": "970花蓮縣花蓮市林榮街45號"
+    "address": "970花蓮縣花蓮市林榮街45號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

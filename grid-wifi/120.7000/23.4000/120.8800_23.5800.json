@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "信義和社郵局",
     "lat": 23.591089,
     "lng": 120.88958,
-    "address": "556南投縣信義鄉同富村同和巷72-7號"
+    "address": "556南投縣信義鄉同富村同和巷72-7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣信義鄉望鄉部落",
     "lat": 23.59886,
     "lng": 120.88554,
-    "address": "556南投縣信義鄉望美村望和巷31號"
+    "address": "556南投縣信義鄉望美村望和巷31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣南庄鄉蓬萊部落",
     "lat": 24.5439,
     "lng": 120.97155,
-    "address": "353苗栗縣南庄鄉蓬萊村紅毛館90號"
+    "address": "353苗栗縣南庄鄉蓬萊村紅毛館90號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

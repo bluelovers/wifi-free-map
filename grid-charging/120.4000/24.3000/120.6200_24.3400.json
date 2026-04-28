@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "清水頂樓用餐區",
     "lat": 24.345027,
     "lng": 120.620469,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大甲廟口郵局",
     "lat": 24.345123,
     "lng": 120.622258,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大甲郵局",
     "lat": 24.34759,
     "lng": 120.627237,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市大甲區戶政事務所",
     "lat": 24.34914,
     "lng": 120.622477,

@@ -1,818 +1,1124 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "胡適公園-N-研究院路二段",
     "lat": 25.040361,
     "lng": 121.617691,
-    "address": "115臺北市南港區研究院路二段130號對面候車亭"
+    "address": "115臺北市南港區研究院路二段130號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "南港舊莊區民活動中心1F中央",
     "lat": 25.041104,
     "lng": 121.619383,
-    "address": "115臺北市南港區舊莊街一段91巷11號1F"
+    "address": "115臺北市南港區舊莊街一段91巷11號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館舊莊分館3F外文圖書區",
     "lat": 25.041302,
     "lng": 121.619174,
-    "address": "115臺北市南港區舊莊街一段91巷11號3F"
+    "address": "115臺北市南港區舊莊街一段91巷11號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館舊莊分館2F綜合服務臺",
     "lat": 25.041307,
     "lng": 121.619483,
-    "address": "115臺北市南港區舊莊街一段91巷11號2F"
+    "address": "115臺北市南港區舊莊街一段91巷11號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館舊莊分館4F視聽資料區",
     "lat": 25.041328,
     "lng": 121.619438,
-    "address": "115臺北市南港區舊莊街一段91巷11號4F"
+    "address": "115臺北市南港區舊莊街一段91巷11號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市南港舊莊社區發展協會",
     "lat": 25.041346,
     "lng": 121.619458,
-    "address": "115臺北市南港區舊莊里舊莊街一段91巷11號(通訊地址：臺北市舊莊街一段145巷6弄39號)"
+    "address": "115臺北市南港區舊莊里舊莊街一段91巷11號(通訊地址：臺北市舊莊街一段145巷6弄39號)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館舊莊分館5F自修室",
     "lat": 25.041491,
     "lng": 121.619687,
-    "address": "115臺北市南港區舊莊街一段91巷11號5F"
+    "address": "115臺北市南港區舊莊街一段91巷11號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "金德橋頭-N-合順街",
     "lat": 25.042655,
     "lng": 121.619857,
-    "address": "115臺北市南港區合順街8巷3弄53號對面附近候車亭(大坑街本線上)"
+    "address": "115臺北市南港區合順街8巷3弄53號對面附近候車亭(大坑街本線上)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中研院郵局",
     "lat": 25.042891,
     "lng": 121.616503,
-    "address": "115臺北市南港區研究院路二段108號"
+    "address": "115臺北市南港區研究院路二段108號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中研院-S1-研究院路二段",
     "lat": 25.043252,
     "lng": 121.616557,
-    "address": "115臺北市南港區研究院路二段108號前候車亭"
+    "address": "115臺北市南港區研究院路二段108號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中研院-N1-研究院路二段",
     "lat": 25.04326,
     "lng": 121.61665,
-    "address": "115臺北市南港區研究院路二段77號旁候車亭"
+    "address": "115臺北市南港區研究院路二段77號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "胡適國小-N-舊莊街一段",
     "lat": 25.043378,
     "lng": 121.619056,
-    "address": "115臺北市南港區舊莊街一段3巷3弄8號對面候車亭(大坑街本線)"
+    "address": "115臺北市南港區舊莊街一段3巷3弄8號對面候車亭(大坑街本線)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中研新村-S-研究院路二段",
     "lat": 25.044701,
     "lng": 121.615652,
-    "address": "115臺北市南港區研究院路二段90號旁候車亭"
+    "address": "115臺北市南港區研究院路二段90號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館親子美育數位分館2F兒童閱覽室中央",
     "lat": 25.044745,
     "lng": 121.617634,
-    "address": "115臺北市南港區研究院路二段61巷15號2F"
+    "address": "115臺北市南港區研究院路二段61巷15號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館親子美育數位分館1F服務台",
     "lat": 25.044807,
     "lng": 121.617531,
-    "address": "115臺北市南港區研究院路二段61巷15號1F"
+    "address": "115臺北市南港區研究院路二段61巷15號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "中研市場1F 33攤位前",
     "lat": 25.045497,
     "lng": 121.614444,
-    "address": "115臺北市南港區研究院路二段70巷12號1F"
+    "address": "115臺北市南港區研究院路二段70巷12號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "南港中研區民活動中心2F中央",
     "lat": 25.04551,
     "lng": 121.614476,
-    "address": "115臺北市南港區研究院路二段70巷12號2F"
+    "address": "115臺北市南港區研究院路二段70巷12號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市南港區好厝邊社區發展協會",
     "lat": 25.045514,
     "lng": 121.614546,
-    "address": "115臺北市南港區中研里研究院路二段70巷12號二樓(中研區民活動中心)"
+    "address": "115臺北市南港區中研里研究院路二段70巷12號二樓(中研區民活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中研新村-N1-研究院路二段",
     "lat": 25.045519,
     "lng": 121.615414,
-    "address": "115臺北市南港區研究院路二段78號候車亭"
+    "address": "115臺北市南港區研究院路二段78號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市南港區中研新村社區發展協會",
     "lat": 25.045813,
     "lng": 121.613,
-    "address": "115臺北市南港區中研里研究院路二段70巷47弄4號一樓"
+    "address": "115臺北市南港區中研里研究院路二段70巷47弄4號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "福山抽水站-N-福山街",
     "lat": 25.046459,
     "lng": 121.617347,
-    "address": "115臺北市南港區大坑街、研究院路二段35巷口東南側候車亭"
+    "address": "115臺北市南港區大坑街、研究院路二段35巷口東南側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣厝邊有愛關懷協會中研教會社區照顧關懷據點",
     "lat": 25.046636,
     "lng": 121.615835,
-    "address": "115臺北市南港區中研里研究院路二段11巷5號"
+    "address": "115臺北市南港區中研里研究院路二段11巷5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港水廠-N1-研究院路二段",
     "lat": 25.048635,
     "lng": 121.615977,
-    "address": "115臺北市南港區研究院路二段1號旁候車亭"
+    "address": "115臺北市南港區研究院路二段1號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港水廠-S-研究院路一段",
     "lat": 25.049547,
     "lng": 121.615615,
-    "address": "115臺北市南港區研究院路一段183號對面候車亭"
+    "address": "115臺北市南港區研究院路一段183號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "臺北市極限運動訓練中心-辦公室-頂樓",
     "lat": 25.051949,
     "lng": 121.607366,
-    "address": "115臺北市南港區忠孝東路七段382號辦公室-頂樓"
+    "address": "115臺北市南港區忠孝東路七段382號辦公室-頂樓",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運南港站-W-忠孝東路七段",
     "lat": 25.0524,
     "lng": 121.608352,
-    "address": "115臺北市南港區忠孝東路七段與興中路口東北側候車亭"
+    "address": "115臺北市南港區忠孝東路七段與興中路口東北側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南港富康郵局",
     "lat": 25.052524,
     "lng": 121.616336,
-    "address": "115臺北市南港區研究院路一段99號之3"
+    "address": "115臺北市南港區研究院路一段99號之3",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局南港站東補票房",
     "lat": 25.052539,
     "lng": 121.603699,
-    "address": "115臺北市南港區南港路一段313號"
+    "address": "115臺北市南港區南港路一段313號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局南港站西補票房",
     "lat": 25.052539,
     "lng": 121.603699,
-    "address": "115臺北市南港區南港路一段313號"
+    "address": "115臺北市南港區南港路一段313號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局南港站第2月台1車位置",
     "lat": 25.052539,
     "lng": 121.603699,
-    "address": "115臺北市南港區南港路一段313號"
+    "address": "115臺北市南港區南港路一段313號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "工程營產中心-E-忠孝東路七段",
     "lat": 25.052617,
     "lng": 121.611052,
-    "address": "115臺北市南港區忠孝東路七段481號對面候車亭"
+    "address": "115臺北市南港區忠孝東路七段481號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "工程營產中心-W-忠孝東路七段",
     "lat": 25.052743,
     "lng": 121.610488,
-    "address": "115臺北市南港區忠孝東路七段506號對面號誌燈站桿東側80M候車亭"
+    "address": "115臺北市南港區忠孝東路七段506號對面號誌燈站桿東側80M候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "國家文官學院-忠孝東路七段",
     "lat": 25.052749,
     "lng": 121.613845,
-    "address": "115臺北市南港區忠孝東路七段574號候車亭"
+    "address": "115臺北市南港區忠孝東路七段574號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "台鐵局南港站第二月台第7車",
     "lat": 25.052915,
     "lng": 121.606496,
-    "address": "115臺北市南港區南港路一段313號地下2樓"
+    "address": "115臺北市南港區南港路一段313號地下2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局南港站候車室(新)",
     "lat": 25.053189,
     "lng": 121.607064,
-    "address": "115臺北市南港區南港路一段313號"
+    "address": "115臺北市南港區南港路一段313號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局南港站候車室",
     "lat": 25.053277,
     "lng": 121.607047,
-    "address": "115臺北市南港區南港路一段313號"
+    "address": "115臺北市南港區南港路一段313號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港輪胎-E-南港路二段",
     "lat": 25.053308,
     "lng": 121.600819,
-    "address": "115臺北市南港區南港路二段142號對面候車亭"
+    "address": "115臺北市南港區南港路二段142號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港輪胎-W-南港路二段",
     "lat": 25.05347,
     "lng": 121.600685,
-    "address": "115臺北市南港區南港路二段142號前候車亭"
+    "address": "115臺北市南港區南港路二段142號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "台肥新村-E-南港路二段",
     "lat": 25.053574,
     "lng": 121.602876,
-    "address": "115臺北市南港區南港路二段31號旁候車亭"
+    "address": "115臺北市南港區南港路二段31號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "南港南港區民活動中心2F活動空間中央",
     "lat": 25.053594,
     "lng": 121.608029,
-    "address": "115臺北市南港區市民大道八段367號2F"
+    "address": "115臺北市南港區市民大道八段367號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華基督教加倍愛全人關懷協會",
     "lat": 25.053683,
     "lng": 121.61568,
-    "address": "115臺北市南港區中南里忠孝東路七段625巷16號"
+    "address": "115臺北市南港區中南里忠孝東路七段625巷16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新富里辦公處",
     "lat": 25.053703,
     "lng": 121.617347,
-    "address": "115臺北市南港區新福里富康街25號"
+    "address": "115臺北市南港區新福里富康街25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局南港站2月台11車",
     "lat": 25.053704,
     "lng": 121.607065,
-    "address": "115臺北市南港區南港路一段313號B3"
+    "address": "115臺北市南港區南港路一段313號B3",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人弘道老人福利基金會(南港)",
     "lat": 25.053763,
     "lng": 121.607935,
-    "address": "115臺北市南港區中南里市民大道八段588巷18號"
+    "address": "115臺北市南港區中南里市民大道八段588巷18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南港郵局",
     "lat": 25.053874,
     "lng": 121.603414,
-    "address": "115臺北市南港區南港路二段78號"
+    "address": "115臺北市南港區南港路二段78號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "台肥新村-E1-南港路二段",
     "lat": 25.053947,
     "lng": 121.603598,
-    "address": "115臺北市南港區南港路二段78號旁候車亭"
+    "address": "115臺北市南港區南港路二段78號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "南港區行政大樓稅捐處南港分處3F印花稅服務臺",
     "lat": 25.054278,
     "lng": 121.606266,
-    "address": "115臺北市南港區南港路一段360號3F"
+    "address": "115臺北市南港區南港路一段360號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港行政中心-E1-南港路一段",
     "lat": 25.054299,
     "lng": 121.607134,
-    "address": "115臺北市南港區南港路一段356號對面候車亭"
+    "address": "115臺北市南港區南港路一段356號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "南港區行政大樓1F掛號櫃臺東北方",
     "lat": 25.054331,
     "lng": 121.60656,
-    "address": "115臺北市南港區南港路一段360號1F"
+    "address": "115臺北市南港區南港路一段360號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "南港區行政大樓南港區健康服務中心1F會議室門內西北方",
     "lat": 25.054331,
     "lng": 121.60656,
-    "address": "115臺北市南港區南港路一段360號1F"
+    "address": "115臺北市南港區南港路一段360號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "南港區行政大樓南港戶政4F戶籍資料課前",
     "lat": 25.054331,
     "lng": 121.60656,
-    "address": "115臺北市南港區南港路一段360號4F"
+    "address": "115臺北市南港區南港路一段360號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港行政中心-W1-南港路一段",
     "lat": 25.054432,
     "lng": 121.606641,
-    "address": "115臺北市南港區南港路一段360號候車亭"
+    "address": "115臺北市南港區南港路一段360號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "南港區行政大樓10F大禮堂中央",
     "lat": 25.054439,
     "lng": 121.607169,
-    "address": "115臺北市南港區南港路一段360號10F"
+    "address": "115臺北市南港區南港路一段360號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "南港區行政大樓2F社會課與兵役課中間",
     "lat": 25.054471,
     "lng": 121.607349,
-    "address": "115臺北市南港區南港路一段360號2F"
+    "address": "115臺北市南港區南港路一段360號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "南港區行政大樓6F收發文臺前",
     "lat": 25.05456,
     "lng": 121.60679,
-    "address": "115臺北市南港區南港路一段360號6F"
+    "address": "115臺北市南港區南港路一段360號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "南港區行政大樓南港區健康服務中心7F健康服務中心門口",
     "lat": 25.05456,
     "lng": 121.60679,
-    "address": "115臺北市南港區南港路一段360號7F"
+    "address": "115臺北市南港區南港路一段360號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "南港東明住宅-乙區B棟(19號1F大廳)",
     "lat": 25.054561,
     "lng": 121.604622,
-    "address": "115臺北市南港區南港路二段60巷19號1F乙區B棟大廳"
+    "address": "115臺北市南港區南港路二段60巷19號1F乙區B棟大廳",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部臺北國稅局南港稽徵所民眾服務區",
     "lat": 25.054565,
     "lng": 121.606864,
-    "address": "115臺北市南港區南港路一段360號5樓"
+    "address": "115臺北市南港區南港路一段360號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "南港東明住宅-甲區大廳(16號1F)",
     "lat": 25.054623,
     "lng": 121.603786,
-    "address": "115臺北市南港區南港路二段60巷16號1F甲區大廳"
+    "address": "115臺北市南港區南港路二段60巷16號1F甲區大廳",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "南港東新區民活動中心1F中央",
     "lat": 25.054646,
     "lng": 121.600913,
-    "address": "115臺北市南港區東明街99號1F"
+    "address": "115臺北市南港區東明街99號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "南港區行政大樓6F秘書室門口東北方",
     "lat": 25.054706,
     "lng": 121.606693,
-    "address": "115臺北市南港區南港路一段360號6F"
+    "address": "115臺北市南港區南港路一段360號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "南港區行政大樓南港區健康服務中心7F會議室門口",
     "lat": 25.054706,
     "lng": 121.606693,
-    "address": "115臺北市南港區南港路一段360號7F"
+    "address": "115臺北市南港區南港路一段360號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "南港區行政大樓8F人文課",
     "lat": 25.054706,
     "lng": 121.606693,
-    "address": "115臺北市南港區南港路一段360號8F"
+    "address": "115臺北市南港區南港路一段360號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "南港區行政大樓9F經建課西北方",
     "lat": 25.054706,
     "lng": 121.606693,
-    "address": "115臺北市南港區南港路一段360號9F"
+    "address": "115臺北市南港區南港路一段360號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港展覽館-S-研究院路一段",
     "lat": 25.054715,
     "lng": 121.616411,
-    "address": "115臺北市南港區研究院路一段2之4號旁候車亭"
+    "address": "115臺北市南港區研究院路一段2之4號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行南港分行1樓",
     "lat": 25.054738,
     "lng": 121.606432,
-    "address": "115臺北市南港區南港路一段364號1、2、3、5樓"
+    "address": "115臺北市南港區南港路一段364號1、2、3、5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "南港東明住宅-乙區A棟圖書閱覽室(17號3F)",
     "lat": 25.054769,
     "lng": 121.604477,
-    "address": "115臺北市南港區南港路二段60巷17號3F乙區A棟圖書閱覽室"
+    "address": "115臺北市南港區南港路二段60巷17號3F乙區A棟圖書閱覽室",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館南港分館2F天井",
     "lat": 25.054791,
     "lng": 121.608425,
-    "address": "115臺北市南港區南港路一段350號2F"
+    "address": "115臺北市南港區南港路一段350號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館南港分館3F消防栓前方",
     "lat": 25.054802,
     "lng": 121.608329,
-    "address": "115臺北市南港區南港路一段350號3F"
+    "address": "115臺北市南港區南港路一段350號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "南港東明住宅-乙區A棟大廳(17號1F)",
     "lat": 25.054815,
     "lng": 121.604521,
-    "address": "115臺北市南港區南港路二段60巷17號1F乙區A棟大廳"
+    "address": "115臺北市南港區南港路二段60巷17號1F乙區A棟大廳",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館南港分館3F自修室告示牌旁",
     "lat": 25.054829,
     "lng": 121.608413,
-    "address": "115臺北市南港區南港路一段350號3F"
+    "address": "115臺北市南港區南港路一段350號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行南港分行5樓",
     "lat": 25.054854,
     "lng": 121.606411,
-    "address": "115臺北市南港區南港路一段364號1、2、3、5樓"
+    "address": "115臺北市南港區南港路一段364號1、2、3、5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "南港東明住宅-乙區A棟多功能會議室(17號3F)",
     "lat": 25.054862,
     "lng": 121.604453,
-    "address": "115臺北市南港區南港路二段60巷17號3F乙區A棟多功能會議室"
+    "address": "115臺北市南港區南港路二段60巷17號3F乙區A棟多功能會議室",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館南港分館1F資訊檢索區告示牌",
     "lat": 25.054875,
     "lng": 121.608467,
-    "address": "115臺北市南港區南港路一段350號1F"
+    "address": "115臺北市南港區南港路一段350號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港展覽館-W1-南港路一段",
     "lat": 25.05531,
     "lng": 121.615804,
-    "address": "115臺北市南港區南港路一段67號對面候車亭"
+    "address": "115臺北市南港區南港路一段67號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港展覽館-W-南港路一段",
     "lat": 25.05531,
     "lng": 121.615804,
-    "address": "115臺北市南港區南港路一段67號對面候車亭"
+    "address": "115臺北市南港區南港路一段67號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "南港三重區民活動中心2F中央",
     "lat": 25.055636,
     "lng": 121.613088,
-    "address": "115臺北市南港區興東街1號2F"
+    "address": "115臺北市南港區興東街1號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港高工一-N-興中路",
     "lat": 25.055835,
     "lng": 121.607271,
-    "address": "115臺北市南港區興中路36號對面候車亭"
+    "address": "115臺北市南港區興中路36號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運南港展覽館站(經貿二)-N-經貿二路",
     "lat": 25.056365,
     "lng": 121.617045,
-    "address": "115臺北市南港區經貿二路1號旁候車亭"
+    "address": "115臺北市南港區經貿二路1號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港軟體園區南站-N1-三重路",
     "lat": 25.056516,
     "lng": 121.614135,
-    "address": "115臺北市南港區三重路19之2號對面候車亭"
+    "address": "115臺北市南港區三重路19之2號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港軟體園區南站-S1-三重路",
     "lat": 25.056531,
     "lng": 121.613899,
-    "address": "115臺北市南港區三重路19之2號旁候車亭"
+    "address": "115臺北市南港區三重路19之2號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北區工業區管理處(南軟Y光棚)",
     "lat": 25.056816,
     "lng": 121.613406,
-    "address": "115臺北市南港區三重路19-4號"
+    "address": "115臺北市南港區三重路19-4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北區工業區管理處(南軟X光棚)",
     "lat": 25.057146,
     "lng": 121.613747,
-    "address": "115臺北市南港區三重路19-7號"
+    "address": "115臺北市南港區三重路19-7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀南港分行",
     "lat": 25.057502,
     "lng": 121.602961,
-    "address": "115臺北市南港區重陽路200號"
+    "address": "115臺北市南港區重陽路200號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "東新國小-E-重陽路",
     "lat": 25.057566,
     "lng": 121.603614,
-    "address": "115臺北市南港區重陽路269號對面候車亭"
+    "address": "115臺北市南港區重陽路269號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "東新國小-W-重陽路",
     "lat": 25.057757,
     "lng": 121.602721,
-    "address": "115臺北市南港區重陽路237號旁候車亭"
+    "address": "115臺北市南港區重陽路237號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北區工業區管理處(南軟A棟大廳)-1",
     "lat": 25.057895,
     "lng": 121.613488,
-    "address": "115臺北市南港區三重路19-10號"
+    "address": "115臺北市南港區三重路19-10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北區工業區管理處(南軟A棟大廳)-2",
     "lat": 25.057895,
     "lng": 121.613488,
-    "address": "115臺北市南港區三重路19-10號"
+    "address": "115臺北市南港區三重路19-10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北區工業區管理處(南軟A棟二樓)",
     "lat": 25.057895,
     "lng": 121.613488,
-    "address": "115臺北市南港區三重路19-10號"
+    "address": "115臺北市南港區三重路19-10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北區工業區管理處(南軟A棟二樓會議室)",
     "lat": 25.057895,
     "lng": 121.613488,
-    "address": "115臺北市南港區三重路19-10號"
+    "address": "115臺北市南港區三重路19-10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港高工(重陽)-W-重陽路",
     "lat": 25.058084,
     "lng": 121.60588,
-    "address": "115臺北市南港區重陽路323號前方候車亭"
+    "address": "115臺北市南港區重陽路323號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南港軟體園區郵局",
     "lat": 25.058506,
     "lng": 121.611877,
-    "address": "115臺北市南港區園區街3-2號H棟1摟"
+    "address": "115臺北市南港區園區街3-2號H棟1摟",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南軟園區北站-N-三重路",
     "lat": 25.058692,
     "lng": 121.61428,
-    "address": "115臺北市南港區三重路19之12號對面候車亭"
+    "address": "115臺北市南港區三重路19之12號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港軟體園區北站-S-三重路",
     "lat": 25.0587,
     "lng": 121.614074,
-    "address": "115臺北市南港區三重路19之12號候車亭"
+    "address": "115臺北市南港區三重路19之12號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行北南港分行",
     "lat": 25.058738,
     "lng": 121.611653,
-    "address": "115臺北市南港區園區街3號2樓-10"
+    "address": "115臺北市南港區園區街3號2樓-10",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "育成高中-E-重陽路",
     "lat": 25.058828,
     "lng": 121.60939,
-    "address": "115臺北市南港區重陽路431號對面候車亭"
+    "address": "115臺北市南港區重陽路431號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "育成高中-W-重陽路",
     "lat": 25.058862,
     "lng": 121.608994,
-    "address": "115臺北市南港區重陽路421號候車亭"
+    "address": "115臺北市南港區重陽路421號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "園區街-W-園區街",
     "lat": 25.059125,
     "lng": 121.612827,
-    "address": "115臺北市南港區園區街28號旁候車亭"
+    "address": "115臺北市南港區園區街28號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "三重里-E-重陽路",
     "lat": 25.059317,
     "lng": 121.610482,
-    "address": "115臺北市南港區重陽路386號旁候車亭"
+    "address": "115臺北市南港區重陽路386號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "三重里-W-重陽路",
     "lat": 25.059362,
     "lng": 121.61011,
-    "address": "115臺北市南港區重陽路449號旁候車亭"
+    "address": "115臺北市南港區重陽路449號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "環東大道口-經貿二路",
     "lat": 25.059419,
     "lng": 121.619301,
-    "address": "115臺北市南港區經貿二路105巷與經貿一路交岔口東北側候車亭(經貿一路本線上)"
+    "address": "115臺北市南港區經貿二路105巷與經貿一路交岔口東北側候車亭(經貿一路本線上)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南港軟體園區北站-N-三重路",
     "lat": 25.05961,
     "lng": 121.614356,
-    "address": "115臺北市南港區三重路39號對面候車亭"
+    "address": "115臺北市南港區三重路39號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

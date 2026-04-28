@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市杉林區集來社區發展協會",
     "lat": 23.078,
     "lng": 120.582,
-    "address": "846高雄市杉林區集來里通仙巷315號"
+    "address": "846高雄市杉林區集來里通仙巷315號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

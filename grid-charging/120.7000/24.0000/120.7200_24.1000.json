@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "太平竹仔坑郵局",
     "lat": 24.105173,
     "lng": 120.729065,

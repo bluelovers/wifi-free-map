@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "清水田寮郵局",
     "lat": 24.281494,
     "lng": 120.575188,
-    "address": "436臺中市清水區田寮里高美路162-14號"
+    "address": "436臺中市清水區田寮里高美路162-14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店清水高美路好美店(公話)",
     "lat": 24.290901,
     "lng": 120.571208,
-    "address": "436臺中市清水區高美路308號"
+    "address": "436臺中市清水區高美路308號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市好生活愛護關懷協會",
     "lat": 24.292937,
     "lng": 120.566834,
-    "address": "436臺中市清水區臨江里高美路392巷27號"
+    "address": "436臺中市清水區臨江里高美路392巷27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車臨港高美路口站",
     "lat": 24.297083,
     "lng": 120.564916,
-    "address": "436臺中市清水區臨海路與高美路路口"
+    "address": "436臺中市清水區臨海路與高美路路口",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市國姓里關懷協會",
     "lat": 24.297959,
     "lng": 120.577497,
-    "address": "436臺中市清水區國姓里三美路120號"
+    "address": "436臺中市清水區國姓里三美路120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

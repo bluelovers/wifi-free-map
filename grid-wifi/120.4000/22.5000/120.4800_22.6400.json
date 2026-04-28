@@ -1,122 +1,167 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣屏東市頂柳社區發展協會",
     "lat": 22.644437,
     "lng": 120.498764,
-    "address": "900屏東縣屏東市頂柳里頂柳路519號"
+    "address": "900屏東縣屏東市頂柳里頂柳路519號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣博愛全人關懷協會",
     "lat": 22.644865,
     "lng": 120.48515,
-    "address": "900屏東縣屏東市新興里新興街8號"
+    "address": "900屏東縣屏東市新興里新興街8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣屏東市新生社區發展協會",
     "lat": 22.653194,
     "lng": 120.484833,
-    "address": "900屏東縣屏東市新生里復興南路一段108巷21弄2號"
+    "address": "900屏東縣屏東市新生里復興南路一段108巷21弄2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(屏東地方法院-屏東簡易庭)",
     "lat": 22.655352,
     "lng": 120.483688,
-    "address": "900屏東縣屏東市合作街47號1樓"
+    "address": "900屏東縣屏東市合作街47號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣屏東地方法院民事庭服務中心",
     "lat": 22.655443,
     "lng": 120.483624,
-    "address": "900屏東縣屏東市合作街47號"
+    "address": "900屏東縣屏東市合作街47號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東永安郵局",
     "lat": 22.655809,
     "lng": 120.481559,
-    "address": "900屏東縣屏東市棒球路57號1樓"
+    "address": "900屏東縣屏東市棒球路57號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣屏東地方法院檢察署1樓民眾侯訊區",
     "lat": 22.656331,
     "lng": 120.482615,
-    "address": "900屏東縣屏東市棒球路11號"
+    "address": "900屏東縣屏東市棒球路11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣屏東地方法院當事人休息區",
     "lat": 22.656586,
     "lng": 120.482998,
-    "address": "900屏東縣屏東市棒球路9號"
+    "address": "900屏東縣屏東市棒球路9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署高屏澎東分署屏東就業中心洽公服務櫃台",
     "lat": 22.656699,
     "lng": 120.486432,
-    "address": "900屏東縣屏東市復興路446號"
+    "address": "900屏東縣屏東市復興路446號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(屏東地方法院)-1",
     "lat": 22.656812,
     "lng": 120.483203,
-    "address": "900屏東縣屏東市棒球路9號1樓"
+    "address": "900屏東縣屏東市棒球路9號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(屏東地方法院)-2",
     "lat": 22.656812,
     "lng": 120.483203,
-    "address": "900屏東縣屏東市棒球路9號2樓"
+    "address": "900屏東縣屏東市棒球路9號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署高屏澎東分署屏東就業中心4樓大會議室",
     "lat": 22.656869,
     "lng": 120.48637,
-    "address": "900屏東縣屏東市復興路446號"
+    "address": "900屏東縣屏東市復興路446號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣屏東地方法院聯合服務中心",
     "lat": 22.657146,
     "lng": 120.483284,
-    "address": "900屏東縣屏東市棒球路9號"
+    "address": "900屏東縣屏東市棒球路9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣屏東市永安社區發展協會",
     "lat": 22.657353,
     "lng": 120.480996,
-    "address": "900屏東縣屏東市永安里自立南路58號"
+    "address": "900屏東縣屏東市永安里自立南路58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國立屏東大學游泳池暨體適能館",
     "lat": 22.65793,
     "lng": 120.48589,
-    "address": "900屏東縣屏東市民教路102號"
+    "address": "900屏東縣屏東市民教路102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

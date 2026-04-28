@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣萬丹鄉後村社區發展協會",
     "lat": 22.575852,
     "lng": 120.459317,
-    "address": "913屏東縣萬丹鄉後村村後庄路152號"
+    "address": "913屏東縣萬丹鄉後村村後庄路152號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

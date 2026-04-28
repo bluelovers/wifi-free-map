@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄民強郵局",
     "lat": 22.648974,
     "lng": 120.279256,
-    "address": "804高雄市鼓山區九如四路636、638號"
+    "address": "804高雄市鼓山區九如四路636、638號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館鼓山分館",
     "lat": 22.653215,
     "lng": 120.275563,
-    "address": "804高雄市鼓山區鼓山三路19-3號"
+    "address": "804高雄市鼓山區鼓山三路19-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄內惟郵局",
     "lat": 22.655574,
     "lng": 120.279272,
-    "address": "804高雄市鼓山區九如四路1020、1022號"
+    "address": "804高雄市鼓山區九如四路1020、1022號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

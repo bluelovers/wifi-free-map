@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司宜蘭區處服務中心營業廳",
     "lat": 24.760009,
     "lng": 121.750318,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺宜蘭分臺",
     "lat": 24.767632,
     "lng": 121.756355,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "宜蘭大坡路郵局",
     "lat": 24.779434,
     "lng": 121.740716,

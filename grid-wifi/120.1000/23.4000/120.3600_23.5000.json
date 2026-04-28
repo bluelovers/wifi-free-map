@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "太保嘉太郵局",
     "lat": 23.508577,
     "lng": 120.362772,
-    "address": "612嘉義縣太保市嘉太工業區中興路1號"
+    "address": "612嘉義縣太保市嘉太工業區中興路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉太工業區服務中心",
     "lat": 23.508577,
     "lng": 120.362772,
-    "address": "612嘉義縣太保市嘉太工業區中興路1號1樓"
+    "address": "612嘉義縣太保市嘉太工業區中興路1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局鹿港分局秀水分駐所",
     "lat": 24.030055,
     "lng": 120.498857,
-    "address": "504彰化縣秀水鄉復新街9號"
+    "address": "504彰化縣秀水鄉復新街9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "秀水郵局",
     "lat": 24.030849,
     "lng": 120.496295,
-    "address": "504彰化縣秀水鄉福安村彰水路二段583號"
+    "address": "504彰化縣秀水鄉福安村彰水路二段583號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

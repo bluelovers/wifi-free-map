@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "后里郵局",
     "lat": 24.304655,
     "lng": 120.710851,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市后里區戶政事務所",
     "lat": 24.305422,
     "lng": 120.709996,

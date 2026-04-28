@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局北湖站第2月台行車室",
     "lat": 24.922226,
     "lng": 121.055735,
-    "address": "303新竹縣湖口鄉東興村北湖路1號"
+    "address": "303新竹縣湖口鄉東興村北湖路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東勢中嵙口郵局",
     "lat": 24.25024,
     "lng": 120.830602,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司東勢營運所",
     "lat": 24.256982,
     "lng": 120.825858,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "東勢郵局",
     "lat": 24.257082,
     "lng": 120.829966,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司東勢服務所大廳",
     "lat": 24.257945,
     "lng": 120.831649,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市東勢區戶政事務所",
     "lat": 24.258499,
     "lng": 120.827947,

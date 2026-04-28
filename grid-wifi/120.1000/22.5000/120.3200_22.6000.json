@@ -1,138 +1,189 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行五甲分行",
     "lat": 22.600726,
     "lng": 120.3393,
-    "address": "830高雄市鳳山區五甲二路256號"
+    "address": "830高雄市鳳山區五甲二路256號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人天主教社會慈善福利基金會",
     "lat": 22.601,
     "lng": 120.331,
-    "address": "806高雄市前鎮區瑞文里瑞孝街33號"
+    "address": "806高雄市前鎮區瑞文里瑞孝街33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台灣寬霖關懷協會(國隆站)",
     "lat": 22.602,
     "lng": 120.335,
-    "address": "830高雄市鳳山區國隆里國興街17號"
+    "address": "830高雄市鳳山區國隆里國興街17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(五甲分行)",
     "lat": 22.602208,
     "lng": 120.333204,
-    "address": "830高雄市鳳山區保泰路322號"
+    "address": "830高雄市鳳山區保泰路322號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館前鎮分館",
     "lat": 22.602492,
     "lng": 120.333005,
-    "address": "806高雄市前鎮區保泰路303號4-5樓"
+    "address": "806高雄市前鎮區保泰路303號4-5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行籬仔內分行",
     "lat": 22.603275,
     "lng": 120.324411,
-    "address": "806高雄市前鎮區班超路132號"
+    "address": "806高雄市前鎮區班超路132號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄籬仔內郵局",
     "lat": 22.605428,
     "lng": 120.328818,
-    "address": "806高雄市前鎮區瑞隆路482號"
+    "address": "806高雄市前鎮區瑞隆路482號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市崗山仔關懷協會",
     "lat": 22.607,
     "lng": 120.333,
-    "address": "806高雄市前鎮區瑞平里崗山南街396號"
+    "address": "806高雄市前鎮區瑞平里崗山南街396號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市親職教育關懷照護協會(新甲站)",
     "lat": 22.608,
     "lng": 120.339,
-    "address": "830高雄市鳳山區新甲里新康街21號"
+    "address": "830高雄市鳳山區新甲里新康街21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市基督教關懷老人協會",
     "lat": 22.609,
     "lng": 120.32,
-    "address": "806高雄市前鎮區平等里同安路42號"
+    "address": "806高雄市前鎮區平等里同安路42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄崗山仔郵局",
     "lat": 22.609118,
     "lng": 120.335102,
-    "address": "806高雄市前鎮區瑞北路39號"
+    "address": "806高雄市前鎮區瑞北路39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄英德街郵局",
     "lat": 22.613957,
     "lng": 120.321465,
-    "address": "806高雄市前鎮區英德街149號"
+    "address": "806高雄市前鎮區英德街149號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部高雄國稅局前鎮稽徵所",
     "lat": 22.614,
     "lng": 120.321204,
-    "address": "806高雄市前鎮區英德街151號"
+    "address": "806高雄市前鎮區英德街151號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局高雄區監理所",
     "lat": 22.615307,
     "lng": 120.33604,
-    "address": "830高雄市鳳山區武營路361號1樓"
+    "address": "830高雄市鳳山區武營路361號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市政府交通局交通事件裁決中心鳳山辦公室",
     "lat": 22.615536,
     "lng": 120.335988,
-    "address": "830高雄市鳳山區武營路361號1樓"
+    "address": "830高雄市鳳山區武營路361號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華民國健康生活管理促進產業協會(新武站)",
     "lat": 22.616,
     "lng": 120.338,
-    "address": "830高雄市鳳山區新武里武營路106巷42之1號"
+    "address": "830高雄市鳳山區新武里武營路106巷42之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄林華郵局",
     "lat": 22.619087,
     "lng": 120.320843,
-    "address": "802高雄市苓雅區三多二路249號"
+    "address": "802高雄市苓雅區三多二路249號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

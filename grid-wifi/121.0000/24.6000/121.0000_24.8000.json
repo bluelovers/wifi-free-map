@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局千甲站售票房",
     "lat": 24.806642,
     "lng": 121.003153,
-    "address": "300新竹市東區水源里3鄰千甲路142號"
+    "address": "300新竹市東區水源里3鄰千甲路142號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市千甲市民活動中心",
     "lat": 24.80703,
     "lng": 121.013376,
-    "address": "300新竹市東區千甲路387號"
+    "address": "300新竹市東區千甲路387號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人新竹市基督美門社區關懷協會",
     "lat": 24.812,
     "lng": 121.002,
-    "address": "300新竹市東區公園里南大路78號"
+    "address": "300新竹市東區公園里南大路78號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣新竹地方法院(新院)聯合服務中心",
     "lat": 24.812251,
     "lng": 121.018764,
-    "address": "302新竹縣竹北市興隆路二段265號"
+    "address": "302新竹縣竹北市興隆路二段265號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣新竹地方法院(新院)閱卷室",
     "lat": 24.812251,
     "lng": 121.018764,
-    "address": "302新竹縣竹北市興隆路二段265號"
+    "address": "302新竹縣竹北市興隆路二段265號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣新竹地方法院B1法警室",
     "lat": 24.812251,
     "lng": 121.018764,
-    "address": "302新竹縣竹北市興隆路二段265號"
+    "address": "302新竹縣竹北市興隆路二段265號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(新竹地方法院-竹北簡易庭)",
     "lat": 24.812392,
     "lng": 121.019308,
-    "address": "302新竹縣竹北市興隆路二段265號"
+    "address": "302新竹縣竹北市興隆路二段265號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣新竹地方法院檢察署1樓等候區",
     "lat": 24.812934,
     "lng": 121.017945,
-    "address": "302新竹縣竹北市興隆路二段161號"
+    "address": "302新竹縣竹北市興隆路二段161號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

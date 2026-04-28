@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "石門水庫依山閣遊客服務中心1樓服務台",
     "lat": 24.810837,
     "lng": 121.239797,

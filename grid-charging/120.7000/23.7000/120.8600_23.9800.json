@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "國姓北山郵局",
     "lat": 23.982882,
     "lng": 120.871126,

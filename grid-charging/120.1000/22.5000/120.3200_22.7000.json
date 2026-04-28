@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "仁武台塑郵局",
     "lat": 22.706833,
     "lng": 120.326663,

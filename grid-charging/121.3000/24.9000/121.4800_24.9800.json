@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中和大華郵局",
     "lat": 24.991893,
     "lng": 121.499767,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中和中正路郵局",
     "lat": 24.993751,
     "lng": 121.495097,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中和連城路郵局",
     "lat": 24.996857,
     "lng": 121.49231,

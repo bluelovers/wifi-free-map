@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局十分站候車室",
     "lat": 25.041118,
     "lng": 121.775027,
-    "address": "226新北市平溪區十分街51號"
+    "address": "226新北市平溪區十分街51號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人一粒麥子社會福利慈善事業基金會(平溪十分站)",
     "lat": 25.04193,
     "lng": 121.775806,
-    "address": "226新北市平溪區十分里十分街66巷1號"
+    "address": "226新北市平溪區十分里十分街66巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

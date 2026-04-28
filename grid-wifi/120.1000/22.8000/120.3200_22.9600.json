@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "關廟郵局",
     "lat": 22.960468,
     "lng": 120.329659,
-    "address": "718臺南市關廟區中央路222號"
+    "address": "718臺南市關廟區中央路222號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市佳美關懷協會",
     "lat": 22.963,
     "lng": 120.326,
-    "address": "718臺南市關廟區山西里文衡路111號"
+    "address": "718臺南市關廟區山西里文衡路111號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市關廟區北勢社區發展協會",
     "lat": 22.964,
     "lng": 120.332,
-    "address": "718臺南市關廟區北勢里成功路206號"
+    "address": "718臺南市關廟區北勢里成功路206號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

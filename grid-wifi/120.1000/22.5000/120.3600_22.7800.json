@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市燕巢區安招社區發展協會",
     "lat": 22.782,
     "lng": 120.378,
-    "address": "824高雄市燕巢區安招里安南路1之2號"
+    "address": "824高雄市燕巢區安招里安南路1之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市燕巢區金山社區發展協會",
     "lat": 22.791,
     "lng": 120.364,
-    "address": "824高雄市燕巢區金山里鞍平巷6之10號"
+    "address": "824高雄市燕巢區金山里鞍平巷6之10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市燕巢區瓊林社區發展協會",
     "lat": 22.791,
     "lng": 120.364,
-    "address": "824高雄市燕巢區瓊林里瓊林路10號"
+    "address": "824高雄市燕巢區瓊林里瓊林路10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市燕巢區戶政事務所",
     "lat": 22.792918,
     "lng": 120.362091,
-    "address": "824高雄市燕巢區南燕里14鄰中民路585之1號"
+    "address": "824高雄市燕巢區南燕里14鄰中民路585之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "燕巢郵局",
     "lat": 22.793275,
     "lng": 120.360789,
-    "address": "824高雄市燕巢區南燕村中民路621號"
+    "address": "824高雄市燕巢區南燕村中民路621號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館燕巢分館",
     "lat": 22.795569,
     "lng": 120.361905,
-    "address": "824高雄市燕巢區西燕里中民路592號"
+    "address": "824高雄市燕巢區西燕里中民路592號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

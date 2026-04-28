@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣中寮鄉和興社區發展協會",
     "lat": 23.907057,
     "lng": 120.809887,
-    "address": "541南投縣中寮鄉和興村永樂路143之2號"
+    "address": "541南投縣中寮鄉和興村永樂路143之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

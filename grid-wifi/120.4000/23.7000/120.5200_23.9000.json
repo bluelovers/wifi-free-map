@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣田尾鄉田尾公路花園__肇天宮",
     "lat": 23.90066,
     "lng": 120.538033,
-    "address": "522彰化縣田尾鄉福德巷547號"
+    "address": "522彰化縣田尾鄉福德巷547號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣埤頭鄉台灣穀堡",
     "lat": 23.903893,
     "lng": 120.53611,
-    "address": "523彰化縣埤頭鄉彰水路二段526號"
+    "address": "523彰化縣埤頭鄉彰水路二段526號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣田尾鄉公路花園_橢圓形廣場",
     "lat": 23.904397,
     "lng": 120.533184,
-    "address": "522彰化縣田尾鄉民生路一段195號"
+    "address": "522彰化縣田尾鄉民生路一段195號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣田尾鄉公路花園_帝君廟",
     "lat": 23.905304,
     "lng": 120.531159,
-    "address": "522彰化縣田尾鄉打簾村民生路289號"
+    "address": "522彰化縣田尾鄉打簾村民生路289號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣田尾鄉田尾公路花園受武宮",
     "lat": 23.906496,
     "lng": 120.524783,
-    "address": "522彰化縣田尾鄉公園路一段436號"
+    "address": "522彰化縣田尾鄉公園路一段436號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣田尾鄉公路花園_打簾村活動中心",
     "lat": 23.906609,
     "lng": 120.528399,
-    "address": "522彰化縣田尾鄉打簾村民生路一段426號"
+    "address": "522彰化縣田尾鄉打簾村民生路一段426號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣田尾鄉公路花園_菁芳園",
     "lat": 23.906614,
     "lng": 120.534031,
-    "address": "522彰化縣田尾鄉打簾村張厝巷73號"
+    "address": "522彰化縣田尾鄉打簾村張厝巷73號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

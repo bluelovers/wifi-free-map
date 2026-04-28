@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "瑞穗鄉吉蒸牧場",
     "lat": 23.483229,
     "lng": 121.39546,
-    "address": "978花蓮縣瑞穗鄉中山路三段230號"
+    "address": "978花蓮縣瑞穗鄉中山路三段230號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "瑞穗鄉青蓮寺",
     "lat": 23.490824,
     "lng": 121.388468,
-    "address": "978花蓮縣瑞穗鄉仁愛路109號"
+    "address": "978花蓮縣瑞穗鄉仁愛路109號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣瑞穗鄉瑞良村辦公處",
     "lat": 23.492296,
     "lng": 121.39388,
-    "address": "978花蓮縣瑞穗鄉瑞良村4鄰信義路3號"
+    "address": "978花蓮縣瑞穗鄉瑞良村4鄰信義路3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣瑞穗鄉瑞美國民小學",
     "lat": 23.493595,
     "lng": 121.391437,
-    "address": "978花蓮縣瑞穗鄉瑞美村中山路二段389號"
+    "address": "978花蓮縣瑞穗鄉瑞美村中山路二段389號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣瑞穗鄉圖書館",
     "lat": 23.493658,
     "lng": 121.390429,
-    "address": "978花蓮縣瑞穗鄉中山路二段377號"
+    "address": "978花蓮縣瑞穗鄉中山路二段377號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣瑞穗鄉瑞美村辦公處",
     "lat": 23.493722,
     "lng": 121.391235,
-    "address": "978花蓮縣瑞穗鄉瑞美村13鄰中山路二段387號"
+    "address": "978花蓮縣瑞穗鄉瑞美村13鄰中山路二段387號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣真善美發展協會",
     "lat": 23.496001,
     "lng": 121.382042,
-    "address": "978花蓮縣瑞穗鄉瑞美村中山路一段197號"
+    "address": "978花蓮縣瑞穗鄉瑞美村中山路一段197號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "9453銀髮健身俱樂部",
     "lat": 23.49676,
     "lng": 121.38029,
-    "address": "978花蓮縣瑞穗鄉中山路一段128號3樓"
+    "address": "978花蓮縣瑞穗鄉中山路一段128號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "瑞穗郵局",
     "lat": 23.496783,
     "lng": 121.380173,
-    "address": "978花蓮縣瑞穗鄉中山路一段120號"
+    "address": "978花蓮縣瑞穗鄉中山路一段120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

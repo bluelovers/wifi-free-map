@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三星郵局",
     "lat": 24.666642,
     "lng": 121.653026,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三星鄉戶政事務所",
     "lat": 24.66917,
     "lng": 121.651611,

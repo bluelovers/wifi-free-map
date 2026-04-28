@@ -1,170 +1,233 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市湖內區劉家社區發展協會",
     "lat": 22.621,
     "lng": 120.362,
-    "address": "829高雄市湖內區劉家里仁愛街89號"
+    "address": "829高雄市湖內區劉家里仁愛街89號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳳山大東郵局",
     "lat": 22.621965,
     "lng": 120.361007,
-    "address": "830高雄市鳳山區大東一路122、124號"
+    "address": "830高雄市鳳山區大東一路122、124號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳳山中山東路郵局",
     "lat": 22.624311,
     "lng": 120.371934,
-    "address": "830高雄市鳳山區中山東路86-2號"
+    "address": "830高雄市鳳山區中山東路86-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "大東文化藝術中心(戶外廣場)",
     "lat": 22.624804,
     "lng": 120.363399,
-    "address": "830高雄市鳳山區光遠路161號"
+    "address": "830高雄市鳳山區光遠路161號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市大東文化藝術中心-園區服務台",
     "lat": 22.624964,
     "lng": 120.36347,
-    "address": "830高雄市鳳山區光遠路161號"
+    "address": "830高雄市鳳山區光遠路161號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市大東文化藝術中心-演藝棟服務台",
     "lat": 22.624964,
     "lng": 120.36347,
-    "address": "830高雄市鳳山區光遠路161號"
+    "address": "830高雄市鳳山區光遠路161號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市大東文化藝術中心-展覽棟服務台",
     "lat": 22.624964,
     "lng": 120.36347,
-    "address": "830高雄市鳳山區光遠路161號"
+    "address": "830高雄市鳳山區光遠路161號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館大東分館",
     "lat": 22.625083,
     "lng": 120.363443,
-    "address": "830高雄市鳳山區光遠路161號"
+    "address": "830高雄市鳳山區光遠路161號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀鳳山分行",
     "lat": 22.6252,
     "lng": 120.362469,
-    "address": "830高雄市鳳山區光遠路163號"
+    "address": "830高雄市鳳山區光遠路163號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "高雄市鳳山區鳳山轉運站",
     "lat": 22.625831,
     "lng": 120.36333,
-    "address": "830高雄市鳳山區光遠路(捷運大東站1號出口旁)"
+    "address": "830高雄市鳳山區光遠路(捷運大東站1號出口旁)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台灣寬霖關懷協會(瑞竹站)",
     "lat": 22.626,
     "lng": 120.364,
-    "address": "830高雄市鳳山區瑞竹里中山東路229巷15弄57號"
+    "address": "830高雄市鳳山區瑞竹里中山東路229巷15弄57號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華民國健康管理產業促進協會(新興站)",
     "lat": 22.626,
     "lng": 120.37,
-    "address": "830高雄市鳳山區新興里維新路106號"
+    "address": "830高雄市鳳山區新興里維新路106號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市鳳山區公所",
     "lat": 22.627499,
     "lng": 120.362413,
-    "address": "830高雄市鳳山區經武路30號"
+    "address": "830高雄市鳳山區經武路30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市鳳山戶政事務所(所本部)",
     "lat": 22.627836,
     "lng": 120.363035,
-    "address": "830高雄市鳳山區經武路34巷1號"
+    "address": "830高雄市鳳山區經武路34巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會高雄市榮服處一樓大廳",
     "lat": 22.627957,
     "lng": 120.372791,
-    "address": "830高雄市鳳山區勝利路二巷20-1號"
+    "address": "830高雄市鳳山區勝利路二巷20-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司鳳山服務所",
     "lat": 22.628639,
     "lng": 120.362064,
-    "address": "830高雄市鳳山區光復路11號"
+    "address": "830高雄市鳳山區光復路11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國防部鳳山福利站服務台",
     "lat": 22.62943,
     "lng": 120.372271,
-    "address": "830高雄市鳳山區勝利路11號"
+    "address": "830高雄市鳳山區勝利路11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳳山鳳松路郵局",
     "lat": 22.632412,
     "lng": 120.360935,
-    "address": "830高雄市鳳山區鳳松路11號"
+    "address": "830高雄市鳳山區鳳松路11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市鳳山區新海光社區發展協會",
     "lat": 22.633,
     "lng": 120.371,
-    "address": "830高雄市鳳山區海光里勝利路22號"
+    "address": "830高雄市鳳山區海光里勝利路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣菁音公共協會",
     "lat": 22.633,
     "lng": 120.375,
-    "address": "932屏東縣新園鄉內庄村興安路138之18號"
+    "address": "932屏東縣新園鄉內庄村興安路138之18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳳山鎮北郵局",
     "lat": 22.635951,
     "lng": 120.364175,
-    "address": "830高雄市鳳山區經武路166、168號"
+    "address": "830高雄市鳳山區經武路166、168號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

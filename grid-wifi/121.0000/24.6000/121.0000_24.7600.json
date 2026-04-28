@@ -1,90 +1,123 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部新竹科學工業園區管理局-竹村分隊",
     "lat": 24.772275,
     "lng": 121.001586,
-    "address": "300新竹縣寶山鄉園區三路101號"
+    "address": "300新竹縣寶山鄉園區三路101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "寶山大崎郵局",
     "lat": 24.772382,
     "lng": 121.001171,
-    "address": "308新竹縣寶山鄉大崎村園區三路103號"
+    "address": "308新竹縣寶山鄉大崎村園區三路103號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部新竹科學工業園區管理局-矽導研發中心(1樓服務台及貴賓室)",
     "lat": 24.773282,
     "lng": 121.016314,
-    "address": "300新竹市東區力行一路1號"
+    "address": "300新竹市東區力行一路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部新竹科學工業園區管理局-矽導商務中心公共區",
     "lat": 24.773282,
     "lng": 121.016314,
-    "address": "300新竹市東區力行一路1號"
+    "address": "300新竹市東區力行一路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部新竹科學工業園區管理局-矽導商務中心右辦公區",
     "lat": 24.773282,
     "lng": 121.016314,
-    "address": "300新竹市東區力行一路1號"
+    "address": "300新竹市東區力行一路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "科技部新竹科學工業園區管理局-矽導商務中心左辦公區",
     "lat": 24.773282,
     "lng": 121.016314,
-    "address": "300新竹市東區力行一路1號"
+    "address": "300新竹市東區力行一路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行新竹科學園區分行",
     "lat": 24.775266,
     "lng": 121.011138,
-    "address": "300新竹市東區工業東六路5號2樓"
+    "address": "300新竹市東區工業東六路5號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "關務署臺北關新竹科學工業園區支局",
     "lat": 24.775343,
     "lng": 121.010692,
-    "address": "300新竹市東區工業東七路8號"
+    "address": "300新竹市東區工業東七路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "科技部新竹科學工業園區管理局-靜心湖畔",
     "lat": 24.778708,
     "lng": 121.017666,
-    "address": "300新竹市東區科學工業園區管理局靜心湖"
+    "address": "300新竹市東區科學工業園區管理局靜心湖",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "科技部新竹科學工業園區管理局-靜心湖畔餐廳",
     "lat": 24.779209,
     "lng": 121.00963,
-    "address": "300新竹市東區竹村七路7號"
+    "address": "300新竹市東區竹村七路7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "科技部新竹科學工業園區管理局-科技生活館",
     "lat": 24.779604,
     "lng": 121.005456,
-    "address": "300新竹市東區工業東二路1號"
+    "address": "300新竹市東區工業東二路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局南區工程處關廟服務區服務台",
     "lat": 22.931757,
     "lng": 120.348766,

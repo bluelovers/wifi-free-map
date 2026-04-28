@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司埔里營運所",
     "lat": 23.969203,
     "lng": 120.95865,
-    "address": "545南投縣埔里鎮大城路9號"
+    "address": "545南投縣埔里鎮大城路9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台中市活出美好關懷協會",
     "lat": 23.971033,
     "lng": 120.957764,
-    "address": "545南投縣埔里鎮大城里大同一街67號"
+    "address": "545南投縣埔里鎮大城里大同一街67號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "埔里崎下郵局",
     "lat": 23.971218,
     "lng": 120.948561,
-    "address": "545南投縣埔里鎮大城里中山路三段648號"
+    "address": "545南投縣埔里鎮大城里中山路三段648號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人愚人之友社會福利慈善事業基金會",
     "lat": 23.971709,
     "lng": 120.94605,
-    "address": "545南投縣埔里鎮鐵山路6號"
+    "address": "545南投縣埔里鎮鐵山路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣埔里鎮大城社區發展協會",
     "lat": 23.972287,
     "lng": 120.95641,
-    "address": "545南投縣埔里鎮大城里大城路72之5號"
+    "address": "545南投縣埔里鎮大城里大城路72之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣埔里鎮恆吉社區發展協會",
     "lat": 23.973186,
     "lng": 120.94979,
-    "address": "545南投縣埔里鎮大城里大城路259號"
+    "address": "545南投縣埔里鎮大城里大城路259號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣埔里鎮愛蘭社區發展協會",
     "lat": 23.974,
     "lng": 120.94,
-    "address": "545南投縣埔里鎮愛蘭里梅村路295號"
+    "address": "545南投縣埔里鎮愛蘭里梅村路295號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "埔基醫療財團法人埔里基督教醫院(大城)",
     "lat": 23.976415,
     "lng": 120.951269,
-    "address": "545南投縣埔里鎮大城路226巷56號"
+    "address": "545南投縣埔里鎮大城路226巷56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

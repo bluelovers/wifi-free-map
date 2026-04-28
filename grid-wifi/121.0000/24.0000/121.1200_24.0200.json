@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣仁愛鄉巴蘭部落",
     "lat": 24.02292,
     "lng": 121.13236,
-    "address": "546南投縣仁愛鄉仁和路73號"
+    "address": "546南投縣仁愛鄉仁和路73號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "仁愛霧社郵局",
     "lat": 24.023326,
     "lng": 121.132745,
-    "address": "546南投縣仁愛鄉大同村仁和路83號"
+    "address": "546南投縣仁愛鄉大同村仁和路83號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣政府警察局仁愛分局",
     "lat": 24.023363,
     "lng": 121.132538,
-    "address": "546南投縣仁愛鄉大同村仁和路87號"
+    "address": "546南投縣仁愛鄉大同村仁和路87號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

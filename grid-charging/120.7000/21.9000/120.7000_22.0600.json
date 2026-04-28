@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "車城郵局",
     "lat": 22.07402,
     "lng": 120.713919,

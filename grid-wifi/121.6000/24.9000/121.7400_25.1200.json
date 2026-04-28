@@ -1,538 +1,739 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局八堵站第1月台8車位置",
     "lat": 25.122343,
     "lng": 121.742076,
-    "address": "205基隆市暖暖區八南里八堵路142號"
+    "address": "205基隆市暖暖區八南里八堵路142號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局三坑站月台5車位置",
     "lat": 25.122344,
     "lng": 121.742076,
-    "address": "200基隆市仁愛區龍安街206號"
+    "address": "200基隆市仁愛區龍安街206號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局三坑站候車室",
     "lat": 25.122344,
     "lng": 121.742076,
-    "address": "200基隆市仁愛區龍安街206號"
+    "address": "200基隆市仁愛區龍安街206號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "崇文社區發展協會",
     "lat": 25.123,
     "lng": 121.741,
-    "address": "200基隆市仁愛區崇文里龍安街146之1號"
+    "address": "200基隆市仁愛區崇文里龍安街146之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市仁愛區德厚里辦公處",
     "lat": 25.123,
     "lng": 121.7415,
-    "address": "200基隆市仁愛區德厚里龍安街198巷6號"
+    "address": "200基隆市仁愛區德厚里龍安街198巷6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "吉仁社區發展協會",
     "lat": 25.123321,
     "lng": 121.744242,
-    "address": "200基隆市仁愛區吉仁里南新街29之6號二樓"
+    "address": "200基隆市仁愛區吉仁里南新街29之6號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "智誠里辦公處",
     "lat": 25.123898,
     "lng": 121.757855,
-    "address": "201基隆市信義區智誠里月眉路65巷2之1號"
+    "address": "201基隆市信義區智誠里月眉路65巷2之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "誠仁社區發展協會",
     "lat": 25.12433,
     "lng": 121.743707,
-    "address": "200基隆市仁愛區誠仁里南榮路161巷19號"
+    "address": "200基隆市仁愛區誠仁里南榮路161巷19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀基隆分行",
     "lat": 25.125213,
     "lng": 121.742675,
-    "address": "200基隆市仁愛區南榮路24號"
+    "address": "200基隆市仁愛區南榮路24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆南榮路郵局",
     "lat": 25.125691,
     "lng": 121.742573,
-    "address": "200基隆市仁愛區南榮路20號"
+    "address": "200基隆市仁愛區南榮路20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市天愛社會服務協會",
     "lat": 25.126301,
     "lng": 121.742161,
-    "address": "200基隆市仁愛區崇文里南榮路14之1號四樓"
+    "address": "200基隆市仁愛區崇文里南榮路14之1號四樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆仁二路郵局",
     "lat": 25.127438,
     "lng": 121.750396,
-    "address": "200基隆市仁愛區仁二路19號"
+    "address": "200基隆市仁愛區仁二路19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "智慧社區發展協會",
     "lat": 25.127509,
     "lng": 121.754425,
-    "address": "200基隆市信義區智慧里仁一路7巷61號"
+    "address": "200基隆市信義區智慧里仁一路7巷61號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司基隆區處天然災害緊急應變中心",
     "lat": 25.127757,
     "lng": 121.744692,
-    "address": "200基隆市仁愛區仁二路134號6樓"
+    "address": "200基隆市仁愛區仁二路134號6樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花崗社區發展協會",
     "lat": 25.127802,
     "lng": 121.752432,
-    "address": "200基隆市仁愛區花崗里仁一路133號四樓"
+    "address": "200基隆市仁愛區花崗里仁一路133號四樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市信義戶政事務所",
     "lat": 25.128559,
     "lng": 121.757569,
-    "address": "201基隆市信義區信一路6號"
+    "address": "201基隆市信義區信一路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀基隆分行",
     "lat": 25.128777,
     "lng": 121.744449,
-    "address": "200基隆市仁愛區仁二路205號"
+    "address": "200基隆市仁愛區仁二路205號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "義和里辦公處",
     "lat": 25.128928,
     "lng": 121.757981,
-    "address": "201基隆市信義區義和里信二路6號三樓"
+    "address": "201基隆市信義區義和里信二路6號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市市立體育場",
     "lat": 25.129123,
     "lng": 121.756968,
-    "address": "201基隆市信義區信二路40之1號"
+    "address": "201基隆市信義區信二路40之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "義昭社區發展協會",
     "lat": 25.129183,
     "lng": 121.752204,
-    "address": "201基隆市信義區義昭里5鄰信一路65巷7號"
+    "address": "201基隆市信義區義昭里5鄰信一路65巷7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "基隆市信義區圖書館",
     "lat": 25.129421,
     "lng": 121.751249,
-    "address": "201基隆市信義區信二路179號4樓"
+    "address": "201基隆市信義區信二路179號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部北區國稅局信義稽徵所",
     "lat": 25.129453,
     "lng": 121.753547,
-    "address": "201基隆市信義區信二路176號一樓"
+    "address": "201基隆市信義區信二路176號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司基隆區處服務中心營業廳",
     "lat": 25.129494,
     "lng": 121.74547,
-    "address": "200基隆市仁愛區仁一路301號"
+    "address": "200基隆市仁愛區仁一路301號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司基隆區處市區巡修課",
     "lat": 25.129519,
     "lng": 121.743266,
-    "address": "200基隆市仁愛區仁一路301號"
+    "address": "200基隆市仁愛區仁一路301號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆信義郵局",
     "lat": 25.129543,
     "lng": 121.753491,
-    "address": "201基隆市信義區信二路178號"
+    "address": "201基隆市信義區信二路178號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市警察局二分局",
     "lat": 25.129593,
     "lng": 121.750122,
-    "address": "201基隆市信義區信二路193號(第二分局)"
+    "address": "201基隆市信義區信二路193號(第二分局)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市警察局",
     "lat": 25.129749,
     "lng": 121.749549,
-    "address": "201基隆市信義區信二路205號"
+    "address": "201基隆市信義區信二路205號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市信義區公所",
     "lat": 25.129822,
     "lng": 121.751239,
-    "address": "201基隆市信義區信二路179號"
+    "address": "201基隆市信義區信二路179號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行基隆分行",
     "lat": 25.129919,
     "lng": 121.745124,
-    "address": "200基隆市仁愛區仁一路305號"
+    "address": "200基隆市仁愛區仁一路305號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "仁壽社區發展協會",
     "lat": 25.130067,
     "lng": 121.747846,
-    "address": "201基隆市信義區仁壽里信二路249號"
+    "address": "201基隆市信義區仁壽里信二路249號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆愛三路郵局",
     "lat": 25.130227,
     "lng": 121.744135,
-    "address": "200基隆市仁愛區愛三路130號1樓"
+    "address": "200基隆市仁愛區愛三路130號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "衛生福利部食品藥物管理署基隆港民眾等候區",
     "lat": 25.13023,
     "lng": 121.742399,
-    "address": "200基隆市仁愛區仁二路255號9樓"
+    "address": "200基隆市仁愛區仁二路255號9樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "基隆醫院-行政大樓中庭",
     "lat": 25.130232,
     "lng": 121.74818,
-    "address": "201基隆市信義區信二路268號"
+    "address": "201基隆市信義區信二路268號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "基隆市公車二信循環站",
     "lat": 25.130385,
     "lng": 121.743171,
-    "address": "200基隆市仁愛區仁二路236號"
+    "address": "200基隆市仁愛區仁二路236號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "仁義社區發展協會",
     "lat": 25.130707,
     "lng": 121.750825,
-    "address": "201基隆市信義區仁義里信二路246巷32號二樓"
+    "address": "201基隆市信義區仁義里信二路246巷32號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華詠愛全人關懷協會",
     "lat": 25.130766,
     "lng": 121.744728,
-    "address": "202基隆市中正區港通里信一路177號十四樓"
+    "address": "202基隆市中正區港通里信一路177號十四樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市文化局",
     "lat": 25.131201,
     "lng": 121.743987,
-    "address": "202基隆市中正區信一路181號"
+    "address": "202基隆市中正區信一路181號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市信二立體停車場",
     "lat": 25.131337,
     "lng": 121.746218,
-    "address": "202基隆市中正區信二路299號"
+    "address": "202基隆市中正區信二路299號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行基隆分行",
     "lat": 25.131532,
     "lng": 121.744952,
-    "address": "202基隆市中正區義一路16號"
+    "address": "202基隆市中正區義一路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市政府交通處及產發處",
     "lat": 25.131745,
     "lng": 121.745832,
-    "address": "202基隆市中正區信二路301號3樓"
+    "address": "202基隆市中正區信二路301號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "基隆港務分公司東岸旅客大廳",
     "lat": 25.131773,
     "lng": 121.74323,
-    "address": "202基隆市中正區中正路1號2樓"
+    "address": "202基隆市中正區中正路1號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "基隆港務分公司東岸旅客碼頭",
     "lat": 25.131773,
     "lng": 121.74323,
-    "address": "202基隆市中正區中正路1號"
+    "address": "202基隆市中正區中正路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆港務分公司基港大樓2、4、5",
     "lat": 25.131773,
     "lng": 121.74323,
-    "address": "202基隆市中正區中正路1號"
+    "address": "202基隆市中正區中正路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行基隆分行",
     "lat": 25.131819,
     "lng": 121.745056,
-    "address": "202基隆市中正區義一路18號"
+    "address": "202基隆市中正區義一路18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署基隆市服務站(新)",
     "lat": 25.131885,
     "lng": 121.745287,
-    "address": "202基隆市中正區義一路18號11樓(A棟)"
+    "address": "202基隆市中正區義一路18號11樓(A棟)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆港務分公司海港大樓3、4、5",
     "lat": 25.131946,
     "lng": 121.740441,
-    "address": "200基隆市仁愛區港西街6號2樓"
+    "address": "200基隆市仁愛區港西街6號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "關務署基隆關1樓服務中心(基隆港西岸第1號碼頭邊)",
     "lat": 25.131946,
     "lng": 121.740441,
-    "address": "200基隆市仁愛區港西街6號"
+    "address": "200基隆市仁愛區港西街6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市政府",
     "lat": 25.131978,
     "lng": 121.744523,
-    "address": "202基隆市中正區義一路1號"
+    "address": "202基隆市中正區義一路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "關務署基隆關2樓業務一組報關業休息區",
     "lat": 25.132595,
     "lng": 121.740765,
-    "address": "200基隆市仁愛區港西街6號"
+    "address": "200基隆市仁愛區港西街6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司基隆服務所",
     "lat": 25.132642,
     "lng": 121.745204,
-    "address": "202基隆市中正區義一路21號"
+    "address": "202基隆市中正區義一路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "關務署基隆關海港大樓1樓業務二組大廳",
     "lat": 25.132964,
     "lng": 121.740092,
-    "address": "200基隆市仁愛區港西街6號"
+    "address": "200基隆市仁愛區港西街6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院勞動部勞工保險局基隆辦事處洽公櫃台",
     "lat": 25.133442,
     "lng": 121.747914,
-    "address": "202基隆市中正區正義路40號"
+    "address": "202基隆市中正區正義路40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "標準檢驗局基隆分局商檢業務民眾洽公區",
     "lat": 25.133453,
     "lng": 121.740395,
-    "address": "200基隆市仁愛區港西街8號"
+    "address": "200基隆市仁愛區港西街8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆港西街郵局",
     "lat": 25.133711,
     "lng": 121.740821,
-    "address": "200基隆市仁愛區港西街10號"
+    "address": "200基隆市仁愛區港西街10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(哨船頭分行)",
     "lat": 25.133849,
     "lng": 121.745971,
-    "address": "202基隆市中正區義一路57號"
+    "address": "202基隆市中正區義一路57號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆港東郵局",
     "lat": 25.13418,
     "lng": 121.74555,
-    "address": "202基隆市中正區中正路56號"
+    "address": "202基隆市中正區中正路56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣喜信家庭關懷協會",
     "lat": 25.1342,
     "lng": 121.74847,
-    "address": "202基隆市中正區信義里正義路68號"
+    "address": "202基隆市中正區信義里正義路68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署基隆就業中心洽公櫃台-1",
     "lat": 25.135011,
     "lng": 121.745845,
-    "address": "202基隆市中正區中正路102號"
+    "address": "202基隆市中正區中正路102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市警察局信六派出所",
     "lat": 25.135262,
     "lng": 121.747421,
-    "address": "202基隆市中正區義一路148號(信六所)"
+    "address": "202基隆市中正區義一路148號(信六所)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部警政署基隆港務警察總隊",
     "lat": 25.135943,
     "lng": 121.746078,
-    "address": "202基隆市中正區中正路5-1號"
+    "address": "202基隆市中正區中正路5-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市中山區中興里辦公處",
     "lat": 25.137087,
     "lng": 121.740805,
-    "address": "203基隆市中山區中興里中山二路11號"
+    "address": "203基隆市中山區中興里中山二路11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市中正區中船社區發展協會",
     "lat": 25.13719,
     "lng": 121.750333,
-    "address": "202基隆市中正區中船里中船路11號一樓"
+    "address": "202基隆市中正區中船里中船路11號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市中山愛心協會",
     "lat": 25.137449,
     "lng": 121.74103,
-    "address": "203基隆市中山區中興里中山二路10號"
+    "address": "203基隆市中山區中興里中山二路10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "勞動部勞動力發展署北基宜花金馬分署基隆就業中心洽公櫃台",
     "lat": 25.137569,
     "lng": 121.749412,
-    "address": "202基隆市中正區中正路102號"
+    "address": "202基隆市中正區中正路102號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司第一區管理處",
     "lat": 25.137577,
     "lng": 121.749617,
-    "address": "202基隆市中正區中正路106號"
+    "address": "202基隆市中正區中正路106號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "基隆港務分公司西岸旅客碼頭",
     "lat": 25.137733,
     "lng": 121.743126,
-    "address": "200基隆市仁愛區港西街16號"
+    "address": "200基隆市仁愛區港西街16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆三沙灣郵局",
     "lat": 25.138458,
     "lng": 121.752401,
-    "address": "202基隆市中正區中船路112巷28號"
+    "address": "202基隆市中正區中船路112巷28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

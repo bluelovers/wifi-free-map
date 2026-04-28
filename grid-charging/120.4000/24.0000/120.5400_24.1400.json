@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大肚郵局",
     "lat": 24.151238,
     "lng": 120.545328,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局大肚站候車室",
     "lat": 24.15402,
     "lng": 120.542556,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市大肚區戶政事務所",
     "lat": 24.154986,
     "lng": 120.54458,

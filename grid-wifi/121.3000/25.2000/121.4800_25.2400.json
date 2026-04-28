@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "後厝里辦公處",
     "lat": 25.247,
     "lng": 121.491,
-    "address": "252新北市三芝區後厝里北勢子20之6號"
+    "address": "252新北市三芝區後厝里北勢子20之6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

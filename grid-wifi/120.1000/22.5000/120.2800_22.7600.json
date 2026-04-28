@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市橋頭區白樹社區發展協會",
     "lat": 22.761,
     "lng": 120.287,
-    "address": "825高雄市橋頭區白樹里建樹路42號"
+    "address": "825高雄市橋頭區白樹里建樹路42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市橋頭區芋寮社區發展協會",
     "lat": 22.763,
     "lng": 120.295,
-    "address": "825高雄市橋頭區芋寮里芋寮路廟邊巷2之1號"
+    "address": "825高雄市橋頭區芋寮里芋寮路廟邊巷2之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

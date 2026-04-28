@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司宜蘭南區服務所",
     "lat": 24.640789,
     "lng": 121.758278,

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣伸港鄉福安宮大殿",
     "lat": 24.162495,
     "lng": 120.488369,
-    "address": "509彰化縣伸港鄉福安路5號"
+    "address": "509彰化縣伸港鄉福安路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣伸港鄉福安宮接待室",
     "lat": 24.162495,
     "lng": 120.488369,
-    "address": "509彰化縣伸港鄉福安路5號"
+    "address": "509彰化縣伸港鄉福安路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

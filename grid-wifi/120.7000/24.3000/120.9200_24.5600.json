@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣南庄鄉員林社區發展協會",
     "lat": 24.563,
     "lng": 120.931,
-    "address": "353苗栗縣南庄鄉員林村5鄰小南埔33號"
+    "address": "353苗栗縣南庄鄉員林村5鄰小南埔33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

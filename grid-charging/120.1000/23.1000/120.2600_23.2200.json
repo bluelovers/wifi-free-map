@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "下營中營郵局",
     "lat": 23.220631,
     "lng": 120.271464,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "下營郵局",
     "lat": 23.236019,
     "lng": 120.266494,

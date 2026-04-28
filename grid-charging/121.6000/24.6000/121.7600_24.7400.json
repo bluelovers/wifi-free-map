@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "宜蘭東港路郵局",
     "lat": 24.752122,
     "lng": 121.765615,

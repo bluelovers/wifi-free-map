@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鳳山一甲郵局",
     "lat": 22.602061,
     "lng": 120.341808,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鳳山中崙郵局",
     "lat": 22.602226,
     "lng": 120.351117,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鳳山新甲郵局",
     "lat": 22.607586,
     "lng": 120.341857,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鳳山新富郵局",
     "lat": 22.616274,
     "lng": 120.348663,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台糖公司五甲健康超市",
     "lat": 22.617378,
     "lng": 120.354461,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南港福德郵局",
     "lat": 25.039398,
     "lng": 121.587736,

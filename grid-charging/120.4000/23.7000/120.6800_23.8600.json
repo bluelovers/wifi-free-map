@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "名間新街郵局",
     "lat": 23.877766,
     "lng": 120.693141,

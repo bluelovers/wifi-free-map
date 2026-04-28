@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龍井龍津郵局",
     "lat": 24.229332,
     "lng": 120.536107,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中港關連工業區服務中心",
     "lat": 24.237263,
     "lng": 120.523183,

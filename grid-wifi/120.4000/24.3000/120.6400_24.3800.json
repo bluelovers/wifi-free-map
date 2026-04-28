@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商大甲通天路日出店(公話)",
     "lat": 24.381116,
     "lng": 120.654938,
-    "address": "437臺中市大甲區通天路168號"
+    "address": "437臺中市大甲區通天路168號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大甲日南郵局",
     "lat": 24.381273,
     "lng": 120.655142,
-    "address": "437臺中市大甲區孟春里中山路二段233號"
+    "address": "437臺中市大甲區孟春里中山路二段233號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局日南站候車室",
     "lat": 24.381957,
     "lng": 120.65618,
-    "address": "437臺中市大甲區中山路二段140巷10號"
+    "address": "437臺中市大甲區中山路二段140巷10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

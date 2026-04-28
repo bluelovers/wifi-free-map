@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "向山遊客中心",
     "lat": 23.85164,
     "lng": 120.901785,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "日月潭風管處2F辦公室",
     "lat": 23.851753,
     "lng": 120.901834,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "日月潭風管處1F會議區",
     "lat": 23.851753,
     "lng": 120.901834,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "日月潭風管處1F辦公區",
     "lat": 23.851753,
     "lng": 120.901834,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "日月潭風管處2F會議區",
     "lat": 23.851753,
     "lng": 120.901834,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "日月潭遊客中心展示區2",
     "lat": 23.851753,
     "lng": 120.901834,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "霧峰民生路郵局",
     "lat": 24.065922,
     "lng": 120.700407,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市霧峰區戶政事務所",
     "lat": 24.07559,
     "lng": 120.700504,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署水利規劃試驗所1樓服務台",
     "lat": 24.077788,
     "lng": 120.700328,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署中區水資源局1樓服務台",
     "lat": 24.078469,
     "lng": 120.701841,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署第三河川局1樓服務台",
     "lat": 24.0794,
     "lng": 120.703397,

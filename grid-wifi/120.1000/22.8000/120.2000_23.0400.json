@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行安南分行",
     "lat": 23.042911,
     "lng": 120.216672,
-    "address": "709臺南市安南區安和路二段298號"
+    "address": "709臺南市安南區安和路二段298號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市安南區總頭社區發展協會",
     "lat": 23.055,
     "lng": 120.202,
-    "address": "709臺南市安南區總頭里長溪路二段565號"
+    "address": "709臺南市安南區總頭里長溪路二段565號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

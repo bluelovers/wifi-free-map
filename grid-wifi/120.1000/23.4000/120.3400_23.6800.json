@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣土庫鎮崙內社區發展協會",
     "lat": 23.694,
     "lng": 120.345,
-    "address": "633雲林縣土庫鎮崙內里12鄰頂寮56之11號"
+    "address": "633雲林縣土庫鎮崙內里12鄰頂寮56之11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

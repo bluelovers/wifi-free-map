@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北門郵局",
     "lat": 23.268584,
     "lng": 120.114179,

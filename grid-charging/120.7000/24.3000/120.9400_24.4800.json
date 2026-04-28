@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗大坪頂郵局",
     "lat": 24.489269,
     "lng": 120.941737,

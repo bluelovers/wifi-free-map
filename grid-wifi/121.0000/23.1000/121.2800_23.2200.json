@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣富里鄉新興村辦公處",
     "lat": 23.220277,
     "lng": 121.282055,
-    "address": "983花蓮縣富里鄉竹田村東竹10號"
+    "address": "983花蓮縣富里鄉竹田村東竹10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

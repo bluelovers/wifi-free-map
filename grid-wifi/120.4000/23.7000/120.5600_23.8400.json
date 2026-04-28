@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣田中口罩觀光工廠",
     "lat": 23.846871,
     "lng": 120.569759,
-    "address": "520彰化縣田中鎮中州路二段751號"
+    "address": "520彰化縣田中鎮中州路二段751號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局田中分局",
     "lat": 23.847652,
     "lng": 120.574737,
-    "address": "520彰化縣田中鎮沙崙里興酪路一段299號"
+    "address": "520彰化縣田中鎮沙崙里興酪路一段299號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "福興(兼埤頭及田中)工業區服務中心-田中",
     "lat": 23.848491,
     "lng": 120.571272,
-    "address": "520彰化縣田中鎮沙崙里新工三路95號1樓"
+    "address": "520彰化縣田中鎮沙崙里新工三路95號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

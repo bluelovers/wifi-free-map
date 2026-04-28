@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "玉井郵局",
     "lat": 23.121916,
     "lng": 120.459317,
-    "address": "714臺南市玉井區中正路19號"
+    "address": "714臺南市玉井區中正路19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市玉井區玉田里辦公處",
     "lat": 23.122,
     "lng": 120.459,
-    "address": "714臺南市玉井區玉田里中正路7之2號"
+    "address": "714臺南市玉井區玉田里中正路7之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市玉井區玉井里辦公處",
     "lat": 23.1222,
     "lng": 120.4592,
-    "address": "714臺南市玉井區玉井里中正路7號"
+    "address": "714臺南市玉井區玉井里中正路7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

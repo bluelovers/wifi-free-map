@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "布袋新塭郵局",
     "lat": 23.328101,
     "lng": 120.159091,
-    "address": "625嘉義縣布袋鎮復興里新塭24-17號"
+    "address": "625嘉義縣布袋鎮復興里新塭24-17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

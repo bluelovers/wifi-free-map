@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永康二王郵局",
     "lat": 23.020908,
     "lng": 120.245645,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司永康服務所大廳",
     "lat": 23.026067,
     "lng": 120.25948,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永康郵局",
     "lat": 23.028079,
     "lng": 120.257007,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局永康站候車室",
     "lat": 23.038462,
     "lng": 120.253545,

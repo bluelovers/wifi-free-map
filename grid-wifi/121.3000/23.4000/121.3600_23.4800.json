@@ -1,90 +1,123 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣瑞穗鄉民代表會",
     "lat": 23.496301,
     "lng": 121.376082,
-    "address": "978花蓮縣瑞穗鄉瑞穗村成功南路23號"
+    "address": "978花蓮縣瑞穗鄉瑞穗村成功南路23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣瑞穗鄉公所",
     "lat": 23.496437,
     "lng": 121.375882,
-    "address": "978花蓮縣瑞穗鄉成功南路19號"
+    "address": "978花蓮縣瑞穗鄉成功南路19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣瑞穗鄉戶政事務所",
     "lat": 23.496542,
     "lng": 121.375923,
-    "address": "978花蓮縣瑞穗鄉成功南路19之1號"
+    "address": "978花蓮縣瑞穗鄉成功南路19之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "瑞穗鄉中山路一段國光南路口",
     "lat": 23.496964,
     "lng": 121.378516,
-    "address": "978花蓮縣瑞穗鄉中山路一段78號"
+    "address": "978花蓮縣瑞穗鄉中山路一段78號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣瑞穗鄉瑞穗國民小學",
     "lat": 23.497098,
     "lng": 121.374035,
-    "address": "978花蓮縣瑞穗鄉溫泉路一段19號"
+    "address": "978花蓮縣瑞穗鄉溫泉路一段19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "瑞穗鄉中正南路一段與中山路口",
     "lat": 23.49731,
     "lng": 121.377127,
-    "address": "978花蓮縣瑞穗鄉中山路一段9號"
+    "address": "978花蓮縣瑞穗鄉中山路一段9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣瑞穗鄉原住民生態資源發展協會",
     "lat": 23.497523,
     "lng": 121.378179,
-    "address": "978花蓮縣瑞穗鄉瑞穗村民生街41號"
+    "address": "978花蓮縣瑞穗鄉瑞穗村民生街41號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局瑞穗站候車室",
     "lat": 23.497733,
     "lng": 121.376663,
-    "address": "978花蓮縣瑞穗鄉四維街13號"
+    "address": "978花蓮縣瑞穗鄉四維街13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立瑞穗國民中學",
     "lat": 23.499026,
     "lng": 121.375837,
-    "address": "978花蓮縣瑞穗鄉成功北路18號"
+    "address": "978花蓮縣瑞穗鄉成功北路18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣瑞穗鄉瑞穗村辦公處",
     "lat": 23.499852,
     "lng": 121.378774,
-    "address": "978花蓮縣瑞穗鄉瑞穗村民生路41號"
+    "address": "978花蓮縣瑞穗鄉瑞穗村民生路41號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣瑞穗鄉客家文化資產發展協會",
     "lat": 23.499882,
     "lng": 121.378786,
-    "address": "978花蓮縣瑞穗鄉瑞穗村民生街63巷38號"
+    "address": "978花蓮縣瑞穗鄉瑞穗村民生街63巷38號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

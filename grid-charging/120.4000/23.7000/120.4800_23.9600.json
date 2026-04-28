@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "溪湖郵局",
     "lat": 23.962222,
     "lng": 120.480092,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣溪湖鎮戶政事務所",
     "lat": 23.966685,
     "lng": 120.483468,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司溪湖營運所",
     "lat": 23.967538,
     "lng": 120.487077,

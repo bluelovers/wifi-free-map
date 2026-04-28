@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市大社區戶政事務所",
     "lat": 22.729759,
     "lng": 120.346777,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司楠梓服務所",
     "lat": 22.730508,
     "lng": 120.346871,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大社郵局",
     "lat": 22.731177,
     "lng": 120.347095,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司苗栗營運所",
     "lat": 24.562121,
     "lng": 120.82254,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗北苗郵局",
     "lat": 24.566789,
     "lng": 120.823911,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局苗栗站候車室",
     "lat": 24.570022,
     "lng": 120.822529,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司苗栗區處服務中心營業廳",
     "lat": 24.571005,
     "lng": 120.828511,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司苗栗服務中心",
     "lat": 24.571544,
     "lng": 120.825425,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗嘉盛郵局",
     "lat": 24.57451,
     "lng": 120.829464,

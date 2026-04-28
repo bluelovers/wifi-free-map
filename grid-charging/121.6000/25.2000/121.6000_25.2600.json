@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "乾華派出所",
     "lat": 25.2799,
     "lng": 121.6084,

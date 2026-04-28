@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗府前郵局",
     "lat": 24.562857,
     "lng": 120.818401,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗文山郵局",
     "lat": 24.56413,
     "lng": 120.811823,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局新竹區監理所苗栗監理站",
     "lat": 24.567633,
     "lng": 120.808569,

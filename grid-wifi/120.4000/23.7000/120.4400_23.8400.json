@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣彰南游泳池",
     "lat": 23.841402,
     "lng": 120.458583,
-    "address": "524彰化縣溪州鄉水尾村彰水路一段一巷101號"
+    "address": "524彰化縣溪州鄉水尾村彰水路一段一巷101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局北斗分局中和派出所",
     "lat": 23.846671,
     "lng": 120.459101,
-    "address": "523彰化縣埤頭鄉忠和村溪林路337號"
+    "address": "523彰化縣埤頭鄉忠和村溪林路337號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "西港郵局",
     "lat": 23.123387,
     "lng": 120.203051,

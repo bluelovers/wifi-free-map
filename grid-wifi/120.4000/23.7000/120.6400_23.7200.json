@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "東華醫院(鯉魚)",
     "lat": 23.722376,
     "lng": 120.657825,
-    "address": "557南投縣竹山鎮鯉行路1號"
+    "address": "557南投縣竹山鎮鯉行路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

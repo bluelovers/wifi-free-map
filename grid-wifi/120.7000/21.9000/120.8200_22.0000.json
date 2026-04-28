@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "滿州郵局",
     "lat": 22.018543,
     "lng": 120.837955,
-    "address": "947屏東縣滿州鄉中山路25號"
+    "address": "947屏東縣滿州鄉中山路25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

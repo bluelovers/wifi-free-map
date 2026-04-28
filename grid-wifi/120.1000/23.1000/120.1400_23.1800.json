@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市七股區西寮里辦公處",
     "lat": 23.184,
     "lng": 120.146,
-    "address": "724臺南市七股區西寮里1鄰西寮1號"
+    "address": "724臺南市七股區西寮里1鄰西寮1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "將軍郵局",
     "lat": 23.192927,
     "lng": 120.1546,
-    "address": "725臺南市將軍區西華村1-1號"
+    "address": "725臺南市將軍區西華村1-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

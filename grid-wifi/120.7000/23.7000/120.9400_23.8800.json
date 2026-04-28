@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "智樂巷弄長照站(大林村)",
     "lat": 23.88529,
     "lng": 120.94731,
-    "address": "555南投縣魚池鄉大林村嵩山巷27號"
+    "address": "555南投縣魚池鄉大林村嵩山巷27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "埔基醫療財團法人埔里基督教醫院(大林)",
     "lat": 23.887962,
     "lng": 120.94836,
-    "address": "555南投縣魚池鄉嵩山巷6號之3"
+    "address": "555南投縣魚池鄉嵩山巷6號之3",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

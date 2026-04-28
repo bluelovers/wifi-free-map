@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "鹿谷鄉農會茶業文化館",
     "lat": 23.741291,
     "lng": 120.756974,
-    "address": "558南投縣鹿谷鄉彰雅村中正路一段231號"
+    "address": "558南投縣鹿谷鄉彰雅村中正路一段231號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "鹿谷鄉農會茶業推廣大樓",
     "lat": 23.741301,
     "lng": 120.756652,
-    "address": "558南投縣鹿谷鄉彰雅村中正路一段231-2號"
+    "address": "558南投縣鹿谷鄉彰雅村中正路一段231-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "東華醫院(鹿谷)",
     "lat": 23.74513,
     "lng": 120.753953,
-    "address": "558南投縣鹿谷鄉興農路56號"
+    "address": "558南投縣鹿谷鄉興農路56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣鹿谷鄉戶政事務所",
     "lat": 23.745612,
     "lng": 120.753581,
-    "address": "558南投縣鹿谷鄉中正路二段71號"
+    "address": "558南投縣鹿谷鄉中正路二段71號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣鹿谷鄉公所全區",
     "lat": 23.745624,
     "lng": 120.753605,
-    "address": "558南投縣鹿谷鄉中正路二段73號"
+    "address": "558南投縣鹿谷鄉中正路二段73號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "竹山秀傳醫院(彰雅快樂學堂)",
     "lat": 23.745849,
     "lng": 120.755267,
-    "address": "558南投縣鹿谷鄉彰雅村和興巷21號"
+    "address": "558南投縣鹿谷鄉彰雅村和興巷21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鹿谷郵局",
     "lat": 23.747306,
     "lng": 120.753065,
-    "address": "558南投縣鹿谷鄉中正路二段115號"
+    "address": "558南投縣鹿谷鄉中正路二段115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司鹿谷服務所大廳",
     "lat": 23.747974,
     "lng": 120.752599,
-    "address": "558南投縣鹿谷鄉中正路二段135號"
+    "address": "558南投縣鹿谷鄉中正路二段135號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

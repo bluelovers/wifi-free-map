@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣林內鄉九芎社區發展協會",
     "lat": 23.744912,
     "lng": 120.603216,
-    "address": "643雲林縣林內鄉九芎村中央路106之3號"
+    "address": "643雲林縣林內鄉九芎村中央路106之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "林內郵局",
     "lat": 23.756357,
     "lng": 120.613409,
-    "address": "643雲林縣林內鄉中正路332號"
+    "address": "643雲林縣林內鄉中正路332號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣林內鄉林中社區發展協會",
     "lat": 23.758101,
     "lng": 120.601371,
-    "address": "643雲林縣林內鄉林中村榮興20號"
+    "address": "643雲林縣林內鄉林中村榮興20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局林內站候車室",
     "lat": 23.759353,
     "lng": 120.614901,
-    "address": "643雲林縣林內鄉中山路42號"
+    "address": "643雲林縣林內鄉中山路42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局林內站候車室(新)",
     "lat": 23.759752,
     "lng": 120.612787,
-    "address": "643雲林縣林內鄉林中村中山路42號"
+    "address": "643雲林縣林內鄉林中村中山路42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

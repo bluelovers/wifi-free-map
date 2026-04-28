@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "觀音草漯郵局",
     "lat": 25.048154,
     "lng": 121.143635,

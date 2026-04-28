@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台東管理站八仙洞遊客中心",
     "lat": 23.397172,
     "lng": 121.469307,

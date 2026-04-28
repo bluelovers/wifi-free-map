@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市燕巢區戶政事務所",
     "lat": 22.792918,
     "lng": 120.362091,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "燕巢郵局",
     "lat": 22.793275,
     "lng": 120.360789,

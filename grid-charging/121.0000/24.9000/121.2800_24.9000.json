@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大溪崎頂郵局",
     "lat": 24.900324,
     "lng": 121.283728,

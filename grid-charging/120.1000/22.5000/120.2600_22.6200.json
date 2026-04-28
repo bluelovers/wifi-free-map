@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鼓山郵局",
     "lat": 22.621788,
     "lng": 120.273867,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中山大學郵局",
     "lat": 22.626361,
     "lng": 120.265923,

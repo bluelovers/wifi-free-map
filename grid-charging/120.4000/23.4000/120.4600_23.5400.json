@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中正大學郵局",
     "lat": 23.558171,
     "lng": 120.472564,

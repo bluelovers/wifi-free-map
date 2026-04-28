@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "壯圍戶政事務所",
     "lat": 24.746405,
     "lng": 121.785947,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "壯圍郵局",
     "lat": 24.746755,
     "lng": 121.784436,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "佳里郵局",
     "lat": 23.163681,
     "lng": 120.178133,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司佳里服務所",
     "lat": 23.163837,
     "lng": 120.178936,

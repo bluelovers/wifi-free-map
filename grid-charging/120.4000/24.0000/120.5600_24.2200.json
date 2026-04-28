@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "沙鹿北勢郵局",
     "lat": 24.223021,
     "lng": 120.570295,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司沙鹿營運所",
     "lat": 24.229484,
     "lng": 120.56908,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市沙鹿區戶政事務所",
     "lat": 24.23481,
     "lng": 120.566387,

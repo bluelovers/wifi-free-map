@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市大樹區久堂社區發展協會",
     "lat": 22.657938,
     "lng": 120.41855,
-    "address": "840高雄市大樹區久堂里久堂路97號"
+    "address": "840高雄市大樹區久堂里久堂路97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

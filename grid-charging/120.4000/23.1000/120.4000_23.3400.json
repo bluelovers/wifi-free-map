@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "白河郵局",
     "lat": 23.351609,
     "lng": 120.416252,

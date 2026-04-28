@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北海岸及觀音山國家風景管理區白沙灣遊客中心",
     "lat": 25.268611,
     "lng": 121.571389,

@@ -1,130 +1,178 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商烏日中華路九德店(公話)",
     "lat": 24.110094,
     "lng": 120.641545,
-    "address": "414臺中市烏日區中華路45號"
+    "address": "414臺中市烏日區中華路45號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店南區復興路樹仔腳店(公話)",
     "lat": 24.110385,
     "lng": 120.645973,
-    "address": "402臺中市南區復興路一段33號"
+    "address": "402臺中市南區復興路一段33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南區文心南路福田店(公話)",
     "lat": 24.110904,
     "lng": 120.659447,
-    "address": "402臺中市南區文心南路885號"
+    "address": "402臺中市南區文心南路885號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車中興大學(國光路)站",
     "lat": 24.113202,
     "lng": 120.659163,
-    "address": "402臺中市南區高工路96號"
+    "address": "402臺中市南區高工路96號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台中樹仔腳郵局",
     "lat": 24.114468,
     "lng": 120.654718,
-    "address": "402臺中市南區復興路一段236號"
+    "address": "402臺中市南區復興路一段236號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南區大慶街慶樹店(公話)",
     "lat": 24.115607,
     "lng": 120.650633,
-    "address": "402臺中市南區大慶街二段36號"
+    "address": "402臺中市南區大慶街二段36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車復興文心南路口站",
     "lat": 24.115728,
     "lng": 120.6562,
-    "address": "402臺中市南區復興路一段370號"
+    "address": "402臺中市南區復興路一段370號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市工學長青協進會",
     "lat": 24.115944,
     "lng": 120.659812,
-    "address": "402臺中市南區工學里工學路139巷141號"
+    "address": "402臺中市南區工學里工學路139巷141號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局大慶站候車室",
     "lat": 24.118051,
     "lng": 120.64683,
-    "address": "402臺中市南區建國南路一段79號"
+    "address": "402臺中市南區建國南路一段79號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店南區東興路金獅店(公話)",
     "lat": 24.118407,
     "lng": 120.657648,
-    "address": "402臺中市南區東興路一段16號"
+    "address": "402臺中市南區東興路一段16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車宜寧中學站",
     "lat": 24.118669,
     "lng": 120.659423,
-    "address": "402臺中市南區復興路二段34號"
+    "address": "402臺中市南區復興路二段34號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局大慶站第1月台4車位置",
     "lat": 24.118896,
     "lng": 120.647869,
-    "address": "402臺中市南區大慶街二段130號"
+    "address": "402臺中市南區大慶街二段130號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局大慶站第2月台4車位置",
     "lat": 24.118896,
     "lng": 120.647869,
-    "address": "402臺中市南區大慶街二段130號"
+    "address": "402臺中市南區大慶街二段130號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局大慶站1樓公廁外位置",
     "lat": 24.118896,
     "lng": 120.647869,
-    "address": "402臺中市南區大慶街二段130號"
+    "address": "402臺中市南區大慶街二段130號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "大慶活動中心",
     "lat": 24.119574,
     "lng": 120.65443,
-    "address": "402臺中市南區德富路100號(公話)"
+    "address": "402臺中市南區德富路100號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市南區樹德社區發展協會",
     "lat": 24.119614,
     "lng": 120.654196,
-    "address": "402臺中市南區樹德里德富路100號"
+    "address": "402臺中市南區樹德里德富路100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

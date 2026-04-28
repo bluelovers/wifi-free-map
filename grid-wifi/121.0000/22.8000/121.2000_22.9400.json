@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣東河鄉尚德村村民服務處一",
     "lat": 22.943176,
     "lng": 121.214762,
-    "address": "959臺東縣東河鄉尚德村11鄰七塊厝39號"
+    "address": "959臺東縣東河鄉尚德村11鄰七塊厝39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

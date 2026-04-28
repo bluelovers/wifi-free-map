@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市清水區武鹿社區發展協會",
     "lat": 24.280591,
     "lng": 120.556282,
-    "address": "436臺中市清水區武鹿里公正路161之33號"
+    "address": "436臺中市清水區武鹿里公正路161之33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣港務股份有限公司臺中港務分公司工程處",
     "lat": 24.291896,
     "lng": 120.545716,
-    "address": "435臺中市梧棲區臨海路83-2號"
+    "address": "435臺中市梧棲區臨海路83-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣港務股份有限公司臺中港務分公司勞安處",
     "lat": 24.291896,
     "lng": 120.545716,
-    "address": "435臺中市梧棲區臨海路83-2號"
+    "address": "435臺中市梧棲區臨海路83-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

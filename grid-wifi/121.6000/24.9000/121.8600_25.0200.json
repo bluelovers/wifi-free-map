@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司基隆區處雙溪服務所",
     "lat": 25.032924,
     "lng": 121.862922,
-    "address": "227新北市雙溪區共和里中山路41巷10號"
+    "address": "227新北市雙溪區共和里中山路41巷10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雙溪區公所",
     "lat": 25.03374,
     "lng": 121.86573,
-    "address": "227新北市雙溪區共和里東榮街25號"
+    "address": "227新北市雙溪區共和里東榮街25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市貂山吟社",
     "lat": 25.035686,
     "lng": 121.864762,
-    "address": "227新北市雙溪區雙溪里太平路57號"
+    "address": "227新北市雙溪區雙溪里太平路57號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "雙溪郵局",
     "lat": 25.036256,
     "lng": 121.865347,
-    "address": "227新北市雙溪區太平路81號"
+    "address": "227新北市雙溪區太平路81號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局雙溪站第1月台北端",
     "lat": 25.038547,
     "lng": 121.866529,
-    "address": "227新北市雙溪區新基里朝陽街1號"
+    "address": "227新北市雙溪區新基里朝陽街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局雙溪站第1月台南端",
     "lat": 25.038547,
     "lng": 121.866529,
-    "address": "227新北市雙溪區新基里朝陽街1號"
+    "address": "227新北市雙溪區新基里朝陽街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局雙溪站候車室",
     "lat": 25.038599,
     "lng": 121.866521,
-    "address": "227新北市雙溪區新基里朝陽街1號"
+    "address": "227新北市雙溪區新基里朝陽街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

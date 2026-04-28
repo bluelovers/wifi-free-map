@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "民雄(兼頭橋)工業區服務中心",
     "lat": 23.520251,
     "lng": 120.458112,
-    "address": "621嘉義縣民雄鄉福樂村中正路68號1樓"
+    "address": "621嘉義縣民雄鄉福樂村中正路68號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "民雄雙福郵局",
     "lat": 23.523487,
     "lng": 120.447439,
-    "address": "621嘉義縣民雄鄉福樂村中山路7號"
+    "address": "621嘉義縣民雄鄉福樂村中山路7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣民雄鄉福樂社區發展協會",
     "lat": 23.526387,
     "lng": 120.448695,
-    "address": "621嘉義縣民雄鄉福樂村新生一街1號二樓"
+    "address": "621嘉義縣民雄鄉福樂村新生一街1號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人嘉義縣私立瑞泰社會福利基金會-北斗站",
     "lat": 23.533411,
     "lng": 120.456434,
-    "address": "621嘉義縣民雄鄉北斗村3鄰北勢子19之4號"
+    "address": "621嘉義縣民雄鄉北斗村3鄰北勢子19之4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

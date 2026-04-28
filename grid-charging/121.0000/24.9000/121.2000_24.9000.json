@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局平鎮分局",
     "lat": 24.913269,
     "lng": 121.207287,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "平鎮南勢郵局",
     "lat": 24.916405,
     "lng": 121.210011,

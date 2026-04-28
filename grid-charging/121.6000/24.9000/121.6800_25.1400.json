@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大武崙(兼瑞芳)工業區服務中心",
     "lat": 25.148652,
     "lng": 121.699008,

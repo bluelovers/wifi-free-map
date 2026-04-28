@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部警政署警察廣播電臺臺中分臺",
     "lat": 24.153215,
     "lng": 120.632359,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部國土測繪中心地籍資料庫",
     "lat": 24.153266,
     "lng": 120.633426,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部國土測繪中心4樓會議室",
     "lat": 24.153458,
     "lng": 120.634325,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內政部國土測繪中心5樓會議室",
     "lat": 24.153458,
     "lng": 120.634325,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中黎明郵局",
     "lat": 24.153703,
     "lng": 120.631871,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "觀光局旅遊服務中心台中服務處",
     "lat": 24.154091,
     "lng": 120.632437,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部水利署1樓服務台及會客室",
     "lat": 24.154375,
     "lng": 120.633887,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部中區聯合服務中心7樓民眾洽公櫃台",
     "lat": 24.155182,
     "lng": 120.634199,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "智慧財產局台中服務處",
     "lat": 24.155366,
     "lng": 120.63402,

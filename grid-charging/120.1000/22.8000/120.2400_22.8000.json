@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永安工業區服務中心",
     "lat": 22.809195,
     "lng": 120.252021,

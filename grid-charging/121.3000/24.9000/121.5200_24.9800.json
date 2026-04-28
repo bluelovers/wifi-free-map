@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新店水尾郵局",
     "lat": 24.982898,
     "lng": 121.533499,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新店復興郵局",
     "lat": 24.986894,
     "lng": 121.539178,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中和秀山郵局",
     "lat": 24.993137,
     "lng": 121.522625,

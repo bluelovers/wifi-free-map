@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣海端鄉霧鹿部落",
     "lat": 23.16743,
     "lng": 121.04292,
-    "address": "957臺東縣海端鄉霧鹿村37號"
+    "address": "957臺東縣海端鄉霧鹿村37號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

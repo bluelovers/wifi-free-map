@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣民雄鄉東湖社區發展協會",
     "lat": 23.55038,
     "lng": 120.44061,
-    "address": "621嘉義縣民雄鄉東湖村東勢湖120之10號"
+    "address": "621嘉義縣民雄鄉東湖村東勢湖120之10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

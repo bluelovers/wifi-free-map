@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "竹山秀傳醫療社團法人竹山秀傳醫院(內湖村)",
     "lat": 23.720506,
     "lng": 120.778431,
-    "address": "558南投縣鹿谷鄉興產路71-5號"
+    "address": "558南投縣鹿谷鄉興產路71-5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣鹿谷鄉廣興社區發展協會",
     "lat": 23.737432,
     "lng": 120.761122,
-    "address": "558南投縣鹿谷鄉廣興村光復路200號"
+    "address": "558南投縣鹿谷鄉廣興村光復路200號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

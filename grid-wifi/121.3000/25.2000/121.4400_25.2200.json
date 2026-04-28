@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市淡水區賢孝里辦公處",
     "lat": 25.228907,
     "lng": 121.451734,
-    "address": "251新北市淡水區賢孝里淡金路四段600號"
+    "address": "251新北市淡水區賢孝里淡金路四段600號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局卓溪消防分隊",
     "lat": 23.33648,
     "lng": 121.240064,
-    "address": "982花蓮縣卓溪鄉12鄰古楓3號"
+    "address": "982花蓮縣卓溪鄉12鄰古楓3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

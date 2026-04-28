@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鹽水茄苳腳郵局",
     "lat": 23.31125,
     "lng": 120.270341,

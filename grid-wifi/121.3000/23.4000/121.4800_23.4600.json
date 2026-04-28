@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣豐濱鄉靜浦村辦公處",
     "lat": 23.461444,
     "lng": 121.49725,
-    "address": "977花蓮縣豐濱鄉靜浦247號"
+    "address": "977花蓮縣豐濱鄉靜浦247號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣豐濱鄉靜浦國民小學",
     "lat": 23.461928,
     "lng": 121.495399,
-    "address": "977花蓮縣豐濱鄉靜浦村靜浦64號"
+    "address": "977花蓮縣豐濱鄉靜浦村靜浦64號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "東部海岸國家風景區奚卜蘭遊客中心",
     "lat": 23.466081,
     "lng": 121.488403,
-    "address": "977花蓮縣豐濱鄉靜浦村靜浦8-1號"
+    "address": "977花蓮縣豐濱鄉靜浦村靜浦8-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣豐濱鄉港口國民小學",
     "lat": 23.468639,
     "lng": 121.496794,
-    "address": "977花蓮縣豐濱鄉港口村9鄰43號"
+    "address": "977花蓮縣豐濱鄉港口村9鄰43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

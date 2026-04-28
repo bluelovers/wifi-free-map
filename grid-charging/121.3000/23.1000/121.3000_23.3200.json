@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮縣玉里鎮戶政事務所",
     "lat": 23.324147,
     "lng": 121.306979,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局第四區養護工程處玉里工務段",
     "lat": 23.326746,
     "lng": 121.314592,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "玉里郵局",
     "lat": 23.331059,
     "lng": 121.313921,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司玉里服務所營業廳",
     "lat": 23.331498,
     "lng": 121.314533,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局玉里站候車室",
     "lat": 23.331576,
     "lng": 121.311805,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局玉里火車站第1月台",
     "lat": 23.33205,
     "lng": 121.311743,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "玉里泰昌郵局",
     "lat": 23.335776,
     "lng": 121.314002,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "玉里新興郵局",
     "lat": 23.338503,
     "lng": 121.31258,

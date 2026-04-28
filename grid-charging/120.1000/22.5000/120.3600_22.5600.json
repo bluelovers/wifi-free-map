@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄宏平郵局",
     "lat": 22.57012,
     "lng": 120.360497,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄高松郵局",
     "lat": 22.574452,
     "lng": 120.371378,

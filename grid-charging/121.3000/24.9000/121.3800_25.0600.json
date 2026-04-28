@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "國道公路警察局第一公路警察大隊",
     "lat": 25.065568,
     "lng": 121.383691,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "林口台師大郵局",
     "lat": 25.067906,
     "lng": 121.397762,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市林口戶政事務所1F",
     "lat": 25.076757,
     "lng": 121.389,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "林口中正路郵局",
     "lat": 25.077191,
     "lng": 121.393761,

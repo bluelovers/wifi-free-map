@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "瑞芳四腳亭郵局",
     "lat": 25.100612,
     "lng": 121.761687,

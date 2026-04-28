@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司奮起服務所大廳",
     "lat": 23.504752,
     "lng": 120.693805,

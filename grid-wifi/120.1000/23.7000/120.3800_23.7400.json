@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人雲林縣正駿關懷協會-二崙三和據點",
     "lat": 23.752,
     "lng": 120.396,
-    "address": "649雲林縣二崙鄉三和村三塊厝81之50號"
+    "address": "649雲林縣二崙鄉三和村三塊厝81之50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

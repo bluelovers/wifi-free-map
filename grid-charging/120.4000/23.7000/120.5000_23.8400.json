@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署第四河川局1樓服務台",
     "lat": 23.854177,
     "lng": 120.500005,

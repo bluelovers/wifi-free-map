@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "交通部觀光局阿里山國家風景區管理處圓潭遊客中心",
     "lat": 23.528523,
     "lng": 120.659112,
-    "address": "604嘉義縣竹崎鄉仁壽村84號旁"
+    "address": "604嘉義縣竹崎鄉仁壽村84號旁",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

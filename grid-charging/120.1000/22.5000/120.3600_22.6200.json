@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鳳山中山路郵局",
     "lat": 22.621965,
     "lng": 120.361007,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鳳山中山東路郵局",
     "lat": 22.624311,
     "lng": 120.371934,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市鳳山區第一戶政事務所",
     "lat": 22.627836,
     "lng": 120.363035,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司鳳山服務所",
     "lat": 22.628639,
     "lng": 120.362064,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鳳山鳳松路郵局",
     "lat": 22.632412,
     "lng": 120.360935,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鳳山工協郵局",
     "lat": 22.633745,
     "lng": 120.374556,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鳳山鎮北郵局",
     "lat": 22.635951,
     "lng": 120.364175,

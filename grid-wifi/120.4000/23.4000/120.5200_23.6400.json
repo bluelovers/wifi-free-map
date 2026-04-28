@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林鄉斗六市三光社區發展協會",
     "lat": 23.654948,
     "lng": 120.525074,
-    "address": "640雲林縣斗六市三光里板橋路40號"
+    "address": "640雲林縣斗六市三光里板橋路40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

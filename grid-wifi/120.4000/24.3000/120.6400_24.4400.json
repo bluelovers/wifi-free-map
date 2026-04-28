@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人苗栗縣豐盛全人關懷協會",
     "lat": 24.441542,
     "lng": 120.647727,
-    "address": "358苗栗縣苑裡鎮西勢里自強街14巷16號"
+    "address": "358苗栗縣苑裡鎮西勢里自強街14巷16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苑裡郵局",
     "lat": 24.441687,
     "lng": 120.653489,
-    "address": "358苗栗縣苑裡鎮忠勇街15號"
+    "address": "358苗栗縣苑裡鎮忠勇街15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華民國藥師佛琉璃光學會",
     "lat": 24.442275,
     "lng": 120.656938,
-    "address": "358苗栗縣苑裡鎮苑南里1鄰初中路1號"
+    "address": "358苗栗縣苑裡鎮苑南里1鄰初中路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局苑裡站第1月台4車位置",
     "lat": 24.443459,
     "lng": 120.649264,
-    "address": "358苗栗縣苑裡鎮中山路165號"
+    "address": "358苗栗縣苑裡鎮中山路165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局苑裡站第1月台8車位置",
     "lat": 24.443459,
     "lng": 120.649264,
-    "address": "358苗栗縣苑裡鎮中山路165號"
+    "address": "358苗栗縣苑裡鎮中山路165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局苑裡站候車室",
     "lat": 24.443459,
     "lng": 120.649264,
-    "address": "358苗栗縣苑裡鎮中山路165號"
+    "address": "358苗栗縣苑裡鎮中山路165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗縣苑裡鎮戶政事務所",
     "lat": 24.443786,
     "lng": 120.653536,
-    "address": "358苗栗縣苑裡鎮建國路51之1號"
+    "address": "358苗栗縣苑裡鎮建國路51之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣苑裡鎮出水社區發展協會",
     "lat": 24.451039,
     "lng": 120.646439,
-    "address": "358苗栗縣苑裡鎮13鄰出水20之1號"
+    "address": "358苗栗縣苑裡鎮13鄰出水20之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華天旨二郎神君慈善文化協進會",
     "lat": 24.459584,
     "lng": 120.652772,
-    "address": "358苗栗縣苑裡鎮苑港里5鄰苑港61之2號"
+    "address": "358苗栗縣苑裡鎮苑港里5鄰苑港61之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

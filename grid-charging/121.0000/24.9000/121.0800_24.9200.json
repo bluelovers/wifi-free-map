@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楊梅富岡郵局",
     "lat": 24.935283,
     "lng": 121.081853,

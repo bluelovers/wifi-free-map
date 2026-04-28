@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市和平區松茂部落",
     "lat": 24.28112,
     "lng": 121.26577,
-    "address": "424臺中市和平區中興路四段70號"
+    "address": "424臺中市和平區中興路四段70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人臺灣基督長老教會泰雅爾中會松茂分會",
     "lat": 24.283827,
     "lng": 121.266636,
-    "address": "424臺中市和平區梨山里2鄰中興路四段74號"
+    "address": "424臺中市和平區梨山里2鄰中興路四段74號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

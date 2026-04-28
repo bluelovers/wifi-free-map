@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人南投縣左岸成長學苑關懷協會",
     "lat": 23.828121,
     "lng": 120.67918,
-    "address": "551南投縣名間鄉炭寮村炭寮巷1之50號"
+    "address": "551南投縣名間鄉炭寮村炭寮巷1之50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

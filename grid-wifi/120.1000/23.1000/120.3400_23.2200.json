@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市東山區嶺南社區發展協會",
     "lat": 23.222,
     "lng": 120.345,
-    "address": "733臺南市東山區嶺南里4鄰牛稠子30之3號"
+    "address": "733臺南市東山區嶺南里4鄰牛稠子30之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣民雄鄉大崎社區發展協會",
     "lat": 23.227,
     "lng": 120.353,
-    "address": "621嘉義縣民雄鄉大崎村大崎腳17之5號"
+    "address": "621嘉義縣民雄鄉大崎村大崎腳17之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市六甲區甲東里辦公處",
     "lat": 23.227,
     "lng": 120.353,
-    "address": "734臺南市六甲區甲東里忠孝街217號一樓"
+    "address": "734臺南市六甲區甲東里忠孝街217號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "六甲郵局",
     "lat": 23.227257,
     "lng": 120.351744,
-    "address": "734臺南市六甲區民生街2號"
+    "address": "734臺南市六甲區民生街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市六甲區七甲里辦公處",
     "lat": 23.228,
     "lng": 120.346,
-    "address": "734臺南市六甲區七甲里七甲街89巷2號"
+    "address": "734臺南市六甲區七甲里七甲街89巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市六甲區二甲里辦公處",
     "lat": 23.229,
     "lng": 120.349,
-    "address": "734臺南市六甲區二甲里4鄰建工街266號"
+    "address": "734臺南市六甲區二甲里4鄰建工街266號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市六甲區水林里辦公處",
     "lat": 23.232,
     "lng": 120.355,
-    "address": "734臺南市六甲區水林里中山路206巷27號"
+    "address": "734臺南市六甲區水林里中山路206巷27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市六甲區六甲里辦公處",
     "lat": 23.234,
     "lng": 120.347,
-    "address": "734臺南市六甲區六甲里信義街238巷14弄17號之1"
+    "address": "734臺南市六甲區六甲里信義街238巷14弄17號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

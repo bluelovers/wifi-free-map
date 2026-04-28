@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "斗六大崙郵局",
     "lat": 23.679119,
     "lng": 120.538531,

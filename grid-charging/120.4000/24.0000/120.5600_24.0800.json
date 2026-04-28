@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣彰化市戶政事務所東區辦事處",
     "lat": 24.081093,
     "lng": 120.577643,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化台化郵局",
     "lat": 24.087073,
     "lng": 120.561098,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化中庄仔郵局",
     "lat": 24.087813,
     "lng": 120.568065,

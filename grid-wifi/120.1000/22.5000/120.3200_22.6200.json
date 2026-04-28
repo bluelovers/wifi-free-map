@@ -1,322 +1,442 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀三多分行",
     "lat": 22.620349,
     "lng": 120.324693,
-    "address": "802高雄市苓雅區三多二路93號"
+    "address": "802高雄市苓雅區三多二路93號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市顧健康頤養照護關懷協會",
     "lat": 22.622,
     "lng": 120.331,
-    "address": "802高雄市苓雅區福南里中正一路249號七樓之1"
+    "address": "802高雄市苓雅區福南里中正一路249號七樓之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄五塊厝郵局",
     "lat": 22.622264,
     "lng": 120.330421,
-    "address": "802高雄市苓雅區三多一路237號"
+    "address": "802高雄市苓雅區三多一路237號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市政府社會局長青綜合服務中心",
     "lat": 22.622414,
     "lng": 120.321956,
-    "address": "802高雄市苓雅區四維二路51號"
+    "address": "802高雄市苓雅區四維二路51號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市苓雅區戶政事務所第二辦公處",
     "lat": 22.622637,
     "lng": 120.330417,
-    "address": "802高雄市苓雅區三多一路166號"
+    "address": "802高雄市苓雅區三多一路166號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市政府社會局長青中心8樓會議、展覽廳",
     "lat": 22.623089,
     "lng": 120.321712,
-    "address": "802高雄市苓雅區四維二路51號"
+    "address": "802高雄市苓雅區四維二路51號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "長青中心一樓大廳",
     "lat": 22.623102,
     "lng": 120.321686,
-    "address": "802高雄市苓雅區四維二路51號"
+    "address": "802高雄市苓雅區四維二路51號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署高雄市第一服務站(新)",
     "lat": 22.624432,
     "lng": 120.333231,
-    "address": "802高雄市苓雅區政南街6號5、6樓"
+    "address": "802高雄市苓雅區政南街6號5、6樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "法務部行政執行署高雄分署三樓",
     "lat": 22.624744,
     "lng": 120.33371,
-    "address": "802高雄市苓雅區政南街2號"
+    "address": "802高雄市苓雅區政南街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "法務部行政執行署高雄分署四樓",
     "lat": 22.624744,
     "lng": 120.33371,
-    "address": "802高雄市苓雅區政南街2號"
+    "address": "802高雄市苓雅區政南街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "法務部行政執行署高雄分署五樓",
     "lat": 22.624744,
     "lng": 120.33371,
-    "address": "802高雄市苓雅區政南街2號"
+    "address": "802高雄市苓雅區政南街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄市立凱旋醫院一樓候診區",
     "lat": 22.62538,
     "lng": 120.324004,
-    "address": "802高雄市苓雅區凱旋二路130號"
+    "address": "802高雄市苓雅區凱旋二路130號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市體育處本部1F服務台",
     "lat": 22.625499,
     "lng": 120.33398,
-    "address": "802高雄市苓雅區中正一路99號"
+    "address": "802高雄市苓雅區中正一路99號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市體育處本部3F會議室",
     "lat": 22.625499,
     "lng": 120.33398,
-    "address": "802高雄市苓雅區中正一路99號"
+    "address": "802高雄市苓雅區中正一路99號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄師大郵局",
     "lat": 22.625638,
     "lng": 120.320034,
-    "address": "802高雄市苓雅區和平一路116號"
+    "address": "802高雄市苓雅區和平一路116號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄市立凱旋醫院附設社區復健中心",
     "lat": 22.626021,
     "lng": 120.325495,
-    "address": "802高雄市苓雅區福成街2號"
+    "address": "802高雄市苓雅區福成街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄市立凱旋醫院附設城堡康復之家",
     "lat": 22.626115,
     "lng": 120.325659,
-    "address": "802高雄市苓雅區福成街2號1-3樓"
+    "address": "802高雄市苓雅區福成街2號1-3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市政府衛生局",
     "lat": 22.626544,
     "lng": 120.324941,
-    "address": "802高雄市苓雅區凱旋二路132-1號"
+    "address": "802高雄市苓雅區凱旋二路132-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院勞動部勞工保險局高雄市辦事處洽公櫃台",
     "lat": 22.626911,
     "lng": 120.326253,
-    "address": "802高雄市苓雅區政南街6號"
+    "address": "802高雄市苓雅區政南街6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄市立民生醫院",
     "lat": 22.627163,
     "lng": 120.323746,
-    "address": "802高雄市苓雅區凱旋二路134號"
+    "address": "802高雄市苓雅區凱旋二路134號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華銀商業銀行東苓分行",
     "lat": 22.628164,
     "lng": 120.33259,
-    "address": "802高雄市苓雅區中正一路120號"
+    "address": "802高雄市苓雅區中正一路120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市音樂養生慈善公益協會(奏捷-敬老亭)",
     "lat": 22.628754,
     "lng": 120.32345,
-    "address": "802高雄市苓雅區奏捷里河南路171之1號"
+    "address": "802高雄市苓雅區奏捷里河南路171之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄正言郵局",
     "lat": 22.629859,
     "lng": 120.326762,
-    "address": "802高雄市苓雅區中正一路322、324號"
+    "address": "802高雄市苓雅區中正一路322、324號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "勞動部勞動力發展署高屏澎東分署高屏澎東區銀髮人才(資源中心公共空間)",
     "lat": 22.62997,
     "lng": 120.32723,
-    "address": "802高雄市苓雅區中正一路306號2樓"
+    "address": "802高雄市苓雅區中正一路306號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市苓雅區民主社區發展協會",
     "lat": 22.63,
     "lng": 120.321,
-    "address": "802高雄市苓雅區民主里樂仁路10號"
+    "address": "802高雄市苓雅區民主里樂仁路10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄武廟郵局",
     "lat": 22.630599,
     "lng": 120.32986,
-    "address": "802高雄市苓雅區武廟路83號"
+    "address": "802高雄市苓雅區武廟路83號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市鳳山區生明社區發展協會",
     "lat": 22.631,
     "lng": 120.329,
-    "address": "830高雄市鳳山區誠義里光華東路182號"
+    "address": "830高雄市鳳山區誠義里光華東路182號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市甲仙區關山社區發展協會",
     "lat": 22.631,
     "lng": 120.329,
-    "address": "847高雄市甲仙區關山里中興路17號"
+    "address": "847高雄市甲仙區關山里中興路17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市政府交通局車輛行車事故鑑定委員會",
     "lat": 22.632451,
     "lng": 120.327995,
-    "address": "802高雄市苓雅區福德二路77號4樓"
+    "address": "802高雄市苓雅區福德二路77號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市基督教廣傳福音協會",
     "lat": 22.633,
     "lng": 120.323,
-    "address": "801高雄市前金區復元里福音街23號B1"
+    "address": "801高雄市前金區復元里福音街23號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市苓雅區幸福文昌社區發展協會",
     "lat": 22.633836,
     "lng": 120.338043,
-    "address": "802高雄市苓雅區文昌里義勇路191號"
+    "address": "802高雄市苓雅區文昌里義勇路191號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "正道公園旁高速公路涵洞綠廊道",
     "lat": 22.635199,
     "lng": 120.336464,
-    "address": "802高雄市苓雅區建國一路64巷57弄2號"
+    "address": "802高雄市苓雅區建國一路64巷57弄2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局高雄市區監理所苓雅監理站",
     "lat": 22.637422,
     "lng": 120.32057,
-    "address": "802高雄市苓雅區安康路22號"
+    "address": "802高雄市苓雅區安康路22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市三民區愛心社區發展協會",
     "lat": 22.638148,
     "lng": 120.326108,
-    "address": "807高雄市三民區寶盛里臥龍路29號"
+    "address": "807高雄市三民區寶盛里臥龍路29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市政府社會局婦女館",
     "lat": 22.638209,
     "lng": 120.324138,
-    "address": "807高雄市三民區九如一路777號"
+    "address": "807高雄市三民區九如一路777號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局科工館站穿堂層（地下1樓）",
     "lat": 22.639559,
     "lng": 120.323569,
-    "address": "807高雄市三民區寶盛里15鄰大順三路307號"
+    "address": "807高雄市三民區寶盛里15鄰大順三路307號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局科工館站第1月台5車位置",
     "lat": 22.639559,
     "lng": 120.323569,
-    "address": "807高雄市三民區寶盛里15鄰大順三路307號"
+    "address": "807高雄市三民區寶盛里15鄰大順三路307號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局科工館站第2月台8車位置",
     "lat": 22.639559,
     "lng": 120.323569,
-    "address": "807高雄市三民區寶盛里15鄰大順三路307號"
+    "address": "807高雄市三民區寶盛里15鄰大順三路307號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行大昌分行",
     "lat": 22.639828,
     "lng": 120.332249,
-    "address": "807高雄市三民區大昌二路57號"
+    "address": "807高雄市三民區大昌二路57號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "國立科學工藝博物館",
     "lat": 22.639888,
     "lng": 120.322377,
-    "address": "807高雄市三民區九如一路720號"
+    "address": "807高雄市三民區九如一路720號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

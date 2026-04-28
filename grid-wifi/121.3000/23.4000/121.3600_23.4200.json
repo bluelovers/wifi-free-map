@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣玉里鎮松浦國民小學",
     "lat": 23.428441,
     "lng": 121.373681,
-    "address": "981花蓮縣玉里鎮松浦里12鄰212號"
+    "address": "981花蓮縣玉里鎮松浦里12鄰212號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮松浦里辦公室",
     "lat": 23.42887,
     "lng": 121.374397,
-    "address": "981花蓮縣玉里鎮松浦12鄰松浦214-3號"
+    "address": "981花蓮縣玉里鎮松浦12鄰松浦214-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

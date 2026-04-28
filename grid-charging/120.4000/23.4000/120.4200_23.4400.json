@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嶺頂遊客資訊站",
     "lat": 23.454822,
     "lng": 120.438395,

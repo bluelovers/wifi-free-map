@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館社子島智慧圖書館2F中央",
     "lat": 25.10605,
     "lng": 121.474618,
-    "address": "111臺北市士林區延平北路九段80號2F"
+    "address": "111臺北市士林區延平北路九段80號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林中洲區民活動中心1F中央",
     "lat": 25.106375,
     "lng": 121.474567,
-    "address": "111臺北市士林區延平北路九段80號1F"
+    "address": "111臺北市士林區延平北路九段80號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "富洲里-S-延平北路九段",
     "lat": 25.109081,
     "lng": 121.46865,
-    "address": "111臺北市士林區延平北路九段313號候車亭"
+    "address": "111臺北市士林區延平北路九段313號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "關渡宮-知行路",
     "lat": 25.117873,
     "lng": 121.465074,
-    "address": "112臺北市北投區知行路2之1號旁候車亭"
+    "address": "112臺北市北投區知行路2之1號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "關渡自然公園管理處1F自然中心右側",
     "lat": 25.119305,
     "lng": 121.471745,
-    "address": "112臺北市北投區關渡路55號1F"
+    "address": "112臺北市北投區關渡路55號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "關渡自然公園-N-關渡路",
     "lat": 25.119571,
     "lng": 121.469223,
-    "address": "112臺北市北投區關渡路55號旁候車亭"
+    "address": "112臺北市北投區關渡路55號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

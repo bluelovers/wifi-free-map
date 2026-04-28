@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣南澳鄉德卡倫部落",
     "lat": 24.33057,
     "lng": 121.74021,
-    "address": "272宜蘭縣南澳鄉澳花村中央路18-2號"
+    "address": "272宜蘭縣南澳鄉澳花村中央路18-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

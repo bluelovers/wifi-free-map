@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "善化溪美郵局",
     "lat": 23.152967,
     "lng": 120.288449,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台糖公司台南區處辦公大樓2樓",
     "lat": 23.15463,
     "lng": 120.290053,

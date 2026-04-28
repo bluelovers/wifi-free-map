@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林外雙溪郵局",
     "lat": 25.107,
     "lng": 121.565204,

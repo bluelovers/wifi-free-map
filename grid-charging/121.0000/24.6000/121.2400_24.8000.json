@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部水利署北區水資源局環翠樓遊客服務中心",
     "lat": 24.811633,
     "lng": 121.24729,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "斗六西平路郵局",
     "lat": 23.70658,
     "lng": 120.539799,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司雲林區處服務中心營業廳",
     "lat": 23.712449,
     "lng": 120.532761,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "斗六鎮北郵局",
     "lat": 23.712992,
     "lng": 120.539621,

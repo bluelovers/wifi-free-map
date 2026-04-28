@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "觀音工業區郵局",
     "lat": 25.052109,
     "lng": 121.11805,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "觀音工業區服務中心",
     "lat": 25.052557,
     "lng": 121.118045,

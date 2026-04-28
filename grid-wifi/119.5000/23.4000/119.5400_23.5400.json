@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣馬公市風櫃社區發展協會",
     "lat": 23.54197,
     "lng": 119.543895,
-    "address": "880澎湖縣馬公市風櫃里風櫃尾120之1號"
+    "address": "880澎湖縣馬公市風櫃里風櫃尾120之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

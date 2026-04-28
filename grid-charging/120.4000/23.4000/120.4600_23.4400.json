@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署第五河川局1樓服務台",
     "lat": 23.458168,
     "lng": 120.460818,

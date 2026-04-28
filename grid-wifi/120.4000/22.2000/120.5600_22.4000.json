@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣枋寮鄉東海社區發展協會",
     "lat": 22.402674,
     "lng": 120.578401,
-    "address": "940屏東縣枋寮鄉東海村東海路434巷40號"
+    "address": "940屏東縣枋寮鄉東海村東海路434巷40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏南工業區服務中心",
     "lat": 22.411928,
     "lng": 120.577208,
-    "address": "940屏東縣枋寮鄉東海村屏南路36號"
+    "address": "940屏東縣枋寮鄉東海村屏南路36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

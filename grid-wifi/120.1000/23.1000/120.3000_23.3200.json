@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市政府消防局民治辦公室",
     "lat": 23.322689,
     "lng": 120.309459,
-    "address": "730臺南市新營區三興街380號1樓"
+    "address": "730臺南市新營區三興街380號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市新營區舊廍社區發展協會",
     "lat": 23.33,
     "lng": 120.308,
-    "address": "730臺南市新營區舊部27之1號"
+    "address": "730臺南市新營區舊部27之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內埔水門郵局",
     "lat": 22.709647,
     "lng": 120.64514,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三地門郵局",
     "lat": 22.714657,
     "lng": 120.653339,

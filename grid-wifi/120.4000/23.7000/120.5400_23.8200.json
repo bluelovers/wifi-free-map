@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局北斗分局成功派出所",
     "lat": 23.826022,
     "lng": 120.547056,
-    "address": "524彰化縣溪州鄉成功村庄中路20號"
+    "address": "524彰化縣溪州鄉成功村庄中路20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "埔基醫療財團法人埔里基督教醫院(北梅)",
     "lat": 23.983905,
     "lng": 120.967219,
-    "address": "545南投縣埔里鎮北梅里西安路一段537巷300號"
+    "address": "545南投縣埔里鎮北梅里西安路一段537巷300號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

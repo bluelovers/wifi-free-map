@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "西湖鄉衛生所",
     "lat": 24.540817,
     "lng": 120.772349,
-    "address": "368苗栗縣西湖鄉龍洞村1鄰龍洞16號3樓"
+    "address": "368苗栗縣西湖鄉龍洞村1鄰龍洞16號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

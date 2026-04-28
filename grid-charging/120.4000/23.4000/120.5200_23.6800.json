@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局嘉義區監理所雲林監理站",
     "lat": 23.699676,
     "lng": 120.528895,

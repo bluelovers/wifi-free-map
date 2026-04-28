@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘇澳馬賽郵局",
     "lat": 24.627536,
     "lng": 121.832513,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龍德(兼利澤)工業區服務中心",
     "lat": 24.633761,
     "lng": 121.828477,

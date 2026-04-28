@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮籐湖社區發展協會",
     "lat": 23.781,
     "lng": 120.713,
-    "address": "557南投縣竹山鎮延平里籐湖巷5之3號"
+    "address": "557南投縣竹山鎮延平里籐湖巷5之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "車籠埔斷層保存園區",
     "lat": 23.794644,
     "lng": 120.710755,
-    "address": "557南投縣竹山鎮集山路二段345號"
+    "address": "557南投縣竹山鎮集山路二段345號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

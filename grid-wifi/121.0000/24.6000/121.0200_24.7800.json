@@ -1,90 +1,123 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市東區東山社區發展協會",
     "lat": 24.78,
     "lng": 121.022,
-    "address": "300新竹市東區東山里食品路155巷27號"
+    "address": "300新竹市東區東山里食品路155巷27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "新竹市東區金山圖書館",
     "lat": 24.781591,
     "lng": 121.022472,
-    "address": "300新竹市東區光復路一段163巷53弄1之4號2樓"
+    "address": "300新竹市東區光復路一段163巷53弄1之4號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局竹中站售票房",
     "lat": 24.781591,
     "lng": 121.030666,
-    "address": "310新竹縣竹東鎮竹中路145號"
+    "address": "310新竹縣竹東鎮竹中路145號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市關東市民活動中心",
     "lat": 24.782327,
     "lng": 121.022179,
-    "address": "300新竹市東區關東路23巷1-1號5樓"
+    "address": "300新竹市東區關東路23巷1-1號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "新竹市圖書館關東分局",
     "lat": 24.782332,
     "lng": 121.022179,
-    "address": "300新竹市東區關東路23巷1-1號3樓"
+    "address": "300新竹市東區關東路23巷1-1號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹市風城健康養身促進會",
     "lat": 24.783,
     "lng": 121.022,
-    "address": "300新竹市東區綠水里博愛街22號"
+    "address": "300新竹市東區綠水里博愛街22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局竹中站第1月台行車室",
     "lat": 24.783478,
     "lng": 121.033167,
-    "address": "310新竹縣竹東鎮頭重里竹中路145號"
+    "address": "310新竹縣竹東鎮頭重里竹中路145號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局新莊站售票房",
     "lat": 24.788293,
     "lng": 121.02195,
-    "address": "300新竹市東區新莊里6鄰關東路310號"
+    "address": "300新竹市東區新莊里6鄰關東路310號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "新竹市公車([KKA-3052])",
     "lat": 24.78834,
     "lng": 121.020993,
-    "address": "300新竹市東區關東路256巷3號"
+    "address": "300新竹市東區關東路256巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "新竹市公車(1路[FAD-351])",
     "lat": 24.788398,
     "lng": 121.021003,
-    "address": "300新竹市東區關東路256巷3號"
+    "address": "300新竹市東區關東路256巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "新竹市公車(52、53路[KKA-3011])",
     "lat": 24.788398,
     "lng": 121.021003,
-    "address": "300新竹市東區關東路256巷3號"
+    "address": "300新竹市東區關東路256巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳥松郵局",
     "lat": 22.661413,
     "lng": 120.363834,
-    "address": "833高雄市鳥松區中正路311號"
+    "address": "833高雄市鳥松區中正路311號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館鳥松分館",
     "lat": 22.663205,
     "lng": 120.362454,
-    "address": "833高雄市鳥松區鳥松里大仁北路10號"
+    "address": "833高雄市鳥松區鳥松里大仁北路10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

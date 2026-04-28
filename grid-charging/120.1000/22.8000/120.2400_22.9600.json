@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "仁德郵局",
     "lat": 22.969644,
     "lng": 120.252193,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺南市仁德區戶政事務所",
     "lat": 22.972559,
     "lng": 120.251327,

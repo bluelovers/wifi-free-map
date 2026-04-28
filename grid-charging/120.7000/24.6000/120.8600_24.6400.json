@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "造橋郵局",
     "lat": 24.640384,
     "lng": 120.865903,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "國道公路警察局第二公路警察大隊",
     "lat": 24.643117,
     "lng": 120.873427,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗縣造橋鄉戶政事務所",
     "lat": 24.656378,
     "lng": 120.865402,

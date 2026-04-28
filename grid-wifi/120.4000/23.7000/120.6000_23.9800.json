@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局彰化分局安山派出所",
     "lat": 23.993027,
     "lng": 120.612185,
-    "address": "502彰化縣芬園鄉大彰路三段194號"
+    "address": "502彰化縣芬園鄉大彰路三段194號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

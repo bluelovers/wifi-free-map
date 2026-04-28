@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "新竹縣寶山鄉立圖書館",
     "lat": 24.765379,
     "lng": 120.992608,
-    "address": "308新竹縣寶山鄉雙溪村11鄰館前路18號"
+    "address": "308新竹縣寶山鄉雙溪村11鄰館前路18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣寶山鄉公所",
     "lat": 24.765635,
     "lng": 120.991316,
-    "address": "308新竹縣寶山鄉雙園路二段325號"
+    "address": "308新竹縣寶山鄉雙園路二段325號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣寶山鄉戶政事務所",
     "lat": 24.76583,
     "lng": 120.991133,
-    "address": "308新竹縣寶山鄉雙溪村4鄰雙園路二段325號3樓"
+    "address": "308新竹縣寶山鄉雙溪村4鄰雙園路二段325號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "寶山郵局",
     "lat": 24.766785,
     "lng": 120.990543,
-    "address": "308新竹縣寶山鄉雙園路二段349號"
+    "address": "308新竹縣寶山鄉雙園路二段349號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣寶山鄉衛生所",
     "lat": 24.767116,
     "lng": 120.994856,
-    "address": "308新竹縣寶山鄉雙溪村雙園路二段273號"
+    "address": "308新竹縣寶山鄉雙溪村雙園路二段273號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "小烏來風景特定區-天空步道",
     "lat": 24.778289,
     "lng": 120.988108,
-    "address": "336桃園市復興區義盛村42號"
+    "address": "336桃園市復興區義盛村42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

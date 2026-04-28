@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "南投酒廠展售中心",
     "lat": 23.921149,
     "lng": 120.705585,
-    "address": "540南投縣南投市軍功里東山路82號"
+    "address": "540南投縣南投市軍功里東山路82號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣南投市大埤社區發展協會",
     "lat": 23.931158,
     "lng": 120.707248,
-    "address": "540南投縣南投市內興里大埤街150號"
+    "address": "540南投縣南投市內興里大埤街150號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "文獻館文物大樓1F",
     "lat": 23.937222,
     "lng": 120.700699,
-    "address": "540南投縣南投市光明一路254號"
+    "address": "540南投縣南投市光明一路254號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

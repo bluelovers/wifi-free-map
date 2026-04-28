@@ -1,186 +1,255 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "龍潭大池公園(老人會館)",
     "lat": 24.861572,
     "lng": 121.21126,
-    "address": "325桃園市龍潭區中豐路上林段大池邊老人會館"
+    "address": "325桃園市龍潭區中豐路上林段大池邊老人會館",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行龍潭分行",
     "lat": 24.862687,
     "lng": 121.215112,
-    "address": "325桃園市龍潭區東龍路142號"
+    "address": "325桃園市龍潭區東龍路142號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "龍潭大池公園(管理處)",
     "lat": 24.862988,
     "lng": 121.208822,
-    "address": "325桃園市龍潭區中豐路上林段117巷1號"
+    "address": "325桃園市龍潭區中豐路上林段117巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "龍潭區圖書館(1F)",
     "lat": 24.863799,
     "lng": 121.216136,
-    "address": "325桃園市龍潭區中正路210號"
+    "address": "325桃園市龍潭區中正路210號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "龍潭區圖書館(3F)",
     "lat": 24.863799,
     "lng": 121.216136,
-    "address": "325桃園市龍潭區中正路210號"
+    "address": "325桃園市龍潭區中正路210號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龍潭南龍郵局",
     "lat": 24.863884,
     "lng": 121.212225,
-    "address": "325桃園市龍潭區龍潭村南龍路70號"
+    "address": "325桃園市龍潭區龍潭村南龍路70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龍潭區公所(1F)",
     "lat": 24.863967,
     "lng": 121.216509,
-    "address": "325桃園市龍潭區中正路210號"
+    "address": "325桃園市龍潭區中正路210號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龍潭區公所(3F)",
     "lat": 24.863967,
     "lng": 121.216509,
-    "address": "325桃園市龍潭區中正路210號"
+    "address": "325桃園市龍潭區中正路210號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "龍潭區圖書館青少年學習中心",
     "lat": 24.863976,
     "lng": 121.215892,
-    "address": "325桃園市龍潭區龍華路117號"
+    "address": "325桃園市龍潭區龍華路117號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市龍潭區衛生所",
     "lat": 24.864393,
     "lng": 121.216859,
-    "address": "325桃園市龍潭區中正路210號"
+    "address": "325桃園市龍潭區中正路210號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龍潭區大中正社區發展協會",
     "lat": 24.864566,
     "lng": 121.216745,
-    "address": "325桃園市龍潭區龍星里中正路204號一樓"
+    "address": "325桃園市龍潭區龍星里中正路204號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "新竹客運龍潭站",
     "lat": 24.865067,
     "lng": 121.211075,
-    "address": "325桃園市龍潭區北龍路13號"
+    "address": "325桃園市龍潭區北龍路13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行石門分行",
     "lat": 24.865708,
     "lng": 121.211959,
-    "address": "325桃園市龍潭區北龍路49號"
+    "address": "325桃園市龍潭區北龍路49號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "龍元宮商圈北龍路與東龍路口土地廟前號誌桿右側",
     "lat": 24.865778,
     "lng": 121.213542,
-    "address": "325桃園市龍潭區東龍路265號"
+    "address": "325桃園市龍潭區東龍路265號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龍潭郵局",
     "lat": 24.866656,
     "lng": 121.216914,
-    "address": "325桃園市龍潭區中正路151號"
+    "address": "325桃園市龍潭區中正路151號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龍潭家庭服務中心",
     "lat": 24.867954,
     "lng": 121.207079,
-    "address": "325桃園市龍潭區干城路19巷30號"
+    "address": "325桃園市龍潭區干城路19巷30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "龍潭運動公園",
     "lat": 24.867977,
     "lng": 121.21977,
-    "address": "325桃園市龍潭區中山里黃泥塘136號"
+    "address": "325桃園市龍潭區中山里黃泥塘136號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龍潭區中山社區發展協會",
     "lat": 24.868099,
     "lng": 121.21476,
-    "address": "325桃園市龍潭區中山里華南路1之1號"
+    "address": "325桃園市龍潭區中山里華南路1之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府警察局龍潭分局",
     "lat": 24.868712,
     "lng": 121.207389,
-    "address": "325桃園市龍潭區凌雲村干城路21號"
+    "address": "325桃園市龍潭區凌雲村干城路21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "龍潭敏盛醫院-湧泉學堂",
     "lat": 24.868846,
     "lng": 121.215347,
-    "address": "325桃園市龍潭區華南路一段6號"
+    "address": "325桃園市龍潭區華南路一段6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龍潭區凌雲社區發展協會",
     "lat": 24.868855,
     "lng": 121.207046,
-    "address": "325桃園市龍潭區凌雲里干城路19巷28號"
+    "address": "325桃園市龍潭區凌雲里干城路19巷28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行龍潭分行",
     "lat": 24.869233,
     "lng": 121.214046,
-    "address": "325桃園市龍潭區中正路8號"
+    "address": "325桃園市龍潭區中正路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龍潭區百年里辦公處",
     "lat": 24.877579,
     "lng": 121.209346,
-    "address": "325桃園市龍潭區百年里百年二街15巷21號B1"
+    "address": "325桃園市龍潭區百年里百年二街15巷21號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

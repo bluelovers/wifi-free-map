@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "淡水中興郵局",
     "lat": 25.1688,
     "lng": 121.447677,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司淡水營運所",
     "lat": 25.170571,
     "lng": 121.446605,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "淡江大學郵局",
     "lat": 25.173615,
     "lng": 121.448507,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "淡水水碓郵局",
     "lat": 25.176148,
     "lng": 121.443325,

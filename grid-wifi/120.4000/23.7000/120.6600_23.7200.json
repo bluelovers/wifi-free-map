@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮福田社區發展協會",
     "lat": 23.7278,
     "lng": 120.667008,
-    "address": "557南投縣竹山鎮福興里鯉南路136之1號"
+    "address": "557南投縣竹山鎮福興里鯉南路136之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣竹山鎮車店仔社區發展協會",
     "lat": 23.734079,
     "lng": 120.668634,
-    "address": "557南投縣竹山鎮德興里鯉南路125之3號"
+    "address": "557南投縣竹山鎮德興里鯉南路125之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

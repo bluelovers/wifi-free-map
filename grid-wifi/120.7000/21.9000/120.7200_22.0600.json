@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣車城鄉統埔社區發展協會",
     "lat": 22.07194,
     "lng": 120.731079,
-    "address": "944屏東縣車城鄉統埔村統埔路10號"
+    "address": "944屏東縣車城鄉統埔村統埔路10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

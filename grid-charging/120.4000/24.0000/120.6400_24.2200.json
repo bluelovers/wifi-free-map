@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大雅郵局",
     "lat": 24.223208,
     "lng": 120.647768,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市大雅區戶政事務所",
     "lat": 24.229192,
     "lng": 120.648406,

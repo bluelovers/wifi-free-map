@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "內政部營建署台中都會公園川堂",
     "lat": 24.205642,
     "lng": 120.596256,
-    "address": "407臺中市西屯區西平南巷30-3號"
+    "address": "407臺中市西屯區西平南巷30-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "內政部營建署台中都會公園遊客中心",
     "lat": 24.205642,
     "lng": 120.596256,
-    "address": "407臺中市西屯區西平南巷30-3號"
+    "address": "407臺中市西屯區西平南巷30-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "內政部營建署台中都會公園管服中心",
     "lat": 24.205642,
     "lng": 120.596256,
-    "address": "407臺中市西屯區西平南巷30-3號"
+    "address": "407臺中市西屯區西平南巷30-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中都會公園遊客服務中心公廁1",
     "lat": 24.207731,
     "lng": 120.597973,
-    "address": "407臺中市西屯區都會園路1215巷140號"
+    "address": "407臺中市西屯區都會園路1215巷140號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中都會公園遊客服務中心公廁2",
     "lat": 24.207731,
     "lng": 120.597973,
-    "address": "407臺中市西屯區都會園路1215巷140號"
+    "address": "407臺中市西屯區都會園路1215巷140號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中都會公園遊客服務中心前廣場",
     "lat": 24.207893,
     "lng": 120.598638,
-    "address": "407臺中市西屯區都會園路1215巷140號"
+    "address": "407臺中市西屯區都會園路1215巷140號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車正英臺灣大道口站",
     "lat": 24.210187,
     "lng": 120.580968,
-    "address": "433臺中市沙鹿區台灣大道六段761號旁"
+    "address": "433臺中市沙鹿區台灣大道六段761號旁",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商沙鹿北勢東路鹿維店(公話)",
     "lat": 24.215195,
     "lng": 120.580006,
-    "address": "433臺中市沙鹿區北勢東路330號"
+    "address": "433臺中市沙鹿區北勢東路330號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車弘光科技大學站",
     "lat": 24.216981,
     "lng": 120.58264,
-    "address": "433臺中市沙鹿區臺灣大道六段1018號"
+    "address": "433臺中市沙鹿區臺灣大道六段1018號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

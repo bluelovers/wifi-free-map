@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣崁頂鄉力社社區發展協會",
     "lat": 22.53878,
     "lng": 120.509245,
-    "address": "924屏東縣崁頂鄉力社村力社路36號"
+    "address": "924屏東縣崁頂鄉力社村力社路36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

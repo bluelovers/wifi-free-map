@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹田郵局",
     "lat": 22.586762,
     "lng": 120.54306,

@@ -1,82 +1,112 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部關務署臺中關臺中加工出口區辦公室",
     "lat": 24.220315,
     "lng": 120.70168,
-    "address": "427臺中市潭子區臺中加工出口區北環路3號1樓"
+    "address": "427臺中市潭子區臺中加工出口區北環路3號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車中山祥和路口站",
     "lat": 24.22858,
     "lng": 120.708038,
-    "address": "427臺中市潭子區中山路三段295號"
+    "address": "427臺中市潭子區中山路三段295號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商潭子祥和路栗林店(公話)",
     "lat": 24.22955,
     "lng": 120.711088,
-    "address": "427臺中市潭子區祥和路171號"
+    "address": "427臺中市潭子區祥和路171號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商潭子豐栗路甜園店(公話)",
     "lat": 24.231167,
     "lng": 120.708196,
-    "address": "427臺中市潭子區豐栗路9號"
+    "address": "427臺中市潭子區豐栗路9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "潭子栗林郵局",
     "lat": 24.231655,
     "lng": 120.708857,
-    "address": "427臺中市潭子區栗林村中山路三段334號"
+    "address": "427臺中市潭子區栗林村中山路三段334號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "萊爾富便利商店豐原豐南街豐田店(公話)",
     "lat": 24.239382,
     "lng": 120.713379,
-    "address": "420臺中市豐原區豐南街58號"
+    "address": "420臺中市豐原區豐南街58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商豐原豐南街新豐田店(公話)",
     "lat": 24.239483,
     "lng": 120.716058,
-    "address": "420臺中市豐原區豐南街145號"
+    "address": "420臺中市豐原區豐南街145號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店豐原西勢路互助店(公話)",
     "lat": 24.239494,
     "lng": 120.704533,
-    "address": "420臺中市豐原區西勢路411號"
+    "address": "420臺中市豐原區西勢路411號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商豐原中山路新豐寶店(公話)",
     "lat": 24.23961,
     "lng": 120.711175,
-    "address": "420臺中市豐原區中山路143號之2"
+    "address": "420臺中市豐原區中山路143號之2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "豐原中山路郵局",
     "lat": 24.239804,
     "lng": 120.710915,
-    "address": "420臺中市豐原區田心里大明路12號"
+    "address": "420臺中市豐原區田心里大明路12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

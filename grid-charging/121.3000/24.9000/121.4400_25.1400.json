@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "淡水紅樹林郵局",
     "lat": 25.154912,
     "lng": 121.459673,

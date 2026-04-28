@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中航空站國際航廈1樓",
     "lat": 24.254419,
     "lng": 120.599499,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中航空站國際航廈3樓",
     "lat": 24.254419,
     "lng": 120.599499,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中航空站國際航廈地下1樓",
     "lat": 24.254419,
     "lng": 120.599499,

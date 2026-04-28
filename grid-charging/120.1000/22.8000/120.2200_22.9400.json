@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺灣糖業股份有限公司量販事業部嘉年華購物中心",
     "lat": 22.946834,
     "lng": 120.220384,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "仁德二空郵局",
     "lat": 22.956127,
     "lng": 120.22098,

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "舞鶴茶園",
     "lat": 23.448229,
     "lng": 121.351661,
-    "address": "978花蓮縣瑞穗鄉舞鶴村中正南路二段336號"
+    "address": "978花蓮縣瑞穗鄉舞鶴村中正南路二段336號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣瑞穗鄉舞鶴國民小學",
     "lat": 23.458719,
     "lng": 121.352534,
-    "address": "978花蓮縣瑞穗鄉舞鶴村64號"
+    "address": "978花蓮縣瑞穗鄉舞鶴村64號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

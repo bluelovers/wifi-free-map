@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣新港鄉大潭社區發展協會",
     "lat": 23.556,
     "lng": 120.373,
-    "address": "616嘉義縣新港鄉大潭33附1號"
+    "address": "616嘉義縣新港鄉大潭33附1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

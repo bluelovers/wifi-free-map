@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局嘉義區監理所臺南監理站",
     "lat": 22.981226,
     "lng": 120.217655,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南水交社郵局",
     "lat": 22.981438,
     "lng": 120.204491,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南東城郵局",
     "lat": 22.986242,
     "lng": 120.217036,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司台南區處服務中心營業廳",
     "lat": 22.988066,
     "lng": 120.20173,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南南門路郵局",
     "lat": 22.988785,
     "lng": 120.204744,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南中正路郵局",
     "lat": 22.992036,
     "lng": 120.202241,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南興華街郵局",
     "lat": 22.992606,
     "lng": 120.211287,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "觀光局旅遊服務中心台南服務處",
     "lat": 22.992758,
     "lng": 120.207209,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通部中央氣象局臺灣南區氣象中心1樓大廳",
     "lat": 22.993533,
     "lng": 120.205147,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局台南分局商檢業務民眾洽公區",
     "lat": 22.996443,
     "lng": 120.211818,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局臺南分局3樓第1會議室",
     "lat": 22.996443,
     "lng": 120.211818,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "成功大學郵局",
     "lat": 22.996718,
     "lng": 120.216715,
@@ -85,6 +97,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺南站大廳候車室",
     "lat": 22.997128,
     "lng": 120.212648,
@@ -92,6 +105,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺南站後站大廳",
     "lat": 22.997128,
     "lng": 120.212648,
@@ -99,6 +113,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺南站第2月台5車位置",
     "lat": 22.997128,
     "lng": 120.212648,
@@ -106,6 +121,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南成功路郵局-1",
     "lat": 22.997599,
     "lng": 120.210353,
@@ -113,6 +129,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南成功路郵局-2",
     "lat": 22.997599,
     "lng": 120.210353,
@@ -120,6 +137,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司台南直銷中心",
     "lat": 22.997662,
     "lng": 120.209497,
@@ -127,6 +145,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南普濟郵局",
     "lat": 22.998288,
     "lng": 120.200488,
@@ -134,6 +153,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局臺南分局度政",
     "lat": 22.9985,
     "lng": 120.209,
@@ -141,6 +161,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南西華郵局",
     "lat": 22.999636,
     "lng": 120.20808,

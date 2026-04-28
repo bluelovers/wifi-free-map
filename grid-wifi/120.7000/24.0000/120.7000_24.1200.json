@@ -1,210 +1,288 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市太平區永成社區發展協會",
     "lat": 24.120617,
     "lng": 120.719622,
-    "address": "411臺中市太平區永成里長億一街96巷2號"
+    "address": "411臺中市太平區永成里長億一街96巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "[目前暫停使用中]OK超商太平太平路太平店(公話)",
     "lat": 24.121255,
     "lng": 120.71968,
-    "address": "411臺中市太平區太平路227號"
+    "address": "411臺中市太平區太平路227號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店太平永豐路永豐店(公話)",
     "lat": 24.123242,
     "lng": 120.711916,
-    "address": "411臺中市太平區永豐路83號"
+    "address": "411臺中市太平區永豐路83號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車太平農會站",
     "lat": 24.12479,
     "lng": 120.71482,
-    "address": "411臺中市太平區太平農會前面(TCTP4041)"
+    "address": "411臺中市太平區太平農會前面(TCTP4041)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市太平區中政社區發展協會",
     "lat": 24.124833,
     "lng": 120.715632,
-    "address": "411臺中市太平區中政里太平路446號二樓"
+    "address": "411臺中市太平區中政里太平路446號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市太平公有零售市場(公話)",
     "lat": 24.124858,
     "lng": 120.715623,
-    "address": "411臺中市太平區太平路446號(公話)"
+    "address": "411臺中市太平區太平路446號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中平九街太平二十街口",
     "lat": 24.12498,
     "lng": 120.71901,
-    "address": "411臺中市太平區中平九街58號前(面對家樂福)(TP4021)"
+    "address": "411臺中市太平區中平九街58號前(面對家樂福)(TP4021)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市太平區太平社區發展協會",
     "lat": 24.125517,
     "lng": 120.712531,
-    "address": "411臺中市太平區太平里太平十九街1號二樓"
+    "address": "411臺中市太平區太平里太平十九街1號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車下太平站",
     "lat": 24.1257,
     "lng": 120.7125,
-    "address": "411臺中市太平區太平路577號"
+    "address": "411臺中市太平區太平路577號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商太平中興路太平店(公話)",
     "lat": 24.125736,
     "lng": 120.713527,
-    "address": "411臺中市太平區中興路171號"
+    "address": "411臺中市太平區中興路171號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺中市長幼關懷協會(東信據點)",
     "lat": 24.126239,
     "lng": 120.702789,
-    "address": "401臺中市東區東信里旱溪東路一段9號"
+    "address": "401臺中市東區東信里旱溪東路一段9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "太平區公所",
     "lat": 24.12658,
     "lng": 120.718483,
-    "address": "411臺中市太平區中平路144號"
+    "address": "411臺中市太平區中平路144號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車太平國小站",
     "lat": 24.127758,
     "lng": 120.718084,
-    "address": "411臺中市太平區中興路35號"
+    "address": "411臺中市太平區中興路35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(太平分行)",
     "lat": 24.129698,
     "lng": 120.719636,
-    "address": "411臺中市太平區中興東路50號"
+    "address": "411臺中市太平區中興東路50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "太平郵局",
     "lat": 24.129883,
     "lng": 120.719687,
-    "address": "411臺中市太平區中興東路25號"
+    "address": "411臺中市太平區中興東路25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商東區十甲東路新振興店(公話)",
     "lat": 24.130453,
     "lng": 120.704683,
-    "address": "401臺中市東區十甲東路217號"
+    "address": "401臺中市東區十甲東路217號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車中平國中站",
     "lat": 24.131533,
     "lng": 120.716972,
-    "address": "411臺中市太平區永平路一段105號"
+    "address": "411臺中市太平區永平路一段105號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市太平區中興社區發展協會",
     "lat": 24.132097,
     "lng": 120.715933,
-    "address": "411臺中市太平區中興里新平路一段175巷29號"
+    "address": "411臺中市太平區中興里新平路一段175巷29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台中市東區東信社區發展協會(托老功能型)",
     "lat": 24.132294,
     "lng": 120.705331,
-    "address": "401臺中市東區東信里十甲東路267號"
+    "address": "401臺中市東區東信里十甲東路267號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺中市東區東信社區發展協會",
     "lat": 24.135269,
     "lng": 120.703585,
-    "address": "401臺中市東區東信里東英二街117號(東信福德祠活動中心)"
+    "address": "401臺中市東區東信里東英二街117號(東信福德祠活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "東區區公所",
     "lat": 24.136653,
     "lng": 120.703858,
-    "address": "401臺中市東區長福路245號"
+    "address": "401臺中市東區長福路245號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市太平區聯合活動中心",
     "lat": 24.13841,
     "lng": 120.71546,
-    "address": "411臺中市太平區宜昌東路1號旁(TCTP1080)"
+    "address": "411臺中市太平區宜昌東路1號旁(TCTP1080)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台中旱溪郵局",
     "lat": 24.138893,
     "lng": 120.70219,
-    "address": "401臺中市東區一心街403號"
+    "address": "401臺中市東區一心街403號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商東區樂業路樂業店(公話)",
     "lat": 24.139051,
     "lng": 120.700005,
-    "address": "401臺中市東區樂業路259號"
+    "address": "401臺中市東區樂業路259號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台中市東區東英社區發展協會",
     "lat": 24.139638,
     "lng": 120.704077,
-    "address": "401臺中市東區東英里東英十五街155號"
+    "address": "401臺中市東區東英里東英十五街155號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "太平宜佳公園",
     "lat": 24.13971,
     "lng": 120.71311,
-    "address": "411臺中市太平區宜佳街31巷公園邊(TCTP1072)"
+    "address": "411臺中市太平區宜佳街31巷公園邊(TCTP1072)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

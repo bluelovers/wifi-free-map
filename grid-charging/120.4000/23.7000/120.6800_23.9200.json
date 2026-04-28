@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通部公路總局台中區監理所南投監理站3樓",
     "lat": 23.935602,
     "lng": 120.694904,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投光明里郵局",
     "lat": 23.939432,
     "lng": 120.697178,

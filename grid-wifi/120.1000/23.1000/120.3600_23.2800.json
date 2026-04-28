@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市柳營區士林里辦公處",
     "lat": 23.282,
     "lng": 120.375,
-    "address": "736臺南市柳營區士林里博愛街18號"
+    "address": "736臺南市柳營區士林里博愛街18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市柳營區神農里辦公處",
     "lat": 23.294,
     "lng": 120.366,
-    "address": "736臺南市柳營區神農里284-5號"
+    "address": "736臺南市柳營區神農里284-5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市柳營區篤農社區發展協會",
     "lat": 23.294,
     "lng": 120.366,
-    "address": "736臺南市柳營區篤農里小腳腿224號"
+    "address": "736臺南市柳營區篤農里小腳腿224號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

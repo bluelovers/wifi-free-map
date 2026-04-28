@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大溪員樹林郵局",
     "lat": 24.885715,
     "lng": 121.270263,

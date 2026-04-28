@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "高速公路蘇澳服務區",
     "lat": 24.621617,
     "lng": 121.815237,
-    "address": "270宜蘭縣蘇澳鎮蘇新路101號"
+    "address": "270宜蘭縣蘇澳鎮蘇新路101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣冬山鄉東城社區發展協會",
     "lat": 24.629717,
     "lng": 121.806334,
-    "address": "269宜蘭縣冬山鄉東城村東城路280號"
+    "address": "269宜蘭縣冬山鄉東城村東城路280號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣冬山鄉東興國小科任教室大樓2樓牆面朝東城路",
     "lat": 24.629932,
     "lng": 121.806815,
-    "address": "269宜蘭縣冬山鄉東城路316號"
+    "address": "269宜蘭縣冬山鄉東城路316號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

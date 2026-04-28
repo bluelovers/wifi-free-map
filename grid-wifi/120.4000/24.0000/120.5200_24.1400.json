@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市大肚區磺溪社區發展協會",
     "lat": 24.15289,
     "lng": 120.539049,
-    "address": "432臺中市大肚區磺溪里文昌路一街55號"
+    "address": "432臺中市大肚區磺溪里文昌路一街55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

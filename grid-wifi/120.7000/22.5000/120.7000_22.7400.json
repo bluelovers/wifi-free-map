@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣霧臺鄉谷川部落",
     "lat": 22.7462,
     "lng": 120.70555,
-    "address": "902屏東縣霧臺鄉谷村巷14號"
+    "address": "902屏東縣霧臺鄉谷村巷14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

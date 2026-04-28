@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市善化區嘉南社區發展協會",
     "lat": 23.118,
     "lng": 120.371,
-    "address": "741臺南市善化區嘉南里3鄰茄拔80之1號"
+    "address": "741臺南市善化區嘉南里3鄰茄拔80之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

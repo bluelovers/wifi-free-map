@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "玉山國家公園梅山遊客中心",
     "lat": 23.263056,
     "lng": 120.826182,
-    "address": "848高雄市桃源區梅山巷44-5號"
+    "address": "848高雄市桃源區梅山巷44-5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市桃源區梅山部落",
     "lat": 23.27373,
     "lng": 120.82591,
-    "address": "848高雄市桃源區梅山巷9號"
+    "address": "848高雄市桃源區梅山巷9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

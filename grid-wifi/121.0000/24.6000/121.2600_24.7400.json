@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣尖石鄉下水田部落-2",
     "lat": 24.74346,
     "lng": 121.26239,
-    "address": "313新竹縣尖石鄉新樂村4鄰水田123號"
+    "address": "313新竹縣尖石鄉新樂村4鄰水田123號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "將軍郵局",
     "lat": 23.192927,
     "lng": 120.1546,

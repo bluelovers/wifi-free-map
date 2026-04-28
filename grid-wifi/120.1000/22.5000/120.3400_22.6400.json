@@ -1,130 +1,178 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人中華基督教鳳山浸信會",
     "lat": 22.64,
     "lng": 120.354,
-    "address": "830高雄市鳳山區文德里文中街201號"
+    "address": "830高雄市鳳山區文德里文中街201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台灣全適能健康促進協會",
     "lat": 22.640179,
     "lng": 120.346208,
-    "address": "807高雄市三民區寶業里褒揚東街166號"
+    "address": "807高雄市三民區寶業里褒揚東街166號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市五甲愛鄰關懷協會",
     "lat": 22.641,
     "lng": 120.356,
-    "address": "830高雄市鳳山區五福里南進一街77號一樓"
+    "address": "830高雄市鳳山區五福里南進一街77號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市美濃區祿興社區發展協會",
     "lat": 22.641,
     "lng": 120.356,
-    "address": "843高雄市美濃區祿興里新興街92之1號"
+    "address": "843高雄市美濃區祿興里新興街92之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市美濃區福安社區發展協會",
     "lat": 22.6414,
     "lng": 120.3562,
-    "address": "843高雄市美濃區福安里福安街21號"
+    "address": "843高雄市美濃區福安里福安街21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市心晴全人關懷照護協會",
     "lat": 22.642643,
     "lng": 120.345177,
-    "address": "807高雄市三民區本揚里天民路13巷11號"
+    "address": "807高雄市三民區本揚里天民路13巷11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館陽明分館",
     "lat": 22.643482,
     "lng": 120.342329,
-    "address": "807高雄市三民區陽明路300號3樓"
+    "address": "807高雄市三民區陽明路300號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "澄清湖郵局",
     "lat": 22.644728,
     "lng": 120.346252,
-    "address": "807高雄市三民區澄清路643號"
+    "address": "807高雄市三民區澄清路643號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市聰動成長協會",
     "lat": 22.64723,
     "lng": 120.341186,
-    "address": "807高雄市三民區黃興路158巷6號"
+    "address": "807高雄市三民區黃興路158巷6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "米迦勒社會福利協會",
     "lat": 22.647956,
     "lng": 120.344396,
-    "address": "833高雄市鳥松區大華里昌明街15號"
+    "address": "833高雄市鳥松區大華里昌明街15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳥松長庚醫院郵局",
     "lat": 22.649154,
     "lng": 120.354377,
-    "address": "833高雄市鳥松區大埤路125號"
+    "address": "833高雄市鳥松區大埤路125號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市政府勞工局勞動檢查處",
     "lat": 22.652017,
     "lng": 120.358036,
-    "address": "833高雄市鳥松區大埤路117號3樓"
+    "address": "833高雄市鳥松區大埤路117號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市政府勞工局訓練就業中心行政大樓",
     "lat": 22.652094,
     "lng": 120.357958,
-    "address": "833高雄市鳥松區大埤路117號"
+    "address": "833高雄市鳥松區大埤路117號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市政府澄清會館",
     "lat": 22.652997,
     "lng": 120.358379,
-    "address": "833高雄市鳥松區大埤路115號"
+    "address": "833高雄市鳥松區大埤路115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "澄清湖大門口前右側(公話)",
     "lat": 22.653554,
     "lng": 120.34978,
-    "address": "833高雄市鳥松區大埤路32號"
+    "address": "833高雄市鳥松區大埤路32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市政府環境保護局",
     "lat": 22.653938,
     "lng": 120.348358,
-    "address": "833高雄市鳥松區澄清路834號"
+    "address": "833高雄市鳥松區澄清路834號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市安南區城南社區發展協會",
     "lat": 23.061,
     "lng": 120.128,
-    "address": "709臺南市安南區城南里城西街一段61巷58弄24號"
+    "address": "709臺南市安南區城南里城西街一段61巷58弄24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台南土城郵局",
     "lat": 23.064985,
     "lng": 120.128418,
-    "address": "709臺南市安南區安中路六段712號"
+    "address": "709臺南市安南區安中路六段712號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

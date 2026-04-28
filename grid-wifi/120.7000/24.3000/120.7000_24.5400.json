@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣阿斌哥大愛協會-內島站",
     "lat": 24.557079,
     "lng": 120.709733,
-    "address": "357苗栗縣通霄鎮內島里6鄰內島53之1號"
+    "address": "357苗栗縣通霄鎮內島里6鄰內島53之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

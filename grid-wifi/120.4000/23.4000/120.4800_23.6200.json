@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣斗南鎮石龜社區發展協會",
     "lat": 23.639278,
     "lng": 120.482512,
-    "address": "630雲林縣斗南鎮石龜里光天路76號"
+    "address": "630雲林縣斗南鎮石龜里光天路76號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

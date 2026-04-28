@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "屏東縣萬丹戶政事務所",
     "lat": 22.589774,
     "lng": 120.485175,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "萬丹郵局",
     "lat": 22.591113,
     "lng": 120.489144,

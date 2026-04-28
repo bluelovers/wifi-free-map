@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市金山戶政事務所石門區所",
     "lat": 25.291248,
     "lng": 121.567631,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "石門郵局",
     "lat": 25.291967,
     "lng": 121.567856,

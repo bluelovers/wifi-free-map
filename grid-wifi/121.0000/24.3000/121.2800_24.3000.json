@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "環山派出所",
     "lat": 24.31388,
     "lng": 121.295574,
-    "address": "424臺中市和平區中興路三段48號"
+    "address": "424臺中市和平區中興路三段48號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "和平區平等國民小學",
     "lat": 24.31742,
     "lng": 121.29316,
-    "address": "424臺中市和平區平等里中興路三段環山三巷35號"
+    "address": "424臺中市和平區平等里中興路三段環山三巷35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "和平區環山活動中心",
     "lat": 24.31762,
     "lng": 121.29555,
-    "address": "424臺中市和平區中興路三段環山一巷35號(TXHC1010)"
+    "address": "424臺中市和平區中興路三段環山一巷35號(TXHC1010)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台中市和平區環山部落",
     "lat": 24.31793,
     "lng": 121.29566,
-    "address": "424臺中市和平區中興路三段環山一巷18號"
+    "address": "424臺中市和平區中興路三段環山一巷18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "和平區平等里里辦公處",
     "lat": 24.31915,
     "lng": 121.294768,
-    "address": "424臺中市和平區中興路三段環山二巷22號"
+    "address": "424臺中市和平區中興路三段環山二巷22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

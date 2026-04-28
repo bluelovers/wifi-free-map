@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣壽豐鄉公所樹湖村辦公處",
     "lat": 23.834626,
     "lng": 121.483242,
-    "address": "974花蓮縣壽豐鄉樹湖村大樹腳59號"
+    "address": "974花蓮縣壽豐鄉樹湖村大樹腳59號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

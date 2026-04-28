@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人嘉義縣晶聖發展協會-獅埜站",
     "lat": 23.524,
     "lng": 120.506,
-    "address": "604嘉義縣竹崎鄉獅埜村許厝8之2號"
+    "address": "604嘉義縣竹崎鄉獅埜村許厝8之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

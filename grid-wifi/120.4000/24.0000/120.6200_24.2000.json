@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行中科分行",
     "lat": 24.204896,
     "lng": 120.632488,
-    "address": "428臺中市大雅區中科路6號2樓-1、2"
+    "address": "428臺中市大雅區中科路6號2樓-1、2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店西屯福雅路福雅店(公話)",
     "lat": 24.205147,
     "lng": 120.629084,
-    "address": "407臺中市西屯區福雅路693號"
+    "address": "407臺中市西屯區福雅路693號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "生命禮儀管理處十三公墓",
     "lat": 24.206263,
     "lng": 120.623167,
-    "address": "407臺中市西屯區西平北巷1-12號"
+    "address": "407臺中市西屯區西平北巷1-12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商大雅永和路通山店(公話)",
     "lat": 24.208395,
     "lng": 120.629838,
-    "address": "428臺中市大雅區永和路11號-18"
+    "address": "428臺中市大雅區永和路11號-18",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市大雅區橫山社區發展協會",
     "lat": 24.210051,
     "lng": 120.633182,
-    "address": "428臺中市大雅區橫山里振興路228號"
+    "address": "428臺中市大雅區橫山里振興路228號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店大雅永和路永和店(公話)",
     "lat": 24.210175,
     "lng": 120.630293,
-    "address": "428臺中市大雅區永和路89號"
+    "address": "428臺中市大雅區永和路89號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

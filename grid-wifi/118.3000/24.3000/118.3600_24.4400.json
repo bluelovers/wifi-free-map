@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "金門縣環保局-1F服務台",
     "lat": 24.440186,
     "lng": 118.369151,
-    "address": "891金門縣金湖鎮尚義100號"
+    "address": "891金門縣金湖鎮尚義100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "金門環保公園低碳教育館",
     "lat": 24.440198,
     "lng": 118.3691,
-    "address": "891金門縣金湖鎮正義里尚義100號"
+    "address": "891金門縣金湖鎮正義里尚義100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "瓊林民防館",
     "lat": 24.456812,
     "lng": 118.374016,
-    "address": "891金門縣金湖鎮瓊林77-1號"
+    "address": "891金門縣金湖鎮瓊林77-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

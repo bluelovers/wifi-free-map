@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園東埔郵局",
     "lat": 25.0014,
     "lng": 121.30768,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園大業郵局",
     "lat": 25.013275,
     "lng": 121.312213,

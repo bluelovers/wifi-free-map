@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司雲林縣斗六市雅虎站",
     "lat": 23.724213,
     "lng": 120.52484,

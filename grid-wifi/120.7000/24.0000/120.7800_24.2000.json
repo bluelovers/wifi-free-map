@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新社中興嶺郵局",
     "lat": 24.205418,
     "lng": 120.794518,
-    "address": "426臺中市新社區中興村中興嶺170-2號"
+    "address": "426臺中市新社區中興村中興嶺170-2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中市統一超商新社中興嶺店(公話)",
     "lat": 24.208088,
     "lng": 120.787724,
-    "address": "426臺中市新社區中興里中興嶺170號-2"
+    "address": "426臺中市新社區中興里中興嶺170號-2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商新社東山街永源村店(公話)",
     "lat": 24.216922,
     "lng": 120.796097,
-    "address": "426臺中市新社區東山街88號之29"
+    "address": "426臺中市新社區東山街88號之29",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

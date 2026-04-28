@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣竹崎戶政事務所(梅山辦公室)",
     "lat": 23.5805,
     "lng": 120.5573,
-    "address": "603嘉義縣梅山鄉梅南村6鄰環南路120號"
+    "address": "603嘉義縣梅山鄉梅南村6鄰環南路120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "梅山郵局",
     "lat": 23.580798,
     "lng": 120.558971,
-    "address": "603嘉義縣梅山鄉梅南村中山路109號"
+    "address": "603嘉義縣梅山鄉梅南村中山路109號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

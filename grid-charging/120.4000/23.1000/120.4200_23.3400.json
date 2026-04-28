@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司白河營運所",
     "lat": 23.35129,
     "lng": 120.425639,

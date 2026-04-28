@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣霧台鄉阿禮部落",
     "lat": 22.69081,
     "lng": 120.57894,
-    "address": "902屏東縣長治鄉霧台鄉百合路242號"
+    "address": "902屏東縣長治鄉霧台鄉百合路242號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

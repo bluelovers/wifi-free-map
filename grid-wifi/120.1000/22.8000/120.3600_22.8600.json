@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市田寮區西德社區發展協會",
     "lat": 22.879236,
     "lng": 120.376363,
-    "address": "823高雄市田寮區西德里西德路42之1號"
+    "address": "823高雄市田寮區西德里西德路42之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

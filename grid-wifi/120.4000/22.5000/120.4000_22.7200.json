@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "義守大學郵局",
     "lat": 22.729695,
     "lng": 120.407962,
-    "address": "840高雄市大樹區學城路一段1號"
+    "address": "840高雄市大樹區學城路一段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

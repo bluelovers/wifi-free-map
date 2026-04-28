@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "太保南新郵局",
     "lat": 23.497049,
     "lng": 120.382682,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "插角派出所",
     "lat": 24.8709,
     "lng": 121.4065,

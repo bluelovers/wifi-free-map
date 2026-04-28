@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊龍鳳郵局",
     "lat": 25.023041,
     "lng": 121.4134,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市林園區龔厝社區發展協會",
     "lat": 22.509126,
     "lng": 120.37833,
-    "address": "832高雄市林園區龔厝里龔厝路72巷10號"
+    "address": "832高雄市林園區龔厝里龔厝路72巷10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

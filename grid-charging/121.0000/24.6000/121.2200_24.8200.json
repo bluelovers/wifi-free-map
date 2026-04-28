@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龍潭石門水庫郵局",
     "lat": 24.832322,
     "lng": 121.239083,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "霧台郵局",
     "lat": 22.735216,
     "lng": 120.729247,
-    "address": "902屏東縣霧臺鄉霧臺村中山巷66號"
+    "address": "902屏東縣霧臺鄉霧臺村中山巷66號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

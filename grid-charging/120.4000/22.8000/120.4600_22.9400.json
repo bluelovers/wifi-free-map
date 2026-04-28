@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市內門區戶政事務所",
     "lat": 22.943614,
     "lng": 120.461998,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內門郵局",
     "lat": 22.956009,
     "lng": 120.470326,

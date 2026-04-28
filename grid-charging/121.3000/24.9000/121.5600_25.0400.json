@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北逸仙郵局",
     "lat": 25.040346,
     "lng": 121.561762,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北永春郵局",
     "lat": 25.040661,
     "lng": 121.576702,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北永吉郵局",
     "lat": 25.045518,
     "lng": 121.571061,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局松山站售票大廳",
     "lat": 25.049514,
     "lng": 121.578914,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局松山站西剪票口候車處",
     "lat": 25.049514,
     "lng": 121.578914,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局松山站第2月台3車位置",
     "lat": 25.049514,
     "lng": 121.578914,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局松山站第2月台10車位置",
     "lat": 25.049514,
     "lng": 121.578914,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北松山郵局",
     "lat": 25.049895,
     "lng": 121.574124,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司松山服務所大廳",
     "lat": 25.05005,
     "lng": 121.572175,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北西松郵局",
     "lat": 25.051569,
     "lng": 121.566697,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北民生郵局",
     "lat": 25.059196,
     "lng": 121.565474,

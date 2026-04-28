@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市警察局深澳坑派出所",
     "lat": 25.127325,
     "lng": 121.785298,
-    "address": "201基隆市信義區深澳坑路69號(深澳坑所)"
+    "address": "201基隆市信義區深澳坑路69號(深澳坑所)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆新豐街郵局",
     "lat": 25.135425,
     "lng": 121.785152,
-    "address": "202基隆市中正區新豐街482號2樓"
+    "address": "202基隆市中正區新豐街482號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市新豐愛鄉協會(新豐里二)",
     "lat": 25.135568,
     "lng": 121.785195,
-    "address": "202基隆市中正區新豐里新豐街482之1號三樓"
+    "address": "202基隆市中正區新豐里新豐街482之1號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市新豐愛鄉協會",
     "lat": 25.137319,
     "lng": 121.787731,
-    "address": "202基隆市中正區新豐里新豐街326號一樓"
+    "address": "202基隆市中正區新豐里新豐街326號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣葡萄園社會關懷協會",
     "lat": 25.138031,
     "lng": 121.789654,
-    "address": "202基隆市中正區新富里新豐街205巷9號"
+    "address": "202基隆市中正區新富里新豐街205巷9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局海科館站月台",
     "lat": 25.138552,
     "lng": 121.798934,
-    "address": "202基隆市中正區長潭里（無地址）"
+    "address": "202基隆市中正區長潭里（無地址）",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

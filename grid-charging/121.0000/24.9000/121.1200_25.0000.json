@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "觀音新坡郵局",
     "lat": 25.011213,
     "lng": 121.1374,

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局芳苑分局草湖派出所",
     "lat": 23.953401,
     "lng": 120.382773,
-    "address": "528彰化縣芳苑鄉建平村二溪路草二段272號"
+    "address": "528彰化縣芳苑鄉建平村二溪路草二段272號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "芳苑草湖郵局",
     "lat": 23.958066,
     "lng": 120.382904,
-    "address": "528彰化縣芳苑鄉建平村二溪路草二段462號"
+    "address": "528彰化縣芳苑鄉建平村二溪路草二段462號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市阿蓮區玉庫社區發展協會",
     "lat": 22.842955,
     "lng": 120.309732,
-    "address": "822高雄市阿蓮區玉庫里玉庫59號"
+    "address": "822高雄市阿蓮區玉庫里玉庫59號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

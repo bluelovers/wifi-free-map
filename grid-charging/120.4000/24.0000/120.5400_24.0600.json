@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化南郭郵局",
     "lat": 24.068964,
     "lng": 120.548049,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣彰化市戶政事務所",
     "lat": 24.070321,
     "lng": 120.546155,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司彰化服務所",
     "lat": 24.074558,
     "lng": 120.556696,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化府前郵局",
     "lat": 24.074996,
     "lng": 120.5438,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司彰化區處服務中心營業廳",
     "lat": 24.076309,
     "lng": 120.544336,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "八卦山脈生態遊客中心",
     "lat": 24.078181,
     "lng": 120.556003,

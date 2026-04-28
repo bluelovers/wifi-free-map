@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "草屯碧山郵局",
     "lat": 23.97817,
     "lng": 120.680951,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投縣政府警察局草屯分局",
     "lat": 23.979053,
     "lng": 120.694651,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "草屯郵局",
     "lat": 23.979131,
     "lng": 120.686294,

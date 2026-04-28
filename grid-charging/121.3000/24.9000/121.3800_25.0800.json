@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司林口服務所",
     "lat": 25.081317,
     "lng": 121.386078,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "林口中湖頭郵局",
     "lat": 25.08372,
     "lng": 121.386823,

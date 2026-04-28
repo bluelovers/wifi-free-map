@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大內郵局",
     "lat": 23.120635,
     "lng": 120.363728,

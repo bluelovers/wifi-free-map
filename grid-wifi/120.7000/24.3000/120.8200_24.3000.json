@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "卓蘭鎮老庄社區發展協會",
     "lat": 24.311449,
     "lng": 120.829796,
-    "address": "369苗栗縣卓蘭鎮老庄里信義路15號"
+    "address": "369苗栗縣卓蘭鎮老庄里信義路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "卓蘭郵局",
     "lat": 24.313161,
     "lng": 120.824407,
-    "address": "369苗栗縣卓蘭鎮中山路133號"
+    "address": "369苗栗縣卓蘭鎮中山路133號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

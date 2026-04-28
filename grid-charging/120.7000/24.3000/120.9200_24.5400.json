@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "獅潭郵局",
     "lat": 24.541872,
     "lng": 120.922282,

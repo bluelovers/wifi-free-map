@@ -1,1218 +1,1674 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀忠孝分行",
     "lat": 25.040554,
     "lng": 121.549371,
-    "address": "106臺北市大安區敦化南路一段225號"
+    "address": "106臺北市大安區敦化南路一段225號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北敦南郵局",
     "lat": 25.040612,
     "lng": 121.550882,
-    "address": "106臺北市大安區忠孝東路四段170巷9號"
+    "address": "106臺北市大安區忠孝東路四段170巷9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣喜樂家族協會(大安)",
     "lat": 25.041012,
     "lng": 121.547575,
-    "address": "106臺北市大安區仁愛里忠孝東路四段126之19號七樓"
+    "address": "106臺北市大安區仁愛里忠孝東路四段126之19號七樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通部觀光局9樓辦公室",
     "lat": 25.041216,
     "lng": 121.555876,
-    "address": "106臺北市大安區忠孝東路四段290號9樓"
+    "address": "106臺北市大安區忠孝東路四段290號9樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通部觀光局6樓辦公室",
     "lat": 25.041216,
     "lng": 121.555876,
-    "address": "106臺北市大安區忠孝東路四段290號6樓"
+    "address": "106臺北市大安區忠孝東路四段290號6樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "交通部觀光局7樓辦公室",
     "lat": 25.041216,
     "lng": 121.555876,
-    "address": "106臺北市大安區忠孝東路四段290號7樓"
+    "address": "106臺北市大安區忠孝東路四段290號7樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部國有財產署北區分署",
     "lat": 25.041216,
     "lng": 121.555876,
-    "address": "106臺北市大安區忠孝東路四段290號3樓"
+    "address": "106臺北市大安區忠孝東路四段290號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "觀光局-E-忠孝東路四段",
     "lat": 25.041244,
     "lng": 121.55632,
-    "address": "106臺北市大安區忠孝東路四段300號旁候車亭"
+    "address": "106臺北市大安區忠孝東路四段300號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行忠孝東路分行",
     "lat": 25.041309,
     "lng": 121.552693,
-    "address": "106臺北市大安區忠孝東路四段212號"
+    "address": "106臺北市大安區忠孝東路四段212號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "阿波羅大廈-E-忠孝東路四段",
     "lat": 25.041337,
     "lng": 121.55374,
-    "address": "106臺北市大安區忠孝東路四段226號旁候車亭"
+    "address": "106臺北市大安區忠孝東路四段226號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "頂好市場-E-忠孝東路",
     "lat": 25.041411,
     "lng": 121.547796,
-    "address": "106臺北市大安區忠孝東路四段128號旁候車亭"
+    "address": "106臺北市大安區忠孝東路四段128號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "阿波羅大廈-W-忠孝東路四段",
     "lat": 25.04155,
     "lng": 121.553623,
-    "address": "106臺北市大安區忠孝東路四段233號候車亭"
+    "address": "106臺北市大安區忠孝東路四段233號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "合庫東台北分行營業廳",
     "lat": 25.041635,
     "lng": 121.556423,
-    "address": "106臺北市大安區忠孝東路四段325號"
+    "address": "106臺北市大安區忠孝東路四段325號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀忠孝分行",
     "lat": 25.04168,
     "lng": 121.553466,
-    "address": "106臺北市大安區忠孝東路四段233號"
+    "address": "106臺北市大安區忠孝東路四段233號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "頂好市場-W-忠孝東路四段",
     "lat": 25.041693,
     "lng": 121.546585,
-    "address": "106臺北市大安區忠孝東路四段71號旁候車亭"
+    "address": "106臺北市大安區忠孝東路四段71號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(延吉分行)",
     "lat": 25.041701,
     "lng": 121.554714,
-    "address": "106臺北市大安區忠孝東路四段289號"
+    "address": "106臺北市大安區忠孝東路四段289號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "頂好市場-W2-忠孝東路四段",
     "lat": 25.041786,
     "lng": 121.546718,
-    "address": "106臺北市大安區忠孝東路四段71號旁候車亭"
+    "address": "106臺北市大安區忠孝東路四段71號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行懷生分行",
     "lat": 25.041885,
     "lng": 121.541273,
-    "address": "106臺北市大安區忠孝東路三段247號"
+    "address": "106臺北市大安區忠孝東路三段247號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行忠孝分行",
     "lat": 25.04222,
     "lng": 121.54846,
-    "address": "106臺北市大安區敦化南路一段202號"
+    "address": "106臺北市大安區敦化南路一段202號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公園",
     "name": "瑠公公園涼亭旁",
     "lat": 25.042619,
     "lng": 121.545794,
-    "address": "106臺北市大安區復興南路一段135巷25號對面燈桿"
+    "address": "106臺北市大安區復興南路一段135巷25號對面燈桿",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運國父紀念館站(光復)-S-光復南路",
     "lat": 25.042727,
     "lng": 121.557606,
-    "address": "106臺北市大安區光復南路二段180巷2號旁候車亭(光復南路本線上)"
+    "address": "106臺北市大安區光復南路二段180巷2號旁候車亭(光復南路本線上)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行忠孝分行",
     "lat": 25.042961,
     "lng": 121.544048,
-    "address": "106臺北市大安區復興南路一段129號"
+    "address": "106臺北市大安區復興南路一段129號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北光武郵局",
     "lat": 25.043034,
     "lng": 121.545512,
-    "address": "106臺北市大安區大安路一段52巷16號"
+    "address": "106臺北市大安區大安路一段52巷16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區誠安里辦公處",
     "lat": 25.044016,
     "lng": 121.543113,
-    "address": "106臺北市大安區誠安里安東街28號1樓/忠孝東路3段251巷12弄14號1樓"
+    "address": "106臺北市大安區誠安里安東街28號1樓/忠孝東路3段251巷12弄14號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市大安區安東社區發展協會",
     "lat": 25.044185,
     "lng": 121.542659,
-    "address": "106臺北市大安區誠安里安東街31之1,﹑忠孝東路三段251巷12弄14號一樓"
+    "address": "106臺北市大安區誠安里安東街31之1,﹑忠孝東路三段251巷12弄14號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "松山文化創意園區1F北向走廊第5號門前",
     "lat": 25.044197,
     "lng": 121.559877,
-    "address": "110臺北市信義區光復南路133號1F"
+    "address": "110臺北市信義區光復南路133號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "大安昌隆區民活動中心4F中央",
     "lat": 25.044357,
     "lng": 121.540108,
-    "address": "106臺北市大安區市民大道三段206號4F"
+    "address": "106臺北市大安區市民大道三段206號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "懷生國小-W-市民大道三段",
     "lat": 25.044752,
     "lng": 121.541282,
-    "address": "106臺北市大安區市民大道三段234號對面候車亭"
+    "address": "106臺北市大安區市民大道三段234號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "市民復興路口-W-市民大道三段",
     "lat": 25.044961,
     "lng": 121.54338,
-    "address": "106臺北市大安區市民大道三段209號(中崙大樓前)候車亭"
+    "address": "106臺北市大安區市民大道三段209號(中崙大樓前)候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台北市基督教美仁浸信會",
     "lat": 25.045039,
     "lng": 121.554257,
-    "address": "105臺北市松山區復源里八德路三段106巷106號"
+    "address": "105臺北市松山區復源里八德路三段106巷106號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(復興分行)",
     "lat": 25.045857,
     "lng": 121.543643,
-    "address": "104臺北市中山區復興南路一段36-10號"
+    "address": "104臺北市中山區復興南路一段36-10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "松山敦化區民活動中心B1F左側",
     "lat": 25.046348,
     "lng": 121.550351,
-    "address": "105臺北市松山區八德路三段12巷52弄2之1號B1F"
+    "address": "105臺北市松山區八德路三段12巷52弄2之1號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "中影八德大樓-E-八德路二段",
     "lat": 25.04675,
     "lng": 121.540948,
-    "address": "104臺北市中山區八德路二段260號旁候車亭"
+    "address": "104臺北市中山區八德路二段260號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人臺安基金會(基督復臨安息日會松山教會)",
     "lat": 25.047039,
     "lng": 121.548018,
-    "address": "105臺北市松山區福成里敦化南路一段78號"
+    "address": "105臺北市松山區福成里敦化南路一段78號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺北市區監理所-S-光復南路",
     "lat": 25.047349,
     "lng": 121.557725,
-    "address": "105臺北市松山區光復南路與光復南路6巷口西南側候車亭"
+    "address": "105臺北市松山區光復南路與光復南路6巷口西南側候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市松山區建源社區發展協會",
     "lat": 25.047364,
     "lng": 121.556056,
-    "address": "105臺北市松山區復建里八德路三段158巷7弄20號八德路3段158巷7(復建區民活動中心)"
+    "address": "105臺北市松山區復建里八德路三段158巷7弄20號八德路3段158巷7(復建區民活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行八德分行",
     "lat": 25.047374,
     "lng": 121.549228,
-    "address": "105臺北市松山區敦化南路一段3號"
+    "address": "105臺北市松山區敦化南路一段3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市中山區朱厝崙社區發展協會",
     "lat": 25.047417,
     "lng": 121.540549,
-    "address": "104臺北市中山區朱崙里龍江路15號三樓(朱崙區民活動中心)"
+    "address": "104臺北市中山區朱崙里龍江路15號三樓(朱崙區民活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "中山朱崙區民活動中心3F319會議室",
     "lat": 25.047456,
     "lng": 121.540549,
-    "address": "104臺北市中山區龍江路15號3F"
+    "address": "104臺北市中山區龍江路15號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "敦化社區發展協會",
     "lat": 25.047556,
     "lng": 121.55115,
-    "address": "105臺北市松山區敦化里八德路三段12巷5弄16號七樓"
+    "address": "105臺北市松山區敦化里八德路三段12巷5弄16號七樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "朱崙老人公寓4F中間走廊",
     "lat": 25.04758,
     "lng": 121.540613,
-    "address": "104臺北市中山區龍江路15號4F"
+    "address": "104臺北市中山區龍江路15號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "朱崙老人公寓5F中間走廊",
     "lat": 25.04758,
     "lng": 121.540613,
-    "address": "104臺北市中山區龍江路15號5F"
+    "address": "104臺北市中山區龍江路15號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "朱崙老人公寓6F中間走廊",
     "lat": 25.04758,
     "lng": 121.540613,
-    "address": "104臺北市中山區龍江路15號6F"
+    "address": "104臺北市中山區龍江路15號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "朱崙老人公寓7F中間走廊",
     "lat": 25.04758,
     "lng": 121.540613,
-    "address": "104臺北市中山區龍江路15號7F"
+    "address": "104臺北市中山區龍江路15號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部營建署1樓大廳",
     "lat": 25.047595,
     "lng": 121.544682,
-    "address": "105臺北市松山區八德路二段342號"
+    "address": "105臺北市松山區八德路二段342號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部營建署1樓會議室",
     "lat": 25.047595,
     "lng": 121.544682,
-    "address": "105臺北市松山區八德路二段342號"
+    "address": "105臺北市松山區八德路二段342號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部營建署5樓大禮堂",
     "lat": 25.047595,
     "lng": 121.544682,
-    "address": "105臺北市松山區八德路二段342號"
+    "address": "105臺北市松山區八德路二段342號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部營建署6樓會議室",
     "lat": 25.047595,
     "lng": 121.544682,
-    "address": "105臺北市松山區八德路二段342號"
+    "address": "105臺北市松山區八德路二段342號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部營建署B1第1會議室",
     "lat": 25.047595,
     "lng": 121.544682,
-    "address": "105臺北市松山區八德路二段342號"
+    "address": "105臺北市松山區八德路二段342號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部營建署B1第3會議室",
     "lat": 25.047595,
     "lng": 121.544682,
-    "address": "105臺北市松山區八德路二段342號"
+    "address": "105臺北市松山區八德路二段342號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部營建署記者室",
     "lat": 25.047595,
     "lng": 121.544682,
-    "address": "105臺北市松山區八德路二段342號"
+    "address": "105臺北市松山區八德路二段342號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "松山復建區民活動中心1F門口",
     "lat": 25.04762,
     "lng": 121.556142,
-    "address": "105臺北市松山區八德路三段158巷7弄20號1F"
+    "address": "105臺北市松山區八德路三段158巷7弄20號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部營建署城鄉發展分署2、3樓",
     "lat": 25.047634,
     "lng": 121.544682,
-    "address": "105臺北市松山區八德路二段342號北棟2樓"
+    "address": "105臺北市松山區八德路二段342號北棟2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部營建署城鄉發展分署4、5樓",
     "lat": 25.047634,
     "lng": 121.544682,
-    "address": "105臺北市松山區八德路二段342號北棟4樓"
+    "address": "105臺北市松山區八德路二段342號北棟4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行松山分行",
     "lat": 25.047677,
     "lng": 121.549351,
-    "address": "105臺北市松山區敦化南路一段1號"
+    "address": "105臺北市松山區敦化南路一段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "稅捐處松山分處4F民眾休息區",
     "lat": 25.04775,
     "lng": 121.555878,
-    "address": "105臺北市松山區八德路三段178號4F"
+    "address": "105臺北市松山區八德路三段178號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "松山中崙市場區民活動中心3F門口",
     "lat": 25.047767,
     "lng": 121.552726,
-    "address": "105臺北市松山區八德路3段76號3F"
+    "address": "105臺北市松山區八德路3段76號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "中崙市場1F 39、48攤位走道中央",
     "lat": 25.047868,
     "lng": 121.552602,
-    "address": "105臺北市松山區八德路3段76號1F"
+    "address": "105臺北市松山區八德路3段76號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "經濟部能源局會客室",
     "lat": 25.047918,
     "lng": 121.543701,
-    "address": "104臺北市中山區復興北路2號13樓"
+    "address": "104臺北市中山區復興北路2號13樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "稅捐處松山分處5F機房門口",
     "lat": 25.04792,
     "lng": 121.555955,
-    "address": "105臺北市松山區八德路三段178號5F"
+    "address": "105臺北市松山區八德路三段178號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "稅捐處松山分處3F民眾休息區",
     "lat": 25.047922,
     "lng": 121.555815,
-    "address": "105臺北市松山區八德路三段178號3F"
+    "address": "105臺北市松山區八德路三段178號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北光復郵局",
     "lat": 25.047932,
     "lng": 121.557611,
-    "address": "105臺北市松山區八德路三段240號"
+    "address": "105臺北市松山區八德路三段240號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "中崙市場-美食街-22號攤位前",
     "lat": 25.047953,
     "lng": 121.55266,
-    "address": "105臺北市松山區八德路三段76號(中崙市場-美食街-22號攤位前)"
+    "address": "105臺北市松山區八德路三段76號(中崙市場-美食街-22號攤位前)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市777銀髮族協會",
     "lat": 25.048,
     "lng": 121.545,
-    "address": "105臺北市松山區中正里長安東路二段294號四樓之1"
+    "address": "105臺北市松山區中正里長安東路二段294號四樓之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "中崙市場-美食街-39號攤位前",
     "lat": 25.048005,
     "lng": 121.55261,
-    "address": "105臺北市松山區八德路三段76號(中崙市場-美食街-39號攤位前)"
+    "address": "105臺北市松山區八德路三段76號(中崙市場-美食街-39號攤位前)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行中崙分行",
     "lat": 25.048219,
     "lng": 121.554813,
-    "address": "105臺北市松山區八德路三段145號"
+    "address": "105臺北市松山區八德路三段145號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館中崙分館10F參考資料區",
     "lat": 25.048387,
     "lng": 121.545924,
-    "address": "105臺北市松山區長安路二段229號10F"
+    "address": "105臺北市松山區長安路二段229號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館中崙分館8F兒童閱覽區",
     "lat": 25.048405,
     "lng": 121.545856,
-    "address": "105臺北市松山區長安路二段229號8F"
+    "address": "105臺北市松山區長安路二段229號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館中崙分館9F漫畫參考資料區",
     "lat": 25.048405,
     "lng": 121.545856,
-    "address": "105臺北市松山區長安路二段229號9F"
+    "address": "105臺北市松山區長安路二段229號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館中崙分館7F期刊區中央",
     "lat": 25.048405,
     "lng": 121.545856,
-    "address": "105臺北市松山區長安路二段229號7F"
+    "address": "105臺北市松山區長安路二段229號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "臺北市藝文推廣處社會教育館B1F城市舞臺服務臺前",
     "lat": 25.048408,
     "lng": 121.551439,
-    "address": "105臺北市松山區八德路三段25號B1F"
+    "address": "105臺北市松山區八德路三段25號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會臺北市榮民服務處一樓大廳",
     "lat": 25.04842,
     "lng": 121.558072,
-    "address": "105臺北市松山區光復北路1號"
+    "address": "105臺北市松山區光復北路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "臺北市藝文推廣處社會教育館1F閱讀區",
     "lat": 25.048424,
     "lng": 121.55178,
-    "address": "105臺北市松山區八德路三段25號1F"
+    "address": "105臺北市松山區八德路三段25號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "臺北市藝文推廣處社會教育館1F棋奕區",
     "lat": 25.048471,
     "lng": 121.552389,
-    "address": "105臺北市松山區八德路三段25號1F"
+    "address": "105臺北市松山區八德路三段25號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "松山中正區民活動中心11F中央",
     "lat": 25.048479,
     "lng": 121.546018,
-    "address": "105臺北市松山區長安東路2段229號11F"
+    "address": "105臺北市松山區長安東路2段229號11F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局台北市區監理所",
     "lat": 25.04858,
     "lng": 121.558944,
-    "address": "105臺北市松山區八德路四段21號3樓"
+    "address": "105臺北市松山區八德路四段21號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "松山運動中心1F社區教室中央",
     "lat": 25.048594,
     "lng": 121.550385,
-    "address": "105臺北市松山區敦化北路1號1F"
+    "address": "105臺北市松山區敦化北路1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "松山運動中心2F健身房書櫃",
     "lat": 25.048594,
     "lng": 121.550385,
-    "address": "105臺北市松山區敦化北路1號2F"
+    "address": "105臺北市松山區敦化北路1號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "松山運動中心2F走廊置物櫃",
     "lat": 25.048707,
     "lng": 121.550585,
-    "address": "105臺北市松山區敦化北路1號2F"
+    "address": "105臺北市松山區敦化北路1號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "松山運動中心1F泳衣賣場",
     "lat": 25.048707,
     "lng": 121.550585,
-    "address": "105臺北市松山區敦化北路1號1F"
+    "address": "105臺北市松山區敦化北路1號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(光復分行)",
     "lat": 25.048886,
     "lng": 121.557669,
-    "address": "105臺北市松山區光復北路16號"
+    "address": "105臺北市松山區光復北路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人伊甸社會福利基金會(241)",
     "lat": 25.048924,
     "lng": 121.555601,
-    "address": "105臺北市松山區復勢里八德路三段155巷4弄35號一樓"
+    "address": "105臺北市松山區復勢里八德路三段155巷4弄35號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北中崙郵局",
     "lat": 25.049575,
     "lng": 121.543776,
-    "address": "104臺北市中山區復興北路40號"
+    "address": "104臺北市中山區復興北路40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市體適能指導人員職業工會",
     "lat": 25.049887,
     "lng": 121.550952,
-    "address": "105臺北市松山區美仁里敦化北路3號"
+    "address": "105臺北市松山區美仁里敦化北路3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台北市私立永年社會福利慈善基金會",
     "lat": 25.050196,
     "lng": 121.557419,
-    "address": "105臺北市松山區復勢里光復北路80巷1號一樓"
+    "address": "105臺北市松山區復勢里光復北路80巷1號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "臺北體育館1F櫃臺旁",
     "lat": 25.051123,
     "lng": 121.552266,
-    "address": "105臺北市松山區南京東路四段10號"
+    "address": "105臺北市松山區南京東路四段10號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "都市更新處17F事業科",
     "lat": 25.051199,
     "lng": 121.541448,
-    "address": "104臺北市中山區南京東路三段168號17F"
+    "address": "104臺北市中山區南京東路三段168號17F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "都市更新處17F副處長室門口",
     "lat": 25.051199,
     "lng": 121.541448,
-    "address": "104臺北市中山區南京東路三段168號17F"
+    "address": "104臺北市中山區南京東路三段168號17F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北體育場郵局-1",
     "lat": 25.05131,
     "lng": 121.548195,
-    "address": "105臺北市松山區南京東路三段346號"
+    "address": "105臺北市松山區南京東路三段346號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北體育場郵局-2",
     "lat": 25.05131,
     "lng": 121.548195,
-    "address": "105臺北市松山區南京東路三段346號"
+    "address": "105臺北市松山區南京東路三段346號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運南京復興站-N-復興北路",
     "lat": 25.051379,
     "lng": 121.544103,
-    "address": "105臺北市松山區南京東路三段248號旁候車亭(復興北路本線)"
+    "address": "105臺北市松山區南京東路三段248號旁候車亭(復興北路本線)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行東台北分行",
     "lat": 25.051459,
     "lng": 121.553437,
-    "address": "105臺北市松山區南京東路四段50號"
+    "address": "105臺北市松山區南京東路四段50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "都市更新處17F經營科與工程科中間",
     "lat": 25.051569,
     "lng": 121.541595,
-    "address": "104臺北市中山區南京東路三段168號17F"
+    "address": "104臺北市中山區南京東路三段168號17F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南京寧安街口-E-南京東路四段",
     "lat": 25.05158,
     "lng": 121.55431,
-    "address": "105臺北市松山區南京東路四段104號前分隔島候車亭"
+    "address": "105臺北市松山區南京東路四段104號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀台北復興分行",
     "lat": 25.051623,
     "lng": 121.542909,
-    "address": "104臺北市中山區南京東路三段198號"
+    "address": "104臺北市中山區南京東路三段198號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南京寧安街口-W-南京東路四段",
     "lat": 25.051683,
     "lng": 121.555621,
-    "address": "105臺北市松山區南京東路四段161號前分隔島候車亭"
+    "address": "105臺北市松山區南京東路四段161號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "世界潘氏宗親總會",
     "lat": 25.051736,
     "lng": 121.558161,
-    "address": "105臺北市松山區東光里南京東路五段29號三樓"
+    "address": "105臺北市松山區東光里南京東路五段29號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台灣港務股份有限公司台北辦公室",
     "lat": 25.051744,
     "lng": 121.542587,
-    "address": "105臺北市中山區南京東路三段188號9樓"
+    "address": "105臺北市中山區南京東路三段188號9樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀南京東路分行",
     "lat": 25.051786,
     "lng": 121.556049,
-    "address": "105臺北市松山區南京東路四段163號"
+    "address": "105臺北市松山區南京東路四段163號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市光鹽關懷發展協會",
     "lat": 25.051818,
     "lng": 121.554695,
-    "address": "105臺北市松山區東勢里南京東路四段107號十二樓"
+    "address": "105臺北市松山區東勢里南京東路四段107號十二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南京龍江路口-E-南京東路三段",
     "lat": 25.051855,
     "lng": 121.54103,
-    "address": "104臺北市中山區南京東路三段131號斜對面前分隔島候車亭"
+    "address": "104臺北市中山區南京東路三段131號斜對面前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南京復興路口-W2-南京東路三段",
     "lat": 25.051909,
     "lng": 121.545077,
-    "address": "105臺北市松山區南京東路三段259號前分隔島候車亭"
+    "address": "105臺北市松山區南京東路三段259號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南京龍江路口-W-南京東路三段",
     "lat": 25.051951,
     "lng": 121.540044,
-    "address": "104臺北市中山區南京東路三段102號前分隔島候車亭"
+    "address": "104臺北市中山區南京東路三段102號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀敦化分行",
     "lat": 25.051974,
     "lng": 121.549531,
-    "address": "105臺北市松山區南京東路四段1號2樓"
+    "address": "105臺北市松山區南京東路四段1號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行南京東路分行",
     "lat": 25.052129,
     "lng": 121.542913,
-    "address": "104臺北市中山區南京東路三段217號"
+    "address": "104臺北市中山區南京東路三段217號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "南京復興路口-W1-南京東路三段",
     "lat": 25.052192,
     "lng": 121.54311,
-    "address": "104臺北市中山區南京東路三段202號前分隔島候車亭"
+    "address": "104臺北市中山區南京東路三段202號前分隔島候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部臺北國稅局松山分局民眾服務區",
     "lat": 25.052388,
     "lng": 121.540729,
-    "address": "104臺北市中山區南京東路三段131號4樓"
+    "address": "104臺北市中山區南京東路三段131號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台北市向日葵慈善協會",
     "lat": 25.052585,
     "lng": 121.555521,
-    "address": "105臺北市松山區東勢里南京東路四段133巷7弄9號一樓"
+    "address": "105臺北市松山區東勢里南京東路四段133巷7弄9號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "三軍總醫院松山分院-S-健康路",
     "lat": 25.053605,
     "lng": 121.557237,
-    "address": "105臺北市松山區健康路156號候車亭"
+    "address": "105臺北市松山區健康路156號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(長春分行)",
     "lat": 25.054063,
     "lng": 121.544447,
-    "address": "105臺北市松山區復興北路169號"
+    "address": "105臺北市松山區復興北路169號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館啟明分館2F電梯口",
     "lat": 25.054545,
     "lng": 121.551576,
-    "address": "105臺北市松山區敦化北路155巷76號2F"
+    "address": "105臺北市松山區敦化北路155巷76號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館啟明分館1F親子共讀區中央",
     "lat": 25.054605,
     "lng": 121.551448,
-    "address": "105臺北市松山區敦化北路155巷76號1F"
+    "address": "105臺北市松山區敦化北路155巷76號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "龍城市場1F電梯口前",
     "lat": 25.054641,
     "lng": 121.553817,
-    "address": "105臺北市松山區光復北路190巷39號1F"
+    "address": "105臺北市松山區光復北路190巷39號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "龍城市場2F電梯口前",
     "lat": 25.054696,
     "lng": 121.55384,
-    "address": "105臺北市松山區光復北路190巷39號2F"
+    "address": "105臺北市松山區光復北路190巷39號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "松山松基區民活動中心B1F大禮堂內",
     "lat": 25.054794,
     "lng": 121.544849,
-    "address": "105臺北市松山區長春路339巷2號B1F"
+    "address": "105臺北市松山區長春路339巷2號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "長春市場1F市場中央",
     "lat": 25.054817,
     "lng": 121.542348,
-    "address": "104臺北市中山區長春路299號1F"
+    "address": "104臺北市中山區長春路299號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "中山朱馥區民活動中心B1F舞蹈教室內門口",
     "lat": 25.055177,
     "lng": 121.540406,
-    "address": "104臺北市中山區龍江路168號B1F"
+    "address": "104臺北市中山區龍江路168號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "中山朱馥區民活動中心B1F門口",
     "lat": 25.055242,
     "lng": 121.540468,
-    "address": "104臺北市中山區龍江路168號B1F"
+    "address": "104臺北市中山區龍江路168號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "松山新城-N-光復北路",
     "lat": 25.055254,
     "lng": 121.555902,
-    "address": "105臺北市松山區光復北路208號對面候車亭"
+    "address": "105臺北市松山區光復北路208號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "松山新城-S-光復北路",
     "lat": 25.05559,
     "lng": 121.555669,
-    "address": "105臺北市松山區光復北路159號對面候車亭"
+    "address": "105臺北市松山區光復北路159號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀民生分行",
     "lat": 25.055847,
     "lng": 121.544349,
-    "address": "105臺北市松山區復興北路203號"
+    "address": "105臺北市松山區復興北路203號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "龍田里辦公處",
     "lat": 25.055985,
     "lng": 121.554563,
-    "address": "105臺北市松山區龍田里光復北路230巷21號B1"
+    "address": "105臺北市松山區龍田里光復北路230巷21號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "松山龍田區民活動中心B1F大門左側",
     "lat": 25.05599,
     "lng": 121.554653,
-    "address": "105臺北市松山區光復北路230巷21號B1F"
+    "address": "105臺北市松山區光復北路230巷21號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北興安郵局",
     "lat": 25.056366,
     "lng": 121.543915,
-    "address": "104臺北市中山區復興北路210、212號"
+    "address": "104臺北市中山區復興北路210、212號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處工務科東區分隊辦公室",
     "lat": 25.056785,
     "lng": 121.551333,
-    "address": "105臺北市松山區敦化北路199巷5號6F"
+    "address": "105臺北市松山區敦化北路199巷5號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "興安華城-S-復興北路",
     "lat": 25.056944,
     "lng": 121.544063,
-    "address": "104臺北市中山區復興北路226號旁候車亭"
+    "address": "104臺北市中山區復興北路226號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館民生分館5F一般圖書區西側",
     "lat": 25.057008,
     "lng": 121.551523,
-    "address": "105臺北市松山區敦化北路199巷5號5F"
+    "address": "105臺北市松山區敦化北路199巷5號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "公園路燈工程管理處工務科東區分隊會議室",
     "lat": 25.057009,
     "lng": 121.551628,
-    "address": "105臺北市松山區敦化北路199巷5號6F"
+    "address": "105臺北市松山區敦化北路199巷5號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館民生分館4F館藏特色區西側",
     "lat": 25.057092,
     "lng": 121.551329,
-    "address": "105臺北市松山區敦化北路199巷5號4F"
+    "address": "105臺北市松山區敦化北路199巷5號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館民生分館4F外文圖書區北側",
     "lat": 25.057205,
     "lng": 121.551374,
-    "address": "105臺北市松山區敦化北路199巷5號4F"
+    "address": "105臺北市松山區敦化北路199巷5號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館民生分館5F視聽室內側牆壁",
     "lat": 25.057238,
     "lng": 121.551408,
-    "address": "105臺北市松山區敦化北路199巷5號5F"
+    "address": "105臺北市松山區敦化北路199巷5號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行復興分行",
     "lat": 25.057296,
     "lng": 121.546486,
-    "address": "105臺北市松山區民生東路三段132號"
+    "address": "105臺北市松山區民生東路三段132號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台灣老人急重症基金會(龍洲據點)",
     "lat": 25.057299,
     "lng": 121.543146,
-    "address": "104臺北市中山區龍洲里民生東路三段88巷1號"
+    "address": "104臺北市中山區龍洲里民生東路三段88巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行敦化分行",
     "lat": 25.057419,
     "lng": 121.549482,
-    "address": "105臺北市松山區敦化北路205號1樓"
+    "address": "105臺北市松山區敦化北路205號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀民生分行",
     "lat": 25.057429,
     "lng": 121.546036,
-    "address": "105臺北市松山區民生東路三段128號"
+    "address": "105臺北市松山區民生東路三段128號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "民生復興路口-E-民生東路三段",
     "lat": 25.05757,
     "lng": 121.54579,
-    "address": "105臺北市松山區民生東路三段126號候車亭"
+    "address": "105臺北市松山區民生東路三段126號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "民生敦化路口-民生東路三段",
     "lat": 25.057595,
     "lng": 121.548114,
-    "address": "105臺北市松山區民生東路三段158號前候車亭"
+    "address": "105臺北市松山區民生東路三段158號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀城東分行",
     "lat": 25.057629,
     "lng": 121.550241,
-    "address": "105臺北市松山區民生東路四段52號"
+    "address": "105臺北市松山區民生東路四段52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺北大學-E-民生東路三段",
     "lat": 25.057645,
     "lng": 121.5428,
-    "address": "104臺北市中山區民生東路三段88巷2號旁(民生東路三段本線)候車亭"
+    "address": "104臺北市中山區民生東路三段88巷2號旁(民生東路三段本線)候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北台塑郵局",
     "lat": 25.057703,
     "lng": 121.551045,
-    "address": "105臺北市松山區民生東路四段54號"
+    "address": "105臺北市松山區民生東路四段54號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行民生分行",
     "lat": 25.057703,
     "lng": 121.551045,
-    "address": "105臺北市松山區民生東路四段54號"
+    "address": "105臺北市松山區民生東路四段54號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "民生敦化路口-W-民生東路三段",
     "lat": 25.057844,
     "lng": 121.54692,
-    "address": "105臺北市松山區民生東路三段119號斜前方候車亭"
+    "address": "105臺北市松山區民生東路三段119號斜前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "民生復興路口-W-民生東路三段",
     "lat": 25.057898,
     "lng": 121.545307,
-    "address": "105臺北市松山區民生東路三段109號候車亭"
+    "address": "105臺北市松山區民生東路三段109號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行民生分行",
     "lat": 25.057919,
     "lng": 121.547848,
-    "address": "105臺北市松山區民生東路三段131號"
+    "address": "105臺北市松山區民生東路三段131號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "臺北大學-臺北校區W-民生東路三段",
     "lat": 25.057963,
     "lng": 121.54173,
-    "address": "104臺北市中山區民生東路三段67號旁候車亭(台北大學資訊大樓旁)"
+    "address": "104臺北市中山區民生東路三段67號旁候車亭(台北大學資訊大樓旁)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "公教住宅-W-民生東路四段",
     "lat": 25.058131,
     "lng": 121.552748,
-    "address": "105臺北市松山區民生東路四段105號旁候車亭"
+    "address": "105臺北市松山區民生東路四段105號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台北延壽郵局",
     "lat": 25.058148,
     "lng": 121.555969,
-    "address": "105臺北市松山區民生東路五段12號"
+    "address": "105臺北市松山區民生東路五段12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "民生東路口-N-復興北路",
     "lat": 25.058317,
     "lng": 121.54438,
-    "address": "105臺北市松山區復興北路301號候車亭"
+    "address": "105臺北市松山區復興北路301號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "聯合二村-W-民生東路五段",
     "lat": 25.058654,
     "lng": 121.558952,
-    "address": "105臺北市松山區民生東路五段81號旁候車亭"
+    "address": "105臺北市松山區民生東路五段81號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣厝邊有愛關懷協會(中興教會)",
     "lat": 25.058656,
     "lng": 121.5433,
-    "address": "104臺北市中山區江山里復興北路280巷8號"
+    "address": "104臺北市中山區江山里復興北路280巷8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "松山精忠區民活動中心1F中央",
     "lat": 25.058797,
     "lng": 121.554928,
-    "address": "105臺北市松山區民生東路四段133號1F"
+    "address": "105臺北市松山區民生東路四段133號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人台北市二村基石關懷協會",
     "lat": 25.059,
     "lng": 121.559,
-    "address": "105臺北市松山區東榮里民生東路五段69巷2弄10號"
+    "address": "105臺北市松山區東榮里民生東路五段69巷2弄10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

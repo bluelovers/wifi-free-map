@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "竹東二重埔郵局",
     "lat": 24.766513,
     "lng": 121.05672,
-    "address": "310新竹縣竹東鎮二重里中興路三段97號"
+    "address": "310新竹縣竹東鎮二重里中興路三段97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行工研院分行",
     "lat": 24.774099,
     "lng": 121.047947,
-    "address": "310新竹縣竹東鎮中興路四段195號"
+    "address": "310新竹縣竹東鎮中興路四段195號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "竹東工研院郵局",
     "lat": 24.774288,
     "lng": 121.044604,
-    "address": "310新竹縣竹東鎮中興路四段195號"
+    "address": "310新竹縣竹東鎮中興路四段195號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

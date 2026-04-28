@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部工業局南區工業區管理處",
     "lat": 23.032861,
     "lng": 120.143106,

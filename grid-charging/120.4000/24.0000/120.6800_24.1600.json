@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局臺中區監理所臺中市監理站",
     "lat": 24.161669,
     "lng": 120.692211,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中北屯郵局",
     "lat": 24.162883,
     "lng": 120.690948,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市北區戶政事務所",
     "lat": 24.165873,
     "lng": 120.682272,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中大坑口郵局",
     "lat": 24.170076,
     "lng": 120.699645,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中文心路郵局",
     "lat": 24.171638,
     "lng": 120.688419,

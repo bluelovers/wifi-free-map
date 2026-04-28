@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大發(兼鳳山)工業區服務中心",
     "lat": 22.584767,
     "lng": 120.428778,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司高雄訓練中心實習大樓一樓大廳",
     "lat": 22.58527,
     "lng": 120.42262,

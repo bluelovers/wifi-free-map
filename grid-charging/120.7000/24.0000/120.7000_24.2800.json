@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司后里服務所",
     "lat": 24.293581,
     "lng": 120.703539,

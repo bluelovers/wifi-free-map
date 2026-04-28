@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店沙鹿自強路大展店(公話)",
     "lat": 24.202029,
     "lng": 120.568125,
-    "address": "433臺中市沙鹿區自強路336號"
+    "address": "433臺中市沙鹿區自強路336號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商沙鹿向上路保屏店(公話)",
     "lat": 24.206471,
     "lng": 120.564274,
-    "address": "433臺中市沙鹿區向上路七段132號(公話)"
+    "address": "433臺中市沙鹿區向上路七段132號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店沙鹿北勢東路弘光店(公話)",
     "lat": 24.215353,
     "lng": 120.579826,
-    "address": "433臺中市沙鹿區北勢東路263號"
+    "address": "433臺中市沙鹿區北勢東路263號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市沙鹿區六路社區發展協會",
     "lat": 24.216096,
     "lng": 120.579567,
-    "address": "433臺中市沙鹿區六路里北勢東路267號"
+    "address": "433臺中市沙鹿區六路里北勢東路267號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商沙鹿南陽路鎮揚店(公話)",
     "lat": 24.216284,
     "lng": 120.571142,
-    "address": "433臺中市沙鹿區南陽路439號(公話)"
+    "address": "433臺中市沙鹿區南陽路439號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市沙鹿區南勢社區發展協會",
     "lat": 24.217819,
     "lng": 120.567637,
-    "address": "433臺中市沙鹿區南勢里南陽路452號"
+    "address": "433臺中市沙鹿區南勢里南陽路452號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家超商沙鹿鎮南路鎮平店(公話)",
     "lat": 24.219536,
     "lng": 120.569558,
-    "address": "433臺中市沙鹿區鎮南路二段95號(公話)"
+    "address": "433臺中市沙鹿區鎮南路二段95號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

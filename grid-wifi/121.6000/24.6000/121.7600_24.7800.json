@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局四城站候車室",
     "lat": 24.786826,
     "lng": 121.76275,
-    "address": "262宜蘭縣礁溪鄉吳沙村站前路24號"
+    "address": "262宜蘭縣礁溪鄉吳沙村站前路24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "礁溪四城郵局",
     "lat": 24.786959,
     "lng": 121.762209,
-    "address": "262宜蘭縣礁溪鄉吳沙村站前路19號"
+    "address": "262宜蘭縣礁溪鄉吳沙村站前路19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局四城派出所",
     "lat": 24.7878,
     "lng": 121.761466,
-    "address": "262宜蘭縣礁溪鄉礁溪路一段157號"
+    "address": "262宜蘭縣礁溪鄉礁溪路一段157號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣礁溪鄉玉光社區發展協會",
     "lat": 24.793075,
     "lng": 121.774391,
-    "address": "262宜蘭縣礁溪鄉玉光村瑪僯路76號"
+    "address": "262宜蘭縣礁溪鄉玉光村瑪僯路76號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "長期照護及社會福祉推廣協會(礁溪樂智據點)",
     "lat": 24.796757,
     "lng": 121.76388,
-    "address": "262宜蘭縣礁溪鄉白鵝村礁溪路二段70號"
+    "address": "262宜蘭縣礁溪鄉白鵝村礁溪路二段70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

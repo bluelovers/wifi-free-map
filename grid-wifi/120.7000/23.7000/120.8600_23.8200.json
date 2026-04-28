@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局車埕站候車室",
     "lat": 23.833253,
     "lng": 120.866127,
-    "address": "553南投縣水里鄉車埕村民權路2號"
+    "address": "553南投縣水里鄉車埕村民權路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣政府警察局集集分局車埕派出所",
     "lat": 23.833984,
     "lng": 120.866428,
-    "address": "553南投縣水里鄉車埕村民權巷108號"
+    "address": "553南投縣水里鄉車埕村民權巷108號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "車埕遊客中心",
     "lat": 23.834746,
     "lng": 120.865606,
-    "address": "553南投縣水里鄉車埕村民權巷101-3號"
+    "address": "553南投縣水里鄉車埕村民權巷101-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

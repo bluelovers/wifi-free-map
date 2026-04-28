@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "碧山派出所",
     "lat": 24.9516,
     "lng": 121.6317,

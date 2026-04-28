@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "馬祖東莒郵局",
     "lat": 25.958508,
     "lng": 119.979451,

@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人嘉義縣中埔鄉老人會",
     "lat": 23.400629,
     "lng": 120.511619,
-    "address": "606嘉義縣中埔鄉同仁1之10號"
+    "address": "606嘉義縣中埔鄉同仁1之10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人嘉義縣私立天主教安道社會福利慈善事業基金會(中埔站)",
     "lat": 23.4043,
     "lng": 120.5119,
-    "address": "606嘉義縣中埔鄉同仁村同仁30號"
+    "address": "606嘉義縣中埔鄉同仁村同仁30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣中埔鄉同仁村辦公處",
     "lat": 23.407,
     "lng": 120.513,
-    "address": "606嘉義縣中埔鄉同仁村11鄰同仁167之2號"
+    "address": "606嘉義縣中埔鄉同仁村11鄰同仁167之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

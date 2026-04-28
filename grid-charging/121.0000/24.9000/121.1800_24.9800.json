@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中壢大崙郵局",
     "lat": 24.988386,
     "lng": 121.180387,

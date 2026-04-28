@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "頭屋郵局",
     "lat": 24.576325,
     "lng": 120.854271,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗縣頭屋鄉戶政事務所",
     "lat": 24.577744,
     "lng": 120.850596,

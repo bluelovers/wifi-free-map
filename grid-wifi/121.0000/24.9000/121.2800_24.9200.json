@@ -1,82 +1,112 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大溪僑愛郵局",
     "lat": 24.922806,
     "lng": 121.295022,
-    "address": "335桃園市大溪區僑愛里36鄰介壽路42、44號"
+    "address": "335桃園市大溪區僑愛里36鄰介壽路42、44號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市八德區瑞德里辦公處",
     "lat": 24.924975,
     "lng": 121.296005,
-    "address": "334桃園市八德區瑞德里介壽路二段1432號三樓"
+    "address": "334桃園市八德區瑞德里介壽路二段1432號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市八德區福德里辦公處",
     "lat": 24.926202,
     "lng": 121.280802,
-    "address": "334桃園市八德區興仁里建德路101號"
+    "address": "334桃園市八德區興仁里建德路101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市八德區瑞豐社區發展協會",
     "lat": 24.927561,
     "lng": 121.289189,
-    "address": "334桃園市八德區瑞豐里豐田二路15號一樓"
+    "address": "334桃園市八德區瑞豐里豐田二路15號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市八德區戶政事務所",
     "lat": 24.92915,
     "lng": 121.286251,
-    "address": "334桃園市八德區興豐路304巷2號"
+    "address": "334桃園市八德區興豐路304巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市八德區公所一樓",
     "lat": 24.929175,
     "lng": 121.284599,
-    "address": "334桃園市八德區中山路47號"
+    "address": "334桃園市八德區中山路47號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "八德郵局",
     "lat": 24.930997,
     "lng": 121.284933,
-    "address": "334桃園市八德區建國路18號"
+    "address": "334桃園市八德區建國路18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市八德區福興里辦公處",
     "lat": 24.93178,
     "lng": 121.284879,
-    "address": "334桃園市八德區福興里建國路45號二樓"
+    "address": "334桃園市八德區福興里建國路45號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "八德更寮腳郵局",
     "lat": 24.932914,
     "lng": 121.297288,
-    "address": "334桃園市八德區介壽路二段1030號"
+    "address": "334桃園市八德區介壽路二段1030號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局八德分隊",
     "lat": 24.939779,
     "lng": 121.298332,
-    "address": "334桃園市八德區介壽路二段685巷10號"
+    "address": "334桃園市八德區介壽路二段685巷10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

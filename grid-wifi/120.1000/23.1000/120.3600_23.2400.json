@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市柳營區太康里辦公處",
     "lat": 23.252,
     "lng": 120.375,
-    "address": "736臺南市柳營區太康里12鄰太康113號"
+    "address": "736臺南市柳營區太康里12鄰太康113號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

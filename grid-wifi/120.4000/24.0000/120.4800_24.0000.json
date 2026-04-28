@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "福興福工郵局",
     "lat": 24.011923,
     "lng": 120.486984,
-    "address": "506彰化縣福興鄉萬豐村福工路1號"
+    "address": "506彰化縣福興鄉萬豐村福工路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "福興(兼埤頭及田中)工業區服務中心-福興",
     "lat": 24.011923,
     "lng": 120.486984,
-    "address": "506彰化縣福興鄉萬豐村福工路1號1樓"
+    "address": "506彰化縣福興鄉萬豐村福工路1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

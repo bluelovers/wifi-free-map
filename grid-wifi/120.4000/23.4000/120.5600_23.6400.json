@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣古坑鄉古坑社區發展協會",
     "lat": 23.643683,
     "lng": 120.564717,
-    "address": "646雲林縣古坑鄉古坑村文淵路14巷7號"
+    "address": "646雲林縣古坑鄉古坑村文淵路14巷7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "古坑郵局",
     "lat": 23.644368,
     "lng": 120.561998,
-    "address": "646雲林縣古坑鄉古坑村中山路123號"
+    "address": "646雲林縣古坑鄉古坑村中山路123號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司古坑營運所",
     "lat": 23.649867,
     "lng": 120.560733,
-    "address": "646雲林縣古坑鄉朝陽村中山路270號"
+    "address": "646雲林縣古坑鄉朝陽村中山路270號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

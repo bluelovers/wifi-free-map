@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "楊梅瑞塘郵局",
     "lat": 24.909861,
     "lng": 121.177251,

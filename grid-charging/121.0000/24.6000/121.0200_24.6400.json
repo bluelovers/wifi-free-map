@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "參山國家風景區管理處獅頭山管理站服務台",
     "lat": 24.655116,
     "lng": 121.024358,

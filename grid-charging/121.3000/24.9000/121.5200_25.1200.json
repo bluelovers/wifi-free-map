@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "士林天母郵局",
     "lat": 25.12265,
     "lng": 121.532119,

@@ -1,106 +1,145 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "國防部苗栗福利站服務台",
     "lat": 24.542448,
     "lng": 120.817089,
-    "address": "360苗栗縣苗栗市中正路1327號"
+    "address": "360苗栗縣苗栗市中正路1327號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署苗栗縣服務站(新)",
     "lat": 24.543282,
     "lng": 120.817545,
-    "address": "360苗栗縣苗栗市中正路1291巷8號"
+    "address": "360苗栗縣苗栗市中正路1291巷8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會苗栗縣榮民服務處一樓大廳",
     "lat": 24.543434,
     "lng": 120.816589,
-    "address": "360苗栗縣苗栗市中正路1270號"
+    "address": "360苗栗縣苗栗市中正路1270號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(苗栗地方法院)-1",
     "lat": 24.545753,
     "lng": 120.817153,
-    "address": "360苗栗縣苗栗市中正路1149號1樓"
+    "address": "360苗栗縣苗栗市中正路1149號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(苗栗地方法院)-2",
     "lat": 24.545753,
     "lng": 120.817153,
-    "address": "360苗栗縣苗栗市中正路1149號2樓"
+    "address": "360苗栗縣苗栗市中正路1149號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(苗栗地方法院-少家大樓)",
     "lat": 24.545753,
     "lng": 120.817153,
-    "address": "360苗栗縣苗栗市中正路1149號#少家大樓"
+    "address": "360苗栗縣苗栗市中正路1149號#少家大樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣苗栗地方法院檢察署1樓當事人休息區",
     "lat": 24.546356,
     "lng": 120.816508,
-    "address": "360苗栗縣苗栗市中正路1149號"
+    "address": "360苗栗縣苗栗市中正路1149號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "大千綜合醫院(苗栗市據點)",
     "lat": 24.550847,
     "lng": 120.814575,
-    "address": "360苗栗縣苗栗市高苗里信義街58號"
+    "address": "360苗栗縣苗栗市高苗里信義街58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣小太禓關懷協會-新苗站",
     "lat": 24.553108,
     "lng": 120.818527,
-    "address": "360苗栗縣苗栗市新苗里新苗街15號"
+    "address": "360苗栗縣苗栗市新苗里新苗街15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行苗栗分行",
     "lat": 24.555301,
     "lng": 120.818989,
-    "address": "360苗栗縣苗栗市中正路686號"
+    "address": "360苗栗縣苗栗市中正路686號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣苗栗市大同社區發展協會",
     "lat": 24.555485,
     "lng": 120.813474,
-    "address": "360苗栗縣苗栗市大同里14鄰公園路40號"
+    "address": "360苗栗縣苗栗市大同里14鄰公園路40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣苗栗市青苗社區發展協會",
     "lat": 24.557646,
     "lng": 120.819029,
-    "address": "360苗栗縣苗栗市青苗里至公路48號B1"
+    "address": "360苗栗縣苗栗市青苗里至公路48號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署桃竹苗分署苗栗就業中心洽公櫃台",
     "lat": 24.558572,
     "lng": 120.819906,
-    "address": "360苗栗縣苗栗市中山路558號"
+    "address": "360苗栗縣苗栗市中山路558號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,114 +1,156 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "澎湖縣勞工育樂中心",
     "lat": 23.561289,
     "lng": 119.580882,
-    "address": "880澎湖縣馬公市案山里大賢街160號"
+    "address": "880澎湖縣馬公市案山里大賢街160號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣馬公市東文社區發展協會",
     "lat": 23.562128,
     "lng": 119.583051,
-    "address": "880澎湖縣馬公市東文里民富街46號"
+    "address": "880澎湖縣馬公市東文里民富街46號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "馬公東文郵局",
     "lat": 23.563329,
     "lng": 119.582891,
-    "address": "880澎湖縣馬公市東文里新店路465號1樓"
+    "address": "880澎湖縣馬公市東文里新店路465號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "海洋國家公園管理處馬公服務中心",
     "lat": 23.565221,
     "lng": 119.580612,
-    "address": "880澎湖縣馬公市西文里024鄰新明路81號"
+    "address": "880澎湖縣馬公市西文里024鄰新明路81號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中央健康保險署-高屏業務組澎湖聯絡辦公室",
     "lat": 23.565849,
     "lng": 119.585735,
-    "address": "880澎湖縣馬公市西文澳63-40號"
+    "address": "880澎湖縣馬公市西文澳63-40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "澎湖縣馬公市戶政事務所服務台",
     "lat": 23.565856,
     "lng": 119.580989,
-    "address": "880澎湖縣馬公市永壽街81號"
+    "address": "880澎湖縣馬公市永壽街81號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "澎湖縣孔廟",
     "lat": 23.566823,
     "lng": 119.580053,
-    "address": "880澎湖縣馬公市西文里104之7號"
+    "address": "880澎湖縣馬公市西文里104之7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣澎湖地方法院檢察署1樓等候區",
     "lat": 23.568214,
     "lng": 119.589057,
-    "address": "880澎湖縣馬公市西文里西文澳309號"
+    "address": "880澎湖縣馬公市西文里西文澳309號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "澎湖縣馬公市立托兒所園本部",
     "lat": 23.568284,
     "lng": 119.589071,
-    "address": "880澎湖縣馬公市西文里104-14號"
+    "address": "880澎湖縣馬公市西文里104-14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "澎湖縣家畜疾病防治所",
     "lat": 23.56832,
     "lng": 119.583489,
-    "address": "880澎湖縣馬公市西文里118-1號"
+    "address": "880澎湖縣馬公市西文里118-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣澎湖地方法院1、2樓當事人休息區、聯合服務中心、律師閱卷室",
     "lat": 23.568599,
     "lng": 119.583972,
-    "address": "880澎湖縣馬公市西文里西文澳310號"
+    "address": "880澎湖縣馬公市西文里西文澳310號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(澎湖地方法院)-1",
     "lat": 23.568942,
     "lng": 119.583934,
-    "address": "880澎湖縣馬公市西文里西文澳310號1樓"
+    "address": "880澎湖縣馬公市西文里西文澳310號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(澎湖地方法院)-2",
     "lat": 23.568942,
     "lng": 119.583934,
-    "address": "880澎湖縣馬公市西文里西文澳310號2樓"
+    "address": "880澎湖縣馬公市西文里西文澳310號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣馬公市西衛社區發展協會",
     "lat": 23.579875,
     "lng": 119.581052,
-    "address": "880澎湖縣馬公市西衛84號"
+    "address": "880澎湖縣馬公市西衛84號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

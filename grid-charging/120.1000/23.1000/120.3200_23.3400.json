@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "國道公路警察局第四公路警察大隊",
     "lat": 23.357322,
     "lng": 120.339238,

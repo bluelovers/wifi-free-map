@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗市勝利社區發展協會",
     "lat": 24.548034,
     "lng": 120.821182,
-    "address": "360苗栗縣苗栗市勝利里18鄰復興路一段453號"
+    "address": "360苗栗縣苗栗市勝利里18鄰復興路一段453號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "梓榮醫療社團法人弘大醫院",
     "lat": 24.550738,
     "lng": 120.822764,
-    "address": "360苗栗縣苗栗市維新里16鄰新東街211號"
+    "address": "360苗栗縣苗栗市維新里16鄰新東街211號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣苗栗市維新社區發展協會",
     "lat": 24.553175,
     "lng": 120.82153,
-    "address": "360苗栗縣苗栗市維新里僑育北街62號一樓"
+    "address": "360苗栗縣苗栗市維新里僑育北街62號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(苗栗分行)",
     "lat": 24.55676,
     "lng": 120.82032,
-    "address": "360苗栗縣苗栗市中正路601號"
+    "address": "360苗栗縣苗栗市中正路601號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "苗栗中苗郵局",
     "lat": 24.558428,
     "lng": 120.820866,
-    "address": "360苗栗縣苗栗市中正路532號"
+    "address": "360苗栗縣苗栗市中正路532號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人世界和平會-大同站",
     "lat": 24.559,
     "lng": 120.82,
-    "address": "360苗栗縣苗栗市大同里福星山21號"
+    "address": "360苗栗縣苗栗市大同里福星山21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司苗栗直銷中心",
     "lat": 24.559963,
     "lng": 120.821767,
-    "address": "360苗栗縣苗栗市中正路442號"
+    "address": "360苗栗縣苗栗市中正路442號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

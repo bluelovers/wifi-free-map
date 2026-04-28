@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台灣糖業股份有限公司北大健康超市",
     "lat": 24.944407,
     "lng": 121.378348,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北大學郵局",
     "lat": 24.945124,
     "lng": 121.372835,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市政府警察局桃園分局",
     "lat": 25.000547,
     "lng": 121.299319,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園慈文郵局",
     "lat": 25.018242,
     "lng": 121.297574,

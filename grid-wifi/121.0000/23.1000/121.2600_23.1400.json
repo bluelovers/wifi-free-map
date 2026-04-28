@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣富里鄉永豐國民小學",
     "lat": 23.155059,
     "lng": 121.266317,
-    "address": "983花蓮縣富里鄉豐南村永豐84號"
+    "address": "983花蓮縣富里鄉豐南村永豐84號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆市安樂戶政事務所",
     "lat": 25.121002,
     "lng": 121.723258,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆安樂路郵局",
     "lat": 25.121575,
     "lng": 121.723965,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆市仁愛戶政事務所",
     "lat": 25.125082,
     "lng": 121.736755,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司基隆直銷中心",
     "lat": 25.127098,
     "lng": 121.737628,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆光二路郵局",
     "lat": 25.127282,
     "lng": 121.737172,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆孝三路郵局",
     "lat": 25.130428,
     "lng": 121.739696,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆新民郵局",
     "lat": 25.130563,
     "lng": 121.736375,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆港務分公司西岸旅客大廳",
     "lat": 25.132231,
     "lng": 121.73995,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆西定路郵局",
     "lat": 25.134129,
     "lng": 121.735024,

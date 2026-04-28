@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "旗山圓潭郵局",
     "lat": 22.92249,
     "lng": 120.497508,

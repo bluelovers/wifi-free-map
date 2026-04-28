@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "平鎮高雙郵局",
     "lat": 24.955034,
     "lng": 121.189525,

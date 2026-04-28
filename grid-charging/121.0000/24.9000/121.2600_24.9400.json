@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中壢華勛郵局",
     "lat": 24.955319,
     "lng": 121.264496,

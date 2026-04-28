@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市中正區中砂社區發展協會",
     "lat": 25.140627,
     "lng": 121.759667,
-    "address": "202基隆市中正區中砂里正豐街50號"
+    "address": "202基隆市中正區中砂里正豐街50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市中正區公所",
     "lat": 25.140978,
     "lng": 121.759012,
-    "address": "202基隆市中正區中正路236號5樓"
+    "address": "202基隆市中正區中正路236號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市中正區圖書館",
     "lat": 25.140978,
     "lng": 121.759012,
-    "address": "202基隆市中正區中正路236號1樓"
+    "address": "202基隆市中正區中正路236號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市中正戶政事務所",
     "lat": 25.14109,
     "lng": 121.759044,
-    "address": "202基隆市中正區中正路236號3樓"
+    "address": "202基隆市中正區中正路236號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會基隆市榮民服務處一樓大廳",
     "lat": 25.14116,
     "lng": 121.758915,
-    "address": "202基隆市中正區中正路115號"
+    "address": "202基隆市中正區中正路115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市中山區和平里辦公處",
     "lat": 25.142683,
     "lng": 121.744358,
-    "address": "203基隆市中山區和平里中山三路103巷82之2號"
+    "address": "203基隆市中山區和平里中山三路103巷82之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

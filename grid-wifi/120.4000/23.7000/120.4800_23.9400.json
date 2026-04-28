@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局溪湖分局媽厝派出所",
     "lat": 23.941728,
     "lng": 120.496652,
-    "address": "514彰化縣溪湖鎮媽厝里湳底路60號"
+    "address": "514彰化縣溪湖鎮媽厝里湳底路60號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣溪湖鎮鐵道文化園區休憩區",
     "lat": 23.951413,
     "lng": 120.480715,
-    "address": "514彰化縣溪湖鎮彰水路二段762號"
+    "address": "514彰化縣溪湖鎮彰水路二段762號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣溪湖鎮鐵道文化園區遊客服務中心",
     "lat": 23.951413,
     "lng": 120.480715,
-    "address": "514彰化縣溪湖鎮彰水路二段762號"
+    "address": "514彰化縣溪湖鎮彰水路二段762號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣溪湖糖廠福利大樓",
     "lat": 23.951423,
     "lng": 120.480109,
-    "address": "514彰化縣溪湖鎮彰水路二段763巷8號"
+    "address": "514彰化縣溪湖鎮彰水路二段763巷8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台糖公司台中區處辦公大樓1樓",
     "lat": 23.952036,
     "lng": 120.481195,
-    "address": "514彰化縣溪湖鎮大竹里彰水路二段762號"
+    "address": "514彰化縣溪湖鎮大竹里彰水路二段762號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(溪湖分行)",
     "lat": 23.957,
     "lng": 120.480735,
-    "address": "514彰化縣溪湖鎮彰水路三段166號"
+    "address": "514彰化縣溪湖鎮彰水路三段166號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣溪湖鎮公有市場",
     "lat": 23.957788,
     "lng": 120.48023,
-    "address": "514彰化縣溪湖鎮民生街9號"
+    "address": "514彰化縣溪湖鎮民生街9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "彰化縣員林客運溪湖總站(試辦單位)",
     "lat": 23.958975,
     "lng": 120.480463,
-    "address": "514彰化縣溪湖鎮員鹿路三段87號"
+    "address": "514彰化縣溪湖鎮員鹿路三段87號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

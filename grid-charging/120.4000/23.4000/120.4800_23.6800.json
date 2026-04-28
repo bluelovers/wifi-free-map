@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司雲林縣斗南鎮斗南站",
     "lat": 23.680254,
     "lng": 120.481117,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "斗南新光郵局",
     "lat": 23.689519,
     "lng": 120.481974,

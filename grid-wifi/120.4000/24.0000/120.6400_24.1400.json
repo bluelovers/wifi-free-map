@@ -1,530 +1,728 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中捷運南屯站(公話)",
     "lat": 24.14021,
     "lng": 120.647248,
-    "address": "408臺中市南屯區五權西路二段328號(公話)"
+    "address": "408臺中市南屯區五權西路二段328號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南屯公有零售市場",
     "lat": 24.140287,
     "lng": 120.644874,
-    "address": "408臺中市南屯區南屯路二段595號"
+    "address": "408臺中市南屯區南屯路二段595號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南屯五權西路權興店(公話)",
     "lat": 24.140305,
     "lng": 120.652827,
-    "address": "408臺中市南屯區五權西路二段62號"
+    "address": "408臺中市南屯區五權西路二段62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "大墩路大墩四街口",
     "lat": 24.14105,
     "lng": 120.6498,
-    "address": "408臺中市南屯區大墩路與大墩四街口(TCTS1412)"
+    "address": "408臺中市南屯區大墩路與大墩四街口(TCTS1412)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司台中市南屯區五權西路站",
     "lat": 24.141304,
     "lng": 120.641738,
-    "address": "408臺中市南屯區五權西路二段562號"
+    "address": "408臺中市南屯區五權西路二段562號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台中東興路郵局",
     "lat": 24.141357,
     "lng": 120.653168,
-    "address": "408臺中市南屯區東興路二段186號"
+    "address": "408臺中市南屯區東興路二段186號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台中市沐風60長者之愛關懷協會(田新據點)",
     "lat": 24.141363,
     "lng": 120.643061,
-    "address": "408臺中市南屯區田心里大墩六街319巷41號二樓"
+    "address": "408臺中市南屯區田心里大墩六街319巷41號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車五權西萬和路口站(北)",
     "lat": 24.14145,
     "lng": 120.641416,
-    "address": "408臺中市南屯區五權西路二段566號(TCNT2020)"
+    "address": "408臺中市南屯區五權西路二段566號(TCNT2020)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車東興大墩五街口站",
     "lat": 24.14214,
     "lng": 120.65288,
-    "address": "408臺中市南屯區東興路二段219號前(TS1430)"
+    "address": "408臺中市南屯區東興路二段219號前(TS1430)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車大進市場站",
     "lat": 24.142155,
     "lng": 120.649741,
-    "address": "408臺中市南屯區大墩路229號(公話)"
+    "address": "408臺中市南屯區大墩路229號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車文心大墩七街口站",
     "lat": 24.142382,
     "lng": 120.646921,
-    "address": "408臺中市南屯區文心路一段218號前(TCTS1400)"
+    "address": "408臺中市南屯區文心路一段218號前(TCTS1400)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商西區忠明南路忠福店(公話)",
     "lat": 24.14287,
     "lng": 120.657096,
-    "address": "403臺中市西區忠明南路192號"
+    "address": "403臺中市西區忠明南路192號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商西區民生路華生店(公話)",
     "lat": 24.144262,
     "lng": 120.658689,
-    "address": "403臺中市西區民生路517號"
+    "address": "403臺中市西區民生路517號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中文心森林公園(公廁2-1)",
     "lat": 24.144536,
     "lng": 120.645928,
-    "address": "408臺中市南屯區文心路一段289號"
+    "address": "408臺中市南屯區文心路一段289號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中文心森林公園(公廁2-2)",
     "lat": 24.144536,
     "lng": 120.645928,
-    "address": "408臺中市南屯區文心路一段289號"
+    "address": "408臺中市南屯區文心路一段289號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中文心森林公園(公廁2-3)",
     "lat": 24.144536,
     "lng": 120.645928,
-    "address": "408臺中市南屯區文心路一段289號"
+    "address": "408臺中市南屯區文心路一段289號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺灣銀髮族培力協會",
     "lat": 24.144589,
     "lng": 120.656646,
-    "address": "403臺中市西區公德里大忠街27號"
+    "address": "403臺中市西區公德里大忠街27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南屯向上南路惠宇店(公話)",
     "lat": 24.144852,
     "lng": 120.653723,
-    "address": "408臺中市南屯區向上南路一段167號之1"
+    "address": "408臺中市南屯區向上南路一段167號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中捷運文心森林公園站(公話)",
     "lat": 24.145305,
     "lng": 120.646463,
-    "address": "408臺中市南屯區文心路一段259號(公話)"
+    "address": "408臺中市南屯區文心路一段259號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店西區昇平街高昇店(公話)",
     "lat": 24.145416,
     "lng": 120.658633,
-    "address": "403臺中市西區昇平街157號"
+    "address": "403臺中市西區昇平街157號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中文心森林公園(公廁1-2)",
     "lat": 24.146058,
     "lng": 120.644538,
-    "address": "408臺中市南屯區文心路一段289號"
+    "address": "408臺中市南屯區文心路一段289號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台中向上郵局",
     "lat": 24.146749,
     "lng": 120.640866,
-    "address": "408臺中市南屯區向上路二段199號"
+    "address": "408臺中市南屯區向上路二段199號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台中郵件處理中心視聽室",
     "lat": 24.147165,
     "lng": 120.640934,
-    "address": "408臺中市南屯區向上路二段199號6樓"
+    "address": "408臺中市南屯區向上路二段199號6樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人伽耶山基金會",
     "lat": 24.147972,
     "lng": 120.653505,
-    "address": "403臺中市西區公正里大墩十街50號"
+    "address": "403臺中市西區公正里大墩十街50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華民國失智者照顧協會",
     "lat": 24.148475,
     "lng": 120.657536,
-    "address": "403臺中市西區公益里忠明南路203號"
+    "address": "403臺中市西區公益里忠明南路203號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店南屯惠中路惠中店(公話)",
     "lat": 24.148644,
     "lng": 120.640407,
-    "address": "408臺中市南屯區惠中路三段46號"
+    "address": "408臺中市南屯區惠中路三段46號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南屯大墩十一街墩正店(公話)",
     "lat": 24.148964,
     "lng": 120.645316,
-    "address": "408臺中市南屯區大墩十一街330號"
+    "address": "408臺中市南屯區大墩十一街330號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店南屯大墩路十一街店(公話)",
     "lat": 24.148991,
     "lng": 120.649993,
-    "address": "408臺中市南屯區大墩路514號"
+    "address": "408臺中市南屯區大墩路514號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺中市立圖書館西區分館",
     "lat": 24.149327,
     "lng": 120.655013,
-    "address": "403臺中市西區精誠路256號"
+    "address": "403臺中市西區精誠路256號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商西區中美街新文化店(公話)",
     "lat": 24.149593,
     "lng": 120.659969,
-    "address": "403臺中市西區中美街283號"
+    "address": "403臺中市西區中美街283號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺中市立圖書館南屯分館",
     "lat": 24.149695,
     "lng": 120.645102,
-    "address": "408臺中市南屯區大墩12街361號"
+    "address": "408臺中市南屯區大墩12街361號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南屯大墩路墩富店(公話)",
     "lat": 24.149715,
     "lng": 120.650017,
-    "address": "408臺中市南屯區大墩路572號"
+    "address": "408臺中市南屯區大墩路572號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店南屯公益路大進店(公話)",
     "lat": 24.150692,
     "lng": 120.651489,
-    "address": "408臺中市南屯區公益路二段39號"
+    "address": "408臺中市南屯區公益路二段39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車公益公園(公益路)站",
     "lat": 24.150881,
     "lng": 120.657437,
-    "address": "403臺中市西區公益路186號前(TCCM2501)"
+    "address": "403臺中市西區公益路186號前(TCCM2501)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車公益大墩路口站",
     "lat": 24.150924,
     "lng": 120.649566,
-    "address": "408臺中市南屯區公益路二段106號前CM3131交接箱)"
+    "address": "408臺中市南屯區公益路二段106號前CM3131交接箱)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車公益東興路口站",
     "lat": 24.151,
     "lng": 120.65283,
-    "address": "408臺中市南屯區公益路二段2號前(TCCM3113)"
+    "address": "408臺中市南屯區公益路二段2號前(TCCM3113)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商西區精誠路益風店(公話)",
     "lat": 24.151391,
     "lng": 120.655223,
-    "address": "403臺中市西區精誠路105號"
+    "address": "403臺中市西區精誠路105號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣魚池鄉鹿篙社區發展協會",
     "lat": 24.153,
     "lng": 120.646,
-    "address": "555南投縣魚池鄉新城村香茶巷6號"
+    "address": "555南投縣魚池鄉新城村香茶巷6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商西區精誠路精業店(公話)",
     "lat": 24.153269,
     "lng": 120.655238,
-    "address": "403臺中市西區精誠路41號之6"
+    "address": "403臺中市西區精誠路41號之6",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南屯大業路鄉林店(公話)",
     "lat": 24.153364,
     "lng": 120.651299,
-    "address": "408臺中市南屯區大業路177號"
+    "address": "408臺中市南屯區大業路177號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店西區大業路精誠店(公話)",
     "lat": 24.153466,
     "lng": 120.65499,
-    "address": "403臺中市西區大業路1號"
+    "address": "403臺中市西區大業路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店南屯大業路大英店(公話)",
     "lat": 24.153486,
     "lng": 120.648557,
-    "address": "408臺中市南屯區大業路271號"
+    "address": "408臺中市南屯區大業路271號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南屯大墩路墩業店(公話)",
     "lat": 24.153499,
     "lng": 120.649574,
-    "address": "408臺中市南屯區大墩路717號之5"
+    "address": "408臺中市南屯區大墩路717號之5",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺中市政府公務人力訓練中心",
     "lat": 24.153735,
     "lng": 120.653448,
-    "address": "403臺中市西區東興路三段246號9樓"
+    "address": "403臺中市西區東興路三段246號9樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中興地政事務所",
     "lat": 24.153751,
     "lng": 120.653215,
-    "address": "403臺中市西區東興路三段246號"
+    "address": "403臺中市西區東興路三段246號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中興地政事務所3F洽公區",
     "lat": 24.153751,
     "lng": 120.653215,
-    "address": "403臺中市西區東興路三段246號"
+    "address": "403臺中市西區東興路三段246號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中捷運水安站(公話)",
     "lat": 24.153821,
     "lng": 120.646446,
-    "address": "408臺中市南屯區文心路一段519號(公話)"
+    "address": "408臺中市南屯區文心路一段519號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台中市南屯區溝墘社區發展協會",
     "lat": 24.153959,
     "lng": 120.6485,
-    "address": "408臺中市南屯區溝墘里大英街589號"
+    "address": "408臺中市南屯區溝墘里大英街589號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "蜜鄰便利超市西區忠明南路忠明二店",
     "lat": 24.155906,
     "lng": 120.658687,
-    "address": "403臺中市西區忠明南路20號(公話)"
+    "address": "403臺中市西區忠明南路20號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市西區忠誠社區發展協會",
     "lat": 24.156116,
     "lng": 120.658704,
-    "address": "403臺中市西區忠誠里忠義街59號"
+    "address": "403臺中市西區忠誠里忠義街59號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "臺中市大隆路商圈(大隆路56號)",
     "lat": 24.156326,
     "lng": 120.653147,
-    "address": "407臺中市西屯區大隆路56號"
+    "address": "407臺中市西屯區大隆路56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台中大隆路郵局",
     "lat": 24.156532,
     "lng": 120.652867,
-    "address": "407臺中市西屯區大隆路60、62號"
+    "address": "407臺中市西屯區大隆路60、62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商西屯大墩路新墩店(公話)",
     "lat": 24.156714,
     "lng": 120.650304,
-    "address": "408臺中市南屯區大墩路901號"
+    "address": "408臺中市南屯區大墩路901號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市中央健保署(文心路)公車站",
     "lat": 24.156737,
     "lng": 120.646617,
-    "address": "407臺中市西屯區市政北一路1號前(TCLM1880交接箱內)"
+    "address": "407臺中市西屯區市政北一路1號前(TCLM1880交接箱內)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市何成長青協會",
     "lat": 24.157105,
     "lng": 120.648474,
-    "address": "407臺中市西屯區何成里大墩十七街88號三樓"
+    "address": "407臺中市西屯區何成里大墩十七街88號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "萊爾富便利商店西屯大墩十八街大恩店(公話)",
     "lat": 24.157913,
     "lng": 120.648198,
-    "address": "407臺中市西屯區大墩十八街112號1樓"
+    "address": "407臺中市西屯區大墩十八街112號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部中區國稅局臺中分局",
     "lat": 24.158244,
     "lng": 120.646474,
-    "address": "407臺中市西屯區文心路二段99號"
+    "address": "407臺中市西屯區文心路二段99號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商西屯區大墩路墩隆店(公話)",
     "lat": 24.158367,
     "lng": 120.651697,
-    "address": "407臺中市西屯區大墩路966號"
+    "address": "407臺中市西屯區大墩路966號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人福智慈善基金會(台中學苑據點)",
     "lat": 24.15845,
     "lng": 120.65638,
-    "address": "407臺中市西屯區何南里臺灣大道二段659號七樓"
+    "address": "407臺中市西屯區何南里臺灣大道二段659號七樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中國輸出入銀行臺中分行",
     "lat": 24.158458,
     "lng": 120.656567,
-    "address": "407臺中市西區臺灣大道二段659號5樓"
+    "address": "407臺中市西區臺灣大道二段659號5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺中市議會",
     "lat": 24.158532,
     "lng": 120.644698,
-    "address": "407臺中市西屯區市政北一路56號"
+    "address": "407臺中市西屯區市政北一路56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "地方稅務局_文心分局",
     "lat": 24.158702,
     "lng": 120.646185,
-    "address": "407臺中市西屯區文心路二段99號1樓"
+    "address": "407臺中市西屯區文心路二段99號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中央健康保險署-中區業務組1樓聯合服務中心",
     "lat": 24.158814,
     "lng": 120.644069,
-    "address": "407臺中市西屯區市政北一路66號1樓"
+    "address": "407臺中市西屯區市政北一路66號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行台中港路分行",
     "lat": 24.15891,
     "lng": 120.65568,
-    "address": "407臺中市西屯區臺灣大道二段689號"
+    "address": "407臺中市西屯區臺灣大道二段689號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "住宅發展工程處",
     "lat": 24.159254,
     "lng": 120.648742,
-    "address": "407臺中市西屯區文心路二段588號"
+    "address": "407臺中市西屯區文心路二段588號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "環境保護局",
     "lat": 24.159589,
     "lng": 120.648284,
-    "address": "407臺中市西屯區文心路二段588號"
+    "address": "407臺中市西屯區文心路二段588號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

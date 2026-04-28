@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘆竹大竹郵局",
     "lat": 25.020407,
     "lng": 121.264733,

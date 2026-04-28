@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "瑞平派出所",
     "lat": 25.1227,
     "lng": 121.3359,

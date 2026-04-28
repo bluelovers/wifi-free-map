@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "八里龍形郵局",
     "lat": 25.131166,
     "lng": 121.450549,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "淡水竹圍郵局",
     "lat": 25.138803,
     "lng": 121.4599,

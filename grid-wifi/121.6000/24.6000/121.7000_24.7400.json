@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣員山鄉湖東社區發展協會",
     "lat": 24.746471,
     "lng": 121.70628,
-    "address": "264宜蘭縣員山鄉湖東村茄苳路68之2號"
+    "address": "264宜蘭縣員山鄉湖東村茄苳路68之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局枕山派出所",
     "lat": 24.758985,
     "lng": 121.718787,
-    "address": "264宜蘭縣員山鄉永同路三段18號"
+    "address": "264宜蘭縣員山鄉永同路三段18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

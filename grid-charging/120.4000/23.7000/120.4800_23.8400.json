@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "溪州郵局",
     "lat": 23.85144,
     "lng": 120.494807,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣溪州鄉戶政事務所服務台",
     "lat": 23.852901,
     "lng": 120.493283,

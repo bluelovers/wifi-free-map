@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司烏日營運所",
     "lat": 24.103574,
     "lng": 120.627486,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "烏日明道郵局",
     "lat": 24.105107,
     "lng": 120.639864,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "烏日郵局",
     "lat": 24.106232,
     "lng": 120.624934,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司台中市大肚區服務中心",
     "lat": 24.109068,
     "lng": 120.62487,

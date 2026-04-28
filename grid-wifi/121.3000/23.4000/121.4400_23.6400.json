@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "光復富田郵局",
     "lat": 23.659609,
     "lng": 121.448715,
-    "address": "976花蓮縣光復鄉富田一街36號-1"
+    "address": "976花蓮縣光復鄉富田一街36號-1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

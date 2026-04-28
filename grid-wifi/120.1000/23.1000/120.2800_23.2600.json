@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市柳營區八翁社區發展協會",
     "lat": 23.2746,
     "lng": 120.2976,
-    "address": "736臺南市柳營區八翁里八老爺62之4號"
+    "address": "736臺南市柳營區八翁里八老爺62之4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市柳營區人和里辦公處",
     "lat": 23.277,
     "lng": 120.297,
-    "address": "736臺南市柳營區人和里柳營路三段420巷1弄2號"
+    "address": "736臺南市柳營區人和里柳營路三段420巷1弄2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

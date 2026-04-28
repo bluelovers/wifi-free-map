@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會中彰榮譽國民之家中正堂二樓",
     "lat": 24.070188,
     "lng": 120.565275,
-    "address": "500彰化縣彰化市桃源里公園路二段301號"
+    "address": "500彰化縣彰化市桃源里公園路二段301號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

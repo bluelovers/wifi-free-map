@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通部觀光局茂林國家風景區寶來旅遊服務中心",
     "lat": 23.00262,
     "lng": 120.654502,

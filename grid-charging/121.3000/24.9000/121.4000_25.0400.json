@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "泰山南林郵局",
     "lat": 25.049828,
     "lng": 121.4154,

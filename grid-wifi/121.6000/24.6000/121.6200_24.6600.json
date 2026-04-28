@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣三星鄉天送埤社區發展協會",
     "lat": 24.660799,
     "lng": 121.622887,
-    "address": "266宜蘭縣三星鄉天山村福山街30之1號"
+    "address": "266宜蘭縣三星鄉天山村福山街30之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "宜蘭縣政府警察局福山派出所",
     "lat": 24.661781,
     "lng": 121.621756,
-    "address": "266宜蘭縣三星鄉天福村三星路七段310號"
+    "address": "266宜蘭縣三星鄉天福村三星路七段310號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

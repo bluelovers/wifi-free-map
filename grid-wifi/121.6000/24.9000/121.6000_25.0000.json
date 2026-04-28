@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "深坑郵局",
     "lat": 25.001197,
     "lng": 121.609063,
-    "address": "222新北市深坑區北深路三段30號"
+    "address": "222新北市深坑區北深路三段30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "詠靜公共托老中心",
     "lat": 25.001729,
     "lng": 121.605474,
-    "address": "222新北市深坑區萬順里北深路三段105號一樓"
+    "address": "222新北市深坑區萬順里北深路三段105號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "深坑區農會",
     "lat": 25.002851,
     "lng": 121.616398,
-    "address": "222新北市深坑區深坑里深坑街8號二樓"
+    "address": "222新北市深坑區深坑里深坑街8號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "慈湖園區-後慈湖1號辦公室",
     "lat": 24.844753,
     "lng": 121.301258,
-    "address": "335桃園市大溪區福安里4鄰6號"
+    "address": "335桃園市大溪區福安里4鄰6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

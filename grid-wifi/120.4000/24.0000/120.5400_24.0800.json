@@ -1,226 +1,310 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局彰化分局",
     "lat": 24.080536,
     "lng": 120.543001,
-    "address": "500彰化縣彰化市民生路234號"
+    "address": "500彰化縣彰化市民生路234號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣原彰化警察署",
     "lat": 24.080633,
     "lng": 120.542819,
-    "address": "500彰化縣彰化市民生路234號"
+    "address": "500彰化縣彰化市民生路234號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化光復路郵局",
     "lat": 24.0807,
     "lng": 120.54067,
-    "address": "500彰化縣彰化市光復路130號"
+    "address": "500彰化縣彰化市光復路130號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀北彰化分行",
     "lat": 24.080791,
     "lng": 120.544444,
-    "address": "500彰化縣彰化市光復路39號"
+    "address": "500彰化縣彰化市光復路39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣彰化市定光佛廟",
     "lat": 24.080804,
     "lng": 120.540058,
-    "address": "500彰化縣彰化市光復路140號"
+    "address": "500彰化縣彰化市光復路140號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣彰化市公所服務台",
     "lat": 24.080976,
     "lng": 120.542238,
-    "address": "500彰化縣彰化市光復路74號"
+    "address": "500彰化縣彰化市光復路74號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行彰化分行",
     "lat": 24.080994,
     "lng": 120.541774,
-    "address": "500彰化縣彰化市光復路98號"
+    "address": "500彰化縣彰化市光復路98號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣介壽藝文館暨旅遊資訊",
     "lat": 24.081469,
     "lng": 120.542204,
-    "address": "500彰化縣彰化市民生路259號"
+    "address": "500彰化縣彰化市民生路259號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "彰化縣國光客運彰化站",
     "lat": 24.082182,
     "lng": 120.540211,
-    "address": "500彰化縣彰化市中正路一段531號"
+    "address": "500彰化縣彰化市中正路一段531號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化師大郵局",
     "lat": 24.082589,
     "lng": 120.558357,
-    "address": "500彰化縣彰化市進德路1號"
+    "address": "500彰化縣彰化市進德路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局彰化分局民生路派出所",
     "lat": 24.083427,
     "lng": 120.542412,
-    "address": "500彰化縣彰化市信義里民生路322號"
+    "address": "500彰化縣彰化市信義里民生路322號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署中彰投分署彰化就業中心洽公櫃台",
     "lat": 24.08371,
     "lng": 120.541246,
-    "address": "500彰化縣彰化市長壽街202號"
+    "address": "500彰化縣彰化市長壽街202號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化市仔尾郵局",
     "lat": 24.083915,
     "lng": 120.547728,
-    "address": "500彰化縣彰化市中正路一段214號"
+    "address": "500彰化縣彰化市中正路一段214號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內政部移民署彰化縣服務站(新)",
     "lat": 24.084181,
     "lng": 120.553906,
-    "address": "500彰化縣彰化市中山路三段2號1樓"
+    "address": "500彰化縣彰化市中山路三段2號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣彰化市老居工坊",
     "lat": 24.084253,
     "lng": 120.548635,
-    "address": "500彰化縣彰化市慈生街72號"
+    "address": "500彰化縣彰化市慈生街72號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司彰化直銷中心",
     "lat": 24.084601,
     "lng": 120.553812,
-    "address": "500彰化縣彰化市中山路三段27號"
+    "address": "500彰化縣彰化市中山路三段27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣彰化市福智社區研習教室",
     "lat": 24.085391,
     "lng": 120.547163,
-    "address": "500彰化縣彰化市中民街33號"
+    "address": "500彰化縣彰化市中民街33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣扇形車庫運轉室",
     "lat": 24.086132,
     "lng": 120.540164,
-    "address": "500彰化縣彰化市彰美路一段1號"
+    "address": "500彰化縣彰化市彰美路一段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣扇形車庫展示室",
     "lat": 24.086132,
     "lng": 120.540164,
-    "address": "500彰化縣彰化市彰美路一段1號"
+    "address": "500彰化縣彰化市彰美路一段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣扇形車庫後棟1F",
     "lat": 24.086132,
     "lng": 120.540164,
-    "address": "500彰化縣彰化市彰美路一段1號"
+    "address": "500彰化縣彰化市彰美路一段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣消防局彰化東區分隊",
     "lat": 24.086402,
     "lng": 120.559813,
-    "address": "500彰化縣彰化市中山路三段266號"
+    "address": "500彰化縣彰化市中山路三段266號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣彰化市陽明聯合里辦公室_彰化市長青大學",
     "lat": 24.086633,
     "lng": 120.548255,
-    "address": "500彰化縣彰化市三民路436號"
+    "address": "500彰化縣彰化市三民路436號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣彰化市老人文康活動中心",
     "lat": 24.086641,
     "lng": 120.548255,
-    "address": "500彰化縣彰化市三民路436號"
+    "address": "500彰化縣彰化市三民路436號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化永安街郵局",
     "lat": 24.087524,
     "lng": 120.54489,
-    "address": "500彰化縣彰化市民生里永安街198號"
+    "address": "500彰化縣彰化市民生里永安街198號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣彰化市下廍社區活動中心_金馬公園",
     "lat": 24.091159,
     "lng": 120.547846,
-    "address": "500彰化縣彰化市泰安二街115號"
+    "address": "500彰化縣彰化市泰安二街115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣北區社區保母系統",
     "lat": 24.093073,
     "lng": 120.541586,
-    "address": "500彰化縣彰化市辭修北路233號"
+    "address": "500彰化縣彰化市辭修北路233號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣彰化市阿夷社區活動中心_泰和公園",
     "lat": 24.093946,
     "lng": 120.552148,
-    "address": "500彰化縣彰化市泰和路二段211-1號"
+    "address": "500彰化縣彰化市泰和路二段211-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局彰化分局泰和派出所",
     "lat": 24.095719,
     "lng": 120.556018,
-    "address": "500彰化縣彰化市泰和路二段399號"
+    "address": "500彰化縣彰化市泰和路二段399號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

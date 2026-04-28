@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "豐濱郵局",
     "lat": 23.601824,
     "lng": 121.520501,

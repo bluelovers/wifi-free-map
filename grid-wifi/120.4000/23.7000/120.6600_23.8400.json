@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣私立慈愛居家長照機構(名間)",
     "lat": 23.856775,
     "lng": 120.675776,
-    "address": "551南投縣名間鄉新光村大廈巷30號1樓"
+    "address": "551南投縣名間鄉新光村大廈巷30號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣名間鄉大庄社區發展協會",
     "lat": 23.857,
     "lng": 120.672,
-    "address": "551南投縣名間鄉大庄村大廈巷82之4號(大賢宮)"
+    "address": "551南投縣名間鄉大庄村大廈巷82之4號(大賢宮)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

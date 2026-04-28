@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "新竹縣政府內灣老街7-11路口旁",
     "lat": 24.703874,
     "lng": 121.183107,
-    "address": "312新竹縣橫山鄉內灣村中正路7號"
+    "address": "312新竹縣橫山鄉內灣村中正路7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局內灣站候車室",
     "lat": 24.705424,
     "lng": 121.182471,
-    "address": "312新竹縣橫山鄉中正路6號"
+    "address": "312新竹縣橫山鄉中正路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "橫山內灣郵局",
     "lat": 24.706683,
     "lng": 121.180298,
-    "address": "312新竹縣橫山鄉內灣村中正路309號"
+    "address": "312新竹縣橫山鄉內灣村中正路309號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

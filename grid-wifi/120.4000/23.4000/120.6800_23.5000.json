@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司奮起服務所大廳",
     "lat": 23.504752,
     "lng": 120.693805,
-    "address": "604嘉義縣竹崎鄉中和村奮起湖97-4號"
+    "address": "604嘉義縣竹崎鄉中和村奮起湖97-4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘭嶼郵局",
     "lat": 22.025038,
     "lng": 121.554228,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣公館鄉福基社區發展協會",
     "lat": 24.471919,
     "lng": 120.829094,
-    "address": "363苗栗縣公館鄉福基村福基127之1號旁"
+    "address": "363苗栗縣公館鄉福基村福基127之1號旁",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

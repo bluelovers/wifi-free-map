@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣頭屋鄉明德社區發展協會",
     "lat": 24.585868,
     "lng": 120.886073,
-    "address": "362苗栗縣頭屋鄉明德村6鄰明德81號"
+    "address": "362苗栗縣頭屋鄉明德村6鄰明德81號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

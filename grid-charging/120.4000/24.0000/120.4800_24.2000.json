@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司台中發電廠接待中心",
     "lat": 24.214287,
     "lng": 120.49221,

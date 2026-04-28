@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "阿里山國家風景區管理處觀光推廣中心",
     "lat": 23.44605,
     "lng": 120.586676,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "阿里山國家風景區管理處遊客中心",
     "lat": 23.44613,
     "lng": 120.586039,

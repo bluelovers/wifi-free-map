@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市和平區佳陽社區發展協會",
     "lat": 24.161,
     "lng": 120.863,
-    "address": "424臺中市和平區梨山里和平路二段佳陽新巷33號"
+    "address": "424臺中市和平區梨山里和平路二段佳陽新巷33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

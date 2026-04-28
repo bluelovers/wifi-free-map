@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館阿連分館",
     "lat": 22.881315,
     "lng": 120.333323,
-    "address": "822高雄市阿蓮區中正路381巷35號2樓"
+    "address": "822高雄市阿蓮區中正路381巷35號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市阿蓮區阿蓮社區發展協會",
     "lat": 22.88286,
     "lng": 120.334513,
-    "address": "822高雄市阿蓮區阿蓮里成功街66號"
+    "address": "822高雄市阿蓮區阿蓮里成功街66號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市阿蓮區公所",
     "lat": 22.883075,
     "lng": 120.327287,
-    "address": "822高雄市阿蓮區民生路94號"
+    "address": "822高雄市阿蓮區民生路94號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "阿蓮郵局",
     "lat": 22.883314,
     "lng": 120.326911,
-    "address": "822高雄市阿蓮區清蓮村民生路101號"
+    "address": "822高雄市阿蓮區清蓮村民生路101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

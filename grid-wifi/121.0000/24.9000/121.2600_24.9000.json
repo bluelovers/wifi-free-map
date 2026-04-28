@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大溪南興郵局",
     "lat": 24.903393,
     "lng": 121.26688,
-    "address": "335桃園市大溪區南興里24鄰仁和路二段126號"
+    "address": "335桃園市大溪區南興里24鄰仁和路二段126號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市大溪區南興社區發展協會",
     "lat": 24.904514,
     "lng": 121.265136,
-    "address": "335桃園市大溪區南興里仁和路二段190巷29號"
+    "address": "335桃園市大溪區南興里仁和路二段190巷29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

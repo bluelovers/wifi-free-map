@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南化郵局",
     "lat": 23.041394,
     "lng": 120.484724,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣二林鎮戶政事務所",
     "lat": 23.900101,
     "lng": 120.370331,

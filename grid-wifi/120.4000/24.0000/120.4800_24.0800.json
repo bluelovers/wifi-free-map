@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局鹿港分局頂番派出所",
     "lat": 24.086237,
     "lng": 120.481353,
-    "address": "505彰化縣鹿港鎮頂番里鹿和路四段25號"
+    "address": "505彰化縣鹿港鎮頂番里鹿和路四段25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣鹿港鎮頂番社區活動中心",
     "lat": 24.087138,
     "lng": 120.482769,
-    "address": "505彰化縣鹿港鎮彰頂路326巷137號"
+    "address": "505彰化縣鹿港鎮彰頂路326巷137號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鹿港頂番郵局",
     "lat": 24.087806,
     "lng": 120.482647,
-    "address": "505彰化縣鹿港鎮頂番里鹿和路四段147號"
+    "address": "505彰化縣鹿港鎮頂番里鹿和路四段147號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣和美鎮雅溝社區活動中心",
     "lat": 24.099577,
     "lng": 120.491606,
-    "address": "508彰化縣和美鎮雅溝里南軒路359巷7號"
+    "address": "508彰化縣和美鎮雅溝里南軒路359巷7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

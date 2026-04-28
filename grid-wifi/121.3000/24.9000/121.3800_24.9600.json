@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "樹林山佳郵局",
     "lat": 24.971551,
     "lng": 121.392519,
-    "address": "238新北市樹林區佳園路一段28號"
+    "address": "238新北市樹林區佳園路一段28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局山佳站新站補票房",
     "lat": 24.972606,
     "lng": 121.392827,
-    "address": "238新北市樹林區山佳街28號"
+    "address": "238新北市樹林區山佳街28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市樹林區原住民族發展協進會",
     "lat": 24.972653,
     "lng": 121.394671,
-    "address": "238新北市樹林區中山里中山路三段40號三樓"
+    "address": "238新北市樹林區中山里中山路三段40號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "山佳社區發展協會",
     "lat": 24.972653,
     "lng": 121.394671,
-    "address": "238新北市樹林區中山里中山路三段40號二樓"
+    "address": "238新北市樹林區中山里中山路三段40號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

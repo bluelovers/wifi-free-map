@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永康大灣郵局",
     "lat": 23.006253,
     "lng": 120.268899,

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣衛生局瑞穗鄉衛生所",
     "lat": 23.500069,
     "lng": 121.379127,
-    "address": "978花蓮縣瑞穗鄉民生街75號"
+    "address": "978花蓮縣瑞穗鄉民生街75號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣私立玉里綜合長照機構-瑞穗",
     "lat": 23.502619,
     "lng": 121.378463,
-    "address": "978花蓮縣瑞穗鄉瑞穗村文昌街48巷16號"
+    "address": "978花蓮縣瑞穗鄉瑞穗村文昌街48巷16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

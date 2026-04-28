@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "雪霸國家公園管理處雪見遊客中心",
     "lat": 24.424697,
     "lng": 121.013358,
-    "address": "365苗栗縣泰安鄉梅園村7鄰雪見10號"
+    "address": "365苗栗縣泰安鄉梅園村7鄰雪見10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "雪霸國家公園管理處遊客中心",
     "lat": 24.424697,
     "lng": 121.013358,
-    "address": "365苗栗縣泰安鄉梅園村7鄰雪見7號"
+    "address": "365苗栗縣泰安鄉梅園村7鄰雪見7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

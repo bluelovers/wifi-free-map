@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人雲林縣四湖鄉沙崙湖文史關懷協會",
     "lat": 23.652927,
     "lng": 120.157561,
-    "address": "654雲林縣四湖鄉崙北村中山路50巷17號"
+    "address": "654雲林縣四湖鄉崙北村中山路50巷17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

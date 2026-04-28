@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人南投縣中寮鄉龍眼林福利協會",
     "lat": 23.923647,
     "lng": 120.731828,
-    "address": "541南投縣中寮鄉永和村龍南路321之11號"
+    "address": "541南投縣中寮鄉永和村龍南路321之11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

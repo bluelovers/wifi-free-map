@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部中央地質調查所地質研究館1F大禮堂及開標室",
     "lat": 24.9826,
     "lng": 121.508558,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部中央地質調查所地質研究館1F會客室",
     "lat": 24.9826,
     "lng": 121.508558,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部中央地質調查所地質研究館2F第1會議室及貴賓室",
     "lat": 24.9826,
     "lng": 121.508558,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部中央地質調查所地質研究館2F第2會議室",
     "lat": 24.9826,
     "lng": 121.508558,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部中央地質調查所地質研究館3F圖書室",
     "lat": 24.9826,
     "lng": 121.508558,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部中央地質調查所岩心資料館1F岩心處理中心",
     "lat": 24.9826,
     "lng": 121.508558,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部中央地質調查所岩心資料館5F標本展示中心",
     "lat": 24.9826,
     "lng": 121.508558,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新店永安郵局",
     "lat": 24.982617,
     "lng": 121.517818,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通部公路總局第一區養護工程處中和工務段",
     "lat": 24.983238,
     "lng": 121.517842,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署新店辦公區",
     "lat": 24.98361,
     "lng": 121.51805,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中和興南郵局",
     "lat": 24.986403,
     "lng": 121.506603,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中和南勢角郵局",
     "lat": 24.988091,
     "lng": 121.513155,
@@ -85,6 +97,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市中和戶政事務所4F_A",
     "lat": 24.98972,
     "lng": 121.506447,
@@ -92,6 +105,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司中和服務所大廳",
     "lat": 24.991193,
     "lng": 121.507051,
@@ -99,6 +113,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永和中正路郵局",
     "lat": 24.997274,
     "lng": 121.515267,
@@ -106,6 +121,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中和宜安郵局",
     "lat": 24.997663,
     "lng": 121.51042,
@@ -113,6 +129,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "安平派出所",
     "lat": 24.9998,
     "lng": 121.5112,

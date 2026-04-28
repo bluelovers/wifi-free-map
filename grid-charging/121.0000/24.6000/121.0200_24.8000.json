@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹北嘉豐郵局",
     "lat": 24.814599,
     "lng": 121.028373,

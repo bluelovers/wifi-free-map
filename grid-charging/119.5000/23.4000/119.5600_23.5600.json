@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "馬公管理處馬公港1F候船室",
     "lat": 23.562971,
     "lng": 119.564432,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "馬公管理處馬公港2F候船室",
     "lat": 23.562971,
     "lng": 119.564432,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司馬公直銷中心",
     "lat": 23.565134,
     "lng": 119.568659,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司澎湖縣馬公市馬公站",
     "lat": 23.565286,
     "lng": 119.568435,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南海遊客中心",
     "lat": 23.566162,
     "lng": 119.572258,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "馬公中正路郵局",
     "lat": 23.567051,
     "lng": 119.565604,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司澎湖營運所",
     "lat": 23.569776,
     "lng": 119.573391,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "澎湖縣政府警察局一樓大廳",
     "lat": 23.570007,
     "lng": 119.565911,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局高雄分局澎湖辦事處",
     "lat": 23.57084,
     "lng": 119.57423,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "馬公中華路郵局",
     "lat": 23.570995,
     "lng": 119.572748,

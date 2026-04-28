@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "義竹郵局",
     "lat": 23.335867,
     "lng": 120.24353,

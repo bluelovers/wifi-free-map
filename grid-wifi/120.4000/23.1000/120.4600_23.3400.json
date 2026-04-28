@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "白河仙草埔郵局",
     "lat": 23.343864,
     "lng": 120.4762,
-    "address": "732臺南市白河區仙草里仙草63-1號"
+    "address": "732臺南市白河區仙草里仙草63-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

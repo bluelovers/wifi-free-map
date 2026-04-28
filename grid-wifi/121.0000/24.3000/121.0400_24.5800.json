@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣南庄鄉瓦祿部落",
     "lat": 24.59996,
     "lng": 121.0419,
-    "address": "353苗栗縣南庄鄉東河村東興新村81-4號"
+    "address": "353苗栗縣南庄鄉東河村東興新村81-4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

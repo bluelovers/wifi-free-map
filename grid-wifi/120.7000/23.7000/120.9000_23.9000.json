@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "埔里基督教醫院(茶鄉失智社區服務據點)",
     "lat": 23.902957,
     "lng": 120.917114,
-    "address": "555南投縣魚池鄉新城村修正巷11號"
+    "address": "555南投縣魚池鄉新城村修正巷11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

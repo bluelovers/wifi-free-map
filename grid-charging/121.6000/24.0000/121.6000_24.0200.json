@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮航空站",
     "lat": 24.02529,
     "lng": 121.618326,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新城北埔郵局",
     "lat": 24.032406,
     "lng": 121.606323,

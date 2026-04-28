@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹南中港郵局",
     "lat": 24.683306,
     "lng": 120.866848,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "苗栗縣竹南鎮戶政事務所",
     "lat": 24.683918,
     "lng": 120.873792,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹南郵局",
     "lat": 24.685917,
     "lng": 120.878536,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹南照南郵局",
     "lat": 24.691583,
     "lng": 120.879794,

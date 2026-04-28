@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "土城工業區服務中心",
     "lat": 24.963135,
     "lng": 121.420759,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "土城工業區郵局",
     "lat": 24.9667,
     "lng": 121.433,

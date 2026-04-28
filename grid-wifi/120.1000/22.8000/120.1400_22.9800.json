@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "行政院農業委員會漁業署南市區漁會魚市場",
     "lat": 22.995816,
     "lng": 120.157787,
-    "address": "708臺南市安平區運河路97號"
+    "address": "708臺南市安平區運河路97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

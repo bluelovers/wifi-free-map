@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "平鎮金陵郵局",
     "lat": 24.924762,
     "lng": 121.228093,

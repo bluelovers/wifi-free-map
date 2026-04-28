@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣二崙鄉中和社區發展協會",
     "lat": 23.762998,
     "lng": 120.398148,
-    "address": "649雲林縣二崙鄉來惠村中和路31之4號"
+    "address": "649雲林縣二崙鄉來惠村中和路31之4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市清水區戶政事務所",
     "lat": 24.26638,
     "lng": 120.562884,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "清水郵局",
     "lat": 24.268059,
     "lng": 120.575274,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司清水營運所",
     "lat": 24.268693,
     "lng": 120.579084,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "岡山大仁郵局",
     "lat": 22.805467,
     "lng": 120.301609,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "國道公路警察局第五公路警察大隊",
     "lat": 22.810874,
     "lng": 120.315396,

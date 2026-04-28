@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司花壇營運所",
     "lat": 24.019982,
     "lng": 120.556932,
-    "address": "503彰化縣花壇鄉灣雅村花橋街11號"
+    "address": "503彰化縣花壇鄉灣雅村花橋街11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

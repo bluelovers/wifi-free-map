@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "林內郵局",
     "lat": 23.756357,
     "lng": 120.613409,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司竹山營運所",
     "lat": 23.760108,
     "lng": 120.682875,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹山延和郵局",
     "lat": 23.760153,
     "lng": 120.690649,

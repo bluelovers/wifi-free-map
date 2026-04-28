@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "善化郵局",
     "lat": 23.126872,
     "lng": 120.294106,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "善化中山路郵局",
     "lat": 23.132124,
     "lng": 120.29208,

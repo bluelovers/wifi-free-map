@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台南海佃郵局",
     "lat": 23.022892,
     "lng": 120.191442,
-    "address": "709臺南市安南區國安街8號"
+    "address": "709臺南市安南區國安街8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

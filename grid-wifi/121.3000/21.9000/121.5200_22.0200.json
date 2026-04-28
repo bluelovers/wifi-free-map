@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "蘭嶼航空站",
     "lat": 22.026836,
     "lng": 121.536424,
-    "address": "952臺東縣蘭嶼鄉紅頭村漁人151號"
+    "address": "952臺東縣蘭嶼鄉紅頭村漁人151號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

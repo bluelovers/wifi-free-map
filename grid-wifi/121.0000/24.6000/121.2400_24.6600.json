@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣尖石鄉那羅四部落",
     "lat": 24.6798,
     "lng": 121.24848,
-    "address": "313新竹縣尖石鄉錦屏村那羅11鄰163號"
+    "address": "313新竹縣尖石鄉錦屏村那羅11鄰163號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "后里月眉郵局",
     "lat": 24.313412,
     "lng": 120.695157,

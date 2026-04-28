@@ -1,298 +1,409 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市大里區大新社區發展協會",
     "lat": 24.100338,
     "lng": 120.676247,
-    "address": "412臺中市大里區新里里新興路99巷16弄56號"
+    "address": "412臺中市大里區新里里新興路99巷16弄56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀大里分行",
     "lat": 24.104747,
     "lng": 120.675008,
-    "address": "412臺中市大里區爽文路600號"
+    "address": "412臺中市大里區爽文路600號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商大里文心南路樹王店(公話)",
     "lat": 24.105339,
     "lng": 120.667362,
-    "address": "412臺中市大里區文心南路1252號"
+    "address": "412臺中市大里區文心南路1252號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店大里永隆路順發店(公話)",
     "lat": 24.108102,
     "lng": 120.676576,
-    "address": "412臺中市大里區永隆路209號"
+    "address": "412臺中市大里區永隆路209號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車崇光國小站",
     "lat": 24.108451,
     "lng": 120.675006,
-    "address": "412臺中市大里區爽文路870號-1"
+    "address": "412臺中市大里區爽文路870號-1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市南區樹義社區發展協會",
     "lat": 24.108747,
     "lng": 120.661013,
-    "address": "402臺中市南區樹義里福田二街23號"
+    "address": "402臺中市南區樹義里福田二街23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車大里仁愛醫院站",
     "lat": 24.109498,
     "lng": 120.679973,
-    "address": "412臺中市大里區國光路與東榮路口"
+    "address": "412臺中市大里區國光路與東榮路口",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行大里分行",
     "lat": 24.109647,
     "lng": 120.676762,
-    "address": "412臺中市大里區東榮路652號"
+    "address": "412臺中市大里區東榮路652號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行大里分行",
     "lat": 24.110968,
     "lng": 120.679025,
-    "address": "412臺中市大里區國光路二段481號"
+    "address": "412臺中市大里區國光路二段481號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市大里區永隆社區發展協會",
     "lat": 24.112392,
     "lng": 120.67362,
-    "address": "412臺中市大里區永隆里永隆六街29號"
+    "address": "412臺中市大里區永隆里永隆六街29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市永興宮(公話)",
     "lat": 24.112478,
     "lng": 120.663246,
-    "address": "402臺中市南區工學二街236號(公話)"
+    "address": "402臺中市南區工學二街236號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市南區永興社區發展協會",
     "lat": 24.112483,
     "lng": 120.663017,
-    "address": "402臺中市南區永興里工學二街236號"
+    "address": "402臺中市南區永興里工學二街236號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "萊爾富便利商店南區五權南一路衛斯理店(公話)",
     "lat": 24.112581,
     "lng": 120.669748,
-    "address": "402臺中市南區五權南一路52號"
+    "address": "402臺中市南區五權南一路52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南區高工路高工店(公話)",
     "lat": 24.113218,
     "lng": 120.661956,
-    "address": "402臺中市南區高工路170號"
+    "address": "402臺中市南區高工路170號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中高工(YouBike微笑單車)站",
     "lat": 24.113243,
     "lng": 120.661049,
-    "address": "402臺中市南區高工路185號(TCKH3090)"
+    "address": "402臺中市南區高工路185號(TCKH3090)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車國光東興路口站",
     "lat": 24.11372,
     "lng": 120.67932,
-    "address": "412臺中市大里區國光路2段674號前(TCNH3090)"
+    "address": "412臺中市大里區國光路2段674號前(TCNH3090)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南區高工路台火店(公話)",
     "lat": 24.114299,
     "lng": 120.666919,
-    "address": "402臺中市南區高工路355號"
+    "address": "402臺中市南區高工路355號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人臺中市私立永耕社會福利基金會",
     "lat": 24.114576,
     "lng": 120.669995,
-    "address": "402臺中市南區永和里五權南路657號"
+    "address": "402臺中市南區永和里五權南路657號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商大里大明路永隆店(公話)",
     "lat": 24.114805,
     "lng": 120.676376,
-    "address": "412臺中市大里區大明路457號"
+    "address": "412臺中市大里區大明路457號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店大里大明路永勝店(公話)",
     "lat": 24.114826,
     "lng": 120.675964,
-    "address": "412臺中市大里區大明路469號"
+    "address": "412臺中市大里區大明路469號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店大里大明路新捷勝店(公話)",
     "lat": 24.115133,
     "lng": 120.674142,
-    "address": "412臺中市大里區大明路512號"
+    "address": "412臺中市大里區大明路512號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台中南和路郵局",
     "lat": 24.116098,
     "lng": 120.66892,
-    "address": "402臺中市南區南和路42、44號"
+    "address": "402臺中市南區南和路42、44號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店南區工學二街新時代店(公話)",
     "lat": 24.11657,
     "lng": 120.664,
-    "address": "402臺中市南區工學二街95號"
+    "address": "402臺中市南區工學二街95號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南區工學路大時代(公話)",
     "lat": 24.116694,
     "lng": 120.665892,
-    "address": "402臺中市南區工學路55號"
+    "address": "402臺中市南區工學路55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南區工學路長億店(公話)",
     "lat": 24.117006,
     "lng": 120.661906,
-    "address": "402臺中市南區工學路108號"
+    "address": "402臺中市南區工學路108號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車南區公所站",
     "lat": 24.117007,
     "lng": 120.663097,
-    "address": "402臺中市南區工學路82號(公話亭)"
+    "address": "402臺中市南區工學路82號(公話亭)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南區五權南路詠權店(公話)",
     "lat": 24.117087,
     "lng": 120.66986,
-    "address": "402臺中市南區五權南路527號"
+    "address": "402臺中市南區五權南路527號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "標準檢驗局台中分局檢驗業務民眾洽公區",
     "lat": 24.1171,
     "lng": 120.664696,
-    "address": "402臺中市南區工學路70號"
+    "address": "402臺中市南區工學路70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南區戶政事務所",
     "lat": 24.117147,
     "lng": 120.663628,
-    "address": "402臺中市南區工學路72號1樓"
+    "address": "402臺中市南區工學路72號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "南區衛生所",
     "lat": 24.117148,
     "lng": 120.663629,
-    "address": "402臺中市南區工學路72號2樓"
+    "address": "402臺中市南區工學路72號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南區區公所",
     "lat": 24.117149,
     "lng": 120.663628,
-    "address": "402臺中市南區工學路72號3~5樓"
+    "address": "402臺中市南區工學路72號3~5樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "標準檢驗局台中分局",
     "lat": 24.117302,
     "lng": 120.664784,
-    "address": "402臺中市南區工學路70號"
+    "address": "402臺中市南區工學路70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市南區南和社區發展協會",
     "lat": 24.117647,
     "lng": 120.663198,
-    "address": "402臺中市南區南和里工學三街23號"
+    "address": "402臺中市南區南和里工學三街23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商南區興大路商頂橋店(公話)",
     "lat": 24.118331,
     "lng": 120.6716,
-    "address": "402臺中市南區興大路340號"
+    "address": "402臺中市南區興大路340號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "忠明南路美村南路口",
     "lat": 24.11872,
     "lng": 120.66696,
-    "address": "402臺中市南區忠明南路1114號對面(TCKH2150"
+    "address": "402臺中市南區忠明南路1114號對面(TCKH2150",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車忠明南五權南路口站(天橋下)",
     "lat": 24.119026,
     "lng": 120.67022,
-    "address": "402臺中市南區忠明南路1150號"
+    "address": "402臺中市南區忠明南路1150號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車美村忠明南路口站(健康派出所)",
     "lat": 24.119906,
     "lng": 120.666888,
-    "address": "402臺中市南區美村南路61號對面(TCKH2320)"
+    "address": "402臺中市南區美村南路61號對面(TCKH2320)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

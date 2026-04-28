@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司嘉義縣阿里山鄉阿里山新站",
     "lat": 23.450027,
     "lng": 120.861379,

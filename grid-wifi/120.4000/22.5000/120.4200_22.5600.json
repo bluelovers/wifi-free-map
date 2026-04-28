@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄臨海林園大發工業區聯合污水處理廠-大發廠",
     "lat": 22.571198,
     "lng": 120.428787,
-    "address": "831高雄市大寮區建業路15號"
+    "address": "831高雄市大寮區建業路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

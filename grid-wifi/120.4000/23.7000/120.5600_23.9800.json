@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局員林分局村上派出所",
     "lat": 23.989232,
     "lng": 120.564351,
-    "address": "515彰化縣大村鄉村上村中山路二段246號"
+    "address": "515彰化縣大村鄉村上村中山路二段246號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局大村站候車室",
     "lat": 23.989984,
     "lng": 120.560548,
-    "address": "515彰化縣大村鄉過溝村5鄰福進路100號"
+    "address": "515彰化縣大村鄉過溝村5鄰福進路100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

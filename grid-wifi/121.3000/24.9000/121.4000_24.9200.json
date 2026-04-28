@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市三峽區溪東社區發展協會",
     "lat": 24.931662,
     "lng": 121.407651,
-    "address": "237新北市三峽區溪東里溪東路218巷1號"
+    "address": "237新北市三峽區溪東里溪東路218巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

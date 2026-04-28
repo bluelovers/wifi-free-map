@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市大寮區戶政事務所",
     "lat": 22.602405,
     "lng": 120.397115,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大寮郵局",
     "lat": 22.606637,
     "lng": 120.395495,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大寮中興郵局",
     "lat": 22.614674,
     "lng": 120.388115,

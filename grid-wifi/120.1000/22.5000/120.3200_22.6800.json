@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人雙福社會福利慈善事業基金會(左營區)",
     "lat": 22.68,
     "lng": 120.3207,
-    "address": "813高雄市左營區福山里榮耀街32號一樓"
+    "address": "813高雄市左營區福山里榮耀街32號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市安和社會福利發展協會(八卦站)",
     "lat": 22.690581,
     "lng": 120.337004,
-    "address": "814高雄市仁武區八卦里八德西路2012號"
+    "address": "814高雄市仁武區八卦里八德西路2012號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市仁武區高楠社區發展協會",
     "lat": 22.691749,
     "lng": 120.324188,
-    "address": "814高雄市仁武區高楠里高楠四街58號"
+    "address": "814高雄市仁武區高楠里高楠四街58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

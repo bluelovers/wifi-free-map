@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "茶業改良場凍頂工作站",
     "lat": 23.764291,
     "lng": 120.741416,
-    "address": "558南投縣鹿谷鄉初鄉村仁愛路255號"
+    "address": "558南投縣鹿谷鄉初鄉村仁愛路255號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

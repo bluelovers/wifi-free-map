@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "琉球郵局",
     "lat": 22.343406,
     "lng": 120.373643,
-    "address": "929屏東縣琉球鄉本福村中山路105號"
+    "address": "929屏東縣琉球鄉本福村中山路105號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣琉球鄉杉福社區發展協會",
     "lat": 22.344645,
     "lng": 120.367484,
-    "address": "929屏東縣琉球鄉杉福村復興路1巷1之3號"
+    "address": "929屏東縣琉球鄉杉福村復興路1巷1之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

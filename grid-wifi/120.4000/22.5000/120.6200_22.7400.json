@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "交通部觀光局茂林國家風景區賽嘉旅遊服務中心",
     "lat": 22.752203,
     "lng": 120.635337,
-    "address": "901屏東縣三地門鄉賽嘉村賽嘉巷120號"
+    "address": "901屏東縣三地門鄉賽嘉村賽嘉巷120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "交通部觀光局茂林國家風景區管理處賽嘉遊客中心",
     "lat": 22.752203,
     "lng": 120.635337,
-    "address": "901屏東縣三地門鄉賽嘉村賽嘉巷120號"
+    "address": "901屏東縣三地門鄉賽嘉村賽嘉巷120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

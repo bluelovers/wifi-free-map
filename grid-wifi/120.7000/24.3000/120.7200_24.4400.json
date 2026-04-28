@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣阿斌哥大愛協會-南和站",
     "lat": 24.443256,
     "lng": 120.726152,
-    "address": "357苗栗縣通霄鎮南和里8鄰南和95之1號"
+    "address": "357苗栗縣通霄鎮南和里8鄰南和95之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

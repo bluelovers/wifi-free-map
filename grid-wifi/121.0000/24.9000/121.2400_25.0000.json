@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局北區工程處中壢工務段",
     "lat": 25.000974,
     "lng": 121.25269,
-    "address": "320桃園市中壢區內定里內定二街998號"
+    "address": "320桃園市中壢區內定里內定二街998號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "高速公路局北區工程處中壢服務區服務台",
     "lat": 25.003657,
     "lng": 121.251665,
-    "address": "320桃園市中壢區內定里內定二街998-3號"
+    "address": "320桃園市中壢區內定里內定二街998-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市大園區菓林社區發展協會",
     "lat": 25.006,
     "lng": 121.259,
-    "address": "337桃園市大園區果林里拔子林一路407巷36號"
+    "address": "337桃園市大園區果林里拔子林一路407巷36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

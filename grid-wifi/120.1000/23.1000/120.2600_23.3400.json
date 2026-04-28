@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣義竹鄉農會",
     "lat": 23.357,
     "lng": 120.27,
-    "address": "624嘉義縣義竹鄉第2鄰五間厝82號"
+    "address": "624嘉義縣義竹鄉第2鄰五間厝82號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

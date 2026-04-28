@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市大肚區營埔社區發展協會",
     "lat": 24.121522,
     "lng": 120.558102,
-    "address": "432臺中市大肚區營埔里營埔二街52號"
+    "address": "432臺中市大肚區營埔里營埔二街52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市大肚區社腳社區發展協會",
     "lat": 24.131753,
     "lng": 120.558813,
-    "address": "432臺中市大肚區社腳里沙田路一段774巷21之80號"
+    "address": "432臺中市大肚區社腳里沙田路一段774巷21之80號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商大肚沙田路親旺店(公話)",
     "lat": 24.132154,
     "lng": 120.553889,
-    "address": "432臺中市大肚區沙田路一段929號"
+    "address": "432臺中市大肚區沙田路一段929號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商大肚沙田路豐肚店(公話)",
     "lat": 24.13432,
     "lng": 120.5539,
-    "address": "432臺中市大肚區沙田路一段916號"
+    "address": "432臺中市大肚區沙田路一段916號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

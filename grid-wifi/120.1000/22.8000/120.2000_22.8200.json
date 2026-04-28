@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市永安區保寧社區發展協會",
     "lat": 22.821,
     "lng": 120.21,
-    "address": "828高雄市永安區保寧里保安路16巷2之1號"
+    "address": "828高雄市永安區保寧里保安路16巷2之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

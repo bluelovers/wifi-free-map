@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龍崎郵局",
     "lat": 22.968881,
     "lng": 120.383902,
-    "address": "719臺南市龍崎區崎頂村新市仔186號"
+    "address": "719臺南市龍崎區崎頂村新市仔186號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

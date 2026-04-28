@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣海端鄉加和部落",
     "lat": 23.00053,
     "lng": 121.13046,
-    "address": "957臺東縣海端鄉加拿村1鄰加南6-2"
+    "address": "957臺東縣海端鄉加拿村1鄰加南6-2",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

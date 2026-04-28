@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣秀林鄉銅門村辦公處",
     "lat": 23.964955,
     "lng": 121.494697,
-    "address": "972花蓮縣秀林鄉銅門村48-9號"
+    "address": "972花蓮縣秀林鄉銅門村48-9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣秀林鄉銅門國民小學",
     "lat": 23.965627,
     "lng": 121.493039,
-    "address": "972花蓮縣秀林鄉銅門村69號"
+    "address": "972花蓮縣秀林鄉銅門村69號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

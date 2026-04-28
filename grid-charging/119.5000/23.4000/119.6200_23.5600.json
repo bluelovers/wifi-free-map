@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "馬公航空站",
     "lat": 23.560616,
     "lng": 119.6297,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "湖西隘門郵局",
     "lat": 23.565566,
     "lng": 119.635505,

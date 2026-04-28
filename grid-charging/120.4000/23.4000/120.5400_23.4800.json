@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹崎內埔郵局",
     "lat": 23.48802,
     "lng": 120.558729,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "豐田(兼元長)工業區服務中心-元長",
     "lat": 23.613839,
     "lng": 120.333117,

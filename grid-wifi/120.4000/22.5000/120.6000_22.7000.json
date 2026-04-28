@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣瑪家鄉玉泉部落",
     "lat": 22.70905,
     "lng": 120.61852,
-    "address": "903屏東縣瑪家鄉玉泉31之3"
+    "address": "903屏東縣瑪家鄉玉泉31之3",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

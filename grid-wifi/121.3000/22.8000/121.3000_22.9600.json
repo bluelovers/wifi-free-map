@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣東河鄉公所",
     "lat": 22.968909,
     "lng": 121.3029,
-    "address": "959臺東縣東河鄉東河村11鄰南東河路311號"
+    "address": "959臺東縣東河鄉東河村11鄰南東河路311號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣東河鄉消防隊",
     "lat": 22.969899,
     "lng": 121.302716,
-    "address": "959臺東縣東河鄉東河村南東河路115號"
+    "address": "959臺東縣東河鄉東河村南東河路115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

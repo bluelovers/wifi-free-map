@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華關聖帝君文化交流協會",
     "lat": 25.055211,
     "lng": 121.337527,
-    "address": "333桃園市龜山區大坑里大坑路三段150巷6弄1號"
+    "address": "333桃園市龜山區大坑里大坑路三段150巷6弄1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆六堵郵局",
     "lat": 25.088337,
     "lng": 121.703406,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆市七堵戶政事務所",
     "lat": 25.093158,
     "lng": 121.711006,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局七堵站候車室",
     "lat": 25.093403,
     "lng": 121.714457,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局七堵站2樓剪票口",
     "lat": 25.093897,
     "lng": 121.713924,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局七堵站第2月台南端",
     "lat": 25.093897,
     "lng": 121.713924,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "基隆七堵郵局",
     "lat": 25.097056,
     "lng": 121.712774,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通部公路總局第一區養護工程處基隆福隆段公路新建工務所",
     "lat": 25.098458,
     "lng": 121.708876,

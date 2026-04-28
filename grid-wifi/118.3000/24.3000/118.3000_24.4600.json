@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "金門縣林厝砲陣地",
     "lat": 24.47634,
     "lng": 118.317196,
-    "address": "892金門縣金寧鄉林厝50-6號"
+    "address": "892金門縣金寧鄉林厝50-6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,98 +1,134 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行西三重分行",
     "lat": 25.080337,
     "lng": 121.481066,
-    "address": "241新北市三重區三和路四段237號"
+    "address": "241新北市三重區三和路四段237號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華仁親社區關懷協會(慈愛站)",
     "lat": 25.080684,
     "lng": 121.485111,
-    "address": "241新北市三重區慈愛里仁美街108巷13號一樓"
+    "address": "241新北市三重區慈愛里仁美街108巷13號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市三重區五常里辦公處",
     "lat": 25.080796,
     "lng": 121.496095,
-    "address": "241新北市三重區五常里仁義街157巷96號一樓"
+    "address": "241新北市三重區五常里仁義街157巷96號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人蘆洲燈塔全人關懷協會",
     "lat": 25.081,
     "lng": 121.48,
-    "address": "247新北市蘆洲區永康里長安街220巷14號"
+    "address": "247新北市蘆洲區永康里長安街220巷14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "三重五常郵局",
     "lat": 25.081054,
     "lng": 121.49689,
-    "address": "241新北市三重區仁義街168號"
+    "address": "241新北市三重區仁義街168號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市鶯歌區建德社區發展協會",
     "lat": 25.082,
     "lng": 121.491,
-    "address": "239新北市鶯歌區建德里中正一路建德巷22號"
+    "address": "239新北市鶯歌區建德里中正一路建德巷22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市運動樂活促進會",
     "lat": 25.083876,
     "lng": 121.494112,
-    "address": "241新北市三重區五華里五華街71巷86號"
+    "address": "241新北市三重區五華里五華街71巷86號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市三重區富華里辦公處",
     "lat": 25.083968,
     "lng": 121.491511,
-    "address": "241新北市三重區富華里15鄰五華街109號"
+    "address": "241新北市三重區富華里15鄰五華街109號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市蘆洲區仁義里辦公處",
     "lat": 25.08483,
     "lng": 121.481622,
-    "address": "247新北市蘆洲區仁義里集賢路245號七樓"
+    "address": "247新北市蘆洲區仁義里集賢路245號七樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣多元社會福利協會(蘆洲樓厝)",
     "lat": 25.089764,
     "lng": 121.480475,
-    "address": "247新北市蘆洲區樓厝里復興路274號一樓"
+    "address": "247新北市蘆洲區樓厝里復興路274號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "普濟堂-S-延平北路七段",
     "lat": 25.0941,
     "lng": 121.49736,
-    "address": "111臺北市士林區延平北路七段5號旁候車亭"
+    "address": "111臺北市士林區延平北路七段5號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林福安區民活動中心2F中央",
     "lat": 25.097416,
     "lng": 121.494555,
-    "address": "111臺北市士林區延平北路七段114號2F"
+    "address": "111臺北市士林區延平北路七段114號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   }
 ]

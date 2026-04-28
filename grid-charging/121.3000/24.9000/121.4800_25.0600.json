@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市三重戶政事務所5F-1",
     "lat": 25.06099,
     "lng": 121.489167,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三重中山路郵局",
     "lat": 25.061279,
     "lng": 121.487721,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三重正義郵局",
     "lat": 25.061567,
     "lng": 121.498181,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三重中正路郵局",
     "lat": 25.068458,
     "lng": 121.480787,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三重介壽路郵局",
     "lat": 25.069163,
     "lng": 121.499178,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三重忠孝路郵局",
     "lat": 25.071619,
     "lng": 121.492293,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市三重戶政事務所溪美辦事處2F",
     "lat": 25.077693,
     "lng": 121.490849,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三重溪尾街郵局",
     "lat": 25.078961,
     "lng": 121.489364,

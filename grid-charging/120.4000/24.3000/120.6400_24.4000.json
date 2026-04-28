@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大甲幼獅工業區服務中心",
     "lat": 24.404733,
     "lng": 120.651973,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大甲幼獅郵局",
     "lat": 24.405301,
     "lng": 120.652038,

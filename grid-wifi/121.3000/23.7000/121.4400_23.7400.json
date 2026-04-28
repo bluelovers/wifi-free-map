@@ -1,202 +1,277 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣政府社會處中區家庭服務中心",
     "lat": 23.741187,
     "lng": 121.449338,
-    "address": "975花蓮縣鳳林鎮中華路2號2樓"
+    "address": "975花蓮縣鳳林鎮中華路2號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣鳳林鎮鳳林國民小學",
     "lat": 23.74326,
     "lng": 121.44727,
-    "address": "975花蓮縣鳳林鎮中正路二段1號"
+    "address": "975花蓮縣鳳林鎮中正路二段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立鳳林國民中學",
     "lat": 23.744596,
     "lng": 121.448992,
-    "address": "975花蓮縣鳳林鎮光復路8號"
+    "address": "975花蓮縣鳳林鎮光復路8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣鳳林鎮公所",
     "lat": 23.74465,
     "lng": 121.451313,
-    "address": "975花蓮縣鳳林鎮光華路124號"
+    "address": "975花蓮縣鳳林鎮光華路124號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣鳳林鎮大榮一村社區發展協會",
     "lat": 23.745408,
     "lng": 121.457239,
-    "address": "975花蓮縣鳳林鎮大榮里大榮二路44號"
+    "address": "975花蓮縣鳳林鎮大榮里大榮二路44號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣衛生局鳳林鎮衛生所",
     "lat": 23.745432,
     "lng": 121.45142,
-    "address": "975花蓮縣鳳林鎮光華路95號"
+    "address": "975花蓮縣鳳林鎮光華路95號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司鳳林營運所",
     "lat": 23.745691,
     "lng": 121.450114,
-    "address": "975花蓮縣鳳林鎮中華路25號"
+    "address": "975花蓮縣鳳林鎮中華路25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣鳳林鎮戶政事務所",
     "lat": 23.745821,
     "lng": 121.45,
-    "address": "975花蓮縣鳳林鎮鳳智里公正街20號"
+    "address": "975花蓮縣鳳林鎮鳳智里公正街20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局鳳林站第2月台7車位置",
     "lat": 23.745826,
     "lng": 121.448684,
-    "address": "975花蓮縣鳳林鎮中山路43號"
+    "address": "975花蓮縣鳳林鎮中山路43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳳林郵局",
     "lat": 23.746046,
     "lng": 121.449636,
-    "address": "975花蓮縣鳳林鎮光復路14號"
+    "address": "975花蓮縣鳳林鎮光復路14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣鳳林鎮圖書館",
     "lat": 23.746175,
     "lng": 121.45288,
-    "address": "975花蓮縣鳳林鎮信義路151號"
+    "address": "975花蓮縣鳳林鎮信義路151號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣鳳林鎮鳳信里辦公處",
     "lat": 23.746194,
     "lng": 121.450986,
-    "address": "975花蓮縣鳳林鎮中正路一段120巷24號"
+    "address": "975花蓮縣鳳林鎮中正路一段120巷24號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣鳳林地政事務所",
     "lat": 23.746209,
     "lng": 121.453277,
-    "address": "975花蓮縣鳳林鎮大榮里信義路200號"
+    "address": "975花蓮縣鳳林鎮大榮里信義路200號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "鳳林地政事務所",
     "lat": 23.746235,
     "lng": 121.453297,
-    "address": "975花蓮縣鳳林鎮信義路200號"
+    "address": "975花蓮縣鳳林鎮信義路200號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局鳳林站候車室",
     "lat": 23.746508,
     "lng": 121.44707,
-    "address": "975花蓮縣鳳林鎮中山路43號"
+    "address": "975花蓮縣鳳林鎮中山路43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局鳳林消防分隊",
     "lat": 23.746766,
     "lng": 121.451322,
-    "address": "975花蓮縣鳳林鎮信義路212號"
+    "address": "975花蓮縣鳳林鎮信義路212號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人一粒麥子社會福利慈善事業基金會-鳳中",
     "lat": 23.746884,
     "lng": 121.448199,
-    "address": "975花蓮縣鳳林鎮鳳智里大同街29號"
+    "address": "975花蓮縣鳳林鎮鳳智里大同街29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣鳳林鎮客家文物館",
     "lat": 23.74738,
     "lng": 121.45132,
-    "address": "975花蓮縣鳳林鎮中華路164號"
+    "address": "975花蓮縣鳳林鎮中華路164號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣鳳林鎮校長夢工場",
     "lat": 23.747568,
     "lng": 121.448191,
-    "address": "975花蓮縣鳳林鎮民生街16號"
+    "address": "975花蓮縣鳳林鎮民生街16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣鳳林鎮鳳禮社區發展協會",
     "lat": 23.747629,
     "lng": 121.451438,
-    "address": "975花蓮縣鳳林鎮鳳禮里中華路164號"
+    "address": "975花蓮縣鳳林鎮鳳禮里中華路164號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣鳳林鎮鳳義里辦公處",
     "lat": 23.748038,
     "lng": 121.441145,
-    "address": "975花蓮縣鳳林鎮水源路36號"
+    "address": "975花蓮縣鳳林鎮水源路36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣鳳林鎮鳳義社區發展協會",
     "lat": 23.74817,
     "lng": 121.441331,
-    "address": "975花蓮縣鳳林鎮鳳義里水源路36號"
+    "address": "975花蓮縣鳳林鎮鳳義里水源路36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣政府中區服務中心",
     "lat": 23.751288,
     "lng": 121.451559,
-    "address": "975花蓮縣鳳林鎮光復路94號"
+    "address": "975花蓮縣鳳林鎮光復路94號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣鳳林鎮鳳仁國民小學",
     "lat": 23.751372,
     "lng": 121.451776,
-    "address": "975花蓮縣鳳林鎮鳳仁里光復路94號"
+    "address": "975花蓮縣鳳林鎮鳳仁里光復路94號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "讚炭工坊",
     "lat": 23.759071,
     "lng": 121.444297,
-    "address": "975花蓮縣鳳林鎮鳳義里正義街15號"
+    "address": "975花蓮縣鳳林鎮鳳義里正義街15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人臺中市私立康家社會福利慈善基金會",
     "lat": 24.332645,
     "lng": 120.632487,
-    "address": "438臺中市外埔區水美路20號"
+    "address": "438臺中市外埔區水美路20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

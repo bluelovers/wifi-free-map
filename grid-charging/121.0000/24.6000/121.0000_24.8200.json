@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司竹北服務所大廳",
     "lat": 24.827326,
     "lng": 121.01586,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司竹北營運所",
     "lat": 24.827719,
     "lng": 121.014381,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹北光明郵局",
     "lat": 24.828781,
     "lng": 121.010865,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹北中山郵局",
     "lat": 24.835655,
     "lng": 121.018809,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹北博愛郵局",
     "lat": 24.83666,
     "lng": 121.008882,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹縣竹北市戶政事務所",
     "lat": 24.839711,
     "lng": 121.00418,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "竹北郵局",
     "lat": 24.839782,
     "lng": 121.00319,

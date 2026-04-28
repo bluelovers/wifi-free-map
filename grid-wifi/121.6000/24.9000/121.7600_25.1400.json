@@ -1,114 +1,156 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市警察局安瀾橋派出所",
     "lat": 25.142448,
     "lng": 121.760888,
-    "address": "202基隆市中正區中正路320號(安瀾橋所)"
+    "address": "202基隆市中正區中正路320號(安瀾橋所)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆安瀾橋郵局",
     "lat": 25.142818,
     "lng": 121.761031,
-    "address": "202基隆市中正區中正路330號"
+    "address": "202基隆市中正區中正路330號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市中正區正砂社區發展協會",
     "lat": 25.143232,
     "lng": 121.760955,
-    "address": "202基隆市中正區正砂里中正路211號"
+    "address": "202基隆市中正區正砂里中正路211號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市中正區砂灣社區發展協會",
     "lat": 25.143289,
     "lng": 121.765428,
-    "address": "202基隆市中正區砂灣里祥豐街66號二樓"
+    "address": "202基隆市中正區砂灣里祥豐街66號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "三軍總醫院基隆分院正榮院區門診大廳",
     "lat": 25.145207,
     "lng": 121.762826,
-    "address": "202基隆市中正區正榮街100號"
+    "address": "202基隆市中正區正榮街100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市心蘭愛鄉生活發展協會",
     "lat": 25.146035,
     "lng": 121.769571,
-    "address": "202基隆市中正區建國里祥豐街467號"
+    "address": "202基隆市中正區建國里祥豐街467號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行正濱分行",
     "lat": 25.150063,
     "lng": 121.765441,
-    "address": "202基隆市中正區中正路652號"
+    "address": "202基隆市中正區中正路652號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "海洋大學郵局",
     "lat": 25.150914,
     "lng": 121.772565,
-    "address": "202基隆市中正區北寧路2號"
+    "address": "202基隆市中正區北寧路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆中正郵局",
     "lat": 25.151073,
     "lng": 121.766416,
-    "address": "202基隆市中正區中正路393巷18號"
+    "address": "202基隆市中正區中正路393巷18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市警察局正濱派出所",
     "lat": 25.152684,
     "lng": 121.768134,
-    "address": "202基隆市中正區中正路511號(正濱所)"
+    "address": "202基隆市中正區中正路511號(正濱所)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆和平島郵局",
     "lat": 25.154881,
     "lng": 121.765409,
-    "address": "202基隆市中正區和一路129號"
+    "address": "202基隆市中正區和一路129號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市警察局和一派出所",
     "lat": 25.155093,
     "lng": 121.765055,
-    "address": "202基隆市中正區和一路146號(和一所)"
+    "address": "202基隆市中正區和一路146號(和一所)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市中正區社寮社區發展協會",
     "lat": 25.155276,
     "lng": 121.766004,
-    "address": "202基隆市中正區社寮里平一路6號"
+    "address": "202基隆市中正區社寮里平一路6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "基隆市中正區平寮社區發展協會",
     "lat": 25.1555,
     "lng": 121.764231,
-    "address": "202基隆市中正區平寮里和一路186號一樓"
+    "address": "202基隆市中正區平寮里和一路186號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

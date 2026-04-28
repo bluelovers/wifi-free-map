@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "福興(兼埤頭及田中)工業區服務中心-埤頭",
     "lat": 23.879671,
     "lng": 120.459054,

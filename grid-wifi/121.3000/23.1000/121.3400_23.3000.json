@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣玉里鎮樂合里辦公室",
     "lat": 23.319826,
     "lng": 121.345173,
-    "address": "981花蓮縣玉里鎮樂合里13鄰樂合65-5號"
+    "address": "981花蓮縣玉里鎮樂合里13鄰樂合65-5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

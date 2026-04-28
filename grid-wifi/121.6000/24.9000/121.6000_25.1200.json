@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "後備指揮部國軍示範公墓管理組(服務大樓)",
     "lat": 25.135825,
     "lng": 121.615859,
-    "address": "221新北市汐止區汐萬路三段500號"
+    "address": "221新北市汐止區汐萬路三段500號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "後備指揮部國軍示範公墓管理組(忠靈殿)",
     "lat": 25.136631,
     "lng": 121.616651,
-    "address": "221新北市汐止區汐萬路三段500號"
+    "address": "221新北市汐止區汐萬路三段500號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

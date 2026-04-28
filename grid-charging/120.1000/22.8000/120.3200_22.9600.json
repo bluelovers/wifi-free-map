@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "關廟郵局",
     "lat": 22.960468,
     "lng": 120.329659,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "關廟文衡路郵局",
     "lat": 22.960922,
     "lng": 120.326103,

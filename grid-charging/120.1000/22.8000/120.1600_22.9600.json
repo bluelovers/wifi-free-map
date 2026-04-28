@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "安平港營運處安平港旅客服務中心",
     "lat": 22.970356,
     "lng": 120.17445,

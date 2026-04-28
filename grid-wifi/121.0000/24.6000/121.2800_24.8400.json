@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "經國紀念館",
     "lat": 24.840365,
     "lng": 121.294271,
-    "address": "335桃園市大溪區復興路一段1097號"
+    "address": "335桃園市大溪區復興路一段1097號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "慈湖園區-慈湖遊客中心北廂房外",
     "lat": 24.84043,
     "lng": 121.294066,
-    "address": "335桃園市大溪區復興路一段1097號"
+    "address": "335桃園市大溪區復興路一段1097號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "慈湖園區-導覽服務站後方",
     "lat": 24.840493,
     "lng": 121.291795,
-    "address": "335桃園市大溪區復興路一段1097號"
+    "address": "335桃園市大溪區復興路一段1097號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "民雄頭橋郵局",
     "lat": 23.519888,
     "lng": 120.436068,

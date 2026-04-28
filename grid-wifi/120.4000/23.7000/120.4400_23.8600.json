@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "福興(兼埤頭及田中)工業區服務中心-埤頭",
     "lat": 23.879671,
     "lng": 120.459054,
-    "address": "523彰化縣埤頭鄉崙腳村興工路1號1樓"
+    "address": "523彰化縣埤頭鄉崙腳村興工路1號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(北斗分行)",
     "lat": 23.874452,
     "lng": 120.51786,
-    "address": "521彰化縣北斗鎮中山路二段35號"
+    "address": "521彰化縣北斗鎮中山路二段35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

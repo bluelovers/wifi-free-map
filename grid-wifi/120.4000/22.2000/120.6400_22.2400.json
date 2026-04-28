@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣枋山鄉成功社區發展協會",
     "lat": 22.249617,
     "lng": 120.658835,
-    "address": "941屏東縣枋山鄉枋山村成功路1巷44號"
+    "address": "941屏東縣枋山鄉枋山村成功路1巷44號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣枋山鄉枋山社區發展協會",
     "lat": 22.258624,
     "lng": 120.650534,
-    "address": "941屏東縣枋山鄉枋山村枋山路7巷6號"
+    "address": "941屏東縣枋山鄉枋山村枋山路7巷6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

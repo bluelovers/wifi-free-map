@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司宜蘭南區服務所",
     "lat": 24.640789,
     "lng": 121.758278,
-    "address": "269宜蘭縣冬山鄉丸山村丸山路259號"
+    "address": "269宜蘭縣冬山鄉丸山村丸山路259號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣長青關懷照顧協會(冬山鹿埔站)",
     "lat": 24.655695,
     "lng": 121.750733,
-    "address": "269宜蘭縣冬山鄉鹿埔村鹿埔路490號"
+    "address": "269宜蘭縣冬山鄉鹿埔村鹿埔路490號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

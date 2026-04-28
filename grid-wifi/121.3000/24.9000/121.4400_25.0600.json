@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新北產業園區服務中心",
     "lat": 25.063717,
     "lng": 121.457221,
-    "address": "242新北市新莊區五工路95號1樓"
+    "address": "242新北市新莊區五工路95號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行五股工業區分行",
     "lat": 25.067284,
     "lng": 121.452837,
-    "address": "248新北市五股區五工路117號"
+    "address": "248新北市五股區五工路117號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "更新社區發展協會",
     "lat": 25.079366,
     "lng": 121.457261,
-    "address": "248新北市五股區更寮里更洲路47號"
+    "address": "248新北市五股區更寮里更洲路47號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

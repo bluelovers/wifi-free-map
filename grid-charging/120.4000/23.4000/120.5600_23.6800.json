@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "古坑東和郵局",
     "lat": 23.684042,
     "lng": 120.568716,

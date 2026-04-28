@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "拉拉山風景特定區-下巴陵停車場",
     "lat": 24.678199,
     "lng": 121.385106,
-    "address": "336桃園市復興區華陵村巴陵21-1號"
+    "address": "336桃園市復興區華陵村巴陵21-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "拉拉山風景特定區-遊客中心前廣場",
     "lat": 24.679776,
     "lng": 121.383966,
-    "address": "336桃園市復興區華陵村7鄰29號"
+    "address": "336桃園市復興區華陵村7鄰29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

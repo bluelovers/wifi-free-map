@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣鳳林鎮鳳信國民小學",
     "lat": 23.729756,
     "lng": 121.443788,
-    "address": "975花蓮縣鳳林鎮鳳信里中正路一段120巷25號"
+    "address": "975花蓮縣鳳林鎮鳳信里中正路一段120巷25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣鳳林鎮鳳禮里辦公處",
     "lat": 23.729786,
     "lng": 121.443402,
-    "address": "975花蓮縣鳳林鎮大同街7-1號"
+    "address": "975花蓮縣鳳林鎮大同街7-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

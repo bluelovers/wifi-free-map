@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東榮民總醫院",
     "lat": 22.663044,
     "lng": 120.47533,
-    "address": "900屏東縣屏東市榮總東路1號"
+    "address": "900屏東縣屏東市榮總東路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會屏東縣榮民服務處一樓大廳",
     "lat": 22.664222,
     "lng": 120.471057,
-    "address": "900屏東縣屏東市建國路300-1號"
+    "address": "900屏東縣屏東市建國路300-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東厚生郵局",
     "lat": 22.665513,
     "lng": 120.478982,
-    "address": "900屏東縣屏東市建國路182號"
+    "address": "900屏東縣屏東市建國路182號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局六塊厝站月台候車區",
     "lat": 22.665996,
     "lng": 120.462785,
-    "address": "900屏東縣屏東市長安里光復路392號"
+    "address": "900屏東縣屏東市長安里光復路392號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "屏東六塊厝郵局",
     "lat": 22.669491,
     "lng": 120.476494,
-    "address": "900屏東縣屏東市光復路304號"
+    "address": "900屏東縣屏東市光復路304號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東藝術館",
     "lat": 22.677,
     "lng": 120.47751,
-    "address": "900屏東縣屏東市和平路427號"
+    "address": "900屏東縣屏東市和平路427號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "屏東縣藝術館",
     "lat": 22.677072,
     "lng": 120.477844,
-    "address": "900屏東縣屏東市和平路427號"
+    "address": "900屏東縣屏東市和平路427號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

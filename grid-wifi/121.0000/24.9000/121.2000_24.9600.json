@@ -1,82 +1,112 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "中壢新民夜市新民路115號路燈左側",
     "lat": 24.960148,
     "lng": 121.215045,
-    "address": "320桃園市中壢區新民路115號"
+    "address": "320桃園市中壢區新民路115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "中壢新民夜市新民路115號路燈右側",
     "lat": 24.960148,
     "lng": 121.215045,
-    "address": "320桃園市中壢區新民路115號"
+    "address": "320桃園市中壢區新民路115號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中壢志廣郵局",
     "lat": 24.961436,
     "lng": 121.211539,
-    "address": "320桃園市中壢區中央西路二段271、273號"
+    "address": "320桃園市中壢區中央西路二段271、273號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "老街溪開蓋紀念館廣場義民路二段157號前路燈桿左前方",
     "lat": 24.962165,
     "lng": 121.217646,
-    "address": "320桃園市中壢區義民路二段157號"
+    "address": "320桃園市中壢區義民路二段157號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "老街溪開蓋紀念館廣場義民路二段157號前路燈桿右前方",
     "lat": 24.962165,
     "lng": 121.217646,
-    "address": "320桃園市中壢區義民路二段157號"
+    "address": "320桃園市中壢區義民路二段157號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市中壢區光明里辦公處",
     "lat": 24.962185,
     "lng": 121.216903,
-    "address": "320桃園市中壢區光明里民權路204號"
+    "address": "320桃園市中壢區光明里民權路204號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中壢興國郵局",
     "lat": 24.962637,
     "lng": 121.219302,
-    "address": "320桃園市中壢區興國里元化路二段126號"
+    "address": "320桃園市中壢區興國里元化路二段126號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院勞動部勞工保險局中壢服務站洽公櫃台",
     "lat": 24.964335,
     "lng": 121.2146,
-    "address": "320桃園市中壢區三光路325號"
+    "address": "320桃園市中壢區三光路325號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢光明公園三光路381號前燈桿左前方",
     "lat": 24.964572,
     "lng": 121.215989,
-    "address": "320桃園市中壢區三光路381號"
+    "address": "320桃園市中壢區三光路381號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢光明公園三光路381號前燈桿右前方",
     "lat": 24.964572,
     "lng": 121.215989,
-    "address": "320桃園市中壢區三光路381號"
+    "address": "320桃園市中壢區三光路381號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市金山戶政事務所萬里區所",
     "lat": 25.177431,
     "lng": 121.689221,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司萬里金山營運所",
     "lat": 25.177487,
     "lng": 121.690565,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "萬里郵局",
     "lat": 25.177619,
     "lng": 121.689589,

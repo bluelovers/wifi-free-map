@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "芳苑草湖郵局",
     "lat": 23.958066,
     "lng": 120.382904,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "豐原大湳郵局",
     "lat": 24.268675,
     "lng": 120.7211,

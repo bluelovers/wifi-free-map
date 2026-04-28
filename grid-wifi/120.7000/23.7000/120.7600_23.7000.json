@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣鹿谷鄉和雅社區發展協會",
     "lat": 23.702901,
     "lng": 120.775305,
-    "address": "558南投縣鹿谷鄉和雅村愛鄉路47之10號"
+    "address": "558南投縣鹿谷鄉和雅村愛鄉路47之10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

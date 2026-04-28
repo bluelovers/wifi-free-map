@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司蘆洲服務所",
     "lat": 25.082108,
     "lng": 121.458556,
-    "address": "247新北市蘆洲區中原路68號"
+    "address": "247新北市蘆洲區中原路68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "蘆洲中原路郵局",
     "lat": 25.082926,
     "lng": 121.459293,
-    "address": "247新北市蘆洲區長安街225號"
+    "address": "247新北市蘆洲區長安街225號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市疼厝邊關懷協會",
     "lat": 25.084,
     "lng": 121.458,
-    "address": "242新北市新莊區興漢里武前街23號"
+    "address": "242新北市新莊區興漢里武前街23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華民國新希望關懷協會",
     "lat": 25.085,
     "lng": 121.459,
-    "address": "244新北市林口區湖南里文林六街62巷11號一樓"
+    "address": "244新北市林口區湖南里文林六街62巷11號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市蘆洲區福祿壽協會",
     "lat": 25.090359,
     "lng": 121.459174,
-    "address": "247新北市蘆洲區永樂里永平街1號四樓"
+    "address": "247新北市蘆洲區永樂里永平街1號四樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市蘆洲區永樂里辦公處",
     "lat": 25.090898,
     "lng": 121.457145,
-    "address": "247新北市蘆洲區永樂里11鄰永樂街38巷57弄30號一樓"
+    "address": "247新北市蘆洲區永樂里11鄰永樂街38巷57弄30號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "成州社區發展協會",
     "lat": 25.098099,
     "lng": 121.449355,
-    "address": "248新北市五股區成州里西雲路267號"
+    "address": "248新北市五股區成州里西雲路267號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

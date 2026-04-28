@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "阿里山郵局",
     "lat": 23.435468,
     "lng": 120.780968,

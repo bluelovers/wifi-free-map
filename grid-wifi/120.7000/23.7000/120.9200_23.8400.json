@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣魚池鄉伊達邵部落",
     "lat": 23.84805,
     "lng": 120.93116,
-    "address": "555南投縣魚池鄉日月村義勇街62號"
+    "address": "555南投縣魚池鄉日月村義勇街62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "伊達邵遊客中心",
     "lat": 23.848903,
     "lng": 120.929329,
-    "address": "555南投縣魚池鄉日月村文化街127號"
+    "address": "555南投縣魚池鄉日月村文化街127號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投縣政府警察局集集分局德化派出所",
     "lat": 23.848918,
     "lng": 120.933142,
-    "address": "555南投縣魚池鄉日月村中正路166號"
+    "address": "555南投縣魚池鄉日月村中正路166號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

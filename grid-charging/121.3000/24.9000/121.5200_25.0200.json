@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北古亭郵局",
     "lat": 25.023685,
     "lng": 121.524667,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部中小企業處馬上解決問題中心服務櫃台區",
     "lat": 25.025532,
     "lng": 121.523852,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北師大郵局",
     "lat": 25.026273,
     "lng": 121.52705,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北青田郵局",
     "lat": 25.026618,
     "lng": 121.53114,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北金南郵局-1",
     "lat": 25.03184,
     "lng": 121.524434,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北金南郵局-2",
     "lat": 25.03184,
     "lng": 121.524434,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北大安郵局",
     "lat": 25.033691,
     "lng": 121.538257,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署台北辦公區",
     "lat": 25.033771,
     "lng": 121.535213,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部工業局1樓",
     "lat": 25.033789,
     "lng": 121.535347,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北東門郵局",
     "lat": 25.03407,
     "lng": 121.528913,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北仁杭郵局",
     "lat": 25.037606,
     "lng": 121.52467,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "交通通信傳播大樓1樓服務台",
     "lat": 25.038181,
     "lng": 121.524786,
@@ -85,6 +97,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台北仁愛路郵局",
     "lat": 25.038528,
     "lng": 121.535622,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部水利署南區水資源局高屏堰管理中心",
     "lat": 22.688518,
     "lng": 120.435588,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市大樹區戶政事務所",
     "lat": 22.690527,
     "lng": 120.433331,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "大樹郵局",
     "lat": 22.691281,
     "lng": 120.431451,

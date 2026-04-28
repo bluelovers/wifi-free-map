@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "田寮郵局",
     "lat": 22.872582,
     "lng": 120.359624,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市田寮區戶政事務所",
     "lat": 22.873787,
     "lng": 120.357125,

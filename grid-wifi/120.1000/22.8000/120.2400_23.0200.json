@@ -1,90 +1,123 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "永康二王郵局",
     "lat": 23.020908,
     "lng": 120.245645,
-    "address": "710臺南市永康區中山南路363號"
+    "address": "710臺南市永康區中山南路363號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市政府消防局第五大隊部",
     "lat": 23.024247,
     "lng": 120.252606,
-    "address": "710臺南市永康區正強街10號1樓"
+    "address": "710臺南市永康區正強街10號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司永康服務所大廳",
     "lat": 23.026067,
     "lng": 120.25948,
-    "address": "710臺南市永康區永明街43號"
+    "address": "710臺南市永康區永明街43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市基督教好朋友全人關懷協會",
     "lat": 23.027,
     "lng": 120.259,
-    "address": "710臺南市永康區永康里中山北路94號"
+    "address": "710臺南市永康區永康里中山北路94號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "勞動部勞動力發展署雲嘉南分署永康就業中心",
     "lat": 23.027678,
     "lng": 120.259966,
-    "address": "710臺南市永康區中山北路147號"
+    "address": "710臺南市永康區中山北路147號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "永康郵局",
     "lat": 23.028079,
     "lng": 120.257007,
-    "address": "710臺南市永康區中山路78號"
+    "address": "710臺南市永康區中山路78號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀永康分行",
     "lat": 23.030678,
     "lng": 120.256401,
-    "address": "710臺南市永康區中山路180號"
+    "address": "710臺南市永康區中山路180號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市永康區正強里辦公處",
     "lat": 23.035,
     "lng": 120.251,
-    "address": "710臺南市永康區正強里四維街149巷34之1號"
+    "address": "710臺南市永康區正強里四維街149巷34之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局永康站第1月台3車位置",
     "lat": 23.038448,
     "lng": 120.251248,
-    "address": "710臺南市永康區埔園里中山路459號"
+    "address": "710臺南市永康區埔園里中山路459號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局永康站第2月台3車位置",
     "lat": 23.038448,
     "lng": 120.251248,
-    "address": "710臺南市永康區埔園里中山路459號"
+    "address": "710臺南市永康區埔園里中山路459號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局永康站候車室",
     "lat": 23.038448,
     "lng": 120.251248,
-    "address": "710臺南市永康區埔園里中山路459號"
+    "address": "710臺南市永康區埔園里中山路459號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

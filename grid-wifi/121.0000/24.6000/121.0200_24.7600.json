@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "新竹市東區金山圖書館(櫃台)",
     "lat": 24.779815,
     "lng": 121.022011,
-    "address": "300新竹市東區光復路一段163巷53弄1之4號2樓"
+    "address": "300新竹市東區光復路一段163巷53弄1之4號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

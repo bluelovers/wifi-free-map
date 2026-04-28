@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "林園三庄郵局",
     "lat": 22.533797,
     "lng": 120.400581,
-    "address": "832高雄市林園區林內村林內路153號"
+    "address": "832高雄市林園區林內村林內路153號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

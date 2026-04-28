@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市彌陀區戶政事務所",
     "lat": 22.781147,
     "lng": 120.249825,
-    "address": "827高雄市彌陀區中華路16號"
+    "address": "827高雄市彌陀區中華路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市彌陀區公所",
     "lat": 22.78135,
     "lng": 120.250817,
-    "address": "827高雄市彌陀區中華路4號"
+    "address": "827高雄市彌陀區中華路4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市彌陀區衛生所",
     "lat": 22.782038,
     "lng": 120.251112,
-    "address": "827高雄市彌陀區中華路1巷5弄1號"
+    "address": "827高雄市彌陀區中華路1巷5弄1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館彌陀公園分館",
     "lat": 22.78545,
     "lng": 120.246475,
-    "address": "827高雄市彌陀區中正路281巷50號"
+    "address": "827高雄市彌陀區中正路281巷50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹縣五峰鄉戶政事務所",
     "lat": 24.631648,
     "lng": 121.119803,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "五峰郵局",
     "lat": 24.632136,
     "lng": 121.119542,

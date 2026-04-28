@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南港後山埤郵局",
     "lat": 25.044869,
     "lng": 121.582688,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南港同德郵局",
     "lat": 25.046224,
     "lng": 121.58566,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南港聯勤郵局",
     "lat": 25.04969,
     "lng": 121.591482,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南港昆陽郵局",
     "lat": 25.049951,
     "lng": 121.592556,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南港港三郵局",
     "lat": 25.053236,
     "lng": 121.587018,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司南港服務所大廳",
     "lat": 25.054268,
     "lng": 121.595135,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內湖週美郵局",
     "lat": 25.055069,
     "lng": 121.58007,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局北區工程處1樓服務台",
     "lat": 25.059798,
     "lng": 121.591294,

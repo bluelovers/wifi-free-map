@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "勞動部勞動力發展署北基宜花金馬分署金門就業中心洽公櫃台",
     "lat": 24.441633,
     "lng": 118.342559,
-    "address": "892金門縣金寧鄉伯玉路二段55號"
+    "address": "892金門縣金寧鄉伯玉路二段55號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "蔣經國先生紀念館",
     "lat": 24.444122,
     "lng": 118.352051,
-    "address": "892金門縣金寧鄉伯玉路二段460號-1"
+    "address": "892金門縣金寧鄉伯玉路二段460號-1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

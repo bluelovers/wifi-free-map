@@ -1,74 +1,101 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人門諾社會福利慈善事業基金會-順安",
     "lat": 24.125,
     "lng": 121.65,
-    "address": "971花蓮縣新城鄉順安村草林84之1號二樓"
+    "address": "971花蓮縣新城鄉順安村草林84之1號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣立秀林國民中學",
     "lat": 24.126193,
     "lng": 121.653044,
-    "address": "971花蓮縣新城鄉中山路56號"
+    "address": "971花蓮縣新城鄉中山路56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新城郵局",
     "lat": 24.126245,
     "lng": 121.652967,
-    "address": "971花蓮縣新城鄉新城村中山路45號"
+    "address": "971花蓮縣新城鄉新城村中山路45號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政院農業委員會林務局花蓮林區管理處新城工作站",
     "lat": 24.126438,
     "lng": 121.653014,
-    "address": "971花蓮縣新城鄉中山路49號"
+    "address": "971花蓮縣新城鄉中山路49號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣消防局新秀消防分隊",
     "lat": 24.126845,
     "lng": 121.65027,
-    "address": "971花蓮縣新城鄉仁愛路1巷23號"
+    "address": "971花蓮縣新城鄉仁愛路1巷23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣新城鄉新城國民小學",
     "lat": 24.127427,
     "lng": 121.650828,
-    "address": "971花蓮縣新城鄉新城村博愛路30號"
+    "address": "971花蓮縣新城鄉新城村博愛路30號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣新城鄉新城村辦公處",
     "lat": 24.127503,
     "lng": 121.646954,
-    "address": "971花蓮縣新城鄉新城村博愛路66號"
+    "address": "971花蓮縣新城鄉新城村博愛路66號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局新城站候車室",
     "lat": 24.128394,
     "lng": 121.641828,
-    "address": "971花蓮縣新城鄉新城村新興一路73號"
+    "address": "971花蓮縣新城鄉新城村新興一路73號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣新城鄉新城部落",
     "lat": 24.12882,
     "lng": 121.65074,
-    "address": "971花蓮縣新城鄉新城村博愛路31號"
+    "address": "971花蓮縣新城鄉新城村博愛路31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

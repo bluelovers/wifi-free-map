@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局竹田站候車室",
     "lat": 22.583648,
     "lng": 120.533666,
-    "address": "911屏東縣竹田鄉屐豐村豐明路27號"
+    "address": "911屏東縣竹田鄉屐豐村豐明路27號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣竹田鄉老人關懷協會",
     "lat": 22.58667,
     "lng": 120.537496,
-    "address": "911屏東縣竹田鄉履豐村豐興路17號"
+    "address": "911屏東縣竹田鄉履豐村豐興路17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣竹田鄉頭崙社區發展協會",
     "lat": 22.59367,
     "lng": 120.532456,
-    "address": "911屏東縣竹田鄉頭崙村三山路63之5號"
+    "address": "911屏東縣竹田鄉頭崙村三山路63之5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

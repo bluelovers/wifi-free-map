@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "馬祖北竿郵局",
     "lat": 26.22487,
     "lng": 119.99842,

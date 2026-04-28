@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣大埔文化發展協會",
     "lat": 24.70874,
     "lng": 120.897046,
-    "address": "350苗栗縣竹南鎮大埔里6鄰公義路936號"
+    "address": "350苗栗縣竹南鎮大埔里6鄰公義路936號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "竹南工業區服務中心",
     "lat": 24.710463,
     "lng": 120.880637,
-    "address": "350苗栗縣竹南鎮和興路336號"
+    "address": "350苗栗縣竹南鎮和興路336號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

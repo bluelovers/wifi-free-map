@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣車城鄉海口社區發展協會",
     "lat": 22.086674,
     "lng": 120.715793,
-    "address": "944屏東縣車城鄉海口村海口路58號"
+    "address": "944屏東縣車城鄉海口村海口路58號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

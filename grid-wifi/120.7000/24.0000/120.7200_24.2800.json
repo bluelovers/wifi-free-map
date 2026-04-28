@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商后里三豐路后寶店(公話)",
     "lat": 24.294326,
     "lng": 120.723332,
-    "address": "421臺中市后里區三豐路113號之24"
+    "address": "421臺中市后里區三豐路113號之24",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣新港鄉北崙社區發展協會",
     "lat": 23.591093,
     "lng": 120.356812,
-    "address": "616嘉義縣新港鄉北崙村11鄰崙子72之10號"
+    "address": "616嘉義縣新港鄉北崙村11鄰崙子72之10號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

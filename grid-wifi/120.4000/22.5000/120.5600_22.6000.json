@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "內埔社會福利綜合館",
     "lat": 22.60618,
     "lng": 120.56318,
-    "address": "912屏東縣內埔鄉內田村學人路627號"
+    "address": "912屏東縣內埔鄉內田村學人路627號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "內埔郵局",
     "lat": 22.612388,
     "lng": 120.567046,
-    "address": "912屏東縣內埔鄉內埔村文化路277號"
+    "address": "912屏東縣內埔鄉內埔村文化路277號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行內埔分行",
     "lat": 22.61309,
     "lng": 120.566528,
-    "address": "912屏東縣內埔鄉廣濟路187號"
+    "address": "912屏東縣內埔鄉廣濟路187號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "內埔鄉健康失智據點",
     "lat": 22.61652,
     "lng": 120.562505,
-    "address": "912屏東縣內埔鄉東寧村自強路176號"
+    "address": "912屏東縣內埔鄉東寧村自強路176號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣內埔鄉全人關懷協會",
     "lat": 22.6191,
     "lng": 120.565408,
-    "address": "912屏東縣內埔鄉東寧村北寧路31號"
+    "address": "912屏東縣內埔鄉東寧村北寧路31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

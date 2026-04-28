@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院玉里分院醫療門診大樓一樓候診室",
     "lat": 23.726614,
     "lng": 121.439949,
-    "address": "975花蓮縣鳳林鎮中正路一段2號"
+    "address": "975花蓮縣鳳林鎮中正路一段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市淡水區屯山里辦公處",
     "lat": 25.272,
     "lng": 121.499,
-    "address": "251新北市淡水區屯山里六塊厝2之1號"
+    "address": "251新北市淡水區屯山里六塊厝2之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

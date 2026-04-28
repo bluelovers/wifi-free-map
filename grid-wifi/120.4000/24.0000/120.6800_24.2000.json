@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商潭子崇德路潭豐店(公話)",
     "lat": 24.210476,
     "lng": 120.686876,
-    "address": "427臺中市潭子區崇德路四段250號之1"
+    "address": "427臺中市潭子區崇德路四段250號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市五股戶政事務所_A",
     "lat": 25.083071,
     "lng": 121.437699,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "五股中興路郵局",
     "lat": 25.083433,
     "lng": 121.438384,

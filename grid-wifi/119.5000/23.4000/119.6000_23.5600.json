@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "澎湖縣政府環境保護局一樓",
     "lat": 23.561606,
     "lng": 119.61816,
-    "address": "885澎湖縣湖西鄉大城北6-1號"
+    "address": "885澎湖縣湖西鄉大城北6-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "澎湖縣政府環境保護局二樓",
     "lat": 23.561606,
     "lng": 119.61816,
-    "address": "885澎湖縣湖西鄉大城北6-1號"
+    "address": "885澎湖縣湖西鄉大城北6-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "澎湖縣馬公市東衛社區發展協會",
     "lat": 23.567957,
     "lng": 119.600334,
-    "address": "880澎湖縣馬公市東衛里東衛27之6號"
+    "address": "880澎湖縣馬公市東衛里東衛27之6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

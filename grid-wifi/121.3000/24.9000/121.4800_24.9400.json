@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市新店玫瑰里辦公處",
     "lat": 24.946758,
     "lng": 121.49451,
-    "address": "231新北市新店區玫瑰里玫瑰路58巷18號B1"
+    "address": "231新北市新店區玫瑰里玫瑰路58巷18號B1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新店玫瑰城郵局",
     "lat": 24.946841,
     "lng": 121.496742,
-    "address": "231新北市新店區如意街112號"
+    "address": "231新北市新店區如意街112號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市新店區吉祥里辦公處",
     "lat": 24.947811,
     "lng": 121.495873,
-    "address": "231新北市新店區吉祥里玫瑰路51巷2號一樓"
+    "address": "231新北市新店區吉祥里玫瑰路51巷2號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市新店區小城社區發展協會",
     "lat": 24.948503,
     "lng": 121.49935,
-    "address": "231新北市新店區小城里僑信路74巷1號"
+    "address": "231新北市新店區小城里僑信路74巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新店雙城郵局",
     "lat": 24.952543,
     "lng": 121.492879,
-    "address": "231新北市新店區安康路三段47號"
+    "address": "231新北市新店區安康路三段47號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市烏日區東園社區發展協會",
     "lat": 24.075271,
     "lng": 120.635092,
-    "address": "414臺中市烏日區東園里溪南路一段680巷317弄82號一樓"
+    "address": "414臺中市烏日區東園里溪南路一段680巷317弄82號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

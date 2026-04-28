@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "善化成功郵局",
     "lat": 23.127516,
     "lng": 120.317003,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局善化站行車室",
     "lat": 23.133323,
     "lng": 120.306551,

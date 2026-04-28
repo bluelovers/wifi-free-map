@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店龍井臨港路火力店(公話)",
     "lat": 24.210514,
     "lng": 120.505574,
-    "address": "434臺中市龍井區臨港路二段1號"
+    "address": "434臺中市龍井區臨港路二段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

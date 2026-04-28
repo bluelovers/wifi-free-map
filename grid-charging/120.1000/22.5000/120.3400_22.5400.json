@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄臺船郵局",
     "lat": 22.552346,
     "lng": 120.345619,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄中鋼郵局",
     "lat": 22.55819,
     "lng": 120.35335,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "龍門閉鎖陣地",
     "lat": 23.555486,
     "lng": 119.675706,
-    "address": "885澎湖縣湖西鄉龍門村119-81號"
+    "address": "885澎湖縣湖西鄉龍門村119-81號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

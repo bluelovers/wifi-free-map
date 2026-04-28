@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市玉井區沙田里辦公處",
     "lat": 23.114,
     "lng": 120.496,
-    "address": "714臺南市玉井區沙田里沙田33之3號"
+    "address": "714臺南市玉井區沙田里沙田33之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

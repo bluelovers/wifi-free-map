@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋三民路郵局",
     "lat": 25.020884,
     "lng": 121.47911,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋文化路郵局",
     "lat": 25.022081,
     "lng": 121.467262,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋莒光郵局",
     "lat": 25.022995,
     "lng": 121.474218,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "江翠派出所",
     "lat": 25.0303,
     "lng": 121.4698,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "板橋江翠郵局",
     "lat": 25.031616,
     "lng": 121.474962,

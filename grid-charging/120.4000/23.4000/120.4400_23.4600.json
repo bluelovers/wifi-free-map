@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司煉製研究所",
     "lat": 23.466967,
     "lng": 120.446211,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司嘉義市服務中心",
     "lat": 23.466967,
     "lng": 120.446211,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司嘉義直銷中心",
     "lat": 23.469252,
     "lng": 120.454641,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義興業路郵局",
     "lat": 23.469252,
     "lng": 120.454641,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台灣中油股份有限公司溶劑化學品事業部",
     "lat": 23.470234,
     "lng": 120.454938,
@@ -36,6 +41,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司煉製研究所招待所",
     "lat": 23.471454,
     "lng": 120.454295,
@@ -43,6 +49,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義成功街郵局",
     "lat": 23.472182,
     "lng": 120.442699,
@@ -50,6 +57,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司嘉義區處服務中心營業廳",
     "lat": 23.474034,
     "lng": 120.455123,
@@ -57,6 +65,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義文化路郵局",
     "lat": 23.477789,
     "lng": 120.450018,
@@ -64,6 +73,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義站前郵局",
     "lat": 23.478495,
     "lng": 120.443412,
@@ -71,6 +81,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義市東區戶政事務所",
     "lat": 23.478687,
     "lng": 120.453576,
@@ -78,6 +89,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局嘉義站候車室",
     "lat": 23.479084,
     "lng": 120.441261,
@@ -85,6 +97,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局嘉義站第1月台3車位置",
     "lat": 23.479084,
     "lng": 120.441261,
@@ -92,6 +105,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局嘉義站第1月台10車位置",
     "lat": 23.479084,
     "lng": 120.441261,

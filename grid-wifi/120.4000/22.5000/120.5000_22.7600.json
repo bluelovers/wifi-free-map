@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣里港鄉武洛社區發展協會",
     "lat": 22.770966,
     "lng": 120.514821,
-    "address": "905屏東縣里港鄉茄苳村武洛路8之11號"
+    "address": "905屏東縣里港鄉茄苳村武洛路8之11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "向日葵護理之家(里港鄉)",
     "lat": 22.777317,
     "lng": 120.502168,
-    "address": "905屏東縣里港鄉鐵店路41-46號"
+    "address": "905屏東縣里港鄉鐵店路41-46號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣里港鄉鐵店社區發展協會",
     "lat": 22.777725,
     "lng": 120.501825,
-    "address": "905屏東縣里港鄉鐵店村鐵店路42號"
+    "address": "905屏東縣里港鄉鐵店村鐵店路42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

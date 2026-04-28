@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "福興郵局",
     "lat": 24.039444,
     "lng": 120.436209,
-    "address": "506彰化縣福興鄉員鹿路二段184號"
+    "address": "506彰化縣福興鄉員鹿路二段184號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

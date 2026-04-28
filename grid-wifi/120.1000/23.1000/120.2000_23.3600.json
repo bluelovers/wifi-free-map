@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "嘉義縣義竹鄉後鎮社區發展協會",
     "lat": 23.365881,
     "lng": 120.210768,
-    "address": "624嘉義縣義竹鄉後鎮村後鎮17之2號"
+    "address": "624嘉義縣義竹鄉後鎮村後鎮17之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

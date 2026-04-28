@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣仁愛鄉沙都部落",
     "lat": 24.08376,
     "lng": 121.21601,
-    "address": "546南投縣仁愛鄉平生路56號"
+    "address": "546南投縣仁愛鄉平生路56號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣仁愛鄉卜溪部落",
     "lat": 24.08503,
     "lng": 121.21809,
-    "address": "546南投縣仁愛鄉和氣巷14號"
+    "address": "546南投縣仁愛鄉和氣巷14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "澎湖縣政府警察局望安分局",
     "lat": 23.356371,
     "lng": 119.500221,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "望安郵局",
     "lat": 23.359482,
     "lng": 119.507482,

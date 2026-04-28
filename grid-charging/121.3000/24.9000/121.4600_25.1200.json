@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北投關渡郵局",
     "lat": 25.121545,
     "lng": 121.466874,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司台北市北投區中央北路站",
     "lat": 25.127079,
     "lng": 121.4663,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北投一德郵局",
     "lat": 25.127843,
     "lng": 121.467951,

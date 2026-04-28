@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣豐濱鄉港口村辦公處",
     "lat": 23.47456,
     "lng": 121.50411,
-    "address": "977花蓮縣豐濱鄉港口118號"
+    "address": "977花蓮縣豐濱鄉港口118號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "花蓮縣豐濱鄉港口部落",
     "lat": 23.4753,
     "lng": 121.50423,
-    "address": "977花蓮縣豐濱鄉港口39號"
+    "address": "977花蓮縣豐濱鄉港口39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

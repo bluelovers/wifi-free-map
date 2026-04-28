@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市路竹區竹園社區發展協會",
     "lat": 22.872524,
     "lng": 120.292195,
-    "address": "821高雄市路竹區竹園里新生路156巷40號"
+    "address": "821高雄市路竹區竹園里新生路156巷40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

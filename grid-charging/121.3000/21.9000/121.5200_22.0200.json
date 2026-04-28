@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "蘭嶼航空站",
     "lat": 22.026836,
     "lng": 121.536424,

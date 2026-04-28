@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "伊達邵遊客中心",
     "lat": 23.848903,
     "lng": 120.929329,

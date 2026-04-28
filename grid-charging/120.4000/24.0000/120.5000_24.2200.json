@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "經濟部加工出口區管理處中港分處2樓洽公區",
     "lat": 24.237747,
     "lng": 120.516869,

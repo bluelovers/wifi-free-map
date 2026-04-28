@@ -1,82 +1,112 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人中華民國長者照顧關懷協會",
     "lat": 25.021,
     "lng": 121.424,
-    "address": "241新北市三重區長江里長安街112號"
+    "address": "241新北市三重區長江里長安街112號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人新北市恩典慈善協會",
     "lat": 25.021,
     "lng": 121.427,
-    "address": "241新北市三重區光明里重安街46號一樓"
+    "address": "241新北市三重區光明里重安街46號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新莊後港路郵局",
     "lat": 25.026098,
     "lng": 121.425603,
-    "address": "242新北市新莊區後港一路34、36號"
+    "address": "242新北市新莊區後港一路34、36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新莊丹鳳郵局",
     "lat": 25.029017,
     "lng": 121.420083,
-    "address": "242新北市新莊區明志路15號"
+    "address": "242新北市新莊區明志路15號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(丹鳳分行)",
     "lat": 25.030026,
     "lng": 121.426772,
-    "address": "242新北市新莊區中正路669-1號"
+    "address": "242新北市新莊區中正路669-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部北區國稅局新莊稽徵所第2辦公室",
     "lat": 25.030566,
     "lng": 121.428384,
-    "address": "242新北市新莊區中正路657號2樓"
+    "address": "242新北市新莊區中正路657號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣銀行南新莊分行",
     "lat": 25.030748,
     "lng": 121.429182,
-    "address": "242新北市新莊區中正路653號1樓"
+    "address": "242新北市新莊區中正路653號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "輔仁大學郵局",
     "lat": 25.034167,
     "lng": 121.434031,
-    "address": "242新北市新莊區中正路510號"
+    "address": "242新北市新莊區中正路510號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行泰山分行",
     "lat": 25.039424,
     "lng": 121.424317,
-    "address": "243新北市泰山區明志路三段168號"
+    "address": "243新北市泰山區明志路三段168號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市泰山區貴子社區發展協會",
     "lat": 25.039866,
     "lng": 121.423627,
-    "address": "243新北市泰山區貴子里工專路22號一樓"
+    "address": "243新北市泰山區貴子里工專路22號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

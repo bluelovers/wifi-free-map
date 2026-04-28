@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "學甲郵局",
     "lat": 23.235039,
     "lng": 120.180887,

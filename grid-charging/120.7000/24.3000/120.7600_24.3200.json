@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署中區水資源局鯉魚潭水庫管理中心",
     "lat": 24.33651,
     "lng": 120.77336,

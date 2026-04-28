@@ -1,122 +1,167 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區東社社區發展協會",
     "lat": 24.922554,
     "lng": 121.244844,
-    "address": "324桃園市平鎮區東社里圳南路50巷23號"
+    "address": "324桃園市平鎮區東社里圳南路50巷23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中壢龍岡郵局",
     "lat": 24.925772,
     "lng": 121.243711,
-    "address": "320桃園市中壢區龍岡路三段756號"
+    "address": "320桃園市中壢區龍岡路三段756號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局龍岡分隊",
     "lat": 24.926236,
     "lng": 121.243765,
-    "address": "320桃園市中壢區龍岡路三段754號"
+    "address": "320桃園市中壢區龍岡路三段754號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市平鎮區貿易里辦公處",
     "lat": 24.927521,
     "lng": 121.252967,
-    "address": "324桃園市平鎮區貿易里貿五路77號(第一市民活動中心)"
+    "address": "324桃園市平鎮區貿易里貿五路77號(第一市民活動中心)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市中壢區龍平里辦公處",
     "lat": 24.930843,
     "lng": 121.25536,
-    "address": "320桃園市中壢區龍平里龍東路66之33號"
+    "address": "320桃園市中壢區龍平里龍東路66之33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中壢仁美郵局",
     "lat": 24.933641,
     "lng": 121.255174,
-    "address": "320桃園市中壢區龍文街29號"
+    "address": "320桃園市中壢區龍文街29號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢南亞公園龍東路445巷195號燈桿左前方",
     "lat": 24.93467,
     "lng": 121.25197,
-    "address": "320桃園市中壢區龍東路445巷195號"
+    "address": "320桃園市中壢區龍東路445巷195號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢南亞公園龍東路445巷195號燈桿右前方",
     "lat": 24.93467,
     "lng": 121.25197,
-    "address": "320桃園市中壢區龍東路445巷195號"
+    "address": "320桃園市中壢區龍東路445巷195號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市中壢區龍東社區發展協會",
     "lat": 24.93476,
     "lng": 121.254455,
-    "address": "320桃園市中壢區龍昌里中山東路四段26號"
+    "address": "320桃園市中壢區龍昌里中山東路四段26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢龍岡萬坪公園龍昌路與龍東路口電信桿左前方",
     "lat": 24.934983,
     "lng": 121.249462,
-    "address": "320桃園市中壢區龍昌路與龍東路口"
+    "address": "320桃園市中壢區龍昌路與龍東路口",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中壢龍東路郵局",
     "lat": 24.935882,
     "lng": 121.257332,
-    "address": "320桃園市中壢區龍東路750號"
+    "address": "320桃園市中壢區龍東路750號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣樂活服務發展協會(豐收據點)",
     "lat": 24.935929,
     "lng": 121.246343,
-    "address": "320桃園市中壢區龍慈里後寮一路320號"
+    "address": "320桃園市中壢區龍慈里後寮一路320號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中央健康保險署-北區業務組1樓聯合服務中心",
     "lat": 24.936988,
     "lng": 121.254453,
-    "address": "320桃園市中壢區中山東路三段525號"
+    "address": "320桃園市中壢區中山東路三段525號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市立圖書館龍岡分館",
     "lat": 24.937144,
     "lng": 121.256717,
-    "address": "320桃園市中壢區台貿一街100號"
+    "address": "320桃園市中壢區台貿一街100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市中壢區龍慈里辦公處",
     "lat": 24.938056,
     "lng": 121.246304,
-    "address": "320桃園市中壢區龍慈里後寮一路230號"
+    "address": "320桃園市中壢區龍慈里後寮一路230號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

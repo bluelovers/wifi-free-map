@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局西螺服務區客席區與服務台(南站)",
     "lat": 23.789429,
     "lng": 120.479164,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局西螺服務區客席區與服務台(北站)",
     "lat": 23.789429,
     "lng": 120.479164,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司西螺營運所",
     "lat": 23.797465,
     "lng": 120.474831,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "西螺郵局",
     "lat": 23.799815,
     "lng": 120.460547,

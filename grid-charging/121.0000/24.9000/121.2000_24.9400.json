@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "平鎮郵局",
     "lat": 24.945478,
     "lng": 121.209548,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "平鎮區戶政事務所民眾洽公區",
     "lat": 24.946083,
     "lng": 121.218553,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "平鎮廣明郵局",
     "lat": 24.953852,
     "lng": 121.213457,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市新屋區社子社區發展協會",
     "lat": 24.954945,
     "lng": 121.081129,
-    "address": "327桃園市新屋區社子里社福路235號"
+    "address": "327桃園市新屋區社子里社福路235號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

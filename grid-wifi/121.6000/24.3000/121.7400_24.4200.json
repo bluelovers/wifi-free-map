@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "宜蘭縣南澳鄉金洋國小風雨教室屋簷下牆面",
     "lat": 24.425895,
     "lng": 121.749544,
-    "address": "272宜蘭縣南澳鄉金洋路11號"
+    "address": "272宜蘭縣南澳鄉金洋路11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "宜蘭縣南澳鄉金洋部落",
     "lat": 24.42611,
     "lng": 121.74983,
-    "address": "272宜蘭縣南澳鄉金洋村金洋路7號"
+    "address": "272宜蘭縣南澳鄉金洋村金洋路7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南澳衛生所-金洋村衛生室",
     "lat": 24.4263,
     "lng": 121.74989,
-    "address": "272宜蘭縣南澳鄉金洋村金洋路9之1號"
+    "address": "272宜蘭縣南澳鄉金洋村金洋路9之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

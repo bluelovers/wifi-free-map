@@ -1,146 +1,200 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車捷運松竹站(北屯路)",
     "lat": 24.180549,
     "lng": 120.70108,
-    "address": "406臺中市北屯區北屯路443號之8"
+    "address": "406臺中市北屯區北屯路443號之8",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中捷運松竹站(公話)",
     "lat": 24.180783,
     "lng": 120.701638,
-    "address": "406臺中市北屯區北屯路458號(公話)"
+    "address": "406臺中市北屯區北屯路458號(公話)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商北屯松竹路金格店(公話)",
     "lat": 24.182087,
     "lng": 120.711993,
-    "address": "406臺中市北屯區松竹路一段965號"
+    "address": "406臺中市北屯區松竹路一段965號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局松竹站候車室",
     "lat": 24.18231,
     "lng": 120.704481,
-    "address": "406臺中市北屯區松竹路一段1473巷100號"
+    "address": "406臺中市北屯區松竹路一段1473巷100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局松竹站第一月台",
     "lat": 24.18231,
     "lng": 120.704481,
-    "address": "406臺中市北屯區松竹路一段1473巷100號"
+    "address": "406臺中市北屯區松竹路一段1473巷100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局松竹站第二月台",
     "lat": 24.18231,
     "lng": 120.704481,
-    "address": "406臺中市北屯區松竹路一段1473巷100號"
+    "address": "406臺中市北屯區松竹路一段1473巷100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "仁愛之家",
     "lat": 24.184678,
     "lng": 120.719777,
-    "address": "406臺中市北屯區軍功路二段490號"
+    "address": "406臺中市北屯區軍功路二段490號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商潭子榮興街潭榮店(公話)",
     "lat": 24.187763,
     "lng": 120.701622,
-    "address": "427臺中市潭子區榮興街19號"
+    "address": "427臺中市潭子區榮興街19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "全家便利商店潭子榮興街榮興店(公話)",
     "lat": 24.188799,
     "lng": 120.70163,
-    "address": "427臺中市潭子區榮興街57巷1號"
+    "address": "427臺中市潭子區榮興街57巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "潭子頭家厝郵局",
     "lat": 24.191148,
     "lng": 120.702279,
-    "address": "427臺中市潭子區頭家村中山路一段25號"
+    "address": "427臺中市潭子區頭家村中山路一段25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市公車中山中興路口站",
     "lat": 24.191604,
     "lng": 120.702398,
-    "address": "427臺中市潭子區中山路一段45號之2前(FYTT3943交接箱內)"
+    "address": "427臺中市潭子區中山路一段45號之2前(FYTT3943交接箱內)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市潭子區家福社區發展協會",
     "lat": 24.193202,
     "lng": 120.701927,
-    "address": "427臺中市潭子區家福里中山路一段101巷7號"
+    "address": "427臺中市潭子區家福里中山路一段101巷7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(臺中地方法院-豐原簡易庭)-1",
     "lat": 24.193477,
     "lng": 120.719082,
-    "address": "427臺中市潭子區豐興路一段139號1樓"
+    "address": "427臺中市潭子區豐興路一段139號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(臺中地方法院-豐原簡易庭)-2",
     "lat": 24.193477,
     "lng": 120.719082,
-    "address": "427臺中市潭子區豐興路一139號2樓"
+    "address": "427臺中市潭子區豐興路一139號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "統一超商潭子頭張路頭張店(公話)",
     "lat": 24.194373,
     "lng": 120.701139,
-    "address": "427臺中市潭子區頭張路一段31號"
+    "address": "427臺中市潭子區頭張路一段31號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局頭家厝站第一月台",
     "lat": 24.194677,
     "lng": 120.703844,
-    "address": "427臺中市潭子區頭張東路43巷8號"
+    "address": "427臺中市潭子區頭張東路43巷8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺中市公車頭家厝站",
     "lat": 24.194895,
     "lng": 120.702291,
-    "address": "427臺中市潭子區中山路一段165號"
+    "address": "427臺中市潭子區中山路一段165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市潭仔墘社區文化協會",
     "lat": 24.196029,
     "lng": 120.700106,
-    "address": "427臺中市潭子區頭家里得天街33號"
+    "address": "427臺中市潭子區頭家里得天街33號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

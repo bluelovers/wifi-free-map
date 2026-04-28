@@ -1,154 +1,211 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園大樹林郵局",
     "lat": 24.983703,
     "lng": 121.322245,
-    "address": "330桃園市桃園區大誠路9號"
+    "address": "330桃園市桃園區大誠路9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龜山工業區服務中心",
     "lat": 24.983703,
     "lng": 121.322245,
-    "address": "330桃園市桃園區大誠路9號2樓"
+    "address": "330桃園市桃園區大誠路9號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龜山區山頂里辦公處",
     "lat": 24.986068,
     "lng": 121.330585,
-    "address": "333桃園市龜山區山頂里明興街36號"
+    "address": "333桃園市龜山區山頂里明興街36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龜山區幸福社區發展協會",
     "lat": 24.987854,
     "lng": 121.334424,
-    "address": "333桃園市龜山區幸福里幸福一街38號之一"
+    "address": "333桃園市龜山區幸福里幸福一街38號之一",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龜山民安街郵局",
     "lat": 24.989711,
     "lng": 121.324644,
-    "address": "333桃園市龜山區民安街120號"
+    "address": "333桃園市龜山區民安街120號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龜山區貿商社區發展協會",
     "lat": 24.990007,
     "lng": 121.333564,
-    "address": "333桃園市龜山區新興里中興路196巷2號一樓"
+    "address": "333桃園市龜山區新興里中興路196巷2號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府警察局龜山分局",
     "lat": 24.99146,
     "lng": 121.338131,
-    "address": "333桃園市龜山區自強南路123號"
+    "address": "333桃園市龜山區自強南路123號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市龜山區衛生所",
     "lat": 24.991572,
     "lng": 121.33841,
-    "address": "333桃園市龜山區自強南路103號"
+    "address": "333桃園市龜山區自強南路103號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市立圖書館龜山分館4F",
     "lat": 24.991871,
     "lng": 121.338609,
-    "address": "333桃園市龜山區自強南路97號4樓"
+    "address": "333桃園市龜山區自強南路97號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市龜山區戶政事務所",
     "lat": 24.99199,
     "lng": 121.338791,
-    "address": "333桃園市龜山區自強南路99號"
+    "address": "333桃園市龜山區自強南路99號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人桃園市失能老人關懷協會（認知休憩站）",
     "lat": 24.992941,
     "lng": 121.337356,
-    "address": "333桃園市龜山區新路里中山街12號"
+    "address": "333桃園市龜山區新路里中山街12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龜山郵局",
     "lat": 24.993209,
     "lng": 121.334498,
-    "address": "333桃園市龜山區新路村22鄰豐美街2-1號"
+    "address": "333桃園市龜山區新路村22鄰豐美街2-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行龜山分行",
     "lat": 24.993799,
     "lng": 121.330733,
-    "address": "333桃園市龜山區萬壽路二段1227號"
+    "address": "333桃園市龜山區萬壽路二段1227號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市政府體育局（田徑場1樓大廳）",
     "lat": 24.994538,
     "lng": 121.324296,
-    "address": "330桃園市桃園區三民路一段1號"
+    "address": "330桃園市桃園區三民路一段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市立巨蛋體育館(東門)",
     "lat": 24.994538,
     "lng": 121.324296,
-    "address": "330桃園市桃園區三民路一段1號"
+    "address": "330桃園市桃園區三民路一段1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人天主教德來會",
     "lat": 24.996452,
     "lng": 121.323222,
-    "address": "330桃園市桃園區三民里三民路一段2號"
+    "address": "330桃園市桃園區三民里三民路一段2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市梅花愛心協會",
     "lat": 24.996746,
     "lng": 121.337146,
-    "address": "333桃園市龜山區龜山里自強西路86號"
+    "address": "333桃園市龜山區龜山里自強西路86號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園區公所里集會所-三民里集會所",
     "lat": 24.997552,
     "lng": 121.320647,
-    "address": "330桃園市桃園區中山東路128號"
+    "address": "330桃園市桃園區中山東路128號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "虎頭山風景特定區-桃信亭",
     "lat": 24.999476,
     "lng": 121.329202,
-    "address": "330桃園市桃園區公園路42號"
+    "address": "330桃園市桃園區公園路42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

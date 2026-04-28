@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新店五城郵局",
     "lat": 24.944973,
     "lng": 121.479462,
-    "address": "231新北市新店區錦秀路5號"
+    "address": "231新北市新店區錦秀路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

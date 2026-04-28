@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "貢寮郵局",
     "lat": 25.019575,
     "lng": 121.908844,

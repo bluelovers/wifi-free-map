@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南南小北郵局",
     "lat": 23.003423,
     "lng": 120.204285,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司台南服務所",
     "lat": 23.006177,
     "lng": 120.216737,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南開元路郵局",
     "lat": 23.007036,
     "lng": 120.219796,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南大光郵局",
     "lat": 23.012987,
     "lng": 120.218083,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台南北小北郵局",
     "lat": 23.01653,
     "lng": 120.211191,

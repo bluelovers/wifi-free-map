@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龜山派出所",
     "lat": 24.9027,
     "lng": 121.5518,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司訓練所在職大樓大廳川堂",
     "lat": 24.90313,
     "lng": 121.55334,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新店龜山郵局",
     "lat": 24.90919,
     "lng": 121.551409,

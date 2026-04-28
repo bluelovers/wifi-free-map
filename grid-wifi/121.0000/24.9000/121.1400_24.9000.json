@@ -1,242 +1,332 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市楊梅大平友善照護協會",
     "lat": 24.901879,
     "lng": 121.140861,
-    "address": "326桃園市楊梅區大平里秀才路178巷2號"
+    "address": "326桃園市楊梅區大平里秀才路178巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣樂活服務發展協會（宣聖堂）",
     "lat": 24.90405,
     "lng": 121.145217,
-    "address": "326桃園市楊梅區紅梅里校前路32巷25之1號"
+    "address": "326桃園市楊梅區紅梅里校前路32巷25之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "楊梅秀才郵局",
     "lat": 24.904761,
     "lng": 121.142575,
-    "address": "326桃園市楊梅區秀才路205號"
+    "address": "326桃園市楊梅區秀才路205號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市立圖書館紅梅分館2樓",
     "lat": 24.905043,
     "lng": 121.145482,
-    "address": "326桃園市楊梅區校前路41號"
+    "address": "326桃園市楊梅區校前路41號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市立圖書館紅梅分館3樓",
     "lat": 24.905043,
     "lng": 121.145482,
-    "address": "326桃園市楊梅區校前路41號"
+    "address": "326桃園市楊梅區校前路41號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市楊梅志願服務協會",
     "lat": 24.905654,
     "lng": 121.144118,
-    "address": "326桃園市楊梅區紅梅里校前路5號"
+    "address": "326桃園市楊梅區紅梅里校前路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部北區國稅局楊梅稽徵所",
     "lat": 24.906309,
     "lng": 121.142522,
-    "address": "326桃園市楊梅區中山路212號2樓"
+    "address": "326桃園市楊梅區中山路212號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府地方稅務局楊梅分局",
     "lat": 24.906562,
     "lng": 121.142551,
-    "address": "326桃園市楊梅區中山路212號"
+    "address": "326桃園市楊梅區中山路212號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府警察局楊梅分局",
     "lat": 24.906722,
     "lng": 121.145819,
-    "address": "326桃園市楊梅區中山路123號"
+    "address": "326桃園市楊梅區中山路123號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "楊梅區公所活動中心",
     "lat": 24.907809,
     "lng": 121.14559,
-    "address": "326桃園市楊梅區大成路2號"
+    "address": "326桃園市楊梅區大成路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "楊梅區公所",
     "lat": 24.907861,
     "lng": 121.145597,
-    "address": "326桃園市楊梅區大成路2號"
+    "address": "326桃園市楊梅區大成路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市楊梅區圖書館本館前棟1樓",
     "lat": 24.908352,
     "lng": 121.145412,
-    "address": "326桃園市楊梅區光華街26號"
+    "address": "326桃園市楊梅區光華街26號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "天成生醫健康生活館",
     "lat": 24.90875,
     "lng": 121.1577,
-    "address": "326桃園市楊梅區中山北路一段360號1樓"
+    "address": "326桃園市楊梅區中山北路一段360號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀楊梅分行",
     "lat": 24.910084,
     "lng": 121.146899,
-    "address": "326桃園市楊梅區新成路125號"
+    "address": "326桃園市楊梅區新成路125號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市楊梅區大合社區發展協會",
     "lat": 24.910932,
     "lng": 121.149137,
-    "address": "326桃園市楊梅區大同里9鄰自立街2號"
+    "address": "326桃園市楊梅區大同里9鄰自立街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "楊梅郵局",
     "lat": 24.911043,
     "lng": 121.143592,
-    "address": "326桃園市楊梅區大平街7號"
+    "address": "326桃園市楊梅區大平街7號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行楊梅分行",
     "lat": 24.911043,
     "lng": 121.144669,
-    "address": "326桃園市楊梅區大平街116號"
+    "address": "326桃園市楊梅區大平街116號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行楊梅分行",
     "lat": 24.911388,
     "lng": 121.145725,
-    "address": "326桃園市楊梅區大成路95號"
+    "address": "326桃園市楊梅區大成路95號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局楊梅分隊",
     "lat": 24.911758,
     "lng": 121.152291,
-    "address": "326桃園市楊梅區新農街245巷20號"
+    "address": "326桃園市楊梅區新農街245巷20號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人台灣樂活服務發展協會(一品據點)",
     "lat": 24.912893,
     "lng": 121.158423,
-    "address": "326桃園市楊梅區楊明里新農街429巷32弄2號"
+    "address": "326桃園市楊梅區楊明里新農街429巷32弄2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中華民國紅十字會桃園市分會",
     "lat": 24.912924,
     "lng": 121.144603,
-    "address": "326桃園市楊梅區楊梅里大模街10號二樓"
+    "address": "326桃園市楊梅區楊梅里大模街10號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龍潭區佳安里辦公處",
     "lat": 24.913,
     "lng": 121.144,
-    "address": "325桃園市龍潭區佳安里佳安西路2巷2號"
+    "address": "325桃園市龍潭區佳安里佳安西路2巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "新竹客運楊梅站",
     "lat": 24.913109,
     "lng": 121.1482,
-    "address": "326桃園市楊梅區楊新北路3號"
+    "address": "326桃園市楊梅區楊新北路3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局楊梅站候車室",
     "lat": 24.913262,
     "lng": 121.145886,
-    "address": "326桃園市楊梅區大成路256號"
+    "address": "326桃園市楊梅區大成路256號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司楊梅服務所",
     "lat": 24.91353,
     "lng": 121.147693,
-    "address": "326桃園市楊梅區楊新路18巷2號"
+    "address": "326桃園市楊梅區楊新路18巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市慈馨公益關懷協會",
     "lat": 24.913613,
     "lng": 121.143716,
-    "address": "326桃園市楊梅區楊梅里楊新路154號"
+    "address": "326桃園市楊梅區楊梅里楊新路154號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局楊梅站第1月台3車位置(行車室)",
     "lat": 24.91433,
     "lng": 121.146427,
-    "address": "326桃園市楊梅區楊梅里大成路256號"
+    "address": "326桃園市楊梅區楊梅里大成路256號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "臺鐵局楊梅站4樓候車大廳(售票口)",
     "lat": 24.91433,
     "lng": 121.146427,
-    "address": "326桃園市楊梅區楊梅里大成路256號"
+    "address": "326桃園市楊梅區楊梅里大成路256號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "楊梅幼工郵局",
     "lat": 24.916667,
     "lng": 121.15,
-    "address": "326桃園市楊梅區獅二路2號"
+    "address": "326桃園市楊梅區獅二路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "楊梅光華郵局",
     "lat": 24.916696,
     "lng": 121.145992,
-    "address": "326桃園市楊梅區金德路51號"
+    "address": "326桃園市楊梅區金德路51號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

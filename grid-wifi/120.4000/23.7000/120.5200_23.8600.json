@@ -1,202 +1,277 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司北斗營運所",
     "lat": 23.870895,
     "lng": 120.531932,
-    "address": "521彰化縣北斗鎮斗中路811號"
+    "address": "521彰化縣北斗鎮斗中路811號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣消防局北斗分隊",
     "lat": 23.871333,
     "lng": 120.521489,
-    "address": "521彰化縣北斗鎮西德里公所街12號"
+    "address": "521彰化縣北斗鎮西德里公所街12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣北斗鎮公所",
     "lat": 23.871406,
     "lng": 120.521844,
-    "address": "521彰化縣北斗鎮公所街2號"
+    "address": "521彰化縣北斗鎮公所街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣北斗鎮公所3樓自習室",
     "lat": 23.87141,
     "lng": 120.5218,
-    "address": "521彰化縣北斗鎮公所街2號"
+    "address": "521彰化縣北斗鎮公所街2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣北斗鎮紅磚市場北側",
     "lat": 23.871784,
     "lng": 120.526028,
-    "address": "521彰化縣北斗鎮七星里新市街40號"
+    "address": "521彰化縣北斗鎮七星里新市街40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣北斗鎮紅磚市場南側",
     "lat": 23.871784,
     "lng": 120.526028,
-    "address": "521彰化縣北斗鎮七星里新市街40號"
+    "address": "521彰化縣北斗鎮七星里新市街40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣北斗鎮奠安宮1F",
     "lat": 23.872657,
     "lng": 120.525439,
-    "address": "521彰化縣北斗鎮斗苑路一段120號1樓"
+    "address": "521彰化縣北斗鎮斗苑路一段120號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "彰化縣歷史建築北斗富美館",
     "lat": 23.874002,
     "lng": 120.524241,
-    "address": "521彰化縣北斗鎮光復路196號"
+    "address": "521彰化縣北斗鎮光復路196號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣北斗戶政事務所",
     "lat": 23.874575,
     "lng": 120.523421,
-    "address": "521彰化縣北斗鎮地政路466號"
+    "address": "521彰化縣北斗鎮地政路466號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣北斗地政事務所1樓服務台",
     "lat": 23.874762,
     "lng": 120.524719,
-    "address": "521彰化縣北斗鎮光復里地政路416號"
+    "address": "521彰化縣北斗鎮光復里地政路416號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣北斗地政事務所2樓民眾休息室",
     "lat": 23.874762,
     "lng": 120.524719,
-    "address": "521彰化縣北斗鎮光復里地政路416號2樓"
+    "address": "521彰化縣北斗鎮光復里地政路416號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣北斗地政事務所3樓會議室",
     "lat": 23.874762,
     "lng": 120.524719,
-    "address": "521彰化縣北斗鎮光復里地政路416號3樓"
+    "address": "521彰化縣北斗鎮光復里地政路416號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣北斗地政事務所第二辦公室",
     "lat": 23.874762,
     "lng": 120.524719,
-    "address": "521彰化縣北斗鎮光復里地政路416號"
+    "address": "521彰化縣北斗鎮光復里地政路416號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局北斗分局北斗派出所",
     "lat": 23.874772,
     "lng": 120.523989,
-    "address": "521彰化縣北斗鎮新政里光復路215號"
+    "address": "521彰化縣北斗鎮新政里光復路215號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北斗郵局",
     "lat": 23.874893,
     "lng": 120.524368,
-    "address": "521彰化縣北斗鎮光復路226號"
+    "address": "521彰化縣北斗鎮光復路226號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣北斗鎮衛生所",
     "lat": 23.875017,
     "lng": 120.525025,
-    "address": "521彰化縣北斗鎮地政路406巷17號"
+    "address": "521彰化縣北斗鎮地政路406巷17號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣地方稅務局北斗分局2F",
     "lat": 23.875049,
     "lng": 120.524284,
-    "address": "521彰化縣北斗鎮光復路238號2樓"
+    "address": "521彰化縣北斗鎮光復路238號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣地方稅務局北斗分局1F",
     "lat": 23.875056,
     "lng": 120.524308,
-    "address": "521彰化縣北斗鎮光復里光復路238號1樓"
+    "address": "521彰化縣北斗鎮光復里光復路238號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局北斗分局",
     "lat": 23.875184,
     "lng": 120.524011,
-    "address": "521彰化縣北斗鎮光復路215號"
+    "address": "521彰化縣北斗鎮光復路215號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣北斗鎮立圖書館",
     "lat": 23.877567,
     "lng": 120.52376,
-    "address": "521彰化縣北斗鎮光復里光復路363號"
+    "address": "521彰化縣北斗鎮光復里光復路363號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣北斗鎮立圖書館_B1民眾休息區",
     "lat": 23.877577,
     "lng": 120.523517,
-    "address": "521彰化縣北斗鎮光復里光復路363號"
+    "address": "521彰化縣北斗鎮光復里光復路363號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣北斗鎮立圖書館2樓書庫及借書服務台",
     "lat": 23.877577,
     "lng": 120.523517,
-    "address": "521彰化縣北斗鎮光復里光復路363號"
+    "address": "521彰化縣北斗鎮光復里光復路363號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣北斗鎮立圖書館3樓青少年閱覽區",
     "lat": 23.877577,
     "lng": 120.523517,
-    "address": "521彰化縣北斗鎮光復里光復路363號"
+    "address": "521彰化縣北斗鎮光復里光復路363號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "彰化縣北斗鎮立圖書館4樓自習室",
     "lat": 23.877577,
     "lng": 120.523517,
-    "address": "521彰化縣北斗鎮光復里光復路363號"
+    "address": "521彰化縣北斗鎮光復里光復路363號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "財政部中區國稅局北斗稽徵所",
     "lat": 23.878554,
     "lng": 120.520723,
-    "address": "521彰化縣北斗鎮中山路二段309號"
+    "address": "521彰化縣北斗鎮中山路二段309號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

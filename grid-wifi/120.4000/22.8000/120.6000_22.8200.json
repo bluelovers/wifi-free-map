@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣高樹鄉高樹社區發展協會",
     "lat": 22.820692,
     "lng": 120.602068,
-    "address": "906屏東縣高樹鄉高樹村南興路47號"
+    "address": "906屏東縣高樹鄉高樹村南興路47號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行高樹分行",
     "lat": 22.824064,
     "lng": 120.601138,
-    "address": "906屏東縣高樹鄉高樹村南興路99號"
+    "address": "906屏東縣高樹鄉高樹村南興路99號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣高樹鄉東振社區發展協會",
     "lat": 22.82549,
     "lng": 120.60038,
-    "address": "906屏東縣高樹鄉東振村民權路19號"
+    "address": "906屏東縣高樹鄉東振村民權路19號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高樹郵局",
     "lat": 22.826293,
     "lng": 120.600523,
-    "address": "906屏東縣高樹鄉高樹村興中路327號"
+    "address": "906屏東縣高樹鄉高樹村興中路327號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "向日葵護理之家(高樹鄉)",
     "lat": 22.829468,
     "lng": 120.60037,
-    "address": "906屏東縣高樹鄉興中路355號"
+    "address": "906屏東縣高樹鄉興中路355號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣高樹鄉大埔社區發展協會",
     "lat": 22.836802,
     "lng": 120.604083,
-    "address": "906屏東縣高樹鄉大埔村和興路2號"
+    "address": "906屏東縣高樹鄉大埔村和興路2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "耕莘健康管理專科學校-高齡者體適能中心",
     "lat": 24.69847,
     "lng": 121.68663,
-    "address": "266宜蘭縣三星鄉尚武村健富路二段407號"
+    "address": "266宜蘭縣三星鄉尚武村健富路二段407號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

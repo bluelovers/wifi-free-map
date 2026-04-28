@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局彰化站候車室",
     "lat": 24.0814,
     "lng": 120.538335,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局彰化站候車大廳出口處",
     "lat": 24.0814,
     "lng": 120.538335,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局彰化站第1月台4-5車處",
     "lat": 24.0814,
     "lng": 120.538335,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局彰化機務段扇形車庫",
     "lat": 24.086127,
     "lng": 120.539841,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化過溝仔郵局",
     "lat": 24.08872,
     "lng": 120.538232,

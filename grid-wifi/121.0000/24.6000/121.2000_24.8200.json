@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龍潭區高平社區發展協會",
     "lat": 24.826702,
     "lng": 121.206491,
-    "address": "325桃園市龍潭區高平里龍源路11號一樓"
+    "address": "325桃園市龍潭區高平里龍源路11號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

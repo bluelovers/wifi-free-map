@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館湖內分館",
     "lat": 22.908515,
     "lng": 120.223374,
-    "address": "829高雄市湖內區保生路101號"
+    "address": "829高雄市湖內區保生路101號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市湖內區公館社區發展協會",
     "lat": 22.909337,
     "lng": 120.225983,
-    "address": "829高雄市湖內區公館里中正路一段53巷1號"
+    "address": "829高雄市湖內區公館里中正路一段53巷1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "秀傳醫療社團法人高雄秀傳紀念醫院",
     "lat": 22.90981,
     "lng": 120.22524,
-    "address": "829高雄市湖內區中正路一段81號"
+    "address": "829高雄市湖內區中正路一段81號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "仁德車路墘郵局",
     "lat": 22.919071,
     "lng": 120.227474,
-    "address": "717臺南市仁德區中正路一段32號"
+    "address": "717臺南市仁德區中正路一段32號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

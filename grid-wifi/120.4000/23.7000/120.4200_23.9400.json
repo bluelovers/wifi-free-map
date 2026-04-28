@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "彰化縣警察局芳苑分局萬興派出所",
     "lat": 23.954005,
     "lng": 120.420771,
-    "address": "526彰化縣二林鎮永興里二溪路六段395號"
+    "address": "526彰化縣二林鎮永興里二溪路六段395號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "二林萬興郵局",
     "lat": 23.954626,
     "lng": 120.422875,
-    "address": "526彰化縣二林鎮永興里二溪路六段290號"
+    "address": "526彰化縣二林鎮永興里二溪路六段290號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

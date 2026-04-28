@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "六腳蒜頭郵局",
     "lat": 23.493164,
     "lng": 120.292197,

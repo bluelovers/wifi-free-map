@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市西屯區戶政事務所",
     "lat": 24.165678,
     "lng": 120.633634,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市西屯區戶政事務所",
     "lat": 24.165784,
     "lng": 120.633595,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中西屯郵局",
     "lat": 24.176692,
     "lng": 120.637654,

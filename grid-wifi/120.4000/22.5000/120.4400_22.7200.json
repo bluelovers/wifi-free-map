@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館大樹三館",
     "lat": 22.730393,
     "lng": 120.445168,
-    "address": "840高雄市大樹區溪埔里溪埔路3巷60-1號2樓"
+    "address": "840高雄市大樹區溪埔里溪埔路3巷60-1號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

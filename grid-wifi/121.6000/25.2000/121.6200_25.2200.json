@@ -1,42 +1,57 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司基隆區處金山服務所",
     "lat": 25.222042,
     "lng": 121.632709,
-    "address": "208新北市金山區美田里中正路52號"
+    "address": "208新北市金山區美田里中正路52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人介惠社會福利慈善基金會",
     "lat": 25.222095,
     "lng": 121.636873,
-    "address": "208新北市金山區金美里中山路257號一樓"
+    "address": "208新北市金山區金美里中山路257號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市金山區老人會",
     "lat": 25.222095,
     "lng": 121.636873,
-    "address": "208新北市金山區美田里中山路277號三樓"
+    "address": "208新北市金山區美田里中山路277號三樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "美田社區發展協會",
     "lat": 25.223393,
     "lng": 121.636151,
-    "address": "208新北市金山區美田里中山路236號二樓"
+    "address": "208新北市金山區美田里中山路236號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新北市金山區六三社區發展協會",
     "lat": 25.230093,
     "lng": 121.620711,
-    "address": "208新北市金山區三界里三界壇路101之1號"
+    "address": "208新北市金山區三界里三界壇路101之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

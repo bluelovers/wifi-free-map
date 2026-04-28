@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市仁德區後壁社區發展協會",
     "lat": 22.95,
     "lng": 120.253,
-    "address": "717臺南市仁德區後壁里德善一街28號一樓"
+    "address": "717臺南市仁德區後壁里德善一街28號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "仁德後壁厝郵局",
     "lat": 22.953857,
     "lng": 120.252089,
-    "address": "717臺南市仁德區中正路二段417、419號"
+    "address": "717臺南市仁德區中正路二段417、419號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

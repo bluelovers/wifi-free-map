@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "成功郵局",
     "lat": 23.100609,
     "lng": 121.378319,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司成功營運所",
     "lat": 23.103102,
     "lng": 121.376266,

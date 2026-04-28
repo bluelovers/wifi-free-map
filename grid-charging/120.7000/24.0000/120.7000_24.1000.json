@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "太平永豐路郵局",
     "lat": 24.113904,
     "lng": 120.703535,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "太平長億郵局",
     "lat": 24.119952,
     "lng": 120.719691,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司花蓮直銷中心",
     "lat": 24.000636,
     "lng": 121.632729,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "美崙(兼和平及光華)工業區服務中心-美崙服務中心",
     "lat": 24.013265,
     "lng": 121.630347,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新店碧潭郵局",
     "lat": 24.957143,
     "lng": 121.538369,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "水利署台北水源特定區管理局4樓服務台",
     "lat": 24.959042,
     "lng": 121.537415,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市復興區比亞外部落",
     "lat": 24.72471,
     "lng": 121.356487,
-    "address": "336桃園市復興區高義里比亞外12鄰4號"
+    "address": "336桃園市復興區高義里比亞外12鄰4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

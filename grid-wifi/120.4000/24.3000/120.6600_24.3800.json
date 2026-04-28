@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高速公路局大甲工務段會議室",
     "lat": 24.383207,
     "lng": 120.668107,
-    "address": "437臺中市大甲區幸福里6鄰東明路137-21號"
+    "address": "437臺中市大甲區幸福里6鄰東明路137-21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "苗栗縣苑裡鎮山柑社區發展協會",
     "lat": 24.394087,
     "lng": 120.672267,
-    "address": "358苗栗縣苑裡鎮山柑里5鄰山柑58之1號"
+    "address": "358苗栗縣苑裡鎮山柑里5鄰山柑58之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

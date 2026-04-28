@@ -1,58 +1,79 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園北區客家會館-1",
     "lat": 24.94449,
     "lng": 121.26529,
-    "address": "334桃園市八德區崁頂路60號"
+    "address": "334桃園市八德區崁頂路60號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園北區客家會館-2",
     "lat": 24.94449,
     "lng": 121.26529,
-    "address": "334桃園市八德區崁頂路60號"
+    "address": "334桃園市八德區崁頂路60號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "中壢華勛公園華勛街363巷39號燈桿左前方",
     "lat": 24.94624,
     "lng": 121.261405,
-    "address": "320桃園市中壢區華勛街363巷39號"
+    "address": "320桃園市中壢區華勛街363巷39號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市中壢區仁祥里辦公處",
     "lat": 24.948202,
     "lng": 121.261543,
-    "address": "320桃園市中壢區仁祥里華祥一街21號"
+    "address": "320桃園市中壢區仁祥里華祥一街21號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市中壢區仁和里辦公處",
     "lat": 24.952614,
     "lng": 121.263117,
-    "address": "320桃園市中壢區仁和里10鄰仁德四街96號"
+    "address": "320桃園市中壢區仁和里10鄰仁德四街96號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市中壢區仁德社區發展協會",
     "lat": 24.954337,
     "lng": 121.263352,
-    "address": "320桃園市中壢區仁德里新中北路二段170巷71號"
+    "address": "320桃園市中壢區仁德里新中北路二段170巷71號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中壢華勛郵局",
     "lat": 24.955319,
     "lng": 121.264496,
-    "address": "320桃園市中壢區仁德里4鄰幸福新村1號"
+    "address": "320桃園市中壢區仁德里4鄰幸福新村1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

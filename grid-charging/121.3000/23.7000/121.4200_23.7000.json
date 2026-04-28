@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "鳳林萬榮郵局",
     "lat": 23.713045,
     "lng": 121.420857,

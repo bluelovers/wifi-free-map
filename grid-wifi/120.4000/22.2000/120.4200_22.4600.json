@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣新園鄉共和社區發展協會",
     "lat": 22.474988,
     "lng": 120.437153,
-    "address": "932屏東縣新園鄉共和村義仁路5號"
+    "address": "932屏東縣新園鄉共和村義仁路5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市永康區尚頂里辦公處",
     "lat": 23.02,
     "lng": 120.224,
-    "address": "710臺南市永康區尚頂里中華路920號"
+    "address": "710臺南市永康區尚頂里中華路920號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "奇美醫療財團法人奇美醫院第一醫療大樓2樓病人候診區",
     "lat": 23.021807,
     "lng": 120.226555,
-    "address": "710臺南市永康區中華路901號"
+    "address": "710臺南市永康區中華路901號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

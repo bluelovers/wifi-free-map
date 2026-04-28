@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局北區工程處關西服務區服務台",
     "lat": 24.799933,
     "lng": 121.202534,

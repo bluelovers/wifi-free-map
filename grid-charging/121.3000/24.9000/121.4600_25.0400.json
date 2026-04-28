@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司新莊服務所",
     "lat": 25.040989,
     "lng": 121.460326,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新莊化成路郵局",
     "lat": 25.046568,
     "lng": 121.465335,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台電公司北西區處服務中心營業廳",
     "lat": 25.047643,
     "lng": 121.465316,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三重二重埔郵局",
     "lat": 25.052912,
     "lng": 121.471898,

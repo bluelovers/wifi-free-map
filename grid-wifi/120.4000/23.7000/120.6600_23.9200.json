@@ -1,34 +1,46 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司南投直銷中心",
     "lat": 23.922798,
     "lng": 120.671205,
-    "address": "540南投縣南投市仁和路13號"
+    "address": "540南投縣南投市仁和路13號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南崗(兼竹山)工業區服務中心-南崗",
     "lat": 23.926937,
     "lng": 120.669106,
-    "address": "540南投縣南投市南崗三路21號1樓"
+    "address": "540南投縣南投市南崗三路21號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "南投南崗郵局",
     "lat": 23.929931,
     "lng": 120.665704,
-    "address": "540南投縣南投市成功三路136-1號"
+    "address": "540南投縣南投市成功三路136-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "南投縣南投市永豐社區發展協會",
     "lat": 23.93846,
     "lng": 120.670303,
-    "address": "540南投縣南投市永豐里中華路190巷50號"
+    "address": "540南投縣南投市永豐里中華路190巷50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

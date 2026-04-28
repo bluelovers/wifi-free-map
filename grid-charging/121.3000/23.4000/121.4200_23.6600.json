@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "光復郵局",
     "lat": 23.665222,
     "lng": 121.424811,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "花蓮縣光復鄉戶政事務所",
     "lat": 23.665469,
     "lng": 121.424973,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄籬仔內郵局",
     "lat": 22.605428,
     "lng": 120.328818,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄崗山仔郵局",
     "lat": 22.609118,
     "lng": 120.335102,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄英德街郵局",
     "lat": 22.613957,
     "lng": 120.321465,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公路總局高雄區監理所",
     "lat": 22.615307,
     "lng": 120.33604,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄林華郵局",
     "lat": 22.619087,
     "lng": 120.320843,

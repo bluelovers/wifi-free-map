@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會岡山榮譽國民之家服務中心一樓大廳",
     "lat": 22.805527,
     "lng": 120.297656,
-    "address": "824高雄市燕巢區成功路1號"
+    "address": "824高雄市燕巢區成功路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市岡山區台上社區發展協會",
     "lat": 22.805818,
     "lng": 120.296464,
-    "address": "820高雄市岡山區台上里嘉新東路139之1號"
+    "address": "820高雄市岡山區台上里嘉新東路139之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

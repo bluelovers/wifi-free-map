@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "柳營重溪郵局",
     "lat": 23.294718,
     "lng": 120.352198,

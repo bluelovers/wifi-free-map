@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "深坑郵局",
     "lat": 25.001197,
     "lng": 121.609063,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市新店戶政事務所深坑區所",
     "lat": 25.001819,
     "lng": 121.615282,

@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣卑南鄉初鹿部落2",
     "lat": 22.860608,
     "lng": 121.092358,
-    "address": "954臺東縣卑南鄉初鹿村忠孝路165號"
+    "address": "954臺東縣卑南鄉初鹿村忠孝路165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺東縣弱勢者關懷協會-卑南鄉-明峰",
     "lat": 22.860646,
     "lng": 121.092522,
-    "address": "954臺東縣卑南鄉初鹿村5鄰忠孝路165號"
+    "address": "954臺東縣卑南鄉初鹿村5鄰忠孝路165號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

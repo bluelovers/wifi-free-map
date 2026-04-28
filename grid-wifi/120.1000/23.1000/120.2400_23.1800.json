@@ -1,106 +1,145 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市麻豆區麻口里辦公處",
     "lat": 23.18,
     "lng": 120.243,
-    "address": "721臺南市麻豆區麻口里麻豆口54之6號"
+    "address": "721臺南市麻豆區麻口里麻豆口54之6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市麻豆區大埕里辦公處",
     "lat": 23.181,
     "lng": 120.244,
-    "address": "721臺南市麻豆區大埕里16鄰大同街26之2號"
+    "address": "721臺南市麻豆區大埕里16鄰大同街26之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市麻豆區磚井社區發展協會",
     "lat": 23.183,
     "lng": 120.25,
-    "address": "721臺南市麻豆區井東里31-1號"
+    "address": "721臺南市麻豆區井東里31-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺南市政府消防局第二大隊部",
     "lat": 23.183326,
     "lng": 120.248513,
-    "address": "721臺南市麻豆區興國路9號2樓"
+    "address": "721臺南市麻豆區興國路9號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行(麻豆分行)",
     "lat": 23.183581,
     "lng": 120.248656,
-    "address": "721臺南市麻豆區興中路12號"
+    "address": "721臺南市麻豆區興中路12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行麻豆分行",
     "lat": 23.18385,
     "lng": 120.247416,
-    "address": "721臺南市麻豆區中山路36號"
+    "address": "721臺南市麻豆區中山路36號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司麻豆服務所",
     "lat": 23.183857,
     "lng": 120.256071,
-    "address": "721臺南市麻豆區興中路211號"
+    "address": "721臺南市麻豆區興中路211號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市麻豆區安東社區發展協會",
     "lat": 23.184,
     "lng": 120.257,
-    "address": "721臺南市麻豆區井東里安業277之4號"
+    "address": "721臺南市麻豆區井東里安業277之4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市官田區隆田社區發展協會",
     "lat": 23.186,
     "lng": 120.246,
-    "address": "720臺南市官田區隆田里中山路一段134號"
+    "address": "720臺南市官田區隆田里中山路一段134號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "麻豆郵局",
     "lat": 23.18615,
     "lng": 120.24078,
-    "address": "721臺南市麻豆區新生北路1號"
+    "address": "721臺南市麻豆區新生北路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "公路總局嘉義區監理所麻豆監理站",
     "lat": 23.18995,
     "lng": 120.248364,
-    "address": "721臺南市麻豆區新生北路551號"
+    "address": "721臺南市麻豆區新生北路551號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市麻豆區油車里辦公處",
     "lat": 23.1909,
     "lng": 120.2403,
-    "address": "721臺南市麻豆區油車里油車95號"
+    "address": "721臺南市麻豆區油車里油車95號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市麻豆區東角里辦公處",
     "lat": 23.191,
     "lng": 120.241,
-    "address": "721臺南市麻豆區東角里忠孝路44之1號"
+    "address": "721臺南市麻豆區東角里忠孝路44之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

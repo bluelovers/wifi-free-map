@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "虎尾科技大學郵局",
     "lat": 23.701928,
     "lng": 120.42949,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台糖公司雲林區處辦公大樓",
     "lat": 23.70377,
     "lng": 120.43673,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "虎尾郵局",
     "lat": 23.708987,
     "lng": 120.43332,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "虎尾圓環郵局",
     "lat": 23.709831,
     "lng": 120.437822,
@@ -29,6 +33,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "自來水公司虎尾營運所",
     "lat": 23.712571,
     "lng": 120.43321,

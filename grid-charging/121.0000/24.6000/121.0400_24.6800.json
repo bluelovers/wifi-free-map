@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新竹縣北埔鄉戶政事務所",
     "lat": 24.698874,
     "lng": 121.057086,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北埔郵局",
     "lat": 24.699979,
     "lng": 121.054737,

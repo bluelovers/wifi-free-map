@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龍潭區三坑里辦公處",
     "lat": 24.844407,
     "lng": 121.248476,
-    "address": "325桃園市龍潭區三坑里三坑老街66號"
+    "address": "325桃園市龍潭區三坑里三坑老街66號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市龍潭區佳安社區發展協會",
     "lat": 24.848568,
     "lng": 121.24251,
-    "address": "325桃園市龍潭區佳安里中正路佳安段403號"
+    "address": "325桃園市龍潭區佳安里中正路佳安段403號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "龍潭核研所郵局",
     "lat": 24.85433,
     "lng": 121.25321,
-    "address": "325桃園市龍潭區文化路1000號"
+    "address": "325桃園市龍潭區文化路1000號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

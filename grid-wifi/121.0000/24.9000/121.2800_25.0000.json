@@ -1,146 +1,200 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府警察局桃園分局",
     "lat": 25.000547,
     "lng": 121.299319,
-    "address": "330桃園市桃園區文中北路2號一樓埔子派出所"
+    "address": "330桃園市桃園區文中北路2號一樓埔子派出所",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局局本部",
     "lat": 25.000878,
     "lng": 121.299641,
-    "address": "330桃園市桃園區文中北路16號"
+    "address": "330桃園市桃園區文中北路16號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區同安社區發展協會",
     "lat": 25.006,
     "lng": 121.295,
-    "address": "330桃園市桃園區同安里同安街455巷1弄1號"
+    "address": "330桃園市桃園區同安里同安街455巷1弄1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣桃園地方法院檢察署1樓大廳",
     "lat": 25.006182,
     "lng": 121.286402,
-    "address": "330桃園市桃園區正光路898號"
+    "address": "330桃園市桃園區正光路898號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(桃園地方法院)-1",
     "lat": 25.006404,
     "lng": 121.28842,
-    "address": "330桃園市桃園區正光路888號1樓"
+    "address": "330桃園市桃園區正光路888號1樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(桃園地方法院)-2",
     "lat": 25.006404,
     "lng": 121.28842,
-    "address": "330桃園市桃園區正光路888號2樓"
+    "address": "330桃園市桃園區正光路888號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園溫州公園路燈桿左前方",
     "lat": 25.006845,
     "lng": 121.297917,
-    "address": "330桃園市桃園區溫州街"
+    "address": "330桃園市桃園區溫州街",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園溫州公園路燈桿右前方",
     "lat": 25.006845,
     "lng": 121.297917,
-    "address": "330桃園市桃園區溫州街"
+    "address": "330桃園市桃園區溫州街",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市明聖社區促進會",
     "lat": 25.007017,
     "lng": 121.281956,
-    "address": "330桃園市桃園區中成里永佳街126號"
+    "address": "330桃園市桃園區中成里永佳街126號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園國際路郵局",
     "lat": 25.007157,
     "lng": 121.285918,
-    "address": "330桃園市桃園區國際路二段587號"
+    "address": "330桃園市桃園區國際路二段587號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人桃園市社會服務關懷協會",
     "lat": 25.009466,
     "lng": 121.299339,
-    "address": "330桃園市桃園區中寧里同德二街189巷3號一樓"
+    "address": "330桃園市桃園區中寧里同德二街189巷3號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "桃園中正藝文特區商圈中埔二街40號左側號誌桿",
     "lat": 25.010084,
     "lng": 121.29687,
-    "address": "330桃園市桃園區中埔二街40號"
+    "address": "330桃園市桃園區中埔二街40號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行北桃園分行",
     "lat": 25.011242,
     "lng": 121.298246,
-    "address": "330桃園市桃園區大興西路二段94號"
+    "address": "330桃園市桃園區大興西路二段94號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "上海商銀北桃園分行",
     "lat": 25.015901,
     "lng": 121.298123,
-    "address": "330桃園市桃園區同德六街139號"
+    "address": "330桃園市桃園區同德六街139號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行北桃園分行",
     "lat": 25.01624,
     "lng": 121.298268,
-    "address": "330桃園市桃園區中正路1071號1樓-1"
+    "address": "330桃園市桃園區中正路1071號1樓-1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市展演中心",
     "lat": 25.017698,
     "lng": 121.298676,
-    "address": "330桃園市桃園區中正路1188號"
+    "address": "330桃園市桃園區中正路1188號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "行政執行署桃園分署1樓等候區",
     "lat": 25.019306,
     "lng": 121.297031,
-    "address": "330桃園市桃園區中正路1195號"
+    "address": "330桃園市桃園區中正路1195號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市桃園區瑞慶社區發展協會",
     "lat": 25.0195,
     "lng": 121.2925,
-    "address": "330桃園市桃園區瑞慶里永安北路500號二樓"
+    "address": "330桃園市桃園區瑞慶里永安北路500號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

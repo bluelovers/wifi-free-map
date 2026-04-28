@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "嘉義縣布袋鎮立圖書館",
     "lat": 23.376473,
     "lng": 120.169947,
-    "address": "625嘉義縣布袋鎮光復里東安庄65號"
+    "address": "625嘉義縣布袋鎮光復里東安庄65號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣朴子戶政事務所布袋辦公室",
     "lat": 23.378254,
     "lng": 120.166438,
-    "address": "625嘉義縣布袋鎮自由路1號"
+    "address": "625嘉義縣布袋鎮自由路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "嘉義縣警察局布袋分局",
     "lat": 23.378313,
     "lng": 120.166461,
-    "address": "625嘉義縣布袋鎮光復里自由路1號"
+    "address": "625嘉義縣布袋鎮光復里自由路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

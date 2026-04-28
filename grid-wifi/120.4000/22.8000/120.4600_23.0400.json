@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市南化區南化社區發展協會",
     "lat": 23.044,
     "lng": 120.477,
-    "address": "716臺南市南化區南化里南化172之1號"
+    "address": "716臺南市南化區南化里南化172之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

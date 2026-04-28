@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市桃科環科大潭產業園區聯合服務中心",
     "lat": 25.024426,
     "lng": 121.057942,
-    "address": "328桃園市觀音區大潭三路12巷2號"
+    "address": "328桃園市觀音區大潭三路12巷2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台電公司大潭發電廠接待中心",
     "lat": 25.03056,
     "lng": 121.051837,
-    "address": "328桃園市觀音區大潭村電廠路1號"
+    "address": "328桃園市觀音區大潭村電廠路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

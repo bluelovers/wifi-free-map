@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣虎尾鎮三塊厝產業文化協會",
     "lat": 23.720594,
     "lng": 120.476299,
-    "address": "632雲林縣虎尾鎮下溪10之8號"
+    "address": "632雲林縣虎尾鎮下溪10之8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "雲林縣虎尾鎮頂溪社區發展協會",
     "lat": 23.729,
     "lng": 120.463,
-    "address": "632雲林縣虎尾鎮頂溪里13鄰過溪56之2號"
+    "address": "632雲林縣虎尾鎮頂溪里13鄰過溪56之2號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

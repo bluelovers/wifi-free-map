@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "潭子頭家厝郵局",
     "lat": 24.191148,
     "lng": 120.702279,

@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市美濃區廣興社區發展協會",
     "lat": 22.883,
     "lng": 120.572,
-    "address": "843高雄市美濃區興隆里興隆三街6號"
+    "address": "843高雄市美濃區興隆里興隆三街6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

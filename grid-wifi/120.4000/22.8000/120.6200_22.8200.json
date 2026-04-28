@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣屏東市崇蘭社區發展協會",
     "lat": 22.82,
     "lng": 120.639,
-    "address": "900屏東縣屏東市崇蘭里博愛路427號"
+    "address": "900屏東縣屏東市崇蘭里博愛路427號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣原住民部落文化藝術發展協會",
     "lat": 22.8202,
     "lng": 120.6387,
-    "address": "901屏東縣三地門鄉青山村民族巷46號"
+    "address": "901屏東縣三地門鄉青山村民族巷46號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣高樹鄉建興社區發展協會",
     "lat": 22.829056,
     "lng": 120.620972,
-    "address": "906屏東縣高樹鄉建興村大山一路83號"
+    "address": "906屏東縣高樹鄉建興村大山一路83號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

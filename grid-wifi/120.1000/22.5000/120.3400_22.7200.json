@@ -1,98 +1,134 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市大社區中里社區發展協會",
     "lat": 22.722632,
     "lng": 120.35132,
-    "address": "815高雄市大社區中里里文明路10巷3號"
+    "address": "815高雄市大社區中里里文明路10巷3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市大社區三奶社區社區發展協會",
     "lat": 22.724739,
     "lng": 120.347604,
-    "address": "815高雄市大社區三奶里大新路2之23號"
+    "address": "815高雄市大社區三奶里大新路2之23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市大社區觀音社區發展協會",
     "lat": 22.72616,
     "lng": 120.349817,
-    "address": "815高雄市大社區觀音里新生街51號"
+    "address": "815高雄市大社區觀音里新生街51號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市大社區興農社區發展協會",
     "lat": 22.729351,
     "lng": 120.353331,
-    "address": "815高雄市大社區神農里中華路103巷4號"
+    "address": "815高雄市大社區神農里中華路103巷4號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市大社區戶政事務所",
     "lat": 22.729759,
     "lng": 120.346777,
-    "address": "815高雄市大社區三民路332號"
+    "address": "815高雄市大社區三民路332號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市大社區公所",
     "lat": 22.730491,
     "lng": 120.346684,
-    "address": "815高雄市大社區自強街1號"
+    "address": "815高雄市大社區自強街1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "自來水公司楠梓服務所",
     "lat": 22.730508,
     "lng": 120.346871,
-    "address": "815高雄市大社區自強街5號"
+    "address": "815高雄市大社區自強街5號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "大社郵局",
     "lat": 22.731177,
     "lng": 120.347095,
-    "address": "815高雄市大社區自強街9號"
+    "address": "815高雄市大社區自強街9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "高雄市立圖書館大社分館",
     "lat": 22.732728,
     "lng": 120.347142,
-    "address": "815高雄市大社區自強街11號"
+    "address": "815高雄市大社區自強街11號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行大社分行",
     "lat": 22.732865,
     "lng": 120.35145,
-    "address": "815高雄市大社區大社路78號"
+    "address": "815高雄市大社區大社路78號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市大社區大社社區發展協會",
     "lat": 22.732975,
     "lng": 120.352603,
-    "address": "815高雄市大社區大社里大社路116之1號"
+    "address": "815高雄市大社區大社里大社路116之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市大社區長老福利協進會",
     "lat": 22.734064,
     "lng": 120.352674,
-    "address": "815高雄市大社區保安里大社路87之3號"
+    "address": "815高雄市大社區保安里大社路87之3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

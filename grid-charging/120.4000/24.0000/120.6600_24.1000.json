@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台中南和路郵局",
     "lat": 24.116098,
     "lng": 120.66892,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局台中分局檢驗業務民眾洽公區",
     "lat": 24.1171,
     "lng": 120.664696,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺中市南區戶政事務所",
     "lat": 24.117147,
     "lng": 120.663628,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "標準檢驗局台中分局",
     "lat": 24.117302,
     "lng": 120.664784,

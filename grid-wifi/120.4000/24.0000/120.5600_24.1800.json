@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "臺中市立圖書館龍井山頂分館",
     "lat": 24.182999,
     "lng": 120.57629,
-    "address": "434臺中市龍井區中沙路新庄仔巷19-1號"
+    "address": "434臺中市龍井區中沙路新庄仔巷19-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺中市龍井區南寮社區發展協會",
     "lat": 24.183,
     "lng": 120.575,
-    "address": "434臺中市龍井區南寮里中沙路南寮巷90號"
+    "address": "434臺中市龍井區南寮里中沙路南寮巷90號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

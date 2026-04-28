@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "桃園市復興區戶政事務所",
     "lat": 24.822263,
     "lng": 121.350775,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "全興工業區服務中心",
     "lat": 24.171435,
     "lng": 120.510972,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "伸港全興郵局",
     "lat": 24.171435,
     "lng": 120.510972,

@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "新竹縣竹東鎮立圖書館閱覽室",
     "lat": 24.840295,
     "lng": 121.003675,
-    "address": "310新竹縣竹東鎮高華里環山路1號"
+    "address": "310新竹縣竹東鎮高華里環山路1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "高速公路局北區工程處湖口服務區服務台(北上)",
     "lat": 24.858209,
     "lng": 121.013825,
-    "address": "303新竹縣湖口鄉鳳山村榮光路158號"
+    "address": "303新竹縣湖口鄉鳳山村榮光路158號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "高速公路局北區工程處湖口服務區服務台(南下)",
     "lat": 24.858228,
     "lng": 121.008546,
-    "address": "303新竹縣湖口鄉鳳山村國強街1巷8號"
+    "address": "303新竹縣湖口鄉鳳山村國強街1巷8號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

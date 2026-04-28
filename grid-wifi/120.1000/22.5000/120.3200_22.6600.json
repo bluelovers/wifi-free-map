@@ -1,98 +1,134 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "義大醫療財團法人義大大昌醫院(三民2)",
     "lat": 22.663696,
     "lng": 120.327194,
-    "address": "807高雄市三民區金鼎路66巷91號"
+    "address": "807高雄市三民區金鼎路66巷91號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人高雄市三民區安泰社區發展協會(鼎西站)",
     "lat": 22.66568,
     "lng": 120.323088,
-    "address": "807高雄市三民區鼎西里鼎新路131號"
+    "address": "807高雄市三民區鼎西里鼎新路131號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市善樂關愛協會",
     "lat": 22.666191,
     "lng": 120.320061,
-    "address": "807高雄市三民區鼎中里天祥一路125巷50號"
+    "address": "807高雄市三民區鼎中里天祥一路125巷50號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "高雄市政府觀光局金獅湖蝴蝶園百科館",
     "lat": 22.667383,
     "lng": 120.3266,
-    "address": "807高雄市三民區鼎金一巷25號"
+    "address": "807高雄市三民區鼎金一巷25號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄鼎金郵局",
     "lat": 22.668196,
     "lng": 120.32189,
-    "address": "807高雄市三民區鼎強街264、266號"
+    "address": "807高雄市三民區鼎強街264、266號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "高雄市後備指揮部",
     "lat": 22.671962,
     "lng": 120.331084,
-    "address": "807高雄市三民區武功巷52號"
+    "address": "807高雄市三民區武功巷52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "高雄市仁武區澄觀社區發展協會",
     "lat": 22.676436,
     "lng": 120.337291,
-    "address": "814高雄市仁武區大灣里大豐街35號"
+    "address": "814高雄市仁武區大灣里大豐街35號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "左營榮總郵局",
     "lat": 22.677537,
     "lng": 120.322504,
-    "address": "813高雄市左營區大中一路386號"
+    "address": "813高雄市左營區大中一路386號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄榮民總醫院門診大樓一樓大廳",
     "lat": 22.677537,
     "lng": 120.322504,
-    "address": "813高雄市左營區大中一路386號"
+    "address": "813高雄市左營區大中一路386號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄榮民總醫院門診一樓候診區",
     "lat": 22.677537,
     "lng": 120.322504,
-    "address": "813高雄市左營區大中一路386號"
+    "address": "813高雄市左營區大中一路386號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄榮民總醫院患者家屬休息區-1",
     "lat": 22.679732,
     "lng": 120.322383,
-    "address": "813高雄市左營區大中一路386號"
+    "address": "813高雄市左營區大中一路386號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "高雄榮民總醫院患者家屬休息區-2",
     "lat": 22.679732,
     "lng": 120.322383,
-    "address": "813高雄市左營區大中一路386號"
+    "address": "813高雄市左營區大中一路386號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

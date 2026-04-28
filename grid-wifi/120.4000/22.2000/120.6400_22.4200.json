@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣春日鄉力里部落",
     "lat": 22.43062,
     "lng": 120.64722,
-    "address": "942屏東縣春日鄉圓山路3號"
+    "address": "942屏東縣春日鄉圓山路3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣來義鄉高見部落",
     "lat": 22.436959,
     "lng": 120.640528,
-    "address": "922屏東縣來義鄉南和路117之1"
+    "address": "922屏東縣來義鄉南和路117之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

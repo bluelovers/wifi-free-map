@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人苗栗縣一本共生共好共善協會-獅潭新豐站",
     "lat": 24.479734,
     "lng": 120.894161,
-    "address": "354苗栗縣獅潭鄉新豐村3鄰八角林39之1號"
+    "address": "354苗栗縣獅潭鄉新豐村3鄰八角林39之1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

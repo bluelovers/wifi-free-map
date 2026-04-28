@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "壽豐郵局",
     "lat": 23.871571,
     "lng": 121.510467,

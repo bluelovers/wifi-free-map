@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "嘉義湖內郵局",
     "lat": 23.459104,
     "lng": 120.443389,

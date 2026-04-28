@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會八德榮譽國民之家行政大樓一樓",
     "lat": 24.938064,
     "lng": 121.3045,
-    "address": "334桃園市八德區榮興路1100號"
+    "address": "334桃園市八德區榮興路1100號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府警察局八德分局",
     "lat": 24.938364,
     "lng": 121.308538,
-    "address": "334桃園市八德區興豐路1216號"
+    "address": "334桃園市八德區興豐路1216號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會桃園榮譽國民之家警衛室(榮民報到處)",
     "lat": 24.938643,
     "lng": 121.308308,
-    "address": "334桃園市八德區興豐路1217號"
+    "address": "334桃園市八德區興豐路1217號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

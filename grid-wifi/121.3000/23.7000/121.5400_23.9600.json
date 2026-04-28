@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "花蓮縣軍人忠靈祠",
     "lat": 23.969668,
     "lng": 121.552183,
-    "address": "973花蓮縣吉安鄉福興五街481號"
+    "address": "973花蓮縣吉安鄉福興五街481號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

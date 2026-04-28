@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "湖口鳳凰郵局",
     "lat": 24.862923,
     "lng": 121.026363,
-    "address": "303新竹縣湖口鄉勝利路二段90-1號"
+    "address": "303新竹縣湖口鄉勝利路二段90-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

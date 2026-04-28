@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局南區工程處新營服務區服務台",
     "lat": 23.36651,
     "lng": 120.355081,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "海端郵局",
     "lat": 23.100052,
     "lng": 121.176596,

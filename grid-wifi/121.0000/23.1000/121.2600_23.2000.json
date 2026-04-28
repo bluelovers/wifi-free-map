@@ -1,50 +1,68 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣富里鄉羅山村辦公處",
     "lat": 23.201671,
     "lng": 121.275691,
-    "address": "983花蓮縣富里鄉羅山村9鄰東湖15-1號"
+    "address": "983花蓮縣富里鄉羅山村9鄰東湖15-1號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "花蓮縣富里鄉明里村辦公處",
     "lat": 23.202415,
     "lng": 121.269216,
-    "address": "983花蓮縣富里鄉明里村37號"
+    "address": "983花蓮縣富里鄉明里村37號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "富里鄉農會",
     "lat": 23.206726,
     "lng": 121.270713,
-    "address": "983花蓮縣富里鄉羅山村東湖9鄰6號"
+    "address": "983花蓮縣富里鄉羅山村東湖9鄰6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣富里鄉東竹國民小學",
     "lat": 23.21449,
     "lng": 121.279235,
-    "address": "983花蓮縣富里鄉竹田村富田3號"
+    "address": "983花蓮縣富里鄉竹田村富田3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "卓溪衛生所",
     "lat": 23.218687,
     "lng": 121.265205,
-    "address": "982花蓮縣卓溪鄉古風村古風村崙天11號之1"
+    "address": "982花蓮縣卓溪鄉古風村古風村崙天11號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "花蓮縣卓溪鄉古風國民小學",
     "lat": 23.219282,
     "lng": 121.264515,
-    "address": "982花蓮縣卓溪鄉古風村崙天18號"
+    "address": "982花蓮縣卓溪鄉古風村崙天18號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

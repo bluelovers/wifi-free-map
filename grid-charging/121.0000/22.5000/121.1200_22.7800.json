@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺東站第2月台南側",
     "lat": 22.793749,
     "lng": 121.123109,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺東站第3月台北側",
     "lat": 22.793749,
     "lng": 121.123109,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺鐵局臺東站候車室",
     "lat": 22.794725,
     "lng": 121.123043,

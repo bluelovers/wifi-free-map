@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "八里郵局",
     "lat": 25.144844,
     "lng": 121.397888,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "八里分駐所",
     "lat": 25.1459,
     "lng": 121.3975,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "新北市五股戶政事務所八里區所-1",
     "lat": 25.146178,
     "lng": 121.397418,

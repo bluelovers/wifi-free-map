@@ -1,66 +1,90 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣五峰鄉和平部落",
     "lat": 24.62009,
     "lng": 121.11406,
-    "address": "311新竹縣五峰鄉竹林村5鄰和平160號"
+    "address": "311新竹縣五峰鄉竹林村5鄰和平160號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣五峰鄉戶政事務所",
     "lat": 24.631648,
     "lng": 121.119803,
-    "address": "311新竹縣五峰鄉大隘村97號"
+    "address": "311新竹縣五峰鄉大隘村97號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣五峰鄉衛生所",
     "lat": 24.631814,
     "lng": 121.119139,
-    "address": "311新竹縣五峰鄉大隘村六鄰99號"
+    "address": "311新竹縣五峰鄉大隘村六鄰99號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "新竹縣五峰鄉立圖書館",
     "lat": 24.631882,
     "lng": 121.119171,
-    "address": "311新竹縣五峰鄉大隘村六鄰99號之1"
+    "address": "311新竹縣五峰鄉大隘村六鄰99號之1",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣五峰鄉五峰部落",
     "lat": 24.632088,
     "lng": 121.11937,
-    "address": "311新竹縣五峰鄉大隘村6鄰98號"
+    "address": "311新竹縣五峰鄉大隘村6鄰98號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "五峰郵局",
     "lat": 24.632136,
     "lng": 121.119542,
-    "address": "311新竹縣五峰鄉大隘村6鄰95號"
+    "address": "311新竹縣五峰鄉大隘村6鄰95號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "新竹縣五峰鄉公所",
     "lat": 24.632165,
     "lng": 121.119547,
-    "address": "311新竹縣五峰鄉大隘村六鄰95號"
+    "address": "311新竹縣五峰鄉大隘村六鄰95號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "新竹縣五峰鄉十八兒部落-1",
     "lat": 24.63449,
     "lng": 121.11942,
-    "address": "311新竹縣五峰鄉大隘村5鄰五峰66號"
+    "address": "311新竹縣五峰鄉大隘村5鄰五峰66號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

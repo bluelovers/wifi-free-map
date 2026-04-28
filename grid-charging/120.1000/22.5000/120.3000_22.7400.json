@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "台灣糖業博物館",
     "lat": 22.750706,
     "lng": 120.319303,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司橋頭直銷中心",
     "lat": 22.753901,
     "lng": 120.308954,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "橋頭郵局",
     "lat": 22.757575,
     "lng": 120.311373,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高雄市橋頭區戶政事務所",
     "lat": 22.758058,
     "lng": 120.30525,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "永康崑山郵局",
     "lat": 23.000881,
     "lng": 120.259207,

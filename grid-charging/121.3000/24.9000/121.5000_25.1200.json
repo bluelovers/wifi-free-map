@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北投奇岩郵局",
     "lat": 25.125136,
     "lng": 121.50766,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北投舊北投郵局",
     "lat": 25.128631,
     "lng": 121.501268,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北投郵局-1",
     "lat": 25.135772,
     "lng": 121.503012,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "北投郵局-2",
     "lat": 25.135772,
     "lng": 121.503012,

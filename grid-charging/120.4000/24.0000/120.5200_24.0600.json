@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化中央路郵局",
     "lat": 24.068242,
     "lng": 120.527094,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化南瑤郵局",
     "lat": 24.068369,
     "lng": 120.539943,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化曉陽郵局",
     "lat": 24.07196,
     "lng": 120.539307,
@@ -22,6 +25,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化西門郵局",
     "lat": 24.076036,
     "lng": 120.535795,

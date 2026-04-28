@@ -1,1042 +1,1432 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "芝山公園-E-至誠路一段",
     "lat": 25.101226,
     "lng": 121.534263,
-    "address": "111臺北市士林區至誠路一段146號對面候車亭"
+    "address": "111臺北市士林區至誠路一段146號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "芝山岩-E-至誠路一段",
     "lat": 25.101263,
     "lng": 121.536706,
-    "address": "111臺北市士林區至誠路一段26號對面候車亭"
+    "address": "111臺北市士林區至誠路一段26號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "芝山抽水站-W-至誠路二段",
     "lat": 25.101299,
     "lng": 121.527206,
-    "address": "111臺北市士林區至誠路二段114號前候車亭"
+    "address": "111臺北市士林區至誠路二段114號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "芝山公園-至誠路一段",
     "lat": 25.101345,
     "lng": 121.534115,
-    "address": "111臺北市士林區至誠路一段150號旁候車亭"
+    "address": "111臺北市士林區至誠路一段150號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "士林名山里郵局",
     "lat": 25.101747,
     "lng": 121.528328,
-    "address": "111臺北市士林區至誠路二段70號"
+    "address": "111臺北市士林區至誠路二段70號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "惠濟宮-W-至誠路一段",
     "lat": 25.101934,
     "lng": 121.531639,
-    "address": "112臺北市北投區至誠路一段289號對面候車亭"
+    "address": "112臺北市北投區至誠路一段289號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人臺北市華夏婦女文教基金會",
     "lat": 25.102172,
     "lng": 121.53592,
-    "address": "111臺北市士林區岩山里至誠路一段62巷28號"
+    "address": "111臺北市士林區岩山里至誠路一段62巷28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "名山里-W-雨聲街",
     "lat": 25.102447,
     "lng": 121.528961,
-    "address": "111臺北市士林區雨聲街44號候車亭"
+    "address": "111臺北市士林區雨聲街44號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "德行(中山忠誠路口)-S-中山北路六段",
     "lat": 25.103151,
     "lng": 121.52512,
-    "address": "111臺北市士林區中山北路六段17號旁候車亭"
+    "address": "111臺北市士林區中山北路六段17號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台北市士林區幸福名山社區發展協會",
     "lat": 25.103612,
     "lng": 121.528757,
-    "address": "111臺北市士林區名山里雨聲街68號"
+    "address": "111臺北市士林區名山里雨聲街68號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林芝山岩區民活動中心1F中央",
     "lat": 25.103677,
     "lng": 121.528884,
-    "address": "111臺北市士林區雨聲街68號1F"
+    "address": "111臺北市士林區雨聲街68號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "忠誠公園-N1-忠誠路一段",
     "lat": 25.103948,
     "lng": 121.525583,
-    "address": "111臺北市士林區忠誠路一段12號對面候車亭"
+    "address": "111臺北市士林區忠誠路一段12號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "藝文場館",
     "name": "芝山文化生態綠園1F展示廳中央",
     "lat": 25.104046,
     "lng": 121.532169,
-    "address": "111臺北市士林區雨聲街120號1F"
+    "address": "111臺北市士林區雨聲街120號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "捷運芝山站(福華)-S-福華路",
     "lat": 25.104079,
     "lng": 121.522345,
-    "address": "111臺北市士林區福華路162之2號附近候車亭"
+    "address": "111臺北市士林區福華路162之2號附近候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "華興中學-S-仰德大道一段",
     "lat": 25.104131,
     "lng": 121.538154,
-    "address": "111臺北市士林區仰德大道一段101號華興中學校門旁對面候車亭"
+    "address": "111臺北市士林區仰德大道一段101號華興中學校門旁對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "華興中學-N-仰德大道一段",
     "lat": 25.104131,
     "lng": 121.538417,
-    "address": "111臺北市士林區仰德大道一段101號華興中學校門旁候車亭"
+    "address": "111臺北市士林區仰德大道一段101號華興中學校門旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "忠誠公園-W-忠誠路一段",
     "lat": 25.104319,
     "lng": 121.525902,
-    "address": "111臺北市士林區忠誠路一段22號候車亭"
+    "address": "111臺北市士林區忠誠路一段22號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "雨農國小-E-忠誠路一段",
     "lat": 25.104542,
     "lng": 121.530687,
-    "address": "111臺北市士林區忠誠路一段105號雨農國小後門對面候車亭"
+    "address": "111臺北市士林區忠誠路一段105號雨農國小後門對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區2F圖書館大門",
     "lat": 25.10455,
     "lng": 121.53195,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "士林蘭雅郵局",
     "lat": 25.104616,
     "lng": 121.526873,
-    "address": "111臺北市士林區忠誠路一段52號"
+    "address": "111臺北市士林區忠誠路一段52號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "雨農國小-W-雨聲街",
     "lat": 25.104702,
     "lng": 121.530236,
-    "address": "111臺北市士林區忠義街1號雨農國小後門候車亭(雨聲街本線上)"
+    "address": "111臺北市士林區忠義街1號雨農國小後門候車亭(雨聲街本線上)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區3F310職能治療室門口",
     "lat": 25.104816,
     "lng": 121.532222,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區1F急診內急診護理站前",
     "lat": 25.104872,
     "lng": 121.531487,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區9F938與937病房中央",
     "lat": 25.104872,
     "lng": 121.531487,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區1F磁振造影室門口",
     "lat": 25.104937,
     "lng": 121.531773,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區8F8B護理站",
     "lat": 25.104944,
     "lng": 121.53169,
-    "address": "111臺北市士林區雨聲街105號8F8B護理站"
+    "address": "111臺北市士林區雨聲街105號8F8B護理站",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區7F呼吸照護中心護理站櫃台",
     "lat": 25.104969,
     "lng": 121.531514,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區2F2C門診區會議室門口前",
     "lat": 25.104979,
     "lng": 121.5321,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區6F行政中心茶水間門口",
     "lat": 25.104979,
     "lng": 121.53232,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區5F產房內護理站西側",
     "lat": 25.105038,
     "lng": 121.531635,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "雨農國小-S1-忠誠路一段",
     "lat": 25.105073,
     "lng": 121.528537,
-    "address": "111臺北市士林區忠誠路一段105號前候車亭"
+    "address": "111臺北市士林區忠誠路一段105號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行天母分行",
     "lat": 25.105089,
     "lng": 121.528798,
-    "address": "111臺北市士林區忠誠路一段109號"
+    "address": "111臺北市士林區忠誠路一段109號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區5F資訊室門口",
     "lat": 25.105099,
     "lng": 121.532,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區8F839與822病房中央",
     "lat": 25.105145,
     "lng": 121.532214,
-    "address": "111臺北市士林區雨聲街105號8F839與822病房中央"
+    "address": "111臺北市士林區雨聲街105號8F839與822病房中央",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區3F手術室內恢復室門口",
     "lat": 25.105201,
     "lng": 121.531504,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區5F5A病房護理站",
     "lat": 25.105201,
     "lng": 121.531504,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區6F6A護理站與605病房門口中央",
     "lat": 25.105201,
     "lng": 121.531504,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區7F705病房門口與儀器室中央",
     "lat": 25.105201,
     "lng": 121.531504,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區9F大禮堂會議室門口",
     "lat": 25.105201,
     "lng": 121.531504,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區B1F醫療事務室",
     "lat": 25.105225,
     "lng": 121.531615,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區6F行政中心會議室門口",
     "lat": 25.105228,
     "lng": 121.532278,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區7F護理站與756病房門口中央",
     "lat": 25.105228,
     "lng": 121.532278,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區9F血液透析中心護理站",
     "lat": 25.105228,
     "lng": 121.532278,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區1F檢驗科內檢驗室內門口",
     "lat": 25.105235,
     "lng": 121.531768,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區3F超音波室門口前方等候區",
     "lat": 25.105235,
     "lng": 121.531768,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區2F16室牙科門口前方等候區",
     "lat": 25.105246,
     "lng": 121.531339,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區B1F員工餐廳",
     "lat": 25.105269,
     "lng": 121.531749,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區3F加護病房門口",
     "lat": 25.105275,
     "lng": 121.531521,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區B1F藥庫門口",
     "lat": 25.105342,
     "lng": 121.531736,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區1F萊爾富門口右方",
     "lat": 25.105342,
     "lng": 121.531736,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區8F護理之家護理站與活動室中央",
     "lat": 25.105342,
     "lng": 121.531736,
-    "address": "111臺北市士林區雨聲街105號8F護理之家護理站與活動室中央"
+    "address": "111臺北市士林區雨聲街105號8F護理之家護理站與活動室中央",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "雨農國小-N1-忠誠路一段",
     "lat": 25.105372,
     "lng": 121.528549,
-    "address": "111臺北市士林區忠誠路一段106號前候車亭"
+    "address": "111臺北市士林區忠誠路一段106號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區2F消化內科第36門診門口",
     "lat": 25.105372,
     "lng": 121.531562,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "聯合醫院陽明院區-E-忠義街",
     "lat": 25.105393,
     "lng": 121.530518,
-    "address": "111臺北市士林區忠義街40號對面候車亭"
+    "address": "111臺北市士林區忠義街40號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "社區中心",
     "name": "士林仰德區民活動中心1F辦公室左側",
     "lat": 25.105416,
     "lng": 121.523325,
-    "address": "111臺北市士林區德行西路30號1F"
+    "address": "111臺北市士林區德行西路30號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "醫院",
     "name": "北市聯醫陽明院區6F6B護理站",
     "lat": 25.10542,
     "lng": 121.531423,
-    "address": "111臺北市士林區雨聲街105號"
+    "address": "111臺北市士林區雨聲街105號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "士林電機(中山德行路口)-N-中山北路六段",
     "lat": 25.105454,
     "lng": 121.524958,
-    "address": "111臺北市士林區中山北路六段90號候車亭"
+    "address": "111臺北市士林區中山北路六段90號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市士林區德行里里辦公處",
     "lat": 25.10547,
     "lng": 121.523485,
-    "address": "111臺北市士林區德行里德行西路30號一樓"
+    "address": "111臺北市士林區德行里德行西路30號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "兆豐國際商銀蘭雅分行",
     "lat": 25.105933,
     "lng": 121.525013,
-    "address": "111臺北市士林區中山北路六段126號"
+    "address": "111臺北市士林區中山北路六段126號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "蘭雅新城-N-忠誠路一段",
     "lat": 25.107076,
     "lng": 121.530151,
-    "address": "111臺北市士林區忠誠路一段159號旁候車亭"
+    "address": "111臺北市士林區忠誠路一段159號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "蘭雅新城-S-忠誠路一段",
     "lat": 25.107139,
     "lng": 121.529841,
-    "address": "111臺北市士林區忠誠路一段157號對面候車亭"
+    "address": "111臺北市士林區忠誠路一段157號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "芝蘭新村-N-仰德大道一段",
     "lat": 25.107299,
     "lng": 121.537353,
-    "address": "111臺北市士林區仰德大道一段91巷1號附近候車亭"
+    "address": "111臺北市士林區仰德大道一段91巷1號附近候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "忠義街-忠義街",
     "lat": 25.108179,
     "lng": 121.532725,
-    "address": "111臺北市士林區忠義街134號旁候車亭"
+    "address": "111臺北市士林區忠義街134號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "第一商業銀行天母分行",
     "lat": 25.108618,
     "lng": 121.530587,
-    "address": "111臺北市士林區忠誠路一段62號"
+    "address": "111臺北市士林區忠誠路一段62號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "蘭雅國小-E-克強路",
     "lat": 25.108917,
     "lng": 121.523706,
-    "address": "111臺北市士林區克強路22號對面候車亭"
+    "address": "111臺北市士林區克強路22號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "財團法人福智慈善基金會",
     "lat": 25.109239,
     "lng": 121.525183,
-    "address": "111臺北市士林區蘭興里中山北路六段243號一樓"
+    "address": "111臺北市士林區蘭興里中山北路六段243號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "台灣健康社區自主發展協會",
     "lat": 25.109251,
     "lng": 121.532147,
-    "address": "111臺北市士林區三玉里德行東路203巷2號一樓"
+    "address": "111臺北市士林區三玉里德行東路203巷2號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "蘭雅國中-N1-忠誠路二段",
     "lat": 25.109507,
     "lng": 121.530648,
-    "address": "111臺北市士林區忠誠路二段27號旁候車亭"
+    "address": "111臺北市士林區忠誠路二段27號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "蘭雅國中-S1-忠誠路二段",
     "lat": 25.109536,
     "lng": 121.530371,
-    "address": "111臺北市士林區忠誠路二段27號對面候車亭"
+    "address": "111臺北市士林區忠誠路二段27號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "士林芝山郵局",
     "lat": 25.10973,
     "lng": 121.534337,
-    "address": "111臺北市士林區德行東路258號"
+    "address": "111臺北市士林區德行東路258號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸",
     "name": "停管處蘭雅停車場B1F停車場管理室",
     "lat": 25.10986,
     "lng": 121.5289,
-    "address": "111臺北市士林區德行東路129巷31號B1F"
+    "address": "111臺北市士林區德行東路129巷31號B1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "芝山國小-W-德行東路",
     "lat": 25.110332,
     "lng": 121.537294,
-    "address": "111臺北市士林區德行東路285號候車亭"
+    "address": "111臺北市士林區德行東路285號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "明德路-S-明德路",
     "lat": 25.110491,
     "lng": 121.520597,
-    "address": "112臺北市北投區明德路139號前候車亭"
+    "address": "112臺北市北投區明德路139號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣士林地方檢察署",
     "lat": 25.110858,
     "lng": 121.533623,
-    "address": "111臺北市士林區士東路190-3號"
+    "address": "111臺北市士林區士東路190-3號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "忠孝新村-S-德行東路",
     "lat": 25.111137,
     "lng": 121.539718,
-    "address": "111臺北市士林區德行東路393巷12號對面候車亭"
+    "address": "111臺北市士林區德行東路393巷12號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "忠孝新村-德行東路",
     "lat": 25.111215,
     "lng": 121.539822,
-    "address": "111臺北市士林區德行東路379巷4弄10號對面候車亭"
+    "address": "111臺北市士林區德行東路379巷4弄10號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "士東市場1F 112攤位旁",
     "lat": 25.111666,
     "lng": 121.529293,
-    "address": "111臺北市士林區士東路100號1F"
+    "address": "111臺北市士林區士東路100號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公眾服務",
     "name": "士林老人服務暨日間照顧中心5F502教室門口",
     "lat": 25.111749,
     "lng": 121.53246,
-    "address": "111臺北市士林區忠誠路二段53巷7號5F"
+    "address": "111臺北市士林區忠誠路二段53巷7號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "士東市場1F 119攤位旁",
     "lat": 25.11188,
     "lng": 121.529747,
-    "address": "111臺北市士林區士東路100號1F"
+    "address": "111臺北市士林區士東路100號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "士東市場1F 76攤位旁",
     "lat": 25.111935,
     "lng": 121.529597,
-    "address": "111臺北市士林區士東路100號1F"
+    "address": "111臺北市士林區士東路100號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "士東市場2F 228攤位旁",
     "lat": 25.112,
     "lng": 121.529512,
-    "address": "111臺北市士林區士東路100號2F"
+    "address": "111臺北市士林區士東路100號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "士東市場2F 178攤位旁",
     "lat": 25.112001,
     "lng": 121.529488,
-    "address": "111臺北市士林區士東路100號2F"
+    "address": "111臺北市士林區士東路100號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "商圈市集",
     "name": "士東市場2F 171攤位旁",
     "lat": 25.112004,
     "lng": 121.529555,
-    "address": "111臺北市士林區士東路100號2F"
+    "address": "111臺北市士林區士東路100號2F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(士林地方法院)-1",
     "lat": 25.112097,
     "lng": 121.533278,
-    "address": "111臺北市士林區士東路190號#第一辦公大樓"
+    "address": "111臺北市士林區士東路190號#第一辦公大樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(士林地方法院)-2",
     "lat": 25.112097,
     "lng": 121.533278,
-    "address": "111臺北市士林區士東路190號#少家大樓"
+    "address": "111臺北市士林區士東路190號#少家大樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "天母棒球場-士東-E-士東路",
     "lat": 25.112503,
     "lng": 121.532298,
-    "address": "111臺北市士林區士東路180號候車亭"
+    "address": "111臺北市士林區士東路180號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣士林地方檢察署1樓為民服務中心",
     "lat": 25.11251,
     "lng": 121.533057,
-    "address": "111臺北市士林區士東路190號"
+    "address": "111臺北市士林區士東路190號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "奎山國中-N-明德路",
     "lat": 25.112674,
     "lng": 121.521901,
-    "address": "112臺北市北投區明德路219號對面候車亭"
+    "address": "112臺北市北投區明德路219號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "天母棒球場-1樓-售票亭",
     "lat": 25.112682,
     "lng": 121.532813,
-    "address": "111臺北市士林區忠誠路二段77號1F走廊"
+    "address": "111臺北市士林區忠誠路二段77號1F走廊",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "天母棒球場-士東-士東路",
     "lat": 25.112691,
     "lng": 121.532394,
-    "address": "111臺北市士林區士東路180號對面候車亭"
+    "address": "111臺北市士林區士東路180號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館石牌分館5F兒童閱覽區靠中央樓梯",
     "lat": 25.11296,
     "lng": 121.522746,
-    "address": "112臺北市北投區明德路208巷5號5F"
+    "address": "112臺北市北投區明德路208巷5號5F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館石牌分館7F外文書籍區",
     "lat": 25.112991,
     "lng": 121.522617,
-    "address": "112臺北市北投區明德路208巷5號7F"
+    "address": "112臺北市北投區明德路208巷5號7F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "天母棒球場-2樓中庭2",
     "lat": 25.113013,
     "lng": 121.532767,
-    "address": "111臺北市士林區忠誠路二段77號2F中庭"
+    "address": "111臺北市士林區忠誠路二段77號2F中庭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "天母棒球場-2樓中庭1",
     "lat": 25.113014,
     "lng": 121.532099,
-    "address": "111臺北市士林區忠誠路二段77號2F中庭"
+    "address": "111臺北市士林區忠誠路二段77號2F中庭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館石牌分館10F洗手間門外",
     "lat": 25.113024,
     "lng": 121.522501,
-    "address": "112臺北市北投區明德路208巷5號10F"
+    "address": "112臺北市北投區明德路208巷5號10F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館石牌分館4F期刊區與綜合服務區中央",
     "lat": 25.113101,
     "lng": 121.522188,
-    "address": "112臺北市北投區明德路208巷5號4F"
+    "address": "112臺北市北投區明德路208巷5號4F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館石牌分館3F自修室",
     "lat": 25.113104,
     "lng": 121.522054,
-    "address": "112臺北市北投區明德路208巷5號3F"
+    "address": "112臺北市北投區明德路208巷5號3F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館石牌分館9F青少年閱覽室",
     "lat": 25.113109,
     "lng": 121.522105,
-    "address": "112臺北市北投區明德路208巷5號9F"
+    "address": "112臺北市北投區明德路208巷5號9F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館石牌分館8F參考資料區",
     "lat": 25.113116,
     "lng": 121.522109,
-    "address": "112臺北市北投區明德路208巷5號8F"
+    "address": "112臺北市北投區明德路208巷5號8F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "天母棒球場-2樓一壘看台區-前方",
     "lat": 25.113157,
     "lng": 121.53308,
-    "address": "111臺北市士林區忠誠路二段77號2F一壘看台區前方"
+    "address": "111臺北市士林區忠誠路二段77號2F一壘看台區前方",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "天母棒球場-3樓一壘看台區",
     "lat": 25.113177,
     "lng": 121.532889,
-    "address": "111臺北市士林區忠誠路二段77號3F一壘看台區"
+    "address": "111臺北市士林區忠誠路二段77號3F一壘看台區",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "圖書館",
     "name": "圖書館石牌分館6F開架閱覽室",
     "lat": 25.113241,
     "lng": 121.52289,
-    "address": "112臺北市北投區明德路208巷5號6F"
+    "address": "112臺北市北投區明德路208巷5號6F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "北投明德郵局",
     "lat": 25.113253,
     "lng": 121.522148,
-    "address": "112臺北市北投區明德路210號"
+    "address": "112臺北市北投區明德路210號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "天母棒球場-N-忠誠路二段",
     "lat": 25.11331,
     "lng": 121.531882,
-    "address": "111臺北市士林區忠誠路二段77號前方候車亭"
+    "address": "111臺北市士林區忠誠路二段77號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "天母棒球場-2樓一壘看台區-後方",
     "lat": 25.113386,
     "lng": 121.533106,
-    "address": "111臺北市士林區忠誠路二段77號2F一壘看台區後方"
+    "address": "111臺北市士林區忠誠路二段77號2F一壘看台區後方",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "天母棒球場-記者室",
     "lat": 25.113446,
     "lng": 121.532925,
-    "address": "111臺北市士林區忠誠路二段77號1F走廊"
+    "address": "111臺北市士林區忠誠路二段77號1F走廊",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "士東路-W-士東路",
     "lat": 25.113452,
     "lng": 121.53676,
-    "address": "111臺北市士林區士東路270號對面候車亭"
+    "address": "111臺北市士林區士東路270號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "天母棒球場-2樓三壘看台區-前方",
     "lat": 25.113491,
     "lng": 121.533043,
-    "address": "111臺北市士林區忠誠路二段77號2F三壘看台區前方"
+    "address": "111臺北市士林區忠誠路二段77號2F三壘看台區前方",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺北市士林區東山里辦公處",
     "lat": 25.113505,
     "lng": 121.53862,
-    "address": "111臺北市士林區東山里士東路320巷2號一樓"
+    "address": "111臺北市士林區東山里士東路320巷2號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "天母棒球場-3樓三壘看台區",
     "lat": 25.113513,
     "lng": 121.532679,
-    "address": "111臺北市士林區忠誠路二段77號3F三壘看台區"
+    "address": "111臺北市士林區忠誠路二段77號3F三壘看台區",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "運動場館",
     "name": "天母棒球場-2樓三壘看台區-後方",
     "lat": 25.113639,
     "lng": 121.532668,
-    "address": "111臺北市士林區忠誠路二段77號2F三壘看台區後方"
+    "address": "111臺北市士林區忠誠路二段77號2F三壘看台區後方",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "賴厝-N-中山北路六段",
     "lat": 25.113671,
     "lng": 121.527138,
-    "address": "111臺北市士林區中山北路六段420號候車亭"
+    "address": "111臺北市士林區中山北路六段420號候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣土地銀行天母分行",
     "lat": 25.113759,
     "lng": 121.531736,
-    "address": "111臺北市士林區忠誠路二段122號"
+    "address": "111臺北市士林區忠誠路二段122號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "職能發展學院一-士東路",
     "lat": 25.113766,
     "lng": 121.538287,
-    "address": "111臺北市士林區士東路316號前方候車亭"
+    "address": "111臺北市士林區士東路316號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "職能發展學院一-W-士東路",
     "lat": 25.113809,
     "lng": 121.538208,
-    "address": "111臺北市士林區士東路318號對面候車亭"
+    "address": "111臺北市士林區士東路318號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "天母棒球場-S-忠誠路二段",
     "lat": 25.114167,
     "lng": 121.532207,
-    "address": "111臺北市士林區忠誠路二段134號前候車亭"
+    "address": "111臺北市士林區忠誠路二段134號前候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "行政機關",
     "name": "職能發展學院行政大樓1F電腦查詢台",
     "lat": 25.11492,
     "lng": 121.537605,
-    "address": "111臺北市士林區士東路301號1F"
+    "address": "111臺北市士林區士東路301號1F",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "東山路-東山路",
     "lat": 25.115295,
     "lng": 121.539042,
-    "address": "111臺北市士林區東山路27之1號斜旁候車亭"
+    "address": "111臺北市士林區東山路27之1號斜旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "宏國新村-W-明德路",
     "lat": 25.115483,
     "lng": 121.520391,
-    "address": "112臺北市北投區明德路321號對面候車亭"
+    "address": "112臺北市北投區明德路321號對面候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "台北美國 / 日僑學校-N-中山北路六段",
     "lat": 25.115782,
     "lng": 121.528227,
-    "address": "111臺北市士林區中山北路六段750號旁候車亭"
+    "address": "111臺北市士林區中山北路六段750號旁候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "宏國新村",
     "lat": 25.116021,
     "lng": 121.520236,
-    "address": "112臺北市北投區明德路333號"
+    "address": "112臺北市北投區明德路333號",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "市立臺北特教學校-S-忠誠路二段",
     "lat": 25.117116,
     "lng": 121.534289,
-    "address": "111臺北市士林區忠誠路二段200號前方候車亭"
+    "address": "111臺北市士林區忠誠路二段200號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "市立臺北特教學校-N-忠誠路二段",
     "lat": 25.117272,
     "lng": 121.534678,
-    "address": "111臺北市士林區忠誠路二段207巷1號旁候車亭(忠誠路2段本線)"
+    "address": "111臺北市士林區忠誠路二段207巷1號旁候車亭(忠誠路2段本線)",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "三玉宮-E-天母東路",
     "lat": 25.11799,
     "lng": 121.5311,
-    "address": "112臺北市北投區天母東路6之2號前方候車亭"
+    "address": "112臺北市北投區天母東路6之2號前方候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公車站",
     "name": "榮總一-W1-石牌路二段",
     "lat": 25.118753,
     "lng": 121.52053,
-    "address": "112臺北市北投區石牌路二段與振興街口往西50M附近候車亭"
+    "address": "112臺北市北投區石牌路二段與振興街口往西50M附近候車亭",
+    "ssid": "TPE-Free",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院中正樓放射性診療區",
     "lat": 25.119249,
     "lng": 121.520361,
-    "address": "112臺北市北投區石牌路二段201號"
+    "address": "112臺北市北投區石牌路二段201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院思源樓",
     "lat": 25.119249,
     "lng": 121.520361,
-    "address": "112臺北市北投區石牌路二段201號"
+    "address": "112臺北市北投區石牌路二段201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院中正樓一樓大廳",
     "lat": 25.119288,
     "lng": 121.520382,
-    "address": "112臺北市北投區石牌路二段201號"
+    "address": "112臺北市北投區石牌路二段201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院中正樓中央連結道",
     "lat": 25.119288,
     "lng": 121.520382,
-    "address": "112臺北市北投區石牌路二段201號"
+    "address": "112臺北市北投區石牌路二段201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院中正樓美食廣場",
     "lat": 25.119288,
     "lng": 121.520382,
-    "address": "112臺北市北投區石牌路二段201號"
+    "address": "112臺北市北投區石牌路二段201號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

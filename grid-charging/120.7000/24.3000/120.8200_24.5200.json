@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "高速公路局苗栗工務段會議室",
     "lat": 24.521373,
     "lng": 120.825207,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "公館鶴岡郵局",
     "lat": 24.531547,
     "lng": 120.833168,

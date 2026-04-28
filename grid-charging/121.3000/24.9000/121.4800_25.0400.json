@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "三重中興橋郵局",
     "lat": 25.050446,
     "lng": 121.488734,

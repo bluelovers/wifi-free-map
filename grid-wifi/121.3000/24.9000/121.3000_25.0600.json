@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市蘆竹區坑子社區發展協會",
     "lat": 25.07756,
     "lng": 121.31625,
-    "address": "338桃園市蘆竹區坑子里2鄰山林路三段102巷9號"
+    "address": "338桃園市蘆竹區坑子里2鄰山林路三段102巷9號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "中油公司南投直銷中心",
     "lat": 23.922798,
     "lng": 120.671205,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南崗(兼竹山)工業區服務中心-南崗",
     "lat": 23.926937,
     "lng": 120.669106,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "南投南崗郵局",
     "lat": 23.929931,
     "lng": 120.665704,

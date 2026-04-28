@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "羅山管理站",
     "lat": 23.473324,
     "lng": 121.35498,

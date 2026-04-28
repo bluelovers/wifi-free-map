@@ -1,10 +1,13 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "石碇郵局",
     "lat": 24.991343,
     "lng": 121.657689,
-    "address": "223新北市石碇區石崁22號"
+    "address": "223新北市石碇區石崁22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

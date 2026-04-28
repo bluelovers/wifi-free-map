@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內埔豐田郵局",
     "lat": 22.631553,
     "lng": 120.544115,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "內埔工業區服務中心",
     "lat": 22.637979,
     "lng": 120.541199,

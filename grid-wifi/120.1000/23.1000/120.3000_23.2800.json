@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺灣臺南地方法院柳營庭",
     "lat": 23.291514,
     "lng": 120.316865,
-    "address": "736臺南市柳營區人和里義士路五段601號"
+    "address": "736臺南市柳營區人和里義士路五段601號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "司法院(臺南地方法院-柳營簡易庭)",
     "lat": 23.292142,
     "lng": 120.313399,
-    "address": "736臺南市柳營區義士路五段601號"
+    "address": "736臺南市柳營區義士路五段601號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺南市下營區中營社區發展協會",
     "lat": 23.294,
     "lng": 120.313,
-    "address": "735臺南市下營區開化里中營242號"
+    "address": "735臺南市下營區開化里中營242號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

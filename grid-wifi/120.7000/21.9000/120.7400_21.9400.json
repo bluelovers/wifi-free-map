@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "旅遊景點",
     "name": "墾丁國家公園管理處後壁湖管理站",
     "lat": 21.947478,
     "lng": 120.741389,
-    "address": "946屏東縣恆春鎮大光里大光路79-43號"
+    "address": "946屏東縣恆春鎮大光里大光路79-43號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台電公司第三核能發電廠",
     "lat": 21.947892,
     "lng": 120.741495,
-    "address": "946屏東縣恆春鎮大光路79-64號"
+    "address": "946屏東縣恆春鎮大光路79-64號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "屏東縣恆春鎮大光社區發展協會",
     "lat": 21.949175,
     "lng": 120.740496,
-    "address": "946屏東縣恆春鎮大光里大光路26之6號"
+    "address": "946屏東縣恆春鎮大光里大光路26之6號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

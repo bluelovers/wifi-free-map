@@ -1,18 +1,24 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺東縣南迴健康促進關懷服務協會-達仁鄉-安朔",
     "lat": 22.293152,
     "lng": 120.866185,
-    "address": "966臺東縣達仁鄉安朔村2鄰安朔22號"
+    "address": "966臺東縣達仁鄉安朔村2鄰安朔22號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "臺東縣達仁鄉安朔部落1",
     "lat": 22.29431,
     "lng": 120.86743,
-    "address": "966臺東縣達仁鄉安朔村安朔103號"
+    "address": "966臺東縣達仁鄉安朔村安朔103號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

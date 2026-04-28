@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "彰化縣福興鄉戶政事務所",
     "lat": 24.047973,
     "lng": 120.444167,

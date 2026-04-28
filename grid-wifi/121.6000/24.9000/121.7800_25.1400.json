@@ -1,26 +1,35 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆八斗子郵局",
     "lat": 25.140015,
     "lng": 121.796289,
-    "address": "202基隆市中正區八斗街14號"
+    "address": "202基隆市中正區八斗街14號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "基隆市警察局八斗子分駐所",
     "lat": 25.140362,
     "lng": 121.793185,
-    "address": "202基隆市中正區環港街98號(八斗子所)"
+    "address": "202基隆市中正區環港街98號(八斗子所)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "飛魚卵卸魚作業碼頭",
     "lat": 25.144089,
     "lng": 121.791298,
-    "address": "202基隆市中正區中正區漁港一街12號旁-八斗子岸置中心一樓辦公室窗戶外牆(朝向飛魚卵卸魚碼頭)"
+    "address": "202基隆市中正區中正區漁港一街12號旁-八斗子岸置中心一樓辦公室窗戶外牆(朝向飛魚卵卸魚碼頭)",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

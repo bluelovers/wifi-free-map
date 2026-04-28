@@ -1,98 +1,134 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市八德區瑞泰里辦公處",
     "lat": 24.942044,
     "lng": 121.298448,
-    "address": "334桃園市八德區瑞泰里介壽路二段583巷12號"
+    "address": "334桃園市八德區瑞泰里介壽路二段583巷12號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市八德區瑞泰社區發展協會",
     "lat": 24.945963,
     "lng": 121.297163,
-    "address": "334桃園市八德區瑞泰里介壽路二段446號.介壽路二段456號"
+    "address": "334桃園市八德區瑞泰里介壽路二段446號.介壽路二段456號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市八德區大興社區發展協會",
     "lat": 24.947984,
     "lng": 121.295901,
-    "address": "334桃園市八德區大昌里介壽路二段361巷96號"
+    "address": "334桃園市八德區大昌里介壽路二段361巷96號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "華南商業銀行八德分行",
     "lat": 24.949233,
     "lng": 121.298245,
-    "address": "334桃園市八德區介壽路二段307號"
+    "address": "334桃園市八德區介壽路二段307號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "八德麻園郵局",
     "lat": 24.949655,
     "lng": 121.297486,
-    "address": "334桃園市八德區大和村介壽路二段298號"
+    "address": "334桃園市八德區大和村介壽路二段298號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市八德區廣德社區發展協會",
     "lat": 24.949928,
     "lng": 121.283672,
-    "address": "334桃園市八德區廣德里廣興路643號"
+    "address": "334桃園市八德區廣德里廣興路643號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "八德區衛生所",
     "lat": 24.950577,
     "lng": 121.299019,
-    "address": "334桃園市八德區介壽路二段361巷28號"
+    "address": "334桃園市八德區介壽路二段361巷28號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "八德區銀髮健身俱樂部",
     "lat": 24.95453,
     "lng": 121.29897,
-    "address": "334桃園市八德區介壽路二段135．137號4樓"
+    "address": "334桃園市八德區介壽路二段135．137號4樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "文教館所",
     "name": "桃園市立圖書館建國閱覽室",
     "lat": 24.957489,
     "lng": 121.298654,
-    "address": "334桃園市八德區建國路1199號3樓"
+    "address": "334桃園市八德區建國路1199號3樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "桃園市政府消防局大湳分隊",
     "lat": 24.957542,
     "lng": 121.297109,
-    "address": "334桃園市八德區建國路1133號"
+    "address": "334桃園市八德區建國路1133號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "桃園市八德區大成社區發展協會",
     "lat": 24.957745,
     "lng": 121.29874,
-    "address": "334桃園市八德區大成里建國路1199號二樓"
+    "address": "334桃園市八德區大成里建國路1199號二樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "大眾運輸節點",
     "name": "桃園捷運綠線先導公車智慧站牌-大湳",
     "lat": 24.958996,
     "lng": 121.299163,
-    "address": "334桃園市八德區介壽路一段934號"
+    "address": "334桃園市八德區介壽路一段934號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]

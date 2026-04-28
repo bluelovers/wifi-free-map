@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "龍潭烏林郵局",
     "lat": 24.883309,
     "lng": 121.212017,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "平鎮山仔頂郵局",
     "lat": 24.897284,
     "lng": 121.211063,
@@ -15,6 +17,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "平鎮工業區服務中心",
     "lat": 24.899638,
     "lng": 121.2039,

@@ -1,6 +1,7 @@
 [
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺南航空站",
     "lat": 22.948349,
     "lng": 120.215596,
@@ -8,6 +9,7 @@
   },
   {
     "dataType": "charging",
+    "dataSource": "gov-data",
     "name": "臺南航空站外候機室",
     "lat": 22.948349,
     "lng": 120.215596,

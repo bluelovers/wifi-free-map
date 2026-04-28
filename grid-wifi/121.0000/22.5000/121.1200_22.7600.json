@@ -1,98 +1,134 @@
 [
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台東新生郵局",
     "lat": 22.764013,
     "lng": 121.135563,
-    "address": "950臺東縣臺東市新生路706號"
+    "address": "950臺東縣臺東市新生路706號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會臺東縣榮民服務處一樓大廳",
     "lat": 22.765428,
     "lng": 121.13884,
-    "address": "950臺東縣臺東市更生路1012號"
+    "address": "950臺東縣臺東市更生路1012號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台糖公司台東區處會議室",
     "lat": 22.767219,
     "lng": 121.129649,
-    "address": "950臺東縣臺東市中興路二段191號2樓"
+    "address": "950臺東縣臺東市中興路二段191號2樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺東縣友善關懷服務協會-臺東市-光明",
     "lat": 22.767521,
     "lng": 121.129567,
-    "address": "950臺東縣臺東市光明里中興路二段148號"
+    "address": "950臺東縣臺東市光明里中興路二段148號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "臺東縣臺東地政事務所1F",
     "lat": 22.768651,
     "lng": 121.123157,
-    "address": "950臺東縣臺東市豐年里中興路二段735號"
+    "address": "950臺東縣臺東市豐年里中興路二段735號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台東東方大鎮郵局",
     "lat": 22.768827,
     "lng": 121.12443,
-    "address": "950臺東縣臺東市中興路二段436號"
+    "address": "950臺東縣臺東市中興路二段436號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "中油公司台東直銷中心",
     "lat": 22.768841,
     "lng": 121.123425,
-    "address": "950臺東縣臺東市中興路二段23號"
+    "address": "950臺東縣臺東市中興路二段23號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺東縣失智者關懷協會-臺東市-馬蘭",
     "lat": 22.769598,
     "lng": 121.134572,
-    "address": "950臺東縣臺東市南王里更生路1010號"
+    "address": "950臺東縣臺東市南王里更生路1010號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "其他",
     "name": "社團法人臺東縣溫馨關懷協會-臺東市-豐年",
     "lat": 22.77053,
     "lng": 121.122487,
-    "address": "950臺東縣臺東市光明里新展街25號一樓"
+    "address": "950臺東縣臺東市光明里新展街25號一樓",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "公立醫院",
     "name": "臺北榮民總醫院玉里分院更生院區一樓大廳",
     "lat": 22.772544,
     "lng": 121.131638,
-    "address": "950臺東縣臺東市更生路1000號"
+    "address": "950臺東縣臺東市更生路1000號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "國軍退除役官兵輔導委員會馬蘭榮譽國民之家行政大樓一樓",
     "lat": 22.772872,
     "lng": 121.131558,
-    "address": "950臺東縣臺東市更生路1010號"
+    "address": "950臺東縣臺東市更生路1010號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   },
   {
     "dataType": "wifi",
+    "dataSource": "gov-data",
     "category": "洽公場所",
     "name": "台東卑南郵局",
     "lat": 22.777551,
     "lng": 121.126329,
-    "address": "950臺東縣臺東市更生北路42號"
+    "address": "950臺東縣臺東市更生北路42號",
+    "ssid": "iTaiwan",
+    "authType": "portal"
   }
 ]
