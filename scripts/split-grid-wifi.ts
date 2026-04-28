@@ -85,8 +85,8 @@ async function main()
 
 	console.log(`總計　 ${dataCount}/${wifiData.length} 筆資料`);
 	console.log(`已寫入 ${fileCount} 個區塊檔案至 ${outDir}`);
-	console.log("");
-	console.log("提示：請執行 build-grid-index.ts 建立統一的索引表。");
+	// console.log("");
+	// console.log("提示：請執行 build-grid-index.ts 建立統一的索引表。");
 }
 
 // 執行
