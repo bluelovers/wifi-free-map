@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
 
 import L from 'leaflet';
-import { Alert, Button, Card, Flex, Input, Select, Space, Switch, Tag, Typography } from 'antd';
+import { Alert, Button, Card, Flex, Input, Layout, Select, Space, Splitter, Switch, Tag, Typography } from 'antd';
 import {
 	CompassOutlined,
 	GlobalOutlined,
@@ -112,7 +112,8 @@ export default function FacilityMap()
 	const mapModeRef = useRef(mapMode);
 
 	// 每次渲染時同步更新 ref
-	useEffect(() => {
+	useEffect(() =>
+	{
 		mapModeRef.current = mapMode;
 	}, [mapMode]);
 
@@ -183,8 +184,6 @@ export default function FacilityMap()
 
 	/** 顯示的熱點數量（分頁用）/ Number of visible hotspots (for pagination) */
 	const [visibleHotspotCount, setVisibleHotspotCount] = useState(20);
-
-
 
 	/** 手動設定後，同步更新地址 */
 	const updateAddress = async (coord: IGeoCoord) =>
@@ -445,7 +444,8 @@ export default function FacilityMap()
 	 */
 	return (
 		<>
-			<Flex vertical gap="small" className={`map-wrapper`}>
+		<Layout>
+<Flex vertical>
 				{/* 位置錯誤提示與手動定位按鈕 */}
 				{locationError && (
 					<Alert
@@ -461,7 +461,7 @@ export default function FacilityMap()
 					/>
 				)}
 				{/* 座標與地址資訊（保留在上方） */}
-				<Flex vertical gap="small" className="info-panel">
+				<Flex vertical>
 					<Flex gap="middle" wrap>
 						{address && <Typography.Text>地址: {address}</Typography.Text>}
 						{addressLoading && <Typography.Text type="secondary">（查詢地址中...）</Typography.Text>}
@@ -476,7 +476,7 @@ export default function FacilityMap()
 					</Flex>
 				</Flex>
 				{/* 地址搜尋表單 */}
-				<div style={{ position: 'relative' }}>
+
 					<Input
 						placeholder="輸入地址搜尋..."
 						value={addressSearchTerm}
@@ -500,183 +500,199 @@ export default function FacilityMap()
 							</Flex>
 						</Card>
 					)}
-				</div>
+
+				</Flex>
+		</Layout>
+
 				{/* 地圖容器 */}
-				<div style={{ position: 'relative', minHeight: 500, width: '100%' }}>
-					<MapTileLayer
-						center={position}
-						zoom={zoom}
-						style={{ height: '100%', width: '100%', minHeight: 500 }}
-						doubleClickZoom={false}
+				<Splitter vertical>
+					<Splitter.Panel style={{ minHeight: 500 }} min={500}>
+						<div style={{ minHeight: 500, height: '100%', width: '100%' }}>
+							<MapTileLayer
+								center={position}
+								zoom={zoom}
+								style={{ height: '100%', width: '100%', minHeight: 500 }}
+								doubleClickZoom={false}
 
-						mapRef={mapRef}
-						setZoom={setZoom}
+								mapRef={mapRef}
+								setZoom={setZoom}
 
-						onMapCenterChange={setMapCenter}
+								onMapCenterChange={setMapCenter}
 
-						floatGeoProps={{
-							btnRef: floatGeoRef,
-							autoRequestGeolocation: true,
-							onRequestGeolocation(result)
-							{
+								floatGeoProps={{
+									btnRef: floatGeoRef,
+									autoRequestGeolocation: true,
+									onRequestGeolocation(result)
+									{
 
-								/** 標記需要自動置中 */
-								setShouldAutoCenter(true);
-								setPosition(wrapPointTupleLatLngFromCoordinate(result.coord));
+										/** 標記需要自動置中 */
+										setShouldAutoCenter(true);
+										setPosition(wrapPointTupleLatLngFromCoordinate(result.coord));
 
-								const currentZoom = mapRef.current?.getZoom();
+										const currentZoom = mapRef.current?.getZoom();
 
-								/** 若外部提供保留的 zoom，則使用它；若未提供則保持目前 zoom */
-								if (typeof currentZoom === 'number')
-								{
-									//setZoom(currentZoom);
-								}
+										/** 若外部提供保留的 zoom，則使用它；若未提供則保持目前 zoom */
+										if (typeof currentZoom === 'number')
+										{
+											//setZoom(currentZoom);
+										}
 
-								setInitedReady(true);
+										setInitedReady(true);
 
-								setLocationError(false);
-								/** 反向地理編碼取得地址 */
+										setLocationError(false);
+										/** 反向地理編碼取得地址 */
 
-								updateAddress(result.coord);
-							},
-							onError(error)
-							{
-								setInitedReady(true);
-								setLocationError(true);
-							},
-						}}
-					>
+										updateAddress(result.coord);
+									},
+									onError(error)
+									{
+										setInitedReady(true);
+										setLocationError(true);
+									},
+								}}
+							>
 
-						<CircleMarkerSVG
-							position={position}
-							color={'#c70eeb'}
-							fillOpacity={0.5}
-							eventHandlers={{
-								dragend: (e) =>
-								{
-									const latlng = e.target.getLatLng() as IGeoCoord;
-									/** 拖曳定位點後，不自動置中（打斷瀏覽體驗） */
-									setShouldAutoCenter(false);
-									setPosition(wrapPointTupleLatLngFromCoordinate(latlng));
-									// Preserve current zoom level; do not modify zoom
-									setLocationError(false);
-									/** 更新拖曳後的地址 */
-									updateAddress(latlng);
-								},
-							}}
-						/>
+								<CircleMarkerSVG
+									position={position}
+									color={'#c70eeb'}
+									fillOpacity={0.5}
+									eventHandlers={{
+										dragend: (e) =>
+										{
+											const latlng = e.target.getLatLng() as IGeoCoord;
+											/** 拖曳定位點後，不自動置中（打斷瀏覽體驗） */
+											setShouldAutoCenter(false);
+											setPosition(wrapPointTupleLatLngFromCoordinate(latlng));
+											// Preserve current zoom level; do not modify zoom
+											setLocationError(false);
+											/** 更新拖曳後的地址 */
+											updateAddress(latlng);
+										},
+									}}
+								/>
 
-						{/* 手動定位點擊監聽 */}
-						<ManualLocationHandler />
-						{/* 右鍵點擊移動定位點 */}
-						<LongPressHandler />
-						<FacilityPointDataMarkerAll
+								{/* 手動定位點擊監聽 */}
+								<ManualLocationHandler />
+								{/* 右鍵點擊移動定位點 */}
+								<LongPressHandler />
+								<FacilityPointDataMarkerAll
+									data={{
+										...facilityPointData,
+										[EnumDatasetType.WIFI]: filteredHotspots,
+									}}
+									onOpenMap={handleOpenGoogleMaps}
+								/>
+								{/* 變更視角 - 當位置改變時自動置中 */}
+								<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
+							</MapTileLayer>
+						</div>
+					</Splitter.Panel>
+					<Splitter.Panel>
+						<Flex vertical gap="middle">
+						<Card className="search-bar" size="small" hoverable>
+							<Flex vertical gap="middle">
+								<Input
+									placeholder="搜尋熱點或 SSID..."
+									prefix={<SearchOutlined />}
+									value={searchTerm}
+									onChange={(e) => setSearchTerm(e.target.value)}
+								/>
+								<Flex gap="middle" wrap>
+									<Flex align="center" gap="small">
+										<WifiOutlined style={{ color: '#1890ff' }} />
+										<Typography.Text>WiFi</Typography.Text>
+										<Switch
+											checked={filters.wifi}
+											onChange={(checked) => setFilters({ ...filters, wifi: checked })}
+											size="small"
+										/>
+									</Flex>
+									<Flex align="center" gap="small">
+										<ThunderboltOutlined style={{ color: '#fa8c16' }} />
+										<Typography.Text>充電</Typography.Text>
+										<Switch
+											checked={filters.charging}
+											onChange={(checked) => setFilters({ ...filters, charging: checked })}
+											size="small"
+										/>
+									</Flex>
+									<Flex align="center" gap="small">
+										<Typography.Text>只顯示有密碼</Typography.Text>
+										<Switch
+											checked={filters.passwordOnly}
+											onChange={(checked) => setFilters({ ...filters, passwordOnly: checked })}
+											size="small"
+										/>
+									</Flex>
+									<Flex align="center" gap="small">
+										<Switch
+											checked={filters.longPressToMove}
+											onChange={(checked) => setFilters({ ...filters, longPressToMove: checked })}
+											size="small"
+										/>
+										<Typography.Text>右鍵點擊移動定位點</Typography.Text>
+									</Flex>
+									<Flex align="center" gap="small">
+										<Typography.Text>Google 地圖：</Typography.Text>
+										<Select
+											value={mapMode}
+											onChange={(value) =>
+											{
+												setMapMode(value);
+												saveGoogleMapsMode(value); // 儲存到 localStorage
+											}}
+											style={{ width: 160 }}
+											size="small"
+											options={getAvailableGoogleMapsModes().map(mode => ({
+												value: mode,
+												label: getGoogleMapsModeDisplayName(mode),
+											}))}
+										/>
+									</Flex>
+								</Flex>
+							</Flex>
+						</Card>
+
+						{/* 類別標籤 / Category tags */}
+						<Flex gap="small" align="center" wrap>
+							{[
+								...new Set(filteredHotspots.slice(0, visibleHotspotCount)
+									.map(h => h.category)
+									.filter(Boolean)),
+							].map((category, idx) => (
+								<Tag
+									key={category}
+									color={['blue', 'green', 'red', 'gold', 'purple', 'cyan', 'orange', 'magenta'][idx % 8]}
+									style={{
+										//backgroundColor: ['blue', 'green', 'red', 'gold', 'purple', 'cyan', 'orange', 'magenta'][idx % 8],
+									}}
+								>
+									{category}
+								</Tag>
+							))}
+						</Flex>
+
+						{/* 底部列表面板 / Bottom list panel */}
+						<FacilityPointDataListAll
 							data={{
 								...facilityPointData,
 								[EnumDatasetType.WIFI]: filteredHotspots,
 							}}
+
+							onClick={handleListItemClick}
+
 							onOpenMap={handleOpenGoogleMaps}
+
+							position={position}
+							mapCenter={mapCenter!}
 						/>
-						{/* 變更視角 - 當位置改變時自動置中 */}
-						<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
-					</MapTileLayer>
-				</div>
-				{/* 搜尋列 / Search bar */}
-				<Card className="search-bar" size="small" hoverable>
-					<Flex vertical gap="middle">
-						<Input
-							placeholder="搜尋熱點或 SSID..."
-							prefix={<SearchOutlined />}
-							value={searchTerm}
-							onChange={(e) => setSearchTerm(e.target.value)}
-						/>
-						<Flex gap="middle" wrap>
-							<Flex align="center" gap="small">
-								<WifiOutlined style={{ color: '#1890ff' }} />
-								<Typography.Text>WiFi</Typography.Text>
-								<Switch
-									checked={filters.wifi}
-									onChange={(checked) => setFilters({ ...filters, wifi: checked })}
-									size="small"
-								/>
-							</Flex>
-							<Flex align="center" gap="small">
-								<ThunderboltOutlined style={{ color: '#fa8c16' }} />
-								<Typography.Text>充電</Typography.Text>
-								<Switch
-									checked={filters.charging}
-									onChange={(checked) => setFilters({ ...filters, charging: checked })}
-									size="small"
-								/>
-							</Flex>
-							<Flex align="center" gap="small">
-								<Typography.Text>只顯示有密碼</Typography.Text>
-								<Switch
-									checked={filters.passwordOnly}
-									onChange={(checked) => setFilters({ ...filters, passwordOnly: checked })}
-									size="small"
-								/>
-							</Flex>
-							<Flex align="center" gap="small">
-								<Switch
-									checked={filters.longPressToMove}
-									onChange={(checked) => setFilters({ ...filters, longPressToMove: checked })}
-									size="small"
-								/>
-								<Typography.Text>右鍵點擊移動定位點</Typography.Text>
-							</Flex>
-							<Flex align="center" gap="small">
-								<Typography.Text>Google 地圖：</Typography.Text>
-								<Select
-									value={mapMode}
-									onChange={(value) =>
-									{
-										setMapMode(value);
-										saveGoogleMapsMode(value); // 儲存到 localStorage
-									}}
-									style={{ width: 160 }}
-									size="small"
-									options={getAvailableGoogleMapsModes().map(mode => ({
-										value: mode,
-										label: getGoogleMapsModeDisplayName(mode),
-									}))}
-								/>
-							</Flex>
 						</Flex>
-					</Flex>
-				</Card>
+					</Splitter.Panel>
+				</Splitter>
 
-				{/* 類別標籤 / Category tags */}
-				<Flex gap="small" align="center" wrap>
-					{[
-						...new Set(filteredHotspots.slice(0, visibleHotspotCount)
-							.map(h => h.category)
-							.filter(Boolean)),
-					].map((category, idx) => (
-						<Tag
-							key={category}
-							color={['blue', 'green', 'red', 'gold', 'purple', 'cyan', 'orange', 'magenta'][idx % 8]}
-							style={{
-								//backgroundColor: ['blue', 'green', 'red', 'gold', 'purple', 'cyan', 'orange', 'magenta'][idx % 8],
-							}}
-						>
-							{category}
-						</Tag>
-					))}
-				</Flex>
+				{/* 搜尋列 / Search bar */}
 
-				{/* 底部列表面板 / Bottom list panel */}
-				<FacilityPointDataListAll
-					data={{
-						...facilityPointData,
-						[EnumDatasetType.WIFI]: filteredHotspots,
-					}}
 
-					onClick={handleListItemClick}
-
-					onOpenMap={handleOpenGoogleMaps}
-				/>
-			</Flex>
 		</>
 	);
 }

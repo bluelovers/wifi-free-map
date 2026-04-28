@@ -1,14 +1,16 @@
 import { formatToDD, getAndFormatDistance } from '@/lib/utils/geo/geo-formatter';
 import { wrapCoordinateFromPointTupleLatLng } from '@/lib/utils/geo/geo-transform';
-import { EnumDatasetType, IGeoPointTupleLatLng } from '@/lib/utils/grid/grid-types';
+import { EnumDatasetType, IGeoCoord, IGeoPointTupleLatLng } from '@/lib/utils/grid/grid-types';
 import { IApiReturnBlocksBatch } from '@/types';
 import { IStationBase } from '@/types/station-base';
 import { IChargingStation } from '@/types/station-charging';
 import { IHotspot } from '@/types/station-wifi';
 import { WifiOutlined, GlobalOutlined, CompassOutlined, ThunderboltOutlined } from '@ant-design/icons';
 import { Button, Card, Flex, Typography } from 'antd';
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { IOpenMapButtonSharedProps, OpenMapButton } from '../map/map-btn/OpenMapButton';
+import { _createProximityComparator } from '@/lib/utils/geo/geo-sort.';
+import { calculateDistance } from '@/lib/utils/geo/geo-math';
 
 /** 每次載入的熱點數量 / Number of hotspots to load per batch */
 const PER_PAGE = 20;
@@ -20,6 +22,8 @@ export interface IFacilityPointDataListSharedProps<T extends IStationBase> exten
 	onClick?(item: T): void;
 
 	position?: IGeoPointTupleLatLng;
+
+	mapCenter?: IGeoCoord;
 }
 
 export interface IFacilityPointDataListProps<T extends IStationBase> extends IFacilityPointDataListSharedProps<T>
@@ -67,6 +71,15 @@ export function FacilityPointDataList<T extends IStationBase>(props: IFacilityPo
 
 	const positionCoord = props.position && wrapCoordinateFromPointTupleLatLng(props.position);
 
+	const _sort = useCallback((list: T[]) =>
+	{
+		if (props.mapCenter)
+		{
+			return list.sort(_createProximityComparator(props.mapCenter, calculateDistance));
+		}
+		return list
+	}, [props.mapCenter])
+
 	return (<Card
 		className="bottom-panel"
 		style={{
@@ -99,7 +112,7 @@ export function FacilityPointDataList<T extends IStationBase>(props: IFacilityPo
 			justify={'space-around'}
 			align="flex-start"
 		>
-			{props.list.slice(0, visibleCount).map((item, index) => (
+			{_sort(props.list.slice(0, visibleCount)).map((item, index) => (
 				<Card
 					key={item.id}
 					data-uuid={item.id}
@@ -115,7 +128,8 @@ export function FacilityPointDataList<T extends IStationBase>(props: IFacilityPo
 						width: 300,
 						marginBottom: 10,
 					}}
-					onClick={(e) => {
+					onClick={(e) =>
+					{
 						if (props.onClick)
 						{
 							e.stopPropagation();
@@ -152,7 +166,6 @@ export function FacilityPointDataList<T extends IStationBase>(props: IFacilityPo
 	</Card>);
 }
 
-
 export function FacilityPointDataListWifi<T extends IHotspot>(props: IFacilityPointDataListProps<T>)
 {
 	const icon = props.icon ?? <WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />;
@@ -185,13 +198,13 @@ export function FacilityPointDataListAll({
 }: IFacilityPointDataListAllProps<IStationBase>)
 {
 	return (<>
-		{data[EnumDatasetType.WIFI]?.length && <FacilityPointDataListWifi
+		{data[EnumDatasetType.WIFI]?.length ? <FacilityPointDataListWifi
 			{...props}
 			list={data[EnumDatasetType.WIFI]}
-		/>}
-		{data[EnumDatasetType.CHARGING]?.length && <FacilityPointDataListCharging
+		/> : null}
+		{data[EnumDatasetType.CHARGING]?.length ? <FacilityPointDataListCharging
 			{...props}
 			list={data[EnumDatasetType.CHARGING]}
-		/>}
+		/> : null}
 	</>)
 }

@@ -2,7 +2,6 @@ import { IStationBase } from '@/types/station-base';
 import { CompassOutlined, GlobalOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 
-
 export interface IOpenMapButtonSharedProps<T extends IStationBase>
 {
 	onOpenMap?(item: T, isNavigation?: boolean): void;

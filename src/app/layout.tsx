@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import 'leaflet/dist/leaflet.css';
+// import 'leaflet/dist/leaflet.css';
 import "./globals.scss";
 
 import ClientLayout from "./ClientLayout";

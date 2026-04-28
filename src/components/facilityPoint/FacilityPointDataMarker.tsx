@@ -108,19 +108,19 @@ export function FacilityPointDataMarkerAll({
 }: IFacilityPointDataMarkerAllProps<IStationBase>)
 {
 	return (<>
-		{data[EnumDatasetType.WIFI]?.length && <FacilityPointDataMarker
+		{data[EnumDatasetType.WIFI]?.length ? <FacilityPointDataMarker
 			{...props}
 			list={data[EnumDatasetType.WIFI]}
 			dataType={EnumDatasetType.WIFI}
 			icon={wifiIcon}
 			icon2={<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />}
-		/>}
-		{data[EnumDatasetType.CHARGING]?.length && <FacilityPointDataMarker
+		/> : null}
+		{data[EnumDatasetType.CHARGING]?.length ? <FacilityPointDataMarker
 			{...props}
 			list={data[EnumDatasetType.CHARGING]}
 			dataType={EnumDatasetType.CHARGING}
 			icon={chargingIcon}
 			icon2={<ThunderboltOutlined style={{ fontSize: '20px', color: '#fa8c16' }} />}
-		/>}
+		/> : null}
 	</>)
 }
