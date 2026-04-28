@@ -100,13 +100,11 @@ export async function GET(request: Request)
 				{
 					const wifiPath = join(
 						__DATA_ROOT,
-						// 'grid-wifi',
-						// bucketPath,
 						`${dataset[EnumDatasetType.WIFI].fileName}`,
 					);
 
 					const wifiArray = await readFile(wifiPath, 'utf-8').then(JSON.parse);
-						wifiData.push(...wifiArray);
+					wifiData.push(...wifiArray);
 				}
 
 				/** 讀取充電站資料 */
@@ -114,13 +112,11 @@ export async function GET(request: Request)
 				{
 					const chargingPath = join(
 						__DATA_ROOT,
-						// 'grid-charging',
-						// bucketPath,
 						`${dataset[EnumDatasetType.CHARGING].fileName}`,
 					);
 
 					const chargingArray = await readFile(chargingPath, 'utf-8').then(JSON.parse);
-						chargingData.push(...chargingArray);
+					chargingData.push(...chargingArray);
 				}
 			}
 		}

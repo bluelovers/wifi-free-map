@@ -24,8 +24,7 @@ export enum EnumFacilityType
  */
 export interface IWiFiHotspot extends IHotspot, IWiFiHotspot_not_impl
 {
-	/** 唯一識別碼 / Unique identifier */
-	id: string;
+	
 }
 
 /**

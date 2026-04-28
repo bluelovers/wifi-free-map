@@ -50,10 +50,25 @@ async function main()
 	const allWifiRaw = [...wifiRaw, ...taipeiFormatted];
 
 	const categorySet = new Set<string>();
+	const uuidSet = new Set<string>();
 
 	const cb = (item: { value: any; isValid: boolean }) =>
 	{
-		item?.value?.category && categorySet.add(item.value.category);
+		if (item?.value)
+		{
+			item.value.category && categorySet.add(item.value.category);
+
+			if (uuidSet.has(item.value.id))
+			{
+				console.warn(`Duplicate UUID: ${item.value.id}`, item.value);
+				// throw new Error(`Duplicate UUID: ${item.value.id} ${JSON.stringify(item.value)}`);
+				item.isValid = false;
+			}
+			else
+			{
+				uuidSet.add(item.value.id);
+			}
+		}
 	};
 
 	// 轉換並寫入過濾後的檔案（合併後）
@@ -68,14 +83,25 @@ async function main()
 	}, { spaces: 2 });
 
 	console.log(`Filtered files written to ${__DATA_ROOT}`);
-	console.log(
-		`iTaiwan Wi‑Fi: ${wifiRaw.length}, Taipei Free: ${taipeiWifiRaw.length}, total: ${allWifiRaw.length}`,
-	);
+
+	console.log(``);
+
 	console.log(`${relative(__ROOT, wifiNormalizePath)}`);
+
 	console.log(
-		`Charging: ${chargingRaw.length}`,
+		`  iTaiwan Wi‑Fi: ${wifiRaw.length}`,
+		`\n  Taipei Free: ${taipeiWifiRaw.length}`,
+		`\n  total: ${wifiFiltered.length}` , '/', allWifiRaw.length, '(', wifiFiltered.length - allWifiRaw.length, ')',
 	);
+
+	console.log(``);
+
 	console.log(`${relative(__ROOT, chargingNormalizePath)}`);
+
+	console.log(
+		`  Charging: ${chargingFiltered.length}`, '/', chargingRaw.length, '(', chargingFiltered.length - chargingRaw.length, ')',
+	);
+
 }
 
 // 執行

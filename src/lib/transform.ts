@@ -17,6 +17,7 @@ import { EnumDatasetSource, EnumDatasetType, EnumWifiAuthType, EnumWifiSSIDName,
 import { IStationBase } from '@/types/station-base';
 import { GLOBAL_GRID_CONFIG_PRECISION_MAKRER } from '@/lib/utils/grid/grid-const';
 import { _normalizeCoordScalarFromStringNumberCore } from '@/lib/utils/geo/geo-transform';
+import { createDataUUID } from './utils/data/data-uuid';
 
 // ==================== Wi-Fi 熱點轉換 / Wi-Fi Hotspot Conversion ====================
 
@@ -33,6 +34,8 @@ import { _normalizeCoordScalarFromStringNumberCore } from '@/lib/utils/geo/geo-t
 export function convertWiFiRaw_iTaiwan(raw: IRawHotspot_iTaiwan & IHotspot_auth): IHotspot
 {
 	return {
+		id: raw.id,
+
 		dataType: EnumDatasetType.WIFI,
 		dataSource: raw.dataSource,
 		category: raw.Administration,
@@ -61,6 +64,8 @@ export function convertWiFiRaw_iTaiwan(raw: IRawHotspot_iTaiwan & IHotspot_auth)
 export function convertWiFiRaw_TaipeiFree_To_iTaiwan(raw: IRawHotspot_TaipeiFree): ITSPickExtra<IRawHotspot_iTaiwan, 'Name' | 'Latitude' | 'Longitude' | 'Address' | 'Administration'>
 {
 	return {
+		id: raw.id,
+
 		Name: raw.NAME,
 		Latitude: raw.LATITUDE,
 		Longitude: raw.LONGITUDE,
@@ -154,6 +159,11 @@ export function _createConvertRawArrayGenerator<R, T extends IStationBase>(fn: (
 		const value = fn(rawData);
 		const isValid = opts!.filter!(value);
 
+		if (value)
+		{
+			value.id ??= createDataUUID(value);
+		}
+
 		const item = {
 			value,
 			isValid,
@@ -228,6 +238,7 @@ export const convertWiFiArrayGenerator = _createConvertRawArrayGenerator(convert
 export function convertChargingRaw(raw: IRawChargingStation): IChargingStation
 {
 	return {
+		id: raw.id,
 		dataType: EnumDatasetType.CHARGING,
 		dataSource: EnumDatasetSource.GOV_DATA,
 		name: raw["充電站名稱"] ?? "",

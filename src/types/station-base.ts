@@ -16,6 +16,9 @@ import { EnumDatasetSource, EnumDatasetType, IGeoCoord } from '@/lib/utils/grid/
  */
 export interface IStationBase extends IGeoCoord
 {
+	/** 唯一識別碼 / Unique identifier */
+	id: string;
+
 	/** 資料類型 / Data type */
 	dataType: EnumDatasetType;
 	/** 資料來源 / Data source */
