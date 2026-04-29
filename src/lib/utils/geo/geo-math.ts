@@ -170,3 +170,38 @@ export function calculateWeightedSquaredDistance(coord1: IGeoCoord, coord2: IGeo
 
 	return dLng * dLng + dLat * dLat;
 }
+
+/**
+ * 根據緯度計算經度補償係數 (Longitude Correction Factor)
+ * 用於矯正地理範圍在不同緯度下的物理比例，確保網格在地圖上呈現接近正方形。
+ *
+ * @param anyCoord - 包含緯度的座標物件
+ * @returns 經度補償係數 (cosLat)，值越小代表該緯度的經度物理跨度越短
+ *
+ * 方案 A（調整經度 Lng）：offsetLng = offset / cosLat (把寬度拉長)
+ * 方案 B（調整緯度 Lat）：offsetLat = offset * cosLat (把高度壓扁)
+ *
+ * 為什麼通常建議動「經度 (Lng)」？
+ * 雖然在緯度上乘以 $cosLat$ 數學上也通，但在 GIS 開發慣例中，我們通常傾向於調整經度，原因如下：
+ * 物理直覺：緯度 1 度的距離幾乎是不變的（約 111 公里），它是最穩定的「尺」。我們通常拿穩定的尺去校正會變動的尺（經度）。
+ */
+export function rectifyRangeAspectRatio(anyCoord: Pick<IGeoCoord, 'lat'>): number
+{
+	/**
+	 * 1. 將角度（Degree）轉換為弧度（Radian）
+	 * 數學公式：弧度 = 角度 * (π / 180)
+	 */
+	const latRad = (anyCoord.lat * Math.PI) / 180;
+
+	/**
+	 * 2. 計算緯度的餘弦值 (Cosine)
+	 * 在球體投影中，經線圈的半徑隨緯度增加而按 Cosine 比例縮小
+	 */
+	const cosLat = Math.cos(latRad);
+
+	/**
+	 * 3. 回傳係數
+	 * 例如台北 (25°N) 約為 0.906，代表經度 1 度的物理長度僅為緯度 1 度的 90.6%
+	 */
+	return cosLat;
+}

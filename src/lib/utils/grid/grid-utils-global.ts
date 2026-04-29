@@ -22,6 +22,7 @@ import {
 	IGpsLngLatMin,
 	IGpsLngLatMinMax,
 	IMatchedBuckets,
+	EnumRectifyRangeAspectRatioMode,
 } from './grid-types';
 import { _formatBlockKey, decodeBlockKey } from '@/lib/utils/geo/geo-formatter';
 import {
@@ -511,7 +512,7 @@ export function getBucketSpecsFromAnyPoint(anyCoord: IGeoCoord)
 	};
 }
 
-export interface IResultRangeAndBlockIdsFromAnyCoordForMap
+export interface IProvideMapLoadingStrategyByAnyCoord
 {
 	/**
 	 * 當前座標
@@ -521,11 +522,14 @@ export interface IResultRangeAndBlockIdsFromAnyCoordForMap
 	/**
 	 * 用來匹配區塊範圍的偏移量(向外延伸)
 	 */
-	offset: number;
+	offsetExpand: number;
 	/**
 	 * 當前區塊
 	 */
 	block: IGeoBlockIndex & IGpsLngLatMin;
+
+	baseRangeBounds: IGpsLngLatMinMax;
+
 	/**
 	 * 已匹配的區塊
 	 */
@@ -533,49 +537,58 @@ export interface IResultRangeAndBlockIdsFromAnyCoordForMap
 	/**
 	 * 已匹配的區塊範圍
 	 */
-	matchedRange: IGpsLngLatMinMax;
+	matchedRangeBounds: IGpsLngLatMinMax;
 	/**
 	 * 觸發範圍，用於觸發重新加載資料
 	 * 範圍會小於 matchedRange
 	 */
-	triggerRange: IGpsLngLatMinMax;
+	triggerThresholdRangeBounds: IGpsLngLatMinMax;
 
 	/**
 	 * 觸發範圍的偏移量(向內收縮)
 	 */
-	triggerOffset: number;
+	offsetTrigger: number;
 
 	/**
 	 *
 	 */
-	rangeForDetect: IGpsLngLatMinMax;
+	blockScanRangeBounds: IGpsLngLatMinMax;
 }
 
 /**
+ * 根據指定座標解析地圖網格上下文（包含掃描區、資料覆蓋區與觸發閾值）
+ * Resolves map grid context from a coordinate (includes scan area, coverage, and triggers)
+ *
+ * 「空間預加載與狀態鎖定 (Spatial Preloading & State Locking)」 的策略
+ *
  * @param anyCoord
  * @returns
  */
-export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGeoCoord): IResultRangeAndBlockIdsFromAnyCoordForMap
+export function getProvideMapLoadingStrategyByAnyCoord(anyCoord: IGeoCoord): IProvideMapLoadingStrategyByAnyCoord
 {
-	anyCoord = normalizeCoord(anyCoord, GLOBAL_GRID_CONFIG_PRECISION_MAKRER);
+	anyCoord = normalizeCoord(anyCoord, GLOBAL_GRID_CONFIG_PRECISION);
 
 	const block = calcGlobalBlockIndexAndCoord(anyCoord);
 
 	const offsetHalf = _normalizeCoordScalarCore(BLOCK_SIZE * 0.5, GLOBAL_GRID_CONFIG_PRECISION);
-	const offset = _normalizeCoordScalarCore(BLOCK_SIZE * 0.25, GLOBAL_GRID_CONFIG_PRECISION);
+	const offsetExpand = _normalizeCoordScalarCore(BLOCK_SIZE * 0.25, GLOBAL_GRID_CONFIG_PRECISION);
 
-	const rangeForDetect = normalizeLngLatMinMax(expandRangeLngLatMinMax(_minLngLatToRangeLngLatMinMax({
+	const baseRangeBounds = _minLngLatToRangeLngLatMinMax({
 		minLng: anyCoord.lng - offsetHalf,
 		minLat: anyCoord.lat - offsetHalf,
-	}), offset), GLOBAL_GRID_CONFIG_PRECISION);
+	});
 
-	const result2 = calcBlockIdsInRange(rangeForDetect);
+	const blockScanRangeBounds = normalizeLngLatMinMax(expandRangeLngLatMinMax(baseRangeBounds, offsetExpand, {
+		rectifyRangeAspectRatioMode: EnumRectifyRangeAspectRatioMode.ADJUST_LAT,
+	}), GLOBAL_GRID_CONFIG_PRECISION);
 
-	const matchedRange: IGpsLngLatMinMax = {
-		minLng: rangeForDetect.minLng,
-		maxLng: rangeForDetect.maxLng,
-		minLat: rangeForDetect.minLat,
-		maxLat: rangeForDetect.maxLat,
+	const result2 = calcBlockIdsInRange(blockScanRangeBounds);
+
+	const matchedRangeBounds: IGpsLngLatMinMax = {
+		minLng: blockScanRangeBounds.minLng,
+		maxLng: blockScanRangeBounds.maxLng,
+		minLat: blockScanRangeBounds.minLat,
+		maxLat: blockScanRangeBounds.maxLat,
 	};
 
 	const matchedBuckets = result2.matchedBlocks.reduce((acc, blockId) =>
@@ -591,11 +604,11 @@ export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGeoCoord): IRes
 
 		const result = _idxToRangeLngLatMinMax(indices);
 
-		matchedRange.minLng = Math.min(matchedRange.minLng, result.minLng);
-		matchedRange.minLat = Math.min(matchedRange.minLat, result.minLat);
+		matchedRangeBounds.minLng = Math.min(matchedRangeBounds.minLng, result.minLng);
+		matchedRangeBounds.minLat = Math.min(matchedRangeBounds.minLat, result.minLat);
 
-		matchedRange.maxLng = Math.max(matchedRange.maxLng, result.maxLng);
-		matchedRange.maxLat = Math.max(matchedRange.maxLat, result.maxLat);
+		matchedRangeBounds.maxLng = Math.max(matchedRangeBounds.maxLng, result.maxLng);
+		matchedRangeBounds.maxLat = Math.max(matchedRangeBounds.maxLat, result.maxLat);
 
 		acc[bucketPath] ??= [];
 		acc[bucketPath].push(blockId);
@@ -603,19 +616,20 @@ export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGeoCoord): IRes
 		return acc;
 	}, {} as IMatchedBuckets);
 
-	const triggerOffset = _normalizeCoordScalarCore(BLOCK_SIZE * 0.25, GLOBAL_GRID_CONFIG_PRECISION);
+	const offsetTrigger = _normalizeCoordScalarCore(BLOCK_SIZE * 0.5, GLOBAL_GRID_CONFIG_PRECISION);
 
-	const triggerRange: IGpsLngLatMinMax = normalizeLngLatMinMax(shrinkRangeLngLatMinMax(matchedRange, triggerOffset), GLOBAL_GRID_CONFIG_PRECISION);
+	const triggerThresholdRangeBounds: IGpsLngLatMinMax = normalizeLngLatMinMax(shrinkRangeLngLatMinMax(matchedRangeBounds, offsetTrigger), GLOBAL_GRID_CONFIG_PRECISION);
 
 	return {
 		center: anyCoord,
-		offset,
+		offsetExpand,
 		block,
 		...result2,
+		baseRangeBounds,
 		matchedBuckets,
-		matchedRange,
-		triggerRange,
-		triggerOffset,
-		rangeForDetect,
+		matchedRangeBounds,
+		triggerThresholdRangeBounds,
+		offsetTrigger,
+		blockScanRangeBounds,
 	};
 }

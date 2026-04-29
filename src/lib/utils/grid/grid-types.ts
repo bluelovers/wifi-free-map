@@ -52,6 +52,14 @@ export enum EnumWifiSSIDName
 	ITAIWAN = "iTaiwan",
 }
 
+export enum EnumRectifyRangeAspectRatioMode
+{
+	/** 調整經度 */
+	ADJUST_LNG = 1,
+	/** 調整緯度 (不推薦) */
+	ADJUST_LAT = 2,
+}
+
 /**
  * 經緯度最小值介面
  * Longitude/latitude minimum interface

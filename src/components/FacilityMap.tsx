@@ -169,12 +169,7 @@ export default function FacilityMap()
 	/** 用於取得 Leaflet map 實例，以在需要時讀取當前 zoom 等級 */
 	const mapRef = useRef<L.Map | null>(null);
 
-	const {
-		facilityPointData,
-		facilityPointRangeBounds,
-		facilityPointTriggerBounds,
-		facilityPointDetectBounds,
-	} = useFacilityPointBlocksData(mapCenter! as any);
+	const facilityPoint = useFacilityPointBlocksData(mapCenter! as any);
 
 	const [address, setAddress] = useState<string>(''); // 位置地址
 	const [addressLoading, setAddressLoading] = useState<boolean>(false); // 地址查詢載入狀態
@@ -405,7 +400,7 @@ export default function FacilityMap()
 		const from: IGeoCoord = mapCenter || (position && wrapCoordinateFromPointTupleLatLng(position));
 
 		/** 先複製陣列避免原地修改 */
-		let filtered = [...(facilityPointData?.wifi ?? [])].filter((hotspot) =>
+		let filtered = [...(facilityPoint.data?.wifi ?? [])].filter((hotspot) =>
 		{
 			/** 關鍵字過濾：名稱或 SSID 包含搜尋字串（不分大小寫） */
 			const term = searchTerm.trim().toLowerCase();
@@ -423,7 +418,7 @@ export default function FacilityMap()
 
 		filtered = filtered.sort(_createProximityComparator(from, calculateDistance));
 
-		console.log('[filteredHotspots] hotspots:', facilityPointData?.wifi.length,
+		console.log('[filteredHotspots] hotspots:', facilityPoint.data?.wifi.length,
 			'\nmapCenter:', mapCenter,
 			'\nposition:', position && wrapCoordinateFromPointTupleLatLng(position),
 			'\nfrom:', from,
@@ -434,7 +429,7 @@ export default function FacilityMap()
 
 		setFilteredHotspots(filtered);
 
-	}, [facilityPointData, searchTerm, filters, mapCenter]);
+	}, [facilityPoint.data, searchTerm, filters, mapCenter]);
 
 	// 處理列表項目點擊 - 連動地圖
 	const handleListItemClick = (hotspot: IWiFiHotspot) =>
@@ -582,7 +577,7 @@ export default function FacilityMap()
 							<LongPressHandler />
 							<FacilityPointDataMarkerAll
 								data={{
-									...facilityPointData,
+									...facilityPoint.data,
 									[EnumDatasetType.WIFI]: filteredHotspots,
 								}}
 								onOpenMap={handleOpenGoogleMaps}
@@ -592,9 +587,9 @@ export default function FacilityMap()
 							 * Facility point range bounds rectangles
 							 */}
 							<BoundsRectangles
-								rangeBounds={facilityPointRangeBounds}
-								triggerBounds={facilityPointTriggerBounds}
-								detectBounds={facilityPointDetectBounds}
+								matchedRangeBounds={facilityPoint.matchedRangeBounds!}
+								triggerThresholdRangeBounds={facilityPoint.triggerThresholdRangeBounds!}
+								blockScanRangeBounds={facilityPoint.blockScanRangeBounds!}
 								visible={showBounds}
 							/>
 							{/**
@@ -701,7 +696,7 @@ export default function FacilityMap()
 						{/* 底部列表面板 / Bottom list panel */}
 						<FacilityPointDataListAll
 							data={{
-								...facilityPointData,
+								...facilityPoint.data,
 								[EnumDatasetType.WIFI]: filteredHotspots,
 							}}
 

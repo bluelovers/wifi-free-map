@@ -1,7 +1,7 @@
 import { IHotspot } from '@/types/station-wifi';
 import { IChargingStation as IChargingStationBase } from '@/types/station-charging';
 import { EnumDatasetType, IGpsLngLatMinMax, IMatchedBuckets } from '@/lib/utils/grid/grid-types';
-import { IResultRangeAndBlockIdsFromAnyCoordForMap } from '@/lib/utils/grid/grid-utils-global';
+import { IProvideMapLoadingStrategyByAnyCoord } from '@/lib/utils/grid/grid-utils-global';
 
 /**
  * 設施類型列舉
@@ -97,7 +97,7 @@ export interface IApiReturnCharging
  * API 回傳格式
  * API response format
  */
-export interface IApiReturnBlocksBatch extends Pick<IResultRangeAndBlockIdsFromAnyCoordForMap, 'matchedBuckets' | 'matchedRange' | 'triggerRange' | 'rangeForDetect'>
+export interface IApiReturnBlocksBatch extends IProvideMapLoadingStrategyByAnyCoord
 {
 	success: boolean;
 	data: {

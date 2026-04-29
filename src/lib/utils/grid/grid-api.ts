@@ -5,10 +5,10 @@ import {
 	calcBlockIdsInRange,
 	calcGlobalBlockIndexAndCoord,
 	getBucketSpecsFromAnyPoint,
-	getRangeAndBlockIdsFromAnyCoordForMap,
+	getProvideMapLoadingStrategyByAnyCoord,
 } from './grid-utils-global';
 import { decodeBlockKey } from '@/lib/utils/geo/geo-formatter';
 import { _normalizeCoordScalarCore, normalizeCoord } from '@/lib/utils/geo/geo-transform';
 
-console.dir(getRangeAndBlockIdsFromAnyCoordForMap({ lng: 121.499310, lat: 25.037682 }), { depth: null });
+console.dir(getProvideMapLoadingStrategyByAnyCoord({ lng: 121.499310, lat: 25.037682 }), { depth: null });
 

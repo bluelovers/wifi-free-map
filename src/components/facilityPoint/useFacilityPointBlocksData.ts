@@ -29,12 +29,12 @@ function fillFacilityPointData(data?: IApiReturnBlocksBatch["data"])
 export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeoCoord)
 {
 	/** 當前資料的範圍邊界 / Current data range bounds */
-	const [facilityPointRangeBounds, setFacilityPointRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
+	const [matchedRangeBounds, setMatchedRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
 
-	const [facilityPointTriggerBounds, setFacilityPointTriggerBounds] = useState<IGpsLngLatMinMax | null>(null);
-	const [facilityPointDetectBounds, setFacilityPointDetectBounds] = useState<IGpsLngLatMinMax | null>(null);
+	const [triggerThresholdRangeBounds, setTriggerThresholdRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
+	const [blockScanRangeBounds, setBlockScanRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
 
-	const [facilityPointData, setFacilityPointData] = useState<IApiReturnBlocksBatch["data"] | null>(fillFacilityPointData());
+	const [data, setData] = useState<IApiReturnBlocksBatch["data"] | null>(fillFacilityPointData());
 
 	let swrKey = null;
 	if (position)
@@ -50,73 +50,61 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 			coord = position;
 		}
 
-		const bool = !facilityPointTriggerBounds || !isCoordWithinRange(coord, facilityPointTriggerBounds);
+		const bool = !triggerThresholdRangeBounds || !isCoordWithinRange(coord, triggerThresholdRangeBounds);
 
 		if (bool)
 		{
 			swrKey = `/api/blocks-batch?${transformCoordinateToUriQueryLatLng(coord)}`;
 		}
 
-		console.log('useFacilityPointBlocksData', swrKey, position, facilityPointTriggerBounds, bool);
+		console.log('useFacilityPointBlocksData', swrKey, position, triggerThresholdRangeBounds, bool);
 	}
 
-	const fetcherWithLogging = buildFetcher<IApiReturnBlocksBatch, {
-		facilityPointData: IApiReturnBlocksBatch["data"],
-		facilityPointRangeBounds: IApiReturnBlocksBatch["matchedRange"],
-		facilityPointTriggerBounds: IApiReturnBlocksBatch["triggerRange"],
-		facilityPointDetectBounds: IApiReturnBlocksBatch["rangeForDetect"],
-	}>(fetcher, {
+	const fetcherFacilityPoint = buildFetcher<IApiReturnBlocksBatch>(fetcher, {
 		onSuccess(data)
 		{
 			console.log('[useFacilityPointBlocksData] API response:', data.success,
 				'\nwifi count:', data.data?.[EnumDatasetType.WIFI]?.length,
 				'\ncharging count:', data.data?.[EnumDatasetType.CHARGING]?.length,
-				'\nrange:', data.matchedRange,
+				'\nrange:', data.matchedRangeBounds,
 			);
 
-			return {
-				facilityPointData: fillFacilityPointData(data?.data),
-				facilityPointRangeBounds: data.matchedRange,
-				facilityPointTriggerBounds: data.triggerRange,
-				facilityPointDetectBounds: data.rangeForDetect,
-			} as const;
+			return data;
 		},
 	});
 
-	const { data, error, isLoading } = useSWR(swrKey, fetcherWithLogging, {
+	const { error, isLoading } = useSWR(swrKey, fetcherFacilityPoint, {
 		revalidateOnFocus: false,
 		onSuccess: (batchData) =>
 		{
-			if (batchData.facilityPointRangeBounds)
+			if (batchData.matchedRangeBounds)
 			{
-				setFacilityPointRangeBounds(batchData.facilityPointRangeBounds);
+				setMatchedRangeBounds(batchData.matchedRangeBounds);
 			}
 
-			if (batchData.facilityPointTriggerBounds)
+			if (batchData.triggerThresholdRangeBounds)
 			{
-				setFacilityPointTriggerBounds(batchData.facilityPointTriggerBounds);
+				setTriggerThresholdRangeBounds(batchData.triggerThresholdRangeBounds);
 			}
 
-			if (batchData.facilityPointDetectBounds)
+			if (batchData.blockScanRangeBounds)
 			{
-				setFacilityPointDetectBounds(batchData.facilityPointDetectBounds);
+				setBlockScanRangeBounds(batchData.blockScanRangeBounds);
 			}
 
-			if (batchData.facilityPointData)
+			if (batchData.data)
 			{
-				setFacilityPointData(batchData.facilityPointData);
+				setData(batchData.data);
 			}
-
-			console.log('[useFacilityPointBlocksData]', batchData.facilityPointData);
 		},
 	});
 
 	return {
-		facilityPointData,
-		facilityPointRangeBounds,
-		facilityPointTriggerBounds,
-		facilityPointDetectBounds,
-		facilityPointRangeError: error,
-		facilityPointRangeLoading: isLoading,
+		data,
+		matchedRangeBounds,
+		triggerThresholdRangeBounds,
+		blockScanRangeBounds,
+		error,
+		isLoading,
 	} as const;
 }

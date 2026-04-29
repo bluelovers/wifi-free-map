@@ -7,7 +7,7 @@
 import { readFile } from 'fs/promises';
 import { join } from 'path';
 import { NextResponse } from 'next/server';
-import { getRangeAndBlockIdsFromAnyCoordForMap } from '@/lib/utils/grid/grid-utils-global';
+import { getProvideMapLoadingStrategyByAnyCoord } from '@/lib/utils/grid/grid-utils-global';
 import { __DATA_ROOT } from '@/lib/__root';
 import {
 	EnumDatasetType,
@@ -56,23 +56,19 @@ export async function GET(request: Request)
 		);
 	}
 
+	/** 初始化資料容器 */
+	const data: IApiReturnBlocksBatch['data'] = {
+		[EnumDatasetType.WIFI]: [],
+		[EnumDatasetType.CHARGING]: [],
+	}
+
 	try
 	{
 		/** 計算區塊與區塊組資訊 */
-		const {
-			matchedBuckets,
-			matchedRange,
-			triggerRange,
-			rangeForDetect,
-			...rest
-		} = getRangeAndBlockIdsFromAnyCoordForMap({ lng, lat } as IGeoCoord);
-
-		/** 初始化資料容器 */
-		const wifiData: IWiFiHotspot[] = [];
-		const chargingData: IChargingStationMarker[] = [];
+		const resultData = getProvideMapLoadingStrategyByAnyCoord({ lng, lat } as IGeoCoord);
 
 		/** 遍歷每個 bucket */
-		for (const [bucketPath, blockIds] of Object.entries(matchedBuckets))
+		for (const [bucketPath, blockIds] of Object.entries(resultData.matchedBuckets))
 		{
 			/** 讀取 bucket index */
 			const indexPath = join(__DATA_ROOT, 'index', bucketPath, 'index.json');
@@ -107,7 +103,7 @@ export async function GET(request: Request)
 					);
 
 					const wifiArray = await readFile(wifiPath, 'utf-8').then(JSON.parse);
-					wifiData.push(...wifiArray);
+					data[EnumDatasetType.WIFI].push(...wifiArray);
 				}
 
 				/** 讀取充電站資料 */
@@ -119,42 +115,28 @@ export async function GET(request: Request)
 					);
 
 					const chargingArray = await readFile(chargingPath, 'utf-8').then(JSON.parse);
-					chargingData.push(...chargingArray);
+					data[EnumDatasetType.CHARGING].push(...chargingArray);
 				}
 			}
 		}
 
-		console.dir({
-			matchedBuckets,
-			matchedRange,
-			triggerRange,
-			rangeForDetect,
-			rest,
-		});
+		console.dir(resultData);
 
 		/** 檢查是否有資料 */
-		if (wifiData.length === 0 && chargingData.length === 0)
+		if (data[EnumDatasetType.WIFI].length === 0 && data[EnumDatasetType.CHARGING].length === 0)
 		{
 			return NextResponse.json({
+				...resultData,
 				success: false,
 				error: 'No data found',
-				matchedBuckets,
-				matchedRange,
-				triggerRange,
-				rangeForDetect,
+				data,
 			} as IApiReturnError, { status: 404 });
 		}
 
 		return NextResponse.json({
+			...resultData,
 			success: true,
-			matchedBuckets,
-			matchedRange,
-			triggerRange,
-			rangeForDetect,
-			data: {
-				[EnumDatasetType.WIFI]: wifiData,
-				[EnumDatasetType.CHARGING]: chargingData,
-			},
+			data,
 		} as IApiReturnBlocksBatch);
 	}
 	catch (error)
@@ -165,6 +147,7 @@ export async function GET(request: Request)
 				success: false,
 				// error: 'Failed to fetch data',
 				error,
+				data,
 			} as IApiReturnError,
 			{ status: 500 },
 		);
