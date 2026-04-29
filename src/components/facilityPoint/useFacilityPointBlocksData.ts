@@ -31,6 +31,8 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 	/** 當前資料的範圍邊界 / Current data range bounds */
 	const [facilityPointRangeBounds, setFacilityPointRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
 
+	const [facilityPointTriggerBounds, setFacilityPointTriggerBounds] = useState<IGpsLngLatMinMax | null>(null);
+
 	const [facilityPointData, setFacilityPointData] = useState<IApiReturnBlocksBatch["data"] | null>(fillFacilityPointData());
 
 	let swrKey = null;
@@ -47,19 +49,20 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 			coord = position;
 		}
 
-		const bool = !facilityPointRangeBounds || !isCoordWithinRange(coord, facilityPointRangeBounds);
+		const bool = !facilityPointTriggerBounds || !isCoordWithinRange(coord, facilityPointTriggerBounds);
 
 		if (bool)
 		{
 			swrKey = `/api/blocks-batch?${transformCoordinateToUriQueryLatLng(coord)}`;
 		}
 
-		console.log('useFacilityPointBlocksData', swrKey, position, facilityPointRangeBounds, bool);
+		console.log('useFacilityPointBlocksData', swrKey, position, facilityPointTriggerBounds, bool);
 	}
 
 	const fetcherWithLogging = buildFetcher<IApiReturnBlocksBatch, {
 		facilityPointData: IApiReturnBlocksBatch["data"],
 		facilityPointRangeBounds: IApiReturnBlocksBatch["matchedRange"],
+		facilityPointTriggerBounds: IApiReturnBlocksBatch["triggerRange"],
 	}>(fetcher, {
 		onSuccess(data)
 		{
@@ -72,6 +75,7 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 			return {
 				facilityPointData: fillFacilityPointData(data?.data),
 				facilityPointRangeBounds: data.matchedRange,
+				facilityPointTriggerBounds: data.triggerRange,
 			} as const;
 		},
 	});
@@ -83,6 +87,11 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 			if (batchData.facilityPointRangeBounds)
 			{
 				setFacilityPointRangeBounds(batchData.facilityPointRangeBounds);
+			}
+
+			if (batchData.facilityPointTriggerBounds)
+			{
+				setFacilityPointTriggerBounds(batchData.facilityPointTriggerBounds);
 			}
 
 			if (batchData.facilityPointData)
@@ -97,6 +106,7 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 	return {
 		facilityPointData,
 		facilityPointRangeBounds,
+		facilityPointTriggerBounds,
 		facilityPointRangeError: error,
 		facilityPointRangeLoading: isLoading,
 	} as const;
