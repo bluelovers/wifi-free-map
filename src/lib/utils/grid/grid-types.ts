@@ -242,6 +242,8 @@ export type IValueArrayOrIterable<T> = T[] | Iterable<T>;
 /**
  * 注意：Array 通常是 Leaflet/Google Maps 慣用的 [lat, lng], y lat 在前, x lng 在後
  *
+ * 此格式的預設精度為 GLOBAL_GRID_CONFIG_PRECISION_MAKRER
+ *
  * 除非有必要否則請勿使用此格式(例如第三方API要求使用此格式)
  * 除此以外 一律使用 {@link IGeoCoord}
  */

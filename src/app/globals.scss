@@ -52,6 +52,10 @@ body
 	background-color: var(--bg-primary) !important;
 }
 
+/**
+ * Leaflet popup
+ * @see https://stackoverflow.com/questions/20532635/how-can-i-change-the-background-color-of-a-leaflet-popup
+ */
 .leaflet-popup-content-wrapper, .leaflet-popup-tip
 {
 	background-color: var(--bg-primary)

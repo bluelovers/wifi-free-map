@@ -113,7 +113,7 @@ export function wrapCoordFromLngLatMin(minLngLat: IGpsLngLatMin): IGeoCoord
  * Fixes coordinate to specified precision
  *
  * @param coord - 座標值 / Coordinate value
- * @param precision - 精度 / Precision
+ * @param precision - 精度 / Precision (default: GLOBAL_GRID_CONFIG_PRECISION)
  * @returns 修正後的座標值 / Fixed coordinate value
  */
 export function _normalizeCoordScalarCore(coord: number, precision?: number)
@@ -174,6 +174,25 @@ export function normalizePointTupleLatLngToMarkerPrecision(pointTupleLatLng: IGe
 		_normalizeCoordScalarCore(pointTupleLatLng[0], GLOBAL_GRID_CONFIG_PRECISION_MAKRER),
 		_normalizeCoordScalarCore(pointTupleLatLng[1], GLOBAL_GRID_CONFIG_PRECISION_MAKRER),
 	];
+}
+
+export function normalizeLngLatMin(minLngLat: IGpsLngLatMin, precision?: number): IGpsLngLatMin
+{
+	return {
+		minLng: _normalizeCoordScalarCore(minLngLat.minLng, precision),
+		minLat: _normalizeCoordScalarCore(minLngLat.minLat, precision),
+	};
+}
+
+export function normalizeLngLatMinMax(minLngLat: IGpsLngLatMinMax, precision?: number): IGpsLngLatMinMax
+{
+	return {
+		minLng: _normalizeCoordScalarCore(minLngLat.minLng, precision),
+		maxLng: _normalizeCoordScalarCore(minLngLat.maxLng, precision),
+
+		minLat: _normalizeCoordScalarCore(minLngLat.minLat, precision),
+		maxLat: _normalizeCoordScalarCore(minLngLat.maxLat, precision),
+	};
 }
 
 /**

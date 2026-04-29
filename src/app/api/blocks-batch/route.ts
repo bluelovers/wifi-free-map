@@ -62,6 +62,8 @@ export async function GET(request: Request)
 		const {
 			matchedBuckets,
 			matchedRange,
+			triggerRange,
+			...rest
 		} = getRangeAndBlockIdsFromAnyCoordForMap({ lng, lat } as IGeoCoord);
 
 		/** 初始化資料容器 */
@@ -121,6 +123,13 @@ export async function GET(request: Request)
 			}
 		}
 
+		console.dir({
+			matchedBuckets,
+			matchedRange,
+			triggerRange,
+			rest,
+		});
+
 		/** 檢查是否有資料 */
 		if (wifiData.length === 0 && chargingData.length === 0)
 		{
@@ -129,6 +138,7 @@ export async function GET(request: Request)
 				error: 'No data found',
 				matchedBuckets,
 				matchedRange,
+				triggerRange,
 			} as IApiReturnError, { status: 404 });
 		}
 
@@ -136,6 +146,7 @@ export async function GET(request: Request)
 			success: true,
 			matchedBuckets,
 			matchedRange,
+			triggerRange,
 			data: {
 				[EnumDatasetType.WIFI]: wifiData,
 				[EnumDatasetType.CHARGING]: chargingData,

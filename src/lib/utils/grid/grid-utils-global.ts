@@ -10,6 +10,7 @@ import {
 	BUCKET_CONFIG_GROUP_SIZE,
 	GLOBAL_GRID_CONFIG_EPSILON,
 	GLOBAL_GRID_CONFIG_ORIGIN,
+	GLOBAL_GRID_CONFIG_PRECISION,
 	GLOBAL_GRID_CONFIG_PRECISION_MAKRER,
 } from './grid-const';
 import {
@@ -27,9 +28,12 @@ import {
 	_boundsToLngLatMin,
 	_normalizeCoordScalarCore,
 	normalizeCoord,
+	normalizeLngLatMinMax,
 	rangeLngLatMinMaxToBounds,
 } from '@/lib/utils/geo/geo-transform';
 import { _calcBlockIndexToRangeScalarCore, _calCoordScalarToBlockIndexCore } from '@/lib/utils/grid/grid-transform';
+import { expandRangeLngLatMinMax, shrinkRangeLngLatMinMax } from '../geo/geo-bounds-utils';
+import { getArrowOffsetToken } from 'antd/es/style/placementArrow';
 
 /**
  * 全球通用：座標轉區塊 ID
@@ -245,10 +249,10 @@ export function _idxToRangeLngLatMinMax(indices: IGeoBlockIndex): IGpsLngLatMinM
 	return {
 		minLat,
 		/** 加上區塊大小得到最大緯度 / Add block size to get max latitude */
-		maxLat: minLat + BLOCK_SIZE,
+		maxLat: _normalizeCoordScalarCore(minLat + BLOCK_SIZE),
 		minLng,
 		/** 加上區塊大小得到最大經度 / Add block size to get max longitude */
-		maxLng: minLng + BLOCK_SIZE,
+		maxLng: _normalizeCoordScalarCore(minLng + BLOCK_SIZE),
 	};
 }
 
@@ -260,19 +264,19 @@ export function _idxToRangeLngLatMinMax(indices: IGeoBlockIndex): IGpsLngLatMinM
  * Converts coordinate to range containing specified number of blocks
  *
  * @param minLngLat - 左下角座標 / Bottom-left coordinate
- * @param bucketSize - 區塊數量（預設 1）/ Block count (default 1)
+ * @param blockCount - 區塊數量（預設 1）/ Block count (default 1)
  * @returns 座標範圍 / Coordinate range
  */
-export function _minLngLatToRangeLngLatMinMax(minLngLat: IGpsLngLatMin, bucketSize = 1): IGpsLngLatMinMax
+export function _minLngLatToRangeLngLatMinMax(minLngLat: IGpsLngLatMin, blockCount = 1): IGpsLngLatMinMax
 {
 	const { minLng, minLat } = minLngLat;
 
 	return {
 		minLat,
 		/** 根據區塊數量計算最大範圍 / Calculate max range based on block count */
-		maxLat: minLat + BLOCK_SIZE * bucketSize,
+		maxLat: minLat + BLOCK_SIZE * blockCount,
 		minLng,
-		maxLng: minLng + BLOCK_SIZE * bucketSize,
+		maxLng: minLng + BLOCK_SIZE * blockCount,
 	};
 }
 
@@ -507,26 +511,66 @@ export function getBucketSpecsFromAnyPoint(anyCoord: IGeoCoord)
 	};
 }
 
+export interface IResultRangeAndBlockIdsFromAnyCoordForMap
+{
+	/**
+	 * 當前座標
+	 */
+	center: IGeoCoord;
+
+	/**
+	 * 用來匹配區塊範圍的偏移量(向外延伸)
+	 */
+	offset: number;
+	/**
+	 * 當前區塊
+	 */
+	block: IGeoBlockIndex & IGpsLngLatMin;
+	/**
+	 * 已匹配的區塊
+	 */
+	matchedBuckets: IMatchedBuckets;
+	/**
+	 * 已匹配的區塊範圍
+	 */
+	matchedRange: IGpsLngLatMinMax;
+	/**
+	 * 觸發範圍，用於觸發重新加載資料
+	 * 範圍會小於 matchedRange
+	 */
+	triggerRange: IGpsLngLatMinMax;
+
+	/**
+	 * 觸發範圍的偏移量(向內收縮)
+	 */
+	triggerOffset: number;
+}
+
+/**
+ * @param anyCoord
+ * @returns
+ */
 export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGeoCoord)
 {
 	anyCoord = normalizeCoord(anyCoord, GLOBAL_GRID_CONFIG_PRECISION_MAKRER);
 
-	const result = calcGlobalBlockIndexAndCoord(anyCoord);
+	const block = calcGlobalBlockIndexAndCoord(anyCoord);
 
-	const haif = _normalizeCoordScalarCore(BLOCK_SIZE * 0.75, GLOBAL_GRID_CONFIG_PRECISION_MAKRER);
+	const offsetHalf = _normalizeCoordScalarCore(BLOCK_SIZE * 0.5, GLOBAL_GRID_CONFIG_PRECISION);
+	const offset = _normalizeCoordScalarCore(BLOCK_SIZE * 0.25, GLOBAL_GRID_CONFIG_PRECISION);
 
-	const range = _minLngLatToRangeLngLatMinMax({
-		minLng: _normalizeCoordScalarCore(anyCoord.lng - haif),
-		minLat: _normalizeCoordScalarCore(anyCoord.lat - haif),
-	});
+	const rangeForDetect = normalizeLngLatMinMax(expandRangeLngLatMinMax(_minLngLatToRangeLngLatMinMax({
+		minLng: anyCoord.lng - offsetHalf,
+		minLat: anyCoord.lat - offsetHalf,
+	}), offset), GLOBAL_GRID_CONFIG_PRECISION);
 
-	const result2 = calcBlockIdsInRange(range);
+	const result2 = calcBlockIdsInRange(rangeForDetect);
 
 	const matchedRange: IGpsLngLatMinMax = {
-		minLng: range.minLng,
-		maxLng: range.maxLng,
-		minLat: range.minLat,
-		maxLat: range.maxLat,
+		minLng: rangeForDetect.minLng,
+		maxLng: rangeForDetect.maxLng,
+		minLat: rangeForDetect.minLat,
+		maxLat: rangeForDetect.maxLat,
 	};
 
 	const matchedBuckets = result2.matchedBlocks.reduce((acc, blockId) =>
@@ -554,13 +598,18 @@ export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGeoCoord)
 		return acc;
 	}, {} as IMatchedBuckets);
 
+	const triggerOffset = _normalizeCoordScalarCore(BLOCK_SIZE * 0.25, GLOBAL_GRID_CONFIG_PRECISION);
+
+	const triggerRange: IGpsLngLatMinMax = normalizeLngLatMinMax(shrinkRangeLngLatMinMax(matchedRange, triggerOffset), GLOBAL_GRID_CONFIG_PRECISION);
+
 	return {
-		current: anyCoord,
-		haif,
-		block: result,
+		center: anyCoord,
+		offset,
+		block,
 		...result2,
-		// range,
 		matchedBuckets,
 		matchedRange,
-	};
+		triggerRange,
+		triggerOffset,
+	} as IResultRangeAndBlockIdsFromAnyCoordForMap;
 }
