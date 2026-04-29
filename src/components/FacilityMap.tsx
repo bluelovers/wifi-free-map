@@ -16,8 +16,9 @@ import {
 import { IWiFiHotspot } from '@/types';
 import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
 import MarkerClusterGroup from 'react-leaflet-cluster'
-import 'react-leaflet-cluster/dist/assets/MarkerCluster.css'
-import 'react-leaflet-cluster/dist/assets/MarkerCluster.Default.css'
+
+import "../styles/leaflet.scss";
+
 import { MapTileLayer } from './map/MapTileLayer';
 import { EnumDatasetType, IGeoCoord, IGeoPointTupleLatLng } from '@/lib/utils/grid/grid-types';
 import { fetchOSMReverseInfo } from '@/lib/utils/api/fetch-api';
@@ -43,6 +44,7 @@ import { IStationBase } from '@/types/station-base';
 import { useFacilityPointBlocksData } from './facilityPoint/useFacilityPointBlocksData';
 import { FacilityPointDataListAll } from './facilityPoint/FacilityPointDataList';
 import { FacilityPointDataMarkerAll } from './facilityPoint/FacilityPointDataMarker';
+import { BoundsRectangles } from './facilityPoint/BoundsRectangles';
 
 /**
  * 地圖中心位置組件（僅響應位置變更，不響應縮放）
@@ -77,8 +79,6 @@ function ChangeView({ center, shouldAutoCenter }: {
  */
 export default function FacilityMap()
 {
-	const [initedReady, setInitedReady] = useState(false);
-
 	/** 手動定位模式點擊地圖時設定位置 */
 	const ManualLocationHandler = () =>
 	{
@@ -106,6 +106,9 @@ export default function FacilityMap()
 		passwordOnly: false,
 		longPressToMove: true, // 右鍵點擊地圖移動定位點（預設開啟）
 	});
+
+	/** 是否顯示設施點邊界框線 / Whether to show facility point bounds rectangles */
+	const [showBounds, setShowBounds] = useState(false); // 預設隱藏
 
 	/** Google Maps 開啟模式 / Google Maps opening mode */
 	const [mapMode, setMapMode] = useState<EnumGoogleMapsMode>(() => getGoogleMapsMode());
@@ -166,7 +169,12 @@ export default function FacilityMap()
 	/** 用於取得 Leaflet map 實例，以在需要時讀取當前 zoom 等級 */
 	const mapRef = useRef<L.Map | null>(null);
 
-	const { facilityPointData } = useFacilityPointBlocksData(initedReady && mapCenter! as any);
+	const {
+		facilityPointData,
+		facilityPointRangeBounds,
+		facilityPointTriggerBounds,
+		facilityPointDetectBounds,
+	} = useFacilityPointBlocksData(mapCenter! as any);
 
 	const [address, setAddress] = useState<string>(''); // 位置地址
 	const [addressLoading, setAddressLoading] = useState<boolean>(false); // 地址查詢載入狀態
@@ -444,38 +452,38 @@ export default function FacilityMap()
 	 */
 	return (
 		<>
-		<Layout>
-<Flex vertical>
-				{/* 位置錯誤提示與手動定位按鈕 */}
-				{locationError && (
-					<Alert
-						message="定位失敗，請允許 GPS 或手動設定位置。"
-						action={
-							<Space>
-								<Button size="small" onClick={() => setManualMode(true)}>手動定位</Button>
-								<Button size="small" icon={<ReloadOutlined />}
-								        onClick={() => floatGeoRef.current?.click()}>重新請求定位</Button>
-							</Space>
-						}
-						type="error"
-					/>
-				)}
-				{/* 座標與地址資訊（保留在上方） */}
+			<Layout>
 				<Flex vertical>
-					<Flex gap="middle" wrap>
-						{address && <Typography.Text>地址: {address}</Typography.Text>}
-						{addressLoading && <Typography.Text type="secondary">（查詢地址中...）</Typography.Text>}
+					{/* 位置錯誤提示與手動定位按鈕 */}
+					{locationError && (
+						<Alert
+							message="定位失敗，請允許 GPS 或手動設定位置。"
+							action={
+								<Space>
+									<Button size="small" onClick={() => setManualMode(true)}>手動定位</Button>
+									<Button size="small" icon={<ReloadOutlined />}
+									        onClick={() => floatGeoRef.current?.click()}>重新請求定位</Button>
+								</Space>
+							}
+							type="error"
+						/>
+					)}
+					{/* 座標與地址資訊（保留在上方） */}
+					<Flex vertical>
+						<Flex gap="middle" wrap>
+							{address && <Typography.Text>地址: {address}</Typography.Text>}
+							{addressLoading && <Typography.Text type="secondary">（查詢地址中...）</Typography.Text>}
+						</Flex>
+						<Flex gap="middle" wrap>
+							{position && (
+								<Typography.Text>
+									座標: {position[0]}, {position[1]}
+								</Typography.Text>
+							)}
+							<Typography.Text>縮放: {zoom}</Typography.Text>
+						</Flex>
 					</Flex>
-					<Flex gap="middle" wrap>
-						{position && (
-							<Typography.Text>
-								座標: {position[0]}, {position[1]}
-							</Typography.Text>
-						)}
-						<Typography.Text>縮放: {zoom}</Typography.Text>
-					</Flex>
-				</Flex>
-				{/* 地址搜尋表單 */}
+					{/* 地址搜尋表單 */}
 
 					<Input
 						placeholder="輸入地址搜尋..."
@@ -502,93 +510,103 @@ export default function FacilityMap()
 					)}
 
 				</Flex>
-		</Layout>
+			</Layout>
 
-				{/* 地圖容器 */}
-				<Splitter vertical>
-					<Splitter.Panel style={{ minHeight: 500 }} min={500}>
-						<div style={{ minHeight: 500, height: '100%', width: '100%' }}>
-							<MapTileLayer
-								center={position}
-								zoom={zoom}
-								style={{ height: '100%', width: '100%', minHeight: 500 }}
-								doubleClickZoom={false}
+			{/* 地圖容器 */}
+			<Splitter vertical>
+				<Splitter.Panel style={{ minHeight: 500 }} min={500}>
+					<div style={{ minHeight: 500, height: '100%', width: '100%' }}>
+						<MapTileLayer
+							center={position}
+							zoom={zoom}
+							style={{ height: '100%', width: '100%', minHeight: 500 }}
+							doubleClickZoom={false}
 
-								mapRef={mapRef}
-								setZoom={setZoom}
+							mapRef={mapRef}
+							setZoom={setZoom}
 
-								onMapCenterChange={setMapCenter}
+							onMapCenterChange={setMapCenter}
 
-								floatGeoProps={{
-									btnRef: floatGeoRef,
-									autoRequestGeolocation: true,
-									onRequestGeolocation(result)
+							floatGeoProps={{
+								btnRef: floatGeoRef,
+								autoRequestGeolocation: true,
+								onRequestGeolocation(result)
+								{
+
+									/** 標記需要自動置中 */
+									setShouldAutoCenter(true);
+									setPosition(wrapPointTupleLatLngFromCoordinate(result.coord));
+
+									const currentZoom = mapRef.current?.getZoom();
+
+									/** 若外部提供保留的 zoom，則使用它；若未提供則保持目前 zoom */
+									if (typeof currentZoom === 'number')
 									{
+										//setZoom(currentZoom);
+									}
 
-										/** 標記需要自動置中 */
-										setShouldAutoCenter(true);
-										setPosition(wrapPointTupleLatLngFromCoordinate(result.coord));
+									setLocationError(false);
+									/** 反向地理編碼取得地址 */
 
-										const currentZoom = mapRef.current?.getZoom();
+									updateAddress(result.coord);
+								},
+								onError(error)
+								{
+									setLocationError(true);
+								},
+							}}
+						>
 
-										/** 若外部提供保留的 zoom，則使用它；若未提供則保持目前 zoom */
-										if (typeof currentZoom === 'number')
-										{
-											//setZoom(currentZoom);
-										}
-
-										setInitedReady(true);
-
+							<CircleMarkerSVG
+								position={position}
+								color={'#c70eeb'}
+								fillOpacity={0.5}
+								eventHandlers={{
+									dragend: (e) =>
+									{
+										const latlng = e.target.getLatLng() as IGeoCoord;
+										/** 拖曳定位點後，不自動置中（打斷瀏覽體驗） */
+										setShouldAutoCenter(false);
+										setPosition(wrapPointTupleLatLngFromCoordinate(latlng));
+										// Preserve current zoom level; do not modify zoom
 										setLocationError(false);
-										/** 反向地理編碼取得地址 */
-
-										updateAddress(result.coord);
-									},
-									onError(error)
-									{
-										setInitedReady(true);
-										setLocationError(true);
+										/** 更新拖曳後的地址 */
+										updateAddress(latlng);
 									},
 								}}
-							>
+							/>
 
-								<CircleMarkerSVG
-									position={position}
-									color={'#c70eeb'}
-									fillOpacity={0.5}
-									eventHandlers={{
-										dragend: (e) =>
-										{
-											const latlng = e.target.getLatLng() as IGeoCoord;
-											/** 拖曳定位點後，不自動置中（打斷瀏覽體驗） */
-											setShouldAutoCenter(false);
-											setPosition(wrapPointTupleLatLngFromCoordinate(latlng));
-											// Preserve current zoom level; do not modify zoom
-											setLocationError(false);
-											/** 更新拖曳後的地址 */
-											updateAddress(latlng);
-										},
-									}}
-								/>
-
-								{/* 手動定位點擊監聽 */}
-								<ManualLocationHandler />
-								{/* 右鍵點擊移動定位點 */}
-								<LongPressHandler />
-								<FacilityPointDataMarkerAll
-									data={{
-										...facilityPointData,
-										[EnumDatasetType.WIFI]: filteredHotspots,
-									}}
-									onOpenMap={handleOpenGoogleMaps}
-								/>
-								{/* 變更視角 - 當位置改變時自動置中 */}
-								<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
-							</MapTileLayer>
-						</div>
-					</Splitter.Panel>
-					<Splitter.Panel>
-						<Flex vertical gap="middle">
+							{/* 手動定位點擊監聽 */}
+							<ManualLocationHandler />
+							{/* 右鍵點擊移動定位點 */}
+							<LongPressHandler />
+							<FacilityPointDataMarkerAll
+								data={{
+									...facilityPointData,
+									[EnumDatasetType.WIFI]: filteredHotspots,
+								}}
+								onOpenMap={handleOpenGoogleMaps}
+							/>
+							{/**
+							 * 設施點範圍邊界框線
+							 * Facility point range bounds rectangles
+							 */}
+							<BoundsRectangles
+								rangeBounds={facilityPointRangeBounds}
+								triggerBounds={facilityPointTriggerBounds}
+								detectBounds={facilityPointDetectBounds}
+								visible={showBounds}
+							/>
+							{/**
+							 * 變更視角 - 當位置改變時自動置中
+							 * Change view - auto center when position changes
+							 */}
+							<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
+						</MapTileLayer>
+					</div>
+				</Splitter.Panel>
+				<Splitter.Panel>
+					<Flex vertical gap="middle">
 						<Card className="search-bar" size="small" hoverable>
 							<Flex vertical gap="middle">
 								<Input
@@ -649,6 +667,14 @@ export default function FacilityMap()
 											}))}
 										/>
 									</Flex>
+									<Flex align="center" gap="small">
+										<Switch
+											checked={showBounds}
+											onChange={(checked) => setShowBounds(checked)}
+											size="small"
+										/>
+										<Typography.Text>顯示邊界框線</Typography.Text>
+									</Flex>
 								</Flex>
 							</Flex>
 						</Card>
@@ -686,11 +712,11 @@ export default function FacilityMap()
 							position={position}
 							mapCenter={mapCenter!}
 						/>
-						</Flex>
-					</Splitter.Panel>
-				</Splitter>
+					</Flex>
+				</Splitter.Panel>
+			</Splitter>
 
-				{/* 搜尋列 / Search bar */}
+			{/* 搜尋列 / Search bar */}
 
 
 		</>

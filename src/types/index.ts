@@ -97,7 +97,7 @@ export interface IApiReturnCharging
  * API 回傳格式
  * API response format
  */
-export interface IApiReturnBlocksBatch extends Pick<IResultRangeAndBlockIdsFromAnyCoordForMap, 'matchedBuckets' | 'matchedRange' | 'triggerRange'>
+export interface IApiReturnBlocksBatch extends Pick<IResultRangeAndBlockIdsFromAnyCoordForMap, 'matchedBuckets' | 'matchedRange' | 'triggerRange' | 'rangeForDetect'>
 {
 	success: boolean;
 	data: {

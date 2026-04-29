@@ -63,6 +63,7 @@ export async function GET(request: Request)
 			matchedBuckets,
 			matchedRange,
 			triggerRange,
+			rangeForDetect,
 			...rest
 		} = getRangeAndBlockIdsFromAnyCoordForMap({ lng, lat } as IGeoCoord);
 
@@ -127,6 +128,7 @@ export async function GET(request: Request)
 			matchedBuckets,
 			matchedRange,
 			triggerRange,
+			rangeForDetect,
 			rest,
 		});
 
@@ -139,6 +141,7 @@ export async function GET(request: Request)
 				matchedBuckets,
 				matchedRange,
 				triggerRange,
+				rangeForDetect,
 			} as IApiReturnError, { status: 404 });
 		}
 
@@ -147,6 +150,7 @@ export async function GET(request: Request)
 			matchedBuckets,
 			matchedRange,
 			triggerRange,
+			rangeForDetect,
 			data: {
 				[EnumDatasetType.WIFI]: wifiData,
 				[EnumDatasetType.CHARGING]: chargingData,

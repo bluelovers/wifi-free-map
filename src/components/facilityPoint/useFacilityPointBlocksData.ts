@@ -32,6 +32,7 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 	const [facilityPointRangeBounds, setFacilityPointRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
 
 	const [facilityPointTriggerBounds, setFacilityPointTriggerBounds] = useState<IGpsLngLatMinMax | null>(null);
+	const [facilityPointDetectBounds, setFacilityPointDetectBounds] = useState<IGpsLngLatMinMax | null>(null);
 
 	const [facilityPointData, setFacilityPointData] = useState<IApiReturnBlocksBatch["data"] | null>(fillFacilityPointData());
 
@@ -63,6 +64,7 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 		facilityPointData: IApiReturnBlocksBatch["data"],
 		facilityPointRangeBounds: IApiReturnBlocksBatch["matchedRange"],
 		facilityPointTriggerBounds: IApiReturnBlocksBatch["triggerRange"],
+		facilityPointDetectBounds: IApiReturnBlocksBatch["rangeForDetect"],
 	}>(fetcher, {
 		onSuccess(data)
 		{
@@ -76,6 +78,7 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 				facilityPointData: fillFacilityPointData(data?.data),
 				facilityPointRangeBounds: data.matchedRange,
 				facilityPointTriggerBounds: data.triggerRange,
+				facilityPointDetectBounds: data.rangeForDetect,
 			} as const;
 		},
 	});
@@ -94,6 +97,11 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 				setFacilityPointTriggerBounds(batchData.facilityPointTriggerBounds);
 			}
 
+			if (batchData.facilityPointDetectBounds)
+			{
+				setFacilityPointDetectBounds(batchData.facilityPointDetectBounds);
+			}
+
 			if (batchData.facilityPointData)
 			{
 				setFacilityPointData(batchData.facilityPointData);
@@ -107,6 +115,7 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 		facilityPointData,
 		facilityPointRangeBounds,
 		facilityPointTriggerBounds,
+		facilityPointDetectBounds,
 		facilityPointRangeError: error,
 		facilityPointRangeLoading: isLoading,
 	} as const;

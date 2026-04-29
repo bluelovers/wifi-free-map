@@ -544,13 +544,18 @@ export interface IResultRangeAndBlockIdsFromAnyCoordForMap
 	 * 觸發範圍的偏移量(向內收縮)
 	 */
 	triggerOffset: number;
+
+	/**
+	 *
+	 */
+	rangeForDetect: IGpsLngLatMinMax;
 }
 
 /**
  * @param anyCoord
  * @returns
  */
-export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGeoCoord)
+export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGeoCoord): IResultRangeAndBlockIdsFromAnyCoordForMap
 {
 	anyCoord = normalizeCoord(anyCoord, GLOBAL_GRID_CONFIG_PRECISION_MAKRER);
 
@@ -611,5 +616,6 @@ export function getRangeAndBlockIdsFromAnyCoordForMap(anyCoord: IGeoCoord)
 		matchedRange,
 		triggerRange,
 		triggerOffset,
-	} as IResultRangeAndBlockIdsFromAnyCoordForMap;
+		rangeForDetect,
+	};
 }
