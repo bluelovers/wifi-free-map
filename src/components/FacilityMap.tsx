@@ -590,6 +590,7 @@ export default function FacilityMap()
 								matchedRangeBounds={facilityPoint.matchedRangeBounds!}
 								triggerThresholdRangeBounds={facilityPoint.triggerThresholdRangeBounds!}
 								blockScanRangeBounds={facilityPoint.blockScanRangeBounds!}
+								mapCenter={mapCenter!}
 								visible={showBounds}
 							/>
 							{/**

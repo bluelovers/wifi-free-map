@@ -1,7 +1,8 @@
 import React from 'react';
-import { Rectangle } from 'react-leaflet';
+import { Rectangle, Polyline } from 'react-leaflet';
 import { ITSPartialPick } from 'ts-type';
 import { IProvideMapLoadingStrategyByAnyCoord } from '@/lib/utils/grid/grid-utils-global';
+import { IGeoCoord } from '@/lib/utils/grid/grid-types';
 
 /**
  * 設施點邊界框線組件
@@ -13,6 +14,8 @@ interface IBoundsRectanglesProps extends ITSPartialPick<IProvideMapLoadingStrate
 {
 	/** 是否顯示邊界框線（預設隱藏）/ Whether to show bounds rectangles (default: hidden) */
 	visible?: boolean;
+
+	mapCenter?: IGeoCoord
 }
 
 /**
@@ -83,6 +86,53 @@ export function BoundsRectangles(props: IBoundsRectanglesProps)
 						fillOpacity: 0,
 					}}
 				/>
+			)}
+
+			{/**
+				* 以 mapCenter 為中心的十字線
+				* Crosshair centered at mapCenter
+				*/}
+			{props.mapCenter && (
+				<>
+					{/**
+						* 水平線（東西向）/ Horizontal line (east-west)
+						*/}
+					<Polyline
+						positions={[
+							[props.mapCenter.lat, props.mapCenter.lng - 0.02],
+							[props.mapCenter.lat, props.mapCenter.lng + 0.02],
+						]}
+						pathOptions={{
+							/** 洋紅色線條 / Magenta line */
+							color: '#ff00ff',
+							/** 線條寬度 / Line width */
+							weight: 2,
+							/** 不透明度 / Opacity */
+							opacity: 0.3,
+							/** 虛線樣式 / Dash pattern */
+							dashArray: '10, 5',
+						}}
+					/>
+					{/**
+						* 垂直線（南北向）/ Vertical line (north-south)
+						*/}
+					<Polyline
+						positions={[
+							[props.mapCenter.lat - 0.02, props.mapCenter.lng],
+							[props.mapCenter.lat + 0.02, props.mapCenter.lng],
+						]}
+						pathOptions={{
+							/** 洋紅色線條 / Magenta line */
+							color: '#ff00ff',
+							/** 線條寬度 / Line width */
+							weight: 2,
+							/** 不透明度 / Opacity */
+							opacity: 0.3,
+							/** 虛線樣式 / Dash pattern */
+							dashArray: '10, 5',
+						}}
+					/>
+				</>
 			)}
 		</>
 	);
