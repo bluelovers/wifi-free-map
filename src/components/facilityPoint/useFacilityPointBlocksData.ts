@@ -9,6 +9,7 @@ import { EnumDatasetType, IGeoCoord, IGeoPointTupleLatLng, IGpsLngLatMinMax } fr
 import useSWR from 'swr';
 import { IApiReturnBlocksBatch, IApiReturnError } from 'src/types/index';
 import { buildFetcher, fetcher } from '../../lib/utils/fetch/fetcher';
+import { getSnappedCoord } from '@/lib/utils/geo/geo-bounds-utils';
 
 function fillFacilityPointData(data?: IApiReturnBlocksBatch["data"])
 {
@@ -50,11 +51,16 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 			coord = position;
 		}
 
-		const bool = !triggerThresholdRangeBounds || !isCoordWithinRange(coord, triggerThresholdRangeBounds);
+		const snappedCenter = getSnappedCoord(coord);
+
+		const bool = !triggerThresholdRangeBounds
+			|| !isCoordWithinRange(coord, triggerThresholdRangeBounds)
+			|| !isCoordWithinRange(snappedCenter, triggerThresholdRangeBounds)
+		;
 
 		if (bool)
 		{
-			swrKey = `/api/blocks-batch?${transformCoordinateToUriQueryLatLng(coord)}`;
+			swrKey = `/api/blocks-batch?${transformCoordinateToUriQueryLatLng(snappedCenter)}`;
 		}
 
 		console.log('useFacilityPointBlocksData', swrKey, position, triggerThresholdRangeBounds, bool);

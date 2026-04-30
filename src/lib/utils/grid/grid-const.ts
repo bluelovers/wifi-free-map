@@ -36,6 +36,11 @@ import { IGeoCoord, IGpsLngLatMinMax } from "./grid-types";
 export const BLOCK_SIZE = 0.02 as const;
 
 /**
+ * 約 500 公尺
+ */
+export const BLOCK_SIZE_SNAPPED = 0.005 as const;
+
+/**
  * 台灣地理邊界
  * Taiwan geographic boundaries
  */

@@ -17,6 +17,28 @@ import {
 } from '@/lib/utils/grid/grid-types';
 import type { IMetadataBucketIndex } from '@/lib/utils/grid/grid-index-builder-v2';
 import { IWiFiHotspot, IChargingStationMarker, IApiReturnBlocksBatch } from '@/types';
+import { createHash } from 'crypto';
+import { CACHE_MAX_AGE } from '@/lib/utils/fetch/fetcher';
+
+
+
+/**
+ * 生成 ETag / Generate ETag
+ */
+function generateETag(data: unknown): string
+{
+	const content = JSON.stringify(data);
+	return `"${createHash('md5').update(content).digest('hex').slice(0, 16)}"`;
+}
+
+/**
+ * 檢查 ETag 是否匹配 / Check if ETag matches
+ */
+function checkIfNoneMatch(request: Request, etag: string): boolean
+{
+	const ifNoneMatch = request.headers.get('if-none-match');
+	return ifNoneMatch === etag;
+}
 
 /**
  * IApiReturnError
@@ -133,11 +155,33 @@ export async function GET(request: Request)
 			} as IApiReturnError, { status: 404 });
 		}
 
-		return NextResponse.json({
+		const responseData: IApiReturnBlocksBatch = {
 			...resultData,
 			success: true,
 			data,
-		} as IApiReturnBlocksBatch);
+		};
+
+		/** 生成 ETag 用於快取驗證 / Generate ETag for cache validation */
+		const etag = generateETag(responseData);
+
+		/** 檢查客戶端快取是否仍然有效 / Check if client cache is still valid */
+		if (checkIfNoneMatch(request, etag))
+		{
+			return new NextResponse(null, {
+				status: 304,
+				headers: {
+					'Cache-Control': `public, max-age=${CACHE_MAX_AGE}, must-revalidate`,
+					ETag: etag,
+				},
+			});
+		}
+
+		return NextResponse.json(responseData, {
+			headers: {
+				'Cache-Control': `public, max-age=${CACHE_MAX_AGE}, must-revalidate`,
+				ETag: etag,
+			},
+		});
 	}
 	catch (error)
 	{
