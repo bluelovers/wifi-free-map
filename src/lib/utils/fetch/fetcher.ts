@@ -5,6 +5,8 @@ import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
  */
 export const CACHE_MAX_AGE = 60 * 60 * 24 * 7;
 
+export const CACHE_MAX_AGE_404 = 60 * 60 * 24 * 1; // 1 day
+
 /**
  * 請求快取選項 / Request cache options
  */
