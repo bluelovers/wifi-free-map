@@ -41,64 +41,60 @@ export function FacilityPointDataMarker<T extends IStationBase>(props: IFacility
 	const positionCoord = props.position && wrapCoordinateFromPointTupleLatLng(props.position);
 
 	return <>
-		<MarkerClusterGroup
-			chunkedLoading
-		>
-			{props.list.map((item, index) => (
-				<Marker
-					key={item.id}
+		{props.list.map((item, index) => (
+			<Marker
+				key={item.id}
+				data-uuid={item.id}
+
+				position={item}
+				icon={props.icon}
+				eventHandlers={{
+					click: () =>
+					{
+						console.log(item.dataType, 'clicked', item);
+					},
+					mouseover: (e: L.LeafletMouseEvent) =>
+					{
+						console.log('Marker mouseover', e);
+
+						e.target.openPopup();
+					},
+					mouseout: (e: L.LeafletMouseEvent) =>
+					{
+						console.log('Marker mouseout', e);
+
+						//e.target.closePopup();
+					},
+				}}
+			>
+				{/** leaflet-popup */}
+				<Popup
 					data-uuid={item.id}
-
-					position={item}
-					icon={props.icon}
-					eventHandlers={{
-						click: () =>
-						{
-							console.log(item.dataType, 'clicked', item);
-						},
-						mouseover: (e: L.LeafletMouseEvent) =>
-						{
-							console.log('Marker mouseover', e);
-
-							e.target.openPopup();
-						},
-						mouseout: (e: L.LeafletMouseEvent) =>
-						{
-							console.log('Marker mouseout', e);
-
-							e.target.closePopup();
-						},
-					}}
+					className={`facility-item-map-popup uuid-${item.id}`}
 				>
-					{/** leaflet-popup */}
-					<Popup
-						data-uuid={item.id}
-						className={`facility-item-map-popup uuid-${item.id}`}
-					>
-						<Flex vertical gap="small">
-							<Flex vertical gap="zero">
-								{props.icon2}
-								<Typography.Text strong>{item.name}</Typography.Text>
-								{item.address && (
-									<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-										{item.address}
-									</Typography.Text>
-								)}
+					<Flex vertical gap="small">
+						<Flex vertical gap="zero">
+							{props.icon2}
+							<Typography.Text strong>{item.name}</Typography.Text>
+							{item.address && (
 								<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
-									{formatToDD(item)}
-									{
-										positionCoord && ` • ${getAndFormatDistance(positionCoord, item)}`
-									}
+									{item.address}
 								</Typography.Text>
-							</Flex>
-							<Flex gap="small">
-								<OpenMapButton item={item} onOpenMap={props.onOpenMap} />
-							</Flex>
+							)}
+							<Typography.Text type="secondary" style={{ fontSize: '12px' }}>
+								{formatToDD(item)}
+								{
+									positionCoord && ` • ${getAndFormatDistance(positionCoord, item)}`
+								}
+							</Typography.Text>
 						</Flex>
-					</Popup>
-				</Marker>
-			))}
-		</MarkerClusterGroup>
+						<Flex gap="small">
+							<OpenMapButton item={item} onOpenMap={props.onOpenMap} />
+						</Flex>
+					</Flex>
+				</Popup>
+			</Marker>
+		))}
 	</>
 }
 
@@ -108,19 +104,26 @@ export function FacilityPointDataMarkerAll({
 }: IFacilityPointDataMarkerAllProps<IStationBase>)
 {
 	return (<>
-		{data[EnumDatasetType.WIFI]?.length ? <FacilityPointDataMarker
-			{...props}
-			list={data[EnumDatasetType.WIFI]}
-			dataType={EnumDatasetType.WIFI}
-			icon={wifiIcon}
-			icon2={<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />}
-		/> : null}
-		{data[EnumDatasetType.CHARGING]?.length ? <FacilityPointDataMarker
-			{...props}
-			list={data[EnumDatasetType.CHARGING]}
-			dataType={EnumDatasetType.CHARGING}
-			icon={chargingIcon}
-			icon2={<ThunderboltOutlined style={{ fontSize: '20px', color: '#fa8c16' }} />}
-		/> : null}
+		<MarkerClusterGroup
+			chunkedLoading
+			showCoverageOnHover
+			zoomToBoundsOnClick={true}
+			spiderfyOnMaxZoom
+		>
+			{data[EnumDatasetType.WIFI]?.length ? <FacilityPointDataMarker
+				{...props}
+				list={data[EnumDatasetType.WIFI]}
+				dataType={EnumDatasetType.WIFI}
+				icon={wifiIcon}
+				icon2={<WifiOutlined style={{ fontSize: '20px', color: '#1890ff' }} />}
+			/> : null}
+			{data[EnumDatasetType.CHARGING]?.length ? <FacilityPointDataMarker
+				{...props}
+				list={data[EnumDatasetType.CHARGING]}
+				dataType={EnumDatasetType.CHARGING}
+				icon={chargingIcon}
+				icon2={<ThunderboltOutlined style={{ fontSize: '20px', color: '#fa8c16' }} />}
+			/> : null}
+		</MarkerClusterGroup>
 	</>)
 }

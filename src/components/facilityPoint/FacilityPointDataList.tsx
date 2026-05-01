@@ -7,7 +7,7 @@ import { IChargingStation } from '@/types/station-charging';
 import { IHotspot } from '@/types/station-wifi';
 import { WifiOutlined, GlobalOutlined, CompassOutlined, ThunderboltOutlined } from '@ant-design/icons';
 import { Button, Card, Flex, Typography } from 'antd';
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { IOpenMapButtonSharedProps, OpenMapButton } from '../map/map-btn/OpenMapButton';
 import { _createProximityComparator } from '@/lib/utils/geo/geo-sort.';
 import { calculateDistance } from '@/lib/utils/geo/geo-math';
@@ -71,14 +71,24 @@ export function FacilityPointDataList<T extends IStationBase>(props: IFacilityPo
 
 	const positionCoord = props.position && wrapCoordinateFromPointTupleLatLng(props.position);
 
-	const _sort = useCallback((list: T[]) =>
+	const list = useMemo(() =>
 	{
 		if (props.mapCenter)
 		{
-			return list.sort(_createProximityComparator(props.mapCenter, calculateDistance));
+			let list = props.list.sort(_createProximityComparator(props.mapCenter, calculateDistance));
+
+			console.log('[filteredFacilityPointDataList] facility point:', list.length,
+				'\nmapCenter:', props.mapCenter,
+				'\nposition:', props.position && wrapCoordinateFromPointTupleLatLng(props.position),
+				'\nfiltered.length:', list.length,
+				'\nfiltered(0, 5):', list.slice(0, 5),
+				'\nfiltered(-5):', list.slice(-5),
+			);
+
+			return list;
 		}
-		return list
-	}, [props.mapCenter])
+		return props.list
+	}, [props.list, props.mapCenter])
 
 	return (<Card
 		className="bottom-panel"
@@ -112,7 +122,7 @@ export function FacilityPointDataList<T extends IStationBase>(props: IFacilityPo
 			justify={'space-around'}
 			align="flex-start"
 		>
-			{_sort(props.list.slice(0, visibleCount)).map((item, index) => (
+			{list.slice(0, visibleCount).map((item, index) => (
 				<Card
 					key={item.id}
 					data-uuid={item.id}

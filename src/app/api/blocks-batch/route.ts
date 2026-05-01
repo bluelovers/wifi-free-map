@@ -18,7 +18,9 @@ import {
 import type { IMetadataBucketIndex } from '@/lib/utils/grid/grid-index-builder-v2';
 import { IWiFiHotspot, IChargingStationMarker, IApiReturnBlocksBatch } from '@/types';
 import { createHash } from 'crypto';
-import { CACHE_MAX_AGE } from '@/lib/utils/fetch/fetcher';
+import { CACHE_MAX_AGE, CACHE_MAX_AGE_404 } from '@/lib/utils/fetch/fetcher';
+import { _createProximityComparator } from '@/lib/utils/geo/geo-sort.';
+import { calculateDistance } from '@/lib/utils/geo/geo-math';
 
 
 
@@ -147,13 +149,31 @@ export async function GET(request: Request)
 		/** 檢查是否有資料 */
 		if (data[EnumDatasetType.WIFI].length === 0 && data[EnumDatasetType.CHARGING].length === 0)
 		{
-			return NextResponse.json({
+			const responseData = {
 				...resultData,
 				success: false,
 				error: 'No data found',
 				data,
-			} as IApiReturnError, { status: 404 });
+			} as IApiReturnError;
+
+			/** 生成 ETag 用於快取驗證 / Generate ETag for cache validation */
+			const etag = generateETag(responseData);
+
+			const headers = {
+				'Cache-Control': `public, max-age=${CACHE_MAX_AGE_404}, must-revalidate`,
+				ETag: etag,
+			} satisfies ResponseInit["headers"];
+
+			return NextResponse.json(responseData, {
+				status: 404,
+				headers,
+			});
 		}
+
+		const comparator = _createProximityComparator(resultData.center, calculateDistance);
+
+		data[EnumDatasetType.WIFI] = data[EnumDatasetType.WIFI].sort(comparator);
+		data[EnumDatasetType.CHARGING] = data[EnumDatasetType.CHARGING].sort(comparator);
 
 		const responseData: IApiReturnBlocksBatch = {
 			...resultData,
@@ -164,23 +184,22 @@ export async function GET(request: Request)
 		/** 生成 ETag 用於快取驗證 / Generate ETag for cache validation */
 		const etag = generateETag(responseData);
 
+		const headers = {
+			'Cache-Control': `public, max-age=${CACHE_MAX_AGE}, must-revalidate`,
+			ETag: etag,
+		} satisfies ResponseInit["headers"];
+
 		/** 檢查客戶端快取是否仍然有效 / Check if client cache is still valid */
 		if (checkIfNoneMatch(request, etag))
 		{
 			return new NextResponse(null, {
 				status: 304,
-				headers: {
-					'Cache-Control': `public, max-age=${CACHE_MAX_AGE}, must-revalidate`,
-					ETag: etag,
-				},
+				headers,
 			});
 		}
 
 		return NextResponse.json(responseData, {
-			headers: {
-				'Cache-Control': `public, max-age=${CACHE_MAX_AGE}, must-revalidate`,
-				ETag: etag,
-			},
+			headers,
 		});
 	}
 	catch (error)
