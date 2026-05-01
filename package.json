@@ -86,7 +86,7 @@
     "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
   "dependencies": {
-    "@ant-design/icons": "^6.1.1",
+    "@ant-design/icons": "^6.2.2",
     "@ant-design/nextjs-registry": "^1.3.0",
     "@jest/globals": "^30.3.0",
     "@react-leaflet/core": "^3.0.0",
@@ -94,17 +94,16 @@
     "@types/jest": "^30.0.0",
     "@types/leaflet": "^1.9.21",
     "@types/qrcode": "^1.5.6",
-    "antd": "^6.3.5",
+    "antd": "^6.3.7",
     "fs-extra": "^11.3.4",
     "idb": "^8.0.3",
     "jest": "^30.3.0",
     "leaflet": "^1.9.4",
-    "leaflet-path-drag": "^1.9.5",
     "leaflet-routing-machine": "^3.2.12",
-    "next": "^16.2.2",
+    "next": "^16.2.4",
     "qrcode": "^1.5.4",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "react-leaflet": "^5.0.0",
     "react-leaflet-cluster": "^4.1.3",
     "swr": "^2.4.1",
@@ -118,14 +117,14 @@
   },
   "devDependencies": {
     "@bluelovers/jest-config": "^1.1.11",
-    "@next/bundle-analyzer": "^16.2.2",
-    "@types/node": "^25.5.2",
+    "@next/bundle-analyzer": "^16.2.4",
+    "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@yarn-tool/require-resolve": "^4.0.6",
-    "@yarn-tool/ws-find-up-paths": "^1.0.19",
+    "@yarn-tool/require-resolve": "^4.0.8",
+    "@yarn-tool/ws-find-up-paths": "^1.0.21",
     "sass": "^1.99.0",
     "sort-object-keys2": "^3.0.8",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.3"
   }
 }
