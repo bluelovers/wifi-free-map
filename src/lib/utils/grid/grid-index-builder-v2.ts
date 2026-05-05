@@ -49,7 +49,7 @@ export interface IMetadataBucketIndex
 	locations: string[];
 
 	/** 類別集合 / Category locations */
-	categorys: string[];
+	categories: string[];
 
 	/** 核心資料：以 blockId 為 Key / Core data: keyed by blockId */
 	data: Record<IFormatBlockKey<'_'>, IMetadataUnifiedBlockIndex>;
@@ -73,7 +73,7 @@ export interface IMetadataUnifiedBlockIndex
 	locations: string[];
 
 	/** 該 Block 涵蓋的類別 / Categories covered by this block */
-	categorys: string[];
+	categories: string[];
 
 	/** 該 Block 擁有的不同類型資料集 / Data sets owned by this block */
 	dataset: Record<EnumDatasetType, IDatasetEntry>;
@@ -116,7 +116,7 @@ export async function buildHierarchicalIndex(dataRoot: string)
 	const bucketMap = new Map<string, {
 		locations: Set<string>,
 		types: Set<EnumDatasetType>,
-		categorys: Set<string>,
+		categories: Set<string>,
 		blocks: Map<IFormatBlockKey<'_'>, IMetadataUnifiedBlockIndex>
 	}>();
 
@@ -173,7 +173,7 @@ export async function buildHierarchicalIndex(dataRoot: string)
 					bucketMap.set(bucketKey, {
 						locations: new Set(),
 						types: new Set(),
-						categorys: new Set(),
+						categories: new Set(),
 						blocks: new Map(),
 					});
 				}
@@ -201,7 +201,7 @@ export async function buildHierarchicalIndex(dataRoot: string)
 						/** 取得或建立區塊資料 / Get or create block data */
 						const blockData: IMetadataUnifiedBlockIndex = bucketData.blocks.get(blockId) ?? {
 							locations: [],
-							categorys: [],
+							categories: [],
 							dataset: {} as any,
 						};
 
@@ -261,15 +261,15 @@ export async function buildHierarchicalIndex(dataRoot: string)
 
 							if (entry.category)
 							{
-								blockData.categorys.push(entry.category);
-								bucketData.categorys.add(entry.category);
+								blockData.categories.push(entry.category);
+								bucketData.categories.add(entry.category);
 							}
 						}
 
 						/** 去重並設定位置資訊 / Deduplicate and set location info */
 						blockData.locations = Array.from(new Set(blockData.locations));
 
-						blockData.categorys = Array.from(new Set(blockData.categorys));
+						blockData.categories = Array.from(new Set(blockData.categories));
 
 						/** 設定區塊資料 / Set block data */
 						bucketData.blocks.set(blockId, blockData);
@@ -330,7 +330,7 @@ export async function buildHierarchicalIndex(dataRoot: string)
 			/** 排序後的行政區列表 / Sorted location list */
 			locations: Array.from(info.locations).sort(),
 			/** 排序後的類別列表 / Sorted category list */
-			categorys: Array.from(info.categorys).sort(),
+			categories: Array.from(info.categories).sort(),
 			/** 排序後的有效區塊列表 / Sorted active block list */
 			activeBlocks: Array.from(info.blocks.keys()).sort() as any[],
 			/** 區塊詳細資料 / Block details */

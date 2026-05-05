@@ -86,6 +86,9 @@ export async function GET(request: Request)
 		[EnumDatasetType.CHARGING]: [],
 	}
 
+	/** 收集此區域內所有不重複的分類 / Collect all unique categories in this area */
+	const categorySet: IMetadataBucketIndex['categories'][] = [];
+
 	try
 	{
 		/** 計算區塊與區塊組資訊 */
@@ -109,6 +112,12 @@ export async function GET(request: Request)
 			}
 
 			if (!bucketIndex?.data) continue;
+
+			/** 收集此 bucket 的分類 / Collect categories from this bucket */
+			if (bucketIndex.categories)
+			{
+				categorySet.push(bucketIndex.categories);
+			}
 
 			/** 遍歷每個 blockId */
 			for (const blockId of blockIds)
@@ -175,10 +184,14 @@ export async function GET(request: Request)
 		data[EnumDatasetType.WIFI] = data[EnumDatasetType.WIFI].sort(comparator);
 		data[EnumDatasetType.CHARGING] = data[EnumDatasetType.CHARGING].sort(comparator);
 
+		/** 將分類清單轉為陣列 / Convert category set to array */
+		const categories = Array.from(new Set(categorySet.flat())).sort();
+
 		const responseData: IApiReturnBlocksBatch = {
 			...resultData,
 			success: true,
 			data,
+			categories,
 		};
 
 		/** 生成 ETag 用於快取驗證 / Generate ETag for cache validation */

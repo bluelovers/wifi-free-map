@@ -2,12 +2,11 @@ import { useMemo, useState } from 'react';
 import { isCoordWithinRange } from '../../lib/utils/geo/geo-check';
 import {
 	transformCoordinateToUriQueryLatLng,
-	transformPointTupleLatLngToUriQueryLatLng,
 	wrapCoordinateFromPointTupleLatLng,
 } from '../../lib/utils/geo/geo-transform';
 import { EnumDatasetType, IGeoCoord, IGeoPointTupleLatLng, IGpsLngLatMinMax } from '../../lib/utils/grid/grid-types';
 import useSWR from 'swr';
-import { IApiReturnBlocksBatch, IApiReturnError } from 'src/types/index';
+import { IApiReturnBlocksBatch } from 'src/types/index';
 import { buildFetcher, fetcher } from '../../lib/utils/fetch/fetcher';
 import { getSnappedCoord } from '@/lib/utils/geo/geo-bounds-utils';
 
@@ -27,7 +26,7 @@ function fillFacilityPointData(data?: IApiReturnBlocksBatch["data"])
 	return facilityPointData;
 }
 
-export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeoCoord)
+export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeoCoord, ignoreCacheCheck?: boolean)
 {
 	/** 當前資料的範圍邊界 / Current data range bounds */
 	const [matchedRangeBounds, setMatchedRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
@@ -36,6 +35,9 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 	const [blockScanRangeBounds, setBlockScanRangeBounds] = useState<IGpsLngLatMinMax | null>(null);
 
 	const [data, setData] = useState<IApiReturnBlocksBatch["data"] | null>(fillFacilityPointData());
+
+	/** 此區域內的所有分類清單 / All categories in this area */
+	const [categories, setCategories] = useState<string[]>([]);
 
 	let swrKey = null;
 	if (position)
@@ -53,7 +55,7 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 
 		const snappedCenter = getSnappedCoord(coord);
 
-		const bool = !triggerThresholdRangeBounds
+		const bool = ignoreCacheCheck || !triggerThresholdRangeBounds
 			|| !isCoordWithinRange(coord, triggerThresholdRangeBounds)
 			|| !isCoordWithinRange(snappedCenter, triggerThresholdRangeBounds)
 		;
@@ -102,6 +104,12 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 			{
 				setData(batchData.data);
 			}
+
+			/** 擷取此區域內的所有分類清單 / Extract categories from API response */
+			if (batchData.categories)
+			{
+				setCategories((batchData as any).categories);
+			}
 		},
 	});
 
@@ -112,5 +120,6 @@ export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeo
 		blockScanRangeBounds,
 		error,
 		isLoading,
+		categories,
 	} as const;
 }
