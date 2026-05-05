@@ -6,6 +6,9 @@
       "dom.iterable",
       "esnext"
     ],
+    "types": [
+      "ts-global-type-extra"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -31,6 +34,7 @@
   },
   "include": [
     "next-env.d.ts",
+    "global.tsdx.d.ts",
     "**/*.ts",
     "**/*.mts",
     "**/*.cts",

@@ -1,11 +1,16 @@
-declare var __DEV__: boolean
-declare var __TSDX_FORMAT__: 'esm' | 'cjs' | 'umd';
+import 'ts-global-type-extra';
 
-declare namespace NodeJS
+declare global
 {
-	interface ProcessEnv
+	declare var __DEV__: boolean
+	declare var __TSDX_FORMAT__: 'esm' | 'cjs' | 'umd';
+
+	declare namespace NodeJS
 	{
-		TSDX_FORMAT?: typeof __TSDX_FORMAT__
-		NODE_ENV?: string | 'test' | 'development' | 'production'
+		interface ProcessEnv
+		{
+			TSDX_FORMAT?: typeof __TSDX_FORMAT__
+			NODE_ENV?: string | 'test' | 'development' | 'production'
+		}
 	}
 }
