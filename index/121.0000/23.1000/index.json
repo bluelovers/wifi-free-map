@@ -22,7 +22,7 @@
     "983花蓮縣富里鄉車站街",
     "983花蓮縣富里鄉鄰中山路"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "大眾運輸節點",
     "文教館所",
@@ -64,7 +64,7 @@
       "locations": [
         "957臺東縣海端鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -77,7 +77,7 @@
       "locations": [
         "957臺東縣海端鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -90,7 +90,7 @@
       "locations": [
         "957臺東縣海端鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -105,7 +105,7 @@
         "957臺東縣海端鄉海端村山界路",
         "956臺東縣關山鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "大眾運輸節點"
       ],
@@ -122,7 +122,7 @@
       "locations": [
         "958臺東縣池上鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -136,7 +136,7 @@
         "958臺東縣池上鄉",
         "958臺東縣池上鄉鄰埔中一街"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -153,7 +153,7 @@
         "958臺東縣池上鄉鐵花路",
         "958臺東縣池上鄉福文村中西三路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他",
         "大眾運輸節點"
@@ -171,7 +171,7 @@
       "locations": [
         "957臺東縣海端鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -184,7 +184,7 @@
       "locations": [
         "958臺東縣池上鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -199,7 +199,7 @@
         "983花蓮縣富里鄉學田村復興路",
         "983花蓮縣富里鄉學田村光明路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "文教館所"
       ],
@@ -214,7 +214,7 @@
         "983花蓮縣富里鄉",
         "983花蓮縣富里鄉中山路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -233,7 +233,7 @@
         "983花蓮縣富里鄉鄰中山路",
         "983花蓮縣富里鄉車站街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "文教館所",
         "旅遊景點",
@@ -253,7 +253,7 @@
       "locations": [
         "983花蓮縣富里鄉"
       ],
-      "categorys": [
+      "categories": [
         "文教館所"
       ],
       "dataset": {
@@ -266,7 +266,7 @@
       "locations": [
         "982花蓮縣卓溪鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -279,7 +279,7 @@
       "locations": [
         "982花蓮縣卓溪鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -292,7 +292,7 @@
       "locations": [
         "983花蓮縣富里鄉"
       ],
-      "categorys": [
+      "categories": [
         "文教館所"
       ],
       "dataset": {
@@ -305,7 +305,7 @@
       "locations": [
         "983花蓮縣富里鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -319,7 +319,7 @@
         "983花蓮縣富里鄉",
         "982花蓮縣卓溪鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "旅遊景點",
         "文教館所",
@@ -336,7 +336,7 @@
         "982花蓮縣卓溪鄉",
         "983花蓮縣富里鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "旅遊景點",
         "文教館所",
@@ -352,7 +352,7 @@
       "locations": [
         "982花蓮縣卓溪鄉"
       ],
-      "categorys": [
+      "categories": [
         "文教館所",
         "其他"
       ],
@@ -366,7 +366,7 @@
       "locations": [
         "982花蓮縣卓溪鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "文教館所"
       ],
@@ -380,7 +380,7 @@
       "locations": [
         "982花蓮縣卓溪鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他",
         "文教館所"
@@ -395,7 +395,7 @@
       "locations": [
         "983花蓮縣富里鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -408,7 +408,7 @@
       "locations": [
         "983花蓮縣富里鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -421,7 +421,7 @@
       "locations": [
         "983花蓮縣富里鄉萬寧村鎮"
       ],
-      "categorys": [
+      "categories": [
         "文教館所"
       ],
       "dataset": {
@@ -434,7 +434,7 @@
       "locations": [
         "981花蓮縣玉里鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -447,7 +447,7 @@
       "locations": [
         "981花蓮縣玉里鎮"
       ],
-      "categorys": [
+      "categories": [
         "文教館所"
       ],
       "dataset": {
@@ -460,7 +460,7 @@
       "locations": [
         "983花蓮縣富里鄉萬寧村鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {

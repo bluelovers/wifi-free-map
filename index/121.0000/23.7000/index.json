@@ -4,7 +4,7 @@
     "546南投縣仁愛鄉親愛村大安路",
     "546南投縣仁愛鄉親愛村高平路"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "旅遊景點",
     "洽公場所"
@@ -22,7 +22,7 @@
       "locations": [
         "546南投縣仁愛鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -35,7 +35,7 @@
       "locations": [
         "546南投縣仁愛鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -48,7 +48,7 @@
       "locations": [
         "546南投縣仁愛鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -62,7 +62,7 @@
         "546南投縣仁愛鄉",
         "546南投縣仁愛鄉親愛村高平路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -76,7 +76,7 @@
         "546南投縣仁愛鄉",
         "546南投縣仁愛鄉親愛村大安路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -93,7 +93,7 @@
         "546南投縣仁愛鄉",
         "546南投縣仁愛鄉親愛村大安路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {

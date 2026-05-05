@@ -2,7 +2,7 @@
   "locations": [
     "884澎湖縣白沙鄉"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "旅遊景點"
   ],
@@ -16,7 +16,7 @@
       "locations": [
         "884澎湖縣白沙鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -32,7 +32,7 @@
       "locations": [
         "884澎湖縣白沙鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -45,7 +45,7 @@
       "locations": [
         "884澎湖縣白沙鄉"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/119.5000/23.7000/119.6000_23.8000.json"

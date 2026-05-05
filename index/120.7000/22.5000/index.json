@@ -6,7 +6,7 @@
     "963臺東縣太麻里鄉",
     "964臺東縣金峰鄉"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "大眾運輸節點",
     "洽公場所"
@@ -27,7 +27,7 @@
       "locations": [
         "902屏東縣霧臺鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -40,7 +40,7 @@
       "locations": [
         "902屏東縣霧臺鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -56,7 +56,7 @@
       "locations": [
         "902屏東縣霧臺鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -69,7 +69,7 @@
       "locations": [
         "902屏東縣霧臺鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -82,7 +82,7 @@
       "locations": [
         "964臺東縣金峰鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -95,7 +95,7 @@
       "locations": [
         "963臺東縣太麻里鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -109,7 +109,7 @@
         "954臺東縣卑南鄉",
         "954臺東縣卑南鄉鄰利嘉路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -122,7 +122,7 @@
       "locations": [
         "963臺東縣太麻里鄉"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點",
         "其他",
         "洽公場所"
@@ -140,7 +140,7 @@
       "locations": [
         "963臺東縣太麻里鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {

@@ -7,7 +7,7 @@
     "848高雄市桃源區愛玉路",
     "849高雄市那瑪夏區"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "旅遊景點",
     "洽公場所"
@@ -30,7 +30,7 @@
         "847高雄市甲仙區",
         "848高雄市桃源區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -43,7 +43,7 @@
       "locations": [
         "849高雄市那瑪夏區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -57,7 +57,7 @@
         "848高雄市桃源區",
         "849高雄市那瑪夏區"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -74,7 +74,7 @@
       "locations": [
         "848高雄市桃源區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -90,7 +90,7 @@
       "locations": [
         "848高雄市桃源區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -104,7 +104,7 @@
         "848高雄市桃源區",
         "848高雄市桃源區南橫公路三段"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -117,7 +117,7 @@
       "locations": [
         "848高雄市桃源區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -131,7 +131,7 @@
         "848高雄市桃源區",
         "848高雄市桃源區愛玉路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -145,7 +145,7 @@
         "848高雄市桃源區",
         "848高雄市桃源區南橫公路五段"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -158,7 +158,7 @@
       "locations": [
         "848高雄市桃源區"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],

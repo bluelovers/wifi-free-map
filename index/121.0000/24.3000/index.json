@@ -10,7 +10,7 @@
     "424臺中市和平區中興路三段",
     "424臺中市和平區平等里中興路三段"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "大眾運輸節點",
     "文教館所",
@@ -31,7 +31,7 @@
       "locations": [
         "365苗栗縣泰安鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -44,7 +44,7 @@
       "locations": [
         "353苗栗縣南庄鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -58,7 +58,7 @@
         "303新竹縣湖口鄉",
         "303新竹縣湖口鄉東興村北湖路"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點"
       ],
       "dataset": {
@@ -71,7 +71,7 @@
       "locations": [
         "353苗栗縣南庄鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "旅遊景點"
       ],
@@ -85,7 +85,7 @@
       "locations": [
         "353苗栗縣南庄鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -99,7 +99,7 @@
         "312新竹縣五峰鄉",
         "311新竹縣五峰鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -112,7 +112,7 @@
       "locations": [
         "311新竹縣五峰鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -127,7 +127,7 @@
         "424臺中市和平區中興路三段",
         "424臺中市和平區平等里中興路三段"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "文教館所"
       ],

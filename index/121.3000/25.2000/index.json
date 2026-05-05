@@ -19,7 +19,7 @@
     "253新北市石門區鄰中山路",
     "253新北市石門區鄰石門街"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "旅遊景點",
     "洽公場所"
@@ -49,7 +49,7 @@
         "251新北市淡水區",
         "251新北市淡水區賢孝里淡金路四段"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -63,7 +63,7 @@
         "247新北市蘆洲區",
         "247新北市蘆洲區鄰民生街"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -77,7 +77,7 @@
         "251新北市淡水區",
         "251新北市淡水區忠山里奎柔山路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -90,7 +90,7 @@
       "locations": [
         "252新北市三芝區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -103,7 +103,7 @@
       "locations": [
         "251新北市淡水區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -117,7 +117,7 @@
         "252新北市三芝區",
         "251新北市淡水區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -136,7 +136,7 @@
         "252新北市三芝區鄰中山路一段",
         "252新北市三芝區淡金路二段"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -153,7 +153,7 @@
       "locations": [
         "253新北市石門區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -166,7 +166,7 @@
       "locations": [
         "252新北市三芝區"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -182,7 +182,7 @@
       "locations": [
         "253新北市石門區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -195,7 +195,7 @@
       "locations": [
         "252新北市三芝區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -210,7 +210,7 @@
         "253新北市石門區老梅路",
         "253新北市石門區老梅里老梅路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -227,7 +227,7 @@
       "locations": [
         "253新北市石門區"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -247,7 +247,7 @@
         "253新北市石門區鄰中山路",
         "253新北市石門區中山路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -264,7 +264,7 @@
       "locations": [
         "208新北市金山區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -278,7 +278,7 @@
         "251新北市淡水區",
         "251新北市淡水區淡金路三段"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/121.3000/25.2000/121.4400_25.2000.json"
@@ -289,7 +289,7 @@
       "locations": [
         "252新北市三芝區"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/121.3000/25.2000/121.4600_25.2400.json"

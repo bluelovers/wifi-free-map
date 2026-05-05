@@ -4,7 +4,7 @@
     "849高雄市那瑪夏區",
     "851高雄市茂林區"
   ],
-  "categorys": [
+  "categories": [
     "其他"
   ],
   "activeBlocks": [
@@ -17,7 +17,7 @@
         "851高雄市茂林區",
         "849高雄市那瑪夏區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -30,7 +30,7 @@
       "locations": [
         "848高雄市桃源區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {

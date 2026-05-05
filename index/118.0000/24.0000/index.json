@@ -3,7 +3,7 @@
     "893金門縣",
     "893金門縣金山路"
   ],
-  "categorys": [],
+  "categories": [],
   "activeBlocks": [
     "118.1800_24.2400"
   ],
@@ -13,7 +13,7 @@
         "893金門縣",
         "893金門縣金山路"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/118.0000/24.0000/118.1800_24.2400.json"

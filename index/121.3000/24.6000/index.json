@@ -33,7 +33,7 @@
     "336桃園市復興區華陵村神木路",
     "336桃園市復興區鄰中正路"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "旅遊景點",
     "洽公場所"
@@ -74,7 +74,7 @@
       "locations": [
         "313新竹縣尖石鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -87,7 +87,7 @@
       "locations": [
         "336桃園市復興區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -100,7 +100,7 @@
       "locations": [
         "335桃園市大溪區"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -113,7 +113,7 @@
       "locations": [
         "313新竹縣尖石鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -126,7 +126,7 @@
       "locations": [
         "336桃園市復興區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -139,7 +139,7 @@
       "locations": [
         "336桃園市復興區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -153,7 +153,7 @@
         "237新北市三峽區",
         "237新北市三峽區二鬮里大埔里中正路二段"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -166,7 +166,7 @@
       "locations": [
         "313新竹縣尖石鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -179,7 +179,7 @@
       "locations": [
         "336桃園市復興區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -192,7 +192,7 @@
       "locations": [
         "336桃園市復興區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -213,7 +213,7 @@
         "335桃園市復興區",
         "335桃園市復興區澤仁村中正路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所",
         "旅遊景點"
@@ -232,7 +232,7 @@
         "336桃園市復興區",
         "336桃園市復興區鄰中正路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -249,7 +249,7 @@
       "locations": [
         "336桃園市復興區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -262,7 +262,7 @@
       "locations": [
         "336桃園市復興區"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],
@@ -279,7 +279,7 @@
       "locations": [
         "336桃園市復興區"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -292,7 +292,7 @@
       "locations": [
         "336桃園市復興區"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -305,7 +305,7 @@
       "locations": [
         "336桃園市復興區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -319,7 +319,7 @@
         "336桃園市復興區",
         "336桃園市復興區華陵村神木路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -334,7 +334,7 @@
         "236新北市土城區明德里學士路",
         "237新北市三峽區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -350,7 +350,7 @@
       "locations": [
         "336桃園市復興區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -363,7 +363,7 @@
       "locations": [
         "267宜蘭縣大同鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -382,7 +382,7 @@
         "231新北市烏來區",
         "231新北市烏來區信福路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],
@@ -400,7 +400,7 @@
         "233新北市烏來區",
         "233新北市烏來區烏來村溫泉街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -419,7 +419,7 @@
         "233新北市烏來區烏來里烏來街",
         "232新北市坪林區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -434,7 +434,7 @@
         "231新北市新店區",
         "231新北市新店區鄰新坡一街"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -447,7 +447,7 @@
       "locations": [
         "267宜蘭縣大同鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -462,7 +462,7 @@
         "260宜蘭縣宜蘭市",
         "260宜蘭縣宜蘭市思源里泰山路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -475,7 +475,7 @@
       "locations": [
         "237新北市三峽區"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/121.3000/24.6000/121.3400_24.8400.json"
@@ -487,7 +487,7 @@
         "233新北市烏來區",
         "233新北市烏來區烏來街"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/121.3000/24.6000/121.5000_24.8600.json"

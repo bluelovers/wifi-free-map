@@ -7,7 +7,7 @@
     "894金門縣烈嶼鄉九井路",
     "894金門縣烈嶼鄉西路"
   ],
-  "categorys": [
+  "categories": [
     "公立醫院",
     "其他",
     "文教館所",
@@ -28,7 +28,7 @@
       "locations": [
         "894金門縣烈嶼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -41,7 +41,7 @@
       "locations": [
         "894金門縣烈嶼鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],
@@ -56,7 +56,7 @@
         "894金門縣烈嶼鄉",
         "894金門縣烈嶼鄉西路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "文教館所",
         "洽公場所",
@@ -76,7 +76,7 @@
       "locations": [
         "894金門縣烈嶼鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -90,7 +90,7 @@
         "894金門縣烈嶼鄉",
         "894金門縣烈嶼鄉九井路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -104,7 +104,7 @@
         "893金門縣金城鎮",
         "893金門縣金城鎮西海路一段"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -118,7 +118,7 @@
       "locations": [
         "892金門縣金寧鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {

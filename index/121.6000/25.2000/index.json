@@ -18,7 +18,7 @@
     "208新北市金山區金美里中山路",
     "253新北市石門區"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "旅遊景點",
     "洽公場所"
@@ -40,7 +40,7 @@
       "locations": [
         "208新北市金山區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -55,7 +55,7 @@
         "208新北市金山區",
         "208新北市金山區中山路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -76,7 +76,7 @@
         "208新北市金山區美田里中山路",
         "208新北市金山區三界里三界壇路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -91,7 +91,7 @@
         "204基隆市安樂區",
         "204基隆市安樂區永康里崇德路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -109,7 +109,7 @@
         "208新北市金山區磺港路",
         "208新北市金山區民生路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "旅遊景點"
       ],
@@ -126,7 +126,7 @@
       "locations": [
         "207新北市萬里區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -144,7 +144,7 @@
         "207新北市萬里區港東路",
         "207新北市萬里區港西路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -160,7 +160,7 @@
       "locations": [
         "208新北市金山區"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/121.6000/25.2000/121.6000_25.2000.json"
@@ -171,7 +171,7 @@
       "locations": [
         "253新北市石門區"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/121.6000/25.2000/121.6000_25.2600.json"
@@ -182,7 +182,7 @@
       "locations": [
         "208新北市金山區"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/121.6000/25.2000/121.6200_25.2600.json"

@@ -38,7 +38,7 @@
     "848高雄市桃源區",
     "849高雄市那瑪夏區"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "文教館所",
     "旅遊景點",
@@ -97,7 +97,7 @@
       "locations": [
         "742臺南市大內區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -111,7 +111,7 @@
         "733臺南市東山區",
         "733臺南市東山區東山里中興路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -127,7 +127,7 @@
         "733臺南市東山區龍鳳一街",
         "733臺南市東山區鄰福安街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "文教館所",
         "其他"
@@ -149,7 +149,7 @@
         "732臺南市白河區三民路",
         "732臺南市白河區國泰路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -167,7 +167,7 @@
         "731臺南市後壁區",
         "732臺南市白河區"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -182,7 +182,7 @@
         "732臺南市白河區",
         "732臺南市白河區永安里新興路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -195,7 +195,7 @@
       "locations": [
         "732臺南市白河區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -210,7 +210,7 @@
         "732臺南市白河區外角里庄內路",
         "732臺南市白河區白河里康樂路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -227,7 +227,7 @@
       "locations": [
         "732臺南市白河區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -240,7 +240,7 @@
       "locations": [
         "732臺南市白河區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -256,7 +256,7 @@
       "locations": [
         "714臺南市玉井區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -272,7 +272,7 @@
         "714臺南市玉井區玉田里中正路",
         "714臺南市玉井區玉井里中正路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -290,7 +290,7 @@
         "714臺南市玉井區",
         "732臺南市白河區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -303,7 +303,7 @@
       "locations": [
         "733臺南市東山區"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -321,7 +321,7 @@
         "732臺南市白河區",
         "737臺南市鹽水區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -334,7 +334,7 @@
       "locations": [
         "732臺南市白河區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -348,7 +348,7 @@
         "732臺南市白河區",
         "732臺南市白河區庄內里裕農路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -365,7 +365,7 @@
         "714臺南市玉井區中正里健康街",
         "714臺南市玉井區竹圍里武成街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -382,7 +382,7 @@
       "locations": [
         "732臺南市白河區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -398,7 +398,7 @@
       "locations": [
         "714臺南市玉井區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -411,7 +411,7 @@
       "locations": [
         "715臺南市楠西區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -424,7 +424,7 @@
       "locations": [
         "715臺南市楠西區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -438,7 +438,7 @@
         "715臺南市楠西區",
         "715臺南市楠西區東勢路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -456,7 +456,7 @@
         "715臺南市楠西區",
         "715臺南市楠西區楠西里民族路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -469,7 +469,7 @@
       "locations": [
         "715臺南市楠西區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -485,7 +485,7 @@
       "locations": [
         "733臺南市東山區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -498,7 +498,7 @@
       "locations": [
         "733臺南市東山區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -511,7 +511,7 @@
       "locations": [
         "733臺南市東山區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -524,7 +524,7 @@
       "locations": [
         "732臺南市白河區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -541,7 +541,7 @@
       "locations": [
         "715臺南市楠西區"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -558,7 +558,7 @@
       "locations": [
         "715臺南市楠西區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -574,7 +574,7 @@
       "locations": [
         "732臺南市白河區"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "洽公場所"
       ],
@@ -588,7 +588,7 @@
       "locations": [
         "606嘉義縣中埔鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -601,7 +601,7 @@
       "locations": [
         "606嘉義縣中埔鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -614,7 +614,7 @@
       "locations": [
         "607嘉義縣大埔鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -627,7 +627,7 @@
       "locations": [
         "606嘉義縣中埔鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -640,7 +640,7 @@
       "locations": [
         "607嘉義縣大埔鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -658,7 +658,7 @@
         "607嘉義縣大埔鄉",
         "608嘉義縣大埔鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "旅遊景點"
       ],
@@ -675,7 +675,7 @@
       "locations": [
         "605嘉義縣阿里山鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -688,7 +688,7 @@
       "locations": [
         "605嘉義縣阿里山鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -703,7 +703,7 @@
         "844高雄市六龜區",
         "844高雄市六龜區寶來街"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -720,7 +720,7 @@
       "locations": [
         "849高雄市那瑪夏區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -733,7 +733,7 @@
       "locations": [
         "849高雄市那瑪夏區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -746,7 +746,7 @@
       "locations": [
         "849高雄市那瑪夏區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -760,7 +760,7 @@
         "605嘉義縣阿里山鄉",
         "605嘉義縣阿里山鄉新美路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -773,7 +773,7 @@
       "locations": [
         "605嘉義縣阿里山鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {

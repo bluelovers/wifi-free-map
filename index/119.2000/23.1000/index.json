@@ -3,7 +3,7 @@
     "882澎湖縣望安鄉",
     "883澎湖縣七美鄉"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "大眾運輸節點",
     "旅遊景點",
@@ -20,7 +20,7 @@
       "locations": [
         "883澎湖縣七美鄉"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點"
       ],
       "dataset": {
@@ -36,7 +36,7 @@
       "locations": [
         "883澎湖縣七美鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -52,7 +52,7 @@
       "locations": [
         "883澎湖縣七美鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所",
         "旅遊景點"
@@ -70,7 +70,7 @@
       "locations": [
         "882澎湖縣望安鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],

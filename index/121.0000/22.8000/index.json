@@ -35,7 +35,7 @@
     "958臺東縣池上鄉",
     "959臺東縣東河鄉"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "大眾運輸節點",
     "文教館所",
@@ -85,7 +85,7 @@
         "954臺東縣卑南鄉",
         "954臺東縣卑南鄉鄰賓朗路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -98,7 +98,7 @@
       "locations": [
         "952臺東縣蘭嶼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -114,7 +114,7 @@
         "954臺東縣卑南鄉初鹿村初鹿二街",
         "954臺東縣卑南鄉明峰村文泰路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -133,7 +133,7 @@
         "954臺東縣卑南鄉初鹿村忠孝路",
         "954臺東縣卑南鄉鄰忠孝路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -148,7 +148,7 @@
         "953臺東縣延平鄉昇平路",
         "953臺東縣延平鄉桃源村昇平路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -165,7 +165,7 @@
       "locations": [
         "953臺東縣延平鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -179,7 +179,7 @@
         "954臺東縣卑南鄉",
         "954臺東縣卑南鄉鄰利吉路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -193,7 +193,7 @@
         "954臺東縣卑南鄉",
         "954臺東縣卑南鄉山里路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "大眾運輸節點"
       ],
@@ -210,7 +210,7 @@
         "955臺東縣鹿野鄉中華路一段",
         "955臺東縣鹿野鄉中正路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所",
         "大眾運輸節點"
@@ -230,7 +230,7 @@
         "955臺東縣鹿野鄉永安村高台路",
         "954臺東縣卑南鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],
@@ -248,7 +248,7 @@
         "955臺東縣鹿野鄉",
         "955臺東縣鹿野鄉瑞豐村景新路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -261,7 +261,7 @@
       "locations": [
         "957臺東縣海端鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -277,7 +277,7 @@
         "953臺東縣延平鄉",
         "953臺東縣延平鄉鸞山村鸞山路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],
@@ -292,7 +292,7 @@
         "955臺東縣鹿野鄉",
         "955臺東縣鹿野鄉中華路三段"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -307,7 +307,7 @@
         "955臺東縣鹿野鄉瑞源村同興路",
         "955臺東縣鹿野鄉瑞源村瑞景路一段"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所",
         "大眾運輸節點"
@@ -326,7 +326,7 @@
         "955臺東縣鹿野鄉",
         "955臺東縣鹿野鄉瑞豐村新和路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -339,7 +339,7 @@
       "locations": [
         "957臺東縣海端鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -353,7 +353,7 @@
         "955臺東縣鹿野鄉",
         "955臺東縣鹿野鄉鄰永安路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -369,7 +369,7 @@
         "956臺東縣關山鎮中福里中華路",
         "956臺東縣關山鎮中正路"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點",
         "其他",
         "洽公場所"
@@ -388,7 +388,7 @@
         "956臺東縣關山鎮",
         "956臺東縣關山鎮月眉里盛豐路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -401,7 +401,7 @@
       "locations": [
         "958臺東縣池上鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -414,7 +414,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -427,7 +427,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -440,7 +440,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "旅遊景點",
         "文教館所",
@@ -459,7 +459,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -472,7 +472,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -485,7 +485,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -498,7 +498,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -512,7 +512,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -525,7 +525,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -538,7 +538,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -551,7 +551,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -566,7 +566,7 @@
         "959臺東縣東河鄉",
         "958臺東縣池上鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -583,7 +583,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -596,7 +596,7 @@
       "locations": [
         "959臺東縣東河鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "旅遊景點"
       ],

@@ -117,7 +117,7 @@
     "438臺中市外埔區",
     "438臺中市外埔區土城里土城路"
   ],
-  "categorys": [
+  "categories": [
     "公立醫院",
     "其他",
     "大眾運輸節點",
@@ -229,7 +229,7 @@
         "421臺中市后里區甲后路",
         "421臺中市后里區月眉里雲頭路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他",
         "公立醫院",
@@ -252,7 +252,7 @@
         "421臺中市后里區月眉里雲頭路",
         "421臺中市后里區月眉里九甲七路"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點",
         "洽公場所"
       ],
@@ -270,7 +270,7 @@
         "438臺中市外埔區",
         "438臺中市外埔區土城里土城路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -283,7 +283,7 @@
       "locations": [
         "358苗栗縣苑裡鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -296,7 +296,7 @@
       "locations": [
         "357苗栗縣通霄鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -309,7 +309,7 @@
       "locations": [
         "357苗栗縣通霄鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -322,7 +322,7 @@
       "locations": [
         "357苗栗縣通霄鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -335,7 +335,7 @@
       "locations": [
         "357苗栗縣通霄鎮"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點",
         "洽公場所",
         "其他"
@@ -358,7 +358,7 @@
         "421臺中市后里區甲后路",
         "421臺中市后里區后里里三豐路四段"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所",
         "大眾運輸節點"
@@ -378,7 +378,7 @@
         "421臺中市后里區福美路",
         "421臺中市后里區三豐路五段"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "旅遊景點"
       ],
@@ -392,7 +392,7 @@
       "locations": [
         "357苗栗縣通霄鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -405,7 +405,7 @@
       "locations": [
         "357苗栗縣通霄鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -420,7 +420,7 @@
         "421臺中市后里區泰安里福興路",
         "421臺中市后里區安眉路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "大眾運輸節點",
         "旅遊景點"
@@ -435,7 +435,7 @@
       "locations": [
         "367苗栗縣三義鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -448,7 +448,7 @@
       "locations": [
         "364苗栗縣大湖鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -461,7 +461,7 @@
       "locations": [
         "368苗栗縣西湖鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -476,7 +476,7 @@
         "368苗栗縣西湖鄉東村埔頂路",
         "368苗栗縣西湖鄉鄰店仔街"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點",
         "其他",
         "洽公場所"
@@ -494,7 +494,7 @@
       "locations": [
         "368苗栗縣西湖鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -507,7 +507,7 @@
       "locations": [
         "367苗栗縣三義鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -524,7 +524,7 @@
         "367苗栗縣三義鄉",
         "367苗栗縣三義鄉廣盛村八股路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "旅遊景點"
       ],
@@ -539,7 +539,7 @@
         "367苗栗縣三義鄉",
         "367苗栗縣三義鄉勝興村水美路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -555,7 +555,7 @@
         "367苗栗縣三義鄉廣盛村新生路",
         "367苗栗縣三義鄉中正路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他",
         "洽公場所",
@@ -574,7 +574,7 @@
       "locations": [
         "367苗栗縣三義鄉"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點",
         "其他"
       ],
@@ -588,7 +588,7 @@
       "locations": [
         "366苗栗縣銅鑼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -603,7 +603,7 @@
         "366苗栗縣銅鑼鄉九湖村銅科南路",
         "366苗栗縣銅鑼鄉銅科南路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -617,7 +617,7 @@
       "locations": [
         "366苗栗縣銅鑼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -631,7 +631,7 @@
         "368苗栗縣西湖鄉",
         "368苗栗縣西湖鄉鄰五湖街"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -644,7 +644,7 @@
       "locations": [
         "368苗栗縣西湖鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -658,7 +658,7 @@
         "422臺中市石岡區",
         "422臺中市石岡區德興里和盛街"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -671,7 +671,7 @@
       "locations": [
         "367苗栗縣三義鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -685,7 +685,7 @@
         "366苗栗縣銅鑼鄉",
         "366苗栗縣銅鑼鄉自強路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -706,7 +706,7 @@
         "366苗栗縣銅鑼鄉中正路",
         "366苗栗縣銅鑼鄉鄰文化街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "大眾運輸節點",
         "其他"
@@ -724,7 +724,7 @@
       "locations": [
         "366苗栗縣銅鑼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -737,7 +737,7 @@
       "locations": [
         "366苗栗縣銅鑼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -751,7 +751,7 @@
         "366苗栗縣銅鑼鄉",
         "363苗栗縣公館鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],
@@ -765,7 +765,7 @@
       "locations": [
         "366苗栗縣銅鑼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -778,7 +778,7 @@
       "locations": [
         "366苗栗縣銅鑼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -791,7 +791,7 @@
       "locations": [
         "363苗栗縣公館鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -810,7 +810,7 @@
         "360苗栗縣苗栗市青苗里至公路",
         "360苗栗縣苗栗市中山路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -836,7 +836,7 @@
         "362苗栗縣頭屋鄉",
         "362苗栗縣頭屋鄉鄰中山街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -855,7 +855,7 @@
         "369苗栗縣卓蘭鎮老庄里信義路",
         "369苗栗縣卓蘭鎮中山路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -872,7 +872,7 @@
       "locations": [
         "369苗栗縣卓蘭鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -886,7 +886,7 @@
         "364苗栗縣大湖鄉",
         "364苗栗縣大湖鄉南湖村南昌路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -899,7 +899,7 @@
       "locations": [
         "363苗栗縣公館鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -913,7 +913,7 @@
         "363苗栗縣公館鄉",
         "363苗栗縣公館鄉館中村大同路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -931,7 +931,7 @@
         "363苗栗縣公館鄉館中村大同路",
         "363苗栗縣公館鄉館東村大同路"
       ],
-      "categorys": [
+      "categories": [
         "公立醫院",
         "其他",
         "洽公場所",
@@ -951,7 +951,7 @@
         "363苗栗縣公館鄉",
         "361苗栗縣造橋鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -972,7 +972,7 @@
         "360苗栗縣苗栗市維新里僑育北街",
         "360苗栗縣苗栗市中正路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1005,7 +1005,7 @@
         "360苗栗縣苗栗市嘉新里國華路",
         "360苗栗縣苗栗市嘉盛里嘉盛街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他",
         "文教館所",
@@ -1028,7 +1028,7 @@
         "356苗栗縣後龍鎮",
         "362苗栗縣頭屋鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1045,7 +1045,7 @@
       "locations": [
         "363苗栗縣公館鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1065,7 +1065,7 @@
         "362苗栗縣頭屋鄉頭屋村中山街",
         "362苗栗縣頭屋鄉頭屋村中正街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "公立醫院",
         "其他",
@@ -1085,7 +1085,7 @@
         "360苗栗縣苗栗市",
         "360苗栗縣苗栗市經國路四段"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1098,7 +1098,7 @@
       "locations": [
         "364苗栗縣大湖鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1112,7 +1112,7 @@
         "364苗栗縣大湖鄉",
         "352苗栗縣三灣鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1130,7 +1130,7 @@
         "364苗栗縣大湖鄉中原路",
         "364苗栗縣大湖鄉明湖村中原路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "文教館所"
       ],
@@ -1148,7 +1148,7 @@
         "364苗栗縣大湖鄉",
         "354苗栗縣獅潭鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],
@@ -1162,7 +1162,7 @@
       "locations": [
         "363苗栗縣公館鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1175,7 +1175,7 @@
       "locations": [
         "362苗栗縣頭屋鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1189,7 +1189,7 @@
         "364苗栗縣大湖鄉",
         "364苗栗縣大湖鄉鄰中正路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1202,7 +1202,7 @@
       "locations": [
         "364苗栗縣大湖鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1215,7 +1215,7 @@
       "locations": [
         "354苗栗縣獅潭鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1228,7 +1228,7 @@
       "locations": [
         "362苗栗縣頭屋鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1241,7 +1241,7 @@
       "locations": [
         "365苗栗縣泰安鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1254,7 +1254,7 @@
       "locations": [
         "365苗栗縣泰安鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1270,7 +1270,7 @@
       "locations": [
         "354苗栗縣獅潭鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1283,7 +1283,7 @@
       "locations": [
         "354苗栗縣獅潭鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1297,7 +1297,7 @@
         "424臺中市和平區",
         "424臺中市和平區東崎路一段"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1312,7 +1312,7 @@
         "424臺中市和平區東崎路一段",
         "424臺中市和平區達觀里東崎路一段"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1326,7 +1326,7 @@
       "locations": [
         "365苗栗縣泰安鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1339,7 +1339,7 @@
       "locations": [
         "365苗栗縣泰安鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1352,7 +1352,7 @@
       "locations": [
         "354苗栗縣獅潭鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1369,7 +1369,7 @@
       "locations": [
         "353苗栗縣南庄鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1382,7 +1382,7 @@
       "locations": [
         "365苗栗縣泰安鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1395,7 +1395,7 @@
       "locations": [
         "365苗栗縣泰安鄉"
       ],
-      "categorys": [
+      "categories": [
         "文教館所"
       ],
       "dataset": {
@@ -1408,7 +1408,7 @@
       "locations": [
         "365苗栗縣獅潭鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1421,7 +1421,7 @@
       "locations": [
         "365苗栗縣泰安鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1434,7 +1434,7 @@
       "locations": [
         "365苗栗縣泰安鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1447,7 +1447,7 @@
       "locations": [
         "365苗栗縣泰安鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1460,7 +1460,7 @@
       "locations": [
         "365苗栗縣泰安鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1473,7 +1473,7 @@
       "locations": [
         "353苗栗縣南庄鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1487,7 +1487,7 @@
         "353苗栗縣南庄鄉",
         "353苗栗縣南庄鄉鄰大同路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "旅遊景點",
         "其他"
@@ -1505,7 +1505,7 @@
       "locations": [
         "360苗栗縣苗栗市"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/120.7000/24.3000/120.9400_24.4800.json"

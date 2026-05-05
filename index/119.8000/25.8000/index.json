@@ -4,7 +4,7 @@
     "210連江縣北竿鄉",
     "211連江縣莒光鄉"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "旅遊景點",
     "洽公場所"
@@ -20,7 +20,7 @@
       "locations": [
         "211連江縣莒光鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "洽公場所"
       ],
@@ -37,7 +37,7 @@
       "locations": [
         "211連江縣莒光鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],
@@ -52,7 +52,7 @@
         "211連江縣莒光鄉",
         "210連江縣北竿鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "洽公場所"
       ],
@@ -69,7 +69,7 @@
       "locations": [
         "209連江縣莒光鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {

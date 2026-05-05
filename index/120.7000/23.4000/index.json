@@ -9,7 +9,7 @@
     "558南投縣鹿谷鄉內湖村興產路",
     "605嘉義縣阿里山鄉"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "大眾運輸節點",
     "旅遊景點",
@@ -37,7 +37,7 @@
       "locations": [
         "605嘉義縣阿里山鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -51,7 +51,7 @@
       "locations": [
         "605嘉義縣阿里山鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -64,7 +64,7 @@
       "locations": [
         "605嘉義縣阿里山鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],
@@ -82,7 +82,7 @@
         "558南投縣鹿谷鄉",
         "558南投縣鹿谷鄉內湖村興產路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -98,7 +98,7 @@
       "locations": [
         "605嘉義縣阿里山鄉"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點",
         "旅遊景點",
         "洽公場所"
@@ -118,7 +118,7 @@
         "556南投縣信義鄉明德村玉山路",
         "556南投縣信義鄉玉山路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -135,7 +135,7 @@
       "locations": [
         "605嘉義縣阿里山鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -151,7 +151,7 @@
       "locations": [
         "556南投縣信義鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -165,7 +165,7 @@
         "556南投縣信義鄉新鄉",
         "556南投縣信義鄉新鄉路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -178,7 +178,7 @@
       "locations": [
         "556南投縣信義鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -191,7 +191,7 @@
       "locations": [
         "556南投縣信義鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -204,7 +204,7 @@
       "locations": [
         "556南投縣信義鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -221,7 +221,7 @@
       "locations": [
         "556南投縣信義鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -234,7 +234,7 @@
       "locations": [
         "556南投縣信義鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -247,7 +247,7 @@
       "locations": [
         "605嘉義縣阿里山鄉"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/120.7000/23.4000/120.7800_23.4200.json"

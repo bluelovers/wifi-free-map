@@ -54,7 +54,7 @@
     "983花蓮縣富里鄉東里村道化路",
     "983花蓮縣富里鄉鎮"
   ],
-  "categorys": [
+  "categories": [
     "公立醫院",
     "其他",
     "大眾運輸節點",
@@ -94,7 +94,7 @@
       "locations": [
         "983花蓮縣富里鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -107,7 +107,7 @@
       "locations": [
         "983花蓮縣富里鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -121,7 +121,7 @@
         "983花蓮縣富里鄉鎮",
         "983花蓮縣富里鄉"
       ],
-      "categorys": [
+      "categories": [
         "公立醫院",
         "洽公場所"
       ],
@@ -139,7 +139,7 @@
         "983花蓮縣富里鄉東里村大莊路",
         "983花蓮縣富里鄉大莊路"
       ],
-      "categorys": [
+      "categories": [
         "文教館所",
         "洽公場所",
         "大眾運輸節點"
@@ -186,7 +186,7 @@
         "981花蓮縣玉里鎮新興街",
         "981花蓮縣玉里鎮民國路二段"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "文教館所",
         "其他",
@@ -214,7 +214,7 @@
         "982花蓮縣卓溪鄉中正路",
         "981花蓮縣玉里鎮永昌里中華路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "文教館所",
         "其他"
@@ -232,7 +232,7 @@
       "locations": [
         "983花蓮縣富里鄉"
       ],
-      "categorys": [
+      "categories": [
         "文教館所",
         "洽公場所"
       ],
@@ -246,7 +246,7 @@
       "locations": [
         "981花蓮縣玉里鎮"
       ],
-      "categorys": [
+      "categories": [
         "文教館所"
       ],
       "dataset": {
@@ -261,7 +261,7 @@
         "981花蓮縣玉里鎮莊敬路",
         "981花蓮縣玉里鎮中華路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "公立醫院"
       ],
@@ -275,7 +275,7 @@
       "locations": [
         "981花蓮縣玉里鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "文教館所"
       ],
@@ -289,7 +289,7 @@
       "locations": [
         "981花蓮縣玉里鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -303,7 +303,7 @@
       "locations": [
         "981花蓮縣玉里鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -316,7 +316,7 @@
       "locations": [
         "981花蓮縣玉里鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -329,7 +329,7 @@
       "locations": [
         "981花蓮縣玉里鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -342,7 +342,7 @@
       "locations": [
         "981花蓮縣玉里鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "旅遊景點",
         "文教館所",
@@ -363,7 +363,7 @@
         "961臺東縣成功鎮開封街",
         "961臺東縣成功鎮三民里三民路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "文教館所",
         "其他"
@@ -384,7 +384,7 @@
         "961臺東縣成功鎮鄰中華路",
         "961臺東縣成功鎮芝田路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -397,7 +397,7 @@
       "locations": [
         "981花蓮縣玉里鎮"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -411,7 +411,7 @@
         "961臺東縣成功鎮",
         "961臺東縣成功鎮三仙里基翬路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -428,7 +428,7 @@
         "961臺東縣成功鎮",
         "961臺東縣成功鎮鄰成廣路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -442,7 +442,7 @@
         "962臺東縣長濱鄉",
         "962臺東縣長濱鄉長濱村中興路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -459,7 +459,7 @@
       "locations": [
         "962臺東縣長濱鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -472,7 +472,7 @@
       "locations": [
         "962臺東縣長濱鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -485,7 +485,7 @@
       "locations": [
         "962臺東縣長濱鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -498,7 +498,7 @@
       "locations": [
         "962臺東縣長濱鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {

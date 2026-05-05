@@ -2,7 +2,7 @@
   "locations": [
     "882澎湖縣望安鄉"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "大眾運輸節點",
     "旅遊景點",
@@ -19,7 +19,7 @@
       "locations": [
         "882澎湖縣望安鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -32,7 +32,7 @@
       "locations": [
         "882澎湖縣望安鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -49,7 +49,7 @@
       "locations": [
         "882澎湖縣望安鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "大眾運輸節點"
       ],
@@ -66,7 +66,7 @@
       "locations": [
         "882澎湖縣望安鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {

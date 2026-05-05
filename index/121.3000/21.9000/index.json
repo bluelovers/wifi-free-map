@@ -2,7 +2,7 @@
   "locations": [
     "952臺東縣蘭嶼鄉"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "大眾運輸節點",
     "洽公場所"
@@ -19,7 +19,7 @@
       "locations": [
         "952臺東縣蘭嶼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -32,7 +32,7 @@
       "locations": [
         "952臺東縣蘭嶼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -45,7 +45,7 @@
       "locations": [
         "952臺東縣蘭嶼鄉"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點"
       ],
       "dataset": {
@@ -61,7 +61,7 @@
       "locations": [
         "952臺東縣蘭嶼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -78,7 +78,7 @@
       "locations": [
         "952臺東縣蘭嶼鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {

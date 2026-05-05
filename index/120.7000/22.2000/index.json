@@ -11,7 +11,7 @@
     "966臺東縣達仁鄉",
     "966臺東縣達仁鄉安朔村復興路"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "大眾運輸節點",
     "旅遊景點",
@@ -43,7 +43,7 @@
       "locations": [
         "943屏東縣獅子鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -57,7 +57,7 @@
         "943屏東縣獅子鄉",
         "943屏東縣獅子鄉丹路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -71,7 +71,7 @@
         "943屏東縣獅子鄉",
         "943屏東縣獅子鄉丹路一"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -85,7 +85,7 @@
         "943屏東縣獅子鄉",
         "943屏東縣獅子鄉丹路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -98,7 +98,7 @@
       "locations": [
         "943屏東縣獅子鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -111,7 +111,7 @@
       "locations": [
         "943屏東縣獅子鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -124,7 +124,7 @@
       "locations": [
         "943屏東縣獅子鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -137,7 +137,7 @@
       "locations": [
         "966臺東縣達仁鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -150,7 +150,7 @@
       "locations": [
         "966臺東縣達仁鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -163,7 +163,7 @@
       "locations": [
         "966臺東縣達仁鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -176,7 +176,7 @@
       "locations": [
         "965臺東縣大武鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -190,7 +190,7 @@
         "966臺東縣達仁鄉",
         "966臺東縣達仁鄉安朔村復興路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -207,7 +207,7 @@
       "locations": [
         "965臺東縣大武鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -222,7 +222,7 @@
         "965臺東縣大武鄉尚武村政通路",
         "965臺東縣大武鄉尚武村尚武路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -239,7 +239,7 @@
       "locations": [
         "966臺東縣達仁鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -253,7 +253,7 @@
         "965臺東縣大武鄉",
         "965臺東縣大武鄉大武村大武街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -269,7 +269,7 @@
       "locations": [
         "965臺東縣大武鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -282,7 +282,7 @@
       "locations": [
         "965臺東縣大武鄉"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點"
       ],
       "dataset": {
@@ -295,7 +295,7 @@
       "locations": [
         "963臺東縣太麻里鄉"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點"
       ],
       "dataset": {

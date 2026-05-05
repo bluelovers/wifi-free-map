@@ -138,7 +138,7 @@
     "655雲林縣元長鄉仁愛路",
     "655雲林縣元長鄉長北村元北路"
   ],
-  "categorys": [
+  "categories": [
     "公立醫院",
     "其他",
     "大眾運輸節點",
@@ -248,7 +248,7 @@
       "locations": [
         "614嘉義縣東石鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -261,7 +261,7 @@
       "locations": [
         "614嘉義縣東石鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -279,7 +279,7 @@
         "654雲林縣四湖鄉",
         "654雲林縣四湖鄉崙北村中山路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -292,7 +292,7 @@
       "locations": [
         "614嘉義縣東石鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -305,7 +305,7 @@
       "locations": [
         "614嘉義縣東石鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -318,7 +318,7 @@
       "locations": [
         "614嘉義縣東石鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -331,7 +331,7 @@
       "locations": [
         "614嘉義縣東石鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -344,7 +344,7 @@
       "locations": [
         "653雲林縣口湖鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -357,7 +357,7 @@
       "locations": [
         "653雲林縣口湖鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -371,7 +371,7 @@
         "653雲林縣口湖鄉",
         "653雲林縣口湖鄉蚵寮村仁愛街"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -385,7 +385,7 @@
         "653雲林縣口湖鄉",
         "653雲林縣口湖鄉口湖村聖安路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -399,7 +399,7 @@
         "653雲林縣口湖鄉",
         "653雲林縣口湖鄉下崙村福安路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -413,7 +413,7 @@
         "654雲林縣四湖鄉",
         "654雲林縣四湖鄉飛沙村大同路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -427,7 +427,7 @@
         "654雲林縣四湖鄉",
         "654雲林縣四湖鄉林厝村中華路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -440,7 +440,7 @@
       "locations": [
         "625嘉義縣布袋鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -456,7 +456,7 @@
       "locations": [
         "614嘉義縣東石鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -471,7 +471,7 @@
         "653雲林縣口湖鄉梧北村光明路",
         "653雲林縣口湖鄉梧北村復興路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -488,7 +488,7 @@
       "locations": [
         "653雲林縣口湖鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -503,7 +503,7 @@
         "653雲林縣口湖鄉湖東村廟前街",
         "653雲林縣口湖鄉湖東村麻園街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -520,7 +520,7 @@
       "locations": [
         "653雲林縣口湖鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -534,7 +534,7 @@
         "654雲林縣四湖鄉",
         "654雲林縣四湖鄉飛東村大同路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -547,7 +547,7 @@
       "locations": [
         "636雲林縣臺西鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -560,7 +560,7 @@
       "locations": [
         "614嘉義縣東石鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -574,7 +574,7 @@
         "652雲林縣水林鄉",
         "652雲林縣水林鄉相埔村瓊埔路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -588,7 +588,7 @@
         "654雲林縣四湖鄉",
         "654雲林縣四湖鄉羊調村東洋路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -602,7 +602,7 @@
         "613嘉義縣朴子市",
         "613嘉義縣朴子市竹圍里四維路二段"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -615,7 +615,7 @@
       "locations": [
         "613嘉義縣朴子市"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "公立醫院"
       ],
@@ -632,7 +632,7 @@
       "locations": [
         "615嘉義縣六腳鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -647,7 +647,7 @@
         "652雲林縣水林鄉",
         "652雲林縣水林鄉松中村蔦松路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -663,7 +663,7 @@
         "654雲林縣四湖鄉四湖村中山東路",
         "654雲林縣四湖鄉中山西路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他",
         "文教館所"
@@ -681,7 +681,7 @@
       "locations": [
         "613嘉義縣朴子市"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -695,7 +695,7 @@
         "613嘉義縣朴子市朴子工業區",
         "613嘉義縣朴子市朴子工業區二街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -713,7 +713,7 @@
         "613嘉義縣朴子市文化里山通路",
         "613嘉義縣朴子市光復新路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -733,7 +733,7 @@
         "613嘉義縣朴子市文明路",
         "615嘉義縣六腳鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "文教館所",
         "其他"
@@ -751,7 +751,7 @@
       "locations": [
         "615嘉義縣六腳鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -764,7 +764,7 @@
       "locations": [
         "652雲林縣水林鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -780,7 +780,7 @@
         "652雲林縣水林鄉水北村廟前路",
         "652雲林縣水林鄉水北村文化路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他",
         "文教館所"
@@ -802,7 +802,7 @@
         "635雲林縣東勢鄉東南村富農北路",
         "635雲林縣東勢鄉所前街五"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -820,7 +820,7 @@
         "613嘉義縣朴子市",
         "613嘉義縣朴子市嘉朴路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -834,7 +834,7 @@
       "locations": [
         "615嘉義縣六腳鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -847,7 +847,7 @@
       "locations": [
         "652雲林縣水林鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -860,7 +860,7 @@
       "locations": [
         "651雲林縣北港鎮"
       ],
-      "categorys": [
+      "categories": [
         "文教館所"
       ],
       "dataset": {
@@ -875,7 +875,7 @@
         "635雲林縣東勢鄉",
         "635雲林縣東勢鄉東北村東勢東路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -888,7 +888,7 @@
       "locations": [
         "611嘉義縣鹿草鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -914,7 +914,7 @@
         "612嘉義縣太保市嘉朴東路路",
         "612嘉義縣太保市博學路路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所",
         "旅遊景點"
@@ -952,7 +952,7 @@
         "612嘉義縣太保市太子大道主燈區(國際友誼燈區太子大道",
         "615嘉義縣六腳鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "洽公場所",
         "其他"
@@ -970,7 +970,7 @@
       "locations": [
         "615嘉義縣六腳鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -987,7 +987,7 @@
       "locations": [
         "615嘉義縣六腳鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1000,7 +1000,7 @@
       "locations": [
         "615嘉義縣六腳鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1018,7 +1018,7 @@
         "651雲林縣北港鎮民樂路",
         "651雲林縣北港鎮新街里新東街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1032,7 +1032,7 @@
       "locations": [
         "651雲林縣北港鎮"
       ],
-      "categorys": [
+      "categories": [
         "文教館所",
         "其他"
       ],
@@ -1047,7 +1047,7 @@
         "611嘉義縣鹿草鄉",
         "611嘉義縣鹿草鄉西井村長壽路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1064,7 +1064,7 @@
       "locations": [
         "611嘉義縣鹿草鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1077,7 +1077,7 @@
       "locations": [
         "612嘉義縣太保市"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1090,7 +1090,7 @@
       "locations": [
         "615嘉義縣六腳鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1105,7 +1105,7 @@
         "615嘉義縣六腳鄉",
         "616嘉義縣新港鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1118,7 +1118,7 @@
       "locations": [
         "615嘉義縣六腳鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1140,7 +1140,7 @@
         "651雲林縣北港鎮文仁路",
         "651雲林縣北港鎮中山路"
       ],
-      "categorys": [
+      "categories": [
         "文教館所",
         "其他",
         "洽公場所"
@@ -1159,7 +1159,7 @@
         "651雲林縣北港鎮",
         "651雲林縣北港鎮新街里太平路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1172,7 +1172,7 @@
       "locations": [
         "655雲林縣元長鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1187,7 +1187,7 @@
         "655雲林縣元長鄉仁愛路",
         "655雲林縣元長鄉長北村元北路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1205,7 +1205,7 @@
         "634雲林縣褒忠鄉",
         "634雲林縣褒忠鄉三民路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1221,7 +1221,7 @@
       "locations": [
         "611嘉義縣鹿草鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1235,7 +1235,7 @@
         "612嘉義縣太保市",
         "612嘉義縣太保市春珠里保鐵一路二段"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1249,7 +1249,7 @@
       "locations": [
         "612嘉義縣太保市"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1262,7 +1262,7 @@
       "locations": [
         "612嘉義縣太保市"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1275,7 +1275,7 @@
       "locations": [
         "616嘉義縣新港鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1289,7 +1289,7 @@
         "655雲林縣元長鄉",
         "655雲林縣元長鄉下寮村興工街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1305,7 +1305,7 @@
       "locations": [
         "612嘉義縣太保市"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1318,7 +1318,7 @@
       "locations": [
         "612嘉義縣太保市"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1336,7 +1336,7 @@
         "612嘉義縣太保市",
         "612嘉義縣太保市舊埤里新平路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1349,7 +1349,7 @@
       "locations": [
         "616嘉義縣新港鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1366,7 +1366,7 @@
         "616嘉義縣新港鄉宮前村中正路",
         "616嘉義縣新港鄉嘉民北路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1384,7 +1384,7 @@
         "616嘉義縣新港鄉",
         "616嘉義縣新港鄉鄰新中路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1397,7 +1397,7 @@
       "locations": [
         "616嘉義縣新港鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1410,7 +1410,7 @@
       "locations": [
         "655雲林縣元長鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1423,7 +1423,7 @@
       "locations": [
         "633雲林縣土庫鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1436,7 +1436,7 @@
       "locations": [
         "633雲林縣土庫鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1449,7 +1449,7 @@
       "locations": [
         "608嘉義縣水上鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1463,7 +1463,7 @@
         "612嘉義縣太保市嘉太工業區",
         "612嘉義縣太保市嘉太工業區中興路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1480,7 +1480,7 @@
         "616嘉義縣新港鄉",
         "616嘉義縣新港鄉中洋村中洋工業區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1496,7 +1496,7 @@
       "locations": [
         "616嘉義縣新港鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1509,7 +1509,7 @@
       "locations": [
         "623嘉義縣溪口鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1522,7 +1522,7 @@
       "locations": [
         "655雲林縣元長鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1538,7 +1538,7 @@
         "608嘉義縣水上鄉三鎮村三鎮",
         "608嘉義縣水上鄉三鎮村三鎮路"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點",
         "其他",
         "洽公場所"
@@ -1560,7 +1560,7 @@
         "608嘉義縣水上鄉嘉朴路",
         "608嘉義縣水上鄉中興路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1578,7 +1578,7 @@
         "608嘉義縣水上鄉",
         "608嘉義縣水上鄉榮典路"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點"
       ],
       "dataset": {
@@ -1599,7 +1599,7 @@
         "612嘉義縣太保市北新里中山路一段",
         "612嘉義縣太保市北新里中正路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1616,7 +1616,7 @@
       "locations": [
         "621嘉義縣民雄鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1634,7 +1634,7 @@
         "622嘉義縣大林鎮",
         "622嘉義縣大林鎮中山路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1651,7 +1651,7 @@
       "locations": [
         "631雲林縣大埤鄉西鎮村西鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1665,7 +1665,7 @@
         "633雲林縣土庫鎮",
         "633雲林縣土庫鎮石廟里中興路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1683,7 +1683,7 @@
         "633雲林縣土庫鎮順天里新建路",
         "633雲林縣土庫鎮中正路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1701,7 +1701,7 @@
         "633雲林縣土庫鎮",
         "633雲林縣土庫鎮石廟里復興路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1715,7 +1715,7 @@
         "640雲林縣斗六市",
         "640雲林縣斗六市府前街"
       ],
-      "categorys": [],
+      "categories": [],
       "dataset": {
         "charging": {
           "fileName": "grid-charging/120.1000/23.4000/120.3200_23.4200.json"

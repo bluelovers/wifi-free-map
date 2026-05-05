@@ -43,7 +43,7 @@
     "893金門縣金城鎮金山路",
     "894金門縣烈嶼鄉"
   ],
-  "categorys": [
+  "categories": [
     "公立醫院",
     "其他",
     "大眾運輸節點",
@@ -85,7 +85,7 @@
       "locations": [
         "893金門縣金城鎮"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],
@@ -112,7 +112,7 @@
         "893金門縣金城鎮光前路",
         "893金門縣金城鎮珠浦西路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他",
         "旅遊景點",
@@ -128,7 +128,7 @@
       "locations": [
         "892金門縣金寧鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -141,7 +141,7 @@
       "locations": [
         "892金門縣金寧鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -157,7 +157,7 @@
         "893金門縣金城鎮民生路",
         "892金門縣金寧鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所",
         "大眾運輸節點"
@@ -183,7 +183,7 @@
         "892金門縣金寧鄉盤山村大學路",
         "892金門縣金寧鄉頂林路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "文教館所",
         "旅遊景點",
@@ -203,7 +203,7 @@
       "locations": [
         "892金門縣金寧鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -218,7 +218,7 @@
         "892金門縣金寧鄉",
         "892金門縣金寧鄉桃園路"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點",
         "其他",
         "洽公場所"
@@ -237,7 +237,7 @@
         "892金門縣金寧鄉",
         "892金門縣金寧鄉伯玉路二段"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "旅遊景點"
       ],
@@ -251,7 +251,7 @@
       "locations": [
         "891金門縣金湖鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -264,7 +264,7 @@
       "locations": [
         "891金門縣金湖鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "旅遊景點"
       ],
@@ -278,7 +278,7 @@
       "locations": [
         "891金門縣金湖鎮"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -292,7 +292,7 @@
         "891金門縣金湖鎮",
         "891金門縣金湖鎮瓊林里瓊徑路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -305,7 +305,7 @@
       "locations": [
         "890金門縣金沙鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -320,7 +320,7 @@
         "891金門縣金湖鎮市",
         "891金門縣金湖鎮市港六路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "公立醫院"
       ],
@@ -340,7 +340,7 @@
         "891金門縣金湖鎮新市里林森路",
         "891金門縣金湖鎮黃海路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他",
         "文教館所",
@@ -360,7 +360,7 @@
       "locations": [
         "890金門縣金沙鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -374,7 +374,7 @@
         "890金門縣金沙鎮",
         "890金門縣金沙鎮環島東路一段"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點",
         "公立醫院",
         "其他"
@@ -389,7 +389,7 @@
       "locations": [
         "890金門縣金沙鎮"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點",
         "其他"
       ],
@@ -403,7 +403,7 @@
       "locations": [
         "891金門縣金湖鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -421,7 +421,7 @@
         "894金門縣烈嶼鄉",
         "891金門縣金湖鎮新市里復興路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "旅遊景點",
         "公立醫院",
@@ -441,7 +441,7 @@
         "891金門縣金湖鎮",
         "891金門縣金湖鎮士校路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -454,7 +454,7 @@
       "locations": [
         "890金門縣金沙鎮光前里陽翟新興社區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -468,7 +468,7 @@
         "890金門縣金沙鎮",
         "890金門縣金沙鎮汶沙里國中路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -484,7 +484,7 @@
       "locations": [
         "890金門縣金沙鎮"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -497,7 +497,7 @@
       "locations": [
         "891金門縣金湖鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -510,7 +510,7 @@
       "locations": [
         "890金門縣金沙鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {

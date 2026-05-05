@@ -11,7 +11,7 @@
     "972花蓮縣秀林鄉",
     "972花蓮縣秀林鄉景美村加灣路"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "文教館所",
     "旅遊景點",
@@ -31,7 +31,7 @@
       "locations": [
         "972花蓮縣秀林鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -44,7 +44,7 @@
       "locations": [
         "972花蓮縣秀林鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "旅遊景點"
       ],
@@ -61,7 +61,7 @@
       "locations": [
         "972花蓮縣秀林鄉"
       ],
-      "categorys": [
+      "categories": [
         "文教館所"
       ],
       "dataset": {
@@ -74,7 +74,7 @@
       "locations": [
         "972花蓮縣秀林鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -87,7 +87,7 @@
       "locations": [
         "972花蓮縣秀林鄉"
       ],
-      "categorys": [
+      "categories": [
         "文教館所",
         "洽公場所"
       ],
@@ -106,7 +106,7 @@
         "970花蓮縣花蓮市中華路",
         "970花蓮縣花蓮市沙基拉雅街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "文教館所",
         "其他"
@@ -124,7 +124,7 @@
         "972花蓮縣秀林鄉",
         "972花蓮縣秀林鄉景美村加灣路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "文教館所",
         "洽公場所"

@@ -9,7 +9,7 @@
     "424臺中市和平區梨山里中正路",
     "424臺中市和平區武陵路"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "旅遊景點",
     "洽公場所"
@@ -33,7 +33,7 @@
         "424臺中市和平區",
         "424臺中市和平區梨山里中正路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -50,7 +50,7 @@
         "424臺中市和平區",
         "424臺中市和平區武陵路"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -63,7 +63,7 @@
       "locations": [
         "313新竹縣尖石鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -76,7 +76,7 @@
       "locations": [
         "267宜蘭縣大同鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -90,7 +90,7 @@
       "locations": [
         "267宜蘭縣大同鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -105,7 +105,7 @@
         "267宜蘭縣大同鄉",
         "267宜蘭縣大同鄉茂安村泰雅路五段"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -119,7 +119,7 @@
         "267宜蘭縣大同鄉",
         "267宜蘭縣大同鄉橫貫公路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -132,7 +132,7 @@
       "locations": [
         "267宜蘭縣大同鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -145,7 +145,7 @@
       "locations": [
         "267宜蘭縣大同鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "旅遊景點"
       ],
@@ -159,7 +159,7 @@
       "locations": [
         "267宜蘭縣大同鄉"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -173,7 +173,7 @@
         "267宜蘭縣大同鄉",
         "267宜蘭縣大同鄉樂水村碼崙路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],

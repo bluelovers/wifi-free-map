@@ -135,7 +135,7 @@
     "804高雄市鼓山區",
     "804高雄市鼓山區興宗里鼓山二路"
   ],
-  "categorys": [
+  "categories": [
     "公立醫院",
     "其他",
     "大眾運輸節點",
@@ -281,7 +281,7 @@
         "723臺南市西港區",
         "724臺南市七股區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -294,7 +294,7 @@
       "locations": [
         "724臺南市七股區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -308,7 +308,7 @@
         "725臺南市將軍區",
         "724臺南市七股區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -321,7 +321,7 @@
       "locations": [
         "727臺南市北門區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -338,7 +338,7 @@
       "locations": [
         "724臺南市七股區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -351,7 +351,7 @@
       "locations": [
         "724臺南市七股區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -364,7 +364,7 @@
       "locations": [
         "725臺南市將軍區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -377,7 +377,7 @@
       "locations": [
         "726臺南市學甲區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -390,7 +390,7 @@
       "locations": [
         "727臺南市北門區"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "旅遊景點"
       ],
@@ -407,7 +407,7 @@
       "locations": [
         "724臺南市七股區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -420,7 +420,7 @@
       "locations": [
         "724臺南市七股區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -438,7 +438,7 @@
         "722臺南市佳里區",
         "724臺南市七股區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -452,7 +452,7 @@
         "724臺南市七股區",
         "725臺南市將軍區"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -469,7 +469,7 @@
       "locations": [
         "726臺南市學甲區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -482,7 +482,7 @@
       "locations": [
         "727臺南市北門區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -495,7 +495,7 @@
       "locations": [
         "625嘉義縣布袋鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -514,7 +514,7 @@
         "625嘉義縣布袋鎮中山路",
         "625嘉義縣布袋鎮順安路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -531,7 +531,7 @@
         "625嘉義縣布袋鎮",
         "625嘉義縣布袋鎮中山路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -546,7 +546,7 @@
         "723臺南市西港區",
         "722臺南市佳里區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -560,7 +560,7 @@
         "722臺南市佳里區",
         "723臺南市西港區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -574,7 +574,7 @@
         "722臺南市佳里區",
         "722臺南市佳里區中山路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -596,7 +596,7 @@
         "722臺南市佳里區子龍里麻佳路三段",
         "722臺南市佳里區六安里六順路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -613,7 +613,7 @@
       "locations": [
         "725臺南市將軍區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -626,7 +626,7 @@
       "locations": [
         "726臺南市學甲區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -641,7 +641,7 @@
         "625嘉義縣布袋鎮自由路",
         "625嘉義縣布袋鎮光復里自由路"
       ],
-      "categorys": [
+      "categories": [
         "文教館所",
         "洽公場所"
       ],
@@ -658,7 +658,7 @@
       "locations": [
         "625嘉義縣布袋鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -673,7 +673,7 @@
         "701臺南市東區",
         "701臺南市東區長榮路一段"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -686,7 +686,7 @@
       "locations": [
         "723臺南市西港區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -699,7 +699,7 @@
       "locations": [
         "722臺南市佳里區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -713,7 +713,7 @@
         "722臺南市佳里區",
         "722臺南市佳里區安西里光華街"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -731,7 +731,7 @@
         "726臺南市學甲區",
         "726臺南市學甲區中正路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -749,7 +749,7 @@
         "726臺南市學甲區",
         "725臺南市將軍區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -763,7 +763,7 @@
         "804高雄市鼓山區",
         "804高雄市鼓山區興宗里鼓山二路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -776,7 +776,7 @@
       "locations": [
         "624嘉義縣義竹鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -789,7 +789,7 @@
       "locations": [
         "625嘉義縣布袋鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -805,7 +805,7 @@
       "locations": [
         "625嘉義縣布袋鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -818,7 +818,7 @@
       "locations": [
         "745臺南市安定區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -832,7 +832,7 @@
         "723臺南市西港區",
         "723臺南市西港區中山路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -850,7 +850,7 @@
         "723臺南市西港區",
         "723臺南市西港區鄰新興街"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -863,7 +863,7 @@
       "locations": [
         "722臺南市佳里區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -876,7 +876,7 @@
       "locations": [
         "721臺南市麻豆區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -890,7 +890,7 @@
         "721臺南市麻豆區",
         "721臺南市麻豆區巷口里和平路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -904,7 +904,7 @@
         "624嘉義縣義竹鄉",
         "624嘉義縣義竹鄉東過村過路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -917,7 +917,7 @@
       "locations": [
         "624嘉義縣義竹鄉後鎮村後鎮"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -930,7 +930,7 @@
       "locations": [
         "745臺南市安定區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -943,7 +943,7 @@
       "locations": [
         "745臺南市安定區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -960,7 +960,7 @@
         "721臺南市麻豆區",
         "721臺南市麻豆區興農里成功街"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -973,7 +973,7 @@
       "locations": [
         "721臺南市麻豆區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -987,7 +987,7 @@
         "726臺南市學甲區",
         "726臺南市學甲區鄰建國路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1000,7 +1000,7 @@
       "locations": [
         "624嘉義縣義竹鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1013,7 +1013,7 @@
       "locations": [
         "624嘉義縣義竹鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1027,7 +1027,7 @@
         "624嘉義縣義竹鄉",
         "624嘉義縣義竹鄉義工一路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1043,7 +1043,7 @@
       "locations": [
         "745臺南市安定區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1056,7 +1056,7 @@
       "locations": [
         "721臺南市麻豆區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1078,7 +1078,7 @@
         "721臺南市麻豆區東角里忠孝路",
         "721臺南市麻豆區新生南路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1095,7 +1095,7 @@
       "locations": [
         "737臺南市鹽水區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1112,7 +1112,7 @@
         "737臺南市鹽水區",
         "737臺南市鹽水區橋南里橋南街"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1125,7 +1125,7 @@
       "locations": [
         "624嘉義縣義竹鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1142,7 +1142,7 @@
       "locations": [
         "624嘉義縣義竹鄉"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1159,7 +1159,7 @@
       "locations": [
         "624嘉義縣義竹鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1173,7 +1173,7 @@
         "741臺南市善化區",
         "741臺南市善化區南科九路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1187,7 +1187,7 @@
         "741臺南市善化區",
         "741臺南市善化區興農路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1204,7 +1204,7 @@
         "741臺南市善化區",
         "741臺南市善化區南關里三民路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1217,7 +1217,7 @@
       "locations": [
         "721臺南市麻豆區"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1235,7 +1235,7 @@
         "734臺南市六甲區",
         "735臺南市下營區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1249,7 +1249,7 @@
         "735臺南市下營區",
         "735臺南市下營區慈惠街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1265,7 +1265,7 @@
       "locations": [
         "735臺南市下營區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1280,7 +1280,7 @@
         "730臺南市新營區民權里民治路",
         "730臺南市新營區大宏里民族路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1293,7 +1293,7 @@
       "locations": [
         "730臺南市新營區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1311,7 +1311,7 @@
         "737臺南市鹽水區",
         "737臺南市鹽水區忠孝路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1332,7 +1332,7 @@
         "737臺南市鹽水區三福路",
         "737臺南市鹽水區月港里武廟路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1349,7 +1349,7 @@
       "locations": [
         "624嘉義縣義竹鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1366,7 +1366,7 @@
         "744臺南市新市",
         "741臺南市善化區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他",
         "大眾運輸節點"
@@ -1389,7 +1389,7 @@
         "741臺南市善化區中山路",
         "741臺南市善化區建國路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1406,7 +1406,7 @@
       "locations": [
         "741臺南市善化區"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1423,7 +1423,7 @@
       "locations": [
         "735臺南市下營區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1437,7 +1437,7 @@
         "736臺南市柳營區",
         "736臺南市柳營區人和里柳營路三段"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1453,7 +1453,7 @@
         "730臺南市新營區忠政里中正路",
         "730臺南市新營區復興路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1470,7 +1470,7 @@
       "locations": [
         "737臺南市鹽水區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1483,7 +1483,7 @@
       "locations": [
         "611嘉義縣鹿草鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1496,7 +1496,7 @@
       "locations": [
         "611嘉義縣鹿草鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1511,7 +1511,7 @@
         "741臺南市善化區",
         "741臺南市善化區陽光大道"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1536,7 +1536,7 @@
         "741臺南市善化區民生路",
         "741臺南市善化區中山路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所",
         "旅遊景點",
@@ -1557,7 +1557,7 @@
         "741臺南市善化區文昌里光復路",
         "741臺南市善化區坐駕里大成路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1570,7 +1570,7 @@
       "locations": [
         "720臺南市官田區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1586,7 +1586,7 @@
         "720臺南市官田區隆本里興隆街",
         "720臺南市官田區勝利路"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "大眾運輸節點",
         "洽公場所"
@@ -1605,7 +1605,7 @@
         "734臺南市六甲區",
         "734臺南市六甲區甲南里珊瑚路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1618,7 +1618,7 @@
       "locations": [
         "734臺南市六甲區"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點",
         "其他"
       ],
@@ -1634,7 +1634,7 @@
         "736臺南市柳營區士林村柳營路一段",
         "736臺南市柳營區中山西路二段"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他",
         "文教館所"
@@ -1655,7 +1655,7 @@
         "736臺南市柳營區義士路五段",
         "735臺南市下營區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1678,7 +1678,7 @@
         "730臺南市新營區王公里民族路",
         "730臺南市新營區民治路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "公立醫院",
         "其他"
@@ -1697,7 +1697,7 @@
         "730臺南市新營區",
         "730臺南市新營區三興街"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1711,7 +1711,7 @@
       "locations": [
         "731臺南市後壁區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1724,7 +1724,7 @@
       "locations": [
         "741臺南市善化區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1737,7 +1737,7 @@
       "locations": [
         "720臺南市官田區"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點"
       ],
       "dataset": {
@@ -1751,7 +1751,7 @@
         "720臺南市官田區",
         "720臺南市官田區隆本里中華路一段"
       ],
-      "categorys": [
+      "categories": [
         "旅遊景點"
       ],
       "dataset": {
@@ -1766,7 +1766,7 @@
         "720臺南市官田區二鎮里村工業路",
         "720臺南市官田區二鎮村工業路"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -1782,7 +1782,7 @@
       "locations": [
         "734臺南市六甲區"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點"
       ],
       "dataset": {
@@ -1796,7 +1796,7 @@
         "736臺南市柳營區",
         "736臺南市柳營區建國路"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點"
       ],
       "dataset": {
@@ -1809,7 +1809,7 @@
       "locations": [
         "736臺南市柳營區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1829,7 +1829,7 @@
         "730臺南市新營區新東里東仁街",
         "730臺南市新營區大同路五十五"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "大眾運輸節點",
         "其他"
@@ -1849,7 +1849,7 @@
         "730臺南市新營區南興里南昌街",
         "731臺南市後壁區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1862,7 +1862,7 @@
       "locations": [
         "731臺南市後壁區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1878,7 +1878,7 @@
       "locations": [
         "731臺南市後壁區"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1895,7 +1895,7 @@
       "locations": [
         "611嘉義縣鹿草鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1909,7 +1909,7 @@
         "743臺南市山上區",
         "742臺南市大內區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1926,7 +1926,7 @@
       "locations": [
         "742臺南市大內區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1940,7 +1940,7 @@
         "716臺南市南化區",
         "733臺南市東山區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -1954,7 +1954,7 @@
         "720臺南市官田區",
         "719臺南市龍崎區崎頂里新市"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -1976,7 +1976,7 @@
         "734臺南市六甲區水林里中山路",
         "734臺南市六甲區六甲里信義街"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -1993,7 +1993,7 @@
       "locations": [
         "736臺南市柳營區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -2007,7 +2007,7 @@
         "736臺南市柳營區",
         "736臺南市柳營區大農里義士路一段"
       ],
-      "categorys": [
+      "categories": [
         "其他",
         "洽公場所"
       ],
@@ -2024,7 +2024,7 @@
       "locations": [
         "731臺南市後壁區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -2041,7 +2041,7 @@
       "locations": [
         "731臺南市後壁區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "大眾運輸節點",
         "其他"
@@ -2059,7 +2059,7 @@
       "locations": [
         "741臺南市善化區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -2072,7 +2072,7 @@
       "locations": [
         "742臺南市大內區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -2088,7 +2088,7 @@
       "locations": [
         "720臺南市官田區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
@@ -2101,7 +2101,7 @@
       "locations": [
         "736臺南市柳營區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -2115,7 +2115,7 @@
         "736臺南市柳營區",
         "736臺南市柳營區士林里博愛街"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -2128,7 +2128,7 @@
       "locations": [
         "733臺南市東山區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -2141,7 +2141,7 @@
       "locations": [
         "731臺南市後壁區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "其他"
       ],
@@ -2155,7 +2155,7 @@
       "locations": [
         "731臺南市後壁區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -2168,7 +2168,7 @@
       "locations": [
         "731臺南市後壁區"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所",
         "大眾運輸節點",
         "其他"
@@ -2187,7 +2187,7 @@
         "730臺南市新營區護鎮",
         "730臺南市新營區護鎮里建國路"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -2200,7 +2200,7 @@
       "locations": [
         "742臺南市大內區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -2213,7 +2213,7 @@
       "locations": [
         "742臺南市大內區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -2226,7 +2226,7 @@
       "locations": [
         "733臺南市東山區"
       ],
-      "categorys": [
+      "categories": [
         "大眾運輸節點"
       ],
       "dataset": {
@@ -2242,7 +2242,7 @@
       "locations": [
         "732臺南市白河區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -2255,7 +2255,7 @@
       "locations": [
         "732臺南市白河區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -2268,7 +2268,7 @@
       "locations": [
         "731臺南市後壁區"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {

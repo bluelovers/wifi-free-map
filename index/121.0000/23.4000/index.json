@@ -3,7 +3,7 @@
     "981花蓮縣玉里鎮",
     "982花蓮縣卓溪鄉"
   ],
-  "categorys": [
+  "categories": [
     "其他",
     "洽公場所"
   ],
@@ -17,7 +17,7 @@
       "locations": [
         "982花蓮縣卓溪鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -30,7 +30,7 @@
       "locations": [
         "982花蓮縣卓溪鄉"
       ],
-      "categorys": [
+      "categories": [
         "其他"
       ],
       "dataset": {
@@ -43,7 +43,7 @@
       "locations": [
         "981花蓮縣玉里鎮"
       ],
-      "categorys": [
+      "categories": [
         "洽公場所"
       ],
       "dataset": {
