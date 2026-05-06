@@ -1,0 +1,352 @@
+/**
+ * Ant Design CSS Variable 與 VS Code CSS Variable 映射工具
+ * Ant Design CSS Variable and VS Code CSS Variable Mapping Utilities
+ *
+ * 根據 docs/style/antd-css-var.md 建立的 SCSS 映射工具
+ * SCSS mapping utilities based on docs/style/antd-css-var.md
+ *
+ * 使用方式 / Usage:
+ * @use '../styles/antd-vscode-mapping' as mapping;
+ *
+ * // 在 :root 中直接使用
+ * // Use directly in :root
+ * :root {
+ *   @include mapping.vscode-to-antd;
+ * }
+ *
+ * // 或者選擇性使用某些映射
+ * // Or selectively use certain mappings
+ * :root {
+ *   --ant-color-primary: var(--vscode-button-background);
+ * }
+ */
+
+// ============================================
+// VS Code 到 Ant Design 的完整映射
+// Complete mapping from VS Code to Ant Design
+// ============================================
+
+/**
+ * VS Code → Ant Design 映射 Mixin
+ * VS Code to Ant Design mapping mixin
+ *
+ * 將所有 VS Code CSS Variable 映射到對應的 Antd CSS Variable
+ * Maps all VS Code CSS Variables to corresponding Antd CSS Variables
+ */
+@mixin vscode-to-antd
+{
+	// ==================== 基礎色彩 / Basic Colors ====================
+	--ant-color-bg-container: var(--vscode-editor-background);
+	--ant-color-text: var(--vscode-editor-foreground);
+	--ant-color-text-base: var(--vscode-foreground);
+	--ant-color-text-description: var(--vscode-descriptionForeground);
+	--ant-color-primary: var(--vscode-focusBorder);
+	--ant-control-outline: var(--vscode-focusBorder);
+
+	// ==================== 按鈕 / Buttons ====================
+	// --ant-color-primary 已定義在上面
+	--ant-color-text-light-solid: var(--vscode-button-foreground);
+	--ant-color-primary-hover: var(--vscode-button-hoverBackground);
+	--ant-color-fill-secondary: var(--vscode-button-secondaryBackground);
+	// --ant-color-text 已定義在上面
+	--ant-control-item-bg-hover: var(--vscode-button-secondaryHoverBackground);
+
+	// ==================== 輸入框 / Input ====================
+	// --ant-color-bg-container 已定義在上面
+	// --ant-color-text 已定義在上面
+	--ant-color-border: var(--vscode-input-border);
+	--ant-color-text-placeholder: var(--vscode-input-placeholderForeground);
+	// --ant-color-primary 已定義在上面
+	--ant-color-error-bg: var(--vscode-inputValidation-errorBackground);
+	--ant-color-error-border: var(--vscode-inputValidation-errorBorder);
+	--ant-color-warning-bg: var(--vscode-inputValidation-warningBackground);
+	--ant-color-warning-border: var(--vscode-inputValidation-warningBorder);
+
+	// ==================== 下拉選單 / 彈出層 / Dropdown / Popover ====================
+	--ant-color-bg-elevated: var(--vscode-dropdown-background);
+	// --ant-color-text 已定義在上面
+	--ant-color-border-secondary: var(--vscode-dropdown-border);
+
+	// ==================== 列表 / 選取 / List / Selection ====================
+	--ant-control-item-bg-active: var(--vscode-list-activeSelectionBackground);
+	// --ant-color-primary 已定義在上面
+	// --ant-control-item-bg-hover 已定義在上面
+	// --ant-control-item-bg-active 已定義在上面
+	--ant-color-primary-bg: var(--vscode-editor-selectionBackground);
+
+	// ==================== 連結 / Links ====================
+	--ant-color-link: var(--vscode-textLink-foreground);
+	--ant-color-link-active: var(--vscode-textLink-activeForeground);
+
+	// ==================== 狀態色 / Status Colors ====================
+	--ant-color-error: var(--vscode-errorForeground);
+	--ant-color-warning: var(--vscode-warningForeground);
+	--ant-color-info: var(--vscode-infoForeground);
+	// --ant-color-primary 已定義在上面
+
+	// ==================== 面板 / 佈局 / Panel / Layout ====================
+	--ant-color-bg-layout: var(--vscode-panel-background);
+	// --ant-color-border 已定義在上面
+	// --ant-color-bg-layout 已定義在上面
+	--ant-color-text-heading: var(--vscode-sideBarTitle-foreground);
+
+	// ==================== 徽章 (Badge) / 通知 / Badge / Notification ====================
+	// --ant-color-primary 已定義在上面
+	// --ant-color-text-light-solid 已定義在上面
+	// --ant-color-bg-elevated 已定義在上面
+	// --ant-color-text 已定義在上面
+}
+
+/**
+ * VS Code → Ant Design 映射（精簡版，僅包含常用映射）
+ * VS Code to Ant Design mapping (Lite version, commonly used mappings only)
+ */
+@mixin vscode-to-antd-lite
+{
+	// 基礎色彩 / Basic Colors
+	--ant-color-bg-container: var(--vscode-editor-background);
+	--ant-color-text: var(--vscode-editor-foreground);
+	--ant-color-primary: var(--vscode-focusBorder);
+
+	// 按鈕 / Buttons
+	// --ant-color-primary 已定義在上面
+	--ant-color-text-light-solid: var(--vscode-button-foreground);
+	--ant-color-primary-hover: var(--vscode-button-hoverBackground);
+
+	// 輸入框 / Input
+	--ant-color-border: var(--vscode-input-border);
+	--ant-color-text-placeholder: var(--vscode-input-placeholderForeground);
+
+	// 下拉選單 / Dropdown
+	--ant-color-bg-elevated: var(--vscode-dropdown-background);
+
+	// 狀態色 / Status Colors
+	--ant-color-error: var(--vscode-errorForeground);
+	--ant-color-warning: var(--vscode-warningForeground);
+	--ant-color-info: var(--vscode-infoForeground);
+}
+
+// ============================================
+// Ant Design 到 VS Code 的完整映射
+// Complete mapping from Ant Design to VS Code
+// ============================================
+
+/**
+ * Ant Design → VS Code 映射 Mixin
+ * Ant Design to VS Code mapping mixin
+ *
+ * 將所有 Antd CSS Variable 映射到對應的 VS Code CSS Variable
+ * Maps all Antd CSS Variables to corresponding VS Code CSS Variables
+ *
+ * 注意：由於多個 Antd 變數可能對應到同一個 VS Code 變數，
+ * 此映射僅保留第一個匹配的 VS Code 變數
+ * Note: Since multiple Antd variables may map to the same VS Code variable,
+ * this mapping keeps only the first matched VS Code variable
+ */
+@mixin antd-to-vscode
+{
+	// ==================== 基礎色彩 / Basic Colors ====================
+	--vscode-editor-background: var(--ant-color-bg-container);
+	--vscode-editor-foreground: var(--ant-color-text);
+	--vscode-foreground: var(--ant-color-text-base);
+	--vscode-descriptionForeground: var(--ant-color-text-description);
+	--vscode-focusBorder: var(--ant-color-primary);
+
+	// ==================== 按鈕 / Buttons ====================
+	// --vscode-focusBorder 已定義在上面
+	--vscode-button-background: var(--ant-color-primary);
+	--vscode-button-foreground: var(--ant-color-text-light-solid);
+	--vscode-button-hoverBackground: var(--ant-color-primary-hover);
+	--vscode-button-secondaryBackground: var(--ant-color-fill-secondary);
+	--vscode-button-secondaryForeground: var(--ant-color-text);
+	--vscode-button-secondaryHoverBackground: var(--ant-color-control-item-bg-hover);
+
+	// ==================== 輸入框 / Input ====================
+	// --vscode-editor-background 已定義在上面
+	// --vscode-editor-foreground 已定義在上面
+	--vscode-input-background: var(--ant-color-bg-container);
+	--vscode-input-foreground: var(--ant-color-text);
+	--vscode-input-border: var(--ant-color-border);
+	--vscode-input-placeholderForeground: var(--ant-color-text-placeholder);
+	// --vscode-focusBorder 已定義在上面
+	--vscode-inputOption-activeBorder: var(--ant-color-primary);
+	--vscode-inputValidation-errorBackground: var(--ant-color-error-bg);
+	--vscode-inputValidation-errorBorder: var(--ant-color-error-border);
+	--vscode-inputValidation-warningBackground: var(--ant-color-warning-bg);
+	--vscode-inputValidation-warningBorder: var(--ant-color-warning-border);
+
+	// ==================== 下拉選單 / 彈出層 / Dropdown / Popover ====================
+	--vscode-dropdown-background: var(--ant-color-bg-elevated);
+	// --vscode-editor-foreground 已定義在上面
+	--vscode-dropdown-foreground: var(--ant-color-text);
+	--vscode-dropdown-border: var(--ant-color-border-secondary);
+
+	// ==================== 列表 / 選取 / List / Selection ====================
+	--vscode-list-activeSelectionBackground: var(--ant-color-control-item-bg-active);
+	// --vscode-focusBorder 已定義在上面
+	--vscode-list-activeSelectionForeground: var(--ant-color-primary);
+	--vscode-list-hoverBackground: var(--ant-color-control-item-bg-hover);
+	// --vscode-list-activeSelectionBackground 已定義在上面
+	--vscode-list-focusBackground: var(--ant-color-control-item-bg-active);
+	--vscode-editor-selectionBackground: var(--ant-color-primary-bg);
+
+	// ==================== 連結 / Links ====================
+	--vscode-textLink-foreground: var(--ant-color-link);
+	--vscode-textLink-activeForeground: var(--ant-color-link-active);
+
+	// ==================== 狀態色 / Status Colors ====================
+	--vscode-errorForeground: var(--ant-color-error);
+	--vscode-warningForeground: var(--ant-color-warning);
+	--vscode-infoForeground: var(--ant-color-info);
+	// --vscode-focusBorder 已定義在上面
+	--vscode-progressBar-background: var(--ant-color-primary);
+
+	// ==================== 面板 / 佈局 / Panel / Layout ====================
+	--vscode-panel-background: var(--ant-color-bg-layout);
+	// --vscode-input-border 已定義在上面
+	// --vscode-panel-background 已定義在上面
+	--vscode-panel-border: var(--ant-color-border);
+	--vscode-sideBar-background: var(--ant-color-bg-layout);
+	--vscode-sideBarTitle-foreground: var(--ant-color-text-heading);
+
+	// ==================== 徽章 (Badge) / 通知 / Badge / Notification ====================
+	// --vscode-focusBorder 已定義在上面
+	--vscode-badge-background: var(--ant-color-primary);
+	// --vscode-button-foreground 已定義在上面
+	--vscode-badge-foreground: var(--ant-color-text-light-solid);
+	// --vscode-dropdown-background 已定義在上面
+	--vscode-notifications-background: var(--ant-color-bg-elevated);
+	// --vscode-editor-foreground 已定義在上面
+	--vscode-notifications-foreground: var(--ant-color-text);
+}
+
+/**
+ * Ant Design → VS Code 映射（精簡版，僅包含常用映射）
+ * Ant Design to VS Code mapping (Lite version, commonly used mappings only)
+ */
+@mixin antd-to-vscode-lite
+{
+	// 基礎色彩 / Basic Colors
+	--vscode-editor-background: var(--ant-color-bg-container);
+	--vscode-editor-foreground: var(--ant-color-text);
+	--vscode-focusBorder: var(--ant-color-primary);
+
+	// 按鈕 / Buttons
+	--vscode-button-background: var(--ant-color-primary);
+	--vscode-button-foreground: var(--ant-color-text-light-solid);
+	--vscode-button-hoverBackground: var(--ant-color-primary-hover);
+
+	// 輸入框 / Input
+	--vscode-input-border: var(--ant-color-border);
+	--vscode-input-placeholderForeground: var(--ant-color-text-placeholder);
+
+	// 下拉選單 / Dropdown
+	--vscode-dropdown-background: var(--ant-color-bg-elevated);
+
+	// 狀態色 / Status Colors
+	--vscode-errorForeground: var(--ant-color-error);
+	--vscode-warningForeground: var(--ant-color-warning);
+	--vscode-infoForeground: var(--ant-color-info);
+}
+
+// ============================================
+// 輔助函數：生成單一映射
+// Helper function: Generate single mapping
+// ============================================
+
+/**
+ * 生成單一 VS Code → Ant Design 映射
+ * Generate single VS Code to Ant Design mapping
+ *
+ * @param $vscode-var - VS Code CSS Variable 名稱 / VS Code CSS Variable name
+ * @param $antd-var - Antd CSS Variable 名稱 / Antd CSS Variable name
+ *
+ * @example
+ * ```scss
+ * :root {
+ *   @include vscode-to-antd-single('--vscode-button-background', '--ant-color-primary');
+ * }
+ * // 生成 / Generates:
+ * // --ant-color-primary: var(--vscode-button-background);
+ * ```
+ */
+@mixin vscode-to-antd-single($vscode-var, $antd-var)
+{
+	#{$antd-var}: var(#{$vscode-var});
+}
+
+/**
+ * 生成單一 Ant Design → VS Code 映射
+ * Generate single Ant Design to VS Code mapping
+ *
+ * @param $antd-var - Antd CSS Variable 名稱 / Antd CSS Variable name
+ * @param $vscode-var - VS Code CSS Variable 名稱 / VS Code CSS Variable name
+ *
+ * @example
+ * ```scss
+ * :root {
+ *   @include antd-to-vscode-single('--ant-color-primary', '--vscode-button-background');
+ * }
+ * // 生成 / Generates:
+ * // --vscode-button-background: var(--ant-color-primary);
+ * ```
+ */
+@mixin antd-to-vscode-single($antd-var, $vscode-var)
+{
+	#{$vscode-var}: var(#{$antd-var});
+}
+
+// ============================================
+// 使用者便利 Mixin：直接在 :root 中使用
+// User convenience mixins: Use directly in :root
+// ============================================
+
+/**
+ * 直接在 webview CSS 中覆蓋的完整映射
+ * Complete mapping override directly in webview CSS
+ *
+ * 使用範例 / Usage example:
+ * ```scss
+ * :root {
+ *   @include antd-vscode-mapping.override-vscode-to-antd;
+ * }
+ * ```
+ */
+@mixin override-vscode-to-antd
+{
+	@include vscode-to-antd;
+}
+
+/**
+ * 直接在 webview CSS 中覆蓋的精簡映射
+ * Lite mapping override directly in webview CSS
+ */
+@mixin override-vscode-to-antd-lite
+{
+	@include vscode-to-antd-lite;
+}
+
+/**
+ * 直接在 webview CSS 中覆蓋 Antd → VS Code 的完整映射
+ * Complete Ant Design to VS Code mapping override directly in webview CSS
+ *
+ * 使用範例 / Usage example:
+ * ```scss
+ * :root {
+ *   @include antd-vscode-mapping.override-antd-to-vscode;
+ * }
+ * ```
+ */
+@mixin override-antd-to-vscode
+{
+	@include antd-to-vscode;
+}
+
+/**
+ * 直接在 webview CSS 中覆蓋 Antd → VS Code 的精簡映射
+ * Lite Ant Design to VS Code mapping override directly in webview CSS
+ */
+@mixin override-antd-to-vscode-lite
+{
+	@include antd-to-vscode-lite;
+}

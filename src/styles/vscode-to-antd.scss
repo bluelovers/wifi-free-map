@@ -1,0 +1,74 @@
+/**
+ * VS Code CSS Variable 到 Ant Design CSS Variable 映射
+ * VS Code CSS Variable to Ant Design CSS Variable Mapping
+ *
+ * 用法：在 webview 的 SCSS 中引入此文件
+ * Usage: Import this file in webview SCSS
+ *
+ * 此文件將 VS Code 提供的 CSS 變數映射到 Antd 的 CSS 變數，
+ * 讓組件可以使用 Antd 的 CSS Variable 但實際值來自 VS Code 主題
+ * This file maps VS Code CSS variables to Antd CSS variables,
+ * allowing components to use Antd CSS variables while actual values come from VS Code theme
+ */
+
+:root {
+	// ==================== 基礎色彩 / Basic Colors ====================
+	--ant-color-bg-container: var(--vscode-editor-background);
+	--ant-color-text: var(--vscode-editor-foreground);
+	--ant-color-text-base: var(--vscode-foreground);
+	--ant-color-text-description: var(--vscode-descriptionForeground);
+	--ant-color-primary: var(--vscode-focusBorder);
+
+	// ==================== 按鈕 / Buttons ====================
+	// --ant-color-primary 已定義在上面
+	--ant-color-text-light-solid: var(--vscode-button-foreground);
+	--ant-color-primary-hover: var(--vscode-button-hoverBackground);
+	--ant-color-fill-secondary: var(--vscode-button-secondaryBackground);
+	// --ant-color-text 已定義在上面
+	--ant-control-item-bg-hover: var(--vscode-button-secondaryHoverBackground);
+
+	// ==================== 輸入框 / Input ====================
+	// --ant-color-bg-container 已定義在上面
+	// --ant-color-text 已定義在上面
+	--ant-color-border: var(--vscode-input-border);
+	--ant-color-text-placeholder: var(--vscode-input-placeholderForeground);
+	// --ant-color-primary 已定義在上面
+	--ant-color-error-bg: var(--vscode-inputValidation-errorBackground);
+	--ant-color-error-border: var(--vscode-inputValidation-errorBorder);
+	--ant-color-warning-bg: var(--vscode-inputValidation-warningBackground);
+	--ant-color-warning-border: var(--vscode-inputValidation-warningBorder);
+
+	// ==================== 下拉選單 / 彈出層 / Dropdown / Popover ====================
+	--ant-color-bg-elevated: var(--vscode-dropdown-background);
+	// --ant-color-text 已定義在上面
+	--ant-color-border-secondary: var(--vscode-dropdown-border);
+
+	// ==================== 列表 / 選取 / List / Selection ====================
+	--ant-control-item-bg-active: var(--vscode-list-activeSelectionBackground);
+	// --ant-color-primary 已定義在上面
+	// --ant-control-item-bg-hover 已定義在上面
+	// --ant-control-item-bg-active 已定義在上面
+	--ant-color-primary-bg: var(--vscode-editor-selectionBackground);
+
+	// ==================== 連結 / Links ====================
+	--ant-color-link: var(--vscode-textLink-foreground);
+	--ant-color-link-active: var(--vscode-textLink-activeForeground);
+
+	// ==================== 狀態色 / Status Colors ====================
+	--ant-color-error: var(--vscode-errorForeground);
+	--ant-color-warning: var(--vscode-warningForeground);
+	--ant-color-info: var(--vscode-infoForeground);
+	// --ant-color-primary 已定義在上面
+
+	// ==================== 面板 / 佈局 / Panel / Layout ====================
+	--ant-color-bg-layout: var(--vscode-panel-background);
+	// --ant-color-border 已定義在上面
+	// --ant-color-bg-layout 已定義在上面
+	--ant-color-text-heading: var(--vscode-sideBarTitle-foreground);
+
+	// ==================== 徽章 (Badge) / 通知 / Badge / Notification ====================
+	// --ant-color-primary 已定義在上面
+	// --ant-color-text-light-solid 已定義在上面
+	// --ant-color-bg-elevated 已定義在上面
+	// --ant-color-text 已定義在上面
+}
