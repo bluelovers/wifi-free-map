@@ -491,6 +491,13 @@ export default function FacilityMap()
 	/** 依據搜尋、密碼、分類過濾 WiFi 熱點 */
 	useEffect(() =>
 	{
+		/** 如果關閉 WiFi 開關，則隱藏所有 WiFi 標記 */
+		if (!filters.wifi)
+		{
+			setFilteredHotspots([]);
+			return;
+		}
+
 		/** 先複製陣列避免原地修改 */
 		let filtered = [...(facilityPoint.data?.wifi ?? [])].filter((hotspot) =>
 		{
@@ -615,6 +622,12 @@ export default function FacilityMap()
 	/** 依據分類過濾充電站 */
 	const filteredChargingStations = useMemo(() =>
 	{
+		/** 如果關閉充電開關，則隱藏所有充電標記 */
+		if (!filters.charging)
+		{
+			return [];
+		}
+
 		let filtered = [...(facilityPoint.data?.charging ?? [])];
 
 		// 分類過濾：如果選擇了分類，則只顯示符合選擇分類的充電站
@@ -630,7 +643,7 @@ export default function FacilityMap()
 		}
 
 		return filtered;
-	}, [facilityPoint.data, filters.selectedCategories]);
+	}, [facilityPoint.data, filters.selectedCategories, filters.charging]);
 
 	const facilityPointFilteredData = useMemo(() => {
 		return {
