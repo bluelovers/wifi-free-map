@@ -17,6 +17,9 @@ importers:
       '@jest/globals':
         specifier: ^30.3.0
         version: 30.3.0
+      '@lazy-color/palette-lazy':
+        specifier: ^1.0.2
+        version: 1.0.2
       '@react-leaflet/core':
         specifier: ^3.0.0
         version: 3.0.0(leaflet@1.9.4)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
@@ -35,6 +38,12 @@ importers:
       antd:
         specifier: ^6.3.7
         version: 6.3.7(luxon@3.7.2)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+      colord:
+        specifier: ^2.9.3
+        version: 2.9.3
+      colord-rand-loop:
+        specifier: ^1.0.6
+        version: 1.0.6(ts-toolbelt@9.6.0)
       fs-extra:
         specifier: ^11.3.4
         version: 11.3.4
@@ -50,6 +59,9 @@ importers:
       leaflet-routing-machine:
         specifier: ^3.2.12
         version: 3.2.12
+      loop-colors:
+        specifier: ^1.0.12
+        version: 1.0.12(ts-toolbelt@9.6.0)
       next:
         specifier: ^16.2.4
         version: 16.2.4(@babel/core@7.29.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(sass@1.99.0)
@@ -105,6 +117,9 @@ importers:
       '@next/bundle-analyzer':
         specifier: ^16.2.4
         version: 16.2.4
+      '@rc-component/select':
+        specifier: ^1.6.15
+        version: 1.6.15(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@types/node':
         specifier: ^25.6.0
         version: 25.6.0
@@ -621,11 +636,23 @@ packages:
   '@lazy-array/util-unique@1.0.7':
     resolution: {integrity: sha512-Qd3yR/Zpd+r7XvyTTjS11U2cNr5xLKttBlC2O2bMpugbxPK9vNE/Wo1zIQc59cIK9ksygCJB2PJZ2TrOjvS9Mw==}
 
+  '@lazy-color/palette-lazy@1.0.2':
+    resolution: {integrity: sha512-DAw9nXYvR7IkjUPqXsYw93xvjGQlJd6Co5dT2hyGicDQ47wsvzsYmJ+tZ/mrgwaxvpGHSqfmqUk0NKN4kZWjjQ==}
+
+  '@lazy-color/rand-util@1.0.7':
+    resolution: {integrity: sha512-8dhWYa6Iv/hXoIcb9QrGPiiqSnIoH8zOtDUMD6L/4QRg+f6+6kLZHPDMo7WtglWMkI4fxIAu32qcKIik510OCQ==}
+
+  '@lazy-color/types@1.0.3':
+    resolution: {integrity: sha512-5pAPAB/TLKoyo1nIEzIuZwHFI60NV5fsKRkVv308WyRh9d4y77yV8tKpoKOZ8hcQbrHTnCJmu6/KqvStrc4xHQ==}
+
   '@lazy-node/semver-part@1.0.26':
     resolution: {integrity: sha512-IaW9lKtcUodBg4YfW+tQpnoYRC5xwEQG3eTX5RPxtJuFgy4evjvTV4EsBXQye8wxCg4l3t/7xUdJy0xfVZsS1Q==}
 
   '@lazy-node/types-path@1.0.3':
     resolution: {integrity: sha512-5Bnl5s5jh7o14i0oa7gj+Y0fDLIlri3+KVZmv4gk0OFGuOrOEmWBBCI9ky3Syip5g/yPHZdfa+WO5BVJMUpMdw==}
+
+  '@lazy-num/to-fixed-number@1.0.11':
+    resolution: {integrity: sha512-Tvs3aM/PSDayhn0m8rhXVMGOIVrG2kR5Rllqymf8Nh7SMdzThqGjNU5RlnIrZVQVpYgf/W3VT+F6GCY7tg2tTA==}
 
   '@mapbox/corslite@0.0.7':
     resolution: {integrity: sha512-w/uS474VFjmqQ7fFWIMZINQM1BAQxDLuoJaZZIPES1BmeYpCtlh9MtbFxKGGDAsfvut8/HircIsVvEYRjQ+iMg==}
@@ -1477,6 +1504,12 @@ packages:
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
+  colord-rand-loop@1.0.6:
+    resolution: {integrity: sha512-B0dCpxp7HF9WT5ove+liOK94igZirl1pBByPJJyii4OA82QwkTQ9FhGX/MRWafnObyLaXc2xprQirqLLI71pQA==}
+
+  colord@2.9.3:
+    resolution: {integrity: sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw==}
+
   commander@7.2.0:
     resolution: {integrity: sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==}
     engines: {node: '>= 10'}
@@ -1998,6 +2031,9 @@ packages:
 
   lodash@4.18.1:
     resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
+
+  loop-colors@1.0.12:
+    resolution: {integrity: sha512-gTOx4KAZC5Snr8hFOfzVHBnG8xdC4fcAaCY+M5piLIeVnPOrsxx/wedOzb3r771B75v8WdcRztsdJnrqyzwccQ==}
 
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
@@ -3247,6 +3283,17 @@ snapshots:
 
   '@lazy-array/util-unique@1.0.7': {}
 
+  '@lazy-color/palette-lazy@1.0.2':
+    dependencies:
+      tslib: 2.8.1
+
+  '@lazy-color/rand-util@1.0.7':
+    dependencies:
+      '@lazy-color/types': 1.0.3
+      '@lazy-num/to-fixed-number': 1.0.11
+
+  '@lazy-color/types@1.0.3': {}
+
   '@lazy-node/semver-part@1.0.26':
     dependencies:
       semver: 7.7.4
@@ -3259,6 +3306,8 @@ snapshots:
       tslib: 2.8.1
     transitivePeerDependencies:
       - ts-toolbelt
+
+  '@lazy-num/to-fixed-number@1.0.11': {}
 
   '@mapbox/corslite@0.0.7': {}
 
@@ -4227,6 +4276,16 @@ snapshots:
 
   color-name@1.1.4: {}
 
+  colord-rand-loop@1.0.6(ts-toolbelt@9.6.0):
+    dependencies:
+      '@lazy-color/rand-util': 1.0.7
+      colord: 2.9.3
+      loop-colors: 1.0.12(ts-toolbelt@9.6.0)
+    transitivePeerDependencies:
+      - ts-toolbelt
+
+  colord@2.9.3: {}
+
   commander@7.2.0: {}
 
   compute-scroll-into-view@3.1.1: {}
@@ -4899,6 +4958,12 @@ snapshots:
   lodash.memoize@4.1.2: {}
 
   lodash@4.18.1: {}
+
+  loop-colors@1.0.12(ts-toolbelt@9.6.0):
+    dependencies:
+      ts-type: 3.0.13(ts-toolbelt@9.6.0)
+    transitivePeerDependencies:
+      - ts-toolbelt
 
   lru-cache@10.4.3: {}
 
