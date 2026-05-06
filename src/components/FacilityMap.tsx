@@ -50,6 +50,9 @@ import { FacilityPointDataListAll } from './facilityPoint/FacilityPointDataList'
 import { FacilityPointDataMarkerAll } from './facilityPoint/FacilityPointDataMarker';
 import { BoundsRectangles } from './facilityPoint/BoundsRectangles';
 import { IGeolocationResultWithMeta } from './map/map-btn/FloatGeolocationButton';
+import { _generateColorPresetOutlined, contrastColor, getAdvancedContrastColor4, getAdvancedContrastColor5, getAdvancedContrastColor6, getLchContrastColor3, getSmartContrastColor2, newTagColorsGenerator } from '@/lib/utils/colors-utils';
+import { ColoredSelect } from './input/ColoredSelect';
+import { colord } from 'colord';
 
 /**
  * 側邊欄展開寬度（像素）
@@ -526,6 +529,89 @@ export default function FacilityMap()
 
 	}, [facilityPoint.data, filters]);
 
+	/** 建立一個持久的顏色倉庫 */
+	const colorCacheRef = useRef<Map<string, any>>(new Map());
+	/** 建立顏色生成器 (確保生成器也是持久的，或每次重新生成時略過已使用的顏色) */
+  const colorGenRef = useRef(newTagColorsGenerator());
+
+	const tagCategories = useMemo(() =>
+	{
+		const gen = colorGenRef.current;
+
+		const cache = colorCacheRef.current;
+
+		const bool = (!filters.selectedCategories?.length) ? true : null;
+
+		const allCategories = Array.from(new Set([...cache.keys(), ...facilityPoint.categories]));
+
+		console.log('tagCategories', bool, filters.selectedCategories, allCategories);
+
+		return allCategories.map((category) =>
+		{
+			let cacheValue = cache.get(category)!;
+
+			if (!cache.has(category))
+			{
+				const color = gen.next().value!;
+
+				const text2 = contrastColor(color);
+
+				let text3 = color;
+
+				if (text2 === 'white')
+				{
+					let hsl = text3.toHsl();
+					hsl.l = Math.min(1, hsl.l + 0.25);
+					text3 = colord(hsl);
+				}
+				else
+				{
+					let hsl = text3.toHsl();
+					hsl.l = Math.max(0, hsl.l - 0.25);
+					text3 = colord(hsl);
+				}
+
+				let text4 = color.mix(text2, 0.9);
+				let text5 = color.invert();
+
+				let text6 = getSmartContrastColor2(color);
+				let text7 = getLchContrastColor3(color);
+				let text8 = getAdvancedContrastColor4(color);
+				let text9 = getAdvancedContrastColor5(color);
+				let text10 = getAdvancedContrastColor6(color);
+
+				const colorPreset = {
+					..._generateColorPresetOutlined(color),
+					text2,
+					text3,
+					text4,
+					text5,
+					text6,
+					text7,
+					text8,
+					text9,
+					text10,
+				};
+
+				console.log(category, color, color.isDark(), text2, colorPreset);
+
+				cache.set(category, cacheValue = {
+					color: color.toHex(),
+					colorPreset,
+				});
+			}
+
+			return {
+				value: category,
+				label: category,
+				color: cacheValue!.color,
+				colorPreset: cacheValue!.colorPreset,
+				visible: bool || filters.selectedCategories.includes(category) || null,
+			};
+		});
+
+	}, [facilityPoint.categories, filters.selectedCategories]);
+
 	/** 依據分類過濾充電站 */
 	const filteredChargingStations = useMemo(() =>
 	{
@@ -653,19 +739,14 @@ export default function FacilityMap()
 					{facilityPoint.categories && facilityPoint.categories.length > 0 && (
 						<Flex vertical gap="small">
 							<Typography.Text type="secondary">依分類過濾 / Filter by Category</Typography.Text>
-							<Select
-								mode="multiple"
+							<ColoredSelect
 								placeholder="選擇分類..."
-								value={filters.selectedCategories}
+
 								onChange={(values) => setFilters({ ...filters, selectedCategories: values })}
 								style={{ width: '100%' }}
-								size="small"
-								options={facilityPoint.categories.map(cat => ({
-									value: cat,
-									label: cat,
-								}))}
-								maxTagCount="responsive"
-								allowClear
+
+								value={filters.selectedCategories}
+								options={tagCategories}
 							/>
 						</Flex>
 					)}
@@ -741,18 +822,21 @@ export default function FacilityMap()
 
 			{/* 類別標籤 / Category tags */}
 			<Flex gap="small" align="center" wrap>
-				{[
-					...new Set(filteredHotspots.slice(0, visibleHotspotCount)
-						.map(h => h.category)
-						.filter(Boolean)),
-				].map((category, idx) => (
-					<Tag
-						key={category}
-						color={['blue', 'green', 'red', 'gold', 'purple', 'cyan', 'orange', 'magenta'][idx % 8]}
-					>
-						{category}
-					</Tag>
-				))}
+				{tagCategories.map((category, idx) => {
+					return (
+						<Tag
+							key={category.value}
+							color={category.color}
+							variant={'solid'}
+							style={{
+								color: category.colorPreset.text10.toRgbString(),
+								opacity: category.visible ? 1 : 0.3,
+							}}
+						>
+							{category.label ?? category.value}
+						</Tag>
+					)
+				})}
 			</Flex>
 
 			{/* 設施點列表（僅在側邊欄模式下顯示）/ Facility point list (only in sidebar mode) */}

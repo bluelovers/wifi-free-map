@@ -128,6 +128,8 @@ export const createThemeConfig = (isDark: boolean): { config: ThemeConfig; token
 		colorPrimary: '#1890ff',
 		borderRadius: 6,
 		colorBgBase: isDark ? '#052335' : '#ffffff',
+		fontFamily: '"JetBrains Mono", "Noto Sans CJK JP", "Noto Sans CJK TC", "Noto Sans JP", "Noto Sans TC", sans-serif',
+		fontFamilyCode: '"JetBrains Mono", "Noto Sans CJK JP", "Noto Sans CJK TC", "Noto Sans JP", "Noto Sans TC", sans-serif',
 	};
 
 	const config: ThemeConfig = {
