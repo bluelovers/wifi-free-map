@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import React, { RefObject, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
 
 import L from 'leaflet';
@@ -74,6 +74,36 @@ const LIST_DISPLAY_MODE_KEY = 'wifi-map-list-display-mode';
 type IListDisplayMode = 'sidebar' | 'bottom';
 
 /**
+ * 篩選器狀態介面
+ * Filter state interface
+ */
+interface IFilterState
+{
+	wifi: boolean;
+	charging: boolean;
+	passwordOnly: boolean;
+	searchTerm: string;
+	selectedCategories: string[];
+}
+
+/**
+ * 類別標籤項目介面
+ * Tag category item interface
+ */
+interface ITagCategoryItem
+{
+	value: string;
+	label: string;
+	color: string;
+	colorPreset: {
+		text10: {
+			toRgbString(): string;
+		};
+	};
+	visible: boolean | null;
+}
+
+/**
  * 從 localStorage 讀取列表顯示模式
  * Read list display mode from localStorage
  */
@@ -121,14 +151,14 @@ const setStoredListDisplayMode = (mode: IListDisplayMode): void =>
 function ChangeView({ center, shouldAutoCenter }: {
 	center: IGeoPointTupleLatLng,
 	zoom: number,
-	shouldAutoCenter: boolean,
+	shouldAutoCenter: React.MutableRefObject<boolean>,
 })
 {
 	const map = useMap();
 	useEffect(() =>
 	{
 		/** 只有在需要自動置中時才移動地圖 */
-		if (shouldAutoCenter)
+		if (shouldAutoCenter.current)
 		{
 			console.log('[ChangeView] Setting view to:', center, undefined, { animate: true });
 			map.setView(center, undefined, {
@@ -136,6 +166,8 @@ function ChangeView({ center, shouldAutoCenter }: {
 				duration: 1.5,
 				easeLinearity: 0.2,
 			});
+			/** 重置標誌 / Reset flag */
+			shouldAutoCenter.current = false;
 		}
 	}, [center, map, shouldAutoCenter]);
 	return null;
@@ -143,31 +175,30 @@ function ChangeView({ center, shouldAutoCenter }: {
 
 /**
  * 手動定位模式點擊地圖時設定位置
+ * Manual location mode: set position when clicking on map
  */
 const ManualLocationHandler = ({
 	manualMode,
-	setShouldAutoCenter,
+	shouldAutoCenter,
 	setPosition,
 	setLocationError,
-	setManualMode,
 	updateAddress
 }: {
-	manualMode: boolean;
-	setShouldAutoCenter: (value: boolean) => void;
+	manualMode: React.MutableRefObject<boolean>;
+	shouldAutoCenter: React.MutableRefObject<boolean>;
 	setPosition: (value: IGeoPointTupleLatLng) => void;
 	setLocationError: (value: boolean) => void;
-	setManualMode: (value: boolean) => void;
 	updateAddress: (coord: IGeoCoord) => Promise<void>;
 }) => {
 	// ✅ Hook 現在在組件頂層呼叫
 	useMapEvents({
 		click: (e) => {
-			if (manualMode)
+			if (manualMode.current)
 			{
-				setShouldAutoCenter(false);
+				shouldAutoCenter.current = false;
 				setPosition(wrapPointTupleLatLngFromCoordinate(e.latlng));
 				setLocationError(false);
-				setManualMode(false);
+				manualMode.current = false;
 				updateAddress(e.latlng);
 			}
 		},
@@ -178,16 +209,17 @@ const ManualLocationHandler = ({
 
 /**
  * 右鍵點擊地圖移動定位點
+ * Right-click on map to move location point
  */
 const LongPressHandler = ({
 	longPressToMove,
-	setShouldAutoCenter,
+	shouldAutoCenter,
 	setPosition,
 	setLocationError,
 	updateAddress
 }: {
 	longPressToMove: boolean;
-	setShouldAutoCenter: (value: boolean) => void;
+	shouldAutoCenter: RefObject<boolean>;
 	setPosition: (value: IGeoPointTupleLatLng) => void;
 	setLocationError: (value: boolean) => void;
 	updateAddress: (coord: IGeoCoord) => Promise<void>;
@@ -201,7 +233,7 @@ const LongPressHandler = ({
 			if (!longPressToMove) return;
 
 			e.originalEvent.preventDefault();
-			setShouldAutoCenter(false);
+			shouldAutoCenter.current = false;
 			setPosition(wrapPointTupleLatLngFromCoordinate(e.latlng));
 			setLocationError(false);
 			updateAddress(e.latlng);
@@ -211,7 +243,7 @@ const LongPressHandler = ({
 		return () => {
 			map.off('contextmenu', handleContextMenu);
 		};
-	}, [map, longPressToMove, setShouldAutoCenter, setPosition, setLocationError, updateAddress]);
+	}, [map, longPressToMove, shouldAutoCenter, setPosition, setLocationError, updateAddress]);
 
 	return null;
 };
@@ -299,6 +331,181 @@ function ConditionalLayoutMain(props:  {
 }
 
 /**
+ * 側邊欄搜尋與過濾面板內容 / Sidebar search and filter panel content
+ * 提取到模組層級，避免每次渲染時重建
+ * Extracted to module level to avoid recreation on each render
+ */
+const SidebarContent = (props: {
+	filters: IFilterState;
+	setFilters: (filters: IFilterState) => void;
+	facilityPoint: {
+		categories: string[];
+	};
+	tagCategories: ITagCategoryItem[];
+	effectiveListDisplayMode: IListDisplayMode;
+	toggleListDisplayMode: () => void;
+	setSidebarCollapsed: (collapsed: boolean) => void;
+	longPressToMove: boolean;
+	setLongPressToMove: (value: boolean) => void;
+	mapMode: EnumGoogleMapsMode;
+	setMapMode: (value: EnumGoogleMapsMode) => void;
+	showBounds: boolean;
+	setShowBounds: (value: boolean) => void;
+	facilityPointFilteredData: IApiReturnBlocksBatch["data"];
+	handleListItemClick: (item: IGeoCoord) => void;
+	handleOpenGoogleMaps: (item: IStationBase, isNavigation?: boolean) => void;
+	position: IGeoPointTupleLatLng | null;
+	mapCenter: IGeoCoord | null;
+}) => (
+	<Flex vertical gap="middle" style={{ padding: '12px', height: '100%', overflowY: 'auto' }}>
+		{/* 側邊欄標題、切換按鈕與收合按鈕 / Sidebar header, toggle button and collapse button */}
+		<Flex justify="space-between" align="center">
+			<Typography.Title level={5} style={{ margin: 0 }}>
+				搜尋與過濾
+			</Typography.Title>
+			<Flex gap="small">
+				{/* 列表位置切換按鈕 / List position toggle button */}
+				<Button
+					type="text"
+					icon={props.effectiveListDisplayMode === 'sidebar' ? <VerticalAlignBottomOutlined /> : <LayoutOutlined />}
+					onClick={props.toggleListDisplayMode}
+					size="small"
+					title={props.effectiveListDisplayMode === 'sidebar' ? '切換至底部顯示列表' : '切換至側邊欄顯示列表'}
+				/>
+				<Button
+					type="text"
+					icon={<MenuFoldOutlined />}
+					onClick={() => props.setSidebarCollapsed(true)}
+					size="small"
+					title="收合側邊欄"
+				/>
+			</Flex>
+		</Flex>
+		{/* 搜尋與過濾 / Search and Filter */}
+		<Card size="small" hoverable title="搜尋與過濾">
+			<Flex vertical gap="middle">
+				<Input
+					placeholder="搜尋熱點或 SSID..."
+					prefix={<SearchOutlined />}
+					value={props.filters.searchTerm}
+					onChange={(e) => props.setFilters({ ...props.filters, searchTerm: e.target.value })}
+				/>
+				{/* 分類多選 / Category multi-select */}
+				{props.facilityPoint.categories && props.facilityPoint.categories.length > 0 && (
+					<Flex vertical gap="small">
+						<Typography.Text type="secondary">依分類過濾 / Filter by Category</Typography.Text>
+						<ColoredSelect
+							placeholder="選擇分類..."
+							onChange={(values) => props.setFilters({ ...props.filters, selectedCategories: values })}
+							style={{ width: '100%' }}
+							value={props.filters.selectedCategories}
+							options={props.tagCategories}
+						/>
+					</Flex>
+				)}
+				<Flex gap="middle" wrap>
+					<Flex align="center" gap="small">
+						<WifiOutlined style={{ color: '#1890ff' }} />
+						<Typography.Text>WiFi</Typography.Text>
+						<Switch
+							checked={props.filters.wifi}
+							onChange={(checked) => props.setFilters({ ...props.filters, wifi: checked })}
+							size="small"
+						/>
+					</Flex>
+					<Flex align="center" gap="small">
+						<ThunderboltOutlined style={{ color: '#fa8c16' }} />
+						<Typography.Text>充電</Typography.Text>
+						<Switch
+							checked={props.filters.charging}
+							onChange={(checked) => props.setFilters({ ...props.filters, charging: checked })}
+							size="small"
+						/>
+					</Flex>
+					<Flex align="center" gap="small">
+						<Typography.Text>只顯示有密碼</Typography.Text>
+						<Switch
+							checked={props.filters.passwordOnly}
+							onChange={(checked) => props.setFilters({ ...props.filters, passwordOnly: checked })}
+							size="small"
+						/>
+					</Flex>
+				</Flex>
+			</Flex>
+		</Card>
+
+		{/* 其他選項 / Other Options */}
+		<Card size="small" hoverable title="其他選項">
+			<Flex gap="middle" wrap>
+				<Flex align="center" gap="small">
+					<Switch
+						checked={props.longPressToMove}
+						onChange={(checked) => props.setLongPressToMove(checked)}
+						size="small"
+					/>
+					<Typography.Text>右鍵點擊移動定位點</Typography.Text>
+				</Flex>
+				<Flex align="center" gap="small">
+					<Typography.Text>Google 地圖：</Typography.Text>
+					<Select
+						value={props.mapMode}
+						onChange={(value) =>
+						{
+							props.setMapMode(value);
+							saveGoogleMapsMode(value); // 儲存到 localStorage
+						}}
+						style={{ width: 140 }}
+						size="small"
+						options={getAvailableGoogleMapsModes().map(mode => ({
+							value: mode,
+							label: getGoogleMapsModeDisplayName(mode),
+						}))}
+					/>
+				</Flex>
+				<Flex align="center" gap="small">
+					<Switch
+						checked={props.showBounds}
+						onChange={(checked) => props.setShowBounds(checked)}
+						size="small"
+					/>
+					<Typography.Text>顯示範圍框線</Typography.Text>
+				</Flex>
+			</Flex>
+		</Card>
+
+		{/* 類別標籤 / Category tags */}
+		<Flex gap="small" align="center" wrap>
+			{props.tagCategories.map((category, idx) => {
+				return (
+					<Tag
+						key={category.value}
+						color={category.color}
+						variant={'solid'}
+						style={{
+							color: category.colorPreset.text10.toRgbString(),
+							opacity: category.visible ? 1 : 0.3,
+						}}
+					>
+						{category.label ?? category.value}
+					</Tag>
+				)
+			})}
+		</Flex>
+
+		{/* 設施點列表（僅在側邊欄模式下顯示）/ Facility point list (only in sidebar mode) */}
+		{props.effectiveListDisplayMode === 'sidebar' && (
+			<FacilityPointDataListAll
+				data={props.facilityPointFilteredData}
+				onClick={props.handleListItemClick}
+				onOpenMap={props.handleOpenGoogleMaps}
+				position={props.position!}
+				mapCenter={props.mapCenter!}
+			/>
+		)}
+	</Flex>
+);
+
+/**
  * 設施地圖組件
  * Facility map component
  */
@@ -311,12 +518,12 @@ export default function FacilityMap()
 	const { token } = theme.useToken();
 
 	/** 篩選器狀態 / Filter state */
-	const [filters, setFilters] = useState({
+	const [filters, setFilters] = useState<IFilterState>({
 		wifi: true,
 		charging: true,
 		passwordOnly: false,
 		searchTerm: '', // 熱點搜尋關鍵字
-		selectedCategories: [] as string[], // 選擇的分類清單 / Selected categories
+		selectedCategories: [], // 選擇的分類清單 / Selected categories
 	});
 
 	/** 右鍵點擊地圖移動定位點（預設開啟） / Right-click to move location marker */
@@ -359,8 +566,8 @@ export default function FacilityMap()
 	const [address, setAddress] = useState<string>(''); // 位置地址
 	const [addressLoading, setAddressLoading] = useState<boolean>(false); // 地址查詢載入狀態
 	const [locationError, setLocationError] = useState<boolean>(false);
-	const [manualMode, setManualMode] = useState<boolean>(false);
-	const [shouldAutoCenter, setShouldAutoCenter] = useState<boolean>(false); // 是否應該自動置中
+	const manualMode = useRef<boolean>(false);
+	const shouldAutoCenter = useRef<boolean>(false); // 是否應該自動置中（僅用於邏輯判斷）
 	const [addressSearchTerm, setAddressSearchTerm] = useState<string>(''); // 地址搜尋關鍵字
 
 	/**
@@ -580,7 +787,7 @@ export default function FacilityMap()
 		const lat = parseFloat(result.lat);
 		const lng = parseFloat(result.lon);
 
-		setShouldAutoCenter(false);
+		shouldAutoCenter.current = false;
 		setPosition(wrapPointTupleLatLngFromCoordinate({ lat, lng }));
 		setAddress(result.display_name);
 		setAddressSearchTerm('');
@@ -756,7 +963,7 @@ export default function FacilityMap()
 	// 處理列表項目點擊 - 連動地圖
 	const handleListItemClick = (item: IGeoCoord) =>
 	{
-		setShouldAutoCenter(true);
+		shouldAutoCenter.current = true;
 		setPosition(wrapPointTupleLatLngFromCoordinate(item));
 		setZoom(16); // 放大到能看到詳細資訊的等級
 	};
@@ -810,159 +1017,7 @@ export default function FacilityMap()
 	 */
 	const effectiveListDisplayMode: IListDisplayMode = listDisplayMode;
 
-	/**
-	 * 側邊欄搜尋與過濾面板內容 / Sidebar search and filter panel content
-	 */
-	const SidebarContent = () => (
-		<Flex vertical gap="middle" style={{ padding: '12px', height: '100%', overflowY: 'auto' }}>
-			{/* 側邊欄標題、切換按鈕與收合按鈕 / Sidebar header, toggle button and collapse button */}
-			<Flex justify="space-between" align="center">
-				<Typography.Title level={5} style={{ margin: 0 }}>
-					搜尋與過濾
-				</Typography.Title>
-				<Flex gap="small">
-					{/* 列表位置切換按鈕 / List position toggle button */}
-					<Button
-						type="text"
-						icon={effectiveListDisplayMode === 'sidebar' ? <VerticalAlignBottomOutlined /> : <LayoutOutlined />}
-						onClick={toggleListDisplayMode}
-						size="small"
-						title={effectiveListDisplayMode === 'sidebar' ? '切換至底部顯示列表' : '切換至側邊欄顯示列表'}
-					/>
-					<Button
-						type="text"
-						icon={<MenuFoldOutlined />}
-						onClick={() => setSidebarCollapsed(true)}
-						size="small"
-						title="收合側邊欄"
-					/>
-				</Flex>
-			</Flex>
-			{/* 搜尋與過濾 / Search and Filter */}
-			<Card size="small" hoverable title="搜尋與過濾">
-				<Flex vertical gap="middle">
-					<Input
-						placeholder="搜尋熱點或 SSID..."
-						prefix={<SearchOutlined />}
-						value={filters.searchTerm}
-						onChange={(e) => setFilters({ ...filters, searchTerm: e.target.value })}
-					/>
-					{/* 分類多選 / Category multi-select */}
-					{facilityPoint.categories && facilityPoint.categories.length > 0 && (
-						<Flex vertical gap="small">
-							<Typography.Text type="secondary">依分類過濾 / Filter by Category</Typography.Text>
-							<ColoredSelect
-								placeholder="選擇分類..."
 
-								onChange={(values) => setFilters({ ...filters, selectedCategories: values })}
-								style={{ width: '100%' }}
-
-								value={filters.selectedCategories}
-								options={tagCategories}
-							/>
-						</Flex>
-					)}
-					<Flex gap="middle" wrap>
-						<Flex align="center" gap="small">
-							<WifiOutlined style={{ color: '#1890ff' }} />
-							<Typography.Text>WiFi</Typography.Text>
-							<Switch
-								checked={filters.wifi}
-								onChange={(checked) => setFilters({ ...filters, wifi: checked })}
-								size="small"
-							/>
-						</Flex>
-						<Flex align="center" gap="small">
-							<ThunderboltOutlined style={{ color: '#fa8c16' }} />
-							<Typography.Text>充電</Typography.Text>
-							<Switch
-								checked={filters.charging}
-								onChange={(checked) => setFilters({ ...filters, charging: checked })}
-								size="small"
-							/>
-						</Flex>
-						<Flex align="center" gap="small">
-							<Typography.Text>只顯示有密碼</Typography.Text>
-							<Switch
-								checked={filters.passwordOnly}
-								onChange={(checked) => setFilters({ ...filters, passwordOnly: checked })}
-								size="small"
-							/>
-						</Flex>
-					</Flex>
-				</Flex>
-			</Card>
-
-			{/* 其他選項 / Other Options */}
-			<Card size="small" hoverable title="其他選項">
-				<Flex gap="middle" wrap>
-					<Flex align="center" gap="small">
-						<Switch
-							checked={longPressToMove}
-							onChange={(checked) => setLongPressToMove(checked)}
-							size="small"
-						/>
-						<Typography.Text>右鍵點擊移動定位點</Typography.Text>
-					</Flex>
-					<Flex align="center" gap="small">
-						<Typography.Text>Google 地圖：</Typography.Text>
-						<Select
-							value={mapMode}
-							onChange={(value) =>
-							{
-								setMapMode(value);
-								saveGoogleMapsMode(value); // 儲存到 localStorage
-							}}
-							style={{ width: 140 }}
-							size="small"
-							options={getAvailableGoogleMapsModes().map(mode => ({
-								value: mode,
-								label: getGoogleMapsModeDisplayName(mode),
-							}))}
-						/>
-					</Flex>
-					<Flex align="center" gap="small">
-						<Switch
-							checked={showBounds}
-							onChange={(checked) => setShowBounds(checked)}
-							size="small"
-						/>
-						<Typography.Text>顯示邊界框線</Typography.Text>
-					</Flex>
-				</Flex>
-			</Card>
-
-			{/* 類別標籤 / Category tags */}
-			<Flex gap="small" align="center" wrap>
-				{tagCategories.map((category, idx) => {
-					return (
-						<Tag
-							key={category.value}
-							color={category.color}
-							variant={'solid'}
-							style={{
-								color: category.colorPreset.text10.toRgbString(),
-								opacity: category.visible ? 1 : 0.3,
-							}}
-						>
-							{category.label ?? category.value}
-						</Tag>
-					)
-				})}
-			</Flex>
-
-			{/* 設施點列表（僅在側邊欄模式下顯示）/ Facility point list (only in sidebar mode) */}
-			{effectiveListDisplayMode === 'sidebar' && (
-				<FacilityPointDataListAll
-					data={facilityPointFilteredData}
-					onClick={handleListItemClick}
-					onOpenMap={handleOpenGoogleMaps}
-					position={position}
-					mapCenter={mapCenter!}
-				/>
-			)}
-		</Flex>
-	);
 
 	/**
 	 * 地圖包裝容器
@@ -979,7 +1034,7 @@ export default function FacilityMap()
 							message="定位失敗，請允許 GPS 或手動設定位置。"
 							action={
 								<Space>
-									<Button size="small" onClick={() => setManualMode(true)}>手動定位</Button>
+									<Button size="small" onClick={() => { manualMode.current = true }}>手動定位</Button>
 									<Button size="small" icon={<ReloadOutlined />}
 									        onClick={() => floatGeoRef.current?.click()}>重新請求定位</Button>
 								</Space>
@@ -1010,7 +1065,11 @@ export default function FacilityMap()
 			<Layout style={{ flex: 1, overflow: 'hidden' }}>
 				{/* 左側可收合面板 / Left collapsible sidebar */}
 				<Layout.Sider
+					collapsible
 					width={SIDER_WIDTH}
+					style={{
+						minWidth: SIDER_WIDTH,
+					}}
 					collapsed={sidebarCollapsed}
 					onCollapse={handleSidebarCollapse}
 					breakpoint="md"
@@ -1023,7 +1082,34 @@ export default function FacilityMap()
 						flexDirection: 'column',
 					}}
 				>
-					<SidebarContent />
+					<SidebarContent
+						// 過濾相關
+						filters={filters}
+						setFilters={setFilters}
+						// 設施點數據
+						facilityPoint={facilityPoint}
+						tagCategories={tagCategories}
+						facilityPointFilteredData={facilityPointFilteredData}
+						// 側邊欄顯示模式
+						effectiveListDisplayMode={effectiveListDisplayMode}
+						toggleListDisplayMode={toggleListDisplayMode}
+						setSidebarCollapsed={setSidebarCollapsed}
+						// 長按移動相關
+						longPressToMove={longPressToMove}
+						setLongPressToMove={setLongPressToMove}
+						// 地圖模式
+						mapMode={mapMode}
+						setMapMode={setMapMode}
+						// 邊框顯示
+						showBounds={showBounds}
+						setShowBounds={setShowBounds}
+						// 列表項點擊處理
+						handleListItemClick={handleListItemClick}
+						handleOpenGoogleMaps={handleOpenGoogleMaps}
+						// 位置與中心點
+						position={position}
+						mapCenter={mapCenter}
+					/>
 				</Layout.Sider>
 
 				{/* 地圖區域 + 底部列表面板（條件渲染）/ Map area + Bottom list panel (conditional) */}
@@ -1110,7 +1196,7 @@ export default function FacilityMap()
 								onRequestGeolocation(result: IGeolocationResultWithMeta)
 								{
 									/** 標記需要自動置中 */
-									setShouldAutoCenter(true);
+									shouldAutoCenter.current = true;
 									setPosition(wrapPointTupleLatLngFromCoordinate(result.coord));
 									setLocationError(false);
 									/** 反向地理編碼取得地址 */
@@ -1131,7 +1217,7 @@ export default function FacilityMap()
 									{
 										const latlng = e.target.getLatLng() as IGeoCoord;
 										/** 拖曳定位點後，不自動置中（打斷瀏覽體驗） */
-										setShouldAutoCenter(false);
+										shouldAutoCenter.current = false;
 										setPosition(wrapPointTupleLatLngFromCoordinate(latlng));
 										setLocationError(false);
 										/** 更新拖曳後的地址 */
@@ -1142,16 +1228,15 @@ export default function FacilityMap()
 							{/* 手動定位點擊監聽 */}
 							<ManualLocationHandler
 								manualMode={manualMode}
-								setShouldAutoCenter={setShouldAutoCenter}
+								shouldAutoCenter={shouldAutoCenter}
 								setPosition={setPosition}
 								setLocationError={setLocationError}
-								setManualMode={setManualMode}
 								updateAddress={updateAddress}
 							/>
 							{/* 右鍵點擊移動定位點 */}
 							<LongPressHandler
 								longPressToMove={longPressToMove}
-								setShouldAutoCenter={setShouldAutoCenter}
+								shouldAutoCenter={shouldAutoCenter}
 								setPosition={setPosition}
 								setLocationError={setLocationError}
 								updateAddress={updateAddress}
