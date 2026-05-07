@@ -10,7 +10,7 @@ import useSWR from 'swr';
 import { IApiReturnBlocksBatch } from '../../types/index';
 import { buildFetcher, fetcher } from '../../lib/utils/fetch/fetcher';
 import { getSnappedCoord } from '@/lib/utils/geo/geo-bounds-utils';
-import { IRefObjectMaybe, unwrapRefObject } from '@/lib/utils/react/var-helper';
+import { IRefObjectMaybe, unwrapRefObject } from '@/lib/utils/react/var-helper-pure';
 
 function fillFacilityPointData(data?: IApiReturnBlocksBatch["data"]): IApiReturnBlocksBatch["data"]
 {
