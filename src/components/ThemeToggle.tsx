@@ -29,6 +29,7 @@ export default function ThemeToggle()
 					fontSize: '18px',
 					width: '40px',
 					height: '40px',
+					color: `var(--ant-btn-text-color)`,
 				}}
 			/>
 		</Tooltip>

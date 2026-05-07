@@ -54,19 +54,17 @@ function InternalLayout({
 
 	return (
 		<ConfigProvider theme={themeConfig}>
-			<html lang="zh-TW" data-theme={isDark ? "dark" : "light"}>
+			<html lang="zh-TW" data-theme={isDark ? "dark" : "light"} className={isDark ? "theme-dark" : "theme-light"}>
 			<Head>
 				<link rel="manifest" href="/manifest.json" />
 			</Head>
 			<body>
-
-
 			<Layout>
 				{/* 主題切換按鈕 */}
 				<div
 					style={{
 						position: "fixed",
-						top: "16px",
+						top: "0px",
 						right: "16px",
 						zIndex: 9999,
 					}}

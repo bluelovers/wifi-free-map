@@ -1,6 +1,6 @@
 'use client';
 
-import React, { RefObject, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import React, { RefObject, useCallback, useEffect, useMemo, useRef, useState, ComponentProps } from 'react';
 import { Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
 
 import L from 'leaflet';
@@ -54,6 +54,7 @@ import { _generateColorPresetOutlined, contrastColor, getAdvancedContrastColor4,
 import { ColoredSelect } from './input/ColoredSelect';
 import { colord } from 'colord';
 import { antdTokenToCSSVar, useAsCssVarForStyle } from '@/lib/utils/antd-css-var-utils';
+import { LayoutSiderConditional } from './layout/layout';
 
 /**
  * 側邊欄展開寬度（像素）
@@ -1062,23 +1063,28 @@ export default function FacilityMap()
 			</Layout.Header>
 
 			{/* 主內容區：側邊欄 + 地圖（+ 底部列表面板）/ Main content: Sidebar + Map (+ Bottom list panel) */}
-			<Layout style={{ flex: 1, overflow: 'hidden' }}>
+			<Layout
+				style={{
+					flex: 1,
+					overflow: 'hidden',
+				}}
+				hasSider={true}
+			>
 				{/* 左側可收合面板 / Left collapsible sidebar */}
-				<Layout.Sider
+				<LayoutSiderConditional
 					collapsible
 					width={SIDER_WIDTH}
-					style={{
-						minWidth: SIDER_WIDTH,
-					}}
 					collapsed={sidebarCollapsed}
 					onCollapse={handleSidebarCollapse}
 					breakpoint="md"
 					onBreakpoint={handleBreakpoint}
-					collapsedWidth={0}
+					collapsedWidth={20}
+					// reverseArrow={true}
 					style={{
-						background: token.colorBgContainer,
-						borderRight: `1px solid ${token.colorBorderSecondary}`,
-						display: sidebarCollapsed ? 'none' : 'flex',
+						// minWidth: SIDER_WIDTH,
+						background: useAsCssVarForStyle(antdTokenToCSSVar('colorBgContainer')),
+						borderRight: `1px solid ${useAsCssVarForStyle(antdTokenToCSSVar('colorBorderSecondary'))}`,
+						// display: sidebarCollapsed ? 'none' : 'flex',
 						flexDirection: 'column',
 					}}
 				>
@@ -1110,7 +1116,7 @@ export default function FacilityMap()
 						position={position}
 						mapCenter={mapCenter}
 					/>
-				</Layout.Sider>
+				</LayoutSiderConditional>
 
 				{/* 地圖區域 + 底部列表面板（條件渲染）/ Map area + Bottom list panel (conditional) */}
 				<ConditionalLayoutMain
