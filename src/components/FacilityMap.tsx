@@ -205,7 +205,7 @@ export default function FacilityMap()
 			isNavigation,
 		});
 		openGoogleMaps(url);
-	}, [mapMode]);
+	}, []);
 
 	/** 右鍵點擊地圖移動定位點 */
 	const LongPressHandler = () =>
