@@ -369,11 +369,6 @@ export default function FacilityMap()
 	const [sidebarCollapsed, setSidebarCollapsed] = useState<boolean>(false);
 
 	/**
-	 * 是否為移動裝置（由 Sider 斷點觸發）/ Is mobile device (triggered by Sider breakpoint)
-	 */
-	const [isMobile, setIsMobile] = useState<boolean>(false);
-
-	/**
 	 * 列表顯示位置模式 / List display position mode
 	 */
 	const [listDisplayMode, setListDisplayMode] = useState<IListDisplayMode>(() =>
@@ -389,9 +384,6 @@ export default function FacilityMap()
 		lon: string,
 		display_name: string
 	}[]>([]);
-
-	/** 顯示的熱點數量（分頁用）/ Number of visible hotspots (for pagination) */
-	const [visibleHotspotCount, setVisibleHotspotCount] = useState(20);
 
 	/** 手動設定後，同步更新地址 */
 	const updateAddress = async (coord: IGeoCoord) =>
@@ -784,7 +776,6 @@ export default function FacilityMap()
 	 */
 	const handleBreakpoint = (broken: boolean) =>
 	{
-		setIsMobile(broken);
 		// 當進入移動裝置模式時自動收合，離開時自動展開
 		if (broken)
 		{
