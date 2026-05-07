@@ -142,6 +142,81 @@ function ChangeView({ center, shouldAutoCenter }: {
 }
 
 /**
+ * 手動定位模式點擊地圖時設定位置
+ */
+const ManualLocationHandler = ({
+	manualMode,
+	setShouldAutoCenter,
+	setPosition,
+	setLocationError,
+	setManualMode,
+	updateAddress
+}: {
+	manualMode: boolean;
+	setShouldAutoCenter: (value: boolean) => void;
+	setPosition: (value: IGeoPointTupleLatLng) => void;
+	setLocationError: (value: boolean) => void;
+	setManualMode: (value: boolean) => void;
+	updateAddress: (coord: IGeoCoord) => Promise<void>;
+}) => {
+	// ✅ Hook 現在在組件頂層呼叫
+	useMapEvents({
+		click: (e) => {
+			if (manualMode)
+			{
+				setShouldAutoCenter(false);
+				setPosition(wrapPointTupleLatLngFromCoordinate(e.latlng));
+				setLocationError(false);
+				setManualMode(false);
+				updateAddress(e.latlng);
+			}
+		},
+	});
+
+	return null; // 不渲染任何東西
+};
+
+/**
+ * 右鍵點擊地圖移動定位點
+ */
+const LongPressHandler = ({
+	longPressToMove,
+	setShouldAutoCenter,
+	setPosition,
+	setLocationError,
+	updateAddress
+}: {
+	longPressToMove: boolean;
+	setShouldAutoCenter: (value: boolean) => void;
+	setPosition: (value: IGeoPointTupleLatLng) => void;
+	setLocationError: (value: boolean) => void;
+	updateAddress: (coord: IGeoCoord) => Promise<void>;
+}) => {
+	const map = useMap(); // ✅ Hook 在組件頂層
+
+	useEffect(() => {
+		if (!map) return;
+
+		const handleContextMenu = (e: L.LeafletMouseEvent) => {
+			if (!longPressToMove) return;
+
+			e.originalEvent.preventDefault();
+			setShouldAutoCenter(false);
+			setPosition(wrapPointTupleLatLngFromCoordinate(e.latlng));
+			setLocationError(false);
+			updateAddress(e.latlng);
+		};
+
+		map.on('contextmenu', handleContextMenu);
+		return () => {
+			map.off('contextmenu', handleContextMenu);
+		};
+	}, [map, longPressToMove, setShouldAutoCenter, setPosition, setLocationError, updateAddress]);
+
+	return null;
+};
+
+/**
  * 底部列表面板內容 / Bottom list panel content
  */
 const BottomListPanel = (props: {
@@ -235,26 +310,6 @@ export default function FacilityMap()
 	 */
 	const { token } = theme.useToken();
 
-	/** 手動定位模式點擊地圖時設定位置 */
-	const ManualLocationHandler = () =>
-	{
-		useMapEvents({
-			click: (e) =>
-			{
-				if (manualMode)
-				{
-					setShouldAutoCenter(false); // 手動模式不自動置中
-					setPosition(wrapPointTupleLatLngFromCoordinate(e.latlng));
-					/** 保持目前的 zoom 等級，不改變 */
-					setLocationError(false);
-					setManualMode(false);
-					updateAddress(e.latlng);
-				}
-			},
-		});
-		return null;
-	};
-
 	/** 篩選器狀態 / Filter state */
 	const [filters, setFilters] = useState({
 		wifi: true,
@@ -290,36 +345,6 @@ export default function FacilityMap()
 		openGoogleMaps(url);
 	}, []);
 
-	/** 右鍵點擊地圖移動定位點 */
-	const LongPressHandler = () =>
-	{
-		const map = useMap();
-
-		useEffect(() =>
-		{
-			const handleContextMenu = (e: L.LeafletMouseEvent) =>
-			{
-				// 檢查功能是否啟用（使用 React state 而非 DOM 選擇器）
-				if (!longPressToMove) return;
-
-				// 右鍵點擊來移動定位點 - 不觸發自動置中
-				e.originalEvent.preventDefault();
-				setShouldAutoCenter(false); // 不自動置中
-				setPosition(wrapPointTupleLatLngFromCoordinate(e.latlng));
-				setLocationError(false);
-				updateAddress(e.latlng);
-			};
-
-			map.on('contextmenu', handleContextMenu);
-
-			return () =>
-			{
-				map.off('contextmenu', handleContextMenu);
-			};
-		}, [map, longPressToMove]);
-
-		return null;
-	};
 	const [filteredHotspots, setFilteredHotspots] = useState<IWiFiHotspot[]>([]);
 
 	/** 地圖中心座標 */
@@ -1124,9 +1149,22 @@ export default function FacilityMap()
 								}}
 							/>
 							{/* 手動定位點擊監聽 */}
-							<ManualLocationHandler />
+							<ManualLocationHandler
+								manualMode={manualMode}
+								setShouldAutoCenter={setShouldAutoCenter}
+								setPosition={setPosition}
+								setLocationError={setLocationError}
+								setManualMode={setManualMode}
+								updateAddress={updateAddress}
+							/>
 							{/* 右鍵點擊移動定位點 */}
-							<LongPressHandler />
+							<LongPressHandler
+								longPressToMove={longPressToMove}
+								setShouldAutoCenter={setShouldAutoCenter}
+								setPosition={setPosition}
+								setLocationError={setLocationError}
+								updateAddress={updateAddress}
+							/>
 							<FacilityPointDataMarkerAll
 								data={facilityPointFilteredData}
 								onOpenMap={handleOpenGoogleMaps}
