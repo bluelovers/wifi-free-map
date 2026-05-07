@@ -108,7 +108,7 @@ export function camelCaseToKebabCase(str: string): string
  * 轉換規則：camelCase token 名稱 → kebab-case，加上 `--ant-` 前綴
  * Conversion rule: camelCase token name → kebab-case, add `--ant-` prefix
  *
- * @param token - Antd Token 名稱 / Antd Token name
+ * @param tokenName - Antd Token 名稱 / Antd Token name
  * @returns Antd CSS Variable 名稱 / Antd CSS Variable name
  *
  * @example
@@ -117,19 +117,24 @@ export function camelCaseToKebabCase(str: string): string
  * antdTokenToCSSVar('colorPrimaryHover'); // '--ant-color-primary-hover'
  * ```
  */
-export function antdTokenToCSSVar(token: string): `--ant-${string}`
+export function antdTokenToCSSVar(tokenName: string): `--ant-${string}`
 {
 	/** 優先從映射表中查找 */
 	/** Priority lookup from mapping table */
-	if (antdTokenToCSSVarMap[token])
+	if (antdTokenToCSSVarMap[tokenName])
 	{
-		return antdTokenToCSSVarMap[token];
+		return antdTokenToCSSVarMap[tokenName];
 	}
 
 	/** 若映射表中無，則使用轉換規則 */
 	/** If not in mapping table, use conversion rule */
-	const kebabCase = camelCaseToKebabCase(token);
+	const kebabCase = camelCaseToKebabCase(tokenName);
 	return `--ant-${kebabCase}`;
+}
+
+export function useAsCssVarForStyle(cssvar: `--${string}`)
+{
+	return `var(${cssvar})`;
 }
 
 /**

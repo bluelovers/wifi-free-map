@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
 
 import L from 'leaflet';
@@ -17,7 +17,7 @@ import {
 	VerticalAlignBottomOutlined,
 	WifiOutlined,
 } from '@ant-design/icons';
-import { IWiFiHotspot } from '@/types';
+import { IApiReturnBlocksBatch, IWiFiHotspot } from '@/types';
 import { NOMINATIM_CONTACT_EMAIL } from '@/config/nominatim-config';
 import MarkerClusterGroup from 'react-leaflet-cluster'
 
@@ -53,6 +53,7 @@ import { IGeolocationResultWithMeta } from './map/map-btn/FloatGeolocationButton
 import { _generateColorPresetOutlined, contrastColor, getAdvancedContrastColor4, getAdvancedContrastColor5, getAdvancedContrastColor6, getLchContrastColor3, getSmartContrastColor2, newTagColorsGenerator } from '@/lib/utils/colors-utils';
 import { ColoredSelect } from './input/ColoredSelect';
 import { colord } from 'colord';
+import { antdTokenToCSSVar, useAsCssVarForStyle } from '@/lib/utils/antd-css-var-utils';
 
 /**
  * 側邊欄展開寬度（像素）
@@ -138,6 +139,88 @@ function ChangeView({ center, shouldAutoCenter }: {
 		}
 	}, [center, map, shouldAutoCenter]);
 	return null;
+}
+
+/**
+ * 底部列表面板內容 / Bottom list panel content
+ */
+const BottomListPanel = (props: {
+	toggleListDisplayMode: () => void;
+	facilityPointFilteredData: IApiReturnBlocksBatch["data"];
+
+	handleListItemClick: (hotspot: IStationBase) => void;
+	handleOpenGoogleMaps: (item: IStationBase, isNavigation?: boolean) => void;
+
+	position: IGeoPointTupleLatLng | null;
+	mapCenter: IGeoCoord | null;
+
+}) => (
+	<Flex
+		vertical
+		style={{
+			height: 280,
+			background: useAsCssVarForStyle(antdTokenToCSSVar('colorBgContainer')),
+			borderTop: `1px solid ${useAsCssVarForStyle(antdTokenToCSSVar('colorBorderSecondary'))}`,
+			overflow: 'hidden',
+		}}
+	>
+		{/* 底部面板標題列 / Bottom panel header */}
+		<Flex
+			justify="space-between"
+			align="center"
+			style={{
+				padding: '12px 16px',
+				borderBottom: `1px solid ${useAsCssVarForStyle(antdTokenToCSSVar('colorBorderSecondary'))}`,
+				background: useAsCssVarForStyle(antdTokenToCSSVar('colorBgElevated')),
+			}}
+	>
+			<Typography.Title level={5} style={{ margin: 0 }}>
+				附近設施點
+			</Typography.Title>
+			<Button
+				type="text"
+				icon={<LayoutOutlined />}
+				onClick={props.toggleListDisplayMode}
+				size="small"
+				title="切換至側邊欄顯示列表"
+			>
+				切換至側邊欄
+			</Button>
+		</Flex>
+		{/* 底部列表面板 / Bottom list */}
+		<div style={{ flex: 1, overflow: 'auto', padding: '0 16px' }}>
+			<FacilityPointDataListAll
+				data={props.facilityPointFilteredData}
+				onClick={props.handleListItemClick}
+				onOpenMap={props.handleOpenGoogleMaps}
+				position={props.position!}
+				mapCenter={props.mapCenter!}
+			/>
+		</div>
+	</Flex>
+);
+
+function ConditionalLayoutMain(props:  {
+	effectiveListDisplayMode: IListDisplayMode,
+	children: React.JSX.Element,
+
+	bottomListPanel: React.JSX.Element,
+})
+{
+	if (props.effectiveListDisplayMode !== 'sidebar')
+	{
+		return (
+			/* 底部面板模式：地圖 + 底部列表面板 */
+			<Layout style={{ flex: 1, overflow: 'hidden' }}>
+				{props.children}
+
+				{/* 底部列表面板 / Bottom list panel */}
+				{props.bottomListPanel}
+			</Layout>
+		);
+	}
+
+	return props.children;
 }
 
 /**
@@ -650,14 +733,14 @@ export default function FacilityMap()
 			...facilityPoint.data,
 			[EnumDatasetType.WIFI]: filteredHotspots,
 			[EnumDatasetType.CHARGING]: filteredChargingStations,
-		}
+		} as IApiReturnBlocksBatch["data"]
 	}, [filteredHotspots, filteredChargingStations]);
 
 	// 處理列表項目點擊 - 連動地圖
-	const handleListItemClick = (hotspot: IWiFiHotspot) =>
+	const handleListItemClick = (item: IGeoCoord) =>
 	{
 		setShouldAutoCenter(true);
-		setPosition(wrapPointTupleLatLngFromCoordinate(hotspot));
+		setPosition(wrapPointTupleLatLngFromCoordinate(item));
 		setZoom(16); // 放大到能看到詳細資訊的等級
 	};
 
@@ -866,55 +949,6 @@ export default function FacilityMap()
 	);
 
 	/**
-	 * 底部列表面板內容 / Bottom list panel content
-	 */
-	const BottomListPanel = () => (
-		<Flex
-			vertical
-			style={{
-				height: 280,
-				background: token.colorBgContainer,
-				borderTop: `1px solid ${token.colorBorderSecondary}`,
-				overflow: 'hidden',
-			}}
-		>
-			{/* 底部面板標題列 / Bottom panel header */}
-			<Flex
-				justify="space-between"
-				align="center"
-				style={{
-					padding: '12px 16px',
-					borderBottom: `1px solid ${token.colorBorderSecondary}`,
-					background: token.colorBgElevated,
-				}}
-		>
-				<Typography.Title level={5} style={{ margin: 0 }}>
-					附近設施點
-				</Typography.Title>
-				<Button
-					type="text"
-					icon={<LayoutOutlined />}
-					onClick={toggleListDisplayMode}
-					size="small"
-					title="切換至側邊欄顯示列表"
-				>
-					切換至側邊欄
-				</Button>
-			</Flex>
-			{/* 底部列表面板 / Bottom list */}
-			<div style={{ flex: 1, overflow: 'auto', padding: '0 16px' }}>
-				<FacilityPointDataListAll
-					data={facilityPointFilteredData}
-					onClick={handleListItemClick}
-					onOpenMap={handleOpenGoogleMaps}
-					position={position}
-					mapCenter={mapCenter!}
-				/>
-			</div>
-		</Flex>
-	);
-
-	/**
 	 * 地圖包裝容器
 	 * Map wrapper container
 	 */
@@ -977,8 +1011,20 @@ export default function FacilityMap()
 				</Layout.Sider>
 
 				{/* 地圖區域 + 底部列表面板（條件渲染）/ Map area + Bottom list panel (conditional) */}
-				{effectiveListDisplayMode === 'sidebar' ? (
-					/* 側邊欄模式：僅地圖區域 */
+				<ConditionalLayoutMain
+					effectiveListDisplayMode={effectiveListDisplayMode}
+					bottomListPanel={<BottomListPanel
+					toggleListDisplayMode={toggleListDisplayMode}
+					facilityPointFilteredData={facilityPointFilteredData!}
+
+					handleListItemClick={handleListItemClick!}
+					handleOpenGoogleMaps={handleOpenGoogleMaps!}
+
+					position={position!}
+					mapCenter={mapCenter!}
+					/>}
+					>
+					{/* 側邊欄模式：僅地圖區域 */}
 					<Layout.Content style={{ position: 'relative', overflow: 'hidden' }}>
 						{/* 側邊欄展開按鈕（當收合時顯示）/ Sidebar expand button (shown when collapsed) */}
 						{sidebarCollapsed && (
@@ -989,7 +1035,7 @@ export default function FacilityMap()
 								style={{
 									position: 'absolute',
 									top: 16,
-									left: 16,
+									left: 50,
 									zIndex: 1001,
 								}}
 								title="展開側邊欄"
@@ -1002,8 +1048,8 @@ export default function FacilityMap()
 						<div style={{
 							position: 'absolute',
 							top: sidebarCollapsed ? 64 : 16,
-							left: 16,
-							right: 16,
+							left: 50,
+							right: 50,
 							zIndex: 1000,
 							maxWidth: 400,
 						}}>
@@ -1104,125 +1150,8 @@ export default function FacilityMap()
 						</MapTileLayer>
 					</div>
 				</Layout.Content>
-			) : (
-				/* 底部面板模式：地圖 + 底部列表面板 */
-				<Layout style={{ flex: 1, overflow: 'hidden' }}>
-					{/* 地圖區域（上方）/ Map area (top) */}
-					<Layout.Content style={{ position: 'relative', overflow: 'hidden', flex: 1 }}>
-						{/* 側邊欄展開按鈕（當收合時顯示）/ Sidebar expand button (shown when collapsed) */}
-						{sidebarCollapsed && (
-							<Button
-								type="primary"
-								icon={<MenuUnfoldOutlined />}
-								onClick={() => setSidebarCollapsed(false)}
-								style={{
-									position: 'absolute',
-									top: 16,
-									left: 16,
-									zIndex: 1001,
-								}}
-								title="展開側邊欄"
-							>
-								搜尋
-							</Button>
-						)}
 
-						{/* 地址搜尋浮動面板 / Address search floating panel */}
-						<div style={{
-							position: 'absolute',
-							top: sidebarCollapsed ? 64 : 16,
-							left: 16,
-							right: 16,
-							zIndex: 1000,
-							maxWidth: 400,
-						}}>
-							<Input
-								placeholder="輸入地址搜尋..."
-								value={addressSearchTerm}
-								onChange={(e) => handleAddressSearch(e.target.value)}
-								style={{ width: '100%' }}
-							/>
-							{addressSearchResults.length > 0 && (
-								<Card style={{ marginTop: 8, maxHeight: 300, overflow: 'auto' }}>
-									<Flex component="div" vertical gap="zero">
-										{addressSearchResults.map((result, index) => (
-											<Flex
-												component="div"
-												key={index}
-												style={{ cursor: 'pointer', padding: '8px 12px' }}
-												onClick={() => selectAddressResult(result)}
-											>
-												{result.display_name}
-											</Flex>
-										))}
-									</Flex>
-								</Card>
-							)}
-						</div>
-
-						{/* 地圖容器 / Map container */}
-						<div style={{ height: '100%', width: '100%' }}>
-							<MapTileLayer
-								center={position}
-								zoom={zoom}
-								style={{ height: '100%', width: '100%' }}
-								doubleClickZoom={false}
-								mapRef={mapRef}
-								setZoom={setZoom}
-								onMapCenterChange={setMapCenter}
-								floatGeoProps={{
-									btnRef: floatGeoRef,
-									autoRequestGeolocation: true,
-									onRequestGeolocation(result: IGeolocationResultWithMeta)
-									{
-										setShouldAutoCenter(true);
-										setPosition(wrapPointTupleLatLngFromCoordinate(result.coord));
-										setLocationError(false);
-										updateAddress(result.coord);
-									},
-									onError(error: Error)
-									{
-										setLocationError(true);
-									},
-								}}
-							>
-								<CircleMarkerSVG
-									position={position}
-									color={'#c70eeb'}
-									fillOpacity={0.5}
-									eventHandlers={{
-										dragend: (e) =>
-										{
-											const latlng = e.target.getLatLng() as IGeoCoord;
-											setShouldAutoCenter(false);
-											setPosition(wrapPointTupleLatLngFromCoordinate(latlng));
-											setLocationError(false);
-											updateAddress(latlng);
-										},
-									}}
-								/>
-								<ManualLocationHandler />
-								<LongPressHandler />
-								<FacilityPointDataMarkerAll
-									data={facilityPointFilteredData}
-									onOpenMap={handleOpenGoogleMaps}
-								/>
-								<BoundsRectangles
-									matchedRangeBounds={facilityPoint.matchedRangeBounds!}
-									triggerThresholdRangeBounds={facilityPoint.triggerThresholdRangeBounds!}
-									blockScanRangeBounds={facilityPoint.blockScanRangeBounds!}
-									mapCenter={mapCenter!}
-									visible={showBounds}
-								/>
-								<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
-							</MapTileLayer>
-						</div>
-					</Layout.Content>
-
-					{/* 底部列表面板 / Bottom list panel */}
-					<BottomListPanel />
-				</Layout>
-			)}
+				</ConditionalLayoutMain>
 		</Layout>
 	</Layout>
 );

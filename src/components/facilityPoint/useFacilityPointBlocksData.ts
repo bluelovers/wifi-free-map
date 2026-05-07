@@ -12,7 +12,7 @@ import { buildFetcher, fetcher } from '../../lib/utils/fetch/fetcher';
 import { getSnappedCoord } from '@/lib/utils/geo/geo-bounds-utils';
 import { IRefObjectMaybe, unwrapRefObject } from '@/lib/utils/react/var-helper';
 
-function fillFacilityPointData(data?: IApiReturnBlocksBatch["data"])
+function fillFacilityPointData(data?: IApiReturnBlocksBatch["data"]): IApiReturnBlocksBatch["data"]
 {
 
 	const facilityPointData = data ?? {} as IApiReturnBlocksBatch["data"];
