@@ -277,3 +277,10 @@ body
 	z-index: 9999;
 }
 
+.ant-card-hoverable:hover
+{
+	/**
+	 * 搭配 boxShadowCard 達到 保留邊框 但顯示陰影
+	 */
+  border-color: var(--ant-color-border-secondary) !important;
+}

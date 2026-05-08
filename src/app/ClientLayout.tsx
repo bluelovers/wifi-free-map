@@ -3,8 +3,8 @@
 import { useEffect } from 'react';
 import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { ConfigProvider, Layout } from "antd";
-import { ThemeProvider, useTheme, useCurrentTheme } from "@/components/ThemeProvider";
-import ThemeToggle from "@/components/ThemeToggle";
+import { ThemeProvider, useTheme, useCurrentTheme } from "@/components/theme/ThemeProvider";
+import ThemeToggle from "@/components/theme/ThemeToggle";
 import Head from "next/head";
 import { applyTokensAsCssVars } from '@/lib/utils/style/doc-style';
 import { EnumThemeClassName, EnumThemeDataAttr } from '@/lib/utils/style/css-const';

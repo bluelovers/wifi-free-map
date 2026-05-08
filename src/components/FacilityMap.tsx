@@ -78,7 +78,7 @@ import { ColoredSelect } from './input/ColoredSelect';
 import { colord } from 'colord';
 import { antdTokenToCSSVar, useAsCssVarForStyle } from '../lib/utils/style/antd-css-var-utils';
 import { LayoutSiderConditional } from './layout/layout';
-import { useTheme } from './ThemeProvider';
+import { useTheme } from './theme/ThemeProvider';
 
 /**
  * 側邊欄展開寬度（像素）
@@ -516,6 +516,7 @@ const SidebarContent = (props: {
 						style={{
 							color: category.colorPreset.text10.toRgbString(),
 							opacity: category.visible ? 1 : 0.3,
+							fontWeight: 'bold',
 						}}
 					>
 						{category.label ?? category.value}

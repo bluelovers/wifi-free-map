@@ -15,6 +15,7 @@ import { AliasToken } from 'antd/es/theme/interface';
 
 import { EnumThemeDataAttr } from '@/lib/utils/style/css-const';
 import { ITSPickExtra } from 'ts-type';
+import { createThemeConfigSeedToken002, createThemeConfigSeedToken003, createThemeConfigSeedToken004 } from './theme-set';
 
 const { getDesignToken, useToken } = theme;
 
@@ -150,20 +151,16 @@ export const createThemeConfig = (isDark: boolean): IThemeSet =>
 	/**
 	 * 只設定需要的 seed token - 其餘顏色由 algorithm 計算並自動填充
 	 */
-	const seedToken: Partial<AliasToken> = {
-		colorPrimary: '#cb2b83',
-		borderRadius: 6,
-		colorBgBase: isDark ? '#052335' : '#ffffff',
-		fontFamily: `"JetBrains Mono", "Noto Sans CJK JP", "Noto Sans CJK TC", "Noto Sans JP", "Noto Sans TC", sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'`,
-		fontFamilyCode: `"JetBrains Mono", "Noto Sans CJK JP", "Noto Sans CJK TC", "Noto Sans JP", "Noto Sans TC", sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'`,
-	};
+	const themeConfigSet = createThemeConfigSeedToken004(isDark);
 
 	const config: ThemeConfig = {
-		token: seedToken,
+		token: themeConfigSet.token,
+		components: themeConfigSet.components,
 		algorithm: [
 			algorithm,
 			// theme.compactAlgorithm,
 		],
+		hashed: false,
 	};
 
 	/**
@@ -210,8 +207,20 @@ export function ThemeProvider({ children }: { children: ReactNode })
 	 * 兩套完整主題資料集（dark + light），初始化時一次產生
 	 * Both complete theme data sets (dark + light), generated once on init
 	 */
-	const [darkTheme] = useState<IThemeSet>(() => createThemeConfig(true));
-	const [lightTheme] = useState<IThemeSet>(() => createThemeConfig(false));
+	const [darkTheme, setDarkTheme] = useState<IThemeSet>(() => createThemeConfig(true));
+	const [lightTheme, setLightTheme] = useState<IThemeSet>(() => createThemeConfig(false));
+
+	/**
+	 * @title 主題配置更新（開發期間使用）
+	 * @description 根據 isDark 狀態更新主題配置
+	 */
+	(typeof process !== 'undefined' && process?.env?.NODE_ENV !== 'production') && useEffect(() =>
+	{
+
+		setDarkTheme(() => createThemeConfig(true));
+		setLightTheme(() => createThemeConfig(false));
+
+	}, [isDark]);
 
 	/**
 	 * @title 主題同步監聽器
