@@ -13,7 +13,13 @@
 import { IHotspot, IHotspot_auth, IRawHotspot_iTaiwan, IRawHotspot_TaipeiFree } from "@/types/station-wifi";
 import type { IChargingStation, IRawChargingStation } from "@/types/station-charging";
 import { ITSGenerator, ITSPickExtra } from 'ts-type';
-import { EnumDatasetSource, EnumDatasetType, EnumWifiAuthType, EnumWifiSSIDName, IValueArrayOrIterable } from '@/lib/utils/grid/grid-types';
+import {
+	EnumDatasetSource,
+	EnumDatasetType,
+	EnumWifiAuthType,
+	EnumWifiSSIDName,
+	IValueArrayOrIterable,
+} from '@/lib/utils/grid/grid-types';
 import { IStationBase } from '@/types/station-base';
 import { GLOBAL_GRID_CONFIG_PRECISION_MAKRER } from '@/lib/utils/grid/grid-const';
 import { _normalizeCoordScalarFromStringNumberCore } from '@/lib/utils/geo/geo-transform';
@@ -78,7 +84,9 @@ export function convertWiFiRaw_TaipeiFree_To_iTaiwan(raw: IRawHotspot_TaipeiFree
 	};
 }
 
-export function _normalizeWifiSSID(raw: IRawHotspot_iTaiwan, ssid: EnumWifiSSIDName): IRawHotspot_iTaiwan & IHotspot_auth
+export function _normalizeWifiSSID(raw: IRawHotspot_iTaiwan,
+	ssid: EnumWifiSSIDName,
+): IRawHotspot_iTaiwan & IHotspot_auth
 {
 	if (!raw.ssid && ssid)
 	{

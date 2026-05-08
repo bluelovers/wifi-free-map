@@ -1,4 +1,3 @@
-
 import { RefObject } from 'react';
 
 export type IRefObjectMaybe<T> = T | RefObject<T>;

@@ -73,7 +73,9 @@ function buildNavUrl(dest: string): string
  * @returns Google Maps URL
  * @throws 若無法產生 URL則拋出錯誤 / Throws error if URL cannot be generated
  */
-export function generateGoogleMapsUrl(item: ITSPartialPick<IStationBase, 'name' | 'address' | 'lat' | 'lng'>, options: IGoogleMapsQueryOptions): string
+export function generateGoogleMapsUrl(item: ITSPartialPick<IStationBase, 'name' | 'address' | 'lat' | 'lng'>,
+	options: IGoogleMapsQueryOptions,
+): string
 {
 
 	let coord: IGeoCoord = (item.lat || item.lng) ? item as any : null;
@@ -152,7 +154,6 @@ export function generateGoogleMapsUrl(item: ITSPartialPick<IStationBase, 'name' 
 			break;
 
 		case EnumGoogleMapsMode.WebAddressName:
-
 
 			if (address)
 			{

@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { isCoordWithinRange } from '../../lib/utils/geo/geo-check';
 import
-	{
-		transformCoordinateToUriQueryLatLng,
-		wrapCoordinateFromPointTupleLatLng,
-	} from '../../lib/utils/geo/geo-transform';
+{
+	transformCoordinateToUriQueryLatLng,
+	wrapCoordinateFromPointTupleLatLng,
+} from '../../lib/utils/geo/geo-transform';
 import { EnumDatasetType, IGeoCoord, IGeoPointTupleLatLng, IGpsLngLatMinMax } from '../../lib/utils/grid/grid-types';
 import useSWR from 'swr';
 import { IApiReturnBlocksBatch } from '../../types/index';
@@ -28,7 +28,9 @@ function fillFacilityPointData(data?: IApiReturnBlocksBatch["data"]): IApiReturn
 	return facilityPointData;
 }
 
-export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeoCoord, ignoreCheck?: IRefObjectMaybe<boolean>)
+export function useFacilityPointBlocksData(position: IGeoPointTupleLatLng | IGeoCoord,
+	ignoreCheck?: IRefObjectMaybe<boolean>,
+)
 {
 	/**
 	 * 使用 useRef 記憶邊界。

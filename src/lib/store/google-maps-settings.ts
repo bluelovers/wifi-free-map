@@ -6,7 +6,7 @@
  * Provides local storage for Google Maps settings
  */
 
-import { EnumGoogleMapsMode } from './google-maps-url';
+import { EnumGoogleMapsMode } from '../utils/google-maps-url';
 
 /** localStorage 鍵名 / localStorage key name */
 const GOOGLE_MAPS_MODE_KEY = 'google-maps-mode';

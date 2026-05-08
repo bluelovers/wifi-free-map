@@ -23,7 +23,7 @@ export function useRefState<T>(initialState: T | (() => T))
 	const ref = useRef<T>(
 		typeof initialState === 'function'
 			? (initialState as () => T)()
-			: initialState
+			: initialState,
 	);
 
 	/**

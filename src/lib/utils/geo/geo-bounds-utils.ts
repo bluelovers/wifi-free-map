@@ -17,7 +17,10 @@ export interface IOptionsExpandRangeBounds
  * @param offset - 擴張程度（度數）/ Expansion offset in degrees
  *
  */
-export function expandRangeLngLatMinMax(range: IGpsLngLatMinMax, offset: number, opts?: IOptionsExpandRangeBounds): IGpsLngLatMinMax
+export function expandRangeLngLatMinMax(range: IGpsLngLatMinMax,
+	offset: number,
+	opts?: IOptionsExpandRangeBounds,
+): IGpsLngLatMinMax
 {
 	let offsetLng = offset;
 	let offsetLat = offset;
@@ -45,7 +48,10 @@ export function expandRangeLngLatMinMax(range: IGpsLngLatMinMax, offset: number,
  * 縮減地理範圍 (向內收縮)
  * Shrinks the geographic range inwards
  */
-export function shrinkRangeLngLatMinMax(range: IGpsLngLatMinMax, offset: number, opts?: IOptionsExpandRangeBounds): IGpsLngLatMinMax
+export function shrinkRangeLngLatMinMax(range: IGpsLngLatMinMax,
+	offset: number,
+	opts?: IOptionsExpandRangeBounds,
+): IGpsLngLatMinMax
 {
 	// 實際上就是 expandRange 的負值操作
 	return expandRangeLngLatMinMax(range, -offset, opts);
@@ -58,7 +64,7 @@ export function _getSnappedCoordScalarCore(val: number, base: number, snapSize: 
 	/** 2. 轉回座標並偏移至該網格中心 (避免邊界切換過於敏感) */
 	return _normalizeCoordScalarCore(
 		_calcBlockIndexToRangeScalarCore(idx, base, snapSize) + (toCenter ? (snapSize * 0.5) : 0),
-		GLOBAL_GRID_CONFIG_PRECISION
+		GLOBAL_GRID_CONFIG_PRECISION,
 	);
 }
 

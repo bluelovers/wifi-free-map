@@ -66,33 +66,6 @@ export const useThrottle = <V>(value: V, wait: number) =>
 };
 
 /**
- * 針對 UI 渲染優化的極簡 Throttle
- *
- * 捲動/動畫同步
- */
-export const useThrottleAnimationFrame = <V>(value: V) =>
-{
-	const [throttledValue, setThrottledValue] = useState(value);
-	const rafRef = useRef<number>(0);
-
-	useEffect(() =>
-	{
-		if (rafRef.current) return;
-
-		rafRef.current = requestAnimationFrame(() =>
-		{
-			setThrottledValue(value);
-			rafRef.current = 0;
-		});
-
-		return () => cancelAnimationFrame(rafRef.current);
-	}, [value]);
-
-	return throttledValue;
-};
-
-
-/**
  * @title 防抖函數 Hook (useDebounceFn)
  * @description 確保在指定的時間間隔內，無論觸發多少次，函數只會在最後一次觸發後的延遲時間結束時執行。
  *
@@ -189,7 +162,8 @@ export const useThrottleFn = <T extends (...args: any[]) => any>(fn: T, wait: nu
 		{
 			/** 立即執行（Leading Edge） */
 			execute();
-		} else if (!timer.current)
+		}
+		else if (!timer.current)
 		{
 			/** 確保週期內最後一次動作會被執行（Trailing Edge） */
 			timer.current = setTimeout(execute, remaining);

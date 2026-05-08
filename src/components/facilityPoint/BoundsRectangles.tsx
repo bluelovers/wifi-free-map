@@ -89,14 +89,14 @@ export function BoundsRectangles(props: IBoundsRectanglesProps)
 			)}
 
 			{/**
-				* 以 mapCenter 為中心的十字線
-				* Crosshair centered at mapCenter
-				*/}
+			 * 以 mapCenter 為中心的十字線
+			 * Crosshair centered at mapCenter
+			 */}
 			{props.mapCenter && (
 				<>
 					{/**
-						* 水平線（東西向）/ Horizontal line (east-west)
-						*/}
+					 * 水平線（東西向）/ Horizontal line (east-west)
+					 */}
 					<Polyline
 						positions={[
 							[props.mapCenter.lat, props.mapCenter.lng - 0.02],
@@ -114,8 +114,8 @@ export function BoundsRectangles(props: IBoundsRectanglesProps)
 						}}
 					/>
 					{/**
-						* 垂直線（南北向）/ Vertical line (north-south)
-						*/}
+					 * 垂直線（南北向）/ Vertical line (north-south)
+					 */}
 					<Polyline
 						positions={[
 							[props.mapCenter.lat - 0.02, props.mapCenter.lng],

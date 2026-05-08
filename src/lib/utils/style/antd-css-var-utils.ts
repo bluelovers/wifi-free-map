@@ -7,6 +7,7 @@
  *
  * @see https://app.dosu.dev/1305af31-9246-4d2d-add3-27e8cdd7f529/ask?thread=939ba633-620b-4072-80e2-54a0dfed6aed
  */
+import { ICssVarKey, ICssVarKeyAntd, ICssVarKeyVsCode } from '@/lib/utils/style/css-const';
 
 /**
  * 完整的 Antd Token 到 Antd CSS Variable 映射表
@@ -15,7 +16,7 @@
  * 包含 docs/style/antd-css-var.md 中所有列出的 token
  * Includes all tokens listed in docs/style/antd-css-var.md
  */
-const antdTokenToCSSVarMap: Record<string, `--ant-${string}`> = {
+const antdTokenToCSSVarMap: Record<string, ICssVarKeyAntd> = {
 	// ==================== 基礎色彩 / Basic Colors ====================
 	'colorBgContainer': '--ant-color-bg-container',
 	'colorText': '--ant-color-text',
@@ -117,7 +118,7 @@ export function camelCaseToKebabCase(str: string): string
  * antdTokenToCSSVar('colorPrimaryHover'); // '--ant-color-primary-hover'
  * ```
  */
-export function antdTokenToCSSVar(tokenName: string): `--ant-${string}`
+export function antdTokenToCSSVar(tokenName: string): ICssVarKeyAntd
 {
 	/** 優先從映射表中查找 */
 	/** Priority lookup from mapping table */
@@ -132,7 +133,7 @@ export function antdTokenToCSSVar(tokenName: string): `--ant-${string}`
 	return `--ant-${kebabCase}`;
 }
 
-export function useAsCssVarForStyle(cssvar: `--${string}`)
+export function useAsCssVarForStyle(cssvar: ICssVarKey)
 {
 	return `var(${cssvar})`;
 }
@@ -186,7 +187,7 @@ export function convertTokenObjectToCSSVar<T extends Record<string, any>>(
 	options?: {
 		deep?: boolean;
 		override?: boolean;
-	}
+	},
 ): T
 {
 	const { deep = false, override = false } = options || {};
@@ -241,7 +242,7 @@ export function convertTokenObjectToCSSVar<T extends Record<string, any>>(
  *
  * @returns 完整映射表 / Complete mapping table
  */
-export function getAllAntdTokenToCSSVarMappings(): Record<string, `--ant-${string}`>
+export function getAllAntdTokenToCSSVarMappings(): Record<string, ICssVarKeyAntd>
 {
 	return { ...antdTokenToCSSVarMap };
 }
@@ -295,7 +296,7 @@ export function convertTokenKeysToCSSVar<T extends Record<string, any>>(
 	options?: {
 		deep?: boolean;
 		override?: boolean;
-	}
+	},
 ): Record<string, any>
 {
 	const { deep = false, override = false } = options || {};
@@ -391,7 +392,7 @@ export function convertTokenObjectKeysAndValuesToCSSVar<T extends Record<string,
 	options?: {
 		deep?: boolean;
 		override?: boolean;
-	}
+	},
 ): Record<string, any>
 {
 	/** 先轉換 key */
@@ -403,6 +404,89 @@ export function convertTokenObjectKeysAndValuesToCSSVar<T extends Record<string,
 	const result = convertTokenObjectToCSSVar(keysConverted, { ...options, override: false });
 
 	return result;
+}
+
+/**
+ * 底層 Generator：遍歷 tokenObj 並逐步返回原始的 [key, value] 對
+ * Low-level Generator: Walk through tokenObj and yield original [key, value] pairs
+ *
+ * 這是所有 Generator 轉換函數的底層基礎，不進行任何轉換邏輯，
+ * 專門處理物件的深度遍歷，回傳原始的 key 和 value。
+ * This is the foundational generator for all generator conversion functions.
+ * It handles object deep traversal without any conversion logic,
+ * returning original key and value.
+ *
+ * @param obj - 要遍歷的物件 / Object to walk through
+ * @param options - 選項 / Options
+ * @param options.deep - 是否深度遍歷巢狀物件 / Whether to deep traverse nested objects
+ * @yields 原始的 [key, value] 對 / Original [key, value] pairs
+ *
+ * @example
+ * ```typescript
+ * const config = {
+ *   colorPrimary: '#1890ff',
+ *   colorBgContainer: '#ffffff',
+ *   nested: {
+ *     colorText: '#000000'
+ *   }
+ * };
+ *
+ * // 基本使用（不遍歷巢狀物件）
+ * // Basic usage (no deep traversal)
+ * for (const [key, value] of walkTokenObjectGenerator(config)) {
+ *   console.log(key, value);
+ *   // 'colorPrimary' '#1890ff'
+ *   // 'colorBgContainer' '#ffffff'
+ *   // nested 物件原樣保留（未深度遍歷）
+ * }
+ *
+ * // 深度遍歷
+ * // Deep traversal
+ * for (const [key, value] of walkTokenObjectGenerator(config, { deep: true })) {
+ *   console.log(key, value);
+ *   // 'colorPrimary' '#1890ff'
+ *   // 'colorBgContainer' '#ffffff'
+ *   // 'colorText' '#000000'
+ * }
+ *
+ * // 手動控制迭代
+ * // Manual iteration control
+ * const gen = walkTokenObjectGenerator(config);
+ * console.log(gen.next()); // { value: ['colorPrimary', '#1890ff'], done: false }
+ * console.log(gen.next()); // { value: ['colorBgContainer', '#ffffff'], done: false }
+ * console.log(gen.next()); // { value: undefined, done: true }
+ * ```
+ */
+export function* walkTokenObjectGenerator<T = any>(
+	obj: Record<string, T>,
+	options?: {
+		deep?: boolean;
+	},
+): Generator<[tokenKey: string, value: T], void, unknown>
+{
+	const { deep = false } = options || {};
+
+	for (const key of Object.keys(obj))
+	{
+		const value = obj[key];
+
+		/**
+		 * 若啟用深度遍歷且值為物件（非 null 且非陣列），則遞迴處理
+		 * If deep traversal enabled and value is object (not null and not array), recursively process
+		 */
+		if (deep && value && typeof value === 'object' && !Array.isArray(value))
+		{
+			yield* walkTokenObjectGenerator(value as Record<string, any>, { deep });
+		}
+		/**
+		 * 其他情況直接回傳原始的 key 和 value
+		 * In other cases, return original key and value directly
+		 */
+		else
+		{
+			yield [key, value] as [tokenKey: string, value: T];
+		}
+	}
 }
 
 /**
@@ -448,38 +532,18 @@ export function* convertTokenKeysToCSSVarGenerator(
 	tokenObj: Record<string, any>,
 	options?: {
 		deep?: boolean;
-	}
+	},
 ): Generator<[string, any], void, unknown>
 {
 	const { deep = false } = options || {};
 
-	/**
-	 * 遞迴處理物件
-	 * Recursive processing function
-	 */
-	function* processObject(obj: Record<string, any>): Generator<[string, any], void, unknown>
+	for (const [key, value] of walkTokenObjectGenerator(tokenObj, { deep }))
 	{
-		for (const key of Object.keys(obj))
-		{
-			/** 將 key 轉換為 CSS Variable 形式 */
-			/** Convert key to CSS Variable format */
-			const cssVarKey = antdTokenToCSSVar(key);
-			const value = obj[key];
-
-			/** 若啟用深度轉換且值為物件（非 null 且非陣列），則遞迴處理 */
-			/** If deep conversion enabled and value is object (not null and not array), recursively process */
-			if (deep && value && typeof value === 'object' && !Array.isArray(value))
-			{
-				yield* processObject(value);
-			}
-			else
-			{
-				yield [cssVarKey, value] as [string, any];
-			}
-		}
+		/** 將 key 轉換為 CSS Variable 形式 */
+		/** Convert key to CSS Variable format */
+		const cssVarKey = antdTokenToCSSVar(key);
+		yield [cssVarKey, value] as [string, any];
 	}
-
-	yield* processObject(tokenObj);
 }
 
 /**
@@ -517,44 +581,29 @@ export function* convertTokenObjectToCSSVarGenerator(
 	tokenObj: Record<string, any>,
 	options?: {
 		deep?: boolean;
-	}
-): Generator<[string, `--ant-${string}`], void, unknown>
+	},
+): Generator<[string, ICssVarKeyAntd], void, unknown>
 {
 	const { deep = false } = options || {};
 
-	/**
-	 * 遞迴處理物件
-	 * Recursive processing function
-	 */
-	function* processObject(obj: Record<string, any>): Generator<[string, `--ant-${string}`], void, unknown>
+	for (const [key, value] of walkTokenObjectGenerator(tokenObj, { deep }))
 	{
-		for (const key of Object.keys(obj))
+		/** 若為字串，嘗試轉換為 CSS Variable */
+		/** If string, try to convert to CSS Variable */
+		if (typeof value === 'string')
 		{
-			const value = obj[key];
-
-			/** 若為字串，嘗試轉換 */
-			/** If string, try to convert */
-			if (typeof value === 'string')
-			{
-				const cssVarValue = antdTokenToCSSVar(value);
-				yield [key, cssVarValue] as [string, `--ant-${string}`];
-			}
-			/** 若啟用深度轉換且值為物件（非 null 且非陣列），則遞迴處理 */
-			/** If deep conversion enabled and value is object (not null and not array), recursively process */
-			else if (deep && value && typeof value === 'object' && !Array.isArray(value))
-			{
-				yield* processObject(value);
-			}
-			/** 其他情況，直接返回原始值 */
-			/** In other cases, return original value directly */
-			else
-			{
-				yield [key, value] as [string, `--ant-${string}`];
-			}
+			const cssVarValue = antdTokenToCSSVar(value);
+			yield [key, cssVarValue] as [string, ICssVarKeyAntd];
+		}
+		/**
+		 * 其他情況，直接返回原始值
+		 * In other cases, return original value directly
+		 */
+		else
+		{
+			yield [key, value] as [string, ICssVarKeyAntd];
 		}
 	}
-
-	yield* processObject(tokenObj);
 }
 
 /**
@@ -588,47 +637,33 @@ export function* convertTokenObjectKeysAndValuesToCSSVarGenerator(
 	tokenObj: Record<string, any>,
 	options?: {
 		deep?: boolean;
-	}
-): Generator<[string, `--ant-${string}`], void, unknown>
+	},
+): Generator<[string, ICssVarKeyAntd], void, unknown>
 {
 	const { deep = false } = options || {};
 
-	/**
-	 * 遞迴處理物件
-	 * Recursive processing function
-	 */
-	function* processObject(obj: Record<string, any>): Generator<[string, `--ant-${string}`], void, unknown>
+	for (const [key, value] of walkTokenObjectGenerator(tokenObj, { deep }))
 	{
-		for (const key of Object.keys(obj))
-		{
-			/** 轉換 key */
-			/** Convert key */
-			const cssVarKey = antdTokenToCSSVar(key);
-			const value = obj[key];
+		/** 轉換 key 為 CSS Variable 形式 */
+		/** Convert key to CSS Variable format */
+		const cssVarKey = antdTokenToCSSVar(key);
 
-			/** 若為字串，轉換 value */
-			/** If string, convert value */
-			if (typeof value === 'string')
-			{
-				const cssVarValue = antdTokenToCSSVar(value);
-				yield [cssVarKey, cssVarValue] as [string, `--ant-${string}`];
-			}
-			/** 若啟用深度轉換且值為物件（非 null 且非陣列），則遞迴處理 */
-			/** If deep conversion enabled and value is object (not null and not array), recursively process */
-			else if (deep && value && typeof value === 'object' && !Array.isArray(value))
-			{
-				yield* processObject(value);
-			}
-			/** 其他情況，直接返回 key 轉換後的結果，value 保持原樣 */
-			/** In other cases, return key converted result, value remains unchanged */
-			else
-			{
-				yield [cssVarKey, value] as [string, `--ant-${string}`];
-			}
+		/** 若為字串，轉換 value */
+		/** If string, convert value */
+		if (typeof value === 'string')
+		{
+			const cssVarValue = antdTokenToCSSVar(value);
+			yield [cssVarKey, cssVarValue] as [string, ICssVarKeyAntd];
+		}
+		/**
+		 * 其他情況，value 保持原樣
+		 * In other cases, value remains unchanged
+		 */
+		else
+		{
+			yield [cssVarKey, value] as [string, ICssVarKeyAntd];
 		}
 	}
-
-	yield* processObject(tokenObj);
 }
 
 /**
@@ -652,11 +687,11 @@ export function* convertTokenObjectKeysAndValuesToCSSVarGenerator(
  * }
  * ```
  */
-export function* allAntdTokenMappingsGenerator(): Generator<[string, `--ant-${string}`], void, unknown>
+export function* allAntdTokenMappingsGenerator(): Generator<[string, ICssVarKeyAntd], void, unknown>
 {
 	for (const [token, cssVar] of Object.entries(antdTokenToCSSVarMap))
 	{
-		yield [token, cssVar] as [string, `--ant-${string}`];
+		yield [token, cssVar] as [string, ICssVarKeyAntd];
 	}
 }
 
@@ -664,7 +699,7 @@ export function* allAntdTokenMappingsGenerator(): Generator<[string, `--ant-${st
  * VS Code CSS Variable 到 Antd CSS Variable 的映射表
  * Mapping table from VS Code CSS Variable to Antd CSS Variable
  */
-const vsCodeToAntdCSSVarMap: Record<`--vscode-${string}`, `--ant-${string}`> = {
+const vsCodeToAntdCSSVarMap: Record<ICssVarKeyVsCode, ICssVarKeyAntd> = {
 	// 基礎色彩 / Basic Colors
 	'--vscode-editor-background': '--ant-color-bg-container',
 	'--vscode-editor-foreground': '--ant-color-text',
@@ -735,7 +770,7 @@ const vsCodeToAntdCSSVarMap: Record<`--vscode-${string}`, `--ant-${string}`> = {
  * Note: Since multiple VS Code variables may map to the same Antd variable,
  * this mapping keeps only the first matched VS Code variable
  */
-const antdCSSVarToVScodeCSSVarMap: Record<string, string> = {};
+const antdCSSVarToVScodeCSSVarMap: Record<ICssVarKeyAntd, ICssVarKeyVsCode> = {};
 
 /**
  * 初始化反向映射表
@@ -762,7 +797,7 @@ _initReverseMap();
  * Antd Token 到 VS Code CSS Variable 的映射表
  * Mapping table from Antd Token to VS Code CSS Variable
  */
-const antdTokenToVScodeCSSVarMap: Record<string, `--vscode-${string}`> = {
+const antdTokenToVScodeCSSVarMap: Record<string, ICssVarKeyVsCode> = {
 	// 基礎色彩 / Basic Colors
 	'colorBgContainer': '--vscode-editor-background',
 	'colorText': '--vscode-editor-foreground',
@@ -839,7 +874,7 @@ const antdTokenToVScodeCSSVarMap: Record<string, `--vscode-${string}`> = {
  * antdTokenToVSCodeCSSVar('nonExistent'); // undefined
  * ```
  */
-export function antdTokenToVSCodeCSSVar(token: string): `--vscode-${string}` | undefined
+export function antdTokenToVSCodeCSSVar(token: string): ICssVarKeyVsCode | undefined
 {
 	return antdTokenToVScodeCSSVarMap[token];
 }
@@ -858,7 +893,7 @@ export function antdTokenToVSCodeCSSVar(token: string): `--vscode-${string}` | u
  * antdCSSVarToVSCodeCSSVar('--ant-non-existent'); // undefined
  * ```
  */
-export function antdCSSVarToVSCodeCSSVar(cssVar: `--ant-${string}`): `--vscode-${string}` | undefined
+export function antdCSSVarToVSCodeCSSVar(cssVar: ICssVarKeyAntd): ICssVarKeyVsCode | undefined
 {
 	return antdCSSVarToVScodeCSSVarMap[cssVar];
 }
@@ -877,7 +912,7 @@ export function antdCSSVarToVSCodeCSSVar(cssVar: `--ant-${string}`): `--vscode-$
  * vsCodeCSSVarToAntdCSSVar('--vscode-non-existent'); // undefined
  * ```
  */
-export function vsCodeCSSVarToAntdCSSVar(vsCodeVar: `--vscode-${string}`): `--ant-${string}` | undefined
+export function vsCodeCSSVarToAntdCSSVar(vsCodeVar: ICssVarKeyVsCode): ICssVarKeyAntd | undefined
 {
 	return vsCodeToAntdCSSVarMap[vsCodeVar];
 }
@@ -897,7 +932,7 @@ export function vsCodeCSSVarToAntdCSSVar(vsCodeVar: `--vscode-${string}`): `--an
  * antdTokenToVSCodeCSSVarViaCSSVar('colorPrimary'); // '--vscode-focusBorder'
  * ```
  */
-export function antdTokenToVSCodeCSSVarViaCSSVar(token: string): `--vscode-${string}` | undefined
+export function antdTokenToVSCodeCSSVarViaCSSVar(token: string): ICssVarKeyVsCode | undefined
 {
 	const cssVar = antdTokenToCSSVar(token);
 	return antdCSSVarToVSCodeCSSVar(cssVar);
@@ -909,7 +944,7 @@ export function antdTokenToVSCodeCSSVarViaCSSVar(token: string): `--vscode-${str
  *
  * @returns 映射表 / Mapping table
  */
-export function getAllVScodeToAntdCSSVarMappings(): Record<`--vscode-${string}`, `--ant-${string}`>
+export function getAllVScodeToAntdCSSVarMappings(): Record<ICssVarKeyVsCode, ICssVarKeyAntd>
 {
 	return { ...vsCodeToAntdCSSVarMap };
 }
@@ -920,7 +955,7 @@ export function getAllVScodeToAntdCSSVarMappings(): Record<`--vscode-${string}`,
  *
  * @returns 映射表 / Mapping table
  */
-export function getAllAntdCSSVarToVScodeMappings(): Record<`--ant-${string}`, `--vscode-${string}`>
+export function getAllAntdCSSVarToVScodeMappings(): Record<ICssVarKeyAntd, ICssVarKeyVsCode>
 {
 	return { ...antdCSSVarToVScodeCSSVarMap };
 }
@@ -931,7 +966,108 @@ export function getAllAntdCSSVarToVScodeMappings(): Record<`--ant-${string}`, `-
  *
  * @returns 映射表 / Mapping table
  */
-export function getAllAntdTokenToVScodeMappings(): Record<string, `--vscode-${string}`>
+export function getAllAntdTokenToVScodeMappings(): Record<string, ICssVarKeyVsCode>
 {
 	return { ...antdTokenToVScodeCSSVarMap };
 }
+
+/**
+ * 生成 CSS 變數宣告字串，支援深度遍歷巢狀物件
+ * Generate CSS variable declaration string, supports deep traversal of nested objects
+ *
+ * 遍歷 token 物件並產生如 `--ant-color-primary: #1677ff;` 的宣告字串
+ * Iterates through token object and generates declarations like `--ant-color-primary: #1677ff;`
+ *
+ * @param tokens - 包含 token 的物件 / Object containing tokens
+ * @param options - 選項 / Options
+ * @param options.prefix - CSS 變數前綴，預設為 'ant-' / CSS variable prefix, defaults to 'ant-'
+ * @param options.deep - 是否深度遍歷巢狀物件，預設 true / Whether to deep traverse nested objects, defaults to true
+ * @param options.emitGeneric - 是否同時產生不帶前綴的通用 CSS 變數（如 --color-primary），預設 false / Whether to also emit generic CSS var without prefix (e.g. --color-primary), defaults to false
+ * @returns CSS 變數宣告字串陣列 / Array of CSS variable declaration strings
+ *
+ * @example
+ * ```typescript
+ * const tokens = {
+ *   colorPrimary: '#1677ff',
+ *   colorBgContainer: '#ffffff',
+ * };
+ *
+ * // 只有前綴版本
+ * // Prefix-only version
+ * generateTokenCSSDeclarations(tokens);
+ * // ['--ant-color-primary: #1677ff;', '--ant-color-bg-container: #ffffff;']
+ *
+ * // 同時產生通用版本
+ * // With generic variant
+ * generateTokenCSSDeclarations(tokens, { emitGeneric: true });
+ * // ['--ant-color-primary: #1677ff;', '--ant-color-bg-container: #ffffff;',
+ * //  '--color-primary: #1677ff;', '--color-bg-container: #ffffff;']
+ * ```
+ */
+export function generateTokenCSSDeclarations(
+	tokens: Record<string, any>,
+	options?: {
+		prefix?: string;
+		deep?: boolean;
+		emitGeneric?: boolean;
+	},
+): string[]
+{
+	const { prefix = 'ant-', deep = true, emitGeneric = false } = options || {};
+	const declarations: string[] = [];
+
+	for (const [key, value] of walkTokenObjectGenerator(tokens, { deep }))
+	{
+		const kebabKey = camelCaseToKebabCase(key);
+
+		/**
+		 * 產生前綴版本（如 --ant-color-primary）
+		 * Emit prefix variant (e.g. --ant-color-primary)
+		 */
+		declarations.push(`--${prefix}${kebabKey}: ${String(value)};`);
+
+		/**
+		 * 若啟用 emitGeneric，同時產生不帶前綴的通用版本（如 --color-primary）
+		 * If emitGeneric enabled, also emit the bare generic variant (e.g. --color-primary)
+		 */
+		if (emitGeneric)
+		{
+			declarations.push(`--${kebabKey}: ${String(value)};`);
+		}
+	}
+
+	return declarations;
+}
+
+export function* generateTokenCSSDeclarationsGenerator(
+	tokens: Record<string, any>,
+	options?: {
+		prefix?: string;
+		deep?: boolean;
+		emitGeneric?: boolean;
+	},
+): Generator<[cssVar: string, cssValue: any], void, unknown>
+{
+	const { prefix = 'ant-', deep = true, emitGeneric = false } = options || {};
+
+	for (const [key, value] of walkTokenObjectGenerator(tokens, { deep }))
+	{
+		const kebabKey = camelCaseToKebabCase(key);
+
+		/**
+		 * 產生前綴版本（如 --ant-color-primary）
+		 * Emit prefix variant (e.g. --ant-color-primary)
+		 */
+		yield [`--${prefix}${kebabKey}`, String(value)];
+
+		/**
+		 * 若啟用 emitGeneric，同時產生不帶前綴的通用版本（如 --color-primary）
+		 * If emitGeneric enabled, also emit the bare generic variant (e.g. --color-primary)
+		 */
+		if (emitGeneric)
+		{
+			yield [`--${kebabKey}`, String(value)];
+		}
+	}
+}
+

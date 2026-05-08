@@ -1,4 +1,3 @@
-
 import { Select, Tag } from 'antd';
 import type { SelectProps, TagProps } from 'antd';
 import { ITSPartialPick, ITSPickExtra } from 'ts-type';
@@ -29,7 +28,7 @@ export function ColoredSelect(selectProps: SelectProps<string[], IColoredSelectI
 		options,
 
 		...restProps
-	 } = selectProps;
+	} = selectProps;
 
 	console.log('ColoredSelect', selectProps.options);
 

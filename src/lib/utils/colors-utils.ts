@@ -89,29 +89,32 @@ export function _generateColorPresetOutlined(baseHex: IColorInput)
 	const baseS = hsl.s;
 	const baseL = hsl.l;
 
-	// ============ text ============
+	/** ============ text ============ */
 	const text = colord({ h: baseH + 2, s: baseS * 1.05, l: baseL + 11.5 });
 
-	// ============ bg ============
+	/** ============ bg ============ */
 	const bg = colord({ h: baseH - 3, s: baseS * 0.45, l: baseL <= 45 ? 14 : 12 });
 
-	// ============ border ============
-	// 目标: c0 L=22, c10 L=35
-	// 两者的目标完全不同，需要两种公式
+	/** ============ border ============ */
+
+	/**
+	 * 目标: c0 L=22, c10 L=35
+	 * 两者的目标完全不同，需要两种公式
+	 */
 	let borderL: number;
 	if (baseL < 35)
 	{
-		// 暗 base (<35): 固定较亮
+		/** 暗 base (<35): 固定较亮 */
 		borderL = 35;
 	}
 	else if (baseL < 48)
 	{
-		// 中等 base (35-48): 目标约 22-35
+		/** 中等 base (35-48): 目标约 22-35 */
 		borderL = baseL - 9;
 	}
 	else
 	{
-		// 亮 base (>=48): 目标约 22
+		/** 亮 base (>=48): 目标约 22 */
 		borderL = 22;
 	}
 
@@ -124,39 +127,56 @@ export function contrastColor(baseHex: IColorInput)
 {
 	const base = colord(baseHex).toRgb();
 	const r = base.r, g = base.g, b = base.b;
-	return (((r*299)+(g*587)+(b*144))/1000) >= 131.5 ? 'black' as const : 'white' as const;
+	return (((r * 299) + (g * 587) + (b * 144)) / 1000) >= 131.5 ? 'black' as const : 'white' as const;
 }
 
-export function getSmartContrastColor2(baseHex: IColorInput) {
-  const color = colord(baseHex);
-  const { h, s, l } = color.toHsl();
+export function getSmartContrastColor2(baseHex: IColorInput)
+{
+	const color = colord(baseHex);
+	const { h, s, l } = color.toHsl();
 
-  // 使用更精確的人眼感知亮度判斷 (WCAG 2.0 亮度公式)
-  const isLight = color.isLight();
+	/** 使用更精確的人眼感知亮度判斷 (WCAG 2.0 亮度公式) */
+	const isLight = color.isLight();
 
-  if (isLight) {
-    // 如果背景是淺色 -> 文字用該色相的「極深色」
-    // 降低飽和度避免過於刺眼，亮度控制在 5-15%
-    return colord({ h, s: s * 0.6, l: 10 });
-  } else {
-    // 如果背景是深色 -> 文字用該色相的「極淺色」
-    // 稍微混合一點背景色相，亮度控制在 95-98%
-    return colord({ h, s: s * 0.2, l: 96 });
-  }
+	if (isLight)
+	{
+		/**
+		 * 如果背景是淺色 -> 文字用該色相的「極深色」
+		 * 降低飽和度避免過於刺眼，亮度控制在 5-15%
+		 */
+		return colord({ h, s: s * 0.6, l: 10 });
+	}
+	else
+	{
+		/**
+		 * 如果背景是深色 -> 文字用該色相的「極淺色」
+		 * 稍微混合一點背景色相，亮度控制在 95-98%
+		 */
+		return colord({ h, s: s * 0.2, l: 96 });
+	}
 }
 
-export function getLchContrastColor3(baseHex: IColorInput) {
-  const color = colord(baseHex);
-  const { l, c, h } = color.toLch();
+export function getLchContrastColor3(baseHex: IColorInput)
+{
+	const color = colord(baseHex);
+	const { l, c, h } = color.toLch();
 
-  // Lab 的 L 範圍是 0-100，通常 60 以上視為淺色
-  const isLight = l > 60;
+	/**
+	 * Lab 的 L 範圍是 0-100，通常 60 以上視為淺色
+	 */
+	const isLight = l > 60;
 
-  return colord({
-    l: isLight ? 15 : 98, // 極深或極淺
-    c: isLight ? c * 0.4 : c * 0.1, // 根據背景鮮豔度保留一點色彩
-    h: h
-  });
+	return colord({
+		/**
+		 * 極深或極淺
+		 */
+		l: isLight ? 15 : 98,
+		/**
+		 * 根據背景鮮豔度保留一點色彩
+		 */
+		c: isLight ? c * 0.4 : c * 0.1,
+		h: h,
+	});
 }
 
 export function newTagColorsGenerator()
@@ -188,121 +208,153 @@ export function newTagColorsGenerator()
 /**
  * 將 0-255 的 sRGB 通道轉換為線性空間值
  */
-function sRGBToLinear(v: number): number {
-  const c = v / 255;
-  return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+function sRGBToLinear(v: number): number
+{
+	const c = v / 255;
+	return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
 }
 
 /**
  * 實作 WCAG 2.0 相對亮度公式
  */
-function getRelativeLuminance(rgb: { r: number; g: number; b: number }): number {
-  const R = sRGBToLinear(rgb.r);
-  const G = sRGBToLinear(rgb.g);
-  const B = sRGBToLinear(rgb.b);
-  // WCAG 標準加權係數
-  return 0.2126 * R + 0.7152 * G + 0.0722 * B;
+function getRelativeLuminance(rgb: { r: number; g: number; b: number }): number
+{
+	const R = sRGBToLinear(rgb.r);
+	const G = sRGBToLinear(rgb.g);
+	const B = sRGBToLinear(rgb.b);
+	// WCAG 標準加權係數
+	return 0.2126 * R + 0.7152 * G + 0.0722 * B;
 }
 
-export function getAdvancedContrastColor4(baseInput: IColorInput) {
-  const instance = colord(baseInput);
-  const rgb = instance.toRgb();
-  const hsl = instance.toHsl();
+export function getAdvancedContrastColor4(baseInput: IColorInput)
+{
+	const instance = colord(baseInput);
+	const hsl = instance.toHsl();
+	const isLightBackground = _getAdvancedContrastColor_isLight(instance);
 
-  // 1. 計算物理亮度 (Luminance)
-  const luminance = getRelativeLuminance(rgb);
-
-  // 2. 判斷是否為淺色背景 (依據 WCAG 標準，0.179 是常用的黑白分水嶺)
-  // 你也可以根據視覺偏好微調此數值，例如 0.18 ~ 0.2
-  const isLightBackground = luminance > 0.179;
-
-  if (isLightBackground) {
-    // 淺色背景 -> 生成「深色文字」
-    // 策略：保留原色相，降低飽和度（避免刺眼），極低亮度（維持可讀性）
-    return colord({
-      h: hsl.h,
-      s: hsl.s * 0.6, // 降低原飽和度至 60%
-      l: 12,          // 亮度控制在 12% 左右，看起來像極深色而非純黑
-      a: 1
-    });
-  } else {
-    // 深色背景 -> 生成「淺色文字」
-    // 策略：保留原色相，大幅降低飽和度，極高亮度
-    return colord({
-      h: hsl.h,
-      s: hsl.s * 0.2, // 只需要一點點原色調，否則會變太鮮豔
-      l: 97,           // 亮度 96% 看起來非常接近白色但更柔和
-      a: 1
-    });
-  }
+	if (isLightBackground)
+	{
+		/**
+		 * 淺色背景 -> 生成「深色文字」
+		 * 策略：保留原色相，降低飽和度（避免刺眼），極低亮度（維持可讀性）
+		 */
+		return colord({
+			h: hsl.h,
+			/** 降低原飽和度至 60% */
+			s: hsl.s * 0.6,
+			/** 亮度控制在 12% 左右，看起來像極深色而非純黑 */
+			l: 12,
+			a: 1,
+		});
+	}
+	else
+	{
+		/**
+		 * 深色背景 -> 生成「淺色文字」
+		 * 策略：保留原色相，大幅降低飽和度，極高亮度
+		 */
+		return colord({
+			h: hsl.h,
+			/** 只需要一點點原色調，否則會變太鮮豔 */
+			s: hsl.s * 0.2,
+			/** 亮度 96% 看起來非常接近白色但更柔和 */
+			l: 97,
+			a: 1,
+		});
+	}
 }
 
-export function getAdvancedContrastColor5(baseInput: IColorInput) {
-  const instance = colord(baseInput);
-  const hsl = instance.toHsl();
-  const isLightBackground = _getAdvancedContrastColor_isLight(instance);
+export function getAdvancedContrastColor5(baseInput: IColorInput)
+{
+	const instance = colord(baseInput);
+	const hsl = instance.toHsl();
+	const isLightBackground = _getAdvancedContrastColor_isLight(instance);
 
-  if (isLightBackground) {
-    // 淺色背景 -> 生成「深色文字」
-    // 策略：保留原色相，降低飽和度（避免刺眼），極低亮度（維持可讀性）
-    return colord({
-      h: hsl.h,
-      s: hsl.s * 0.6, // 降低原飽和度至 60%
-      l: 12,          // 亮度控制在 12% 左右，看起來像極深色而非純黑
-      a: 1
-    });
-  } else {
-    // 深色背景 -> 生成「淺色文字」
-    // 策略：保留原色相，大幅降低飽和度，極高亮度
-    return colord({
-      h: hsl.h,
-      s: Math.max(hsl.s, 10), // 只需要一點點原色調，否則會變太鮮豔
-      l: 93,           // 亮度 96% 看起來非常接近白色但更柔和
-      a: 1
-    });
-  }
+	if (isLightBackground)
+	{
+		/**
+		 * 淺色背景 -> 生成「深色文字」
+		 * 策略：保留原色相，降低飽和度（避免刺眼），極低亮度（維持可讀性）
+		 */
+		return colord({
+			h: hsl.h,
+			/** 降低原飽和度至 60% */
+			s: hsl.s * 0.6,
+			/** 亮度控制在 12% 左右，看起來像極深色而非純黑 */
+			l: 12,
+			a: 1,
+		});
+	}
+	else
+	{
+		/**
+		 * 深色背景 -> 生成「淺色文字」
+		 * 策略：保留原色相，大幅降低飽和度，極高亮度
+		 */
+		return colord({
+			h: hsl.h,
+			/** 只需要一點點原色調，否則會變太鮮豔 */
+			s: Math.max(hsl.s, 10),
+			/** 亮度 96% 看起來非常接近白色但更柔和 */
+			l: 93,
+			a: 1,
+		});
+	}
 }
 
-export function getAdvancedContrastColor6(baseInput: IColorInput) {
-  const instance = colord(baseInput);
-  const hsl = instance.toHsl();
-  const isLightBackground = _getAdvancedContrastColor_isLight(instance);
+export function getAdvancedContrastColor6(baseInput: IColorInput)
+{
+	const instance = colord(baseInput);
+	const hsl = instance.toHsl();
+	const isLightBackground = _getAdvancedContrastColor_isLight(instance);
 
-  console.log('isLightBackground', isLightBackground, hsl);
+	console.log('isLightBackground', isLightBackground, hsl);
 
-  if (isLightBackground) {
-    // 淺色背景 -> 生成「深色文字」
-    // 策略：保留原色相，降低飽和度（避免刺眼），極低亮度（維持可讀性）
-    return colord({
-      h: hsl.h,
-      s: Math.max(hsl.s * 0.6, 90), // 降低原飽和度至 60%
-      l: 13,          // 亮度控制在 12% 左右，看起來像極深色而非純黑
-      a: 1
-    });
-  } else {
-    // 深色背景 -> 生成「淺色文字」
-    // 策略：保留原色相，大幅降低飽和度，極高亮度
-    return colord({
-      h: hsl.h,
-      s: Math.max(hsl.s * 1.5, 60), // 只需要一點點原色調，否則會變太鮮豔
-      l: 85,           // 亮度 96% 看起來非常接近白色但更柔和
-      a: 1
-    });
-  }
+	if (isLightBackground)
+	{
+		/**
+		 * 淺色背景 -> 生成「深色文字」
+		 * 策略：保留原色相，降低飽和度（避免刺眼），極低亮度（維持可讀性）
+		 */
+		return colord({
+			h: hsl.h,
+			/** 降低原飽和度至 60% */
+			s: Math.max(hsl.s * 0.6, 90),
+			/** 亮度控制在 12% 左右，看起來像極深色而非純黑 */
+			l: 13,
+			a: 1,
+		});
+	}
+	else
+	{
+		/**
+		 * 深色背景 -> 生成「淺色文字」
+		 * 策略：保留原色相，大幅降低飽和度，極高亮度
+		 */
+		return colord({
+			h: hsl.h,
+			/** 只需要一點點原色調，否則會變太鮮豔 */
+			s: Math.max(hsl.s * 1.5, 60),
+			/** 亮度 96% 看起來非常接近白色但更柔和 */
+			l: 85,
+			a: 1,
+		});
+	}
 }
 
-export function _getAdvancedContrastColor_isLight(baseInput: IColorInput) {
-  const instance = colord(baseInput);
-  const rgb = instance.toRgb();
+export function _getAdvancedContrastColor_isLight(baseInput: IColorInput)
+{
+	const instance = colord(baseInput);
+	const rgb = instance.toRgb();
 
-  /** 計算物理亮度 (Luminance) */
-  const luminance = getRelativeLuminance(rgb);
+	/** 計算物理亮度 (Luminance) */
+	const luminance = getRelativeLuminance(rgb);
 
-  /**
+	/**
 	 * 判斷是否為淺色背景 (依據 WCAG 標準，0.179 是常用的黑白分水嶺)
 	 * 你也可以根據視覺偏好微調此數值，例如 0.18 ~ 0.2
 	 */
-  const isLightBackground = luminance > 0.179;
+	const isLightBackground = luminance > 0.179;
 
-  return isLightBackground
+	return isLightBackground
 }
