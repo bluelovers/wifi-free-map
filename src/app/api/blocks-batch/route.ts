@@ -22,6 +22,12 @@ import { CACHE_MAX_AGE, CACHE_MAX_AGE_404 } from '@/lib/utils/fetch/fetcher';
 import { _createProximityComparator } from '@/lib/utils/geo/geo-sort.';
 import { calculateDistance } from '@/lib/utils/geo/geo-math';
 
+/**
+ * 網格索引載入器：用於讀取 Bucket Index 與 Block Index 的 JSON 資料
+ * Grid index loader: reads Bucket Index and Block Index JSON data
+ */
+import { getBucketIndexPathJSON, loadBlockIndexJSON, loadBucketIndexJSON } from '@/lib/utils/grid/grid-index-loader';
+
 
 
 /**
@@ -98,12 +104,12 @@ export async function GET(request: Request)
 		for (const [bucketPath, blockIds] of Object.entries(resultData.matchedBuckets))
 		{
 			/** 讀取 bucket index */
-			const indexPath = join(__DATA_ROOT, 'index', bucketPath, 'index.json');
+			const indexPath = join(__DATA_ROOT, getBucketIndexPathJSON(bucketPath));
 			let bucketIndex: IMetadataBucketIndex | null = null;
 
 			try
 			{
-				bucketIndex = await readFile(indexPath, 'utf-8').then(JSON.parse);
+				bucketIndex = await loadBucketIndexJSON(indexPath);
 			}
 			catch
 			{
@@ -135,7 +141,7 @@ export async function GET(request: Request)
 						`${dataset[EnumDatasetType.WIFI].fileName}`,
 					);
 
-					const wifiArray = await readFile(wifiPath, 'utf-8').then(JSON.parse);
+					const wifiArray = await loadBlockIndexJSON<EnumDatasetType.WIFI>(wifiPath);
 					data[EnumDatasetType.WIFI].push(...wifiArray);
 				}
 
@@ -147,7 +153,7 @@ export async function GET(request: Request)
 						`${dataset[EnumDatasetType.CHARGING].fileName}`,
 					);
 
-					const chargingArray = await readFile(chargingPath, 'utf-8').then(JSON.parse);
+					const chargingArray = await loadBlockIndexJSON<EnumDatasetType.CHARGING>(chargingPath);
 					data[EnumDatasetType.CHARGING].push(...chargingArray);
 				}
 			}

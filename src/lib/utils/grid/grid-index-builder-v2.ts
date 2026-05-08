@@ -9,12 +9,14 @@ import {
 	EnumDatasetType,
 	IDatasetEntry,
 	IFormatBlockKey,
+	IGridBlockIndexFileName,
 } from '@/lib/utils/grid/grid-types';
-import { exists } from 'fs-extra';
+import { Dir, Dirent, exists } from 'fs-extra';
 import path from 'upath2';
 import { opendir, writeFile, mkdir, readFile } from 'fs/promises';
 import { cleanRoad, extractLocationInfo } from './grid-address';
 import { _formatBlockKey } from '@/lib/utils/geo/geo-formatter';
+import { IRecordTyped2 } from '@/types/ts-type-helper';
 
 /**
  * 區塊組索引元資料介面
@@ -76,7 +78,7 @@ export interface IMetadataUnifiedBlockIndex
 	categories: string[];
 
 	/** 該 Block 擁有的不同類型資料集 / Data sets owned by this block */
-	dataset: Record<EnumDatasetType, IDatasetEntry>;
+	dataset: Record<EnumDatasetType, IDatasetEntry> | IRecordTyped2<IDatasetEntry>;
 }
 
 /**
@@ -207,7 +209,7 @@ export async function buildHierarchicalIndex(dataRoot: string)
 
 						/** 記錄區塊擁有的資料集 / Record dataset owned by block */
 						blockData.dataset[type] = {
-							fileName: path.join(typeFolderPath, lngDir.name, latDir.name, file.name),
+							fileName: path.join(typeFolderPath, lngDir.name, latDir.name, file.name) as IGridBlockIndexFileName<EnumDatasetType>,
 						};
 
 						/** 讀取區塊檔案內容 / Read block file content */

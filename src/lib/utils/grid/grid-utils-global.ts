@@ -293,8 +293,9 @@ export function _minLngLatToRangeLngLatMinMax(minLngLat: IGpsLngLatMin, blockCou
  */
 export function calcCoordToBucketIndexAndCoord(coord: IGeoCoord)
 {
-	/** 計算區塊索引 / Calculate block index */
 	const blockIndex = _calcCoordToBlockIndex(coord);
+
+	const blockLngLat = _calcBlockIndexToLngLatMin(blockIndex);
 
 	/** 計算組索引 (Bucket Index) / Calculate group index (Bucket Index) */
 	const bucketIndex = _calcBlockIndexToBucketIndex(blockIndex);
@@ -307,6 +308,7 @@ export function calcCoordToBucketIndexAndCoord(coord: IGeoCoord)
 
 	return {
 		blockIndex,
+		blockLngLat,
 		bucketIndex,
 		bucketCoord,
 	};
@@ -490,7 +492,12 @@ export function getBucketSpecsFromAnyPoint(anyCoord: IGeoCoord)
 	 * 計算區塊組資訊（包含 L1 的總跨度 0.3度）
 	 * Calculate bucket info (L1 span = 0.3 degrees)
 	 */
-	const { bucketIndex, bucketCoord, blockIndex } = calcCoordToBucketIndexAndCoord(anyCoord);
+	const {
+		bucketIndex,
+		bucketCoord,
+		blockIndex,
+		blockLngLat,
+	} = calcCoordToBucketIndexAndCoord(anyCoord);
 
 	/**
 	 * 根據區塊組大小計算座標範圍
@@ -508,7 +515,9 @@ export function getBucketSpecsFromAnyPoint(anyCoord: IGeoCoord)
 		bucketPath: _formatBlockKey(bucketCoord.lng, bucketCoord.lat, { sep: '/' }),
 		bucketIndex,
 		bucketBounds,
+		blockPath: _formatBlockKey(blockLngLat.minLng, blockLngLat.minLat),
 		blockIndex,
+		blockLngLat,
 	};
 }
 

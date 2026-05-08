@@ -101,8 +101,31 @@ export interface IApiReturnCharging
 export interface IApiReturnBlocksBatch extends IProvideMapLoadingStrategyByAnyCoord, Pick<IMetadataBucketIndex, 'categories'>
 {
 	success: boolean;
-	data: {
-		[EnumDatasetType.WIFI]: IWiFiHotspot[];
-		[EnumDatasetType.CHARGING]: IChargingStationMarker[];
-	};
+	data: IGridBucketIndexData;
 }
+
+/**
+ * 網格 Bucket Index 資料介面
+ * Grid bucket index data interface
+ *
+ * 定義每個 Bucket 中不同資料類型的資料陣列
+ * Defines data arrays for different dataset types within each bucket
+ */
+export interface IGridBucketIndexData
+{
+	/** WiFi 熱點陣列 / WiFi hotspot array */
+	[EnumDatasetType.WIFI]: IWiFiHotspot[];
+	/** 充電站陣列 / Charging station array */
+	[EnumDatasetType.CHARGING]: IChargingStationMarker[];
+}
+
+/**
+ * 網格 Block Index 資料型別
+ * Grid block index data type
+ *
+ * 根據資料類型參數取得對應的資料陣列型別
+ * Gets the corresponding data array type based on the dataset type parameter
+ *
+ * @typeParam T - 資料類型列舉 / Dataset type enumeration
+ */
+export type IGridBlockIndexData<T extends EnumDatasetType> = IGridBucketIndexData[T];

@@ -57,7 +57,7 @@ export function* splitDataByL1GridGenerator<T extends IGeoCoord>(data: IValueArr
 
 		/**
 		 * 1. 取得 L1 資料夾路徑
-		 * Example: "lng_121.20/lat_24.90"
+		 * Example: "121.9000/24.9000"
 		 */
 		const bucketData = calcCoordToBucketIndexAndCoord(item);
 
