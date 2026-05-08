@@ -3,28 +3,11 @@
 import { useEffect } from 'react';
 import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { ConfigProvider, Layout } from "antd";
-import { createThemeConfig, ThemeProvider, useTheme } from "@/components/ThemeProvider";
+import { ThemeProvider, useTheme, useCurrentTheme } from "@/components/ThemeProvider";
 import ThemeToggle from "@/components/ThemeToggle";
 import Head from "next/head";
-
-/**
- * 將 antd tokens 應用為 CSS 變數
- * Apply antd tokens as CSS variables
- *
- * 使用 style.setProperty 單獨設定每個變數，避免覆蓋其他 style 屬性
- */
-const applyTokensAsCssVars = (tokens: any): void =>
-{
-	if (!tokens) return;
-
-	const root = document.documentElement;
-	Object.entries(tokens).forEach(([key, value]) =>
-	{
-		// 將駝峰式轉換為連字符式 (camelCase -> kebab-case)
-		const cssKey = key.replace(/([A-Z])/g, '-$1').toLowerCase();
-		root.style.setProperty(`--${cssKey}`, String(value));
-	});
-};
+import { applyTokensAsCssVars } from '@/lib/utils/style/doc-style';
+import { EnumThemeClassName, EnumThemeDataAttr } from '@/lib/utils/style/css-const';
 
 /**
  * 內部 Layout 元件 - 使用 antd ConfigProvider
@@ -36,41 +19,54 @@ function InternalLayout({
 	children: React.ReactNode;
 })
 {
-	const { antdTheme, isDark, antdTokens } = useTheme();
+	const { isDark, darkTheme, lightTheme, toggleTheme } = useTheme();
+	const { config: themeConfig } = useCurrentTheme();
 
-	// 將 antd tokens 應用為 CSS 變數
+	/**
+	 * 初始化時將兩套 token (dark / light) 注入到 DOM
+	 * 之後只需透過 <html> 的 class 切換即可
+	 * On init, inject both dark/light token sets into DOM.
+	 * Switching is done via <html> class toggle only.
+	 */
 	useEffect(() =>
 	{
-		if (antdTokens)
+		if (isDark)
 		{
-			applyTokensAsCssVars(antdTokens);
+			applyTokensAsCssVars(darkTheme.tokens!, { isDark: true });
 		}
-	}, [antdTokens]);
-
-	// 防止 antdTheme 為空
-	const themeConfig = antdTheme?.token?.colorPrimary && antdTheme || createThemeConfig(isDark).config;
+		else
+		{
+			applyTokensAsCssVars(lightTheme.tokens!, { isDark: false });
+		}
+	}, [isDark]);
 
 	console.log('InternalLayout Theme config:', themeConfig, isDark);
 
 	return (
-		<ConfigProvider theme={themeConfig}>
-			<html lang="zh-TW" data-theme={isDark ? "dark" : "light"} className={isDark ? "theme-dark" : "theme-light"}>
+		<ConfigProvider theme={themeConfig!}>
+			<html lang="zh-TW" data-theme={isDark ? EnumThemeDataAttr.DARK : EnumThemeDataAttr.LIGHT}
+			      className={isDark ? EnumThemeClassName.DARK : EnumThemeClassName.LIGHT}>
 			<Head>
 				<link rel="manifest" href="/manifest.json" />
 			</Head>
 			<body>
 			<Layout>
-				{/* 主題切換按鈕 */}
-				<div
-					style={{
-						position: "fixed",
-						top: "0px",
-						right: "16px",
-						zIndex: 9999,
-					}}
-				>
-					<ThemeToggle />
-				</div>
+				<ConfigProvider theme={darkTheme.config}>
+
+					{/* 主題切換按鈕 */}
+					<div
+						style={{
+							position: "fixed",
+							top: "0px",
+							right: "16px",
+							zIndex: 9999,
+						}}
+					>
+						<ThemeToggle theme={{ isDark, toggleTheme }} />
+					</div>
+
+				</ConfigProvider>
+
 				{children}
 			</Layout>
 			</body>
