@@ -79,6 +79,7 @@ import { colord } from 'colord';
 import { antdTokenToCSSVar, useAsCssVarForStyle } from '../lib/utils/style/antd-css-var-utils';
 import { LayoutSiderConditional } from './layout/layout';
 import { useTheme } from './theme/ThemeProvider';
+import { PositionCoordDisplay } from './map/PositionCoordDisplay';
 
 /**
  * 側邊欄展開寬度（像素）
@@ -1078,9 +1079,7 @@ export default function FacilityMap()
 							</Flex>
 							<Flex gap="middle" wrap>
 								{position && (
-									<Typography.Text>
-										座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}
-									</Typography.Text>
+									<PositionCoordDisplay position={position} />
 								)}
 								<Typography.Text type="secondary">縮放: {zoom}</Typography.Text>
 							</Flex>
