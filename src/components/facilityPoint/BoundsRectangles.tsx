@@ -15,6 +15,7 @@ interface IBoundsRectanglesProps extends ITSPartialPick<IProvideMapLoadingStrate
 	/** 是否顯示邊界框線（預設隱藏）/ Whether to show bounds rectangles (default: hidden) */
 	visible?: boolean;
 
+	/** 地圖中心點（用於繪製十字線）/ Map center (for drawing crosshair) */
 	mapCenter?: IGeoCoord
 }
 
@@ -24,7 +25,10 @@ interface IBoundsRectanglesProps extends ITSPartialPick<IProvideMapLoadingStrate
  */
 export function BoundsRectangles(props: IBoundsRectanglesProps)
 {
-	/** 預設隱藏，只有當 visible 為 true 時才渲染 */
+	/**
+	 * 預設隱藏，只有當 visible 為 true 時才渲染
+	 * Hidden by default; only renders when visible is true
+	 */
 	if (!props.visible) return null;
 
 	return (
@@ -71,6 +75,10 @@ export function BoundsRectangles(props: IBoundsRectanglesProps)
 				/>
 			)}
 
+			{/**
+			 * 區塊掃描範圍邊界框線（綠色）
+			 * Block scan range bounds rectangle (green)
+			 */}
 			{props.blockScanRangeBounds && (
 				<Rectangle
 					bounds={[
@@ -78,7 +86,7 @@ export function BoundsRectangles(props: IBoundsRectanglesProps)
 						[props.blockScanRangeBounds.maxLat, props.blockScanRangeBounds.maxLng],
 					]}
 					pathOptions={{
-						/** 藍色邊框 / Blue border */
+						/** 綠色邊框 / Green border */
 						color: '#5ddf0f',
 						/** 邊框寬度 / Border width */
 						weight: 2,
