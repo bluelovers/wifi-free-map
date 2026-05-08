@@ -4,7 +4,21 @@ import React, { RefObject, useCallback, useEffect, useMemo, useRef, useState, Co
 import { Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
 
 import L from 'leaflet';
-import { Alert, Button, Card, Flex, Input, Layout, Select, Space, Switch, Tag, Typography, theme } from 'antd';
+import {
+	Alert,
+	Button,
+	Card,
+	ConfigProvider,
+	Flex,
+	Input,
+	Layout,
+	Select,
+	Space,
+	Switch,
+	Tag,
+	Typography,
+	theme,
+} from 'antd';
 import {
 	CompassOutlined,
 	GlobalOutlined,
@@ -43,18 +57,28 @@ import {
 	getGoogleMapsModeDisplayName,
 	openGoogleMaps,
 } from '@/lib/utils/google-maps-url';
-import { getGoogleMapsMode, setGoogleMapsMode as saveGoogleMapsMode } from '@/lib/utils/google-maps-settings';
+import { getGoogleMapsMode, setGoogleMapsMode as saveGoogleMapsMode } from '../lib/store/google-maps-settings';
 import { IStationBase } from '@/types/station-base';
 import { useFacilityPointBlocksData } from './facilityPoint/useFacilityPointBlocksData';
 import { FacilityPointDataListAll } from './facilityPoint/FacilityPointDataList';
 import { FacilityPointDataMarkerAll } from './facilityPoint/FacilityPointDataMarker';
 import { BoundsRectangles } from './facilityPoint/BoundsRectangles';
 import { IGeolocationResultWithMeta } from './map/map-btn/FloatGeolocationButton';
-import { _generateColorPresetOutlined, contrastColor, getAdvancedContrastColor4, getAdvancedContrastColor5, getAdvancedContrastColor6, getLchContrastColor3, getSmartContrastColor2, newTagColorsGenerator } from '@/lib/utils/colors-utils';
+import {
+	_generateColorPresetOutlined,
+	contrastColor,
+	getAdvancedContrastColor4,
+	getAdvancedContrastColor5,
+	getAdvancedContrastColor6,
+	getLchContrastColor3,
+	getSmartContrastColor2,
+	newTagColorsGenerator,
+} from '@/lib/utils/colors-utils';
 import { ColoredSelect } from './input/ColoredSelect';
 import { colord } from 'colord';
-import { antdTokenToCSSVar, useAsCssVarForStyle } from '@/lib/utils/antd-css-var-utils';
+import { antdTokenToCSSVar, useAsCssVarForStyle } from '../lib/utils/style/antd-css-var-utils';
 import { LayoutSiderConditional } from './layout/layout';
+import { useTheme } from './ThemeProvider';
 
 /**
  * 側邊欄展開寬度（像素）
@@ -183,17 +207,19 @@ const ManualLocationHandler = ({
 	shouldAutoCenter,
 	setPosition,
 	setLocationError,
-	updateAddress
+	updateAddress,
 }: {
 	manualMode: React.MutableRefObject<boolean>;
 	shouldAutoCenter: React.MutableRefObject<boolean>;
 	setPosition: (value: IGeoPointTupleLatLng) => void;
 	setLocationError: (value: boolean) => void;
 	updateAddress: (coord: IGeoCoord) => Promise<void>;
-}) => {
+}) =>
+{
 	// ✅ Hook 現在在組件頂層呼叫
 	useMapEvents({
-		click: (e) => {
+		click: (e) =>
+		{
 			if (manualMode.current)
 			{
 				shouldAutoCenter.current = false;
@@ -217,20 +243,23 @@ const LongPressHandler = ({
 	shouldAutoCenter,
 	setPosition,
 	setLocationError,
-	updateAddress
+	updateAddress,
 }: {
 	longPressToMove: boolean;
 	shouldAutoCenter: RefObject<boolean>;
 	setPosition: (value: IGeoPointTupleLatLng) => void;
 	setLocationError: (value: boolean) => void;
 	updateAddress: (coord: IGeoCoord) => Promise<void>;
-}) => {
+}) =>
+{
 	const map = useMap(); // ✅ Hook 在組件頂層
 
-	useEffect(() => {
+	useEffect(() =>
+	{
 		if (!map) return;
 
-		const handleContextMenu = (e: L.LeafletMouseEvent) => {
+		const handleContextMenu = (e: L.LeafletMouseEvent) =>
+		{
 			if (!longPressToMove) return;
 
 			e.originalEvent.preventDefault();
@@ -241,7 +270,8 @@ const LongPressHandler = ({
 		};
 
 		map.on('contextmenu', handleContextMenu);
-		return () => {
+		return () =>
+		{
 			map.off('contextmenu', handleContextMenu);
 		};
 	}, [map, longPressToMove, shouldAutoCenter, setPosition, setLocationError, updateAddress]);
@@ -281,7 +311,7 @@ const BottomListPanel = (props: {
 				borderBottom: `1px solid ${useAsCssVarForStyle(antdTokenToCSSVar('colorBorderSecondary'))}`,
 				background: useAsCssVarForStyle(antdTokenToCSSVar('colorBgElevated')),
 			}}
-	>
+		>
 			<Typography.Title level={5} style={{ margin: 0 }}>
 				附近設施點
 			</Typography.Title>
@@ -308,7 +338,7 @@ const BottomListPanel = (props: {
 	</Flex>
 );
 
-function ConditionalLayoutMain(props:  {
+function ConditionalLayoutMain(props: {
 	effectiveListDisplayMode: IListDisplayMode,
 	children: React.JSX.Element,
 
@@ -476,7 +506,8 @@ const SidebarContent = (props: {
 
 		{/* 類別標籤 / Category tags */}
 		<Flex gap="small" align="center" wrap>
-			{props.tagCategories.map((category, idx) => {
+			{props.tagCategories.map((category, idx) =>
+			{
 				return (
 					<Tag
 						key={category.value}
@@ -512,11 +543,7 @@ const SidebarContent = (props: {
  */
 export default function FacilityMap()
 {
-	/**
-	 * 取得 antd 主題 Design Tokens
-	 * Get antd theme Design Tokens
-	 */
-	const { token } = theme.useToken();
+	const { darkTheme } = useTheme();
 
 	/** 篩選器狀態 / Filter state */
 	const [filters, setFilters] = useState<IFilterState>({
@@ -584,7 +611,6 @@ export default function FacilityMap()
 		// 初始值從 localStorage 讀取，預設為 sidebar
 		return getStoredListDisplayMode() || 'sidebar';
 	});
-
 
 	/** 地址搜尋結果 / Address search results */
 	const [addressSearchResults, setAddressSearchResults] = useState<{
@@ -795,7 +821,6 @@ export default function FacilityMap()
 		setAddressSearchResults([]);
 	};
 
-
 	/** 依據搜尋、密碼、分類過濾 WiFi 熱點 */
 	useEffect(() =>
 	{
@@ -847,7 +872,7 @@ export default function FacilityMap()
 	/** 建立一個持久的顏色倉庫 */
 	const colorCacheRef = useRef<Map<string, any>>(new Map());
 	/** 建立顏色生成器 (確保生成器也是持久的，或每次重新生成時略過已使用的顏色) */
-  const colorGenRef = useRef(newTagColorsGenerator());
+	const colorGenRef = useRef(newTagColorsGenerator());
 
 	const tagCategories = useMemo(() =>
 	{
@@ -953,7 +978,8 @@ export default function FacilityMap()
 		return filtered;
 	}, [facilityPoint.data, filters.selectedCategories, filters.charging]);
 
-	const facilityPointFilteredData = useMemo(() => {
+	const facilityPointFilteredData = useMemo(() =>
+	{
 		return {
 			...facilityPoint.data,
 			[EnumDatasetType.WIFI]: filteredHotspots,
@@ -1018,49 +1044,49 @@ export default function FacilityMap()
 	 */
 	const effectiveListDisplayMode: IListDisplayMode = listDisplayMode;
 
-
-
 	/**
 	 * 地圖包裝容器
 	 * Map wrapper container
 	 */
 	return (
 		<Layout style={{ height: '100vh', width: '100vw' }}>
-			{/* 頂部資訊列 / Top info bar */}
-			<Layout.Header style={{ padding: '0 16px', height: 'auto', lineHeight: 'normal' }}>
-				<Flex vertical gap="small" style={{ padding: '8px 0' }}>
-					{/* 位置錯誤提示與手動定位按鈕 */}
-					{locationError && (
-						<Alert
-							message="定位失敗，請允許 GPS 或手動設定位置。"
-							action={
-								<Space>
-									<Button size="small" onClick={() => { manualMode.current = true }}>手動定位</Button>
-									<Button size="small" icon={<ReloadOutlined />}
-									        onClick={() => floatGeoRef.current?.click()}>重新請求定位</Button>
-								</Space>
-							}
-							type="error"
-							style={{ marginBottom: 8 }}
-						/>
-					)}
-					{/* 座標與地址資訊 */}
-					<Flex gap="middle" wrap justify="space-between">
-						<Flex gap="middle" wrap>
-							{address && <Typography.Text>地址: {address}</Typography.Text>}
-							{addressLoading && <Typography.Text type="secondary">（查詢地址中...）</Typography.Text>}
-						</Flex>
-						<Flex gap="middle" wrap>
-							{position && (
-								<Typography.Text>
-									座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}
-								</Typography.Text>
-							)}
-							<Typography.Text type="secondary">縮放: {zoom}</Typography.Text>
+			<ConfigProvider theme={darkTheme.config}>
+				{/* 頂部資訊列 / Top info bar */}
+				<Layout.Header style={{ padding: '0 16px', height: 'auto', lineHeight: 'normal' }}>
+					<Flex vertical gap="small" style={{ padding: '8px 0' }}>
+						{/* 位置錯誤提示與手動定位按鈕 */}
+						{locationError && (
+							<Alert
+								message="定位失敗，請允許 GPS 或手動設定位置。"
+								action={
+									<Space>
+										<Button size="small" onClick={() => { manualMode.current = true }}>手動定位</Button>
+										<Button size="small" icon={<ReloadOutlined />}
+										        onClick={() => floatGeoRef.current?.click()}>重新請求定位</Button>
+									</Space>
+								}
+								type="error"
+								style={{ marginBottom: 8 }}
+							/>
+						)}
+						{/* 座標與地址資訊 */}
+						<Flex gap="middle" wrap justify="space-between">
+							<Flex gap="middle" wrap>
+								{address && <Typography.Text>地址: {address}</Typography.Text>}
+								{addressLoading && <Typography.Text type="secondary">（查詢地址中...）</Typography.Text>}
+							</Flex>
+							<Flex gap="middle" wrap>
+								{position && (
+									<Typography.Text>
+										座標: {position[0].toFixed(6)}, {position[1].toFixed(6)}
+									</Typography.Text>
+								)}
+								<Typography.Text type="secondary">縮放: {zoom}</Typography.Text>
+							</Flex>
 						</Flex>
 					</Flex>
-				</Flex>
-			</Layout.Header>
+				</Layout.Header>
+			</ConfigProvider>
 
 			{/* 主內容區：側邊欄 + 地圖（+ 底部列表面板）/ Main content: Sidebar + Map (+ Bottom list panel) */}
 			<Layout
@@ -1122,16 +1148,16 @@ export default function FacilityMap()
 				<ConditionalLayoutMain
 					effectiveListDisplayMode={effectiveListDisplayMode}
 					bottomListPanel={<BottomListPanel
-					toggleListDisplayMode={toggleListDisplayMode}
-					facilityPointFilteredData={facilityPointFilteredData!}
+						toggleListDisplayMode={toggleListDisplayMode}
+						facilityPointFilteredData={facilityPointFilteredData!}
 
-					handleListItemClick={handleListItemClick!}
-					handleOpenGoogleMaps={handleOpenGoogleMaps!}
+						handleListItemClick={handleListItemClick!}
+						handleOpenGoogleMaps={handleOpenGoogleMaps!}
 
-					position={position!}
-					mapCenter={mapCenter!}
+						position={position!}
+						mapCenter={mapCenter!}
 					/>}
-					>
+				>
 					{/* 側邊欄模式：僅地圖區域 */}
 					<Layout.Content style={{ position: 'relative', overflow: 'hidden' }}>
 						{/* 側邊欄展開按鈕（當收合時顯示）/ Sidebar expand button (shown when collapsed) */}
@@ -1161,118 +1187,118 @@ export default function FacilityMap()
 							zIndex: 1000,
 							maxWidth: 400,
 						}}>
-						<Input
-							placeholder="輸入地址搜尋..."
-							value={addressSearchTerm}
-							onChange={(e) => handleAddressSearch(e.target.value)}
-							style={{ width: '100%' }}
-						/>
-						{/* 搜尋結果下拉選單 */}
-						{addressSearchResults.length > 0 && (
-							<Card style={{ marginTop: 8, maxHeight: 300, overflow: 'auto' }}>
-								<Flex component="div" vertical gap="zero">
-									{addressSearchResults.map((result, index) => (
-										<Flex
-											component="div"
-											key={index}
-											style={{ cursor: 'pointer', padding: '8px 12px' }}
-											onClick={() => selectAddressResult(result)}
-										>
-											{result.display_name}
-										</Flex>
-									))}
-								</Flex>
-							</Card>
-						)}
-					</div>
+							<Input
+								placeholder="輸入地址搜尋..."
+								value={addressSearchTerm}
+								onChange={(e) => handleAddressSearch(e.target.value)}
+								style={{ width: '100%' }}
+							/>
+							{/* 搜尋結果下拉選單 */}
+							{addressSearchResults.length > 0 && (
+								<Card style={{ marginTop: 8, maxHeight: 300, overflow: 'auto' }}>
+									<Flex component="div" vertical gap="zero">
+										{addressSearchResults.map((result, index) => (
+											<Flex
+												component="div"
+												key={index}
+												style={{ cursor: 'pointer', padding: '8px 12px' }}
+												onClick={() => selectAddressResult(result)}
+											>
+												{result.display_name}
+											</Flex>
+										))}
+									</Flex>
+								</Card>
+							)}
+						</div>
 
-					{/* 地圖容器 / Map container */}
-					<div style={{ height: '100%', width: '100%' }}>
-						<MapTileLayer
-							center={position}
-							zoom={zoom}
-							style={{ height: '100%', width: '100%' }}
-							doubleClickZoom={false}
-							mapRef={mapRef}
-							setZoom={setZoom}
-							onMapCenterChange={setMapCenter}
-							floatGeoProps={{
-								btnRef: floatGeoRef,
-								autoRequestGeolocation: true,
-								onRequestGeolocation(result: IGeolocationResultWithMeta)
-								{
-									/** 標記需要自動置中 */
-									shouldAutoCenter.current = true;
-									setPosition(wrapPointTupleLatLngFromCoordinate(result.coord));
-									setLocationError(false);
-									/** 反向地理編碼取得地址 */
-									updateAddress(result.coord);
-								},
-								onError(error: any)
-								{
-									setLocationError(true);
-								},
-							}}
-						>
-							<CircleMarkerSVG
-								position={position}
-								color={'#c70eeb'}
-								fillOpacity={0.5}
-								eventHandlers={{
-									dragend: (e) =>
+						{/* 地圖容器 / Map container */}
+						<div style={{ height: '100%', width: '100%' }}>
+							<MapTileLayer
+								center={position}
+								zoom={zoom}
+								style={{ height: '100%', width: '100%' }}
+								doubleClickZoom={false}
+								mapRef={mapRef}
+								setZoom={setZoom}
+								onMapCenterChange={setMapCenter}
+								floatGeoProps={{
+									btnRef: floatGeoRef,
+									autoRequestGeolocation: true,
+									onRequestGeolocation(result: IGeolocationResultWithMeta)
 									{
-										const latlng = e.target.getLatLng() as IGeoCoord;
-										/** 拖曳定位點後，不自動置中（打斷瀏覽體驗） */
-										shouldAutoCenter.current = false;
-										setPosition(wrapPointTupleLatLngFromCoordinate(latlng));
+										/** 標記需要自動置中 */
+										shouldAutoCenter.current = true;
+										setPosition(wrapPointTupleLatLngFromCoordinate(result.coord));
 										setLocationError(false);
-										/** 更新拖曳後的地址 */
-										updateAddress(latlng);
+										/** 反向地理編碼取得地址 */
+										updateAddress(result.coord);
+									},
+									onError(error: any)
+									{
+										setLocationError(true);
 									},
 								}}
-							/>
-							{/* 手動定位點擊監聽 */}
-							<ManualLocationHandler
-								manualMode={manualMode}
-								shouldAutoCenter={shouldAutoCenter}
-								setPosition={setPosition}
-								setLocationError={setLocationError}
-								updateAddress={updateAddress}
-							/>
-							{/* 右鍵點擊移動定位點 */}
-							<LongPressHandler
-								longPressToMove={longPressToMove}
-								shouldAutoCenter={shouldAutoCenter}
-								setPosition={setPosition}
-								setLocationError={setLocationError}
-								updateAddress={updateAddress}
-							/>
-							<FacilityPointDataMarkerAll
-								data={facilityPointFilteredData}
-								onOpenMap={handleOpenGoogleMaps}
-							/>
-							{/**
+							>
+								<CircleMarkerSVG
+									position={position}
+									color={'#c70eeb'}
+									fillOpacity={0.5}
+									eventHandlers={{
+										dragend: (e) =>
+										{
+											const latlng = e.target.getLatLng() as IGeoCoord;
+											/** 拖曳定位點後，不自動置中（打斷瀏覽體驗） */
+											shouldAutoCenter.current = false;
+											setPosition(wrapPointTupleLatLngFromCoordinate(latlng));
+											setLocationError(false);
+											/** 更新拖曳後的地址 */
+											updateAddress(latlng);
+										},
+									}}
+								/>
+								{/* 手動定位點擊監聽 */}
+								<ManualLocationHandler
+									manualMode={manualMode}
+									shouldAutoCenter={shouldAutoCenter}
+									setPosition={setPosition}
+									setLocationError={setLocationError}
+									updateAddress={updateAddress}
+								/>
+								{/* 右鍵點擊移動定位點 */}
+								<LongPressHandler
+									longPressToMove={longPressToMove}
+									shouldAutoCenter={shouldAutoCenter}
+									setPosition={setPosition}
+									setLocationError={setLocationError}
+									updateAddress={updateAddress}
+								/>
+								<FacilityPointDataMarkerAll
+									data={facilityPointFilteredData}
+									onOpenMap={handleOpenGoogleMaps}
+								/>
+								{/**
 								 * 設施點範圍邊界框線
 								 * Facility point range bounds rectangles
 								 */}
-							<BoundsRectangles
-								matchedRangeBounds={facilityPoint.matchedRangeBounds!}
-								triggerThresholdRangeBounds={facilityPoint.triggerThresholdRangeBounds!}
-								blockScanRangeBounds={facilityPoint.blockScanRangeBounds!}
-								mapCenter={mapCenter!}
-								visible={showBounds}
-							/>
-							{/**
+								<BoundsRectangles
+									matchedRangeBounds={facilityPoint.matchedRangeBounds!}
+									triggerThresholdRangeBounds={facilityPoint.triggerThresholdRangeBounds!}
+									blockScanRangeBounds={facilityPoint.blockScanRangeBounds!}
+									mapCenter={mapCenter!}
+									visible={showBounds}
+								/>
+								{/**
 								 * 變更視角 - 當位置改變時自動置中
 								 * Change view - auto center when position changes
 								 */}
-							<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
-						</MapTileLayer>
-					</div>
-				</Layout.Content>
+								<ChangeView center={position} zoom={zoom} shouldAutoCenter={shouldAutoCenter} />
+							</MapTileLayer>
+						</div>
+					</Layout.Content>
 
 				</ConditionalLayoutMain>
+			</Layout>
 		</Layout>
-	</Layout>
-);
+	);
 }
