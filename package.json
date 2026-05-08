@@ -83,7 +83,9 @@
     "ncu": "yarn-tool ncu -u",
     "ncu:pnpm": "pnpm update",
     "sort-package-json": "yarn-tool sort",
-    "tsc:showConfig": "ynpx get-current-tsconfig -p"
+    "tsc:showConfig": "ynpx get-current-tsconfig -p",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@ant-design/icons": "^6.2.2",
@@ -132,6 +134,19 @@
     "@yarn-tool/ws-find-up-paths": "^1.0.21",
     "sass": "^1.99.0",
     "sort-object-keys2": "^3.0.8",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "storybook": "^10.3.6",
+    "@storybook/nextjs-vite": "^10.3.6",
+    "@chromatic-com/storybook": "^5.1.2",
+    "@storybook/addon-vitest": "^10.3.6",
+    "@storybook/addon-a11y": "^10.3.6",
+    "@storybook/addon-docs": "^10.3.6",
+    "@storybook/addon-onboarding": "^10.3.6",
+    "vite": "^8.0.11",
+    "eslint-plugin-storybook": "^10.3.6",
+    "vitest": "^4.1.5",
+    "playwright": "^1.59.1",
+    "@vitest/browser-playwright": "^4.1.5",
+    "@vitest/coverage-v8": "^4.1.5"
   }
 }

@@ -269,3 +269,6 @@ certificates
 .github/workflows/yarn-lock-changes.yml
 jest.config.cjs__
 .eslintrc.json
+
+*storybook.log
+storybook-static
