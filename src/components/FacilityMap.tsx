@@ -73,7 +73,7 @@ import {
 	getLchContrastColor3,
 	getSmartContrastColor2,
 	newTagColorsGenerator,
-} from '@/lib/utils/colors-utils';
+} from '@/lib/utils/style/colors-utils';
 import { ColoredSelect } from './input/ColoredSelect';
 import { colord } from 'colord';
 import { antdTokenToCSSVar, useAsCssVarForStyle } from '../lib/utils/style/antd-css-var-utils';
