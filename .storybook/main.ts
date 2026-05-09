@@ -7,7 +7,15 @@ const config: StorybookConfig = {
 	],
 	"addons": [
 		"@chromatic-com/storybook",
-		"@storybook/addon-vitest",
+		{
+			name: "@storybook/addon-vitest",
+
+			options: {
+				// 將啟動超時時間增加到 60 秒或更長
+				testRunnerStartTimeout: 120000,
+			},
+
+		},
 		"@storybook/addon-a11y",
 		"@storybook/addon-docs",
 		"@storybook/addon-onboarding",

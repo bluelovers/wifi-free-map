@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 
-import { fn } from 'storybook/test';
+import { expect, fn } from 'storybook/test';
 
 import { Button } from './Button';
 
@@ -57,5 +57,9 @@ export const WifiFreeMap: Story = {
 	args: {
 		primary: false,
 		label: "Button",
+	},
+	play: async ({ canvasElement }) => {
+		// TODO: Implement test logic here
+		await expect(canvasElement).toBeInTheDocument();
 	},
 };

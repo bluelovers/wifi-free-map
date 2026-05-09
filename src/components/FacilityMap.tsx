@@ -790,8 +790,7 @@ export default function FacilityMap()
 						// 過濾相關
 						filters={filters}
 						setFilters={setFilters}
-						// 設施點數據
-						facilityPoint={facilityPoint}
+
 						tagCategories={tagCategories}
 
 						// 側邊欄顯示模式

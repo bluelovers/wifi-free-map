@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { Button, Card, Flex, Input, Select, Switch, Tag, Typography } from 'antd';
+import { Button, Flex, Input, Select, Switch, Tag, Typography } from 'antd';
 import { antdTokenToCSSVar, useAsCssVarForStyle } from '@/lib/utils/style/antd-css-var-utils';
 import {
 	LayoutOutlined,
@@ -9,6 +9,7 @@ import {
 	VerticalAlignBottomOutlined,
 	WifiOutlined,
 } from '@ant-design/icons';
+import { CollapsibleCard } from '@/components/collapsible-card/CollapsibleCard';
 import { IFilterState, ITagCategoryItem } from '@/types/map';
 import { EnumListDisplayMode } from '@/lib/store/localStorage';
 import {
@@ -73,9 +74,6 @@ export const BottomListPanel = (props: {
 export const SidebarContent = (props: {
 	filters: IFilterState;
 	setFilters: (filters: IFilterState) => void;
-	facilityPoint: {
-		categories: string[];
-	};
 	tagCategories: ITagCategoryItem[];
 	effectiveListDisplayMode: EnumListDisplayMode;
 	toggleListDisplayMode: () => void;
@@ -114,7 +112,7 @@ export const SidebarContent = (props: {
 			</Flex>
 		</Flex>
 		{/* 搜尋與過濾 / Search and Filter */}
-		<Card size="small" hoverable title="搜尋與過濾">
+		<CollapsibleCard title="搜尋與過濾">
 			<Flex vertical gap="middle">
 				<Input
 					placeholder="搜尋熱點或 SSID..."
@@ -123,7 +121,7 @@ export const SidebarContent = (props: {
 					onChange={(e) => props.setFilters({ ...props.filters, searchTerm: e.target.value })}
 				/>
 				{/* 分類多選 / Category multi-select */}
-				{props.facilityPoint.categories && props.facilityPoint.categories.length > 0 && (
+				{props.tagCategories?.length > 0 && (
 					<Flex vertical gap="small">
 						<Typography.Text type="secondary">依分類過濾 / Filter by Category</Typography.Text>
 						<ColoredSelect
@@ -164,10 +162,10 @@ export const SidebarContent = (props: {
 					</Flex>
 				</Flex>
 			</Flex>
-		</Card>
+		</CollapsibleCard>
 
 		{/* 其他選項 / Other Options */}
-		<Card size="small" hoverable title="其他選項">
+		<CollapsibleCard title="其他選項">
 			<Flex gap="middle" wrap>
 				<Flex align="center" gap="small">
 					<Switch
@@ -203,7 +201,7 @@ export const SidebarContent = (props: {
 					<Typography.Text>顯示範圍框線</Typography.Text>
 				</Flex>
 			</Flex>
-		</Card>
+		</CollapsibleCard>
 
 		{/* 類別標籤 / Category tags */}
 		<Flex gap="small" align="center" wrap>
