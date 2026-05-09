@@ -1,6 +1,14 @@
 'use client';
 
-import React, { RefObject, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import React, {
+	ReactNode,
+	RefObject,
+	useCallback,
+	useEffect,
+	useMemo,
+	useRef,
+	useState,
+} from 'react';
 import { useMap, useMapEvents } from 'react-leaflet';
 
 import L from 'leaflet';
@@ -317,7 +325,7 @@ const SidebarContent = (props: {
 		categories: string[];
 	};
 	tagCategories: ITagCategoryItem[];
-	effectiveListDisplayMode: IListDisplayMode;
+	effectiveListDisplayMode: EnumListDisplayMode;
 	toggleListDisplayMode: () => void;
 	setSidebarCollapsed: (collapsed: boolean) => void;
 	longPressToMove: boolean;
