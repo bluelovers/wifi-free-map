@@ -5,21 +5,7 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { fn } from 'storybook/test';
 import { OpenMapButton } from './OpenMapButton';
-import type { IStationBase } from '@/types/station-base';
-
-/**
- * 模擬的設施資料
- * Mock facility data
- */
-const mockStation: IStationBase = {
-	id: 'mock-station-001',
-	name: '台北車站 WiFi 熱點',
-	address: '台北市中正區北平西路3號',
-	lat: 25.0478,
-	lng: 121.5170,
-	dataType: 'wifi' as any,
-	dataSource: 'gov-data' as any,
-};
+import { mockStation } from '../../../../test/fixtures/stories/stories-data-mock';
 
 const meta = {
 	/**
