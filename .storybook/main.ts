@@ -30,7 +30,7 @@ const config: StorybookConfig = {
 	],
 	"framework": "@storybook/nextjs-vite",
 	"staticDirs": [
-		"..\\public",
+		"../public",
 	],
 };
 
