@@ -32,5 +32,11 @@ export default defineConfig({
         },
       },
     ],
+    // fileParallelism: false,
+    // isolate: false,
+    testTimeout: 120000,
+    // maxWorkers: 1,
+    maxConcurrency: 1,
+
   },
 });

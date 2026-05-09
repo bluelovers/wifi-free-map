@@ -61,5 +61,6 @@ export const WifiFreeMap: Story = {
 	play: async ({ canvasElement }) => {
 		// TODO: Implement test logic here
 		await expect(canvasElement).toBeInTheDocument();
+		await expect(canvasElement).toHaveTextContent('Button');
 	},
 };

@@ -2,7 +2,8 @@ import React from 'react';
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { CollapsibleCard } from './CollapsibleCard';
 import { Flex, Switch, Tag, Typography } from 'antd';
-import { expect, within, userEvent } from 'storybook/test';
+import { expect, userEvent, within } from 'storybook/test';
+import { _expectNotInTheDocumentOrVisible } from '@/stories/lib/stories-expect-utils';
 
 const meta = {
 	title: 'UI/CollapsibleCard',
@@ -108,28 +109,28 @@ export const NonCollapsible: Story = {
 };
 
 export const InteractionTest: Story = {
-  ...Expanded,
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
+	...Expanded,
+	play: async ({ canvasElement }) =>
+	{
+		const canvas = within(canvasElement);
 
-    // 1. 驗證標題是否存在
-    await expect(canvas.getByText('搜尋與過濾')).toBeInTheDocument();
+		// 1. 驗證標題是否存在
+		await expect(canvas.getByText('搜尋與過濾')).toBeInTheDocument();
 
-    // 2. 假設 CollapsibleCard 點擊標題會收合 (需根據你實際組件邏輯調整)
-    // 找到摺疊按鈕並點擊
-    const toggleButton = canvas.getByRole('button'); // 如果你的摺疊按鈕是 button 標籤
-    await userEvent.click(toggleButton);
+		await expect(canvas.getByText('這是 Card 的內容區域')).toBeInTheDocument();
 
-    // 3. 驗證內容是否被隱藏 (例如檢測容器高度或 style)
-    // 注意：如果是 antd 內建動畫，可能需要等待動畫結束
-    const content = canvas.getByText('這是 Card 的內容區域');
-    // 如果是真正的 DOM 移除：
-    // await expect(content).not.toBeInTheDocument();
-    // 如果只是 CSS 隱藏：
-    await expect(content).not.toBeVisible();
+		// 2. 假設 CollapsibleCard 點擊標題會收合 (需根據你實際組件邏輯調整)
+		// 找到摺疊按鈕並點擊
+		const toggleButton = canvas.getByRole('button'); // 如果你的摺疊按鈕是 button 標籤
+		await userEvent.click(toggleButton);
 
-    // 4. 再次點擊展開
-    await userEvent.click(toggleButton);
-    await expect(canvas.getByText('這是 Card 的內容區域')).toBeVisible();
-  },
+		// 3. 驗證內容是否被隱藏 (例如檢測容器高度或 style)
+		const content = canvas.queryByText('這是 Card 的內容區域');
+		await _expectNotInTheDocumentOrVisible(content);
+
+		// 4. 再次點擊展開
+		await userEvent.click(toggleButton);
+		await expect(canvas.getByText('這是 Card 的內容區域')).toBeVisible();
+	},
 };
+
