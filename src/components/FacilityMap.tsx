@@ -1,7 +1,7 @@
 'use client';
 
-import React, { RefObject, useCallback, useEffect, useMemo, useRef, useState, ComponentProps } from 'react';
-import { Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
+import React, { RefObject, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useMap, useMapEvents } from 'react-leaflet';
 
 import L from 'leaflet';
 import {
@@ -17,11 +17,8 @@ import {
 	Switch,
 	Tag,
 	Typography,
-	theme,
 } from 'antd';
 import {
-	CompassOutlined,
-	GlobalOutlined,
 	LayoutOutlined,
 	MenuFoldOutlined,
 	MenuUnfoldOutlined,
@@ -41,14 +38,12 @@ import { MapTileLayer } from './map/MapTileLayer';
 import { EnumDatasetType, IGeoCoord, IGeoPointTupleLatLng } from '@/lib/utils/grid/grid-types';
 import { fetchOSMReverseInfo } from '@/lib/utils/api/fetch-api';
 import { CircleMarkerSVG } from './map/icon/CircleMarkerSVG';
-import { getAndFormatDistance } from '@/lib/utils/geo/geo-formatter';
 import {
 	wrapCoordinate,
 	wrapCoordinateFromPointTupleLatLng,
 	wrapPointTupleLatLngFromCoordinate,
 } from '@/lib/utils/geo/geo-transform';
 import { calculateDistance } from '@/lib/utils/geo/geo-math';
-import { _createProximityComparator } from '@/lib/utils/geo/geo-sort.';
 import { FloatButtonElement } from 'antd/es/float-button/FloatButton';
 import {
 	EnumGoogleMapsMode,
@@ -80,24 +75,13 @@ import { antdTokenToCSSVar, useAsCssVarForStyle } from '../lib/utils/style/antd-
 import { LayoutSiderConditional } from './layout/layout';
 import { useTheme } from './theme/ThemeProvider';
 import { PositionCoordDisplay } from './map/PositionCoordDisplay';
+import { getStoredListDisplayMode, EnumListDisplayMode, setStoredListDisplayMode } from '@/lib/store/localStorage';
 
 /**
  * 側邊欄展開寬度（像素）
  * Sidebar expanded width in pixels
  */
 const SIDER_WIDTH = 320;
-
-/**
- * 列表顯示位置儲存鍵
- * LocalStorage key for list display position
- */
-const LIST_DISPLAY_MODE_KEY = 'wifi-map-list-display-mode';
-
-/**
- * 列表顯示模式類型
- * List display mode type
- */
-type IListDisplayMode = 'sidebar' | 'bottom';
 
 /**
  * 篩選器狀態介面
@@ -128,47 +112,6 @@ interface ITagCategoryItem
 	};
 	visible: boolean | null;
 }
-
-/**
- * 從 localStorage 讀取列表顯示模式
- * Read list display mode from localStorage
- */
-const getStoredListDisplayMode = (): IListDisplayMode | null =>
-{
-	if (typeof window === 'undefined') return null;
-	try
-	{
-		const stored = localStorage.getItem(LIST_DISPLAY_MODE_KEY);
-		if (stored === 'sidebar' || stored === 'bottom')
-		{
-			return stored;
-		}
-		// 無效值，清除
-		localStorage.removeItem(LIST_DISPLAY_MODE_KEY);
-		return null;
-	}
-	catch
-	{
-		return null;
-	}
-};
-
-/**
- * 儲存列表顯示模式至 localStorage
- * Save list display mode to localStorage
- */
-const setStoredListDisplayMode = (mode: IListDisplayMode): void =>
-{
-	if (typeof window === 'undefined') return;
-	try
-	{
-		localStorage.setItem(LIST_DISPLAY_MODE_KEY, mode);
-	}
-	catch
-	{
-		// 忽略儲存錯誤
-	}
-};
 
 /**
  * 地圖中心位置組件（僅響應位置變更，不響應縮放）
@@ -327,7 +270,7 @@ const BottomListPanel = (props: {
 			</Button>
 		</Flex>
 		{/* 底部列表面板 / Bottom list */}
-		<div style={{ flex: 1, overflow: 'auto', padding: '0 16px' }}>
+		<div style={{ flex: 1, overflow: 'auto', padding: '16px' }}>
 			<FacilityPointDataListAll
 				data={props.facilityPointFilteredData}
 				onClick={props.handleListItemClick}
@@ -340,7 +283,7 @@ const BottomListPanel = (props: {
 );
 
 function ConditionalLayoutMain(props: {
-	effectiveListDisplayMode: IListDisplayMode,
+	effectiveListDisplayMode: EnumListDisplayMode,
 	children: React.JSX.Element,
 
 	bottomListPanel: React.JSX.Element,
@@ -608,10 +551,10 @@ export default function FacilityMap()
 	/**
 	 * 列表顯示位置模式 / List display position mode
 	 */
-	const [listDisplayMode, setListDisplayMode] = useState<IListDisplayMode>(() =>
+	const [listDisplayMode, setListDisplayMode] = useState<EnumListDisplayMode>(() =>
 	{
 		// 初始值從 localStorage 讀取，預設為 sidebar
-		return getStoredListDisplayMode() || 'sidebar';
+		return getStoredListDisplayMode() || EnumListDisplayMode.SIDEBAR;
 	});
 
 	/** 地址搜尋結果 / Address search results */
@@ -1028,14 +971,14 @@ export default function FacilityMap()
 	 */
 	const toggleListDisplayMode = useCallback(() =>
 	{
-		const newMode: IListDisplayMode = listDisplayMode === 'sidebar' ? 'bottom' : 'sidebar';
+		const newMode: EnumListDisplayMode = listDisplayMode === EnumListDisplayMode.SIDEBAR ? EnumListDisplayMode.BOTTOM : EnumListDisplayMode.SIDEBAR;
 		setListDisplayMode(newMode);
 		setStoredListDisplayMode(newMode);
 		/**
 		 * 當切換至側邊欄模式時，自動展開側邊欄
 		 * Auto expand sidebar when switching to sidebar mode
 		 */
-		if (newMode === 'sidebar')
+		if (newMode === EnumListDisplayMode.SIDEBAR)
 		{
 			setSidebarCollapsed(false);
 		}
@@ -1044,7 +987,7 @@ export default function FacilityMap()
 	/**
 	 * 取得實際使用的列表顯示模式 / Get effective list display mode
 	 */
-	const effectiveListDisplayMode: IListDisplayMode = listDisplayMode;
+	const effectiveListDisplayMode: EnumListDisplayMode = listDisplayMode;
 
 	/**
 	 * 地圖包裝容器
