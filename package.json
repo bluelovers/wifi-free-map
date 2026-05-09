@@ -54,7 +54,7 @@
     "build:data:split-grid-charging": "tsx scripts/split-grid-charging.ts",
     "build:data:split-grid-wifi": "tsx scripts/split-grid-wifi.ts",
     "build:sync:data": "tsx scripts/sync-data.ts",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -p 6006 --no-open",
     "ci:build": "echo ci:build",
     "npm:publish": "npm publish",
     "npm:publish:bump": "node --run version:bump && npm publish",

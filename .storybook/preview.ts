@@ -1,11 +1,10 @@
 import type { Preview } from '@storybook/nextjs-vite';
-import
-{
-	EnumStoryBookAntdTheme,
+import {
 	withStoryBookAntdTheme,
 	globalTypesStoryBookAntdTheme,
 } from '../src/stories/decorators/withStoryBookAntdTheme';
 import { themes } from 'storybook/theming';
+import { EnumStoryBookAntdTheme } from '../src/stories/lib/types';
 
 const preview: Preview = {
 	parameters: {
@@ -41,6 +40,8 @@ const preview: Preview = {
 			codePanel: true,
 			theme: themes.normal,
 		},
+
+		layout: 'centered',
 	},
 
 	/**
@@ -54,6 +55,14 @@ const preview: Preview = {
 	 */
 	globalTypes: {
 		...globalTypesStoryBookAntdTheme,
+	},
+
+	initialGlobals: {
+		// 👇 Set the initial background color
+		backgrounds: {
+			value: EnumStoryBookAntdTheme.Dark,
+			grid: true,
+		},
 	},
 
 	/**
