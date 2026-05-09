@@ -1,9 +1,10 @@
-import { Select, Tag } from 'antd';
+import { Select, Space, Tag } from 'antd';
 import type { SelectProps, TagProps } from 'antd';
 import { ITSPartialPick, ITSPickExtra } from 'ts-type';
 import type { BaseSelectRef, SelectProps as RcSelectProps } from '@rc-component/select';
 import type { CustomTagProps } from '@rc-component/select/lib/BaseSelect';
 import { useCallback } from 'react';
+import { FlattenOptionData } from '@rc-component/select/lib/interface';
 
 export interface IColoredSelectItem extends ITSPickExtra<CustomTagProps & TagProps, 'color'>
 {
@@ -107,6 +108,27 @@ export function ColoredSelect(selectProps: SelectProps<string[], IColoredSelectI
 				...style,
 			}}
 			options={options}
+
+			optionRender={(option: FlattenOptionData<IColoredSelectItem>, info: { index: number }) => {
+				return (<Space
+					title={option.value as string}
+					style={{
+						// @ts-ignore
+						color: option.data.colorPreset?.text10.toRgbString(),
+						backgroundColor: option.data.color,
+
+						fontFamily: 'var(--ant-font-family)',
+
+						padding: '3px 5px',
+
+						borderRadius: 5,
+
+						...style,
+					}}
+				>
+   		   {option.label ?? option.value}
+				</Space>)
+			}}
 		/>
 	)
 }
