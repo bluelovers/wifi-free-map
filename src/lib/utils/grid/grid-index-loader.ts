@@ -62,7 +62,7 @@ export function getBucketIndexPathJSON(bucketPath: string)
  */
 export async function loadBucketIndexJSON(bucketIndexPath: string)
 {
-	const file= resolve(__DATA_ROOT, bucketIndexPath);
+	const file = resolve(__DATA_ROOT, bucketIndexPath);
 
 	const bucketIndexData = await _readJSON<IMetadataBucketIndex>(file);
 
@@ -102,7 +102,7 @@ export function getBlockIndexPathJSON<T extends EnumDatasetType>(args: {
  */
 export async function loadBlockIndexJSON<T extends EnumDatasetType>(blockFilePath: string)
 {
-	const file= resolve(__DATA_ROOT, blockFilePath);
+	const file = resolve(__DATA_ROOT, blockFilePath);
 
 	const blockIndexData = await _readJSON<IGridBlockIndexData<T>>(file);
 

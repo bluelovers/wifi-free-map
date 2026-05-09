@@ -76,7 +76,8 @@ function InteractiveColoredSelect(props: {
 	initialValue?: string[];
 	placeholder?: string;
 	options: typeof mockOptions;
-}) {
+})
+{
 	const [value, setValue] = React.useState<string[]>(props.initialValue ?? []);
 	return (
 		<div style={{ width: 320 }}>

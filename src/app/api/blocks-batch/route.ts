@@ -28,8 +28,6 @@ import { calculateDistance } from '@/lib/utils/geo/geo-math';
  */
 import { getBucketIndexPathJSON, loadBlockIndexJSON, loadBucketIndexJSON } from '@/lib/utils/grid/grid-index-loader';
 
-
-
 /**
  * 生成 ETag / Generate ETag
  */

@@ -8,6 +8,7 @@ import ThemeToggle from "@/components/theme/ThemeToggle";
 import Head from "next/head";
 import { applyTokensAsCssVars } from '@/lib/utils/style/doc-style';
 import { EnumThemeClassName, EnumThemeDataAttr } from '@/lib/utils/style/css-const';
+import { ThemeRegistryRoot } from '@/components/layout/theme-layout';
 
 /**
  * 內部 Layout 元件 - 使用 antd ConfigProvider
@@ -86,10 +87,8 @@ export default function ClientLayout({
 })
 {
 	return (
-		<AntdRegistry>
-			<ThemeProvider>
-				<InternalLayout>{children}</InternalLayout>
-			</ThemeProvider>
-		</AntdRegistry>
+		<ThemeRegistryRoot>
+			<InternalLayout>{children}</InternalLayout>
+		</ThemeRegistryRoot>
 	);
 }

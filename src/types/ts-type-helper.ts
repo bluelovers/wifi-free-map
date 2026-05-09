@@ -35,5 +35,5 @@ type IExtractInferKey<T> = T extends IDatasetEntry<infer K> ? K : never;
  * @typeParam T - 資料集條目型別 / Dataset entry type
  */
 export type IRecordTyped2<T> = {
-  [P in IExtractInferKey<T>]: T extends IDatasetEntry<P> ? T : never;
+	[P in IExtractInferKey<T>]: T extends IDatasetEntry<P> ? T : never;
 };

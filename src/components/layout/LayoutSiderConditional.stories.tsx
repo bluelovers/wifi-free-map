@@ -3,7 +3,7 @@
  * Conditional layout sider Storybook story
  */
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
-import { Layout } from 'antd';
+import { Layout, Typography } from 'antd';
 import { LayoutSiderConditional } from './layout';
 
 const { Content } = Layout;
@@ -15,7 +15,7 @@ const { Content } = Layout;
 const SiderDecorator = (Story: React.FC) => (
 	<Layout style={{ height: 200, width: 400, border: '1px solid #d9d9d9', borderRadius: 8 }}>
 		<Story />
-		<Content style={{ padding: 16, background: '#f0f2f5' }}>
+		<Content style={{ padding: 16 }}>
 			<div>主內容區 / Main Content</div>
 		</Content>
 	</Layout>
@@ -52,7 +52,7 @@ type Story = StoryObj<typeof meta>;
 export const Expanded: Story = {
 	args: {
 		collapsed: false,
-		children: <div style={{ padding: 16, width: 150 }}>側邊欄內容 / Sidebar Content</div>,
+		children: <Typography.Text style={{ padding: 16, width: 150 }}>側邊欄內容 / Sidebar Content</Typography.Text>,
 	},
 };
 
@@ -66,6 +66,6 @@ export const Expanded: Story = {
 export const Collapsed: Story = {
 	args: {
 		collapsed: true,
-		children: <div style={{ padding: 16, width: 150 }}>側邊欄內容 / Sidebar Content</div>,
+		children: <Typography.Text style={{ padding: 16, width: 150 }}>側邊欄內容 / Sidebar Content</Typography.Text>,
 	},
 };

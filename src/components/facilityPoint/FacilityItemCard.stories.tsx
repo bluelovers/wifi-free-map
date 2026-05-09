@@ -1,7 +1,7 @@
 /**
  * 設施項目卡片 Storybook Story
  * Facility item card Storybook story
- * 
+ *
  * 註：已從 @storybook/addon-docs/blocks 遷移至 @storybook/nextjs-vite
  * Note: migrated from @storybook/addon-docs/blocks to @storybook/nextjs-vite
  */

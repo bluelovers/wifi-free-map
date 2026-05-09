@@ -4,11 +4,12 @@
  */
 import type { Meta, StoryObj } from '@storybook/nextjs-vite';
 import { fn } from 'storybook/test';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback, ReactNode } from 'react';
 import { Typography, Flex, ConfigProvider } from 'antd';
 import { FloatGeolocationButton, IGeolocationResultWithMeta } from './FloatGeolocationButton';
 import { PositionCoordDisplay } from '../PositionCoordDisplay';
 import { useTheme } from '@/components/theme/ThemeProvider';
+import { IGeoCoord } from '@/lib/utils/grid/grid-types';
 
 /**
  * 互動式包裝元件
@@ -19,73 +20,24 @@ import { useTheme } from '@/components/theme/ThemeProvider';
  * Provides a position:relative container to constrain the absolute-positioned FloatButton
  * Mocks navigator.geolocation to demonstrate coordinate retrieval in Storybook
  */
-function InteractiveFloatGeoWrapper()
+/**
+ * 互動式包裝容器
+ * Interactive wrapper container
+ *
+ * @param props.children - FloatGeolocationButton 實例 / FloatGeolocationButton instance
+ * @param props.coords - 要顯示的座標（可選）/ Coordinates to display (optional)
+ * @param props.error - 要顯示的錯誤訊息（可選）/ Error message to display (optional)
+ */
+function InteractiveFloatGeoWrapper(props: {
+	/** FloatGeolocationButton 實例 / FloatGeolocationButton instance */
+	children: ReactNode;
+	/** 要顯示的座標（可選）/ Coordinates to display (optional) */
+	coords?: IGeoCoord | null;
+	/** 要顯示的錯誤訊息（可選）/ Error message to display (optional) */
+	error?: string | null;
+})
 {
-	const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
-	const [error, setError] = useState<string | null>(null);
-
-	useEffect(() =>
-	{
-		/** Mock navigator.permissions.query 以回傳 granted */
-		const origQuery = navigator.permissions?.query.bind(navigator.permissions);
-		if (navigator.permissions)
-		{
-			(navigator.permissions as any).query = () => Promise.resolve({
-				state: 'granted' as PermissionState,
-				name: 'geolocation' as PermissionName,
-			});
-		}
-
-		/** Mock navigator.geolocation.getCurrentPosition 以回傳模擬座標 */
-		const origGetCurrentPosition = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
-		navigator.geolocation.getCurrentPosition = (
-			success: PositionCallback,
-			_error?: PositionErrorCallback | null,
-			_options?: PositionOptions,
-		) =>
-		{
-			success({
-				coords: {
-					latitude: 25.0478,
-					longitude: 121.5170,
-					accuracy: 50,
-					altitude: null,
-					altitudeAccuracy: null,
-					heading: null,
-					speed: null,
-					toJSON: () => ({}),
-				},
-				timestamp: Date.now(),
-				toJSON: () => ({}),
-			} as GeolocationPosition);
-		};
-
-		return () =>
-		{
-			if (navigator.permissions && origQuery)
-			{
-				(navigator.permissions as any).query = origQuery;
-			}
-			navigator.geolocation.getCurrentPosition = origGetCurrentPosition;
-		};
-	}, []);
-
-	const handleClick = (result: IGeolocationResultWithMeta | {
-		type: 'auto' | 'click';
-		error: Error;
-	}, _event: any) =>
-	{
-		if ('coord' in result && result.coord)
-		{
-			setCoords({ lat: result.coord.lat, lng: result.coord.lng });
-			setError(null);
-		}
-		else if ('error' in result && result.error)
-		{
-			setError(result.error.message);
-		}
-	};
-
+	/** 取得淺色主題配置以用於 ConfigProvider / Get light theme config for ConfigProvider */
 	const { lightTheme } = useTheme();
 
 	return (
@@ -96,36 +48,37 @@ function InteractiveFloatGeoWrapper()
 					position: 'relative',
 					width: '100%',
 					height: 200,
+					minWidth: 400,
 					border: '1px dashed #d9d9d9',
 					borderRadius: 8,
 					background: '#fafafa',
 				}}
 			>
 
-				<Flex align="center" gap="middle" vertical justify='center' style={{ flex: 1 }}>
+				<Flex align="center" gap="middle" vertical justify="center" style={{ flex: 1 }}>
 
 					<ConfigProvider theme={lightTheme.config}>
 
-					{/* 座標顯示區 */}
-					{coords && (
-						<PositionCoordDisplay position={[coords.lat, coords.lng]} />
-					)}
-					{error && (
-						<Typography.Text type="danger" style={{ fontSize: 14 }}>
-							錯誤: {error}
-						</Typography.Text>
-					)}
-					{!coords && !error && (
-						<Typography.Text type="secondary" style={{ fontSize: 13 }}>
-							點擊按鈕以取得模擬 GPS 座標
-						</Typography.Text>
-					)}
+						{/* 座標顯示區 */}
+						{props.coords && (
+							<PositionCoordDisplay position={[props.coords.lat, props.coords.lng]} />
+						)}
+						{props.error && (
+							<Typography.Text type="danger" style={{ fontSize: 14 }}>
+								錯誤: {props.error}
+							</Typography.Text>
+						)}
+						{!props.coords && !props.error && (
+							<Typography.Text type="secondary" style={{ fontSize: 13 }}>
+								點擊按鈕以取得模擬 GPS 座標
+							</Typography.Text>
+						)}
 
 					</ConfigProvider>
 
 				</Flex>
 
-				<FloatGeolocationButton onClick={handleClick} />
+				{props.children}
 			</Flex>
 
 
@@ -157,11 +110,13 @@ const meta = {
 		onError: fn(),
 	},
 	decorators: [
-		(Story) => (
-			<div style={{ width: 400, padding: 32 }}>
-				<Story />
-			</div>
-		),
+		// InteractiveFloatGeoWrapper,
+		// (Story) => (
+		// 	<div style={{ width: 400, padding: 32 }}>
+		// 		<Story />
+		// 	</div>
+		// ),
+
 	],
 } satisfies Meta<typeof FloatGeolocationButton>;
 
@@ -181,5 +136,40 @@ type Story = StoryObj<typeof meta>;
  * Coordinates appear below the container in real-time
  */
 export const Default: Story = {
-	render: () => <InteractiveFloatGeoWrapper />,
+	render: (props) =>
+	{
+
+		/**
+		 * 儲存從 Geolocation API 取得的座標
+		 * Store coordinates received from Geolocation API
+		 */
+		const [coords, setCoords] = useState<IGeoCoord | null>(null);
+		/** 儲存 Geolocation 錯誤訊息 / Store geolocation error message */
+		const [error, setError] = useState<string | null>(null);
+
+		/**
+		 * 處理 Geolocation 回呼結果
+		 * Handle geolocation callback result
+		 *
+		 * 成功時設定座標，失敗時設定錯誤訊息
+		 * On success, set coordinates; on failure, set error message
+		 */
+		const onRequestGeolocation = useCallback((result: IGeolocationResultWithMeta) =>
+		{
+			console.log('onRequestGeolocation', result);
+
+			if (result.error)
+			{
+				setError(result.error.message);
+			}
+			else if (result.coord)
+			{
+				setCoords(result.coord);
+			}
+		}, []);
+
+		return (<InteractiveFloatGeoWrapper coords={coords} error={error}>
+			<FloatGeolocationButton {...props} onRequestGeolocation={onRequestGeolocation} />
+		</InteractiveFloatGeoWrapper>)
+	},
 };

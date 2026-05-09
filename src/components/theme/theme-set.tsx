@@ -128,43 +128,43 @@ export const createThemeConfigSeedToken004 = (isDark: boolean) =>
 
 	const components = {
 		Card: {
-				// 關鍵：亮色卡片不再用白/米色，改用「大理石冷灰藍」
-				// 這樣在深色側邊欄上會非常亮眼，且色系完全不同
-				// colorBgContainer: isDark ? '#374151' : '#eef2ff',
-				// colorBorderSecondary: isDark ? '#4b5563' : '#2d2926', // 黑邊勾邊
-				// boxShadow: isDark ? 'none' : '4px 4px 0px #c7d2fe', // 帶藍色的像素硬陰影
+			// 關鍵：亮色卡片不再用白/米色，改用「大理石冷灰藍」
+			// 這樣在深色側邊欄上會非常亮眼，且色系完全不同
+			// colorBgContainer: isDark ? '#374151' : '#eef2ff',
+			// colorBorderSecondary: isDark ? '#4b5563' : '#2d2926', // 黑邊勾邊
+			// boxShadow: isDark ? 'none' : '4px 4px 0px #c7d2fe', // 帶藍色的像素硬陰影
 
-				/** 關鍵：暗色模式卡片使用「深紫藍色」，徹底擺脫灰色
-				 * 亮色模式維持「大理石冷藍」撞色設計
-				 */
-				colorBgContainer: isDark ? '#1e1b4bae' : '#eef2ff',
-				colorBorderSecondary: isDark ? '#5e5ae0' : '#2d2926',
-				// 像素硬陰影：暗色用深靛藍，亮色用淺藍
-				boxShadow: isDark ? '4px 4px 0px #0f172a' : '4px 4px 0px #c7d2fe',
-			},
-			Input: {
-				// 搜尋框使用「薄荷螢光綠」，從藍色卡片中再次撞色跳出
-				colorBgContainer: isDark ? '#111827' : '#e3f9f3',
-				colorBorder: '#2d2926',
-			},
-			Select: {
-				// 下拉選單改用「淡紫色系」背景
-				colorBgContainer: isDark ? '#111827' : '#f5f3ff',
-			},
-			Button: {
-				fontWeight: 800,
-				colorBorder: '#2d2926',
-				// 讓次要按鈕帶有「夕陽橘」的底色感
-				colorFillSecondary: isDark ? '#374151' : '#fff7ed',
-			},
-			Collapse: {
-				// 摺疊面板標題區改用「淺咖啡色系」
-				headerBg: isDark ? '#1f2937' : '#faf7f0',
-			},
-			Tag: {
-				// 標籤維持高飽和度多彩
-				borderRadius: 5,
-			}
+			/** 關鍵：暗色模式卡片使用「深紫藍色」，徹底擺脫灰色
+			 * 亮色模式維持「大理石冷藍」撞色設計
+			 */
+			colorBgContainer: isDark ? '#1e1b4bae' : '#eef2ff',
+			colorBorderSecondary: isDark ? '#5e5ae0' : '#2d2926',
+			// 像素硬陰影：暗色用深靛藍，亮色用淺藍
+			boxShadow: isDark ? '4px 4px 0px #0f172a' : '4px 4px 0px #c7d2fe',
+		},
+		Input: {
+			// 搜尋框使用「薄荷螢光綠」，從藍色卡片中再次撞色跳出
+			colorBgContainer: isDark ? '#111827' : '#e3f9f3',
+			colorBorder: '#2d2926',
+		},
+		Select: {
+			// 下拉選單改用「淡紫色系」背景
+			colorBgContainer: isDark ? '#111827' : '#f5f3ff',
+		},
+		Button: {
+			fontWeight: 800,
+			colorBorder: '#2d2926',
+			// 讓次要按鈕帶有「夕陽橘」的底色感
+			colorFillSecondary: isDark ? '#374151' : '#fff7ed',
+		},
+		Collapse: {
+			// 摺疊面板標題區改用「淺咖啡色系」
+			headerBg: isDark ? '#1f2937' : '#faf7f0',
+		},
+		Tag: {
+			// 標籤維持高飽和度多彩
+			borderRadius: 5,
+		},
 	} satisfies Partial<ThemeConfig["components"]>;
 
 	return {

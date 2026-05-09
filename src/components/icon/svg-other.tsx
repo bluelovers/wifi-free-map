@@ -5,7 +5,7 @@ import React from 'react';
  *
  * @see https://ant.design/components/icon
  */
-export function PandaSvg(): React.JSX.IntrinsicElements['svg']
+export function PandaSvg()
 {
 	return (
 		<svg viewBox="0 0 1024 1024" width="1em" height="1em" fill="currentColor">

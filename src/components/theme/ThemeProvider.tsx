@@ -15,7 +15,11 @@ import { AliasToken } from 'antd/es/theme/interface';
 
 import { EnumThemeDataAttr } from '@/lib/utils/style/css-const';
 import { ITSPickExtra } from 'ts-type';
-import { createThemeConfigSeedToken002, createThemeConfigSeedToken003, createThemeConfigSeedToken004 } from './theme-set';
+import {
+	createThemeConfigSeedToken002,
+	createThemeConfigSeedToken003,
+	createThemeConfigSeedToken004,
+} from './theme-set';
 
 const { getDesignToken, useToken } = theme;
 
