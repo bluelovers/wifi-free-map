@@ -236,14 +236,7 @@ const LongPressHandler = ({
  */
 const BottomListPanel = (props: {
 	toggleListDisplayMode: () => void;
-	facilityPointFilteredData: IApiReturnBlocksBatch["data"];
-
-	handleListItemClick: (hotspot: IStationBase) => void;
-	handleOpenGoogleMaps: (item: IStationBase, isNavigation?: boolean) => void;
-
-	position: IGeoPointTupleLatLng | null;
-	mapCenter: IGeoCoord | null;
-
+	children?: ReactNode;
 }) => (
 	<Flex
 		vertical
@@ -279,13 +272,7 @@ const BottomListPanel = (props: {
 		</Flex>
 		{/* 底部列表面板 / Bottom list */}
 		<div style={{ flex: 1, overflow: 'auto', padding: '16px' }}>
-			<FacilityPointDataListAll
-				data={props.facilityPointFilteredData}
-				onClick={props.handleListItemClick}
-				onOpenMap={props.handleOpenGoogleMaps}
-				position={props.position!}
-				mapCenter={props.mapCenter!}
-			/>
+			{props.children}
 		</div>
 	</Flex>
 );
@@ -334,11 +321,8 @@ const SidebarContent = (props: {
 	setMapMode: (value: EnumGoogleMapsMode) => void;
 	showBounds: boolean;
 	setShowBounds: (value: boolean) => void;
-	facilityPointFilteredData: IApiReturnBlocksBatch["data"];
-	handleListItemClick: (item: IGeoCoord) => void;
-	handleOpenGoogleMaps: (item: IStationBase, isNavigation?: boolean) => void;
-	position: IGeoPointTupleLatLng | null;
-	mapCenter: IGeoCoord | null;
+
+	children?: ReactNode;
 }) => (
 	<Flex vertical gap="middle" style={{ padding: '12px', height: '100%', overflowY: 'auto' }}>
 		{/* 側邊欄標題、切換按鈕與收合按鈕 / Sidebar header, toggle button and collapse button */}
@@ -479,13 +463,7 @@ const SidebarContent = (props: {
 
 		{/* 設施點列表（僅在側邊欄模式下顯示）/ Facility point list (only in sidebar mode) */}
 		{props.effectiveListDisplayMode === 'sidebar' && (
-			<FacilityPointDataListAll
-				data={props.facilityPointFilteredData}
-				onClick={props.handleListItemClick}
-				onOpenMap={props.handleOpenGoogleMaps}
-				position={props.position!}
-				mapCenter={props.mapCenter!}
-			/>
+			props.children
 		)}
 	</Flex>
 );
@@ -997,6 +975,21 @@ export default function FacilityMap()
 	 */
 	const effectiveListDisplayMode: EnumListDisplayMode = listDisplayMode;
 
+	const facilityPointDataList = (<FacilityPointDataListAll
+		key='FacilityPointDataListAll'
+		data={facilityPointFilteredData}
+		onClick={handleListItemClick}
+		onOpenMap={handleOpenGoogleMaps}
+		position={position!}
+		mapCenter={mapCenter!}
+	/>);
+
+	const bottomListPanel = (<BottomListPanel
+		toggleListDisplayMode={toggleListDisplayMode}
+	>
+		{facilityPointDataList}
+	</BottomListPanel>);
+
 	/**
 	 * 地圖包裝容器
 	 * Map wrapper container
@@ -1072,7 +1065,7 @@ export default function FacilityMap()
 						// 設施點數據
 						facilityPoint={facilityPoint}
 						tagCategories={tagCategories}
-						facilityPointFilteredData={facilityPointFilteredData}
+
 						// 側邊欄顯示模式
 						effectiveListDisplayMode={effectiveListDisplayMode}
 						toggleListDisplayMode={toggleListDisplayMode}
@@ -1086,28 +1079,15 @@ export default function FacilityMap()
 						// 邊框顯示
 						showBounds={showBounds}
 						setShowBounds={setShowBounds}
-						// 列表項點擊處理
-						handleListItemClick={handleListItemClick}
-						handleOpenGoogleMaps={handleOpenGoogleMaps}
-						// 位置與中心點
-						position={position}
-						mapCenter={mapCenter}
-					/>
+					>
+						{facilityPointDataList}
+					</SidebarContent>
 				</LayoutSiderConditional>
 
 				{/* 地圖區域 + 底部列表面板（條件渲染）/ Map area + Bottom list panel (conditional) */}
 				<ConditionalLayoutMain
 					effectiveListDisplayMode={effectiveListDisplayMode}
-					bottomListPanel={<BottomListPanel
-						toggleListDisplayMode={toggleListDisplayMode}
-						facilityPointFilteredData={facilityPointFilteredData!}
-
-						handleListItemClick={handleListItemClick!}
-						handleOpenGoogleMaps={handleOpenGoogleMaps!}
-
-						position={position!}
-						mapCenter={mapCenter!}
-					/>}
+					bottomListPanel={bottomListPanel}
 				>
 					{/* 側邊欄模式：僅地圖區域 */}
 					<Layout.Content style={{ position: 'relative', overflow: 'hidden' }}>
